@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+<title>時事クイズ Bot 管理</title>
+<!-- ホーム画面追加でアプリ化（PWA） -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="クイズBot">
+<meta name="theme-color" content="#0d1117">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b27;
+    --card: #1d2433;
+    --border: #2c3548;
+    --accent: #f59e0b;
+    --accent2: #38bdf8;
+    --text: #e6e9f0;
+    --muted: #7d8aa3;
+    --danger: #f87171;
+    --success: #4ade80;
+    --radius: 16px;
+    --radius-sm: 10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'Helvetica Neue', 'Hiragino Sans', sans-serif;
+    min-height: 100vh; padding-bottom: 40px;
+  }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 16px;
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .logo {
+    width: 34px; height: 34px; border-radius: 9px;
+    background: linear-gradient(135deg, var(--accent), #f97316);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 17px; flex-shrink: 0;
+  }
+  header h1 { font-size: 16px; font-weight: 700; }
+  header small { font-size: 10px; color: var(--muted); display: block; }
+
+  .power-wrap { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+  .power-label { font-size: 11px; font-weight: 700; color: var(--muted); }
+  .power-label.on { color: var(--success); }
+  .switch {
+    width: 52px; height: 30px; border-radius: 15px;
+    background: var(--border); position: relative;
+    cursor: pointer; transition: background 0.25s;
+    border: none; flex-shrink: 0;
+  }
+  .switch.on { background: var(--success); }
+  .switch::after {
+    content: ''; position: absolute;
+    width: 24px; height: 24px; border-radius: 50%;
+    background: #fff; top: 3px; left: 3px;
+    transition: left 0.25s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+  .switch.on::after { left: 25px; }
+
+  .status-bar {
+    background: var(--surface);
+    padding: 10px 16px;
+    display: flex; gap: 16px;
+    border-bottom: 1px solid var(--border);
+    font-size: 11px; color: var(--muted);
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); display: inline-block; margin-right: 5px; }
+  .status-dot.active { background: var(--success); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+  .next-gen { color: var(--accent2); font-weight: 600; }
+
+  main { padding: 14px; }
+
+  .card {
+    background: var(--card);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    padding: 16px;
+    margin-bottom: 14px;
+  }
+  .card h2 {
+    font-size: 13px; font-weight: 700;
+    margin-bottom: 12px;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .card h2 .count {
+    background: var(--accent);
+    color: #000; font-size: 11px;
+    padding: 1px 8px; border-radius: 10px;
+    margin-left: 4px;
+  }
+
+  .quiz-item {
+    background: var(--surface);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    padding: 14px;
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .quiz-item.pending { border-left: 3px solid var(--accent); }
+  .quiz-item.approved { border-left: 3px solid var(--success); }
+  .quiz-item.answer-due { border-left: 3px solid var(--accent2); }
+
+  .quiz-meta {
+    display: flex; align-items: center; gap: 8px;
+    margin-bottom: 8px; flex-wrap: wrap;
+  }
+  .badge {
+    font-size: 10px; font-weight: 700;
+    padding: 3px 8px; border-radius: 12px;
+    text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  .badge-pending { background: rgba(245,158,11,0.18); color: var(--accent); }
+  .badge-approved { background: rgba(74,222,128,0.15); color: var(--success); }
+  .badge-answer { background: rgba(56,189,248,0.15); color: var(--accent2); }
+  .badge-cat { background: rgba(125,138,163,0.15); color: var(--muted); }
+
+  .quiz-text {
+    font-size: 14px; line-height: 1.7;
+    white-space: pre-wrap; word-break: break-all;
+    margin-bottom: 8px;
+  }
+  .quiz-answer-box {
+    background: rgba(56,189,248,0.07);
+    border: 1px dashed rgba(56,189,248,0.3);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    white-space: pre-wrap;
+  }
+  .quiz-answer-box .label { font-size: 10px; color: var(--accent2); font-weight: 700; display: block; margin-bottom: 4px; }
+  .quiz-source {
+    font-size: 11px; color: var(--muted);
+    margin-bottom: 10px;
+  }
+  .expire-timer {
+    font-size: 11px; color: var(--danger);
+    font-weight: 600; margin-bottom: 8px;
+  }
+  .answer-timer {
+    font-size: 11px; color: var(--accent2);
+    font-weight: 600; margin-bottom: 8px;
+  }
+
+  .quiz-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn {
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    font-size: 13px; font-weight: 700;
+    cursor: pointer; border: none;
+    font-family: inherit;
+    transition: transform 0.1s;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .btn:active { transform: scale(0.96); }
+  .btn-approve { background: var(--success); color: #052e16; flex: 1; justify-content: center; }
+  .btn-reject { background: rgba(248,113,113,0.15); color: var(--danger); border: 1px solid rgba(248,113,113,0.3); }
+  .btn-copy { background: var(--accent2); color: #082f49; flex: 1; justify-content: center; }
+  .btn-ghost { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+  .btn-gen {
+    width: 100%; padding: 13px;
+    background: linear-gradient(135deg, var(--accent), #f97316);
+    color: #1a1000; font-size: 14px;
+    justify-content: center;
+    border-radius: var(--radius-sm);
+  }
+  .btn-gen:disabled { opacity: 0.5; }
+
+  .gen-count-btn {
+    flex: 1;
+    padding: 8px 4px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
+  }
+  .gen-count-btn.selected {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(245,158,11,0.1);
+  }
+  .gen-progress {
+    font-size: 12px;
+    color: var(--accent);
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 600;
+  }
+
+  .empty {
+    text-align: center; padding: 28px 16px;
+    color: var(--muted); font-size: 13px; line-height: 1.7;
+  }
+  .empty .icon { font-size: 36px; display: block; margin-bottom: 8px; }
+
+  .setting-row {
+    display: flex; align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    gap: 10px;
+  }
+  .setting-row:last-child { border-bottom: none; }
+  .setting-row .s-label { font-size: 13px; flex: 1; }
+  .setting-row select {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 7px 10px;
+    font-size: 13px;
+    font-family: inherit;
+  }
+
+  .spinner {
+    width: 16px; height: 16px;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-top-color: #000;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    display: inline-block;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .toast {
+    position: fixed; bottom: 24px; left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 13px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    z-index: 1000; opacity: 0;
+    transition: all 0.3s;
+    max-width: 90vw;
+    text-align: center;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  .info-note {
+    font-size: 11px; color: var(--muted);
+    background: rgba(245,158,11,0.06);
+    border: 1px solid rgba(245,158,11,0.2);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+
+  .log-item {
+    font-size: 11px; color: var(--muted);
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+    display: flex; gap: 8px;
+  }
+  .log-item:last-child { border-bottom: none; }
+  .log-time { color: var(--accent2); flex-shrink: 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🧠</div>
+  <div>
+    <h1>時事クイズ Bot</h1>
+    <small>自動生成・承認管理システム</small>
+  </div>
+  <div class="power-wrap">
+    <span class="power-label" id="power-label">OFF</span>
+    <button class="switch" id="power-switch" onclick="togglePower()"></button>
+  </div>
+</header>
+
+<div class="status-bar">
+  <span><span class="status-dot" id="status-dot"></span><span id="status-text">停止中</span></span>
+  <span class="next-gen" id="next-gen-text"></span>
+</div>
+
+<main>
+
+<div class="info-note">
+  ⚠️ このアプリは<strong>画面を開いている間のみ</strong>動作します。初回は下の「🔑 APIキー設定」からキーを保存してください。
+</div>
+
+<!-- 承認待ち -->
+<div class="card">
+  <h2>⏳ 承認待ち <span class="count" id="pending-count">0</span></h2>
+  <div id="pending-list"><div class="empty"><span class="icon">📭</span>承認待ちのクイズはありません</div></div>
+</div>
+
+<!-- 手動生成 -->
+<div class="card">
+  <h2>⚡ その場で生成</h2>
+  <div style="margin-bottom:10px">
+    <input type="text" id="topic-input" placeholder="🔍 キーワード・テーマを入力（例: 大谷翔平、EV充電、静岡）"
+      style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:14px;padding:12px;font-family:inherit;"
+      onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+    <div style="font-size:10px;color:var(--muted);margin-top:5px">空欄の場合は設定のジャンルから自動選択されます</div>
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:10px">
+    <span style="font-size:12px;color:var(--muted);align-self:center;flex-shrink:0">生成数:</span>
+    <button class="gen-count-btn selected" onclick="selectGenCount(this,1)">1問</button>
+    <button class="gen-count-btn" onclick="selectGenCount(this,3)">3問連続</button>
+    <button class="gen-count-btn" onclick="selectGenCount(this,5)">5問連続</button>
+  </div>
+  <button class="btn btn-gen" id="gen-btn" onclick="startManualGen()">
+    ⚡ 生成開始
+  </button>
+  <button class="btn btn-ghost" id="stop-gen-btn" onclick="stopManualGen()" style="display:none;width:100%;margin-top:8px;justify-content:center">
+    ⏹ 連続生成を中止
+  </button>
+</div>
+
+<!-- 正解返信待ち -->
+<div class="card">
+  <h2>💬 正解返信待ち <span class="count" id="answer-count">0</span></h2>
+  <div id="answer-list"><div class="empty"><span class="icon">🕐</span>返信待ちのクイズはありません</div></div>
+</div>
+
+<!-- 設定 -->
+<div class="card">
+  <h2>🔑 APIキー設定</h2>
+  <div id="api-key-status" style="font-size:12px;margin-bottom:10px;color:var(--muted)"></div>
+  <input type="password" id="api-key-input" placeholder="sk-ant-api03-..." autocomplete="off"
+    style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:11px;font-family:monospace;margin-bottom:8px;">
+  <div style="display:flex;gap:8px">
+    <button class="btn btn-copy" style="flex:1;justify-content:center" onclick="saveApiKey()">💾 保存</button>
+    <button class="btn btn-reject" onclick="deleteApiKey()">🗑 削除</button>
+  </div>
+  <div style="font-size:10px;color:var(--muted);margin-top:8px;line-height:1.6">
+    🔒 キーは<strong>この端末のブラウザ内にのみ</strong>保存されます。外部送信先はAnthropic API（api.anthropic.com）のみです。<br>
+    取得方法: console.anthropic.com → API Keys → Create Key
+  </div>
+</div>
+
+<!-- 設定 -->
+<div class="card">
+  <h2>⚙️ 設定</h2>
+  <div class="setting-row">
+    <span class="s-label">生成間隔</span>
+    <select id="gen-interval" onchange="saveSettings()">
+      <option value="30">30分</option>
+      <option value="60">1時間</option>
+      <option value="120">2時間</option>
+    </select>
+  </div>
+  <div class="setting-row">
+    <span class="s-label">承認期限（過ぎたら自動破棄）</span>
+    <select id="approve-deadline" onchange="saveSettings()">
+      <option value="30">30分</option>
+      <option value="60">1時間</option>
+    </select>
+  </div>
+  <div class="setting-row">
+    <span class="s-label">正解返信までの時間</span>
+    <select id="answer-delay" onchange="saveSettings()">
+      <option value="120">2時間</option>
+      <option value="60">1時間</option>
+      <option value="180">3時間</option>
+    </select>
+  </div>
+  <div class="setting-row">
+    <span class="s-label">出題ジャンル</span>
+    <select id="quiz-genre" onchange="saveSettings()">
+      <option value="mixed">時事全般</option>
+      <option value="world">国際ニュース</option>
+      <option value="japan">国内ニュース</option>
+      <option value="economy">経済・ビジネス</option>
+      <option value="science">科学・テクノロジー</option>
+      <option value="sports">スポーツ</option>
+    </select>
+  </div>
+</div>
+
+<!-- ログ -->
+<div class="card">
+  <h2>📜 アクティビティログ</h2>
+  <div id="log-list"><div class="empty" style="padding:14px">ログはまだありません</div></div>
+</div>
+
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ===== State =====
+let state = JSON.parse(localStorage.getItem('quizbot_state') || '{}');
+state.quizzes = state.quizzes || [];   // {id, question, answer, source, category, status, createdAt, expiresAt, approvedAt, answerDueAt}
+state.logs = state.logs || [];
+state.power = false; // always start OFF for safety
+state.settings = state.settings || { interval: 30, deadline: 30, answerDelay: 120, genre: 'mixed' };
+
+let genTimer = null;
+let nextGenAt = null;
+let generating = false;
+let genCount = 1;
+let stopRequested = false;
+
+function selectGenCount(btn, n) {
+  document.querySelectorAll('.gen-count-btn').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  genCount = n;
+}
+
+// ===== Manual continuous generation =====
+async function startManualGen() {
+  if (generating) return;
+  stopRequested = false;
+  const topic = document.getElementById('topic-input').value.trim();
+  const stopBtn = document.getElementById('stop-gen-btn');
+  if (genCount > 1) stopBtn.style.display = 'flex';
+
+  for (let i = 0; i < genCount; i++) {
+    if (stopRequested) { addLog('⏹ 連続生成を中止しました'); break; }
+    const ok = await generateQuiz(true, topic, genCount > 1 ? `${i+1}/${genCount}` : '');
+    if (!ok) break; // stop on failure
+    if (i < genCount - 1) await new Promise(r => setTimeout(r, 1500)); // small pause between requests
+  }
+  stopBtn.style.display = 'none';
+  if (genCount > 1 && !stopRequested) showToast(`🎉 ${genCount}問の連続生成が完了しました`);
+}
+
+function stopManualGen() {
+  stopRequested = true;
+  document.getElementById('stop-gen-btn').style.display = 'none';
+}
+
+// ===== API Key management =====
+function getApiKey() {
+  return localStorage.getItem('quizbot_apikey') || '';
+}
+
+function saveApiKey() {
+  const key = document.getElementById('api-key-input').value.trim();
+  if (!key) { showToast('⚠️ APIキーを入力してください'); return; }
+  if (!key.startsWith('sk-ant-')) { showToast('⚠️ キーの形式が正しくないようです（sk-ant-で始まります）'); return; }
+  localStorage.setItem('quizbot_apikey', key);
+  document.getElementById('api-key-input').value = '';
+  updateApiKeyStatus();
+  addLog('🔑 APIキーを保存しました');
+  showToast('🔒 APIキーを端末に保存しました');
+}
+
+function deleteApiKey() {
+  if (!confirm('保存されているAPIキーを削除しますか？')) return;
+  localStorage.removeItem('quizbot_apikey');
+  updateApiKeyStatus();
+  addLog('🔑 APIキーを削除しました');
+  showToast('🗑 APIキーを削除しました');
+}
+
+function updateApiKeyStatus() {
+  const el = document.getElementById('api-key-status');
+  const key = getApiKey();
+  if (key) {
+    el.innerHTML = '✅ <span style="color:var(--success)">設定済み</span>（' + key.slice(0,12) + '••••' + key.slice(-4) + '）';
+  } else {
+    el.innerHTML = '⚠️ <span style="color:var(--accent)">未設定</span> — クイズ生成にはAPIキーが必要です';
+  }
+}
+
+// ===== Init =====
+function init() {
+  updateApiKeyStatus();
+  document.getElementById('gen-interval').value = state.settings.interval;
+  document.getElementById('approve-deadline').value = state.settings.deadline;
+  document.getElementById('answer-delay').value = state.settings.answerDelay;
+  document.getElementById('quiz-genre').value = state.settings.genre;
+  renderAll();
+  setInterval(tick, 5000); // check expiry/answer due every 5s
+}
+
+function persist() {
+  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes, logs: state.logs.slice(0,50), settings: state.settings }));
+}
+
+function saveSettings() {
+  state.settings.interval = +document.getElementById('gen-interval').value;
+  state.settings.deadline = +document.getElementById('approve-deadline').value;
+  state.settings.answerDelay = +document.getElementById('answer-delay').value;
+  state.settings.genre = document.getElementById('quiz-genre').value;
+  persist();
+  if (state.power) scheduleNextGen(); // re-schedule with new interval
+  showToast('⚙️ 設定を保存しました');
+}
+
+// ===== Power =====
+function togglePower() {
+  state.power = !state.power;
+  const sw = document.getElementById('power-switch');
+  const lbl = document.getElementById('power-label');
+  const dot = document.getElementById('status-dot');
+  const st = document.getElementById('status-text');
+  if (state.power) {
+    sw.classList.add('on'); lbl.classList.add('on'); lbl.textContent = 'ON';
+    dot.classList.add('active'); st.textContent = '稼働中';
+    addLog('🟢 Bot を ON にしました');
+    generateQuiz(false); // generate immediately on ON
+    scheduleNextGen();
+  } else {
+    sw.classList.remove('on'); lbl.classList.remove('on'); lbl.textContent = 'OFF';
+    dot.classList.remove('active'); st.textContent = '停止中';
+    document.getElementById('next-gen-text').textContent = '';
+    clearTimeout(genTimer); genTimer = null; nextGenAt = null;
+    addLog('🔴 Bot を OFF にしました');
+  }
+  renderAll();
+}
+
+function scheduleNextGen() {
+  clearTimeout(genTimer);
+  const ms = state.settings.interval * 60000;
+  nextGenAt = Date.now() + ms;
+  genTimer = setTimeout(() => {
+    if (state.power) { generateQuiz(false); scheduleNextGen(); }
+  }, ms);
+  updateNextGenText();
+}
+
+function updateNextGenText() {
+  const el = document.getElementById('next-gen-text');
+  if (!nextGenAt || !state.power) { el.textContent = ''; return; }
+  const diff = nextGenAt - Date.now();
+  if (diff <= 0) { el.textContent = '⚡ まもなく生成…'; return; }
+  const m = Math.floor(diff/60000), s = Math.floor((diff%60000)/1000);
+  el.textContent = `⏱ 次回生成まで ${m}分${s}秒`;
+}
+
+// ===== Quiz generation =====
+const genreMap = {
+  mixed: '直近2〜3日の重要な時事問題（国際・国内・経済・科学などバランス良く）',
+  world: '直近2〜3日の国際ニュース',
+  japan: '直近2〜3日の日本国内ニュース',
+  economy: '直近2〜3日の経済・ビジネスニュース',
+  science: '直近の科学・テクノロジーニュース',
+  sports: '直近のスポーツニュース'
+};
+
+async function generateQuiz(manual, topic, progress) {
+  if (generating) return false;
+  generating = true;
+  const btn = document.getElementById('gen-btn');
+  btn.disabled = true;
+  btn.innerHTML = `<span class="spinner"></span> ${progress ? progress + ' ' : ''}ニュースを検索してクイズ生成中…`;
+  if (!manual) addLog('🔄 自動生成を開始');
+
+  // Avoid repeating recent topics
+  const recentTopics = state.quizzes.slice(0, 8).map(q => q.source).filter(Boolean).join(' / ');
+
+  const themeInstruction = topic
+    ? `「${topic}」に関連する最新ニュース・話題`
+    : genreMap[state.settings.genre];
+
+  const prompt = `あなたは時事クイズの出題者です。Web検索を使って${themeInstruction}を1件調べ、それを元にX(Twitter)投稿用の4択クイズを1問作成してください。
+
+【厳守事項】
+- 必ずWeb検索を実行し、信頼できる報道機関（Reuters、AP、NHK、日経、BBC等）や公式情報源の最新情報を根拠にすること
+- 推測や古い知識でクイズを作らないこと
+- クイズ本文は日本語、220文字以内（出典含む）
+- 4択（A/B/C/D）形式
+- 文末に「#出典 メディア名」を必ず記載
+- 答えと簡潔な解説（正解返信用、180文字以内）も作成
+${topic ? '- 必ず「' + topic + '」に関係する内容にすること' : ''}
+${recentTopics ? '- 以下の最近出題済みトピックとは異なるニュースを選ぶこと: ' + recentTopics : ''}
+
+以下のJSON形式のみで返答してください。前置きやMarkdownは不要です:
+{
+  "question": "クイズ投稿の全文（4択と#出典を含む）",
+  "answer": "正解返信用の全文（正解の選択肢と解説）",
+  "source": "出典メディア名と記事タイトル",
+  "category": "ジャンル名"
+}`;
+
+  const apiKey = getApiKey();
+  if (!apiKey) {
+    showToast('🔑 先にAPIキーを設定してください');
+    addLog('⚠️ APIキー未設定のため生成できません');
+    generating = false;
+    btn.disabled = false;
+    btn.innerHTML = '⚡ 生成開始';
+    return false;
+  }
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 1000,
+        messages: [{ role: 'user', content: prompt }],
+        tools: [{ type: 'web_search_20250305', name: 'web_search' }]
+      })
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.error?.message || `APIエラー (${res.status})`);
+    }
+    const data = await res.json();
+    const text = data.content.filter(i => i.type === 'text').map(i => i.text).join('');
+    const clean = text.replace(/```json|```/g, '').trim();
+    // Extract JSON object even if there's surrounding text
+    const match = clean.match(/\{[\s\S]*\}/);
+    if (!match) throw new Error('JSON not found');
+    const quiz = JSON.parse(match[0]);
+
+    const now = Date.now();
+    state.quizzes.unshift({
+      id: now,
+      question: quiz.question,
+      answer: quiz.answer,
+      source: quiz.source || '',
+      category: quiz.category || '時事',
+      status: 'pending',
+      createdAt: now,
+      expiresAt: now + state.settings.deadline * 60000
+    });
+    persist();
+    renderAll();
+    addLog(`✅ クイズを生成しました（${topic ? 'テーマ: ' + topic : quiz.category || '時事'}）`);
+    showToast('🧠 新しいクイズが届きました！承認してください');
+
+    // Browser notification if permitted
+    if (window.Notification && Notification.permission === 'granted') {
+      new Notification('🧠 新しい時事クイズ', { body: '承認待ちのクイズがあります' });
+    }
+    generating = false;
+    btn.disabled = false;
+    btn.innerHTML = '⚡ 生成開始';
+    return true;
+  } catch (e) {
+    addLog('⚠️ 生成に失敗しました: ' + e.message);
+    showToast('⚠️ クイズ生成に失敗しました。再試行してください');
+    generating = false;
+    btn.disabled = false;
+    btn.innerHTML = '⚡ 生成開始';
+    return false;
+  }
+}
+
+// ===== Approve / Reject =====
+function approveQuiz(id) {
+  const q = state.quizzes.find(q => q.id === id);
+  if (!q) return;
+  q.status = 'approved';
+  q.approvedAt = Date.now();
+  q.answerDueAt = Date.now() + state.settings.answerDelay * 60000;
+  persist(); renderAll();
+  addLog('👍 クイズを承認しました');
+  openShareModal(q.question, 'クイズをXに投稿');
+}
+
+function rejectQuiz(id) {
+  state.quizzes = state.quizzes.filter(q => q.id !== id);
+  persist(); renderAll();
+  addLog('🗑 クイズを却下しました');
+  showToast('🗑 却下しました');
+}
+
+function copyAnswer(id) {
+  const q = state.quizzes.find(q => q.id === id);
+  if (q) openShareModal(q.answer, '正解をXで返信');
+}
+
+function copyQuestion(id) {
+  const q = state.quizzes.find(q => q.id === id);
+  if (q) openShareModal(q.question, 'クイズをXに投稿');
+}
+
+// ===== Share modal (copy fallback + X intent) =====
+function openShareModal(text, title) {
+  let modal = document.getElementById('share-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'share-modal';
+    modal.style.cssText = 'display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:300;backdrop-filter:blur(3px);align-items:flex-end;';
+    modal.innerHTML = `
+      <div style="background:var(--surface);border-radius:16px 16px 0 0;padding:20px 16px 36px;width:100%;max-height:85vh;overflow-y:auto;">
+        <div style="width:36px;height:4px;background:var(--border);border-radius:2px;margin:0 auto 14px;"></div>
+        <h2 id="share-title" style="font-size:16px;font-weight:700;margin-bottom:12px;"></h2>
+        <textarea id="share-text" readonly
+          style="width:100%;min-height:140px;background:var(--card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-size:14px;line-height:1.7;padding:12px;font-family:inherit;resize:none;-webkit-user-select:text;user-select:text;"></textarea>
+        <div style="font-size:11px;color:var(--muted);margin:6px 0 12px;">💡 コピーできない場合は上のテキストを長押し→「すべて選択」→「コピー」</div>
+        <button onclick="shareToX()" style="width:100%;padding:14px;border-radius:10px;border:none;background:#000;color:#fff;font-size:15px;font-weight:700;font-family:inherit;cursor:pointer;margin-bottom:8px;">
+          𝕏 Xアプリで開く（本文自動入力）
+        </button>
+        <button onclick="tryCopy()" style="width:100%;padding:13px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:14px;font-weight:700;font-family:inherit;cursor:pointer;margin-bottom:8px;">
+          📋 コピーを再試行
+        </button>
+        <button onclick="closeShareModal()" style="width:100%;padding:12px;border-radius:10px;border:none;background:transparent;color:var(--muted);font-size:13px;font-family:inherit;cursor:pointer;">
+          閉じる
+        </button>
+      </div>`;
+    modal.onclick = (e) => { if (e.target === modal) closeShareModal(); };
+    document.body.appendChild(modal);
+  }
+  document.getElementById('share-title').textContent = title;
+  document.getElementById('share-text').value = text;
+  modal.style.display = 'flex';
+  tryCopy(true); // attempt silent copy on open
+}
+
+function closeShareModal() {
+  const m = document.getElementById('share-modal');
+  if (m) m.style.display = 'none';
+}
+
+function shareToX() {
+  const text = document.getElementById('share-text').value;
+  // X intent URL — opens X app on mobile with text pre-filled
+  const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text);
+  window.open(url, '_blank');
+}
+
+function tryCopy(silent) {
+  const ta = document.getElementById('share-text');
+  const text = ta.value;
+  // Method 1: modern API
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => {
+      if (!silent) showToast('📋 コピーしました！');
+    }).catch(() => fallbackCopy(ta, silent));
+  } else {
+    fallbackCopy(ta, silent);
+  }
+}
+
+function fallbackCopy(ta, silent) {
+  try {
+    ta.focus();
+    ta.setSelectionRange(0, ta.value.length);
+    const ok = document.execCommand('copy');
+    if (ok && !silent) showToast('📋 コピーしました！');
+    else if (!ok && !silent) showToast('⚠️ 長押しで手動コピーしてください');
+  } catch(e) {
+    if (!silent) showToast('⚠️ 長押しで手動コピーしてください');
+  }
+}
+
+function copyToClipboard(text) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).catch(()=>{});
+  }
+}
+
+function markAnswered(id) {
+  const q = state.quizzes.find(q => q.id === id);
+  if (!q) return;
+  q.status = 'done';
+  persist(); renderAll();
+  addLog('💬 正解返信を完了にしました');
+  showToast('🎉 完了！お疲れさまでした');
+}
+
+// ===== Tick: expiry & answer due =====
+function tick() {
+  const now = Date.now();
+  let changed = false;
+
+  state.quizzes.forEach(q => {
+    // auto-discard expired pending
+    if (q.status === 'pending' && now > q.expiresAt) {
+      q.status = 'discarded';
+      changed = true;
+      addLog('⏰ 承認期限切れのため自動破棄しました');
+    }
+    // answer due notification
+    if (q.status === 'approved' && now > q.answerDueAt && !q.notified) {
+      q.notified = true;
+      changed = true;
+      showToast('💬 正解を返信する時間です！');
+      if (window.Notification && Notification.permission === 'granted') {
+        new Notification('💬 正解返信の時間', { body: 'クイズの正解をXで返信してください' });
+      }
+    }
+  });
+
+  // clean discarded
+  const before = state.quizzes.length;
+  state.quizzes = state.quizzes.filter(q => q.status !== 'discarded');
+  if (state.quizzes.length !== before) changed = true;
+
+  if (changed) { persist(); renderAll(); }
+  updateNextGenText();
+  updateTimers();
+}
+
+function updateTimers() {
+  document.querySelectorAll('[data-expire]').forEach(el => {
+    const t = +el.dataset.expire - Date.now();
+    if (t > 0) {
+      const m = Math.floor(t/60000), s = Math.floor((t%60000)/1000);
+      el.textContent = `⏰ 破棄まで ${m}分${s}秒`;
+    }
+  });
+  document.querySelectorAll('[data-answerdue]').forEach(el => {
+    const t = +el.dataset.answerdue - Date.now();
+    if (t > 0) {
+      const h = Math.floor(t/3600000), m = Math.floor((t%3600000)/60000);
+      el.textContent = `🕐 正解返信まで あと${h > 0 ? h+'時間' : ''}${m}分`;
+    } else {
+      el.textContent = '💬 今すぐ正解を返信してください！';
+      el.style.color = 'var(--accent)';
+    }
+  });
+}
+
+// ===== Render =====
+function renderAll() {
+  renderPending();
+  renderAnswerQueue();
+  renderLogs();
+}
+
+function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function renderPending() {
+  const items = state.quizzes.filter(q => q.status === 'pending');
+  document.getElementById('pending-count').textContent = items.length;
+  const el = document.getElementById('pending-list');
+  if (!items.length) {
+    el.innerHTML = '<div class="empty"><span class="icon">📭</span>承認待ちのクイズはありません' + (state.power ? '<br>次回の自動生成をお待ちください' : '<br>ONにすると自動生成が始まります') + '</div>';
+    return;
+  }
+  el.innerHTML = items.map(q => `
+    <div class="quiz-item pending">
+      <div class="quiz-meta">
+        <span class="badge badge-pending">承認待ち</span>
+        <span class="badge badge-cat">${esc(q.category)}</span>
+      </div>
+      <div class="expire-timer" data-expire="${q.expiresAt}"></div>
+      <div class="quiz-text">${esc(q.question)}</div>
+      <div class="quiz-answer-box"><span class="label">📝 正解（承認後、設定時間後に返信）</span>${esc(q.answer)}</div>
+      <div class="quiz-source">📰 ${esc(q.source)}</div>
+      <div class="quiz-actions">
+        <button class="btn btn-approve" onclick="approveQuiz(${q.id})">✅ 承認して投稿へ</button>
+        <button class="btn btn-reject" onclick="rejectQuiz(${q.id})">却下</button>
+      </div>
+    </div>`).join('');
+  updateTimers();
+}
+
+function renderAnswerQueue() {
+  const items = state.quizzes.filter(q => q.status === 'approved');
+  document.getElementById('answer-count').textContent = items.length;
+  const el = document.getElementById('answer-list');
+  if (!items.length) {
+    el.innerHTML = '<div class="empty"><span class="icon">🕐</span>返信待ちのクイズはありません</div>';
+    return;
+  }
+  el.innerHTML = items.map(q => `
+    <div class="quiz-item ${Date.now() > q.answerDueAt ? 'answer-due' : 'approved'}">
+      <div class="quiz-meta">
+        <span class="badge badge-approved">投稿済</span>
+        <span class="badge badge-cat">${esc(q.category)}</span>
+      </div>
+      <div class="answer-timer" data-answerdue="${q.answerDueAt}"></div>
+      <div class="quiz-text" style="color:var(--muted);font-size:12px">${esc(q.question.slice(0,60))}…</div>
+      <div class="quiz-answer-box"><span class="label">📝 返信する正解文</span>${esc(q.answer)}</div>
+      <div class="quiz-actions">
+        <button class="btn btn-copy" onclick="copyAnswer(${q.id})">📋 正解をコピー</button>
+        <button class="btn btn-ghost" onclick="markAnswered(${q.id})">✅ 返信完了</button>
+      </div>
+    </div>`).join('');
+  updateTimers();
+}
+
+function renderLogs() {
+  const el = document.getElementById('log-list');
+  if (!state.logs.length) { el.innerHTML = '<div class="empty" style="padding:14px">ログはまだありません</div>'; return; }
+  el.innerHTML = state.logs.slice(0,15).map(l => `
+    <div class="log-item"><span class="log-time">${l.time}</span><span>${esc(l.msg)}</span></div>`).join('');
+}
+
+function addLog(msg) {
+  const d = new Date();
+  state.logs.unshift({ time: `${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`, msg });
+  state.logs = state.logs.slice(0, 50);
+  persist();
+  renderLogs();
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3500);
+}
+
+// Request notification permission on first interaction
+document.addEventListener('click', function once() {
+  if (window.Notification && Notification.permission === 'default') Notification.requestPermission();
+  document.removeEventListener('click', once);
+});
+
+// PWA: Service Worker登録（Web公開時のみ動作）
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+
+init();
+</script>
+</body>
+</html>
