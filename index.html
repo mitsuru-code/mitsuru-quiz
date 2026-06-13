@@ -202,6 +202,23 @@
     color: var(--accent);
     background: rgba(245,158,11,0.1);
   }
+  .mode-btn {
+    flex: 1;
+    padding: 9px 4px;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s;
+  }
+  .mode-btn.selected {
+    background: var(--accent);
+    color: #1a1000;
+  }
   .gen-progress {
     font-size: 12px;
     color: var(--accent);
@@ -314,13 +331,39 @@
 <!-- 手動生成 -->
 <div class="card">
   <h2>⚡ その場で生成</h2>
-  <div style="margin-bottom:10px">
+
+  <!-- モード切替 -->
+  <div style="display:flex;gap:6px;margin-bottom:12px;background:var(--surface);padding:4px;border-radius:var(--radius-sm)">
+    <button class="mode-btn selected" data-mode="theme" onclick="selectMode('theme')">🔍 テーマ</button>
+    <button class="mode-btn" data-mode="post" onclick="selectMode('post')">𝕏 引用ポスト</button>
+    <button class="mode-btn" data-mode="link" onclick="selectMode('link')">🔗 リンク記事</button>
+  </div>
+
+  <!-- テーマ入力 -->
+  <div id="mode-theme" class="mode-panel">
     <input type="text" id="topic-input" placeholder="🔍 キーワード・テーマを入力（例: 大谷翔平、EV充電、静岡）"
       style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:14px;padding:12px;font-family:inherit;"
       onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
     <div style="font-size:10px;color:var(--muted);margin-top:5px">空欄の場合は設定のジャンルから自動選択されます</div>
   </div>
-  <div style="display:flex;gap:8px;margin-bottom:10px">
+
+  <!-- 引用ポスト入力 -->
+  <div id="mode-post" class="mode-panel" style="display:none">
+    <input type="text" id="post-url-input" placeholder="𝕏 ポストのURLを貼り付け（例: https://x.com/.../status/...）"
+      style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:12px;font-family:inherit;"
+      onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+    <div style="font-size:10px;color:var(--muted);margin-top:5px">📌 引用元ポストを読めば答えが分かる形式（正解返信なし）。投稿時は引用リポストとして使ってください</div>
+  </div>
+
+  <!-- リンク記事入力 -->
+  <div id="mode-link" class="mode-panel" style="display:none">
+    <input type="text" id="link-url-input" placeholder="🔗 記事URLを貼り付け（例: https://www3.nhk.or.jp/...）"
+      style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:12px;font-family:inherit;"
+      onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+    <div style="font-size:10px;color:var(--muted);margin-top:5px">📌 リンク先を読めば答えが分かる形式（正解返信なし）。投稿の最後にこのURLを添えてください</div>
+  </div>
+
+  <div style="display:flex;gap:8px;margin:12px 0 10px">
     <span style="font-size:12px;color:var(--muted);align-self:center;flex-shrink:0">生成数:</span>
     <button class="gen-count-btn selected" onclick="selectGenCount(this,1)">1問</button>
     <button class="gen-count-btn" onclick="selectGenCount(this,3)">3問連続</button>
@@ -419,6 +462,15 @@ let generating = false;
 let genCount = 1;
 let stopRequested = false;
 
+let genMode = 'theme'; // theme | post | link
+
+function selectMode(mode) {
+  genMode = mode;
+  document.querySelectorAll('.mode-btn').forEach(b => b.classList.toggle('selected', b.dataset.mode === mode));
+  document.querySelectorAll('.mode-panel').forEach(p => p.style.display = 'none');
+  document.getElementById('mode-' + mode).style.display = 'block';
+}
+
 function selectGenCount(btn, n) {
   document.querySelectorAll('.gen-count-btn').forEach(b => b.classList.remove('selected'));
   btn.classList.add('selected');
@@ -429,18 +481,31 @@ function selectGenCount(btn, n) {
 async function startManualGen() {
   if (generating) return;
   stopRequested = false;
-  const topic = document.getElementById('topic-input').value.trim();
-  const stopBtn = document.getElementById('stop-gen-btn');
-  if (genCount > 1) stopBtn.style.display = 'flex';
 
-  for (let i = 0; i < genCount; i++) {
+  // mode-specific input validation
+  let srcUrl = '';
+  if (genMode === 'post') {
+    srcUrl = document.getElementById('post-url-input').value.trim();
+    if (!srcUrl) { showToast('⚠️ ポストのURLを貼り付けてください'); return; }
+  } else if (genMode === 'link') {
+    srcUrl = document.getElementById('link-url-input').value.trim();
+    if (!srcUrl) { showToast('⚠️ 記事のURLを貼り付けてください'); return; }
+  }
+  const topic = genMode === 'theme' ? document.getElementById('topic-input').value.trim() : '';
+
+  const stopBtn = document.getElementById('stop-gen-btn');
+  // URL modes: 通常は1問（同じURLから複数は重複しやすいため）
+  const effectiveCount = (genMode === 'theme') ? genCount : 1;
+  if (effectiveCount > 1) stopBtn.style.display = 'flex';
+
+  for (let i = 0; i < effectiveCount; i++) {
     if (stopRequested) { addLog('⏹ 連続生成を中止しました'); break; }
-    const ok = await generateQuiz(true, topic, genCount > 1 ? `${i+1}/${genCount}` : '');
-    if (!ok) break; // stop on failure
-    if (i < genCount - 1) await new Promise(r => setTimeout(r, 1500)); // small pause between requests
+    const ok = await generateQuiz(true, topic, effectiveCount > 1 ? `${i+1}/${effectiveCount}` : '', genMode, srcUrl);
+    if (!ok) break;
+    if (i < effectiveCount - 1) await new Promise(r => setTimeout(r, 1500));
   }
   stopBtn.style.display = 'none';
-  if (genCount > 1 && !stopRequested) showToast(`🎉 ${genCount}問の連続生成が完了しました`);
+  if (effectiveCount > 1 && !stopRequested) showToast(`🎉 ${effectiveCount}問の連続生成が完了しました`);
 }
 
 function stopManualGen() {
@@ -559,12 +624,14 @@ const genreMap = {
   sports: '直近のスポーツニュース'
 };
 
-async function generateQuiz(manual, topic, progress) {
+async function generateQuiz(manual, topic, progress, mode, srcUrl) {
   if (generating) return false;
   generating = true;
+  mode = mode || 'theme';
   const btn = document.getElementById('gen-btn');
   btn.disabled = true;
-  btn.innerHTML = `<span class="spinner"></span> ${progress ? progress + ' ' : ''}ニュースを検索してクイズ生成中…`;
+  const verb = (mode === 'theme') ? 'ニュースを検索して' : 'リンク先を読み込んで';
+  btn.innerHTML = `<span class="spinner"></span> ${progress ? progress + ' ' : ''}${verb}クイズ生成中…`;
   if (!manual) addLog('🔄 自動生成を開始');
 
   // Avoid repeating recent topics
@@ -574,25 +641,137 @@ async function generateQuiz(manual, topic, progress) {
     ? `「${topic}」に関連する最新ニュース・話題`
     : genreMap[state.settings.genre];
 
-  const prompt = `あなたは時事クイズの出題者です。Web検索を使って${themeInstruction}を1件調べ、それを元にX(Twitter)投稿用の4択クイズを1問作成してください。
+  // 投稿ごとに文章スタイルをランダムに振り、重複・コピペ判定を回避する
+  const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+  const styleOpener = pick([
+    '時事ネタを軽い驚きとともに切り出す（例:「え、これ知ってた？」）',
+    'ニュースを見た感想から入る（例:「これ朝のニュースで気になった話」）',
+    'いきなり本題の問いかけから入る（前置きを省く）',
+    'クイズ好きに語りかける感じ（例:「今日の一問いきます」）',
+    '時事の背景を一文添えてから問う',
+    'ちょっと意外性を強調する（例:「意外と間違える人多いやつ」）'
+  ]);
+  const styleQuestion = pick([
+    'さて、どれでしょう？',
+    '正解はどれ？',
+    'わかるかな？',
+    'これ答えられたらすごい',
+    '正解は…？',
+    '何番だと思う？'
+  ]);
+  const styleSymbol = pick([
+    'A / B / C / D（半角）',
+    '①②③④',
+    '1) 2) 3) 4)',
+    'ア・イ・ウ・エ',
+    '🅰️🅱️…ではなく素直に A〜D'
+  ]);
+  const styleLength = pick([
+    '短めにテンポよく',
+    '少し丁寧に背景も添えて',
+    'ごく簡潔に',
+    '会話するように自然な長さで'
+  ]);
+  const styleEmoji = pick([
+    '絵文字は1個だけ控えめに',
+    '絵文字なしで文章勝負',
+    '絵文字を2個ほど効果的に',
+    '顔文字や記号で表情をつける'
+  ]);
+
+  // 人間らしさ共通指示（毎回ランダムなスタイルを注入）
+  const humanizeBlock = `【最重要・人間らしさと多様性】
+このクイズは「AIが自動生成した感」「毎回同じテンプレ感」を絶対に出さないこと。過去の投稿と似た言い回し・構成を避け、今回は下記スタイルで書くこと:
+- 書き出し: ${styleOpener}
+- 問いかけの締め: 「${styleQuestion}」のニュアンスで（そのままでなく自然に）
+- 選択肢の記号: ${styleSymbol}
+- 文章量: ${styleLength}
+- 絵文字: ${styleEmoji}
+さらに:
+- 「問題:」「クイズ:」のような機械的な見出しは使わない
+- ダミー選択肢も"ありそうで紛らわしい"ものにする（明らかに変な選択肢を混ぜない）
+- 改行位置や句読点の打ち方も毎回少し変え、定型パターンにならないようにする
+- 同じ出だし・同じ締めの言葉を繰り返さない`;
+
+  let prompt, tools;
+
+  if (mode === 'theme') {
+    prompt = `あなたはX(Twitter)で時事クイズを毎日出している、人気アカウントの「中の人」です。Web検索で${themeInstruction}を1件調べ、それを元に投稿用の4択クイズを1問作ってください。
+
+${humanizeBlock}
 
 【厳守事項】
-- 必ずWeb検索を実行し、信頼できる報道機関（Reuters、AP、NHK、日経、BBC等）や公式情報源の最新情報を根拠にすること
-- 推測や古い知識でクイズを作らないこと
-- クイズ本文は日本語、220文字以内（出典含む）
-- 4択（A/B/C/D）形式
-- 文末に「#出典 メディア名」を必ず記載
-- 答えと簡潔な解説（正解返信用、180文字以内）も作成
+- 必ずWeb検索を実行し、信頼できる報道機関（Reuters、AP通信、NHK、日経、BBC、共同通信等）や公式発表を根拠にすること。推測や古い知識で作らない
+- 事実（数字・固有名詞・日付）は正確に
+- クイズ本文は日本語で全体220文字以内（出典ハッシュタグ含む）
+- 文末に出典を「#出典 メディア名」の形で必ず記載
+- 解説（正解返信用）は180文字以内
 ${topic ? '- 必ず「' + topic + '」に関係する内容にすること' : ''}
 ${recentTopics ? '- 以下の最近出題済みトピックとは異なるニュースを選ぶこと: ' + recentTopics : ''}
 
-以下のJSON形式のみで返答してください。前置きやMarkdownは不要です:
+以下のJSON形式のみで返答してください。前置きやMarkdownのコードブロックは不要です:
 {
-  "question": "クイズ投稿の全文（4択と#出典を含む）",
-  "answer": "正解返信用の全文（正解の選択肢と解説）",
+  "question": "クイズ投稿の全文（ツカミ＋問いかけ＋4択＋#出典）",
+  "answer": "正解返信用の全文（正解＋豆知識・一言コメント）",
   "source": "出典メディア名と記事タイトル",
   "category": "ジャンル名"
 }`;
+    tools = [{ type: 'web_search_20250305', name: 'web_search' }];
+
+  } else if (mode === 'post') {
+    // 引用ポストモード：URL先のポストを読み、答え不要
+    prompt = `あなたはX(Twitter)で時事クイズを出している人気アカウントの「中の人」です。次のXポストを読み、その内容に基づいた4択クイズを1問作ってください。これは「引用リポスト」で使うので、引用元のポストを読めば答えが分かる形式にします。
+
+対象ポスト: ${srcUrl}
+
+${humanizeBlock}
+
+【このモード特有のルール】
+- 引用元ポストを読めば正解が分かるようにする（正解返信は不要なので作らない）
+- クイズ本文の冒頭で「このポスト、読んでから答えてみて👇」のような、引用を促す自然な一言を入れる
+- 引用元の事実に忠実に。ポストに書かれていない推測を選択肢の正解にしない
+- クイズ本文は日本語で全体150文字以内（引用ポストと並ぶため短め）
+- このモードでは出典ハッシュタグは不要（引用元がソースのため）
+
+まず web_fetch でポストURLの内容を取得してから作成すること。取得できない場合はその旨を category に "取得失敗" と記載。
+
+以下のJSON形式のみで返答（answerは空文字、sourceは引用元の要約）:
+{
+  "question": "クイズ投稿の全文（引用を促す一言＋問いかけ＋4択）",
+  "answer": "",
+  "source": "引用元ポストの投稿者・要点",
+  "category": "ジャンル名"
+}`;
+    tools = [{ type: 'web_search_20250305', name: 'web_search' }];
+
+  } else { // link
+    prompt = `あなたはX(Twitter)で時事クイズを出している人気アカウントの「中の人」です。次の記事URLの内容を読み、それに基づいた4択クイズを1問作ってください。投稿の最後にこのURLを添えるので、リンク先を読めば答えが分かる形式にします。
+
+対象記事: ${srcUrl}
+
+${humanizeBlock}
+
+【このモード特有のルール】
+- リンク先記事を読めば正解が分かるようにする（正解返信は不要なので作らない）
+- クイズ本文に「詳しくは記事を読んでみて🔗」のような、リンクを読むよう促す自然な一言を入れる
+- 記事の事実に忠実に。記事にない推測を正解にしない
+- クイズ本文は日本語で全体200文字以内
+- 出典は記事のメディア名を「#出典 メディア名」で記載（URL自体は投稿時にユーザーが添える）
+
+まず web_fetch で記事URLの内容を取得してから作成すること。取得できない場合は web_search で同じURLや記事タイトルを検索して内容を補うこと。
+
+以下のJSON形式のみで返答（answerは空文字）:
+{
+  "question": "クイズ投稿の全文（リンクを促す一言＋問いかけ＋4択＋#出典）",
+  "answer": "",
+  "source": "記事のメディア名とタイトル",
+  "category": "ジャンル名"
+}`;
+    tools = [
+      { type: 'web_fetch_20250910', name: 'web_fetch', max_uses: 3 },
+      { type: 'web_search_20250305', name: 'web_search' }
+    ];
+  }
 
   const apiKey = getApiKey();
   if (!apiKey) {
@@ -615,9 +794,9 @@ ${recentTopics ? '- 以下の最近出題済みトピックとは異なるニュ
       },
       body: JSON.stringify({
         model: 'claude-sonnet-4-6',
-        max_tokens: 1000,
+        max_tokens: 1200,
         messages: [{ role: 'user', content: prompt }],
-        tools: [{ type: 'web_search_20250305', name: 'web_search' }]
+        tools: tools
       })
     });
     if (!res.ok) {
@@ -633,19 +812,24 @@ ${recentTopics ? '- 以下の最近出題済みトピックとは異なるニュ
     const quiz = JSON.parse(match[0]);
 
     const now = Date.now();
+    const noAnswer = (mode === 'post' || mode === 'link'); // URLモードは正解返信不要
     state.quizzes.unshift({
       id: now,
       question: quiz.question,
-      answer: quiz.answer,
+      answer: quiz.answer || '',
       source: quiz.source || '',
       category: quiz.category || '時事',
+      mode: mode,
+      noAnswer: noAnswer,
+      srcUrl: srcUrl || '',
       status: 'pending',
       createdAt: now,
       expiresAt: now + state.settings.deadline * 60000
     });
     persist();
     renderAll();
-    addLog(`✅ クイズを生成しました（${topic ? 'テーマ: ' + topic : quiz.category || '時事'}）`);
+    const modeLabel = mode === 'post' ? '引用ポスト' : mode === 'link' ? 'リンク記事' : (topic ? 'テーマ: ' + topic : quiz.category || '時事');
+    addLog(`✅ クイズを生成しました（${modeLabel}）`);
     showToast('🧠 新しいクイズが届きました！承認してください');
 
     // Browser notification if permitted
@@ -670,12 +854,21 @@ ${recentTopics ? '- 以下の最近出題済みトピックとは異なるニュ
 function approveQuiz(id) {
   const q = state.quizzes.find(q => q.id === id);
   if (!q) return;
-  q.status = 'approved';
   q.approvedAt = Date.now();
-  q.answerDueAt = Date.now() + state.settings.answerDelay * 60000;
-  persist(); renderAll();
-  addLog('👍 クイズを承認しました');
-  openShareModal(q.question, 'クイズをXに投稿');
+  if (q.noAnswer) {
+    // URLモード：正解返信不要なので、投稿したら完了
+    q.status = 'done';
+    persist(); renderAll();
+    addLog('👍 承認しました（正解返信なしモード）');
+    const label = q.mode === 'post' ? 'クイズを引用リポストで投稿' : 'クイズをXに投稿';
+    openShareModal(q.question, label, q.mode, q.srcUrl);
+  } else {
+    q.status = 'approved';
+    q.answerDueAt = Date.now() + state.settings.answerDelay * 60000;
+    persist(); renderAll();
+    addLog('👍 クイズを承認しました');
+    openShareModal(q.question, 'クイズをXに投稿');
+  }
 }
 
 function rejectQuiz(id) {
@@ -696,25 +889,41 @@ function copyQuestion(id) {
 }
 
 // ===== Share modal (copy fallback + X intent) =====
-function openShareModal(text, title) {
+let shareMode = 'theme';
+let shareUrl = '';
+
+function openShareModal(text, title, mode, srcUrl) {
+  shareMode = mode || 'theme';
+  shareUrl = srcUrl || '';
   let modal = document.getElementById('share-modal');
   if (!modal) {
     modal = document.createElement('div');
     modal.id = 'share-modal';
     modal.style.cssText = 'display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:300;backdrop-filter:blur(3px);align-items:flex-end;';
     modal.innerHTML = `
-      <div style="background:var(--surface);border-radius:16px 16px 0 0;padding:20px 16px 36px;width:100%;max-height:85vh;overflow-y:auto;">
+      <div style="background:var(--surface);border-radius:16px 16px 0 0;padding:20px 16px 36px;width:100%;max-height:88vh;overflow-y:auto;">
         <div style="width:36px;height:4px;background:var(--border);border-radius:2px;margin:0 auto 14px;"></div>
-        <h2 id="share-title" style="font-size:16px;font-weight:700;margin-bottom:12px;"></h2>
+        <h2 id="share-title" style="font-size:16px;font-weight:700;margin-bottom:6px;"></h2>
+        <div style="font-size:12px;color:var(--accent);margin-bottom:10px;font-weight:600;">手順: ①下のボタンでコピー → ②Xアプリを開いて貼り付け → ③投稿</div>
         <textarea id="share-text" readonly
-          style="width:100%;min-height:140px;background:var(--card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-size:14px;line-height:1.7;padding:12px;font-family:inherit;resize:none;-webkit-user-select:text;user-select:text;"></textarea>
-        <div style="font-size:11px;color:var(--muted);margin:6px 0 12px;">💡 コピーできない場合は上のテキストを長押し→「すべて選択」→「コピー」</div>
-        <button onclick="shareToX()" style="width:100%;padding:14px;border-radius:10px;border:none;background:#000;color:#fff;font-size:15px;font-weight:700;font-family:inherit;cursor:pointer;margin-bottom:8px;">
-          𝕏 Xアプリで開く（本文自動入力）
+          style="width:100%;min-height:150px;background:var(--card);border:1px solid var(--border);border-radius:10px;color:var(--text);font-size:15px;line-height:1.7;padding:12px;font-family:inherit;resize:none;-webkit-user-select:text;user-select:text;"></textarea>
+        <div id="share-hint" style="font-size:11px;color:var(--muted);margin:6px 0 14px;"></div>
+
+        <button onclick="tryCopy()" style="width:100%;padding:15px;border-radius:10px;border:none;background:var(--accent2);color:#082f49;font-size:16px;font-weight:800;font-family:inherit;cursor:pointer;margin-bottom:8px;">
+          📋 本文をコピー
         </button>
-        <button onclick="tryCopy()" style="width:100%;padding:13px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:14px;font-weight:700;font-family:inherit;cursor:pointer;margin-bottom:8px;">
-          📋 コピーを再試行
+        <button onclick="openXApp()" style="width:100%;padding:14px;border-radius:10px;border:none;background:#000;color:#fff;font-size:15px;font-weight:700;font-family:inherit;cursor:pointer;margin-bottom:8px;">
+          𝕏 Xアプリを開く（貼り付けて投稿）
         </button>
+        <details style="margin-bottom:8px;">
+          <summary style="font-size:12px;color:var(--muted);cursor:pointer;padding:8px 0;">▸ うまくいかない時（手打ち・自動入力）</summary>
+          <div style="padding:6px 0;">
+            <div style="font-size:11px;color:var(--muted);margin-bottom:8px;line-height:1.6;">手打ちする場合は上のテキストを見ながらXで入力してください。下のボタンは本文を自動入力した状態でXを開きますが、Xの仕様で投稿がブロックされる場合があります。</div>
+            <button onclick="shareToX()" style="width:100%;padding:11px;border-radius:10px;border:1px solid var(--border);background:var(--card);color:var(--muted);font-size:13px;font-weight:600;font-family:inherit;cursor:pointer;">
+              𝕏 本文自動入力でXを開く（補助）
+            </button>
+          </div>
+        </details>
         <button onclick="closeShareModal()" style="width:100%;padding:12px;border-radius:10px;border:none;background:transparent;color:var(--muted);font-size:13px;font-family:inherit;cursor:pointer;">
           閉じる
         </button>
@@ -723,9 +932,30 @@ function openShareModal(text, title) {
     document.body.appendChild(modal);
   }
   document.getElementById('share-title').textContent = title;
-  document.getElementById('share-text').value = text;
+  // 手動投稿なので、URLモードは本文にURLを含めてコピーできるようにする
+  let fullText = text;
+  if (shareMode === 'post' && shareUrl) {
+    fullText = text + '\n' + shareUrl;
+  } else if (shareMode === 'link' && shareUrl) {
+    fullText = text + '\n' + shareUrl;
+  }
+  document.getElementById('share-text').value = fullText;
+  // モード別ヒント
+  const hint = document.getElementById('share-hint');
+  if (shareMode === 'post') {
+    hint.innerHTML = '📌 末尾に引用元ポストのURLが入っています。Xに貼り付けて投稿すると引用リポストになります。';
+  } else if (shareMode === 'link') {
+    hint.innerHTML = '📌 末尾に記事URLが入っています。リンク先を読めば答えが分かります。';
+  } else {
+    hint.innerHTML = '💡 コピーできない時はテキストを長押し→「すべて選択」→「コピー」';
+  }
   modal.style.display = 'flex';
-  tryCopy(true); // attempt silent copy on open
+  tryCopy(true);
+}
+
+function openXApp() {
+  // 本文なしでXの新規投稿画面だけ開く（貼り付けは手動＝人間の操作）
+  window.open('https://twitter.com/intent/tweet', '_blank');
 }
 
 function closeShareModal() {
@@ -734,9 +964,15 @@ function closeShareModal() {
 }
 
 function shareToX() {
-  const text = document.getElementById('share-text').value;
-  // X intent URL — opens X app on mobile with text pre-filled
-  const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text);
+  let text = document.getElementById('share-text').value;
+  let url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text);
+  // 引用ポスト：urlパラメータに元ポストを入れると引用リポストになる
+  if (shareMode === 'post' && shareUrl) {
+    url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(shareUrl);
+  } else if (shareMode === 'link' && shareUrl) {
+    // リンク記事：本文末尾にURLを付与
+    url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text + '\n' + shareUrl);
+  }
   window.open(url, '_blank');
 }
 
@@ -850,21 +1086,30 @@ function renderPending() {
     el.innerHTML = '<div class="empty"><span class="icon">📭</span>承認待ちのクイズはありません' + (state.power ? '<br>次回の自動生成をお待ちください' : '<br>ONにすると自動生成が始まります') + '</div>';
     return;
   }
-  el.innerHTML = items.map(q => `
+  el.innerHTML = items.map(q => {
+    const modeBadge = q.mode === 'post' ? '<span class="badge badge-answer">𝕏 引用</span>'
+      : q.mode === 'link' ? '<span class="badge badge-answer">🔗 記事</span>' : '';
+    const answerSection = q.noAnswer
+      ? `<div class="quiz-answer-box"><span class="label">📎 ${q.mode === 'post' ? '引用元ポスト' : '記事URL'}（読めば答えが分かる）</span>${esc(q.srcUrl)}</div>`
+      : `<div class="quiz-answer-box"><span class="label">📝 正解（承認後、設定時間後に返信）</span>${esc(q.answer)}</div>`;
+    const approveLabel = q.mode === 'post' ? '✅ 承認→引用リポスト' : '✅ 承認して投稿へ';
+    return `
     <div class="quiz-item pending">
       <div class="quiz-meta">
         <span class="badge badge-pending">承認待ち</span>
         <span class="badge badge-cat">${esc(q.category)}</span>
+        ${modeBadge}
       </div>
       <div class="expire-timer" data-expire="${q.expiresAt}"></div>
       <div class="quiz-text">${esc(q.question)}</div>
-      <div class="quiz-answer-box"><span class="label">📝 正解（承認後、設定時間後に返信）</span>${esc(q.answer)}</div>
+      ${answerSection}
       <div class="quiz-source">📰 ${esc(q.source)}</div>
       <div class="quiz-actions">
-        <button class="btn btn-approve" onclick="approveQuiz(${q.id})">✅ 承認して投稿へ</button>
+        <button class="btn btn-approve" onclick="approveQuiz(${q.id})">${approveLabel}</button>
         <button class="btn btn-reject" onclick="rejectQuiz(${q.id})">却下</button>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
   updateTimers();
 }
 
