@@ -219,6 +219,23 @@
     background: var(--accent);
     color: #1a1000;
   }
+  /* トグルスイッチ */
+  .toggle-wrap { position: relative; display: inline-block; width: 48px; height: 26px; cursor: pointer; }
+  .toggle-wrap input { opacity: 0; width: 0; height: 0; }
+  .toggle-sw {
+    position: absolute; inset: 0;
+    background: var(--border); border-radius: 13px;
+    transition: background 0.25s;
+  }
+  .toggle-sw::after {
+    content: ''; position: absolute;
+    width: 20px; height: 20px; border-radius: 50%;
+    background: #fff; top: 3px; left: 3px;
+    transition: left 0.25s;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  }
+  .toggle-wrap input:checked + .toggle-sw { background: var(--success); }
+  .toggle-wrap input:checked + .toggle-sw::after { left: 25px; }
   .gen-progress {
     font-size: 12px;
     color: var(--accent);
@@ -314,6 +331,8 @@
 <div class="status-bar">
   <span><span class="status-dot" id="status-dot"></span><span id="status-text">停止中</span></span>
   <span class="next-gen" id="next-gen-text"></span>
+  <span id="breaking-text" style="font-size:11px;color:var(--danger);font-weight:600;"></span>
+  <span id="reminder-text" style="font-size:11px;color:var(--warn);font-weight:600;"></span>
 </div>
 
 <main>
@@ -428,14 +447,74 @@
   <div class="setting-row">
     <span class="s-label">出題ジャンル</span>
     <select id="quiz-genre" onchange="saveSettings()">
-      <option value="mixed">時事全般</option>
-      <option value="world">国際ニュース</option>
+      <option value="mixed">時事全般（国内＋海外）</option>
+      <option value="world">国際ニュース（海外重視）</option>
       <option value="japan">国内ニュース</option>
       <option value="economy">経済・ビジネス</option>
       <option value="science">科学・テクノロジー</option>
       <option value="sports">スポーツ</option>
     </select>
   </div>
+</div>
+
+<!-- リマインダー設定 -->
+<div class="card">
+  <h2>⏰ 定時リマインダー</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.6">ONにすると7時・12時・21時に自動生成＋通知。画面を開いている間のみ動作します。</div>
+  <div class="setting-row">
+    <span class="s-label">🌅 朝7時（モーニングクイズ）</span>
+    <label class="toggle-wrap"><input type="checkbox" id="reminder-7" onchange="saveSettings()"><span class="toggle-sw"></span></label>
+  </div>
+  <div class="setting-row">
+    <span class="s-label">☀️ 昼12時（ランチクイズ）</span>
+    <label class="toggle-wrap"><input type="checkbox" id="reminder-12" onchange="saveSettings()"><span class="toggle-sw"></span></label>
+  </div>
+  <div class="setting-row">
+    <span class="s-label">🌙 夜21時（ナイトクイズ）</span>
+    <label class="toggle-wrap"><input type="checkbox" id="reminder-21" onchange="saveSettings()"><span class="toggle-sw"></span></label>
+  </div>
+  <div id="reminder-status" style="font-size:11px;color:var(--accent2);margin-top:8px;"></div>
+</div>
+
+<!-- 速報設定 -->
+<div class="card">
+  <h2>🔴 速報ニュース監視</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.6">1時間ごとに速報を検索。新着があれば即クイズ生成＋通知。海外ニュース（Reuters・AP・BBC等）も自動網羅。ONのメインスイッチが必要です。</div>
+  <div class="setting-row">
+    <span class="s-label">🔴 速報監視</span>
+    <label class="toggle-wrap"><input type="checkbox" id="breaking-enabled" onchange="saveSettings()"><span class="toggle-sw"></span></label>
+  </div>
+  <div class="setting-row">
+    <span class="s-label">🌍 海外ニュース優先度</span>
+    <select id="global-priority" onchange="saveSettings()">
+      <option value="balanced">国内＋海外バランス</option>
+      <option value="global">海外重視（英語圏・アジア）</option>
+      <option value="japan">国内のみ</option>
+    </select>
+  </div>
+  <div id="breaking-status" style="font-size:11px;color:var(--danger);margin-top:8px;"></div>
+</div>
+
+<!-- まとめ記事 -->
+<div class="card">
+  <h2>📰 まとめ記事を作成</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:12px;line-height:1.6">これまで生成したクイズから、X記事（長文）用のまとめを作成します。投稿すると滞在時間が伸び、ストック資産になります。</div>
+  <button class="btn btn-gen" id="weekly-btn" onclick="generateDigest('weekly')" style="margin-bottom:8px;">
+    📅 週間まとめを作成（直近7日）
+  </button>
+  <button class="btn btn-gen" id="monthly-btn" onclick="generateDigest('monthly')" style="background:linear-gradient(135deg, var(--accent2), #2563eb); color:#fff;">
+    📚 月間まとめを作成（直近30日・濃い内容）
+  </button>
+  <div id="digest-status" style="font-size:11px;color:var(--accent2);margin-top:8px;"></div>
+</div>
+
+<!-- 過去問題ライブラリ -->
+<div class="card">
+  <h2>📚 過去の問題</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.6">これまで生成した全クイズの履歴です。再投稿やコピーができます。</div>
+  <input type="text" id="history-search" placeholder="🔍 キーワードで検索（例: 経済、大谷）" oninput="renderHistory()"
+    style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;margin-bottom:10px;">
+  <div id="history-list"></div>
 </div>
 
 <!-- ログ -->
@@ -455,6 +534,11 @@ state.quizzes = state.quizzes || [];   // {id, question, answer, source, categor
 state.logs = state.logs || [];
 state.power = false; // always start OFF for safety
 state.settings = state.settings || { interval: 30, deadline: 30, answerDelay: 120, genre: 'mixed' };
+state.settings.reminders = state.settings.reminders || { r7: false, r12: false, r21: false };
+state.settings.breaking = state.settings.breaking !== undefined ? state.settings.breaking : false;
+state.settings.globalPriority = state.settings.globalPriority || 'balanced';
+state.breakingLastChecked = state.breakingLastChecked || 0;
+state.breakingLastHeadline = state.breakingLastHeadline || '';
 
 let genTimer = null;
 let nextGenAt = null;
@@ -513,7 +597,318 @@ function stopManualGen() {
   document.getElementById('stop-gen-btn').style.display = 'none';
 }
 
-// ===== API Key management =====
+// ===== Reminder status display =====
+function updateReminderStatus() {
+  const el = document.getElementById('reminder-status');
+  if (!el) return;
+  const r = state.settings.reminders;
+  const active = [r.r7 && '7時', r.r12 && '12時', r.r21 && '21時'].filter(Boolean);
+  el.textContent = active.length ? `✅ 有効: ${active.join('・')} に自動生成＋通知` : '（すべてOFF）';
+}
+
+function updateBreakingStatus() {
+  const el = document.getElementById('breaking-status');
+  if (!el) return;
+  const p = state.settings.globalPriority;
+  const pLabel = { balanced:'国内＋海外バランス', global:'海外重視（英語圏・アジア）', japan:'国内のみ' }[p] || p;
+  if (state.settings.breaking) {
+    const lastCheck = state.breakingLastChecked ? new Date(state.breakingLastChecked).toLocaleTimeString('ja-JP', {hour:'2-digit', minute:'2-digit'}) : 'まだ未チェック';
+    el.textContent = `🔴 監視中 | ${pLabel} | 最終チェック: ${lastCheck}`;
+    document.getElementById('breaking-text').textContent = '🔴 速報監視中';
+  } else {
+    el.textContent = '（OFF）';
+    document.getElementById('breaking-text').textContent = '';
+  }
+}
+
+// ===== Reminder tick: 定時生成チェック =====
+let lastReminderFired = { r7: '', r12: '', r21: '' };
+
+function tickReminder() {
+  if (!state.power) return;
+  const r = state.settings.reminders;
+  if (!r.r7 && !r.r12 && !r.r21) return;
+  const now = new Date();
+  const hm = `${now.getFullYear()}-${now.getMonth()}-${now.getDate()}-${now.getHours()}`;
+  const h = now.getHours();
+  const m = now.getMinutes();
+  // 各時刻の±2分以内に1回だけ発火
+  if (r.r7  && h === 7  && m <= 2 && lastReminderFired.r7  !== hm) { lastReminderFired.r7  = hm; fireReminder('朝7時',  '🌅'); }
+  if (r.r12 && h === 12 && m <= 2 && lastReminderFired.r12 !== hm) { lastReminderFired.r12 = hm; fireReminder('昼12時', '☀️'); }
+  if (r.r21 && h === 21 && m <= 2 && lastReminderFired.r21 !== hm) { lastReminderFired.r21 = hm; fireReminder('夜21時', '🌙'); }
+  // ステータスバーに次の定時を表示
+  updateNextReminderText();
+}
+
+function fireReminder(label, icon) {
+  addLog(`${icon} ${label}の定時クイズを自動生成します`);
+  showToast(`${icon} ${label}のクイズを生成中…`);
+  generateQuiz(false, '', '', 'theme', '');
+  if (window.Notification && Notification.permission === 'granted') {
+    new Notification(`${icon} ${label}の時事クイズ`, { body: 'クイズを生成しました。確認してください！' });
+  }
+}
+
+function updateNextReminderText() {
+  const el = document.getElementById('reminder-text');
+  if (!el) return;
+  const r = state.settings.reminders;
+  const slots = [];
+  if (r.r7)  slots.push({ h:7,  label:'🌅7時' });
+  if (r.r12) slots.push({ h:12, label:'☀️12時' });
+  if (r.r21) slots.push({ h:21, label:'🌙21時' });
+  if (!slots.length) { el.textContent = ''; return; }
+  const now = new Date();
+  const nowMin = now.getHours() * 60 + now.getMinutes();
+  const next = slots.find(s => s.h * 60 > nowMin) || slots[0];
+  const diff = (next.h * 60 - nowMin + 1440) % 1440;
+  const h = Math.floor(diff / 60), m = diff % 60;
+  el.textContent = `${next.label}まで${h > 0 ? h + '時間' : ''}${m}分`;
+}
+
+// ===== Breaking news tick: 速報監視 =====
+const globalSearchQueries = {
+  balanced: [
+    '速報 日本 最新ニュース', 'breaking news Japan today',
+    'Reuters breaking news', 'AP news latest'
+  ],
+  global: [
+    'Reuters breaking news today', 'AP breaking news', 'BBC news breaking',
+    'CNN breaking news', 'Bloomberg news latest', '速報 国際 海外'
+  ],
+  japan: ['速報 日本', 'NHK 最新ニュース', '共同通信 速報']
+};
+
+async function tickBreaking() {
+  if (!state.power || !state.settings.breaking) return;
+  const now = Date.now();
+  const interval = 60 * 60 * 1000; // 1時間
+  if (now - state.breakingLastChecked < interval) return;
+  state.breakingLastChecked = now;
+  persist();
+  updateBreakingStatus();
+  addLog('🔴 速報ニュースをチェック中…');
+  await checkBreakingNews();
+}
+
+async function checkBreakingNews() {
+  const apiKey = getApiKey();
+  if (!apiKey) return;
+  const priority = state.settings.globalPriority || 'balanced';
+  const queries = globalSearchQueries[priority];
+  const queryStr = queries.join(' / ');
+  const recentTopics = state.quizzes.slice(0, 10).map(q => q.source).filter(Boolean).join(' / ');
+
+  const prompt = `あなたは24時間ニュース監視をしているX(Twitter)クイズBotのシステムです。
+Web検索を使って「${queryStr}」で直近1〜2時間以内の速報ニュースを調べてください。
+対象は日本国内・英語圏（Reuters/AP/BBC/CNN/Bloomberg）・アジア圏のニュースを幅広くカバーしてください。
+
+【重要な判定】
+以下の条件を満たす「本当の速報」があれば、それを元にクイズを作成してください：
+- 直近1〜2時間以内に出た新しいニュース
+- 下記の出題済みトピックとは明らかに異なる内容
+- 出題済みトピック: ${recentTopics || 'なし'}
+
+速報がなければ（または既出トピックのみなら） {"no_breaking": true} だけ返してください。
+
+速報があればクイズを作成。スタイルはランダムに変化させて人間らしく：
+- 冒頭に「速報です🚨」または「今入ってきたニュース」など速報感のある一言を入れる
+- 4択形式（記号は毎回変える）
+- 文末に「#速報 #出典 メディア名」
+- 解説は180文字以内
+
+JSON形式のみで返答：
+{
+  "question": "クイズ全文",
+  "answer": "正解＋解説",
+  "source": "メディア名と記事タイトル",
+  "category": "速報",
+  "no_breaking": false
+}`;
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 1200,
+        messages: [{ role: 'user', content: prompt }],
+        tools: [{ type: 'web_search_20250305', name: 'web_search' }]
+      })
+    });
+    if (!res.ok) throw new Error(`APIエラー (${res.status})`);
+    const data = await res.json();
+    const text = data.content.filter(i => i.type === 'text').map(i => i.text).join('');
+    const match = text.replace(/```json|```/g, '').trim().match(/\{[\s\S]*\}/);
+    if (!match) throw new Error('JSON not found');
+    const result = JSON.parse(match[0]);
+
+    if (result.no_breaking) {
+      addLog('🔴 速報チェック完了：新着なし');
+      updateBreakingStatus();
+      return;
+    }
+
+    // 速報クイズを追加
+    const now2 = Date.now();
+    state.quizzes.unshift({
+      id: now2,
+      question: result.question,
+      answer: result.answer || '',
+      source: result.source || '',
+      category: '🔴 速報',
+      mode: 'theme',
+      noAnswer: false,
+      srcUrl: '',
+      status: 'pending',
+      createdAt: now2,
+      expiresAt: now2 + state.settings.deadline * 60000
+    });
+    state.breakingLastHeadline = result.source;
+    persist(); renderAll();
+    addLog(`🚨 速報クイズを生成しました: ${result.source}`);
+    showToast('🚨 速報ニュースのクイズが届きました！');
+    if (window.Notification && Notification.permission === 'granted') {
+      new Notification('🚨 速報クイズ', { body: result.source || '新着速報からクイズを生成しました' });
+    }
+    updateBreakingStatus();
+  } catch(e) {
+    addLog('⚠️ 速報チェック失敗: ' + e.message);
+    updateBreakingStatus();
+  }
+}
+
+// ===== まとめ記事生成 =====
+async function generateDigest(period) {
+  const apiKey = getApiKey();
+  if (!apiKey) { showToast('🔑 先にAPIキーを設定してください'); return; }
+
+  const days = period === 'weekly' ? 7 : 30;
+  const label = period === 'weekly' ? '週間' : '月間';
+  const since = Date.now() - days * 24 * 60 * 60 * 1000;
+
+  // 期間内のクイズを集める（投稿済み・承認済み・完了を対象）
+  const items = state.quizzes.filter(q => q.createdAt >= since && q.question);
+  if (items.length < 2) {
+    showToast(`⚠️ ${label}まとめに使えるクイズが足りません（最低2問）`);
+    return;
+  }
+
+  const wBtn = document.getElementById('weekly-btn');
+  const mBtn = document.getElementById('monthly-btn');
+  const btn = period === 'weekly' ? wBtn : mBtn;
+  const origText = btn.innerHTML;
+  btn.disabled = true; wBtn.disabled = true; mBtn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> ' + label + 'まとめを作成中…';
+  document.getElementById('digest-status').textContent = `${items.length}問から${label}まとめを生成しています…`;
+
+  // クイズ内容を要約してプロンプトに渡す
+  const quizDigest = items.map((q, i) =>
+    `【${i+1}】${q.category || '時事'} / ${q.source || ''}\nクイズ: ${q.question.slice(0, 120)}\n答え: ${(q.answer || '').slice(0, 120)}`
+  ).join('\n\n');
+
+  let prompt;
+  if (period === 'weekly') {
+    prompt = `あなたはX(Twitter)の人気アカウント「クイズハム🐹」の中の人です。キンクマハムスターのキャラ（語尾「〜だよ」「〜なのだ」、好奇心旺盛で愛嬌のある口調、🐹🌻の絵文字を時々）。
+
+この1週間に出題した時事クイズを、X記事（長文ポスト）用の「週間まとめ」にしてください。
+
+【今週のクイズ一覧】
+${quizDigest}
+
+【記事の構成】
+- タイトル（ハムらしく、今週を振り返る一言）
+- 導入（今週はどんな1週間だったか、ハムの感想を2〜3文）
+- 各ニュースを「ジャンルごと」に分類し、見出し付きで簡潔に振り返る（クイズ形式ではなく、読み物として。各項目に🌰豆知識を1つ添える）
+- 締め（来週もフォローしてね、という誘導）
+
+【厳守】
+- 全体1000〜1500文字程度（長すぎず最後まで読める長さ）
+- 事実は正確に。クイズの答えに基づく
+- 読みやすく改行・見出しを使う（Xの長文ポストは装飾できないので、■や▼などの記号で見出しを表現）
+- ハムのキャラを一貫させる
+
+記事本文のみを出力してください（JSON不要、そのまま投稿できる形で）。`;
+  } else {
+    prompt = `あなたはX(Twitter)の人気アカウント「クイズハム🐹」の中の人です。キンクマハムスターのキャラ（語尾「〜だよ」「〜なのだ」、好奇心旺盛で愛嬌のある口調、🐹🌻の絵文字を時々）。
+
+この1ヶ月に出題した時事クイズを、X記事用の「月間まとめ」にしてください。週間より濃く、読み応えのある保存版にします。
+
+【今月のクイズ一覧】
+${quizDigest}
+
+【記事の構成（保存版・濃いめ）】
+- タイトル（今月を象徴する一言。保存したくなるような）
+- 導入（今月の総括。どんな動きが目立った月だったか、ハムの視点で4〜5文）
+- 「今月の重大ニュースTOP5」を選び、それぞれ背景・影響・今後の見通しまで踏み込んで解説（単なる振り返りでなく、点と点をつなぐ分析を入れる）
+- ジャンル別（経済/国際/科学/社会など）の動向まとめ
+- 各項目に🌰豆知識や関連トリビアを添える
+- 「来月の注目ポイント」を予想として2〜3個
+- 締め（保存・フォロー・通知オンへの誘導）
+
+【厳守】
+- 全体2500〜3500文字程度（読み応え重視だが冗長にしない）
+- 事実は正確に。憶測は「〜と見られる」と明示
+- ■▼などの記号で見出しを表現し、読みやすく
+- ハムのキャラを一貫させつつ、月間版は少し落ち着いた分析トーンも混ぜる
+
+記事本文のみを出力してください（JSON不要、そのまま投稿できる形で）。`;
+  }
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: period === 'weekly' ? 2500 : 4500,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+    if (!res.ok) throw new Error(`APIエラー (${res.status})`);
+    const data = await res.json();
+    const article = data.content.filter(i => i.type === 'text').map(i => i.text).join('').trim();
+
+    // まとめ記事をクイズリストに特別アイテムとして追加
+    const now = Date.now();
+    state.quizzes.unshift({
+      id: now,
+      question: article,
+      answer: '',
+      source: `${label}まとめ（${items.length}問分）`,
+      category: period === 'weekly' ? '📅 週間まとめ' : '📚 月間まとめ',
+      mode: 'digest',
+      noAnswer: true,
+      srcUrl: '',
+      status: 'pending',
+      createdAt: now,
+      expiresAt: now + 24 * 60 * 60 * 1000  // まとめは24時間有効
+    });
+    persist(); renderAll();
+    addLog(`📰 ${label}まとめ記事を生成しました（${items.length}問分）`);
+    document.getElementById('digest-status').textContent = `✅ ${label}まとめが承認待ちに追加されました`;
+    showToast(`📰 ${label}まとめ記事が完成しました！`);
+  } catch(e) {
+    addLog(`⚠️ ${label}まとめ生成失敗: ` + e.message);
+    document.getElementById('digest-status').textContent = '⚠️ 生成に失敗しました';
+    showToast('⚠️ まとめ生成に失敗しました');
+  } finally {
+    wBtn.disabled = false; mBtn.disabled = false;
+    btn.innerHTML = origText;
+  }
+}
+
 function getApiKey() {
   return localStorage.getItem('quizbot_apikey') || '';
 }
@@ -554,12 +949,21 @@ function init() {
   document.getElementById('approve-deadline').value = state.settings.deadline;
   document.getElementById('answer-delay').value = state.settings.answerDelay;
   document.getElementById('quiz-genre').value = state.settings.genre;
+  document.getElementById('reminder-7').checked = state.settings.reminders.r7;
+  document.getElementById('reminder-12').checked = state.settings.reminders.r12;
+  document.getElementById('reminder-21').checked = state.settings.reminders.r21;
+  document.getElementById('breaking-enabled').checked = state.settings.breaking;
+  document.getElementById('global-priority').value = state.settings.globalPriority;
+  updateReminderStatus();
+  updateBreakingStatus();
   renderAll();
-  setInterval(tick, 5000); // check expiry/answer due every 5s
+  setInterval(tick, 5000);
+  setInterval(tickReminder, 30000);  // 30秒ごとにリマインダーチェック
+  setInterval(tickBreaking, 60000);  // 1分ごとに速報チェック判定
 }
 
 function persist() {
-  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes, logs: state.logs.slice(0,50), settings: state.settings }));
+  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings }));
 }
 
 function saveSettings() {
@@ -567,8 +971,17 @@ function saveSettings() {
   state.settings.deadline = +document.getElementById('approve-deadline').value;
   state.settings.answerDelay = +document.getElementById('answer-delay').value;
   state.settings.genre = document.getElementById('quiz-genre').value;
+  state.settings.reminders = {
+    r7:  document.getElementById('reminder-7').checked,
+    r12: document.getElementById('reminder-12').checked,
+    r21: document.getElementById('reminder-21').checked
+  };
+  state.settings.breaking = document.getElementById('breaking-enabled').checked;
+  state.settings.globalPriority = document.getElementById('global-priority').value;
   persist();
-  if (state.power) scheduleNextGen(); // re-schedule with new interval
+  if (state.power) scheduleNextGen();
+  updateReminderStatus();
+  updateBreakingStatus();
   showToast('⚙️ 設定を保存しました');
 }
 
@@ -616,12 +1029,12 @@ function updateNextGenText() {
 
 // ===== Quiz generation =====
 const genreMap = {
-  mixed: '直近2〜3日の重要な時事問題（国際・国内・経済・科学などバランス良く）',
-  world: '直近2〜3日の国際ニュース',
-  japan: '直近2〜3日の日本国内ニュース',
-  economy: '直近2〜3日の経済・ビジネスニュース',
-  science: '直近の科学・テクノロジーニュース',
-  sports: '直近のスポーツニュース'
+  mixed:   '直近2〜3日の重要な時事問題（国内・国際・経済・科学などバランス良く。Reuters/AP/NHK/日経/BBCを幅広く検索すること）',
+  world:   '直近2〜3日の国際ニュース（Reuters/AP/BBC/CNN/Bloomberg/Al Jazeera等の英語メディアを優先検索し、海外目線の話題を取り上げること）',
+  japan:   '直近2〜3日の日本国内ニュース（NHK/日経/朝日/共同通信等）',
+  economy: '直近2〜3日の経済・ビジネスニュース（国内外含む。Bloomberg/日経/Reutersを検索）',
+  science: '直近の科学・テクノロジーニュース（Nature/Science/TechCrunch/国内IT媒体を含む）',
+  sports:  '直近のスポーツニュース（国内外含む。MLB/NBA/欧州サッカー/大相撲等も対象）'
 };
 
 async function generateQuiz(manual, topic, progress, mode, srcUrl) {
@@ -680,18 +1093,25 @@ async function generateQuiz(manual, topic, progress, mode, srcUrl) {
   ]);
 
   // 人間らしさ共通指示（毎回ランダムなスタイルを注入）
-  const humanizeBlock = `【最重要・人間らしさと多様性】
-このクイズは「AIが自動生成した感」「毎回同じテンプレ感」を絶対に出さないこと。過去の投稿と似た言い回し・構成を避け、今回は下記スタイルで書くこと:
+  const humanizeBlock = `【キャラクター設定】
+あなたはX(Twitter)の時事クイズアカウント「クイズハム🐹」の中の人です。キンクマハムスターがモチーフですが、キャラは"ほんのり"効かせる程度に抑え、誰が読んでも自然で親しみやすい文章にします:
+- 基本は親しみやすく丁寧な口調。時々「🐹」の絵文字や軽い一言で愛嬌を出す程度に留める
+- 「〜なのだ」「ハムっ」「むしゃむしゃ」などの濃いキャラ語尾は多用しない（ごくたまに、自然な範囲で）
+- 出題は「今日の一問です🐹」「これ、わかりますか？」のように、親しみはありつつ読みやすさ優先
+- 解答は「正解は○○でした！」のように素直に。できた人を軽く褒め、外した人も励ます一言を添える
+- キャラより「内容の分かりやすさ」と「読みやすさ」を優先する
+
+【人間らしさと多様性】
+「AIが自動生成した感」「毎回同じテンプレ感」を出さないこと。過去の投稿と似た言い回しを避け、今回は下記スタイルで書くこと:
 - 書き出し: ${styleOpener}
-- 問いかけの締め: 「${styleQuestion}」のニュアンスで（そのままでなく自然に）
+- 問いかけの締め: 「${styleQuestion}」を自然な言い回しで
 - 選択肢の記号: ${styleSymbol}
 - 文章量: ${styleLength}
-- 絵文字: ${styleEmoji}
+- 絵文字: ${styleEmoji}（🐹は時々でよい）
 さらに:
 - 「問題:」「クイズ:」のような機械的な見出しは使わない
-- ダミー選択肢も"ありそうで紛らわしい"ものにする（明らかに変な選択肢を混ぜない）
-- 改行位置や句読点の打ち方も毎回少し変え、定型パターンにならないようにする
-- 同じ出だし・同じ締めの言葉を繰り返さない`;
+- ダミー選択肢も"ありそうで紛らわしい"ものにする
+- 改行位置や句読点も毎回少し変え、定型パターンにならないようにする`;
 
   let prompt, tools;
 
@@ -705,15 +1125,16 @@ ${humanizeBlock}
 - 事実（数字・固有名詞・日付）は正確に
 - クイズ本文は日本語で全体220文字以内（出典ハッシュタグ含む）
 - 文末に出典を「#出典 メディア名」の形で必ず記載
-- 解説（正解返信用）は180文字以内
+- 解説（正解返信用）は雑学を含めて220文字程度まで
 ${topic ? '- 必ず「' + topic + '」に関係する内容にすること' : ''}
 ${recentTopics ? '- 以下の最近出題済みトピックとは異なるニュースを選ぶこと: ' + recentTopics : ''}
 
 以下のJSON形式のみで返答してください。前置きやMarkdownのコードブロックは不要です:
 {
-  "question": "クイズ投稿の全文（ツカミ＋問いかけ＋4択＋#出典）",
-  "answer": "正解返信用の全文（正解＋豆知識・一言コメント）",
+  "question": "クイズ投稿の全文（自然で親しみやすい口調でツカミ＋問いかけ＋4択＋#出典）",
+  "answer": "正解返信用の全文。次の3部構成で：①『正解は○○でした！』のように素直に答え合わせ（軽く褒める/励ます一言を添える）②なぜその答えなのか簡潔な解説 ③『🌰豆知識』として、思わず『へぇ』と言いたくなる関連雑学を1つ添える。全体で200文字程度。キャラは控えめに、読みやすさ優先",
   "source": "出典メディア名と記事タイトル",
+  "sourceUrl": "出典記事の正確なURL（Web検索で得た実在するURLのみ。不明な場合は空文字）",
   "category": "ジャンル名"
 }`;
     tools = [{ type: 'web_search_20250305', name: 'web_search' }];
@@ -818,6 +1239,7 @@ ${humanizeBlock}
       question: quiz.question,
       answer: quiz.answer || '',
       source: quiz.source || '',
+      sourceUrl: quiz.sourceUrl || '',
       category: quiz.category || '時事',
       mode: mode,
       noAnswer: noAnswer,
@@ -861,13 +1283,13 @@ function approveQuiz(id) {
     persist(); renderAll();
     addLog('👍 承認しました（正解返信なしモード）');
     const label = q.mode === 'post' ? 'クイズを引用リポストで投稿' : 'クイズをXに投稿';
-    openShareModal(q.question, label, q.mode, q.srcUrl);
+    openShareModal(q.question, label, q.mode, q.srcUrl, q.sourceUrl);
   } else {
     q.status = 'approved';
     q.answerDueAt = Date.now() + state.settings.answerDelay * 60000;
     persist(); renderAll();
     addLog('👍 クイズを承認しました');
-    openShareModal(q.question, 'クイズをXに投稿');
+    openShareModal(q.question, 'クイズをXに投稿', 'theme', '', q.sourceUrl);
   }
 }
 
@@ -880,21 +1302,27 @@ function rejectQuiz(id) {
 
 function copyAnswer(id) {
   const q = state.quizzes.find(q => q.id === id);
-  if (q) openShareModal(q.answer, '正解をXで返信');
+  if (!q) return;
+  // 正解返信に出典リンクを同梱（案B）
+  let answerText = q.answer;
+  if (q.sourceUrl) answerText += `\n\n📰 詳しくはこちら→ ${q.sourceUrl}`;
+  openShareModal(answerText, '正解をXで返信', 'theme', '', '');
 }
 
 function copyQuestion(id) {
   const q = state.quizzes.find(q => q.id === id);
-  if (q) openShareModal(q.question, 'クイズをXに投稿');
+  if (q) openShareModal(q.question, 'クイズをXに投稿', 'theme', '', q.sourceUrl);
 }
 
 // ===== Share modal (copy fallback + X intent) =====
 let shareMode = 'theme';
 let shareUrl = '';
+let shareSourceUrl = '';
 
-function openShareModal(text, title, mode, srcUrl) {
+function openShareModal(text, title, mode, srcUrl, sourceUrl) {
   shareMode = mode || 'theme';
   shareUrl = srcUrl || '';
+  shareSourceUrl = sourceUrl || '';
   let modal = document.getElementById('share-modal');
   if (!modal) {
     modal = document.createElement('div');
@@ -915,6 +1343,13 @@ function openShareModal(text, title, mode, srcUrl) {
         <button onclick="openXApp()" style="width:100%;padding:14px;border-radius:10px;border:none;background:#000;color:#fff;font-size:15px;font-weight:700;font-family:inherit;cursor:pointer;margin-bottom:8px;">
           𝕏 Xアプリを開く（貼り付けて投稿）
         </button>
+        <div id="source-link-box" style="display:none;background:rgba(56,189,248,0.08);border:1px dashed rgba(56,189,248,0.4);border-radius:10px;padding:12px;margin-bottom:8px;">
+          <div style="font-size:11px;color:var(--accent2);font-weight:700;margin-bottom:6px;">🔗 出典リンク（投稿後の「返信」に貼ると、インプレッションを下げずにソースを示せます）</div>
+          <div id="source-link-text" style="font-size:11px;color:var(--muted);word-break:break-all;margin-bottom:8px;-webkit-user-select:text;user-select:text;"></div>
+          <button onclick="copySourceLink()" style="width:100%;padding:10px;border-radius:8px;border:none;background:var(--accent2);color:#082f49;font-size:13px;font-weight:700;font-family:inherit;cursor:pointer;">
+            🔗 出典リンクを返信用にコピー
+          </button>
+        </div>
         <details style="margin-bottom:8px;">
           <summary style="font-size:12px;color:var(--muted);cursor:pointer;padding:8px 0;">▸ うまくいかない時（手打ち・自動入力）</summary>
           <div style="padding:6px 0;">
@@ -932,6 +1367,14 @@ function openShareModal(text, title, mode, srcUrl) {
     document.body.appendChild(modal);
   }
   document.getElementById('share-title').textContent = title;
+  // 出典リンクボックスの表示（案A：自己リプライ用）
+  const linkBox = document.getElementById('source-link-box');
+  if (shareSourceUrl) {
+    linkBox.style.display = 'block';
+    document.getElementById('source-link-text').textContent = shareSourceUrl;
+  } else {
+    linkBox.style.display = 'none';
+  }
   // 手動投稿なので、URLモードは本文にURLを含めてコピーできるようにする
   let fullText = text;
   if (shareMode === 'post' && shareUrl) {
@@ -956,6 +1399,15 @@ function openShareModal(text, title, mode, srcUrl) {
 function openXApp() {
   // 本文なしでXの新規投稿画面だけ開く（貼り付けは手動＝人間の操作）
   window.open('https://twitter.com/intent/tweet', '_blank');
+}
+
+function copySourceLink() {
+  if (!shareSourceUrl) return;
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(shareSourceUrl).then(() => showToast('🔗 出典リンクをコピーしました。投稿の返信に貼ってください')).catch(() => showToast('⚠️ 長押しでコピーしてください'));
+  } else {
+    showToast('⚠️ リンクを長押しでコピーしてください');
+  }
 }
 
 function closeShareModal() {
@@ -1074,9 +1526,62 @@ function renderAll() {
   renderPending();
   renderAnswerQueue();
   renderLogs();
+  renderHistory();
 }
 
 function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+// ===== 過去問題ライブラリ =====
+function renderHistory() {
+  const el = document.getElementById('history-list');
+  if (!el) return;
+  const kw = (document.getElementById('history-search')?.value || '').trim().toLowerCase();
+  // 全クイズを新しい順に（まとめ記事は除外）
+  let items = state.quizzes.filter(q => q.mode !== 'digest' && q.question);
+  if (kw) {
+    items = items.filter(q =>
+      (q.question || '').toLowerCase().includes(kw) ||
+      (q.category || '').toLowerCase().includes(kw) ||
+      (q.source || '').toLowerCase().includes(kw)
+    );
+  }
+  if (!items.length) {
+    el.innerHTML = '<div class="empty" style="padding:20px"><span class="icon">📭</span>' + (kw ? '該当する問題がありません' : 'まだ問題がありません') + '</div>';
+    return;
+  }
+  el.innerHTML = items.slice(0, 50).map(q => {
+    const d = new Date(q.createdAt);
+    const dateStr = `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+    const statusLabel = { pending:'承認待ち', approved:'投稿済', done:'完了', discarded:'破棄' }[q.status] || q.status;
+    return `
+    <div class="quiz-item" style="border-left:3px solid var(--muted)">
+      <div class="quiz-meta">
+        <span class="badge badge-cat">${esc(q.category || '時事')}</span>
+        <span class="post-time" style="margin-left:auto;font-size:11px;color:var(--muted)">${dateStr} · ${statusLabel}</span>
+      </div>
+      <div class="quiz-text" style="font-size:13px">${esc(q.question.slice(0, 100))}${q.question.length > 100 ? '…' : ''}</div>
+      <div class="quiz-actions">
+        <button class="btn btn-copy" style="flex:1;justify-content:center" onclick="reuseHistory(${q.id})">📋 もう一度コピー</button>
+        <button class="btn btn-ghost" onclick="showHistoryDetail(${q.id})">詳細</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function reuseHistory(id) {
+  const q = state.quizzes.find(q => q.id === id);
+  if (!q) return;
+  openShareModal(q.question, '過去の問題を再投稿', q.mode || 'theme', q.srcUrl || '', q.sourceUrl || '');
+}
+
+function showHistoryDetail(id) {
+  const q = state.quizzes.find(q => q.id === id);
+  if (!q) return;
+  let detail = q.question;
+  if (q.answer) detail += '\n\n━━ 正解 ━━\n' + q.answer;
+  if (q.source) detail += '\n\n📰 ' + q.source;
+  openShareModal(detail, '過去の問題（詳細）', 'theme', '', q.sourceUrl || '');
+}
 
 function renderPending() {
   const items = state.quizzes.filter(q => q.status === 'pending');
