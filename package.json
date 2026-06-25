@@ -1,0 +1,13 @@
+{
+  "name": "mitsuru-quiz-server",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for quiz bot remote access",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.16.0"
+  }
+}

@@ -326,6 +326,7 @@
     <span class="power-label" id="power-label">OFF</span>
     <button class="switch" id="power-switch" onclick="togglePower()"></button>
   </div>
+  <div id="ws-status" style="display:none;font-size:10px;padding:3px 9px;border-radius:10px;background:rgba(125,138,163,0.15);color:var(--muted)">⬤ 切断中</div>
 </header>
 
 <div class="status-bar">
@@ -454,6 +455,26 @@
       <option value="science">科学・テクノロジー</option>
       <option value="sports">スポーツ</option>
     </select>
+  </div>
+</div>
+
+<!-- リモート接続設定 -->
+<div class="card">
+  <h2>🔗 リモート接続設定</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:12px;line-height:1.7">PCでサーバーを起動し、外出先のスマホからクイズを管理できます。</div>
+  <div id="ws-connect-status" style="font-size:12px;margin-bottom:12px;color:var(--muted);font-weight:600">未接続</div>
+  <input type="text" id="ws-url-input" placeholder="wss://xxxx.trycloudflare.com（またはws://localhost:3000）"
+    style="width:100%;box-sizing:border-box;background:var(--card-bg);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:10px 12px;font-size:13px;margin-bottom:8px;outline:none">
+  <input type="password" id="ws-token-input" placeholder="認証トークン（AUTH_TOKEN）"
+    autocomplete="off"
+    style="width:100%;box-sizing:border-box;background:var(--card-bg);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:10px 12px;font-size:13px;margin-bottom:10px;outline:none">
+  <div style="display:flex;gap:8px">
+    <button class="btn btn-copy" style="flex:1;justify-content:center" onclick="saveWsConfig()">💾 保存して接続</button>
+    <button class="btn btn-reject" style="padding:10px 16px" onclick="disconnectWs()">切断</button>
+  </div>
+  <div style="font-size:10px;color:var(--muted);margin-top:10px;line-height:1.7">
+    🔒 トークンはこの端末のブラウザ内にのみ保存されます。<br>
+    📡 Cloudflare Tunnel: <code style="background:rgba(255,255,255,0.06);padding:1px 4px;border-radius:3px">cloudflared tunnel --url http://localhost:3000</code>
   </div>
 </div>
 
@@ -961,10 +982,25 @@ function init() {
   setInterval(tick, 5000);
   setInterval(tickReminder, 30000);  // 30秒ごとにリマインダーチェック
   setInterval(tickBreaking, 60000);  // 1分ごとに速報チェック判定
+  const wsCfg = getWsConfig();
+  if (wsCfg.url) document.getElementById('ws-url-input').value = wsCfg.url;
+  connectWs();
 }
 
 function persist() {
-  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings }));
+  state.stateVersion = Date.now();
+  const payload = {
+    quizzes: state.quizzes.slice(0, 200),
+    logs: state.logs.slice(0, 50),
+    settings: state.settings,
+    stateVersion: state.stateVersion,
+    breakingLastChecked: state.breakingLastChecked,
+    breakingLastHeadline: state.breakingLastHeadline
+  };
+  localStorage.setItem('quizbot_state', JSON.stringify(payload));
+  if (ws && wsConnected && ws.readyState === WebSocket.OPEN) {
+    ws.send(JSON.stringify({ type: 'state_push', state: payload }));
+  }
 }
 
 function saveSettings() {
@@ -1797,6 +1833,161 @@ document.addEventListener('click', function once() {
 // PWA: Service Worker登録（Web公開時のみ動作）
 if ('serviceWorker' in navigator && location.protocol === 'https:') {
   navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+
+// ===== WebSocket リモート同期 =====
+let ws = null;
+let wsReconnectTimer = null;
+let wsConnected = false;
+
+function getWsConfig() {
+  return {
+    url: localStorage.getItem('quizbot_wsurl') || '',
+    token: localStorage.getItem('quizbot_wstoken') || ''
+  };
+}
+
+function saveWsConfig() {
+  const url = document.getElementById('ws-url-input').value.trim();
+  const token = document.getElementById('ws-token-input').value.trim();
+  if (!url || !token) { showToast('⚠️ URLとトークンを両方入力してください'); return; }
+  localStorage.setItem('quizbot_wsurl', url);
+  localStorage.setItem('quizbot_wstoken', token);
+  document.getElementById('ws-token-input').value = '';
+  showToast('🔗 接続設定を保存しました');
+  connectWs();
+}
+
+function disconnectWs() {
+  localStorage.removeItem('quizbot_wsurl');
+  localStorage.removeItem('quizbot_wstoken');
+  if (ws) { ws.close(); ws = null; }
+  clearTimeout(wsReconnectTimer);
+  wsConnected = false;
+  document.getElementById('ws-url-input').value = '';
+  updateWsStatus('disconnected');
+  showToast('切断しました');
+}
+
+function connectWs() {
+  const { url, token } = getWsConfig();
+  if (!url || !token) return;
+  if (ws) { ws.close(); ws = null; }
+  clearTimeout(wsReconnectTimer);
+
+  updateWsStatus('connecting');
+  try {
+    ws = new WebSocket(url);
+  } catch (e) {
+    updateWsStatus('error');
+    wsReconnectTimer = setTimeout(connectWs, 5000);
+    return;
+  }
+
+  ws.onopen = () => {
+    ws.send(JSON.stringify({ type: 'auth', token }));
+  };
+
+  ws.onmessage = (event) => {
+    let msg;
+    try { msg = JSON.parse(event.data); } catch { return; }
+
+    if (msg.type === 'auth_ok') {
+      wsConnected = true;
+      updateWsStatus('connected');
+      addLog('🔗 サーバーに接続しました');
+    }
+
+    if (msg.type === 'auth_fail') {
+      wsConnected = false;
+      ws.close();
+      updateWsStatus('error');
+      showToast('🔐 認証に失敗しました。トークンを確認してください');
+    }
+
+    if (msg.type === 'state_init') {
+      applyRemoteState(msg.state);
+      addLog('📡 サーバーから最新の状態を受信しました');
+    }
+
+    if (msg.type === 'state_push') {
+      applyRemoteState(msg.state);
+    }
+  };
+
+  ws.onerror = () => {
+    wsConnected = false;
+    updateWsStatus('error');
+  };
+
+  ws.onclose = () => {
+    wsConnected = false;
+    ws = null;
+    updateWsStatus('disconnected');
+    const { url: u, token: t } = getWsConfig();
+    if (u && t) {
+      wsReconnectTimer = setTimeout(connectWs, 5000);
+    }
+  };
+}
+
+function applyRemoteState(remoteState) {
+  if (!remoteState) return;
+  const localVersion = state.stateVersion || 0;
+  const remoteVersion = remoteState.stateVersion || 0;
+  if (remoteVersion <= localVersion) return;
+
+  const localPower = state.power;
+  state.quizzes = remoteState.quizzes || state.quizzes;
+  state.logs = remoteState.logs || state.logs;
+  state.settings = remoteState.settings || state.settings;
+  state.stateVersion = remoteVersion;
+  state.power = localPower;
+  state.breakingLastChecked = remoteState.breakingLastChecked || state.breakingLastChecked;
+  state.breakingLastHeadline = remoteState.breakingLastHeadline || state.breakingLastHeadline;
+
+  // 設定UIに反映
+  document.getElementById('gen-interval').value = state.settings.interval;
+  document.getElementById('approve-deadline').value = state.settings.deadline;
+  document.getElementById('answer-delay').value = state.settings.answerDelay;
+  document.getElementById('quiz-genre').value = state.settings.genre;
+  document.getElementById('reminder-7').checked = state.settings.reminders.r7;
+  document.getElementById('reminder-12').checked = state.settings.reminders.r12;
+  document.getElementById('reminder-21').checked = state.settings.reminders.r21;
+  document.getElementById('breaking-enabled').checked = state.settings.breaking;
+  document.getElementById('global-priority').value = state.settings.globalPriority;
+
+  localStorage.setItem('quizbot_state', JSON.stringify({
+    quizzes: state.quizzes.slice(0, 200),
+    logs: state.logs.slice(0, 50),
+    settings: state.settings,
+    stateVersion: state.stateVersion
+  }));
+  renderAll();
+}
+
+function updateWsStatus(status) {
+  const pill = document.getElementById('ws-status');
+  const detail = document.getElementById('ws-connect-status');
+
+  const statusMap = {
+    connecting:   { text: '⬤ 接続中…',  color: 'var(--accent)' },
+    connected:    { text: '⬤ 接続済',    color: 'var(--success)' },
+    disconnected: { text: '⬤ 切断中',    color: 'var(--muted)' },
+    error:        { text: '⬤ エラー',     color: 'var(--danger)' }
+  };
+  const s = statusMap[status];
+  if (!s) return;
+
+  if (pill) {
+    pill.style.display = 'inline-block';
+    pill.style.color = s.color;
+    pill.textContent = s.text;
+  }
+  if (detail) {
+    detail.style.color = s.color;
+    detail.textContent = s.text;
+  }
 }
 
 init();
