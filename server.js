@@ -3,6 +3,15 @@ const { WebSocketServer } = require('ws');
 const fs = require('fs');
 const path = require('path');
 
+// .env ファイルがあれば読み込む（dotnet不要の簡易実装）
+const envFile = path.join(__dirname, '.env');
+if (fs.existsSync(envFile)) {
+  fs.readFileSync(envFile, 'utf8').split('\n').forEach(line => {
+    const [k, ...v] = line.trim().split('=');
+    if (k && v.length && !process.env[k]) process.env[k] = v.join('=');
+  });
+}
+
 const PORT = process.env.PORT || 3000;
 const AUTH_TOKEN = process.env.AUTH_TOKEN;
 const STATE_FILE = path.join(__dirname, 'state.json');
