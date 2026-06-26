@@ -458,6 +458,29 @@
   </div>
 </div>
 
+<!-- X自動投稿・メール通知設定 -->
+<div class="card">
+  <h2>🐦 X自動投稿 / 📧 メール通知</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.7">
+    サーバーの <code style="background:rgba(255,255,255,0.06);padding:1px 4px;border-radius:3px">.env</code> ファイルに以下を追記することで有効になります。
+  </div>
+  <div style="background:rgba(255,255,255,0.04);border-radius:8px;padding:10px 12px;font-size:11px;font-family:monospace;color:var(--muted);line-height:2;margin-bottom:10px;word-break:break-all;">
+    <div style="color:var(--accent2);font-family:sans-serif;font-size:10px;margin-bottom:4px;font-weight:700">【X自動投稿】Twitter Developer Portal で取得</div>
+    TWITTER_CONSUMER_KEY=...<br>
+    TWITTER_CONSUMER_SECRET=...<br>
+    TWITTER_ACCESS_TOKEN=...<br>
+    TWITTER_ACCESS_TOKEN_SECRET=...<br>
+    <div style="color:var(--accent2);font-family:sans-serif;font-size:10px;margin:6px 0 4px;font-weight:700">【メール通知】Gmail推奨（アプリパスワード使用）</div>
+    NOTIFY_EMAIL_TO=受信先メールアドレス<br>
+    SMTP_HOST=smtp.gmail.com<br>
+    SMTP_PORT=587<br>
+    SMTP_USER=Gmailアドレス<br>
+    SMTP_PASS=Gmailアプリパスワード
+  </div>
+  <div id="xapi-status" style="font-size:12px;color:var(--muted);margin-bottom:4px">X API: — （サーバー未接続）</div>
+  <div id="email-status" style="font-size:12px;color:var(--muted)">メール: — （サーバー未接続）</div>
+</div>
+
 <!-- リモート接続設定 -->
 <div class="card">
   <h2>🔗 リモート接続設定</h2>
@@ -1337,6 +1360,9 @@ ${humanizeBlock}
     if (window.Notification && Notification.permission === 'granted') {
       new Notification('🧠 新しい時事クイズ', { body: '承認待ちのクイズがあります' });
     }
+
+    // メール通知
+    sendEmailNotify('🧠 クイズ承認待ち', `新しいクイズが届きました。\n\n${quiz.question.slice(0, 200)}`).catch(() => {});
     generating = false;
     btn.disabled = false;
     btn.innerHTML = '⚡ 生成開始';
@@ -1362,13 +1388,13 @@ function approveQuiz(id) {
     persist(); renderAll();
     addLog('👍 承認しました（正解返信なしモード）');
     const label = q.mode === 'post' ? 'クイズを引用リポストで投稿' : 'クイズをXに投稿';
-    openShareModal(q.question, label, q.mode, q.srcUrl, q.sourceUrl);
+    openShareModal(q.question, label, q.mode, q.srcUrl, q.sourceUrl, id);
   } else {
     q.status = 'approved';
     q.answerDueAt = Date.now() + state.settings.answerDelay * 60000;
     persist(); renderAll();
     addLog('👍 クイズを承認しました');
-    openShareModal(q.question, 'クイズをXに投稿', 'theme', '', q.sourceUrl);
+    openShareModal(q.question, 'クイズをXに投稿', 'theme', '', q.sourceUrl, id);
   }
 }
 
@@ -1382,10 +1408,9 @@ function rejectQuiz(id) {
 function copyAnswer(id) {
   const q = state.quizzes.find(q => q.id === id);
   if (!q) return;
-  // 正解返信に出典リンクを同梱（案B）
   let answerText = q.answer;
   if (q.sourceUrl) answerText += `\n\n📰 詳しくはこちら→ ${q.sourceUrl}`;
-  openShareModal(answerText, '正解をXで返信', 'theme', '', '');
+  openShareModal(answerText, '正解をXで返信', 'theme', '', '', id);
 }
 
 function copyQuestion(id) {
@@ -1397,11 +1422,14 @@ function copyQuestion(id) {
 let shareMode = 'theme';
 let shareUrl = '';
 let shareSourceUrl = '';
+let shareQuizId = null;
+let shareFullText = '';
 
-function openShareModal(text, title, mode, srcUrl, sourceUrl) {
+function openShareModal(text, title, mode, srcUrl, sourceUrl, quizId) {
   shareMode = mode || 'theme';
   shareUrl = srcUrl || '';
   shareSourceUrl = sourceUrl || '';
+  shareQuizId = quizId || null;
   let modal = document.getElementById('share-modal');
   if (!modal) {
     modal = document.createElement('div');
@@ -1419,8 +1447,17 @@ function openShareModal(text, title, mode, srcUrl, sourceUrl) {
           </button>
         </div>
 
+        <!-- X自動投稿ボタン -->
+        <div id="auto-post-area" style="margin-bottom:12px;display:none;">
+          <button id="btn-auto-post" onclick="autoPostToX()"
+            style="width:100%;padding:13px;border-radius:10px;border:none;background:#000;color:#fff;font-size:14px;font-weight:700;font-family:inherit;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;">
+            𝕏 X に投稿する
+          </button>
+          <div id="auto-post-status" style="font-size:11px;color:var(--muted);text-align:center;margin-top:6px;min-height:16px;"></div>
+        </div>
+
         <!-- 手打ちサポートのガイド -->
-        <div style="font-size:11px;background:rgba(56,189,248,0.08);border:1px solid rgba(56,189,248,0.25);border-radius:8px;padding:8px 10px;margin-bottom:12px;color:var(--accent2);line-height:1.6;">
+        <div id="manual-guide" style="font-size:11px;background:rgba(56,189,248,0.08);border:1px solid rgba(56,189,248,0.25);border-radius:8px;padding:8px 10px;margin-bottom:12px;color:var(--accent2);line-height:1.6;">
           💡 <strong>スマホ1台で運用</strong>：Xを開いたままこの画面に戻れます。パーツを見ながらXで手打ちしてください。
         </div>
 
@@ -1458,9 +1495,13 @@ function openShareModal(text, title, mode, srcUrl, sourceUrl) {
   let fullText = text;
   if (shareMode === 'post' && shareUrl) fullText = text + '\n' + shareUrl;
   else if (shareMode === 'link' && shareUrl) fullText = text + '\n' + shareUrl;
+  shareFullText = fullText;
 
   // パーツ別に分解して表示
   buildParts(fullText);
+
+  // X自動投稿ボタンの表示状態を更新
+  updateAutoPostButton();
 
   modal.style.display = 'flex';
 }
@@ -1647,6 +1688,7 @@ function tick() {
       if (window.Notification && Notification.permission === 'granted') {
         new Notification('💬 正解返信の時間', { body: 'クイズの正解をXで返信してください' });
       }
+      sendEmailNotify('💬 正解返信の時間です', `クイズの正解をXで返信してください。\n\n正解: ${q.answer}`).catch(() => {});
     }
   });
 
@@ -1835,6 +1877,119 @@ if ('serviceWorker' in navigator && location.protocol === 'https:') {
   navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
 
+// ===== X 自動投稿 =====
+let xApiEnabled = false;
+
+async function checkXApiStatus() {
+  const base = getServerBase();
+  if (!base) return;
+  try {
+    const r = await fetch(base + '/api/twitter-status', { headers: { 'X-Auth-Token': getWsToken() } });
+    const j = await r.json();
+    xApiEnabled = j.enabled;
+  } catch { xApiEnabled = false; }
+
+  const xEl = document.getElementById('xapi-status');
+  if (xEl) {
+    xEl.style.color = xApiEnabled ? 'var(--success)' : 'var(--muted)';
+    xEl.textContent = 'X API: ' + (xApiEnabled ? '✅ 有効（自動投稿できます）' : '⬜ 未設定（.envにキーを追加）');
+  }
+
+  // メール設定確認（テスト送信なしで確認）
+  try {
+    const r2 = await fetch(base + '/api/notify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Auth-Token': getWsToken() },
+      body: JSON.stringify({ subject: '__check__', body: '' }),
+    });
+    const j2 = await r2.json();
+    const emailOk = j2.ok || j2.reason !== 'not_configured';
+    const emailEl = document.getElementById('email-status');
+    if (emailEl) {
+      emailEl.style.color = emailOk ? 'var(--success)' : 'var(--muted)';
+      emailEl.textContent = 'メール: ' + (emailOk ? '✅ 有効（通知が届きます）' : '⬜ 未設定（.envにSMTP設定を追加）');
+    }
+  } catch {}
+}
+
+function updateAutoPostButton() {
+  const area = document.getElementById('auto-post-area');
+  const guide = document.getElementById('manual-guide');
+  if (!area) return;
+  if (xApiEnabled && wsConnected) {
+    area.style.display = 'block';
+    if (guide) guide.style.display = 'none';
+  } else {
+    area.style.display = 'none';
+    if (guide) guide.style.display = 'block';
+  }
+  const statusEl = document.getElementById('auto-post-status');
+  if (statusEl) statusEl.textContent = '';
+}
+
+async function autoPostToX() {
+  const base = getServerBase();
+  if (!base) { showToast('⚠️ サーバーに接続してください'); return; }
+
+  const btn = document.getElementById('btn-auto-post');
+  const statusEl = document.getElementById('auto-post-status');
+  btn.disabled = true;
+  btn.textContent = '𝕏 投稿中…';
+  if (statusEl) statusEl.textContent = '';
+
+  const q = shareQuizId ? state.quizzes.find(q => q.id === shareQuizId) : null;
+  const replyToId = q && q.tweetId ? q.tweetId : null;
+  const text = microVariate(shareFullText);
+
+  try {
+    const r = await fetch(base + '/api/tweet', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Auth-Token': getWsToken() },
+      body: JSON.stringify({ text, replyToId }),
+    });
+    const j = await r.json();
+    if (j.ok) {
+      // ツイートIDを保存（答え返信スレッド用）
+      if (q && !replyToId) {
+        q.tweetId = j.tweetId;
+        persist();
+      }
+      if (statusEl) { statusEl.style.color = 'var(--success)'; statusEl.textContent = '✅ 投稿しました！'; }
+      addLog('🐦 Xに投稿しました');
+      setTimeout(closeShareModal, 1200);
+    } else {
+      throw new Error(j.error || '投稿失敗');
+    }
+  } catch (e) {
+    if (statusEl) { statusEl.style.color = 'var(--danger)'; statusEl.textContent = '⚠️ ' + e.message; }
+    showToast('⚠️ 投稿に失敗しました: ' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '𝕏 X に投稿する';
+  }
+}
+
+// ===== メール通知 =====
+async function sendEmailNotify(subject, body) {
+  const base = getServerBase();
+  if (!base || !wsConnected) return;
+  fetch(base + '/api/notify', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Auth-Token': getWsToken() },
+    body: JSON.stringify({ subject, body }),
+  }).catch(() => {});
+}
+
+function getServerBase() {
+  const { url } = getWsConfig();
+  if (!url) return null;
+  return url.replace(/^wss?:\/\//, 'https://').replace(/\/.*$/, '');
+}
+
+function getWsToken() {
+  return localStorage.getItem('quizbot_wstoken') || '';
+}
+
 // ===== WebSocket リモート同期 =====
 let ws = null;
 let wsReconnectTimer = null;
@@ -1896,6 +2051,7 @@ function connectWs() {
       wsConnected = true;
       updateWsStatus('connected');
       addLog('🔗 サーバーに接続しました');
+      checkXApiStatus();
     }
 
     if (msg.type === 'auth_fail') {
