@@ -312,6 +312,34 @@
   }
   .log-item:last-child { border-bottom: none; }
   .log-time { color: var(--accent2); flex-shrink: 0; }
+
+  /* 収益化トラッカー */
+  .stat-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 8px; margin-bottom: 14px;
+  }
+  .stat-tile {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: 10px 8px; text-align: center;
+  }
+  .stat-tile .v { font-size: 20px; font-weight: 700; color: var(--accent); }
+  .stat-tile .l { font-size: 10px; color: var(--muted); margin-top: 2px; }
+  .prog-row { margin-bottom: 12px; }
+  .prog-label {
+    display: flex; justify-content: space-between;
+    font-size: 11px; color: var(--muted); margin-bottom: 5px;
+  }
+  .prog-label .val { color: var(--text); font-weight: 600; }
+  .prog-bar {
+    height: 8px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 4px; overflow: hidden;
+  }
+  .prog-fill {
+    height: 100%; border-radius: 4px;
+    background: linear-gradient(90deg, var(--accent), #f97316);
+    transition: width .4s ease; min-width: 2px;
+  }
+  .prog-fill.done { background: linear-gradient(90deg, var(--success), #22c55e); }
 </style>
 </head>
 <body>
@@ -339,6 +367,41 @@
 
 <div class="info-note">
   ⚠️ このアプリは<strong>画面を開いている間のみ</strong>動作します。初回は下の「🔑 APIキー設定」からキーを保存してください。
+</div>
+
+<!-- 収益化トラッカー -->
+<div class="card">
+  <h2>💰 X収益化トラッカー</h2>
+
+  <div class="stat-grid">
+    <div class="stat-tile"><div class="v" id="stat-today">0</div><div class="l">今日の投稿</div></div>
+    <div class="stat-tile"><div class="v" id="stat-week">0</div><div class="l">直近7日</div></div>
+    <div class="stat-tile"><div class="v" id="stat-streak">0</div><div class="l">連続投稿日数</div></div>
+  </div>
+
+  <div class="prog-row">
+    <div class="prog-label"><span>👥 フォロワー（条件: 500人）</span><span class="val" id="prog-followers-val">未入力</span></div>
+    <div class="prog-bar"><div class="prog-fill" id="prog-followers" style="width:0%"></div></div>
+  </div>
+  <div class="prog-row">
+    <div class="prog-label"><span>👁 インプレッション 直近3ヶ月（条件: 500万）</span><span class="val" id="prog-imp-val">未入力</span></div>
+    <div class="prog-bar"><div class="prog-fill" id="prog-imp" style="width:0%"></div></div>
+  </div>
+  <div class="setting-row">
+    <span class="s-label">✅ X Premium 加入済み</span>
+    <label class="toggle-wrap"><input type="checkbox" id="monetize-premium" onchange="saveMonetize()"><span class="toggle-sw"></span></label>
+  </div>
+
+  <div style="display:flex;gap:8px;margin:12px 0 8px">
+    <input type="number" id="monetize-followers" placeholder="フォロワー数" inputmode="numeric"
+      style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;">
+    <input type="number" id="monetize-imp" placeholder="インプレッション" inputmode="numeric"
+      style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;">
+  </div>
+  <button class="btn btn-copy" style="width:100%;justify-content:center" onclick="saveMonetize(true)">💾 数値を更新</button>
+  <div id="monetize-status" style="font-size:10px;color:var(--muted);margin-top:8px;line-height:1.6">
+    📱 Xアプリ →「プロフィール」でフォロワー数、「プレミアム → アナリティクス」でインプレッションを確認して入力。週1回の更新がおすすめです。
+  </div>
 </div>
 
 <!-- 承認待ち -->
@@ -539,6 +602,7 @@ state.settings.breaking = state.settings.breaking !== undefined ? state.settings
 state.settings.globalPriority = state.settings.globalPriority || 'balanced';
 state.breakingLastChecked = state.breakingLastChecked || 0;
 state.breakingLastHeadline = state.breakingLastHeadline || '';
+state.monetize = state.monetize || { followers: 0, impressions: 0, premium: false, updatedAt: 0 };
 
 let genTimer = null;
 let nextGenAt = null;
@@ -955,6 +1019,9 @@ function init() {
   document.getElementById('reminder-21').checked = state.settings.reminders.r21;
   document.getElementById('breaking-enabled').checked = state.settings.breaking;
   document.getElementById('global-priority').value = state.settings.globalPriority;
+  if (state.monetize.followers > 0) document.getElementById('monetize-followers').value = state.monetize.followers;
+  if (state.monetize.impressions > 0) document.getElementById('monetize-imp').value = state.monetize.impressions;
+  document.getElementById('monetize-premium').checked = state.monetize.premium;
   updateReminderStatus();
   updateBreakingStatus();
   renderAll();
@@ -964,7 +1031,59 @@ function init() {
 }
 
 function persist() {
-  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings }));
+  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings, monetize: state.monetize }));
+}
+
+// ===== 収益化トラッカー =====
+function saveMonetize(fromButton) {
+  const f = parseInt(document.getElementById('monetize-followers').value, 10);
+  const i = parseInt(document.getElementById('monetize-imp').value, 10);
+  if (!isNaN(f) && f >= 0) state.monetize.followers = f;
+  if (!isNaN(i) && i >= 0) state.monetize.impressions = i;
+  state.monetize.premium = document.getElementById('monetize-premium').checked;
+  state.monetize.updatedAt = Date.now();
+  persist();
+  renderMonetize();
+  if (fromButton) showToast('💰 収益化データを更新しました');
+}
+
+function renderMonetize() {
+  const m = state.monetize;
+  const posted = state.quizzes.filter(q => q.approvedAt);
+
+  // 投稿ペース（承認＝投稿とみなす）
+  const dayKey = ts => { const d = new Date(ts); return `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`; };
+  const today = dayKey(Date.now());
+  const weekAgo = Date.now() - 7 * 86400000;
+  document.getElementById('stat-today').textContent = posted.filter(q => dayKey(q.approvedAt) === today).length;
+  document.getElementById('stat-week').textContent = posted.filter(q => q.approvedAt >= weekAgo).length;
+
+  // 連続投稿日数（今日投稿がなければ昨日から遡る）
+  const days = new Set(posted.map(q => dayKey(q.approvedAt)));
+  let streak = 0;
+  let cursor = Date.now();
+  if (!days.has(today)) cursor -= 86400000;
+  while (days.has(dayKey(cursor))) { streak++; cursor -= 86400000; }
+  document.getElementById('stat-streak').textContent = streak;
+
+  // 収益化条件への進捗（クリエイター広告収益分配: フォロワー500人＋3ヶ月500万インプ＋Premium）
+  const setProg = (barId, valId, current, goal, fmt) => {
+    const pct = Math.min(100, current / goal * 100);
+    const bar = document.getElementById(barId);
+    bar.style.width = (current > 0 ? Math.max(2, pct) : 0) + '%';
+    bar.classList.toggle('done', current >= goal);
+    document.getElementById(valId).textContent = current > 0 ? `${fmt(current)} / ${fmt(goal)}（${Math.floor(pct)}%）` : '未入力';
+  };
+  setProg('prog-followers', 'prog-followers-val', m.followers, 500, n => n.toLocaleString());
+  setProg('prog-imp', 'prog-imp-val', m.impressions, 5000000, n => n >= 10000 ? `${(n/10000).toLocaleString(undefined,{maximumFractionDigits:1})}万` : n.toLocaleString());
+
+  if (m.updatedAt) {
+    const d = new Date(m.updatedAt);
+    const status = document.getElementById('monetize-status');
+    const stale = Date.now() - m.updatedAt > 7 * 86400000;
+    status.innerHTML = `📅 最終更新: ${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}` +
+      (stale ? ' <span style="color:var(--warn,#f59e0b)">— 1週間以上前です。Xアプリのアナリティクスで最新値を確認しましょう</span>' : '');
+  }
 }
 
 function saveSettings() {
@@ -1650,6 +1769,7 @@ function renderAll() {
   renderAnswerQueue();
   renderLogs();
   renderHistory();
+  renderMonetize();
 }
 
 function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
