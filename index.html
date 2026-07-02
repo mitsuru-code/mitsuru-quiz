@@ -542,6 +542,7 @@
     <button class="btn btn-copy" style="flex:1;justify-content:center" onclick="saveIntegration(true)">💾 保存</button>
     <button class="btn btn-ghost" style="flex:1;justify-content:center" onclick="testWebhook()">📡 テスト送信</button>
   </div>
+  <button class="btn btn-approve" id="webhook-retry-btn" style="display:none;width:100%;margin-top:8px;justify-content:center" onclick="flushWebhookQueue(true)">📤 未送信分を今すぐ再送</button>
   <div id="webhook-status" style="font-size:11px;color:var(--muted);margin-top:8px;"></div>
 
   <div style="border-top:1px solid var(--border);margin:14px 0 12px"></div>
@@ -640,6 +641,7 @@ state.breakingLastChecked = state.breakingLastChecked || 0;
 state.breakingLastHeadline = state.breakingLastHeadline || '';
 state.monetize = state.monetize || { followers: 0, impressions: 0, premium: false, updatedAt: 0 };
 state.settings.integration = state.settings.integration || { webhookUrl: '', secret: '', autoSend: false };
+state.webhookQueue = state.webhookQueue || [];   // PC連携が取れない間の未送信ペイロード
 
 let genTimer = null;
 let nextGenAt = null;
@@ -1067,10 +1069,13 @@ function init() {
   setInterval(tick, 5000);
   setInterval(tickReminder, 30000);  // 30秒ごとにリマインダーチェック
   setInterval(tickBreaking, 60000);  // 1分ごとに速報チェック判定
+  setInterval(() => flushWebhookQueue(false), 300000); // 5分ごとに未送信分を再送
+  window.addEventListener('online', () => flushWebhookQueue(false)); // 回線復帰時に即再送
+  flushWebhookQueue(false); // 起動時にも残キューを再送
 }
 
 function persist() {
-  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings, monetize: state.monetize }));
+  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings, monetize: state.monetize, webhookQueue: state.webhookQueue.slice(-100) }));
 }
 
 // ===== PC連携（Webhook・エクスポート/インポート） =====
@@ -1087,19 +1092,45 @@ function saveIntegration(fromButton) {
 function updateWebhookStatus() {
   const integ = state.settings.integration;
   const el = document.getElementById('webhook-status');
+  const qn = state.webhookQueue.length;
+  document.getElementById('webhook-retry-btn').style.display = qn ? 'flex' : 'none';
   if (!integ.webhookUrl) { el.textContent = ''; return; }
+  if (qn) {
+    el.style.color = 'var(--warn, #f59e0b)';
+    el.textContent = `📥 未送信 ${qn}件 — PCと連携が取れ次第自動で再送します。アプリの動作には影響ありません`;
+    return;
+  }
   el.style.color = 'var(--muted)';
   el.textContent = integ.autoSend ? '📤 承認したクイズを自動送信します' : '⏸ 自動送信はOFFです（テスト送信のみ可能）';
 }
 
-async function sendWebhook(event, quiz) {
+// 送信はすべて非ブロッキング。PCと連携が取れなくてもアプリの動作には一切影響しない
+async function postWebhook(payload) {
   const integ = state.settings.integration;
-  if (!integ.webhookUrl) return false;
-  const payload = {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 10000); // PCが無応答でも10秒で打ち切り
+  try {
+    const res = await fetch(integ.webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: ctrl.signal
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return true;
+  } catch (err) {
+    return false;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function buildWebhookPayload(event, quiz) {
+  return {
     event,                          // quiz.approved | test.ping
     app: 'quizbot',
     sentAt: new Date().toISOString(),
-    secret: integ.secret || undefined,
+    secret: state.settings.integration.secret || undefined,
     quiz: quiz ? {
       id: quiz.id, question: quiz.question, answer: quiz.noAnswer ? null : quiz.answer,
       category: quiz.category || null, sourceUrl: quiz.sourceUrl || null,
@@ -1107,19 +1138,53 @@ async function sendWebhook(event, quiz) {
       approvedAt: quiz.approvedAt || null, answerDueAt: quiz.answerDueAt || null
     } : null
   };
-  try {
-    const res = await fetch(integ.webhookUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
+}
+
+async function sendWebhook(event, quiz) {
+  if (!state.settings.integration.webhookUrl) return false;
+  const payload = buildWebhookPayload(event, quiz);
+  const ok = await postWebhook(payload);
+  if (ok) {
     addLog(`🔗 PC連携: ${event} を送信しました`);
-    return true;
-  } catch (err) {
-    addLog(`⚠️ PC連携の送信に失敗: ${err.message}`);
-    return false;
+  } else if (event !== 'test.ping') {
+    // 失敗してもキューに保存して運用継続。PC復帰後に自動再送する
+    payload.retry = true;
+    delete payload.secret; // シークレットは保存せず、再送時に現在の値を付与
+    state.webhookQueue.push(payload);
+    if (state.webhookQueue.length > 100) state.webhookQueue = state.webhookQueue.slice(-100);
+    persist();
+    addLog('📥 PC連携が取れないため未送信キューに保存しました（自動再送します）');
   }
+  updateWebhookStatus();
+  return ok;
+}
+
+// ===== 未送信キューの自動再送 =====
+let flushingQueue = false;
+async function flushWebhookQueue(manual) {
+  const integ = state.settings.integration;
+  if (flushingQueue || !integ.webhookUrl || !state.webhookQueue.length) return;
+  if (!navigator.onLine) return; // 圏外なら回線復帰イベントを待つ
+  flushingQueue = true;
+  let sent = 0;
+  try {
+    while (state.webhookQueue.length) {
+      const ok = await postWebhook({ ...state.webhookQueue[0], secret: integ.secret || undefined });
+      if (!ok) break; // PC側がまだ落ちている → 次の周期に持ち越し
+      state.webhookQueue.shift();
+      sent++;
+    }
+  } finally {
+    flushingQueue = false;
+  }
+  if (sent) {
+    persist();
+    addLog(`🔗 PC連携: 未送信分 ${sent}件を再送しました`);
+    if (manual) showToast(`📤 ${sent}件を再送しました`);
+  } else if (manual) {
+    showToast('❌ 再送失敗。PC側の起動を確認してください');
+  }
+  updateWebhookStatus();
 }
 
 async function testWebhook() {

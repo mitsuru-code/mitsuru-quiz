@@ -1,5 +1,5 @@
 // Service Worker — PWAインストール要件＋オフラインキャッシュ
-const CACHE = 'quizbot-v3';
+const CACHE = 'quizbot-v4';
 const ASSETS = ['./index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
