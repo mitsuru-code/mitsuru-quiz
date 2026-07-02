@@ -520,6 +520,42 @@
   </div>
 </div>
 
+<!-- PC連携 -->
+<div class="card">
+  <h2>🔗 PC連携（外部システム連携）</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:12px;line-height:1.6">
+    PCで動かしている自動化システム（n8n / Make / 自作スクリプト等）と連携します。クイズ承認時に下のWebhook URLへJSONを自動送信。詳細は <strong>docs/pc-integration.md</strong> 参照。
+  </div>
+
+  <input type="url" id="webhook-url" placeholder="🔗 Webhook URL（例: https://xxx.ngrok.app/quiz）" autocomplete="off"
+    style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:11px;font-family:monospace;margin-bottom:8px;"
+    onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+  <input type="password" id="webhook-secret" placeholder="🔒 共有シークレット（任意・PC側で照合）" autocomplete="off"
+    style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:11px;font-family:monospace;margin-bottom:8px;">
+
+  <div class="setting-row">
+    <span class="s-label">📤 承認時に自動送信</span>
+    <label class="toggle-wrap"><input type="checkbox" id="webhook-autosend" onchange="saveIntegration()"><span class="toggle-sw"></span></label>
+  </div>
+
+  <div style="display:flex;gap:8px;margin-top:10px">
+    <button class="btn btn-copy" style="flex:1;justify-content:center" onclick="saveIntegration(true)">💾 保存</button>
+    <button class="btn btn-ghost" style="flex:1;justify-content:center" onclick="testWebhook()">📡 テスト送信</button>
+  </div>
+  <div id="webhook-status" style="font-size:11px;color:var(--muted);margin-top:8px;"></div>
+
+  <div style="border-top:1px solid var(--border);margin:14px 0 12px"></div>
+
+  <div style="font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.6">
+    📦 データの持ち出し・取り込み。PCでの分析やバックアップ、別端末への移行に使えます。
+  </div>
+  <div style="display:flex;gap:8px">
+    <button class="btn btn-copy" style="flex:1;justify-content:center" onclick="exportState()">⬇️ エクスポート</button>
+    <button class="btn btn-ghost" style="flex:1;justify-content:center" onclick="document.getElementById('import-file').click()">⬆️ インポート</button>
+  </div>
+  <input type="file" id="import-file" accept="application/json,.json" style="display:none" onchange="importState(this)">
+</div>
+
 <!-- リマインダー設定 -->
 <div class="card">
   <h2>⏰ 定時リマインダー</h2>
@@ -603,6 +639,7 @@ state.settings.globalPriority = state.settings.globalPriority || 'balanced';
 state.breakingLastChecked = state.breakingLastChecked || 0;
 state.breakingLastHeadline = state.breakingLastHeadline || '';
 state.monetize = state.monetize || { followers: 0, impressions: 0, premium: false, updatedAt: 0 };
+state.settings.integration = state.settings.integration || { webhookUrl: '', secret: '', autoSend: false };
 
 let genTimer = null;
 let nextGenAt = null;
@@ -1019,9 +1056,11 @@ function init() {
   document.getElementById('reminder-21').checked = state.settings.reminders.r21;
   document.getElementById('breaking-enabled').checked = state.settings.breaking;
   document.getElementById('global-priority').value = state.settings.globalPriority;
-  if (state.monetize.followers > 0) document.getElementById('monetize-followers').value = state.monetize.followers;
-  if (state.monetize.impressions > 0) document.getElementById('monetize-imp').value = state.monetize.impressions;
-  document.getElementById('monetize-premium').checked = state.monetize.premium;
+  init2Monetize();
+  document.getElementById('webhook-url').value = state.settings.integration.webhookUrl;
+  document.getElementById('webhook-secret').value = state.settings.integration.secret;
+  document.getElementById('webhook-autosend').checked = state.settings.integration.autoSend;
+  updateWebhookStatus();
   updateReminderStatus();
   updateBreakingStatus();
   renderAll();
@@ -1032,6 +1071,120 @@ function init() {
 
 function persist() {
   localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings, monetize: state.monetize }));
+}
+
+// ===== PC連携（Webhook・エクスポート/インポート） =====
+function saveIntegration(fromButton) {
+  const integ = state.settings.integration;
+  integ.webhookUrl = document.getElementById('webhook-url').value.trim();
+  integ.secret = document.getElementById('webhook-secret').value;
+  integ.autoSend = document.getElementById('webhook-autosend').checked;
+  persist();
+  updateWebhookStatus();
+  if (fromButton) showToast('🔗 連携設定を保存しました');
+}
+
+function updateWebhookStatus() {
+  const integ = state.settings.integration;
+  const el = document.getElementById('webhook-status');
+  if (!integ.webhookUrl) { el.textContent = ''; return; }
+  el.style.color = 'var(--muted)';
+  el.textContent = integ.autoSend ? '📤 承認したクイズを自動送信します' : '⏸ 自動送信はOFFです（テスト送信のみ可能）';
+}
+
+async function sendWebhook(event, quiz) {
+  const integ = state.settings.integration;
+  if (!integ.webhookUrl) return false;
+  const payload = {
+    event,                          // quiz.approved | test.ping
+    app: 'quizbot',
+    sentAt: new Date().toISOString(),
+    secret: integ.secret || undefined,
+    quiz: quiz ? {
+      id: quiz.id, question: quiz.question, answer: quiz.noAnswer ? null : quiz.answer,
+      category: quiz.category || null, sourceUrl: quiz.sourceUrl || null,
+      mode: quiz.mode || 'theme', noAnswer: !!quiz.noAnswer,
+      approvedAt: quiz.approvedAt || null, answerDueAt: quiz.answerDueAt || null
+    } : null
+  };
+  try {
+    const res = await fetch(integ.webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    addLog(`🔗 PC連携: ${event} を送信しました`);
+    return true;
+  } catch (err) {
+    addLog(`⚠️ PC連携の送信に失敗: ${err.message}`);
+    return false;
+  }
+}
+
+async function testWebhook() {
+  saveIntegration();
+  const el = document.getElementById('webhook-status');
+  if (!state.settings.integration.webhookUrl) {
+    el.style.color = 'var(--danger)';
+    el.textContent = '⚠️ Webhook URLを入力してください';
+    return;
+  }
+  el.style.color = 'var(--muted)';
+  el.textContent = '📡 送信中…';
+  const ok = await sendWebhook('test.ping', null);
+  el.style.color = ok ? 'var(--success)' : 'var(--danger)';
+  el.textContent = ok ? '✅ 送信成功！PC側で受信を確認してください'
+    : '❌ 送信失敗。URL・PC側サーバーの起動・CORS設定を確認（docs/pc-integration.md 参照）';
+}
+
+function exportState() {
+  const data = {
+    exportedAt: new Date().toISOString(),
+    app: 'quizbot', version: 1,
+    quizzes: state.quizzes, monetize: state.monetize, settings: { ...state.settings, integration: undefined }
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  const d = new Date();
+  a.href = URL.createObjectURL(blob);
+  a.download = `quizbot-export-${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+  addLog(`📦 データをエクスポートしました（${state.quizzes.length}問）`);
+  showToast('⬇️ JSONをダウンロードしました');
+}
+
+function importState(input) {
+  const file = input.files && input.files[0];
+  input.value = '';
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const data = JSON.parse(reader.result);
+      if (data.app !== 'quizbot' || !Array.isArray(data.quizzes)) throw new Error('形式が違います');
+      const existing = new Set(state.quizzes.map(q => q.id));
+      const added = data.quizzes.filter(q => q && q.id && !existing.has(q.id));
+      state.quizzes = state.quizzes.concat(added).sort((a,b) => (b.createdAt||0) - (a.createdAt||0));
+      if (data.monetize && (data.monetize.updatedAt || 0) > (state.monetize.updatedAt || 0)) {
+        state.monetize = data.monetize;
+      }
+      persist(); renderAll(); init2Monetize();
+      addLog(`📦 インポート完了: ${added.length}問を追加しました`);
+      showToast(`⬆️ ${added.length}問を取り込みました`);
+    } catch (err) {
+      showToast('❌ インポート失敗: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+// インポート後に収益化入力欄も反映
+function init2Monetize() {
+  if (state.monetize.followers > 0) document.getElementById('monetize-followers').value = state.monetize.followers;
+  if (state.monetize.impressions > 0) document.getElementById('monetize-imp').value = state.monetize.impressions;
+  document.getElementById('monetize-premium').checked = state.monetize.premium;
 }
 
 // ===== 収益化トラッカー =====
@@ -1453,6 +1606,7 @@ function approveQuiz(id) {
     addLog('👍 クイズを承認しました');
     openShareModal(q.question, 'クイズをXに投稿', 'theme', '', q.sourceUrl);
   }
+  if (state.settings.integration.autoSend) sendWebhook('quiz.approved', q);
 }
 
 function rejectQuiz(id) {
