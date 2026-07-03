@@ -93,6 +93,7 @@ Xアプリで投稿（共有モーダルからコピー / X起動）
 
 | ドキュメント | 内容 |
 |---|---|
+| [docs/smartphone-operation-guide.md](docs/smartphone-operation-guide.md) | スマホ側の操作手順書（どのボタンをどの順でタップすると何が起きるか、目的別のタップ手順） |
 | [docs/pixel10a-x-monetization-guide.md](docs/pixel10a-x-monetization-guide.md) | PC不要・Pixel 10a単体でX収益化を目指す運用手順書（端末設定・1日のルーティン・インプレッション最大化のコツ） |
 | [docs/pc-integration.md](docs/pc-integration.md) | PC自動化システムとの連携仕様（Webhookペイロード・CORS要件・Flask/n8nサンプル・耐障害設計） |
 
