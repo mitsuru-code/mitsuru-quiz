@@ -312,6 +312,34 @@
   }
   .log-item:last-child { border-bottom: none; }
   .log-time { color: var(--accent2); flex-shrink: 0; }
+
+  /* 収益化トラッカー */
+  .stat-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 8px; margin-bottom: 14px;
+  }
+  .stat-tile {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: 10px 8px; text-align: center;
+  }
+  .stat-tile .v { font-size: 20px; font-weight: 700; color: var(--accent); }
+  .stat-tile .l { font-size: 10px; color: var(--muted); margin-top: 2px; }
+  .prog-row { margin-bottom: 12px; }
+  .prog-label {
+    display: flex; justify-content: space-between;
+    font-size: 11px; color: var(--muted); margin-bottom: 5px;
+  }
+  .prog-label .val { color: var(--text); font-weight: 600; }
+  .prog-bar {
+    height: 8px; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 4px; overflow: hidden;
+  }
+  .prog-fill {
+    height: 100%; border-radius: 4px;
+    background: linear-gradient(90deg, var(--accent), #f97316);
+    transition: width .4s ease; min-width: 2px;
+  }
+  .prog-fill.done { background: linear-gradient(90deg, var(--success), #22c55e); }
 </style>
 </head>
 <body>
@@ -339,6 +367,54 @@
 
 <div class="info-note">
   ⚠️ このアプリは<strong>画面を開いている間のみ</strong>動作します。初回は下の「🔑 APIキー設定」からキーを保存してください。
+</div>
+
+<!-- 収益化トラッカー -->
+<div class="card">
+  <h2>💰 X収益化トラッカー</h2>
+
+  <div class="stat-grid">
+    <div class="stat-tile"><div class="v" id="stat-today">0</div><div class="l">今日の投稿</div></div>
+    <div class="stat-tile"><div class="v" id="stat-week">0</div><div class="l">直近7日</div></div>
+    <div class="stat-tile"><div class="v" id="stat-streak">0</div><div class="l">連続投稿日数</div></div>
+  </div>
+
+  <div class="prog-row">
+    <div class="prog-label"><span>👥 フォロワー（条件: 500人）</span><span class="val" id="prog-followers-val">未入力</span></div>
+    <div class="prog-bar"><div class="prog-fill" id="prog-followers" style="width:0%"></div></div>
+  </div>
+  <div class="prog-row">
+    <div class="prog-label"><span>👁 インプレッション 直近3ヶ月（条件: 500万）</span><span class="val" id="prog-imp-val">未入力</span></div>
+    <div class="prog-bar"><div class="prog-fill" id="prog-imp" style="width:0%"></div></div>
+  </div>
+  <div class="prog-row">
+    <div class="prog-label"><span>💴 推定月間収益（非公式の目安）</span><span class="val" id="est-revenue-val">未入力</span></div>
+    <div style="display:flex;gap:8px;margin-top:4px">
+      <input type="number" id="monetize-imp28" placeholder="直近28日のインプ" inputmode="numeric"
+        style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:12px;padding:8px;font-family:inherit;">
+      <input type="number" id="monetize-rate" placeholder="想定単価" inputmode="numeric"
+        style="width:80px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:12px;padding:8px;font-family:inherit;">
+    </div>
+    <div style="font-size:10px;color:var(--muted);margin-top:5px;line-height:1.6">
+      左: 直近28日インプレッション（Xアナリティクスで確認） / 右: 円 / 1万インプレッションの想定単価（自分で調整）<br>
+      ⚠️ Xは単価を公表していないため<strong>非公式の目安</strong>です。実際の入金額が分かり次第、逆算して単価を調整してください。
+    </div>
+  </div>
+  <div class="setting-row">
+    <span class="s-label">✅ X Premium 加入済み</span>
+    <label class="toggle-wrap"><input type="checkbox" id="monetize-premium" onchange="saveMonetize()"><span class="toggle-sw"></span></label>
+  </div>
+
+  <div style="display:flex;gap:8px;margin:12px 0 8px">
+    <input type="number" id="monetize-followers" placeholder="フォロワー数" inputmode="numeric"
+      style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;">
+    <input type="number" id="monetize-imp" placeholder="インプレッション" inputmode="numeric"
+      style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;">
+  </div>
+  <button class="btn btn-copy" style="width:100%;justify-content:center" onclick="saveMonetize(true)">💾 数値を更新</button>
+  <div id="monetize-status" style="font-size:10px;color:var(--muted);margin-top:8px;line-height:1.6">
+    📱 Xアプリ →「プロフィール」でフォロワー数、「プレミアム → アナリティクス」でインプレッションを確認して入力。週1回の更新がおすすめです。
+  </div>
 </div>
 
 <!-- 承認待ち -->
@@ -457,6 +533,43 @@
   </div>
 </div>
 
+<!-- PC連携 -->
+<div class="card">
+  <h2>🔗 PC連携（外部システム連携）</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:12px;line-height:1.6">
+    PCで動かしている自動化システム（n8n / Make / 自作スクリプト等）と連携します。クイズ承認時に下のWebhook URLへJSONを自動送信。詳細は <strong>docs/pc-integration.md</strong> 参照。
+  </div>
+
+  <input type="url" id="webhook-url" placeholder="🔗 Webhook URL（例: https://xxx.ngrok.app/quiz）" autocomplete="off"
+    style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:11px;font-family:monospace;margin-bottom:8px;"
+    onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'">
+  <input type="password" id="webhook-secret" placeholder="🔒 共有シークレット（任意・PC側で照合）" autocomplete="off"
+    style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:11px;font-family:monospace;margin-bottom:8px;">
+
+  <div class="setting-row">
+    <span class="s-label">📤 承認時に自動送信</span>
+    <label class="toggle-wrap"><input type="checkbox" id="webhook-autosend" onchange="saveIntegration()"><span class="toggle-sw"></span></label>
+  </div>
+
+  <div style="display:flex;gap:8px;margin-top:10px">
+    <button class="btn btn-copy" style="flex:1;justify-content:center" onclick="saveIntegration(true)">💾 保存</button>
+    <button class="btn btn-ghost" style="flex:1;justify-content:center" onclick="testWebhook()">📡 テスト送信</button>
+  </div>
+  <button class="btn btn-approve" id="webhook-retry-btn" style="display:none;width:100%;margin-top:8px;justify-content:center" onclick="flushWebhookQueue(true)">📤 未送信分を今すぐ再送</button>
+  <div id="webhook-status" style="font-size:11px;color:var(--muted);margin-top:8px;"></div>
+
+  <div style="border-top:1px solid var(--border);margin:14px 0 12px"></div>
+
+  <div style="font-size:11px;color:var(--muted);margin-bottom:10px;line-height:1.6">
+    📦 データの持ち出し・取り込み。PCでの分析やバックアップ、別端末への移行に使えます。
+  </div>
+  <div style="display:flex;gap:8px">
+    <button class="btn btn-copy" style="flex:1;justify-content:center" onclick="exportState()">⬇️ エクスポート</button>
+    <button class="btn btn-ghost" style="flex:1;justify-content:center" onclick="document.getElementById('import-file').click()">⬆️ インポート</button>
+  </div>
+  <input type="file" id="import-file" accept="application/json,.json" style="display:none" onchange="importState(this)">
+</div>
+
 <!-- リマインダー設定 -->
 <div class="card">
   <h2>⏰ 定時リマインダー</h2>
@@ -539,6 +652,11 @@ state.settings.breaking = state.settings.breaking !== undefined ? state.settings
 state.settings.globalPriority = state.settings.globalPriority || 'balanced';
 state.breakingLastChecked = state.breakingLastChecked || 0;
 state.breakingLastHeadline = state.breakingLastHeadline || '';
+state.monetize = state.monetize || { followers: 0, impressions: 0, premium: false, updatedAt: 0 };
+state.monetize.imp28 = state.monetize.imp28 || 0;
+state.monetize.rate = state.monetize.rate || 50; // 円/1万imp（仮の初期値。ユーザーが実績に合わせて調整する前提）
+state.settings.integration = state.settings.integration || { webhookUrl: '', secret: '', autoSend: false };
+state.webhookQueue = state.webhookQueue || [];   // PC連携が取れない間の未送信ペイロード
 
 let genTimer = null;
 let nextGenAt = null;
@@ -955,16 +1073,261 @@ function init() {
   document.getElementById('reminder-21').checked = state.settings.reminders.r21;
   document.getElementById('breaking-enabled').checked = state.settings.breaking;
   document.getElementById('global-priority').value = state.settings.globalPriority;
+  init2Monetize();
+  document.getElementById('webhook-url').value = state.settings.integration.webhookUrl;
+  document.getElementById('webhook-secret').value = state.settings.integration.secret;
+  document.getElementById('webhook-autosend').checked = state.settings.integration.autoSend;
+  updateWebhookStatus();
   updateReminderStatus();
   updateBreakingStatus();
   renderAll();
   setInterval(tick, 5000);
   setInterval(tickReminder, 30000);  // 30秒ごとにリマインダーチェック
   setInterval(tickBreaking, 60000);  // 1分ごとに速報チェック判定
+  setInterval(() => flushWebhookQueue(false), 300000); // 5分ごとに未送信分を再送
+  window.addEventListener('online', () => flushWebhookQueue(false)); // 回線復帰時に即再送
+  flushWebhookQueue(false); // 起動時にも残キューを再送
 }
 
 function persist() {
-  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings }));
+  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings, monetize: state.monetize, webhookQueue: state.webhookQueue.slice(-100) }));
+}
+
+// ===== PC連携（Webhook・エクスポート/インポート） =====
+function saveIntegration(fromButton) {
+  const integ = state.settings.integration;
+  integ.webhookUrl = document.getElementById('webhook-url').value.trim();
+  integ.secret = document.getElementById('webhook-secret').value;
+  integ.autoSend = document.getElementById('webhook-autosend').checked;
+  persist();
+  updateWebhookStatus();
+  if (fromButton) showToast('🔗 連携設定を保存しました');
+}
+
+function updateWebhookStatus() {
+  const integ = state.settings.integration;
+  const el = document.getElementById('webhook-status');
+  const qn = state.webhookQueue.length;
+  document.getElementById('webhook-retry-btn').style.display = qn ? 'flex' : 'none';
+  if (!integ.webhookUrl) { el.textContent = ''; return; }
+  if (qn) {
+    el.style.color = 'var(--warn, #f59e0b)';
+    el.textContent = `📥 未送信 ${qn}件 — PCと連携が取れ次第自動で再送します。アプリの動作には影響ありません`;
+    return;
+  }
+  el.style.color = 'var(--muted)';
+  el.textContent = integ.autoSend ? '📤 承認したクイズを自動送信します' : '⏸ 自動送信はOFFです（テスト送信のみ可能）';
+}
+
+// 送信はすべて非ブロッキング。PCと連携が取れなくてもアプリの動作には一切影響しない
+async function postWebhook(payload) {
+  const integ = state.settings.integration;
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 10000); // PCが無応答でも10秒で打ち切り
+  try {
+    const res = await fetch(integ.webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+      signal: ctrl.signal
+    });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return true;
+  } catch (err) {
+    return false;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function buildWebhookPayload(event, quiz) {
+  return {
+    event,                          // quiz.approved | test.ping
+    app: 'quizbot',
+    sentAt: new Date().toISOString(),
+    secret: state.settings.integration.secret || undefined,
+    quiz: quiz ? {
+      id: quiz.id, question: quiz.question, answer: quiz.noAnswer ? null : quiz.answer,
+      category: quiz.category || null, sourceUrl: quiz.sourceUrl || null,
+      mode: quiz.mode || 'theme', noAnswer: !!quiz.noAnswer,
+      approvedAt: quiz.approvedAt || null, answerDueAt: quiz.answerDueAt || null
+    } : null
+  };
+}
+
+async function sendWebhook(event, quiz) {
+  if (!state.settings.integration.webhookUrl) return false;
+  const payload = buildWebhookPayload(event, quiz);
+  const ok = await postWebhook(payload);
+  if (ok) {
+    addLog(`🔗 PC連携: ${event} を送信しました`);
+  } else if (event !== 'test.ping') {
+    // 失敗してもキューに保存して運用継続。PC復帰後に自動再送する
+    payload.retry = true;
+    delete payload.secret; // シークレットは保存せず、再送時に現在の値を付与
+    state.webhookQueue.push(payload);
+    if (state.webhookQueue.length > 100) state.webhookQueue = state.webhookQueue.slice(-100);
+    persist();
+    addLog('📥 PC連携が取れないため未送信キューに保存しました（自動再送します）');
+  }
+  updateWebhookStatus();
+  return ok;
+}
+
+// ===== 未送信キューの自動再送 =====
+let flushingQueue = false;
+async function flushWebhookQueue(manual) {
+  const integ = state.settings.integration;
+  if (flushingQueue || !integ.webhookUrl || !state.webhookQueue.length) return;
+  if (!navigator.onLine) return; // 圏外なら回線復帰イベントを待つ
+  flushingQueue = true;
+  let sent = 0;
+  try {
+    while (state.webhookQueue.length) {
+      const ok = await postWebhook({ ...state.webhookQueue[0], secret: integ.secret || undefined });
+      if (!ok) break; // PC側がまだ落ちている → 次の周期に持ち越し
+      state.webhookQueue.shift();
+      sent++;
+    }
+  } finally {
+    flushingQueue = false;
+  }
+  if (sent) {
+    persist();
+    addLog(`🔗 PC連携: 未送信分 ${sent}件を再送しました`);
+    if (manual) showToast(`📤 ${sent}件を再送しました`);
+  } else if (manual) {
+    showToast('❌ 再送失敗。PC側の起動を確認してください');
+  }
+  updateWebhookStatus();
+}
+
+async function testWebhook() {
+  saveIntegration();
+  const el = document.getElementById('webhook-status');
+  if (!state.settings.integration.webhookUrl) {
+    el.style.color = 'var(--danger)';
+    el.textContent = '⚠️ Webhook URLを入力してください';
+    return;
+  }
+  el.style.color = 'var(--muted)';
+  el.textContent = '📡 送信中…';
+  const ok = await sendWebhook('test.ping', null);
+  el.style.color = ok ? 'var(--success)' : 'var(--danger)';
+  el.textContent = ok ? '✅ 送信成功！PC側で受信を確認してください'
+    : '❌ 送信失敗。URL・PC側サーバーの起動・CORS設定を確認（docs/pc-integration.md 参照）';
+}
+
+function exportState() {
+  const data = {
+    exportedAt: new Date().toISOString(),
+    app: 'quizbot', version: 1,
+    quizzes: state.quizzes, monetize: state.monetize, settings: { ...state.settings, integration: undefined }
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  const d = new Date();
+  a.href = URL.createObjectURL(blob);
+  a.download = `quizbot-export-${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+  addLog(`📦 データをエクスポートしました（${state.quizzes.length}問）`);
+  showToast('⬇️ JSONをダウンロードしました');
+}
+
+function importState(input) {
+  const file = input.files && input.files[0];
+  input.value = '';
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const data = JSON.parse(reader.result);
+      if (data.app !== 'quizbot' || !Array.isArray(data.quizzes)) throw new Error('形式が違います');
+      const existing = new Set(state.quizzes.map(q => q.id));
+      const added = data.quizzes.filter(q => q && q.id && !existing.has(q.id));
+      state.quizzes = state.quizzes.concat(added).sort((a,b) => (b.createdAt||0) - (a.createdAt||0));
+      if (data.monetize && (data.monetize.updatedAt || 0) > (state.monetize.updatedAt || 0)) {
+        state.monetize = data.monetize;
+      }
+      persist(); renderAll(); init2Monetize();
+      addLog(`📦 インポート完了: ${added.length}問を追加しました`);
+      showToast(`⬆️ ${added.length}問を取り込みました`);
+    } catch (err) {
+      showToast('❌ インポート失敗: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+// インポート後に収益化入力欄も反映
+function init2Monetize() {
+  if (state.monetize.followers > 0) document.getElementById('monetize-followers').value = state.monetize.followers;
+  if (state.monetize.impressions > 0) document.getElementById('monetize-imp').value = state.monetize.impressions;
+  if (state.monetize.imp28 > 0) document.getElementById('monetize-imp28').value = state.monetize.imp28;
+  document.getElementById('monetize-rate').value = state.monetize.rate;
+  document.getElementById('monetize-premium').checked = state.monetize.premium;
+}
+
+// ===== 収益化トラッカー =====
+function saveMonetize(fromButton) {
+  const f = parseInt(document.getElementById('monetize-followers').value, 10);
+  const i = parseInt(document.getElementById('monetize-imp').value, 10);
+  const imp28 = parseInt(document.getElementById('monetize-imp28').value, 10);
+  const rate = parseInt(document.getElementById('monetize-rate').value, 10);
+  if (!isNaN(f) && f >= 0) state.monetize.followers = f;
+  if (!isNaN(i) && i >= 0) state.monetize.impressions = i;
+  if (!isNaN(imp28) && imp28 >= 0) state.monetize.imp28 = imp28;
+  if (!isNaN(rate) && rate >= 0) state.monetize.rate = rate;
+  state.monetize.premium = document.getElementById('monetize-premium').checked;
+  state.monetize.updatedAt = Date.now();
+  persist();
+  renderMonetize();
+  if (fromButton) showToast('💰 収益化データを更新しました');
+}
+
+function renderMonetize() {
+  const m = state.monetize;
+  const posted = state.quizzes.filter(q => q.approvedAt);
+
+  // 投稿ペース（承認＝投稿とみなす）
+  const dayKey = ts => { const d = new Date(ts); return `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`; };
+  const today = dayKey(Date.now());
+  const weekAgo = Date.now() - 7 * 86400000;
+  document.getElementById('stat-today').textContent = posted.filter(q => dayKey(q.approvedAt) === today).length;
+  document.getElementById('stat-week').textContent = posted.filter(q => q.approvedAt >= weekAgo).length;
+
+  // 連続投稿日数（今日投稿がなければ昨日から遡る）
+  const days = new Set(posted.map(q => dayKey(q.approvedAt)));
+  let streak = 0;
+  let cursor = Date.now();
+  if (!days.has(today)) cursor -= 86400000;
+  while (days.has(dayKey(cursor))) { streak++; cursor -= 86400000; }
+  document.getElementById('stat-streak').textContent = streak;
+
+  // 収益化条件への進捗（クリエイター広告収益分配: フォロワー500人＋3ヶ月500万インプ＋Premium）
+  const setProg = (barId, valId, current, goal, fmt) => {
+    const pct = Math.min(100, current / goal * 100);
+    const bar = document.getElementById(barId);
+    bar.style.width = (current > 0 ? Math.max(2, pct) : 0) + '%';
+    bar.classList.toggle('done', current >= goal);
+    document.getElementById(valId).textContent = current > 0 ? `${fmt(current)} / ${fmt(goal)}（${Math.floor(pct)}%）` : '未入力';
+  };
+  setProg('prog-followers', 'prog-followers-val', m.followers, 500, n => n.toLocaleString());
+  setProg('prog-imp', 'prog-imp-val', m.impressions, 5000000, n => n >= 10000 ? `${(n/10000).toLocaleString(undefined,{maximumFractionDigits:1})}万` : n.toLocaleString());
+
+  // 推定月間収益（非公式の目安）: 直近28日インプレッション × 想定単価
+  const estYen = Math.round(m.imp28 / 10000 * m.rate);
+  document.getElementById('est-revenue-val').textContent =
+    (m.imp28 > 0 && m.rate > 0) ? `約 ¥${estYen.toLocaleString()} / 月` : '未入力';
+
+  if (m.updatedAt) {
+    const d = new Date(m.updatedAt);
+    const status = document.getElementById('monetize-status');
+    const stale = Date.now() - m.updatedAt > 7 * 86400000;
+    status.innerHTML = `📅 最終更新: ${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}` +
+      (stale ? ' <span style="color:var(--warn,#f59e0b)">— 1週間以上前です。Xアプリのアナリティクスで最新値を確認しましょう</span>' : '');
+  }
 }
 
 function saveSettings() {
@@ -1334,6 +1697,7 @@ function approveQuiz(id) {
     addLog('👍 クイズを承認しました');
     openShareModal(q.question, 'クイズをXに投稿', 'theme', '', q.sourceUrl);
   }
+  if (state.settings.integration.autoSend) sendWebhook('quiz.approved', q);
 }
 
 function rejectQuiz(id) {
@@ -1650,6 +2014,7 @@ function renderAll() {
   renderAnswerQueue();
   renderLogs();
   renderHistory();
+  renderMonetize();
 }
 
 function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
