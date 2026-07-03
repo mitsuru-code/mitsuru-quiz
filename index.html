@@ -387,6 +387,19 @@
     <div class="prog-label"><span>👁 インプレッション 直近3ヶ月（条件: 500万）</span><span class="val" id="prog-imp-val">未入力</span></div>
     <div class="prog-bar"><div class="prog-fill" id="prog-imp" style="width:0%"></div></div>
   </div>
+  <div class="prog-row">
+    <div class="prog-label"><span>💴 推定月間収益（非公式の目安）</span><span class="val" id="est-revenue-val">未入力</span></div>
+    <div style="display:flex;gap:8px;margin-top:4px">
+      <input type="number" id="monetize-imp28" placeholder="直近28日のインプ" inputmode="numeric"
+        style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:12px;padding:8px;font-family:inherit;">
+      <input type="number" id="monetize-rate" placeholder="想定単価" inputmode="numeric"
+        style="width:80px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:12px;padding:8px;font-family:inherit;">
+    </div>
+    <div style="font-size:10px;color:var(--muted);margin-top:5px;line-height:1.6">
+      左: 直近28日インプレッション（Xアナリティクスで確認） / 右: 円 / 1万インプレッションの想定単価（自分で調整）<br>
+      ⚠️ Xは単価を公表していないため<strong>非公式の目安</strong>です。実際の入金額が分かり次第、逆算して単価を調整してください。
+    </div>
+  </div>
   <div class="setting-row">
     <span class="s-label">✅ X Premium 加入済み</span>
     <label class="toggle-wrap"><input type="checkbox" id="monetize-premium" onchange="saveMonetize()"><span class="toggle-sw"></span></label>
@@ -640,6 +653,8 @@ state.settings.globalPriority = state.settings.globalPriority || 'balanced';
 state.breakingLastChecked = state.breakingLastChecked || 0;
 state.breakingLastHeadline = state.breakingLastHeadline || '';
 state.monetize = state.monetize || { followers: 0, impressions: 0, premium: false, updatedAt: 0 };
+state.monetize.imp28 = state.monetize.imp28 || 0;
+state.monetize.rate = state.monetize.rate || 50; // 円/1万imp（仮の初期値。ユーザーが実績に合わせて調整する前提）
 state.settings.integration = state.settings.integration || { webhookUrl: '', secret: '', autoSend: false };
 state.webhookQueue = state.webhookQueue || [];   // PC連携が取れない間の未送信ペイロード
 
@@ -1249,6 +1264,8 @@ function importState(input) {
 function init2Monetize() {
   if (state.monetize.followers > 0) document.getElementById('monetize-followers').value = state.monetize.followers;
   if (state.monetize.impressions > 0) document.getElementById('monetize-imp').value = state.monetize.impressions;
+  if (state.monetize.imp28 > 0) document.getElementById('monetize-imp28').value = state.monetize.imp28;
+  document.getElementById('monetize-rate').value = state.monetize.rate;
   document.getElementById('monetize-premium').checked = state.monetize.premium;
 }
 
@@ -1256,8 +1273,12 @@ function init2Monetize() {
 function saveMonetize(fromButton) {
   const f = parseInt(document.getElementById('monetize-followers').value, 10);
   const i = parseInt(document.getElementById('monetize-imp').value, 10);
+  const imp28 = parseInt(document.getElementById('monetize-imp28').value, 10);
+  const rate = parseInt(document.getElementById('monetize-rate').value, 10);
   if (!isNaN(f) && f >= 0) state.monetize.followers = f;
   if (!isNaN(i) && i >= 0) state.monetize.impressions = i;
+  if (!isNaN(imp28) && imp28 >= 0) state.monetize.imp28 = imp28;
+  if (!isNaN(rate) && rate >= 0) state.monetize.rate = rate;
   state.monetize.premium = document.getElementById('monetize-premium').checked;
   state.monetize.updatedAt = Date.now();
   persist();
@@ -1294,6 +1315,11 @@ function renderMonetize() {
   };
   setProg('prog-followers', 'prog-followers-val', m.followers, 500, n => n.toLocaleString());
   setProg('prog-imp', 'prog-imp-val', m.impressions, 5000000, n => n >= 10000 ? `${(n/10000).toLocaleString(undefined,{maximumFractionDigits:1})}万` : n.toLocaleString());
+
+  // 推定月間収益（非公式の目安）: 直近28日インプレッション × 想定単価
+  const estYen = Math.round(m.imp28 / 10000 * m.rate);
+  document.getElementById('est-revenue-val').textContent =
+    (m.imp28 > 0 && m.rate > 0) ? `約 ¥${estYen.toLocaleString()} / 月` : '未入力';
 
   if (m.updatedAt) {
     const d = new Date(m.updatedAt);
