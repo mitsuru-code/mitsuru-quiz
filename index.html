@@ -1889,30 +1889,9 @@ function shareToX() {
   window.open(url, '_blank');
 }
 
-// 毎回わずかに文章を変えてXのスパム判定を回避
-function microVariate(text) {
-  const pick = a => a[Math.floor(Math.random() * a.length)];
-  // 末尾の絵文字や句点をランダムに差し替え
-  const suffixes = ['', '　', ' ✓', ' 📝', ' 💡', ' ✨', ' 📌', '。', '！'];
-  const punctPairs = [['、','，'],['。','．'],['！','! '],['？','? ']];
-  let t = text;
-  // 句読点を1箇所だけランダムに変換
-  for (const [a, b] of punctPairs) {
-    const idx = t.lastIndexOf(a);
-    if (idx !== -1 && Math.random() < 0.5) {
-      t = t.slice(0, idx) + b + t.slice(idx + a.length);
-      break;
-    }
-  }
-  // ハッシュタグの前に不可視のゼロ幅スペースを入れる（Xの重複検出を回避）
-  t = t.replace(/#/g, () => Math.random() < 0.5 ? '\u200b#' : '#');
-  return t;
-}
-
 function tryCopy(silent) {
   const ta = document.getElementById('share-text');
-  // silent（自動コピー）時は変換なし、手動コピー時だけ微変換を適用
-  const text = silent ? ta.value : microVariate(ta.value);
+  const text = ta.value;
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(text).then(() => {
       if (!silent) showToast('📋 コピーしました！貼り付け後に一言追加してから投稿してください');
