@@ -1,0 +1,62 @@
+# クラウドBot: 時事クイズの自動生成・X自動投稿（PC常駐サーバーからの移設）
+# - 毎時0分に起動し、JSTの投稿スロット（POST_SLOTS）に該当すればクイズを生成して投稿
+# - 毎回の実行で、返信期限が来た正解をスレッド返信
+# - 手動実行（Run workflow）でdry-run／強制投稿のテストが可能
+name: Cloud Bot
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # 毎時0分（UTC）。JST判定はスクリプト側で行う
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'dry-run（生成のみ・投稿しない）'
+        type: boolean
+        default: true
+      force_post:
+        description: '投稿スロット外でも投稿する（テスト用）'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cloud-bot
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: クイズ生成・投稿
+        run: node cloud-bot/post-quiz.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
+          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
+          FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && 'true' || 'false' }}
+          # POST_SLOTS: '7,12,17,21'   # 投稿時刻(JST)を変えたい場合はコメントを外して編集
+          # GENRE: 'mixed'             # mixed / world / japan / economy / science / sports
+          # ANSWER_DELAY_HOURS: '2'    # 正解返信までの時間
+
+      - name: 状態（返信キュー・出題履歴）をコミット
+        run: |
+          if git diff --quiet cloud-bot/state.json; then
+            echo "state.json に変更なし"
+            exit 0
+          fi
+          git config user.name "cloud-bot"
+          git config user.email "actions@github.com"
+          git add cloud-bot/state.json
+          git commit -m "cloud-bot: 状態を更新 [skip ci]"
+          git push
