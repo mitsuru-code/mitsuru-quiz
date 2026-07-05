@@ -17,6 +17,10 @@ on:
         description: '投稿スロット外でも投稿する（テスト用）'
         type: boolean
         default: true
+      test_post:
+        description: 'X接続テストのみ（クイズ生成せずテスト投稿を1回）'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -47,6 +51,7 @@ jobs:
           TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && 'true' || 'false' }}
+          TEST_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.test_post && 'true' || 'false' }}
           # POST_SLOTS: '7,12,17,21'   # 投稿時刻(JST)を変えたい場合はコメントを外して編集
           # GENRE: 'mixed'             # mixed / world / japan / economy / science / sports
           # ANSWER_DELAY_HOURS: '2'    # 正解返信までの時間

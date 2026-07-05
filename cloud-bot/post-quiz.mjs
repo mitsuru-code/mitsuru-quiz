@@ -36,11 +36,14 @@ const POST_SLOTS = (process.env.POST_SLOTS || '7,12,17,21').split(',').map(s => 
 const ANSWER_DELAY_MS = (parseFloat(process.env.ANSWER_DELAY_HOURS || '2')) * 3600 * 1000;
 const GENRE = process.env.GENRE || 'mixed';
 
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || '';
-const TW_CONSUMER_KEY    = process.env.TWITTER_CONSUMER_KEY || '';
-const TW_CONSUMER_SECRET = process.env.TWITTER_CONSUMER_SECRET || '';
-const TW_ACCESS_TOKEN    = process.env.TWITTER_ACCESS_TOKEN || '';
-const TW_ACCESS_SECRET   = process.env.TWITTER_ACCESS_TOKEN_SECRET || '';
+// Secretsコピペ時の前後空白・改行はOAuth署名を壊すため必ず除去する
+const cleanEnv = k => (process.env[k] || '').trim();
+const ANTHROPIC_API_KEY = cleanEnv('ANTHROPIC_API_KEY');
+const TW_CONSUMER_KEY    = cleanEnv('TWITTER_CONSUMER_KEY');
+const TW_CONSUMER_SECRET = cleanEnv('TWITTER_CONSUMER_SECRET');
+const TW_ACCESS_TOKEN    = cleanEnv('TWITTER_ACCESS_TOKEN');
+const TW_ACCESS_SECRET   = cleanEnv('TWITTER_ACCESS_TOKEN_SECRET');
+const TEST_POST = process.env.TEST_POST === 'true';
 
 // ===== X API: OAuth 1.0a（server.js から移植した実績コード） =====
 function oauthSign(method, url, params, tokenSecret) {
@@ -93,8 +96,8 @@ function postTweet(text, replyToId) {
         try {
           const json = JSON.parse(data);
           if (json.data && json.data.id) resolve(json.data.id);
-          else reject(new Error(json.detail || JSON.stringify(json)));
-        } catch { reject(new Error(data)); }
+          else reject(new Error(`HTTP ${r.statusCode}: ${JSON.stringify(json)}`));
+        } catch { reject(new Error(`HTTP ${r.statusCode}: ${data}`)); }
       });
     });
     req.on('error', reject);
@@ -251,8 +254,8 @@ function saveState(state) {
 // ===== メイン =====
 async function main() {
   const missing = [];
-  if (!ANTHROPIC_API_KEY && !process.env.MOCK_QUIZ_JSON) missing.push('ANTHROPIC_API_KEY');
-  if (!DRY_RUN) {
+  if (!ANTHROPIC_API_KEY && !process.env.MOCK_QUIZ_JSON && !TEST_POST) missing.push('ANTHROPIC_API_KEY');
+  if (!DRY_RUN || TEST_POST) {
     if (!TW_CONSUMER_KEY) missing.push('TWITTER_CONSUMER_KEY');
     if (!TW_CONSUMER_SECRET) missing.push('TWITTER_CONSUMER_SECRET');
     if (!TW_ACCESS_TOKEN) missing.push('TWITTER_ACCESS_TOKEN');
@@ -261,6 +264,15 @@ async function main() {
   if (missing.length) {
     console.error('❌ 環境変数が不足しています: ' + missing.join(', '));
     process.exit(1);
+  }
+
+  // 接続テストモード: クイズ生成をスキップし、X認証だけを検査する
+  if (TEST_POST) {
+    console.log(`🔧 X API接続テスト（キー長: CK=${TW_CONSUMER_KEY.length} / CS=${TW_CONSUMER_SECRET.length} / AT=${TW_ACCESS_TOKEN.length} / AS=${TW_ACCESS_SECRET.length}）`);
+    const text = `🔧 クラウドBot接続テスト ${new Date().toISOString()}`;
+    const id = await postTweet(text, null);
+    console.log(`✅ X APIの接続テストに成功しました（tweet: ${id}）。このテスト投稿はXアプリから削除して構いません`);
+    return;
   }
 
   const state = loadState();
@@ -333,5 +345,18 @@ async function main() {
 
 main().catch(e => {
   console.error('❌ 実行エラー:', e.message);
+  if (e.message.includes('HTTP 401')) {
+    console.error(`💡 401(認証失敗)の主な原因:
+  1. X Developer Portalのアプリ権限が「Read」のみ → 「Read and Write」に変更し、
+     その後 Access Token & Secret を必ず「Regenerate」して、GitHubのSecrets
+     （X_ACCESS_TOKEN / X_ACCESS_TOKEN_SECRET）を新しい値に更新する
+  2. Secretsの値の貼り間違い（API Key と Access Token の取り違え等）
+  3. 上記キー長（CK≈25 / CS≈50 / AT≈50 / AS≈45 が目安）が極端に違う場合は値が別物`);
+  } else if (e.message.includes('HTTP 403')) {
+    console.error(`💡 403(権限拒否)の主な原因:
+  1. アプリがProjectに紐付いていない（Developer PortalでProject配下にアプリを作る）
+  2. 同一内容の重複投稿
+  3. APIプランの制限`);
+  }
   process.exit(1);
 });
