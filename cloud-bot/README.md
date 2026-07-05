@@ -27,12 +27,12 @@ GitHubリポジトリの **Settings → Secrets and variables → Actions → Ne
 | Name | 値の取得場所 |
 |---|---|
 | `ANTHROPIC_API_KEY` | console.anthropic.com → API Keys（`sk-ant-` で始まる） |
-| `TWITTER_CONSUMER_KEY` | developer.x.com → プロジェクトのアプリ → Keys and tokens → API Key |
-| `TWITTER_CONSUMER_SECRET` | 同上 → API Key Secret |
-| `TWITTER_ACCESS_TOKEN` | 同上 → Access Token（**Read and Write権限**で発行したもの） |
-| `TWITTER_ACCESS_TOKEN_SECRET` | 同上 → Access Token Secret |
+| `X_API_KEY` | developer.x.com → プロジェクトのアプリ → Keys and tokens → API Key（Consumer Key） |
+| `X_API_SECRET` | 同上 → API Key Secret（Consumer Secret） |
+| `X_ACCESS_TOKEN` | 同上 → Access Token（**Read and Write権限**で発行したもの） |
+| `X_ACCESS_TOKEN_SECRET` | 同上 → Access Token Secret |
 
-> 💡 PC側の `.env` に設定していたものと同じ値を使えます。
+> 💡 PC側の `.env` に設定していたものと同じ値を使えます。ワークフロー内部では `TWITTER_*` という名前に読み替えていますが、GitHubへの登録名は上記の `X_*` で統一しています。
 
 ### 2. テスト実行
 
