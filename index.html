@@ -417,6 +417,46 @@
   </div>
 </div>
 
+<!-- 投稿分析ログ -->
+<div class="card">
+  <h2>📊 投稿分析ログ</h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:12px;line-height:1.6">
+    伸びた投稿・引用ポスト・手動返信などを記録して振り返るためのログです。同じURLで再登録すると数値が上書き更新されます。
+  </div>
+
+  <input type="url" id="postlog-url" placeholder="🔗 投稿URL（例: https://x.com/.../status/...）" autocomplete="off"
+    style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:11px;font-family:inherit;margin-bottom:8px;">
+
+  <select id="postlog-type" style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:11px;font-family:inherit;margin-bottom:8px;">
+    <option value="auto">🤖 自動投稿（テーマ）</option>
+    <option value="quote">𝕏 手動：引用ポスト</option>
+    <option value="link">🔗 手動：リンク記事</option>
+    <option value="reply">💬 手動：返信</option>
+    <option value="other">📝 その他</option>
+  </select>
+
+  <div style="display:flex;gap:8px;margin-bottom:8px">
+    <input type="number" id="postlog-impressions" placeholder="インプレッション" inputmode="numeric"
+      style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;">
+    <input type="number" id="postlog-likes" placeholder="いいね" inputmode="numeric"
+      style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;">
+  </div>
+  <div style="display:flex;gap:8px;margin-bottom:8px">
+    <input type="number" id="postlog-replies" placeholder="リプライ" inputmode="numeric"
+      style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;">
+    <input type="number" id="postlog-reposts" placeholder="リポスト" inputmode="numeric"
+      style="flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:10px;font-family:inherit;">
+  </div>
+  <textarea id="postlog-memo" placeholder="📝 メモ（例: なぜ伸びたと思うか）" rows="2"
+    style="width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text);font-size:13px;padding:11px;font-family:inherit;margin-bottom:10px;resize:vertical;"></textarea>
+
+  <button class="btn btn-copy" style="width:100%;justify-content:center" onclick="savePostLog()">➕ 記録を追加・更新</button>
+
+  <div style="border-top:1px solid var(--border);margin:14px 0 12px"></div>
+
+  <div id="postlog-list"><div class="empty" style="padding:14px">まだ記録がありません</div></div>
+</div>
+
 <!-- 承認待ち -->
 <div class="card">
   <h2>⏳ 承認待ち <span class="count" id="pending-count">0</span></h2>
@@ -657,6 +697,7 @@ state.monetize.imp28 = state.monetize.imp28 || 0;
 state.monetize.rate = state.monetize.rate || 50; // 円/1万imp（仮の初期値。ユーザーが実績に合わせて調整する前提）
 state.settings.integration = state.settings.integration || { webhookUrl: '', secret: '', autoSend: false };
 state.webhookQueue = state.webhookQueue || [];   // PC連携が取れない間の未送信ペイロード
+state.postLogs = state.postLogs || [];   // 投稿分析ログ（伸びた投稿・引用ポスト・手動返信の記録）
 
 let genTimer = null;
 let nextGenAt = null;
@@ -1090,7 +1131,7 @@ function init() {
 }
 
 function persist() {
-  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings, monetize: state.monetize, webhookQueue: state.webhookQueue.slice(-100) }));
+  localStorage.setItem('quizbot_state', JSON.stringify({ quizzes: state.quizzes.slice(0, 200), logs: state.logs.slice(0,50), settings: state.settings, monetize: state.monetize, webhookQueue: state.webhookQueue.slice(-100), postLogs: state.postLogs.slice(0, 300) }));
 }
 
 // ===== PC連携（Webhook・エクスポート/インポート） =====
@@ -1222,7 +1263,7 @@ function exportState() {
   const data = {
     exportedAt: new Date().toISOString(),
     app: 'quizbot', version: 1,
-    quizzes: state.quizzes, monetize: state.monetize, settings: { ...state.settings, integration: undefined }
+    quizzes: state.quizzes, monetize: state.monetize, postLogs: state.postLogs, settings: { ...state.settings, integration: undefined }
   };
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
   const a = document.createElement('a');
@@ -1249,6 +1290,11 @@ function importState(input) {
       state.quizzes = state.quizzes.concat(added).sort((a,b) => (b.createdAt||0) - (a.createdAt||0));
       if (data.monetize && (data.monetize.updatedAt || 0) > (state.monetize.updatedAt || 0)) {
         state.monetize = data.monetize;
+      }
+      if (Array.isArray(data.postLogs)) {
+        const existingLogs = new Set(state.postLogs.map(p => p.url));
+        const addedLogs = data.postLogs.filter(p => p && p.url && !existingLogs.has(p.url));
+        state.postLogs = state.postLogs.concat(addedLogs).sort((a,b) => (b.updatedAt||0) - (a.updatedAt||0));
       }
       persist(); renderAll(); init2Monetize();
       addLog(`📦 インポート完了: ${added.length}問を追加しました`);
@@ -1284,6 +1330,88 @@ function saveMonetize(fromButton) {
   persist();
   renderMonetize();
   if (fromButton) showToast('💰 収益化データを更新しました');
+}
+
+// ===== 投稿分析ログ =====
+function savePostLog() {
+  const url = document.getElementById('postlog-url').value.trim();
+  if (!url) { showToast('⚠️ 投稿URLを入力してください'); return; }
+  const type = document.getElementById('postlog-type').value;
+  const parseNum = id => {
+    const v = parseInt(document.getElementById(id).value, 10);
+    return (!isNaN(v) && v >= 0) ? v : 0;
+  };
+  const impressions = parseNum('postlog-impressions');
+  const likes = parseNum('postlog-likes');
+  const replies = parseNum('postlog-replies');
+  const reposts = parseNum('postlog-reposts');
+  const memo = document.getElementById('postlog-memo').value.trim();
+
+  const now = Date.now();
+  const existing = state.postLogs.find(p => p.url === url);
+  if (existing) {
+    existing.type = type;
+    existing.impressions = impressions;
+    existing.likes = likes;
+    existing.replies = replies;
+    existing.reposts = reposts;
+    existing.memo = memo;
+    existing.updatedAt = now;
+    showToast('🔄 記録を更新しました');
+  } else {
+    state.postLogs.unshift({ url, type, impressions, likes, replies, reposts, memo, createdAt: now, updatedAt: now });
+    showToast('➕ 記録を追加しました');
+  }
+  state.postLogs.sort((a,b) => (b.updatedAt||0) - (a.updatedAt||0));
+  persist();
+  renderPostLogs();
+
+  document.getElementById('postlog-url').value = '';
+  document.getElementById('postlog-impressions').value = '';
+  document.getElementById('postlog-likes').value = '';
+  document.getElementById('postlog-replies').value = '';
+  document.getElementById('postlog-reposts').value = '';
+  document.getElementById('postlog-memo').value = '';
+}
+
+function deletePostLog(url) {
+  state.postLogs = state.postLogs.filter(p => p.url !== url);
+  persist();
+  renderPostLogs();
+  showToast('🗑 記録を削除しました');
+}
+
+const postLogTypeLabel = { auto: '🤖 自動', quote: '𝕏 引用', link: '🔗 記事', reply: '💬 返信', other: '📝 その他' };
+
+function renderPostLogs() {
+  const el = document.getElementById('postlog-list');
+  if (!el) return;
+  if (!state.postLogs.length) {
+    el.innerHTML = '<div class="empty" style="padding:14px">まだ記録がありません</div>';
+    return;
+  }
+  el.innerHTML = state.postLogs.slice(0, 100).map(p => {
+    const d = new Date(p.updatedAt || p.createdAt);
+    const dateStr = `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+    return `
+    <div class="quiz-item" style="margin-bottom:8px">
+      <div class="quiz-meta">
+        <span class="badge badge-cat">${postLogTypeLabel[p.type] || p.type}</span>
+        <span style="font-size:10px;color:var(--muted)">${dateStr}</span>
+      </div>
+      <div style="font-size:11px;color:var(--accent2);word-break:break-all;margin:4px 0;-webkit-user-select:text;user-select:text;">${esc(p.url)}</div>
+      <div style="display:flex;gap:10px;font-size:12px;color:var(--text);margin:4px 0;flex-wrap:wrap;">
+        <span>👁 ${(p.impressions||0).toLocaleString()}</span>
+        <span>❤️ ${(p.likes||0).toLocaleString()}</span>
+        <span>💬 ${(p.replies||0).toLocaleString()}</span>
+        <span>🔁 ${(p.reposts||0).toLocaleString()}</span>
+      </div>
+      ${p.memo ? `<div style="font-size:11px;color:var(--muted);margin-top:4px">${esc(p.memo)}</div>` : ''}
+      <div class="quiz-actions" style="margin-top:8px">
+        <button class="btn btn-reject" onclick="deletePostLog('${esc(p.url).replace(/'/g,"\\'")}')">削除</button>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 function renderMonetize() {
@@ -1994,6 +2122,7 @@ function renderAll() {
   renderLogs();
   renderHistory();
   renderMonetize();
+  renderPostLogs();
 }
 
 function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
