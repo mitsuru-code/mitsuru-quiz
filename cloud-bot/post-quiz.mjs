@@ -45,6 +45,28 @@ const TW_ACCESS_TOKEN    = cleanEnv('TWITTER_ACCESS_TOKEN');
 const TW_ACCESS_SECRET   = cleanEnv('TWITTER_ACCESS_TOKEN_SECRET');
 const TEST_POST = process.env.TEST_POST === 'true';
 
+// ===== JSTスロット計算 =====
+function jstHourOf(ms) {
+  return parseInt(new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: 'numeric', hour12: false }).format(new Date(ms)), 10);
+}
+
+// 現在時刻以前で最も新しい投稿スロットの時刻(epoch ms)を返す
+function latestSlotEpoch(nowMs) {
+  const jst = new Date(nowMs + 9 * 3600 * 1000); // JSTの壁時計をUTCメソッドで読むためのシフト
+  const sorted = [...POST_SLOTS].sort((a, b) => a - b);
+  let slotHour = null;
+  let dayOffset = 0;
+  for (const s of sorted) {
+    if (s <= jst.getUTCHours()) slotHour = s;
+  }
+  if (slotHour === null) { // 今日のスロットがまだ来ていない → 前日の最終スロット
+    slotHour = sorted[sorted.length - 1];
+    dayOffset = -1;
+  }
+  // JSTのslotHour:00 をUTCに戻す
+  return Date.UTC(jst.getUTCFullYear(), jst.getUTCMonth(), jst.getUTCDate() + dayOffset, slotHour - 9, 0, 0);
+}
+
 // ===== X API: OAuth 1.0a（server.js から移植した実績コード） =====
 function oauthSign(method, url, params, tokenSecret) {
   const sigParams = { ...params };
@@ -280,9 +302,11 @@ async function main() {
   state.recentTopics = state.recentTopics || [];
   state.recentOpeners = state.recentOpeners || [];
 
-  const now = Date.now();
-  const jstHour = parseInt(new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: 'numeric', hour12: false }).format(new Date()), 10);
-  console.log(`⏰ JST ${jstHour}時 / 投稿スロット: [${POST_SLOTS.join(', ')}] / DRY_RUN=${DRY_RUN} / FORCE_POST=${FORCE_POST}`);
+  const now = parseInt(process.env.NOW_MS || '', 10) || Date.now(); // NOW_MSはテスト用フック
+  const jstHour = jstHourOf(now);
+  const slotEpoch = latestSlotEpoch(now);
+  const slotStr = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(new Date(slotEpoch));
+  console.log(`⏰ JST ${jstHour}時 / 投稿スロット: [${POST_SLOTS.join(', ')}] / 直近スロット: ${slotStr} / DRY_RUN=${DRY_RUN} / FORCE_POST=${FORCE_POST}`);
 
   let stateChanged = false;
 
@@ -305,8 +329,19 @@ async function main() {
     }
   }
 
-  // --- 2. 投稿スロットならクイズを生成して投稿 ---
-  if (FORCE_POST || POST_SLOTS.includes(jstHour)) {
+  // --- 2. 直近スロットが未投稿ならクイズを生成して投稿（キャッチアップ方式） ---
+  // GitHub Actionsのcronは大幅に遅延・スキップされることがあるため、
+  // 「起動時刻がスロットと一致したら投稿」ではなく
+  // 「直近のスロット時刻以降にまだ投稿していなければ、遅れてでも投稿」する。
+  // 取りこぼした古いスロットは追いかけない（直近1回分のみ）ので連投にはならない。
+  const delayMin = Math.round((now - slotEpoch) / 60000);
+  const tooLate = delayMin > 360; // 6時間超の遅延は深夜投稿等になり逆効果なので見送る
+  const slotUnposted = (state.lastPostedAt || 0) < slotEpoch;
+  const shouldPost = FORCE_POST || (slotUnposted && !tooLate);
+  if (shouldPost) {
+    if (!FORCE_POST) {
+      console.log(`📮 ${slotStr} のスロットが未投稿のため投稿します（スロットから${delayMin}分経過）`);
+    }
     const quiz = await generateQuiz(state);
     if (!quiz.question) throw new Error('生成結果に question がありません');
     console.log(`🧠 生成したクイズ（${quiz.category || '時事'} / ${quiz.question.length}文字）:\n${quiz.question}\n`);
@@ -332,8 +367,10 @@ async function main() {
       state.lastPostedAt = now;
       stateChanged = true;
     }
+  } else if (slotUnposted && tooLate) {
+    console.log(`⏭ ${slotStr} のスロットは未投稿ですが、${delayMin}分経過しているため見送ります（次のスロットから再開）`);
   } else {
-    console.log('⏭ 投稿スロット外のため、クイズ生成はスキップ（返信キューの処理のみ）');
+    console.log('⏭ 直近スロットは投稿済みのため、クイズ生成はスキップ（返信キューの処理のみ）');
   }
 
   if (stateChanged && !DRY_RUN) {
