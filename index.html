@@ -1697,7 +1697,10 @@ ${humanizeBlock}
   "source": "引用元ポストの投稿者・要点",
   "category": "ジャンル名"
 }`;
-    tools = [{ type: 'web_search_20250305', name: 'web_search' }];
+    tools = [
+      { type: 'web_fetch_20250910', name: 'web_fetch', max_uses: 3 },
+      { type: 'web_search_20250305', name: 'web_search' }
+    ];
 
   } else { // link
     prompt = `あなたはX(Twitter)で時事クイズを出している人気アカウントの「中の人」です。次の記事URLの内容を読み、それに基づいた4択クイズを1問作ってください。投稿の最後にこのURLを添えるので、リンク先を読めば答えが分かる形式にします。
@@ -1765,6 +1768,13 @@ ${humanizeBlock}
     const match = clean.match(/\{[\s\S]*\}/);
     if (!match) throw new Error('JSON not found');
     const quiz = JSON.parse(match[0]);
+
+    // 引用ポスト/リンク記事モードで内容取得に失敗した場合は、
+    // エラー文をクイズとして承認待ちに出さずリトライを促す
+    if ((mode === 'post' || mode === 'link') && /取得失敗|取得できません|アクセスできません/.test(quiz.category || '')) {
+      const target = mode === 'post' ? '引用元ポスト' : '記事';
+      throw new Error(`${target}の内容を取得できませんでした（Xの投稿はログインが必要なため読み取れないことがあります）。別のURLを試すか、テーマモードでの生成をお試しください`);
+    }
 
     const now = Date.now();
     const noAnswer = (mode === 'post' || mode === 'link'); // URLモードは正解返信不要
