@@ -58,6 +58,10 @@ GitHubリポジトリの **Settings → Secrets and variables → Actions → Ne
 | `GENRE` | `mixed` | 出題ジャンル（mixed / world / japan / economy / science / sports） |
 | `ANSWER_DELAY_HOURS` | `2` | 投稿から正解返信までの時間 |
 
+## 失敗時の通知
+
+実行が失敗すると、リポジトリに **「🚨 Cloud Bot の実行が失敗しています」というIssueが自動作成**され、GitHubから通知が届きます。Issueに書かれた実行ログのリンクから ❌ で始まる行を確認してください。解決したらIssueをクローズしてください（クローズするまで重複Issueは作られず、再失敗は同じIssueへのコメントで通知されます）。
+
 ## 停止方法
 
 - **一時停止**: Actions タブ → Cloud Bot → 右上「…」→ **Disable workflow**

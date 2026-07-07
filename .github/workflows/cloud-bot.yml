@@ -24,6 +24,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # 実行失敗時のIssue自動作成用
 
 concurrency:
   group: cloud-bot
@@ -67,3 +68,24 @@ jobs:
           git add cloud-bot/state.json
           git commit -m "cloud-bot: 状態を更新 [skip ci]"
           git push
+
+      # 失敗したらIssueを自動作成して通知（毎時の連続失敗でも未クローズのIssueがあれば重複作成しない）
+      - name: 失敗をIssueで通知
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create cloud-bot-failure --repo "${{ github.repository }}" --color D93F0B --description "Cloud Botの実行失敗" 2>/dev/null || true
+          open_count=$(gh issue list --repo "${{ github.repository }}" --label cloud-bot-failure --state open --json number --jq 'length')
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ "$open_count" -gt 0 ]; then
+            issue_number=$(gh issue list --repo "${{ github.repository }}" --label cloud-bot-failure --state open --json number --jq '.[0].number')
+            gh issue comment "$issue_number" --repo "${{ github.repository }}" --body "再び失敗しました: $run_url"
+            echo "既存の失敗Issue #$issue_number にコメントを追加しました"
+          else
+            gh issue create --repo "${{ github.repository }}" \
+              --label cloud-bot-failure \
+              --title "🚨 Cloud Bot の実行が失敗しています" \
+              --body "$(printf 'Cloud Bot（クイズ自動投稿）の実行が失敗しました。\n\n失敗した実行のログ: %s\n\nログの ❌ で始まる行に原因が表示されています。よくある原因はAPIキーの期限切れ・残高不足・X APIの権限変更です。解決したらこのIssueをクローズしてください（クローズするまで新しいIssueは作られず、再失敗はこのIssueへのコメントで通知されます）。' "$run_url")"
+            echo "失敗Issueを作成しました"
+          fi
