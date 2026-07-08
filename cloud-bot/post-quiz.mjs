@@ -39,6 +39,7 @@ const MONTHLY_POST_LIMIT = parseInt(process.env.MONTHLY_POST_LIMIT || '450', 10)
 const BREAKING_ENABLED = process.env.BREAKING_ENABLED !== 'false';
 const BREAKING_MAX_PER_DAY = 2;
 const BREAKING_CHECK_INTERVAL_MS = 2 * 3600 * 1000; // 速報チェックは2時間間隔
+const MIN_POST_GAP_MS = 30 * 60 * 1000; // 新規投稿（スロット・速報）同士は最低30分間隔をあける
 
 // Secretsコピペ時の前後空白・改行はOAuth署名を壊すため必ず除去する
 const cleanEnv = k => (process.env[k] || '').trim();
@@ -327,8 +328,20 @@ function canPost(state, now) {
   return state.monthly.posts < MONTHLY_POST_LIMIT;
 }
 
-function countPost(state) {
+// 返信（スレッド返信）はタイムライン上の新規投稿ではないため間隔規制の対象外。月間カウントのみ加算
+function countPostOnly(state) {
   state.monthly.posts++;
+}
+
+// スロット投稿・速報投稿（新規トップレベル投稿）用。間隔規制の基準時刻も更新する
+function countPost(state, now) {
+  state.monthly.posts++;
+  state.lastAnyPostAt = now;
+}
+
+// 直近の新規投稿からMIN_POST_GAP_MS以上経っているか（速報とスロット投稿が接近しすぎるのを防ぐ）
+function spacingOk(state, now) {
+  return (now - (state.lastAnyPostAt || 0)) >= MIN_POST_GAP_MS;
 }
 
 // ===== メイン =====
@@ -385,7 +398,7 @@ async function main() {
         const replyId = await postTweet(answerText, item.tweetId);
         console.log(`💬 正解を返信しました（tweet: ${replyId} → 元: ${item.tweetId}）`);
         state.pendingAnswers = state.pendingAnswers.filter(a => a !== item);
-        countPost(state);
+        countPostOnly(state);
         stateChanged = true;
       } catch (e) {
         console.error(`⚠️ 正解返信に失敗（元: ${item.tweetId}）: ${e.message} — 次回の実行で再試行します`);
@@ -400,6 +413,9 @@ async function main() {
   const shouldPost = FORCE_POST || (slotUnposted && !tooLate);
   if (shouldPost && !DRY_RUN && !canPost(state, now)) {
     console.log('⚠️ 月間投稿上限に達したためスロット投稿を見送ります');
+  } else if (shouldPost && !DRY_RUN && !spacingOk(state, now)) {
+    const waitMin = Math.ceil((MIN_POST_GAP_MS - (now - (state.lastAnyPostAt || 0))) / 60000);
+    console.log(`⏳ 前回の投稿から30分経っていないためスロット投稿を見送ります（次回の実行で再試行、あと約${waitMin}分）`);
   } else if (shouldPost) {
     if (!FORCE_POST) console.log(`📮 ${slotStr} のスロット（${profile.kind}）が未投稿のため投稿します（${delayMin}分経過）`);
 
@@ -414,7 +430,7 @@ async function main() {
         console.log(`🐦 Xに投稿しました（tweet: ${tweetId}）`);
         state.recentTopics = [gen.source || gen.category, ...state.recentTopics].filter(Boolean).slice(0, 8);
         state.lastPostedAt = now;
-        countPost(state);
+        countPost(state, now);
         stateChanged = true;
       }
 
@@ -464,7 +480,7 @@ async function main() {
         state.recentTopics = [quiz.source || quiz.category || '', ...state.recentTopics].filter(Boolean).slice(0, 8);
         state.recentOpeners = [(quiz.question || '').slice(0, 40), ...state.recentOpeners].filter(Boolean).slice(0, 5);
         state.lastPostedAt = now;
-        countPost(state);
+        countPost(state, now);
         stateChanged = true;
       }
     }
@@ -479,7 +495,8 @@ async function main() {
   if (state.breakingDate !== today) { state.breakingDate = today; state.breakingCount = 0; }
   const breakingOk = BREAKING_ENABLED && jstHour >= 7 && jstHour <= 23
     && (now - (state.lastBreakingCheck || 0)) >= BREAKING_CHECK_INTERVAL_MS
-    && state.breakingCount < BREAKING_MAX_PER_DAY;
+    && state.breakingCount < BREAKING_MAX_PER_DAY
+    && (DRY_RUN || spacingOk(state, now)); // 直前にスロット投稿等があった場合は間隔を優先しスキップ（次回に再試行）
   if (breakingOk && !process.env.MOCK_QUIZ_JSON) { // MOCKテスト時はスロット側のみ検証
     state.lastBreakingCheck = now;
     stateChanged = true;
@@ -494,7 +511,7 @@ async function main() {
           console.log(`🐦 速報を投稿しました（tweet: ${tweetId}）`);
           state.recentBreaking = [b.headline, ...state.recentBreaking].filter(Boolean).slice(0, 10);
           state.breakingCount++;
-          countPost(state);
+          countPost(state, now);
         }
       } else {
         console.log('📡 速報チェック: 該当なし');
