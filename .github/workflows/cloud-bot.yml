@@ -1,7 +1,9 @@
-# クラウドBot: 時事クイズの自動生成・X自動投稿（PC常駐サーバーからの移設）
-# - 毎時0分に起動し、JSTの投稿スロット（POST_SLOTS）に該当すればクイズを生成して投稿
-# - 毎回の実行で、返信期限が来た正解をスレッド返信
-# - 手動実行（Run workflow）でdry-run／強制投稿のテストが可能
+# クラウドBot: 時間帯別の時事コンテンツ自動生成・X自動投稿
+# 番組表（JST）: 6時=朝ブリーフィング(20問Q&A) / 12時=昼のPollクイズ /
+#              17時=夕方のPollクイズ / 20時=夜の振り返り(5問)
+# - 毎時0分に起動し、直近スロットが未投稿なら生成して投稿（キャッチアップ方式）
+# - 毎回の実行で、返信期限が来た正解をスレッド返信、速報の急拡大もチェック
+# - 手動実行（Run workflow）でdry-run／強制投稿／接続テストが可能
 name: Cloud Bot
 
 on:
@@ -40,7 +42,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: クイズ生成・投稿
+      - name: コンテンツ生成・投稿
         run: node cloud-bot/post-quiz.mjs
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -53,9 +55,9 @@ jobs:
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && 'true' || 'false' }}
           TEST_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.test_post && 'true' || 'false' }}
-          # POST_SLOTS: '7,12,17,21'   # 投稿時刻(JST)を変えたい場合はコメントを外して編集
-          # GENRE: 'mixed'             # mixed / world / japan / economy / science / sports
-          # ANSWER_DELAY_HOURS: '2'    # 正解返信までの時間
+          # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
+          # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
+          # BREAKING_ENABLED: 'false'      # 速報チェックを止めたい場合はfalseに
 
       - name: 状態（返信キュー・出題履歴）をコミット
         run: |
