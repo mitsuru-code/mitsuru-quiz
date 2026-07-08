@@ -172,7 +172,22 @@ async function callClaude(prompt, maxTokens, maxSearches) {
   const clean = text.replace(/```json|```/g, '').trim();
   const match = clean.match(/\{[\s\S]*\}/);
   if (!match) throw new Error('生成結果にJSONが見つかりません');
-  return JSON.parse(match[0]);
+  try {
+    return JSON.parse(match[0]);
+  } catch {
+    // 長文生成（ブリーフィング等）では文字列内に生の改行が混入することがあり、
+    // 標準のJSON.parseが失敗する。文字列リテラル内だけをエスケープして再試行する
+    return JSON.parse(sanitizeJsonText(match[0]));
+  }
+}
+
+function sanitizeJsonText(text) {
+  return text.replace(/"(?:[^"\\]|\\.)*"/gs, (str) =>
+    str.replace(/[\u0000-\u001F]/g, (ch) => {
+      const map = { '\n': '\\n', '\r': '\\r', '\t': '\\t' };
+      return map[ch] || '\\u' + ch.charCodeAt(0).toString(16).padStart(4, '0');
+    })
+  );
 }
 
 // ===== キャラクター共通指示 =====
