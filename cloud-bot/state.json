@@ -1,14 +1,14 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "CNN, Reuters, BBC, AP, ESPN, Bloomberg, NPR, France 24, Al Jazeera, Fox Sports, NATO.int, Yahoo Finance, The Street, CoinDesk, Motley Fool",
     "NHK、日本経済新聞、CNN、TheStreet、フットボールチャンネル、超WORLDサッカー、東京都（感染症情報）、Sputnik日本、FIFA公式、Yahoo!ニュース",
     "地球の歩き方「世界初のポケモン空港が誕生！『のと里山ポケモン・ウィズ・ユー空港』が7月7日オープン」／朝日新聞（Yahoo!ニュース）「世界初の『ポケモン空港』きょう開港 能登の未来に向けた出発点に」",
     "日本経済新聞「スーパーエルニーニョの発生確率63% 米海洋大気局『最大級』と予測」（2026年6月11日付）",
     "NATO公式サイト「Overview - 2026 NATO Summit in Ankara」／Al Jazeera「NATO summit begins in Turkiye's Ankara: Who is attending, what is at stake?」",
     "NHK「5月の実質賃金 前年同月比で1.4％増 5か月連続のプラス」／日本経済新聞「5月の実質賃金1.4%増、5カ月連続プラス 賃上げが波及」（2026年7月7日）",
     "日本経済新聞「大企業製造業の景況感、5四半期連続で改善 日銀6月短観」（2026年7月1日）",
-    "AP通信「China test-launches a ballistic missile in the South Pacific and raises regional concerns」",
-    "日本経済新聞「W杯の観客動員、32年ぶり過去最多に 米国に巨大スタジアムずらり」/ 2026 FIFAワールドカップ Wikipedia"
+    "AP通信「China test-launches a ballistic missile in the South Pacific and raises regional concerns」"
   ],
   "recentOpeners": [
     "世界初の「ポケモン空港」が昨日オープン！🐹\n石川県の能登空港が新しくなりました",
@@ -17,16 +17,17 @@
     "7月7日に発表された5月の毎月勤労統計、賃金に関するこんなデータが並んでいます。",
     "ちょっと意外、これ知ってた？🐹\n\n7月1日に日銀が発表した6月の短観（企業短期"
   ],
-  "lastPostedAt": 1783508658260,
+  "lastPostedAt": 1783548309934,
   "recentBreaking": [
+    "九州北部・中国・近畿 梅雨明け・平年より11日早く",
     "日経平均1437円安・3日続落・中東情勢緊迫化",
     "大谷翔平MLB通算300号・日本人初の快挙"
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 6
+    "posts": 8
   },
-  "breakingDate": "2026-07-08",
-  "breakingCount": 2,
-  "lastBreakingCheck": 1783519548967
+  "breakingDate": "2026-07-09",
+  "breakingCount": 1,
+  "lastBreakingCheck": 1783548309934
 }
