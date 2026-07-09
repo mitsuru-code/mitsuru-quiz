@@ -369,6 +369,18 @@
   ⚠️ このアプリは<strong>画面を開いている間のみ</strong>動作します。初回は下の「🔑 APIキー設定」からキーを保存してください。
 </div>
 
+<!-- クラウドBot状況 -->
+<div class="card">
+  <h2>☁️ クラウドBot <span style="font-size:11px;color:var(--muted);font-weight:400" id="cloudbot-updated"></span></h2>
+  <div style="font-size:11px;color:var(--muted);margin-bottom:12px;line-height:1.6">
+    GitHub Actionsで動く自動投稿（6時・12時・17時・20時＋速報）の稼働状況です。PCの電源を切っていても、このアプリを開いていなくても投稿は続きます。
+  </div>
+  <div id="cloudbot-body">
+    <div class="empty" style="padding:14px">読み込み中…</div>
+  </div>
+  <button class="btn btn-copy" style="width:100%;justify-content:center;margin-top:10px" onclick="loadCloudBotStatus(true)">🔄 最新の状況を取得</button>
+</div>
+
 <!-- 収益化トラッカー -->
 <div class="card">
   <h2>💰 X収益化トラッカー</h2>
@@ -1128,6 +1140,11 @@ function init() {
   setInterval(() => flushWebhookQueue(false), 300000); // 5分ごとに未送信分を再送
   window.addEventListener('online', () => flushWebhookQueue(false)); // 回線復帰時に即再送
   flushWebhookQueue(false); // 起動時にも残キューを再送
+
+  const cachedCloud = JSON.parse(localStorage.getItem('quizbot_cloudstate_cache') || 'null');
+  if (cachedCloud) renderCloudBotStatus(cachedCloud.data, cachedCloud.fetchedAt, false);
+  loadCloudBotStatus(false);
+  setInterval(() => loadCloudBotStatus(false), 300000); // 5分ごとにクラウドBotの状況を再取得
 }
 
 function persist() {
@@ -1456,6 +1473,105 @@ function renderMonetize() {
     status.innerHTML = `📅 最終更新: ${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}` +
       (stale ? ' <span style="color:var(--warn,#f59e0b)">— 1週間以上前です。Xアプリのアナリティクスで最新値を確認しましょう</span>' : '');
   }
+}
+
+// ===== クラウドBot状況（GitHub Actionsで動く自動投稿の稼働状況を表示） =====
+const CLOUD_STATE_URL = 'https://raw.githubusercontent.com/mitsuru-code/mitsuru-quiz/main/cloud-bot/state.json';
+const CLOUD_MONTHLY_LIMIT = 450; // cloud-bot/post-quiz.mjs の既定値（MONTHLY_POST_LIMIT）と合わせる目安
+const cloudBotKindLabel = { briefing: '☀️ 朝ブリーフィング', quiz: '📊 投票クイズ', recap: '🌙 夜の振り返り', breaking: '🚨 速報' };
+let cloudBotLastFetchedAt = 0;
+
+function fmtCloudTime(ms) {
+  if (!ms) return '';
+  const d = new Date(ms);
+  return `${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+}
+function fmtAgo(ms) {
+  if (!ms) return '';
+  const diff = Date.now() - ms;
+  if (diff < 60000) return 'たった今';
+  if (diff < 3600000) return `${Math.floor(diff/60000)}分前`;
+  if (diff < 86400000) return `${Math.floor(diff/3600000)}時間前`;
+  return `${Math.floor(diff/86400000)}日前`;
+}
+
+async function loadCloudBotStatus(manual) {
+  const bodyEl = document.getElementById('cloudbot-body');
+  try {
+    const res = await fetch(CLOUD_STATE_URL + '?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    cloudBotLastFetchedAt = Date.now();
+    localStorage.setItem('quizbot_cloudstate_cache', JSON.stringify({ data, fetchedAt: cloudBotLastFetchedAt }));
+    renderCloudBotStatus(data, cloudBotLastFetchedAt, true);
+    if (manual) showToast('☁️ クラウドBotの状況を更新しました');
+  } catch (err) {
+    // 取得失敗時は、あれば直近のキャッシュを表示し続ける（オフライン・レート制限対策）
+    const cached = JSON.parse(localStorage.getItem('quizbot_cloudstate_cache') || 'null');
+    if (cached) {
+      renderCloudBotStatus(cached.data, cached.fetchedAt, false);
+    } else if (bodyEl) {
+      bodyEl.innerHTML = '<div class="empty" style="padding:14px">⚠️ 状況を取得できませんでした<br><span style="font-size:10px">通信環境を確認して「🔄 最新の状況を取得」をお試しください</span></div>';
+    }
+    if (manual) showToast('⚠️ 取得に失敗しました');
+  }
+}
+
+function renderCloudBotStatus(data, fetchedAt, isFresh) {
+  const bodyEl = document.getElementById('cloudbot-body');
+  const updEl = document.getElementById('cloudbot-updated');
+  if (!bodyEl) return;
+  if (updEl) {
+    updEl.textContent = `取得: ${fmtCloudTime(fetchedAt)}${isFresh ? '' : '（オフラインキャッシュ）'}`;
+  }
+
+  const posts = data.monthly?.posts ?? 0;
+  const breakingCount = data.breakingCount ?? 0;
+  const pending = data.pendingAnswers || [];
+  const history = data.postHistory || [];
+  const lastPost = history[0];
+
+  let html = '<div class="stat-grid">';
+  html += `<div class="stat-tile"><div class="v">${posts}</div><div class="l">今月の投稿（上限${CLOUD_MONTHLY_LIMIT}）</div></div>`;
+  html += `<div class="stat-tile"><div class="v">${breakingCount}</div><div class="l">本日の速報（上限2）</div></div>`;
+  html += `<div class="stat-tile"><div class="v">${pending.length}</div><div class="l">正解返信待ち</div></div>`;
+  html += '</div>';
+
+  if (lastPost) {
+    html += `<div style="font-size:12px;color:var(--text);margin-bottom:10px">
+      最終投稿: ${cloudBotKindLabel[lastPost.kind] || lastPost.kind || ''} — ${fmtAgo(lastPost.postedAt)}
+    </div>`;
+  }
+
+  if (pending.length) {
+    html += '<div style="font-size:11px;color:var(--muted);margin:10px 0 6px">💬 正解返信待ち</div>';
+    html += pending.slice(0, 5).map(p => {
+      const due = p.dueAt <= Date.now() ? '<span style="color:var(--accent)">まもなく返信</span>' : `${fmtCloudTime(p.dueAt)} 返信予定`;
+      return `<div class="quiz-item" style="margin-bottom:6px;padding:8px 10px">
+        <div style="font-size:11px;color:var(--muted)">${p.isPoll ? '📊 投票クイズ' : '📝 クイズ'} ・ ${due}</div>
+        <div style="font-size:12px;color:var(--text);margin-top:2px">${esc(p.question || '')}</div>
+      </div>`;
+    }).join('');
+  }
+
+  if (history.length) {
+    html += '<div style="font-size:11px;color:var(--muted);margin:12px 0 6px">📮 投稿履歴（タップでXへ）</div>';
+    html += history.slice(0, 10).map(h => `
+      <a href="https://x.com/i/status/${encodeURIComponent(h.tweetId)}" target="_blank" rel="noopener"
+        style="display:block;text-decoration:none;color:inherit">
+        <div class="quiz-item" style="margin-bottom:6px;padding:8px 10px">
+          <div class="quiz-meta">
+            <span class="badge badge-cat">${cloudBotKindLabel[h.kind] || h.kind || ''}</span>
+            <span style="font-size:10px;color:var(--muted)">${fmtAgo(h.postedAt)}</span>
+          </div>
+          <div style="font-size:12px;color:var(--text);margin-top:2px">${esc((h.category || h.textPreview || ''))}</div>
+        </div>
+      </a>`).join('');
+  } else if (!pending.length) {
+    html += '<div class="empty" style="padding:14px">まだ投稿履歴がありません</div>';
+  }
+
+  bodyEl.innerHTML = html;
 }
 
 function saveSettings() {
