@@ -1,23 +1,14 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2075134709730889980",
-      "answer": "正解は「② 約30年ぶり」でした！参加してくれたみんな、ありがとう🐹\n\n7月9日の東京債券市場で、長期金利の指標となる10年物国債利回りが一時2.900%に上昇。1996年9月以来、約30年ぶりの高い水準です。背景には中東情勢の緊迫による原油高→インフレ懸念の再燃と、高市政権の積極財政による財政悪化への警戒感が重なりました。\n\n🌰豆知識：長期金利が上がると住宅ローン（固定型）の金利にも影響が出やすくなります。家を買うタイミングを考えている人には、じわじわ気になるニュースですね。",
-      "sourceUrl": "https://news.web.nhk/newsweb/na/na-k10015172471000",
-      "question": "日本の長期金利が今日（7/9）、約30年ぶりの高水準に！\n\n10年もの国債の利回りが一時「2.9%」に達しましたが、これ",
-      "postedAt": 1783585622611,
-      "dueAt": 1783592822611
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、時事通信、ウェザーニュース、気象庁、テレビ東京スポーツ、Japan Times、Yahoo!ニュース",
     "NHKニュース「長期金利2.９％まで上昇 1996年11月以来29年8か月ぶりの水準」・読売新聞（Yahoo!ニュース）「長期金利が３０年ぶりの高水準、一時２・９００％に上昇」（2026年7月9日）",
     "第20回アジア競技大会（2026/愛知・名古屋）公式サイト・NAGOYAJIN「【2026年最新】アジア大会（愛知・名古屋）完全ガイド」",
     "CNN, Reuters, BBC, AP, ESPN, Bloomberg, NPR, France 24, Al Jazeera, Fox Sports, NATO.int, Yahoo Finance, The Street, CoinDesk, Motley Fool",
     "NHK、日本経済新聞、CNN、TheStreet、フットボールチャンネル、超WORLDサッカー、東京都（感染症情報）、Sputnik日本、FIFA公式、Yahoo!ニュース",
     "地球の歩き方「世界初のポケモン空港が誕生！『のと里山ポケモン・ウィズ・ユー空港』が7月7日オープン」／朝日新聞（Yahoo!ニュース）「世界初の『ポケモン空港』きょう開港 能登の未来に向けた出発点に」",
     "日本経済新聞「スーパーエルニーニョの発生確率63% 米海洋大気局『最大級』と予測」（2026年6月11日付）",
-    "NATO公式サイト「Overview - 2026 NATO Summit in Ankara」／Al Jazeera「NATO summit begins in Turkiye's Ankara: Who is attending, what is at stake?」",
-    "NHK「5月の実質賃金 前年同月比で1.4％増 5か月連続のプラス」／日本経済新聞「5月の実質賃金1.4%増、5カ月連続プラス 賃上げが波及」（2026年7月7日）"
+    "NATO公式サイト「Overview - 2026 NATO Summit in Ankara」／Al Jazeera「NATO summit begins in Turkiye's Ankara: Who is attending, what is at stake?」"
   ],
   "recentOpeners": [
     "日本の長期金利が今日（7/9）、約30年ぶりの高水準に！\n\n10年もの国債の利回",
@@ -26,7 +17,7 @@
     "今年の夏、実はかなり心配なことが起きています。\n\n気象庁は6月にエルニーニョ現象",
     "これ、なんとなくわかりそうで意外と迷う🤔\n\n7月7〜8日に開催中のNATOサミ"
   ],
-  "lastPostedAt": 1783585622611,
+  "lastPostedAt": 1783598869805,
   "recentBreaking": [
     "台風9号バービー・11日に石垣島など先島諸島を直撃見込み",
     "九州北部・中国・近畿 梅雨明け・平年より11日早く",
@@ -35,10 +26,10 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 12
+    "posts": 14
   },
   "breakingDate": "2026-07-09",
   "breakingCount": 2,
   "lastBreakingCheck": 1783555734561,
-  "lastAnyPostAt": 1783585622611
+  "lastAnyPostAt": 1783598869805
 }
