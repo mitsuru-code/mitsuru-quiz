@@ -110,6 +110,50 @@ function buildOAuthHeader(method, url, extraParams) {
   ).join(', ');
 }
 
+// GET系エンドポイント用（投票結果の取得等）。OAuth 1.0aはGETのクエリパラメータも署名対象になる
+function apiGet(urlPath, queryParams) {
+  return new Promise((resolve, reject) => {
+    const apiUrl = 'https://api.twitter.com' + urlPath;
+    const authHeader = buildOAuthHeader('GET', apiUrl, queryParams);
+    const qs = new URLSearchParams(queryParams).toString();
+    const options = { method: 'GET', headers: { 'Authorization': authHeader } };
+    const req = https.request(apiUrl + '?' + qs, options, (r) => {
+      let data = '';
+      r.on('data', d => data += d);
+      r.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          if (r.statusCode >= 200 && r.statusCode < 300) resolve(json);
+          else reject(new Error(`HTTP ${r.statusCode}: ${JSON.stringify(json)}`));
+        } catch { reject(new Error(`HTTP ${r.statusCode}: ${data}`)); }
+      });
+    });
+    req.on('error', reject);
+    req.end();
+  });
+}
+
+// 投票結果を取得し「A案 62% / B案 38%」のような文字列にする。
+// X無料プランは読み取りAPIの枠が非常に少なく失敗しうるため、失敗時はnullを返して
+// 呼び出し側は通常の正解返信（投票結果なし）にフォールバックする
+async function getPollSummary(tweetId) {
+  try {
+    const json = await apiGet('/2/tweets', {
+      ids: tweetId,
+      expansions: 'attachments.poll_ids',
+      'poll.fields': 'options,voting_status',
+    });
+    const poll = json.includes?.polls?.[0];
+    if (!poll || !Array.isArray(poll.options)) return null;
+    const total = poll.options.reduce((sum, o) => sum + (o.votes || 0), 0);
+    if (total <= 0) return null;
+    return poll.options.map(o => `${o.label} ${Math.round((o.votes || 0) / total * 100)}%`).join(' / ');
+  } catch (e) {
+    console.log(`⚠️ 投票結果の取得に失敗（無視して通常の返信を続行）: ${e.message}`);
+    return null;
+  }
+}
+
 // poll: { options: string[], duration_minutes: number } を渡すと投票付き投稿になる
 function postTweet(text, replyToId, poll) {
   return new Promise((resolve, reject) => {
@@ -339,6 +383,13 @@ function countPost(state, now) {
   state.lastAnyPostAt = now;
 }
 
+// 投稿履歴（Pixelアプリの稼働状況カードから参照する）。最新30件を保持
+function recordPost(state, { tweetId, kind, category, textPreview, postedAt }) {
+  state.postHistory = state.postHistory || [];
+  state.postHistory.unshift({ tweetId, kind, category: category || '', textPreview: (textPreview || '').slice(0, 80), postedAt });
+  state.postHistory = state.postHistory.slice(0, 30);
+}
+
 // 直近の新規投稿からMIN_POST_GAP_MS以上経っているか（速報とスロット投稿が接近しすぎるのを防ぐ）
 function spacingOk(state, now) {
   return (now - (state.lastAnyPostAt || 0)) >= MIN_POST_GAP_MS;
@@ -388,6 +439,10 @@ async function main() {
   const due = state.pendingAnswers.filter(a => a.dueAt <= now);
   for (const item of due) {
     let answerText = item.answer;
+    if (item.isPoll && !DRY_RUN) {
+      const summary = await getPollSummary(item.tweetId);
+      if (summary) answerText = `📊 投票結果: ${summary}\n\n` + answerText;
+    }
     if (item.sourceUrl) answerText += `\n\n📰 詳しくはこちら→ ${item.sourceUrl}`;
     if (DRY_RUN) {
       console.log(`🧪 [DRY_RUN] 正解返信（→ ${item.tweetId}）:\n${answerText}\n`);
@@ -431,6 +486,7 @@ async function main() {
         state.recentTopics = [gen.source || gen.category, ...state.recentTopics].filter(Boolean).slice(0, 8);
         state.lastPostedAt = now;
         countPost(state, now);
+        recordPost(state, { tweetId, kind: profile.kind, category: gen.category, textPreview: gen.text, postedAt: now });
         stateChanged = true;
       }
 
@@ -475,12 +531,14 @@ async function main() {
             question: (quiz.question || '').slice(0, 60),
             postedAt: now,
             dueAt: now + ANSWER_DELAY_MS,
+            isPoll: !!poll,
           });
         }
         state.recentTopics = [quiz.source || quiz.category || '', ...state.recentTopics].filter(Boolean).slice(0, 8);
         state.recentOpeners = [(quiz.question || '').slice(0, 40), ...state.recentOpeners].filter(Boolean).slice(0, 5);
         state.lastPostedAt = now;
         countPost(state, now);
+        recordPost(state, { tweetId, kind: 'quiz', category: quiz.category, textPreview: quiz.question, postedAt: now });
         stateChanged = true;
       }
     }
@@ -512,6 +570,8 @@ async function main() {
           state.recentBreaking = [b.headline, ...state.recentBreaking].filter(Boolean).slice(0, 10);
           state.breakingCount++;
           countPost(state, now);
+          recordPost(state, { tweetId, kind: 'breaking', category: b.headline, textPreview: b.text, postedAt: now });
+          state.lastPostedAt = now;
         }
       } else {
         console.log('📡 速報チェック: 該当なし');
