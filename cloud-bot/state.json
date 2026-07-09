@@ -1,14 +1,14 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "CNBC, Bloomberg, NPR, ESPN, Fox Sports, CNN, Democracy Now, Anadolu Agency (AA), The Print, Morning Star, STL.News, 10things.news, WORLD Radio, World Politics Review, 24/7 Wall St., Havana Times, Yahoo Finance",
     "NHK、時事通信、ウェザーニュース、気象庁、テレビ東京スポーツ、Japan Times、Yahoo!ニュース",
     "NHKニュース「長期金利2.９％まで上昇 1996年11月以来29年8か月ぶりの水準」・読売新聞（Yahoo!ニュース）「長期金利が３０年ぶりの高水準、一時２・９００％に上昇」（2026年7月9日）",
     "第20回アジア競技大会（2026/愛知・名古屋）公式サイト・NAGOYAJIN「【2026年最新】アジア大会（愛知・名古屋）完全ガイド」",
     "CNN, Reuters, BBC, AP, ESPN, Bloomberg, NPR, France 24, Al Jazeera, Fox Sports, NATO.int, Yahoo Finance, The Street, CoinDesk, Motley Fool",
     "NHK、日本経済新聞、CNN、TheStreet、フットボールチャンネル、超WORLDサッカー、東京都（感染症情報）、Sputnik日本、FIFA公式、Yahoo!ニュース",
     "地球の歩き方「世界初のポケモン空港が誕生！『のと里山ポケモン・ウィズ・ユー空港』が7月7日オープン」／朝日新聞（Yahoo!ニュース）「世界初の『ポケモン空港』きょう開港 能登の未来に向けた出発点に」",
-    "日本経済新聞「スーパーエルニーニョの発生確率63% 米海洋大気局『最大級』と予測」（2026年6月11日付）",
-    "NATO公式サイト「Overview - 2026 NATO Summit in Ankara」／Al Jazeera「NATO summit begins in Turkiye's Ankara: Who is attending, what is at stake?」"
+    "日本経済新聞「スーパーエルニーニョの発生確率63% 米海洋大気局『最大級』と予測」（2026年6月11日付）"
   ],
   "recentOpeners": [
     "日本の長期金利が今日（7/9）、約30年ぶりの高水準に！\n\n10年もの国債の利回",
@@ -17,7 +17,7 @@
     "今年の夏、実はかなり心配なことが起きています。\n\n気象庁は6月にエルニーニョ現象",
     "これ、なんとなくわかりそうで意外と迷う🤔\n\n7月7〜8日に開催中のNATOサミ"
   ],
-  "lastPostedAt": 1783598869805,
+  "lastPostedAt": 1783632186853,
   "recentBreaking": [
     "台風9号バービー・11日に石垣島など先島諸島を直撃見込み",
     "九州北部・中国・近畿 梅雨明け・平年より11日早く",
@@ -26,10 +26,10 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 14
+    "posts": 15
   },
-  "breakingDate": "2026-07-09",
-  "breakingCount": 2,
+  "breakingDate": "2026-07-10",
+  "breakingCount": 0,
   "lastBreakingCheck": 1783555734561,
-  "lastAnyPostAt": 1783598869805
+  "lastAnyPostAt": 1783632186853
 }
