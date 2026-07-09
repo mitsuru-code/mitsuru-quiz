@@ -19,15 +19,17 @@
   ],
   "lastPostedAt": 1783548309934,
   "recentBreaking": [
+    "台風9号バービー・11日に石垣島など先島諸島を直撃見込み",
     "九州北部・中国・近畿 梅雨明け・平年より11日早く",
     "日経平均1437円安・3日続落・中東情勢緊迫化",
     "大谷翔平MLB通算300号・日本人初の快挙"
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 8
+    "posts": 9
   },
   "breakingDate": "2026-07-09",
-  "breakingCount": 1,
-  "lastBreakingCheck": 1783548309934
+  "breakingCount": 2,
+  "lastBreakingCheck": 1783555734561,
+  "lastAnyPostAt": 1783555734561
 }
