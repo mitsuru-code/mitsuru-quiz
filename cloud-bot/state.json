@@ -1,14 +1,14 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters, AP, Al Jazeera, NPR, CNBC, Bloomberg, TheStreet, ESPN, CNN, NBC News, GMA Network, Yahoo Sports, Tech Startups, distillintelligence.com, buildfastwithai.com, Foreign Policy, Kyiv Independent",
     "NHK、時事通信、日本経済新聞、ウェザーニュース、tenki.jp、沖縄タイムス、外為どっとコム、みんかぶFX、OANDA、ESPN、CBS News、Wikipedia（ベネズエラ地震2026年）",
     "時事ドットコム「山本太郎代表が辞任・引退表明 れいわは党名変更へ」／ライブドアニュース（2026年7月9日）",
     "olympics.com「【FIFAワールドカップ】7月10日の試合速報・結果 フランスvsモロッコ準々決勝」",
     "CNBC, Bloomberg, NPR, ESPN, Fox Sports, CNN, Democracy Now, Anadolu Agency (AA), The Print, Morning Star, STL.News, 10things.news, WORLD Radio, World Politics Review, 24/7 Wall St., Havana Times, Yahoo Finance",
     "NHK、時事通信、ウェザーニュース、気象庁、テレビ東京スポーツ、Japan Times、Yahoo!ニュース",
     "NHKニュース「長期金利2.９％まで上昇 1996年11月以来29年8か月ぶりの水準」・読売新聞（Yahoo!ニュース）「長期金利が３０年ぶりの高水準、一時２・９００％に上昇」（2026年7月9日）",
-    "第20回アジア競技大会（2026/愛知・名古屋）公式サイト・NAGOYAJIN「【2026年最新】アジア大会（愛知・名古屋）完全ガイド」",
-    "CNN, Reuters, BBC, AP, ESPN, Bloomberg, NPR, France 24, Al Jazeera, Fox Sports, NATO.int, Yahoo Finance, The Street, CoinDesk, Motley Fool"
+    "第20回アジア競技大会（2026/愛知・名古屋）公式サイト・NAGOYAJIN「【2026年最新】アジア大会（愛知・名古屋）完全ガイド」"
   ],
   "recentOpeners": [
     "山本太郎氏が昨日、れいわ代表辞任と政界引退を表明🐹\n東九州自動車道で検挙された",
@@ -17,7 +17,7 @@
     "今年9月、愛知・名古屋でアジア競技大会が開幕🎉\n\nアジア大会の日本開催は今回で",
     "世界初の「ポケモン空港」が昨日オープン！🐹\n石川県の能登空港が新しくなりました"
   ],
-  "lastPostedAt": 1783689094615,
+  "lastPostedAt": 1783720950948,
   "recentBreaking": [
     "台風9号・沖縄にレベル4高潮危険警報（全国初）",
     "山本太郎・れいわ代表辞任＆政界引退表明",
@@ -28,13 +28,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 22
+    "posts": 23
   },
-  "breakingDate": "2026-07-10",
-  "breakingCount": 2,
+  "breakingDate": "2026-07-11",
+  "breakingCount": 0,
   "lastBreakingCheck": 1783668907308,
-  "lastAnyPostAt": 1783689094615,
+  "lastAnyPostAt": 1783720950948,
   "postHistory": [
+    {
+      "tweetId": "2075702651866546676",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "☀️ おはようございます！寝ている間に世界で起きたこと、20問でおさらい🐹\n各問は「Q → A＋一言解説」の2〜3行。朝の雑談・商談のネタ帳としてご活用くださ",
+      "postedAt": 1783720950948
+    },
     {
       "tweetId": "2075568919092289792",
       "kind": "recap",
