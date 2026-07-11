@@ -23,6 +23,10 @@ on:
         description: 'X接続テストのみ（クイズ生成せずテスト投稿を1回）'
         type: boolean
         default: false
+      delete_tweet_id:
+        description: '誤投稿の削除用（削除したい投稿のtweet IDを入力。空なら何もしない）'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -55,6 +59,7 @@ jobs:
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
           FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && 'true' || 'false' }}
           TEST_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.test_post && 'true' || 'false' }}
+          DELETE_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.delete_tweet_id || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
           # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
           # BREAKING_ENABLED: 'false'      # 速報チェックを止めたい場合はfalseに
