@@ -1,6 +1,7 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "CNN、NBC News、CNBC、Bloomberg、France 24、Reuters、Tennis Calendar（tennis-calendar.com）、New Republic、Yahoo Finance、ts2.tech",
     "Reuters, AP, CNN, BBC, Al Jazeera, Bloomberg, CNBC, NPR, ESPN, FIFA.com, Euronews, The Watchers, Fortune, Motley Fool, Washington Times, PBS NewsHour, World Politics Review, Yahoo Finance, Trading Economics, Stock Rover",
     [
       "NHK",
@@ -20,8 +21,7 @@
     "女子SPA！（Yahoo!ニュース）「4月の来日中にも気づかなかった！『プラダを着た悪魔2』主演女優（43）の妊娠発表に「プロすぎる」の声殺到」",
     "Reuters, AP, Al Jazeera, NPR, CNBC, Bloomberg, TheStreet, ESPN, CNN, NBC News, GMA Network, Yahoo Sports, Tech Startups, distillintelligence.com, buildfastwithai.com, Foreign Policy, Kyiv Independent",
     "NHK、時事通信、日本経済新聞、ウェザーニュース、tenki.jp、沖縄タイムス、外為どっとコム、みんかぶFX、OANDA、ESPN、CBS News、Wikipedia（ベネズエラ地震2026年）",
-    "時事ドットコム「山本太郎代表が辞任・引退表明 れいわは党名変更へ」／ライブドアニュース（2026年7月9日）",
-    "olympics.com「【FIFAワールドカップ】7月10日の試合速報・結果 フランスvsモロッコ準々決勝」"
+    "時事ドットコム「山本太郎代表が辞任・引退表明 れいわは党名変更へ」／ライブドアニュース（2026年7月9日）"
   ],
   "recentOpeners": [
     "中国が昨日（7/10）、突然ヘリウムの輸出を即日禁止に🐹\nそもそも中国が最も多",
@@ -30,7 +30,7 @@
     "W杯2026、フランスがベスト4へ！🐹\n\n今朝（日本時間7/10）の準々決勝で",
     "日本の長期金利が今日（7/9）、約30年ぶりの高水準に！\n\n10年もの国債の利回"
   ],
-  "lastPostedAt": 1783807921742,
+  "lastPostedAt": 1783809982107,
   "recentBreaking": [
     "ベネズエラ大地震・死者4118人に更新",
     "ゼントシン（全東信）破産・2026年国内最大・負債1259億円",
@@ -43,13 +43,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 31
+    "posts": 32
   },
   "breakingDate": "2026-07-12",
   "breakingCount": 0,
   "lastBreakingCheck": 1783750345150,
-  "lastAnyPostAt": 1783807921742,
+  "lastAnyPostAt": 1783809982107,
   "postHistory": [
+    {
+      "tweetId": "2076075915583324222",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "☀️ おはようございます！昨夜〜今朝、寝ている間に世界で起きた20の出来事を一問一答でサクっとおさらい。今日の雑談・商談のネタにどうぞ🐹\n\n─────────",
+      "postedAt": 1783809982107
+    },
     {
       "tweetId": "2076067347228688498",
       "kind": "briefing",
