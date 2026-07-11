@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2075782861777781030",
+      "answer": "正解は「第3子」でした！投票してくれたみなさん、ありがとうございます🐹\n\nアン・ハサウェイは6月19日にインスタグラムでふっくらしたお腹を披露し、第3子妊娠を発表。春のプロモツアーではメキシコ・NY・ロンドン・ミラノ・上海・ソウル・東京と7都市を妊娠中に巡り、ハイブランドのドレスでお腹をカモフラージュしながら完走。その姿に「スーパーヒーロー」と称賛が集まりました。\n\n🌰豆知識：映画『プラダを着た悪魔2』は日本国内で興収50億円を突破。近年のハリウッド映画では異例の大ヒットです！",
+      "sourceUrl": "https://news.yahoo.co.jp/articles/40050e0415eb33da7b53227688c36f6431199112",
+      "question": "妊娠を隠してプロモツアーを完走！プロすぎると話題🐹\n\n今年4月、映画『プラダを着た悪魔2』のPRツアーで来日もしたアン",
+      "postedAt": 1783740152564,
+      "dueAt": 1783747352564,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "女子SPA！（Yahoo!ニュース）「4月の来日中にも気づかなかった！『プラダを着た悪魔2』主演女優（43）の妊娠発表に「プロすぎる」の声殺到」",
     "Reuters, AP, Al Jazeera, NPR, CNBC, Bloomberg, TheStreet, ESPN, CNN, NBC News, GMA Network, Yahoo Sports, Tech Startups, distillintelligence.com, buildfastwithai.com, Foreign Policy, Kyiv Independent",
     "NHK、時事通信、日本経済新聞、ウェザーニュース、tenki.jp、沖縄タイムス、外為どっとコム、みんかぶFX、OANDA、ESPN、CBS News、Wikipedia（ベネズエラ地震2026年）",
     "時事ドットコム「山本太郎代表が辞任・引退表明 れいわは党名変更へ」／ライブドアニュース（2026年7月9日）",
     "olympics.com「【FIFAワールドカップ】7月10日の試合速報・結果 フランスvsモロッコ準々決勝」",
     "CNBC, Bloomberg, NPR, ESPN, Fox Sports, CNN, Democracy Now, Anadolu Agency (AA), The Print, Morning Star, STL.News, 10things.news, WORLD Radio, World Politics Review, 24/7 Wall St., Havana Times, Yahoo Finance",
     "NHK、時事通信、ウェザーニュース、気象庁、テレビ東京スポーツ、Japan Times、Yahoo!ニュース",
-    "NHKニュース「長期金利2.９％まで上昇 1996年11月以来29年8か月ぶりの水準」・読売新聞（Yahoo!ニュース）「長期金利が３０年ぶりの高水準、一時２・９００％に上昇」（2026年7月9日）",
-    "第20回アジア競技大会（2026/愛知・名古屋）公式サイト・NAGOYAJIN「【2026年最新】アジア大会（愛知・名古屋）完全ガイド」"
+    "NHKニュース「長期金利2.９％まで上昇 1996年11月以来29年8か月ぶりの水準」・読売新聞（Yahoo!ニュース）「長期金利が３０年ぶりの高水準、一時２・９００％に上昇」（2026年7月9日）"
   ],
   "recentOpeners": [
+    "妊娠を隠してプロモツアーを完走！プロすぎると話題🐹\n\n今年4月、映画『プラダを",
     "山本太郎氏が昨日、れいわ代表辞任と政界引退を表明🐹\n東九州自動車道で検挙された",
     "W杯2026、フランスがベスト4へ！🐹\n\n今朝（日本時間7/10）の準々決勝で",
     "日本の長期金利が今日（7/9）、約30年ぶりの高水準に！\n\n10年もの国債の利回",
-    "今年9月、愛知・名古屋でアジア競技大会が開幕🎉\n\nアジア大会の日本開催は今回で",
-    "世界初の「ポケモン空港」が昨日オープン！🐹\n石川県の能登空港が新しくなりました"
+    "今年9月、愛知・名古屋でアジア競技大会が開幕🎉\n\nアジア大会の日本開催は今回で"
   ],
-  "lastPostedAt": 1783727858368,
+  "lastPostedAt": 1783740152564,
   "recentBreaking": [
     "ゼントシン（全東信）破産・2026年国内最大・負債1259億円",
     "台風9号・沖縄にレベル4高潮危険警報（全国初）",
@@ -29,13 +39,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 24
+    "posts": 25
   },
   "breakingDate": "2026-07-11",
   "breakingCount": 1,
   "lastBreakingCheck": 1783727858368,
-  "lastAnyPostAt": 1783727858368,
+  "lastAnyPostAt": 1783740152564,
   "postHistory": [
+    {
+      "tweetId": "2075782861777781030",
+      "kind": "quiz",
+      "category": "芸能・エンタメ・4択",
+      "textPreview": "妊娠を隠してプロモツアーを完走！プロすぎると話題🐹\n\n今年4月、映画『プラダを着た悪魔2』のPRツアーで来日もしたアン・ハサウェイ（43歳）。実は妊娠中だった",
+      "postedAt": 1783740152564
+    },
     {
       "tweetId": "2075731282273673646",
       "kind": "breaking",
