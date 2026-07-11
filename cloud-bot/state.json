@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2075782861777781030",
-      "answer": "正解は「第3子」でした！投票してくれたみなさん、ありがとうございます🐹\n\nアン・ハサウェイは6月19日にインスタグラムでふっくらしたお腹を披露し、第3子妊娠を発表。春のプロモツアーではメキシコ・NY・ロンドン・ミラノ・上海・ソウル・東京と7都市を妊娠中に巡り、ハイブランドのドレスでお腹をカモフラージュしながら完走。その姿に「スーパーヒーロー」と称賛が集まりました。\n\n🌰豆知識：映画『プラダを着た悪魔2』は日本国内で興収50億円を突破。近年のハリウッド映画では異例の大ヒットです！",
-      "sourceUrl": "https://news.yahoo.co.jp/articles/40050e0415eb33da7b53227688c36f6431199112",
-      "question": "妊娠を隠してプロモツアーを完走！プロすぎると話題🐹\n\n今年4月、映画『プラダを着た悪魔2』のPRツアーで来日もしたアン",
-      "postedAt": 1783740152564,
-      "dueAt": 1783747352564,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "女子SPA！（Yahoo!ニュース）「4月の来日中にも気づかなかった！『プラダを着た悪魔2』主演女優（43）の妊娠発表に「プロすぎる」の声殺到」",
     "Reuters, AP, Al Jazeera, NPR, CNBC, Bloomberg, TheStreet, ESPN, CNN, NBC News, GMA Network, Yahoo Sports, Tech Startups, distillintelligence.com, buildfastwithai.com, Foreign Policy, Kyiv Independent",
@@ -27,8 +17,9 @@
     "日本の長期金利が今日（7/9）、約30年ぶりの高水準に！\n\n10年もの国債の利回",
     "今年9月、愛知・名古屋でアジア競技大会が開幕🎉\n\nアジア大会の日本開催は今回で"
   ],
-  "lastPostedAt": 1783740152564,
+  "lastPostedAt": 1783750345150,
   "recentBreaking": [
+    "ベネズエラ大地震・死者4118人に更新",
     "ゼントシン（全東信）破産・2026年国内最大・負債1259億円",
     "台風9号・沖縄にレベル4高潮危険警報（全国初）",
     "山本太郎・れいわ代表辞任＆政界引退表明",
@@ -39,13 +30,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 25
+    "posts": 27
   },
   "breakingDate": "2026-07-11",
-  "breakingCount": 1,
-  "lastBreakingCheck": 1783727858368,
-  "lastAnyPostAt": 1783740152564,
+  "breakingCount": 2,
+  "lastBreakingCheck": 1783750345150,
+  "lastAnyPostAt": 1783750345150,
   "postHistory": [
+    {
+      "tweetId": "2075825589550755898",
+      "kind": "breaking",
+      "category": "ベネズエラ大地震・死者4118人に更新",
+      "textPreview": "🚨 速報\nベネズエラ大地震、死者が4,118人に\n\n6月24日にM7.2→M7.5が連続発生したベネズエラ地震。\n死者は少なくとも4,118人、負傷者1万6,",
+      "postedAt": 1783750345150
+    },
     {
       "tweetId": "2075782861777781030",
       "kind": "quiz",
