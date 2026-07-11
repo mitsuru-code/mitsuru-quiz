@@ -1,24 +1,27 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2075864390352474167",
-      "answer": "正解は🇶🇦「カタール」でした！参加してくれた方、ありがとうございます🐹\n\n中国のヘリウムはカタールなど中東からの輸入に大きく依存。中東情勢の悪化でホルムズ海峡の航行が制限され、調達難が懸念されたため、商務省と税関総署が7月10日に即日禁輸を発表しました。期間の明示はなし。\n\n🌰豆知識：ヘリウムは半導体製造の熱管理に欠かせない希少ガス。AIブームで需要急増中のため、中国は国内チップメーカーへの供給を守りたい思惑もあるとみられています。",
-      "sourceUrl": "https://news.yahoo.co.jp/articles/e86bf745fd0f2c7281cec0545e6a7ee59fe85a78",
-      "question": "中国が昨日（7/10）、突然ヘリウムの輸出を即日禁止に🐹\nそもそも中国が最も多くヘリウムを輸入している国はどこでしょう",
-      "postedAt": 1783759585700,
-      "dueAt": 1783766785700,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    [
+      "NHK",
+      "ウェザーニュース",
+      "日本気象協会 tenki.jp",
+      "時事通信",
+      "デイリースポーツ",
+      "テレ東スポーツ",
+      "Al Jazeera",
+      "NPR",
+      "国境なき医師団（MSF）",
+      "日本経済新聞",
+      "テレビ朝日",
+      "FOREX.com"
+    ],
     "産経新聞（Yahoo!ニュース）「中国、ヘリウム輸出を一時禁止 半導体製造など国内向け確保が狙いか」／時事通信（Yahoo!ニュース）「中国、ヘリウム輸出禁止 国内半導体向け優先か」",
     "女子SPA！（Yahoo!ニュース）「4月の来日中にも気づかなかった！『プラダを着た悪魔2』主演女優（43）の妊娠発表に「プロすぎる」の声殺到」",
     "Reuters, AP, Al Jazeera, NPR, CNBC, Bloomberg, TheStreet, ESPN, CNN, NBC News, GMA Network, Yahoo Sports, Tech Startups, distillintelligence.com, buildfastwithai.com, Foreign Policy, Kyiv Independent",
     "NHK、時事通信、日本経済新聞、ウェザーニュース、tenki.jp、沖縄タイムス、外為どっとコム、みんかぶFX、OANDA、ESPN、CBS News、Wikipedia（ベネズエラ地震2026年）",
     "時事ドットコム「山本太郎代表が辞任・引退表明 れいわは党名変更へ」／ライブドアニュース（2026年7月9日）",
     "olympics.com「【FIFAワールドカップ】7月10日の試合速報・結果 フランスvsモロッコ準々決勝」",
-    "CNBC, Bloomberg, NPR, ESPN, Fox Sports, CNN, Democracy Now, Anadolu Agency (AA), The Print, Morning Star, STL.News, 10things.news, WORLD Radio, World Politics Review, 24/7 Wall St., Havana Times, Yahoo Finance",
-    "NHK、時事通信、ウェザーニュース、気象庁、テレビ東京スポーツ、Japan Times、Yahoo!ニュース"
+    "CNBC, Bloomberg, NPR, ESPN, Fox Sports, CNN, Democracy Now, Anadolu Agency (AA), The Print, Morning Star, STL.News, 10things.news, WORLD Radio, World Politics Review, 24/7 Wall St., Havana Times, Yahoo Finance"
   ],
   "recentOpeners": [
     "中国が昨日（7/10）、突然ヘリウムの輸出を即日禁止に🐹\nそもそも中国が最も多",
@@ -27,7 +30,7 @@
     "W杯2026、フランスがベスト4へ！🐹\n\n今朝（日本時間7/10）の準々決勝で",
     "日本の長期金利が今日（7/9）、約30年ぶりの高水準に！\n\n10年もの国債の利回"
   ],
-  "lastPostedAt": 1783759585700,
+  "lastPostedAt": 1783770720733,
   "recentBreaking": [
     "ベネズエラ大地震・死者4118人に更新",
     "ゼントシン（全東信）破産・2026年国内最大・負債1259億円",
@@ -40,13 +43,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 28
+    "posts": 30
   },
   "breakingDate": "2026-07-11",
   "breakingCount": 2,
   "lastBreakingCheck": 1783750345150,
-  "lastAnyPostAt": 1783759585700,
+  "lastAnyPostAt": 1783770720733,
   "postHistory": [
+    {
+      "tweetId": "2075911325385896171",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "🌙 今日も一日おつかれさまでした。今日のニュース、どれだけ覚えてる？20問でおさらいです🐹\n\n────────────────\n\nQ1. 本日、沖縄の先島諸",
+      "postedAt": 1783770720733
+    },
     {
       "tweetId": "2075864390352474167",
       "kind": "quiz",
