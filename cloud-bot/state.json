@@ -1,16 +1,7 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2076222256972443847",
-      "answer": "正解は「約25%（4分の1）」でした！\n参加してくれてありがとうございます🐹\n\n米エネルギー情報局（EIA）によると、2024〜2025年にホルムズ海峡を通過した石油は世界の海上石油貿易の約25〜27%。日本は輸入原油の約9割がこの海峡を経由しており、封鎖は他国以上に深刻なダメージになります。\n\n🌰豆知識：ホルムズ海峡の最も狭い部分の幅は約33km。想像以上に広い海峡ですが、商業船が利用できる航路は片側わずか約2カイリ（3.7km）しかありません。",
-      "sourceUrl": "https://news.yahoo.co.jp/articles/27b0ead8965a4cda204f16c2dda8b9629e057a24",
-      "question": "イランが今日また「ホルムズ海峡閉鎖」を宣言🐹\n\n世界の海上石油貿易のうち、ホルムズ海峡を通過する割合はどのくらい？\n\n",
-      "postedAt": 1783844913843,
-      "dueAt": 1783852113843,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、ウェザーニュース、tenki.jp、News on Japan、The Japan Times、TechCrunch、CNBC、Fortune、Axios、Bloomberg、Arab News、NPR、Euronews、Reuters、Share Talk",
     "CNN.co.jp（Yahoo!ニュース）「イラン、ホルムズ海峡の閉鎖を宣言 全船舶の通航認めず」",
     "FBとれとれ「W杯2026準々決勝の結果速報！スペインとフランスがベスト4進出、準決勝で激突へ」",
     "CNN、NBC News、CNBC、Bloomberg、France 24、Reuters、Tennis Calendar（tennis-calendar.com）、New Republic、Yahoo Finance、ts2.tech",
@@ -30,8 +21,7 @@
       "FOREX.com"
     ],
     "産経新聞（Yahoo!ニュース）「中国、ヘリウム輸出を一時禁止 半導体製造など国内向け確保が狙いか」／時事通信（Yahoo!ニュース）「中国、ヘリウム輸出禁止 国内半導体向け優先か」",
-    "女子SPA！（Yahoo!ニュース）「4月の来日中にも気づかなかった！『プラダを着た悪魔2』主演女優（43）の妊娠発表に「プロすぎる」の声殺到」",
-    "Reuters, AP, Al Jazeera, NPR, CNBC, Bloomberg, TheStreet, ESPN, CNN, NBC News, GMA Network, Yahoo Sports, Tech Startups, distillintelligence.com, buildfastwithai.com, Foreign Policy, Kyiv Independent"
+    "女子SPA！（Yahoo!ニュース）「4月の来日中にも気づかなかった！『プラダを着た悪魔2』主演女優（43）の妊娠発表に「プロすぎる」の声殺到」"
   ],
   "recentOpeners": [
     "イランが今日また「ホルムズ海峡閉鎖」を宣言🐹\n\n世界の海上石油貿易のうち、ホル",
@@ -40,7 +30,7 @@
     "妊娠を隠してプロモツアーを完走！プロすぎると話題🐹\n\n今年4月、映画『プラダを",
     "山本太郎氏が昨日、れいわ代表辞任と政界引退を表明🐹\n東九州自動車道で検挙された"
   ],
-  "lastPostedAt": 1783844913843,
+  "lastPostedAt": 1783857567042,
   "recentBreaking": [
     "Apple、OpenAIを営業秘密盗用で提訴",
     "上地結衣・生涯ゴールデンスラム達成・ウィンブルドン初V・日本女子初",
@@ -55,13 +45,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 37
+    "posts": 39
   },
   "breakingDate": "2026-07-12",
   "breakingCount": 2,
   "lastBreakingCheck": 1783824252982,
-  "lastAnyPostAt": 1783844913843,
+  "lastAnyPostAt": 1783857567042,
   "postHistory": [
+    {
+      "tweetId": "2076275579821981791",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "🌙 今日も一日おつかれさまでした。\n今日のニュース、どれだけ覚えてる？20問でおさらいです🐹\n\n─────────────────────\n【国際・中東】\n",
+      "postedAt": 1783857567042
+    },
     {
       "tweetId": "2076222256972443847",
       "kind": "quiz",
