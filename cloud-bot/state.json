@@ -30,8 +30,9 @@
     "W杯2026、フランスがベスト4へ！🐹\n\n今朝（日本時間7/10）の準々決勝で",
     "日本の長期金利が今日（7/9）、約30年ぶりの高水準に！\n\n10年もの国債の利回"
   ],
-  "lastPostedAt": 1783814074539,
+  "lastPostedAt": 1783824252982,
   "recentBreaking": [
+    "Apple、OpenAIを営業秘密盗用で提訴",
     "上地結衣・生涯ゴールデンスラム達成・ウィンブルドン初V・日本女子初",
     "ベネズエラ大地震・死者4118人に更新",
     "ゼントシン（全東信）破産・2026年国内最大・負債1259億円",
@@ -44,13 +45,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 33
+    "posts": 34
   },
   "breakingDate": "2026-07-12",
-  "breakingCount": 1,
-  "lastBreakingCheck": 1783814074539,
-  "lastAnyPostAt": 1783814074539,
+  "breakingCount": 2,
+  "lastBreakingCheck": 1783824252982,
+  "lastAnyPostAt": 1783824252982,
   "postHistory": [
+    {
+      "tweetId": "2076135561866408105",
+      "kind": "breaking",
+      "category": "Apple、OpenAIを営業秘密盗用で提訴",
+      "textPreview": "📈 いま話題\n\nAppleがOpenAIを提訴——「機密情報を盗まれた」と主張する訴訟が世界中で大拡散中🐹\n\n・Apple社が未発表ハードウェアの設計情報な",
+      "postedAt": 1783824252982
+    },
     {
       "tweetId": "2076092885087166848",
       "kind": "breaking",
