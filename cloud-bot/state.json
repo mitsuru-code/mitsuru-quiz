@@ -1,16 +1,17 @@
 {
   "pendingAnswers": [
     {
-      "tweetId": "2076184406708903963",
-      "answer": "正解は「36試合」でした！投票してくれたみなさん、ありがとうございます🐹\n\nスペインは今朝（日本時間7/12）のW杯2026準々決勝でベルギーを2-1で退け、4大会ぶりのベスト4進出を決めました。この勝利で連続無敗が36試合となり、アルゼンチンの36試合に並ぶ歴代2位タイ記録です。\n\n🌰豆知識：歴代最多の連続無敗記録を持つのはイタリアで37試合。スペインはあと1勝でその記録に並びます！",
-      "sourceUrl": "https://hs19892020.xsrv.jp/wc2026-07-11-7299",
-      "question": "スペインが今朝のW杯2026準々決勝でベルギーを2-1撃破！🐹\n\nこの勝利でスペインの連続無敗記録は何試合になったでし",
-      "postedAt": 1783835889074,
-      "dueAt": 1783843089074,
+      "tweetId": "2076222256972443847",
+      "answer": "正解は「約25%（4分の1）」でした！\n参加してくれてありがとうございます🐹\n\n米エネルギー情報局（EIA）によると、2024〜2025年にホルムズ海峡を通過した石油は世界の海上石油貿易の約25〜27%。日本は輸入原油の約9割がこの海峡を経由しており、封鎖は他国以上に深刻なダメージになります。\n\n🌰豆知識：ホルムズ海峡の最も狭い部分の幅は約33km。想像以上に広い海峡ですが、商業船が利用できる航路は片側わずか約2カイリ（3.7km）しかありません。",
+      "sourceUrl": "https://news.yahoo.co.jp/articles/27b0ead8965a4cda204f16c2dda8b9629e057a24",
+      "question": "イランが今日また「ホルムズ海峡閉鎖」を宣言🐹\n\n世界の海上石油貿易のうち、ホルムズ海峡を通過する割合はどのくらい？\n\n",
+      "postedAt": 1783844913843,
+      "dueAt": 1783852113843,
       "isPoll": true
     }
   ],
   "recentTopics": [
+    "CNN.co.jp（Yahoo!ニュース）「イラン、ホルムズ海峡の閉鎖を宣言 全船舶の通航認めず」",
     "FBとれとれ「W杯2026準々決勝の結果速報！スペインとフランスがベスト4進出、準決勝で激突へ」",
     "CNN、NBC News、CNBC、Bloomberg、France 24、Reuters、Tennis Calendar（tennis-calendar.com）、New Republic、Yahoo Finance、ts2.tech",
     "Reuters, AP, CNN, BBC, Al Jazeera, Bloomberg, CNBC, NPR, ESPN, FIFA.com, Euronews, The Watchers, Fortune, Motley Fool, Washington Times, PBS NewsHour, World Politics Review, Yahoo Finance, Trading Economics, Stock Rover",
@@ -30,17 +31,16 @@
     ],
     "産経新聞（Yahoo!ニュース）「中国、ヘリウム輸出を一時禁止 半導体製造など国内向け確保が狙いか」／時事通信（Yahoo!ニュース）「中国、ヘリウム輸出禁止 国内半導体向け優先か」",
     "女子SPA！（Yahoo!ニュース）「4月の来日中にも気づかなかった！『プラダを着た悪魔2』主演女優（43）の妊娠発表に「プロすぎる」の声殺到」",
-    "Reuters, AP, Al Jazeera, NPR, CNBC, Bloomberg, TheStreet, ESPN, CNN, NBC News, GMA Network, Yahoo Sports, Tech Startups, distillintelligence.com, buildfastwithai.com, Foreign Policy, Kyiv Independent",
-    "NHK、時事通信、日本経済新聞、ウェザーニュース、tenki.jp、沖縄タイムス、外為どっとコム、みんかぶFX、OANDA、ESPN、CBS News、Wikipedia（ベネズエラ地震2026年）"
+    "Reuters, AP, Al Jazeera, NPR, CNBC, Bloomberg, TheStreet, ESPN, CNN, NBC News, GMA Network, Yahoo Sports, Tech Startups, distillintelligence.com, buildfastwithai.com, Foreign Policy, Kyiv Independent"
   ],
   "recentOpeners": [
+    "イランが今日また「ホルムズ海峡閉鎖」を宣言🐹\n\n世界の海上石油貿易のうち、ホル",
     "スペインが今朝のW杯2026準々決勝でベルギーを2-1撃破！🐹\n\nこの勝利でス",
     "中国が昨日（7/10）、突然ヘリウムの輸出を即日禁止に🐹\nそもそも中国が最も多",
     "妊娠を隠してプロモツアーを完走！プロすぎると話題🐹\n\n今年4月、映画『プラダを",
-    "山本太郎氏が昨日、れいわ代表辞任と政界引退を表明🐹\n東九州自動車道で検挙された",
-    "W杯2026、フランスがベスト4へ！🐹\n\n今朝（日本時間7/10）の準々決勝で"
+    "山本太郎氏が昨日、れいわ代表辞任と政界引退を表明🐹\n東九州自動車道で検挙された"
   ],
-  "lastPostedAt": 1783835889074,
+  "lastPostedAt": 1783844913843,
   "recentBreaking": [
     "Apple、OpenAIを営業秘密盗用で提訴",
     "上地結衣・生涯ゴールデンスラム達成・ウィンブルドン初V・日本女子初",
@@ -55,13 +55,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 35
+    "posts": 37
   },
   "breakingDate": "2026-07-12",
   "breakingCount": 2,
   "lastBreakingCheck": 1783824252982,
-  "lastAnyPostAt": 1783835889074,
+  "lastAnyPostAt": 1783844913843,
   "postHistory": [
+    {
+      "tweetId": "2076222256972443847",
+      "kind": "quiz",
+      "category": "国際・4択",
+      "textPreview": "イランが今日また「ホルムズ海峡閉鎖」を宣言🐹\n\n世界の海上石油貿易のうち、ホルムズ海峡を通過する割合はどのくらい？\n\n投票で答えてね🐹 正解は2時間後にリプ",
+      "postedAt": 1783844913843
+    },
     {
       "tweetId": "2076184406708903963",
       "kind": "quiz",
