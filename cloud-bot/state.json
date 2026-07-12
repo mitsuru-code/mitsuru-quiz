@@ -1,6 +1,7 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Al Jazeera、Euronews、Arab News、Reuters、AP、CNN、Bloomberg、CNBC、NPR、Times of Israel、ATP Tour、ESPN、The Sun Malaysia、Washington Post、UPI",
     "NHK、ウェザーニュース、tenki.jp、News on Japan、The Japan Times、TechCrunch、CNBC、Fortune、Axios、Bloomberg、Arab News、NPR、Euronews、Reuters、Share Talk",
     "CNN.co.jp（Yahoo!ニュース）「イラン、ホルムズ海峡の閉鎖を宣言 全船舶の通航認めず」",
     "FBとれとれ「W杯2026準々決勝の結果速報！スペインとフランスがベスト4進出、準決勝で激突へ」",
@@ -20,8 +21,7 @@
       "テレビ朝日",
       "FOREX.com"
     ],
-    "産経新聞（Yahoo!ニュース）「中国、ヘリウム輸出を一時禁止 半導体製造など国内向け確保が狙いか」／時事通信（Yahoo!ニュース）「中国、ヘリウム輸出禁止 国内半導体向け優先か」",
-    "女子SPA！（Yahoo!ニュース）「4月の来日中にも気づかなかった！『プラダを着た悪魔2』主演女優（43）の妊娠発表に「プロすぎる」の声殺到」"
+    "産経新聞（Yahoo!ニュース）「中国、ヘリウム輸出を一時禁止 半導体製造など国内向け確保が狙いか」／時事通信（Yahoo!ニュース）「中国、ヘリウム輸出禁止 国内半導体向け優先か」"
   ],
   "recentOpeners": [
     "イランが今日また「ホルムズ海峡閉鎖」を宣言🐹\n\n世界の海上石油貿易のうち、ホル",
@@ -30,7 +30,7 @@
     "妊娠を隠してプロモツアーを完走！プロすぎると話題🐹\n\n今年4月、映画『プラダを",
     "山本太郎氏が昨日、れいわ代表辞任と政界引退を表明🐹\n東九州自動車道で検挙された"
   ],
-  "lastPostedAt": 1783857567042,
+  "lastPostedAt": 1783892880579,
   "recentBreaking": [
     "Apple、OpenAIを営業秘密盗用で提訴",
     "上地結衣・生涯ゴールデンスラム達成・ウィンブルドン初V・日本女子初",
@@ -45,13 +45,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 39
+    "posts": 40
   },
-  "breakingDate": "2026-07-12",
-  "breakingCount": 2,
+  "breakingDate": "2026-07-13",
+  "breakingCount": 0,
   "lastBreakingCheck": 1783824252982,
-  "lastAnyPostAt": 1783857567042,
+  "lastAnyPostAt": 1783892880579,
   "postHistory": [
+    {
+      "tweetId": "2076423713998917645",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "☀️ おはようございます！寝ている間に世界で起きたこと、20問でおさらい🐹\n朝の通勤・雑談・商談のネタに、サクッと読んでみてください。\n\n──────────",
+      "postedAt": 1783892880579
+    },
     {
       "tweetId": "2076275579821981791",
       "kind": "recap",
