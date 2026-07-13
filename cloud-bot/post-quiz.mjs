@@ -517,8 +517,11 @@ async function main() {
 
   // 投稿内容確認モード: GET_TWEET_ID が指定された時だけ、その投稿の本文全文を表示して終了する（保守用・読み取りのみ）
   if (GET_TWEET_ID) {
+    // 280文字を超える長文投稿（note tweet）は通常のtextフィールドが280文字で切り詰められるため、
+    // note_tweet.textを優先的に見る（無ければ通常のtextにフォールバック）
     const json = await apiGet('/2/tweets', { ids: GET_TWEET_ID, 'tweet.fields': 'text,note_tweet' });
-    console.log(`📄 tweet ${GET_TWEET_ID} の生レスポンス:\n${JSON.stringify(json, null, 2)}`);
+    const text = json.data?.[0]?.note_tweet?.text || json.data?.[0]?.text || '(取得できませんでした)';
+    console.log(`📄 tweet ${GET_TWEET_ID} の本文:\n${text}`);
     return;
   }
 
