@@ -302,7 +302,7 @@ async function callClaudePlain(prompt, maxTokens, maxSearches) {
       console.log(`⚠️ 区切りマーカーが見つかりません（試行${attempt}/2、stop_reason=${stopReason}）`);
       continue;
     }
-    const text = clean.slice(startIdx + POST_START.length, endIdx).trim();
+    const text = stripMarkdown(clean.slice(startIdx + POST_START.length, endIdx).trim());
     const metaBlock = clean.slice(endIdx + POST_END.length);
     const source = (metaBlock.match(/^source:\s*(.*)$/mi) || [])[1]?.trim() || '';
     const category = (metaBlock.match(/^category:\s*(.*)$/mi) || [])[1]?.trim() || '';
@@ -316,6 +316,15 @@ async function callClaudePlain(prompt, maxTokens, maxSearches) {
   throw lastErr;
 }
 
+// プロンプトで禁止していても、Claudeが習慣的にMarkdown記法（太字・水平線）を
+// 混ぜてしまうことがある（生の「**」やASCII罫線「---」がそのまま投稿される事故）。
+// プロンプト側の指示だけに頼らず、最後の砦としてここで機械的に取り除く
+function stripMarkdown(text) {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '$1')      // **太字** → 太字
+    .replace(/^-{3,}\s*$/gm, '─'.repeat(21)); // 独立行の "---" → 罫線文字に置き換え
+}
+
 // ===== キャラクター共通指示 =====
 const CHARACTER = `【キャラクター設定】
 あなたはX(Twitter)の時事アカウント「クイズハム🐹」の中の人です。キンクマハムスターがモチーフですが、キャラは"ほんのり"効かせる程度に抑え、誰が読んでも自然で親しみやすい文章にします。基本は親しみやすく丁寧な口調。時々「🐹」の絵文字で愛嬌を出す程度に留め、内容の分かりやすさと読みやすさを最優先します。
@@ -323,7 +332,8 @@ const CHARACTER = `【キャラクター設定】
 - ハッシュタグは使わない。出典は「（出典: メディア名）」の平文で記載する
 - 1行目はタイムラインで最初に見える「見出し」。必ず興味を引くフックにする
 - 事実（数字・固有名詞・日付）は検索結果に忠実に。推測で書かない
-- 出力の冒頭に「情報が揃いました」「投稿を組み立てます」のような前置き・作業報告・区切り線を絶対に書かない。指定されたフォーマットの中身だけを書く（それ以外の文章は一切書かない）`;
+- 出力の冒頭に「情報が揃いました」「投稿を組み立てます」のような前置き・作業報告・区切り線を絶対に書かない。指定されたフォーマットの中身だけを書く（それ以外の文章は一切書かない）
+- Markdown記法は一切使わない（**太字**、# 見出し、- 箇条書きなど禁止）。Xは生のテキストがそのまま表示されるため、Markdown記号は読者にそのまま記号として見えてしまう。区切り線が必要な場合は「─」（罫線文字）を使い、ハイフン3つ「---」は使わない`;
 
 // ===== 生成: 朝のブリーフィング（5時台） =====
 async function generateBriefing(state) {
