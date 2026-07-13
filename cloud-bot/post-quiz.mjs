@@ -482,9 +482,10 @@ function spacingOk(state, now) {
 // ===== メイン =====
 async function main() {
   const DELETE_TWEET_ID = (process.env.DELETE_TWEET_ID || '').trim();
+  const GET_TWEET_ID = (process.env.GET_TWEET_ID || '').trim();
   const missing = [];
   if (!ANTHROPIC_API_KEY && !process.env.MOCK_QUIZ_JSON && !TEST_POST) missing.push('ANTHROPIC_API_KEY');
-  if (!DRY_RUN || TEST_POST || DELETE_TWEET_ID) {
+  if (!DRY_RUN || TEST_POST || DELETE_TWEET_ID || GET_TWEET_ID) {
     if (!TW_CONSUMER_KEY) missing.push('TWITTER_CONSUMER_KEY');
     if (!TW_CONSUMER_SECRET) missing.push('TWITTER_CONSUMER_SECRET');
     if (!TW_ACCESS_TOKEN) missing.push('TWITTER_ACCESS_TOKEN');
@@ -511,6 +512,14 @@ async function main() {
     }
     await deleteTweet(DELETE_TWEET_ID);
     console.log(`🗑 投稿を削除しました（tweet: ${DELETE_TWEET_ID}）`);
+    return;
+  }
+
+  // 投稿内容確認モード: GET_TWEET_ID が指定された時だけ、その投稿の本文全文を表示して終了する（保守用・読み取りのみ）
+  if (GET_TWEET_ID) {
+    const json = await apiGet('/2/tweets', { ids: GET_TWEET_ID, 'tweet.fields': 'text' });
+    const text = json.data?.[0]?.text || '(取得できませんでした)';
+    console.log(`📄 tweet ${GET_TWEET_ID} の本文:\n${text}`);
     return;
   }
 

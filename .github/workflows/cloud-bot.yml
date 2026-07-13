@@ -34,6 +34,10 @@ on:
         description: '誤投稿の削除用（削除したい投稿のtweet IDを入力。空なら何もしない）'
         type: string
         default: ''
+      get_tweet_id:
+        description: '投稿本文の確認用（確認したい投稿のtweet IDを入力。空なら何もしない。ログに全文を表示）'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -67,6 +71,7 @@ jobs:
           FORCE_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.force_post && 'true' || 'false' }}
           TEST_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.test_post && 'true' || 'false' }}
           DELETE_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.delete_tweet_id || '' }}
+          GET_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.get_tweet_id || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
           # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
           # BREAKING_ENABLED: 'false'      # 速報チェックを止めたい場合はfalseに
