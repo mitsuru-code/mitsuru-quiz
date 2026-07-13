@@ -337,6 +337,7 @@ const CHARACTER = `【キャラクター設定】
 
 // ===== 生成: 朝のブリーフィング（5時台） =====
 async function generateBriefing(state) {
+  const recentOpeners = (state.recentOpeners || []).join(' / ');
   const prompt = `${CHARACTER}
 
 Web検索を使って、「日本時間の昨夜から今朝（前日22時〜今朝6時ごろ）に海外で報じられた・起きたニュース」を幅広く調べてください（Reuters/AP/BBC/CNN/Bloomberg等の海外メディア中心。米国市場の動き、国際政治、テクノロジー、スポーツの海外試合結果など）。
@@ -344,9 +345,10 @@ Web検索を使って、「日本時間の昨夜から今朝（前日22時〜今
 それを元に、朝の通勤時間にサッと読める「一問一答ブリーフィング」を1本作ってください:
 - 全20問。1問は「Q: 質問文」「A: 答え＋一言解説」の2〜3行で完結（タイパ重視）
 - 職場の朝の雑談や商談の話題作りにそのまま使える、幅広いジャンル構成にする
-- 冒頭に「☀️ おはようございます！寝ている間に世界で起きたこと、20問でおさらい🐹」のような挨拶と、この投稿の使い方が一目で分かる一文
+- 冒頭2〜3行は、その日いちばん気になったニュースへの一言リアクションから始めるなど、日によって書き方を変える（「おはようございます！寝ている間に〜」のような同じ言い回しの繰り返しは避ける。ただし挨拶自体は入れてよい）
 - 各問は番号付き（Q1〜Q20）。ジャンルの偏りを避ける
-- 最後に「今日も良い一日を！」のような締めと、主な出典を「（出典: Reuters、BBC ほか）」のようにまとめて記載
+- 締めの一言・言い回しも毎回変える。最後に主な出典を「（出典: Reuters、BBC ほか）」のようにまとめて記載
+${recentOpeners ? '- 冒頭の書き出しが以下と似た表現・構成にならないようにすること: ' + recentOpeners : ''}
 
 出力形式（JSONにしない。本文中の引用符「"」はそのまま自由に使ってよい）:
 まず ---POST-START--- とだけ書いた行、続けて投稿本文、続けて ---POST-END--- とだけ書いた行、続けて次の2行を書いてください。---POST-START--- より前には何も書かないこと（前置き・確認・作業報告は一切禁止）:
@@ -394,15 +396,17 @@ ${recentOpeners ? '- 以下の書き出しと被らないこと: ' + recentOpene
 
 // ===== 生成: 夜の振り返り（20時） =====
 async function generateRecap(state) {
+  const recentOpeners = (state.recentOpeners || []).join(' / ');
   const prompt = `${CHARACTER}
 
 Web検索で「今日（日本時間の本日）の主要ニュース」を国内外・経済・社会・スポーツから幅広く調べてください。
 
 それを元に、1日を振り返る「一問一答おさらいクイズ」を1本作ってください（朝のブリーフィングと同じ一問一答形式・全20問）:
 - 全20問。1問は「Q: 質問文」「A: 答え＋一言解説」の2〜3行で完結（タイパ重視）
-- 冒頭に「🌙 今日も一日おつかれさまでした。今日のニュース、どれだけ覚えてる？20問でおさらいです🐹」のような導入
+- 冒頭2〜3行は、今日いちばん印象に残ったニュースへの一言リアクションから始めるなど、日によって書き方を変える（「今日も一日おつかれさまでした。今日のニュース、どれだけ覚えてる？」のような同じ言い回しの繰り返しは避ける。ただし労いの気持ちは入れてよい）
 - 各問は番号付き（Q1〜Q20）。今日1日の出来事から、ジャンルの偏りを避けて幅広く選ぶ
-- 最後に「また明日🐹」のような締めと、主な出典を「（出典: NHK、Reuters ほか）」のようにまとめて記載
+- 締めの一言・言い回しも毎回変える。最後に主な出典を「（出典: NHK、Reuters ほか）」のようにまとめて記載
+${recentOpeners ? '- 冒頭の書き出しが以下と似た表現・構成にならないようにすること: ' + recentOpeners : ''}
 
 出力形式（JSONにしない。本文中の引用符「"」はそのまま自由に使ってよい）:
 まず ---POST-START--- とだけ書いた行、続けて投稿本文、続けて ---POST-END--- とだけ書いた行、続けて次の2行を書いてください。---POST-START--- より前には何も書かないこと（前置き・確認・作業報告は一切禁止）:
@@ -601,6 +605,7 @@ async function main() {
         const tweetId = await postTweet(gen.text, null);
         console.log(`🐦 Xに投稿しました（tweet: ${tweetId}）`);
         state.recentTopics = [gen.source || gen.category, ...state.recentTopics].filter(Boolean).slice(0, 8);
+        state.recentOpeners = [gen.text.slice(0, 40), ...state.recentOpeners].filter(Boolean).slice(0, 5);
         state.lastPostedAt = now;
         countPost(state, now);
         recordPost(state, { tweetId, kind: profile.kind, category: gen.category, textPreview: gen.text, postedAt: now });
