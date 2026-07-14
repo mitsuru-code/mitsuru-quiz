@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2076888140179275795",
+      "answer": "正解は「モロッコ戦」でした！参加してくれてありがとう🐹\n\nエムバペは準々決勝のモロッコ戦（7/10）で後半60分にゴールを決め、今大会8得点目・W杯通算20得点の大台に到達。一方スペインはベルギーを2-1で撃破。今夜の準決勝ダラスで両国が激突します🔥\n\n🌰豆知識：エムバペのW杯通算20得点は歴代2位（現在1位はメッシの21得点）。27歳での到達は、前人未到の記録更新が現実味を帯びています。",
+      "sourceUrl": "https://www.olympics.com/ja/news/fifa-world-cup-2026-top-scorers-goalscorers-ranking",
+      "question": "今夜（日本時間15日4:00）W杯2026準決勝でついに激突！🐹\n\nフランスとスペイン、準々決勝でエムバペが得点を決め",
+      "postedAt": 1784003635431,
+      "dueAt": 1784010835431,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "olympics.com「FIFAワールドカップ2026丨得点ランキング・最新ゴール数・得点王」",
     "Reuters, AP, CNN, CNBC, Bloomberg, Al Jazeera, NPR, ESPN, Fox Sports, Euronews, Globe and Mail, TechCrunch, Yahoo Finance, Fox News, Washington Times, World Radio",
     "NHK、テレビ朝日（ANN）、FNNプライムオンライン、TBS NEWS DIG、tenki.jp、Reuters、AP通信、CNN、NPR、ESPN、Anadolu Agency、UPI、Al Jazeera、Bloomberg、The Washington Post、ABC News",
     "NHKニュース「皇室典範改正案 衆院本会議で可決 今国会で成立の公算」／日本経済新聞「皇室典範改正案が衆院通過、中道賛成 女性皇籍保持・旧宮家から養子」",
     "日刊スポーツ（Yahoo!ニュース）「藤井フミヤ47都道府県ツアー最終公演「最終日！さみしい気持ちの方が大きい」24曲に大歓声」／北國新聞「藤井フミヤ、64歳の抱負は「健康しかない」 47都道府県ツアー完走に感慨 全67公演で14万5000人を動員」",
     "Al Jazeera、Euronews、Arab News、Reuters、AP、CNN、Bloomberg、CNBC、NPR、Times of Israel、ATP Tour、ESPN、The Sun Malaysia、Washington Post、UPI",
     "NHK、ウェザーニュース、tenki.jp、News on Japan、The Japan Times、TechCrunch、CNBC、Fortune、Axios、Bloomberg、Arab News、NPR、Euronews、Reuters、Share Talk",
-    "CNN.co.jp（Yahoo!ニュース）「イラン、ホルムズ海峡の閉鎖を宣言 全船舶の通航認めず」",
-    "FBとれとれ「W杯2026準々決勝の結果速報！スペインとフランスがベスト4進出、準決勝で激突へ」"
+    "CNN.co.jp（Yahoo!ニュース）「イラン、ホルムズ海峡の閉鎖を宣言 全船舶の通航認めず」"
   ],
   "recentOpeners": [
+    "今夜（日本時間15日4:00）W杯2026準決勝でついに激突！🐹\n\nフランスと",
     "戦後初の大改正が動き出した🐹\n先週（7/10）衆院を通過した皇室典範改正案、今",
     "64歳・藤井フミヤが昨日ツアーを完走！🐹\n\n2025年4月から約1年3ヶ月、4",
     "イランが今日また「ホルムズ海峡閉鎖」を宣言🐹\n\n世界の海上石油貿易のうち、ホル",
-    "スペインが今朝のW杯2026準々決勝でベルギーを2-1撃破！🐹\n\nこの勝利でス",
-    "中国が昨日（7/10）、突然ヘリウムの輸出を即日禁止に🐹\nそもそも中国が最も多"
+    "スペインが今朝のW杯2026準々決勝でベルギーを2-1撃破！🐹\n\nこの勝利でス"
   ],
-  "lastPostedAt": 1783991014734,
+  "lastPostedAt": 1784003635431,
   "recentBreaking": [
     "W杯2026準決勝・フランスvsスペイン本日開催",
     "日本ペイントHD・アクゾノーベル塗料事業に約1.3兆円買収提案",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 50
+    "posts": 51
   },
   "breakingDate": "2026-07-14",
   "breakingCount": 2,
   "lastBreakingCheck": 1783991014734,
-  "lastAnyPostAt": 1783991014734,
+  "lastAnyPostAt": 1784003635431,
   "postHistory": [
+    {
+      "tweetId": "2076888140179275795",
+      "kind": "quiz",
+      "category": "スポーツ・二択",
+      "textPreview": "今夜（日本時間15日4:00）W杯2026準決勝でついに激突！🐹\n\nフランスとスペイン、準々決勝でエムバペが得点を決め「今大会8得点・W杯通算20得点」に乗せ",
+      "postedAt": 1784003635431
+    },
     {
       "tweetId": "2076835025140772952",
       "kind": "breaking",
