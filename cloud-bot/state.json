@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2076888140179275795",
-      "answer": "正解は「モロッコ戦」でした！参加してくれてありがとう🐹\n\nエムバペは準々決勝のモロッコ戦（7/10）で後半60分にゴールを決め、今大会8得点目・W杯通算20得点の大台に到達。一方スペインはベルギーを2-1で撃破。今夜の準決勝ダラスで両国が激突します🔥\n\n🌰豆知識：エムバペのW杯通算20得点は歴代2位（現在1位はメッシの21得点）。27歳での到達は、前人未到の記録更新が現実味を帯びています。",
-      "sourceUrl": "https://www.olympics.com/ja/news/fifa-world-cup-2026-top-scorers-goalscorers-ranking",
-      "question": "今夜（日本時間15日4:00）W杯2026準決勝でついに激突！🐹\n\nフランスとスペイン、準々決勝でエムバペが得点を決め",
-      "postedAt": 1784003635431,
-      "dueAt": 1784010835431,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "olympics.com「FIFAワールドカップ2026丨得点ランキング・最新ゴール数・得点王」",
     "Reuters, AP, CNN, CNBC, Bloomberg, Al Jazeera, NPR, ESPN, Fox Sports, Euronews, Globe and Mail, TechCrunch, Yahoo Finance, Fox News, Washington Times, World Radio",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 51
+    "posts": 52
   },
   "breakingDate": "2026-07-14",
   "breakingCount": 2,
