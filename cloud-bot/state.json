@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters、CNN、CNBC、NPR、ESPN、Al Jazeera、Yahoo Finance、Fox News Digital、ABC News、Yahoo Sports、The Street、Washington Post",
     "NHK、日本経済新聞、読売新聞、スポーツ報知、デイリースポーツ、ベースボールチャンネル、NPR、CBS News、The Hill、Variety、Al Jazeera、UPI",
     "Wikipedia「ベネズエラ地震（2026年）」/ NHKニュース「ベネズエラ大地震 死者4500人超に 捜索は難航」（2026年7月14日）",
     "olympics.com「FIFAワールドカップ2026丨得点ランキング・最新ゴール数・得点王」",
     "Reuters, AP, CNN, CNBC, Bloomberg, Al Jazeera, NPR, ESPN, Fox Sports, Euronews, Globe and Mail, TechCrunch, Yahoo Finance, Fox News, Washington Times, World Radio",
     "NHK、テレビ朝日（ANN）、FNNプライムオンライン、TBS NEWS DIG、tenki.jp、Reuters、AP通信、CNN、NPR、ESPN、Anadolu Agency、UPI、Al Jazeera、Bloomberg、The Washington Post、ABC News",
     "NHKニュース「皇室典範改正案 衆院本会議で可決 今国会で成立の公算」／日本経済新聞「皇室典範改正案が衆院通過、中道賛成 女性皇籍保持・旧宮家から養子」",
-    "日刊スポーツ（Yahoo!ニュース）「藤井フミヤ47都道府県ツアー最終公演「最終日！さみしい気持ちの方が大きい」24曲に大歓声」／北國新聞「藤井フミヤ、64歳の抱負は「健康しかない」 47都道府県ツアー完走に感慨 全67公演で14万5000人を動員」",
-    "Al Jazeera、Euronews、Arab News、Reuters、AP、CNN、Bloomberg、CNBC、NPR、Times of Israel、ATP Tour、ESPN、The Sun Malaysia、Washington Post、UPI"
+    "日刊スポーツ（Yahoo!ニュース）「藤井フミヤ47都道府県ツアー最終公演「最終日！さみしい気持ちの方が大きい」24曲に大歓声」／北國新聞「藤井フミヤ、64歳の抱負は「健康しかない」 47都道府県ツアー完走に感慨 全67公演で14万5000人を動員」"
   ],
   "recentOpeners": [
+    "おはようございます🐹 寝ている間に、中東の緊張が一気に再燃していました。順を追",
     "たばこ1本が消防士2人の命を奪った──その事実が、今日ようやく司法に動いた。おつ",
     "ベネズエラで6月24日に起きた大地震、本震のマグニチュードはいくつ？🐹\n今も被",
     "今夜（日本時間15日4:00）W杯2026準決勝でついに激突！🐹\n\nフランスと",
-    "戦後初の大改正が動き出した🐹\n先週（7/10）衆院を通過した皇室典範改正案、今",
-    "64歳・藤井フミヤが昨日ツアーを完走！🐹\n\n2025年4月から約1年3ヶ月、4"
+    "戦後初の大改正が動き出した🐹\n先週（7/10）衆院を通過した皇室典範改正案、今"
   ],
-  "lastPostedAt": 1784027498380,
+  "lastPostedAt": 1784062985820,
   "recentBreaking": [
     "W杯2026準決勝・フランスvsスペイン本日開催",
     "日本ペイントHD・アクゾノーベル塗料事業に約1.3兆円買収提案",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 55
+    "posts": 56
   },
-  "breakingDate": "2026-07-14",
-  "breakingCount": 2,
+  "breakingDate": "2026-07-15",
+  "breakingCount": 0,
   "lastBreakingCheck": 1783991014734,
-  "lastAnyPostAt": 1784027498380,
+  "lastAnyPostAt": 1784062985820,
   "postHistory": [
+    {
+      "tweetId": "2077137150265446505",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 寝ている間に、中東の緊張が一気に再燃していました。順を追って整理します。\n\n─────────────────────\n【 朝の一問一答",
+      "postedAt": 1784062985820
+    },
     {
       "tweetId": "2076988293246259393",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "スポーツ・4択",
       "textPreview": "W杯2026、フランスがベスト4へ！🐹\n\n今朝（日本時間7/10）の準々決勝でフランスはモロッコに2-0で勝利。決勝点を挙げたのはエムバペとデンベレでしたが、",
       "postedAt": 1783653462319
-    },
-    {
-      "tweetId": "2075357202794320133",
-      "kind": "breaking",
-      "category": "山本太郎・れいわ代表辞任＆政界引退表明",
-      "textPreview": "📈 いま話題｜山本太郎氏、れいわ代表を辞任＆政界引退を表明🐹\n\n本日9日、記者会見で正式発表。\n昨年10月に制限速度を69キロ超過する149キロ走行で検挙さ",
-      "postedAt": 1783638679130
     }
   ]
 }
