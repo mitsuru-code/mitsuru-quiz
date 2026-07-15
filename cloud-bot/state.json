@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2077250484197618088",
+      "answer": "正解は「ミケル・オヤルサバル」でした！投票してくれたみなさん、ありがとうございます🐹\n\n前半20分、ヤマルがディーニュに倒されて得たPKをオヤルサバルが冷静に沈め先制。後半はポロが追加点を叩き込み、スペインが2-0でフランスを完封。4大会ぶりの決勝進出を決めました！\n\n🌰豆知識：この勝利でスペインの国際Aマッチ無敗記録は37試合に伸び、歴代最多記録に並びました。",
+      "sourceUrl": "https://web.ultra-soccer.jp/news/world/29201/",
+      "question": "眠れない夜だったけど最高の結果🐹 W杯2026準決勝・スペイン対フランス（日本時間7/15）、スペインに先制PKを決め",
+      "postedAt": 1784090034269,
+      "dueAt": 1784097234269,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "超WORLDサッカー「【W杯2026】無敵艦隊・スペイン、フランスに完勝で4大会ぶり2度目の決勝へ！37試合無敗の世界記録に並ぶ｜大会31日目結果」",
     "Reuters、CNN、CNBC、NPR、ESPN、Al Jazeera、Yahoo Finance、Fox News Digital、ABC News、Yahoo Sports、The Street、Washington Post",
     "NHK、日本経済新聞、読売新聞、スポーツ報知、デイリースポーツ、ベースボールチャンネル、NPR、CBS News、The Hill、Variety、Al Jazeera、UPI",
     "Wikipedia「ベネズエラ地震（2026年）」/ NHKニュース「ベネズエラ大地震 死者4500人超に 捜索は難航」（2026年7月14日）",
     "olympics.com「FIFAワールドカップ2026丨得点ランキング・最新ゴール数・得点王」",
     "Reuters, AP, CNN, CNBC, Bloomberg, Al Jazeera, NPR, ESPN, Fox Sports, Euronews, Globe and Mail, TechCrunch, Yahoo Finance, Fox News, Washington Times, World Radio",
     "NHK、テレビ朝日（ANN）、FNNプライムオンライン、TBS NEWS DIG、tenki.jp、Reuters、AP通信、CNN、NPR、ESPN、Anadolu Agency、UPI、Al Jazeera、Bloomberg、The Washington Post、ABC News",
-    "NHKニュース「皇室典範改正案 衆院本会議で可決 今国会で成立の公算」／日本経済新聞「皇室典範改正案が衆院通過、中道賛成 女性皇籍保持・旧宮家から養子」",
-    "日刊スポーツ（Yahoo!ニュース）「藤井フミヤ47都道府県ツアー最終公演「最終日！さみしい気持ちの方が大きい」24曲に大歓声」／北國新聞「藤井フミヤ、64歳の抱負は「健康しかない」 47都道府県ツアー完走に感慨 全67公演で14万5000人を動員」"
+    "NHKニュース「皇室典範改正案 衆院本会議で可決 今国会で成立の公算」／日本経済新聞「皇室典範改正案が衆院通過、中道賛成 女性皇籍保持・旧宮家から養子」"
   ],
   "recentOpeners": [
+    "眠れない夜だったけど最高の結果🐹 W杯2026準決勝・スペイン対フランス（日本",
     "おはようございます🐹 寝ている間に、中東の緊張が一気に再燃していました。順を追",
     "たばこ1本が消防士2人の命を奪った──その事実が、今日ようやく司法に動いた。おつ",
     "ベネズエラで6月24日に起きた大地震、本震のマグニチュードはいくつ？🐹\n今も被",
-    "今夜（日本時間15日4:00）W杯2026準決勝でついに激突！🐹\n\nフランスと",
-    "戦後初の大改正が動き出した🐹\n先週（7/10）衆院を通過した皇室典範改正案、今"
+    "今夜（日本時間15日4:00）W杯2026準決勝でついに激突！🐹\n\nフランスと"
   ],
-  "lastPostedAt": 1784077203819,
+  "lastPostedAt": 1784090034269,
   "recentBreaking": [
     "パラマウント×ワーナー合併・米12州が阻止訴訟",
     "トランプ・対イラン海上封鎖再開＆ホルムズ海峡20%通航料要求",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 58
+    "posts": 59
   },
   "breakingDate": "2026-07-15",
   "breakingCount": 2,
   "lastBreakingCheck": 1784077203819,
-  "lastAnyPostAt": 1784077203819,
+  "lastAnyPostAt": 1784090034269,
   "postHistory": [
+    {
+      "tweetId": "2077250484197618088",
+      "kind": "quiz",
+      "category": "スポーツ・4択",
+      "textPreview": "眠れない夜だったけど最高の結果🐹 W杯2026準決勝・スペイン対フランス（日本時間7/15）、スペインに先制PKを決めた選手は誰？投票で答えてね🐹 正解は2",
+      "postedAt": 1784090034269
+    },
     {
       "tweetId": "2077196556022006029",
       "kind": "breaking",
@@ -241,13 +258,6 @@
       "category": "夜の振り返り",
       "textPreview": "🌙 今日も一日おつかれさまでした。今日のニュース、どれだけ覚えてる？20問でおさらいです🐹\n\n━━━━━━━━━━━━━━━\n🇯🇵 国内ニュース\n━━━",
       "postedAt": 1783689094615
-    },
-    {
-      "tweetId": "2075533908800938356",
-      "kind": "quiz",
-      "category": "国内政治・4択",
-      "textPreview": "山本太郎氏が昨日、れいわ代表辞任と政界引退を表明🐹\n東九州自動車道で検挙されたスピード違反、実際に走っていた速度は何キロだったでしょう？\n投票で答えてね🐹 ",
-      "postedAt": 1783680802424
     }
   ]
 }
