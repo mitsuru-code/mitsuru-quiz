@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2077250484197618088",
-      "answer": "正解は「ミケル・オヤルサバル」でした！投票してくれたみなさん、ありがとうございます🐹\n\n前半20分、ヤマルがディーニュに倒されて得たPKをオヤルサバルが冷静に沈め先制。後半はポロが追加点を叩き込み、スペインが2-0でフランスを完封。4大会ぶりの決勝進出を決めました！\n\n🌰豆知識：この勝利でスペインの国際Aマッチ無敗記録は37試合に伸び、歴代最多記録に並びました。",
-      "sourceUrl": "https://web.ultra-soccer.jp/news/world/29201/",
-      "question": "眠れない夜だったけど最高の結果🐹 W杯2026準決勝・スペイン対フランス（日本時間7/15）、スペインに先制PKを決め",
-      "postedAt": 1784090034269,
-      "dueAt": 1784097234269,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "超WORLDサッカー「【W杯2026】無敵艦隊・スペイン、フランスに完勝で4大会ぶり2度目の決勝へ！37試合無敗の世界記録に並ぶ｜大会31日目結果」",
     "Reuters、CNN、CNBC、NPR、ESPN、Al Jazeera、Yahoo Finance、Fox News Digital、ABC News、Yahoo Sports、The Street、Washington Post",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 59
+    "posts": 60
   },
   "breakingDate": "2026-07-15",
   "breakingCount": 2,
