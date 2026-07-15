@@ -98,6 +98,7 @@ Xアプリで投稿（共有モーダルからコピー / X起動）
 | [docs/pixel10a-device-settings-guide.md](docs/pixel10a-device-settings-guide.md) | Android/Pixel端末側の設定ガイド（通知・画面消灯・電池最適化・分割画面など、OS側の設定項目の詳細） |
 | [docs/pixel10a-x-monetization-guide.md](docs/pixel10a-x-monetization-guide.md) | PC不要・Pixel 10a単体でX収益化を目指す運用手順書（端末設定・1日のルーティン・インプレッション最大化のコツ） |
 | [docs/pc-integration.md](docs/pc-integration.md) | PC自動化システムとの連携仕様（Webhookペイロード・CORS要件・Flask/n8nサンプル・耐障害設計） |
+| [docs/tiktok-lite-background-play-guide.md](docs/tiktok-lite-background-play-guide.md) | TikTok Liteをバックグラウンド再生する方法（LIVEのPiP・分割画面での「ながら見」・ポイント付与の制約） |
 
 ---
 
