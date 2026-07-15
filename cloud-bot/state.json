@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2077325679016935747",
+      "answer": "正解は「ホルムズ海峡」でした！ 参加してくれてありがとうございます🐹\n\nアメリカ軍は日本時間15日午前5時、イランへの海上封鎖を再開。イラン産原油の輸出入を強制的に制限します。イラン革命防衛隊は湾岸諸国の船も攻撃すると示唆しており、緊張は一段と高まっています。\n\n🌰豆知識：ホルムズ海峡は幅わずか約50kmの細い海峡で、世界の海上石油輸送量の約2割が通過すると言われています。ここが封鎖されるとエネルギー市場への影響は計り知れません。",
+      "sourceUrl": "https://news.yahoo.co.jp/articles/26eac0c8b59e907d49148bab8e331cd78c70eb10",
+      "question": "今日未明、ついに始まった──米軍がイランへの海上封鎖を再開。\n\nさて、封鎖の対象となっているのは世界の石油輸送の要衝「あ",
+      "postedAt": 1784107983884,
+      "dueAt": 1784115183884,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "毎日新聞（Yahoo!ニュース）「米軍、イラン港湾の封鎖再開 イランへの4日連続の攻撃も始まる」／時事ドットコム「米、対イラン海上封鎖再開へ ホルムズ通過貨物に「対価20％」―3日連続で攻撃」",
     "超WORLDサッカー「【W杯2026】無敵艦隊・スペイン、フランスに完勝で4大会ぶり2度目の決勝へ！37試合無敗の世界記録に並ぶ｜大会31日目結果」",
     "Reuters、CNN、CNBC、NPR、ESPN、Al Jazeera、Yahoo Finance、Fox News Digital、ABC News、Yahoo Sports、The Street、Washington Post",
     "NHK、日本経済新聞、読売新聞、スポーツ報知、デイリースポーツ、ベースボールチャンネル、NPR、CBS News、The Hill、Variety、Al Jazeera、UPI",
     "Wikipedia「ベネズエラ地震（2026年）」/ NHKニュース「ベネズエラ大地震 死者4500人超に 捜索は難航」（2026年7月14日）",
     "olympics.com「FIFAワールドカップ2026丨得点ランキング・最新ゴール数・得点王」",
     "Reuters, AP, CNN, CNBC, Bloomberg, Al Jazeera, NPR, ESPN, Fox Sports, Euronews, Globe and Mail, TechCrunch, Yahoo Finance, Fox News, Washington Times, World Radio",
-    "NHK、テレビ朝日（ANN）、FNNプライムオンライン、TBS NEWS DIG、tenki.jp、Reuters、AP通信、CNN、NPR、ESPN、Anadolu Agency、UPI、Al Jazeera、Bloomberg、The Washington Post、ABC News",
-    "NHKニュース「皇室典範改正案 衆院本会議で可決 今国会で成立の公算」／日本経済新聞「皇室典範改正案が衆院通過、中道賛成 女性皇籍保持・旧宮家から養子」"
+    "NHK、テレビ朝日（ANN）、FNNプライムオンライン、TBS NEWS DIG、tenki.jp、Reuters、AP通信、CNN、NPR、ESPN、Anadolu Agency、UPI、Al Jazeera、Bloomberg、The Washington Post、ABC News"
   ],
   "recentOpeners": [
+    "今日未明、ついに始まった──米軍がイランへの海上封鎖を再開。\n\nさて、封鎖の対象",
     "眠れない夜だったけど最高の結果🐹 W杯2026準決勝・スペイン対フランス（日本",
     "おはようございます🐹 寝ている間に、中東の緊張が一気に再燃していました。順を追",
     "たばこ1本が消防士2人の命を奪った──その事実が、今日ようやく司法に動いた。おつ",
-    "ベネズエラで6月24日に起きた大地震、本震のマグニチュードはいくつ？🐹\n今も被",
-    "今夜（日本時間15日4:00）W杯2026準決勝でついに激突！🐹\n\nフランスと"
+    "ベネズエラで6月24日に起きた大地震、本震のマグニチュードはいくつ？🐹\n今も被"
   ],
-  "lastPostedAt": 1784090034269,
+  "lastPostedAt": 1784107983884,
   "recentBreaking": [
     "パラマウント×ワーナー合併・米12州が阻止訴訟",
     "トランプ・対イラン海上封鎖再開＆ホルムズ海峡20%通航料要求",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 60
+    "posts": 61
   },
   "breakingDate": "2026-07-15",
   "breakingCount": 2,
   "lastBreakingCheck": 1784077203819,
-  "lastAnyPostAt": 1784090034269,
+  "lastAnyPostAt": 1784107983884,
   "postHistory": [
+    {
+      "tweetId": "2077325679016935747",
+      "kind": "quiz",
+      "category": "国際・二択",
+      "textPreview": "今日未明、ついに始まった──米軍がイランへの海上封鎖を再開。\n\nさて、封鎖の対象となっているのは世界の石油輸送の要衝「ある海峡」。どこでしょう？🐹\n\n投票で答",
+      "postedAt": 1784107983884
+    },
     {
       "tweetId": "2077250484197618088",
       "kind": "quiz",
@@ -241,13 +258,6 @@
       "category": "朝ブリーフィング",
       "textPreview": "☀️ おはようございます！寝ている間に世界で起きたこと、20問でおさらい🐹\n各問は「Q → A＋一言解説」の2〜3行。朝の雑談・商談のネタ帳としてご活用くださ",
       "postedAt": 1783720950948
-    },
-    {
-      "tweetId": "2075568919092289792",
-      "kind": "recap",
-      "category": "夜の振り返り",
-      "textPreview": "🌙 今日も一日おつかれさまでした。今日のニュース、どれだけ覚えてる？20問でおさらいです🐹\n\n━━━━━━━━━━━━━━━\n🇯🇵 国内ニュース\n━━━",
-      "postedAt": 1783689094615
     }
   ]
 }
