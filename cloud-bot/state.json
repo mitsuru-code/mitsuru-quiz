@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "FIFA.com、ESPN、NBC News、Fox Sports、Al Jazeera、CNN、Reuters、Yahoo Sports、NPR、CNBC、Daily Kos、FDD Overnight Brief",
     "NHK、テレ東スポーツ、Olympics.com、NPR、CBS News、Fox News、Wikipedia（2026 Ebola epidemic）、時事通信",
     "毎日新聞（Yahoo!ニュース）「米軍、イラン港湾の封鎖再開 イランへの4日連続の攻撃も始まる」／時事ドットコム「米、対イラン海上封鎖再開へ ホルムズ通過貨物に「対価20％」―3日連続で攻撃」",
     "超WORLDサッカー「【W杯2026】無敵艦隊・スペイン、フランスに完勝で4大会ぶり2度目の決勝へ！37試合無敗の世界記録に並ぶ｜大会31日目結果」",
     "Reuters、CNN、CNBC、NPR、ESPN、Al Jazeera、Yahoo Finance、Fox News Digital、ABC News、Yahoo Sports、The Street、Washington Post",
     "NHK、日本経済新聞、読売新聞、スポーツ報知、デイリースポーツ、ベースボールチャンネル、NPR、CBS News、The Hill、Variety、Al Jazeera、UPI",
     "Wikipedia「ベネズエラ地震（2026年）」/ NHKニュース「ベネズエラ大地震 死者4500人超に 捜索は難航」（2026年7月14日）",
-    "olympics.com「FIFAワールドカップ2026丨得点ランキング・最新ゴール数・得点王」",
-    "Reuters, AP, CNN, CNBC, Bloomberg, Al Jazeera, NPR, ESPN, Fox Sports, Euronews, Globe and Mail, TechCrunch, Yahoo Finance, Fox News, Washington Times, World Radio"
+    "olympics.com「FIFAワールドカップ2026丨得点ランキング・最新ゴール数・得点王」"
   ],
   "recentOpeners": [
+    "今朝いちばんの話題は、やっぱりW杯🐹 スペインがフランスを完封して決勝進出を決",
     "スペインがフランスを2-0で沈め、W杯決勝へ。朝4時からの一戦、見届けた方はおつ",
     "今日未明、ついに始まった──米軍がイランへの海上封鎖を再開。\n\nさて、封鎖の対象",
     "眠れない夜だったけど最高の結果🐹 W杯2026準決勝・スペイン対フランス（日本",
-    "おはようございます🐹 寝ている間に、中東の緊張が一気に再燃していました。順を追",
-    "たばこ1本が消防士2人の命を奪った──その事実が、今日ようやく司法に動いた。おつ"
+    "おはようございます🐹 寝ている間に、中東の緊張が一気に再燃していました。順を追"
   ],
-  "lastPostedAt": 1784114068002,
+  "lastPostedAt": 1784150711455,
   "recentBreaking": [
     "パラマウント×ワーナー合併・米12州が阻止訴訟",
     "トランプ・対イラン海上封鎖再開＆ホルムズ海峡20%通航料要求",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 63
+    "posts": 64
   },
-  "breakingDate": "2026-07-15",
-  "breakingCount": 2,
+  "breakingDate": "2026-07-16",
+  "breakingCount": 0,
   "lastBreakingCheck": 1784077203819,
-  "lastAnyPostAt": 1784114068002,
+  "lastAnyPostAt": 1784150711455,
   "postHistory": [
+    {
+      "tweetId": "2077505083550601541",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "今朝いちばんの話題は、やっぱりW杯🐹 スペインがフランスを完封して決勝進出を決め、今夜はメッシ対ケイン・ベリンガムの史上最高の準決勝が控えています。サッカーだ",
+      "postedAt": 1784150711455
+    },
     {
       "tweetId": "2077351340309975449",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "芸能・エンタメ・4択",
       "textPreview": "妊娠を隠してプロモツアーを完走！プロすぎると話題🐹\n\n今年4月、映画『プラダを着た悪魔2』のPRツアーで来日もしたアン・ハサウェイ（43歳）。実は妊娠中だった",
       "postedAt": 1783740152564
-    },
-    {
-      "tweetId": "2075731282273673646",
-      "kind": "breaking",
-      "category": "ゼントシン（全東信）破産・2026年国内最大・負債1259億円",
-      "textPreview": "📈 いま話題\n\nカード決済会社「全東信（ゼントシン）」が経営破綻🐹\n負債総額は約1,259億円で、2026年の国内最大破産に。\n飲食店やラウンジを中心にカー",
-      "postedAt": 1783727858368
     }
   ]
 }
