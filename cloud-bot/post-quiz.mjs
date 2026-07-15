@@ -421,6 +421,29 @@ category: 夜の振り返り`;
   return callClaudePlain(prompt, 6000, 8);
 }
 
+// ===== 生成: 特集記事（手動実行のFEATURE_TOPIC指定時のみ） =====
+async function generateFeature(topic) {
+  const prompt = `${CHARACTER}
+
+Web検索を使って、「${topic}」について詳しく調べてください。
+
+それを元に、この話題を深掘りする「特集記事」を1本作ってください（クイズ形式にはしない。通常の記事文体で）:
+- 見出し（1行目、フックになる一文）に続けて、本文を3〜6段落程度でまとめる
+- 結果・スコア・決定的な場面など事実は正確に。数字や選手名・固有名詞は検索結果に忠実に
+- 印象的なシーンや選手のコメント・記録があれば盛り込む
+- 今後の展開（次の試合・決勝の対戦カードなど）が分かれば触れる
+- 全体で400〜800文字程度。読み物として自然な文章にする
+
+出力形式（JSONにしない。本文中の引用符「"」はそのまま自由に使ってよい）:
+まず ---POST-START--- とだけ書いた行、続けて投稿本文、続けて ---POST-END--- とだけ書いた行、続けて次の2行を書いてください。---POST-START--- より前には何も書かないこと（前置き・確認・作業報告は一切禁止）:
+---POST-START---
+（ここに投稿本文）
+---POST-END---
+source: 使った主な出典メディアの一覧
+category: 特集記事`;
+  return callClaudePlain(prompt, 3000, 8);
+}
+
 // ===== 生成: 速報チェック（随時） =====
 async function checkBreaking(state) {
   const recentBreaking = (state.recentBreaking || []).join(' / ');
@@ -556,6 +579,34 @@ async function main() {
   const slotStr = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(new Date(slotEpoch));
   canPost(state, now); // 月カウンタの初期化
   console.log(`⏰ JST ${jstHour}時 / スロット: [${POST_SLOTS.join(', ')}] / 直近: ${slotStr}(${profile.kind}) / 今月の投稿: ${state.monthly.posts}/${MONTHLY_POST_LIMIT} / DRY_RUN=${DRY_RUN} / FORCE_POST=${FORCE_POST}`);
+
+  // 特集記事モード: FEATURE_TOPIC が指定された時だけ、番組表とは無関係にその話題の特集記事を1本投稿する（保守用）
+  const FEATURE_TOPIC = (process.env.FEATURE_TOPIC || '').trim();
+  if (FEATURE_TOPIC) {
+    if (!DRY_RUN && !canPost(state, now)) {
+      console.log('⚠️ 月間投稿上限に達したため特集記事の投稿を見送ります');
+      return;
+    }
+    if (!DRY_RUN && !spacingOk(state, now)) {
+      console.log('⏳ 前回の投稿から30分経っていないため特集記事の投稿を見送ります');
+      return;
+    }
+    const feature = await generateFeature(FEATURE_TOPIC);
+    if (!feature.text) throw new Error('生成結果に text がありません');
+    console.log(`🧠 生成した特集記事（${feature.text.length}文字）:\n${feature.text}\n`);
+    if (DRY_RUN) {
+      console.log(`🧪 [DRY_RUN] 投稿はスキップします`);
+    } else {
+      const tweetId = await postTweet(feature.text, null);
+      console.log(`🐦 特集記事を投稿しました（tweet: ${tweetId}）`);
+      state.lastPostedAt = now;
+      countPost(state, now);
+      recordPost(state, { tweetId, kind: 'feature', category: feature.category || FEATURE_TOPIC, textPreview: feature.text, postedAt: now });
+      saveState(state);
+      console.log('💾 state.json を更新しました');
+    }
+    return;
+  }
 
   let stateChanged = false;
 

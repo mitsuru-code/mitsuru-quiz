@@ -42,6 +42,10 @@ on:
         description: '今回だけ生成トピックを指定（例: ワールドカップ）。空なら通常通り幅広く生成'
         type: string
         default: ''
+      feature_topic:
+        description: '特集記事モード（番組表と無関係に指定した話題の記事を1本投稿。例: アルゼンチン対イングランドの試合内容）。空なら通常通り'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -76,6 +80,7 @@ jobs:
           TEST_POST: ${{ github.event_name == 'workflow_dispatch' && inputs.test_post && 'true' || 'false' }}
           DELETE_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.delete_tweet_id || '' }}
           TOPIC_HINT: ${{ github.event_name == 'workflow_dispatch' && inputs.topic_hint || '' }}
+          FEATURE_TOPIC: ${{ github.event_name == 'workflow_dispatch' && inputs.feature_topic || '' }}
           GET_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.get_tweet_id || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
           # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
