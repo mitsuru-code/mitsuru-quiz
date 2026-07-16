@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📁 共有フォルダAI検索</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #ffffff; --text: #1c2430; --muted: #6b7686;
+    --accent: #2563eb; --accent-soft: #eaf1fe; --border: #e3e7ee;
+    --success: #158a4c; --warn: #b45309;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px 16px 60px;
+    font-family: "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .status { font-size: 12px; color: var(--muted); margin-bottom: 18px; word-break: break-all; }
+  .status .ok { color: var(--success); }
+  .status .ng { color: var(--warn); }
+  .search-box { display: flex; gap: 8px; margin-bottom: 10px; }
+  .search-box input {
+    flex: 1; padding: 12px 14px; font-size: 15px;
+    border: 1px solid var(--border); border-radius: 10px; background: var(--card);
+  }
+  .search-box input:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  button {
+    padding: 12px 18px; font-size: 14px; border: none; border-radius: 10px;
+    background: var(--accent); color: #fff; cursor: pointer; white-space: nowrap;
+  }
+  button:disabled { opacity: .5; cursor: default; }
+  button.secondary { background: var(--card); color: var(--text); border: 1px solid var(--border); }
+  .toolbar { display: flex; gap: 8px; align-items: center; margin-bottom: 22px; font-size: 12px; color: var(--muted); }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px 18px; margin-bottom: 14px;
+  }
+  #answer { white-space: pre-wrap; font-size: 15px; }
+  #answer.empty { color: var(--muted); }
+  .notice { font-size: 13px; color: var(--warn); margin-top: 8px; }
+  .file-item { border-top: 1px solid var(--border); padding: 10px 0; }
+  .file-item:first-child { border-top: none; }
+  .file-path { font-weight: 600; font-size: 14px; word-break: break-all; }
+  .file-score { font-size: 11px; color: var(--muted); margin-left: 6px; }
+  .snippet {
+    font-size: 12.5px; color: var(--muted); background: var(--accent-soft);
+    border-radius: 6px; padding: 4px 8px; margin-top: 5px; word-break: break-all;
+  }
+  .spinner {
+    display: inline-block; width: 14px; height: 14px; border-radius: 50%;
+    border: 2px solid rgba(255,255,255,.4); border-top-color: #fff;
+    animation: spin .7s linear infinite; vertical-align: -2px; margin-right: 6px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  h2 { font-size: 14px; color: var(--muted); margin: 0 0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📁 共有フォルダAI検索</h1>
+  <div class="status" id="status">状態を確認中…</div>
+
+  <form class="search-box" id="search-form">
+    <input type="text" id="query" placeholder="例: 〇〇案件の見積金額はどこに書いてある？" autocomplete="off">
+    <button type="submit" id="search-btn">🔍 検索</button>
+  </form>
+  <div class="toolbar">
+    <button type="button" class="secondary" id="rescan-btn">🔄 再スキャン</button>
+    <span>フォルダ内のファイルを追加・更新したら再スキャンしてください</span>
+  </div>
+
+  <div class="card">
+    <h2>💬 回答</h2>
+    <div id="answer" class="empty">質問を入力して検索すると、ここにAIの回答が表示されます。</div>
+    <div class="notice" id="ai-error" hidden></div>
+  </div>
+
+  <div class="card" id="files-card" hidden>
+    <h2>📄 根拠ファイル</h2>
+    <div id="files"></div>
+  </div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+function esc(s) {
+  const div = document.createElement('div');
+  div.textContent = s;
+  return div.innerHTML;
+}
+
+async function refreshStatus() {
+  try {
+    const r = await fetch('/api/status');
+    const s = await r.json();
+    const folder = s.folder_exists
+      ? `<span class="ok">✅ ${esc(s.folder)}</span>`
+      : `<span class="ng">⚠️ フォルダが見つかりません: ${esc(s.folder)}</span>`;
+    const ai = s.ai_ready
+      ? `<span class="ok">AI回答: 有効 (${esc(s.model)})</span>`
+      : `<span class="ng">AI回答: 無効（.envにANTHROPIC_API_KEYを設定）</span>`;
+    const scanned = s.last_scan_at
+      ? `${s.file_count}ファイル読込済み` + (s.error_count ? `（${s.error_count}件読込失敗）` : '')
+      : '未スキャン';
+    $('status').innerHTML = `対象: ${folder}<br>${scanned} ／ ${ai}`;
+  } catch {
+    $('status').textContent = '⚠️ サーバーに接続できません';
+  }
+}
+
+async function rescan() {
+  const btn = $('rescan-btn');
+  btn.disabled = true;
+  btn.textContent = 'スキャン中…';
+  try {
+    const r = await fetch('/api/rescan', { method: 'POST' });
+    const j = await r.json();
+    if (!j.ok) alert(j.error);
+  } catch {
+    alert('再スキャンに失敗しました');
+  }
+  btn.disabled = false;
+  btn.textContent = '🔄 再スキャン';
+  refreshStatus();
+}
+
+async function search(ev) {
+  ev.preventDefault();
+  const query = $('query').value.trim();
+  if (!query) return;
+  const btn = $('search-btn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>検索中…';
+  $('answer').className = 'empty';
+  $('answer').textContent = 'ファイルを検索してAIが回答を作成しています…';
+  $('ai-error').hidden = true;
+  $('files-card').hidden = true;
+
+  try {
+    const r = await fetch('/api/search', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ query }),
+    });
+    const j = await r.json();
+    if (!j.ok) throw new Error(j.error || '検索に失敗しました');
+
+    $('answer').className = '';
+    $('answer').textContent = j.answer || '（AIの回答はありません。下の根拠ファイルを確認してください）';
+    if (j.ai_error) {
+      $('ai-error').textContent = '⚠️ ' + j.ai_error;
+      $('ai-error').hidden = false;
+    }
+    if (j.files && j.files.length) {
+      $('files').innerHTML = j.files.map(f => `
+        <div class="file-item">
+          <div class="file-path">📄 ${esc(f.path)}<span class="file-score">一致度 ${f.score}</span></div>
+          ${f.snippets.map(s => `<div class="snippet">${esc(s)}</div>`).join('')}
+        </div>`).join('');
+      $('files-card').hidden = false;
+    }
+  } catch (e) {
+    $('answer').className = 'empty';
+    $('answer').textContent = '⚠️ ' + e.message;
+  }
+  btn.disabled = false;
+  btn.innerHTML = '🔍 検索';
+  refreshStatus();
+}
+
+$('search-form').addEventListener('submit', search);
+$('rescan-btn').addEventListener('click', rescan);
+refreshStatus();
+</script>
+</body>
+</html>
