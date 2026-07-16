@@ -46,6 +46,10 @@ on:
         description: '特集記事モード（番組表と無関係に指定した話題の記事を1本投稿。例: アルゼンチン対イングランドの試合内容）。空なら通常通り'
         type: string
         default: ''
+      breaking_topic:
+        description: '手動速報モード（指定した話題の🚨速報を1本投稿。1日2回の速報上限にカウントされる）。空なら通常通り'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -81,6 +85,7 @@ jobs:
           DELETE_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.delete_tweet_id || '' }}
           TOPIC_HINT: ${{ github.event_name == 'workflow_dispatch' && inputs.topic_hint || '' }}
           FEATURE_TOPIC: ${{ github.event_name == 'workflow_dispatch' && inputs.feature_topic || '' }}
+          BREAKING_TOPIC: ${{ github.event_name == 'workflow_dispatch' && inputs.breaking_topic || '' }}
           GET_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.get_tweet_id || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
           # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
