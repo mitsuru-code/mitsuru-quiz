@@ -40,6 +40,11 @@ const MONTHLY_POST_LIMIT = parseInt(process.env.MONTHLY_POST_LIMIT || '450', 10)
 const BREAKING_ENABLED = process.env.BREAKING_ENABLED !== 'false';
 const BREAKING_MAX_PER_DAY = 2;
 const BREAKING_CHECK_INTERVAL_MS = 2 * 3600 * 1000; // 速報チェックは2時間間隔
+// 経験上、速報級のニュースは午前9時台後半〜11時台に発生しやすいため、この時間帯だけ
+// チェック間隔を30分に短縮する（.github/workflows/cloud-bot.ymlの追加cronで実際に30分おきに起動）
+const BREAKING_PRIORITY_HOUR_START = 9;
+const BREAKING_PRIORITY_HOUR_END = 11; // この時刻の枠まで対象（11時台を含む）
+const BREAKING_PRIORITY_INTERVAL_MS = 30 * 60 * 1000;
 const MIN_POST_GAP_MS = 30 * 60 * 1000; // 新規投稿（スロット・速報）同士は最低30分間隔をあける
 
 // Secretsコピペ時の前後空白・改行はOAuth署名を壊すため必ず除去する
@@ -890,11 +895,13 @@ async function main() {
     }
   }
 
-  // --- 3. 速報チェック（2時間間隔・7〜23時・1日2回まで） ---
+  // --- 3. 速報チェック（通常2時間間隔・9〜11時台のみ30分間隔・7〜23時・1日2回まで） ---
   const today = jstDateKey(now);
   if (state.breakingDate !== today) { state.breakingDate = today; state.breakingCount = 0; }
+  const inBreakingPriorityWindow = jstHour >= BREAKING_PRIORITY_HOUR_START && jstHour <= BREAKING_PRIORITY_HOUR_END;
+  const breakingIntervalMs = inBreakingPriorityWindow ? BREAKING_PRIORITY_INTERVAL_MS : BREAKING_CHECK_INTERVAL_MS;
   const breakingOk = BREAKING_ENABLED && jstHour >= 7 && jstHour <= 23
-    && (now - (state.lastBreakingCheck || 0)) >= BREAKING_CHECK_INTERVAL_MS
+    && (now - (state.lastBreakingCheck || 0)) >= breakingIntervalMs
     && state.breakingCount < BREAKING_MAX_PER_DAY
     && (DRY_RUN || spacingOk(state, now)); // 直前にスロット投稿等があった場合は間隔を優先しスキップ（次回に再試行）
   if (breakingOk && !process.env.MOCK_QUIZ_JSON) { // MOCKテスト時はスロット側のみ検証
