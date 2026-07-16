@@ -1,6 +1,6 @@
 // Service Worker — PWAインストール要件＋オフラインキャッシュ
-const CACHE = 'quizbot-v2';
-const ASSETS = ['./index.html', './manifest.json', './icon-192.png', './icon-512.png'];
+const CACHE = 'quizbot-v3';
+const ASSETS = ['./index.html', './manufacturing.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));

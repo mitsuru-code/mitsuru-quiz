@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+<title>出勤時間判断システム</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="出勤時間">
+<meta name="theme-color" content="#0d1117">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b27;
+    --card: #1d2433;
+    --border: #2c3548;
+    --accent: #f59e0b;
+    --accent2: #38bdf8;
+    --text: #e6e9f0;
+    --muted: #7d8aa3;
+    --danger: #f87171;
+    --success: #4ade80;
+    --radius: 16px;
+    --radius-sm: 10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'Helvetica Neue', 'Hiragino Sans', sans-serif;
+    min-height: 100vh; padding-bottom: 40px;
+  }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 16px;
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .logo {
+    width: 34px; height: 34px; border-radius: 9px;
+    background: linear-gradient(135deg, var(--accent), #f97316);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 17px; flex-shrink: 0;
+  }
+  header h1 { font-size: 16px; font-weight: 700; }
+  header small { font-size: 10px; color: var(--muted); display: block; }
+  .header-link {
+    margin-left: auto;
+    font-size: 11px; color: var(--muted);
+    text-decoration: none;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 7px 10px;
+    flex-shrink: 0;
+  }
+
+  main { padding: 14px; max-width: 640px; margin: 0 auto; }
+
+  .card {
+    background: var(--card);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    padding: 16px;
+    margin-bottom: 14px;
+  }
+  .card h2 {
+    font-size: 13px; font-weight: 700;
+    margin-bottom: 12px;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .card h2 .count {
+    background: var(--accent);
+    color: #000; font-size: 11px;
+    padding: 1px 8px; border-radius: 10px;
+    margin-left: 4px;
+  }
+
+  .btn {
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    font-size: 13px; font-weight: 700;
+    cursor: pointer; border: none;
+    font-family: inherit;
+    transition: transform 0.1s;
+    display: flex; align-items: center; gap: 5px;
+  }
+  .btn:active { transform: scale(0.96); }
+  .btn-copy { background: var(--accent2); color: #082f49; flex: 1; justify-content: center; }
+  .btn-reject { background: rgba(248,113,113,0.15); color: var(--danger); border: 1px solid rgba(248,113,113,0.3); }
+  .btn-ghost { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+  .btn-save {
+    width: 100%; padding: 13px;
+    background: linear-gradient(135deg, var(--accent), #f97316);
+    color: #1a1000; font-size: 14px;
+    justify-content: center;
+    border-radius: var(--radius-sm);
+  }
+
+  .empty {
+    text-align: center; padding: 28px 16px;
+    color: var(--muted); font-size: 13px; line-height: 1.7;
+  }
+  .empty .icon { font-size: 36px; display: block; margin-bottom: 8px; }
+
+  .toast {
+    position: fixed; bottom: 24px; left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 10px 20px;
+    font-size: 13px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    z-index: 1000; opacity: 0;
+    transition: all 0.3s;
+    max-width: 90vw;
+    text-align: center;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  .info-note {
+    font-size: 11px; color: var(--muted);
+    background: rgba(245,158,11,0.06);
+    border: 1px solid rgba(245,158,11,0.2);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    line-height: 1.6;
+    margin-bottom: 14px;
+  }
+
+  /* 入力フォーム */
+  .field-label {
+    font-size: 11px; color: var(--muted); font-weight: 700;
+    display: block; margin-bottom: 5px;
+  }
+  .field {
+    width: 100%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    font-size: 15px;
+    padding: 11px;
+    font-family: inherit;
+    margin-bottom: 12px;
+    color-scheme: dark;
+  }
+  .field:focus { outline: none; border-color: var(--accent); }
+  .field-grid { display: flex; gap: 10px; }
+  .field-grid > div { flex: 1; min-width: 0; }
+
+  /* 不確定項目 */
+  .factor-row {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    margin-bottom: 8px;
+  }
+  .factor-row input[type="checkbox"] {
+    width: 20px; height: 20px; accent-color: var(--accent); flex-shrink: 0;
+  }
+  .factor-row .f-name { flex: 1; font-size: 13px; word-break: break-all; }
+  .factor-row .f-btn {
+    background: none; border: none; cursor: pointer;
+    font-size: 14px; padding: 4px; color: var(--muted); flex-shrink: 0;
+  }
+  .factor-add { display: flex; gap: 8px; margin-top: 4px; }
+  .factor-add input { flex: 1; margin-bottom: 0; }
+  .factor-add .btn { flex-shrink: 0; }
+
+  /* 類似日 */
+  .similar-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent2);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  .similar-item .s-date { font-size: 11px; color: var(--accent2); font-weight: 700; margin-bottom: 4px; }
+  .similar-item .s-cond { font-size: 12px; color: var(--muted); line-height: 1.6; }
+  .similar-item .s-time {
+    font-size: 22px; font-weight: 700; color: var(--accent);
+    font-family: 'Helvetica Neue', monospace;
+    margin-top: 4px;
+  }
+  .similar-item .s-time small { font-size: 11px; color: var(--muted); font-weight: 400; }
+
+  /* 記録一覧 */
+  .record-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-sm);
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  .record-head { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+  .record-head .r-date { font-size: 12px; font-weight: 700; color: var(--text); }
+  .record-head .r-time { font-size: 16px; font-weight: 700; color: var(--accent); margin-left: auto; }
+  .record-cond { font-size: 12px; color: var(--muted); line-height: 1.7; margin-bottom: 8px; word-break: break-all; }
+  .record-actions { display: flex; gap: 8px; }
+  .record-actions .btn { padding: 7px 12px; font-size: 12px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🏭</div>
+  <div>
+    <h1>出勤時間判断システム</h1>
+    <small>毎日の判断をデータとして蓄積</small>
+  </div>
+  <a class="header-link" href="index.html">🧠 クイズBot</a>
+</header>
+
+<main>
+
+<!-- 今日の判断を記録 -->
+<div class="card">
+  <h2>📝 今日の判断を記録</h2>
+  <div class="info-note">
+    製造数と人員、気になる不確定項目をもとに<strong>決めた出勤時間</strong>を記録します。下の「過去の類似日」を参考にできます。
+  </div>
+
+  <label class="field-label" for="in-date">日付</label>
+  <input class="field" type="date" id="in-date">
+
+  <div class="field-grid">
+    <div>
+      <label class="field-label" for="in-qty">製造数（個）</label>
+      <input class="field" type="number" id="in-qty" min="1" inputmode="numeric" placeholder="例: 500" oninput="renderSimilar()">
+    </div>
+    <div>
+      <label class="field-label" for="in-workers">人員（人）</label>
+      <input class="field" type="number" id="in-workers" min="1" inputmode="numeric" placeholder="例: 4" oninput="renderSimilar()">
+    </div>
+  </div>
+
+  <label class="field-label">不確定項目（当てはまるものにチェック）</label>
+  <div id="factor-list"></div>
+  <div class="factor-add">
+    <input class="field" type="text" id="factor-name" placeholder="項目を追加（例: 新人がいる）">
+    <button class="btn btn-copy" id="factor-add-btn" onclick="saveFactor()">＋ 追加</button>
+  </div>
+  <div style="height:12px"></div>
+
+  <label class="field-label" for="in-time">決めた出勤時間</label>
+  <input class="field" type="time" id="in-time">
+
+  <label class="field-label" for="in-memo">メモ（任意）</label>
+  <input class="field" type="text" id="in-memo" placeholder="例: 納品前倒しのため早め">
+
+  <button class="btn btn-save" onclick="saveRecord()">💾 記録する</button>
+  <button class="btn btn-ghost" id="cancel-edit-btn" onclick="cancelEdit()" style="display:none;width:100%;margin-top:8px;justify-content:center">✖ 修正をやめる</button>
+</div>
+
+<!-- 過去の類似日 -->
+<div class="card">
+  <h2>🔍 過去の類似日（参考）</h2>
+  <div id="similar-list"><div class="empty"><span class="icon">📊</span>製造数と人員を入力すると<br>条件が近い過去の記録を表示します</div></div>
+</div>
+
+<!-- 記録一覧 -->
+<div class="card">
+  <h2>📜 記録一覧 <span class="count" id="record-count">0</span></h2>
+  <button class="btn btn-copy" style="width:100%;margin-bottom:12px" onclick="exportCsv()">⬇️ CSV出力（Excel分析用）</button>
+  <div id="record-list"></div>
+</div>
+
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ===== State =====
+const STORE_KEY = 'shukkin_state';
+const DEFAULT_FACTORS = ['新人がいる', '機械の調子が悪い', '材料到着遅延の可能性'];
+
+let state;
+try {
+  state = JSON.parse(localStorage.getItem(STORE_KEY) || '{}');
+} catch (e) {
+  state = {};
+}
+if (!Array.isArray(state.factors)) {
+  state.factors = DEFAULT_FACTORS.map((name, i) => ({ id: Date.now() + i, name }));
+}
+if (!Array.isArray(state.records)) state.records = [];
+
+let editingRecordId = null;  // 記録一覧から✏️で読み込んだ記録のID
+let editingFactorId = null;  // 不確定項目の✏️編集中ID
+const checkedFactors = new Set();  // 入力中にチェックされている項目名
+
+function persist() {
+  localStorage.setItem(STORE_KEY, JSON.stringify({ factors: state.factors, records: state.records }));
+}
+
+// ===== Helpers =====
+function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function escAttr(s) { return esc(s).replace(/"/g,'&quot;'); }
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3500);
+}
+
+function todayStr() {
+  const d = new Date();
+  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
+}
+
+function fmtDate(dateStr) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const wd = ['日','月','火','水','木','金','土'][new Date(y, m-1, d).getDay()];
+  return `${y}/${m}/${d}(${wd})`;
+}
+
+// ===== 不確定項目 =====
+function renderFactors() {
+  const el = document.getElementById('factor-list');
+  if (!state.factors.length) {
+    el.innerHTML = '<div style="font-size:12px;color:var(--muted);padding:6px 0 10px">項目がありません。下から追加してください。</div>';
+    return;
+  }
+  el.innerHTML = state.factors.map(f => `
+    <div class="factor-row">
+      <input type="checkbox" id="fc-${f.id}" ${checkedFactors.has(f.name) ? 'checked' : ''} onchange="toggleFactor(${f.id}, this.checked)">
+      <label class="f-name" for="fc-${f.id}">${esc(f.name)}</label>
+      <button class="f-btn" onclick="editFactor(${f.id})" title="編集">✏️</button>
+      <button class="f-btn" onclick="deleteFactor(${f.id})" title="削除">🗑</button>
+    </div>`).join('');
+}
+
+function toggleFactor(id, checked) {
+  const f = state.factors.find(x => x.id === id);
+  if (!f) return;
+  if (checked) checkedFactors.add(f.name); else checkedFactors.delete(f.name);
+}
+
+function saveFactor() {
+  const input = document.getElementById('factor-name');
+  const name = input.value.trim();
+  if (!name) { showToast('⚠️ 項目名を入力してください'); return; }
+  const dup = state.factors.find(f => f.name === name && f.id !== editingFactorId);
+  if (dup) { showToast('⚠️ 同じ名前の項目があります'); return; }
+
+  if (editingFactorId !== null) {
+    const f = state.factors.find(x => x.id === editingFactorId);
+    if (f) {
+      if (checkedFactors.has(f.name)) { checkedFactors.delete(f.name); checkedFactors.add(name); }
+      f.name = name;
+    }
+    editingFactorId = null;
+    document.getElementById('factor-add-btn').innerHTML = '＋ 追加';
+    showToast('✏️ 項目を更新しました');
+  } else {
+    state.factors.push({ id: Date.now(), name });
+    showToast('✅ 項目を追加しました');
+  }
+  input.value = '';
+  persist();
+  renderFactors();
+}
+
+function editFactor(id) {
+  const f = state.factors.find(x => x.id === id);
+  if (!f) return;
+  editingFactorId = id;
+  const input = document.getElementById('factor-name');
+  input.value = f.name;
+  input.focus();
+  document.getElementById('factor-add-btn').innerHTML = '✏️ 更新';
+}
+
+function deleteFactor(id) {
+  const f = state.factors.find(x => x.id === id);
+  if (!f) return;
+  if (!confirm(`「${f.name}」を削除しますか？（過去の記録には影響しません）`)) return;
+  state.factors = state.factors.filter(x => x.id !== id);
+  checkedFactors.delete(f.name);
+  if (editingFactorId === id) {
+    editingFactorId = null;
+    document.getElementById('factor-name').value = '';
+    document.getElementById('factor-add-btn').innerHTML = '＋ 追加';
+  }
+  persist();
+  renderFactors();
+  showToast('🗑 項目を削除しました');
+}
+
+// ===== 記録の保存・編集・削除 =====
+function saveRecord() {
+  const date = document.getElementById('in-date').value;
+  const qty = parseInt(document.getElementById('in-qty').value, 10);
+  const workers = parseInt(document.getElementById('in-workers').value, 10);
+  const time = document.getElementById('in-time').value;
+  const memo = document.getElementById('in-memo').value.trim();
+
+  if (!date) { showToast('⚠️ 日付を入力してください'); return; }
+  if (!qty || qty < 1) { showToast('⚠️ 製造数を入力してください'); return; }
+  if (!workers || workers < 1) { showToast('⚠️ 人員を入力してください'); return; }
+  if (!time) { showToast('⚠️ 決めた出勤時間を入力してください'); return; }
+
+  const existing = state.records.find(r => r.date === date);
+  if (existing && existing.id !== editingRecordId) {
+    if (!confirm(`${fmtDate(date)} の記録はすでにあります。上書きしますか？`)) return;
+  }
+
+  const now = Date.now();
+  const record = {
+    id: existing ? existing.id : now,
+    date, qty, workers,
+    factors: state.factors.filter(f => checkedFactors.has(f.name)).map(f => f.name),
+    time, memo,
+    createdAt: existing ? existing.createdAt : now,
+    updatedAt: now
+  };
+  // 編集中に日付を変えた場合は元の記録を残さない
+  state.records = state.records.filter(r => r.date !== date && r.id !== editingRecordId);
+  state.records.push(record);
+  state.records.sort((a, b) => b.date.localeCompare(a.date));
+  persist();
+  clearForm();
+  renderRecords();
+  renderSimilar();
+  showToast('💾 記録しました');
+}
+
+function clearForm() {
+  editingRecordId = null;
+  document.getElementById('in-date').value = todayStr();
+  document.getElementById('in-qty').value = '';
+  document.getElementById('in-workers').value = '';
+  document.getElementById('in-time').value = '';
+  document.getElementById('in-memo').value = '';
+  checkedFactors.clear();
+  document.getElementById('cancel-edit-btn').style.display = 'none';
+  renderFactors();
+}
+
+function editRecord(id) {
+  const r = state.records.find(x => x.id === id);
+  if (!r) return;
+  editingRecordId = id;
+  document.getElementById('in-date').value = r.date;
+  document.getElementById('in-qty').value = r.qty;
+  document.getElementById('in-workers').value = r.workers;
+  document.getElementById('in-time').value = r.time;
+  document.getElementById('in-memo').value = r.memo || '';
+  checkedFactors.clear();
+  (r.factors || []).forEach(n => checkedFactors.add(n));
+  document.getElementById('cancel-edit-btn').style.display = 'flex';
+  renderFactors();
+  renderSimilar();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  showToast('✏️ 記録を読み込みました。修正して保存してください');
+}
+
+function cancelEdit() {
+  clearForm();
+  renderSimilar();
+}
+
+function deleteRecord(id) {
+  const r = state.records.find(x => x.id === id);
+  if (!r) return;
+  if (!confirm(`${fmtDate(r.date)} の記録を削除しますか？`)) return;
+  state.records = state.records.filter(x => x.id !== id);
+  if (editingRecordId === id) clearForm();
+  persist();
+  renderRecords();
+  renderSimilar();
+  showToast('🗑 記録を削除しました');
+}
+
+// ===== 過去の類似日 =====
+function renderSimilar() {
+  const el = document.getElementById('similar-list');
+  const qty = parseInt(document.getElementById('in-qty').value, 10);
+  const workers = parseInt(document.getElementById('in-workers').value, 10);
+
+  if (!qty || !workers) {
+    el.innerHTML = '<div class="empty"><span class="icon">📊</span>製造数と人員を入力すると<br>条件が近い過去の記録を表示します</div>';
+    return;
+  }
+  const candidates = state.records.filter(r => r.id !== editingRecordId);
+  if (!candidates.length) {
+    el.innerHTML = '<div class="empty"><span class="icon">🗂</span>まだ記録がありません<br>記録が増えるほど参考になります</div>';
+    return;
+  }
+  const scored = candidates
+    .map(r => ({ r, score: Math.abs(r.qty - qty) / Math.max(qty, 1) + Math.abs(r.workers - workers) * 0.5 }))
+    .sort((a, b) => a.score - b.score || b.r.date.localeCompare(a.r.date))
+    .slice(0, 3);
+
+  el.innerHTML = scored.map(({ r }) => `
+    <div class="similar-item">
+      <div class="s-date">${fmtDate(r.date)}</div>
+      <div class="s-cond">製造数 ${r.qty}個 ／ 人員 ${r.workers}人${(r.factors && r.factors.length) ? '<br>⚠️ ' + r.factors.map(esc).join('、') : ''}${r.memo ? '<br>📝 ' + esc(r.memo) : ''}</div>
+      <div class="s-time">${esc(r.time)} <small>に出勤と判断</small></div>
+    </div>`).join('');
+}
+
+// ===== 記録一覧 =====
+function renderRecords() {
+  const el = document.getElementById('record-list');
+  document.getElementById('record-count').textContent = state.records.length;
+  if (!state.records.length) {
+    el.innerHTML = '<div class="empty"><span class="icon">📜</span>まだ記録がありません<br>今日の判断を記録してみましょう</div>';
+    return;
+  }
+  el.innerHTML = state.records.map(r => `
+    <div class="record-item">
+      <div class="record-head">
+        <span class="r-date">${fmtDate(r.date)}</span>
+        <span class="r-time">${esc(r.time)}</span>
+      </div>
+      <div class="record-cond">製造数 ${r.qty}個 ／ 人員 ${r.workers}人${(r.factors && r.factors.length) ? '<br>⚠️ ' + r.factors.map(esc).join('、') : ''}${r.memo ? '<br>📝 ' + esc(r.memo) : ''}</div>
+      <div class="record-actions">
+        <button class="btn btn-ghost" onclick="editRecord(${r.id})">✏️ 修正</button>
+        <button class="btn btn-reject" onclick="deleteRecord(${r.id})">🗑 削除</button>
+      </div>
+    </div>`).join('');
+}
+
+// ===== CSV出力 =====
+function csvCell(v) {
+  const s = String(v == null ? '' : v);
+  return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+}
+
+function exportCsv() {
+  if (!state.records.length) { showToast('⚠️ 記録がありません'); return; }
+  const header = ['日付', '製造数', '人員', '不確定項目', '出勤時間', 'メモ'];
+  const rows = state.records.map(r => [
+    r.date, r.qty, r.workers, (r.factors || []).join(';'), r.time, r.memo || ''
+  ].map(csvCell).join(','));
+  const csv = '\uFEFF' + header.join(',') + '\r\n' + rows.join('\r\n');
+
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'shukkin_' + todayStr().replace(/-/g, '') + '.csv';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+  showToast('⬇️ CSVを出力しました（' + state.records.length + '件）');
+}
+
+// ===== Init =====
+document.getElementById('in-date').value = todayStr();
+renderFactors();
+renderRecords();
+renderSimilar();
+
+// PWA: Service Worker登録（Web公開時のみ動作）
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+
+</body>
+</html>
