@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2077615259364250098",
+      "answer": "正解は「第5作目」でした！参加してくれてありがとう🐹\n\n山﨑賢人さん主演・佐藤信介監督の『キングダム 魂の決戦』は、2024年公開の『大将軍の帰還』に続くシリーズ第5弾。明日7月17日（金）にIMAXも同時公開です。主題歌は米津玄師さんの「夜鷹」。\n\n🌰豆知識：シリーズ累計動員はすでに1734万人・興行収入245億円超え。今作で描かれる「合従軍編」は、秦20万 対 六国50万という原作屈指の大決戦回です。",
+      "sourceUrl": "https://www.walkerplus.com/article/1399882/",
+      "question": "明日いよいよ公開！映画『キングダム 魂の決戦』はシリーズ第何作目でしょう？\n\n投票で答えてね🐹 正解は2時間後にリプで",
+      "postedAt": 1784177037692,
+      "dueAt": 1784184237692,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "ウォーカープラス「山﨑賢人主演『キングダム 魂の決戦』新章はシリーズ最大の合従軍編！」/ 映画.com",
     "FIFA.com、ESPN、NBC News、Fox Sports、Al Jazeera、CNN、Reuters、Yahoo Sports、NPR、CNBC、Daily Kos、FDD Overnight Brief",
     "NHK、テレ東スポーツ、Olympics.com、NPR、CBS News、Fox News、Wikipedia（2026 Ebola epidemic）、時事通信",
     "毎日新聞（Yahoo!ニュース）「米軍、イラン港湾の封鎖再開 イランへの4日連続の攻撃も始まる」／時事ドットコム「米、対イラン海上封鎖再開へ ホルムズ通過貨物に「対価20％」―3日連続で攻撃」",
     "超WORLDサッカー「【W杯2026】無敵艦隊・スペイン、フランスに完勝で4大会ぶり2度目の決勝へ！37試合無敗の世界記録に並ぶ｜大会31日目結果」",
     "Reuters、CNN、CNBC、NPR、ESPN、Al Jazeera、Yahoo Finance、Fox News Digital、ABC News、Yahoo Sports、The Street、Washington Post",
     "NHK、日本経済新聞、読売新聞、スポーツ報知、デイリースポーツ、ベースボールチャンネル、NPR、CBS News、The Hill、Variety、Al Jazeera、UPI",
-    "Wikipedia「ベネズエラ地震（2026年）」/ NHKニュース「ベネズエラ大地震 死者4500人超に 捜索は難航」（2026年7月14日）",
-    "olympics.com「FIFAワールドカップ2026丨得点ランキング・最新ゴール数・得点王」"
+    "Wikipedia「ベネズエラ地震（2026年）」/ NHKニュース「ベネズエラ大地震 死者4500人超に 捜索は難航」（2026年7月14日）"
   ],
   "recentOpeners": [
+    "明日いよいよ公開！映画『キングダム 魂の決戦』はシリーズ第何作目でしょう？\n\n投",
     "今朝いちばんの話題は、やっぱりW杯🐹 スペインがフランスを完封して決勝進出を決",
     "スペインがフランスを2-0で沈め、W杯決勝へ。朝4時からの一戦、見届けた方はおつ",
     "今日未明、ついに始まった──米軍がイランへの海上封鎖を再開。\n\nさて、封鎖の対象",
-    "眠れない夜だったけど最高の結果🐹 W杯2026準決勝・スペイン対フランス（日本",
-    "おはようございます🐹 寝ている間に、中東の緊張が一気に再燃していました。順を追"
+    "眠れない夜だったけど最高の結果🐹 W杯2026準決勝・スペイン対フランス（日本"
   ],
-  "lastPostedAt": 1784170454495,
+  "lastPostedAt": 1784177037692,
   "recentBreaking": [
     "CARDNET障害・全国クレカ決済停止（7/16）",
     "日本・参院委員会がビットコインETF解禁法案を可決",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 68
+    "posts": 69
   },
   "breakingDate": "2026-07-16",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784170454495,
+  "lastAnyPostAt": 1784177037692,
   "postHistory": [
+    {
+      "tweetId": "2077615259364250098",
+      "kind": "quiz",
+      "category": "エンタメ・映画・二択",
+      "textPreview": "明日いよいよ公開！映画『キングダム 魂の決戦』はシリーズ第何作目でしょう？\n\n投票で答えてね🐹 正解は2時間後にリプで発表！",
+      "postedAt": 1784177037692
+    },
     {
       "tweetId": "2077587699087909356",
       "kind": "feature",
@@ -241,13 +258,7 @@
       "category": "朝ブリーフィング",
       "textPreview": "☀️ おはようございます！昨夜〜今朝、寝ている間に世界で起きた20の出来事を一問一答でサクっとおさらい。今日の雑談・商談のネタにどうぞ🐹\n\n─────────",
       "postedAt": 1783809982107
-    },
-    {
-      "tweetId": "2076067347228688498",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "情報が揃いました。投稿を組み立てます。\n\n---\n\n☀️ おはようございます！寝ている間に世界で起きたこと、20問でおさらい🐹\n各問はQ→Aの順で読むだけ。今",
-      "postedAt": 1783807921742
     }
-  ]
+  ],
+  "breakingFollowUps": []
 }
