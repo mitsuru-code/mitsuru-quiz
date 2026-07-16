@@ -475,6 +475,31 @@ ${recentBreaking ? `【既に投稿済みの速報（同じ話題は不可）】
   return callClaude(prompt, 1000, 4);
 }
 
+// ===== 生成: 手動指定の速報（BREAKING_TOPIC指定時のみ） =====
+async function generateManualBreaking(state, topic) {
+  const recentBreaking = (state.recentBreaking || []).join(' / ');
+  const prompt = `${CHARACTER}
+
+Web検索で「${topic}」について詳しく調べてください。関連する複数の報道・一次情報を集め、正確な事実関係を把握してください。
+
+それを元に、この話題を伝える速報ポストを1本作ってください:
+- 冒頭は「🚨 速報」または「📈 いま話題」から始める
+- 何が起きたかを3〜5行で簡潔に。数字や固有名詞は正確に
+- 最後に「（出典: メディア名）」
+- 全体で200文字以内
+
+${recentBreaking ? `【既に投稿済みの速報（同じ話題は不可）】: ${recentBreaking}` : ''}
+
+以下のJSON形式のみで返答してください:
+{
+  "breaking": true,
+  "text": "速報ポストの全文",
+  "headline": "話題の見出し（重複チェック用の短い要約）",
+  "source": "出典メディア名"
+}`;
+  return callClaude(prompt, 1000, 5);
+}
+
 // ===== 状態管理 =====
 function loadState() {
   try {
@@ -603,6 +628,42 @@ async function main() {
       state.lastPostedAt = now;
       countPost(state, now);
       recordPost(state, { tweetId, kind: 'feature', category: feature.category || FEATURE_TOPIC, textPreview: feature.text, postedAt: now });
+      saveState(state);
+      console.log('💾 state.json を更新しました');
+    }
+    return;
+  }
+
+  // 手動指定の速報モード: BREAKING_TOPIC が指定された時だけ、その話題の速報を1本投稿する（保守用）
+  const BREAKING_TOPIC = (process.env.BREAKING_TOPIC || '').trim();
+  if (BREAKING_TOPIC) {
+    const today0 = jstDateKey(now);
+    if (state.breakingDate !== today0) { state.breakingDate = today0; state.breakingCount = 0; }
+    if (!DRY_RUN && !canPost(state, now)) {
+      console.log('⚠️ 月間投稿上限に達したため速報の投稿を見送ります');
+      return;
+    }
+    if (!DRY_RUN && state.breakingCount >= BREAKING_MAX_PER_DAY) {
+      console.log('⚠️ 本日の速報投稿上限（1日2回）に達しているため見送ります');
+      return;
+    }
+    if (!DRY_RUN && !spacingOk(state, now)) {
+      console.log('⏳ 前回の投稿から30分経っていないため速報の投稿を見送ります');
+      return;
+    }
+    const b = await generateManualBreaking(state, BREAKING_TOPIC);
+    if (!b.text) throw new Error('生成結果に text がありません');
+    console.log(`🧠 生成した速報（${b.text.length}文字）:\n${b.text}\n`);
+    if (DRY_RUN) {
+      console.log(`🧪 [DRY_RUN] 投稿はスキップします`);
+    } else {
+      const tweetId = await postTweet(b.text, null);
+      console.log(`🐦 速報を投稿しました（tweet: ${tweetId}）`);
+      state.recentBreaking = [b.headline, ...state.recentBreaking].filter(Boolean).slice(0, 10);
+      state.breakingCount++;
+      state.lastPostedAt = now;
+      countPost(state, now);
+      recordPost(state, { tweetId, kind: 'breaking', category: b.headline, textPreview: b.text, postedAt: now });
       saveState(state);
       console.log('💾 state.json を更新しました');
     }
