@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2078031078338773395",
+      "answer": "正解は「40年」でした！投票してくれた方、ありがとうございます🐹\n\n現行は果樹30年・その他農産物25年でしたが、改正種苗法が今日（7月17日）の参院本会議で成立し、それぞれ10年延長されます。品種登録の審査中（3〜6年かかる）に起きる流出も、出願段階から差し止め可能になりました。\n\n🌰豆知識：シャインマスカットは山梨県が1988年から育種を始め、2006年に品種登録。中国・韓国などへの流出で年200億円弱の損失が出ていると試算されています。",
+      "sourceUrl": "https://www.chunichi.co.jp/article/1282502",
+      "question": "シャインマスカットが年200億円近く流出中…🐹\n\n本日成立した改正種苗法。農産物の新品種を守る「育成者権」の適用期間が",
+      "postedAt": 1784276168785,
+      "dueAt": 1784283368785,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "中日新聞「改正種苗法が成立、海外流出防止 農産物、品種登録前の輸出規制」",
     "J-CASTニュース「『めっちゃ大野くんじゃん』大野智の個人サロン『さと島』、会費設定にまさかのこだわり？」",
     "piyolog「サイバー攻撃によるニチレイグループのシステム障害についてまとめてみた」",
     "CNN、NPR、Reuters、Bloomberg、CNBC、AP、France24、ESPN、Yahoo Sports、Fox Sports、Xinhua、ABC News、TheStreet、CBS News、WORLD Radio、Washington Post",
     "NHK、時事通信、ITmedia NEWS、EnterpriseZine、久兵衛の暮らしのニュース、ビットタイムズ、CoinPost、NADA NEWS、テレ東スポーツ、東京新聞、Web東奥（共同通信）、ABEMA TIMES、日本経済新聞",
     "株探ニュース・BigGoファイナンス「東京株式（大引け）＝１９１５円安、１週間ぶり６万７０００円割れ」",
     "ウォーカープラス「山﨑賢人主演『キングダム 魂の決戦』新章はシリーズ最大の合従軍編！」/ 映画.com",
-    "FIFA.com、ESPN、NBC News、Fox Sports、Al Jazeera、CNN、Reuters、Yahoo Sports、NPR、CNBC、Daily Kos、FDD Overnight Brief",
-    "NHK、テレ東スポーツ、Olympics.com、NPR、CBS News、Fox News、Wikipedia（2026 Ebola epidemic）、時事通信"
+    "FIFA.com、ESPN、NBC News、Fox Sports、Al Jazeera、CNN、Reuters、Yahoo Sports、NPR、CNBC、Daily Kos、FDD Overnight Brief"
   ],
   "recentOpeners": [
+    "シャインマスカットが年200億円近く流出中…🐹\n\n本日成立した改正種苗法。農産",
     "嵐・大野智が7月15日にオープンした個人サロン「さと島」。入会した会員の呼び名は",
     "ニチレイへのサイバー攻撃、KFCやくら寿司にまで波及して話題に🐹\n\nニチレイが",
     "ホルムズ海峡で米軍が連日の攻撃を続ける中、W杯はいよいよ決勝カードが決まりました",
-    "利根川進さんの訃報、W杯の大逆転劇、そして朝のクレカ祭り……今日はニュースが盛り",
-    "今日の株式市場、ちょっとした事件でした🐹\n\n7月16日、日経平均株価は大幅に急"
+    "利根川進さんの訃報、W杯の大逆転劇、そして朝のクレカ祭り……今日はニュースが盛り"
   ],
-  "lastPostedAt": 1784271898488,
+  "lastPostedAt": 1784276168785,
   "recentBreaking": [
     "日経平均・一時4130円安で歴代5位の下げ幅・AI半導体株総崩れ",
     "国旗損壊罪法案・参院内閣委で7/16採決提案・本会議成立へ公算",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 83
+    "posts": 84
   },
   "breakingDate": "2026-07-17",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784271898488,
+  "lastAnyPostAt": 1784276168785,
   "postHistory": [
+    {
+      "tweetId": "2078031078338773395",
+      "kind": "quiz",
+      "category": "国内・法律・農業・4択",
+      "textPreview": "シャインマスカットが年200億円近く流出中…🐹\n\n本日成立した改正種苗法。農産物の新品種を守る「育成者権」の適用期間が、果樹で何年になる？\n\n投票で答えてね\ud83d",
+      "postedAt": 1784276168785
+    },
     {
       "tweetId": "2078013125983703415",
       "kind": "breaking",
@@ -241,13 +258,6 @@
       "category": "夜の振り返り",
       "textPreview": "🌙 今日も一日おつかれさまでした。\n今日のニュース、どれだけ覚えてる？20問でおさらいです🐹\n\n─────────────────────\n\nQ1. 選挙期",
       "postedAt": 1783942991057
-    },
-    {
-      "tweetId": "2076586535571349827",
-      "kind": "quiz",
-      "category": "国内政治・4択",
-      "textPreview": "戦後初の大改正が動き出した🐹\n先週（7/10）衆院を通過した皇室典範改正案、今回の改正の「2本柱」はどちらでしょう？\n投票で答えてね🐹 正解は2時間後にリプ",
-      "postedAt": 1783931767825
     }
   ],
   "breakingFollowUps": [],
