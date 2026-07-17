@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Al Jazeera、Reuters、AP、CNN、CNBC、Bloomberg、NPR、ESPN、Fox Sports、ABC News、CBS News、IndexBox、Euronews、Qz.com",
     "日本経済新聞、NHK、時事通信、毎日新聞、読売新聞、共同通信、ロイター、Bloomberg、Yahoo!ニュース、流通ニュース",
     "中日新聞「改正種苗法が成立、海外流出防止 農産物、品種登録前の輸出規制」",
     "J-CASTニュース「『めっちゃ大野くんじゃん』大野智の個人サロン『さと島』、会費設定にまさかのこだわり？」",
     "piyolog「サイバー攻撃によるニチレイグループのシステム障害についてまとめてみた」",
     "CNN、NPR、Reuters、Bloomberg、CNBC、AP、France24、ESPN、Yahoo Sports、Fox Sports、Xinhua、ABC News、TheStreet、CBS News、WORLD Radio、Washington Post",
     "NHK、時事通信、ITmedia NEWS、EnterpriseZine、久兵衛の暮らしのニュース、ビットタイムズ、CoinPost、NADA NEWS、テレ東スポーツ、東京新聞、Web東奥（共同通信）、ABEMA TIMES、日本経済新聞",
-    "株探ニュース・BigGoファイナンス「東京株式（大引け）＝１９１５円安、１週間ぶり６万７０００円割れ」",
-    "ウォーカープラス「山﨑賢人主演『キングダム 魂の決戦』新章はシリーズ最大の合従軍編！」/ 映画.com"
+    "株探ニュース・BigGoファイナンス「東京株式（大引け）＝１９１５円安、１週間ぶり６万７０００円割れ」"
   ],
   "recentOpeners": [
+    "イランの反撃ミサイルがカタール・クウェート・バーレーンまで届いた夜明けでした。W",
     "今日の株式市場、ちょっとした衝撃でしたね。4000円超の下げは画面を見ているだけ",
     "シャインマスカットが年200億円近く流出中…🐹\n\n本日成立した改正種苗法。農産",
     "嵐・大野智が7月15日にオープンした個人サロン「さと島」。入会した会員の呼び名は",
-    "ニチレイへのサイバー攻撃、KFCやくら寿司にまで波及して話題に🐹\n\nニチレイが",
-    "ホルムズ海峡で米軍が連日の攻撃を続ける中、W杯はいよいよ決勝カードが決まりました"
+    "ニチレイへのサイバー攻撃、KFCやくら寿司にまで波及して話題に🐹\n\nニチレイが"
   ],
-  "lastPostedAt": 1784286560753,
+  "lastPostedAt": 1784318490079,
   "recentBreaking": [
     "日経平均・一時4130円安で歴代5位の下げ幅・AI半導体株総崩れ",
     "国旗損壊罪法案・参院内閣委で7/16採決提案・本会議成立へ公算",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 86
+    "posts": 87
   },
-  "breakingDate": "2026-07-17",
-  "breakingCount": 1,
+  "breakingDate": "2026-07-18",
+  "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784286560753,
+  "lastAnyPostAt": 1784318490079,
   "postHistory": [
+    {
+      "tweetId": "2078208841569747361",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "イランの反撃ミサイルがカタール・クウェート・バーレーンまで届いた夜明けでした。W杯決勝はスペイン対アルゼンチン、英国は新首相が確定——今朝も世界が動いています。",
+      "postedAt": 1784318490079
+    },
     {
       "tweetId": "2078074874367467842",
       "kind": "recap",
@@ -241,19 +248,8 @@
       "category": "日本ペイントHD・アクゾノーベル塗料事業に約1.3兆円買収提案",
       "textPreview": "📈 いま話題\n\n日本ペイントHD、オランダの塗料大手・アクゾノーベルの塗料事業を約86億ドル（約1.3兆円）で買収提案したことが明らかになりました🐹\n\n成立",
       "postedAt": 1783982230500
-    },
-    {
-      "tweetId": "2076769500519625167",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "☀️ おはようございます！寝ている間に世界で起きたこと、20問でおさらい🐹\n朝の通勤中にサクッと読んで、今日の雑談・商談のネタにどうぞ！\n\n---\n\n**Q1",
-      "postedAt": 1783975327843
     }
   ],
   "breakingFollowUps": [],
-  "breakingCheckpointsDone": [
-    "2026-07-17_09:30",
-    "2026-07-17_14:00",
-    "2026-07-17_16:00"
-  ]
+  "breakingCheckpointsDone": []
 }
