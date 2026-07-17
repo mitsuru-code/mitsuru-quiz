@@ -1,0 +1,15 @@
+{
+  "name": "第二の甲斐 充",
+  "short_name": "甲斐充AI",
+  "description": "メモ・壁打ちができるデジタル分身AI（データは端末内のみ）",
+  "id": "/mitsuru-ai",
+  "start_url": "./mitsuru-ai.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

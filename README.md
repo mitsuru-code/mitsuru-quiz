@@ -142,4 +142,6 @@ Xアプリで投稿（共有モーダルからコピー / X起動）
 | `sw.js` | Service Worker。PWAインストール要件とオフラインキャッシュ（api.anthropic.com は常にネットワーク直行） |
 | `manifest.json` | PWAマニフェスト（アプリ名・アイコン・縦画面固定） |
 | `icon-192.png` / `icon-512.png` | ホーム画面アイコン |
+| `mitsuru-ai.html` / `mitsuru-ai-manifest.json` | 「第二の甲斐 充」— メモ・壁打ちができる分身AI（クイズBotとは独立の別PWA。データは端末内のみ）→ [docs/second-mitsuru.md](docs/second-mitsuru.md) |
+| `persona-starter/` | 分身AIのClaude Code版スターターキット（privateリポジ用テンプレート） |
 | `docs/` | 詳細ガイド（上記） |
