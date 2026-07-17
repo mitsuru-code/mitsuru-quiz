@@ -190,9 +190,17 @@
     </div>
     <div class="hint" id="mic-status" style="display:none;margin-top:8px"></div>
   </div>
+  <div class="card">
+    <h2>🎙️ 録音の文字起こしを貼り付け</h2>
+    <div class="hint" style="margin-bottom:8px">Google Recorder・Gboardの音声入力など、他アプリで録音・文字起こしした結果をここに貼り付けると、AIが要約してメモに取り込めます。</div>
+    <textarea id="paste-transcript" placeholder="文字起こし結果をここに貼り付け"></textarea>
+    <div class="btn-row">
+      <button class="btn secondary" onclick="summarizePastedTranscript()">🤖 要約する</button>
+    </div>
+  </div>
   <div class="card" id="mic-confirm-card" style="display:none">
-    <h2>🎤 音声入力の結果</h2>
-    <div class="hint" style="margin-bottom:8px">話した内容をAIが要約しました。内容を確認・編集してから保存するかどうか決めてください。</div>
+    <h2 id="mic-confirm-title">🎤 音声入力の結果</h2>
+    <div class="hint" style="margin-bottom:8px">内容をAIが要約しました。確認・編集してから保存するかどうか決めてください。</div>
     <textarea id="mic-summary"></textarea>
     <div class="btn-row">
       <button class="btn" style="flex:1;justify-content:center" onclick="confirmDictationSave()">💾 メモとして保存</button>
@@ -577,22 +585,26 @@ function updateMicUI() {
   if (dictating) status.textContent = '🔴 聞き取り中…話し終えたら停止を押してください';
 }
 
-async function summarizeDictation(rawText) {
+async function summarizeDictation(rawText, opts) {
+  const title = (opts && opts.title) || '🎤 音声入力の結果';
+  document.getElementById('mic-confirm-title').textContent = title;
   const card = document.getElementById('mic-confirm-card');
   const summaryEl = document.getElementById('mic-summary');
   if (!requireKey()) {
     // キー未設定でも文字起こし自体は失わない（要約なしでそのまま確認画面へ）
     summaryEl.value = rawText;
     card.style.display = '';
+    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     return;
   }
   card.style.display = '';
+  card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   summaryEl.value = '（要約中…）';
   try {
     const text = await callClaude({
       maxTokens: 500,
       messages: [{ role: 'user', content:
-`以下は音声入力で文字起こしされたメモの生テキストです。フィラー（「えーと」等）や言い直しを整理し、
+`以下は音声を文字起こしした生テキストです。フィラー（「えーと」等）や言い直しを整理し、
 本人の言い回しはできるだけ残しつつ、自然な文章のメモとして書き直してください。要約しすぎず、内容は保つこと。
 
 ${rawText}` }],
@@ -602,6 +614,14 @@ ${rawText}` }],
     summaryEl.value = rawText;
     showToast('⚠️ 要約に失敗したため、文字起こしそのままを表示しています: ' + err.message);
   }
+}
+
+function summarizePastedTranscript() {
+  const el = document.getElementById('paste-transcript');
+  const text = el.value.trim();
+  if (!text) { showToast('❌ 文字起こし結果が空です'); return; }
+  el.value = '';
+  summarizeDictation(text, { title: '🎙️ 貼り付けた文字起こしの結果' });
 }
 
 function confirmDictationSave() {
