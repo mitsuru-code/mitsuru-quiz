@@ -95,6 +95,8 @@
   }
   .btn.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
   .btn.danger { background: none; color: var(--danger); border: 1px solid var(--danger); }
+  .btn.recording { background: var(--danger); color: #fff; border-color: var(--danger); animation: mic-pulse 1.2s infinite; }
+  @keyframes mic-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
   .btn:disabled { opacity: 0.45; cursor: default; }
   .btn-row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
   .btn-sm { padding: 5px 10px; font-size: 11px; border-radius: 8px; }
@@ -183,7 +185,18 @@
     <h2>📝 いまのメモ</h2>
     <textarea id="memo-input" placeholder="思いついたことをそのまま書く（オフラインでも保存できます）"></textarea>
     <div class="btn-row">
+      <button class="btn secondary" id="btn-mic" onclick="toggleDictation()">🎤 音声入力</button>
       <button class="btn" style="flex:1;justify-content:center" onclick="saveMemo()">💾 保存</button>
+    </div>
+    <div class="hint" id="mic-status" style="display:none;margin-top:8px"></div>
+  </div>
+  <div class="card" id="mic-confirm-card" style="display:none">
+    <h2>🎤 音声入力の結果</h2>
+    <div class="hint" style="margin-bottom:8px">話した内容をAIが要約しました。内容を確認・編集してから保存するかどうか決めてください。</div>
+    <textarea id="mic-summary"></textarea>
+    <div class="btn-row">
+      <button class="btn" style="flex:1;justify-content:center" onclick="confirmDictationSave()">💾 メモとして保存</button>
+      <button class="btn secondary" onclick="cancelDictationResult()">キャンセル</button>
     </div>
   </div>
   <div class="card">
@@ -505,6 +518,104 @@ function importPersonaMd() {
   persist(); renderPersonaTab(); renderCoverage(); updateChatGuide();
   document.getElementById('persona-paste').value = '';
   showToast(`📥 ${hit}セクションを取り込みました`);
+}
+
+// ===== 音声入力（文字起こし→要約→確認して保存） =====
+let recognition = null;
+let dictating = false;
+
+function supportsDictation() {
+  return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+}
+
+function toggleDictation() {
+  if (dictating) { recognition && recognition.stop(); return; }
+  if (!supportsDictation()) { showToast('❌ この端末・ブラウザは音声入力に対応していません'); return; }
+
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  recognition = new SR();
+  recognition.lang = 'ja-JP';
+  recognition.interimResults = true;
+  recognition.continuous = true;
+
+  let finalText = '';
+  const statusEl = document.getElementById('mic-status');
+
+  recognition.onresult = (e) => {
+    let interim = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const t = e.results[i][0].transcript;
+      if (e.results[i].isFinal) finalText += t;
+      else interim += t;
+    }
+    statusEl.textContent = `🔴 聞き取り中… ${(finalText + interim).slice(-80)}`;
+  };
+  recognition.onerror = (e) => {
+    if (e.error !== 'no-speech' && e.error !== 'aborted') showToast('❌ 音声入力エラー: ' + e.error);
+  };
+  recognition.onend = () => {
+    dictating = false;
+    updateMicUI();
+    if (finalText.trim()) summarizeDictation(finalText.trim());
+  };
+
+  try {
+    recognition.start();
+    dictating = true;
+    updateMicUI();
+  } catch (e) {
+    showToast('❌ 音声入力を開始できませんでした');
+  }
+}
+
+function updateMicUI() {
+  const btn = document.getElementById('btn-mic');
+  const status = document.getElementById('mic-status');
+  btn.classList.toggle('recording', dictating);
+  btn.textContent = dictating ? '⏹ 停止' : '🎤 音声入力';
+  status.style.display = dictating ? '' : 'none';
+  if (dictating) status.textContent = '🔴 聞き取り中…話し終えたら停止を押してください';
+}
+
+async function summarizeDictation(rawText) {
+  const card = document.getElementById('mic-confirm-card');
+  const summaryEl = document.getElementById('mic-summary');
+  if (!requireKey()) {
+    // キー未設定でも文字起こし自体は失わない（要約なしでそのまま確認画面へ）
+    summaryEl.value = rawText;
+    card.style.display = '';
+    return;
+  }
+  card.style.display = '';
+  summaryEl.value = '（要約中…）';
+  try {
+    const text = await callClaude({
+      maxTokens: 500,
+      messages: [{ role: 'user', content:
+`以下は音声入力で文字起こしされたメモの生テキストです。フィラー（「えーと」等）や言い直しを整理し、
+本人の言い回しはできるだけ残しつつ、自然な文章のメモとして書き直してください。要約しすぎず、内容は保つこと。
+
+${rawText}` }],
+    });
+    summaryEl.value = text.trim();
+  } catch (err) {
+    summaryEl.value = rawText;
+    showToast('⚠️ 要約に失敗したため、文字起こしそのままを表示しています: ' + err.message);
+  }
+}
+
+function confirmDictationSave() {
+  const text = document.getElementById('mic-summary').value.trim();
+  if (!text) { showToast('❌ 内容が空です'); return; }
+  state.memos.unshift({ id: Date.now(), text, ts: Date.now() });
+  persist(); renderMemos();
+  cancelDictationResult();
+  showToast('💾 メモとして保存しました');
+}
+
+function cancelDictationResult() {
+  document.getElementById('mic-confirm-card').style.display = 'none';
+  document.getElementById('mic-summary').value = '';
 }
 
 // ===== メモ =====
