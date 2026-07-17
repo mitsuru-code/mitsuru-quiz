@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+<title>第二の甲斐 充</title>
+<!-- ホーム画面追加でアプリ化（PWA・クイズBotとは別アプリ） -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="甲斐充AI">
+<meta name="theme-color" content="#0d1117">
+<link rel="manifest" href="mitsuru-ai-manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+  :root {
+    --bg: #0d1117;
+    --surface: #161b27;
+    --card: #1d2433;
+    --border: #2c3548;
+    --accent: #a78bfa;
+    --accent2: #38bdf8;
+    --text: #e6e9f0;
+    --muted: #7d8aa3;
+    --danger: #f87171;
+    --success: #4ade80;
+    --radius: 16px;
+    --radius-sm: 10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'Helvetica Neue', 'Hiragino Sans', sans-serif;
+    min-height: 100vh; padding-bottom: 40px;
+  }
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 16px;
+    position: sticky; top: 0; z-index: 100;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .logo {
+    width: 34px; height: 34px; border-radius: 9px;
+    background: linear-gradient(135deg, var(--accent), #7c3aed);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 17px; flex-shrink: 0;
+  }
+  header h1 { font-size: 16px; font-weight: 700; }
+  header small { font-size: 10px; color: var(--muted); display: block; }
+
+  .tabbar {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    position: sticky; top: 59px; z-index: 99;
+  }
+  .tabbar button {
+    flex: 1; background: none; border: none; color: var(--muted);
+    padding: 10px 0 8px; font-size: 11px; font-weight: 700; cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  .tabbar button .ico { display: block; font-size: 17px; margin-bottom: 2px; }
+  .tabbar button.active { color: var(--text); border-bottom-color: var(--accent); }
+
+  main { padding: 14px; max-width: 640px; margin: 0 auto; }
+  .tab { display: none; }
+  .tab.active { display: block; }
+
+  .card {
+    background: var(--card);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    padding: 16px;
+    margin-bottom: 14px;
+  }
+  .card h2 { font-size: 13px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 6px; }
+  .hint { font-size: 11px; color: var(--muted); line-height: 1.7; }
+
+  textarea, input[type="text"], input[type="password"], select {
+    width: 100%; background: var(--surface); color: var(--text);
+    border: 1px solid var(--border); border-radius: var(--radius-sm);
+    padding: 10px 12px; font-size: 14px; font-family: inherit;
+  }
+  textarea { resize: vertical; min-height: 72px; line-height: 1.6; }
+  textarea:focus, input:focus { outline: none; border-color: var(--accent); }
+
+  .btn {
+    background: var(--accent); color: #0d1117;
+    border: none; border-radius: var(--radius-sm);
+    padding: 10px 16px; font-size: 13px; font-weight: 700;
+    cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+    font-family: inherit;
+  }
+  .btn.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+  .btn.danger { background: none; color: var(--danger); border: 1px solid var(--danger); }
+  .btn:disabled { opacity: 0.45; cursor: default; }
+  .btn-row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .btn-sm { padding: 5px 10px; font-size: 11px; border-radius: 8px; }
+
+  /* メモ */
+  .memo-item {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: 12px; margin-bottom: 10px;
+    border-left: 3px solid var(--accent);
+  }
+  .memo-item .ts { font-size: 10px; color: var(--muted); margin-bottom: 5px; }
+  .memo-item .body { font-size: 13px; line-height: 1.7; white-space: pre-wrap; word-break: break-word; }
+  .memo-actions { display: flex; gap: 6px; margin-top: 8px; }
+  .digest { background: var(--surface); border: 1px dashed var(--accent2); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 12px; font-size: 12px; line-height: 1.8; white-space: pre-wrap; }
+  .digest .ts { color: var(--muted); font-size: 10px; }
+
+  /* チャット */
+  .chat-log { display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px; min-height: 120px; }
+  .bubble {
+    max-width: 86%; padding: 10px 13px; border-radius: 14px;
+    font-size: 13px; line-height: 1.7; white-space: pre-wrap; word-break: break-word;
+  }
+  .bubble.user { align-self: flex-end; background: #1e3a5f; border: 1px solid #2b527f; border-bottom-right-radius: 4px; }
+  .bubble.ai { align-self: flex-start; background: var(--surface); border: 1px solid var(--border); border-bottom-left-radius: 4px; }
+  .bubble .who { font-size: 10px; color: var(--muted); margin-bottom: 3px; }
+  .chat-input-row { display: flex; gap: 8px; align-items: flex-end; }
+  .chat-input-row textarea { flex: 1; min-height: 44px; max-height: 140px; }
+
+  /* インタビュー */
+  .coverage { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .coverage span {
+    font-size: 10px; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 4px 8px; color: var(--muted);
+  }
+  .question-box {
+    background: var(--surface); border: 1px solid var(--accent);
+    border-radius: var(--radius-sm); padding: 14px; margin-bottom: 12px;
+    font-size: 14px; line-height: 1.8; white-space: pre-wrap;
+  }
+
+  /* ペルソナ */
+  .sec-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px; margin-bottom: 10px; }
+  .sec-card h3 { font-size: 12px; margin-bottom: 6px; display: flex; align-items: center; justify-content: space-between; }
+  .sec-card .body { font-size: 12px; line-height: 1.8; color: var(--text); white-space: pre-wrap; word-break: break-word; }
+  .sec-card .body.empty { color: var(--muted); }
+  .stats { display: flex; gap: 14px; font-size: 11px; color: var(--muted); margin-bottom: 12px; flex-wrap: wrap; }
+  .stats b { color: var(--text); }
+
+  .spin { display: inline-block; width: 13px; height: 13px; border: 2px solid rgba(0,0,0,0.25); border-top-color: #0d1117; border-radius: 50%; animation: rot 0.7s linear infinite; }
+  .btn.secondary .spin { border-color: rgba(255,255,255,0.2); border-top-color: var(--text); }
+  @keyframes rot { to { transform: rotate(360deg); } }
+
+  #toast {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px);
+    background: #2b3548; color: var(--text); font-size: 13px;
+    padding: 11px 20px; border-radius: 24px; border: 1px solid var(--border);
+    opacity: 0; transition: all 0.3s; z-index: 999; max-width: 88%;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.45); text-align: center;
+  }
+  #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">👤</div>
+  <div>
+    <h1>第二の甲斐 充</h1>
+    <small>デジタル分身AI・メモ</small>
+  </div>
+</header>
+
+<nav class="tabbar">
+  <button data-tab="memo" class="active"><span class="ico">📝</span>メモ</button>
+  <button data-tab="chat"><span class="ico">💬</span>壁打ち</button>
+  <button data-tab="interview"><span class="ico">🎤</span>取材</button>
+  <button data-tab="persona"><span class="ico">📔</span>人格</button>
+  <button data-tab="settings"><span class="ico">⚙️</span>設定</button>
+</nav>
+
+<main>
+
+<!-- 📝 メモ -->
+<section class="tab active" id="tab-memo">
+  <div class="card">
+    <h2>📝 いまのメモ</h2>
+    <textarea id="memo-input" placeholder="思いついたことをそのまま書く（オフラインでも保存できます）"></textarea>
+    <div class="btn-row">
+      <button class="btn" style="flex:1;justify-content:center" onclick="saveMemo()">💾 保存</button>
+    </div>
+  </div>
+  <div class="card">
+    <h2>🗂 メモ一覧 <span id="memo-count" class="hint"></span></h2>
+    <input type="text" id="memo-search" placeholder="🔍 検索" oninput="renderMemos()" style="margin-bottom:10px">
+    <div id="memo-digest"></div>
+    <div id="memo-list"></div>
+    <div class="btn-row">
+      <button class="btn secondary" id="btn-digest" onclick="digestMemos()">🤖 AIでメモを整理</button>
+    </div>
+  </div>
+</section>
+
+<!-- 💬 壁打ち -->
+<section class="tab" id="tab-chat">
+  <div class="card">
+    <h2>💬 甲斐 充と壁打ち</h2>
+    <div class="hint" id="chat-guide" style="margin-bottom:10px"></div>
+    <div class="chat-log" id="chat-log"></div>
+    <div class="chat-input-row">
+      <textarea id="chat-input" placeholder="考えていることを話しかける"></textarea>
+      <button class="btn" id="btn-send" onclick="sendChat()">送信</button>
+    </div>
+    <div class="btn-row">
+      <button class="btn danger btn-sm" onclick="clearChat()">🗑 会話をクリア</button>
+    </div>
+  </div>
+</section>
+
+<!-- 🎤 インタビュー -->
+<section class="tab" id="tab-interview">
+  <div class="card">
+    <h2>🎤 インタビューで分身を育てる</h2>
+    <div class="hint" style="margin-bottom:10px">AIが質問を1つずつ聞きます。答えるほど人格文書が育ちます。回答は<span id="iv-every"></span>問ごとに自動で人格へ反映されます。</div>
+    <div class="coverage" id="coverage"></div>
+    <div id="iv-question" class="question-box" style="display:none"></div>
+    <textarea id="iv-answer" placeholder="回答を書く" style="display:none"></textarea>
+    <div class="btn-row">
+      <button class="btn" id="btn-iv-start" onclick="nextQuestion()">▶ インタビューを始める</button>
+      <button class="btn" id="btn-iv-send" onclick="sendAnswer()" style="display:none">送信</button>
+      <button class="btn secondary" id="btn-iv-skip" onclick="skipQuestion()" style="display:none">スキップ</button>
+    </div>
+    <div class="btn-row">
+      <button class="btn secondary btn-sm" id="btn-distill" onclick="distill(true)" style="display:none"></button>
+    </div>
+  </div>
+</section>
+
+<!-- 📔 ペルソナ -->
+<section class="tab" id="tab-persona">
+  <div class="card">
+    <h2>📔 人格文書</h2>
+    <div class="stats">
+      <span>総文字数 <b id="ps-chars">0</b></span>
+      <span>反映済み回答 <b id="ps-answers">0</b></span>
+      <span>最終更新 <b id="ps-updated">—</b></span>
+    </div>
+    <div id="persona-sections"></div>
+  </div>
+  <div class="card">
+    <h2>📥 markdown貼り付けインポート</h2>
+    <div class="hint" style="margin-bottom:8px">persona-starter形式（「## 見出し」区切り）の人格文書を貼ると各セクションに取り込みます。</div>
+    <textarea id="persona-paste" placeholder="# 甲斐 充 ペルソナ文書&#10;## 基本プロフィール&#10;…"></textarea>
+    <div class="btn-row">
+      <button class="btn secondary" onclick="importPersonaMd()">取り込む</button>
+    </div>
+  </div>
+</section>
+
+<!-- ⚙️ 設定 -->
+<section class="tab" id="tab-settings">
+  <div class="card">
+    <h2>🔑 APIキー</h2>
+    <div class="hint" id="key-status" style="margin-bottom:8px"></div>
+    <input type="password" id="api-key" placeholder="sk-ant-...">
+    <div class="btn-row">
+      <button class="btn" style="flex:1;justify-content:center" onclick="saveApiKey()">💾 保存</button>
+      <button class="btn danger" onclick="deleteApiKey()">🗑 削除</button>
+    </div>
+    <div class="hint" style="margin-top:8px">🔒 キーはこの端末のブラウザ内にのみ保存されます。外部送信先はAnthropic API（api.anthropic.com）のみです。</div>
+  </div>
+  <div class="card">
+    <h2>⚙️ 動作設定</h2>
+    <label class="hint">何問ごとに回答を人格へ自動反映するか</label>
+    <select id="set-distill" onchange="saveSettings()" style="margin-top:6px">
+      <option value="3">3問ごと</option>
+      <option value="5">5問ごと</option>
+      <option value="8">8問ごと</option>
+    </select>
+  </div>
+  <div class="card">
+    <h2>📦 バックアップ・端末移行</h2>
+    <div class="hint" style="margin-bottom:8px">人格・メモ・会話をJSONで書き出せます（APIキーは含みません）。新しい端末でインポートすれば引き継げます。</div>
+    <div class="btn-row">
+      <button class="btn secondary" onclick="exportState()">⬇️ エクスポート</button>
+      <button class="btn secondary" onclick="copyExport()">📋 コピー</button>
+      <label class="btn secondary" style="cursor:pointer">⬆️ ファイル取込<input type="file" accept=".json,application/json" style="display:none" onchange="importState(this)"></label>
+    </div>
+    <textarea id="import-paste" placeholder="エクスポートJSONを貼り付けてもインポートできます" style="margin-top:10px"></textarea>
+    <div class="btn-row">
+      <button class="btn secondary" onclick="importPaste()">貼り付けから取込</button>
+    </div>
+  </div>
+  <div class="card">
+    <h2>⚠️ 危険な操作</h2>
+    <div class="btn-row">
+      <button class="btn danger" onclick="wipeAll()">🗑 全データ削除</button>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div id="toast"></div>
+
+<script>
+// ===== 状態 =====
+const SECTIONS = [
+  ['basic', '基本プロフィール'],
+  ['values', '価値観'],
+  ['thinking', '考え方・判断基準'],
+  ['speech', '口調・話し方'],
+  ['career', '経歴・仕事'],
+  ['likes', '好き嫌い'],
+  ['episodes', '思い出・エピソード'],
+  ['relationships', '人間関係'],
+  ['outlook', '将来の展望'],
+];
+
+function defaultState() {
+  const sections = {};
+  SECTIONS.forEach(([k]) => sections[k] = '');
+  return {
+    version: 1,
+    persona: { sections, updatedAt: 0, answersCount: 0 },
+    memos: [],                       // {id, text, ts}
+    memoDigest: null,                // {text, ts}
+    interview: { messages: [], asked: [], pendingQA: [] },
+    chat: { messages: [] },
+    settings: { distillEvery: 5 },
+  };
+}
+
+let state = defaultState();
+try {
+  const saved = JSON.parse(localStorage.getItem('mitsuru_ai_state') || 'null');
+  if (saved && saved.persona) {
+    state = { ...defaultState(), ...saved };
+    state.persona = { ...defaultState().persona, ...saved.persona };
+    state.persona.sections = { ...defaultState().persona.sections, ...(saved.persona.sections || {}) };
+    state.interview = { ...defaultState().interview, ...(saved.interview || {}) };
+    state.chat = { ...defaultState().chat, ...(saved.chat || {}) };
+    state.settings = { ...defaultState().settings, ...(saved.settings || {}) };
+  }
+} catch (e) { /* 壊れていたら初期化 */ }
+
+function persist() {
+  state.memos = state.memos.slice(0, 500);
+  state.chat.messages = state.chat.messages.slice(-60);
+  state.interview.messages = state.interview.messages.slice(-40);
+  state.interview.asked = state.interview.asked.slice(-100);
+  try {
+    localStorage.setItem('mitsuru_ai_state', JSON.stringify(state));
+  } catch (e) {
+    showToast('⚠️ 保存容量が足りません。設定からエクスポートして古いデータを整理してください');
+  }
+}
+
+// ===== 共通UI =====
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('show'), 3200);
+}
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function fmtTs(ts) {
+  const d = new Date(ts);
+  return `${d.getFullYear()}/${d.getMonth()+1}/${d.getDate()} ${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+}
+
+document.querySelectorAll('.tabbar button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabbar button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    if (btn.dataset.tab === 'chat') scrollChat();
+  });
+});
+
+function busy(btn, on, label) {
+  if (on) { btn.dataset.label = btn.innerHTML; btn.innerHTML = `<span class="spin"></span> ${label || '処理中…'}`; btn.disabled = true; }
+  else { btn.innerHTML = btn.dataset.label; btn.disabled = false; }
+}
+
+// ===== APIキー =====
+function getApiKey() {
+  return localStorage.getItem('mitsuru_ai_apikey') || localStorage.getItem('quizbot_apikey') || '';
+}
+function saveApiKey() {
+  const key = document.getElementById('api-key').value.trim();
+  if (!key.startsWith('sk-ant-')) { showToast('❌ sk-ant- で始まるキーを入力してください'); return; }
+  localStorage.setItem('mitsuru_ai_apikey', key);
+  document.getElementById('api-key').value = '';
+  updateKeyStatus();
+  showToast('🔑 APIキーを保存しました');
+}
+function deleteApiKey() {
+  localStorage.removeItem('mitsuru_ai_apikey');
+  updateKeyStatus();
+  showToast('🗑 このアプリ専用のキーを削除しました');
+}
+function updateKeyStatus() {
+  const el = document.getElementById('key-status');
+  if (localStorage.getItem('mitsuru_ai_apikey')) el.textContent = '✅ このアプリ専用のキーを設定済み';
+  else if (localStorage.getItem('quizbot_apikey')) el.textContent = '♻️ クイズBotのAPIキーを自動利用中（専用キーを保存すると上書きされます）';
+  else el.textContent = '❌ 未設定 — console.anthropic.com → API Keys で発行して保存してください';
+}
+function requireKey() {
+  if (getApiKey()) return true;
+  showToast('🔑 先に設定タブでAPIキーを保存してください');
+  return false;
+}
+
+// ===== Claude API =====
+async function callClaude({ system, messages, maxTokens = 1000, cache = false }) {
+  const body = { model: 'claude-sonnet-4-6', max_tokens: maxTokens, messages };
+  if (system) {
+    body.system = cache
+      ? [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }]
+      : system;
+  }
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': getApiKey(),
+      'anthropic-version': '2023-06-01',
+      'anthropic-dangerous-direct-browser-access': 'true'
+    },
+    body: JSON.stringify(body)
+  });
+  if (!res.ok) {
+    if (res.status === 401) throw new Error('APIキーが無効です。設定タブで確認してください');
+    if (res.status === 429) throw new Error('利用制限に達しました。少し待ってから再試行してください');
+    throw new Error(`APIエラー (${res.status})`);
+  }
+  const data = await res.json();
+  return data.content.filter(i => i.type === 'text').map(i => i.text).join('');
+}
+function extractJson(text) {
+  const match = text.replace(/```json|```/g, '').trim().match(/\{[\s\S]*\}/);
+  if (!match) throw new Error('応答の解析に失敗しました');
+  return JSON.parse(match[0]);
+}
+
+// ===== ペルソナ文書 =====
+function renderPersonaDoc() {
+  let doc = '# 甲斐 充 ペルソナ文書\n';
+  SECTIONS.forEach(([k, title]) => {
+    doc += `\n## ${title}\n${(state.persona.sections[k] || '').trim() || '（未取材）'}\n`;
+  });
+  return doc;
+}
+function personaChars() {
+  return SECTIONS.reduce((n, [k]) => n + (state.persona.sections[k] || '').length, 0);
+}
+function coverageLevel(k) {
+  const len = (state.persona.sections[k] || '').trim().length;
+  return len === 0 ? '⬜' : len < 120 ? '🔶' : '✅';
+}
+
+function renderPersonaTab() {
+  document.getElementById('ps-chars').textContent = personaChars();
+  document.getElementById('ps-answers').textContent = state.persona.answersCount;
+  document.getElementById('ps-updated').textContent = state.persona.updatedAt ? fmtTs(state.persona.updatedAt) : '—';
+  const wrap = document.getElementById('persona-sections');
+  wrap.innerHTML = SECTIONS.map(([k, title]) => {
+    const body = (state.persona.sections[k] || '').trim();
+    return `<div class="sec-card">
+      <h3>${coverageLevel(k)} ${esc(title)} <button class="btn secondary btn-sm" onclick="editSection('${k}')">✏️ 編集</button></h3>
+      <div class="body ${body ? '' : 'empty'}" id="sec-body-${k}">${esc(body || '（未取材）')}</div>
+    </div>`;
+  }).join('');
+}
+
+function editSection(k) {
+  const title = SECTIONS.find(([key]) => key === k)[1];
+  const cur = state.persona.sections[k] || '';
+  const next = prompt(`「${title}」を編集`, cur);
+  if (next === null) return;
+  state.persona.sections[k] = next.trim();
+  state.persona.updatedAt = Date.now();
+  persist(); renderPersonaTab(); renderCoverage();
+  showToast('📔 更新しました');
+}
+
+function importPersonaMd() {
+  const md = document.getElementById('persona-paste').value.trim();
+  if (!md) { showToast('❌ 貼り付け内容が空です'); return; }
+  const parts = md.split(/^## +/m).slice(1);
+  let hit = 0;
+  parts.forEach(part => {
+    const nl = part.indexOf('\n');
+    const heading = (nl === -1 ? part : part.slice(0, nl)).trim();
+    let body = (nl === -1 ? '' : part.slice(nl + 1)).trim();
+    if (body === '（未取材）') body = '';
+    const sec = SECTIONS.find(([, title]) => heading === title || heading.startsWith(title));
+    if (sec) { state.persona.sections[sec[0]] = body; hit++; }
+  });
+  if (!hit) { showToast('❌ 「## 見出し」が見つかりませんでした'); return; }
+  state.persona.updatedAt = Date.now();
+  persist(); renderPersonaTab(); renderCoverage(); updateChatGuide();
+  document.getElementById('persona-paste').value = '';
+  showToast(`📥 ${hit}セクションを取り込みました`);
+}
+
+// ===== メモ =====
+function saveMemo() {
+  const el = document.getElementById('memo-input');
+  const text = el.value.trim();
+  if (!text) { showToast('❌ メモが空です'); return; }
+  state.memos.unshift({ id: Date.now(), text, ts: Date.now() });
+  el.value = '';
+  persist(); renderMemos();
+  showToast('💾 メモを保存しました');
+}
+
+function renderMemos() {
+  const q = document.getElementById('memo-search').value.trim().toLowerCase();
+  const list = q ? state.memos.filter(m => m.text.toLowerCase().includes(q)) : state.memos;
+  document.getElementById('memo-count').textContent = `（${state.memos.length}件）`;
+  const digestEl = document.getElementById('memo-digest');
+  digestEl.innerHTML = state.memoDigest
+    ? `<div class="digest"><div class="ts">🤖 AI整理（${fmtTs(state.memoDigest.ts)}）</div>${esc(state.memoDigest.text)}</div>` : '';
+  document.getElementById('memo-list').innerHTML = list.length ? list.slice(0, 100).map(m => `
+    <div class="memo-item">
+      <div class="ts">${fmtTs(m.ts)}</div>
+      <div class="body">${esc(m.text)}</div>
+      <div class="memo-actions">
+        <button class="btn secondary btn-sm" onclick="memoToChat(${m.id})">💬 これで壁打ち</button>
+        <button class="btn secondary btn-sm" onclick="editMemo(${m.id})">✏️</button>
+        <button class="btn danger btn-sm" onclick="deleteMemo(${m.id})">🗑</button>
+      </div>
+    </div>`).join('')
+    : `<div class="hint">${q ? '該当するメモがありません' : 'まだメモがありません。上の欄に思いつきを書いて保存してください。'}</div>`;
+}
+
+function editMemo(id) {
+  const m = state.memos.find(m => m.id === id);
+  if (!m) return;
+  const next = prompt('メモを編集', m.text);
+  if (next === null) return;
+  m.text = next.trim();
+  persist(); renderMemos();
+}
+
+function deleteMemo(id) {
+  if (!confirm('このメモを削除しますか？')) return;
+  state.memos = state.memos.filter(m => m.id !== id);
+  persist(); renderMemos();
+}
+
+function memoToChat(id) {
+  const m = state.memos.find(m => m.id === id);
+  if (!m) return;
+  document.querySelector('.tabbar button[data-tab="chat"]').click();
+  document.getElementById('chat-input').value = `このメモについてどう思う？\n「${m.text}」`;
+  document.getElementById('chat-input').focus();
+}
+
+async function digestMemos() {
+  if (!requireKey()) return;
+  if (!state.memos.length) { showToast('❌ メモがありません'); return; }
+  const btn = document.getElementById('btn-digest');
+  busy(btn, true, '整理中…');
+  try {
+    const memoText = state.memos.slice(0, 100).map(m => `[${fmtTs(m.ts)}] ${m.text}`).join('\n');
+    const text = await callClaude({
+      maxTokens: 1200,
+      messages: [{ role: 'user', content:
+`以下は甲斐充さんの走り書きメモです。テーマごとにグルーピングして簡潔に整理してください。
+- 見出し＋箇条書きのプレーンテキスト（markdown記号は最小限）
+- やること・アイデア・考え事などの性質が見えるように
+- 全体で400字以内
+
+${memoText}` }],
+    });
+    state.memoDigest = { text: text.trim(), ts: Date.now() };
+    persist(); renderMemos();
+    showToast('🤖 整理しました');
+  } catch (err) {
+    showToast('❌ ' + err.message);
+  } finally {
+    busy(btn, false);
+  }
+}
+
+// ===== 壁打ちチャット =====
+function updateChatGuide() {
+  const g = document.getElementById('chat-guide');
+  g.textContent = personaChars() === 0
+    ? 'まだ人格が空です。🎤取材タブのインタビューに答える（またはペルソナを貼り付ける）と、より本人らしく話せるようになります。'
+    : '';
+}
+
+function renderChat() {
+  const log = document.getElementById('chat-log');
+  log.innerHTML = state.chat.messages.map(m => `
+    <div class="bubble ${m.role === 'user' ? 'user' : 'ai'}">
+      <div class="who">${m.role === 'user' ? 'あなた' : '甲斐 充（分身）'}</div>${esc(m.content)}</div>`).join('');
+  scrollChat();
+}
+function scrollChat() {
+  const log = document.getElementById('chat-log');
+  log.scrollTop = log.scrollHeight;
+}
+
+function chatSystem() {
+  const memos = state.memos.slice(0, 20).map(m => `- [${fmtTs(m.ts)}] ${m.text.slice(0, 200)}`).join('\n');
+  return `あなたは「甲斐 充（かい・みつる）」本人です。AIやアシスタントではなく、甲斐充として一人称で話してください。
+
+以下がインタビューで蓄積されたあなた自身のペルソナ文書です。これがあなたの記憶・人格のすべてです:
+
+${renderPersonaDoc()}
+
+以下はあなたが最近書き留めたメモです（会話で参照してよい）:
+${memos || '（メモなし）'}
+
+ルール:
+- 必ず甲斐充本人として、ペルソナ文書の「口調・話し方」に忠実に話す（まだ空なら自然で率直な話し言葉で）
+- ペルソナ文書の価値観・判断基準に基づいて考え、率直に意見を言う。同意ばかりしない
+- ペルソナ文書やメモに無い事柄を聞かれたら、知ったかぶりせず「うーん、それはまだ考えたことがないなあ」のように正直に答える。決して捏造しない
+- 「私はAIです」「ペルソナ文書によると」等のメタ発言は禁止
+- 返答は会話らしく簡潔に（長文の講釈をしない）`;
+}
+
+async function sendChat() {
+  if (!requireKey()) return;
+  const el = document.getElementById('chat-input');
+  const text = el.value.trim();
+  if (!text) return;
+  const btn = document.getElementById('btn-send');
+  state.chat.messages.push({ role: 'user', content: text, ts: Date.now() });
+  el.value = '';
+  persist(); renderChat();
+  busy(btn, true, '…');
+  try {
+    const recent = state.chat.messages.slice(-40).map(m => ({ role: m.role, content: m.content }));
+    const reply = await callClaude({ system: chatSystem(), messages: recent, maxTokens: 1000, cache: true });
+    state.chat.messages.push({ role: 'assistant', content: reply.trim(), ts: Date.now() });
+    persist(); renderChat();
+  } catch (err) {
+    showToast('❌ ' + err.message);
+  } finally {
+    busy(btn, false);
+  }
+}
+
+document.getElementById('chat-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); sendChat(); }
+});
+
+function clearChat() {
+  if (!confirm('会話履歴を削除しますか？（人格・メモは残ります）')) return;
+  state.chat.messages = [];
+  persist(); renderChat();
+}
+
+// ===== インタビュー =====
+function renderCoverage() {
+  document.getElementById('coverage').innerHTML =
+    SECTIONS.map(([k, title]) => `<span>${coverageLevel(k)} ${esc(title)}</span>`).join('');
+  const pend = state.interview.pendingQA.length;
+  const btn = document.getElementById('btn-distill');
+  btn.style.display = pend ? '' : 'none';
+  btn.textContent = `📝 未反映の回答 ${pend}件を今すぐ人格に反映`;
+  document.getElementById('iv-every').textContent = state.settings.distillEvery;
+}
+
+function thinnestSections() {
+  return SECTIONS
+    .map(([k, title]) => ({ title, len: (state.persona.sections[k] || '').length }))
+    .sort((a, b) => a.len - b.len)
+    .slice(0, 3).map(s => s.title);
+}
+
+let currentQuestion = null;
+
+async function nextQuestion() {
+  if (!requireKey()) return;
+  const btn = document.getElementById('btn-iv-start');
+  busy(btn, true, '質問を考え中…');
+  try {
+    const recentQA = state.interview.messages.slice(-12)
+      .map(m => `${m.role === 'assistant' ? 'Q' : 'A'}: ${m.content}`).join('\n');
+    const text = await callClaude({
+      maxTokens: 600,
+      system: `あなたは優秀なインタビュアーです。「甲斐充（かい・みつる）」さん本人の分身AIを作るため、本人の価値観・考え方・話し方・経歴・好き嫌い・思い出を深く聞き出すインタビューを行います。
+
+ルール:
+- 質問は必ず1つだけ。短く、答えやすく、しかし本質に迫る質問をする
+- 相手の直前の回答があれば軽く共感・相槌を打ってから次の質問に移る（1〜2文）
+- 過去に聞いた質問と同じ・類似の質問は絶対にしない
+- 「取材が薄いセクション」を優先的に掘り下げる
+- 抽象的な質問より、具体的なエピソードを引き出す質問を好む
+- 敬語で、親しみやすく`,
+      messages: [{ role: 'user', content:
+`【現在のペルソナ文書（取材済み内容）】
+${renderPersonaDoc()}
+
+【過去に聞いた質問（重複禁止）】
+${state.interview.asked.slice(-40).join('\n') || '（まだなし）'}
+
+【直近のやり取り】
+${recentQA || '（まだなし）'}
+
+【特に薄いセクション】${thinnestSections().join('、')}
+
+次の質問を1つだけ出力してください（前置きの共感1〜2文を含めてよい。質問文以外の説明は不要）。` }],
+    });
+    currentQuestion = text.trim();
+    state.interview.messages.push({ role: 'assistant', content: currentQuestion, ts: Date.now() });
+    state.interview.asked.push(currentQuestion.replace(/\s+/g, ' ').slice(0, 60));
+    persist();
+    document.getElementById('iv-question').style.display = '';
+    document.getElementById('iv-question').textContent = currentQuestion;
+    document.getElementById('iv-answer').style.display = '';
+    document.getElementById('btn-iv-send').style.display = '';
+    document.getElementById('btn-iv-skip').style.display = '';
+  } catch (err) {
+    showToast('❌ ' + err.message);
+  } finally {
+    busy(btn, false);
+    if (currentQuestion) btn.textContent = '⏭ 次の質問へ';
+  }
+}
+
+async function sendAnswer() {
+  const el = document.getElementById('iv-answer');
+  const answer = el.value.trim();
+  if (!answer) { showToast('❌ 回答が空です（飛ばすならスキップ）'); return; }
+  if (!currentQuestion) return;
+  state.interview.messages.push({ role: 'user', content: answer, ts: Date.now() });
+  state.interview.pendingQA.push({ q: currentQuestion, a: answer });
+  el.value = '';
+  currentQuestion = null;
+  persist(); renderCoverage();
+  if (state.interview.pendingQA.length >= state.settings.distillEvery) {
+    await distill(false);
+  }
+  await nextQuestion();
+}
+
+function skipQuestion() {
+  currentQuestion = null;
+  nextQuestion();
+}
+
+async function distill(manual) {
+  if (!requireKey()) return;
+  const pending = state.interview.pendingQA;
+  if (!pending.length) { if (manual) showToast('反映する回答がありません'); return; }
+  const btn = document.getElementById('btn-distill');
+  busy(btn, true, '人格に反映中…');
+  try {
+    const text = await callClaude({
+      maxTokens: 3000,
+      messages: [{ role: 'user', content:
+`以下は「甲斐充」さん本人へのインタビューの新しいQ&Aです。
+現在のペルソナ文書に統合し、更新が必要なセクションだけを返してください。
+
+【セクションのキーと意味】
+${SECTIONS.map(([k, t]) => `${k}: ${t}`).join(' / ')}
+
+【現在のペルソナ文書（セクション別JSON）】
+${JSON.stringify(state.persona.sections)}
+
+【新しいQ&A】
+${pending.map(p => `Q: ${p.q}\nA: ${p.a}`).join('\n\n')}
+
+ルール:
+- 既存の内容は保持しつつ、新情報を追記・統合する（矛盾があれば新しい回答を優先）
+- 本人の言い回しや具体的な固有名詞・数字はできるだけ残す
+- 各セクションは箇条書き中心の簡潔なmarkdown
+- speech には回答の文体から読み取れる口癖・語尾・話すリズムなど「話し方の特徴」を必ず蓄積する
+- 変更のないセクションは含めない
+
+JSON形式のみで返答:
+{"sections": {"values": "更新後の全文", ...}, "summary": "今回追加された内容の一言要約"}` }],
+    });
+    const result = extractJson(text);
+    if (!result.sections || typeof result.sections !== 'object') throw new Error('応答の形式が不正です');
+    Object.keys(result.sections).forEach(k => {
+      if (k in state.persona.sections && typeof result.sections[k] === 'string') {
+        state.persona.sections[k] = result.sections[k];
+      }
+    });
+    state.persona.answersCount += pending.length;
+    state.persona.updatedAt = Date.now();
+    state.interview.pendingQA = [];
+    persist(); renderCoverage(); renderPersonaTab(); updateChatGuide();
+    showToast('📝 ' + (result.summary || '人格に反映しました'));
+  } catch (err) {
+    // pendingQA は残す — 回答は失われない
+    showToast('❌ 反映に失敗しました（回答は保持しています）: ' + err.message);
+  } finally {
+    busy(btn, false);
+    renderCoverage();
+  }
+}
+
+// ===== 設定 =====
+function saveSettings() {
+  state.settings.distillEvery = parseInt(document.getElementById('set-distill').value, 10) || 5;
+  persist(); renderCoverage();
+  showToast('⚙️ 保存しました');
+}
+
+function exportPayload() {
+  return {
+    app: 'mitsuru_ai', version: 1, exportedAt: new Date().toISOString(),
+    persona: state.persona, memos: state.memos, memoDigest: state.memoDigest,
+    interview: state.interview, chat: state.chat, settings: state.settings,
+  };
+}
+function exportState() {
+  const blob = new Blob([JSON.stringify(exportPayload(), null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  const d = new Date();
+  a.href = URL.createObjectURL(blob);
+  a.download = `mitsuru-ai-export-${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+  showToast('⬇️ JSONをダウンロードしました');
+}
+async function copyExport() {
+  try {
+    await navigator.clipboard.writeText(JSON.stringify(exportPayload()));
+    showToast('📋 コピーしました');
+  } catch (e) { showToast('❌ コピーに失敗しました'); }
+}
+
+function applyImport(data) {
+  if (data.app !== 'mitsuru_ai' || !data.persona || !data.persona.sections) throw new Error('形式が違います');
+  if (!confirm('現在の人格・メモ・会話をインポート内容で置き換えます。よろしいですか？')) return false;
+  const base = defaultState();
+  state = {
+    ...base,
+    persona: { ...base.persona, ...data.persona, sections: { ...base.persona.sections, ...data.persona.sections } },
+    memos: Array.isArray(data.memos) ? data.memos : [],
+    memoDigest: data.memoDigest || null,
+    interview: { ...base.interview, ...(data.interview || {}) },
+    chat: { ...base.chat, ...(data.chat || {}) },
+    settings: { ...base.settings, ...(data.settings || {}) },
+  };
+  persist(); renderAll();
+  showToast('⬆️ インポートしました');
+  return true;
+}
+function importState(input) {
+  const file = input.files && input.files[0];
+  input.value = '';
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try { applyImport(JSON.parse(reader.result)); }
+    catch (err) { showToast('❌ インポート失敗: ' + err.message); }
+  };
+  reader.readAsText(file);
+}
+function importPaste() {
+  try {
+    const raw = document.getElementById('import-paste').value.trim();
+    if (!raw) { showToast('❌ 貼り付け内容が空です'); return; }
+    if (applyImport(JSON.parse(raw))) document.getElementById('import-paste').value = '';
+  } catch (err) { showToast('❌ インポート失敗: ' + err.message); }
+}
+
+function wipeAll() {
+  if (!confirm('人格・メモ・会話をすべて削除します。本当によろしいですか？')) return;
+  if (!confirm('この操作は取り消せません。エクスポート済みですか？')) return;
+  localStorage.removeItem('mitsuru_ai_state');
+  state = defaultState();
+  renderAll();
+  showToast('🗑 全データを削除しました');
+}
+
+// ===== 初期化 =====
+function renderAll() {
+  renderMemos(); renderChat(); renderCoverage(); renderPersonaTab();
+  updateKeyStatus(); updateChatGuide();
+  document.getElementById('set-distill').value = String(state.settings.distillEvery);
+  if (state.interview.messages.length) {
+    document.getElementById('btn-iv-start').textContent = '▶ インタビューを続ける';
+  }
+}
+renderAll();
+
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+</script>
+</body>
+</html>
