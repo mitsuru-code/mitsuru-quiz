@@ -22,6 +22,37 @@
 
 APIキーが未設定でも、キーワード検索（該当ファイルと該当箇所の一覧）までは動きます。
 
+## トラブルシューティング
+
+### 「スマートアプリコントロールが安全でない可能性のあるファイルをブロックしました」と出る
+
+Windows 11 がダウンロードした `.bat` を警戒しているだけで、アプリに問題はありません。
+
+**方法①: ZIPのブロック解除**
+ダウンロードしたZIP（展開前）を右クリック →「プロパティ」→ 下部の「セキュリティ」欄の「許可する」にチェック → OK → 展開し直してから `start-search.bat` を実行。
+
+**方法②: batを使わずコマンドで起動**
+`folder-search` フォルダを開き、アドレスバーに `cmd` と入力して Enter。開いた黒い画面で1行ずつ:
+
+```
+python -m venv venv
+venv\Scripts\pip install -r requirements.txt
+copy .env.example .env
+notepad .env
+```
+
+メモ帳で `SEARCH_FOLDER` と `ANTHROPIC_API_KEY` を設定して保存後:
+
+```
+venv\Scripts\python app.py
+```
+
+2回目以降は `venv\Scripts\python app.py` だけでOKです。
+
+### 「localhost 接続が拒否されました」と出る
+
+サーバー（黒い画面）が起動していません。`start-search.bat`（または上のコマンド）を実行し、黒い画面を開いたまま http://localhost:5000 （`:5000` まで入力）を開いてください。
+
 ## 手動起動（Mac/Linux）
 
 ```bash
