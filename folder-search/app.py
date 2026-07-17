@@ -3,10 +3,12 @@
 Claude API で「どのファイルに何が書いてあるか」を日本語で回答する Flask アプリ。
 
 設定は環境変数（または同じフォルダの .env）で行う:
-  SEARCH_FOLDER      検索対象フォルダ（\\server\share のようなUNCパス可）
+  SEARCH_FOLDER      検索対象フォルダ（\\\\server\\share のようなUNCパス可）
   ANTHROPIC_API_KEY  Anthropic APIキー（未設定でもキーワード検索だけは動く）
+  CACHE_FILE         インデックスキャッシュの保存先（省略時は .cache/index.json）
 """
 
+import json
 import os
 import re
 import threading
@@ -33,6 +35,7 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent
 SEARCH_FOLDER = os.environ.get("SEARCH_FOLDER", str(BASE_DIR / "sample-docs"))
+CACHE_FILE = Path(os.environ.get("CACHE_FILE", str(BASE_DIR / ".cache" / "index.json")))
 CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-6")
 PORT = int(os.environ.get("PORT", "5000"))
 MAX_FILES_TO_AI = int(os.environ.get("MAX_FILES_TO_AI", "5"))
@@ -107,12 +110,37 @@ EXTRACTORS = {
 }
 
 
-# ===== インデックス（メモリ上のキャッシュ。更新日時で差分更新） =====
+# ===== インデックス（ディスクキャッシュ付き。更新日時で差分更新） =====
+#
+# キーは SEARCH_FOLDER からの相対パス（絶対パスではない）。
+# 共有フォルダやアプリ自体を別の場所へ移設しても、ファイルの更新日時さえ
+# 保たれていれば（robocopy 等）キャッシュを再利用でき、フル再スキャンを避けられる。
 
-index = {}  # abs path str -> {"mtime": float, "text": str, "error": str|None}
+index = {}  # 相対パス(posix) -> {"mtime": float, "text": str, "error": str|None}
 index_lock = threading.Lock()
 last_scan_at = None
 last_scan_errors = []
+
+
+def load_cache():
+    if not CACHE_FILE.exists():
+        return
+    try:
+        data = json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return
+    with index_lock:
+        index.clear()
+        index.update(data.get("index", {}))
+
+
+def save_cache():
+    """呼び出し元が index_lock を保持している前提。"""
+    try:
+        CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        CACHE_FILE.write_text(json.dumps({"index": index}, ensure_ascii=False), encoding="utf-8")
+    except OSError as e:
+        last_scan_errors.append(f"キャッシュ保存失敗: {e}")
 
 
 def scan_folder():
@@ -131,27 +159,28 @@ def scan_folder():
                 continue
             if path.name.startswith("~$"):  # Officeの一時ファイル
                 continue
-            key = str(path)
-            found.add(key)
+            rel_key = path.relative_to(root).as_posix()
+            found.add(rel_key)
             try:
                 mtime = path.stat().st_mtime
             except OSError as e:
                 errors.append(f"{path.name}: {e}")
                 continue
-            entry = index.get(key)
+            entry = index.get(rel_key)
             if entry and entry["mtime"] == mtime:
                 continue
             try:
                 text = EXTRACTORS[path.suffix.lower()](path)
-                index[key] = {"mtime": mtime, "text": text, "error": None}
+                index[rel_key] = {"mtime": mtime, "text": text, "error": None}
             except Exception as e:  # 壊れたファイル等はスキップして続行
-                index[key] = {"mtime": mtime, "text": "", "error": str(e)}
+                index[rel_key] = {"mtime": mtime, "text": "", "error": str(e)}
                 errors.append(f"{path.name}: {e}")
         for key in list(index):
             if key not in found:
                 del index[key]
         last_scan_at = time.time()
         last_scan_errors = errors
+        save_cache()
     return len(found), errors
 
 
@@ -201,11 +230,11 @@ def rank_files(query: str):
     terms = query_terms(query)
     results = []
     with index_lock:
-        for path, entry in index.items():
+        for rel_path, entry in index.items():
             if entry["error"]:
                 continue
             text = entry["text"]
-            name = Path(path).name
+            name = Path(rel_path).name
             lower = text.lower()
             name_lower = name.lower()
             score = 0
@@ -215,7 +244,7 @@ def rank_files(query: str):
                 if t in name_lower:
                     score += 5
             if score > 0:
-                results.append({"path": path, "score": score, "text": text})
+                results.append({"path": rel_path, "score": score, "text": text})
     results.sort(key=lambda r: r["score"], reverse=True)
     return results, terms
 
@@ -246,11 +275,7 @@ def build_excerpt(text: str, terms, max_chars: int) -> str:
 def ask_claude(query: str, candidates):
     import anthropic
 
-    root = Path(SEARCH_FOLDER)
-    sections = []
-    for c in candidates:
-        rel = os.path.relpath(c["path"], root)
-        sections.append(f"=== ファイル: {rel} ===\n{c['excerpt']}")
+    sections = [f"=== ファイル: {c['path']} ===\n{c['excerpt']}" for c in candidates]
     docs = "\n\n".join(sections)
 
     prompt = f"""あなたは社内の共有フォルダを検索するアシスタントです。
@@ -309,6 +334,7 @@ def api_status():
             "last_scan_at": last_scan_at,
             "ai_ready": bool(os.environ.get("ANTHROPIC_API_KEY")),
             "model": CLAUDE_MODEL,
+            "cache_file": str(CACHE_FILE),
         }
     )
 
@@ -336,16 +362,10 @@ def api_search():
     ranked, terms = rank_files(query)
     top = ranked[:MAX_FILES_TO_AI]
 
-    root = Path(SEARCH_FOLDER)
-    files_payload = []
-    for r in top:
-        files_payload.append(
-            {
-                "path": os.path.relpath(r["path"], root),
-                "score": r["score"],
-                "snippets": find_snippets(r["text"], terms),
-            }
-        )
+    files_payload = [
+        {"path": r["path"], "score": r["score"], "snippets": find_snippets(r["text"], terms)}
+        for r in top
+    ]
 
     answer = None
     ai_error = None
@@ -363,10 +383,14 @@ def api_search():
 
 if __name__ == "__main__":
     print(f"検索対象フォルダ: {SEARCH_FOLDER}")
+    print(f"キャッシュファイル: {CACHE_FILE}")
     print(f"APIキー: {'✅ 設定済み' if os.environ.get('ANTHROPIC_API_KEY') else '⬜ 未設定（キーワード検索のみ）'}")
+    load_cache()
+    if index:
+        print(f"キャッシュから {len(index)} ファイル分を読み込みました（差分のみ再スキャンします）")
     try:
         count, _ = scan_folder()
-        print(f"初回スキャン完了: {count} ファイル")
+        print(f"スキャン完了: {count} ファイル")
     except FileNotFoundError as e:
         print(f"⚠️ {e}")
     app.run(host="127.0.0.1", port=PORT, debug=False)
