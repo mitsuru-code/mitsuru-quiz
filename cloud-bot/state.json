@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org",
     "vietnam.vn、三菱マテリアルGOLDPARK、OANDA証券、State Street SSGA Monthly Gold Monitor July 2026、LiteFinance、CNBC、Straits Financial Group、The Gold Forecast、NHKニュース、日本経済新聞、東洋経済オンライン、時事ドットコム、Yahoo!ニュース、ライブドアニュース、日本相撲協会公式サイト、ウェザーニュース",
     "時事通信「改正皇室典範が成立 制定79年で初、養子男性子孫に継承権―女性皇族、家族は一般国民」",
     "ORICON NEWS「16回目『音楽の日』、7・18に8時間生放送決定 総合司会は安住紳一郎アナ＆江藤愛アナ」",
     "東スポWEB「平幕・獅司が無傷６連勝で単独首位 左肩手術で全身麻酔も…両親からは『日本はすごいから大丈夫だ』」",
     "Al Jazeera、Reuters、AP、CNN、CNBC、Bloomberg、NPR、ESPN、Fox Sports、ABC News、CBS News、IndexBox、Euronews、Qz.com",
     "日本経済新聞、NHK、時事通信、毎日新聞、読売新聞、共同通信、ロイター、Bloomberg、Yahoo!ニュース、流通ニュース",
-    "中日新聞「改正種苗法が成立、海外流出防止 農産物、品種登録前の輸出規制」",
-    "J-CASTニュース「『めっちゃ大野くんじゃん』大野智の個人サロン『さと島』、会費設定にまさかのこだわり？」"
+    "中日新聞「改正種苗法が成立、海外流出防止 農産物、品種登録前の輸出規制」"
   ],
   "recentOpeners": [
+    "今朝のニュースをざっと見渡すと、ホルムズ海峡・Wall Street・W杯決勝と",
     "金価格が1オンス4,017ドルまで戻った今日、この乱高下は何が原因か知ってる？",
     "昨日（7/17）、戦後初めて実質改正された「皇室典範」🐹\n1947年の制定から",
     "今日7/18、TBSで8時間生放送される「音楽の日2026」🐹 安住紳一郎アナ",
-    "名古屋場所で旋風を巻き起こしてる力士がいます🐹\n大相撲名古屋場所（7月場所）で",
-    "イランの反撃ミサイルがカタール・クウェート・バーレーンまで届いた夜明けでした。W"
+    "名古屋場所で旋風を巻き起こしてる力士がいます🐹\n大相撲名古屋場所（7月場所）で"
   ],
-  "lastPostedAt": 1784404179882,
+  "lastPostedAt": 1784411929099,
   "recentBreaking": [
     "米・イラン相互攻撃・ホルムズ海峡情勢が7/18さらに激化",
     "金国際価格・7/18アジア市場で4,017ドルに回復・中東情勢で乱高下継続",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 99
+    "posts": 100
   },
   "breakingDate": "2026-07-19",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784404179882,
+  "lastAnyPostAt": 1784411929099,
   "postHistory": [
+    {
+      "tweetId": "2078600816643162232",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "今朝のニュースをざっと見渡すと、ホルムズ海峡・Wall Street・W杯決勝と、話題のボリュームが尋常じゃない土曜日です🐹 では20問、サクッとどうぞ。\n\n",
+      "postedAt": 1784411929099
+    },
     {
       "tweetId": "2078568056356307373",
       "kind": "feature",
@@ -241,13 +248,6 @@
       "category": "夜の振り返り",
       "textPreview": "スペインがフランスを2-0で沈め、W杯決勝へ。朝4時からの一戦、見届けた方はおつかれさまでした🐹\n\n今日も世界のあちこちで動きがありました。20問で振り返りま",
       "postedAt": 1784114068002
-    },
-    {
-      "tweetId": "2077325679016935747",
-      "kind": "quiz",
-      "category": "国際・二択",
-      "textPreview": "今日未明、ついに始まった──米軍がイランへの海上封鎖を再開。\n\nさて、封鎖の対象となっているのは世界の石油輸送の要衝「ある海峡」。どこでしょう？🐹\n\n投票で答",
-      "postedAt": 1784107983884
     }
   ],
   "breakingFollowUps": [
