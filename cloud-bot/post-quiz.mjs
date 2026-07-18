@@ -367,6 +367,20 @@ function stripMarkdown(text) {
     .replace(/^-{3,}\s*$/gm, '─'.repeat(21)); // 独立行の "---" → 罫線文字に置き換え
 }
 
+// 文字列の先頭maxLen文字を安全に切り出す。.slice(0,N)だと絵文字などのサロゲート
+// ペア（UTF-16で2コード単位からなる文字）の中間で切れて孤立サロゲートになることがあり、
+// その文字列を後で（recentOpeners経由で）APIリクエストのJSON本文に含めると
+// "no low surrogate in string" エラーで以後の生成が全滅する事故が実際に発生した。
+// 末尾が高サロゲート単体になっていたら1文字落とす
+function safeSlice(str, maxLen) {
+  let sliced = str.slice(0, maxLen);
+  const lastCode = sliced.charCodeAt(sliced.length - 1);
+  if (lastCode >= 0xD800 && lastCode <= 0xDBFF) {
+    sliced = sliced.slice(0, -1);
+  }
+  return sliced;
+}
+
 // ===== キャラクター共通指示 =====
 const CHARACTER = `【キャラクター設定】
 あなたはX(Twitter)の時事アカウント「クイズハム🐹」の中の人です。キンクマハムスターがモチーフですが、キャラは"ほんのり"効かせる程度に抑え、誰が読んでも自然で親しみやすい文章にします。基本は親しみやすく丁寧な口調。時々「🐹」の絵文字で愛嬌を出す程度に留め、内容の分かりやすさと読みやすさを最優先します。
@@ -635,7 +649,7 @@ function countPost(state, now) {
 // 投稿履歴（Pixelアプリの稼働状況カードから参照する）。最新30件を保持
 function recordPost(state, { tweetId, kind, category, textPreview, postedAt }) {
   state.postHistory = state.postHistory || [];
-  state.postHistory.unshift({ tweetId, kind, category: category || '', textPreview: (textPreview || '').slice(0, 80), postedAt });
+  state.postHistory.unshift({ tweetId, kind, category: category || '', textPreview: safeSlice(textPreview || '', 80), postedAt });
   state.postHistory = state.postHistory.slice(0, 30);
 }
 
@@ -686,14 +700,14 @@ async function postPollQuiz(state, genre, now) {
       tweetId,
       answer: quiz.answer,
       sourceUrl: quiz.sourceUrl || '',
-      question: (quiz.question || '').slice(0, 60),
+      question: safeSlice(quiz.question || '', 60),
       postedAt: now,
       dueAt: now + ANSWER_DELAY_MS,
       isPoll: !!poll,
     });
   }
   state.recentTopics = [quiz.source || quiz.category || '', ...state.recentTopics].filter(Boolean).slice(0, 8);
-  state.recentOpeners = [(quiz.question || '').slice(0, 40), ...state.recentOpeners].filter(Boolean).slice(0, 5);
+  state.recentOpeners = [safeSlice(quiz.question || '', 40), ...state.recentOpeners].filter(Boolean).slice(0, 5);
   state.lastPostedAt = now;
   countPost(state, now);
   recordPost(state, { tweetId, kind: 'quiz', category: quiz.category, textPreview: quiz.question, postedAt: now });
@@ -870,14 +884,14 @@ async function main() {
     if (profile.kind === 'briefing' || profile.kind === 'recap') {
       const gen = profile.kind === 'briefing' ? await generateBriefing(state) : await generateRecap(state, now);
       if (!gen.text) throw new Error('生成結果に text がありません');
-      console.log(`🧠 生成した${gen.category}（${gen.text.length}文字）:\n${gen.text.slice(0, 300)}…\n`);
+      console.log(`🧠 生成した${gen.category}（${gen.text.length}文字）:\n${safeSlice(gen.text, 300)}…\n`);
       if (DRY_RUN) {
         console.log(`🧪 [DRY_RUN] 全文:\n${gen.text}`);
       } else {
         const tweetId = await postTweet(gen.text, null);
         console.log(`🐦 Xに投稿しました（tweet: ${tweetId}）`);
         state.recentTopics = [gen.source || gen.category, ...state.recentTopics].filter(Boolean).slice(0, 8);
-        state.recentOpeners = [gen.text.slice(0, 40), ...state.recentOpeners].filter(Boolean).slice(0, 5);
+        state.recentOpeners = [safeSlice(gen.text, 40), ...state.recentOpeners].filter(Boolean).slice(0, 5);
         state.lastPostedAt = now;
         countPost(state, now);
         recordPost(state, { tweetId, kind: profile.kind, category: gen.category, textPreview: gen.text, postedAt: now });
