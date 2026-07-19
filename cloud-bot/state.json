@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2078757986219266322",
+      "answer": "正解は「自然環境保全協定」でした！参加してくれてありがとう🐹\n\n静岡県とJR東海は7月18日、長年の議論に決着をつける形で「自然環境保全協定」を締結。大井川の水量減少や南アルプスの生態系への影響など計28項目の環境保全対策が明記され、品川〜名古屋間で唯一未着工だった静岡工区がついに着工へ動き出しました。\n\n🌰豆知識：リニア中央新幹線が完成すると、品川〜名古屋間の所要時間が現在の約1時間30分からわずか約40分に短縮される見通しです。",
+      "sourceUrl": "https://www.nippon.com/ja/news/yjj2026071800290/",
+      "question": "ついに動いた！長年こう着していたリニア中央新幹線🐹 7月18日、静岡県とJR東海が締結した協定の名称は何でしょう？ 投",
+      "postedAt": 1784449480927,
+      "dueAt": 1784456680927,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」",
     "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」",
     "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org",
     "vietnam.vn、三菱マテリアルGOLDPARK、OANDA証券、State Street SSGA Monthly Gold Monitor July 2026、LiteFinance、CNBC、Straits Financial Group、The Gold Forecast、NHKニュース、日本経済新聞、東洋経済オンライン、時事ドットコム、Yahoo!ニュース、ライブドアニュース、日本相撲協会公式サイト、ウェザーニュース",
     "時事通信「改正皇室典範が成立 制定79年で初、養子男性子孫に継承権―女性皇族、家族は一般国民」",
     "ORICON NEWS「16回目『音楽の日』、7・18に8時間生放送決定 総合司会は安住紳一郎アナ＆江藤愛アナ」",
     "東スポWEB「平幕・獅司が無傷６連勝で単独首位 左肩手術で全身麻酔も…両親からは『日本はすごいから大丈夫だ』」",
-    "Al Jazeera、Reuters、AP、CNN、CNBC、Bloomberg、NPR、ESPN、Fox Sports、ABC News、CBS News、IndexBox、Euronews、Qz.com",
-    "日本経済新聞、NHK、時事通信、毎日新聞、読売新聞、共同通信、ロイター、Bloomberg、Yahoo!ニュース、流通ニュース"
+    "Al Jazeera、Reuters、AP、CNN、CNBC、Bloomberg、NPR、ESPN、Fox Sports、ABC News、CBS News、IndexBox、Euronews、Qz.com"
   ],
   "recentOpeners": [
+    "ついに動いた！長年こう着していたリニア中央新幹線🐹 7月18日、静岡県とJR東",
     "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュ",
     "今朝のニュースをざっと見渡すと、ホルムズ海峡・Wall Street・W杯決勝と",
     "金価格が1オンス4,017ドルまで戻った今日、この乱高下は何が原因か知ってる？",
-    "昨日（7/17）、戦後初めて実質改正された「皇室典範」🐹\n1947年の制定から",
-    "今日7/18、TBSで8時間生放送される「音楽の日2026」🐹 安住紳一郎アナ"
+    "昨日（7/17）、戦後初めて実質改正された「皇室典範」🐹\n1947年の制定から"
   ],
-  "lastPostedAt": 1784445772601,
+  "lastPostedAt": 1784449480927,
   "recentBreaking": [
     "中国AI・Kimi K3公開・DeepSeekショック再来・半導体株急落",
     "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 107
+    "posts": 108
   },
   "breakingDate": "2026-07-19",
   "breakingCount": 3,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784445772601,
+  "lastAnyPostAt": 1784449480927,
   "postHistory": [
+    {
+      "tweetId": "2078757986219266322",
+      "kind": "quiz",
+      "category": "国内・交通インフラ・二択",
+      "textPreview": "ついに動いた！長年こう着していたリニア中央新幹線🐹 7月18日、静岡県とJR東海が締結した協定の名称は何でしょう？ 投票で答えてね🐹 正解は2時間後にリプで",
+      "postedAt": 1784449480927
+    },
     {
       "tweetId": "2078742414781800497",
       "kind": "breaking",
@@ -241,13 +258,6 @@
       "category": "国旗損壊罪法案・参院内閣委で7/16採決提案・本会議成立へ公算",
       "textPreview": "🚨 速報\n\n国旗損壊罪法案、参院委で本日採決へ 🐹\n\n参院内閣委員会は7/16、日本の国旗を「著しく不快・嫌悪を催させる方法」で公然と損壊する行為に2年以下",
       "postedAt": 1784183303875
-    },
-    {
-      "tweetId": "2077615259364250098",
-      "kind": "quiz",
-      "category": "エンタメ・映画・二択",
-      "textPreview": "明日いよいよ公開！映画『キングダム 魂の決戦』はシリーズ第何作目でしょう？\n\n投票で答えてね🐹 正解は2時間後にリプで発表！",
-      "postedAt": 1784177037692
     }
   ],
   "breakingFollowUps": [
@@ -255,8 +265,8 @@
       "headline": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
       "topic": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
       "stageLabel": "2時間後",
-      "dueAt": 1784449109300,
-      "attempts": 1
+      "dueAt": 1784451280927,
+      "attempts": 2
     },
     {
       "headline": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
