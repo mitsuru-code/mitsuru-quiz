@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos",
     "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）",
     "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」",
     "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」",
     "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org",
     "vietnam.vn、三菱マテリアルGOLDPARK、OANDA証券、State Street SSGA Monthly Gold Monitor July 2026、LiteFinance、CNBC、Straits Financial Group、The Gold Forecast、NHKニュース、日本経済新聞、東洋経済オンライン、時事ドットコム、Yahoo!ニュース、ライブドアニュース、日本相撲協会公式サイト、ウェザーニュース",
     "時事通信「改正皇室典範が成立 制定79年で初、養子男性子孫に継承権―女性皇族、家族は一般国民」",
-    "ORICON NEWS「16回目『音楽の日』、7・18に8時間生放送決定 総合司会は安住紳一郎アナ＆江藤愛アナ」",
-    "東スポWEB「平幕・獅司が無傷６連勝で単独首位 左肩手術で全身麻酔も…両親からは『日本はすごいから大丈夫だ』」"
+    "ORICON NEWS「16回目『音楽の日』、7・18に8時間生放送決定 総合司会は安住紳一郎アナ＆江藤愛アナ」"
   ],
   "recentOpeners": [
+    "おはようございます🐹 W杯決勝・歴代最長マイル記録更新・テヘランとクウェートの",
     "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中",
     "ついに動いた！長年こう着していたリニア中央新幹線🐹 7月18日、静岡県とJR東",
     "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュ",
-    "今朝のニュースをざっと見渡すと、ホルムズ海峡・Wall Street・W杯決勝と",
-    "金価格が1オンス4,017ドルまで戻った今日、この乱高下は何が原因か知ってる？"
+    "今朝のニュースをざっと見渡すと、ホルムズ海峡・Wall Street・W杯決勝と"
   ],
-  "lastPostedAt": 1784464540190,
+  "lastPostedAt": 1784491506475,
   "recentBreaking": [
     "中国AI・Kimi K3公開・DeepSeekショック再来・半導体株急落",
     "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 112
+    "posts": 113
   },
   "breakingDate": "2026-07-20",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784464540190,
+  "lastAnyPostAt": 1784491506475,
   "postHistory": [
+    {
+      "tweetId": "2078934475841351912",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 W杯決勝・歴代最長マイル記録更新・テヘランとクウェートの煙——今朝は眠れなかった夜明けが世界中にあったようです。\n\nQ1. 米軍は今夜で",
+      "postedAt": 1784491506475
+    },
     {
       "tweetId": "2078821159550738885",
       "kind": "feature",
@@ -241,13 +248,6 @@
       "category": "夜の振り返り",
       "textPreview": "利根川進さんの訃報、W杯の大逆転劇、そして朝のクレカ祭り……今日はニュースが盛りだくさんな一日でした。おつかれさまでした🐹 今日一日の出来事、クイズで振り返っ",
       "postedAt": 1784203724407
-    },
-    {
-      "tweetId": "2077685005937995914",
-      "kind": "feature",
-      "category": "続報（2時間後）",
-      "textPreview": "国旗損壊罪、参院委が職権採決で可決。与党は17日の本会議成立を目指す 🐹\n\n参院内閣委員会は7月16日、日本国旗の損壊行為を処罰する「国旗損壊処罰法案」を、自",
-      "postedAt": 1784193656353
     }
   ],
   "breakingFollowUps": [],
