@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2078691984626090155",
+      "answer": "正解は「5か所」でした！投票してくれたみなさん、ありがとうございます🐹\n東京（東京ガーデンシアター）→神戸→広島→仙台→横浜アリーナ（2Days）の全5会場を駆け抜けました。\n🌰豆知識：≠MEの「≠」は数学の「等しくない」記号。「今までとは違う自分を経験してほしい」という指原莉乃さんの想いが込められています。",
+      "sourceUrl": "",
+      "question": "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュースの≠ME（ノットイコールミー）が、7",
+      "postedAt": 1784433740437,
+      "dueAt": 1784440940437,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」",
     "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org",
     "vietnam.vn、三菱マテリアルGOLDPARK、OANDA証券、State Street SSGA Monthly Gold Monitor July 2026、LiteFinance、CNBC、Straits Financial Group、The Gold Forecast、NHKニュース、日本経済新聞、東洋経済オンライン、時事ドットコム、Yahoo!ニュース、ライブドアニュース、日本相撲協会公式サイト、ウェザーニュース",
     "時事通信「改正皇室典範が成立 制定79年で初、養子男性子孫に継承権―女性皇族、家族は一般国民」",
     "ORICON NEWS「16回目『音楽の日』、7・18に8時間生放送決定 総合司会は安住紳一郎アナ＆江藤愛アナ」",
     "東スポWEB「平幕・獅司が無傷６連勝で単独首位 左肩手術で全身麻酔も…両親からは『日本はすごいから大丈夫だ』」",
     "Al Jazeera、Reuters、AP、CNN、CNBC、Bloomberg、NPR、ESPN、Fox Sports、ABC News、CBS News、IndexBox、Euronews、Qz.com",
-    "日本経済新聞、NHK、時事通信、毎日新聞、読売新聞、共同通信、ロイター、Bloomberg、Yahoo!ニュース、流通ニュース",
-    "中日新聞「改正種苗法が成立、海外流出防止 農産物、品種登録前の輸出規制」"
+    "日本経済新聞、NHK、時事通信、毎日新聞、読売新聞、共同通信、ロイター、Bloomberg、Yahoo!ニュース、流通ニュース"
   ],
   "recentOpeners": [
+    "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュ",
     "今朝のニュースをざっと見渡すと、ホルムズ海峡・Wall Street・W杯決勝と",
     "金価格が1オンス4,017ドルまで戻った今日、この乱高下は何が原因か知ってる？",
     "昨日（7/17）、戦後初めて実質改正された「皇室典範」🐹\n1947年の制定から",
-    "今日7/18、TBSで8時間生放送される「音楽の日2026」🐹 安住紳一郎アナ",
-    "名古屋場所で旋風を巻き起こしてる力士がいます🐹\n大相撲名古屋場所（7月場所）で"
+    "今日7/18、TBSで8時間生放送される「音楽の日2026」🐹 安住紳一郎アナ"
   ],
-  "lastPostedAt": 1784423379234,
+  "lastPostedAt": 1784433740437,
   "recentBreaking": [
     "米・イラン相互攻撃・ホルムズ海峡情勢が7/18さらに激化",
     "金国際価格・7/18アジア市場で4,017ドルに回復・中東情勢で乱高下継続",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 102
+    "posts": 103
   },
   "breakingDate": "2026-07-19",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784423379234,
+  "lastAnyPostAt": 1784433740437,
   "postHistory": [
+    {
+      "tweetId": "2078691984626090155",
+      "kind": "quiz",
+      "category": "エンタメ・4択",
+      "textPreview": "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュースの≠ME（ノットイコールミー）が、7/17・18の横浜アリーナ公演でツアー「",
+      "postedAt": 1784433740437
+    },
     {
       "tweetId": "2078648576683471129",
       "kind": "feature",
@@ -241,13 +258,6 @@
       "category": "日本・参院委員会がビットコインETF解禁法案を可決",
       "textPreview": "📈 いま話題｜日本、ビットコインETFを事実上解禁へ 🐹\n\n参議院委員会がBTCなど暗号資産を「金融商品」に再分類する法案を可決。早ければ2027年にも現物",
       "postedAt": 1784155162967
-    },
-    {
-      "tweetId": "2077513588559024468",
-      "kind": "feature",
-      "category": "特集記事",
-      "textPreview": "アディショナルタイム2分、メッシの2アシストで「奇跡の逆転」——アルゼンチンが60年夢見たイングランドを沈めた🐹\n\nW杯2026準決勝、アトランタ・スタジアム",
-      "postedAt": 1784152778687
     }
   ],
   "breakingFollowUps": [],
