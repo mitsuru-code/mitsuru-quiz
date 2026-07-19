@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2078757986219266322",
-      "answer": "正解は「自然環境保全協定」でした！参加してくれてありがとう🐹\n\n静岡県とJR東海は7月18日、長年の議論に決着をつける形で「自然環境保全協定」を締結。大井川の水量減少や南アルプスの生態系への影響など計28項目の環境保全対策が明記され、品川〜名古屋間で唯一未着工だった静岡工区がついに着工へ動き出しました。\n\n🌰豆知識：リニア中央新幹線が完成すると、品川〜名古屋間の所要時間が現在の約1時間30分からわずか約40分に短縮される見通しです。",
-      "sourceUrl": "https://www.nippon.com/ja/news/yjj2026071800290/",
-      "question": "ついに動いた！長年こう着していたリニア中央新幹線🐹 7月18日、静岡県とJR東海が締結した協定の名称は何でしょう？ 投",
-      "postedAt": 1784449480927,
-      "dueAt": 1784456680927,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）",
     "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」",
     "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」",
     "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org",
     "vietnam.vn、三菱マテリアルGOLDPARK、OANDA証券、State Street SSGA Monthly Gold Monitor July 2026、LiteFinance、CNBC、Straits Financial Group、The Gold Forecast、NHKニュース、日本経済新聞、東洋経済オンライン、時事ドットコム、Yahoo!ニュース、ライブドアニュース、日本相撲協会公式サイト、ウェザーニュース",
     "時事通信「改正皇室典範が成立 制定79年で初、養子男性子孫に継承権―女性皇族、家族は一般国民」",
     "ORICON NEWS「16回目『音楽の日』、7・18に8時間生放送決定 総合司会は安住紳一郎アナ＆江藤愛アナ」",
-    "東スポWEB「平幕・獅司が無傷６連勝で単独首位 左肩手術で全身麻酔も…両親からは『日本はすごいから大丈夫だ』」",
-    "Al Jazeera、Reuters、AP、CNN、CNBC、Bloomberg、NPR、ESPN、Fox Sports、ABC News、CBS News、IndexBox、Euronews、Qz.com"
+    "東スポWEB「平幕・獅司が無傷６連勝で単独首位 左肩手術で全身麻酔も…両親からは『日本はすごいから大丈夫だ』」"
   ],
   "recentOpeners": [
+    "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中",
     "ついに動いた！長年こう着していたリニア中央新幹線🐹 7月18日、静岡県とJR東",
     "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュ",
     "今朝のニュースをざっと見渡すと、ホルムズ海峡・Wall Street・W杯決勝と",
-    "金価格が1オンス4,017ドルまで戻った今日、この乱高下は何が原因か知ってる？",
-    "昨日（7/17）、戦後初めて実質改正された「皇室典範」🐹\n1947年の制定から"
+    "金価格が1オンス4,017ドルまで戻った今日、この乱高下は何が原因か知ってる？"
   ],
-  "lastPostedAt": 1784452158965,
+  "lastPostedAt": 1784461307654,
   "recentBreaking": [
     "中国AI・Kimi K3公開・DeepSeekショック再来・半導体株急落",
     "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 109
+    "posts": 111
   },
   "breakingDate": "2026-07-19",
   "breakingCount": 3,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784452158965,
+  "lastAnyPostAt": 1784461307654,
   "postHistory": [
+    {
+      "tweetId": "2078807835127726402",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中東の情勢がこれだけ激しく動いた週末でした。今日一日、どのくらい追えていましたか？",
+      "postedAt": 1784461307654
+    },
     {
       "tweetId": "2078769211921277187",
       "kind": "feature",
@@ -251,13 +248,6 @@
       "category": "経済・4択",
       "textPreview": "今日の株式市場、ちょっとした事件でした🐹\n\n7月16日、日経平均株価は大幅に急落。「中国のメモリー企業がIPO申請か」という観測が引き金となり、AI・半導体関",
       "postedAt": 1784190001689
-    },
-    {
-      "tweetId": "2077651876732977171",
-      "kind": "feature",
-      "category": "続報（30分後）",
-      "textPreview": "野党が「違憲」と撤回を要求——それでも与党は同日採決を提案、成立へ前進🐹\n\n7月16日、参院内閣委員会で国旗損壊罪法案の質疑が行われ、与党側は理事会で「同日午",
-      "postedAt": 1784185756887
     }
   ],
   "breakingFollowUps": [
@@ -265,8 +255,8 @@
       "headline": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
       "topic": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
       "stageLabel": "5時間後",
-      "dueAt": 1784456715274,
-      "attempts": 0
+      "dueAt": 1784463107654,
+      "attempts": 1
     }
   ],
   "breakingCheckpointsDone": [
