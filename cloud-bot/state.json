@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2078691984626090155",
-      "answer": "正解は「5か所」でした！投票してくれたみなさん、ありがとうございます🐹\n東京（東京ガーデンシアター）→神戸→広島→仙台→横浜アリーナ（2Days）の全5会場を駆け抜けました。\n🌰豆知識：≠MEの「≠」は数学の「等しくない」記号。「今までとは違う自分を経験してほしい」という指原莉乃さんの想いが込められています。",
-      "sourceUrl": "",
-      "question": "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュースの≠ME（ノットイコールミー）が、7",
-      "postedAt": 1784433740437,
-      "dueAt": 1784440940437,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」",
     "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org",
@@ -27,7 +17,7 @@
     "昨日（7/17）、戦後初めて実質改正された「皇室典範」🐹\n1947年の制定から",
     "今日7/18、TBSで8時間生放送される「音楽の日2026」🐹 安住紳一郎アナ"
   ],
-  "lastPostedAt": 1784438715274,
+  "lastPostedAt": 1784441149285,
   "recentBreaking": [
     "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
     "米・イラン相互攻撃・ホルムズ海峡情勢が7/18さらに激化",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 104
+    "posts": 106
   },
   "breakingDate": "2026-07-19",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784438715274,
+  "lastAnyPostAt": 1784441149285,
   "postHistory": [
+    {
+      "tweetId": "2078723041014567126",
+      "kind": "feature",
+      "category": "続報（30分後）",
+      "textPreview": "【続報】漏洩した情報に\"送り状番号\"も含まれていた　佐川急便スマートクラブ問題\n\n速報でお伝えした佐川急便の個人情報漏洩について、公式発表の詳細が明らかになりま",
+      "postedAt": 1784441149285
+    },
     {
       "tweetId": "2078712820045385760",
       "kind": "breaking",
@@ -251,23 +248,9 @@
       "category": "特集記事",
       "textPreview": "朝8時から全国でクレカが使えない——その\"黒幕\"はVisaでも三井住友でもなかった🐹\n\n7月16日（木）の朝8時ごろ、コンビニのレジで、駅の券売機で、Suic",
       "postedAt": 1784170454495
-    },
-    {
-      "tweetId": "2077579856460628157",
-      "kind": "breaking",
-      "category": "CARDNET障害・全国クレカ決済停止（7/16）",
-      "textPreview": "🚨 速報 全国でクレジットカード決済が使えない障害が発生中🐹\n\n本日7月16日午前8時頃から、国内ほぼ全てのクレカ・金融機関をつなぐ決済基盤「CARDNET",
-      "postedAt": 1784168598868
     }
   ],
   "breakingFollowUps": [
-    {
-      "headline": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
-      "topic": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
-      "stageLabel": "30分後",
-      "dueAt": 1784440515274,
-      "attempts": 0
-    },
     {
       "headline": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
       "topic": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
