@@ -34,8 +34,8 @@
     "month": "2026-07",
     "posts": 112
   },
-  "breakingDate": "2026-07-19",
-  "breakingCount": 3,
+  "breakingDate": "2026-07-20",
+  "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
   "lastAnyPostAt": 1784464540190,
   "postHistory": [
@@ -252,8 +252,6 @@
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [
-    "2026-07-19_02:00",
-    "2026-07-19_14:00",
-    "2026-07-19_16:00"
+    "2026-07-20_02:00"
   ]
 }
