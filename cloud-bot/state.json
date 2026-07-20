@@ -17,7 +17,7 @@
     "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録",
     "おはようございます🐹 W杯決勝・歴代最長マイル記録更新・テヘランとクウェートの"
   ],
-  "lastPostedAt": 1784578637521,
+  "lastPostedAt": 1784580719323,
   "recentBreaking": [
     "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
     "2026 FIFAワールドカップ・スペイン優勝（対アルゼンチン 1-0 延長）",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 123
+    "posts": 124
   },
   "breakingDate": "2026-07-21",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784578637521,
+  "lastAnyPostAt": 1784580719323,
   "postHistory": [
+    {
+      "tweetId": "2079308493652435439",
+      "kind": "feature",
+      "category": "続報（30分後）",
+      "textPreview": "本体だけじゃなかった——iCloud+・Apple Musicまで、Appleの値上げが「サブスク」にも波及 🐹\n\niPhone 17 Pro Maxの価格が",
+      "postedAt": 1784580719323
+    },
     {
       "tweetId": "2079299953961185412",
       "kind": "briefing",
@@ -241,24 +248,9 @@
       "category": "スポーツ・4択",
       "textPreview": "名古屋場所で旋風を巻き起こしてる力士がいます🐹\n大相撲名古屋場所（7月場所）で6日目終了時点の単独首位・平幕「獅司」。彼はどこの国の出身でしょう？\n投票で答え",
       "postedAt": 1784336663792
-    },
-    {
-      "tweetId": "2078208841569747361",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "イランの反撃ミサイルがカタール・クウェート・バーレーンまで届いた夜明けでした。W杯決勝はスペイン対アルゼンチン、英国は新首相が確定——今朝も世界が動いています。",
-      "postedAt": 1784318490079
     }
   ],
-  "breakingFollowUps": [
-    {
-      "headline": "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
-      "topic": "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
-      "stageLabel": "30分後",
-      "dueAt": 1784580437521,
-      "attempts": 1
-    }
-  ],
+  "breakingFollowUps": [],
   "breakingCheckpointsDone": [
     "2026-07-21_02:00",
     "2026-07-21_04:00"
