@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2079121434216103936",
-      "answer": "正解は「🇳🇿 ニュージーランド」でした！参加してくれてありがとう🐹\n\nライアン・フォックス（39歳）が通算10アンダーで逆転優勝、メジャー初制覇を達成しました。会場はイングランド・サウスポートのロイヤルバークデールGC。松山英樹は4アンダー14位でした。\n\n🌰豆知識：ニュージーランド勢の全英オープン制覇は、1963年のボブ・チャールズ以来、実に63年ぶりの快挙。フォックスの父はラグビーのオールブラックス選手でした！",
-      "sourceUrl": "https://www.okinawatimes.co.jp/articles/-/1884115",
-      "question": "39歳でメジャー初制覇！ 全英オープン2026の優勝者はどこの国の選手？🐹\n\n男子ゴルフの4大メジャー最終戦、全英オー",
-      "postedAt": 1784536116883,
-      "dueAt": 1784543316883,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、日本経済新聞、ABEMA TIMES、スポーツナビ、tenki.jp、ウェザーニュース、環境省熱中症予防情報サイト、GDOゴルフニュース（ゴルフダイジェスト）、ALBA Net、Bloomberg、AFP、ライブドアニュース（共同通信）",
     "沖縄タイムス（共同通信）「ライアン・フォックスが初優勝 全英ゴルフ、松山英樹14位」",
     "映画.com「トイ・ストーリー5 公開11日で興収50億円突破！ディズニー作品史上最速の記録」",
     "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos",
     "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）",
     "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」",
     "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」",
-    "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org",
-    "vietnam.vn、三菱マテリアルGOLDPARK、OANDA証券、State Street SSGA Monthly Gold Monitor July 2026、LiteFinance、CNBC、Straits Financial Group、The Gold Forecast、NHKニュース、日本経済新聞、東洋経済オンライン、時事ドットコム、Yahoo!ニュース、ライブドアニュース、日本相撲協会公式サイト、ウェザーニュース"
+    "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org"
   ],
   "recentOpeners": [
+    "W杯決勝、スペイン優勝——120分間の激闘、見届けましたか？🐹 今日は海の日で",
     "39歳でメジャー初制覇！ 全英オープン2026の優勝者はどこの国の選手？🐹\n\n",
     "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録",
     "おはようございます🐹 W杯決勝・歴代最長マイル記録更新・テヘランとクウェートの",
-    "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中",
-    "ついに動いた！長年こう着していたリニア中央新幹線🐹 7月18日、静岡県とJR東"
+    "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中"
   ],
-  "lastPostedAt": 1784536116883,
+  "lastPostedAt": 1784546859405,
   "recentBreaking": [
     "2026 FIFAワールドカップ・スペイン優勝（対アルゼンチン 1-0 延長）",
     "関東甲信・東海が梅雨明け・猛暑日・熱中症警戒アラート39都府県",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 119
+    "posts": 121
   },
   "breakingDate": "2026-07-20",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784536116883,
+  "lastAnyPostAt": 1784546859405,
   "postHistory": [
+    {
+      "tweetId": "2079166651208192265",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "W杯決勝、スペイン優勝——120分間の激闘、見届けましたか？🐹 今日は海の日でしたが、外は命にかかわる暑さ。一日ぶんのニュースをクイズで振り返りましょう。お疲",
+      "postedAt": 1784546859405
+    },
     {
       "tweetId": "2079121434216103936",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "国内・法律・農業・4択",
       "textPreview": "シャインマスカットが年200億円近く流出中…🐹\n\n本日成立した改正種苗法。農産物の新品種を守る「育成者権」の適用期間が、果樹で何年になる？\n\n投票で答えてね",
       "postedAt": 1784276168785
-    },
-    {
-      "tweetId": "2078013125983703415",
-      "kind": "breaking",
-      "category": "日経平均・一時4130円安で歴代5位の下げ幅・AI半導体株総崩れ",
-      "textPreview": "📈 いま話題\n\n日経平均が本日、一時4,130円安まで急落。終値は前日比2,694円（4%）安の6万4,141円と、下げ幅は歴代5位の大きさ🐹\n\n米国市場で",
-      "postedAt": 1784271898488
     }
   ],
   "breakingFollowUps": [],
