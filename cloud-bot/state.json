@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters、AP、BBC、CNN、CNBC、NPR、Al Jazeera、Anadolu Agency、The Street、World Athletics、SpaceNews、Wikipedia（Current Events）、PBS NewsHour、Euronews",
     "NHK、日本経済新聞、ABEMA TIMES、スポーツナビ、tenki.jp、ウェザーニュース、環境省熱中症予防情報サイト、GDOゴルフニュース（ゴルフダイジェスト）、ALBA Net、Bloomberg、AFP、ライブドアニュース（共同通信）",
     "沖縄タイムス（共同通信）「ライアン・フォックスが初優勝 全英ゴルフ、松山英樹14位」",
     "映画.com「トイ・ストーリー5 公開11日で興収50億円突破！ディズニー作品史上最速の記録」",
     "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos",
     "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）",
     "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」",
-    "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」",
-    "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org"
+    "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」"
   ],
   "recentOpeners": [
+    "今朝の通勤ブリーフィング、月曜日です。週明け早々、ニュースが怒涛のように押し寄せ",
     "W杯決勝、スペイン優勝——120分間の激闘、見届けましたか？🐹 今日は海の日で",
     "39歳でメジャー初制覇！ 全英オープン2026の優勝者はどこの国の選手？🐹\n\n",
     "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録",
-    "おはようございます🐹 W杯決勝・歴代最長マイル記録更新・テヘランとクウェートの",
-    "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中"
+    "おはようございます🐹 W杯決勝・歴代最長マイル記録更新・テヘランとクウェートの"
   ],
-  "lastPostedAt": 1784574988954,
+  "lastPostedAt": 1784578637521,
   "recentBreaking": [
     "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
     "2026 FIFAワールドカップ・スペイン優勝（対アルゼンチン 1-0 延長）",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 122
+    "posts": 123
   },
   "breakingDate": "2026-07-21",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784574988954,
+  "lastAnyPostAt": 1784578637521,
   "postHistory": [
+    {
+      "tweetId": "2079299953961185412",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "今朝の通勤ブリーフィング、月曜日です。週明け早々、ニュースが怒涛のように押し寄せています。では20問、さっとどうぞ🐹\n\n───────────────────",
+      "postedAt": 1784578637521
+    },
     {
       "tweetId": "2079284427335876661",
       "kind": "breaking",
@@ -241,13 +248,6 @@
       "category": "朝ブリーフィング",
       "textPreview": "イランの反撃ミサイルがカタール・クウェート・バーレーンまで届いた夜明けでした。W杯決勝はスペイン対アルゼンチン、英国は新首相が確定——今朝も世界が動いています。",
       "postedAt": 1784318490079
-    },
-    {
-      "tweetId": "2078074874367467842",
-      "kind": "recap",
-      "category": "夜の振り返り",
-      "textPreview": "今日の株式市場、ちょっとした衝撃でしたね。4000円超の下げは画面を見ているだけで目眩がするレベル。その波紋が今日一日のニュースを覆いました🐹 週末の3連休前",
-      "postedAt": 1784286560753
     }
   ],
   "breakingFollowUps": [
@@ -255,8 +255,8 @@
       "headline": "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
       "topic": "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
       "stageLabel": "30分後",
-      "dueAt": 1784576788954,
-      "attempts": 0
+      "dueAt": 1784580437521,
+      "attempts": 1
     }
   ],
   "breakingCheckpointsDone": [
