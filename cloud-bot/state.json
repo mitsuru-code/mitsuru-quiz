@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2079042692517097671",
+      "answer": "正解は「興収50億円突破（ディズニー史上最速）」でした！🐹 参加してくれた方ありがとうございます！\n\n7月3日に日本公開した『トイ・ストーリー５』は、公開わずか11日間で興収50億円を突破。日本で公開したディズニー全作品の中で歴代最速の記録です。初週末3日間だけで動員164万人・興収24億円超を叩き出し、洋画オープニング歴代No.1という驚異のスタートとなりました。\n\n🌰豆知識：今作の主人公はウッディではなく「ジェシー」。シリーズ第4作の時点で既に決まっていたそうで、保安官バッジが伏線だったとか！",
+      "sourceUrl": "https://eiga.com/news/20260715/2/",
+      "question": "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録はどれでしょう？🐹\n\n投票で答えてね",
+      "postedAt": 1784517357776,
+      "dueAt": 1784524557776,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "映画.com「トイ・ストーリー5 公開11日で興収50億円突破！ディズニー作品史上最速の記録」",
     "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos",
     "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）",
     "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」",
     "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」",
     "CNN、Bloomberg、NPR、Reuters（AP）、ESPN、Yahoo Finance、The Motley Fool、TheStreet、PBS NewsHour、Al Jazeera、UN News、Wikipedia（Dismissal of Mykhailo Fedorov / 2026 Labour Party leadership crisis）、Technology.org",
     "vietnam.vn、三菱マテリアルGOLDPARK、OANDA証券、State Street SSGA Monthly Gold Monitor July 2026、LiteFinance、CNBC、Straits Financial Group、The Gold Forecast、NHKニュース、日本経済新聞、東洋経済オンライン、時事ドットコム、Yahoo!ニュース、ライブドアニュース、日本相撲協会公式サイト、ウェザーニュース",
-    "時事通信「改正皇室典範が成立 制定79年で初、養子男性子孫に継承権―女性皇族、家族は一般国民」",
-    "ORICON NEWS「16回目『音楽の日』、7・18に8時間生放送決定 総合司会は安住紳一郎アナ＆江藤愛アナ」"
+    "時事通信「改正皇室典範が成立 制定79年で初、養子男性子孫に継承権―女性皇族、家族は一般国民」"
   ],
   "recentOpeners": [
+    "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録",
     "おはようございます🐹 W杯決勝・歴代最長マイル記録更新・テヘランとクウェートの",
     "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中",
     "ついに動いた！長年こう着していたリニア中央新幹線🐹 7月18日、静岡県とJR東",
-    "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュ",
-    "今朝のニュースをざっと見渡すと、ホルムズ海峡・Wall Street・W杯決勝と"
+    "昨夜、初のアリーナツアーを完走したアイドルグループがいます🐹\n指原莉乃プロデュ"
   ],
-  "lastPostedAt": 1784491506475,
+  "lastPostedAt": 1784517357776,
   "recentBreaking": [
     "中国AI・Kimi K3公開・DeepSeekショック再来・半導体株急落",
     "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 113
+    "posts": 114
   },
   "breakingDate": "2026-07-20",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784491506475,
+  "lastAnyPostAt": 1784517357776,
   "postHistory": [
+    {
+      "tweetId": "2079042692517097671",
+      "kind": "quiz",
+      "category": "映画・エンタメ・4択",
+      "textPreview": "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録はどれでしょう？🐹\n\n投票で答えてね🐹 正解は2時間後にリプで発表！",
+      "postedAt": 1784517357776
+    },
     {
       "tweetId": "2078934475841351912",
       "kind": "briefing",
@@ -241,13 +258,6 @@
       "category": "続報（5時間後）",
       "textPreview": "国旗損壊罪、7/17に参院本会議で成立へ——何が罰せられ、何は対象外？ 🐹\n\n16日の参院内閣委員会での可決を受け、法案は17日の参院本会議で可決・成立する見",
       "postedAt": 1784212588459
-    },
-    {
-      "tweetId": "2077727422653370782",
-      "kind": "recap",
-      "category": "夜の振り返り",
-      "textPreview": "利根川進さんの訃報、W杯の大逆転劇、そして朝のクレカ祭り……今日はニュースが盛りだくさんな一日でした。おつかれさまでした🐹 今日一日の出来事、クイズで振り返っ",
-      "postedAt": 1784203724407
     }
   ],
   "breakingFollowUps": [],
