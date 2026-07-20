@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2079042692517097671",
-      "answer": "正解は「興収50億円突破（ディズニー史上最速）」でした！🐹 参加してくれた方ありがとうございます！\n\n7月3日に日本公開した『トイ・ストーリー５』は、公開わずか11日間で興収50億円を突破。日本で公開したディズニー全作品の中で歴代最速の記録です。初週末3日間だけで動員164万人・興収24億円超を叩き出し、洋画オープニング歴代No.1という驚異のスタートとなりました。\n\n🌰豆知識：今作の主人公はウッディではなく「ジェシー」。シリーズ第4作の時点で既に決まっていたそうで、保安官バッジが伏線だったとか！",
-      "sourceUrl": "https://eiga.com/news/20260715/2/",
-      "question": "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録はどれでしょう？🐹\n\n投票で答えてね",
-      "postedAt": 1784517357776,
-      "dueAt": 1784524557776,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "映画.com「トイ・ストーリー5 公開11日で興収50億円突破！ディズニー作品史上最速の記録」",
     "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 115
+    "posts": 116
   },
   "breakingDate": "2026-07-20",
   "breakingCount": 1,
