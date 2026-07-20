@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "NPR、CNN、CNBC、CBS News、ABC News、NBC News、PBS NewsHour、Al Jazeera、Britannica、Wikipedia Current Events Portal、Democracy Now!、Crypto Briefing、TheStreet、FX Leaders",
     "Reuters、AP、BBC、CNN、CNBC、NPR、Al Jazeera、Anadolu Agency、The Street、World Athletics、SpaceNews、Wikipedia（Current Events）、PBS NewsHour、Euronews",
     "NHK、日本経済新聞、ABEMA TIMES、スポーツナビ、tenki.jp、ウェザーニュース、環境省熱中症予防情報サイト、GDOゴルフニュース（ゴルフダイジェスト）、ALBA Net、Bloomberg、AFP、ライブドアニュース（共同通信）",
     "沖縄タイムス（共同通信）「ライアン・フォックスが初優勝 全英ゴルフ、松山英樹14位」",
     "映画.com「トイ・ストーリー5 公開11日で興収50億円突破！ディズニー作品史上最速の記録」",
     "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos",
     "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）",
-    "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」",
-    "東スポWEB「≠MEが初のアリーナツアーを完走 蟹沢萌子『道はまだまだ続いて行きます！』」"
+    "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」"
   ],
   "recentOpeners": [
+    "火曜日の朝です。昨夜から今朝にかけて、中東情勢がまたひと段落でよくない方向に動き",
     "今朝の通勤ブリーフィング、月曜日です。週明け早々、ニュースが怒涛のように押し寄せ",
     "W杯決勝、スペイン優勝——120分間の激闘、見届けましたか？🐹 今日は海の日で",
     "39歳でメジャー初制覇！ 全英オープン2026の優勝者はどこの国の選手？🐹\n\n",
-    "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録",
-    "おはようございます🐹 W杯決勝・歴代最長マイル記録更新・テヘランとクウェートの"
+    "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録"
   ],
-  "lastPostedAt": 1784574000000,
+  "lastPostedAt": 1784586508214,
   "recentBreaking": [
     "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
     "2026 FIFAワールドカップ・スペイン優勝（対アルゼンチン 1-0 延長）",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 124
+    "posts": 125
   },
   "breakingDate": "2026-07-21",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784580719323,
+  "lastAnyPostAt": 1784586508214,
   "postHistory": [
+    {
+      "tweetId": "2079332942845825176",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "火曜日の朝です。昨夜から今朝にかけて、中東情勢がまたひと段落でよくない方向に動きました。ウクライナ、英国首相交代、W杯余波……世界が止まりませんね🐹 今朝の2",
+      "postedAt": 1784586508214
+    },
     {
       "tweetId": "2079308493652435439",
       "kind": "feature",
@@ -241,13 +248,6 @@
       "category": "エンタメ・二択",
       "textPreview": "今日7/18、TBSで8時間生放送される「音楽の日2026」🐹 安住紳一郎アナが総合司会を務めるのは、今年で何回目でしょう？ 投票で答えてね🐹 正解は2時間",
       "postedAt": 1784346026338
-    },
-    {
-      "tweetId": "2078284861702340617",
-      "kind": "quiz",
-      "category": "スポーツ・4択",
-      "textPreview": "名古屋場所で旋風を巻き起こしてる力士がいます🐹\n大相撲名古屋場所（7月場所）で6日目終了時点の単独首位・平幕「獅司」。彼はどこの国の出身でしょう？\n投票で答え",
-      "postedAt": 1784336663792
     }
   ],
   "breakingFollowUps": [],
