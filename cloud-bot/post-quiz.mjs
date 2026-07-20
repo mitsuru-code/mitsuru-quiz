@@ -104,6 +104,14 @@ function jstDateKey(ms) {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(ms));
 }
 
+// 日付・曜日を明示してプロンプトに埋め込むためのラベル（例: "2026年7月21日火曜日"）。
+// Web検索結果や生成モデル自身の記憶に基づく曜日推定は実際の日付とずれることがあるため
+// （実際に「月曜日です」という誤りが本番投稿された事故が発生）、コード側で計算した
+// 正しい日付・曜日を明示的に伝え、それを優先させる
+function jstDateLabel(ms) {
+  return new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' }).format(new Date(ms));
+}
+
 // 現在時刻に対して「今日まだ未処理」かつ「予定時刻を過ぎて猶予時間内」の
 // 速報チェックポイントを1件返す（無ければnull）。doneKeysは当日処理済みの"日付_時刻"キー一覧
 function findDueCheckpoint(now, doneKeys) {
@@ -392,9 +400,12 @@ const CHARACTER = `【キャラクター設定】
 - Markdown記法は一切使わない（**太字**、# 見出し、- 箇条書きなど禁止）。Xは生のテキストがそのまま表示されるため、Markdown記号は読者にそのまま記号として見えてしまう。区切り線が必要な場合は「─」（罫線文字）を使い、ハイフン3つ「---」は使わない`;
 
 // ===== 生成: 朝のブリーフィング（5時台） =====
-async function generateBriefing(state) {
+async function generateBriefing(state, now) {
   const recentOpeners = (state.recentOpeners || []).join(' / ');
+  const todayLabel = jstDateLabel(now);
   const prompt = `${CHARACTER}
+
+【本日の日付】${todayLabel}（日本時間）。曜日や日付に言及する場合は必ずこの情報を使うこと。Web検索結果や自身の記憶に基づく曜日推定がこれと食い違っても、この日付情報を優先すること（誤った曜日を投稿してしまう事故が過去に発生したため）。
 
 Web検索を使って、「日本時間の昨夜から今朝（前日22時〜今朝6時ごろ）に海外で報じられた・起きたニュース」を幅広く調べてください（Reuters/AP/BBC/CNN/Bloomberg等の海外メディア中心。米国市場の動き、国際政治、テクノロジー、スポーツの海外試合結果など）。
 
@@ -462,6 +473,8 @@ async function generateRecap(state, now) {
       .filter(Boolean)
   )].join(' / ');
   const prompt = `${CHARACTER}
+
+【本日の日付】${jstDateLabel(now)}（日本時間）。曜日や日付に言及する場合は必ずこの情報を使うこと。Web検索結果や自身の記憶に基づく曜日推定がこれと食い違っても、この日付情報を優先すること（誤った曜日を投稿してしまう事故が過去に発生したため）。
 
 Web検索で「今日（日本時間の本日）の主要ニュース」を国内外・経済・社会・スポーツから幅広く調べてください。
 
@@ -882,7 +895,7 @@ async function main() {
     if (!FORCE_POST) console.log(`📮 ${slotStr} のスロット（${profile.kind}）が未投稿のため投稿します（${delayMin}分経過）`);
 
     if (profile.kind === 'briefing' || profile.kind === 'recap') {
-      const gen = profile.kind === 'briefing' ? await generateBriefing(state) : await generateRecap(state, now);
+      const gen = profile.kind === 'briefing' ? await generateBriefing(state, now) : await generateRecap(state, now);
       if (!gen.text) throw new Error('生成結果に text がありません');
       console.log(`🧠 生成した${gen.category}（${gen.text.length}文字）:\n${safeSlice(gen.text, 300)}…\n`);
       if (DRY_RUN) {
