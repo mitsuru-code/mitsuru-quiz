@@ -1,0 +1,30 @@
+# cloud-bot/post-quiz.mjs のテスト。PRやmainへのpushで自動実行し、
+# 構文エラーやロジックのリグレッション（サロゲート処理・曜日チェック等）を早期に検知する
+name: Cloud Bot Tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'cloud-bot/**'
+      - '.github/workflows/cloud-bot-test.yml'
+  pull_request:
+    paths:
+      - 'cloud-bot/**'
+      - '.github/workflows/cloud-bot-test.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 構文チェック
+        run: node --check cloud-bot/post-quiz.mjs
+
+      - name: 単体テスト
+        run: node --test cloud-bot/test/post-quiz.test.mjs

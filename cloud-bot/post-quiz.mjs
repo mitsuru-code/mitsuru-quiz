@@ -100,7 +100,7 @@ function latestSlotEpoch(nowMs) {
   return Date.UTC(jst.getUTCFullYear(), jst.getUTCMonth(), jst.getUTCDate() + dayOffset, slotHour - 9, 0, 0);
 }
 
-function jstDateKey(ms) {
+export function jstDateKey(ms) {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(ms));
 }
 
@@ -108,13 +108,13 @@ function jstDateKey(ms) {
 // Web検索結果や生成モデル自身の記憶に基づく曜日推定は実際の日付とずれることがあるため
 // （実際に「月曜日です」という誤りが本番投稿された事故が発生）、コード側で計算した
 // 正しい日付・曜日を明示的に伝え、それを優先させる
-function jstDateLabel(ms) {
+export function jstDateLabel(ms) {
   return new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' }).format(new Date(ms));
 }
 
 // 現在時刻に対して「今日まだ未処理」かつ「予定時刻を過ぎて猶予時間内」の
 // 速報チェックポイントを1件返す（無ければnull）。doneKeysは当日処理済みの"日付_時刻"キー一覧
-function findDueCheckpoint(now, doneKeys) {
+export function findDueCheckpoint(now, doneKeys) {
   const todayKey = jstDateKey(now);
   const hhmm = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(now));
   const [h, m] = hhmm.split(':').map(Number);
@@ -203,8 +203,46 @@ async function getPollSummary(tweetId) {
   }
 }
 
+// 曜日チェックの対象範囲（冒頭のみ）。記事本文の途中では「来週日曜日に」のような
+// "今日"以外の日付への正当な言及があり得るため、実際の事故が起きた「冒頭の自己紹介文
+// （今朝の●●、○曜日です）」の範囲だけを対象にすることで誤検知を避ける
+const WEEKDAY_CHECK_HEAD_CHARS = 80;
+
+// 投稿直前の機械的サニティチェック（最後の砦）。プロンプト側の指示や生成モデルの
+// 自己申告だけに頼らず、明らかにおかしい投稿を機械的に検知して中断する。
+// 1) 孤立サロゲート（絵文字の途中で切れた不正なUTF-16文字）が残っていないか
+//    → 残っていると"no low surrogate in string"でX APIに拒否される事故が実際に発生した
+// 2) 冒頭の「○曜日」という言及が、実際の日付の曜日と食い違っていないか
+//    → AIが実際とは異なる曜日を書いて投稿してしまう事故が実際に発生した
+export function assertValidPostText(text, now = parseInt(process.env.NOW_MS || '', 10) || Date.now()) {
+  for (let i = 0; i < text.length; i++) {
+    const code = text.charCodeAt(i);
+    if (code >= 0xD800 && code <= 0xDBFF) {
+      const next = text.charCodeAt(i + 1);
+      if (!(next >= 0xDC00 && next <= 0xDFFF)) {
+        throw new Error(`投稿本文に不正な文字（孤立サロゲート）が含まれています（位置${i}）`);
+      }
+    } else if (code >= 0xDC00 && code <= 0xDFFF) {
+      const prev = text.charCodeAt(i - 1);
+      if (!(prev >= 0xD800 && prev <= 0xDBFF)) {
+        throw new Error(`投稿本文に不正な文字（孤立サロゲート）が含まれています（位置${i}）`);
+      }
+    }
+  }
+
+  const actualWeekday = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', weekday: 'short' }).format(new Date(now)); // 例: "火"
+  const head = text.slice(0, WEEKDAY_CHECK_HEAD_CHARS);
+  const mentioned = head.match(/[日月火水木金土]曜日/g) || [];
+  for (const m of mentioned) {
+    if (m[0] !== actualWeekday) {
+      throw new Error(`投稿冒頭の曜日表記「${m}」が実際の日付（${actualWeekday}曜日）と一致しません`);
+    }
+  }
+}
+
 // poll: { options: string[], duration_minutes: number } を渡すと投票付き投稿になる
 function postTweet(text, replyToId, poll) {
+  assertValidPostText(text);
   return new Promise((resolve, reject) => {
     const apiUrl = 'https://api.twitter.com/2/tweets';
     const payload = { text };
@@ -369,7 +407,7 @@ async function callClaudePlain(prompt, maxTokens, maxSearches, allowEmpty = fals
 // プロンプトで禁止していても、Claudeが習慣的にMarkdown記法（太字・水平線）を
 // 混ぜてしまうことがある（生の「**」やASCII罫線「---」がそのまま投稿される事故）。
 // プロンプト側の指示だけに頼らず、最後の砦としてここで機械的に取り除く
-function stripMarkdown(text) {
+export function stripMarkdown(text) {
   return text
     .replace(/\*\*(.*?)\*\*/g, '$1')      // **太字** → 太字
     .replace(/^-{3,}\s*$/gm, '─'.repeat(21)); // 独立行の "---" → 罫線文字に置き換え
@@ -380,7 +418,7 @@ function stripMarkdown(text) {
 // その文字列を後で（recentOpeners経由で）APIリクエストのJSON本文に含めると
 // "no low surrogate in string" エラーで以後の生成が全滅する事故が実際に発生した。
 // 末尾が高サロゲート単体になっていたら1文字落とす
-function safeSlice(str, maxLen) {
+export function safeSlice(str, maxLen) {
   let sliced = str.slice(0, maxLen);
   const lastCode = sliced.charCodeAt(sliced.length - 1);
   if (lastCode >= 0xD800 && lastCode <= 0xDBFF) {
@@ -590,7 +628,7 @@ ${recentBreaking ? `【既に投稿済みの速報（同じ話題は不可）】
 
 // フォローアップ記事の予約。生活直結の話題(followUp)なら30分後、未確定情報が多い場合(uncertain)は
 // 2時間後・5時間後にも積む。topicは検索精度のため、手動指定時は元のBREAKING_TOPIC文言を渡す
-function scheduleFollowUps(state, headline, topic, now, followUp, uncertain) {
+export function scheduleFollowUps(state, headline, topic, now, followUp, uncertain) {
   if (!followUp) return;
   state.breakingFollowUps = state.breakingFollowUps || [];
   const stages = uncertain
@@ -1022,20 +1060,23 @@ async function main() {
   console.log('✅ 完了');
 }
 
-main().catch(e => {
-  console.error('❌ 実行エラー:', e.message);
-  if (e.message.includes('HTTP 401')) {
-    console.error(`💡 401(認証失敗)の主な原因:
+// テストからこのファイルをimportした際に自動実行されないよう、直接実行時のみmain()を起動する
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch(e => {
+    console.error('❌ 実行エラー:', e.message);
+    if (e.message.includes('HTTP 401')) {
+      console.error(`💡 401(認証失敗)の主な原因:
   1. X Developer Portalのアプリ権限が「Read」のみ → 「Read and Write」に変更し、
      その後 Access Token & Secret を必ず「Regenerate」して、GitHubのSecrets
      （X_ACCESS_TOKEN / X_ACCESS_TOKEN_SECRET）を新しい値に更新する
   2. Secretsの値の貼り間違い（API Key と Access Token の取り違え等）
   3. キー長（CK≈25 / CS≈50 / AT≈50 / AS≈45 が目安）が極端に違う場合は値が別物`);
-  } else if (e.message.includes('HTTP 403')) {
-    console.error(`💡 403(権限拒否)の主な原因:
+    } else if (e.message.includes('HTTP 403')) {
+      console.error(`💡 403(権限拒否)の主な原因:
   1. アプリがProjectに紐付いていない（Developer PortalでProject配下にアプリを作る）
   2. 同一内容の重複投稿
   3. APIプランの制限`);
-  }
-  process.exit(1);
-});
+    }
+    process.exit(1);
+  });
+}
