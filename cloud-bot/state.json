@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2079414460272291874",
+      "answer": "正解は「滝音」でした！投票してくれたみなさん、ありがとうございます🐹\n\nさすけ・秋定遼太郎の2人が2896組の頂点に立ち、優勝賞金1000万円を獲得！ファイナルステージで合計951点をマークし、準優勝のドンデコルテ（943点）を8点差で逆転しての栄冠でした。結成は2016年、実に10年目での初賞レース優勝です✨\n\n🌰豆知識：ダブルインパクトは日本テレビと読売テレビが2025年に新設した賞レース。漫才とコント両方の実力が問われる、芸人にとってかなりタフな戦いです。",
+      "sourceUrl": "https://www.oricon.co.jp/news/2468997/full/",
+      "question": "昨夜のお笑い賞レース、見た？🐹\n漫才とコントの「二刀流日本一」を決める大会『ダブルインパクト2026』で優勝したのはど",
+      "postedAt": 1784605994694,
+      "dueAt": 1784613194694,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "オリコンニュース「【ダブルインパクト】2代目王者は滝音 2896組の頂点に トップバッターから優勝果たす」",
     "NPR、CNN、CNBC、CBS News、ABC News、NBC News、PBS NewsHour、Al Jazeera、Britannica、Wikipedia Current Events Portal、Democracy Now!、Crypto Briefing、TheStreet、FX Leaders",
     "Reuters、AP、BBC、CNN、CNBC、NPR、Al Jazeera、Anadolu Agency、The Street、World Athletics、SpaceNews、Wikipedia（Current Events）、PBS NewsHour、Euronews",
     "NHK、日本経済新聞、ABEMA TIMES、スポーツナビ、tenki.jp、ウェザーニュース、環境省熱中症予防情報サイト、GDOゴルフニュース（ゴルフダイジェスト）、ALBA Net、Bloomberg、AFP、ライブドアニュース（共同通信）",
     "沖縄タイムス（共同通信）「ライアン・フォックスが初優勝 全英ゴルフ、松山英樹14位」",
     "映画.com「トイ・ストーリー5 公開11日で興収50億円突破！ディズニー作品史上最速の記録」",
     "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos",
-    "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）",
-    "nippon.com「リニア静岡工区着工へ協定＝静岡県とＪＲ東海が締結」／NHKニュース「リニア中央新幹線 静岡県内着工へ 静岡県とJR東海協定締結」"
+    "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）"
   ],
   "recentOpeners": [
+    "昨夜のお笑い賞レース、見た？🐹\n漫才とコントの「二刀流日本一」を決める大会『ダ",
     "火曜日の朝です。昨夜から今朝にかけて、中東情勢がまたひと段落でよくない方向に動き",
     "今朝の通勤ブリーフィング、月曜日です。週明け早々、ニュースが怒涛のように押し寄せ",
     "W杯決勝、スペイン優勝——120分間の激闘、見届けましたか？🐹 今日は海の日で",
-    "39歳でメジャー初制覇！ 全英オープン2026の優勝者はどこの国の選手？🐹\n\n",
-    "大ヒット上映中の『トイ・ストーリー５』、日本公開からわずか11日間で達成した記録"
+    "39歳でメジャー初制覇！ 全英オープン2026の優勝者はどこの国の選手？🐹\n\n"
   ],
-  "lastPostedAt": 1784596030376,
+  "lastPostedAt": 1784605994694,
   "recentBreaking": [
     "フーシ派・サウジアラビアへ紅海海上封鎖を即時宣言",
     "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 126
+    "posts": 127
   },
   "breakingDate": "2026-07-21",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784596030376,
+  "lastAnyPostAt": 1784605994694,
   "postHistory": [
+    {
+      "tweetId": "2079414460272291874",
+      "kind": "quiz",
+      "category": "エンタメ・4択",
+      "textPreview": "昨夜のお笑い賞レース、見た？🐹\n漫才とコントの「二刀流日本一」を決める大会『ダブルインパクト2026』で優勝したのはどのコンビでしょう？\n投票で答えてね🐹 ",
+      "postedAt": 1784605994694
+    },
     {
       "tweetId": "2079372641849225505",
       "kind": "breaking",
@@ -241,13 +258,6 @@
       "category": "特集記事",
       "textPreview": "「準決勝で敗れた者同士」が、今度は銅メダルをかけてぶつかる🐹\n\nフランスとイングランドが、W杯2026・3位決定戦（日本時間7月19日日曜・午前6:00キック",
       "postedAt": 1784358720977
-    },
-    {
-      "tweetId": "2078352714635821528",
-      "kind": "breaking",
-      "category": "金国際価格・7/18アジア市場で4,017ドルに回復・中東情勢で乱高下継続",
-      "textPreview": "📈 いま話題｜金価格、1オンス4,017ドルに再浮上🐹\n\n7月16日に3,900ドル台へ急落した金（ゴールド）の国際価格が、7月18日のアジア市場で1オンス",
-      "postedAt": 1784352856650
     }
   ],
   "breakingFollowUps": [
@@ -255,8 +265,8 @@
       "headline": "フーシ派・サウジアラビアへ紅海海上封鎖を即時宣言",
       "topic": "フーシ派・サウジアラビアへ紅海海上封鎖を即時宣言",
       "stageLabel": "30分後",
-      "dueAt": 1784597830376,
-      "attempts": 0
+      "dueAt": 1784607794694,
+      "attempts": 1
     },
     {
       "headline": "フーシ派・サウジアラビアへ紅海海上封鎖を即時宣言",
