@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2079485390642180581",
+      "answer": "正解は「総額370兆円超」でした！参加してくれてありがとう🐹\n\n本日（7月21日）、政府は「日本成長戦略」を閣議決定。AI・半導体、造船、航空・宇宙、コンテンツなど17の戦略分野に、官民が連携して2040年度までに370兆円超を投資する目標が盛り込まれました。\n\n🌰豆知識：17分野には「フィジカルAI（ロボットをAIが自律制御）」や「フードテック（植物工場など）」といった次世代産業も含まれています。",
+      "sourceUrl": "https://www.cas.go.jp/jp/seisaku/nipponseichosenryaku/index.html",
+      "question": "今日、政府が閣議決定した「日本成長戦略」。17の重点分野への官民投資目標は2040年度までにいくらでしょう？\n\n投票で答",
+      "postedAt": 1784622895283,
+      "dueAt": 1784630095283,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "内閣官房「日本成長戦略本部」公式サイト・NHKニュース",
     "オリコンニュース「【ダブルインパクト】2代目王者は滝音 2896組の頂点に トップバッターから優勝果たす」",
     "NPR、CNN、CNBC、CBS News、ABC News、NBC News、PBS NewsHour、Al Jazeera、Britannica、Wikipedia Current Events Portal、Democracy Now!、Crypto Briefing、TheStreet、FX Leaders",
     "Reuters、AP、BBC、CNN、CNBC、NPR、Al Jazeera、Anadolu Agency、The Street、World Athletics、SpaceNews、Wikipedia（Current Events）、PBS NewsHour、Euronews",
     "NHK、日本経済新聞、ABEMA TIMES、スポーツナビ、tenki.jp、ウェザーニュース、環境省熱中症予防情報サイト、GDOゴルフニュース（ゴルフダイジェスト）、ALBA Net、Bloomberg、AFP、ライブドアニュース（共同通信）",
     "沖縄タイムス（共同通信）「ライアン・フォックスが初優勝 全英ゴルフ、松山英樹14位」",
     "映画.com「トイ・ストーリー5 公開11日で興収50億円突破！ディズニー作品史上最速の記録」",
-    "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos",
-    "朝日新聞、NHK、AFP=時事、BBC News、日本経済新聞、Forbes JAPAN、ITmedia NEWS、JAPANSecuritySummit Update、Olympics.com、共同通信、ライブドアニュース、note（IT navi）"
+    "Reuters, AP, Al Jazeera, CNN, NPR, CNBC, FIFA, World Athletics, UPI, Schwab, Yahoo Finance, TransformerNews, Daily Kos"
   ],
   "recentOpeners": [
+    "今日、政府が閣議決定した「日本成長戦略」。17の重点分野への官民投資目標は204",
     "昨夜のお笑い賞レース、見た？🐹\n漫才とコントの「二刀流日本一」を決める大会『ダ",
     "火曜日の朝です。昨夜から今朝にかけて、中東情勢がまたひと段落でよくない方向に動き",
     "今朝の通勤ブリーフィング、月曜日です。週明け早々、ニュースが怒涛のように押し寄せ",
-    "W杯決勝、スペイン優勝——120分間の激闘、見届けましたか？🐹 今日は海の日で",
-    "39歳でメジャー初制覇！ 全英オープン2026の優勝者はどこの国の選手？🐹\n\n"
+    "W杯決勝、スペイン優勝——120分間の激闘、見届けましたか？🐹 今日は海の日で"
   ],
-  "lastPostedAt": 1784618893783,
+  "lastPostedAt": 1784622895283,
   "recentBreaking": [
     "政府・成長戦略閣議決定・17分野370兆円超・骨太方針も同日決定",
     "フーシ派・サウジアラビアへ紅海海上封鎖を即時宣言",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 132
+    "posts": 133
   },
   "breakingDate": "2026-07-21",
   "breakingCount": 3,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784618893783,
+  "lastAnyPostAt": 1784622895283,
   "postHistory": [
+    {
+      "tweetId": "2079485390642180581",
+      "kind": "quiz",
+      "category": "経済・二択",
+      "textPreview": "今日、政府が閣議決定した「日本成長戦略」。17の重点分野への官民投資目標は2040年度までにいくらでしょう？\n\n投票で答えてね🐹 正解は2時間後にリプで発表！",
+      "postedAt": 1784622895283
+    },
     {
       "tweetId": "2079468626189369765",
       "kind": "feature",
@@ -241,13 +258,6 @@
       "category": "続報（2時間後）",
       "textPreview": "🚨 米兵2名死亡・イランがMOU\"停止\"宣言──事態は全面戦争の瀬戸際へ\n\n7月18日、状況は速報時点からさらに深刻化しています。\n\n米軍は、ヨルダンで展開中",
       "postedAt": 1784404179882
-    },
-    {
-      "tweetId": "2078549435668484476",
-      "kind": "feature",
-      "category": "続報（30分後）",
-      "textPreview": "イランが停戦合意の履行を正式停止、米軍人2人死亡——事態は全面戦争に向かいつつある🐹\n\n7月18日、イランは先月ワシントンと交わした暫定合意（覚書）について、",
-      "postedAt": 1784399744103
     }
   ],
   "breakingFollowUps": [],
