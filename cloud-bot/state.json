@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2079847620843889127",
+      "answer": "正解は「15歳未満」でした！参加してくれてありがとう🐹\n\nフランスの上院・下院は7月21日、15歳未満の子どものSNS利用を禁止する法案をそれぞれ賛成多数で可決。9月1日に施行されれば、同種の法律はヨーロッパ初となります。15歳未満は新規アカウントの作成が不可になり、既存アカウントも2027年1月以降は閉鎖される予定です。\n\n🌰豆知識\n似た法律を世界で最初に国レベルで施行したのはオーストラリア（2025年12月）で、対象は16歳未満。ただし年齢確認の抜け穴が多く、16歳未満の85%が使い続けているという調査結果も出ています。\n\n（出典: GIGAZINE）",
+      "sourceUrl": "https://gigazine.net/news/20260722-france-sns-ban-under-15/",
+      "question": "フランスがSNS禁止法を可決。対象は何歳未満？\n\n7月21日、フランス議会が未成年のSNS利用を禁止する法律を可決しまし",
+      "postedAt": 1784709263580,
+      "dueAt": 1784716463580,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "GIGAZINE「15歳未満のSNS禁止法案をEUで初めてフランス議会が可決」",
     "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」",
     "Reuters、AP、CNN、CNBC、BBC、Al Jazeera、Democracy Now、Just Security、Fox Sports、The Street、Yahoo Finance、ECDC、ABC News、CBS News、NPR",
     "NHK、毎日新聞、日本経済新聞、時事通信、内閣官房（cas.go.jp）、経団連、外為どっとコム、CIVIC AI、Al Jazeera、Reuters（NBC News経由）、Foreign Policy、Washington Times、Bloomberg、House of Saud、Impress Watch、TBS NEWS DIG（Yahoo!ニュース）、ライブドアニュース、共同通信",
     "内閣官房「日本成長戦略本部」公式サイト・NHKニュース",
     "オリコンニュース「【ダブルインパクト】2代目王者は滝音 2896組の頂点に トップバッターから優勝果たす」",
     "NPR、CNN、CNBC、CBS News、ABC News、NBC News、PBS NewsHour、Al Jazeera、Britannica、Wikipedia Current Events Portal、Democracy Now!、Crypto Briefing、TheStreet、FX Leaders",
-    "Reuters、AP、BBC、CNN、CNBC、NPR、Al Jazeera、Anadolu Agency、The Street、World Athletics、SpaceNews、Wikipedia（Current Events）、PBS NewsHour、Euronews",
-    "NHK、日本経済新聞、ABEMA TIMES、スポーツナビ、tenki.jp、ウェザーニュース、環境省熱中症予防情報サイト、GDOゴルフニュース（ゴルフダイジェスト）、ALBA Net、Bloomberg、AFP、ライブドアニュース（共同通信）"
+    "Reuters、AP、BBC、CNN、CNBC、NPR、Al Jazeera、Anadolu Agency、The Street、World Athletics、SpaceNews、Wikipedia（Current Events）、PBS NewsHour、Euronews"
   ],
   "recentOpeners": [
+    "フランスがSNS禁止法を可決。対象は何歳未満？\n\n7月21日、フランス議会が未成",
     "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、N",
     "水曜の朝、おはようございます🐹 中東情勢が止まらない。米軍のイラン攻撃が10夜",
     "フーシ派がサウジアラビアへの海上封鎖を即時宣言——紅海とホルムズ海峡、両方が同時",
-    "今日、政府が閣議決定した「日本成長戦略」。17の重点分野への官民投資目標は204",
-    "昨夜のお笑い賞レース、見た？🐹\n漫才とコントの「二刀流日本一」を決める大会『ダ"
+    "今日、政府が閣議決定した「日本成長戦略」。17の重点分野への官民投資目標は204"
   ],
-  "lastPostedAt": 1784705394907,
+  "lastPostedAt": 1784709263580,
   "recentBreaking": [
     "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大",
     "高市内閣支持率・毎日調査で41%・不支持率が初めて逆転",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 144
+    "posts": 145
   },
   "breakingDate": "2026-07-22",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784705394907,
+  "lastAnyPostAt": 1784709263580,
   "postHistory": [
+    {
+      "tweetId": "2079847620843889127",
+      "kind": "quiz",
+      "category": "国際・二択",
+      "textPreview": "フランスがSNS禁止法を可決。対象は何歳未満？\n\n7月21日、フランス議会が未成年のSNS利用を禁止する法律を可決しました。9月に施行されればヨーロッパ初の規制",
+      "postedAt": 1784709263580
+    },
     {
       "tweetId": "2079831394444882238",
       "kind": "feature",
@@ -241,13 +258,6 @@
       "category": "夜の振り返り",
       "textPreview": "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中東の情勢がこれだけ激しく動いた週末でした。今日一日、どのくらい追えていましたか？",
       "postedAt": 1784461307654
-    },
-    {
-      "tweetId": "2078769211921277187",
-      "kind": "feature",
-      "category": "続報（2時間後）",
-      "textPreview": "佐川急便の情報漏えい、「送り状番号」も対象と判明——不正利用は現時点でなし🐹\n\n先ほどお伝えした佐川急便「スマートクラブ」の情報漏えい事案について、公式発表の",
-      "postedAt": 1784452158965
     }
   ],
   "breakingFollowUps": [],
