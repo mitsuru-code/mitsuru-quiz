@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2079777300795764842",
-      "answer": "正解は「48本」でした！参加してくれてありがとう🐹\n大谷翔平は7月12日（現地）のダイヤモンドバックス戦で22号先頭打者初球弾を放ち、日米通算350号（NPB48本＋MLB302本）を達成。飛距離133メートルの特大アーチでした。松井秀喜氏に次ぐ2人目の快挙です。\n🌰豆知識：この弾は今季9本目の先頭打者アーチ。1試合の先頭打者弾の数では歴代屈指のペースです。",
-      "sourceUrl": "https://www.tv-tokyo.co.jp/sports/articles/2026/07/042209.html",
-      "question": "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、NPB◯本＋MLB◯本の合計。さて、NPB",
-      "postedAt": 1784692500005,
-      "dueAt": 1784699700005,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」",
     "Reuters、AP、CNN、CNBC、BBC、Al Jazeera、Democracy Now、Just Security、Fox Sports、The Street、Yahoo Finance、ECDC、ABC News、CBS News、NPR",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 142
+    "posts": 143
   },
   "breakingDate": "2026-07-22",
   "breakingCount": 2,
@@ -271,6 +261,7 @@
   ],
   "breakingCheckpointsDone": [
     "2026-07-22_02:00",
-    "2026-07-22_09:30"
+    "2026-07-22_09:30",
+    "2026-07-22_15:00"
   ]
 }
