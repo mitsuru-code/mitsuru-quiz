@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "NHK、外為どっとコム、みんかぶFX、OANDA Japan、毎日新聞（世論調査）、ANN（世論調査）、AFP、ジェトロ、日中BizNavi",
     "GIGAZINE「15歳未満のSNS禁止法案をEUで初めてフランス議会が可決」",
     "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」",
     "Reuters、AP、CNN、CNBC、BBC、Al Jazeera、Democracy Now、Just Security、Fox Sports、The Street、Yahoo Finance、ECDC、ABC News、CBS News、NPR",
     "NHK、毎日新聞、日本経済新聞、時事通信、内閣官房（cas.go.jp）、経団連、外為どっとコム、CIVIC AI、Al Jazeera、Reuters（NBC News経由）、Foreign Policy、Washington Times、Bloomberg、House of Saud、Impress Watch、TBS NEWS DIG（Yahoo!ニュース）、ライブドアニュース、共同通信",
     "内閣官房「日本成長戦略本部」公式サイト・NHKニュース",
     "オリコンニュース「【ダブルインパクト】2代目王者は滝音 2896組の頂点に トップバッターから優勝果たす」",
-    "NPR、CNN、CNBC、CBS News、ABC News、NBC News、PBS NewsHour、Al Jazeera、Britannica、Wikipedia Current Events Portal、Democracy Now!、Crypto Briefing、TheStreet、FX Leaders",
-    "Reuters、AP、BBC、CNN、CNBC、NPR、Al Jazeera、Anadolu Agency、The Street、World Athletics、SpaceNews、Wikipedia（Current Events）、PBS NewsHour、Euronews"
+    "NPR、CNN、CNBC、CBS News、ABC News、NBC News、PBS NewsHour、Al Jazeera、Britannica、Wikipedia Current Events Portal、Democracy Now!、Crypto Briefing、TheStreet、FX Leaders"
   ],
   "recentOpeners": [
+    "ドル円が39年7カ月ぶりの163円台……財布の痛みが数字になって出てきた日でした",
     "フランスがSNS禁止法を可決。対象は何歳未満？\n\n7月21日、フランス議会が未成",
     "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、N",
     "水曜の朝、おはようございます🐹 中東情勢が止まらない。米軍のイラン攻撃が10夜",
-    "フーシ派がサウジアラビアへの海上封鎖を即時宣言——紅海とホルムズ海峡、両方が同時",
-    "今日、政府が閣議決定した「日本成長戦略」。17の重点分野への官民投資目標は204"
+    "フーシ派がサウジアラビアへの海上封鎖を即時宣言——紅海とホルムズ海峡、両方が同時"
   ],
-  "lastPostedAt": 1784709263580,
+  "lastPostedAt": 1784725749742,
   "recentBreaking": [
     "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大",
     "高市内閣支持率・毎日調査で41%・不支持率が初めて逆転",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 146
+    "posts": 147
   },
   "breakingDate": "2026-07-22",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784709263580,
+  "lastAnyPostAt": 1784725749742,
   "postHistory": [
+    {
+      "tweetId": "2079916931134439872",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "ドル円が39年7カ月ぶりの163円台……財布の痛みが数字になって出てきた日でした。今日のニュース、どれだけ頭に残ってる？ お疲れさまでした🐹\n\n───────",
+      "postedAt": 1784725749742
+    },
     {
       "tweetId": "2079847620843889127",
       "kind": "quiz",
@@ -241,13 +248,6 @@
       "category": "続報（5時間後）",
       "textPreview": "「自分の情報を見た人が誰かも分からない」─ 佐川急便の漏洩、サービスは復旧済みも\"お詫びメール\"で続く不安 🐹\n\n7月15日夕方ごろに発生した会員サービス「ス",
       "postedAt": 1784464540190
-    },
-    {
-      "tweetId": "2078807835127726402",
-      "kind": "recap",
-      "category": "夜の振り返り",
-      "textPreview": "米軍が7夜連続でイランを空爆、イランはクウェートとヨルダンの米軍拠点に報復——中東の情勢がこれだけ激しく動いた週末でした。今日一日、どのくらい追えていましたか？",
-      "postedAt": 1784461307654
     }
   ],
   "breakingFollowUps": [],
