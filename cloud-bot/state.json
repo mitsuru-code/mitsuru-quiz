@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2079777300795764842",
+      "answer": "正解は「48本」でした！参加してくれてありがとう🐹\n大谷翔平は7月12日（現地）のダイヤモンドバックス戦で22号先頭打者初球弾を放ち、日米通算350号（NPB48本＋MLB302本）を達成。飛距離133メートルの特大アーチでした。松井秀喜氏に次ぐ2人目の快挙です。\n🌰豆知識：この弾は今季9本目の先頭打者アーチ。1試合の先頭打者弾の数では歴代屈指のペースです。",
+      "sourceUrl": "https://www.tv-tokyo.co.jp/sports/articles/2026/07/042209.html",
+      "question": "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、NPB◯本＋MLB◯本の合計。さて、NPB",
+      "postedAt": 1784692500005,
+      "dueAt": 1784699700005,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」",
     "Reuters、AP、CNN、CNBC、BBC、Al Jazeera、Democracy Now、Just Security、Fox Sports、The Street、Yahoo Finance、ECDC、ABC News、CBS News、NPR",
     "NHK、毎日新聞、日本経済新聞、時事通信、内閣官房（cas.go.jp）、経団連、外為どっとコム、CIVIC AI、Al Jazeera、Reuters（NBC News経由）、Foreign Policy、Washington Times、Bloomberg、House of Saud、Impress Watch、TBS NEWS DIG（Yahoo!ニュース）、ライブドアニュース、共同通信",
     "内閣官房「日本成長戦略本部」公式サイト・NHKニュース",
     "オリコンニュース「【ダブルインパクト】2代目王者は滝音 2896組の頂点に トップバッターから優勝果たす」",
     "NPR、CNN、CNBC、CBS News、ABC News、NBC News、PBS NewsHour、Al Jazeera、Britannica、Wikipedia Current Events Portal、Democracy Now!、Crypto Briefing、TheStreet、FX Leaders",
     "Reuters、AP、BBC、CNN、CNBC、NPR、Al Jazeera、Anadolu Agency、The Street、World Athletics、SpaceNews、Wikipedia（Current Events）、PBS NewsHour、Euronews",
-    "NHK、日本経済新聞、ABEMA TIMES、スポーツナビ、tenki.jp、ウェザーニュース、環境省熱中症予防情報サイト、GDOゴルフニュース（ゴルフダイジェスト）、ALBA Net、Bloomberg、AFP、ライブドアニュース（共同通信）",
-    "沖縄タイムス（共同通信）「ライアン・フォックスが初優勝 全英ゴルフ、松山英樹14位」"
+    "NHK、日本経済新聞、ABEMA TIMES、スポーツナビ、tenki.jp、ウェザーニュース、環境省熱中症予防情報サイト、GDOゴルフニュース（ゴルフダイジェスト）、ALBA Net、Bloomberg、AFP、ライブドアニュース（共同通信）"
   ],
   "recentOpeners": [
+    "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、N",
     "水曜の朝、おはようございます🐹 中東情勢が止まらない。米軍のイラン攻撃が10夜",
     "フーシ派がサウジアラビアへの海上封鎖を即時宣言——紅海とホルムズ海峡、両方が同時",
     "今日、政府が閣議決定した「日本成長戦略」。17の重点分野への官民投資目標は204",
-    "昨夜のお笑い賞レース、見た？🐹\n漫才とコントの「二刀流日本一」を決める大会『ダ",
-    "火曜日の朝です。昨夜から今朝にかけて、中東情勢がまたひと段落でよくない方向に動き"
+    "昨夜のお笑い賞レース、見た？🐹\n漫才とコントの「二刀流日本一」を決める大会『ダ"
   ],
-  "lastPostedAt": 1784682366139,
+  "lastPostedAt": 1784692500005,
   "recentBreaking": [
     "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大",
     "高市内閣支持率・毎日調査で41%・不支持率が初めて逆転",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 139
+    "posts": 140
   },
   "breakingDate": "2026-07-22",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784682366139,
+  "lastAnyPostAt": 1784692500005,
   "postHistory": [
+    {
+      "tweetId": "2079777300795764842",
+      "kind": "quiz",
+      "category": "スポーツ・4択",
+      "textPreview": "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、NPB◯本＋MLB◯本の合計。さて、NPBでの本塁打数はいくつでしょう？\n投票で答",
+      "postedAt": 1784692500005
+    },
     {
       "tweetId": "2079734754102939718",
       "kind": "breaking",
@@ -241,13 +258,6 @@
       "category": "続報（30分後）",
       "textPreview": "【続報】漏洩した情報に\"送り状番号\"も含まれていた　佐川急便スマートクラブ問題\n\n速報でお伝えした佐川急便の個人情報漏洩について、公式発表の詳細が明らかになりま",
       "postedAt": 1784441149285
-    },
-    {
-      "tweetId": "2078712820045385760",
-      "kind": "breaking",
-      "category": "佐川急便・約7万人分の個人情報漏洩・システム設定ミス",
-      "textPreview": "🚨 速報 佐川急便で個人情報が漏洩\n\n国内大手宅配の佐川急便で、システム設定の誤りにより約7万人分の個人情報が漏洩していたことが明らかになりました🐹\n\n氏名",
-      "postedAt": 1784438715274
     }
   ],
   "breakingFollowUps": [
@@ -255,8 +265,8 @@
       "headline": "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大",
       "topic": "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大",
       "stageLabel": "30分後",
-      "dueAt": 1784684166139,
-      "attempts": 0
+      "dueAt": 1784694300005,
+      "attempts": 1
     },
     {
       "headline": "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大",
