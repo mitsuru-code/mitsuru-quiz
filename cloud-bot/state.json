@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "NHK、Bloomberg、tenki.jp（日本気象協会）、OANDA、日本経済新聞、河北新報、関西テレビ／Yahoo!ニュース、みのおNOW、ウェザーニュース、ライブドアニュース、京都新聞",
     "時事通信「佐渡金山の展示内容、改善求め決議 ユネスコ」（2026年7月23日）",
     "フットボールチャンネル「W杯個人賞が決定！スペイン勢が3部門を独占、大会MVPはロドリに 得点王は10ゴールのエムバペ」",
     "オリコンニュース「中森明菜、30年ぶり『Mステ』生出演 タモリのリクエスト「難破船」を迫真の歌唱」",
     "Reuters、AP、CNN、CNBC、Bloomberg、France 24、PBS NewsHour、UPI、Forbes、Morning Star Online、10 Things News、NBC Washington、Time、NOLA.com",
     "NHK、外為どっとコム、みんかぶFX、OANDA Japan、毎日新聞（世論調査）、ANN（世論調査）、AFP、ジェトロ、日中BizNavi",
     "GIGAZINE「15歳未満のSNS禁止法案をEUで初めてフランス議会が可決」",
-    "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」",
-    "Reuters、AP、CNN、CNBC、BBC、Al Jazeera、Democracy Now、Just Security、Fox Sports、The Street、Yahoo Finance、ECDC、ABC News、CBS News、NPR"
+    "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」"
   ],
   "recentOpeners": [
+    "3日連続の酷暑日、住宅街の地下に眠る1トン爆弾、そして日銀の次の一手——今日7月",
     "今日、ユネスコが「佐渡島の金山」に下した決定は？🐹\n\n2024年に世界遺産登録",
     "W杯2026、スペインのMVPは誰だった？🐹\n\n先日閉幕したFIFAワールドカ",
     "30年ぶりのMステ復帰、何の記念回だったか知ってる？🐹\n7月17日放送のミュー",
-    "木曜の朝、おはようございます🐹 昨夜も世界のあちこちで動きがありました。今日の",
-    "ドル円が39年7カ月ぶりの163円台……財布の痛みが数字になって出てきた日でした"
+    "木曜の朝、おはようございます🐹 昨夜も世界のあちこちで動きがありました。今日の"
   ],
-  "lastPostedAt": 1784798955325,
+  "lastPostedAt": 1784812351984,
   "recentBreaking": [
     "日銀が利上げペース加速に柔軟姿勢との報道・円高急進",
     "大阪・箕面で米国製1トン不発弾発見・撤去時期未定・約5000人避難可能性",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 160
+    "posts": 161
   },
   "breakingDate": "2026-07-23",
   "breakingCount": 3,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784798955325,
+  "lastAnyPostAt": 1784812351984,
   "postHistory": [
+    {
+      "tweetId": "2080280186889613439",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "3日連続の酷暑日、住宅街の地下に眠る1トン爆弾、そして日銀の次の一手——今日7月23日木曜日は、暮らしに直結するニュースが重なった1日でした。頭の整理も兼ねて、",
+      "postedAt": 1784812351984
+    },
     {
       "tweetId": "2080223811010748785",
       "kind": "feature",
@@ -241,13 +248,6 @@
       "category": "朝ブリーフィング",
       "textPreview": "火曜日の朝です。昨夜から今朝にかけて、中東情勢がまたひと段落でよくない方向に動きました。ウクライナ、英国首相交代、W杯余波……世界が止まりませんね🐹 今朝の2",
       "postedAt": 1784586508214
-    },
-    {
-      "tweetId": "2079308493652435439",
-      "kind": "feature",
-      "category": "続報（30分後）",
-      "textPreview": "本体だけじゃなかった——iCloud+・Apple Musicまで、Appleの値上げが「サブスク」にも波及 🐹\n\niPhone 17 Pro Maxの価格が",
-      "postedAt": 1784580719323
     }
   ],
   "breakingFollowUps": [
@@ -255,8 +255,8 @@
       "headline": "日銀が利上げペース加速に柔軟姿勢との報道・円高急進",
       "topic": "日銀が利上げペース加速に柔軟姿勢との報道・円高急進",
       "stageLabel": "30分後",
-      "dueAt": 1784793456145,
-      "attempts": 0
+      "dueAt": 1784814151984,
+      "attempts": 1
     },
     {
       "headline": "日銀が利上げペース加速に柔軟姿勢との報道・円高急進",
