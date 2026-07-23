@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2080210402764341387",
+      "answer": "正解は「○ 展示内容の改善を求める決議」でした！参加してくれてありがとう🐹\n\n韓国・釜山で開かれていたユネスコ世界遺産委員会は7月23日、「佐渡島の金山」の展示内容の改善を求める決議を採択しました。戦時中の朝鮮半島出身者の労働を含む「全体の歴史」を現地で包括的に伝えるよう、日本に対して改善が求められた形です。\n\n🌰豆知識：佐渡島の金山は2024年7月のインド・ニューデリーでの委員会で、全委員国のコンセンサスにより世界遺産登録が決定したばかり。登録からわずか約1年での勧告採択となりました。",
+      "sourceUrl": "https://www.jiji.com/jc/article?k=2026072300454&g=flash",
+      "question": "今日、ユネスコが「佐渡島の金山」に下した決定は？🐹\n\n2024年に世界遺産登録されたばかりの「佐渡島の金山」。7月23",
+      "postedAt": 1784795764419,
+      "dueAt": 1784802964419,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "時事通信「佐渡金山の展示内容、改善求め決議 ユネスコ」（2026年7月23日）",
     "フットボールチャンネル「W杯個人賞が決定！スペイン勢が3部門を独占、大会MVPはロドリに 得点王は10ゴールのエムバペ」",
     "オリコンニュース「中森明菜、30年ぶり『Mステ』生出演 タモリのリクエスト「難破船」を迫真の歌唱」",
     "Reuters、AP、CNN、CNBC、Bloomberg、France 24、PBS NewsHour、UPI、Forbes、Morning Star Online、10 Things News、NBC Washington、Time、NOLA.com",
     "NHK、外為どっとコム、みんかぶFX、OANDA Japan、毎日新聞（世論調査）、ANN（世論調査）、AFP、ジェトロ、日中BizNavi",
     "GIGAZINE「15歳未満のSNS禁止法案をEUで初めてフランス議会が可決」",
     "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」",
-    "Reuters、AP、CNN、CNBC、BBC、Al Jazeera、Democracy Now、Just Security、Fox Sports、The Street、Yahoo Finance、ECDC、ABC News、CBS News、NPR",
-    "NHK、毎日新聞、日本経済新聞、時事通信、内閣官房（cas.go.jp）、経団連、外為どっとコム、CIVIC AI、Al Jazeera、Reuters（NBC News経由）、Foreign Policy、Washington Times、Bloomberg、House of Saud、Impress Watch、TBS NEWS DIG（Yahoo!ニュース）、ライブドアニュース、共同通信"
+    "Reuters、AP、CNN、CNBC、BBC、Al Jazeera、Democracy Now、Just Security、Fox Sports、The Street、Yahoo Finance、ECDC、ABC News、CBS News、NPR"
   ],
   "recentOpeners": [
+    "今日、ユネスコが「佐渡島の金山」に下した決定は？🐹\n\n2024年に世界遺産登録",
     "W杯2026、スペインのMVPは誰だった？🐹\n\n先日閉幕したFIFAワールドカ",
     "30年ぶりのMステ復帰、何の記念回だったか知ってる？🐹\n7月17日放送のミュー",
     "木曜の朝、おはようございます🐹 昨夜も世界のあちこちで動きがありました。今日の",
-    "ドル円が39年7カ月ぶりの163円台……財布の痛みが数字になって出てきた日でした",
-    "フランスがSNS禁止法を可決。対象は何歳未満？\n\n7月21日、フランス議会が未成"
+    "ドル円が39年7カ月ぶりの163円台……財布の痛みが数字になって出てきた日でした"
   ],
-  "lastPostedAt": 1784791656145,
+  "lastPostedAt": 1784795764419,
   "recentBreaking": [
     "日銀が利上げペース加速に柔軟姿勢との報道・円高急進",
     "大阪・箕面で米国製1トン不発弾発見・撤去時期未定・約5000人避難可能性",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 157
+    "posts": 158
   },
   "breakingDate": "2026-07-23",
   "breakingCount": 3,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784791656145,
+  "lastAnyPostAt": 1784795764419,
   "postHistory": [
+    {
+      "tweetId": "2080210402764341387",
+      "kind": "quiz",
+      "category": "国際・文化 ／ ○×",
+      "textPreview": "今日、ユネスコが「佐渡島の金山」に下した決定は？🐹\n\n2024年に世界遺産登録されたばかりの「佐渡島の金山」。7月23日、韓国・釜山で開かれていたユネスコ世界",
+      "postedAt": 1784795764419
+    },
     {
       "tweetId": "2080193193480700313",
       "kind": "breaking",
@@ -241,13 +258,6 @@
       "category": "朝ブリーフィング",
       "textPreview": "今朝の通勤ブリーフィング、月曜日です。週明け早々、ニュースが怒涛のように押し寄せています。では20問、さっとどうぞ🐹\n\n───────────────────",
       "postedAt": 1784578637521
-    },
-    {
-      "tweetId": "2079284427335876661",
-      "kind": "breaking",
-      "category": "Apple・iPhone 17 Pro Max日本価格21万円超・円安値上げ",
-      "textPreview": "📈 いま話題\n\nアップルが日本向けiPhoneの価格を大幅値上げ。\n最上位モデル「iPhone 17 Pro Max」が\nついに21万円超えに🐹\n\n円安が長",
-      "postedAt": 1784574988954
     }
   ],
   "breakingFollowUps": [
@@ -255,8 +265,8 @@
       "headline": "大阪・箕面で米国製1トン不発弾発見・撤去時期未定・約5000人避難可能性",
       "topic": "大阪・箕面で米国製1トン不発弾発見・撤去時期未定・約5000人避難可能性",
       "stageLabel": "2時間後",
-      "dueAt": 1784791708462,
-      "attempts": 0
+      "dueAt": 1784797564419,
+      "attempts": 1
     },
     {
       "headline": "大阪・箕面で米国製1トン不発弾発見・撤去時期未定・約5000人避難可能性",
