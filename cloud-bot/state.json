@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2080098512331514091",
+      "answer": "正解は「1500回記念」でした！投票してくれたみなさん、ありがとうございます🐹\n\n2026年7月17日放送の「ミュージックステーション 1500回記念 夏の2時間SPECIAL」に、中森明菜さん（61）が約30年ぶりに生出演。タモリのリクエストで「難破船」、約10年ぶりの新曲「ごめんと、すきと、」を熱唱し、SNSで大きな反響を呼びました。\n\n🌰豆知識：中森明菜さんはMステ第1回（1986年10月24日）から2週連続出演した、まさに番組創成期を支えた歌手。それ以来50回以上ステージに立ったとされています。",
+      "sourceUrl": "https://www.oricon.co.jp/news/2468677/full/",
+      "question": "30年ぶりのMステ復帰、何の記念回だったか知ってる？🐹\n7月17日放送のミュージックステーションに中森明菜さんが30年",
+      "postedAt": 1784769068652,
+      "dueAt": 1784776268652,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "オリコンニュース「中森明菜、30年ぶり『Mステ』生出演 タモリのリクエスト「難破船」を迫真の歌唱」",
     "Reuters、AP、CNN、CNBC、Bloomberg、France 24、PBS NewsHour、UPI、Forbes、Morning Star Online、10 Things News、NBC Washington、Time、NOLA.com",
     "NHK、外為どっとコム、みんかぶFX、OANDA Japan、毎日新聞（世論調査）、ANN（世論調査）、AFP、ジェトロ、日中BizNavi",
     "GIGAZINE「15歳未満のSNS禁止法案をEUで初めてフランス議会が可決」",
     "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」",
     "Reuters、AP、CNN、CNBC、BBC、Al Jazeera、Democracy Now、Just Security、Fox Sports、The Street、Yahoo Finance、ECDC、ABC News、CBS News、NPR",
     "NHK、毎日新聞、日本経済新聞、時事通信、内閣官房（cas.go.jp）、経団連、外為どっとコム、CIVIC AI、Al Jazeera、Reuters（NBC News経由）、Foreign Policy、Washington Times、Bloomberg、House of Saud、Impress Watch、TBS NEWS DIG（Yahoo!ニュース）、ライブドアニュース、共同通信",
-    "内閣官房「日本成長戦略本部」公式サイト・NHKニュース",
-    "オリコンニュース「【ダブルインパクト】2代目王者は滝音 2896組の頂点に トップバッターから優勝果たす」"
+    "内閣官房「日本成長戦略本部」公式サイト・NHKニュース"
   ],
   "recentOpeners": [
+    "30年ぶりのMステ復帰、何の記念回だったか知ってる？🐹\n7月17日放送のミュー",
     "木曜の朝、おはようございます🐹 昨夜も世界のあちこちで動きがありました。今日の",
     "ドル円が39年7カ月ぶりの163円台……財布の痛みが数字になって出てきた日でした",
     "フランスがSNS禁止法を可決。対象は何歳未満？\n\n7月21日、フランス議会が未成",
-    "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、N",
-    "水曜の朝、おはようございます🐹 中東情勢が止まらない。米軍のイラン攻撃が10夜"
+    "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、N"
   ],
-  "lastPostedAt": 1784751243030,
+  "lastPostedAt": 1784769068652,
   "recentBreaking": [
     "酷暑日2日連続・7月22日4地点で40℃超",
     "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 150
+    "posts": 151
   },
   "breakingDate": "2026-07-23",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784751243030,
+  "lastAnyPostAt": 1784769068652,
   "postHistory": [
+    {
+      "tweetId": "2080098512331514091",
+      "kind": "quiz",
+      "category": "エンタメ・4択",
+      "textPreview": "30年ぶりのMステ復帰、何の記念回だったか知ってる？🐹\n7月17日放送のミュージックステーションに中森明菜さんが30年ぶりに生出演。タモリのリクエストで「難破",
+      "postedAt": 1784769068652
+    },
     {
       "tweetId": "2080023913883439605",
       "kind": "briefing",
@@ -241,17 +258,11 @@
       "category": "続報（30分後）",
       "textPreview": "東京都心が今年初の猛暑日、21日以降は40℃前後も視野に🐹\n\n梅雨明けと同時に気温が急上昇し、東京都心では本日午前中に35℃に到達。今年初めての猛暑日を記録し",
       "postedAt": 1784526171336
-    },
-    {
-      "tweetId": "2079069626030248439",
-      "kind": "breaking",
-      "category": "関東甲信・東海が梅雨明け・猛暑日・熱中症警戒アラート39都府県",
-      "textPreview": "📈 いま話題\n\n関東甲信・東海、本日梅雨明け🐹\n\n気象庁は7月20日午前11時、「関東甲信と東海が梅雨明けしたとみられる」と発表。平年より1日遅く、昨年より",
-      "postedAt": 1784523784289
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [
-    "2026-07-23_02:00"
+    "2026-07-23_02:00",
+    "2026-07-23_09:30"
   ]
 }
