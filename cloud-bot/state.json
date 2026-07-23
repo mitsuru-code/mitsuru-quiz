@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters、CNBC、Bloomberg、Al Jazeera、France 24、Euronews、US News、Morning Star、Times of Israel、HNGN、Investrade、AnewZ、Yahoo News、TASS",
     "NHK、Bloomberg、tenki.jp（日本気象協会）、OANDA、日本経済新聞、河北新報、関西テレビ／Yahoo!ニュース、みのおNOW、ウェザーニュース、ライブドアニュース、京都新聞",
     "時事通信「佐渡金山の展示内容、改善求め決議 ユネスコ」（2026年7月23日）",
     "フットボールチャンネル「W杯個人賞が決定！スペイン勢が3部門を独占、大会MVPはロドリに 得点王は10ゴールのエムバペ」",
     "オリコンニュース「中森明菜、30年ぶり『Mステ』生出演 タモリのリクエスト「難破船」を迫真の歌唱」",
     "Reuters、AP、CNN、CNBC、Bloomberg、France 24、PBS NewsHour、UPI、Forbes、Morning Star Online、10 Things News、NBC Washington、Time、NOLA.com",
     "NHK、外為どっとコム、みんかぶFX、OANDA Japan、毎日新聞（世論調査）、ANN（世論調査）、AFP、ジェトロ、日中BizNavi",
-    "GIGAZINE「15歳未満のSNS禁止法案をEUで初めてフランス議会が可決」",
-    "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」"
+    "GIGAZINE「15歳未満のSNS禁止法案をEUで初めてフランス議会が可決」"
   ],
   "recentOpeners": [
+    "米国とイランの軍事衝突が12夜連続となり、原油価格が100ドルを超えた——そんな",
     "3日連続の酷暑日、住宅街の地下に眠る1トン爆弾、そして日銀の次の一手——今日7月",
     "今日、ユネスコが「佐渡島の金山」に下した決定は？🐹\n\n2024年に世界遺産登録",
     "W杯2026、スペインのMVPは誰だった？🐹\n\n先日閉幕したFIFAワールドカ",
-    "30年ぶりのMステ復帰、何の記念回だったか知ってる？🐹\n7月17日放送のミュー",
-    "木曜の朝、おはようございます🐹 昨夜も世界のあちこちで動きがありました。今日の"
+    "30年ぶりのMステ復帰、何の記念回だったか知ってる？🐹\n7月17日放送のミュー"
   ],
-  "lastPostedAt": 1784830545437,
+  "lastPostedAt": 1784837344291,
   "recentBreaking": [
     "日銀が利上げペース加速に柔軟姿勢との報道・円高急進",
     "大阪・箕面で米国製1トン不発弾発見・撤去時期未定・約5000人避難可能性",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 164
+    "posts": 165
   },
   "breakingDate": "2026-07-24",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784830545437,
+  "lastAnyPostAt": 1784837344291,
   "postHistory": [
+    {
+      "tweetId": "2080385027909759404",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "米国とイランの軍事衝突が12夜連続となり、原油価格が100ドルを超えた——そんな夜が明けた金曜朝です。おはようございます🐹 今日も世界の動きを20問でサクッと",
+      "postedAt": 1784837344291
+    },
     {
       "tweetId": "2080356348051800175",
       "kind": "feature",
@@ -241,13 +248,6 @@
       "category": "続報（2時間後）",
       "textPreview": "サウジの「迂回ルート」も封鎖危機に — フーシ派宣言で中東の海上動脈が二重に詰まる🐹\n\nフーシ派が7月20日に宣言した「即時海上封鎖」の影響が、速報時点より広",
       "postedAt": 1784611416956
-    },
-    {
-      "tweetId": "2079427274265547022",
-      "kind": "feature",
-      "category": "続報（30分後）",
-      "textPreview": "「サウジ連合軍が船舶防衛を宣言」── 封鎖宣言後に明らかになった新たな動き🐹\n\nフーシ派が7月20日にサウジアラビアへの海上封鎖を宣言したことを受け、続報が入",
-      "postedAt": 1784609040273
     }
   ],
   "breakingFollowUps": [],
