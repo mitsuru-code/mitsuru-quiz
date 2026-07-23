@@ -298,7 +298,7 @@ function deleteTweet(tweetId) {
 }
 
 // ===== Anthropic API 呼び出し（共通・低レベル） =====
-async function callAnthropic(prompt, maxTokens, maxSearches) {
+async function callAnthropic(prompt, maxTokens, maxSearches, model = 'claude-sonnet-4-6') {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -307,7 +307,7 @@ async function callAnthropic(prompt, maxTokens, maxSearches) {
       'anthropic-version': '2023-06-01',
     },
     body: JSON.stringify({
-      model: 'claude-sonnet-4-6',
+      model,
       max_tokens: maxTokens,
       messages: [{ role: 'user', content: prompt }],
       tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: maxSearches }]
@@ -324,14 +324,14 @@ async function callAnthropic(prompt, maxTokens, maxSearches) {
 
 // JSON形式での生成（Pollクイズ・速報チェック用の短文向け）。
 // パース失敗時は1回だけ生成をやり直す（非決定的な生成の一過性の崩れを拾うため）
-async function callClaude(prompt, maxTokens, maxSearches) {
+async function callClaude(prompt, maxTokens, maxSearches, model = 'claude-sonnet-4-6') {
   // テスト用フック: MOCK_QUIZ_JSON があればAPIを呼ばない
   if (process.env.MOCK_QUIZ_JSON) {
     return JSON.parse(process.env.MOCK_QUIZ_JSON);
   }
   let lastErr;
   for (let attempt = 1; attempt <= 2; attempt++) {
-    const { text, stopReason } = await callAnthropic(prompt, maxTokens, maxSearches);
+    const { text, stopReason } = await callAnthropic(prompt, maxTokens, maxSearches, model);
     const clean = text.replace(/```json|```/g, '').trim();
     const match = clean.match(/\{[\s\S]*\}/);
     if (!match) {
@@ -592,7 +592,9 @@ breakingがtrueの場合、さらに次の2点も判定してください:
   "followUp": true または false,
   "uncertain": true または false
 }`;
-  return callClaude(prompt, 1000, 2);
+  // 単純な「話題急拡大の検知」タスクで日付・曜日への言及も無いため、コスト削減のためHaiku 4.5を使う
+  // （読者に直接見せる長文コンテンツ生成は品質維持のためSonnet 4.6のまま）
+  return callClaude(prompt, 1000, 2, 'claude-haiku-4-5');
 }
 
 // ===== 生成: 手動指定の速報（BREAKING_TOPIC指定時のみ） =====
