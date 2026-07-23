@@ -82,6 +82,7 @@ jobs:
           node-version: 20
 
       - name: コンテンツ生成・投稿
+        id: post
         run: node cloud-bot/post-quiz.mjs
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -114,6 +115,18 @@ jobs:
           git add cloud-bot/state.json
           git commit -m "cloud-bot: 状態を更新 [skip ci]"
           git push
+
+      - name: 速報投稿をIssueで通知
+        if: steps.post.outputs.breaking_posted == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create breaking-news --repo "${{ github.repository }}" --color 1D76DB --description "速報投稿の通知（手動で続報を作る目安）" 2>/dev/null || true
+          tweet_url="https://x.com/i/web/status/${{ steps.post.outputs.breaking_tweet_id }}"
+          gh issue create --repo "${{ github.repository }}" \
+            --label breaking-news \
+            --title "🚨 速報を投稿しました: ${{ steps.post.outputs.breaking_headline }}" \
+            --body "$(printf '速報を投稿しました。\n\n投稿: %s\n\n30分後に自動で1回だけ続報を投稿します。それ以上の続報が必要な場合は、Actionsの手動実行(workflow_dispatch)でBREAKING_TOPICまたはFEATURE_TOPICを指定して作成してください。' "$tweet_url")"
 
       # 失敗したらIssueを自動作成して通知（毎時の連続失敗でも未クローズのIssueがあれば重複作成しない）
       - name: 失敗をIssueで通知

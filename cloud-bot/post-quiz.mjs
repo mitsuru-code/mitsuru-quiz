@@ -275,6 +275,14 @@ function postTweet(text, replyToId, poll) {
   });
 }
 
+// 速報投稿をcloud-bot.yml側に伝える（GITHUB_OUTPUT経由）。ユーザーが手動で続報を書く
+// きっかけとして初回の速報投稿だけIssue通知するための出力。ローカル実行・テスト時は何もしない
+function signalBreakingPost(headline, tweetId) {
+  if (!process.env.GITHUB_OUTPUT) return;
+  const line = (headline || '').replace(/[\r\n]+/g, ' ');
+  fs.appendFileSync(process.env.GITHUB_OUTPUT, `breaking_posted=true\nbreaking_headline=${line}\nbreaking_tweet_id=${tweetId}\n`);
+}
+
 // 誤投稿の削除用（DELETE_TWEET_ID環境変数が指定された時のみmain()から呼ばれる保守用ユーティリティ）
 function deleteTweet(tweetId) {
   return new Promise((resolve, reject) => {
@@ -579,9 +587,8 @@ ${recentBreaking ? `【既に投稿済みの速報（同じ話題は不可）】
 
 該当する話題が「明確に」ある場合のみ breaking を true にしてください。迷ったら false（通常ニュース程度で乱発しない）。
 
-breakingがtrueの場合、さらに次の2点も判定してください:
+breakingがtrueの場合、さらに次の点も判定してください:
 - followUp: 決済・交通・通信・災害・health/safetyなど「生活に直結する話題」で、30分後に詳しい続報記事を出す価値があるか
-- uncertain: 原因・影響範囲・復旧見込みなど未確定情報が多く、時間経過で状況が変わりうるか（trueの場合は30分後に加えて2時間後・5時間後にも続報を出す）
 
 以下のJSON形式のみで返答してください:
 {
@@ -589,8 +596,7 @@ breakingがtrueの場合、さらに次の2点も判定してください:
   "text": "速報ポストの全文（breakingがfalseなら空文字）",
   "headline": "話題の見出し（重複チェック用の短い要約）",
   "source": "出典メディア名",
-  "followUp": true または false,
-  "uncertain": true または false
+  "followUp": true または false
 }`;
   // 単純な「話題急拡大の検知」タスクで日付・曜日への言及も無いため、コスト削減のためHaiku 4.5を使う
   // （読者に直接見せる長文コンテンツ生成は品質維持のためSonnet 4.6のまま）
@@ -612,9 +618,8 @@ Web検索で「${topic}」について詳しく調べてください。関連す
 
 ${recentBreaking ? `【既に投稿済みの速報（同じ話題は不可）】: ${recentBreaking}` : ''}
 
-さらに次の2点も判定してください:
+さらに次の点も判定してください:
 - followUp: 決済・交通・通信・災害・health/safetyなど「生活に直結する話題」で、30分後に詳しい続報記事を出す価値があるか
-- uncertain: 原因・影響範囲・復旧見込みなど未確定情報が多く、時間経過で状況が変わりうるか（trueの場合は30分後に加えて2時間後・5時間後にも続報を出す）
 
 以下のJSON形式のみで返答してください:
 {
@@ -622,26 +627,21 @@ ${recentBreaking ? `【既に投稿済みの速報（同じ話題は不可）】
   "text": "速報ポストの全文",
   "headline": "話題の見出し（重複チェック用の短い要約）",
   "source": "出典メディア名",
-  "followUp": true または false,
-  "uncertain": true または false
+  "followUp": true または false
 }`;
   return callClaude(prompt, 1000, 4);
 }
 
-// フォローアップ記事の予約。生活直結の話題(followUp)なら30分後、未確定情報が多い場合(uncertain)は
-// 2時間後・5時間後にも積む。topicは検索精度のため、手動指定時は元のBREAKING_TOPIC文言を渡す
-export function scheduleFollowUps(state, headline, topic, now, followUp, uncertain) {
+// フォローアップ記事の予約。生活直結の話題(followUp)なら30分後に1回だけ積む
+// （それ以上の続報はユーザーが手動で作成する運用のため、自動投稿は1段階のみ）。
+// topicは検索精度のため、手動指定時は元のBREAKING_TOPIC文言を渡す
+export function scheduleFollowUps(state, headline, topic, now, followUp) {
   if (!followUp) return;
   state.breakingFollowUps = state.breakingFollowUps || [];
-  const stages = uncertain
-    ? [[30, '30分後'], [120, '2時間後'], [300, '5時間後']]
-    : [[30, '30分後']];
-  for (const [min, stageLabel] of stages) {
-    state.breakingFollowUps.push({ headline, topic, stageLabel, dueAt: now + min * 60000, attempts: 0 });
-  }
+  state.breakingFollowUps.push({ headline, topic, stageLabel: '30分後', dueAt: now + 30 * 60000, attempts: 0 });
 }
 
-// ===== 生成: 速報のフォローアップ記事（30分後・2時間後・5時間後） =====
+// ===== 生成: 速報のフォローアップ記事（30分後・1回のみ） =====
 async function generateFollowUp(state, entry) {
   const prompt = `${CHARACTER}
 
@@ -881,12 +881,13 @@ async function main() {
     } else {
       const tweetId = await postTweet(b.text, null);
       console.log(`🐦 速報を投稿しました（tweet: ${tweetId}）`);
+      signalBreakingPost(b.headline, tweetId);
       state.recentBreaking = [b.headline, ...state.recentBreaking].filter(Boolean).slice(0, 10);
       state.breakingCount++;
       state.lastPostedAt = now;
       countPost(state, now);
       recordPost(state, { tweetId, kind: 'breaking', category: b.headline, textPreview: b.text, postedAt: now });
-      scheduleFollowUps(state, b.headline, BREAKING_TOPIC, now, b.followUp, b.uncertain);
+      scheduleFollowUps(state, b.headline, BREAKING_TOPIC, now, b.followUp);
       saveState(state);
       console.log('💾 state.json を更新しました');
     }
@@ -961,7 +962,7 @@ async function main() {
     console.log('⏭ 直近スロットは投稿済み（返信キューと速報チェックのみ）');
   }
 
-  // --- 2.5. 速報のフォローアップ記事（生活直結の速報のみ・30分後、未確定なら2時間後・5時間後にも） ---
+  // --- 2.5. 速報のフォローアップ記事（生活直結の速報のみ・30分後に1回だけ） ---
   state.breakingFollowUps = state.breakingFollowUps || [];
   const followUpIdx = state.breakingFollowUps.findIndex(f => f.dueAt <= now);
   if (followUpIdx !== -1 && !process.env.MOCK_QUIZ_JSON) {
@@ -1036,12 +1037,13 @@ async function main() {
           } else if (canPost(state, now)) {
             const tweetId = await postTweet(b.text, null);
             console.log(`🐦 速報を投稿しました（tweet: ${tweetId}）`);
+            signalBreakingPost(b.headline, tweetId);
             state.recentBreaking = [b.headline, ...state.recentBreaking].filter(Boolean).slice(0, 10);
             state.breakingCount++;
             countPost(state, now);
             recordPost(state, { tweetId, kind: 'breaking', category: b.headline, textPreview: b.text, postedAt: now });
             // forceArticleの枠（深夜）はAIの自己判定に関わらず必ず続報を予約する
-            scheduleFollowUps(state, b.headline, b.headline, now, checkpoint.forceArticle || b.followUp, b.uncertain);
+            scheduleFollowUps(state, b.headline, b.headline, now, checkpoint.forceArticle || b.followUp);
             state.lastPostedAt = now;
           }
         } else if (checkpoint.fallback === 'quiz') {
