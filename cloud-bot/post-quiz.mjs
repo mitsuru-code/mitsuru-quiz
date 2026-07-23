@@ -996,8 +996,14 @@ async function main() {
           recordPost(state, { tweetId, kind: 'feature', category: followUp.category || `続報（${entry.stageLabel}）`, textPreview: followUp.text, postedAt: now });
         }
       } catch (e) {
-        console.error(`⚠️ フォローアップ記事の生成に失敗（${entry.headline}）: ${e.message}（このステージは見送ります）`);
-        state.breakingFollowUps.splice(followUpIdx, 1);
+        entry.attempts = (entry.attempts || 0) + 1;
+        if (entry.attempts > 4) {
+          console.error(`⚠️ フォローアップ記事の生成に失敗（${entry.headline}）: ${e.message}（再試行上限のため見送ります）`);
+          state.breakingFollowUps.splice(followUpIdx, 1);
+        } else {
+          console.error(`⚠️ フォローアップ記事の生成に失敗（${entry.headline}）: ${e.message}（次回の実行で再試行 ${entry.attempts}/4）`);
+          // dueAtは変更しない（既に過去時刻のまま）→ 次回実行時にまた期限到来として拾われる
+        }
         stateChanged = true;
       }
     }
@@ -1017,10 +1023,10 @@ async function main() {
       // 直前にスロット投稿等があった場合は間隔を優先しスキップ。猶予時間内なら次回の実行で再試行
       console.log(`⏳ 固定時刻チェック(${checkpoint.hm})は投稿間隔が足りないため、猶予時間内に次回再試行します`);
     } else {
-      state.breakingCheckpointsDone.push(checkpoint.key);
-      stateChanged = true;
       try {
         const b = await checkBreaking(state);
+        state.breakingCheckpointsDone.push(checkpoint.key); // 成功時のみ「処理済み」にする（失敗時は猶予窓内で再試行させる）
+        stateChanged = true;
         if (b.breaking && b.text) {
           console.log(`🚨 速報を検知（${checkpoint.hm}チェック）: ${b.headline}`);
           if (DRY_RUN) {
