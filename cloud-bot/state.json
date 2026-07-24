@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters、AP、CNBC、NPR、France 24、Bloomberg、Euronews、Middle East Eye、CNN、Anadolu Agency、Just Security、PlanetF1、RacingNews365、Forbes、Democracy Now、Foreign Policy",
     "CNBC、Reuters、Bloomberg、Forbes JAPAN、The Japan Times、財経新聞、ゴールドオンライン、Investing.com、Yahoo Finance",
     "NHKニュース「英労働党のバーナム党首 イギリスの新首相に就任 国王が任命」／CNN.co.jp「バーナム氏が英国の新首相に就任、ここ10年で7人目」",
     "スポニチアネックス「大谷翔平 日本選手初のMLB通算300号！2戦連発20号先頭弾で決めた！ロバーツ監督らハグで祝福」",
     "Reuters、CNBC、Bloomberg、Al Jazeera、France 24、Euronews、US News、Morning Star、Times of Israel、HNGN、Investrade、AnewZ、Yahoo News、TASS",
     "NHK、Bloomberg、tenki.jp（日本気象協会）、OANDA、日本経済新聞、河北新報、関西テレビ／Yahoo!ニュース、みのおNOW、ウェザーニュース、ライブドアニュース、京都新聞",
     "時事通信「佐渡金山の展示内容、改善求め決議 ユネスコ」（2026年7月23日）",
-    "フットボールチャンネル「W杯個人賞が決定！スペイン勢が3部門を独占、大会MVPはロドリに 得点王は10ゴールのエムバペ」",
-    "オリコンニュース「中森明菜、30年ぶり『Mステ』生出演 タモリのリクエスト「難破船」を迫真の歌唱」"
+    "フットボールチャンネル「W杯個人賞が決定！スペイン勢が3部門を独占、大会MVPはロドリに 得点王は10ゴールのエムバペ」"
   ],
   "recentOpeners": [
+    "今朝いちばん目を引いたのは、ICC（国際刑事裁判所）史上初の出来事。眠っている間",
     "テスラが約14%急落、アルファベットが約7%急落——AIへの天文学的な投資計画が",
     "英国の新首相に就任したアンディ・バーナム氏、就任前の肩書は？🐹\n\nスターマー前",
     "大谷翔平がついに日本人初の偉業を達成！🐹\n\n2026年7月7日（現地時間）のロ",
-    "米国とイランの軍事衝突が12夜連続となり、原油価格が100ドルを超えた——そんな",
-    "3日連続の酷暑日、住宅街の地下に眠る1トン爆弾、そして日銀の次の一手——今日7月"
+    "米国とイランの軍事衝突が12夜連続となり、原油価格が100ドルを超えた——そんな"
   ],
-  "lastPostedAt": 1784894833736,
+  "lastPostedAt": 1784923288030,
   "recentBreaking": [
     "日経平均1853円安・前場大幅反落・原油高インフレ懸念",
     "アルファベット・テスラ決算失望でナスダック急落・マグニフィセント7全面安",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 175
+    "posts": 176
   },
-  "breakingDate": "2026-07-24",
-  "breakingCount": 2,
+  "breakingDate": "2026-07-25",
+  "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784894833736,
+  "lastAnyPostAt": 1784923288030,
   "postHistory": [
+    {
+      "tweetId": "2080745538140414283",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "今朝いちばん目を引いたのは、ICC（国際刑事裁判所）史上初の出来事。眠っている間にニュースが次々と動いていました🐹 今日7月25日（土）の朝ブリーフィング、2",
+      "postedAt": 1784923288030
+    },
     {
       "tweetId": "2080626207176163757",
       "kind": "recap",
@@ -241,18 +248,8 @@
       "category": "スポーツ・4択",
       "textPreview": "大谷翔平、今季ここが熱い🐹\n7月12日（現地）に達成した日米通算350号は、NPB◯本＋MLB◯本の合計。さて、NPBでの本塁打数はいくつでしょう？\n投票で答",
       "postedAt": 1784692500005
-    },
-    {
-      "tweetId": "2079734754102939718",
-      "kind": "breaking",
-      "category": "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大",
-      "textPreview": "📈 いま話題\n\n円相場が1ドル＝163円台に突入。1986年12月以来、約39年7カ月ぶりの円安水準です🐹\n\n中東・イラン情勢の緊迫を受けた「有事のドル買い",
-      "postedAt": 1784682366139
     }
   ],
   "breakingFollowUps": [],
-  "breakingCheckpointsDone": [
-    "2026-07-24_09:30",
-    "2026-07-24_14:00"
-  ]
+  "breakingCheckpointsDone": []
 }
