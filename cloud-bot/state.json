@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2080862131407540229",
-      "answer": "正解は「ドラフト5位」でした！参加してくれてありがとう🐹\n\n7月24日（甲子園）の阪神×巨人首位攻防戦。9回2死からダルベックが逆転2ランも直後に同点とされ、延長10回に沖縄電力出身のドラフト5位ルーキー・小濱佑斗選手が岩崎優投手から左翼へプロ初本塁打となる決勝2ランを放ち、巨人が4-2で勝利。セ・リーグ首位タイに浮上しました。\n\n🌰豆知識：プロ初打席でなく、首位攻防の延長で決勝弾を放つルーキーはかなり異例のドラマチックなデビュー一発。「まさかスタンドまで行くとは…」と本人も驚いていたそうです。",
-      "sourceUrl": "https://news.yahoo.co.jp/articles/61122dfa21a7a1b98fbd1ee6346b75627092b9da",
-      "question": "昨夜の甲子園、まさかの展開に球場がどよめいた🐹\n\n7月24日の阪神×巨人首位攻防戦。延長10回に決勝2ランを放ったのは",
-      "postedAt": 1784951142253,
-      "dueAt": 1784958342253,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "デイリースポーツ「巨人ミラクル逆転勝利で首位浮上！ドラ５小浜プロ初本塁打が決勝Ｖ２ラン」／日テレNEWS NNN「【巨人】阪神戦に劇的逆転勝利で首位タイ浮上 9回2アウトからダルベックが逆転2ラン＆延長10回に小濱佑斗がプロ初弾」",
     "Reuters、AP、CNBC、NPR、France 24、Bloomberg、Euronews、Middle East Eye、CNN、Anadolu Agency、Just Security、PlanetF1、RacingNews365、Forbes、Democracy Now、Foreign Policy",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 178
+    "posts": 179
   },
   "breakingDate": "2026-07-25",
   "breakingCount": 1,
