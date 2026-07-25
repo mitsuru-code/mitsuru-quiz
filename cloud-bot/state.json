@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News",
     "NHKニュース、時事通信、tenki.jp（日本気象協会）、総務省消防庁、朝日新聞、乗りものニュース（Yahoo!ニュース）、日本経済新聞、ライブドアニュース",
     "NHKニュース「フランスとスペインで山火事が拡大 合わせて16万人が避難」／AFP＝時事（Yahoo!ニュース掲載）",
     "デイリースポーツ「巨人ミラクル逆転勝利で首位浮上！ドラ５小浜プロ初本塁打が決勝Ｖ２ラン」／日テレNEWS NNN「【巨人】阪神戦に劇的逆転勝利で首位タイ浮上 9回2アウトからダルベックが逆転2ラン＆延長10回に小濱佑斗がプロ初弾」",
     "Reuters、AP、CNBC、NPR、France 24、Bloomberg、Euronews、Middle East Eye、CNN、Anadolu Agency、Just Security、PlanetF1、RacingNews365、Forbes、Democracy Now、Foreign Policy",
     "CNBC、Reuters、Bloomberg、Forbes JAPAN、The Japan Times、財経新聞、ゴールドオンライン、Investing.com、Yahoo Finance",
     "NHKニュース「英労働党のバーナム党首 イギリスの新首相に就任 国王が任命」／CNN.co.jp「バーナム氏が英国の新首相に就任、ここ10年で7人目」",
-    "スポニチアネックス「大谷翔平 日本選手初のMLB通算300号！2戦連発20号先頭弾で決めた！ロバーツ監督らハグで祝福」",
-    "Reuters、CNBC、Bloomberg、Al Jazeera、France 24、Euronews、US News、Morning Star、Times of Israel、HNGN、Investrade、AnewZ、Yahoo News、TASS"
+    "スポニチアネックス「大谷翔平 日本選手初のMLB通算300号！2戦連発20号先頭弾で決めた！ロバーツ監督らハグで祝福」"
   ],
   "recentOpeners": [
+    "サウジの石油施設に煙が上がっている——この一枚の映像が、今朝の世界市場を揺さぶっ",
     "今日の最高気温ランキング、ちょっと待って——1位が40.8℃って、もはや人間が住",
     "欧州で今、史上最悪規模の山火事が起きています🐹\n\nフランスとスペインで合わせて",
     "昨夜の甲子園、まさかの展開に球場がどよめいた🐹\n\n7月24日の阪神×巨人首位攻",
-    "今朝いちばん目を引いたのは、ICC（国際刑事裁判所）史上初の出来事。眠っている間",
-    "テスラが約14%急落、アルファベットが約7%急落——AIへの天文学的な投資計画が"
+    "今朝いちばん目を引いたのは、ICC（国際刑事裁判所）史上初の出来事。眠っている間"
   ],
-  "lastPostedAt": 1785004700162,
+  "lastPostedAt": 1785010094443,
   "recentBreaking": [
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
     "酷暑日5日連続・観測史上初の過去最長更新・三重県桑名40.2℃",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 188
+    "posts": 189
   },
   "breakingDate": "2026-07-26",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785004700162,
+  "lastAnyPostAt": 1785010094443,
   "postHistory": [
+    {
+      "tweetId": "2081109577492512892",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "サウジの石油施設に煙が上がっている——この一枚の映像が、今朝の世界市場を揺さぶっています🐹 原油・地政学・AI・スポーツまで、昨夜のニュースをまるっとどうぞ。",
+      "postedAt": 1785010094443
+    },
     {
       "tweetId": "2081086797895889130",
       "kind": "feature",
@@ -241,13 +248,6 @@
       "category": "大阪・箕面で米国製1トン不発弾発見・撤去時期未定・約5000人避難可能性",
       "textPreview": "📈 いま話題\n\n大阪・箕面市の住宅建設現場で太平洋戦争中の米国製「1トン爆弾」とみられる不発弾が発見されました🐹\n\n陸上自衛隊が信管を保護する安全措置を実施",
       "postedAt": 1784784508462
-    },
-    {
-      "tweetId": "2080138837150593277",
-      "kind": "quiz",
-      "category": "スポーツ・4択",
-      "textPreview": "W杯2026、スペインのMVPは誰だった？🐹\n\n先日閉幕したFIFAワールドカップ2026。スペインは決勝でアルゼンチンを延長1-0で下し、2010年大会以来",
-      "postedAt": 1784778699954
     }
   ],
   "breakingFollowUps": [],
