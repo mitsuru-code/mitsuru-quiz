@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "NHKニュース、時事通信、tenki.jp（日本気象協会）、総務省消防庁、朝日新聞、乗りものニュース（Yahoo!ニュース）、日本経済新聞、ライブドアニュース",
     "NHKニュース「フランスとスペインで山火事が拡大 合わせて16万人が避難」／AFP＝時事（Yahoo!ニュース掲載）",
     "デイリースポーツ「巨人ミラクル逆転勝利で首位浮上！ドラ５小浜プロ初本塁打が決勝Ｖ２ラン」／日テレNEWS NNN「【巨人】阪神戦に劇的逆転勝利で首位タイ浮上 9回2アウトからダルベックが逆転2ラン＆延長10回に小濱佑斗がプロ初弾」",
     "Reuters、AP、CNBC、NPR、France 24、Bloomberg、Euronews、Middle East Eye、CNN、Anadolu Agency、Just Security、PlanetF1、RacingNews365、Forbes、Democracy Now、Foreign Policy",
     "CNBC、Reuters、Bloomberg、Forbes JAPAN、The Japan Times、財経新聞、ゴールドオンライン、Investing.com、Yahoo Finance",
     "NHKニュース「英労働党のバーナム党首 イギリスの新首相に就任 国王が任命」／CNN.co.jp「バーナム氏が英国の新首相に就任、ここ10年で7人目」",
     "スポニチアネックス「大谷翔平 日本選手初のMLB通算300号！2戦連発20号先頭弾で決めた！ロバーツ監督らハグで祝福」",
-    "Reuters、CNBC、Bloomberg、Al Jazeera、France 24、Euronews、US News、Morning Star、Times of Israel、HNGN、Investrade、AnewZ、Yahoo News、TASS",
-    "NHK、Bloomberg、tenki.jp（日本気象協会）、OANDA、日本経済新聞、河北新報、関西テレビ／Yahoo!ニュース、みのおNOW、ウェザーニュース、ライブドアニュース、京都新聞"
+    "Reuters、CNBC、Bloomberg、Al Jazeera、France 24、Euronews、US News、Morning Star、Times of Israel、HNGN、Investrade、AnewZ、Yahoo News、TASS"
   ],
   "recentOpeners": [
+    "今日の最高気温ランキング、ちょっと待って——1位が40.8℃って、もはや人間が住",
     "欧州で今、史上最悪規模の山火事が起きています🐹\n\nフランスとスペインで合わせて",
     "昨夜の甲子園、まさかの展開に球場がどよめいた🐹\n\n7月24日の阪神×巨人首位攻",
     "今朝いちばん目を引いたのは、ICC（国際刑事裁判所）史上初の出来事。眠っている間",
-    "テスラが約14%急落、アルファベットが約7%急落——AIへの天文学的な投資計画が",
-    "英国の新首相に就任したアンディ・バーナム氏、就任前の肩書は？🐹\n\nスターマー前"
+    "テスラが約14%急落、アルファベットが約7%急落——AIへの天文学的な投資計画が"
   ],
-  "lastPostedAt": 1784976941069,
+  "lastPostedAt": 1784983392396,
   "recentBreaking": [
     "酷暑日5日連続・観測史上初の過去最長更新・三重県桑名40.2℃",
     "ロシア最新鋭ステルス機Su-57がモスクワ郊外で墜落・原因不明",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 184
+    "posts": 185
   },
   "breakingDate": "2026-07-25",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1784976941069,
+  "lastAnyPostAt": 1784983392396,
   "postHistory": [
+    {
+      "tweetId": "2080997607564775652",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "今日の最高気温ランキング、ちょっと待って——1位が40.8℃って、もはや人間が住む温度じゃない🐹\n\n7月25日（土）、日本はまた記録を更新しました。国内「5日",
+      "postedAt": 1784983392396
+    },
     {
       "tweetId": "2080970359226966478",
       "kind": "feature",
@@ -241,13 +248,6 @@
       "category": "続報（30分後）",
       "textPreview": "「桑名で40.6℃」── 22日の最高地点が判明、猛暑日地点も今年最多を更新🐹\n\n7月22日の酷暑は、先ほどの速報よりさらに詳しい数字が出てきました。全国で最",
       "postedAt": 1784743817663
-    },
-    {
-      "tweetId": "2079975047737798803",
-      "kind": "breaking",
-      "category": "酷暑日2日連続・7月22日4地点で40℃超",
-      "textPreview": "📈 いま話題\n\n「酷暑日」2日連続・4地点で記録🐹\n\n7月22日、三重県桑名市で40.6℃を観測。静岡・岐阜など計4地点で今年新設の「酷暑日」（40℃以上）",
-      "postedAt": 1784739652680
     }
   ],
   "breakingFollowUps": [
@@ -255,8 +255,8 @@
       "headline": "酷暑日5日連続・観測史上初の過去最長更新・三重県桑名40.2℃",
       "topic": "酷暑日5日連続・観測史上初の過去最長更新・三重県桑名40.2℃",
       "stageLabel": "5時間後",
-      "dueAt": 1784981420921,
-      "attempts": 0
+      "dueAt": 1784985192396,
+      "attempts": 1
     }
   ],
   "breakingCheckpointsDone": [
