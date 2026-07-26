@@ -17,7 +17,7 @@
     "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山",
     "サウジの石油施設に煙が上がっている——この一枚の映像が、今朝の世界市場を揺さぶっ"
   ],
-  "lastPostedAt": 1785096347914,
+  "lastPostedAt": 1785105611406,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 199
+    "posts": 200
   },
   "breakingDate": "2026-07-27",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785096347914,
+  "lastAnyPostAt": 1785105611406,
   "postHistory": [
+    {
+      "tweetId": "2081509917811261869",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "🐹 こんにちは、キンクマだよ〜！\nXで最近話題になった豆知識をクイズ形式で一つ出題するね。身近なのに意外な科学トリビアだよ！ へぇ〜ってなるはず〜。朝礼で話し",
+      "postedAt": 1785105611406
+    },
     {
       "tweetId": "2081471366256296283",
       "kind": "briefing",
@@ -241,15 +248,9 @@
       "category": "朝ブリーフィング",
       "textPreview": "米国とイランの軍事衝突が12夜連続となり、原油価格が100ドルを超えた——そんな夜が明けた金曜朝です。おはようございます🐹 今日も世界の動きを20問でサクッと",
       "postedAt": 1784837344291
-    },
-    {
-      "tweetId": "2080356348051800175",
-      "kind": "feature",
-      "category": "続報（5時間後）",
-      "textPreview": "円高は「一瞬」で終わった——日銀利上げ加速報道、なぜ円安を止められなかったのか🐹\n\n速報でお伝えしたブルームバーグの日銀利上げペース加速報道（7月22日）を受",
-      "postedAt": 1784830545437
     }
   ],
   "breakingFollowUps": [],
-  "breakingCheckpointsDone": []
+  "breakingCheckpointsDone": [],
+  "triviaNextIndex": 1
 }
