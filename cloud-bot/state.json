@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2081229223558017529",
+      "answer": "正解は「20万人」でした！投票してくれたみなさん、ありがとう🐹\n\n山田涼介のソロドームツアー『Ryosuke Yamada DOME TOUR 2026 Are You Red.Y?』は、京セラドーム大阪2公演・東京ドーム2公演の全4公演で、計20万人を動員。所属事務所・STARTO ENTERTAINMENTの歴史でも、ソロアーティストによるドームツアーは今回が初の快挙です✨\n\n🌰豆知識：ツアー名「Are You Red.Y?」の「Red.Y」は、山田涼介のファンネームの呼び名でもあります！",
+      "sourceUrl": "https://www.oricon.co.jp/news/2435993/full/",
+      "question": "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山田涼介が、所属事務所として史上初のソロド",
+      "postedAt": 1785038668080,
+      "dueAt": 1785045868080,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」",
     "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News",
     "NHKニュース、時事通信、tenki.jp（日本気象協会）、総務省消防庁、朝日新聞、乗りものニュース（Yahoo!ニュース）、日本経済新聞、ライブドアニュース",
     "NHKニュース「フランスとスペインで山火事が拡大 合わせて16万人が避難」／AFP＝時事（Yahoo!ニュース掲載）",
     "デイリースポーツ「巨人ミラクル逆転勝利で首位浮上！ドラ５小浜プロ初本塁打が決勝Ｖ２ラン」／日テレNEWS NNN「【巨人】阪神戦に劇的逆転勝利で首位タイ浮上 9回2アウトからダルベックが逆転2ラン＆延長10回に小濱佑斗がプロ初弾」",
     "Reuters、AP、CNBC、NPR、France 24、Bloomberg、Euronews、Middle East Eye、CNN、Anadolu Agency、Just Security、PlanetF1、RacingNews365、Forbes、Democracy Now、Foreign Policy",
     "CNBC、Reuters、Bloomberg、Forbes JAPAN、The Japan Times、財経新聞、ゴールドオンライン、Investing.com、Yahoo Finance",
-    "NHKニュース「英労働党のバーナム党首 イギリスの新首相に就任 国王が任命」／CNN.co.jp「バーナム氏が英国の新首相に就任、ここ10年で7人目」",
-    "スポニチアネックス「大谷翔平 日本選手初のMLB通算300号！2戦連発20号先頭弾で決めた！ロバーツ監督らハグで祝福」"
+    "NHKニュース「英労働党のバーナム党首 イギリスの新首相に就任 国王が任命」／CNN.co.jp「バーナム氏が英国の新首相に就任、ここ10年で7人目」"
   ],
   "recentOpeners": [
+    "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山",
     "サウジの石油施設に煙が上がっている——この一枚の映像が、今朝の世界市場を揺さぶっ",
     "今日の最高気温ランキング、ちょっと待って——1位が40.8℃って、もはや人間が住",
     "欧州で今、史上最悪規模の山火事が起きています🐹\n\nフランスとスペインで合わせて",
-    "昨夜の甲子園、まさかの展開に球場がどよめいた🐹\n\n7月24日の阪神×巨人首位攻",
-    "今朝いちばん目を引いたのは、ICC（国際刑事裁判所）史上初の出来事。眠っている間"
+    "昨夜の甲子園、まさかの展開に球場がどよめいた🐹\n\n7月24日の阪神×巨人首位攻"
   ],
-  "lastPostedAt": 1785028433529,
+  "lastPostedAt": 1785038668080,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 190
+    "posts": 191
   },
   "breakingDate": "2026-07-26",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785028433529,
+  "lastAnyPostAt": 1785038668080,
   "postHistory": [
+    {
+      "tweetId": "2081229223558017529",
+      "kind": "quiz",
+      "category": "エンタメ・二択",
+      "textPreview": "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山田涼介が、所属事務所として史上初のソロドームツアーを開催中。今日7月26日が東京",
+      "postedAt": 1785038668080
+    },
     {
       "tweetId": "2081186255639908783",
       "kind": "breaking",
@@ -241,13 +258,6 @@
       "category": "日銀が利上げペース加速に柔軟姿勢との報道・円高急進",
       "textPreview": "📈 いま話題\n\n日銀、利上げペースを「半年に1回」超に加速へ柔軟姿勢 — 報道で円高が急進\n\n市場予想（半年に1回）より速いペースで利上げを進める可能性を日銀",
       "postedAt": 1784791656145
-    },
-    {
-      "tweetId": "2080173237846393231",
-      "kind": "feature",
-      "category": "続報（30分後）",
-      "textPreview": "「処理まで2〜3週間」撤去当日は約5,000人が避難へ──箕面・1トン不発弾の続報🐹\n\n箕面市が22日に開いた記者会見で、今後の対応スケジュールの詳細が明らか",
-      "postedAt": 1784786896232
     }
   ],
   "breakingFollowUps": [
@@ -255,8 +265,8 @@
       "headline": "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
       "topic": "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
       "stageLabel": "30分後",
-      "dueAt": 1785030233529,
-      "attempts": 0
+      "dueAt": 1785040468080,
+      "attempts": 1
     },
     {
       "headline": "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
