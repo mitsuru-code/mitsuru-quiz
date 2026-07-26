@@ -1,0 +1,66 @@
+# 「🐹 豆知識記事を追加」Issueテンプレート（.github/ISSUE_TEMPLATE/trivia-add.yml）から
+# 作られたIssueを受け取り、本文を cloud-bot/trivia-stock.json の末尾に自動追加してIssueを閉じる。
+# JSON編集もActionsの手動実行も不要にするための入り口。
+name: 豆知識記事の取り込み
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: trivia-intake
+  cancel-in-progress: false
+
+jobs:
+  add:
+    if: contains(github.event.issue.labels.*.name, 'trivia-submit')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: ストックに追加
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = 'cloud-bot/trivia-stock.json';
+            const body = process.env.ISSUE_BODY || '';
+            const m = body.match(/### 記事本文\s*\n\n([\s\S]*)/);
+            const article = (m ? m[1] : body).trim();
+            if (!article) { console.error('❌ 本文が空です'); process.exit(1); }
+            const stock = JSON.parse(fs.readFileSync(path, 'utf8'));
+            stock.push(article);
+            fs.writeFileSync(path, JSON.stringify(stock, null, 2) + '\n');
+            console.log('✅ ストックに追加しました（現在' + stock.length + '件）');
+          "
+          git config user.name "cloud-bot"
+          git config user.email "actions@github.com"
+          git add cloud-bot/trivia-stock.json
+          git commit -m "trivia: Issue #${{ github.event.issue.number }} から豆知識記事を追加 [skip ci]"
+          git push
+
+      - name: Issueにコメントしてクローズ
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --repo "${{ github.repository }}" \
+            --body "✅ 豆知識記事のストックに追加しました！順番が来たら毎日7時台に自動投稿されます。"
+          gh issue close "${{ github.event.issue.number }}" --repo "${{ github.repository }}"
+
+      - name: 失敗時はIssueにコメント
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --repo "${{ github.repository }}" \
+            --body "❌ ストックへの追加に失敗しました（本文が空だった可能性があります）。編集して再度Issueを作り直してください。"
