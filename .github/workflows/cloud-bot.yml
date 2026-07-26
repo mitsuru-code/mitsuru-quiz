@@ -1,7 +1,7 @@
 # クラウドBot: 時間帯別の時事コンテンツ自動生成・X自動投稿
-# 番組表（JST）: 5時47分=朝ブリーフィング(20問Q&A) / 12時13分=昼のPollクイズ /
+# 番組表（JST）: 5時30分=朝ブリーフィング(20問Q&A) / 12時13分=昼のPollクイズ /
 #              17時47分=夕方のPollクイズ / 20時47分=夜の振り返り(20問Q&A)
-# - 毎時47分（12時台のみ13分）に起動し、直近スロットが未投稿なら生成して投稿（キャッチアップ方式）
+# - 毎時47分（5時台のみ30分・12時台のみ13分）に起動し、直近スロットが未投稿なら生成して投稿（キャッチアップ方式）
 # - 速報チェックは深夜2:00/4:00・朝9:30〜11:00・午後14〜16時の固定時刻cronで実施（post-quiz.mjsのBREAKING_CHECKPOINTS参照）
 # - 毎回の実行で、返信期限が来た正解もスレッド返信
 # - 手動実行（Run workflow）でdry-run／強制投稿／接続テストが可能
@@ -17,6 +17,10 @@ on:
     # 47分固定のトリガーも12時台には引き続き発火するが、その時点では既に
     # 投稿済みのため実質的に返信・速報チェックのみを行う
     - cron: '13 3 * * *'
+    # 朝のスロットだけ5時30分(JST)＝前日20時30分(UTC)に早めるための追加トリガー。
+    # 47分固定のトリガーも5時台には引き続き発火するが、その時点では既に
+    # 投稿済みのため実質的に返信・速報チェックのみを行う
+    - cron: '30 20 * * *'
     # 速報チェックポイント用の専用トリガー（post-quiz.mjsのBREAKING_CHECKPOINTSと対応）。
     # 経験上ニュースが発生しやすい深夜2:00/4:00・朝9:30〜11:00・午後14〜16時（JST）に起動する
     - cron: '0 17 * * *'  # 深夜2:00
@@ -82,6 +86,7 @@ jobs:
           node-version: 20
 
       - name: コンテンツ生成・投稿
+        id: post
         run: node cloud-bot/post-quiz.mjs
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -101,7 +106,7 @@ jobs:
           GET_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.get_tweet_id || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
           # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
-          # BREAKING_ENABLED: 'false'      # 速報チェックを止めたい場合はfalseに
+          BREAKING_ENABLED: 'false'        # 速報チェックを中止（自動検知・続報・朝の代替クイズもすべて停止）
 
       - name: 状態（返信キュー・出題履歴）をコミット
         run: |
@@ -114,6 +119,18 @@ jobs:
           git add cloud-bot/state.json
           git commit -m "cloud-bot: 状態を更新 [skip ci]"
           git push
+
+      - name: 速報投稿をIssueで通知
+        if: steps.post.outputs.breaking_posted == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create breaking-news --repo "${{ github.repository }}" --color 1D76DB --description "速報投稿の通知（手動で続報を作る目安）" 2>/dev/null || true
+          tweet_url="https://x.com/i/web/status/${{ steps.post.outputs.breaking_tweet_id }}"
+          gh issue create --repo "${{ github.repository }}" \
+            --label breaking-news \
+            --title "🚨 速報を投稿しました: ${{ steps.post.outputs.breaking_headline }}" \
+            --body "$(printf '速報を投稿しました。\n\n投稿: %s\n\n30分後に自動で1回だけ続報を投稿します。それ以上の続報が必要な場合は、Actionsの手動実行(workflow_dispatch)でBREAKING_TOPICまたはFEATURE_TOPICを指定して作成してください。' "$tweet_url")"
 
       # 失敗したらIssueを自動作成して通知（毎時の連続失敗でも未クローズのIssueがあれば重複作成しない）
       - name: 失敗をIssueで通知
