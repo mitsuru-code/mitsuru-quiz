@@ -4,6 +4,8 @@
 // 番組表（JST）:
 //   5時台 … 朝のブリーフィング: 日本が寝ている間の海外ニュースを20問のQ&Aで
 //           1本の長文ポストに（タイパ重視・答えは同じ投稿内・企業の朝の話題作り向け）
+//   7時台 … 豆知識記事: cloud-bot/trivia-stock.json にユーザーが事前にストックした
+//           記事を先頭（未投稿分）から1本ずつ投稿（AI生成ではない・ストックが尽きたら見送り）
 //   12時 … 昼のエンタメクイズ: 午前の出来事・スポーツ・芸能をX投票(Poll)で出題
 //           → 2時間後に正解をスレッド返信
 //   17時 … 夕方の時事クイズ: 今日の主要ニュースをX投票(Poll)で出題
@@ -32,6 +34,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const STATE_FILE = path.join(__dirname, 'state.json');
+const TRIVIA_STOCK_FILE = path.join(__dirname, 'trivia-stock.json');
 
 const DRY_RUN = process.env.DRY_RUN === 'true';
 const FORCE_POST = process.env.FORCE_POST === 'true';
@@ -74,6 +77,7 @@ const TW_ACCESS_SECRET   = cleanEnv('TWITTER_ACCESS_TOKEN_SECRET');
 // ===== 番組表（スロット→プロファイル） =====
 const SLOT_PROFILES = {
   5:  { kind: 'briefing' },
+  7:  { kind: 'trivia' },
   12: { kind: 'quiz', genre: '今日の午前中の出来事や、スポーツ・芸能・エンタメの明るい話題（昼休みに気軽に楽しめる、重すぎないもの）' },
   17: { kind: 'quiz', genre: '今日の主要な時事ニュース（国内・国際・経済・社会から、帰宅時間帯に知っておきたい話題）' },
   20: { kind: 'recap' },
@@ -685,6 +689,22 @@ function saveState(state) {
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + '\n');
 }
 
+// 豆知識記事のストック読み込み。ユーザーが直接編集する配列（常に末尾に追加する運用）で、
+// Bot側からは書き込まない。どこまで投稿済みかはstate.triviaNextIndexで別管理する
+function loadTriviaStock() {
+  try {
+    const stock = JSON.parse(fs.readFileSync(TRIVIA_STOCK_FILE, 'utf8'));
+    return Array.isArray(stock) ? stock : [];
+  } catch {
+    return [];
+  }
+}
+
+// ストックのうち、まだ投稿していない次の1件を返す（無ければnull）
+export function nextTriviaArticle(stock, nextIndex) {
+  return stock[nextIndex] || null;
+}
+
 // ===== 月間投稿数ガード =====
 function canPost(state, now) {
   const month = jstDateKey(now).slice(0, 7);
@@ -955,6 +975,24 @@ async function main() {
         state.lastPostedAt = now;
         countPost(state, now);
         recordPost(state, { tweetId, kind: profile.kind, category: gen.category, textPreview: gen.text, postedAt: now });
+        stateChanged = true;
+      }
+
+    } else if (profile.kind === 'trivia') {
+      const stock = loadTriviaStock();
+      const idx = state.triviaNextIndex || 0;
+      const article = nextTriviaArticle(stock, idx);
+      if (!article) {
+        console.log('📚 豆知識記事のストックが尽きています（cloud-bot/trivia-stock.jsonに追加してください）');
+      } else if (DRY_RUN) {
+        console.log(`🧪 [DRY_RUN] 豆知識記事(${idx + 1}/${stock.length}):\n${article}`);
+      } else {
+        const tweetId = await postTweet(article, null);
+        console.log(`🐦 豆知識記事を投稿しました（tweet: ${tweetId}）`);
+        state.triviaNextIndex = idx + 1;
+        state.lastPostedAt = now;
+        countPost(state, now);
+        recordPost(state, { tweetId, kind: 'trivia', category: '豆知識記事', textPreview: article, postedAt: now });
         stateChanged = true;
       }
 

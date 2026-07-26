@@ -8,6 +8,7 @@ import {
   safeSlice,
   scheduleFollowUps,
   assertValidPostText,
+  nextTriviaArticle,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -135,4 +136,16 @@ test('scheduleFollowUps: followUp=trueなら常に30分後の1件のみ積む', 
   assert.strictEqual(state.breakingFollowUps.length, 1);
   assert.strictEqual(state.breakingFollowUps[0].dueAt, now + 30 * 60000);
   assert.strictEqual(state.breakingFollowUps[0].stageLabel, '30分後');
+});
+
+test('nextTriviaArticle: 未投稿分の先頭を返す', () => {
+  const stock = ['1本目', '2本目', '3本目'];
+  assert.strictEqual(nextTriviaArticle(stock, 0), '1本目');
+  assert.strictEqual(nextTriviaArticle(stock, 2), '3本目');
+});
+
+test('nextTriviaArticle: ストックが尽きたらnullを返す', () => {
+  const stock = ['1本目'];
+  assert.strictEqual(nextTriviaArticle(stock, 1), null);
+  assert.strictEqual(nextTriviaArticle([], 0), null);
 });
