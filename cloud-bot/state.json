@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2081229223558017529",
-      "answer": "正解は「20万人」でした！投票してくれたみなさん、ありがとう🐹\n\n山田涼介のソロドームツアー『Ryosuke Yamada DOME TOUR 2026 Are You Red.Y?』は、京セラドーム大阪2公演・東京ドーム2公演の全4公演で、計20万人を動員。所属事務所・STARTO ENTERTAINMENTの歴史でも、ソロアーティストによるドームツアーは今回が初の快挙です✨\n\n🌰豆知識：ツアー名「Are You Red.Y?」の「Red.Y」は、山田涼介のファンネームの呼び名でもあります！",
-      "sourceUrl": "https://www.oricon.co.jp/news/2435993/full/",
-      "question": "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山田涼介が、所属事務所として史上初のソロド",
-      "postedAt": 1785038668080,
-      "dueAt": 1785045868080,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」",
     "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 193
+    "posts": 194
   },
   "breakingDate": "2026-07-26",
   "breakingCount": 2,
