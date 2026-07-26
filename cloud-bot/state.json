@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2081296517357265374",
-      "answer": "正解は「20基」でした！投票してくれたみなさん、ありがとうございます🐹\n\n7月24日、スペースXのスターシップ（第13回飛行テスト）が、史上初めて機体を無傷のままインド洋に着水させることに成功。スペースXの広報担当者は「夢のようなシナリオ」と表現しました。さらに今回は、次世代の「スターリンクV3」衛星を実機20基、初めて軌道上に展開しました。\n\n🌰豆知識：打ち上げ後、スターシップは機体を垂直に立て直すフリップ機動を行ってエンジンを再点火し、着水。その後も機体はインド洋に浮かびながらライブ映像を送り続けました。",
-      "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starship-megarocket-makes-the-softest-splashdown-ever-after-launching-next-gen-starlink-satellites-in-flight-13-test-video",
-      "question": "スペースXのロケット「スターシップ」が7月24日、史上最もソフトなインド洋着水に成功🐹\n今回の第13回飛行テストで、初",
-      "postedAt": 1785054709598,
-      "dueAt": 1785061909598,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、BSN新潟放送（BSNニュース）、新潟日報、NSTニュース、毎日新聞、日本経済新聞、時事通信",
     "Space.com「SpaceX's Starship megarocket makes the 'softest splashdown' ever after launching next-gen Starlink satellites in Flight 13 test」／MyRGV.com「Flight 13 launches: All mission goals met, Starship makes soft splashdown」",
     "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」",
     "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News",
     "NHKニュース、時事通信、tenki.jp（日本気象協会）、総務省消防庁、朝日新聞、乗りものニュース（Yahoo!ニュース）、日本経済新聞、ライブドアニュース",
     "NHKニュース「フランスとスペインで山火事が拡大 合わせて16万人が避難」／AFP＝時事（Yahoo!ニュース掲載）",
     "デイリースポーツ「巨人ミラクル逆転勝利で首位浮上！ドラ５小浜プロ初本塁打が決勝Ｖ２ラン」／日テレNEWS NNN「【巨人】阪神戦に劇的逆転勝利で首位タイ浮上 9回2アウトからダルベックが逆転2ラン＆延長10回に小濱佑斗がプロ初弾」",
-    "Reuters、AP、CNBC、NPR、France 24、Bloomberg、Euronews、Middle East Eye、CNN、Anadolu Agency、Just Security、PlanetF1、RacingNews365、Forbes、Democracy Now、Foreign Policy",
-    "CNBC、Reuters、Bloomberg、Forbes JAPAN、The Japan Times、財経新聞、ゴールドオンライン、Investing.com、Yahoo Finance"
+    "Reuters、AP、CNBC、NPR、France 24、Bloomberg、Euronews、Middle East Eye、CNN、Anadolu Agency、Just Security、PlanetF1、RacingNews365、Forbes、Democracy Now、Foreign Policy"
   ],
   "recentOpeners": [
+    "新潟が1日中、雨と戦った日曜日でした。県内を守るために動いた人たちへ、まずお疲れ",
     "スペースXのロケット「スターシップ」が7月24日、史上最もソフトなインド洋着水に",
     "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山",
     "サウジの石油施設に煙が上がっている——この一枚の映像が、今朝の世界市場を揺さぶっ",
-    "今日の最高気温ランキング、ちょっと待って——1位が40.8℃って、もはや人間が住",
-    "欧州で今、史上最悪規模の山火事が起きています🐹\n\nフランスとスペインで合わせて"
+    "今日の最高気温ランキング、ちょっと待って——1位が40.8℃って、もはや人間が住"
   ],
-  "lastPostedAt": 1785054709598,
+  "lastPostedAt": 1785066441754,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 196
+    "posts": 198
   },
   "breakingDate": "2026-07-26",
   "breakingCount": 2,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785054709598,
+  "lastAnyPostAt": 1785066441754,
   "postHistory": [
+    {
+      "tweetId": "2081345949427745219",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "新潟が1日中、雨と戦った日曜日でした。県内を守るために動いた人たちへ、まずお疲れさまと言わせてください🐹 今日のニュース、どれだけ頭に残ってますか？一緒に振り",
+      "postedAt": 1785066441754
+    },
     {
       "tweetId": "2081296517357265374",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "続報（2時間後）",
       "textPreview": "円安は止まらず163円台定着——日銀の利上げ加速報道、なぜ\"円高\"につながらなかったのか🐹\n\n日銀が「利上げペースを市場予想（半年に1回程度）より加速させるこ",
       "postedAt": 1784826230675
-    },
-    {
-      "tweetId": "2080315978152337434",
-      "kind": "feature",
-      "category": "続報（30分後）",
-      "textPreview": "円高は\"一時的\"で終わった――日銀報道後も163円台に戻るワケ🐹\n\n7月22日夕にブルームバーグが報じた「日銀が利上げペース加速に柔軟姿勢」という内容は、速報",
-      "postedAt": 1784820925767
     }
   ],
   "breakingFollowUps": [],
