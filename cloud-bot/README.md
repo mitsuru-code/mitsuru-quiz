@@ -92,7 +92,7 @@ GitHubリポジトリの **Settings → Secrets and variables → Actions → Ne
 |---|---|---|
 | `ANSWER_DELAY_HOURS` | `2` | 正解返信・Poll投票期間の長さ |
 | `MONTHLY_POST_LIMIT` | `450` | 月間投稿数の安全上限（超えると投稿を見送る） |
-| `BREAKING_ENABLED` | 有効 | `false` にすると速報チェックを止める |
+| `BREAKING_ENABLED` | **現在`false`（停止中）** | `false`で速報チェックを中止（自動検知・続報・朝9:30〜11:00の代替クイズもすべて停止）。再開する場合は`true`に戻す |
 
 投稿する時刻（5/12/17/20時台）を変えたい場合は、`cloud-bot/post-quiz.mjs` 冒頭の `SLOT_PROFILES` を編集してください。速報チェックの時刻・上限回数を変えたい場合は同ファイルの `BREAKING_CHECKPOINTS` / `BREAKING_MAX_PER_DAY` を編集し、時刻を変更した場合は `.github/workflows/cloud-bot.yml` の対応するcronトリガーも忘れずに変更してください。
 

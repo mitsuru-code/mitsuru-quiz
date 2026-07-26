@@ -102,7 +102,7 @@ jobs:
           GET_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.get_tweet_id || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
           # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
-          # BREAKING_ENABLED: 'false'      # 速報チェックを止めたい場合はfalseに
+          BREAKING_ENABLED: 'false'        # 速報チェックを中止（自動検知・続報・朝の代替クイズもすべて停止）
 
       - name: 状態（返信キュー・出題履歴）をコミット
         run: |
