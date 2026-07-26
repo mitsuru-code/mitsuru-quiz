@@ -1,0 +1,13 @@
+name: 🐹 豆知識記事を追加
+description: 豆知識記事のストックに1本追加します（自動で毎日7時台に投稿されます・JSON編集は不要）
+title: "[豆知識] "
+labels: ["trivia-submit"]
+body:
+  - type: textarea
+    id: article
+    attributes:
+      label: 記事本文
+      description: そのままXに投稿される本文です。絵文字・改行もそのまま使えます（見出し・前置き・作業報告などは書かず、投稿したい本文だけを入力してください）。
+      placeholder: ここに記事の本文を書いてください
+    validations:
+      required: true
