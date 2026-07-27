@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters, AP, CBS News, CNBC, NPR, France 24, Al Jazeera, Washington Examiner, Yahoo Finance/Zacks, Investrade, JustSecurity, OPB, Wikipedia (event pages), Mezha.net, JusticeInfo.net, WORLD Radio, The American Legion",
     "NHK、日本経済新聞、オリコンニュース、Yahoo!ニュース、WORLD Radio（wng.org）、livedoorニュース",
     "ABEMA TIMES（Yahoo!ニュース）「独 イベントに車突入 容疑者は射殺」／アゴラ言論プラットフォーム「ベルリンのLGBTQ+イベントに車両が突入」",
     "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」",
     "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia",
     "NHK、BSN新潟放送（BSNニュース）、新潟日報、NSTニュース、毎日新聞、日本経済新聞、時事通信",
     "Space.com「SpaceX's Starship megarocket makes the 'softest splashdown' ever after launching next-gen Starlink satellites in Flight 13 test」／MyRGV.com「Flight 13 launches: All mission goals met, Starship makes soft splashdown」",
-    "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」",
-    "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News"
+    "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」"
   ],
   "recentOpeners": [
+    "おはようございます🐹 今朝は盛りだくさんです。ベルリン、イラン、インド、欧州の",
     "東野圭吾さんの訃報——今日いちばん、言葉を失いました。\n月曜の夜、お疲れさまでし",
     "ベルリンで起きた車突入テロ、容疑者はどこで射殺された？🐹\n\n7月25日夜、ベル",
     "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「",
-    "月曜の朝、おはようございます🐹 昨夜のベルリン、パリ、中東——世界が同時多発的",
-    "新潟が1日中、雨と戦った日曜日でした。県内を守るために動いた人たちへ、まずお疲れ"
+    "月曜の朝、おはようございます🐹 昨夜のベルリン、パリ、中東——世界が同時多発的"
   ],
-  "lastPostedAt": 1785166263625,
+  "lastPostedAt": 1785185580692,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 206
+    "posts": 207
   },
   "breakingDate": "2026-07-28",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785166263625,
+  "lastAnyPostAt": 1785185580692,
   "postHistory": [
+    {
+      "tweetId": "2081845677722878401",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 今朝は盛りだくさんです。ベルリン、イラン、インド、欧州の山火事……世界が週明けも動き続けています。通勤のお供にどうぞ。\n\n───────",
+      "postedAt": 1785185580692
+    },
     {
       "tweetId": "2081764311417151713",
       "kind": "trivia",
@@ -241,13 +248,6 @@
       "category": "続報（2時間後）",
       "textPreview": "テスラ15%急落・アルファベット7%安、時価総額130兆円が1日で消えた🐹\n\n速報からさらに詳しい数字が出てきました。7月23日（現地時間）の取引では、マグニ",
       "postedAt": 1784872949931
-    },
-    {
-      "tweetId": "2080524302483599539",
-      "kind": "breaking",
-      "category": "日経平均1853円安・前場大幅反落・原油高インフレ懸念",
-      "textPreview": "📈 いま話題\n\n日経平均、本日前場で1853円安の急落🐹\n米株安・原油高によるインフレ懸念が重なり、半導体・テック株が売り浴びせられました。\n前引け値は6万",
-      "postedAt": 1784870610487
     }
   ],
   "breakingFollowUps": [],
