@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2081593390953910783",
-      "answer": "正解は「18.8％」でした！参加してくれてありがとう🐹\n\n7月26日放送のTBS「VIVANT」シーズン2・初回は世帯平均視聴率18.8％（関東地区、ビデオリサーチ調べ）を記録。7月期民放連続ドラマでトップの好発進です。シーズン1の最終話（19.6％）には届きませんでしたが、初回としては大幅に上回る数字でした。\n\n🌰豆知識\nシーズン1の初回は11.5％でしたが、回を重ねるごとに右肩上がりに上昇。今回のシーズン2は初回からシーズン1平均を大きく超える高水準でスタートしました。",
-      "sourceUrl": "https://news.yahoo.co.jp/articles/8de8a3d4c30a56ce6190504273c33fa63db9fef3",
-      "question": "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「VIVANT」シーズン2の第1話（7月2",
-      "postedAt": 1785125493714,
-      "dueAt": 1785132693714,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」",
     "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 201
+    "posts": 202
   },
   "breakingDate": "2026-07-27",
   "breakingCount": 0,
