@@ -9,6 +9,7 @@ import {
   scheduleFollowUps,
   assertValidPostText,
   nextTriviaArticle,
+  SLOT_PROFILES,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -148,4 +149,19 @@ test('nextTriviaArticle: ストックが尽きたらnullを返す', () => {
   const stock = ['1本目'];
   assert.strictEqual(nextTriviaArticle(stock, 1), null);
   assert.strictEqual(nextTriviaArticle([], 0), null);
+});
+
+test('SLOT_PROFILES: 豆知識は1日4枠（7/10/15/22時台）', () => {
+  const triviaHours = Object.entries(SLOT_PROFILES)
+    .filter(([, p]) => p.kind === 'trivia')
+    .map(([h]) => Number(h))
+    .sort((a, b) => a - b);
+  assert.deepStrictEqual(triviaHours, [7, 10, 15, 22]);
+});
+
+test('SLOT_PROFILES: スロットは1時間以上離れている（投稿間隔30分の下限に抵触しない）', () => {
+  const hours = Object.keys(SLOT_PROFILES).map(Number).sort((a, b) => a - b);
+  for (let i = 1; i < hours.length; i++) {
+    assert.ok(hours[i] - hours[i - 1] >= 1, `${hours[i - 1]}時と${hours[i]}時が近すぎます`);
+  }
 });
