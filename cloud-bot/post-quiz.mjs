@@ -4,8 +4,9 @@
 // 番組表（JST）:
 //   5時台 … 朝のブリーフィング: 日本が寝ている間の海外ニュースを20問のQ&Aで
 //           1本の長文ポストに（タイパ重視・答えは同じ投稿内・企業の朝の話題作り向け）
-//   7時台 … 豆知識記事: cloud-bot/trivia-stock.json にユーザーが事前にストックした
-//           記事を先頭（未投稿分）から1本ずつ投稿（AI生成ではない・ストックが尽きたら見送り）
+//   7/10/15/22時台 … 豆知識記事: cloud-bot/trivia-stock.json にユーザーが事前にストックした
+//           記事を先頭（未投稿分）から1本ずつ投稿（AI生成ではない・ストックが尽きたら見送り）。
+//           1日4本。ストックの補充はPC側の定時タスクが担当し、ここでは生成しない
 //   12時 … 昼のエンタメクイズ: 午前の出来事・スポーツ・芸能をX投票(Poll)で出題
 //           → 2時間後に正解をスレッド返信
 //   17時 … 夕方の時事クイズ: 今日の主要ニュースをX投票(Poll)で出題
@@ -75,12 +76,17 @@ const TW_ACCESS_TOKEN    = cleanEnv('TWITTER_ACCESS_TOKEN');
 const TW_ACCESS_SECRET   = cleanEnv('TWITTER_ACCESS_TOKEN_SECRET');
 
 // ===== 番組表（スロット→プロファイル） =====
-const SLOT_PROFILES = {
+// 豆知識(trivia)はストックから投稿するだけでAI生成を伴わないため、追加してもAPIコストは増えない。
+// X収益化のボトルネックであるインプレッションを、コストを増やさず稼ぐための増量枠
+export const SLOT_PROFILES = {
   5:  { kind: 'briefing' },
   7:  { kind: 'trivia' },
+  10: { kind: 'trivia' },
   12: { kind: 'quiz', genre: '今日の午前中の出来事や、スポーツ・芸能・エンタメの明るい話題（昼休みに気軽に楽しめる、重すぎないもの）' },
+  15: { kind: 'trivia' },
   17: { kind: 'quiz', genre: '今日の主要な時事ニュース（国内・国際・経済・社会から、帰宅時間帯に知っておきたい話題）' },
   20: { kind: 'recap' },
+  22: { kind: 'trivia' },
 };
 const POST_SLOTS = Object.keys(SLOT_PROFILES).map(Number).sort((a, b) => a - b);
 
