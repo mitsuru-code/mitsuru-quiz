@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2081593390953910783",
+      "answer": "正解は「18.8％」でした！参加してくれてありがとう🐹\n\n7月26日放送のTBS「VIVANT」シーズン2・初回は世帯平均視聴率18.8％（関東地区、ビデオリサーチ調べ）を記録。7月期民放連続ドラマでトップの好発進です。シーズン1の最終話（19.6％）には届きませんでしたが、初回としては大幅に上回る数字でした。\n\n🌰豆知識\nシーズン1の初回は11.5％でしたが、回を重ねるごとに右肩上がりに上昇。今回のシーズン2は初回からシーズン1平均を大きく超える高水準でスタートしました。",
+      "sourceUrl": "https://news.yahoo.co.jp/articles/8de8a3d4c30a56ce6190504273c33fa63db9fef3",
+      "question": "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「VIVANT」シーズン2の第1話（7月2",
+      "postedAt": 1785125493714,
+      "dueAt": 1785132693714,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」",
     "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia",
     "NHK、BSN新潟放送（BSNニュース）、新潟日報、NSTニュース、毎日新聞、日本経済新聞、時事通信",
     "Space.com「SpaceX's Starship megarocket makes the 'softest splashdown' ever after launching next-gen Starlink satellites in Flight 13 test」／MyRGV.com「Flight 13 launches: All mission goals met, Starship makes soft splashdown」",
     "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」",
     "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News",
     "NHKニュース、時事通信、tenki.jp（日本気象協会）、総務省消防庁、朝日新聞、乗りものニュース（Yahoo!ニュース）、日本経済新聞、ライブドアニュース",
-    "NHKニュース「フランスとスペインで山火事が拡大 合わせて16万人が避難」／AFP＝時事（Yahoo!ニュース掲載）",
-    "デイリースポーツ「巨人ミラクル逆転勝利で首位浮上！ドラ５小浜プロ初本塁打が決勝Ｖ２ラン」／日テレNEWS NNN「【巨人】阪神戦に劇的逆転勝利で首位タイ浮上 9回2アウトからダルベックが逆転2ラン＆延長10回に小濱佑斗がプロ初弾」"
+    "NHKニュース「フランスとスペインで山火事が拡大 合わせて16万人が避難」／AFP＝時事（Yahoo!ニュース掲載）"
   ],
   "recentOpeners": [
+    "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「",
     "月曜の朝、おはようございます🐹 昨夜のベルリン、パリ、中東——世界が同時多発的",
     "新潟が1日中、雨と戦った日曜日でした。県内を守るために動いた人たちへ、まずお疲れ",
     "スペースXのロケット「スターシップ」が7月24日、史上最もソフトなインド洋着水に",
-    "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山",
-    "サウジの石油施設に煙が上がっている——この一枚の映像が、今朝の世界市場を揺さぶっ"
+    "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山"
   ],
-  "lastPostedAt": 1785105611406,
+  "lastPostedAt": 1785125493714,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 200
+    "posts": 201
   },
   "breakingDate": "2026-07-27",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785105611406,
+  "lastAnyPostAt": 1785125493714,
   "postHistory": [
+    {
+      "tweetId": "2081593390953910783",
+      "kind": "quiz",
+      "category": "エンタメ・4択",
+      "textPreview": "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「VIVANT」シーズン2の第1話（7月26日放送）の世帯平均視聴率は何％だった？",
+      "postedAt": 1785125493714
+    },
     {
       "tweetId": "2081509917811261869",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "アルファベット・テスラ決算失望でナスダック急落・マグニフィセント7全面安",
       "textPreview": "📈 いま話題\n\nGoogleの親会社アルファベットとテスラが決算発表後に急落、ナスダック100が前日比543ポイント安（-1.87%）と大幅下落🐹\n\nアルフ",
       "postedAt": 1784855250009
-    },
-    {
-      "tweetId": "2080385027909759404",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "米国とイランの軍事衝突が12夜連続となり、原油価格が100ドルを超えた——そんな夜が明けた金曜朝です。おはようございます🐹 今日も世界の動きを20問でサクッと",
-      "postedAt": 1784837344291
     }
   ],
   "breakingFollowUps": [],
