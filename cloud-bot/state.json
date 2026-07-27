@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2081656586091524534",
+      "answer": "正解は「ベルリン市内の市民農園付近」でした！投票してくれたみなさん、ありがとうございます🐹\n\n7月25日夜、ベルリン中心部のティアガルテン公園周辺でプライド・パレードに車が突っ込み、1人が死亡・29人が負傷。容疑者の21歳の男はシュパンダウ地区の市民農園で発見され、刃物で特殊部隊員に襲いかかったため射殺されました。ドイツ内相は26日、イスラム過激派によるテロと認定しています。\n\n🌰豆知識：「クリストファー・ストリート・デー（CSD）」はベルリン最大規模のプライドイベントで、毎年数十万人が参加します。名前の由来は1969年のニューヨーク・クリストファー街での抗議運動です。",
+      "sourceUrl": "https://news.yahoo.co.jp/articles/f179d4f63d7774ea6f998e61b9eda5df769ade75",
+      "question": "ベルリンで起きた車突入テロ、容疑者はどこで射殺された？🐹\n\n7月25日夜、ベルリンでプライド・パレードの群衆に車が突っ",
+      "postedAt": 1785140558882,
+      "dueAt": 1785147758882,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "ABEMA TIMES（Yahoo!ニュース）「独 イベントに車突入 容疑者は射殺」／アゴラ言論プラットフォーム「ベルリンのLGBTQ+イベントに車両が突入」",
     "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」",
     "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia",
     "NHK、BSN新潟放送（BSNニュース）、新潟日報、NSTニュース、毎日新聞、日本経済新聞、時事通信",
     "Space.com「SpaceX's Starship megarocket makes the 'softest splashdown' ever after launching next-gen Starlink satellites in Flight 13 test」／MyRGV.com「Flight 13 launches: All mission goals met, Starship makes soft splashdown」",
     "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」",
     "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News",
-    "NHKニュース、時事通信、tenki.jp（日本気象協会）、総務省消防庁、朝日新聞、乗りものニュース（Yahoo!ニュース）、日本経済新聞、ライブドアニュース",
-    "NHKニュース「フランスとスペインで山火事が拡大 合わせて16万人が避難」／AFP＝時事（Yahoo!ニュース掲載）"
+    "NHKニュース、時事通信、tenki.jp（日本気象協会）、総務省消防庁、朝日新聞、乗りものニュース（Yahoo!ニュース）、日本経済新聞、ライブドアニュース"
   ],
   "recentOpeners": [
+    "ベルリンで起きた車突入テロ、容疑者はどこで射殺された？🐹\n\n7月25日夜、ベル",
     "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「",
     "月曜の朝、おはようございます🐹 昨夜のベルリン、パリ、中東——世界が同時多発的",
     "新潟が1日中、雨と戦った日曜日でした。県内を守るために動いた人たちへ、まずお疲れ",
-    "スペースXのロケット「スターシップ」が7月24日、史上最もソフトなインド洋着水に",
-    "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山"
+    "スペースXのロケット「スターシップ」が7月24日、史上最もソフトなインド洋着水に"
   ],
-  "lastPostedAt": 1785125493714,
+  "lastPostedAt": 1785140558882,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 202
+    "posts": 203
   },
   "breakingDate": "2026-07-27",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785125493714,
+  "lastAnyPostAt": 1785140558882,
   "postHistory": [
+    {
+      "tweetId": "2081656586091524534",
+      "kind": "quiz",
+      "category": "国際・4択",
+      "textPreview": "ベルリンで起きた車突入テロ、容疑者はどこで射殺された？🐹\n\n7月25日夜、ベルリンでプライド・パレードの群衆に車が突っ込み1人死亡・29人負傷。逃走した容疑者",
+      "postedAt": 1785140558882
+    },
     {
       "tweetId": "2081593390953910783",
       "kind": "quiz",
@@ -241,13 +258,6 @@
       "category": "スポーツ・4択",
       "textPreview": "大谷翔平がついに日本人初の偉業を達成！🐹\n\n2026年7月7日（現地時間）のロッキーズ戦で、大谷翔平選手が到達したメジャー通算本塁打の節目は何号だったでしょう",
       "postedAt": 1784865103763
-    },
-    {
-      "tweetId": "2080459893526397130",
-      "kind": "breaking",
-      "category": "アルファベット・テスラ決算失望でナスダック急落・マグニフィセント7全面安",
-      "textPreview": "📈 いま話題\n\nGoogleの親会社アルファベットとテスラが決算発表後に急落、ナスダック100が前日比543ポイント安（-1.87%）と大幅下落🐹\n\nアルフ",
-      "postedAt": 1784855250009
     }
   ],
   "breakingFollowUps": [],
