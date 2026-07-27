@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "NHK、日本経済新聞、オリコンニュース、Yahoo!ニュース、WORLD Radio（wng.org）、livedoorニュース",
     "ABEMA TIMES（Yahoo!ニュース）「独 イベントに車突入 容疑者は射殺」／アゴラ言論プラットフォーム「ベルリンのLGBTQ+イベントに車両が突入」",
     "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」",
     "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia",
     "NHK、BSN新潟放送（BSNニュース）、新潟日報、NSTニュース、毎日新聞、日本経済新聞、時事通信",
     "Space.com「SpaceX's Starship megarocket makes the 'softest splashdown' ever after launching next-gen Starlink satellites in Flight 13 test」／MyRGV.com「Flight 13 launches: All mission goals met, Starship makes soft splashdown」",
     "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」",
-    "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News",
-    "NHKニュース、時事通信、tenki.jp（日本気象協会）、総務省消防庁、朝日新聞、乗りものニュース（Yahoo!ニュース）、日本経済新聞、ライブドアニュース"
+    "CNN, Reuters, Bloomberg, AP, The Hill, US News & World Report, CNBC, Seeking Alpha, Washington Post, CTV News, Tech Times, Türkiye Today, Times of Israel, Fox News"
   ],
   "recentOpeners": [
+    "東野圭吾さんの訃報——今日いちばん、言葉を失いました。\n月曜の夜、お疲れさまでし",
     "ベルリンで起きた車突入テロ、容疑者はどこで射殺された？🐹\n\n7月25日夜、ベル",
     "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「",
     "月曜の朝、おはようございます🐹 昨夜のベルリン、パリ、中東——世界が同時多発的",
-    "新潟が1日中、雨と戦った日曜日でした。県内を守るために動いた人たちへ、まずお疲れ",
-    "スペースXのロケット「スターシップ」が7月24日、史上最もソフトなインド洋着水に"
+    "新潟が1日中、雨と戦った日曜日でした。県内を守るために動いた人たちへ、まずお疲れ"
   ],
-  "lastPostedAt": 1785140558882,
+  "lastPostedAt": 1785156267153,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 204
+    "posts": 205
   },
   "breakingDate": "2026-07-27",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785140558882,
+  "lastAnyPostAt": 1785156267153,
   "postHistory": [
+    {
+      "tweetId": "2081722637408215200",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "東野圭吾さんの訃報——今日いちばん、言葉を失いました。\n月曜の夜、お疲れさまでした🐹 今日1日のニュース、振り返ってみましょう。\n\n─────────────",
+      "postedAt": 1785156267153
+    },
     {
       "tweetId": "2081656586091524534",
       "kind": "quiz",
@@ -241,13 +248,6 @@
       "category": "続報（30分後）",
       "textPreview": "テスラ時価総額が1日で約30兆円蒸発。「AI投資バブルへの疑問」が市場全体を揺さぶっています 🐹\n\n速報後、下落の全容がより鮮明になってきました。\n\nマグニフ",
       "postedAt": 1784868330054
-    },
-    {
-      "tweetId": "2080501356398514401",
-      "kind": "quiz",
-      "category": "スポーツ・4択",
-      "textPreview": "大谷翔平がついに日本人初の偉業を達成！🐹\n\n2026年7月7日（現地時間）のロッキーズ戦で、大谷翔平選手が到達したメジャー通算本塁打の節目は何号だったでしょう",
-      "postedAt": 1784865103763
     }
   ],
   "breakingFollowUps": [],
