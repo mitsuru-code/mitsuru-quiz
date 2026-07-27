@@ -17,7 +17,7 @@
     "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「",
     "月曜の朝、おはようございます🐹 昨夜のベルリン、パリ、中東——世界が同時多発的"
   ],
-  "lastPostedAt": 1785185580692,
+  "lastPostedAt": 1785192043149,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 207
+    "posts": 208
   },
   "breakingDate": "2026-07-28",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785185580692,
+  "lastAnyPostAt": 1785192043149,
   "postHistory": [
+    {
+      "tweetId": "2081872438451687567",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "玉ねぎを切って涙が出るのは、玉ねぎが自分を守っているからです🐹\n\n玉ねぎの細胞が壊れると、中の成分と酵素が出会って刺激物質ができます。これは虫や動物に食べられ",
+      "postedAt": 1785192043149
+    },
     {
       "tweetId": "2081845677722878401",
       "kind": "briefing",
@@ -241,16 +248,9 @@
       "category": "続報（5時間後）",
       "textPreview": "「AI投資の重さ」に市場が反乱——テスラ15%安・アルファベット7%安、7月25日も下げ止まらず🐹\n\n速報でお伝えした急落は、翌25日（現地時間）にさらに拡大",
       "postedAt": 1784877946365
-    },
-    {
-      "tweetId": "2080534234947604533",
-      "kind": "feature",
-      "category": "続報（2時間後）",
-      "textPreview": "テスラ15%急落・アルファベット7%安、時価総額130兆円が1日で消えた🐹\n\n速報からさらに詳しい数字が出てきました。7月23日（現地時間）の取引では、マグニ",
-      "postedAt": 1784872949931
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 2
+  "triviaNextIndex": 3
 }
