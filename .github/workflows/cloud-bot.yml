@@ -119,7 +119,22 @@ jobs:
           git config user.email "actions@github.com"
           git add cloud-bot/state.json
           git commit -m "cloud-bot: 状態を更新 [skip ci]"
-          git push
+          # pushはGitHub側の一時障害や他ワークフローとの競合で失敗することがある。
+          # ここで失敗すると「Xには投稿済みなのに、投稿した記録がmainに残らない」状態になり、
+          # 次の実行が同じスロットを未投稿と誤認して重複投稿してしまう
+          # （2026-07-28に remote: Internal Server Error で朝ブリーフィングが2回投稿された）。
+          # 一時障害と競合の両方を吸収するため、rebaseを挟みながら最大5回リトライする
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "💾 state.json をmainへ反映しました（push試行 ${i} 回目）"
+              exit 0
+            fi
+            echo "⚠️ pushに失敗しました（試行 ${i}/5）。最新のmainを取り込んで再試行します"
+            sleep $((i * 10))
+            git pull --rebase origin main || git rebase --abort || true
+          done
+          echo "❌ state.json のpushに5回失敗しました。Xには既に投稿済みの可能性が高く、この記録が失われると次回の実行で重複投稿が起きるおそれがあります"
+          exit 1
 
       - name: 速報投稿をIssueで通知
         if: steps.post.outputs.breaking_posted == 'true'
