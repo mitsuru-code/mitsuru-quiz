@@ -46,7 +46,19 @@ jobs:
           git config user.email "actions@github.com"
           git add cloud-bot/trivia-stock.json
           git commit -m "trivia: Issue #${{ github.event.issue.number }} から豆知識記事を追加 [skip ci]"
-          git push
+          # cloud-bot.ymlと同様、一時障害や他ワークフローとの競合でpushが失敗しうるためリトライする
+          # （ここで失敗すると、Issueは受け付けたのに記事がストックに入らない）
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "✅ ストックをmainへ反映しました（push試行 ${i} 回目）"
+              exit 0
+            fi
+            echo "⚠️ pushに失敗しました（試行 ${i}/5）。最新のmainを取り込んで再試行します"
+            sleep $((i * 10))
+            git pull --rebase origin main || git rebase --abort || true
+          done
+          echo "❌ trivia-stock.json のpushに5回失敗しました"
+          exit 1
 
       - name: Issueにコメントしてクローズ
         if: success()
