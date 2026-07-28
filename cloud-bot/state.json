@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2082014647951999324",
-      "answer": "正解は「6万2364円（約2566円安）」でした！参加してくれてありがとうございます🐹\n\n7月28日の東京株式市場は、前日の米国市場での半導体株急落と韓国KOSPI急落（一時10%安、サーキットブレーカー発動）が重なり、日経平均は前日比2566円27銭安の6万2364円92銭で終了。約2カ月ぶりの安値水準となりました。キオクシアHDはストップ安で引けています。\n\n🌰豆知識：「サーキットブレーカー」は株価が急落した際に取引を一時停止させる制度。急落の連鎖を防ぐ「回路遮断器」のような安全弁として、各国の取引所が導入しています。",
-      "sourceUrl": "https://www.nikkei.com/article/DGXZQOFL284UO0Y6A720C2000000/",
-      "question": "今日の日経平均、下げ幅が一時3000円超えの衝撃😱\n\nAI・半導体株急落を受け、28日の東京市場は大荒れ。日経平均の終",
-      "postedAt": 1785225931207,
-      "dueAt": 1785233131207,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、ウェザーニュース（WeatherNews）、tenki.jp（日本気象協会）、時事ドットコム、Yahoo!ニュース、福島テレビ、WORLD Radio（wng.org）、NPR、Reuters",
     "日本経済新聞「東証大引け 日経平均は大幅反落 2カ月ぶり安値、下げ幅一時3000円超」／Bloomberg「日経平均4%超安、巨額投資や中国勢参入への懸念でAI・半導体関連売り」",
     "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」／Full-Count（Yahoo!ニュース掲載）「大谷翔平、日米通算350号本塁打 22号初球先頭打者弾で到達…133m特大アーチ」",
     "Reuters, AP, CBS News, CNBC, NPR, France 24, Al Jazeera, Washington Examiner, Yahoo Finance/Zacks, Investrade, JustSecurity, OPB, Wikipedia (event pages), Mezha.net, JusticeInfo.net, WORLD Radio, The American Legion",
     "NHK、日本経済新聞、オリコンニュース、Yahoo!ニュース、WORLD Radio（wng.org）、livedoorニュース",
     "ABEMA TIMES（Yahoo!ニュース）「独 イベントに車突入 容疑者は射殺」／アゴラ言論プラットフォーム「ベルリンのLGBTQ+イベントに車両が突入」",
     "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」",
-    "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia",
-    "NHK、BSN新潟放送（BSNニュース）、新潟日報、NSTニュース、毎日新聞、日本経済新聞、時事通信"
+    "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia"
   ],
   "recentOpeners": [
+    "熊本で震度7——。今日の一番大きなニュースはやはりこれでした。被害に遭われた方々",
     "今日の日経平均、下げ幅が一時3000円超えの衝撃😱\n\nAI・半導体株急落を受け",
     "大谷翔平の「日米通算350号」、NPB時代の本塁打は何本？🐹\n\nドジャース・大",
     "おはようございます🐹 今朝は盛りだくさんです。ベルリン、イラン、インド、欧州の",
-    "東野圭吾さんの訃報——今日いちばん、言葉を失いました。\n月曜の夜、お疲れさまでし",
-    "ベルリンで起きた車突入テロ、容疑者はどこで射殺された？🐹\n\n7月25日夜、ベル"
+    "東野圭吾さんの訃報——今日いちばん、言葉を失いました。\n月曜の夜、お疲れさまでし"
   ],
-  "lastPostedAt": 1785225931207,
+  "lastPostedAt": 1785236479206,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 213
+    "posts": 215
   },
   "breakingDate": "2026-07-28",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785225931207,
+  "lastAnyPostAt": 1785236479206,
   "postHistory": [
+    {
+      "tweetId": "2082059093296955881",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "熊本で震度7——。今日の一番大きなニュースはやはりこれでした。被害に遭われた方々に、心からお見舞い申し上げます🐹 今日1日のニュースを振り返りながら、少し一緒",
+      "postedAt": 1785236479206
+    },
     {
       "tweetId": "2082014647951999324",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "スポーツ・4択",
       "textPreview": "昨夜の甲子園、まさかの展開に球場がどよめいた🐹\n\n7月24日の阪神×巨人首位攻防戦。延長10回に決勝2ランを放ったのは、ドラフト何位のルーキー・小濱佑斗選手で",
       "postedAt": 1784951142253
-    },
-    {
-      "tweetId": "2080822651551920640",
-      "kind": "breaking",
-      "category": "ロシア最新鋭ステルス機Su-57がモスクワ郊外で墜落・原因不明",
-      "textPreview": "📈 いま話題\n\nロシアの最新鋭ステルス戦闘機「Su-57」がモスクワ郊外で訓練飛行中に墜落🐹\n\nパイロットは緊急脱出し無事。墜落原因は当局から公式発表なく、",
-      "postedAt": 1784941739055
     }
   ],
   "breakingFollowUps": [],
