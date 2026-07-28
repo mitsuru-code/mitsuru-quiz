@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2081948891373593070",
+      "answer": "正解は「48本」でした！投票してくれた皆さん、ありがとうございます🐹\n\n大谷翔平は日本ハム時代（2013〜2017年）にNPBで48本塁打を記録。メジャー通算302本と合わせて、2026年7月12日（日本時間13日）のダイヤモンドバックス戦で日米通算350号の大台に到達しました。\n\n🌰豆知識：この一発は飛距離約133メートルの特大弾。初回・初球・先頭打者という「3拍子そろった」豪快アーチで、今季9本目の先頭打者ホームランでもありました！",
+      "sourceUrl": "https://www.tv-tokyo.co.jp/sports/articles/2026/07/042209.html",
+      "question": "大谷翔平の「日米通算350号」、NPB時代の本塁打は何本？🐹\n\nドジャース・大谷翔平が今季22号を放って達成した日米通",
+      "postedAt": 1785210242484,
+      "dueAt": 1785217442484,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」／Full-Count（Yahoo!ニュース掲載）「大谷翔平、日米通算350号本塁打 22号初球先頭打者弾で到達…133m特大アーチ」",
     "Reuters, AP, CBS News, CNBC, NPR, France 24, Al Jazeera, Washington Examiner, Yahoo Finance/Zacks, Investrade, JustSecurity, OPB, Wikipedia (event pages), Mezha.net, JusticeInfo.net, WORLD Radio, The American Legion",
     "NHK、日本経済新聞、オリコンニュース、Yahoo!ニュース、WORLD Radio（wng.org）、livedoorニュース",
     "ABEMA TIMES（Yahoo!ニュース）「独 イベントに車突入 容疑者は射殺」／アゴラ言論プラットフォーム「ベルリンのLGBTQ+イベントに車両が突入」",
     "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」",
     "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia",
     "NHK、BSN新潟放送（BSNニュース）、新潟日報、NSTニュース、毎日新聞、日本経済新聞、時事通信",
-    "Space.com「SpaceX's Starship megarocket makes the 'softest splashdown' ever after launching next-gen Starlink satellites in Flight 13 test」／MyRGV.com「Flight 13 launches: All mission goals met, Starship makes soft splashdown」",
-    "オリコンニュース「山田涼介、事務所初のソロドームツアー開催＆2ndアルバム発売へ」／東奥日報「山田涼介、事務所初ソロで東京ドーム公演の偉業達成 5万5000人が豪華サプライズの連続に大熱狂」"
+    "Space.com「SpaceX's Starship megarocket makes the 'softest splashdown' ever after launching next-gen Starlink satellites in Flight 13 test」／MyRGV.com「Flight 13 launches: All mission goals met, Starship makes soft splashdown」"
   ],
   "recentOpeners": [
+    "大谷翔平の「日米通算350号」、NPB時代の本塁打は何本？🐹\n\nドジャース・大",
     "おはようございます🐹 今朝は盛りだくさんです。ベルリン、イラン、インド、欧州の",
     "東野圭吾さんの訃報——今日いちばん、言葉を失いました。\n月曜の夜、お疲れさまでし",
     "ベルリンで起きた車突入テロ、容疑者はどこで射殺された？🐹\n\n7月25日夜、ベル",
-    "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「",
-    "月曜の朝、おはようございます🐹 昨夜のベルリン、パリ、中東——世界が同時多発的"
+    "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「"
   ],
-  "lastPostedAt": 1785200593088,
+  "lastPostedAt": 1785210242484,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 209
+    "posts": 210
   },
   "breakingDate": "2026-07-28",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785200593088,
+  "lastAnyPostAt": 1785210242484,
   "postHistory": [
+    {
+      "tweetId": "2081948891373593070",
+      "kind": "quiz",
+      "category": "スポーツ・二択",
+      "textPreview": "大谷翔平の「日米通算350号」、NPB時代の本塁打は何本？🐹\n\nドジャース・大谷翔平が今季22号を放って達成した日米通算350号。メジャー通算分は302本——",
+      "postedAt": 1785210242484
+    },
     {
       "tweetId": "2081908299608301968",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "夜の振り返り",
       "textPreview": "テスラが約14%急落、アルファベットが約7%急落——AIへの天文学的な投資計画が、市場に冷水をぶっかけた一日でした。日本株も巻き込まれ、国内では猛暑と物価高も続",
       "postedAt": 1784894833736
-    },
-    {
-      "tweetId": "2080571883750297654",
-      "kind": "quiz",
-      "category": "国際・4択",
-      "textPreview": "英国の新首相に就任したアンディ・バーナム氏、就任前の肩書は？🐹\n\nスターマー前首相の後任として7月20日に第81代英首相に就任したバーナム氏。国政に戻る前、彼",
-      "postedAt": 1784881945496
     }
   ],
   "breakingFollowUps": [],
