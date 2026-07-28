@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "AP通信、Reuters、BBC、CNN、NPR、Al Jazeera、CBS News、Washington Post、The Street、Yahoo Finance / Zacks、World Magazine (WORLD Radio)、10Things.news、TrendsMCP",
     "NHK、ウェザーニュース（WeatherNews）、tenki.jp（日本気象協会）、時事ドットコム、Yahoo!ニュース、福島テレビ、WORLD Radio（wng.org）、NPR、Reuters",
     "日本経済新聞「東証大引け 日経平均は大幅反落 2カ月ぶり安値、下げ幅一時3000円超」／Bloomberg「日経平均4%超安、巨額投資や中国勢参入への懸念でAI・半導体関連売り」",
     "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」／Full-Count（Yahoo!ニュース掲載）「大谷翔平、日米通算350号本塁打 22号初球先頭打者弾で到達…133m特大アーチ」",
     "Reuters, AP, CBS News, CNBC, NPR, France 24, Al Jazeera, Washington Examiner, Yahoo Finance/Zacks, Investrade, JustSecurity, OPB, Wikipedia (event pages), Mezha.net, JusticeInfo.net, WORLD Radio, The American Legion",
     "NHK、日本経済新聞、オリコンニュース、Yahoo!ニュース、WORLD Radio（wng.org）、livedoorニュース",
     "ABEMA TIMES（Yahoo!ニュース）「独 イベントに車突入 容疑者は射殺」／アゴラ言論プラットフォーム「ベルリンのLGBTQ+イベントに車両が突入」",
-    "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」",
-    "NPR、Euronews、Times of Israel、NBC Sports、The National News、AP、CNN、Al Jazeera、CNBC、Wikipedia"
+    "スポーツ報知（Yahoo!ニュース掲載）「TBS日曜劇場『VIVANT』第2シーズン初回は世帯視聴率18.8％の好発進 7月期民放連ドラでトップ！」"
   ],
   "recentOpeners": [
+    "水曜の朝です🐹 フランスの山火事、「パリの4倍」という規模の数字が頭から離れま",
     "熊本で震度7——。今日の一番大きなニュースはやはりこれでした。被害に遭われた方々",
     "今日の日経平均、下げ幅が一時3000円超えの衝撃😱\n\nAI・半導体株急落を受け",
     "大谷翔平の「日米通算350号」、NPB時代の本塁打は何本？🐹\n\nドジャース・大",
-    "おはようございます🐹 今朝は盛りだくさんです。ベルリン、イラン、インド、欧州の",
-    "東野圭吾さんの訃報——今日いちばん、言葉を失いました。\n月曜の夜、お疲れさまでし"
+    "おはようございます🐹 今朝は盛りだくさんです。ベルリン、イラン、インド、欧州の"
   ],
-  "lastPostedAt": 1785244699838,
+  "lastPostedAt": 1785269132296,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 216
+    "posts": 217
   },
-  "breakingDate": "2026-07-28",
+  "breakingDate": "2026-07-29",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785244699838,
+  "lastAnyPostAt": 1785269132296,
   "postHistory": [
+    {
+      "tweetId": "2082196143853998461",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "水曜の朝です🐹 フランスの山火事、「パリの4倍」という規模の数字が頭から離れません。\n\nQ1. フランスで記録的な山火事が続いています。火災の規模はどのくらい",
+      "postedAt": 1785269132296
+    },
     {
       "tweetId": "2082093296772649117",
       "kind": "trivia",
@@ -241,13 +248,6 @@
       "category": "国際・4択",
       "textPreview": "欧州で今、史上最悪規模の山火事が起きています🐹\n\nフランスとスペインで合わせて16万人以上が避難中。スペイン政府が「国家非常事態」を宣言したのはどの地域？\n\n",
       "postedAt": 1784967073260
-    },
-    {
-      "tweetId": "2080913582607290713",
-      "kind": "breaking",
-      "category": "酷暑日5日連続・観測史上初の過去最長更新・三重県桑名40.2℃",
-      "textPreview": "🚨 速報｜観測史上初・酷暑日が5日連続を記録\n\n7月25日12時37分、三重県桑名市で40.2℃を観測。21日からの酷暑日（最高気温40℃以上）が5日連続とな",
-      "postedAt": 1784963420921
     }
   ],
   "breakingFollowUps": [],
