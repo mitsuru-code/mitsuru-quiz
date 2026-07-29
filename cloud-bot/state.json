@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2082312203185610974",
-      "answer": "正解は「セイレーン編」でした！参加してくれてありがとう🐹\n\n『映画ちいかわ 人魚の島のひみつ』は2026年7月24日に全国447館で公開。公開3日間で動員150万8538人、興行収入22億4033万3500円を記録し、週末動員ランキング1位の大ヒットスタートとなりました。原作者・ナガノ氏が脚本も手がけています。\n\n🌰豆知識：「ちいかわ」はX（旧Twitter）発の漫画。映画の上映回数が都内主要館では「時刻表」と呼ばれるほど多く、各劇場で満席続出だったそうです🐹",
-      "sourceUrl": "https://news.mynavi.jp/article/20260727-4746469/",
-      "question": "公開3日で興収22億円超の大ヒット！🐹\n\n『映画ちいかわ 人魚の島のひみつ』が映画化した原作エピソードの名前は何でしょ",
-      "postedAt": 1785296875014,
-      "dueAt": 1785304075014,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "マイナビニュース「『映画ちいかわ 人魚の島のひみつ』公開3日間で興収22.4億円突破 週末動員ランキング1位の大ヒットスタート」",
     "AP通信、Reuters、BBC、CNN、NPR、Al Jazeera、CBS News、Washington Post、The Street、Yahoo Finance / Zacks、World Magazine (WORLD Radio)、10Things.news、TrendsMCP",
@@ -27,7 +17,7 @@
     "今日の日経平均、下げ幅が一時3000円超えの衝撃😱\n\nAI・半導体株急落を受け",
     "大谷翔平の「日米通算350号」、NPB時代の本塁打は何本？🐹\n\nドジャース・大"
   ],
-  "lastPostedAt": 1785296875014,
+  "lastPostedAt": 1785305119767,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 220
+    "posts": 222
   },
   "breakingDate": "2026-07-29",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785296875014,
+  "lastAnyPostAt": 1785305119767,
   "postHistory": [
+    {
+      "tweetId": "2082346717698281806",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "炭酸は、冷たいほど抜けにくくなります🐹\n\n気体は温度が低いほど液体に溶けやすい性質があります。だから冷えた炭酸飲料はシュワシュワが長持ちし、ぬるくなると一気に",
+      "postedAt": 1785305119767
+    },
     {
       "tweetId": "2082312203185610974",
       "kind": "quiz",
@@ -251,16 +248,9 @@
       "category": "続報（5時間後）",
       "textPreview": "速報の「桑名40.2℃」から数時間で、記録はさらに塗り替えられました🐹\n\n午後3時30分時点で、三重県桑名市は40.6℃まで上昇。岐阜県美濃市40.8℃、同多",
       "postedAt": 1784989057656
-    },
-    {
-      "tweetId": "2080997607564775652",
-      "kind": "recap",
-      "category": "夜の振り返り",
-      "textPreview": "今日の最高気温ランキング、ちょっと待って——1位が40.8℃って、もはや人間が住む温度じゃない🐹\n\n7月25日（土）、日本はまた記録を更新しました。国内「5日",
-      "postedAt": 1784983392396
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 8
+  "triviaNextIndex": 9
 }
