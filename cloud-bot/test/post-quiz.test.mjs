@@ -12,6 +12,7 @@ import {
   SLOT_PROFILES,
   isTransientPostError,
   TRIVIA_QUIET_HOURS_UNTIL,
+  fixKnownMisspellings,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -172,6 +173,26 @@ test('isTransientPostError: 5xxは一時的、4xxとバリデーション違反�
   assert.strictEqual(isTransientPostError(new Error('HTTP 403: duplicate content')), false);
   assert.strictEqual(isTransientPostError(new Error('投稿本文に不正な文字（孤立サロゲート）が含まれています（位置39）')), false);
   assert.strictEqual(isTransientPostError(undefined), false);
+});
+
+test('fixKnownMisspellings: 「高島首相」などの誤記を高市に直す（実際の事故の再現）', () => {
+  assert.strictEqual(fixKnownMisspellings('高島首相が所信表明'), '高市首相が所信表明');
+  assert.strictEqual(fixKnownMisspellings('高島総理'), '高市総理');
+  assert.strictEqual(fixKnownMisspellings('高島内閣の支持率'), '高市内閣の支持率');
+  assert.strictEqual(fixKnownMisspellings('高島政権'), '高市政権');
+  // 1つの本文に複数回出てもすべて直す
+  assert.strictEqual(fixKnownMisspellings('高島首相は…。高島内閣は…'), '高市首相は…。高市内閣は…');
+});
+
+test('fixKnownMisspellings: 役職を伴わない「高島」姓は書き換えない（実在の別人を壊さない）', () => {
+  assert.strictEqual(fixKnownMisspellings('高島屋で買い物'), '高島屋で買い物');
+  assert.strictEqual(fixKnownMisspellings('高島さんが受賞'), '高島さんが受賞');
+  assert.strictEqual(fixKnownMisspellings('高島平駅'), '高島平駅');
+});
+
+test('fixKnownMisspellings: 正しい表記や無関係な本文はそのまま返す', () => {
+  assert.strictEqual(fixKnownMisspellings('高市首相が所信表明'), '高市首相が所信表明');
+  assert.strictEqual(fixKnownMisspellings('今日は良い天気です🐹'), '今日は良い天気です🐹');
 });
 
 test('SLOT_PROFILES: 豆知識は1日5枠（4/6/7/10/15時台）', () => {

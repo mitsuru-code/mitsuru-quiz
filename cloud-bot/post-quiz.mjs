@@ -259,8 +259,29 @@ export function assertValidPostText(text, now = parseInt(process.env.NOW_MS || '
   }
 }
 
+// 明らかな誤記の自動修正表。投稿は後から直せないので、プロンプトでの注意に加えて
+// 投稿直前にも機械的に直す（実際に「高島首相」と誤記したまま投稿された事故があった）。
+// 「誤りであることが文脈に関係なく確実」なものだけを入れること。
+// ※内閣総理大臣が交代したらこの表も更新する
+const KNOWN_MISSPELLINGS = [
+  // 高市首相の姓の誤り。「高島」姓の実在人物と衝突しないよう、役職を伴う場合だけを対象にする
+  [/高島(首相|総理|内閣|政権)/g, '高市$1'],
+];
+
+export function fixKnownMisspellings(text) {
+  let fixed = text;
+  for (const [pattern, replacement] of KNOWN_MISSPELLINGS) {
+    fixed = fixed.replace(pattern, replacement);
+  }
+  return fixed;
+}
+
 // poll: { options: string[], duration_minutes: number } を渡すと投票付き投稿になる
-function postTweet(text, replyToId, poll, { checkWeekday = true } = {}) {
+function postTweet(rawText, replyToId, poll, { checkWeekday = true } = {}) {
+  const text = fixKnownMisspellings(rawText);
+  if (text !== rawText) {
+    console.log('✏️ 既知の固有名詞の誤りを投稿直前に修正しました（プロンプト側の指示だけでは防げていません）');
+  }
   assertValidPostText(text, undefined, { checkWeekday });
   return new Promise((resolve, reject) => {
     const apiUrl = 'https://api.twitter.com/2/tweets';
@@ -462,6 +483,7 @@ const CHARACTER = `【キャラクター設定】
 - ハッシュタグは使わない。出典は「（出典: メディア名）」の平文で記載する
 - 1行目はタイムラインで最初に見える「見出し」。必ず興味を引くフックにする
 - 事実（数字・固有名詞・日付）は検索結果に忠実に。推測で書かない
+- 人名は特に間違えやすいので必ず検索結果の表記どおりに書く。日本の内閣総理大臣は「高市」（たかいち）。「高島」は誤りなので絶対に使わない
 - 出力の冒頭に「情報が揃いました」「投稿を組み立てます」のような前置き・作業報告・区切り線を絶対に書かない。指定されたフォーマットの中身だけを書く（それ以外の文章は一切書かない）
 - Markdown記法は一切使わない（**太字**、# 見出し、- 箇条書きなど禁止）。Xは生のテキストがそのまま表示されるため、Markdown記号は読者にそのまま記号として見えてしまう。区切り線が必要な場合は「─」（罫線文字）を使い、ハイフン3つ「---」は使わない`;
 
