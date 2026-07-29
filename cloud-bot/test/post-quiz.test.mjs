@@ -225,12 +225,12 @@ test('pickDueSlot: 期限(既定6時間)を超えた前のスロットは取り�
   assert.notStrictEqual(new Date(pickDueSlot(at1547, t459) + 9 * 3600000).getUTCHours(), 5);
 });
 
-test('SLOT_PROFILES: 豆知識は1日5枠（4/6/7/10/15時台）', () => {
+test('SLOT_PROFILES: 豆知識は1日5枠（3/6/7/10/15時台）', () => {
   const triviaHours = Object.entries(SLOT_PROFILES)
     .filter(([, p]) => p.kind === 'trivia')
     .map(([h]) => Number(h))
     .sort((a, b) => a - b);
-  assert.deepStrictEqual(triviaHours, [4, 6, 7, 10, 15]);
+  assert.deepStrictEqual(triviaHours, [3, 6, 7, 10, 15]);
 });
 
 test('SLOT_PROFILES: 最も早い豆知識スロットが深夜ガードで塞がれていない', () => {
