@@ -13,6 +13,7 @@ import {
   isTransientPostError,
   TRIVIA_QUIET_HOURS_UNTIL,
   fixKnownMisspellings,
+  pickDueSlot,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -193,6 +194,35 @@ test('fixKnownMisspellings: 役職を伴わない「高島」姓は書き換え�
 test('fixKnownMisspellings: 正しい表記や無関係な本文はそのまま返す', () => {
   assert.strictEqual(fixKnownMisspellings('高市首相が所信表明'), '高市首相が所信表明');
   assert.strictEqual(fixKnownMisspellings('今日は良い天気です🐹'), '今日は良い天気です🐹');
+});
+
+// 2026-07-30の事故: 4時台の豆知識が4:59に投稿された結果、投稿間隔(30分)の制限で5時台の
+// 朝ブリーフィングが見送られ、次の実行(6:34)では直近スロットが6時台に移っていて永久に消えた
+test('pickDueSlot: 前のスロットが未投稿なら取り戻す（朝ブリーフィングが消えた事故の再現）', () => {
+  const t459 = jstTime(4, 59, 30);            // 4時台の豆知識を4:59に投稿
+  const at634 = jstTime(6, 34, 30);           // 次の実行は6:34（5時台は過ぎている）
+  const picked = pickDueSlot(at634, t459);
+  assert.strictEqual(jstDateLabel(picked).includes('7月30日'), true);
+  assert.strictEqual(new Date(picked + 9 * 3600000).getUTCHours(), 5, '5時台のブリーフィングを選ぶべき');
+});
+
+test('pickDueSlot: 前のスロットが投稿済みなら現在のスロットを選ぶ', () => {
+  const posted5 = jstTime(5, 50, 30);         // 5時台のブリーフィングは投稿済み
+  const at634 = jstTime(6, 34, 30);
+  assert.strictEqual(new Date(pickDueSlot(at634, posted5) + 9 * 3600000).getUTCHours(), 6);
+});
+
+test('pickDueSlot: 未投稿の豆知識が本命コンテンツを押しのけない', () => {
+  // 4時台の豆知識が未投稿のまま5時台に入った場合、豆知識ではなくブリーフィングを優先する
+  const postedYesterday = jstTime(20, 30, 29);
+  const at547 = jstTime(5, 47, 30);
+  assert.strictEqual(new Date(pickDueSlot(at547, postedYesterday) + 9 * 3600000).getUTCHours(), 5);
+});
+
+test('pickDueSlot: 期限(既定6時間)を超えた前のスロットは取り戻さない', () => {
+  const t459 = jstTime(4, 59, 30);
+  const at1547 = jstTime(15, 47, 30);         // 5時台から10時間以上経過
+  assert.notStrictEqual(new Date(pickDueSlot(at1547, t459) + 9 * 3600000).getUTCHours(), 5);
 });
 
 test('SLOT_PROFILES: 豆知識は1日5枠（4/6/7/10/15時台）', () => {

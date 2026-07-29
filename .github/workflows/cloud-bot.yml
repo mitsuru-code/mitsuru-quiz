@@ -63,6 +63,10 @@ on:
         description: '手動速報モード（指定した話題の🚨速報を1本投稿。1日2回の速報上限にカウントされる）。空なら通常通り'
         type: string
         default: ''
+      force_slot:
+        description: '取りこぼしたスロットを投稿し直す（時台の数字。例: 5=朝ブリーフィング）。force_postも一緒にONにする。空なら通常通り'
+        type: string
+        default: ''
       reply_to_id:
         description: '訂正・補足の返信先ツイートID（reply_textと併用）。誤記の訂正などに使う。空なら何もしない'
         type: string
@@ -109,6 +113,7 @@ jobs:
           FEATURE_TOPIC: ${{ github.event_name == 'workflow_dispatch' && inputs.feature_topic || '' }}
           BREAKING_TOPIC: ${{ github.event_name == 'workflow_dispatch' && inputs.breaking_topic || '' }}
           GET_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.get_tweet_id || '' }}
+          FORCE_SLOT: ${{ github.event_name == 'workflow_dispatch' && inputs.force_slot || '' }}
           REPLY_TO_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.reply_to_id || '' }}
           REPLY_TEXT: ${{ github.event_name == 'workflow_dispatch' && inputs.reply_text || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ

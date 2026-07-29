@@ -115,6 +115,36 @@ function latestSlotEpoch(nowMs) {
   return Date.UTC(jst.getUTCFullYear(), jst.getUTCMonth(), jst.getUTCDate() + dayOffset, slotHour - 9, 0, 0);
 }
 
+// 指定スロット時刻の1つ前のスロットのepoch msを返す
+function previousSlotEpoch(slotEpoch) {
+  const jst = new Date(slotEpoch + 9 * 3600 * 1000);
+  const hour = jst.getUTCHours();
+  const idx = POST_SLOTS.indexOf(hour);
+  const prevHour = idx > 0 ? POST_SLOTS[idx - 1] : POST_SLOTS[POST_SLOTS.length - 1];
+  const dayOffset = idx > 0 ? 0 : -1;
+  return Date.UTC(jst.getUTCFullYear(), jst.getUTCMonth(), jst.getUTCDate() + dayOffset, prevHour - 9, 0, 0);
+}
+
+// 実際に投稿すべきスロットを決める。
+// 素朴に「直近のスロット」だけを見ると、1つ前のスロットが投稿間隔(30分)の制限で見送られたまま
+// 次の時台に入った瞬間に永久に捨てられてしまう。スロットが1時間刻みで隣接しているため、
+// 前のスロットが少し遅れて投稿されるだけ（cron遅延では普通に起こる）で次のスロットの前半が
+// 塞がり、そこにしか実行機会が無ければその回のコンテンツが消える。
+// （2026-07-30に、4時台の豆知識が4:59に投稿された結果、5時台の朝ブリーフィングが消えた）
+// そこで1つ前のスロットが未投稿かつ期限内なら、そちらを優先して取り戻す。
+// ただし在庫が潤沢な豆知識が、ブリーフィング等の本命コンテンツを押しのけないようにする
+export function pickDueSlot(now, lastPostedAt, maxDelayMin = 360) {
+  const current = latestSlotEpoch(now);
+  const prev = previousSlotEpoch(current);
+  const kindOf = epoch => (SLOT_PROFILES[jstHourOf(epoch)] || {}).kind;
+  const prevUnposted = (lastPostedAt || 0) < prev;
+  const prevInTime = (now - prev) / 60000 <= maxDelayMin;
+  // 前のスロットが豆知識で、今のスロットが本命コンテンツなら、今のスロットを先に出す
+  const prevWouldDisplace = kindOf(prev) === 'trivia' && kindOf(current) !== 'trivia';
+  if (prevUnposted && prevInTime && !prevWouldDisplace) return prev;
+  return current;
+}
+
 export function jstDateKey(ms) {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date(ms));
 }
@@ -907,7 +937,11 @@ async function main() {
 
   const now = parseInt(process.env.NOW_MS || '', 10) || Date.now(); // NOW_MSはテスト用フック
   const jstHour = jstHourOf(now);
-  const slotEpoch = latestSlotEpoch(now);
+  // FORCE_SLOT: 取りこぼしたスロットを後から手動で投稿し直すための保守用フック（時台の数字を渡す）
+  const FORCE_SLOT = parseInt((process.env.FORCE_SLOT || '').trim(), 10);
+  const slotEpoch = Number.isInteger(FORCE_SLOT) && SLOT_PROFILES[FORCE_SLOT]
+    ? Date.UTC(new Date(now + 9 * 3600000).getUTCFullYear(), new Date(now + 9 * 3600000).getUTCMonth(), new Date(now + 9 * 3600000).getUTCDate(), FORCE_SLOT - 9, 0, 0)
+    : pickDueSlot(now, state.lastPostedAt);
   const slotHour = jstHourOf(slotEpoch);
   const profile = SLOT_PROFILES[slotHour] || { kind: 'quiz', genre: '直近の重要な時事問題' };
   const slotStr = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(new Date(slotEpoch));
