@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "CNN、Reuters、AP、Bloomberg、CNBC、NPR、The Hill、Forbes、Al Jazeera、SoftPower News、Tech Times、Financial Times、ECDC",
     "NPR、CNN、Al Jazeera、Rappler、NBC News、France 24、NHK",
     "Jリーグ公式サイト「日本、後半ATに失点しブラジルに逆転負け ラウンド32で敗退」／Infoseek「サッカーワールドカップ2026特集」",
     "マイナビニュース「『映画ちいかわ 人魚の島のひみつ』公開3日間で興収22.4億円突破 週末動員ランキング1位の大ヒットスタート」",
     "AP通信、Reuters、BBC、CNN、NPR、Al Jazeera、CBS News、Washington Post、The Street、Yahoo Finance / Zacks、World Magazine (WORLD Radio)、10Things.news、TrendsMCP",
     "NHK、ウェザーニュース（WeatherNews）、tenki.jp（日本気象協会）、時事ドットコム、Yahoo!ニュース、福島テレビ、WORLD Radio（wng.org）、NPR、Reuters",
     "日本経済新聞「東証大引け 日経平均は大幅反落 2カ月ぶり安値、下げ幅一時3000円超」／Bloomberg「日経平均4%超安、巨額投資や中国勢参入への懸念でAI・半導体関連売り」",
-    "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」／Full-Count（Yahoo!ニュース掲載）「大谷翔平、日米通算350号本塁打 22号初球先頭打者弾で到達…133m特大アーチ」",
-    "Reuters, AP, CBS News, CNBC, NPR, France 24, Al Jazeera, Washington Examiner, Yahoo Finance/Zacks, Investrade, JustSecurity, OPB, Wikipedia (event pages), Mezha.net, JusticeInfo.net, WORLD Radio, The American Legion"
+    "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」／Full-Count（Yahoo!ニュース掲載）「大谷翔平、日米通算350号本塁打 22号初球先頭打者弾で到達…133m特大アーチ」"
   ],
   "recentOpeners": [
+    "おはようございます🐹 今朝は中東の火種、欧州の山火事、市場の急落と、昨夜から一",
     "「時間との戦いだ」——熊本の震度6強（M7.1）、その一言が今日ずっと頭に残って",
     "W杯2026、日本のグループステージ突破を振り返ろう🐹\n\nサムライブルーはグル",
     "公開3日で興収22億円超の大ヒット！🐹\n\n『映画ちいかわ 人魚の島のひみつ』が",
-    "水曜の朝です🐹 フランスの山火事、「パリの4倍」という規模の数字が頭から離れま",
-    "熊本で震度7——。今日の一番大きなニュースはやはりこれでした。被害に遭われた方々"
+    "水曜の朝です🐹 フランスの山火事、「パリの4倍」という規模の数字が頭から離れま"
   ],
-  "lastPostedAt": 1785360921806,
+  "lastPostedAt": 1785362802019,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 228
+    "posts": 229
   },
   "breakingDate": "2026-07-30",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785360921806,
+  "lastAnyPostAt": 1785362802019,
   "postHistory": [
+    {
+      "tweetId": "2082588967233601930",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 今朝は中東の火種、欧州の山火事、市場の急落と、昨夜から一晩でニュースが盛りだくさん。通勤前にサクッとチェックしておきましょう。\n\n───",
+      "postedAt": 1785362802019
+    },
     {
       "tweetId": "2082580766870082019",
       "kind": "trivia",
@@ -241,13 +248,6 @@
       "category": "続報（30分後）",
       "textPreview": "土砂災害の警報も追加発令。長岡市・柏崎市・刈羽村に「レベル4土砂災害危険警報」🐹\n\n速報からさらに状況が進展しています。\n\n新潟地方気象台は7月26日午前8時",
       "postedAt": 1785041729248
-    },
-    {
-      "tweetId": "2081229223558017529",
-      "kind": "quiz",
-      "category": "エンタメ・二択",
-      "textPreview": "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山田涼介が、所属事務所として史上初のソロドームツアーを開催中。今日7月26日が東京",
-      "postedAt": 1785038668080
     }
   ],
   "breakingFollowUps": [],
