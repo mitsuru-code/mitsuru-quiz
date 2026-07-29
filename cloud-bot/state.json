@@ -17,7 +17,7 @@
     "水曜の朝です🐹 フランスの山火事、「パリの4倍」という規模の数字が頭から離れま",
     "熊本で震度7——。今日の一番大きなニュースはやはりこれでした。被害に遭われた方々"
   ],
-  "lastPostedAt": 1785355165484,
+  "lastPostedAt": 1785360921806,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 227
+    "posts": 228
   },
   "breakingDate": "2026-07-30",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785355165484,
+  "lastAnyPostAt": 1785360921806,
   "postHistory": [
+    {
+      "tweetId": "2082580766870082019",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "「サボる」は、実は外来語です\n\nフランス語のサボタージュが元だとされています（諸説あります）。労働争議の手段を指す言葉が日本に入り、頭の「サボ」だけを取って動詞",
+      "postedAt": 1785360921806
+    },
     {
       "tweetId": "2082556623164264576",
       "kind": "trivia",
@@ -241,16 +248,9 @@
       "category": "エンタメ・二択",
       "textPreview": "東京ドームが今日、歴史的な熱狂に包まれた🐹\n\nHey! Say! JUMPの山田涼介が、所属事務所として史上初のソロドームツアーを開催中。今日7月26日が東京",
       "postedAt": 1785038668080
-    },
-    {
-      "tweetId": "2081186255639908783",
-      "kind": "breaking",
-      "category": "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
-      "textPreview": "🚨 速報 新潟・長岡市にレベル4「大雨危険警報」\n\n本日7月26日、新潟県長岡市に大雨危険警報（レベル4相当）が発令。浸水や河川氾濫に厳重な警戒が呼びかけられ",
-      "postedAt": 1785028433529
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 10
+  "triviaNextIndex": 11
 }
