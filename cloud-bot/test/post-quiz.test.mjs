@@ -10,6 +10,7 @@ import {
   assertValidPostText,
   nextTriviaArticle,
   SLOT_PROFILES,
+  isTransientPostError,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -149,6 +150,27 @@ test('nextTriviaArticle: ストックが尽きたらnullを返す', () => {
   const stock = ['1本目'];
   assert.strictEqual(nextTriviaArticle(stock, 1), null);
   assert.strictEqual(nextTriviaArticle([], 0), null);
+});
+
+test('assertValidPostText: checkWeekday=falseなら曜日の不一致を許可する（豆知識の永続ネタ用）', () => {
+  // 「月曜日の語源」のような永続ネタは、実際の曜日と無関係に曜日表記を含む
+  const article = '「月曜日」の月は、天体の月のことです。曜日の名前は七曜に由来するとされています。';
+  assert.throws(() => assertValidPostText(article, jstTime(5, 17)), /曜日表記/); // 既定では従来どおり弾く
+  assert.doesNotThrow(() => assertValidPostText(article, jstTime(5, 17), { checkWeekday: false }));
+});
+
+test('assertValidPostText: checkWeekday=falseでも孤立サロゲートは必ず弾く', () => {
+  const bad = 'あ'.repeat(39) + '\ud83d';
+  assert.throws(() => assertValidPostText(bad, jstTime(5, 17), { checkWeekday: false }), /孤立サロゲート/);
+});
+
+test('isTransientPostError: 5xxは一時的、4xxとバリデーション違反は恒久的と判定する', () => {
+  assert.strictEqual(isTransientPostError(new Error('HTTP 503: {}')), true);
+  assert.strictEqual(isTransientPostError(new Error('HTTP 500: {}')), true);
+  // 重複投稿の拒否など、その記事固有で何度試しても直らないもの
+  assert.strictEqual(isTransientPostError(new Error('HTTP 403: duplicate content')), false);
+  assert.strictEqual(isTransientPostError(new Error('投稿本文に不正な文字（孤立サロゲート）が含まれています（位置39）')), false);
+  assert.strictEqual(isTransientPostError(undefined), false);
 });
 
 test('SLOT_PROFILES: 豆知識は1日4枠（7/10/15/22時台）', () => {
