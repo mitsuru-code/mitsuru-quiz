@@ -11,6 +11,7 @@ import {
   nextTriviaArticle,
   SLOT_PROFILES,
   isTransientPostError,
+  TRIVIA_QUIET_HOURS_UNTIL,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -173,12 +174,20 @@ test('isTransientPostError: 5xxは一時的、4xxとバリデーション違反�
   assert.strictEqual(isTransientPostError(undefined), false);
 });
 
-test('SLOT_PROFILES: 豆知識は1日4枠（7/10/15/22時台）', () => {
+test('SLOT_PROFILES: 豆知識は1日5枠（4/6/7/10/15時台）', () => {
   const triviaHours = Object.entries(SLOT_PROFILES)
     .filter(([, p]) => p.kind === 'trivia')
     .map(([h]) => Number(h))
     .sort((a, b) => a - b);
-  assert.deepStrictEqual(triviaHours, [7, 10, 15, 22]);
+  assert.deepStrictEqual(triviaHours, [4, 6, 7, 10, 15]);
+});
+
+test('SLOT_PROFILES: 最も早い豆知識スロットが深夜ガードで塞がれていない', () => {
+  // TRIVIA_QUIET_HOURS_UNTIL より前の時台に豆知識スロットを置くと、その枠は永久に投稿されない
+  const earliestTrivia = Math.min(...Object.entries(SLOT_PROFILES)
+    .filter(([, p]) => p.kind === 'trivia').map(([h]) => Number(h)));
+  assert.ok(earliestTrivia >= TRIVIA_QUIET_HOURS_UNTIL,
+    `最早の豆知識スロット(${earliestTrivia}時)が深夜ガード(${TRIVIA_QUIET_HOURS_UNTIL}時)より前です`);
 });
 
 test('SLOT_PROFILES: スロットは1時間以上離れている（投稿間隔30分の下限に抵触しない）', () => {
