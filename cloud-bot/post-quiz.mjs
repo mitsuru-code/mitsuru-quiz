@@ -66,6 +66,10 @@ const BREAKING_CHECKPOINT_WINDOW_MIN = 45; // cronの起動遅延・投稿間隔
 // 該当することは想定していない。運用してみて多すぎる/少なすぎる場合は要調整）
 const BREAKING_MAX_PER_DAY = 6;
 const MIN_POST_GAP_MS = 30 * 60 * 1000; // 新規投稿（スロット・速報）同士は最低30分間隔をあける
+// 豆知識をこの時刻（JST）より前には投稿しない。22時スロットが遅延すると汎用の遅延許容
+// （6時間）により最大4時まで追いかけてしまうが、深夜投稿はほぼ露出が取れず、
+// 本数の限られた手作りストックを浪費するだけなので諦める
+const TRIVIA_QUIET_HOURS_UNTIL = 5;
 
 // Secretsコピペ時の前後空白・改行はOAuth署名を壊すため必ず除去する
 const cleanEnv = k => (process.env[k] || '').trim();
@@ -224,7 +228,9 @@ const WEEKDAY_CHECK_HEAD_CHARS = 80;
 //    → 残っていると"no low surrogate in string"でX APIに拒否される事故が実際に発生した
 // 2) 冒頭の「○曜日」という言及が、実際の日付の曜日と食い違っていないか
 //    → AIが実際とは異なる曜日を書いて投稿してしまう事故が実際に発生した
-export function assertValidPostText(text, now = parseInt(process.env.NOW_MS || '', 10) || Date.now()) {
+//    ※2は「今日は○曜日です」と当日を語るニュース系（ブリーフィング/振り返り/速報）向けのチェック。
+//      曜日の語源など永続ネタを扱う豆知識では正当な言及を誤検知するため checkWeekday:false で外す
+export function assertValidPostText(text, now = parseInt(process.env.NOW_MS || '', 10) || Date.now(), { checkWeekday = true } = {}) {
   for (let i = 0; i < text.length; i++) {
     const code = text.charCodeAt(i);
     if (code >= 0xD800 && code <= 0xDBFF) {
@@ -240,6 +246,8 @@ export function assertValidPostText(text, now = parseInt(process.env.NOW_MS || '
     }
   }
 
+  if (!checkWeekday) return;
+
   const actualWeekday = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', weekday: 'short' }).format(new Date(now)); // 例: "火"
   const head = text.slice(0, WEEKDAY_CHECK_HEAD_CHARS);
   const mentioned = head.match(/[日月火水木金土]曜日/g) || [];
@@ -251,8 +259,8 @@ export function assertValidPostText(text, now = parseInt(process.env.NOW_MS || '
 }
 
 // poll: { options: string[], duration_minutes: number } を渡すと投票付き投稿になる
-function postTweet(text, replyToId, poll) {
-  assertValidPostText(text);
+function postTweet(text, replyToId, poll, { checkWeekday = true } = {}) {
+  assertValidPostText(text, undefined, { checkWeekday });
   return new Promise((resolve, reject) => {
     const apiUrl = 'https://api.twitter.com/2/tweets';
     const payload = { text };
@@ -698,13 +706,35 @@ function saveState(state) {
 
 // 豆知識記事のストック読み込み。ユーザーが直接編集する配列（常に末尾に追加する運用）で、
 // Bot側からは書き込まない。どこまで投稿済みかはstate.triviaNextIndexで別管理する
+// 読み込みに失敗した場合も[]を返すが、「在庫切れ」と「ファイルが壊れている」は
+// 原因も対処もまったく違うため、ログでははっきり区別する
+// （黙って空扱いにすると、PC側の補充がJSONを壊しても在庫切れにしか見えない）
 function loadTriviaStock() {
+  let raw;
   try {
-    const stock = JSON.parse(fs.readFileSync(TRIVIA_STOCK_FILE, 'utf8'));
-    return Array.isArray(stock) ? stock : [];
-  } catch {
+    raw = fs.readFileSync(TRIVIA_STOCK_FILE, 'utf8');
+  } catch (e) {
+    console.error(`⚠️ trivia-stock.json を読み込めません（在庫切れではありません）: ${e.message}`);
     return [];
   }
+  try {
+    const stock = JSON.parse(raw);
+    if (!Array.isArray(stock)) {
+      console.error('⚠️ trivia-stock.json が配列ではありません（在庫切れではなくファイルの形式エラーです）');
+      return [];
+    }
+    return stock;
+  } catch (e) {
+    console.error(`⚠️ trivia-stock.json のJSONが壊れています（在庫切れではありません）: ${e.message}`);
+    return [];
+  }
+}
+
+// 投稿失敗が「時間をおけば直る一時的なもの」かどうか。X APIの5xxや通信断は一時的なので
+// 記事は温存して次回に再試行する。逆にバリデーション違反や4xx（重複投稿の拒否など）は
+// その記事固有の問題で、何度試しても直らないため隔離する必要がある
+export function isTransientPostError(err) {
+  return /HTTP 5\d\d/.test(err?.message || '');
 }
 
 // ストックのうち、まだ投稿していない次の1件を返す（無ければnull）
@@ -989,18 +1019,37 @@ async function main() {
       const stock = loadTriviaStock();
       const idx = state.triviaNextIndex || 0;
       const article = nextTriviaArticle(stock, idx);
-      if (!article) {
+      const nowHour = jstHourOf(now);
+      if (nowHour < TRIVIA_QUIET_HOURS_UNTIL) {
+        // 22時スロットが遅延すると最大4時まで追いかけてしまうが、深夜の投稿はほぼ露出が取れない。
+        // 手作りで本数の限られたストックを浪費しないよう、深夜のキャッチアップは諦めて温存する
+        console.log(`⏭ 深夜（JST ${nowHour}時）のため豆知識の投稿を見送ります（ストックを温存し、次のスロットから再開）`);
+      } else if (!article) {
         console.log('📚 豆知識記事のストックが尽きています（cloud-bot/trivia-stock.jsonに追加してください）');
       } else if (DRY_RUN) {
         console.log(`🧪 [DRY_RUN] 豆知識記事(${idx + 1}/${stock.length}):\n${article}`);
       } else {
-        const tweetId = await postTweet(article, null);
-        console.log(`🐦 豆知識記事を投稿しました（tweet: ${tweetId}）`);
-        state.triviaNextIndex = idx + 1;
-        state.lastPostedAt = now;
-        countPost(state, now);
-        recordPost(state, { tweetId, kind: 'trivia', category: '豆知識記事', textPreview: article, postedAt: now });
-        stateChanged = true;
+        try {
+          const tweetId = await postTweet(article, null, null, { checkWeekday: false });
+          console.log(`🐦 豆知識記事を投稿しました（tweet: ${tweetId}）`);
+          state.triviaNextIndex = idx + 1;
+          state.lastPostedAt = now;
+          countPost(state, now);
+          recordPost(state, { tweetId, kind: 'trivia', category: '豆知識記事', textPreview: article, postedAt: now });
+          stateChanged = true;
+        } catch (e) {
+          if (isTransientPostError(e)) {
+            // 記事のせいではないので、インデックスを進めずに同じ記事を次回へ回す
+            console.error(`⚠️ 豆知識記事(${idx + 1}本目)の投稿に失敗しました（一時的なエラーの可能性）: ${e.message} — 次回の実行で再試行します`);
+          } else {
+            // この記事固有の問題。インデックスを進めずに放置すると、以後すべての豆知識スロットが
+            // 同じ記事で失敗し続けて永久に止まる（1日4枠が全滅する）ため、隔離して次の記事へ送る
+            state.triviaNextIndex = idx + 1;
+            stateChanged = true;
+            console.error(`⚠️ 豆知識記事(${idx + 1}本目)は投稿できないためスキップしました: ${e.message}`);
+            console.error(`   スキップした記事の冒頭: ${safeSlice(article, 60)}`);
+          }
+        }
       }
 
     } else { // quiz（Poll形式）
