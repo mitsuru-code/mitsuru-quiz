@@ -914,6 +914,35 @@ async function main() {
   canPost(state, now); // 月カウンタの初期化
   console.log(`⏰ JST ${jstHour}時 / スロット: [${POST_SLOTS.join(', ')}] / 直近: ${slotStr}(${profile.kind}) / 今月の投稿: ${state.monthly.posts}/${MONTHLY_POST_LIMIT} / DRY_RUN=${DRY_RUN} / FORCE_POST=${FORCE_POST}`);
 
+  // 訂正・補足の返信モード: REPLY_TO_ID と REPLY_TEXT が両方指定された時だけ、
+  // 指定した投稿へ指定した本文をそのままスレッド返信する（保守用）。
+  // 誤記に気づいた時の訂正など、AI生成を介さず人が書いた文面を返信するために使う。
+  // 返信はタイムライン上の新規投稿ではないため、投稿間隔（30分）の制限対象外
+  const REPLY_TO_ID = (process.env.REPLY_TO_ID || '').trim();
+  const REPLY_TEXT = (process.env.REPLY_TEXT || '').trim();
+  if (REPLY_TO_ID || REPLY_TEXT) {
+    if (!REPLY_TO_ID || !REPLY_TEXT) {
+      console.error('❌ 返信モードには reply_to_id と reply_text の両方が必要です');
+      process.exit(1);
+    }
+    console.log(`💬 返信する本文（${REPLY_TEXT.length}文字）:\n${REPLY_TEXT}\n`);
+    if (DRY_RUN) {
+      console.log(`🧪 [DRY_RUN] tweet ${REPLY_TO_ID} への返信はスキップします`);
+      return;
+    }
+    if (!canPost(state, now)) {
+      console.log('⚠️ 月間投稿上限に達したため返信を見送ります');
+      return;
+    }
+    const replyId = await postTweet(REPLY_TEXT, REPLY_TO_ID);
+    console.log(`💬 返信しました（tweet: ${replyId} → 元: ${REPLY_TO_ID}）`);
+    countPostOnly(state);
+    recordPost(state, { tweetId: replyId, kind: 'reply', category: '訂正・補足', textPreview: REPLY_TEXT, postedAt: now });
+    saveState(state);
+    console.log('💾 state.json を更新しました');
+    return;
+  }
+
   // 特集記事モード: FEATURE_TOPIC が指定された時だけ、番組表とは無関係にその話題の特集記事を1本投稿する（保守用）
   const FEATURE_TOPIC = (process.env.FEATURE_TOPIC || '').trim();
   if (FEATURE_TOPIC) {
