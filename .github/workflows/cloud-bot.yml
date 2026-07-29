@@ -63,6 +63,14 @@ on:
         description: '手動速報モード（指定した話題の🚨速報を1本投稿。1日2回の速報上限にカウントされる）。空なら通常通り'
         type: string
         default: ''
+      reply_to_id:
+        description: '訂正・補足の返信先ツイートID（reply_textと併用）。誤記の訂正などに使う。空なら何もしない'
+        type: string
+        default: ''
+      reply_text:
+        description: '返信の本文（reply_to_idと併用）。AI生成せずこの文面をそのまま投稿する'
+        type: string
+        default: ''
 
 permissions:
   contents: write
@@ -101,6 +109,8 @@ jobs:
           FEATURE_TOPIC: ${{ github.event_name == 'workflow_dispatch' && inputs.feature_topic || '' }}
           BREAKING_TOPIC: ${{ github.event_name == 'workflow_dispatch' && inputs.breaking_topic || '' }}
           GET_TWEET_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.get_tweet_id || '' }}
+          REPLY_TO_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.reply_to_id || '' }}
+          REPLY_TEXT: ${{ github.event_name == 'workflow_dispatch' && inputs.reply_text || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
           # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
           BREAKING_ENABLED: 'false'        # 速報チェックを中止（自動検知・続報・朝の代替クイズもすべて停止）
