@@ -4,7 +4,7 @@
 // 番組表（JST）:
 //   5時台 … 朝のブリーフィング: 日本が寝ている間の海外ニュースを20問のQ&Aで
 //           1本の長文ポストに（タイパ重視・答えは同じ投稿内・企業の朝の話題作り向け）
-//   3/6/7/10/15時台 … 豆知識記事: cloud-bot/trivia-stock.json にユーザーが事前にストックした
+//   6/7/8/10/15時台 … 豆知識記事: cloud-bot/trivia-stock.json にユーザーが事前にストックした
 //           記事を先頭（未投稿分）から1本ずつ投稿（AI生成ではない・ストックが尽きたら見送り）。
 //           1日5本。ストックの補充はPC側の定時タスクが担当し、ここでは生成しない
 //   12時 … 昼のエンタメクイズ: 午前の出来事・スポーツ・芸能をX投票(Poll)で出題
@@ -68,9 +68,9 @@ const BREAKING_MAX_PER_DAY = 6;
 const MIN_POST_GAP_MS = 30 * 60 * 1000; // 新規投稿（スロット・速報）同士は最低30分間隔をあける
 // 豆知識をこの時刻（JST）より前には投稿しない。深夜投稿はほぼ露出が取れず、本数の限られた
 // 手作りストックを浪費するだけなので、遅延したスロットを深夜まで追いかけないための歯止め。
-// 最も早い豆知識スロット（3時台）と同じ値にしてある（3時台の投稿自体は妨げない）。
+// 最も早い豆知識スロット（6時台）と同じ値にしてある（6時台の投稿自体は妨げない）。
 // この値を上げると最早スロットが永久に投稿されなくなるので、必ず連動させること
-export const TRIVIA_QUIET_HOURS_UNTIL = 3;
+export const TRIVIA_QUIET_HOURS_UNTIL = 6;
 
 // Secretsコピペ時の前後空白・改行はOAuth署名を壊すため必ず除去する
 const cleanEnv = k => (process.env[k] || '').trim();
@@ -84,10 +84,10 @@ const TW_ACCESS_SECRET   = cleanEnv('TWITTER_ACCESS_TOKEN_SECRET');
 // 豆知識(trivia)はストックから投稿するだけでAI生成を伴わないため、追加してもAPIコストは増えない。
 // X収益化のボトルネックであるインプレッションを、コストを増やさず稼ぐための増量枠
 export const SLOT_PROFILES = {
-  3:  { kind: 'trivia' },
   5:  { kind: 'briefing' },
   6:  { kind: 'trivia' },
   7:  { kind: 'trivia' },
+  8:  { kind: 'trivia' },
   10: { kind: 'trivia' },
   12: { kind: 'quiz', genre: '今日の午前中の出来事や、スポーツ・芸能・エンタメの明るい話題（昼休みに気軽に楽しめる、重すぎないもの）' },
   15: { kind: 'trivia' },
