@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2082378246486954350",
+      "answer": "正解は「2位突破」でした！投票してくれたみなさん、ありがとうございます🐹\n\n日本はグループFでオランダ戦2-2、チュニジア戦4-0、スウェーデン戦1-1と1勝2分けの2位で突破。決勝トーナメントのラウンド32ではブラジルと対戦し、佐野海舟の先制弾で先行するも、後半ATにマルティネッリに決勝点を奪われ1-2で惜敗しました。\n\n🌰豆知識：日本対ブラジルのW杯対戦は2006年ドイツ大会以来20年ぶり。あの試合でも日本が先制しながら逆転負けを喫しており、「先制して逆転負け」という悔しいジンクスが続く形となりました。",
+      "sourceUrl": "https://www.jleague.jp/news/article/34339/",
+      "question": "W杯2026、日本のグループステージ突破を振り返ろう🐹\n\nサムライブルーはグループFを何位で決勝トーナメントへ進出した",
+      "postedAt": 1785312608746,
+      "dueAt": 1785319808746,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "Jリーグ公式サイト「日本、後半ATに失点しブラジルに逆転負け ラウンド32で敗退」／Infoseek「サッカーワールドカップ2026特集」",
     "マイナビニュース「『映画ちいかわ 人魚の島のひみつ』公開3日間で興収22.4億円突破 週末動員ランキング1位の大ヒットスタート」",
     "AP通信、Reuters、BBC、CNN、NPR、Al Jazeera、CBS News、Washington Post、The Street、Yahoo Finance / Zacks、World Magazine (WORLD Radio)、10Things.news、TrendsMCP",
     "NHK、ウェザーニュース（WeatherNews）、tenki.jp（日本気象協会）、時事ドットコム、Yahoo!ニュース、福島テレビ、WORLD Radio（wng.org）、NPR、Reuters",
     "日本経済新聞「東証大引け 日経平均は大幅反落 2カ月ぶり安値、下げ幅一時3000円超」／Bloomberg「日経平均4%超安、巨額投資や中国勢参入への懸念でAI・半導体関連売り」",
     "テレ東スポーツ「大谷翔平 今季22号となる初球先頭打者ホームランで日米通算350号に到達！」／Full-Count（Yahoo!ニュース掲載）「大谷翔平、日米通算350号本塁打 22号初球先頭打者弾で到達…133m特大アーチ」",
     "Reuters, AP, CBS News, CNBC, NPR, France 24, Al Jazeera, Washington Examiner, Yahoo Finance/Zacks, Investrade, JustSecurity, OPB, Wikipedia (event pages), Mezha.net, JusticeInfo.net, WORLD Radio, The American Legion",
-    "NHK、日本経済新聞、オリコンニュース、Yahoo!ニュース、WORLD Radio（wng.org）、livedoorニュース",
-    "ABEMA TIMES（Yahoo!ニュース）「独 イベントに車突入 容疑者は射殺」／アゴラ言論プラットフォーム「ベルリンのLGBTQ+イベントに車両が突入」"
+    "NHK、日本経済新聞、オリコンニュース、Yahoo!ニュース、WORLD Radio（wng.org）、livedoorニュース"
   ],
   "recentOpeners": [
+    "W杯2026、日本のグループステージ突破を振り返ろう🐹\n\nサムライブルーはグル",
     "公開3日で興収22億円超の大ヒット！🐹\n\n『映画ちいかわ 人魚の島のひみつ』が",
     "水曜の朝です🐹 フランスの山火事、「パリの4倍」という規模の数字が頭から離れま",
     "熊本で震度7——。今日の一番大きなニュースはやはりこれでした。被害に遭われた方々",
-    "今日の日経平均、下げ幅が一時3000円超えの衝撃😱\n\nAI・半導体株急落を受け",
-    "大谷翔平の「日米通算350号」、NPB時代の本塁打は何本？🐹\n\nドジャース・大"
+    "今日の日経平均、下げ幅が一時3000円超えの衝撃😱\n\nAI・半導体株急落を受け"
   ],
-  "lastPostedAt": 1785305119767,
+  "lastPostedAt": 1785312608746,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 222
+    "posts": 223
   },
   "breakingDate": "2026-07-29",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785305119767,
+  "lastAnyPostAt": 1785312608746,
   "postHistory": [
+    {
+      "tweetId": "2082378246486954350",
+      "kind": "quiz",
+      "category": "スポーツ・4択",
+      "textPreview": "W杯2026、日本のグループステージ突破を振り返ろう🐹\n\nサムライブルーはグループFを何位で決勝トーナメントへ進出した？\n\n投票で答えてね🐹 正解は2時間後",
+      "postedAt": 1785312608746
+    },
     {
       "tweetId": "2082346717698281806",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
       "textPreview": "📈 いま話題｜南鳥島沖の深海レアアース、成分が世界初判明🐹\n\n日本最東端・南鳥島周辺の水深約6,000mから引き揚げた泥（約50トン）を分析した結果、ハイテ",
       "postedAt": 1785001280816
-    },
-    {
-      "tweetId": "2081021165556969505",
-      "kind": "feature",
-      "category": "続報（5時間後）",
-      "textPreview": "速報の「桑名40.2℃」から数時間で、記録はさらに塗り替えられました🐹\n\n午後3時30分時点で、三重県桑名市は40.6℃まで上昇。岐阜県美濃市40.8℃、同多",
-      "postedAt": 1784989057656
     }
   ],
   "breakingFollowUps": [],
