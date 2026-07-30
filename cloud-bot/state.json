@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2082672509800112221",
-      "answer": "正解は「3,024機」でした！\n参加してくれてありがとう🐹\n\n7月27日、臨港パークで開催された『YOKOHAMA STAR☆NIGHT DRONE SHOW』が「マルチローター／ドローンによる最大の実在する人物の空中ディスプレイ」として球団初のギネス世界記録に認定。3,024機が相川亮二監督・牧秀悟・筒香嘉智ら5名を横浜の夜空に描き、約5.5万人が見守りました。\n\n🌰豆知識\nドローンショーは煙が出ず繰り返し使えるため、花火に比べて環境負荷が低いとされ、近年エンタメイベントで急速に普及しています。",
-      "sourceUrl": "https://baseballking.jp/ns/702559/",
-      "question": "横浜の夜空に選手がズラリ！🐹\n\n7月27日、横浜DeNAベイスターズがみなとみらいで開催したドローンショーがギネス世界",
-      "postedAt": 1785382776927,
-      "dueAt": 1785389976927,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "ベースボールキング「DeNA、ドローンショーで球団初のギネス世界記録™に認定」",
     "CNN、Reuters、AP、Bloomberg、CNBC、NPR、The Hill、Forbes、Al Jazeera、SoftPower News、Tech Times、Financial Times、ECDC",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 232
+    "posts": 233
   },
   "breakingDate": "2026-07-30",
   "breakingCount": 0,
