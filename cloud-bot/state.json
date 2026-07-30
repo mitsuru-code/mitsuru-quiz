@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2082746314622980146",
-      "answer": "正解は「据え置き（3.5〜3.75%を維持）」でした！\n答えてくれてありがとう🐹\n\nFRBは9対3の賛成多数で、FF金利を3.5〜3.75%に据え置くことを決定。1月以降5会合連続の据え置きです。ただしクリーブランド・ダラス・ミネアポリスの3連銀総裁が0.25%利上げを主張して反対票を投じており、次回9月の利上げ観測が広がっています。\n\n🌰豆知識\nFOMCは年8回開催。12人の投票権を持つメンバーのうち、今回のように3人が反対するのは異例の「ハト派 vs タカ派」分裂シグナルとして市場に注目されます。",
-      "sourceUrl": "https://news.yahoo.co.jp/articles/41703986efd5afb22ae71a730eecc622738517ef",
-      "question": "FRBが今夜、市場注目の決断を下した🐹\n\n米連邦準備理事会（FRB）は7月29日のFOMCで、政策金利（FF金利）をど",
-      "postedAt": 1785400369135,
-      "dueAt": 1785407569135,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、日本経済新聞、産経ニュース、AFPBB News、東京新聞、テレ朝NEWS、時事通信、NPR、WORLD Radio",
     "産経新聞（Yahoo!ニュース）「米FRB金利据え置き、利上げ主張し3人が反対 『物価高止まり』で9月利上げ観測広がる」",
     "ベースボールキング「DeNA、ドローンショーで球団初のギネス世界記録™に認定」",
     "CNN、Reuters、AP、Bloomberg、CNBC、NPR、The Hill、Forbes、Al Jazeera、SoftPower News、Tech Times、Financial Times、ECDC",
     "NPR、CNN、Al Jazeera、Rappler、NBC News、France 24、NHK",
     "Jリーグ公式サイト「日本、後半ATに失点しブラジルに逆転負け ラウンド32で敗退」／Infoseek「サッカーワールドカップ2026特集」",
     "マイナビニュース「『映画ちいかわ 人魚の島のひみつ』公開3日間で興収22.4億円突破 週末動員ランキング1位の大ヒットスタート」",
-    "AP通信、Reuters、BBC、CNN、NPR、Al Jazeera、CBS News、Washington Post、The Street、Yahoo Finance / Zacks、World Magazine (WORLD Radio)、10Things.news、TrendsMCP",
-    "NHK、ウェザーニュース（WeatherNews）、tenki.jp（日本気象協会）、時事ドットコム、Yahoo!ニュース、福島テレビ、WORLD Radio（wng.org）、NPR、Reuters"
+    "AP通信、Reuters、BBC、CNN、NPR、Al Jazeera、CBS News、Washington Post、The Street、Yahoo Finance / Zacks、World Magazine (WORLD Radio)、10Things.news、TrendsMCP"
   ],
   "recentOpeners": [
+    "熊本の死者が34人に——その数字が重くのしかかる木曜日でした🐹\n\n今日のニュー",
     "FRBが今夜、市場注目の決断を下した🐹\n\n米連邦準備理事会（FRB）は7月29",
     "横浜の夜空に選手がズラリ！🐹\n\n7月27日、横浜DeNAベイスターズがみなとみ",
     "おはようございます🐹 今朝は中東の火種、欧州の山火事、市場の急落と、昨夜から一",
-    "「時間との戦いだ」——熊本の震度6強（M7.1）、その一言が今日ずっと頭に残って",
-    "W杯2026、日本のグループステージ突破を振り返ろう🐹\n\nサムライブルーはグル"
+    "「時間との戦いだ」——熊本の震度6強（M7.1）、その一言が今日ずっと頭に残って"
   ],
-  "lastPostedAt": 1785400369135,
+  "lastPostedAt": 1785413702204,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 235
+    "posts": 237
   },
   "breakingDate": "2026-07-30",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785400369135,
+  "lastAnyPostAt": 1785413702204,
   "postHistory": [
+    {
+      "tweetId": "2082802397504565473",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "熊本の死者が34人に——その数字が重くのしかかる木曜日でした🐹\n\n今日のニュース、どれだけ頭に残っていますか？ジャンル横断で20問、サクッとおさらいしましょう",
+      "postedAt": 1785413702204
+    },
     {
       "tweetId": "2082746314622980146",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "🐹 こんにちは、キンクマだよ〜！\nXで最近話題になった豆知識をクイズ形式で一つ出題するね。身近なのに意外な科学トリビアだよ！ へぇ〜ってなるはず〜。朝礼で話し",
       "postedAt": 1785105611406
-    },
-    {
-      "tweetId": "2081471366256296283",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "月曜の朝、おはようございます🐹 昨夜のベルリン、パリ、中東——世界が同時多発的に動いた週末でした。今週の商談や雑談のネタを20問でまとめます。\n\nQ1. 7月",
-      "postedAt": 1785096347914
     }
   ],
   "breakingFollowUps": [],
