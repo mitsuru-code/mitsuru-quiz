@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Bloomberg, AP, TheStreet, NPR, TIME, CNBC, 10things.news, Investrade, Yahoo Finance, Globe and Mail, Democracy Now!, TechCrunch, SecurityWeek, Euronews, WORLD Radio, Axios",
     "NHK、日本経済新聞、産経ニュース、AFPBB News、東京新聞、テレ朝NEWS、時事通信、NPR、WORLD Radio",
     "産経新聞（Yahoo!ニュース）「米FRB金利据え置き、利上げ主張し3人が反対 『物価高止まり』で9月利上げ観測広がる」",
     "ベースボールキング「DeNA、ドローンショーで球団初のギネス世界記録™に認定」",
     "CNN、Reuters、AP、Bloomberg、CNBC、NPR、The Hill、Forbes、Al Jazeera、SoftPower News、Tech Times、Financial Times、ECDC",
     "NPR、CNN、Al Jazeera、Rappler、NBC News、France 24、NHK",
     "Jリーグ公式サイト「日本、後半ATに失点しブラジルに逆転負け ラウンド32で敗退」／Infoseek「サッカーワールドカップ2026特集」",
-    "マイナビニュース「『映画ちいかわ 人魚の島のひみつ』公開3日間で興収22.4億円突破 週末動員ランキング1位の大ヒットスタート」",
-    "AP通信、Reuters、BBC、CNN、NPR、Al Jazeera、CBS News、Washington Post、The Street、Yahoo Finance / Zacks、World Magazine (WORLD Radio)、10Things.news、TrendsMCP"
+    "マイナビニュース「『映画ちいかわ 人魚の島のひみつ』公開3日間で興収22.4億円突破 週末動員ランキング1位の大ヒットスタート」"
   ],
   "recentOpeners": [
+    "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"と",
     "熊本の死者が34人に——その数字が重くのしかかる木曜日でした🐹\n\n今日のニュー",
     "FRBが今夜、市場注目の決断を下した🐹\n\n米連邦準備理事会（FRB）は7月29",
     "横浜の夜空に選手がズラリ！🐹\n\n7月27日、横浜DeNAベイスターズがみなとみ",
-    "おはようございます🐹 今朝は中東の火種、欧州の山火事、市場の急落と、昨夜から一",
-    "「時間との戦いだ」——熊本の震度6強（M7.1）、その一言が今日ずっと頭に残って"
+    "おはようございます🐹 今朝は中東の火種、欧州の山火事、市場の急落と、昨夜から一"
   ],
-  "lastPostedAt": 1785413702204,
+  "lastPostedAt": 1785442318282,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 237
+    "posts": 238
   },
-  "breakingDate": "2026-07-30",
+  "breakingDate": "2026-07-31",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785413702204,
+  "lastAnyPostAt": 1785442318282,
   "postHistory": [
+    {
+      "tweetId": "2082922486753275970",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"というニュースです。世界中で同時多発的に大事が起きている金曜日、20問でサクッとお",
+      "postedAt": 1785442318282
+    },
     {
       "tweetId": "2082802397504565473",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "エンタメ・4択",
       "textPreview": "昨夜の「VIVANT」シーズン2、初回視聴率がすごかった🐹\n\nTBS日曜劇場「VIVANT」シーズン2の第1話（7月26日放送）の世帯平均視聴率は何％だった？",
       "postedAt": 1785125493714
-    },
-    {
-      "tweetId": "2081509917811261869",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "🐹 こんにちは、キンクマだよ〜！\nXで最近話題になった豆知識をクイズ形式で一つ出題するね。身近なのに意外な科学トリビアだよ！ へぇ〜ってなるはず〜。朝礼で話し",
-      "postedAt": 1785105611406
     }
   ],
   "breakingFollowUps": [],
