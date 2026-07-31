@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics",
     "熊本日日新聞、NHK、The Japan Times、Bloomberg、CNBC、NPR、NBC News、The Jerusalem Post、WORLD Radio、FXStreet、政府広報オンライン",
     "ITmedia Mobile「従来の健康保険証は7月31日で利用不可に 8月1日以降は『マイナ保険証』の利用を」",
     "デイリースポーツ「24時間テレビ 今年のチャリティーマラソンランナーは星野真里に決定」",
     "Bloomberg, AP, TheStreet, NPR, TIME, CNBC, 10things.news, Investrade, Yahoo Finance, Globe and Mail, Democracy Now!, TechCrunch, SecurityWeek, Euronews, WORLD Radio, Axios",
     "NHK、日本経済新聞、産経ニュース、AFPBB News、東京新聞、テレ朝NEWS、時事通信、NPR、WORLD Radio",
     "産経新聞（Yahoo!ニュース）「米FRB金利据え置き、利上げ主張し3人が反対 『物価高止まり』で9月利上げ観測広がる」",
-    "ベースボールキング「DeNA、ドローンショーで球団初のギネス世界記録™に認定」",
-    "CNN、Reuters、AP、Bloomberg、CNBC、NPR、The Hill、Forbes、Al Jazeera、SoftPower News、Tech Times、Financial Times、ECDC"
+    "ベースボールキング「DeNA、ドローンショーで球団初のギネス世界記録™に認定」"
   ],
   "recentOpeners": [
+    "土曜日の朝、ちょっとだけ立ち止まって聞いてください。トランプ大統領が「ハマス完全",
     "ガザ戦争に\"終止符\"か——でも、ハマスもイスラエルもまだ首を縦に振っていない🐹",
     "今日7/31で完全終了！旧来の保険証、8月から使うとどうなる？🐹\n\nマイナ保険",
     "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年",
-    "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"と",
-    "熊本の死者が34人に——その数字が重くのしかかる木曜日でした🐹\n\n今日のニュー"
+    "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"と"
   ],
-  "lastPostedAt": 1785496271136,
+  "lastPostedAt": 1785528423770,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -31,14 +31,21 @@
     "ドル円163円台・約39年7カ月ぶり円安・介入警戒急拡大"
   ],
   "monthly": {
-    "month": "2026-07",
-    "posts": 247
+    "month": "2026-08",
+    "posts": 1
   },
-  "breakingDate": "2026-07-31",
+  "breakingDate": "2026-08-01",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785496271136,
+  "lastAnyPostAt": 1785528423770,
   "postHistory": [
+    {
+      "tweetId": "2083283604998881669",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "土曜日の朝、ちょっとだけ立ち止まって聞いてください。トランプ大統領が「ハマス完全武装解除で合意した」と宣言しました——でも現場の実態はまだまだ複雑です🐹 今週",
+      "postedAt": 1785528423770
+    },
     {
       "tweetId": "2083148747119186126",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "「ドタキャン」の「ドタ」、何の略か知っていますか🐹\n\n土壇場のドタです。土壇場はもともと、江戸時代に罪人の処刑のために土を盛った場所を指した言葉だとされていま",
       "postedAt": 1785218501663
-    },
-    {
-      "tweetId": "2081948891373593070",
-      "kind": "quiz",
-      "category": "スポーツ・二択",
-      "textPreview": "大谷翔平の「日米通算350号」、NPB時代の本塁打は何本？🐹\n\nドジャース・大谷翔平が今季22号を放って達成した日米通算350号。メジャー通算分は302本——",
-      "postedAt": 1785210242484
     }
   ],
   "breakingFollowUps": [],
