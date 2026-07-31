@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2083105528629408114",
+      "answer": "正解は「一時的に10割負担になる」でした！\n投票してくれたみなさん、ありがとうございます🐹\n\n2026年7月31日をもって、期限切れの従来型健康保険証が使える猶予措置が完全終了。8月1日以降、マイナ保険証も資格確認書も持たずに受診すると、保険証を忘れた場合と同様に医療費を一時全額（10割）自己負担で立て替える必要が生じます。マイナ保険証を持っていない人には「資格確認書」が交付されているので、お手元を要確認を！\n\n🌰豆知識：マイナ保険証の利用率は今年1月時点で約64.6%。まだ3人に1人以上が未移行という状況です。",
+      "sourceUrl": "https://www.itmedia.co.jp/mobile/articles/2607/24/news061.html",
+      "question": "今日7/31で完全終了！旧来の保険証、8月から使うとどうなる？🐹\n\nマイナ保険証や資格確認書を持たずに医療機関を受診し",
+      "postedAt": 1785486017078,
+      "dueAt": 1785493217078,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "ITmedia Mobile「従来の健康保険証は7月31日で利用不可に 8月1日以降は『マイナ保険証』の利用を」",
     "デイリースポーツ「24時間テレビ 今年のチャリティーマラソンランナーは星野真里に決定」",
     "Bloomberg, AP, TheStreet, NPR, TIME, CNBC, 10things.news, Investrade, Yahoo Finance, Globe and Mail, Democracy Now!, TechCrunch, SecurityWeek, Euronews, WORLD Radio, Axios",
     "NHK、日本経済新聞、産経ニュース、AFPBB News、東京新聞、テレ朝NEWS、時事通信、NPR、WORLD Radio",
     "産経新聞（Yahoo!ニュース）「米FRB金利据え置き、利上げ主張し3人が反対 『物価高止まり』で9月利上げ観測広がる」",
     "ベースボールキング「DeNA、ドローンショーで球団初のギネス世界記録™に認定」",
     "CNN、Reuters、AP、Bloomberg、CNBC、NPR、The Hill、Forbes、Al Jazeera、SoftPower News、Tech Times、Financial Times、ECDC",
-    "NPR、CNN、Al Jazeera、Rappler、NBC News、France 24、NHK",
-    "Jリーグ公式サイト「日本、後半ATに失点しブラジルに逆転負け ラウンド32で敗退」／Infoseek「サッカーワールドカップ2026特集」"
+    "NPR、CNN、Al Jazeera、Rappler、NBC News、France 24、NHK"
   ],
   "recentOpeners": [
+    "今日7/31で完全終了！旧来の保険証、8月から使うとどうなる？🐹\n\nマイナ保険",
     "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年",
     "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"と",
     "熊本の死者が34人に——その数字が重くのしかかる木曜日でした🐹\n\n今日のニュー",
-    "FRBが今夜、市場注目の決断を下した🐹\n\n米連邦準備理事会（FRB）は7月29",
-    "横浜の夜空に選手がズラリ！🐹\n\n7月27日、横浜DeNAベイスターズがみなとみ"
+    "FRBが今夜、市場注目の決断を下した🐹\n\n米連邦準備理事会（FRB）は7月29"
   ],
-  "lastPostedAt": 1785478892541,
+  "lastPostedAt": 1785486017078,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 244
+    "posts": 245
   },
   "breakingDate": "2026-07-31",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785478892541,
+  "lastAnyPostAt": 1785486017078,
   "postHistory": [
+    {
+      "tweetId": "2083105528629408114",
+      "kind": "quiz",
+      "category": "社会・4択",
+      "textPreview": "今日7/31で完全終了！旧来の保険証、8月から使うとどうなる？🐹\n\nマイナ保険証や資格確認書を持たずに医療機関を受診した場合、窓口での支払いはどうなるでしょう",
+      "postedAt": 1785486017078
+    },
     {
       "tweetId": "2083075573539344547",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "豆知識記事",
       "textPreview": "重大な事故1件の裏には、300件のヒヤリがあります\n\n1930年代にアメリカのハインリッヒが労働災害の統計から導いた法則で、重大事故1件の背後には軽い事故が29",
       "postedAt": 1785200593088
-    },
-    {
-      "tweetId": "2081872438451687567",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "玉ねぎを切って涙が出るのは、玉ねぎが自分を守っているからです🐹\n\n玉ねぎの細胞が壊れると、中の成分と酵素が出会って刺激物質ができます。これは虫や動物に食べられ",
-      "postedAt": 1785192043149
     }
   ],
   "breakingFollowUps": [],
