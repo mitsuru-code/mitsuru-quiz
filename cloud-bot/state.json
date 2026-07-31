@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2083045121235591513",
+      "answer": "正解は「星野真里」でした！投票してくれたみなさん、ありがとうございます🐹\n\n6月21日放送の「Golden SixTONES」の番組内で発表。星野さんは障害のある娘さんに「ママが頑張るところを見せたい」という思いを語り、発表直後からSNSでも大きな反響を呼びました。2025年のランナーは横山裕（SUPER EIGHT）さん、2024年はやす子さんでした。\n\n🌰豆知識：星野真里さんは1995年のNHK朝ドラ『春よ、来い』でデビュー。「3年B組金八先生」では金八先生の娘・坂本乙女役を長年にわたって演じたことでも知られています。",
+      "sourceUrl": "https://www.daily.co.jp/gossip/2026/06/21/0020503316.shtml",
+      "question": "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年8月29・30日に放送予定の「24時間テ",
+      "postedAt": 1785471612204,
+      "dueAt": 1785478812204,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "デイリースポーツ「24時間テレビ 今年のチャリティーマラソンランナーは星野真里に決定」",
     "Bloomberg, AP, TheStreet, NPR, TIME, CNBC, 10things.news, Investrade, Yahoo Finance, Globe and Mail, Democracy Now!, TechCrunch, SecurityWeek, Euronews, WORLD Radio, Axios",
     "NHK、日本経済新聞、産経ニュース、AFPBB News、東京新聞、テレ朝NEWS、時事通信、NPR、WORLD Radio",
     "産経新聞（Yahoo!ニュース）「米FRB金利据え置き、利上げ主張し3人が反対 『物価高止まり』で9月利上げ観測広がる」",
     "ベースボールキング「DeNA、ドローンショーで球団初のギネス世界記録™に認定」",
     "CNN、Reuters、AP、Bloomberg、CNBC、NPR、The Hill、Forbes、Al Jazeera、SoftPower News、Tech Times、Financial Times、ECDC",
     "NPR、CNN、Al Jazeera、Rappler、NBC News、France 24、NHK",
-    "Jリーグ公式サイト「日本、後半ATに失点しブラジルに逆転負け ラウンド32で敗退」／Infoseek「サッカーワールドカップ2026特集」",
-    "マイナビニュース「『映画ちいかわ 人魚の島のひみつ』公開3日間で興収22.4億円突破 週末動員ランキング1位の大ヒットスタート」"
+    "Jリーグ公式サイト「日本、後半ATに失点しブラジルに逆転負け ラウンド32で敗退」／Infoseek「サッカーワールドカップ2026特集」"
   ],
   "recentOpeners": [
+    "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年",
     "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"と",
     "熊本の死者が34人に——その数字が重くのしかかる木曜日でした🐹\n\n今日のニュー",
     "FRBが今夜、市場注目の決断を下した🐹\n\n米連邦準備理事会（FRB）は7月29",
-    "横浜の夜空に選手がズラリ！🐹\n\n7月27日、横浜DeNAベイスターズがみなとみ",
-    "おはようございます🐹 今朝は中東の火種、欧州の山火事、市場の急落と、昨夜から一"
+    "横浜の夜空に選手がズラリ！🐹\n\n7月27日、横浜DeNAベイスターズがみなとみ"
   ],
-  "lastPostedAt": 1785460346701,
+  "lastPostedAt": 1785471612204,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-07",
-    "posts": 241
+    "posts": 242
   },
   "breakingDate": "2026-07-31",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785460346701,
+  "lastAnyPostAt": 1785471612204,
   "postHistory": [
+    {
+      "tweetId": "2083045121235591513",
+      "kind": "quiz",
+      "category": "芸能・テレビ・4択",
+      "textPreview": "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年8月29・30日に放送予定の「24時間テレビ49」。6月21日の番組内で今年のチ",
+      "postedAt": 1785471612204
+    },
     {
       "tweetId": "2082997785478168663",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "朝ブリーフィング",
       "textPreview": "おはようございます🐹 今朝は盛りだくさんです。ベルリン、イラン、インド、欧州の山火事……世界が週明けも動き続けています。通勤のお供にどうぞ。\n\n───────",
       "postedAt": 1785185580692
-    },
-    {
-      "tweetId": "2081764311417151713",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "雷までの距離は、数を数えれば分かります\n\n光は一瞬で届きますが、音はおよそ秒速340メートル。ピカッと光ってからゴロゴロ鳴るまでの秒数を数えて、3秒なら約1キロ",
-      "postedAt": 1785166263625
     }
   ],
   "breakingFollowUps": [],
