@@ -17,7 +17,7 @@
     "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年",
     "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"と"
   ],
-  "lastPostedAt": 1785534319800,
+  "lastPostedAt": 1785537772275,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 2
+    "posts": 3
   },
   "breakingDate": "2026-08-01",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785534319800,
+  "lastAnyPostAt": 1785537772275,
   "postHistory": [
+    {
+      "tweetId": "2083322531667152927",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "「一石二鳥」は、中国の故事ではないそうです\n\n英語のことわざ、石一つで二羽の鳥を、の訳として日本に入ったとされています（諸説あります）。似た意味の一挙両得のほう",
+      "postedAt": 1785537772275
+    },
     {
       "tweetId": "2083308051222638628",
       "kind": "trivia",
@@ -241,16 +248,9 @@
       "category": "夜の振り返り",
       "textPreview": "熊本で震度7——。今日の一番大きなニュースはやはりこれでした。被害に遭われた方々に、心からお見舞い申し上げます🐹 今日1日のニュースを振り返りながら、少し一緒",
       "postedAt": 1785236479206
-    },
-    {
-      "tweetId": "2082014647951999324",
-      "kind": "quiz",
-      "category": "経済・マーケット・二択",
-      "textPreview": "今日の日経平均、下げ幅が一時3000円超えの衝撃😱\n\nAI・半導体株急落を受け、28日の東京市場は大荒れ。日経平均の終値はいくらだったでしょう？🐹\n投票で答",
-      "postedAt": 1785225931207
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 19
+  "triviaNextIndex": 20
 }
