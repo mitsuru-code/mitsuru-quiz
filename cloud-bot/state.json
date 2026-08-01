@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2083402048612016521",
-      "answer": "正解は「57kg級」でした！投票してくれたみなさん、ありがとうございます🐹\n\nパリ五輪で53kg級金メダルを獲得した藤波朱理選手は、その後57kg級へと階級を変更。2026年5月の全日本選抜選手権でも57kg級を制し、公式戦連勝記録を153に伸ばしました。\n\n🌰豆知識\n藤波選手が連勝を積み始めたのは中学2年生の2017年。9年以上にわたって一度も負けていない、まさに規格外の強さです！",
-      "sourceUrl": "https://www.chunichi.co.jp/article/1256299",
-      "question": "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\nパリ五輪で金メダルを獲った藤波朱理選手。",
-      "postedAt": 1785556709810,
-      "dueAt": 1785563909810,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」",
     "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics",
@@ -27,7 +17,7 @@
     "今日7/31で完全終了！旧来の保険証、8月から使うとどうなる？🐹\n\nマイナ保険",
     "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年"
   ],
-  "lastPostedAt": 1785556709810,
+  "lastPostedAt": 1785564390176,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 6
+    "posts": 8
   },
   "breakingDate": "2026-08-01",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785556709810,
+  "lastAnyPostAt": 1785564390176,
   "postHistory": [
+    {
+      "tweetId": "2083434177035206979",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "人数を増やすと、一人あたりの力は落ちます\n\n綱引きの実験で知られる現象で、参加人数が増えるほど、一人が出す力の割合は小さくなっていきます。責任が分散して無意識に",
+      "postedAt": 1785564390176
+    },
     {
       "tweetId": "2083402048612016521",
       "kind": "quiz",
@@ -251,16 +248,9 @@
       "category": "豆知識記事",
       "textPreview": "賞味期限が切れても、すぐ食べられなくなるわけではありません\n\n消費者庁の定義では、消費期限は安全に食べられる期限で、傷みやすい食品につけられ、おおむね5日以内が",
       "postedAt": 1785287294515
-    },
-    {
-      "tweetId": "2082235235605893209",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "「平均」は、少数の極端な数字に簡単に引っ張られます\n\n10人のうち9人が年収300万円、1人が3000万円なら、平均は570万円。でも実感に近いのは、真ん中の人",
-      "postedAt": 1785278540681
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 22
+  "triviaNextIndex": 23
 }
