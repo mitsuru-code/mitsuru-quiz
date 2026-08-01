@@ -17,7 +17,7 @@
     "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年",
     "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"と"
   ],
-  "lastPostedAt": 1785541260120,
+  "lastPostedAt": 1785546787236,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 4
+    "posts": 5
   },
   "breakingDate": "2026-08-01",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785541260120,
+  "lastAnyPostAt": 1785546787236,
   "postHistory": [
+    {
+      "tweetId": "2083360343032803422",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "「敷居が高い」の本来の意味、ご存じですか\n\n高級すぎて入りにくい、という意味で使われることが多いのですが、本来は不義理をしていてその家に行きづらい、という意味で",
+      "postedAt": 1785546787236
+    },
     {
       "tweetId": "2083337160703234147",
       "kind": "trivia",
@@ -241,16 +248,9 @@
       "category": "朝ブリーフィング",
       "textPreview": "水曜の朝です🐹 フランスの山火事、「パリの4倍」という規模の数字が頭から離れません。\n\nQ1. フランスで記録的な山火事が続いています。火災の規模はどのくらい",
       "postedAt": 1785269132296
-    },
-    {
-      "tweetId": "2082093296772649117",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "鏡は左右を反転していません🐹\n\n鏡に映った自分は左右が入れ替わって見えますが、実際に反転しているのは前後、つまり奥行きです。試しに鏡の前で手を上げても、上下は",
-      "postedAt": 1785244699838
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 21
+  "triviaNextIndex": 22
 }
