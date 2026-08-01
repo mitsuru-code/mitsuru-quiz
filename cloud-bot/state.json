@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2083469304075272448",
+      "answer": "正解は「ガス田の資源開発」でした！投票してくれたみなさん、ありがとうございます🐹\n\n7月31日、外務省の金井正彰アジア大洋州局長が在日中国大使館の施泳次席公使に強く抗議。東シナ海の日中中間線・中国側海域で新たな構造物の設置に向けた動きが確認され、今回で計24基目となりました。「一方的な開発は認められない」として、2008年の共同開発合意に基づく交渉再開も求めています。\n\n🌰豆知識：日中両政府は2008年にこの海域でのガス田共同開発に合意していますが、具体的な交渉は長年進んでいません。境界線（EEZ）が未確定のまま中国側が開発を続けているため、日本は繰り返し抗議を行っています。\n\n（出典: 日本経済新聞・時事ドットコム）",
+      "sourceUrl": "https://www.nikkei.com/article/DGXZQOUA31BVE0R30C26A7000000/",
+      "question": "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造物」の目的は何でしょう？\n\n投票で答えて",
+      "postedAt": 1785572743905,
+      "dueAt": 1785579943905,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "日本経済新聞「東シナ海で構造物設置か 政府、中国に抗議」／時事ドットコム「中国、東シナ海に新構造物 24基目、外務省が抗議」",
     "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」",
     "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics",
     "熊本日日新聞、NHK、The Japan Times、Bloomberg、CNBC、NPR、NBC News、The Jerusalem Post、WORLD Radio、FXStreet、政府広報オンライン",
     "ITmedia Mobile「従来の健康保険証は7月31日で利用不可に 8月1日以降は『マイナ保険証』の利用を」",
     "デイリースポーツ「24時間テレビ 今年のチャリティーマラソンランナーは星野真里に決定」",
     "Bloomberg, AP, TheStreet, NPR, TIME, CNBC, 10things.news, Investrade, Yahoo Finance, Globe and Mail, Democracy Now!, TechCrunch, SecurityWeek, Euronews, WORLD Radio, Axios",
-    "NHK、日本経済新聞、産経ニュース、AFPBB News、東京新聞、テレ朝NEWS、時事通信、NPR、WORLD Radio",
-    "産経新聞（Yahoo!ニュース）「米FRB金利据え置き、利上げ主張し3人が反対 『物価高止まり』で9月利上げ観測広がる」"
+    "NHK、日本経済新聞、産経ニュース、AFPBB News、東京新聞、テレ朝NEWS、時事通信、NPR、WORLD Radio"
   ],
   "recentOpeners": [
+    "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造",
     "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\n",
     "土曜日の朝、ちょっとだけ立ち止まって聞いてください。トランプ大統領が「ハマス完全",
     "ガザ戦争に\"終止符\"か——でも、ハマスもイスラエルもまだ首を縦に振っていない🐹",
-    "今日7/31で完全終了！旧来の保険証、8月から使うとどうなる？🐹\n\nマイナ保険",
-    "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年"
+    "今日7/31で完全終了！旧来の保険証、8月から使うとどうなる？🐹\n\nマイナ保険"
   ],
-  "lastPostedAt": 1785564390176,
+  "lastPostedAt": 1785572743905,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 8
+    "posts": 9
   },
   "breakingDate": "2026-08-01",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785564390176,
+  "lastAnyPostAt": 1785572743905,
   "postHistory": [
+    {
+      "tweetId": "2083469304075272448",
+      "kind": "quiz",
+      "category": "国際・二択",
+      "textPreview": "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造物」の目的は何でしょう？\n\n投票で答えてね🐹 正解は2時間後にリプで発表！",
+      "postedAt": 1785572743905
+    },
     {
       "tweetId": "2083434177035206979",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "エンタメ・4択",
       "textPreview": "公開3日で興収22億円超の大ヒット！🐹\n\n『映画ちいかわ 人魚の島のひみつ』が映画化した原作エピソードの名前は何でしょう？\n\n投票で答えてね🐹 正解は2時間",
       "postedAt": 1785296875014
-    },
-    {
-      "tweetId": "2082271951679095072",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "賞味期限が切れても、すぐ食べられなくなるわけではありません\n\n消費者庁の定義では、消費期限は安全に食べられる期限で、傷みやすい食品につけられ、おおむね5日以内が",
-      "postedAt": 1785287294515
     }
   ],
   "breakingFollowUps": [],
