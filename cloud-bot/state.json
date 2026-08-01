@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2083402048612016521",
+      "answer": "正解は「57kg級」でした！投票してくれたみなさん、ありがとうございます🐹\n\nパリ五輪で53kg級金メダルを獲得した藤波朱理選手は、その後57kg級へと階級を変更。2026年5月の全日本選抜選手権でも57kg級を制し、公式戦連勝記録を153に伸ばしました。\n\n🌰豆知識\n藤波選手が連勝を積み始めたのは中学2年生の2017年。9年以上にわたって一度も負けていない、まさに規格外の強さです！",
+      "sourceUrl": "https://www.chunichi.co.jp/article/1256299",
+      "question": "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\nパリ五輪で金メダルを獲った藤波朱理選手。",
+      "postedAt": 1785556709810,
+      "dueAt": 1785563909810,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」",
     "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics",
     "熊本日日新聞、NHK、The Japan Times、Bloomberg、CNBC、NPR、NBC News、The Jerusalem Post、WORLD Radio、FXStreet、政府広報オンライン",
     "ITmedia Mobile「従来の健康保険証は7月31日で利用不可に 8月1日以降は『マイナ保険証』の利用を」",
     "デイリースポーツ「24時間テレビ 今年のチャリティーマラソンランナーは星野真里に決定」",
     "Bloomberg, AP, TheStreet, NPR, TIME, CNBC, 10things.news, Investrade, Yahoo Finance, Globe and Mail, Democracy Now!, TechCrunch, SecurityWeek, Euronews, WORLD Radio, Axios",
     "NHK、日本経済新聞、産経ニュース、AFPBB News、東京新聞、テレ朝NEWS、時事通信、NPR、WORLD Radio",
-    "産経新聞（Yahoo!ニュース）「米FRB金利据え置き、利上げ主張し3人が反対 『物価高止まり』で9月利上げ観測広がる」",
-    "ベースボールキング「DeNA、ドローンショーで球団初のギネス世界記録™に認定」"
+    "産経新聞（Yahoo!ニュース）「米FRB金利据え置き、利上げ主張し3人が反対 『物価高止まり』で9月利上げ観測広がる」"
   ],
   "recentOpeners": [
+    "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\n",
     "土曜日の朝、ちょっとだけ立ち止まって聞いてください。トランプ大統領が「ハマス完全",
     "ガザ戦争に\"終止符\"か——でも、ハマスもイスラエルもまだ首を縦に振っていない🐹",
     "今日7/31で完全終了！旧来の保険証、8月から使うとどうなる？🐹\n\nマイナ保険",
-    "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年",
-    "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"と"
+    "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年"
   ],
-  "lastPostedAt": 1785546787236,
+  "lastPostedAt": 1785556709810,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 5
+    "posts": 6
   },
   "breakingDate": "2026-08-01",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785546787236,
+  "lastAnyPostAt": 1785556709810,
   "postHistory": [
+    {
+      "tweetId": "2083402048612016521",
+      "kind": "quiz",
+      "category": "スポーツ・二択",
+      "textPreview": "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\nパリ五輪で金メダルを獲った藤波朱理選手。五輪後に挑んだ新しい階級は何kg級でしょ",
+      "postedAt": 1785556709810
+    },
     {
       "tweetId": "2083360343032803422",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "豆知識記事",
       "textPreview": "「平均」は、少数の極端な数字に簡単に引っ張られます\n\n10人のうち9人が年収300万円、1人が3000万円なら、平均は570万円。でも実感に近いのは、真ん中の人",
       "postedAt": 1785278540681
-    },
-    {
-      "tweetId": "2082196143853998461",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "水曜の朝です🐹 フランスの山火事、「パリの4倍」という規模の数字が頭から離れません。\n\nQ1. フランスで記録的な山火事が続いています。火災の規模はどのくらい",
-      "postedAt": 1785269132296
     }
   ],
   "breakingFollowUps": [],
