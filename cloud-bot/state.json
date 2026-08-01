@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia",
     "NHK、毎日新聞、Yahoo!ニュース、News on Japan、CNN、Fox News Digital、Jerusalem Post",
     "日本経済新聞「東シナ海で構造物設置か 政府、中国に抗議」／時事ドットコム「中国、東シナ海に新構造物 24基目、外務省が抗議」",
     "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」",
     "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics",
     "熊本日日新聞、NHK、The Japan Times、Bloomberg、CNBC、NPR、NBC News、The Jerusalem Post、WORLD Radio、FXStreet、政府広報オンライン",
     "ITmedia Mobile「従来の健康保険証は7月31日で利用不可に 8月1日以降は『マイナ保険証』の利用を」",
-    "デイリースポーツ「24時間テレビ 今年のチャリティーマラソンランナーは星野真里に決定」",
-    "Bloomberg, AP, TheStreet, NPR, TIME, CNBC, 10things.news, Investrade, Yahoo Finance, Globe and Mail, Democracy Now!, TechCrunch, SecurityWeek, Euronews, WORLD Radio, Axios"
+    "デイリースポーツ「24時間テレビ 今年のチャリティーマラソンランナーは星野真里に決定」"
   ],
   "recentOpeners": [
+    "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI",
     "イオンモール熊本の爆発、捜索が終了して7人死亡——令和8年熊本地震、まだ終わって",
     "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造",
     "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\n",
-    "土曜日の朝、ちょっとだけ立ち止まって聞いてください。トランプ大統領が「ハマス完全",
-    "ガザ戦争に\"終止符\"か——でも、ハマスもイスラエルもまだ首を縦に振っていない🐹"
+    "土曜日の朝、ちょっとだけ立ち止まって聞いてください。トランプ大統領が「ハマス完全"
   ],
-  "lastPostedAt": 1785584780081,
+  "lastPostedAt": 1785614801621,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 11
+    "posts": 12
   },
-  "breakingDate": "2026-08-01",
+  "breakingDate": "2026-08-02",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785584780081,
+  "lastAnyPostAt": 1785614801621,
   "postHistory": [
+    {
+      "tweetId": "2083645945640554544",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AIが「勝手に」他社のシステムに侵入していた件、スペインで一夜にして6万人が国境を越",
+      "postedAt": 1785614801621
+    },
     {
       "tweetId": "2083519940632494510",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "スポーツ・4択",
       "textPreview": "W杯2026、日本のグループステージ突破を振り返ろう🐹\n\nサムライブルーはグループFを何位で決勝トーナメントへ進出した？\n\n投票で答えてね🐹 正解は2時間後",
       "postedAt": 1785312608746
-    },
-    {
-      "tweetId": "2082346717698281806",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "炭酸は、冷たいほど抜けにくくなります🐹\n\n気体は温度が低いほど液体に溶けやすい性質があります。だから冷えた炭酸飲料はシュワシュワが長持ちし、ぬるくなると一気に",
-      "postedAt": 1785305119767
     }
   ],
   "breakingFollowUps": [],
