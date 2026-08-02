@@ -17,7 +17,7 @@
     "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？",
     "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI"
   ],
-  "lastPostedAt": 1785701241542,
+  "lastPostedAt": 1785706551491,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 23
+    "posts": 24
   },
   "breakingDate": "2026-08-03",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785701241542,
+  "lastAnyPostAt": 1785706551491,
   "postHistory": [
+    {
+      "tweetId": "2084030442915995876",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "古い窓ガラスの下が厚いのは、流れたからではありません\n\nガラスは長い年月をかけて流れる液体だ、という話を聞いたことがあるかもしれません。これは否定されています。",
+      "postedAt": 1785706551491
+    },
     {
       "tweetId": "2084008443308912895",
       "kind": "briefing",
@@ -241,16 +248,9 @@
       "category": "経済・二択",
       "textPreview": "FRBが今夜、市場注目の決断を下した🐹\n\n米連邦準備理事会（FRB）は7月29日のFOMCで、政策金利（FF金利）をどう決定した？\n\n投票で答えてね🐹 正解",
       "postedAt": 1785400369135
-    },
-    {
-      "tweetId": "2082727802210578674",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "白い卵と赤い卵、栄養の差はほとんどありません\n\n殻の色を決めているのは鶏の品種です。白い羽の鶏は白い卵、茶色い羽の鶏は赤い卵を産む傾向があります。栄養価は殻の色",
-      "postedAt": 1785395977685
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 28
+  "triviaNextIndex": 29
 }
