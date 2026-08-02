@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "NPR、BBC、Reuters、CNN、Bloomberg、Trading Economics、Al Jazeera、ABC News、BBC Sport、Miss World公式、ts2.tech、Futureseek",
     "NHK、The Japan Times、News on Japan、Yahoo!ニュース（NHK・時事通信記事を含む）、時事通信、Al Jazeera、CNBC、News on Air、日本経済新聞、Euronews",
     "時事ドットコム「トランプ米大統領、イラン攻撃見送り表明 ホルムズ開放条件―関係各国、土壇場の外交努力」",
     "映画.com「TSUZUMI（ME:I）×尾上松也、新たなタッグで大海原へ！＜超＞実写映画「モアナと伝説の海」インタビュー」",
     "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia",
     "NHK、毎日新聞、Yahoo!ニュース、News on Japan、CNN、Fox News Digital、Jerusalem Post",
     "日本経済新聞「東シナ海で構造物設置か 政府、中国に抗議」／時事ドットコム「中国、東シナ海に新構造物 24基目、外務省が抗議」",
-    "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」",
-    "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics"
+    "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」"
   ],
   "recentOpeners": [
+    "おはようございます🐹 月曜の朝、世界はどこも動き続けていました。ホルムズ海峡・",
     "熊本では今日も38度超えの猛暑の中、地震活動が続いています🐹 1週間分のニュー",
     "トランプ大統領が「攻撃を中止」と宣言🐹 その条件として挙げたのはどちら？\n\nイ",
     "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？",
-    "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI",
-    "イオンモール熊本の爆発、捜索が終了して7人死亡——令和8年熊本地震、まだ終わって"
+    "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI"
   ],
-  "lastPostedAt": 1785671104270,
+  "lastPostedAt": 1785701241542,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 22
+    "posts": 23
   },
-  "breakingDate": "2026-08-02",
+  "breakingDate": "2026-08-03",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785671104270,
+  "lastAnyPostAt": 1785701241542,
   "postHistory": [
+    {
+      "tweetId": "2084008443308912895",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 月曜の朝、世界はどこも動き続けていました。ホルムズ海峡・ウクライナ・欧州の移民問題……今週も話題に事欠きません。では今朝のブリーフィング",
+      "postedAt": 1785701241542
+    },
     {
       "tweetId": "2083882008305082775",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "白い卵と赤い卵、栄養の差はほとんどありません\n\n殻の色を決めているのは鶏の品種です。白い羽の鶏は白い卵、茶色い羽の鶏は赤い卵を産む傾向があります。栄養価は殻の色",
       "postedAt": 1785395977685
-    },
-    {
-      "tweetId": "2082672509800112221",
-      "kind": "quiz",
-      "category": "スポーツ・エンタメ・4択",
-      "textPreview": "横浜の夜空に選手がズラリ！🐹\n\n7月27日、横浜DeNAベイスターズがみなとみらいで開催したドローンショーがギネス世界記録に認定されました。そのとき飛ばされた",
-      "postedAt": 1785382776927
     }
   ],
   "breakingFollowUps": [],
