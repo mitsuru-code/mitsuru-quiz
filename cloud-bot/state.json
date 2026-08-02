@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2083832422089838704",
+      "answer": "正解は「ホルムズ海峡の即時完全開放」でした！投票してくれた皆さん、ありがとうございます🐹\n\nトランプ大統領は8月1日のSNS投稿で、「ホルムズ海峡の即時かつ完全な開放」と「イランの核の脅威の終結」を条件に攻撃を中止すると宣言。イランや中東諸国から合意の大枠がまとまったとして要請を受けたとしており、イスラエルもこの決定に加わっているとしています。\n\n🌰豆知識：ホルムズ海峡はペルシャ湾の出口にあたる幅約50kmの海峡で、世界の石油輸送量の約2割が通過します。イランはこの海峡の封鎖を「切り札」として使ってきた経緯があります。",
+      "sourceUrl": "https://www.jiji.com/jc/article?k=2026080200088&g=int",
+      "question": "トランプ大統領が「攻撃を中止」と宣言🐹 その条件として挙げたのはどちら？\n\nイランへの大規模攻撃を検討していたトランプ",
+      "postedAt": 1785659319095,
+      "dueAt": 1785666519095,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "時事ドットコム「トランプ米大統領、イラン攻撃見送り表明 ホルムズ開放条件―関係各国、土壇場の外交努力」",
     "映画.com「TSUZUMI（ME:I）×尾上松也、新たなタッグで大海原へ！＜超＞実写映画「モアナと伝説の海」インタビュー」",
     "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia",
     "NHK、毎日新聞、Yahoo!ニュース、News on Japan、CNN、Fox News Digital、Jerusalem Post",
     "日本経済新聞「東シナ海で構造物設置か 政府、中国に抗議」／時事ドットコム「中国、東シナ海に新構造物 24基目、外務省が抗議」",
     "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」",
     "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics",
-    "熊本日日新聞、NHK、The Japan Times、Bloomberg、CNBC、NPR、NBC News、The Jerusalem Post、WORLD Radio、FXStreet、政府広報オンライン",
-    "ITmedia Mobile「従来の健康保険証は7月31日で利用不可に 8月1日以降は『マイナ保険証』の利用を」"
+    "熊本日日新聞、NHK、The Japan Times、Bloomberg、CNBC、NPR、NBC News、The Jerusalem Post、WORLD Radio、FXStreet、政府広報オンライン"
   ],
   "recentOpeners": [
+    "トランプ大統領が「攻撃を中止」と宣言🐹 その条件として挙げたのはどちら？\n\nイ",
     "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？",
     "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI",
     "イオンモール熊本の爆発、捜索が終了して7人死亡——令和8年熊本地震、まだ終わって",
-    "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造",
-    "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\n"
+    "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造"
   ],
-  "lastPostedAt": 1785650990518,
+  "lastPostedAt": 1785659319095,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 19
+    "posts": 20
   },
   "breakingDate": "2026-08-02",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785650990518,
+  "lastAnyPostAt": 1785659319095,
   "postHistory": [
+    {
+      "tweetId": "2083832422089838704",
+      "kind": "quiz",
+      "category": "国際・二択",
+      "textPreview": "トランプ大統領が「攻撃を中止」と宣言🐹 その条件として挙げたのはどちら？\n\nイランへの大規模攻撃を検討していたトランプ大統領が8月1日、攻撃見送りをSNSで表",
+      "postedAt": 1785659319095
+    },
     {
       "tweetId": "2083797404818747539",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "豆知識記事",
       "textPreview": "仕事は、与えられた時間いっぱいまで膨らみます\n\nイギリスの歴史学者パーキンソンが唱えた法則で、締め切りまで1週間あれば1週間かかり、1日しかなければ1日で終わる",
       "postedAt": 1785373288811
-    },
-    {
-      "tweetId": "2082612310858756122",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "「几帳面」の几帳は、家具の名前です🐹\n\n几帳は、平安時代に部屋の仕切りとして使われた道具です。その柱の角を丁寧に削って仕上げる加工を几帳面と呼んだのが語源だと",
-      "postedAt": 1785368442321
     }
   ],
   "breakingFollowUps": [],
