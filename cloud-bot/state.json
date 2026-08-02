@@ -17,7 +17,7 @@
     "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？",
     "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI"
   ],
-  "lastPostedAt": 1785706551491,
+  "lastPostedAt": 1785710274305,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 24
+    "posts": 25
   },
   "breakingDate": "2026-08-03",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785706551491,
+  "lastAnyPostAt": 1785710274305,
   "postHistory": [
+    {
+      "tweetId": "2084046057684824560",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "音は、水の中のほうが速く伝わります\n\n空気中では毎秒およそ340メートルですが、水中では約1500メートル。4倍以上の速さです。音は物質の振動が伝わる現象なので",
+      "postedAt": 1785710274305
+    },
     {
       "tweetId": "2084030442915995876",
       "kind": "trivia",
@@ -241,16 +248,9 @@
       "category": "夜の振り返り",
       "textPreview": "熊本の死者が34人に——その数字が重くのしかかる木曜日でした🐹\n\n今日のニュース、どれだけ頭に残っていますか？ジャンル横断で20問、サクッとおさらいしましょう",
       "postedAt": 1785413702204
-    },
-    {
-      "tweetId": "2082746314622980146",
-      "kind": "quiz",
-      "category": "経済・二択",
-      "textPreview": "FRBが今夜、市場注目の決断を下した🐹\n\n米連邦準備理事会（FRB）は7月29日のFOMCで、政策金利（FF金利）をどう決定した？\n\n投票で答えてね🐹 正解",
-      "postedAt": 1785400369135
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 29
+  "triviaNextIndex": 30
 }
