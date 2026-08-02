@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2083832422089838704",
-      "answer": "正解は「ホルムズ海峡の即時完全開放」でした！投票してくれた皆さん、ありがとうございます🐹\n\nトランプ大統領は8月1日のSNS投稿で、「ホルムズ海峡の即時かつ完全な開放」と「イランの核の脅威の終結」を条件に攻撃を中止すると宣言。イランや中東諸国から合意の大枠がまとまったとして要請を受けたとしており、イスラエルもこの決定に加わっているとしています。\n\n🌰豆知識：ホルムズ海峡はペルシャ湾の出口にあたる幅約50kmの海峡で、世界の石油輸送量の約2割が通過します。イランはこの海峡の封鎖を「切り札」として使ってきた経緯があります。",
-      "sourceUrl": "https://www.jiji.com/jc/article?k=2026080200088&g=int",
-      "question": "トランプ大統領が「攻撃を中止」と宣言🐹 その条件として挙げたのはどちら？\n\nイランへの大規模攻撃を検討していたトランプ",
-      "postedAt": 1785659319095,
-      "dueAt": 1785666519095,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、The Japan Times、News on Japan、Yahoo!ニュース（NHK・時事通信記事を含む）、時事通信、Al Jazeera、CNBC、News on Air、日本経済新聞、Euronews",
     "時事ドットコム「トランプ米大統領、イラン攻撃見送り表明 ホルムズ開放条件―関係各国、土壇場の外交努力」",
     "映画.com「TSUZUMI（ME:I）×尾上松也、新たなタッグで大海原へ！＜超＞実写映画「モアナと伝説の海」インタビュー」",
     "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia",
     "NHK、毎日新聞、Yahoo!ニュース、News on Japan、CNN、Fox News Digital、Jerusalem Post",
     "日本経済新聞「東シナ海で構造物設置か 政府、中国に抗議」／時事ドットコム「中国、東シナ海に新構造物 24基目、外務省が抗議」",
     "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」",
-    "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics",
-    "熊本日日新聞、NHK、The Japan Times、Bloomberg、CNBC、NPR、NBC News、The Jerusalem Post、WORLD Radio、FXStreet、政府広報オンライン"
+    "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics"
   ],
   "recentOpeners": [
+    "熊本では今日も38度超えの猛暑の中、地震活動が続いています🐹 1週間分のニュー",
     "トランプ大統領が「攻撃を中止」と宣言🐹 その条件として挙げたのはどちら？\n\nイ",
     "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？",
     "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI",
-    "イオンモール熊本の爆発、捜索が終了して7人死亡——令和8年熊本地震、まだ終わって",
-    "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造"
+    "イオンモール熊本の爆発、捜索が終了して7人死亡——令和8年熊本地震、まだ終わって"
   ],
-  "lastPostedAt": 1785659319095,
+  "lastPostedAt": 1785671104270,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 20
+    "posts": 22
   },
   "breakingDate": "2026-08-02",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785659319095,
+  "lastAnyPostAt": 1785671104270,
   "postHistory": [
+    {
+      "tweetId": "2083882008305082775",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "熊本では今日も38度超えの猛暑の中、地震活動が続いています🐹 1週間分のニュース、どれだけ頭に入っている？ 一緒に振り返りましょう。\n\n───────────",
+      "postedAt": 1785671104270
+    },
     {
       "tweetId": "2083832422089838704",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "スポーツ・エンタメ・4択",
       "textPreview": "横浜の夜空に選手がズラリ！🐹\n\n7月27日、横浜DeNAベイスターズがみなとみらいで開催したドローンショーがギネス世界記録に認定されました。そのとき飛ばされた",
       "postedAt": 1785382776927
-    },
-    {
-      "tweetId": "2082632637886373933",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "仕事は、与えられた時間いっぱいまで膨らみます\n\nイギリスの歴史学者パーキンソンが唱えた法則で、締め切りまで1週間あれば1週間かかり、1日しかなければ1日で終わる",
-      "postedAt": 1785373288811
     }
   ],
   "breakingFollowUps": [],
