@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2083765379399106643",
-      "answer": "正解は「尾上松也」でした！投票してくれたみなさん、ありがとうございます🐹\n\n歌舞伎俳優の尾上松也が、アニメ版に引き続き実写版でもマウイ役を続投。モアナ役の日本版声優はガールズグループ「ME:I」のTSUZUMIが担当しています。劇中歌「俺のおかげさ」も松也さんが歌っています🎵\n\n🌰豆知識\nマウイの実写版（英語版）はあの「ザ・ロック」ことドウェイン・ジョンソンが担当。松也さんは来日したドウェインと対面した際「いい匂いがした、ファンサービスが素晴らしい方だった」と語っています！",
-      "sourceUrl": "https://eiga.com/news/20260801/12/",
-      "question": "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？\n投票で答えてね🐹 正解は2時間後にリ",
-      "postedAt": 1785643338329,
-      "dueAt": 1785650538329,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "映画.com「TSUZUMI（ME:I）×尾上松也、新たなタッグで大海原へ！＜超＞実写映画「モアナと伝説の海」インタビュー」",
     "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia",
@@ -27,7 +17,7 @@
     "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造",
     "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\n"
   ],
-  "lastPostedAt": 1785643338329,
+  "lastPostedAt": 1785650990518,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 17
+    "posts": 19
   },
   "breakingDate": "2026-08-02",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785643338329,
+  "lastAnyPostAt": 1785650990518,
   "postHistory": [
+    {
+      "tweetId": "2083797404818747539",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "氷が白く濁るのは、水に溶けていた空気です\n\n水にはもともと空気が溶けています。急に凍らせると、その空気が抜けきる前に閉じ込められ、細かい泡になって白く見えます。",
+      "postedAt": 1785650990518
+    },
     {
       "tweetId": "2083765379399106643",
       "kind": "quiz",
@@ -251,16 +248,9 @@
       "category": "豆知識記事",
       "textPreview": "「几帳面」の几帳は、家具の名前です🐹\n\n几帳は、平安時代に部屋の仕切りとして使われた道具です。その柱の角を丁寧に削って仕上げる加工を几帳面と呼んだのが語源だと",
       "postedAt": 1785368442321
-    },
-    {
-      "tweetId": "2082588967233601930",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "おはようございます🐹 今朝は中東の火種、欧州の山火事、市場の急落と、昨夜から一晩でニュースが盛りだくさん。通勤前にサクッとチェックしておきましょう。\n\n───",
-      "postedAt": 1785362802019
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 27
+  "triviaNextIndex": 28
 }
