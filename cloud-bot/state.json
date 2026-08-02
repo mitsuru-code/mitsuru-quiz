@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2083765379399106643",
+      "answer": "正解は「尾上松也」でした！投票してくれたみなさん、ありがとうございます🐹\n\n歌舞伎俳優の尾上松也が、アニメ版に引き続き実写版でもマウイ役を続投。モアナ役の日本版声優はガールズグループ「ME:I」のTSUZUMIが担当しています。劇中歌「俺のおかげさ」も松也さんが歌っています🎵\n\n🌰豆知識\nマウイの実写版（英語版）はあの「ザ・ロック」ことドウェイン・ジョンソンが担当。松也さんは来日したドウェインと対面した際「いい匂いがした、ファンサービスが素晴らしい方だった」と語っています！",
+      "sourceUrl": "https://eiga.com/news/20260801/12/",
+      "question": "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？\n投票で答えてね🐹 正解は2時間後にリ",
+      "postedAt": 1785643338329,
+      "dueAt": 1785650538329,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "映画.com「TSUZUMI（ME:I）×尾上松也、新たなタッグで大海原へ！＜超＞実写映画「モアナと伝説の海」インタビュー」",
     "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia",
     "NHK、毎日新聞、Yahoo!ニュース、News on Japan、CNN、Fox News Digital、Jerusalem Post",
     "日本経済新聞「東シナ海で構造物設置か 政府、中国に抗議」／時事ドットコム「中国、東シナ海に新構造物 24基目、外務省が抗議」",
     "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」",
     "AP、Bloomberg、CNBC、NPR、CNN、Yahoo Finance / Quartz、The Washington Post、Kiplinger、TheStreet、Trading Economics",
     "熊本日日新聞、NHK、The Japan Times、Bloomberg、CNBC、NPR、NBC News、The Jerusalem Post、WORLD Radio、FXStreet、政府広報オンライン",
-    "ITmedia Mobile「従来の健康保険証は7月31日で利用不可に 8月1日以降は『マイナ保険証』の利用を」",
-    "デイリースポーツ「24時間テレビ 今年のチャリティーマラソンランナーは星野真里に決定」"
+    "ITmedia Mobile「従来の健康保険証は7月31日で利用不可に 8月1日以降は『マイナ保険証』の利用を」"
   ],
   "recentOpeners": [
+    "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？",
     "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI",
     "イオンモール熊本の爆発、捜索が終了して7人死亡——令和8年熊本地震、まだ終わって",
     "中国がまた東シナ海でやっている……日本政府が7月31日に抗議した、中国の「新構造",
-    "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\n",
-    "土曜日の朝、ちょっとだけ立ち止まって聞いてください。トランプ大統領が「ハマス完全"
+    "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\n"
   ],
-  "lastPostedAt": 1785633251181,
+  "lastPostedAt": 1785643338329,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 16
+    "posts": 17
   },
   "breakingDate": "2026-08-02",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785633251181,
+  "lastAnyPostAt": 1785643338329,
   "postHistory": [
+    {
+      "tweetId": "2083765379399106643",
+      "kind": "quiz",
+      "category": "映画・エンタメ・4択",
+      "textPreview": "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？\n投票で答えてね🐹 正解は2時間後にリプで発表！",
+      "postedAt": 1785643338329
+    },
     {
       "tweetId": "2083722999241560243",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "朝ブリーフィング",
       "textPreview": "おはようございます🐹 今朝は中東の火種、欧州の山火事、市場の急落と、昨夜から一晩でニュースが盛りだくさん。通勤前にサクッとチェックしておきましょう。\n\n───",
       "postedAt": 1785362802019
-    },
-    {
-      "tweetId": "2082580766870082019",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "「サボる」は、実は外来語です\n\nフランス語のサボタージュが元だとされています（諸説あります）。労働争議の手段を指す言葉が日本に入り、頭の「サボ」だけを取って動詞",
-      "postedAt": 1785360921806
     }
   ],
   "breakingFollowUps": [],
