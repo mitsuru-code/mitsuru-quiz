@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "NHK、News On Japan、Bloomberg、Reuters / Yahoo Finance、AP通信、株探ニュース、Trading Economics、The Daily Telegraph",
     "日本経済新聞「日米が15年ぶり協調介入、円安阻止で思惑一致」／株帳「ドル円 為替介入・日米協調介入 2026年8月 内容まとめ」",
     "日刊スポーツ「ヌートバーにフィリーズなど複数球団が興味 トレード期限は４日午前７時」",
     "NPR、BBC、Reuters、CNN、Bloomberg、Trading Economics、Al Jazeera、ABC News、BBC Sport、Miss World公式、ts2.tech、Futureseek",
     "NHK、The Japan Times、News on Japan、Yahoo!ニュース（NHK・時事通信記事を含む）、時事通信、Al Jazeera、CNBC、News on Air、日本経済新聞、Euronews",
     "時事ドットコム「トランプ米大統領、イラン攻撃見送り表明 ホルムズ開放条件―関係各国、土壇場の外交努力」",
     "映画.com「TSUZUMI（ME:I）×尾上松也、新たなタッグで大海原へ！＜超＞実写映画「モアナと伝説の海」インタビュー」",
-    "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia",
-    "NHK、毎日新聞、Yahoo!ニュース、News on Japan、CNN、Fox News Digital、Jerusalem Post"
+    "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia"
   ],
   "recentOpeners": [
+    "令和8年熊本地震が「激甚災害」に指定される見通しとなった月曜日。死者38人、被害",
     "28年ぶりの「円買い協調介入」が確認されました🐹\n\n7月31日に実施された日米",
     "今日がMLBトレード期限！侍ジャパンファン注目の選手🐹\n\nカージナルスのラーズ",
     "おはようございます🐹 月曜の朝、世界はどこも動き続けていました。ホルムズ海峡・",
-    "熊本では今日も38度超えの猛暑の中、地震活動が続いています🐹 1週間分のニュー",
-    "トランプ大統領が「攻撃を中止」と宣言🐹 その条件として挙げたのはどちら？\n\nイ"
+    "熊本では今日も38度超えの猛暑の中、地震活動が続いています🐹 1週間分のニュー"
   ],
-  "lastPostedAt": 1785745320665,
+  "lastPostedAt": 1785761070467,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 32
+    "posts": 33
   },
   "breakingDate": "2026-08-03",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785745320665,
+  "lastAnyPostAt": 1785761070467,
   "postHistory": [
+    {
+      "tweetId": "2084259393160568980",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "令和8年熊本地震が「激甚災害」に指定される見通しとなった月曜日。死者38人、被害は医療機関や学校にも広がっています。そして同じ日、日米が為替協調介入を実施し、円",
+      "postedAt": 1785761070467
+    },
     {
       "tweetId": "2084193125388718574",
       "kind": "quiz",
@@ -241,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "空が青いのと夕焼けが赤いのは、同じ理由です\n\n太陽の光が大気にぶつかると、青い光ほど強く散らばります。日中は散らばった青が空いっぱいに広がるので青く見え、夕方は",
       "postedAt": 1785478892541
-    },
-    {
-      "tweetId": "2083045121235591513",
-      "kind": "quiz",
-      "category": "芸能・テレビ・4択",
-      "textPreview": "今年の「24時間テレビ」、チャリティーマラソンのランナーは誰？🐹\n\n2026年8月29・30日に放送予定の「24時間テレビ49」。6月21日の番組内で今年のチ",
-      "postedAt": 1785471612204
     }
   ],
   "breakingFollowUps": [],
