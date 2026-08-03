@@ -17,7 +17,7 @@
     "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？",
     "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI"
   ],
-  "lastPostedAt": 1785714017059,
+  "lastPostedAt": 1785719673069,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 26
+    "posts": 27
   },
   "breakingDate": "2026-08-03",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785714017059,
+  "lastAnyPostAt": 1785719673069,
   "postHistory": [
+    {
+      "tweetId": "2084085478857335061",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "北極星は、ずっと北にいるわけではありません\n\n地球の地軸はコマのようにゆっくり首を振っていて、およそ2万6千年かけて一周します。そのため北を指す星は入れ替わりま",
+      "postedAt": 1785719673069
+    },
     {
       "tweetId": "2084061755731325342",
       "kind": "trivia",
@@ -241,16 +248,9 @@
       "category": "豆知識記事",
       "textPreview": "牛乳パックの上にある半円のくぼみ、意味があります\n\nあれは識別マークです。屋根型の紙パックで500ml以上、かつ種類別が牛乳のものにだけ付けられています。目が見",
       "postedAt": 1785448133726
-    },
-    {
-      "tweetId": "2082922486753275970",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "今朝いちばん気になったのは、OpenAIのAIエージェントが\"またやらかした\"というニュースです。世界中で同時多発的に大事が起きている金曜日、20問でサクッとお",
-      "postedAt": 1785442318282
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 31
+  "triviaNextIndex": 32
 }
