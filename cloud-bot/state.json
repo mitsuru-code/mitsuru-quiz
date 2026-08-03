@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2084128308938043742",
+      "answer": "正解は「ペッパーミルパフォーマンス」でした！投票してくれたみなさん、ありがとうございます🐹\n\n2023年WBCで侍ジャパンの一員となったヌートバーが披露し、チーム全体に広まったのが「胡椒を挽く」仕草のペッパーミルパフォーマンス。日本でも一大ブームになりましたね。\n\n🌰豆知識：ヌートバーは日系選手として侍ジャパン史上初めてWBCに出場した選手。母親が日本人で、子どもの頃から日本食や日本文化に親しんで育ったそうです。",
+      "sourceUrl": "https://topics.smt.docomo.ne.jp/article/nikkansports/sports/f-bb-tp2-260801-202608010000117",
+      "question": "今日がMLBトレード期限！侍ジャパンファン注目の選手🐹\n\nカージナルスのラーズ・ヌートバー（28）に複数球団が獲得の名",
+      "postedAt": 1785729856944,
+      "dueAt": 1785737056944,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "日刊スポーツ「ヌートバーにフィリーズなど複数球団が興味 トレード期限は４日午前７時」",
     "NPR、BBC、Reuters、CNN、Bloomberg、Trading Economics、Al Jazeera、ABC News、BBC Sport、Miss World公式、ts2.tech、Futureseek",
     "NHK、The Japan Times、News on Japan、Yahoo!ニュース（NHK・時事通信記事を含む）、時事通信、Al Jazeera、CNBC、News on Air、日本経済新聞、Euronews",
     "時事ドットコム「トランプ米大統領、イラン攻撃見送り表明 ホルムズ開放条件―関係各国、土壇場の外交努力」",
     "映画.com「TSUZUMI（ME:I）×尾上松也、新たなタッグで大海原へ！＜超＞実写映画「モアナと伝説の海」インタビュー」",
     "AP, Reuters, CNN, NPR, Washington Post, TechCrunch, KPBS, Trading Economics, Seeking Alpha, Broadband Breakfast, Wikipedia",
     "NHK、毎日新聞、Yahoo!ニュース、News on Japan、CNN、Fox News Digital、Jerusalem Post",
-    "日本経済新聞「東シナ海で構造物設置か 政府、中国に抗議」／時事ドットコム「中国、東シナ海に新構造物 24基目、外務省が抗議」",
-    "中日スポーツ「公式戦153連勝の藤波朱理、『歩けない状態だった』3週間前に膝をけがも今後見据え『あえて挑戦』し優勝つかむ」"
+    "日本経済新聞「東シナ海で構造物設置か 政府、中国に抗議」／時事ドットコム「中国、東シナ海に新構造物 24基目、外務省が抗議」"
   ],
   "recentOpeners": [
+    "今日がMLBトレード期限！侍ジャパンファン注目の選手🐹\n\nカージナルスのラーズ",
     "おはようございます🐹 月曜の朝、世界はどこも動き続けていました。ホルムズ海峡・",
     "熊本では今日も38度超えの猛暑の中、地震活動が続いています🐹 1週間分のニュー",
     "トランプ大統領が「攻撃を中止」と宣言🐹 その条件として挙げたのはどちら？\n\nイ",
-    "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？",
-    "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AI"
+    "7月31日公開の実写映画「モアナと伝説の海」、マウイ役の日本版声優は誰でしょう？"
   ],
-  "lastPostedAt": 1785719673069,
+  "lastPostedAt": 1785729856944,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 27
+    "posts": 28
   },
   "breakingDate": "2026-08-03",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785719673069,
+  "lastAnyPostAt": 1785729856944,
   "postHistory": [
+    {
+      "tweetId": "2084128308938043742",
+      "kind": "quiz",
+      "category": "スポーツ・二択",
+      "textPreview": "今日がMLBトレード期限！侍ジャパンファン注目の選手🐹\n\nカージナルスのラーズ・ヌートバー（28）に複数球団が獲得の名乗り。2023年WBCで一世を風靡した彼",
+      "postedAt": 1785729856944
+    },
     {
       "tweetId": "2084085478857335061",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "豆知識記事",
       "textPreview": "切ったりんごが茶色くなるのは、傷を治そうとしているからです\n\nりんごやじゃがいもを切ると、細胞の中の成分が酵素と酸素に触れて茶色い物質に変わります。傷口を覆って",
       "postedAt": 1785454851299
-    },
-    {
-      "tweetId": "2082946560309047501",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "牛乳パックの上にある半円のくぼみ、意味があります\n\nあれは識別マークです。屋根型の紙パックで500ml以上、かつ種類別が牛乳のものにだけ付けられています。目が見",
-      "postedAt": 1785448133726
     }
   ],
   "breakingFollowUps": [],
