@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters, AP, CNBC, Bloomberg, BBC, Al Jazeera, Forbes, WORLD Radio, TheStreet, NPR, Yahoo Finance, Investrade, Wikipedia Current Events",
     "NHK、日本経済新聞、時事通信、Japan Times、Trading Economics、首相官邸、防衛省、Profile News、Kyiv Post",
     "日本経済新聞「農産品輸出10.9%増の8977億円 1〜6月、抹茶やブリ好調で最高更新」／農林水産省発表",
     "オリコンニュース「梅澤美波 乃木坂４６卒業後の活動を語る」（2026年8月4日）",
     "BBC、Reuters、Bloomberg、CNBC、TheStreet、AP、Hollywood Reporter、CNN、Variety、TradingKey、The Wire China、Democracy Now、Havana Times、News.az、Inquirer Sports、Wikipedia Current Events、PYMNTS、TipRanks、Crypto Briefing、The Globe and Mail",
     "NHK、News On Japan、Bloomberg、Reuters / Yahoo Finance、AP通信、株探ニュース、Trading Economics、The Daily Telegraph",
     "日本経済新聞「日米が15年ぶり協調介入、円安阻止で思惑一致」／株帳「ドル円 為替介入・日米協調介入 2026年8月 内容まとめ」",
-    "日刊スポーツ「ヌートバーにフィリーズなど複数球団が興味 トレード期限は４日午前７時」",
-    "NPR、BBC、Reuters、CNN、Bloomberg、Trading Economics、Al Jazeera、ABC News、BBC Sport、Miss World公式、ts2.tech、Futureseek"
+    "日刊スポーツ「ヌートバーにフィリーズなど複数球団が興味 トレード期限は４日午前７時」"
   ],
   "recentOpeners": [
+    "今朝いちばん気になったのは、ホルムズ海峡をめぐる米・イラン交渉の行方。戦争か外交",
     "熊本地震から今日でちょうど1週間。被災地が猛暑と戦う中、政府は242億円の予備費",
     "世界で抹茶ブーム、日本食の輸出が過去最高を更新🐹\n\n今日、農林水産省が発表した",
     "乃木坂46を卒業した梅澤美波、グループ在籍期間は何年何ヶ月？\n\n今日のオリコンの",
-    "火曜の朝です🐹 昨夜から今朝にかけて、世界では大きなニュースがいくつも重なりま",
-    "令和8年熊本地震が「激甚災害」に指定される見通しとなった月曜日。死者38人、被害"
+    "火曜の朝です🐹 昨夜から今朝にかけて、世界では大きなニュースがいくつも重なりま"
   ],
-  "lastPostedAt": 1785841733571,
+  "lastPostedAt": 1785874326930,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 43
+    "posts": 44
   },
-  "breakingDate": "2026-08-04",
+  "breakingDate": "2026-08-05",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785841733571,
+  "lastAnyPostAt": 1785874326930,
   "postHistory": [
+    {
+      "tweetId": "2084734447786582341",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "今朝いちばん気になったのは、ホルムズ海峡をめぐる米・イラン交渉の行方。戦争か外交かの瀬戸際が、株式市場まで大きく動かした一夜でした。おはようございます🐹 8月",
+      "postedAt": 1785874326930
+    },
     {
       "tweetId": "2084597703871435196",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "人数を増やすと、一人あたりの力は落ちます\n\n綱引きの実験で知られる現象で、参加人数が増えるほど、一人が出す力の割合は小さくなっていきます。責任が分散して無意識に",
       "postedAt": 1785564390176
-    },
-    {
-      "tweetId": "2083402048612016521",
-      "kind": "quiz",
-      "category": "スポーツ・二択",
-      "textPreview": "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\nパリ五輪で金メダルを獲った藤波朱理選手。五輪後に挑んだ新しい階級は何kg級でしょ",
-      "postedAt": 1785556709810
     }
   ],
   "breakingFollowUps": [],
