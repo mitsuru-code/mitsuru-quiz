@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2084552033886216645",
-      "answer": "正解は「緑茶（抹茶）」でした！ご参加ありがとうございます🐹\n\n農水省によると、2026年上半期の緑茶輸出は83.5%増の482億円で、全品目の中で最も伸び率が大きく、欧米や東南アジアで抹茶ラテやスイーツ向けを中心に需要が急拡大しています。2位のブリも69%増と好調でした。\n\n🌰豆知識\n「抹茶」は今や英語でも \"matcha\" としてそのまま定着。世界のコーヒーチェーンでも抹茶メニューが定番化しており、日本茶の地理的表示（GI）制度への登録も2026年7月に実現し、ブランド保護も強化されています。",
-      "sourceUrl": "https://www.nikkei.com/article/DGXZQOUA031BD0T00C26A8000000/",
-      "question": "世界で抹茶ブーム、日本食の輸出が過去最高を更新🐹\n\n今日、農林水産省が発表した2026年上半期（1〜6月）の農林水産物",
-      "postedAt": 1785830888147,
-      "dueAt": 1785838088147,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、日本経済新聞、時事通信、Japan Times、Trading Economics、首相官邸、防衛省、Profile News、Kyiv Post",
     "日本経済新聞「農産品輸出10.9%増の8977億円 1〜6月、抹茶やブリ好調で最高更新」／農林水産省発表",
     "オリコンニュース「梅澤美波 乃木坂４６卒業後の活動を語る」（2026年8月4日）",
     "BBC、Reuters、Bloomberg、CNBC、TheStreet、AP、Hollywood Reporter、CNN、Variety、TradingKey、The Wire China、Democracy Now、Havana Times、News.az、Inquirer Sports、Wikipedia Current Events、PYMNTS、TipRanks、Crypto Briefing、The Globe and Mail",
     "NHK、News On Japan、Bloomberg、Reuters / Yahoo Finance、AP通信、株探ニュース、Trading Economics、The Daily Telegraph",
     "日本経済新聞「日米が15年ぶり協調介入、円安阻止で思惑一致」／株帳「ドル円 為替介入・日米協調介入 2026年8月 内容まとめ」",
     "日刊スポーツ「ヌートバーにフィリーズなど複数球団が興味 トレード期限は４日午前７時」",
-    "NPR、BBC、Reuters、CNN、Bloomberg、Trading Economics、Al Jazeera、ABC News、BBC Sport、Miss World公式、ts2.tech、Futureseek",
-    "NHK、The Japan Times、News on Japan、Yahoo!ニュース（NHK・時事通信記事を含む）、時事通信、Al Jazeera、CNBC、News on Air、日本経済新聞、Euronews"
+    "NPR、BBC、Reuters、CNN、Bloomberg、Trading Economics、Al Jazeera、ABC News、BBC Sport、Miss World公式、ts2.tech、Futureseek"
   ],
   "recentOpeners": [
+    "熊本地震から今日でちょうど1週間。被災地が猛暑と戦う中、政府は242億円の予備費",
     "世界で抹茶ブーム、日本食の輸出が過去最高を更新🐹\n\n今日、農林水産省が発表した",
     "乃木坂46を卒業した梅澤美波、グループ在籍期間は何年何ヶ月？\n\n今日のオリコンの",
     "火曜の朝です🐹 昨夜から今朝にかけて、世界では大きなニュースがいくつも重なりま",
-    "令和8年熊本地震が「激甚災害」に指定される見通しとなった月曜日。死者38人、被害",
-    "28年ぶりの「円買い協調介入」が確認されました🐹\n\n7月31日に実施された日米"
+    "令和8年熊本地震が「激甚災害」に指定される見通しとなった月曜日。死者38人、被害"
   ],
-  "lastPostedAt": 1785830888147,
+  "lastPostedAt": 1785841733571,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 41
+    "posts": 43
   },
   "breakingDate": "2026-08-04",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785830888147,
+  "lastAnyPostAt": 1785841733571,
   "postHistory": [
+    {
+      "tweetId": "2084597703871435196",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "熊本地震から今日でちょうど1週間。被災地が猛暑と戦う中、政府は242億円の予備費支出を決定しました。一方では円買い介入の余波が市場を揺らし、消費税減税の閣議決定",
+      "postedAt": 1785841733571
+    },
     {
       "tweetId": "2084552033886216645",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "スポーツ・二択",
       "textPreview": "153連勝中のレスリング女王、実はパリ五輪後に「階級を上げた」って知ってた？\n\nパリ五輪で金メダルを獲った藤波朱理選手。五輪後に挑んだ新しい階級は何kg級でしょ",
       "postedAt": 1785556709810
-    },
-    {
-      "tweetId": "2083360343032803422",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "「敷居が高い」の本来の意味、ご存じですか\n\n高級すぎて入りにくい、という意味で使われることが多いのですが、本来は不義理をしていてその家に行きづらい、という意味で",
-      "postedAt": 1785546787236
     }
   ],
   "breakingFollowUps": [],
