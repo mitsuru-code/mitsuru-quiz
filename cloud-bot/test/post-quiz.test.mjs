@@ -14,6 +14,9 @@ import {
   TRIVIA_QUIET_HOURS_UNTIL,
   fixKnownMisspellings,
   pickDueSlot,
+  parsePollQuiz,
+  detectStockShift,
+  SLOT_QUIET_HOURS_UNTIL,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -223,6 +226,65 @@ test('pickDueSlot: 期限(既定6時間)を超えた前のスロットは取り�
   const t459 = jstTime(4, 59, 30);
   const at1547 = jstTime(15, 47, 30);         // 5時台から10時間以上経過
   assert.notStrictEqual(new Date(pickDueSlot(at1547, t459) + 9 * 3600000).getUTCHours(), 5);
+});
+
+// 2026-07-20/23/31に3回起きた事故: 記事タイトル中のダブルクォートでJSONが壊れた。
+// 区切り記号方式なら、本文にどんな記号が入っても解析できる
+test('parsePollQuiz: ダブルクォートを含んでも全項目を取り出せる（実際の事故の再現）', () => {
+  const raw = [
+    '---POST-START---',
+    '放送中の「風、薫る」で佐野晶哉が演じる"シマケン"。彼の職業はどっち？',
+    '---POST-END---',
+    '---ANSWER-START---',
+    '正解は「活字工」でした！',
+    '',
+    '🌰豆知識: "文選工"とも呼ばれました。',
+    '---ANSWER-END---',
+    'choices: 活字工（新聞社勤務） | 印刷工（印刷所勤務）',
+    'source: クランクイン！「"りん"見上愛、"シマケン"佐野晶哉と再会」',
+    'sourceUrl: https://example.com/a',
+    'category: エンタメ・二択',
+  ].join('\n');
+  const q = parsePollQuiz(raw);
+  assert.ok(q.question.includes('"シマケン"'));
+  assert.deepStrictEqual(q.choices, ['活字工（新聞社勤務）', '印刷工（印刷所勤務）']);
+  assert.ok(q.answer.includes('\n'), '正解文は複数行でも欠けない');
+  assert.ok(q.source.includes('"りん"'));
+  assert.strictEqual(q.sourceUrl, 'https://example.com/a');
+  assert.strictEqual(q.category, 'エンタメ・二択');
+});
+
+test('parsePollQuiz: 本文の区切りが無ければ例外を投げる', () => {
+  assert.throws(() => parsePollQuiz('choices: A | B'), /区切りが見つかりません/);
+});
+
+test('detectStockShift: 末尾追加だけなら異常を検知しない', () => {
+  const stock = ['1本目の記事', '2本目の記事', '3本目の記事'];
+  assert.strictEqual(detectStockShift(stock, 2, '2本目の記事'), null);
+});
+
+test('detectStockShift: 途中に挿入されて位置がずれたら検知する', () => {
+  const stock = ['割り込み記事', '1本目の記事', '2本目の記事'];
+  const r = detectStockShift(stock, 2, '2本目の記事');   // idx2の1つ前は「1本目」になってしまっている
+  assert.ok(r, 'ずれを検知すべき');
+  assert.strictEqual(r.foundAt, 2);
+});
+
+test('detectStockShift: 投稿済みの記事が削除されたら見つからないと報告する', () => {
+  const stock = ['別の記事A', '別の記事B'];
+  const r = detectStockShift(stock, 2, '消えた記事');
+  assert.ok(r);
+  assert.strictEqual(r.foundAt, -1);
+});
+
+test('detectStockShift: 初回（まだ1本も投稿していない）は検知対象外', () => {
+  assert.strictEqual(detectStockShift(['a'], 0, undefined), null);
+});
+
+test('深夜ガード: スロット全体は5時前、豆知識はさらに厳しく6時前を止める', () => {
+  assert.strictEqual(SLOT_QUIET_HOURS_UNTIL, 5);
+  assert.ok(TRIVIA_QUIET_HOURS_UNTIL >= SLOT_QUIET_HOURS_UNTIL,
+    '豆知識のガードがスロット全体より緩いと、深夜に豆知識だけ出てしまう');
 });
 
 test('SLOT_PROFILES: 豆知識は1日5枠（6/7/8/10/15時台）', () => {
