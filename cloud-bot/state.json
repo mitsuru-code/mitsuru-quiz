@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2084485964357857620",
-      "answer": "正解は「約9年8ヶ月」でした！投票してくれたみなさん、ありがとうございます🐹\n\n梅澤美波さんは2016年9月に3期生として乃木坂46に加入し、2026年5月21日の東京ドーム卒業コンサートをもって約9年8ヶ月の活動に幕を下ろしました。最後の3年間はキャプテンとしてグループを牽引。卒業後は公式サイト・Xを開設し、ソロのモデル・女優活動を本格始動させています。\n\n🌰豆知識：卒業コンサートのラストでは、ステージ上の「空扉」を通って次の世界へ歩み出す演出があり、ファンの涙を誘ったと伝えられています。",
-      "sourceUrl": "",
-      "question": "乃木坂46を卒業した梅澤美波、グループ在籍期間は何年何ヶ月？\n\n今日のオリコンのインタビューでも話題の元乃木坂46キャプ",
-      "postedAt": 1785815132247,
-      "dueAt": 1785822332247,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "オリコンニュース「梅澤美波 乃木坂４６卒業後の活動を語る」（2026年8月4日）",
     "BBC、Reuters、Bloomberg、CNBC、TheStreet、AP、Hollywood Reporter、CNN、Variety、TradingKey、The Wire China、Democracy Now、Havana Times、News.az、Inquirer Sports、Wikipedia Current Events、PYMNTS、TipRanks、Crypto Briefing、The Globe and Mail",
@@ -27,7 +17,7 @@
     "28年ぶりの「円買い協調介入」が確認されました🐹\n\n7月31日に実施された日米",
     "今日がMLBトレード期限！侍ジャパンファン注目の選手🐹\n\nカージナルスのラーズ"
   ],
-  "lastPostedAt": 1785815132247,
+  "lastPostedAt": 1785823340317,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 38
+    "posts": 40
   },
   "breakingDate": "2026-08-04",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785815132247,
+  "lastAnyPostAt": 1785823340317,
   "postHistory": [
+    {
+      "tweetId": "2084520292224008444",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "すでに払ったお金は、判断材料にしてはいけません\n\n戻ってこない費用のことを埋没費用、サンクコストと呼びます。ここまで投じたのだから、と考えると続けるほど損が膨ら",
+      "postedAt": 1785823340317
+    },
     {
       "tweetId": "2084485964357857620",
       "kind": "quiz",
@@ -251,16 +248,10 @@
       "category": "豆知識記事",
       "textPreview": "シルクロードという名前は、19世紀に付けられたものです\n\nドイツの地理学者リヒトホーフェンが、東西を結ぶ交易路をそう名付けたのが始まりとされています。実際にその",
       "postedAt": 1785541260120
-    },
-    {
-      "tweetId": "2083322531667152927",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "「一石二鳥」は、中国の故事ではないそうです\n\n英語のことわざ、石一つで二羽の鳥を、の訳として日本に入ったとされています（諸説あります）。似た意味の一挙両得のほう",
-      "postedAt": 1785537772275
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [],
-  "triviaNextIndex": 36
+  "triviaNextIndex": 37,
+  "triviaLastPostedHead": "すでに払ったお金は、判断材料にしてはいけません\n\n戻ってこない費用のことを埋没費"
 }
