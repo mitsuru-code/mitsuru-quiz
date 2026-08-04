@@ -65,12 +65,18 @@ const BREAKING_CHECKPOINT_WINDOW_MIN = 45; // cronの起動遅延・投稿間隔
 // （checkBreaking自体は「明確な場合のみtrue」と保守的に判定するため、実際に全枠が
 // 該当することは想定していない。運用してみて多すぎる/少なすぎる場合は要調整）
 const BREAKING_MAX_PER_DAY = 6;
+const MAX_REPLY_ATTEMPTS = 4; // 正解返信の再試行上限。超えたら諦めてキューから外す
 const MIN_POST_GAP_MS = 30 * 60 * 1000; // 新規投稿（スロット・速報）同士は最低30分間隔をあける
 // 豆知識をこの時刻（JST）より前には投稿しない。深夜投稿はほぼ露出が取れず、本数の限られた
 // 手作りストックを浪費するだけなので、遅延したスロットを深夜まで追いかけないための歯止め。
 // 最も早い豆知識スロット（6時台）と同じ値にしてある（6時台の投稿自体は妨げない）。
 // この値を上げると最早スロットが永久に投稿されなくなるので、必ず連動させること
 export const TRIVIA_QUIET_HOURS_UNTIL = 6;
+// スロット投稿全体の深夜ガード。最も早いスロットは5時なので、5時前に未投稿として
+// 残っているのは前日からの持ち越しだけ。深夜に出しても露出が取れないうえ、
+// 振り返り等は生成コストが最も高いコンテンツなので、追いかけずに切り捨てる
+// （豆知識だけがガードされていて、高価な本命コンテンツが無防備だった）
+export const SLOT_QUIET_HOURS_UNTIL = 5;
 
 // Secretsコピペ時の前後空白・改行はOAuth署名を壊すため必ず除去する
 const cleanEnv = k => (process.env[k] || '').trim();
@@ -483,6 +489,47 @@ async function callClaudePlain(prompt, maxTokens, maxSearches, allowEmpty = fals
   throw lastErr;
 }
 
+// Pollクイズ用の生成。以前はJSONで受け取っていたが、記事タイトル中のダブルクォートが
+// エスケープされずに混入して解析に失敗する事故が3回起きた（2026-07-20/23/31）。
+// プロンプトで「"を使うな」と指示しても守られなかったため、長文側と同じく
+// 区切り記号方式に変更する。本文と正解文はそれぞれ独立したブロックで受け取るので、
+// 中にどんな記号・改行が入っても壊れない
+const ANSWER_START = '---ANSWER-START---';
+const ANSWER_END = '---ANSWER-END---';
+export function parsePollQuiz(raw) {
+  const clean = raw.replace(/```[a-z]*\n?/gi, '').replace(/```/g, '').trim();
+  const block = (startTag, endTag) => {
+    const s = clean.indexOf(startTag), e = clean.indexOf(endTag);
+    if (s === -1 || e === -1 || e <= s) return null;
+    return stripMarkdown(clean.slice(s + startTag.length, e).trim());
+  };
+  const question = block(POST_START, POST_END);
+  const answer = block(ANSWER_START, ANSWER_END);
+  if (!question) throw new Error(`生成結果に${POST_START}/${POST_END}区切りが見つかりません`);
+  const meta = clean.slice(clean.indexOf(ANSWER_END) + ANSWER_END.length);
+  const line = name => (meta.match(new RegExp(`^${name}:\\s*(.*)$`, 'mi')) || [])[1]?.trim() || '';
+  const choices = line('choices').split('|').map(c => c.trim()).filter(Boolean);
+  return { question, answer: answer || '', choices, source: line('source'), sourceUrl: line('sourceUrl'), category: line('category') };
+}
+
+async function callClaudeQuiz(prompt, maxTokens, maxSearches) {
+  // テスト用フック: MOCK_QUIZ_JSON があればAPIを呼ばない（従来どおりJSONで与える）
+  if (process.env.MOCK_QUIZ_JSON) return JSON.parse(process.env.MOCK_QUIZ_JSON);
+  let lastErr;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const { text, stopReason } = await callAnthropic(prompt, maxTokens, maxSearches);
+    try {
+      const quiz = parsePollQuiz(text);
+      if (!quiz.question) throw new Error('生成結果の本文が空です');
+      return quiz;
+    } catch (e) {
+      lastErr = e;
+      console.log(`⚠️ クイズの解析に失敗（試行${attempt}/2、stop_reason=${stopReason}）: ${e.message}`);
+    }
+  }
+  throw lastErr;
+}
+
 // プロンプトで禁止していても、Claudeが習慣的にMarkdown記法（太字・水平線）を
 // 混ぜてしまうことがある（生の「**」やASCII罫線「---」がそのまま投稿される事故）。
 // プロンプト側の指示だけに頼らず、最後の砦としてここで機械的に取り除く
@@ -560,7 +607,7 @@ Web検索で「${genre}」を1件調べ、それを元にX(Twitter)の投票（P
 
 【投票クイズのルール】
 - 形式は【${format}】（4択なら選択肢4つ、二択なら2つ、○×なら「○ 正しい」「× 間違い」の2つ）
-- 本文（question）には選択肢を書かない。選択肢は choices 配列に入れる（Xの投票欄に表示される）
+- 投稿本文には選択肢を書かない。選択肢は choices 行に「 | 」区切りで並べる（Xの投票欄に表示される）
 - 各選択肢は必ず25文字以内（Xの投票の上限。超えると投稿できない）
 - 本文は120文字以内。1行目にフック、続けて問題文、最後に「投票で答えてね🐹 正解は2時間後にリプで発表！」のような参加を促す一言
 - 正解の位置は毎回変える
@@ -569,18 +616,19 @@ Web検索で「${genre}」を1件調べ、それを元にX(Twitter)の投票（P
 ${recentTopics ? '- 以下と異なるニュースを選ぶこと: ' + recentTopics : '- （履歴なし）'}
 ${recentOpeners ? '- 以下の書き出しと被らないこと: ' + recentOpeners : ''}
 
-【JSON出力の注意】文字列内でダブルクォート(")を使うと出力がJSONとして壊れるため使わないこと。記事タイトル等の引用は日本語の鉤括弧「」を使うこと。
-
-以下のJSON形式のみで返答してください:
-{
-  "question": "投稿本文（選択肢を含めない。フック＋問題＋投票を促す一言）",
-  "choices": ["選択肢1", "選択肢2", ...],
-  "answer": "正解返信用の全文。①『正解は○○でした！』と答え合わせ（投票してくれた人への感謝や労いを一言）②簡潔な解説 ③『🌰豆知識』1つ。200文字程度",
-  "source": "出典メディア名と記事タイトル",
-  "sourceUrl": "出典記事の正確なURL（実在するもののみ。不明なら空文字）",
-  "category": "ジャンル名・${format}"
-}`;
-  return callClaude(prompt, 1500, 4);
+出力形式（JSONにしない。本文中の記号・引用符は自由に使ってよい）。
+指定した区切り行とメタ行だけを、この順番で書くこと。---POST-START--- より前には何も書かない:
+---POST-START---
+（投稿本文。選択肢を含めない。フック＋問題＋投票を促す一言）
+---POST-END---
+---ANSWER-START---
+（正解返信用の全文。①『正解は○○でした！』と答え合わせ（投票してくれた人への感謝や労いを一言）②簡潔な解説 ③『🌰豆知識』1つ。200文字程度）
+---ANSWER-END---
+choices: 選択肢1 | 選択肢2 | 選択肢3 | 選択肢4
+source: 出典メディア名と記事タイトル
+sourceUrl: 出典記事の正確なURL（実在するもののみ。不明なら空欄）
+category: ジャンル名・${format}`;
+  return callClaudeQuiz(prompt, 1500, 4);
 }
 
 // ===== 生成: 夜の振り返り（20時） =====
@@ -794,6 +842,18 @@ export function isTransientPostError(err) {
 // ストックのうち、まだ投稿していない次の1件を返す（無ければnull）
 export function nextTriviaArticle(stock, nextIndex) {
   return stock[nextIndex] || null;
+}
+
+// 投稿位置を配列の添字で管理しているため、補充側が末尾追加以外の操作
+// （並べ替え・過去分の削除・全体の再生成）をすると、エラーも出さずに投稿順がずれる。
+// 直前に投稿した記事の冒頭を控えておき、それが今も同じ位置にあるかで改変を検知する。
+// 自動では直せない（正しい位置が分からない）ので、警告を出すことに徹する
+export function detectStockShift(stock, nextIndex, lastPostedHead) {
+  if (!lastPostedHead || nextIndex <= 0) return null;
+  const expected = stock[nextIndex - 1];
+  if (expected && expected.startsWith(lastPostedHead)) return null;
+  const foundAt = stock.findIndex(a => a.startsWith(lastPostedHead));
+  return { expectedHead: lastPostedHead, foundAt };
 }
 
 // ===== 月間投稿数ガード =====
@@ -1049,26 +1109,40 @@ async function main() {
   // --- 1. 期限が来た正解をスレッド返信 ---
   const due = state.pendingAnswers.filter(a => a.dueAt <= now);
   for (const item of due) {
+    if (DRY_RUN) {
+      console.log(`🧪 [DRY_RUN] 正解返信（→ ${item.tweetId}）:\n${item.answer}\n`);
+      continue;
+    }
+    if (!canPost(state, now)) {
+      console.log('⚠️ 月間投稿上限に達したため正解返信を見送ります');
+      continue;
+    }
+    // 投票結果の取得はX無料プランの読み取り枠が非常に少ない。実際に投稿を試みる時だけ呼ぶ
+    // （以前は上限超過や恒久的失敗の再試行でも毎回呼んでいて、枠を無駄に消費していた）
     let answerText = item.answer;
-    if (item.isPoll && !DRY_RUN) {
+    if (item.isPoll) {
       const summary = await getPollSummary(item.tweetId);
       if (summary) answerText = `📊 投票結果: ${summary}\n\n` + answerText;
     }
     if (item.sourceUrl) answerText += `\n\n📰 詳しくはこちら→ ${item.sourceUrl}`;
-    if (DRY_RUN) {
-      console.log(`🧪 [DRY_RUN] 正解返信（→ ${item.tweetId}）:\n${answerText}\n`);
-    } else if (!canPost(state, now)) {
-      console.log('⚠️ 月間投稿上限に達したため正解返信を見送ります');
-    } else {
-      try {
-        const replyId = await postTweet(answerText, item.tweetId);
-        console.log(`💬 正解を返信しました（tweet: ${replyId} → 元: ${item.tweetId}）`);
+    try {
+      const replyId = await postTweet(answerText, item.tweetId);
+      console.log(`💬 正解を返信しました（tweet: ${replyId} → 元: ${item.tweetId}）`);
+      state.pendingAnswers = state.pendingAnswers.filter(a => a !== item);
+      countPostOnly(state);
+      stateChanged = true;
+    } catch (e) {
+      // 元投稿の削除(404)などで恒久的に失敗するようになった返信を残し続けると、
+      // 毎時の実行で永久に再試行し、X APIの枠を食い続ける
+      const permanent = !isTransientPostError(e);
+      item.attempts = (item.attempts || 0) + 1;
+      if (permanent || item.attempts > MAX_REPLY_ATTEMPTS) {
         state.pendingAnswers = state.pendingAnswers.filter(a => a !== item);
-        countPostOnly(state);
-        stateChanged = true;
-      } catch (e) {
-        console.error(`⚠️ 正解返信に失敗（元: ${item.tweetId}）: ${e.message} — 次回の実行で再試行します`);
+        console.error(`⚠️ 正解返信を諦めました（元: ${item.tweetId}・${permanent ? '恒久的なエラー' : `再試行${MAX_REPLY_ATTEMPTS}回超`}）: ${e.message}`);
+      } else {
+        console.error(`⚠️ 正解返信に失敗（元: ${item.tweetId}）: ${e.message} — 次回の実行で再試行します（${item.attempts}/${MAX_REPLY_ATTEMPTS}）`);
       }
+      stateChanged = true;
     }
   }
 
@@ -1077,7 +1151,9 @@ async function main() {
   const tooLate = delayMin > 360; // 6時間超の遅延は深夜投稿等になり逆効果なので見送る
   const slotUnposted = (state.lastPostedAt || 0) < slotEpoch;
   const shouldPost = FORCE_POST || (slotUnposted && !tooLate);
-  if (shouldPost && !DRY_RUN && !canPost(state, now)) {
+  if (shouldPost && !FORCE_POST && jstHour < SLOT_QUIET_HOURS_UNTIL) {
+    console.log(`⏭ 深夜（JST ${jstHour}時）のためスロット投稿を見送ります（次のスロットから再開）`);
+  } else if (shouldPost && !DRY_RUN && !canPost(state, now)) {
     console.log('⚠️ 月間投稿上限に達したためスロット投稿を見送ります');
   } else if (shouldPost && !DRY_RUN && !spacingOk(state, now)) {
     const waitMin = Math.ceil((MIN_POST_GAP_MS - (now - (state.lastAnyPostAt || 0))) / 60000);
@@ -1116,10 +1192,19 @@ async function main() {
       } else if (DRY_RUN) {
         console.log(`🧪 [DRY_RUN] 豆知識記事(${idx + 1}/${stock.length}):\n${article}`);
       } else {
+        const shift = detectStockShift(stock, idx, state.triviaLastPostedHead);
+        if (shift) {
+          console.error('⚠️ trivia-stock.json が末尾追加以外の方法で変更された可能性があります（投稿順がずれているおそれ）');
+          console.error(`   前回投稿した記事の冒頭: ${shift.expectedHead}`);
+          console.error(shift.foundAt === -1
+            ? '   → その記事は現在ストックに見つかりません（削除された可能性）'
+            : `   → その記事は現在 ${shift.foundAt + 1} 件目にあります（triviaNextIndex は ${idx}）`);
+        }
         try {
           const tweetId = await postTweet(article, null, null, { checkWeekday: false });
           console.log(`🐦 豆知識記事を投稿しました（tweet: ${tweetId}）`);
           state.triviaNextIndex = idx + 1;
+          state.triviaLastPostedHead = safeSlice(article, 40);
           state.lastPostedAt = now;
           countPost(state, now);
           recordPost(state, { tweetId, kind: 'trivia', category: '豆知識記事', textPreview: article, postedAt: now });
