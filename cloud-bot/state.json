@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2084847433142681933",
-      "answer": "正解は「東京ヤクルトスワローズ」でした！投票してくれたみなさん、ありがとうございます🐹\n\n村上宗隆選手は九州学院高校からドラフト1位でヤクルトに入団。2022年にはNPB記録の56本塁打で史上最年少三冠王を達成した球界のスーパースターです。2026年シーズンからホワイトソックスに移籍し、今朝の試合でメジャー自己最長となる11試合連続安打＆20試合連続出塁を記録しました！\n\n🌰豆知識\n村上選手のポジションは三塁手から転向した一塁手。ホワイトソックスとの契約は2年総額3400万ドル（約54億円）で、開幕からホームランランキング争いを引っ張る大活躍を見せています。",
-      "sourceUrl": "https://sports.yahoo.co.jp/list/news/mlb?genre=mlb",
-      "question": "ホワイトソックスの村上宗隆が今朝、メジャー自己最長を更新する11試合連続安打を達成🐹\n\n村上選手がMLB移籍前に在籍し",
-      "postedAt": 1785901309685,
-      "dueAt": 1785908509685,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "スポーツナビ（Yahoo! JAPAN）「村上宗隆、メジャー自己最長更新の11試合連続安打＆20試合連続出塁」（2026年8月5日）",
     "Reuters, AP, CNBC, Bloomberg, BBC, Al Jazeera, Forbes, WORLD Radio, TheStreet, NPR, Yahoo Finance, Investrade, Wikipedia Current Events",
@@ -42,7 +32,7 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 47
+    "posts": 48
   },
   "breakingDate": "2026-08-05",
   "breakingCount": 0,
