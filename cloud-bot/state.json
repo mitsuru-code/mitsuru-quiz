@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2084847433142681933",
+      "answer": "正解は「東京ヤクルトスワローズ」でした！投票してくれたみなさん、ありがとうございます🐹\n\n村上宗隆選手は九州学院高校からドラフト1位でヤクルトに入団。2022年にはNPB記録の56本塁打で史上最年少三冠王を達成した球界のスーパースターです。2026年シーズンからホワイトソックスに移籍し、今朝の試合でメジャー自己最長となる11試合連続安打＆20試合連続出塁を記録しました！\n\n🌰豆知識\n村上選手のポジションは三塁手から転向した一塁手。ホワイトソックスとの契約は2年総額3400万ドル（約54億円）で、開幕からホームランランキング争いを引っ張る大活躍を見せています。",
+      "sourceUrl": "https://sports.yahoo.co.jp/list/news/mlb?genre=mlb",
+      "question": "ホワイトソックスの村上宗隆が今朝、メジャー自己最長を更新する11試合連続安打を達成🐹\n\n村上選手がMLB移籍前に在籍し",
+      "postedAt": 1785901309685,
+      "dueAt": 1785908509685,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "スポーツナビ（Yahoo! JAPAN）「村上宗隆、メジャー自己最長更新の11試合連続安打＆20試合連続出塁」（2026年8月5日）",
     "Reuters, AP, CNBC, Bloomberg, BBC, Al Jazeera, Forbes, WORLD Radio, TheStreet, NPR, Yahoo Finance, Investrade, Wikipedia Current Events",
     "NHK、日本経済新聞、時事通信、Japan Times、Trading Economics、首相官邸、防衛省、Profile News、Kyiv Post",
     "日本経済新聞「農産品輸出10.9%増の8977億円 1〜6月、抹茶やブリ好調で最高更新」／農林水産省発表",
     "オリコンニュース「梅澤美波 乃木坂４６卒業後の活動を語る」（2026年8月4日）",
     "BBC、Reuters、Bloomberg、CNBC、TheStreet、AP、Hollywood Reporter、CNN、Variety、TradingKey、The Wire China、Democracy Now、Havana Times、News.az、Inquirer Sports、Wikipedia Current Events、PYMNTS、TipRanks、Crypto Briefing、The Globe and Mail",
     "NHK、News On Japan、Bloomberg、Reuters / Yahoo Finance、AP通信、株探ニュース、Trading Economics、The Daily Telegraph",
-    "日本経済新聞「日米が15年ぶり協調介入、円安阻止で思惑一致」／株帳「ドル円 為替介入・日米協調介入 2026年8月 内容まとめ」",
-    "日刊スポーツ「ヌートバーにフィリーズなど複数球団が興味 トレード期限は４日午前７時」"
+    "日本経済新聞「日米が15年ぶり協調介入、円安阻止で思惑一致」／株帳「ドル円 為替介入・日米協調介入 2026年8月 内容まとめ」"
   ],
   "recentOpeners": [
+    "ホワイトソックスの村上宗隆が今朝、メジャー自己最長を更新する11試合連続安打を達",
     "今朝いちばん気になったのは、ホルムズ海峡をめぐる米・イラン交渉の行方。戦争か外交",
     "熊本地震から今日でちょうど1週間。被災地が猛暑と戦う中、政府は242億円の予備費",
     "世界で抹茶ブーム、日本食の輸出が過去最高を更新🐹\n\n今日、農林水産省が発表した",
-    "乃木坂46を卒業した梅澤美波、グループ在籍期間は何年何ヶ月？\n\n今日のオリコンの",
-    "火曜の朝です🐹 昨夜から今朝にかけて、世界では大きなニュースがいくつも重なりま"
+    "乃木坂46を卒業した梅澤美波、グループ在籍期間は何年何ヶ月？\n\n今日のオリコンの"
   ],
-  "lastPostedAt": 1785886869647,
+  "lastPostedAt": 1785901309685,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 46
+    "posts": 47
   },
   "breakingDate": "2026-08-05",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785886869647,
+  "lastAnyPostAt": 1785901309685,
   "postHistory": [
+    {
+      "tweetId": "2084847433142681933",
+      "kind": "quiz",
+      "category": "スポーツ（MLB）・4択",
+      "textPreview": "ホワイトソックスの村上宗隆が今朝、メジャー自己最長を更新する11試合連続安打を達成🐹\n\n村上選手がMLB移籍前に在籍していたNPBの球団はどこでしょう？\n\n知",
+      "postedAt": 1785901309685
+    },
     {
       "tweetId": "2084786752183755065",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "朝ブリーフィング",
       "textPreview": "おはようございます🐹 今朝は目を疑うニュースがいくつも飛び込んできました。AIが「勝手に」他社のシステムに侵入していた件、スペインで一夜にして6万人が国境を越",
       "postedAt": 1785614801621
-    },
-    {
-      "tweetId": "2083519940632494510",
-      "kind": "recap",
-      "category": "夜の振り返り",
-      "textPreview": "イオンモール熊本の爆発、捜索が終了して7人死亡——令和8年熊本地震、まだ終わっていない。今日もたくさんのニュースがあった土曜日、おつかれさまでした🐹 一緒に振",
-      "postedAt": 1785584780081
     }
   ],
   "breakingFollowUps": [],
