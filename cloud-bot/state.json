@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2084914272069378342",
-      "answer": "正解は「① 1%」でした！ご参加ありがとうございます🐹\n\n政府は本日（8月5日）、食料品の消費税率を2027年4月から2年間限定で、現行の8%から1%に引き下げる方針を閣議決定しました。高市早苗首相は9月に与党税制改正大綱をまとめ、秋の臨時国会に関連法案を提出する予定です。なお外食・酒類は対象外で10%のまま維持されます。\n\n🌰豆知識\n消費税率の引き下げは1989年の導入以来、初めての試みとなります。0%ではなく1%にした理由は、レジシステムの改修期間が短縮できるため。1%案なら5〜6ヶ月で対応可能で、2027年4月スタートに間に合うのだそうです。",
-      "sourceUrl": "https://www.nikkei.com/article/DGXZQOUA042OJ0U6A800C2000000/",
-      "question": "食料品の消費税、来年からまさかの「1%」に！🐹\n\n本日閣議決定されたニュース。食料品の消費税率は現在8%ですが、引き下",
-      "postedAt": 1785917247685,
-      "dueAt": 1785924447685,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、Japan Times、News On Japan、高校野球ドットコム、Britannica、政府広報オンライン",
     "日本経済新聞「食品消費税1%、政府が閣議決定 財源に外為特会活用案」（2026年8月5日）／沖縄タイムス「食品消費税1％へ きょう閣議決定」（2026年8月5日）",
     "スポーツナビ（Yahoo! JAPAN）「村上宗隆、メジャー自己最長更新の11試合連続安打＆20試合連続出塁」（2026年8月5日）",
     "Reuters, AP, CNBC, Bloomberg, BBC, Al Jazeera, Forbes, WORLD Radio, TheStreet, NPR, Yahoo Finance, Investrade, Wikipedia Current Events",
     "NHK、日本経済新聞、時事通信、Japan Times、Trading Economics、首相官邸、防衛省、Profile News、Kyiv Post",
     "日本経済新聞「農産品輸出10.9%増の8977億円 1〜6月、抹茶やブリ好調で最高更新」／農林水産省発表",
     "オリコンニュース「梅澤美波 乃木坂４６卒業後の活動を語る」（2026年8月4日）",
-    "BBC、Reuters、Bloomberg、CNBC、TheStreet、AP、Hollywood Reporter、CNN、Variety、TradingKey、The Wire China、Democracy Now、Havana Times、News.az、Inquirer Sports、Wikipedia Current Events、PYMNTS、TipRanks、Crypto Briefing、The Globe and Mail",
-    "NHK、News On Japan、Bloomberg、Reuters / Yahoo Finance、AP通信、株探ニュース、Trading Economics、The Daily Telegraph"
+    "BBC、Reuters、Bloomberg、CNBC、TheStreet、AP、Hollywood Reporter、CNN、Variety、TradingKey、The Wire China、Democracy Now、Havana Times、News.az、Inquirer Sports、Wikipedia Current Events、PYMNTS、TipRanks、Crypto Briefing、The Globe and Mail"
   ],
   "recentOpeners": [
+    "熊本地震から1週間。38人が亡くなり、7155人がまだ避難所にいる。その被災地が",
     "食料品の消費税、来年からまさかの「1%」に！🐹\n\n本日閣議決定されたニュース。",
     "ホワイトソックスの村上宗隆が今朝、メジャー自己最長を更新する11試合連続安打を達",
     "今朝いちばん気になったのは、ホルムズ海峡をめぐる米・イラン交渉の行方。戦争か外交",
-    "熊本地震から今日でちょうど1週間。被災地が猛暑と戦う中、政府は242億円の予備費",
-    "世界で抹茶ブーム、日本食の輸出が過去最高を更新🐹\n\n今日、農林水産省が発表した"
+    "熊本地震から今日でちょうど1週間。被災地が猛暑と戦う中、政府は242億円の予備費"
   ],
-  "lastPostedAt": 1785917247685,
+  "lastPostedAt": 1785927907153,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 49
+    "posts": 51
   },
   "breakingDate": "2026-08-05",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785917247685,
+  "lastAnyPostAt": 1785927907153,
   "postHistory": [
+    {
+      "tweetId": "2084959153580314760",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "熊本地震から1週間。38人が亡くなり、7155人がまだ避難所にいる。その被災地が今日、40度に迫る猛暑にさらされた🐹\n\n今日1日のニュース、何問覚えてる？ お",
+      "postedAt": 1785927907153
+    },
     {
       "tweetId": "2084914272069378342",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "アルミホイルの表と裏、性能はほとんど変わりません\n\n光沢のある面と、くもった面がありますよね。あれは2枚重ねて薄く延ばす製造工程でできる差です。ローラーに触れた",
       "postedAt": 1785623838754
-    },
-    {
-      "tweetId": "2083668027032342934",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "売上の8割は、2割から生まれているかもしれません\n\nイタリアの経済学者パレートが所得の分布を調べて見つけた偏りで、全体の8割を2割の要素が占めるという傾向です。",
-      "postedAt": 1785620144844
     }
   ],
   "breakingFollowUps": [],
