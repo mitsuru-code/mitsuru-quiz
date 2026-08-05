@@ -416,8 +416,115 @@ function deleteTweet(tweetId) {
   });
 }
 
+// ===== 自前検索（コスト削減のためのウェブ検索の内製化） =====
+// Anthropicのweb_searchツールは、ツール利用の仕様上ターンごとに全文脈を再送するため、
+// 入力トークンが検索回数のおよそ2乗で膨らむ（実測: 1投稿あたり入力57,113トークン）。
+//   1回目 2,000 → 2回目 10,000 → 3回目 18,000 → 4回目 26,000 …合計88,000
+// 先に検索して結果を一度だけ渡せばこの再送が消え、モデルも文章品質も変えずに入力を削れる。
+//
+// クエリはコンテンツ種別ごとに固定でよい。このBotが毎日必要とするのは「今日のニュース」であって
+// 日替わりの調査課題ではないため、検索語をモデルに考えさせる中間呼び出しは不要
+export const SEARCH_MODE = (process.env.SEARCH_MODE || 'self').trim(); // 'self'=自前検索 / 'tool'=従来どおり
+const TAVILY_API_KEY = cleanEnv('TAVILY_API_KEY');
+const SEARCH_CONTEXT_MAX_CHARS = 24000; // プロンプトに載せる検索結果の総量の上限
+const SEARCH_FULLTEXT_COUNT = 2;        // 上位何件を全文で載せるか（残りは要約スニペット）
+const SEARCH_FULLTEXT_CHARS = 4000;     // 全文で載せる場合の1件あたり上限
+
+// コンテンツ種別ごとの検索プラン。topic/daysはニュース用途向けの絞り込み
+export function searchPlanFor(kind, opts = {}) {
+  const plans = {
+    briefing: [
+      '海外 主要ニュース 速報', 'world news top stories', '米国市場 株価 為替 動向',
+    ],
+    recap: [
+      '今日の主要ニュース 日本', '国内 経済 ニュース 今日', '国際情勢 today',
+    ],
+    quiz: [
+      opts.genre ? safeSlice(String(opts.genre), 60) : '今日の主要ニュース',
+      '今日 ニュース 話題',
+    ],
+    feature: [safeSlice(String(opts.topic || ''), 80)],
+    followUp: [safeSlice(String(opts.topic || ''), 80), `${safeSlice(String(opts.topic || ''), 40)} 続報 詳細`],
+  };
+  const queries = (plans[kind] || plans.quiz).filter(Boolean);
+  return queries.length ? { kind, queries, days: 1 } : null;
+}
+
+// Tavilyのニュース検索。1クエリ=1リクエスト。失敗は呼び出し側でツール検索にフォールバックする
+async function tavilySearch(query, days) {
+  const res = await fetch('https://api.tavily.com/search', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${TAVILY_API_KEY}` },
+    body: JSON.stringify({
+      query, topic: 'news', days, max_results: 10,
+      include_raw_content: true, // 上位数件だけ全文を使う。載せる量はformat側で絞る
+    }),
+  });
+  if (!res.ok) throw new Error(`Tavily APIエラー (${res.status})`);
+  const data = await res.json();
+  return Array.isArray(data.results) ? data.results : [];
+}
+
+// 検索結果をプロンプトに載せる形に整える。
+// 上位数件だけ全文、残りはスニペット。URLはそのまま渡す（クイズの出典URLに使うため。
+// モデルに記憶からURLを書かせるより正確になる）
+export function formatSearchResults(results, budget = SEARCH_CONTEXT_MAX_CHARS) {
+  const seen = new Set();
+  const lines = [];
+  let used = 0;
+  results.forEach(r => {
+    if (!r?.url || seen.has(r.url)) return; // 複数クエリで同じ記事が返るため重複を除く
+    seen.add(r.url);
+    const full = seen.size <= SEARCH_FULLTEXT_COUNT && r.raw_content;
+    const body = full ? safeSlice(r.raw_content, SEARCH_FULLTEXT_CHARS) : (r.content || '');
+    const block = `[${seen.size}] ${r.title || ''}\nURL: ${r.url}${r.published_date ? `\n日時: ${r.published_date}` : ''}\n${body}`;
+    if (used + block.length > budget) return;
+    used += block.length;
+    lines.push(block);
+  });
+  return lines.join('\n\n');
+}
+
+// 検索を実行してプロンプトに添付するブロックを作る。
+// 自前検索が使えない/失敗した場合は mode='tool' を返し、従来のweb_searchツールに切り替える。
+// 外部依存を1つ増やした結果Botが無言で止まるのが最悪なので、必ず退避先を用意する
+export async function research(plan) {
+  if (SEARCH_MODE !== 'self' || !plan) return { mode: 'tool', context: '' };
+  if (!TAVILY_API_KEY) {
+    console.log('ℹ️ TAVILY_API_KEY が未設定のため、Anthropicのウェブ検索ツールを使います');
+    return { mode: 'tool', context: '' };
+  }
+  try {
+    const batches = await Promise.all(plan.queries.map(q => tavilySearch(q, plan.days)));
+    const formatted = formatSearchResults(batches.flat());
+    if (!formatted) throw new Error('検索結果が空でした');
+    console.log(`🔎 自前検索: ${plan.queries.length}クエリ / 添付${formatted.length}文字（${plan.kind}）`);
+    return { mode: 'self', context: `\n\n【検索結果】以下は自動で取得した最新のニュース検索結果です。これを一次情報として使い、ここに無い事実は書かないでください。\n\n${formatted}` };
+  } catch (e) {
+    console.error(`⚠️ 自前検索に失敗したため、Anthropicのウェブ検索ツールに切り替えます: ${e.message}`);
+    return { mode: 'tool', context: '' };
+  }
+}
+
+// 各ジェネレータのプロンプトに差し込む「情報源の指示」。researchの結果に合わせて文面を変える
+// （プロンプトが「検索して」と言っているのに検索結果が無い、という食い違いを防ぐ）
+export function researchLine(mode, what, note = '') {
+  return mode === 'self'
+    ? `末尾の【検索結果】に、${what}を自動検索した結果を添付しています。これを一次情報として使ってください。`
+    : `Web検索を使って、${what}を幅広く調べてください${note ? `（${note}）` : ''}。`;
+}
+
 // ===== Anthropic API 呼び出し（共通・低レベル） =====
+// maxSearches に 0 を渡すとweb_searchツールを付けない（自前検索で情報収集済みの場合）
 async function callAnthropic(prompt, maxTokens, maxSearches, model = 'claude-sonnet-4-6') {
+  const body = {
+    model,
+    max_tokens: maxTokens,
+    messages: [{ role: 'user', content: prompt }],
+  };
+  if (maxSearches > 0) {
+    body.tools = [{ type: 'web_search_20250305', name: 'web_search', max_uses: maxSearches }];
+  }
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -425,12 +532,7 @@ async function callAnthropic(prompt, maxTokens, maxSearches, model = 'claude-son
       'x-api-key': ANTHROPIC_API_KEY,
       'anthropic-version': '2023-06-01',
     },
-    body: JSON.stringify({
-      model,
-      max_tokens: maxTokens,
-      messages: [{ role: 'user', content: prompt }],
-      tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: maxSearches }]
-    })
+    body: JSON.stringify(body),
   });
   if (!res.ok) {
     const err = await res.json().catch(() => ({}));
@@ -438,6 +540,10 @@ async function callAnthropic(prompt, maxTokens, maxSearches, model = 'claude-son
   }
   const data = await res.json();
   const text = data.content.filter(i => i.type === 'text').map(i => i.text).join('');
+  // コスト実測用。削減効果とコンテンツ種別ごとの内訳を、推定ではなく実測で追えるようにする
+  const u = data.usage || {};
+  const searchCalls = u.server_tool_use?.web_search_requests ?? 0;
+  console.log(`🔢 ${model} 入力${(u.input_tokens ?? 0).toLocaleString()} 出力${(u.output_tokens ?? 0).toLocaleString()} 検索${searchCalls}回 (${maxSearches > 0 ? 'toolモード' : 'selfモード'})`);
   return { text, stopReason: data.stop_reason };
 }
 
@@ -603,11 +709,12 @@ const CHARACTER = `【キャラクター設定】
 async function generateBriefing(state, now) {
   const recentOpeners = (state.recentOpeners || []).join(' / ');
   const todayLabel = jstDateLabel(now);
+  const r = await research(searchPlanFor('briefing'));
   const prompt = `${CHARACTER}
 
 【本日の日付】${todayLabel}（日本時間）。曜日や日付に言及する場合は必ずこの情報を使うこと。Web検索結果や自身の記憶に基づく曜日推定がこれと食い違っても、この日付情報を優先すること（誤った曜日を投稿してしまう事故が過去に発生したため）。
 
-Web検索を使って、「日本時間の昨夜から今朝（前日22時〜今朝6時ごろ）に海外で報じられた・起きたニュース」を幅広く調べてください（Reuters/AP/BBC/CNN/Bloomberg等の海外メディア中心。米国市場の動き、国際政治、テクノロジー、スポーツの海外試合結果など）。
+${researchLine(r.mode, '「日本時間の昨夜から今朝（前日22時〜今朝6時ごろ）に海外で報じられた・起きたニュース」', 'Reuters/AP/BBC/CNN/Bloomberg等の海外メディア中心。米国市場の動き、国際政治、テクノロジー、スポーツの海外試合結果など')}
 
 それを元に、朝の通勤時間にサッと読める「一問一答ブリーフィング」を1本作ってください:
 - 全20問。1問は「Q: 質問文」「A: 答え＋一言解説」の2〜3行で完結（タイパ重視）
@@ -624,8 +731,8 @@ ${TOPIC_HINT ? `- 今回は特に「${TOPIC_HINT}」に関する話題を中心�
 （ここに投稿本文）
 ---POST-END---
 source: 使った主な出典メディアの一覧
-category: 朝ブリーフィング`;
-  return callClaudePlain(prompt, 6000, 6);
+category: 朝ブリーフィング${r.context}`;
+  return callClaudePlain(prompt, 6000, r.mode === 'self' ? 0 : 6);
 }
 
 // ===== 生成: Poll形式クイズ（12時・17時） =====
@@ -634,10 +741,11 @@ async function generatePollQuiz(state, genre) {
   const recentOpeners = (state.recentOpeners || []).join(' / ');
   const pick = arr => arr[Math.floor(Math.random() * arr.length)];
   const format = pick(['4択', '二択', '○×']);
+  const r = await research(searchPlanFor('quiz', { genre }));
 
   const prompt = `${CHARACTER}
 
-Web検索で「${genre}」を1件調べ、それを元にX(Twitter)の投票（Poll）機能で出題するクイズを1問作ってください。
+${researchLine(r.mode, `「${genre}」`)}そこから1件を選び、それを元にX(Twitter)の投票（Poll）機能で出題するクイズを1問作ってください。
 
 【投票クイズのルール】
 - 形式は【${format}】（4択なら選択肢4つ、二択なら2つ、○×なら「○ 正しい」「× 間違い」の2つ）
@@ -660,9 +768,9 @@ ${recentOpeners ? '- 以下の書き出しと被らないこと: ' + recentOpene
 ---ANSWER-END---
 choices: 選択肢1 | 選択肢2 | 選択肢3 | 選択肢4
 source: 出典メディア名と記事タイトル
-sourceUrl: 出典記事の正確なURL（実在するもののみ。不明なら空欄）
-category: ジャンル名・${format}`;
-  return callClaudeQuiz(prompt, 1500, 4);
+sourceUrl: 出典記事の正確なURL（実在するもののみ。不明なら空欄）${r.mode === 'self' ? '。検索結果の「URL:」行からそのまま転記すること（記憶から書かない）' : ''}
+category: ジャンル名・${format}${r.context}`;
+  return callClaudeQuiz(prompt, 1500, r.mode === 'self' ? 0 : 4);
 }
 
 // ===== 生成: 夜の振り返り（20時） =====
@@ -675,11 +783,12 @@ async function generateRecap(state, now) {
       .map(p => p.category)
       .filter(Boolean)
   )].join(' / ');
+  const r = await research(searchPlanFor('recap'));
   const prompt = `${CHARACTER}
 
 【本日の日付】${jstDateLabel(now)}（日本時間）。曜日や日付に言及する場合は必ずこの情報を使うこと。Web検索結果や自身の記憶に基づく曜日推定がこれと食い違っても、この日付情報を優先すること（誤った曜日を投稿してしまう事故が過去に発生したため）。
 
-Web検索で「今日（日本時間の本日）の主要ニュース」を国内外・経済・社会・スポーツから幅広く調べてください。
+${researchLine(r.mode, '「今日（日本時間の本日）の主要ニュース」', '国内外・経済・社会・スポーツから幅広く')}
 
 それを元に、1日を振り返る「一問一答おさらいクイズ」を1本作ってください（朝のブリーフィングと同じ一問一答形式・全20問）:
 - 全20問。1問は「Q: 質問文」「A: 答え＋一言解説」の2〜3行で完結（タイパ重視）
@@ -696,8 +805,8 @@ ${todaysBreaking ? `- 本日は次の速報・続報を扱いました。特に�
 （ここに投稿本文）
 ---POST-END---
 source: 使った主な出典メディアの一覧
-category: 夜の振り返り`;
-  return callClaudePlain(prompt, 6000, 6);
+category: 夜の振り返り${r.context}`;
+  return callClaudePlain(prompt, 6000, r.mode === 'self' ? 0 : 6);
 }
 
 // ===== 生成: 特集記事（手動実行のFEATURE_TOPIC指定時のみ） =====

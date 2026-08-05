@@ -21,6 +21,9 @@ import {
   releaseMinOf,
   slotReleaseOrderOk,
   TRIVIA_LOW_STOCK,
+  searchPlanFor,
+  formatSearchResults,
+  researchLine,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -359,4 +362,53 @@ test('SLOT_PROFILES: スロットは1時間以上離れている（投稿間隔3
   for (let i = 1; i < hours.length; i++) {
     assert.ok(hours[i] - hours[i - 1] >= 1, `${hours[i - 1]}時と${hours[i]}時が近すぎます`);
   }
+});
+
+// ===== 自前検索（Anthropicのweb_searchツールの代替・コスト削減） =====
+
+test('searchPlanFor: コンテンツ種別ごとに固定クエリを返す', () => {
+  assert.ok(searchPlanFor('briefing').queries.length >= 2);
+  assert.strictEqual(searchPlanFor('briefing').days, 1, 'ニュース用途なので当日分に絞る');
+  assert.ok(searchPlanFor('quiz', { genre: 'スポーツの話題' }).queries[0].includes('スポーツ'));
+  // 未知の種別でも落ちずに既定のプランへ倒す（新しいスロットを足した時に無言で壊れないように）
+  assert.ok(searchPlanFor('unknown-kind').queries.length > 0);
+});
+
+test('searchPlanFor: 話題が空のfeature/followUpはプランを作らない（空クエリで検索しない）', () => {
+  assert.strictEqual(searchPlanFor('feature', { topic: '' }), null);
+});
+
+test('formatSearchResults: URLの重複を除き、上位2件だけ全文を載せる', () => {
+  const results = [
+    { title: 'A', url: 'https://x/1', content: '短い要約A', raw_content: 'A'.repeat(9000), published_date: '2026-08-06' },
+    { title: 'B', url: 'https://x/2', content: '短い要約B', raw_content: 'B'.repeat(9000) },
+    { title: 'C', url: 'https://x/3', content: '短い要約C', raw_content: 'C'.repeat(9000) },
+    { title: 'Aの重複', url: 'https://x/1', content: '同じ記事', raw_content: 'D'.repeat(9000) },
+  ];
+  const out = formatSearchResults(results);
+  assert.strictEqual((out.match(/https:\/\/x\/1/g) || []).length, 1, '同じURLは1回だけ');
+  assert.ok(out.includes('A'.repeat(3000)), '1件目は全文が載る');
+  assert.ok(!out.includes('C'.repeat(3000)), '3件目以降はスニペットのみ');
+  assert.ok(out.includes('短い要約C'));
+  assert.ok(out.includes('日時: 2026-08-06'));
+});
+
+test('formatSearchResults: 総量の上限を超えない（入力トークンの上振れを防ぐ）', () => {
+  const many = Array.from({ length: 60 }, (_, i) => ({
+    title: `記事${i}`, url: `https://x/${i}`, content: 'あ'.repeat(2000),
+  }));
+  assert.ok(formatSearchResults(many, 24000).length <= 24000);
+});
+
+test('formatSearchResults: URLの無い結果は捨てる（出典URLに使えないため）', () => {
+  assert.strictEqual(formatSearchResults([{ title: 'URLなし', content: '本文' }]), '');
+});
+
+// プロンプトが「検索して」と指示しているのに検索結果が添付されていない、という食い違いは
+// モデルが情報源なしで書く（＝作り話をする）事故に直結するため、モードと文面を必ず連動させる
+test('researchLine: モードによって情報源の指示が切り替わる', () => {
+  assert.ok(researchLine('self', '「今日のニュース」').includes('【検索結果】'));
+  assert.ok(!researchLine('self', '「今日のニュース」').includes('Web検索を使って'));
+  assert.ok(researchLine('tool', '「今日のニュース」').includes('Web検索を使って'));
+  assert.ok(researchLine('tool', '「今日のニュース」', '国内外から').includes('国内外から'));
 });

@@ -64,6 +64,11 @@ on:
         description: '取りこぼしたスロットを投稿し直す（時台の数字。例: 5=朝ブリーフィング）。force_postも一緒にONにする。空なら通常通り'
         type: string
         default: ''
+      search_mode:
+        description: '情報収集の方法。self=自前検索（安価・既定）／tool=Anthropicのweb_searchツール（従来）。dry_runと組み合わせて読み比べに使う'
+        type: choice
+        options: ['self', 'tool']
+        default: 'self'
       reply_to_id:
         description: '訂正・補足の返信先ツイートID（reply_textと併用）。誤記の訂正などに使う。空なら何もしない'
         type: string
@@ -96,6 +101,10 @@ jobs:
         run: node cloud-bot/post-quiz.mjs
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 自前検索（コスト削減）用。未設定ならAnthropicのweb_searchツールに自動フォールバックする
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          # 'self'=自前検索（既定・安価） / 'tool'=従来のweb_searchツール。手動実行で切り替えて読み比べできる
+          SEARCH_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.search_mode || 'self' }}
           # Secretsは X_API_KEY / X_API_SECRET / X_ACCESS_TOKEN / X_ACCESS_TOKEN_SECRET という名前で登録済み。
           # スクリプト内部の変数名（TWITTER_*）に合わせてここでマッピングする
           TWITTER_CONSUMER_KEY: ${{ secrets.X_API_KEY }}
