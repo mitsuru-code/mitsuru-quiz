@@ -2,7 +2,8 @@
 # 番組表（JST）: 5時47分=朝ブリーフィング(20問Q&A) / 12時13分=昼のPollクイズ /
 #              17時47分=夕方のPollクイズ / 20時47分=夜の振り返り(20問Q&A) /
 #              6時47分・7時47分・8時47分・10時47分・15時47分=豆知識記事(ストック投稿・AI生成なし)
-# - 毎時47分（12時台のみ13分）に起動し、直近スロットが未投稿なら生成して投稿（キャッチアップ方式）
+# - 15分おきに起動し、解禁済みスロットが未投稿なら生成して投稿（キャッチアップ方式）。
+#   各スロットは「その時台の45分」に解禁されるので投稿は :47 前後に揃う（12時台のみ13分に解禁）
 # - 速報チェックは深夜2:00/4:00・朝9:30〜11:00・午後14〜16時の固定時刻cronで実施（post-quiz.mjsのBREAKING_CHECKPOINTS参照）
 # - 毎回の実行で、返信期限が来た正解もスレッド返信
 # - 手動実行（Run workflow）でdry-run／強制投稿／接続テストが可能
@@ -10,25 +11,21 @@ name: Cloud Bot
 
 on:
   schedule:
-    # 毎時47分（UTC）。JST判定はスクリプト側で行う。
-    # 毎時0分ちょうどはGitHub全体で最も混雑し起動が間引かれやすいため、あえてずらしている
-    # （実測: 0分固定だった時期は平均108分間隔＝約半数の回が間引かれていた）
-    - cron: '47 * * * *'
-    # 昼のスロットだけ12時13分(JST)＝3時13分(UTC)に早めるための追加トリガー。
-    # 47分固定のトリガーも12時台には引き続き発火するが、その時点では既に
-    # 投稿済みのため実質的に返信・速報チェックのみを行う
+    # 15分おき（UTC）。JST判定はスクリプト側で行う。
+    # GitHub Actionsのスケジュール実行は混雑時に予告なく間引かれる。実測（2026-08-05）では
+    # 毎時47分の1本だけでは1日24回のうち約半数しか起動せず、9スロット中6本しか投稿できていなかった。
+    # スロットは post-quiz.mjs の DEFAULT_RELEASE_MIN=45 により「:45以降」に解禁されるので、
+    # このトリガー配置だと1スロットにつき :47 → 次時台の :02/:17/:32 と4回の機会がある。
+    # 4回すべて間引かれる確率は低く、かつ番組表どおりの :47 前後に投稿される。
+    # 毎時0分ちょうどはGitHub全体で最も混雑し間引かれやすいため、2分ずらしてある。
+    # 投稿対象が無い回はAPIを一切呼ばず1秒未満で終了する（公開リポジトリのためAWS課金も無い）
+    - cron: '2,17,32,47 * * * *'
+    # 昼のスロットだけ12時13分(JST)＝3時13分(UTC)に投稿するための追加トリガー
+    # （SLOT_PROFILESの 12: { releaseMin: 13 } と対応。他スロットより早い唯一の例外）
     - cron: '13 3 * * *'
-    # 速報チェックポイント用の専用トリガー（post-quiz.mjsのBREAKING_CHECKPOINTSと対応）。
-    # 経験上ニュースが発生しやすい深夜2:00/4:00・朝9:30〜11:00・午後14〜16時（JST）に起動する
-    - cron: '0 17 * * *'  # 深夜2:00
-    - cron: '0 19 * * *'  # 深夜4:00
-    - cron: '30 0 * * *'  # 朝9:30
-    - cron: '0 1 * * *'   # 朝10:00
-    - cron: '30 1 * * *'  # 朝10:30
-    - cron: '0 2 * * *'   # 朝11:00
-    - cron: '0 5 * * *'   # 午後14:00
-    - cron: '0 6 * * *'   # 午後15:00
-    - cron: '0 7 * * *'   # 午後16:00
+    # 速報チェックポイント（post-quiz.mjsのBREAKING_CHECKPOINTS）は深夜2:00/4:00・朝9:30〜11:00・
+    # 午後14〜16時（JST）だが、いずれも :00 か :30 なので上の15分おきトリガーに含まれる。
+    # かつては専用cronを9本並べていたが、重複するだけなので削除した
   workflow_dispatch:
     inputs:
       dry_run:
@@ -160,6 +157,34 @@ jobs:
             --body "$(printf '速報を投稿しました。\n\n投稿: %s\n\n30分後に自動で1回だけ続報を投稿します。それ以上の続報が必要な場合は、Actionsの手動実行(workflow_dispatch)でBREAKING_TOPICまたはFEATURE_TOPICを指定して作成してください。' "$tweet_url")"
 
       # 失敗したらIssueを自動作成して通知（毎時の連続失敗でも未クローズのIssueがあれば重複作成しない）
+      # 在庫切れは「切れてからログに出る」だけでは気づけない（ログは誰も見ない）。
+      # 残りわずかの段階でIssueを立てて通知し、補充されたら自動でクローズする
+      - name: 豆知識ストックの残量をIssueで通知
+        if: always() && steps.post.outputs.trivia_remaining != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REMAINING: ${{ steps.post.outputs.trivia_remaining }}
+          LOW: ${{ steps.post.outputs.trivia_low }}
+        run: |
+          gh label create trivia-stock-low --repo "${{ github.repository }}" --color FBCA04 --description "豆知識ストックの残量が少ない" 2>/dev/null || true
+          issue_number=$(gh issue list --repo "${{ github.repository }}" --label trivia-stock-low --state open --json number --jq '.[0].number // empty')
+          if [ "$LOW" = "true" ]; then
+            if [ -n "$issue_number" ]; then
+              echo "既にIssue #$issue_number が開いています（残り ${REMAINING}本）。重複通知はしません"
+              exit 0
+            fi
+            gh issue create --repo "${{ github.repository }}" \
+              --label trivia-stock-low \
+              --title "📚 豆知識ストックの残りが少なくなっています（残り ${REMAINING}本）" \
+              --body "$(printf 'cloud-bot/trivia-stock.json の未投稿分が残り %s本です。\n\n豆知識は1日5本（6時・7時・8時・10時・15時台）消費するため、このままだとおよそ1日で尽きます。尽きると豆知識スロットは無言でスキップされ、1日の投稿数がそのぶん減ります。\n\nPC側の補充タスクを実行して、trivia-stock.json の末尾に追記してください。補充されると、このIssueは次の実行で自動的にクローズされます。\n\n※ 並べ替えや過去分の削除をすると投稿順がずれます。必ず末尾に追記してください。' "$REMAINING")"
+            echo "在庫僅少Issueを作成しました（残り ${REMAINING}本）"
+          elif [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --repo "${{ github.repository }}" \
+              --reason completed \
+              --comment "補充を確認しました（残り ${REMAINING}本）。自動的にクローズします。"
+            echo "補充されたためIssue #$issue_number をクローズしました"
+          fi
+
       - name: 失敗をIssueで通知
         if: failure()
         env:
