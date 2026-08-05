@@ -17,6 +17,10 @@ import {
   parsePollQuiz,
   detectStockShift,
   SLOT_QUIET_HOURS_UNTIL,
+  DEFAULT_RELEASE_MIN,
+  releaseMinOf,
+  slotReleaseOrderOk,
+  TRIVIA_LOW_STOCK,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -211,8 +215,55 @@ test('pickDueSlot: 前のスロットが未投稿なら取り戻す（朝ブリ�
 
 test('pickDueSlot: 前のスロットが投稿済みなら現在のスロットを選ぶ', () => {
   const posted5 = jstTime(5, 50, 30);         // 5時台のブリーフィングは投稿済み
-  const at634 = jstTime(6, 34, 30);
-  assert.strictEqual(new Date(pickDueSlot(at634, posted5) + 9 * 3600000).getUTCHours(), 6);
+  const at647 = jstTime(6, 47, 30);           // 6時台の解禁(6:45)後
+  assert.strictEqual(new Date(pickDueSlot(at647, posted5) + 9 * 3600000).getUTCHours(), 6);
+});
+
+// ===== スロットの解禁時刻（番組表を保ったまま実行機会だけ増やすための仕組み） =====
+
+test('解禁時刻はスロット順に単調増加している（latestSlotEpochの前提）', () => {
+  assert.ok(slotReleaseOrderOk(), '解禁時刻の順序がスロット順と食い違っています');
+});
+
+test('releaseMinOf: 既定は45分、12時台だけ13分', () => {
+  assert.strictEqual(releaseMinOf(5), DEFAULT_RELEASE_MIN);
+  assert.strictEqual(releaseMinOf(6), 45);
+  assert.strictEqual(releaseMinOf(12), 13, '昼のクイズは12:13に出す運用');
+});
+
+test('pickDueSlot: 解禁前の時台は選ばれない（投稿時刻が:02〜:47でばらつかない）', () => {
+  const posted5 = jstTime(5, 50, 30);
+  // 6:34は6時台に入っているが解禁(6:45)前。15分おきに起動しても6時台はまだ出さない
+  assert.strictEqual(new Date(pickDueSlot(jstTime(6, 34, 30), posted5) + 9 * 3600000).getUTCHours(), 5);
+  // 6:47は解禁後なので6時台に進む
+  assert.strictEqual(new Date(pickDueSlot(jstTime(6, 47, 30), posted5) + 9 * 3600000).getUTCHours(), 6);
+});
+
+// 2026-08-05の実測: 毎時47分の1本だけでは約半数のcronが間引かれ、9スロット中6本しか投稿できていなかった。
+// 解禁を:45にしたうえで :02/:17/:32/:47 に起動することで、1スロットにつき4回の機会を確保する
+test('pickDueSlot: :47の起動が間引かれても次の時台の:02/:17/:32で取り戻せる', () => {
+  const posted5 = jstTime(5, 50, 30);         // 5時台まで投稿済み
+  for (const [hh, mm] of [[7, 2], [7, 17], [7, 32]]) {
+    const picked = new Date(pickDueSlot(jstTime(hh, mm, 30), posted5) + 9 * 3600000).getUTCHours();
+    assert.strictEqual(picked, 6, `${hh}:${mm}では6時台の豆知識を取り戻すべき`);
+  }
+  // 7:47（7時台の解禁後）でも、未投稿の6時台が期限内なら既存のキャッチアップが優先して取り戻す。
+  // 6時台も7時台も豆知識なので、どちらを出しても投稿は1本で同じ。取りこぼしを作らない側に倒す
+  assert.strictEqual(new Date(pickDueSlot(jstTime(7, 47, 30), posted5) + 9 * 3600000).getUTCHours(), 6);
+});
+
+test('pickDueSlot: 投稿直後に再度起動しても同じスロットを二重に選ばない', () => {
+  const posted6 = jstTime(6, 47, 30);         // 6時台を投稿した直後
+  const slot = pickDueSlot(jstTime(7, 2, 30), posted6);
+  // スロット自体は6時台のままだが、lastPostedAtがそれ以降なので呼び出し側で未投稿判定にならない
+  assert.strictEqual(new Date(slot + 9 * 3600000).getUTCHours(), 6);
+  assert.ok(posted6 >= slot, '投稿済み判定(lastPostedAt < slotEpoch)が成立してはいけない');
+});
+
+test('豆知識の在庫警告しきい値は1日の消費本数より多い', () => {
+  const triviaPerDay = Object.values(SLOT_PROFILES).filter(p => p.kind === 'trivia').length;
+  assert.ok(TRIVIA_LOW_STOCK > triviaPerDay,
+    `しきい値(${TRIVIA_LOW_STOCK}本)が1日の消費(${triviaPerDay}本)以下だと、気づいた時には当日中に尽きます`);
 });
 
 test('pickDueSlot: 未投稿の豆知識が本命コンテンツを押しのけない', () => {

@@ -77,6 +77,10 @@ export const TRIVIA_QUIET_HOURS_UNTIL = 6;
 // 振り返り等は生成コストが最も高いコンテンツなので、追いかけずに切り捨てる
 // （豆知識だけがガードされていて、高価な本命コンテンツが無防備だった）
 export const SLOT_QUIET_HOURS_UNTIL = 5;
+// 豆知識ストックの残りがこの本数以下になったらIssueで通知する。
+// 消費は1日5本（6・7・8・10・15時台）なので、8本＝約1.5日分の猶予にあたる。
+// 補充はPC側の手作業タスクなので、気づいてから作るまでの時間を見込んでいる
+export const TRIVIA_LOW_STOCK = 8;
 
 // Secretsコピペ時の前後空白・改行はOAuth署名を壊すため必ず除去する
 const cleanEnv = k => (process.env[k] || '').trim();
@@ -95,31 +99,53 @@ export const SLOT_PROFILES = {
   7:  { kind: 'trivia' },
   8:  { kind: 'trivia' },
   10: { kind: 'trivia' },
-  12: { kind: 'quiz', genre: '今日の午前中の出来事や、スポーツ・芸能・エンタメの明るい話題（昼休みに気軽に楽しめる、重すぎないもの）' },
+  12: { kind: 'quiz', releaseMin: 13, genre: '今日の午前中の出来事や、スポーツ・芸能・エンタメの明るい話題（昼休みに気軽に楽しめる、重すぎないもの）' },
   15: { kind: 'trivia' },
   17: { kind: 'quiz', genre: '今日の主要な時事ニュース（国内・国際・経済・社会から、帰宅時間帯に知っておきたい話題）' },
   20: { kind: 'recap' },
 };
 const POST_SLOTS = Object.keys(SLOT_PROFILES).map(Number).sort((a, b) => a - b);
+// 各スロットの「解禁時刻」＝その時台の何分から投稿してよいか。
+// GitHub Actionsのcronは混雑時に間引かれるため、1スロットにつき複数回の実行機会を用意している
+// （cloud-bot.ymlの 2,17,32,47 分トリガー）。解禁分を設けないと、時台に入った最初の実行が
+// そのまま発火してしまい、投稿時刻が :02〜:47 の間でばらついて番組表どおりにならない。
+// 解禁を :45 にすることで「:47の回で出す。落ちたら次の時台の :02/:17/:32 で取り戻す」となり、
+// 番組表を保ったまま取りこぼしだけを減らせる（実測で毎時cronの約半数が間引かれていた）
+export const DEFAULT_RELEASE_MIN = 45;
+export const releaseMinOf = hour => SLOT_PROFILES[hour]?.releaseMin ?? DEFAULT_RELEASE_MIN;
+// 解禁時刻（時台*60+解禁分）はスロット順に単調増加していなければならない。
+// 崩れると latestSlotEpoch の「最後に一致したスロット」が実際の最新スロットとずれる
+export function slotReleaseOrderOk(slots = POST_SLOTS) {
+  const mins = slots.map(h => h * 60 + releaseMinOf(h));
+  return mins.every((m, i) => i === 0 || m > mins[i - 1]);
+}
 
 // ===== JSTスロット計算 =====
 function jstHourOf(ms) {
   return parseInt(new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: 'numeric', hour12: false }).format(new Date(ms)), 10);
 }
 
-// 現在時刻以前で最も新しい投稿スロットの時刻(epoch ms)を返す
+// 既に解禁されたスロットのうち最も新しいものの時刻(epoch ms)を返す。
+// 返すのは常に「時台の0分」で、解禁分は判定にだけ使う（state.lastPostedAtとの比較や
+// previousSlotEpochが時台単位で組まれているため、スロットの同一性は0分基準のまま保つ）
 function latestSlotEpoch(nowMs) {
   const jst = new Date(nowMs + 9 * 3600 * 1000); // JSTの壁時計をUTCメソッドで読むためのシフト
+  const minutesNow = jst.getUTCHours() * 60 + jst.getUTCMinutes();
   let slotHour = null;
   let dayOffset = 0;
   for (const s of POST_SLOTS) {
-    if (s <= jst.getUTCHours()) slotHour = s;
+    if (s * 60 + releaseMinOf(s) <= minutesNow) slotHour = s;
   }
   if (slotHour === null) { // 今日のスロットがまだ来ていない → 前日の最終スロット
     slotHour = POST_SLOTS[POST_SLOTS.length - 1];
     dayOffset = -1;
   }
   return Date.UTC(jst.getUTCFullYear(), jst.getUTCMonth(), jst.getUTCDate() + dayOffset, slotHour - 9, 0, 0);
+}
+
+// スロットが実際に解禁される時刻(epoch ms)。遅延判定はこの時刻からの経過で測る
+export function slotReleaseEpoch(slotEpoch) {
+  return slotEpoch + releaseMinOf(jstHourOf(slotEpoch)) * 60000;
 }
 
 // 指定スロット時刻の1つ前のスロットのepoch msを返す
@@ -145,7 +171,7 @@ export function pickDueSlot(now, lastPostedAt, maxDelayMin = 360) {
   const prev = previousSlotEpoch(current);
   const kindOf = epoch => (SLOT_PROFILES[jstHourOf(epoch)] || {}).kind;
   const prevUnposted = (lastPostedAt || 0) < prev;
-  const prevInTime = (now - prev) / 60000 <= maxDelayMin;
+  const prevInTime = (now - slotReleaseEpoch(prev)) / 60000 <= maxDelayMin;
   // 前のスロットが豆知識で、今のスロットが本命コンテンツなら、今のスロットを先に出す
   const prevWouldDisplace = kindOf(prev) === 'trivia' && kindOf(current) !== 'trivia';
   if (prevUnposted && prevInTime && !prevWouldDisplace) return prev;
@@ -358,6 +384,14 @@ function signalBreakingPost(headline, tweetId) {
   if (!process.env.GITHUB_OUTPUT) return;
   const line = (headline || '').replace(/[\r\n]+/g, ' ');
   fs.appendFileSync(process.env.GITHUB_OUTPUT, `breaking_posted=true\nbreaking_headline=${line}\nbreaking_tweet_id=${tweetId}\n`);
+}
+
+// 豆知識ストックの残量をcloud-bot.yml側に伝える（GITHUB_OUTPUT経由）。
+// 在庫が尽きてからログに出しても誰も見ないため、切れる前にIssueで通知するための出力
+// （2026-08-05に在庫切れで豆知識が約12時間止まったが、気づけたのは指摘を受けてから）
+function signalTriviaStock(remaining) {
+  if (!process.env.GITHUB_OUTPUT) return;
+  fs.appendFileSync(process.env.GITHUB_OUTPUT, `trivia_remaining=${remaining}\ntrivia_low=${remaining <= TRIVIA_LOW_STOCK ? 'true' : 'false'}\n`);
 }
 
 // 誤投稿の削除用（DELETE_TWEET_ID環境変数が指定された時のみmain()から呼ばれる保守用ユーティリティ）
@@ -1009,6 +1043,12 @@ async function main() {
   canPost(state, now); // 月カウンタの初期化
   console.log(`⏰ JST ${jstHour}時 / スロット: [${POST_SLOTS.join(', ')}] / 直近: ${slotStr}(${profile.kind}) / 今月の投稿: ${state.monthly.posts}/${MONTHLY_POST_LIMIT} / DRY_RUN=${DRY_RUN} / FORCE_POST=${FORCE_POST}`);
 
+  // 豆知識の残量は、豆知識スロットかどうかに関わらず毎回報告する。
+  // 在庫が切れるのは豆知識スロットだが、気づくべきタイミングはその前だから
+  const triviaRemaining = Math.max(0, loadTriviaStock().length - (state.triviaNextIndex || 0));
+  console.log(`📚 豆知識ストックの残り: ${triviaRemaining}本${triviaRemaining <= TRIVIA_LOW_STOCK ? `（残り少なめ・しきい値${TRIVIA_LOW_STOCK}本）` : ''}`);
+  signalTriviaStock(triviaRemaining);
+
   // 訂正・補足の返信モード: REPLY_TO_ID と REPLY_TEXT が両方指定された時だけ、
   // 指定した投稿へ指定した本文をそのままスレッド返信する（保守用）。
   // 誤記に気づいた時の訂正など、AI生成を介さず人が書いた文面を返信するために使う。
@@ -1147,7 +1187,9 @@ async function main() {
   }
 
   // --- 2. 直近スロットが未投稿ならコンテンツを生成して投稿（キャッチアップ方式） ---
-  const delayMin = Math.round((now - slotEpoch) / 60000);
+  // 遅延はスロットの「解禁時刻」からの経過で測る（時台の0分からではない）。
+  // 解禁前にここへ来ることは無いので、この値は常に0以上になる
+  const delayMin = Math.round((now - slotReleaseEpoch(slotEpoch)) / 60000);
   const tooLate = delayMin > 360; // 6時間超の遅延は深夜投稿等になり逆効果なので見送る
   const slotUnposted = (state.lastPostedAt || 0) < slotEpoch;
   const shouldPost = FORCE_POST || (slotUnposted && !tooLate);
