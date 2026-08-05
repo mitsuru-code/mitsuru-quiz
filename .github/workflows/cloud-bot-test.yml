@@ -27,4 +27,4 @@ jobs:
         run: node --check cloud-bot/post-quiz.mjs
 
       - name: 単体テスト
-        run: node --test cloud-bot/test/post-quiz.test.mjs
+        run: node --test cloud-bot/test/post-quiz.test.mjs cloud-bot/test/search-fallback.test.mjs
