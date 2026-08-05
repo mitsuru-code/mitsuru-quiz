@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "Reuters, CNN, CNBC, Al Jazeera, Axios, NPR, Bloomberg, TheStreet, ScienceDaily, Just Security, Havana Times, WORLD Radio, FX Daily Report, Zacks/Yahoo Finance, Investrade, Trading Economics, Inquirer.net",
     "NHK、Japan Times、News On Japan、高校野球ドットコム、Britannica、政府広報オンライン",
     "日本経済新聞「食品消費税1%、政府が閣議決定 財源に外為特会活用案」（2026年8月5日）／沖縄タイムス「食品消費税1％へ きょう閣議決定」（2026年8月5日）",
     "スポーツナビ（Yahoo! JAPAN）「村上宗隆、メジャー自己最長更新の11試合連続安打＆20試合連続出塁」（2026年8月5日）",
     "Reuters, AP, CNBC, Bloomberg, BBC, Al Jazeera, Forbes, WORLD Radio, TheStreet, NPR, Yahoo Finance, Investrade, Wikipedia Current Events",
     "NHK、日本経済新聞、時事通信、Japan Times、Trading Economics、首相官邸、防衛省、Profile News、Kyiv Post",
     "日本経済新聞「農産品輸出10.9%増の8977億円 1〜6月、抹茶やブリ好調で最高更新」／農林水産省発表",
-    "オリコンニュース「梅澤美波 乃木坂４６卒業後の活動を語る」（2026年8月4日）",
-    "BBC、Reuters、Bloomberg、CNBC、TheStreet、AP、Hollywood Reporter、CNN、Variety、TradingKey、The Wire China、Democracy Now、Havana Times、News.az、Inquirer Sports、Wikipedia Current Events、PYMNTS、TipRanks、Crypto Briefing、The Globe and Mail"
+    "オリコンニュース「梅澤美波 乃木坂４６卒業後の活動を語る」（2026年8月4日）"
   ],
   "recentOpeners": [
+    "おはようございます🐹 昨夜のキーウへの大規模攻撃、ホルムズ海峡の合意交渉、そし",
     "熊本地震から1週間。38人が亡くなり、7155人がまだ避難所にいる。その被災地が",
     "食料品の消費税、来年からまさかの「1%」に！🐹\n\n本日閣議決定されたニュース。",
     "ホワイトソックスの村上宗隆が今朝、メジャー自己最長を更新する11試合連続安打を達",
-    "今朝いちばん気になったのは、ホルムズ海峡をめぐる米・イラン交渉の行方。戦争か外交",
-    "熊本地震から今日でちょうど1週間。被災地が猛暑と戦う中、政府は242億円の予備費"
+    "今朝いちばん気になったのは、ホルムズ海峡をめぐる米・イラン交渉の行方。戦争か外交"
   ],
-  "lastPostedAt": 1785927907153,
+  "lastPostedAt": 1785960815808,
   "recentBreaking": [
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
     "南鳥島沖レアアース深海泥50トン・成分世界初判明・中重レアアースが54%超",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 51
+    "posts": 52
   },
-  "breakingDate": "2026-08-05",
+  "breakingDate": "2026-08-06",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1785927907153,
+  "lastAnyPostAt": 1785960815808,
   "postHistory": [
+    {
+      "tweetId": "2085097231385022971",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 昨夜のキーウへの大規模攻撃、ホルムズ海峡の合意交渉、そしてダウ平均の史上最高値更新と、一晩で動きが多すぎた朝です。通勤のお供に、まとめて",
+      "postedAt": 1785960815808
+    },
     {
       "tweetId": "2084959153580314760",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "蜂蜜が長持ちするのは、水分が少ないからです\n\n蜂蜜は糖の濃度が非常に高く、微生物が使える水分がほとんど残っていません。水分活性が低い状態と呼ばれ、菌が増えにくく",
       "postedAt": 1785627582702
-    },
-    {
-      "tweetId": "2083683520489366010",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "アルミホイルの表と裏、性能はほとんど変わりません\n\n光沢のある面と、くもった面がありますよね。あれは2枚重ねて薄く延ばす製造工程でできる差です。ローラーに触れた",
-      "postedAt": 1785623838754
     }
   ],
   "breakingFollowUps": [],
