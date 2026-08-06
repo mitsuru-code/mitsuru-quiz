@@ -14,6 +14,7 @@ import {
   TRIVIA_QUIET_HOURS_UNTIL,
   fixKnownMisspellings,
   pickDueSlot,
+  isSlotUnfulfilled,
   parsePollQuiz,
   detectStockShift,
   SLOT_QUIET_HOURS_UNTIL,
@@ -261,6 +262,31 @@ test('pickDueSlot: 投稿直後に再度起動しても同じスロットを二�
   // スロット自体は6時台のままだが、lastPostedAtがそれ以降なので呼び出し側で未投稿判定にならない
   assert.strictEqual(new Date(slot + 9 * 3600000).getUTCHours(), 6);
   assert.ok(posted6 >= slot, '投稿済み判定(lastPostedAt < slotEpoch)が成立してはいけない');
+});
+
+// 2026-08-06の事故: 7時台の豆知識がcron遅延で8:18に投稿された（投稿時刻が8時台の境界(8:00)を
+// 超えている）。main()が「投稿した生時刻」をそのままslotUnposted判定へ渡していたため、
+// 8時台がまだ未投稿なのに「投稿済み」と誤判定され、その回の豆知識が永久に消えた
+// （同種の事故は速報でも発生: 15:02の速報投稿が15時台の境界(15:00)を超え、15時台の豆知識が消えた）。
+// 修正後は「実際に消化したスロットのepoch」(state.lastSlotFulfilledEpoch)を渡すようにしている
+test('isSlotUnfulfilled: 投稿の生時刻を渡すと、次のスロットを誤って済扱いにする（回帰テスト・バグ再現）', () => {
+  const slot7PostedAtRaw = jstTime(8, 18, 6); // 7時台の豆知識を8:18に投稿（8時台の境界(8:00)を超えている）
+  const slot8Epoch = jstTime(8, 0, 6);
+  // バグ: 生の投稿時刻をそのまま渡すと「8時台は済んでいる」という誤った結果になる
+  assert.strictEqual(isSlotUnfulfilled(slot7PostedAtRaw, slot8Epoch), false,
+    '（現状の挙動の記録）投稿の生時刻を渡すと8時台が済扱いになってしまう＝バグ再現');
+});
+
+test('isSlotUnfulfilled: 実際に消化したスロットのepochを渡せば、次のスロットは正しく未消化と判定される（修正）', () => {
+  const slot7Epoch = jstTime(7, 0, 6); // 7時台の豆知識は消化済み（7時台のepochを記録）
+  const slot8Epoch = jstTime(8, 0, 6);
+  assert.strictEqual(isSlotUnfulfilled(slot7Epoch, slot8Epoch), true,
+    '7時台の消化だけでは8時台はまだ未消化のはず');
+});
+
+test('isSlotUnfulfilled: 消化済みのスロット自身は未消化と判定されない', () => {
+  const slot8Epoch = jstTime(8, 0, 6);
+  assert.strictEqual(isSlotUnfulfilled(slot8Epoch, slot8Epoch), false);
 });
 
 test('豆知識の在庫警告しきい値は1日の消費本数より多い', () => {
