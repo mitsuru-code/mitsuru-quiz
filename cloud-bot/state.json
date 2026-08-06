@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2085304978537644497",
-      "answer": "正解は「午前8時15分」でした！参加してくれてありがとうございます🐹\n\n1945年8月6日、広島に原爆が投下されたのは午前8時15分。今年の平和記念式典でも、まさにこの時刻に平和の鐘とサイレンが鳴らされ、参列者全員が1分間の黙とうを捧げました。被爆から81年が経ちます。\n\n🌰豆知識：広島への原爆（リトルボーイ）はB-29爆撃機「エノラ・ゲイ」から投下されました。爆発の高さは地上約600メートルで、爆心地周辺の気温は一瞬で数千度に達したとされています。",
-      "sourceUrl": "https://kanko-h.com/info/?p=50792",
-      "question": "今日・8月6日は広島に原爆が投下されてから81年。平和記念式典では、ある時刻にサイレンが鳴り響き、全員で黙とうが捧げられ",
-      "postedAt": 1786010404343,
-      "dueAt": 1786017604343,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE",
     "広島市公式ウェブサイト・広島観光情報総合サイト「旅やか広島」「被爆81年を迎える広島 平和記念式典と園内平和イベントの全内容」",
     "Reuters, CNN, CNBC, Al Jazeera, Axios, NPR, Bloomberg, TheStreet, ScienceDaily, Just Security, Havana Times, WORLD Radio, FX Daily Report, Zacks/Yahoo Finance, Investrade, Trading Economics, Inquirer.net",
     "NHK、Japan Times、News On Japan、高校野球ドットコム、Britannica、政府広報オンライン",
     "日本経済新聞「食品消費税1%、政府が閣議決定 財源に外為特会活用案」（2026年8月5日）／沖縄タイムス「食品消費税1％へ きょう閣議決定」（2026年8月5日）",
     "スポーツナビ（Yahoo! JAPAN）「村上宗隆、メジャー自己最長更新の11試合連続安打＆20試合連続出塁」（2026年8月5日）",
     "Reuters, AP, CNBC, Bloomberg, BBC, Al Jazeera, Forbes, WORLD Radio, TheStreet, NPR, Yahoo Finance, Investrade, Wikipedia Current Events",
-    "NHK、日本経済新聞、時事通信、Japan Times、Trading Economics、首相官邸、防衛省、Profile News、Kyiv Post",
-    "日本経済新聞「農産品輸出10.9%増の8977億円 1〜6月、抹茶やブリ好調で最高更新」／農林水産省発表"
+    "NHK、日本経済新聞、時事通信、Japan Times、Trading Economics、首相官邸、防衛省、Profile News、Kyiv Post"
   ],
   "recentOpeners": [
+    "8月6日、広島に原爆が落とされて81年。夜になっても、あの朝の「8時15分」のこ",
     "今日・8月6日は広島に原爆が投下されてから81年。平和記念式典では、ある時刻にサ",
     "「にんげんっていいな」をまさか生で聴ける日が来るとは🐹\n\n8月5日開幕の舞台「",
     "おはようございます🐹 昨夜のキーウへの大規模攻撃、ホルムズ海峡の合意交渉、そし",
-    "熊本地震から1週間。38人が亡くなり、7155人がまだ避難所にいる。その被災地が",
-    "食料品の消費税、来年からまさかの「1%」に！🐹\n\n本日閣議決定されたニュース。"
+    "熊本地震から1週間。38人が亡くなり、7155人がまだ避難所にいる。その被災地が"
   ],
-  "lastPostedAt": 1786010404343,
+  "lastPostedAt": 1786018162677,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 58
+    "posts": 60
   },
   "breakingDate": "2026-08-06",
   "breakingCount": 1,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786010404343,
+  "lastAnyPostAt": 1786018162677,
   "postHistory": [
+    {
+      "tweetId": "2085337833028632768",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "8月6日、広島に原爆が落とされて81年。夜になっても、あの朝の「8時15分」のことを考えてしまいます。\n\n今日のニュース、どれだけ頭に残っていますか？振り返って",
+      "postedAt": 1786018162677
+    },
     {
       "tweetId": "2085304978537644497",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "古い窓ガラスの下が厚いのは、流れたからではありません\n\nガラスは長い年月をかけて流れる液体だ、という話を聞いたことがあるかもしれません。これは否定されています。",
       "postedAt": 1785706551491
-    },
-    {
-      "tweetId": "2084008443308912895",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "おはようございます🐹 月曜の朝、世界はどこも動き続けていました。ホルムズ海峡・ウクライナ・欧州の移民問題……今週も話題に事欠きません。では今朝のブリーフィング",
-      "postedAt": 1785701241542
     }
   ],
   "breakingFollowUps": [],
