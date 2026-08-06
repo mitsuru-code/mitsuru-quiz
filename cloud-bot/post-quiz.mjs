@@ -123,7 +123,7 @@ export function slotReleaseOrderOk(slots = POST_SLOTS) {
 }
 
 // ===== JSTスロット計算 =====
-function jstHourOf(ms) {
+export function jstHourOf(ms) {
   return parseInt(new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: 'numeric', hour12: false }).format(new Date(ms)), 10);
 }
 
