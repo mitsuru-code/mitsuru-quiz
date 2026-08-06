@@ -72,7 +72,7 @@ GitHub Actions（15分おきに起動。※GitHub都合で遅延・スキップ�
 > - **切り戻し**: `SEARCH_MODE=tool` で従来方式に戻ります。手動実行（workflow_dispatch）の`search_mode`と`dry_run`を組み合わせると、同じ日の内容を両モードで生成して読み比べできます。
 > - **コストの実測**: 毎回の実行ログに `🔢 claude-sonnet-4-6 入力… 出力… 検索…回 (selfモード)` が出ます。推定ではなく実測で削減効果を追えます。
 >
-> ⚠️ **速報関連（`generateFeature` / `generateFollowUp` / `checkBreaking`）は従来のツール方式のままです。** `BREAKING_ENABLED=false`で停止中のため移行対象から外しました。再開する場合は同じ方式に揃えてください。
+> ⚠️ **速報関連（`generateFeature` / `generateFollowUp`）は従来のツール方式のままです。** `checkBreaking`のみ2026-08-06にX API Trends（$0.010/回）を先に取得してから探索する方式へ変更し、`BREAKING_ENABLED`も`true`に戻して再開しました。トレンド取得が失敗した場合は従来のオープンエンド探索にフォールバックします。`generateFeature`/`generateFollowUp`はまだ移行対象外です。
 
 > 💡 **月間投稿数の安全上限**: `MONTHLY_POST_LIMIT`（既定450件）に達すると、その月は投稿を自動で見送ります。X無料プランの投稿数上限を超えないための保険です。
 
@@ -167,7 +167,7 @@ GitHubリポジトリの **Settings → Secrets and variables → Actions → Ne
 |---|---|---|
 | `ANSWER_DELAY_HOURS` | `2` | 正解返信・Poll投票期間の長さ |
 | `MONTHLY_POST_LIMIT` | `450` | 月間投稿数の安全上限（超えると投稿を見送る） |
-| `BREAKING_ENABLED` | **現在`false`（停止中）** | `false`で速報チェックを中止（自動検知・続報・朝9:30〜11:00の代替クイズもすべて停止）。再開する場合は`true`に戻す |
+| `BREAKING_ENABLED` | **現在`true`（稼働中）** | `false`で速報チェックを中止（自動検知・続報・朝9:30〜11:00の代替クイズもすべて停止）。2026-08-06にTrends先読み方式へ変更のうえ再開 |
 
 投稿する時刻（5/6/7/8/10/12/15/17/20時台）を変えたい場合は、`cloud-bot/post-quiz.mjs` 冒頭の `SLOT_PROFILES` を編集してください。分単位でずらしたい場合は該当スロットに `releaseMin` を足します（既定45分。解禁時刻がスロット順に単調増加している必要があり、崩れるとテストが落ちます）。cronは15分おきの汎用トリガーがすべてのスロットをカバーするため、通常は追加不要です。速報チェックの時刻・上限回数を変えたい場合は同ファイルの `BREAKING_CHECKPOINTS` / `BREAKING_MAX_PER_DAY` を編集し、時刻を変更した場合は `.github/workflows/cloud-bot.yml` の対応するcronトリガーも忘れずに変更してください。
 
