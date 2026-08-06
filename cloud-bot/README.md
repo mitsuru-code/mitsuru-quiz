@@ -206,6 +206,8 @@ GitHubリポジトリの **Settings → Secrets and variables → Actions → Ne
 
 実行が失敗すると、リポジトリに **「🚨 Cloud Bot の実行が失敗しています」というIssueが自動作成**され、GitHubから通知が届きます。Issueに書かれた実行ログのリンクから ❌ で始まる行を確認してください。解決したらIssueをクローズしてください（クローズするまで重複Issueは作られず、再失敗は同じIssueへのコメントで通知されます）。
 
+> 💡 **ワークフロー自体が動けない場合は、上記の失敗通知も動きません**: 2026-08-06のGitHub Actions大規模障害（ホストランナーを確保できずジョブが1ステップも実行されないまま終了する）では、本体のどのステップも実行されないため「失敗をIssueで通知」ステップ自体も動けず、3時間以上投稿が止まっても誰にも気づけませんでした。この穴を埋めるため、**別ワークフロー `.github/workflows/cloud-bot-watchdog.yml`（デッドマン・スイッチ）を30分おきに独立して動かしています**。Anthropic/X APIのSecretsを使わずstate.jsonの投稿状況だけを読み、直近スロットの解禁から90分（`cloud-bot/watchdog.mjs`の`WATCHDOG_THRESHOLD_MIN`）を超えて投稿が無ければ `cloud-bot-silence` ラベルのIssueを作成します。20時台の振り返り→翌5時台のブリーフィングという番組表上の最長ギャップ（最大9時間）は誤検知しません。投稿が再開すると次回のチェックで自動的にクローズされます。
+
 ## 停止方法
 
 - **一時停止**: Actions タブ → Cloud Bot → 右上「…」→ **Disable workflow**
