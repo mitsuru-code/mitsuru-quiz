@@ -1,33 +1,23 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2085660747242369248",
-      "answer": "正解は「③ 50歳以上の成人」でした！投票してくれたみなさん、ありがとうございます🐹\n\n今回FDAが承認した「mFLUSIVA」は、50歳以上の成人が対象。50〜64歳には通常の正式承認、65歳以上には条件付きの加速承認（追加臨床試験が必要）という形です。\n後期臨床試験では、従来の標準用量ワクチンと比べて約27%高い有効性が確認されています。\n\n🌰豆知識：従来のインフルワクチンは鶏卵で製造するため約半年かかりますが、mRNA技術なら約6週間で製造できます。その年に流行している株により素早く対応できるのが最大のメリットです。\n（出典: NBC News・STAT News・株探）",
-      "sourceUrl": "https://www.nbcnews.com/health/health-news/fda-approves-1st-mrna-flu-shot-moderna-rcna590599",
-      "question": "コロナワクチンで使われたあの技術が、ついにインフルエンザに！🐹\n\n米FDA（食品医薬品局）が8月5日、モデルナのmRN",
-      "postedAt": 1786095223813,
-      "dueAt": 1786102423813,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
+    "NHK、Jリーグ公式、日本高野連、tenki.jp・気象庁、Japan Guide、News On Japan、政府広報オンライン、Al Jazeera、CNN、NPR、時事ドットコム、デイリースポーツ、Olympics.com",
     "NBC News「FDA approves 1st mRNA flu shot, from Moderna」／STAT News「FDA approves Moderna's mRNA flu vaccine, the first to use the technology」／株探「モデルナ、FDAがインフルエンザのワクチンを承認」",
     "dメニュースポーツ「千賀滉大 選手情報 ニューヨーク・メッツ」／MLB.com Japan「メッツ千賀滉大、開幕第5戦で先発へ」",
     "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE",
     "広島市公式ウェブサイト・広島観光情報総合サイト「旅やか広島」「被爆81年を迎える広島 平和記念式典と園内平和イベントの全内容」",
     "Reuters, CNN, CNBC, Al Jazeera, Axios, NPR, Bloomberg, TheStreet, ScienceDaily, Just Security, Havana Times, WORLD Radio, FX Daily Report, Zacks/Yahoo Finance, Investrade, Trading Economics, Inquirer.net",
     "NHK、Japan Times、News On Japan、高校野球ドットコム、Britannica、政府広報オンライン",
-    "日本経済新聞「食品消費税1%、政府が閣議決定 財源に外為特会活用案」（2026年8月5日）／沖縄タイムス「食品消費税1％へ きょう閣議決定」（2026年8月5日）",
-    "スポーツナビ（Yahoo! JAPAN）「村上宗隆、メジャー自己最長更新の11試合連続安打＆20試合連続出塁」（2026年8月5日）"
+    "日本経済新聞「食品消費税1%、政府が閣議決定 財源に外為特会活用案」（2026年8月5日）／沖縄タイムス「食品消費税1％へ きょう閣議決定」（2026年8月5日）"
   ],
   "recentOpeners": [
+    "今日からJリーグが秋春制に移行して新開幕。日本サッカーが「世界の時計」に合わせた",
     "コロナワクチンで使われたあの技術が、ついにインフルエンザに！🐹\n\n米FDA（食",
     "メッツ・千賀滉大が8月4日にリリーフ登板し、1回をノーヒット無失点🐹\n\n今季こ",
     "8月6日、広島に原爆が落とされて81年。夜になっても、あの朝の「8時15分」のこ",
-    "今日・8月6日は広島に原爆が投下されてから81年。平和記念式典では、ある時刻にサ",
-    "「にんげんっていいな」をまさか生で聴ける日が来るとは🐹\n\n8月5日開幕の舞台「"
+    "今日・8月6日は広島に原爆が投下されてから81年。平和記念式典では、ある時刻にサ"
   ],
-  "lastPostedAt": 1786095223813,
+  "lastPostedAt": 1786105771085,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 66
+    "posts": 68
   },
   "breakingDate": "2026-08-07",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786095223813,
+  "lastAnyPostAt": 1786105771085,
   "postHistory": [
+    {
+      "tweetId": "2085705191958175932",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "今日からJリーグが秋春制に移行して新開幕。日本サッカーが「世界の時計」に合わせた歴史的な日でもあります🐹 金曜おつかれさまでした。8月7日のニュース、何問わか",
+      "postedAt": 1786105771085
+    },
     {
       "tweetId": "2085660747242369248",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "経済・二択",
       "textPreview": "28年ぶりの「円買い協調介入」が確認されました🐹\n\n7月31日に実施された日米協調の円買い介入。前回、円買いの日米協調介入が行われたのはいつの出来事がきっかけ",
       "postedAt": 1785745320665
-    },
-    {
-      "tweetId": "2084165346584608951",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "曜日の名前は、空に見える星から来ています\n\n日と月は太陽と月。火水木金土は、火星、水星、木星、金星、土星です。肉眼で見える七つの天体を一週間に当てはめた古い考え",
-      "postedAt": 1785738714567
     }
   ],
   "breakingFollowUps": [],
