@@ -17,7 +17,7 @@
     "おはようございます🐹 昨夜のキーウへの大規模攻撃、ホルムズ海峡の合意交渉、そし",
     "熊本地震から1週間。38人が亡くなり、7155人がまだ避難所にいる。その被災地が"
   ],
-  "lastPostedAt": 1786018162677,
+  "lastPostedAt": 1786061837013,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 61
+    "posts": 62
   },
-  "breakingDate": "2026-08-06",
-  "breakingCount": 1,
+  "breakingDate": "2026-08-07",
+  "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786018162677,
+  "lastAnyPostAt": 1786061837013,
   "postHistory": [
+    {
+      "tweetId": "2085520618389217607",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "味噌汁は、味噌を入れてから煮立たせないほうがいいそうです\n\n味噌の香りのもとは熱で飛びやすい成分です。ぐらぐら煮立たせると香りが逃げ、風味が落ちます。だから味噌",
+      "postedAt": 1786061837013
+    },
     {
       "tweetId": "2085343950555247064",
       "kind": "reply",
@@ -241,19 +248,10 @@
       "category": "豆知識記事",
       "textPreview": "紙は、7回か8回しか折れません\n\n折るたびに厚さは2倍になります。1回で2枚分、10回で1024枚分。普通の大きさの紙なら7回か8回で、厚さと硬さが手に負えなく",
       "postedAt": 1785714017059
-    },
-    {
-      "tweetId": "2084046057684824560",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "音は、水の中のほうが速く伝わります\n\n空気中では毎秒およそ340メートルですが、水中では約1500メートル。4倍以上の速さです。音は物質の振動が伝わる現象なので",
-      "postedAt": 1785710274305
     }
   ],
   "breakingFollowUps": [],
-  "breakingCheckpointsDone": [
-    "2026-08-06_15:00"
-  ],
-  "triviaNextIndex": 41,
-  "triviaLastPostedHead": "辛さは、実は味覚ではありません\n\n甘い、しょっぱい、酸っぱい、苦い、うま味の五つ"
+  "breakingCheckpointsDone": [],
+  "triviaNextIndex": 42,
+  "triviaLastPostedHead": "味噌汁は、味噌を入れてから煮立たせないほうがいいそうです\n\n味噌の香りのもとは熱"
 }
