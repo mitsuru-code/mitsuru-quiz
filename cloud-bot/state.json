@@ -261,7 +261,9 @@
     }
   ],
   "breakingFollowUps": [],
-  "breakingCheckpointsDone": [],
+  "breakingCheckpointsDone": [
+    "2026-08-07_14:00"
+  ],
   "triviaNextIndex": 42,
   "triviaLastPostedHead": "味噌汁は、味噌を入れてから煮立たせないほうがいいそうです\n\n味噌の香りのもとは熱"
 }
