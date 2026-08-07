@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2085569462988599303",
-      "answer": "正解は「1点台」でした！たくさん投票してくれてありがとう🐹\n\n千賀滉大は2026年シーズンここまで、73回2/3を投げて防御率1.47という抜群の数字をマークしています。8月4日（現地）のガーディアンズ戦でもリリーフ登板し、1イニングをノーヒット無失点に抑える好投を見せました。\n\n🌰豆知識\n千賀の代名詞「お化けフォーク」は、打者の手元で鋭く落ちる変化球。メジャーの強打者たちも「見えない」とお手上げ状態になることで知られています🐹",
-      "sourceUrl": "https://baseball.sports.smt.docomo.ne.jp/mlb/player/2320311.html",
-      "question": "メッツ・千賀滉大が8月4日にリリーフ登板し、1回をノーヒット無失点🐹\n\n今季ここまで（2026年）の千賀の防御率はどの",
-      "postedAt": 1786073447685,
-      "dueAt": 1786080647685,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "dメニュースポーツ「千賀滉大 選手情報 ニューヨーク・メッツ」／MLB.com Japan「メッツ千賀滉大、開幕第5戦で先発へ」",
     "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE",
@@ -27,7 +17,7 @@
     "「にんげんっていいな」をまさか生で聴ける日が来るとは🐹\n\n8月5日開幕の舞台「",
     "おはようございます🐹 昨夜のキーウへの大規模攻撃、ホルムズ海峡の合意交渉、そし"
   ],
-  "lastPostedAt": 1786073447685,
+  "lastPostedAt": 1786085346558,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 63
+    "posts": 65
   },
   "breakingDate": "2026-08-07",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786073447685,
+  "lastAnyPostAt": 1786085346558,
   "postHistory": [
+    {
+      "tweetId": "2085619226350420343",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "こんにゃくの9割以上は、水です\n\nこんにゃく芋の粉に大量の水を加え、凝固剤で固めたものがこんにゃくです。重さのほとんどは水で、形を保っているのはごくわずかな成分",
+      "postedAt": 1786085346558
+    },
     {
       "tweetId": "2085569462988599303",
       "kind": "quiz",
@@ -251,19 +248,12 @@
       "category": "スポーツ・二択",
       "textPreview": "今日がMLBトレード期限！侍ジャパンファン注目の選手🐹\n\nカージナルスのラーズ・ヌートバー（28）に複数球団が獲得の名乗り。2023年WBCで一世を風靡した彼",
       "postedAt": 1785729856944
-    },
-    {
-      "tweetId": "2084085478857335061",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "北極星は、ずっと北にいるわけではありません\n\n地球の地軸はコマのようにゆっくり首を振っていて、およそ2万6千年かけて一周します。そのため北を指す星は入れ替わりま",
-      "postedAt": 1785719673069
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [
     "2026-08-07_14:00"
   ],
-  "triviaNextIndex": 42,
-  "triviaLastPostedHead": "味噌汁は、味噌を入れてから煮立たせないほうがいいそうです\n\n味噌の香りのもとは熱"
+  "triviaNextIndex": 43,
+  "triviaLastPostedHead": "こんにゃくの9割以上は、水です\n\nこんにゃく芋の粉に大量の水を加え、凝固剤で固め"
 }
