@@ -194,6 +194,37 @@ jobs:
             echo "補充されたためIssue #$issue_number をクローズしました"
           fi
 
+      # 速報検知はX APIのTrendsを起点にしているが、取得に失敗しても従来のオープンエンド探索に
+      # フォールバックして「一見正常に」動き続ける。課金設定漏れ・権限不足・仕様変更で
+      # ずっとトレンドが取れていない状態に気づけないため、連続失敗をIssueで通知する
+      - name: トレンド取得の異常をIssueで通知
+        if: always() && steps.post.outputs.trends_count != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COUNT: ${{ steps.post.outputs.trends_count }}
+          STREAK: ${{ steps.post.outputs.trends_fail_streak }}
+          UNHEALTHY: ${{ steps.post.outputs.trends_unhealthy }}
+          TRENDS_ERROR: ${{ steps.post.outputs.trends_error }}
+        run: |
+          gh label create trends-unhealthy --repo "${{ github.repository }}" --color D93F0B --description "X API Trendsの取得が連続で失敗している" 2>/dev/null || true
+          issue_number=$(gh issue list --repo "${{ github.repository }}" --label trends-unhealthy --state open --json number --jq '.[0].number // empty')
+          if [ "$UNHEALTHY" = "true" ]; then
+            if [ -n "$issue_number" ]; then
+              echo "既にIssue #$issue_number が開いています（連続失敗 ${STREAK}回）。重複通知はしません"
+              exit 0
+            fi
+            gh issue create --repo "${{ github.repository }}" \
+              --label trends-unhealthy \
+              --title "📉 X API Trendsの取得が ${STREAK}回連続で失敗しています" \
+              --body "$(printf 'X APIのトレンド取得が %s回連続で失敗しています。\n\n直近のエラー: %s\n\n速報機能そのものは従来のオープンエンド検索にフォールバックして動き続けるため、投稿が止まることはありません。ただしトレンドを起点にする改修の効果が出ていない状態です。\n\n確認してほしいこと:\n- X Developer Portal で従量課金（pay-per-use）が有効か\n- 利用中のプランで /2/trends/by/woeid が使えるか\n- APIキー・トークンのSecretsが失効していないか\n\n復旧すると、このIssueは次の実行で自動的にクローズされます。' "$STREAK" "$TRENDS_ERROR")"
+            echo "トレンド取得異常のIssueを作成しました（連続失敗 ${STREAK}回）"
+          elif [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --repo "${{ github.repository }}" \
+              --reason completed \
+              --comment "トレンド取得の復旧を確認しました（${COUNT}件取得）。自動的にクローズします。"
+            echo "復旧したためIssue #$issue_number をクローズしました"
+          fi
+
       - name: 失敗をIssueで通知
         if: failure()
         env:

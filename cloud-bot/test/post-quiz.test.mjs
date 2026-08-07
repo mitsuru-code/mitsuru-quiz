@@ -118,9 +118,32 @@ test('findDueCheckpoint: 猶予時間内（cron遅延を想定した20分後）�
   assert.strictEqual(cp.hm, '09:30');
 });
 
-test('findDueCheckpoint: 猶予切れの古いチェックポイントは飛ばして次にヒットする', () => {
+test('findDueCheckpoint: 複数の枠が同時に該当したら最も新しい枠を返す', () => {
+  // 猶予75分なので10:20時点では09:30枠もまだ窓の中だが、速報は鮮度が命なので新しい方を採る
   const cp = findDueCheckpoint(jstTime(10, 20), []);
   assert.strictEqual(cp.hm, '10:00');
+});
+
+test('findDueCheckpoint: 追い越された古い枠はstaleKeysで捨てるよう報告する', () => {
+  const todayKey = jstDateKey(jstTime(10, 20));
+  const cp = findDueCheckpoint(jstTime(10, 20), []);
+  assert.deepStrictEqual(cp.staleKeys, [`${todayKey}_09:30`]);
+});
+
+test('findDueCheckpoint: 該当が1枠だけならstaleKeysは空', () => {
+  const cp = findDueCheckpoint(jstTime(9, 30), []);
+  assert.deepStrictEqual(cp.staleKeys, []);
+});
+
+test('findDueCheckpoint: 猶予を75分に広げたのでcron間引き後の遅い起動でも拾える', () => {
+  // 実測（2026-08-07）で落ちていたケース: 15:00枠に対し15:49に起動（旧45分窓では対象外だった）
+  const cp = findDueCheckpoint(jstTime(15, 49), []);
+  assert.strictEqual(cp.hm, '15:00');
+});
+
+test('findDueCheckpoint: 猶予を過ぎきった枠はもう拾わない', () => {
+  // 16:00枠の窓は17:15まで。17:20の起動では当日分は全て期限切れ
+  assert.strictEqual(findDueCheckpoint(jstTime(17, 20), []), null);
 });
 
 test('findDueCheckpoint: 深夜2:00/4:00はforceArticle=trueでヒットする', () => {

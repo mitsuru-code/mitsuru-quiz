@@ -62,7 +62,11 @@ const BREAKING_CHECKPOINTS = [
   { hm: '15:00', fallback: null,   forceArticle: false },
   { hm: '16:00', fallback: null,   forceArticle: false },
 ];
-const BREAKING_CHECKPOINT_WINDOW_MIN = 45; // cronの起動遅延・投稿間隔調整による再試行を許容する猶予（分）
+// cronの起動遅延・投稿間隔調整による再試行を許容する猶予（分）。
+// 2026-08-07: 45→75分。実測（8/7）では9枠のうち14:00しか処理されておらず、15:00枠は
+// 15:49の起動が窓（15:00〜15:45）を4分過ぎていたため丸ごと落ちていた。GitHub Actionsの
+// スケジュール間引きは前提条件（このファイル冒頭のcronコメント参照）なので窓側で吸収する。
+const BREAKING_CHECKPOINT_WINDOW_MIN = 75;
 // チェックポイントが9箇所に増えたため、旧来の「1日2回」から引き上げる
 // （checkBreaking自体は「明確な場合のみtrue」と保守的に判定するため、実際に全枠が
 // 該当することは想定していない。運用してみて多すぎる/少なすぎる場合は要調整）
@@ -194,21 +198,29 @@ export function jstDateLabel(ms) {
 
 // 現在時刻に対して「今日まだ未処理」かつ「予定時刻を過ぎて猶予時間内」の
 // 速報チェックポイントを1件返す（無ければnull）。doneKeysは当日処理済みの"日付_時刻"キー一覧
+//
+// 2026-08-07: 窓を75分に広げたことで、1回の起動で複数の枠が同時に該当しうるようになった。
+// 配列順（＝時刻の昇順）で先頭を拾うと古い枠から消化することになり、たとえば16:10の起動で
+// 15:00枠の速報を今さら投稿してしまう。速報は鮮度が命なので**最も新しい枠だけを処理し**、
+// それより古い未処理枠は staleKeys として返して呼び出し側で「処理済み」に倒す（＝捨てる）。
 export function findDueCheckpoint(now, doneKeys) {
   const todayKey = jstDateKey(now);
   const hhmm = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(now));
   const [h, m] = hhmm.split(':').map(Number);
   const nowMin = h * 60 + m;
+  const due = [];
   for (const cp of BREAKING_CHECKPOINTS) {
     const key = `${todayKey}_${cp.hm}`;
     if (doneKeys.includes(key)) continue;
     const [ch, cm] = cp.hm.split(':').map(Number);
     const cpMin = ch * 60 + cm;
     if (nowMin >= cpMin && nowMin < cpMin + BREAKING_CHECKPOINT_WINDOW_MIN) {
-      return { ...cp, key };
+      due.push({ ...cp, key, cpMin });
     }
   }
-  return null;
+  if (!due.length) return null;
+  const latest = due.reduce((a, b) => (b.cpMin > a.cpMin ? b : a));
+  return { ...latest, staleKeys: due.filter(d => d.key !== latest.key).map(d => d.key) };
 }
 
 // ===== X API: OAuth 1.0a（server.js から移植した実績コード） =====
@@ -268,16 +280,41 @@ function apiGet(urlPath, queryParams) {
 // ニュース性の判定はここではせずcheckBreaking側のプロンプトでClaudeに一段判定させる
 // （固定ワードでの機械的フィルタは誤検出しやすく、実例（別プロジェクト）でも機能しなかった）
 const JAPAN_WOEID = '23424856';
-async function fetchTrends() {
+// 2026-08-07: 取得の成否をstateに記録するようにした。失敗してもフォールバックで動き続ける設計のため、
+// 「実は一度もトレンドが取れておらず、改修前と同じ動作をしていた」という劣化に誰も気づけなかった
+// （Actionsのログは開かないと見えず保持期限もある）。連続失敗はIssueで通知する。
+const TRENDS_FAIL_STREAK_ALERT = 3; // 単発の失敗はレート制限等でありうるので、これだけ続いたら異常とみなす
+async function fetchTrends(state) {
+  const record = (count, error) => {
+    if (!state) return;
+    state.lastTrendsAt = Date.now();
+    state.lastTrendsCount = count;
+    state.lastTrendsError = error || null;
+    state.trendsFailStreak = count > 0 ? 0 : (state.trendsFailStreak || 0) + 1;
+  };
   try {
     const json = await apiGet(`/2/trends/by/woeid/${JAPAN_WOEID}`, { max_trends: '20' });
     const names = (json.data || []).map(t => t.trend_name).filter(Boolean);
     console.log(`📈 トレンド取得: ${names.length}件`);
+    // 例外は出ていないが0件、というのも「取れていない」ことに変わりはないので失敗として数える
+    record(names.length, names.length ? null : 'レスポンスは正常だがトレンドが0件');
     return names;
   } catch (e) {
     console.log(`⚠️ トレンド取得に失敗（従来のオープンエンド探索にフォールバック）: ${e.message}`);
+    record(0, e.message);
     return [];
   }
+}
+
+// トレンド取得の状況をcloud-bot.yml側に伝える（GITHUB_OUTPUT経由）。
+// 豆知識ストックと同じく、異常時はIssueを立てて復旧したら自動クローズする
+function signalTrendsHealth(state) {
+  if (!process.env.GITHUB_OUTPUT || !state || state.lastTrendsCount === undefined) return;
+  const streak = state.trendsFailStreak || 0;
+  const err = String(state.lastTrendsError || '').replace(/[\r\n]+/g, ' ').slice(0, 200);
+  fs.appendFileSync(process.env.GITHUB_OUTPUT,
+    `trends_count=${state.lastTrendsCount}\ntrends_fail_streak=${streak}\n` +
+    `trends_unhealthy=${streak >= TRENDS_FAIL_STREAK_ALERT ? 'true' : 'false'}\ntrends_error=${err}\n`);
 }
 
 // 投票結果を取得し「A案 62% / B案 38%」のような文字列にする。
@@ -861,7 +898,8 @@ category: 特集記事`;
 // 探索プロンプトにフォールバックする（速報機能自体を止めないため）
 async function checkBreaking(state) {
   const recentBreaking = (state.recentBreaking || []).join(' / ');
-  const trends = await fetchTrends();
+  const trends = await fetchTrends(state);
+  signalTrendsHealth(state);
   const trendsBlock = trends.length
     ? `【現在の日本のトレンド語（上位${trends.length}件・投稿数上位順ではなく検索APIの返却順）】\n${trends.join(' / ')}\n\nまずこのトレンド語の中から「ニュース性のある話題」を探してください。ゲーム・アニメ・アイドルのファン活動系ハッシュタグ（作品名・記念日・キャンペーン等）はニュースではないので除外すること。候補が見つかったら、そのワードについてWeb検索で内容を確認してください。`
     : 'Web検索で「今まさに話題が急拡大しているニュース・出来事」を調べてください。';
@@ -1473,6 +1511,12 @@ async function main() {
   if (state.breakingDate !== today) { state.breakingDate = today; state.breakingCount = 0; }
   state.breakingCheckpointsDone = (state.breakingCheckpointsDone || []).filter(k => k.startsWith(today));
   const checkpoint = BREAKING_ENABLED ? findDueCheckpoint(now, state.breakingCheckpointsDone) : null;
+  if (checkpoint?.staleKeys?.length) {
+    // 猶予窓内に複数枠が溜まっていた場合、古い枠は今さら速報にすると鮮度が落ちるので捨てる
+    console.log(`⏭ 古い速報チェック枠は鮮度が落ちるため破棄します: ${checkpoint.staleKeys.join(', ')}`);
+    state.breakingCheckpointsDone.push(...checkpoint.staleKeys);
+    stateChanged = true;
+  }
   if (checkpoint && !process.env.MOCK_QUIZ_JSON) { // MOCKテスト時はスロット側のみ検証
     if (state.breakingCount >= BREAKING_MAX_PER_DAY) {
       console.log(`⏭ 固定時刻チェック(${checkpoint.hm})は本日の速報投稿上限（${BREAKING_MAX_PER_DAY}回）に達しているため見送ります`);
