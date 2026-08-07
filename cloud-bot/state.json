@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "CNBC, TheStreet, NPR, CNN, ABC News, AP, The Hill, PBS NewsHour, Just Security, WORLD Radio, Wikipedia, Trading Economics, FDD Overnight Brief",
     "NHK、Jリーグ公式、日本高野連、tenki.jp・気象庁、Japan Guide、News On Japan、政府広報オンライン、Al Jazeera、CNN、NPR、時事ドットコム、デイリースポーツ、Olympics.com",
     "NBC News「FDA approves 1st mRNA flu shot, from Moderna」／STAT News「FDA approves Moderna's mRNA flu vaccine, the first to use the technology」／株探「モデルナ、FDAがインフルエンザのワクチンを承認」",
     "dメニュースポーツ「千賀滉大 選手情報 ニューヨーク・メッツ」／MLB.com Japan「メッツ千賀滉大、開幕第5戦で先発へ」",
     "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE",
     "広島市公式ウェブサイト・広島観光情報総合サイト「旅やか広島」「被爆81年を迎える広島 平和記念式典と園内平和イベントの全内容」",
     "Reuters, CNN, CNBC, Al Jazeera, Axios, NPR, Bloomberg, TheStreet, ScienceDaily, Just Security, Havana Times, WORLD Radio, FX Daily Report, Zacks/Yahoo Finance, Investrade, Trading Economics, Inquirer.net",
-    "NHK、Japan Times、News On Japan、高校野球ドットコム、Britannica、政府広報オンライン",
-    "日本経済新聞「食品消費税1%、政府が閣議決定 財源に外為特会活用案」（2026年8月5日）／沖縄タイムス「食品消費税1％へ きょう閣議決定」（2026年8月5日）"
+    "NHK、Japan Times、News On Japan、高校野球ドットコム、Britannica、政府広報オンライン"
   ],
   "recentOpeners": [
+    "おはようございます🐹 昨夜のタイの学校銃撃事件、目が覚めても続報が飛び込んでき",
     "今日からJリーグが秋春制に移行して新開幕。日本サッカーが「世界の時計」に合わせた",
     "コロナワクチンで使われたあの技術が、ついにインフルエンザに！🐹\n\n米FDA（食",
     "メッツ・千賀滉大が8月4日にリリーフ登板し、1回をノーヒット無失点🐹\n\n今季こ",
-    "8月6日、広島に原爆が落とされて81年。夜になっても、あの朝の「8時15分」のこ",
-    "今日・8月6日は広島に原爆が投下されてから81年。平和記念式典では、ある時刻にサ"
+    "8月6日、広島に原爆が落とされて81年。夜になっても、あの朝の「8時15分」のこ"
   ],
-  "lastPostedAt": 1786105771085,
+  "lastPostedAt": 1786135934365,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 68
+    "posts": 69
   },
   "breakingDate": "2026-08-08",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786105771085,
+  "lastAnyPostAt": 1786135934365,
   "postHistory": [
+    {
+      "tweetId": "2085831738866143580",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 昨夜のタイの学校銃撃事件、目が覚めても続報が飛び込んできます。バンコク郊外でこんなことが起きるとは……。週末の朝、気を取り直してニュース",
+      "postedAt": 1786135934365
+    },
     {
       "tweetId": "2085705191958175932",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "夜の振り返り",
       "textPreview": "令和8年熊本地震が「激甚災害」に指定される見通しとなった月曜日。死者38人、被害は医療機関や学校にも広がっています。そして同じ日、日米が為替協調介入を実施し、円",
       "postedAt": 1785761070467
-    },
-    {
-      "tweetId": "2084193125388718574",
-      "kind": "quiz",
-      "category": "経済・二択",
-      "textPreview": "28年ぶりの「円買い協調介入」が確認されました🐹\n\n7月31日に実施された日米協調の円買い介入。前回、円買いの日米協調介入が行われたのはいつの出来事がきっかけ",
-      "postedAt": 1785745320665
     }
   ],
   "breakingFollowUps": [],
