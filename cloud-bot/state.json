@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2085569462988599303",
+      "answer": "正解は「1点台」でした！たくさん投票してくれてありがとう🐹\n\n千賀滉大は2026年シーズンここまで、73回2/3を投げて防御率1.47という抜群の数字をマークしています。8月4日（現地）のガーディアンズ戦でもリリーフ登板し、1イニングをノーヒット無失点に抑える好投を見せました。\n\n🌰豆知識\n千賀の代名詞「お化けフォーク」は、打者の手元で鋭く落ちる変化球。メジャーの強打者たちも「見えない」とお手上げ状態になることで知られています🐹",
+      "sourceUrl": "https://baseball.sports.smt.docomo.ne.jp/mlb/player/2320311.html",
+      "question": "メッツ・千賀滉大が8月4日にリリーフ登板し、1回をノーヒット無失点🐹\n\n今季ここまで（2026年）の千賀の防御率はどの",
+      "postedAt": 1786073447685,
+      "dueAt": 1786080647685,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "dメニュースポーツ「千賀滉大 選手情報 ニューヨーク・メッツ」／MLB.com Japan「メッツ千賀滉大、開幕第5戦で先発へ」",
     "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE",
     "広島市公式ウェブサイト・広島観光情報総合サイト「旅やか広島」「被爆81年を迎える広島 平和記念式典と園内平和イベントの全内容」",
     "Reuters, CNN, CNBC, Al Jazeera, Axios, NPR, Bloomberg, TheStreet, ScienceDaily, Just Security, Havana Times, WORLD Radio, FX Daily Report, Zacks/Yahoo Finance, Investrade, Trading Economics, Inquirer.net",
     "NHK、Japan Times、News On Japan、高校野球ドットコム、Britannica、政府広報オンライン",
     "日本経済新聞「食品消費税1%、政府が閣議決定 財源に外為特会活用案」（2026年8月5日）／沖縄タイムス「食品消費税1％へ きょう閣議決定」（2026年8月5日）",
     "スポーツナビ（Yahoo! JAPAN）「村上宗隆、メジャー自己最長更新の11試合連続安打＆20試合連続出塁」（2026年8月5日）",
-    "Reuters, AP, CNBC, Bloomberg, BBC, Al Jazeera, Forbes, WORLD Radio, TheStreet, NPR, Yahoo Finance, Investrade, Wikipedia Current Events",
-    "NHK、日本経済新聞、時事通信、Japan Times、Trading Economics、首相官邸、防衛省、Profile News、Kyiv Post"
+    "Reuters, AP, CNBC, Bloomberg, BBC, Al Jazeera, Forbes, WORLD Radio, TheStreet, NPR, Yahoo Finance, Investrade, Wikipedia Current Events"
   ],
   "recentOpeners": [
+    "メッツ・千賀滉大が8月4日にリリーフ登板し、1回をノーヒット無失点🐹\n\n今季こ",
     "8月6日、広島に原爆が落とされて81年。夜になっても、あの朝の「8時15分」のこ",
     "今日・8月6日は広島に原爆が投下されてから81年。平和記念式典では、ある時刻にサ",
     "「にんげんっていいな」をまさか生で聴ける日が来るとは🐹\n\n8月5日開幕の舞台「",
-    "おはようございます🐹 昨夜のキーウへの大規模攻撃、ホルムズ海峡の合意交渉、そし",
-    "熊本地震から1週間。38人が亡くなり、7155人がまだ避難所にいる。その被災地が"
+    "おはようございます🐹 昨夜のキーウへの大規模攻撃、ホルムズ海峡の合意交渉、そし"
   ],
-  "lastPostedAt": 1786061837013,
+  "lastPostedAt": 1786073447685,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 62
+    "posts": 63
   },
   "breakingDate": "2026-08-07",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786061837013,
+  "lastAnyPostAt": 1786073447685,
   "postHistory": [
+    {
+      "tweetId": "2085569462988599303",
+      "kind": "quiz",
+      "category": "スポーツ（MLB）・4択",
+      "textPreview": "メッツ・千賀滉大が8月4日にリリーフ登板し、1回をノーヒット無失点🐹\n\n今季ここまで（2026年）の千賀の防御率はどのくらい？\n\n投票で答えてね🐹 正解は2",
+      "postedAt": 1786073447685
+    },
     {
       "tweetId": "2085520618389217607",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "豆知識記事",
       "textPreview": "北極星は、ずっと北にいるわけではありません\n\n地球の地軸はコマのようにゆっくり首を振っていて、およそ2万6千年かけて一周します。そのため北を指す星は入れ替わりま",
       "postedAt": 1785719673069
-    },
-    {
-      "tweetId": "2084061755731325342",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "紙は、7回か8回しか折れません\n\n折るたびに厚さは2倍になります。1回で2枚分、10回で1024枚分。普通の大きさの紙なら7回か8回で、厚さと硬さが手に負えなく",
-      "postedAt": 1785714017059
     }
   ],
   "breakingFollowUps": [],
