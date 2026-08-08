@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2085895553267675605",
+      "answer": "✅ 正解は「1915年」でした！\nご参加ありがとうございます🐹 正解できましたか？\n\n第1回全国中等学校優勝野球大会（現・全国高校野球選手権大会）は1915年（大正4年）8月に開催されました。当時の参加校はわずか10校。会場も甲子園球場ではなく、大阪の豊中グラウンドでした。\n\n🌰豆知識\n甲子園球場が会場になったのは1924年の第10回大会から。「甲子園」という名前自体も、球場が完成した1924年が干支の「甲子（きのえね）」の年にあたることから命名されたものです。",
+      "sourceUrl": "https://www.baseballchannel.jp/etc/279216/",
+      "question": "今年で第108回！真夏の甲子園が熱い🐹\n\n第108回全国高校野球選手権大会が8月5日に開幕しました。\nところで「夏の甲",
+      "postedAt": 1786151201940,
+      "dueAt": 1786158401940,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "ベースボールチャンネル「【甲子園組み合わせ】夏の高校野球2026 試合日程・結果一覧｜第108回全国高校野球選手権大会」/ 週刊ベースボールONLINE「夏の甲子園2026 注目選手・出場校・見どころ」",
     "CNBC, TheStreet, NPR, CNN, ABC News, AP, The Hill, PBS NewsHour, Just Security, WORLD Radio, Wikipedia, Trading Economics, FDD Overnight Brief",
     "NHK、Jリーグ公式、日本高野連、tenki.jp・気象庁、Japan Guide、News On Japan、政府広報オンライン、Al Jazeera、CNN、NPR、時事ドットコム、デイリースポーツ、Olympics.com",
     "NBC News「FDA approves 1st mRNA flu shot, from Moderna」／STAT News「FDA approves Moderna's mRNA flu vaccine, the first to use the technology」／株探「モデルナ、FDAがインフルエンザのワクチンを承認」",
     "dメニュースポーツ「千賀滉大 選手情報 ニューヨーク・メッツ」／MLB.com Japan「メッツ千賀滉大、開幕第5戦で先発へ」",
     "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE",
     "広島市公式ウェブサイト・広島観光情報総合サイト「旅やか広島」「被爆81年を迎える広島 平和記念式典と園内平和イベントの全内容」",
-    "Reuters, CNN, CNBC, Al Jazeera, Axios, NPR, Bloomberg, TheStreet, ScienceDaily, Just Security, Havana Times, WORLD Radio, FX Daily Report, Zacks/Yahoo Finance, Investrade, Trading Economics, Inquirer.net",
-    "NHK、Japan Times、News On Japan、高校野球ドットコム、Britannica、政府広報オンライン"
+    "Reuters, CNN, CNBC, Al Jazeera, Axios, NPR, Bloomberg, TheStreet, ScienceDaily, Just Security, Havana Times, WORLD Radio, FX Daily Report, Zacks/Yahoo Finance, Investrade, Trading Economics, Inquirer.net"
   ],
   "recentOpeners": [
+    "今年で第108回！真夏の甲子園が熱い🐹\n\n第108回全国高校野球選手権大会が8",
     "おはようございます🐹 昨夜のタイの学校銃撃事件、目が覚めても続報が飛び込んでき",
     "今日からJリーグが秋春制に移行して新開幕。日本サッカーが「世界の時計」に合わせた",
     "コロナワクチンで使われたあの技術が、ついにインフルエンザに！🐹\n\n米FDA（食",
-    "メッツ・千賀滉大が8月4日にリリーフ登板し、1回をノーヒット無失点🐹\n\n今季こ",
-    "8月6日、広島に原爆が落とされて81年。夜になっても、あの朝の「8時15分」のこ"
+    "メッツ・千賀滉大が8月4日にリリーフ登板し、1回をノーヒット無失点🐹\n\n今季こ"
   ],
-  "lastPostedAt": 1786147035193,
+  "lastPostedAt": 1786151201940,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 72
+    "posts": 73
   },
   "breakingDate": "2026-08-08",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786147035193,
+  "lastAnyPostAt": 1786151201940,
   "postHistory": [
+    {
+      "tweetId": "2085895553267675605",
+      "kind": "quiz",
+      "category": "スポーツ（高校野球）・4択",
+      "textPreview": "今年で第108回！真夏の甲子園が熱い🐹\n\n第108回全国高校野球選手権大会が8月5日に開幕しました。\nところで「夏の甲子園」の第1回大会が開かれた年は、次のう",
+      "postedAt": 1786151201940
+    },
     {
       "tweetId": "2085877965540180276",
       "kind": "trivia",
@@ -241,19 +258,13 @@
       "category": "豆知識記事",
       "textPreview": "「油を売る」の油、何の油かご存じですか\n\n髪に使う油です。江戸時代、髪油の行商人が客に油を注ぎ分ける間、世間話をして長く留まったことから、仕事の途中で無駄話をす",
       "postedAt": 1785805706248
-    },
-    {
-      "tweetId": "2084425859826319385",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "「三行半」は、本当に3行半で書かれていました\n\n江戸時代の離縁状は、3行半で書く慣習があったとされています。決まった形式で短く書くことで、内容をめぐる争いを減ら",
-      "postedAt": 1785800826237
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [
     "2026-08-08_02:00",
-    "2026-08-08_04:00"
+    "2026-08-08_04:00",
+    "2026-08-08_09:30"
   ],
   "triviaNextIndex": 46,
   "triviaLastPostedHead": "水がいちばん重くなるのは、4度のときです\n\nたいていの物質は冷えるほど縮んで重く"
