@@ -24,6 +24,7 @@ import {
   searchPlanFor,
   formatSearchResults,
   researchLine,
+  todaysPostDigest,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -411,4 +412,45 @@ test('researchLine: モードによって情報源の指示が切り替わる', 
   assert.ok(!researchLine('self', '「今日のニュース」').includes('Web検索を使って'));
   assert.ok(researchLine('tool', '「今日のニュース」').includes('Web検索を使って'));
   assert.ok(researchLine('tool', '「今日のニュース」', '国内外から').includes('国内外から'));
+});
+
+// 2026-08-08、10時のクイズで「甲子園は8月5日開幕」と正しく投稿した同じ日の20時の振り返りが
+// 「8月8日が開幕日」と誤って出題し、訂正を出す事故が起きた。同じ日の自分の投稿を
+// 生成時に読ませることで、この種の自己矛盾を防ぐ
+test('todaysPostDigest: 当日の投稿だけを古い順に並べる', () => {
+  const jst = (h, m) => Date.parse(`2026-08-08T${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:00+09:00`);
+  const now = jst(20, 56);
+  const history = [ // postHistoryは新しい順に積まれる
+    { postedAt: jst(20, 56), kind: 'recap', category: '夜の振り返り', textPreview: '熊本の避難所に6630人' },
+    { postedAt: jst(10, 6), kind: 'quiz', category: 'スポーツ', textPreview: '第108回全国高校野球選手権大会が8月5日に開幕しました' },
+    { postedAt: Date.parse('2026-08-07T21:29:00+09:00'), kind: 'recap', category: '夜の振り返り', textPreview: '前日の振り返り' },
+  ];
+  const out = todaysPostDigest(history, now);
+  const lines = out.split('\n');
+  assert.strictEqual(lines.length, 2, '前日の投稿は含めない');
+  assert.ok(lines[0].startsWith('- 10:06 [スポーツ]'), `古い順に並ぶ: ${lines[0]}`);
+  assert.ok(lines[0].includes('8月5日に開幕'), '本文の冒頭が読める');
+  assert.ok(lines[1].startsWith('- 20:56 [夜の振り返り]'));
+  assert.ok(!out.includes('前日の振り返り'));
+});
+
+test('todaysPostDigest: 改行を1行に潰す（プロンプトの箇条書きが崩れない）', () => {
+  const now = Date.parse('2026-08-08T20:56:00+09:00');
+  const out = todaysPostDigest([{ postedAt: now, kind: 'quiz', textPreview: '1行目\n\n2行目' }], now);
+  assert.strictEqual(out.split('\n').length, 1);
+  assert.ok(out.includes('1行目 2行目'));
+});
+
+test('todaysPostDigest: 履歴が空・当日分なしなら空文字（プロンプトに何も足さない）', () => {
+  assert.strictEqual(todaysPostDigest([], Date.now()), '');
+  assert.strictEqual(todaysPostDigest(undefined, Date.now()), '');
+  assert.strictEqual(
+    todaysPostDigest([{ postedAt: Date.parse('2026-08-07T10:00:00+09:00'), kind: 'quiz', textPreview: 'x' }],
+      Date.parse('2026-08-08T20:56:00+09:00')),
+    '');
+});
+
+test('todaysPostDigest: categoryが空ならkindで代用する', () => {
+  const now = Date.parse('2026-08-08T20:56:00+09:00');
+  assert.ok(todaysPostDigest([{ postedAt: now, kind: 'trivia', category: '', textPreview: 'x' }], now).includes('[trivia]'));
 });

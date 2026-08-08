@@ -793,10 +793,31 @@ category: ジャンル名・${format}${r.context}`;
   return callClaudeQuiz(prompt, 1500, r.mode === 'self' ? 0 : 4);
 }
 
+// 本日このアカウントが既に投稿した内容の一覧（古い順）。夜の振り返りの生成時に読ませて、
+// 同じ日の自分の投稿と事実が食い違うのを防ぐ。
+// 2026-08-08、10時のクイズで「甲子園は8月5日開幕」と正しく投稿した同じ日の20時の振り返りが、
+// Q16で「8月8日が開会式を含む開幕日」と誤って出題し、訂正を出す事故が起きた。
+// postHistoryには投稿本文の冒頭80文字が既に保存されているので、追加の保存なしで実現できる。
+// ただし防げるのは「自分の過去投稿との矛盾」だけで、元の投稿自体が誤っていた場合には効かない
+export function todaysPostDigest(postHistory = [], now = Date.now()) {
+  const todayKey = jstDateKey(now);
+  return postHistory
+    .filter(p => p && p.postedAt && jstDateKey(p.postedAt) === todayKey)
+    .sort((a, b) => a.postedAt - b.postedAt)
+    .map(p => {
+      const hhmm = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(p.postedAt));
+      // textPreviewは改行を含むので1行に潰す（プロンプトの箇条書きが崩れないように）
+      const head = String(p.textPreview || '').replace(/\s+/g, ' ').trim();
+      return `- ${hhmm} [${p.category || p.kind}] ${head}`;
+    })
+    .join('\n');
+}
+
 // ===== 生成: 夜の振り返り（20時） =====
 async function generateRecap(state, now) {
   const recentOpeners = (state.recentOpeners || []).join(' / ');
   const todayKey = jstDateKey(now);
+  const todaysPosts = todaysPostDigest(state.postHistory || [], now);
   const todaysBreaking = [...new Set(
     (state.postHistory || [])
       .filter(p => (p.kind === 'breaking' || p.kind === 'feature') && jstDateKey(p.postedAt) === todayKey)
@@ -818,6 +839,15 @@ ${researchLine(r.mode, '「今日（日本時間の本日）の主要ニュー�
 ${recentOpeners ? '- 冒頭の書き出しが以下と似た表現・構成にならないようにすること: ' + recentOpeners : ''}
 ${TOPIC_HINT ? `- 今回は特に「${TOPIC_HINT}」に関する話題を中心に取り上げること（20問の半分程度以上を目安に。他ジャンルも少し混ぜてよい）` : ''}
 ${todaysBreaking ? `- 本日は次の速報・続報を扱いました。特に生活への影響が大きかったものは3〜5問程度を割いて、原因・影響・解決策・現在の状況まで深掘りして扱うこと（他の話題と同列の1問で済ませない）: ${todaysBreaking}` : ''}
+${todaysPosts ? `
+【本日このアカウントが既に投稿した内容（各投稿の冒頭のみ）】
+${todaysPosts}
+
+この一覧と事実関係（日付・数値・固有名詞）が食い違わないようにしてください。食い違いは同じアカウントの中で矛盾した情報を発信することになり、訂正が必要になります。
+- 同じ話題を取り上げること自体は問題ありません（1日の振り返りなので当然です）
+- 一覧に「訂正」の投稿が含まれる場合は、必ず訂正後の正しい内容で出題してください
+- 一覧の内容と自分の認識が食い違う場合は、検索結果で必ず裏を取ってから書いてください
+` : ''}
 
 出力形式（JSONにしない。本文中の引用符「"」はそのまま自由に使ってよい）:
 まず ---POST-START--- とだけ書いた行、続けて投稿本文、続けて ---POST-END--- とだけ書いた行、続けて次の2行を書いてください。---POST-START--- より前には何も書かないこと（前置き・確認・作業報告は一切禁止）:
