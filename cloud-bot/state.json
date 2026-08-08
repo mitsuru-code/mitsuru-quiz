@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "NHK、時事ドットコム、News on Japan、Nikkei Asia、The Japan Times、Japan Today、tenki.jp、ウェザーニュース",
     "補助金ポータル「食料品消費税ゼロはいつから？2027年4月から1%に減税へ｜8月5日閣議決定・給付で実質ゼロに【2026年最新】」",
     "スポニチアネックス「さかなクン50歳 結婚してる？に回答「幸せだな～」」",
     "ベースボールチャンネル「【甲子園組み合わせ】夏の高校野球2026 試合日程・結果一覧｜第108回全国高校野球選手権大会」/ 週刊ベースボールONLINE「夏の甲子園2026 注目選手・出場校・見どころ」",
     "CNBC, TheStreet, NPR, CNN, ABC News, AP, The Hill, PBS NewsHour, Just Security, WORLD Radio, Wikipedia, Trading Economics, FDD Overnight Brief",
     "NHK、Jリーグ公式、日本高野連、tenki.jp・気象庁、Japan Guide、News On Japan、政府広報オンライン、Al Jazeera、CNN、NPR、時事ドットコム、デイリースポーツ、Olympics.com",
     "NBC News「FDA approves 1st mRNA flu shot, from Moderna」／STAT News「FDA approves Moderna's mRNA flu vaccine, the first to use the technology」／株探「モデルナ、FDAがインフルエンザのワクチンを承認」",
-    "dメニュースポーツ「千賀滉大 選手情報 ニューヨーク・メッツ」／MLB.com Japan「メッツ千賀滉大、開幕第5戦で先発へ」",
-    "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE"
+    "dメニュースポーツ「千賀滉大 選手情報 ニューヨーク・メッツ」／MLB.com Japan「メッツ千賀滉大、開幕第5戦で先発へ」"
   ],
   "recentOpeners": [
+    "熊本の避難所に6630人。地震から11日目の今日も、被災地は猛暑の中で前を向いて",
     "食料品の消費税、1989年の導入以来「初めて下がる」って知ってた？🐹\n\n202",
     "魚に夢中すぎて50歳独身！？さかなクンが告白🐹\n\n魚類学者でタレントのさかなク",
     "今年で第108回！真夏の甲子園が熱い🐹\n\n第108回全国高校野球選手権大会が8",
-    "おはようございます🐹 昨夜のタイの学校銃撃事件、目が覚めても続報が飛び込んでき",
-    "今日からJリーグが秋春制に移行して新開幕。日本サッカーが「世界の時計」に合わせた"
+    "おはようございます🐹 昨夜のタイの学校銃撃事件、目が覚めても続報が飛び込んでき"
   ],
-  "lastPostedAt": 1786179240201,
+  "lastPostedAt": 1786190178906,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 79
+    "posts": 80
   },
   "breakingDate": "2026-08-08",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786179240201,
+  "lastAnyPostAt": 1786190178906,
   "postHistory": [
+    {
+      "tweetId": "2086059209490059436",
+      "kind": "recap",
+      "category": "夜の振り返り",
+      "textPreview": "熊本の避難所に6630人。地震から11日目の今日も、被災地は猛暑の中で前を向いていた。そんな1日を20問でおさらいしよう🐹\n\nQ1. 7月28日に熊本県で発生",
+      "postedAt": 1786190178906
+    },
     {
       "tweetId": "2086013132615422010",
       "kind": "quiz",
@@ -241,13 +248,6 @@
       "category": "夜の振り返り",
       "textPreview": "熊本地震から今日でちょうど1週間。被災地が猛暑と戦う中、政府は242億円の予備費支出を決定しました。一方では円買い介入の余波が市場を揺らし、消費税減税の閣議決定",
       "postedAt": 1785841733571
-    },
-    {
-      "tweetId": "2084552033886216645",
-      "kind": "quiz",
-      "category": "経済・国内・4択",
-      "textPreview": "世界で抹茶ブーム、日本食の輸出が過去最高を更新🐹\n\n今日、農林水産省が発表した2026年上半期（1〜6月）の農林水産物・食品の輸出額は8977億円。前年同期比",
-      "postedAt": 1785830888147
     }
   ],
   "breakingFollowUps": [],
