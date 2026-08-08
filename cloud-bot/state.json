@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2086013132615422010",
+      "answer": "正解は「レジシステムの改修期間を短くできるから」でした！投票してくれたみんな、ありがとう🐹\n\nゼロ税率にするとレジシステムの改修に約1年かかるのに対し、1%なら5〜6ヶ月で対応でき、2027年4月スタートに間に合うため1%が選ばれました。残りの1%分（年間約6,000億円）は中低所得者への現金給付で補い、家計負担を「実質ゼロ」にする設計です。なお外食・酒類は対象外の見通しです。\n\n🌰豆知識：日本の消費税は1989年に3%で導入されてから一度も下がったことがなく、今回が初めての引き下げとなる見通しです。1997年に5%、2014年に8%、2019年に10%（食料品は軽減税率8%）と上がり続けてきた歴史に、初の「減税」ページが刻まれます。\n（出典: 補助金ポータル「食料品消費税ゼロはいつから？2027年4月から1%に減税へ」）",
+      "sourceUrl": "https://hojyokin-portal.jp/columns/food_tax",
+      "question": "食料品の消費税、1989年の導入以来「初めて下がる」って知ってた？🐹\n\n2026年8月5日、政府は飲食料品の消費税率を",
+      "postedAt": 1786179240201,
+      "dueAt": 1786186440201,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "補助金ポータル「食料品消費税ゼロはいつから？2027年4月から1%に減税へ｜8月5日閣議決定・給付で実質ゼロに【2026年最新】」",
     "スポニチアネックス「さかなクン50歳 結婚してる？に回答「幸せだな～」」",
     "ベースボールチャンネル「【甲子園組み合わせ】夏の高校野球2026 試合日程・結果一覧｜第108回全国高校野球選手権大会」/ 週刊ベースボールONLINE「夏の甲子園2026 注目選手・出場校・見どころ」",
     "CNBC, TheStreet, NPR, CNN, ABC News, AP, The Hill, PBS NewsHour, Just Security, WORLD Radio, Wikipedia, Trading Economics, FDD Overnight Brief",
     "NHK、Jリーグ公式、日本高野連、tenki.jp・気象庁、Japan Guide、News On Japan、政府広報オンライン、Al Jazeera、CNN、NPR、時事ドットコム、デイリースポーツ、Olympics.com",
     "NBC News「FDA approves 1st mRNA flu shot, from Moderna」／STAT News「FDA approves Moderna's mRNA flu vaccine, the first to use the technology」／株探「モデルナ、FDAがインフルエンザのワクチンを承認」",
     "dメニュースポーツ「千賀滉大 選手情報 ニューヨーク・メッツ」／MLB.com Japan「メッツ千賀滉大、開幕第5戦で先発へ」",
-    "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE",
-    "広島市公式ウェブサイト・広島観光情報総合サイト「旅やか広島」「被爆81年を迎える広島 平和記念式典と園内平和イベントの全内容」"
+    "NHK、中国新聞デジタル、時事ドットコム、日本経済新聞、国土交通省、気象庁、熊本市公式、AFPBB News、NPR、WORLD Radio、Iran International、ABC News、Times of Israel、GlobalSecurity.org、Council on Foreign Relations、Britannica、Wikipedia（Portal: Current events）、ウェザーニュース、GIGAZINE"
   ],
   "recentOpeners": [
+    "食料品の消費税、1989年の導入以来「初めて下がる」って知ってた？🐹\n\n202",
     "魚に夢中すぎて50歳独身！？さかなクンが告白🐹\n\n魚類学者でタレントのさかなク",
     "今年で第108回！真夏の甲子園が熱い🐹\n\n第108回全国高校野球選手権大会が8",
     "おはようございます🐹 昨夜のタイの学校銃撃事件、目が覚めても続報が飛び込んでき",
-    "今日からJリーグが秋春制に移行して新開幕。日本サッカーが「世界の時計」に合わせた",
-    "コロナワクチンで使われたあの技術が、ついにインフルエンザに！🐹\n\n米FDA（食"
+    "今日からJリーグが秋春制に移行して新開幕。日本サッカーが「世界の時計」に合わせた"
   ],
-  "lastPostedAt": 1786174064264,
+  "lastPostedAt": 1786179240201,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 77
+    "posts": 78
   },
   "breakingDate": "2026-08-08",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786174064264,
+  "lastAnyPostAt": 1786179240201,
   "postHistory": [
+    {
+      "tweetId": "2086013132615422010",
+      "kind": "quiz",
+      "category": "国内経済・二択",
+      "textPreview": "食料品の消費税、1989年の導入以来「初めて下がる」って知ってた？🐹\n\n2026年8月5日、政府は飲食料品の消費税率を2027年4月から2年間、現行の8%から",
+      "postedAt": 1786179240201
+    },
     {
       "tweetId": "2085991333546619301",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "経済・国内・4択",
       "textPreview": "世界で抹茶ブーム、日本食の輸出が過去最高を更新🐹\n\n今日、農林水産省が発表した2026年上半期（1〜6月）の農林水産物・食品の輸出額は8977億円。前年同期比",
       "postedAt": 1785830888147
-    },
-    {
-      "tweetId": "2084520292224008444",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "すでに払ったお金は、判断材料にしてはいけません\n\n戻ってこない費用のことを埋没費用、サンクコストと呼びます。ここまで投じたのだから、と考えると続けるほど損が膨ら",
-      "postedAt": 1785823340317
     }
   ],
   "breakingFollowUps": [],
