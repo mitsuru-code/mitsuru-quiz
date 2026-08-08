@@ -99,6 +99,7 @@ Xアプリで投稿（共有モーダルからコピー / X起動）
 | [docs/smartphone-operation-guide.md](docs/smartphone-operation-guide.md) | スマホ側の操作手順書（どのボタンをどの順でタップすると何が起きるか、目的別のタップ手順） |
 | [docs/pixel10a-device-settings-guide.md](docs/pixel10a-device-settings-guide.md) | Android/Pixel端末側の設定ガイド（通知・画面消灯・電池最適化・分割画面など、OS側の設定項目の詳細） |
 | [docs/pixel10a-x-monetization-guide.md](docs/pixel10a-x-monetization-guide.md) | PC不要・Pixel 10a単体でX収益化を目指す運用手順書（端末設定・1日のルーティン・インプレッション最大化のコツ） |
+| [docs/growth-log.md](docs/growth-log.md) | 認証済みフォロワーの成長ログ。週1回の実測値と、その週に変えたことを記録する（2026-08-08にベースライン測定: フォロワー113人 / 90日インプレッション1,700回） |
 | [docs/pc-integration.md](docs/pc-integration.md) | PC自動化システムとの連携仕様（Webhookペイロード・CORS要件・Flask/n8nサンプル・耐障害設計） |
 
 ---

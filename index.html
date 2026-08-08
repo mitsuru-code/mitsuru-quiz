@@ -392,11 +392,11 @@
   </div>
 
   <div class="prog-row">
-    <div class="prog-label"><span>👥 フォロワー（条件: 500人）</span><span class="val" id="prog-followers-val">未入力</span></div>
+    <div class="prog-label"><span>👥 認証済みフォロワー（条件: 500人）</span><span class="val" id="prog-followers-val">未入力</span></div>
     <div class="prog-bar"><div class="prog-fill" id="prog-followers" style="width:0%"></div></div>
   </div>
   <div class="prog-row">
-    <div class="prog-label"><span>👁 インプレッション 直近3ヶ月（条件: 500万）</span><span class="val" id="prog-imp-val">未入力</span></div>
+    <div class="prog-label"><span>👁 認証済みインプレッション 直近90日（条件: 50万・返信除く）</span><span class="val" id="prog-imp-val">未入力</span></div>
     <div class="prog-bar"><div class="prog-fill" id="prog-imp" style="width:0%"></div></div>
   </div>
   <div class="prog-row">
@@ -1450,7 +1450,12 @@ function renderMonetize() {
   while (days.has(dayKey(cursor))) { streak++; cursor -= 86400000; }
   document.getElementById('stat-streak').textContent = streak;
 
-  // 収益化条件への進捗（クリエイター広告収益分配: フォロワー500人＋3ヶ月500万インプ＋Premium）
+  // 収益化条件への進捗（Original Content Rewards Program: 認証済みフォロワー500人＋
+  // 直近90日で認証済みインプレッション50万＋Premium加入）。
+  // 2026-08-08にRevenue Sharing（フォロワー500人＋3ヶ月500万インプ）から差し替わった。
+  // インプレッションの数え方も変わっており、Premium会員がホームタイムラインで50%以上
+  // 表示した分だけが対象で、返信は含まれない。数値はXのCreator Studio →
+  // Original Content Rewards に表示されるものを手で入力する
   const setProg = (barId, valId, current, goal, fmt) => {
     const pct = Math.min(100, current / goal * 100);
     const bar = document.getElementById(barId);
@@ -1459,7 +1464,7 @@ function renderMonetize() {
     document.getElementById(valId).textContent = current > 0 ? `${fmt(current)} / ${fmt(goal)}（${Math.floor(pct)}%）` : '未入力';
   };
   setProg('prog-followers', 'prog-followers-val', m.followers, 500, n => n.toLocaleString());
-  setProg('prog-imp', 'prog-imp-val', m.impressions, 5000000, n => n >= 10000 ? `${(n/10000).toLocaleString(undefined,{maximumFractionDigits:1})}万` : n.toLocaleString());
+  setProg('prog-imp', 'prog-imp-val', m.impressions, 500000, n => n >= 10000 ? `${(n/10000).toLocaleString(undefined,{maximumFractionDigits:1})}万` : n.toLocaleString());
 
   // 推定月間収益（非公式の目安）: 直近28日インプレッション × 想定単価
   const estYen = Math.round(m.imp28 / 10000 * m.rate);
