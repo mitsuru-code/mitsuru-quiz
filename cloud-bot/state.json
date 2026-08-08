@@ -34,7 +34,7 @@
     "month": "2026-08",
     "posts": 81
   },
-  "breakingDate": "2026-08-08",
+  "breakingDate": "2026-08-09",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
   "lastAnyPostAt": 1786190178906,
@@ -252,11 +252,7 @@
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [
-    "2026-08-08_02:00",
-    "2026-08-08_04:00",
-    "2026-08-08_09:30",
-    "2026-08-08_14:00",
-    "2026-08-08_15:00"
+    "2026-08-09_02:00"
   ],
   "triviaNextIndex": 47,
   "triviaLastPostedHead": "雲が落ちてこないのは、水の粒がとても小さいからです\n\n雲は水や氷の粒の集まりで、"
