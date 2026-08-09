@@ -1,23 +1,23 @@
 {
   "pendingAnswers": [],
   "recentTopics": [
+    "AFP, AP, Al Jazeera, Wikipedia Current Events Portal, NPR, CNBC, Washington Post, Trading Economics, Britannica, Congress.gov, Politico EU, SANA, Independent Online, AA",
     "NHK、時事通信、毎日新聞、西日本新聞、Japan Times、ウェザーニュース、スポニチアネックス、日本テレビ、Yahoo!ニュース",
     "国境なき医師団「エボラ病：コンゴでの流行宣言から2カ月、感染は過去最速ペース」／外務省「エボラ出血熱に関する感染症危険情報の発出」",
     "スポーツ報知「18歳の松島輝空が史上2人目の「高校生連覇」達成 準決勝で張本智和、決勝で篠塚大登を連破」／日テレ「Going！」番組情報（2026年8月9日放送）",
     "スポーツ報知「横浜FM、16歳・三井寺真が歴史的開幕1号 久保建英超えの衝撃」／デイリースポーツ「横浜Mの三井寺眞が偉業 16歳4カ月5日でゴール 久保建英を抜いて歴代2位」",
     "AP, Reuters, Bloomberg, Times of Israel, Euronews, NBC News, BioPharma Dive, CNBC, Yahoo Finance, Kyiv Post, Washington Times, Politico EU, Wikipedia",
     "NHK、時事ドットコム、News on Japan、Nikkei Asia、The Japan Times、Japan Today、tenki.jp、ウェザーニュース",
-    "補助金ポータル「食料品消費税ゼロはいつから？2027年4月から1%に減税へ｜8月5日閣議決定・給付で実質ゼロに【2026年最新】」",
-    "スポニチアネックス「さかなクン50歳 結婚してる？に回答「幸せだな～」」"
+    "補助金ポータル「食料品消費税ゼロはいつから？2027年4月から1%に減税へ｜8月5日閣議決定・給付で実質ゼロに【2026年最新】」"
   ],
   "recentOpeners": [
+    "おはようございます🐹 週明け月曜の朝、ホルムズ海峡の最新動向から目が離せません",
     "今日は8月9日。長崎に原爆が落とされてから、81年目の朝でした。平和への祈りを胸",
     "コンゴのエボラ出血熱、感染者がついに4000人超え。今年5月にWHOが緊急事態を",
     "19歳・松島輝空が今ノリにノってる🐹\n\n卓球の松島輝空選手、2026年全日本男",
-    "16歳がJ1の開幕ゴールを決めて歴史が動いた🐹\n\n8月7日のJ1開幕節、横浜F",
-    "今週いちばん「これは変わるぞ」と感じたニュースを先に言うと、ホルムズ海峡の停戦交"
+    "16歳がJ1の開幕ゴールを決めて歴史が動いた🐹\n\n8月7日のJ1開幕節、横浜F"
   ],
-  "lastPostedAt": 1786276021244,
+  "lastPostedAt": 1786309689849,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 93
+    "posts": 94
   },
   "breakingDate": "2026-08-10",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786276021244,
+  "lastAnyPostAt": 1786309689849,
   "postHistory": [
+    {
+      "tweetId": "2086560461751734491",
+      "kind": "briefing",
+      "category": "朝ブリーフィング",
+      "textPreview": "おはようございます🐹 週明け月曜の朝、ホルムズ海峡の最新動向から目が離せません。週末にかけて動いたニュースをまとめてお届けします。\n\nQ1. イスラエルのネタ",
+      "postedAt": 1786309689849
+    },
     {
       "tweetId": "2086419278803468569",
       "kind": "recap",
@@ -241,13 +248,6 @@
       "category": "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
       "textPreview": "🚨 速報\n\nホルムズ海峡をめぐる危機が急速に拡大。イランの支援を受けるイエメンの武装勢力フーシは湾岸地域のタンカーを相次いで攻撃。トランプ大統領は「海峡が開か",
       "postedAt": 1785996153234
-    },
-    {
-      "tweetId": "2085218608314302640",
-      "kind": "quiz",
-      "category": "",
-      "textPreview": "「にんげんっていいな」をまさか生で聴ける日が来るとは🐹\n\n8月5日開幕の舞台「まんが日本昔ばなし劇場」。藤原紀香が熱演したキャラクターはどっちでしょう？\n\n投",
-      "postedAt": 1785989794195
     }
   ],
   "breakingFollowUps": [],
