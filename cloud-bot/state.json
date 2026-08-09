@@ -34,7 +34,7 @@
     "month": "2026-08",
     "posts": 93
   },
-  "breakingDate": "2026-08-09",
+  "breakingDate": "2026-08-10",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
   "lastAnyPostAt": 1786276021244,
@@ -252,11 +252,7 @@
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [
-    "2026-08-09_02:00",
-    "2026-08-09_04:00",
-    "2026-08-09_09:30",
-    "2026-08-09_14:00",
-    "2026-08-09_15:00"
+    "2026-08-10_02:00"
   ],
   "triviaNextIndex": 51,
   "triviaLastPostedHead": "関東と関西の関は、関所の関です\n\n昔の街道に置かれた関所を境にして、東側が関東、"
