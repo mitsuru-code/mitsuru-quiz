@@ -34,7 +34,7 @@
     "month": "2026-08",
     "posts": 102
   },
-  "breakingDate": "2026-08-10",
+  "breakingDate": "2026-08-11",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
   "lastAnyPostAt": 1786364849310,
@@ -252,9 +252,7 @@
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [
-    "2026-08-10_02:00",
-    "2026-08-10_04:00",
-    "2026-08-10_14:00"
+    "2026-08-11_02:00"
   ],
   "triviaNextIndex": 54,
   "triviaLastPostedHead": "人は、自分の作業時間をほぼ必ず短く見積もります\n\n計画錯誤と呼ばれる傾向です。過"
