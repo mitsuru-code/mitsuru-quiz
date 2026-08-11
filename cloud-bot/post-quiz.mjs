@@ -480,13 +480,17 @@ export function searchPlanFor(kind, opts = {}) {
   return queries.length ? { kind, queries, days: 1 } : null;
 }
 
-// Tavilyのニュース検索。1クエリ=1リクエスト。失敗は呼び出し側でツール検索にフォールバックする
-async function tavilySearch(query, days) {
+// Tavilyの検索。1クエリ=1リクエスト。失敗は呼び出し側でツール検索にフォールバックする。
+// topicは既定で'news'（当日のニュースを追うBot本体の用途）。豆知識の素材集め（material.mjs）は
+// 時事性のない恒久ネタを扱うため'general'を渡す。'general'では日付での絞り込みが効かないので
+// daysも送らない（送ると新しい記事しか拾えず、定説の解説ページが落ちる）
+async function tavilySearch(query, days, topic = 'news') {
   const res = await fetch('https://api.tavily.com/search', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${TAVILY_API_KEY}` },
     body: JSON.stringify({
-      query, topic: 'news', days, max_results: 10,
+      query, topic, max_results: 10,
+      ...(topic === 'news' ? { days } : {}),
       include_raw_content: true, // 上位数件だけ全文を使う。載せる量はformat側で絞る
     }),
   });
@@ -525,10 +529,10 @@ export async function research(plan) {
     return { mode: 'tool', context: '' };
   }
   try {
-    const batches = await Promise.all(plan.queries.map(q => tavilySearch(q, plan.days)));
+    const batches = await Promise.all(plan.queries.map(q => tavilySearch(q, plan.days, plan.topic)));
     const formatted = formatSearchResults(batches.flat());
     if (!formatted) throw new Error('検索結果が空でした');
-    console.log(`🔎 自前検索: ${plan.queries.length}クエリ / 添付${formatted.length}文字（${plan.kind}）`);
+    console.log(`🔎 自前検索: ${plan.queries.length}クエリ / 添付${formatted.length}文字（${plan.kind}・topic=${plan.topic || 'news'}）`);
     return { mode: 'self', context: `\n\n【検索結果】以下は自動で取得した最新のニュース検索結果です。これを一次情報として使い、ここに無い事実は書かないでください。\n\n${formatted}` };
   } catch (e) {
     console.error(`⚠️ 自前検索に失敗したため、Anthropicのウェブ検索ツールに切り替えます: ${e.message}`);
@@ -546,7 +550,8 @@ export function researchLine(mode, what, note = '') {
 
 // ===== Anthropic API 呼び出し（共通・低レベル） =====
 // maxSearches に 0 を渡すとweb_searchツールを付けない（自前検索で情報収集済みの場合）
-async function callAnthropic(prompt, maxTokens, maxSearches, model = 'claude-sonnet-4-6') {
+// material.mjs（素材配信）からも使うためexportしている
+export async function callAnthropic(prompt, maxTokens, maxSearches, model = 'claude-sonnet-4-6') {
   const body = {
     model,
     max_tokens: maxTokens,
