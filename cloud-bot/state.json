@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2086975889418473981",
+      "answer": "正解は「漢字の\"八\"が山の形に見えるから」でした！🐹\n\n投票してくれたみなさん、ありがとうございます！\n\n山の日は2014年に法律が成立し、2016年から始まった日本で最も新しい部類の国民の祝日です。8月11日に決まった背景は「夏山シーズンの前でお盆にも近い」という実用面が主な理由ですが、\"漢字の『八』が山の形に見える\"・\"『11』が木が並ぶように見える\"という語呂合わせ的な説も広く語られています。\n\n🌰豆知識：山の日に合わせて「山の日記念全国大会」が毎年開催されており、2026年は岐阜県高山市で行われています。",
+      "sourceUrl": "https://kids.rurubu.jp/article/136682/",
+      "question": "きょうは「山の日」🐹 実はこの祝日、2016年に施行されたばかりの比較的新しい祝日です。\n\nさて問題。山の日が「8月1",
+      "postedAt": 1786408773460,
+      "dueAt": 1786415973460,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "るるぶKids「2026年の山の日はいつ？意義・由来」／日本暦「山の日の意味・由来・2026年と2027年の日程」",
     "Reuters, AP, NPR, CNN, CNBC, TheStreet, Wall Street Journal, Anadolu Agency, Middle East Eye, Euronews, Morning Star, FDD (Foundation for Defense of Democracies), The American Legion, WORLD Radio, Investrade, Tradingkey, FXDailyReport, Wikipedia",
     "NHK、Japan Today、CSIS、CNN、UPI、News on Japan、tenki.jp、時事ドットコム、Congress.gov（CRS Report）、GIGAZINE（ヘッドライン）",
     "カナロコ by 神奈川新聞「イラン、米に補償要求」（2026年8月9日）",
     "日本経済新聞「イチローさんら日本勢3人、マリナーズ『偉大な50選手』に」／スポーツ報知「マリナーズ創設50周年歴代トップ50選手を発表 イチロー、佐々木主浩、岩隈久志の3人選出」",
     "AFP, AP, Al Jazeera, Wikipedia Current Events Portal, NPR, CNBC, Washington Post, Trading Economics, Britannica, Congress.gov, Politico EU, SANA, Independent Online, AA",
     "NHK、時事通信、毎日新聞、西日本新聞、Japan Times、ウェザーニュース、スポニチアネックス、日本テレビ、Yahoo!ニュース",
-    "国境なき医師団「エボラ病：コンゴでの流行宣言から2カ月、感染は過去最速ペース」／外務省「エボラ出血熱に関する感染症危険情報の発出」",
-    "スポーツ報知「18歳の松島輝空が史上2人目の「高校生連覇」達成 準決勝で張本智和、決勝で篠塚大登を連破」／日テレ「Going！」番組情報（2026年8月9日放送）"
+    "国境なき医師団「エボラ病：コンゴでの流行宣言から2カ月、感染は過去最速ペース」／外務省「エボラ出血熱に関する感染症危険情報の発出」"
   ],
   "recentOpeners": [
+    "きょうは「山の日」🐹 実はこの祝日、2016年に施行されたばかりの比較的新しい",
     "火曜日の朝、コーヒーを片手にどうぞ🐹 昨夜から今朝にかけて、中東・ウクライナ・",
     "月曜日の夜に届いた知らせ——熊本地震の死者が39人に。\n発生からきょうで2週間、",
     "イランがホルムズ海峡を開放する条件を提示🐹\n\nエネルギー輸送の大動脈・ホルムズ",
-    "イチローさん、マリナーズ創設50周年「偉大な50人」に選出🐹\n\nマリナーズは現",
-    "おはようございます🐹 週明け月曜の朝、ホルムズ海峡の最新動向から目が離せません"
+    "イチローさん、マリナーズ創設50周年「偉大な50人」に選出🐹\n\nマリナーズは現"
   ],
-  "lastPostedAt": 1786406017274,
+  "lastPostedAt": 1786408773460,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 105
+    "posts": 106
   },
   "breakingDate": "2026-08-11",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786406017274,
+  "lastAnyPostAt": 1786408773460,
   "postHistory": [
+    {
+      "tweetId": "2086975889418473981",
+      "kind": "quiz",
+      "category": "雑学・記念日・二択",
+      "textPreview": "きょうは「山の日」🐹 実はこの祝日、2016年に施行されたばかりの比較的新しい祝日です。\n\nさて問題。山の日が「8月11日」に決まった理由として\"よく言われて",
+      "postedAt": 1786408773460
+    },
     {
       "tweetId": "2086964215043010601",
       "kind": "trivia",
@@ -241,19 +258,13 @@
       "category": "朝ブリーフィング",
       "textPreview": "おはようございます🐹 昨夜のタイの学校銃撃事件、目が覚めても続報が飛び込んできます。バンコク郊外でこんなことが起きるとは……。週末の朝、気を取り直してニュース",
       "postedAt": 1786135934365
-    },
-    {
-      "tweetId": "2085705191958175932",
-      "kind": "recap",
-      "category": "夜の振り返り",
-      "textPreview": "今日からJリーグが秋春制に移行して新開幕。日本サッカーが「世界の時計」に合わせた歴史的な日でもあります🐹 金曜おつかれさまでした。8月7日のニュース、何問わか",
-      "postedAt": 1786105771085
     }
   ],
   "breakingFollowUps": [],
   "breakingCheckpointsDone": [
     "2026-08-11_02:00",
-    "2026-08-11_04:00"
+    "2026-08-11_04:00",
+    "2026-08-11_09:30"
   ],
   "triviaNextIndex": 56,
   "triviaLastPostedHead": "急速冷凍がおいしいのは、氷の粒が小さいからです\n\nゆっくり凍らせると氷の結晶が大"
