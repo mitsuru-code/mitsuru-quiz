@@ -1,0 +1,85 @@
+# 豆知識の執筆素材をIssueで配信する（人が書いて、人が投稿するための下ごしらえ）
+#
+# Xの Original Content Rewards Program は「created or posted using automated means」を
+# 対象外としている。orなので生成が自動でも投稿が自動でも失格になる。
+# そこで cloud-bot.yml（自動投稿）は停止し、このワークフローが
+#   テーマ出し → 裏取り → 事実の箇条書き
+# までを用意して、執筆と投稿は人がやる形にした。
+#
+# このワークフローはXに一切投稿しない。X APIのSecretsも使わない。
+# 使うのは ANTHROPIC_API_KEY と TAVILY_API_KEY だけ。
+#
+# ⛔ 現在は定時実行を止めており、手動実行（Run workflow）でのみ動きます。
+name: 豆知識の執筆素材を配信
+
+on:
+  # ⛔ 2026-08-11: 定時実行を停止中（リポジトリ内の自動実行をすべて止める方針のため）
+  #
+  # 素材が欲しい日は Actions タブ → 「豆知識の執筆素材を配信」→ Run workflow で
+  # 手動実行してください。1回の実行で3テーマ分の素材Issueが1件作られます。
+  #
+  # 毎朝の自動配信に戻す場合は、下のコメントを外してください。
+  # schedule:
+  #   # JST 5:00（UTC 20:00）。通勤前に読んで書けるように、朝いちばんで届ける。
+  #   # 素材は恒久ネタなので時事性がなく、多少遅れても価値が落ちない
+  #   # （cloud-botのように分単位で追いかける必要がないため、5分おきの多重トリガーは不要）
+  #   - cron: '0 20 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: material-delivery
+  cancel-in-progress: false
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 素材メモを作る
+        id: build
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          OUTPUT_FILE: material-sheet.md
+        run: node cloud-bot/material.mjs
+
+      - name: Issueで配信
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ steps.build.outputs.title }}
+        run: |
+          gh label create writing-material --repo "${{ github.repository }}" --color 0E8A16 --description "手動投稿用の執筆素材" 2>/dev/null || true
+          gh issue create --repo "${{ github.repository }}" \
+            --label writing-material \
+            --title "📋 $TITLE" \
+            --body-file material-sheet.md
+
+      # 素材が届かない日は、人が「今日は素材が無い」ことに気づけない（Issueが来ないだけなので
+      # 沈黙と区別がつかない）。GitHub Actions側の障害でジョブが1ステップも実行されない事故が
+      # 実際に起きているため、失敗時は明示的にIssueを立てて気づけるようにする
+      - name: 失敗をIssueで通知
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create material-failure --repo "${{ github.repository }}" --color D93F0B --description "執筆素材の配信失敗" 2>/dev/null || true
+          open_count=$(gh issue list --repo "${{ github.repository }}" --label material-failure --state open --json number --jq 'length')
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ "$open_count" -gt 0 ]; then
+            issue_number=$(gh issue list --repo "${{ github.repository }}" --label material-failure --state open --json number --jq '.[0].number')
+            gh issue comment "$issue_number" --repo "${{ github.repository }}" --body "再び失敗しました: $run_url"
+          else
+            gh issue create --repo "${{ github.repository }}" \
+              --label material-failure \
+              --title "🚨 豆知識の執筆素材が配信できていません" \
+              --body "$(printf '執筆素材の配信に失敗しました。今日の素材は届いていません。\n\n失敗した実行のログ: %s\n\nよくある原因:\n- ANTHROPIC_API_KEY の残高不足・期限切れ\n- TAVILY_API_KEY の無料枠切れ（検索が使えないと事実の裏取りができないため、素材を作らずに中止する設計）\n- GitHub Actions側の障害\n\n解決したらこのIssueをクローズしてください（クローズするまで新しいIssueは作られず、再失敗はこのIssueへのコメントで通知されます）。' "$run_url")"
+          fi

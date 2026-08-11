@@ -123,7 +123,7 @@ export function slotReleaseOrderOk(slots = POST_SLOTS) {
 }
 
 // ===== JSTスロット計算 =====
-function jstHourOf(ms) {
+export function jstHourOf(ms) {
   return parseInt(new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', hour: 'numeric', hour12: false }).format(new Date(ms)), 10);
 }
 
@@ -168,11 +168,21 @@ function previousSlotEpoch(slotEpoch) {
 // （2026-07-30に、4時台の豆知識が4:59に投稿された結果、5時台の朝ブリーフィングが消えた）
 // そこで1つ前のスロットが未投稿かつ期限内なら、そちらを優先して取り戻す。
 // ただし在庫が潤沢な豆知識が、ブリーフィング等の本命コンテンツを押しのけないようにする
+// あるスロット(slotEpoch)が、直近に実際に消化されたスロットのepoch(lastFulfilledEpoch)より
+// 前かどうかを判定する。呼び出し側は必ず「実際に投稿した生時刻(now)」ではなく「消化したスロット
+// のepoch」をlastFulfilledEpochに渡すこと。生時刻を渡すと、遅延投稿が次のスロットの時台に
+// 食い込んだだけで次のスロットが「投稿済み」と誤判定される
+// （2026-08-06の事故: 7時台の豆知識が8:18に投稿され、8時台の境界(8:00)を超えたことで
+// 8時台が誤って済扱いになった。速報投稿でも同様に15時台の豆知識が消えた事故が発生）
+export function isSlotUnfulfilled(lastFulfilledEpoch, slotEpoch) {
+  return (lastFulfilledEpoch || 0) < slotEpoch;
+}
+
 export function pickDueSlot(now, lastPostedAt, maxDelayMin = 360) {
   const current = latestSlotEpoch(now);
   const prev = previousSlotEpoch(current);
   const kindOf = epoch => (SLOT_PROFILES[jstHourOf(epoch)] || {}).kind;
-  const prevUnposted = (lastPostedAt || 0) < prev;
+  const prevUnposted = isSlotUnfulfilled(lastPostedAt, prev);
   const prevInTime = (now - slotReleaseEpoch(prev)) / 60000 <= maxDelayMin;
   // 前のスロットが豆知識で、今のスロットが本命コンテンツなら、今のスロットを先に出す
   const prevWouldDisplace = kindOf(prev) === 'trivia' && kindOf(current) !== 'trivia';
@@ -470,13 +480,17 @@ export function searchPlanFor(kind, opts = {}) {
   return queries.length ? { kind, queries, days: 1 } : null;
 }
 
-// Tavilyのニュース検索。1クエリ=1リクエスト。失敗は呼び出し側でツール検索にフォールバックする
-async function tavilySearch(query, days) {
+// Tavilyの検索。1クエリ=1リクエスト。失敗は呼び出し側でツール検索にフォールバックする。
+// topicは既定で'news'（当日のニュースを追うBot本体の用途）。豆知識の素材集め（material.mjs）は
+// 時事性のない恒久ネタを扱うため'general'を渡す。'general'では日付での絞り込みが効かないので
+// daysも送らない（送ると新しい記事しか拾えず、定説の解説ページが落ちる）
+async function tavilySearch(query, days, topic = 'news') {
   const res = await fetch('https://api.tavily.com/search', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${TAVILY_API_KEY}` },
     body: JSON.stringify({
-      query, topic: 'news', days, max_results: 10,
+      query, topic, max_results: 10,
+      ...(topic === 'news' ? { days } : {}),
       include_raw_content: true, // 上位数件だけ全文を使う。載せる量はformat側で絞る
     }),
   });
@@ -515,10 +529,10 @@ export async function research(plan) {
     return { mode: 'tool', context: '' };
   }
   try {
-    const batches = await Promise.all(plan.queries.map(q => tavilySearch(q, plan.days)));
+    const batches = await Promise.all(plan.queries.map(q => tavilySearch(q, plan.days, plan.topic)));
     const formatted = formatSearchResults(batches.flat());
     if (!formatted) throw new Error('検索結果が空でした');
-    console.log(`🔎 自前検索: ${plan.queries.length}クエリ / 添付${formatted.length}文字（${plan.kind}）`);
+    console.log(`🔎 自前検索: ${plan.queries.length}クエリ / 添付${formatted.length}文字（${plan.kind}・topic=${plan.topic || 'news'}）`);
     return { mode: 'self', context: `\n\n【検索結果】以下は自動で取得した最新のニュース検索結果です。これを一次情報として使い、ここに無い事実は書かないでください。\n\n${formatted}` };
   } catch (e) {
     console.error(`⚠️ 自前検索に失敗したため、Anthropicのウェブ検索ツールに切り替えます: ${e.message}`);
@@ -536,7 +550,8 @@ export function researchLine(mode, what, note = '') {
 
 // ===== Anthropic API 呼び出し（共通・低レベル） =====
 // maxSearches に 0 を渡すとweb_searchツールを付けない（自前検索で情報収集済みの場合）
-async function callAnthropic(prompt, maxTokens, maxSearches, model = 'claude-sonnet-4-6') {
+// material.mjs（素材配信）からも使うためexportしている
+export async function callAnthropic(prompt, maxTokens, maxSearches, model = 'claude-sonnet-4-6') {
   const body = {
     model,
     max_tokens: maxTokens,
@@ -1201,6 +1216,15 @@ async function main() {
   state.recentTopics = state.recentTopics || [];
   state.recentOpeners = state.recentOpeners || [];
   state.recentBreaking = state.recentBreaking || [];
+  // lastPostedAtは速報・特集記事等あらゆる投稿で更新されるため、スロットの「投稿済み」判定に
+  // 使うと「別のスロット（や速報）を、たまたま次のスロットの時台に入ってから投稿した」だけで
+  // 次のスロットが誤って済扱いになる（実際の事故: 2026-08-06、15:02の速報投稿がlastPostedAtを
+  // 15:00超に進め、15時台の豆知識が「投稿済み」と誤判定されて丸ごと消えた。同様に7時台の豆知識が
+  // 8:00を過ぎてから投稿されると8時台の豆知識も消える）。
+  // lastSlotFulfilledEpochは実際にSLOT_PROFILESのスロットを消化した時だけ、そのスロットのepoch
+  // （時台の0分）を記録する専用フィールドで、この誤判定を避ける。初回はまだ存在しないため、
+  // 移行措置として旧来のlastPostedAtで近似する
+  if (state.lastSlotFulfilledEpoch === undefined) state.lastSlotFulfilledEpoch = state.lastPostedAt || 0;
 
   const now = parseInt(process.env.NOW_MS || '', 10) || Date.now(); // NOW_MSはテスト用フック
   const jstHour = jstHourOf(now);
@@ -1208,7 +1232,7 @@ async function main() {
   const FORCE_SLOT = parseInt((process.env.FORCE_SLOT || '').trim(), 10);
   const slotEpoch = Number.isInteger(FORCE_SLOT) && SLOT_PROFILES[FORCE_SLOT]
     ? Date.UTC(new Date(now + 9 * 3600000).getUTCFullYear(), new Date(now + 9 * 3600000).getUTCMonth(), new Date(now + 9 * 3600000).getUTCDate(), FORCE_SLOT - 9, 0, 0)
-    : pickDueSlot(now, state.lastPostedAt);
+    : pickDueSlot(now, state.lastSlotFulfilledEpoch);
   const slotHour = jstHourOf(slotEpoch);
   const profile = SLOT_PROFILES[slotHour] || { kind: 'quiz', genre: '直近の重要な時事問題' };
   const slotStr = new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', month: 'numeric', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(new Date(slotEpoch));
@@ -1363,7 +1387,7 @@ async function main() {
   // 解禁前にここへ来ることは無いので、この値は常に0以上になる
   const delayMin = Math.round((now - slotReleaseEpoch(slotEpoch)) / 60000);
   const tooLate = delayMin > 360; // 6時間超の遅延は深夜投稿等になり逆効果なので見送る
-  const slotUnposted = (state.lastPostedAt || 0) < slotEpoch;
+  const slotUnposted = isSlotUnfulfilled(state.lastSlotFulfilledEpoch, slotEpoch);
   const shouldPost = FORCE_POST || (slotUnposted && !tooLate);
   if (shouldPost && !FORCE_POST && jstHour < SLOT_QUIET_HOURS_UNTIL) {
     console.log(`⏭ 深夜（JST ${jstHour}時）のためスロット投稿を見送ります（次のスロットから再開）`);
@@ -1387,6 +1411,7 @@ async function main() {
         state.recentTopics = [gen.source || gen.category, ...state.recentTopics].filter(Boolean).slice(0, 8);
         state.recentOpeners = [safeSlice(gen.text, 40), ...state.recentOpeners].filter(Boolean).slice(0, 5);
         state.lastPostedAt = now;
+        state.lastSlotFulfilledEpoch = slotEpoch;
         countPost(state, now);
         recordPost(state, { tweetId, kind: profile.kind, category: gen.category, textPreview: gen.text, postedAt: now });
         stateChanged = true;
@@ -1420,6 +1445,7 @@ async function main() {
           state.triviaNextIndex = idx + 1;
           state.triviaLastPostedHead = safeSlice(article, 40);
           state.lastPostedAt = now;
+          state.lastSlotFulfilledEpoch = slotEpoch;
           countPost(state, now);
           recordPost(state, { tweetId, kind: 'trivia', category: '豆知識記事', textPreview: article, postedAt: now });
           stateChanged = true;
@@ -1440,7 +1466,10 @@ async function main() {
 
     } else { // quiz（Poll形式）
       const posted = await postPollQuiz(state, profile.genre, now);
-      if (posted) stateChanged = true;
+      if (posted) {
+        stateChanged = true;
+        state.lastSlotFulfilledEpoch = slotEpoch;
+      }
     }
   } else if (slotUnposted && tooLate) {
     console.log(`⏭ ${slotStr} のスロットは未投稿ですが、${delayMin}分経過しているため見送ります（次のスロットから再開）`);

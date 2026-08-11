@@ -24,7 +24,11 @@ jobs:
           node-version: 20
 
       - name: 構文チェック
-        run: node --check cloud-bot/post-quiz.mjs
+        run: |
+          node --check cloud-bot/post-quiz.mjs
+          node --check cloud-bot/material.mjs
 
+      # テストファイルを1つずつ列挙していると、新しく足したテストがCIから漏れる
+      # （実際に material.test.mjs を足した時に漏れた）。globで全部拾う
       - name: 単体テスト
-        run: node --test cloud-bot/test/post-quiz.test.mjs cloud-bot/test/search-fallback.test.mjs
+        run: node --test cloud-bot/test/*.test.mjs
