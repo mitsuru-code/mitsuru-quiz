@@ -1,15 +1,5 @@
 {
-  "pendingAnswers": [
-    {
-      "tweetId": "2086975889418473981",
-      "answer": "正解は「漢字の\"八\"が山の形に見えるから」でした！🐹\n\n投票してくれたみなさん、ありがとうございます！\n\n山の日は2014年に法律が成立し、2016年から始まった日本で最も新しい部類の国民の祝日です。8月11日に決まった背景は「夏山シーズンの前でお盆にも近い」という実用面が主な理由ですが、\"漢字の『八』が山の形に見える\"・\"『11』が木が並ぶように見える\"という語呂合わせ的な説も広く語られています。\n\n🌰豆知識：山の日に合わせて「山の日記念全国大会」が毎年開催されており、2026年は岐阜県高山市で行われています。",
-      "sourceUrl": "https://kids.rurubu.jp/article/136682/",
-      "question": "きょうは「山の日」🐹 実はこの祝日、2016年に施行されたばかりの比較的新しい祝日です。\n\nさて問題。山の日が「8月1",
-      "postedAt": 1786408773460,
-      "dueAt": 1786415973460,
-      "isPoll": true
-    }
-  ],
+  "pendingAnswers": [],
   "recentTopics": [
     "るるぶKids「2026年の山の日はいつ？意義・由来」／日本暦「山の日の意味・由来・2026年と2027年の日程」",
     "Reuters, AP, NPR, CNN, CNBC, TheStreet, Wall Street Journal, Anadolu Agency, Middle East Eye, Euronews, Morning Star, FDD (Foundation for Defense of Democracies), The American Legion, WORLD Radio, Investrade, Tradingkey, FXDailyReport, Wikipedia",
@@ -27,7 +17,7 @@
     "イランがホルムズ海峡を開放する条件を提示🐹\n\nエネルギー輸送の大動脈・ホルムズ",
     "イチローさん、マリナーズ創設50周年「偉大な50人」に選出🐹\n\nマリナーズは現"
   ],
-  "lastPostedAt": 1786408773460,
+  "lastPostedAt": 1786416545966,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -42,13 +32,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 106
+    "posts": 108
   },
   "breakingDate": "2026-08-11",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786408773460,
+  "lastAnyPostAt": 1786416545966,
   "postHistory": [
+    {
+      "tweetId": "2087008377280799091",
+      "kind": "trivia",
+      "category": "豆知識記事",
+      "textPreview": "干した食材が濃く感じるのは、水が減っただけではありません\n\n水分が抜けて成分が濃縮されるのに加えて、乾かしている間に食材自身の酵素が働き、旨味のもとになる成分が",
+      "postedAt": 1786416545966
+    },
     {
       "tweetId": "2086975889418473981",
       "kind": "quiz",
@@ -251,13 +248,6 @@
       "category": "豆知識記事",
       "textPreview": "花火の色は、金属の燃える色です\n\n赤はストロンチウム、黄色はナトリウム、青緑は銅。金属を燃やすと、その種類ごとに決まった色の光を出す性質があり、炎色反応と呼ばれ",
       "postedAt": 1786139335661
-    },
-    {
-      "tweetId": "2085831738866143580",
-      "kind": "briefing",
-      "category": "朝ブリーフィング",
-      "textPreview": "おはようございます🐹 昨夜のタイの学校銃撃事件、目が覚めても続報が飛び込んできます。バンコク郊外でこんなことが起きるとは……。週末の朝、気を取り直してニュース",
-      "postedAt": 1786135934365
     }
   ],
   "breakingFollowUps": [],
@@ -266,6 +256,6 @@
     "2026-08-11_04:00",
     "2026-08-11_09:30"
   ],
-  "triviaNextIndex": 56,
-  "triviaLastPostedHead": "急速冷凍がおいしいのは、氷の粒が小さいからです\n\nゆっくり凍らせると氷の結晶が大"
+  "triviaNextIndex": 57,
+  "triviaLastPostedHead": "干した食材が濃く感じるのは、水が減っただけではありません\n\n水分が抜けて成分が濃"
 }
