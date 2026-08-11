@@ -1,23 +1,33 @@
 {
-  "pendingAnswers": [],
+  "pendingAnswers": [
+    {
+      "tweetId": "2087028035690057921",
+      "answer": "正解は「8月5日」でした！暑い中ご参加ありがとう🐹\n\n第108回全国高校野球選手権大会は2026年8月5日（水）に阪神甲子園球場で開幕。全国47都道府県の49代表校（北海道・東京は2校）が出場し、8月22日（土）の決勝まで18日間にわたって熱戦を繰り広げます。\n\n🌰豆知識\n北海道と東京だけが代表校2枠なのは、出場希望校が突出して多いため。北海道は南北、東京は東西で地区を分けて代表を決めるしくみになっています。",
+      "sourceUrl": "https://www.baseballchannel.jp/etc/279216/",
+      "question": "お昼休みに甲子園クイズ🐹\n\n昨春センバツ覇者の横浜（神奈川）が昨夏の甲子園王者・沖縄尚学を撃破！\n\nでは、今年の夏の甲",
+      "postedAt": 1786421208770,
+      "dueAt": 1786428408770,
+      "isPoll": true
+    }
+  ],
   "recentTopics": [
+    "ベースボールチャンネル「【甲子園組み合わせ】夏の高校野球2026 試合日程・結果一覧｜第108回全国高校野球選手権大会」",
     "るるぶKids「2026年の山の日はいつ？意義・由来」／日本暦「山の日の意味・由来・2026年と2027年の日程」",
     "Reuters, AP, NPR, CNN, CNBC, TheStreet, Wall Street Journal, Anadolu Agency, Middle East Eye, Euronews, Morning Star, FDD (Foundation for Defense of Democracies), The American Legion, WORLD Radio, Investrade, Tradingkey, FXDailyReport, Wikipedia",
     "NHK、Japan Today、CSIS、CNN、UPI、News on Japan、tenki.jp、時事ドットコム、Congress.gov（CRS Report）、GIGAZINE（ヘッドライン）",
     "カナロコ by 神奈川新聞「イラン、米に補償要求」（2026年8月9日）",
     "日本経済新聞「イチローさんら日本勢3人、マリナーズ『偉大な50選手』に」／スポーツ報知「マリナーズ創設50周年歴代トップ50選手を発表 イチロー、佐々木主浩、岩隈久志の3人選出」",
     "AFP, AP, Al Jazeera, Wikipedia Current Events Portal, NPR, CNBC, Washington Post, Trading Economics, Britannica, Congress.gov, Politico EU, SANA, Independent Online, AA",
-    "NHK、時事通信、毎日新聞、西日本新聞、Japan Times、ウェザーニュース、スポニチアネックス、日本テレビ、Yahoo!ニュース",
-    "国境なき医師団「エボラ病：コンゴでの流行宣言から2カ月、感染は過去最速ペース」／外務省「エボラ出血熱に関する感染症危険情報の発出」"
+    "NHK、時事通信、毎日新聞、西日本新聞、Japan Times、ウェザーニュース、スポニチアネックス、日本テレビ、Yahoo!ニュース"
   ],
   "recentOpeners": [
+    "お昼休みに甲子園クイズ🐹\n\n昨春センバツ覇者の横浜（神奈川）が昨夏の甲子園王者",
     "きょうは「山の日」🐹 実はこの祝日、2016年に施行されたばかりの比較的新しい",
     "火曜日の朝、コーヒーを片手にどうぞ🐹 昨夜から今朝にかけて、中東・ウクライナ・",
     "月曜日の夜に届いた知らせ——熊本地震の死者が39人に。\n発生からきょうで2週間、",
-    "イランがホルムズ海峡を開放する条件を提示🐹\n\nエネルギー輸送の大動脈・ホルムズ",
-    "イチローさん、マリナーズ創設50周年「偉大な50人」に選出🐹\n\nマリナーズは現"
+    "イランがホルムズ海峡を開放する条件を提示🐹\n\nエネルギー輸送の大動脈・ホルムズ"
   ],
-  "lastPostedAt": 1786416545966,
+  "lastPostedAt": 1786421208770,
   "recentBreaking": [
     "ホルムズ海峡危機・イラン対立激化・トランプ政権が強硬姿勢",
     "新潟・長岡市レベル4大雨危険警報・浸水氾濫警戒",
@@ -32,13 +42,20 @@
   ],
   "monthly": {
     "month": "2026-08",
-    "posts": 108
+    "posts": 109
   },
   "breakingDate": "2026-08-11",
   "breakingCount": 0,
   "lastBreakingCheck": 1784164024869,
-  "lastAnyPostAt": 1786416545966,
+  "lastAnyPostAt": 1786421208770,
   "postHistory": [
+    {
+      "tweetId": "2087028035690057921",
+      "kind": "quiz",
+      "category": "スポーツ・4択",
+      "textPreview": "お昼休みに甲子園クイズ🐹\n\n昨春センバツ覇者の横浜（神奈川）が昨夏の甲子園王者・沖縄尚学を撃破！\n\nでは、今年の夏の甲子園（第108回）は何月何日に開幕した？",
+      "postedAt": 1786421208770
+    },
     {
       "tweetId": "2087008377280799091",
       "kind": "trivia",
@@ -241,13 +258,6 @@
       "category": "豆知識記事",
       "textPreview": "蚊に刺されて痒くなるのは、血を吸われたからではありません\n\n蚊は刺すときに自分の唾液を注入します。血が固まらないようにするためです。この唾液の成分に体が反応して",
       "postedAt": 1786143444991
-    },
-    {
-      "tweetId": "2085845671400153326",
-      "kind": "trivia",
-      "category": "豆知識記事",
-      "textPreview": "花火の色は、金属の燃える色です\n\n赤はストロンチウム、黄色はナトリウム、青緑は銅。金属を燃やすと、その種類ごとに決まった色の光を出す性質があり、炎色反応と呼ばれ",
-      "postedAt": 1786139335661
     }
   ],
   "breakingFollowUps": [],
