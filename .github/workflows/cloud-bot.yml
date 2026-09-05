@@ -128,7 +128,12 @@ jobs:
           REPLY_TEXT: ${{ github.event_name == 'workflow_dispatch' && inputs.reply_text || '' }}
           # ANSWER_DELAY_HOURS: '2'        # 正解返信・Poll投票期間の長さ
           # MONTHLY_POST_LIMIT: '450'      # 月間投稿数の安全上限（X無料枠対策）
-          BREAKING_ENABLED: 'true'         # 速報チェック再開（2026-08-06、X API Trends先読み方式に変更後）
+          # 2026-08-10: 速報機能を停止。Trends先読み方式に変えて8/06〜8/10運用したが、
+          # この間の速報投稿は0件（state.jsonのrecentBreakingは7/16のまま）で、
+          # 利用価値に見合わないと判断した。停止によりTrends($0.010/回)とHaikuの
+          # 検索コストが不要になり、朝9:30〜11:00の代替クイズ枠も止まる。
+          # 再開したい場合はここを 'true' に戻すだけでよい（コードは残してある）。
+          BREAKING_ENABLED: 'false'        # 速報チェックを停止（自動検知・続報・代替クイズすべて）
 
       - name: 状態（返信キュー・出題履歴）をコミット
         run: |
