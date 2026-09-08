@@ -16,8 +16,8 @@
 //           チェックし、見つかれば臨時投稿（1日 BREAKING_MAX_PER_DAY 回まで）。
 //           朝の枠で速報が無ければ代わりに軽いクイズを投稿。深夜は必ず、午後は場合により
 //           30分後の詳細記事フォローアップも自動投稿。
-//           2026-08-06〜: 話題の発見はX API Trends（$0.010/回）を先に叩いて実データから
-//           始める方式に変更（失敗時は従来のオープンエンド探索にフォールバック）
+//           2026-09-05〜: 話題の発見はニュースRSS（Yahoo!・時事ドットコム）から行う。
+//           Xのトレンドは使わない（Xの自動化ルールが禁止しているため。NEWS_FEEDS の注記参照）
 //
 // 環境変数:
 //   ANTHROPIC_API_KEY            … 生成用（必須）
@@ -262,22 +262,58 @@ function apiGet(urlPath, queryParams) {
   });
 }
 
-// 日本のトレンド語を取得（Trends: X API pay-per-useで$0.010/回）。
-// 「何が今バズっているか」をClaudeに推測させず、実データから始めるための入口。
-// ゲーム・アイドルのファン活動系ハッシュタグがトレンド上位を占めることが多いため、
-// ニュース性の判定はここではせずcheckBreaking側のプロンプトでClaudeに一段判定させる
-// （固定ワードでの機械的フィルタは誤検出しやすく、実例（別プロジェクト）でも機能しなかった）
-const JAPAN_WOEID = '23424856';
-async function fetchTrends() {
-  try {
-    const json = await apiGet(`/2/trends/by/woeid/${JAPAN_WOEID}`, { max_trends: '20' });
-    const names = (json.data || []).map(t => t.trend_name).filter(Boolean);
-    console.log(`📈 トレンド取得: ${names.length}件`);
-    return names;
-  } catch (e) {
-    console.log(`⚠️ トレンド取得に失敗（従来のオープンエンド探索にフォールバック）: ${e.message}`);
-    return [];
+// 話題の入口はニュースRSS。**Xのトレンドは使わない**。
+// 2026-09-05: X APIのTrendsで話題を選ぶ方式から切り替えた。Xの自動化ルールは
+// 「Xのトレンドトピックに関するポストを自動的に投稿すること」を明確に禁止しており、
+// 従来方式（/2/trends/by/woeid で取得した語から話題を選んで自動投稿）はこれに抵触していた。
+// 一方で「RSSフィードなど外部から得た情報を使った自動ポスト」は明示的に許可されている。
+// 副次的にX API Trendsの従量課金（$0.010/回）も不要になった。
+//
+// 話題の選定基準は「Xで流行っているか」ではなく「報道されているか」であること。
+// この前提が崩れるとルール違反に戻るので、変更する際は必ず自動化ルールを確認すること。
+const NEWS_FEEDS = [
+  { name: 'Yahoo!ニュース', url: 'https://news.yahoo.co.jp/rss/topics/top-picks.xml' },
+  { name: '時事ドットコム', url: 'https://www.jiji.com/rss/ranking.rdf' },
+];
+
+// RSS/RDFから見出しを抜く。専用ライブラリは足さず、item内の最初のtitleを拾うだけで足りる
+export function extractHeadlines(xml) {
+  const out = [];
+  for (const item of xml.match(/<item[\s\S]*?<\/item>/g) || []) {
+    const m = item.match(/<title>([\s\S]*?)<\/title>/);
+    if (!m) continue;
+    const title = m[1]
+      .replace(/^\s*<!\[CDATA\[/, '')
+      .replace(/\]\]>\s*$/, '')
+      .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"').replace(/&#0?39;/g, "'")
+      .replace(/&amp;/g, '&')
+      .trim();
+    if (title) out.push(title);
   }
+  return out;
+}
+
+async function fetchNewsHeadlines() {
+  const headlines = [];
+  for (const feed of NEWS_FEEDS) {
+    try {
+      const res = await fetch(feed.url, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (cloud-bot news reader)' },
+        signal: AbortSignal.timeout(15000),
+      });
+      if (!res.ok) {
+        console.log(`⚠️ ${feed.name} の取得に失敗: HTTP ${res.status}`);
+        continue;
+      }
+      headlines.push(...extractHeadlines(await res.text()));
+    } catch (e) {
+      // 1紙が落ちても他紙で続行する。全滅した場合はcheckBreaking側で見送りになる
+      console.log(`⚠️ ${feed.name} の取得に失敗: ${e.message}`);
+    }
+  }
+  console.log(`📰 ニュース見出し取得: ${headlines.length}件`);
+  return headlines;
 }
 
 // 投票結果を取得し「A案 62% / B案 38%」のような文字列にする。
@@ -884,25 +920,33 @@ category: 特集記事`;
 }
 
 // ===== 生成: 速報チェック（随時） =====
-// 2026-08-06: 「何が今バズっているか」をClaudeにゼロから推測させる方式から、
-// X APIのTrendsで実際のトレンド語を先に取得し、その中から拾わせる方式に変更。
-// オープンエンドな探索より検索回数を絞れ、精度も上がる（Trends自体は$0.010/回と安い）。
-// トレンドが1件も取れなかった場合（API障害・レート制限等）は、従来のオープンエンドな
-// 探索プロンプトにフォールバックする（速報機能自体を止めないため）
+// 2026-09-05: 話題の選定を「Xのトレンド語」から「ニュースRSSの見出し」に変更。
+// Xの自動化ルールがトレンドトピックの自動投稿を禁止しているため（NEWS_FEEDS の注記を参照）。
+// 見出しが1件も取れなかった場合は、Xのトレンドを見に行くのではなくWeb検索で報道を確認する。
 async function checkBreaking(state) {
   const recentBreaking = (state.recentBreaking || []).join(' / ');
-  const trends = await fetchTrends();
-  const trendsBlock = trends.length
-    ? `【現在の日本のトレンド語（上位${trends.length}件・投稿数上位順ではなく検索APIの返却順）】\n${trends.join(' / ')}\n\nまずこのトレンド語の中から「ニュース性のある話題」を探してください。ゲーム・アニメ・アイドルのファン活動系ハッシュタグ（作品名・記念日・キャンペーン等）はニュースではないので除外すること。候補が見つかったら、そのワードについてWeb検索で内容を確認してください。`
-    : 'Web検索で「今まさに話題が急拡大しているニュース・出来事」を調べてください。';
+  const headlines = await fetchNewsHeadlines();
+  const headlinesBlock = headlines.length
+    ? `【現在のニュース見出し（Yahoo!ニュース・時事ドットコムのRSSから取得）】\n${headlines.join('\n')}\n\nこの見出しの中から「今まさに報じられている、関心の高い話題」を探してください。候補が見つかったら、その話題についてWeb検索で内容を確認してください。`
+    : 'Web検索で「複数のメディアが今まさに報じているニュース・出来事」を調べてください。';
   const prompt = `${CHARACTER}
 
-${trendsBlock}
+${headlinesBlock}
 
-判断基準は重大性ではなく**話題量と拡散の勢い**です:
+判断基準は**報道の広がり**です:
 - 直近1〜3時間で複数のメディアが一斉に報じ始めた話題
-- X(Twitter)で投稿数が急増している・トレンド入りしている話題
-- 「今知っておかないと乗り遅れる」感のある、インプレッションが急激に伸びそうな情報
+- 続報が相次いでおり、社会的な関心が高い出来事
+- 知っておくと役に立つ、または話題として共有する価値のある情報
+
+【必ず見送る話題】話題性があっても、次に該当するものは速報にしないでください（breaking: false）:
+- 訃報・追悼
+- 事件・犯罪・裁判・逮捕、人の死や重傷を伴う事故
+- 政治的な対立や主張（政局、選挙、政党間の批判など）
+- 戦争・紛争の戦況
+- 差別・ハラスメント・炎上案件
+- 個人が特定される不祥事やスキャンダル
+これらは、このアカウントの性格（時事クイズ・雑学）で扱うと不謹慎・党派的に見えるためです。迷ったら false にしてください。
+なお災害・気象の警戒情報は扱って構いませんが、その場合は煽らず、事実と注意点を淡々と伝えてください。
 
 該当する話題が見つかった場合のみ、その内容を分かりやすく伝える速報ポストを1本作ってください:
 - 冒頭は「🚨 速報」または「📈 いま話題」から始める

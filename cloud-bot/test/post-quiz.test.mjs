@@ -25,6 +25,7 @@ import {
   formatSearchResults,
   researchLine,
   todaysPostDigest,
+  extractHeadlines,
 } from '../post-quiz.mjs';
 
 // JSTの特定時刻のepoch msを作るヘルパー（基準日: 2026-07-21・火曜日）
@@ -453,4 +454,28 @@ test('todaysPostDigest: 履歴が空・当日分なしなら空文字（プロ�
 test('todaysPostDigest: categoryが空ならkindで代用する', () => {
   const now = Date.parse('2026-08-08T20:56:00+09:00');
   assert.ok(todaysPostDigest([{ postedAt: now, kind: 'trivia', category: '', textPreview: 'x' }], now).includes('[trivia]'));
+});
+
+test('extractHeadlines: RSS 2.0（Yahoo!ニュース形式）から見出しを取れる', () => {
+  const xml = '<rss><channel><item><title>屋久島町に特別警報</title><link>http://a</link></item>'
+    + '<item><title>大谷がIL入りの可能性</title></item></channel></rss>';
+  assert.deepStrictEqual(extractHeadlines(xml), ['屋久島町に特別警報', '大谷がIL入りの可能性']);
+});
+
+test('extractHeadlines: RDF/RSS 1.0（時事ドットコム形式）のCDATAとHTMLエンティティを解く', () => {
+  const xml = '<rdf:RDF><item rdf:about="x"><title><![CDATA[アフリカ&amp;地図の決議]]></title></item></rdf:RDF>';
+  assert.deepStrictEqual(extractHeadlines(xml), ['アフリカ&地図の決議']);
+});
+
+test('extractHeadlines: itemが無い・空文字でも落ちずに空配列を返す', () => {
+  // RSSが落ちている時に速報チェック全体を巻き込まないことの担保
+  assert.deepStrictEqual(extractHeadlines('<rss><channel></channel></rss>'), []);
+  assert.deepStrictEqual(extractHeadlines(''), []);
+});
+
+test('extractHeadlines: channelのtitle（媒体名）を見出しに混ぜない', () => {
+  // item外のtitleを拾うと「Yahoo!ニュース・トピックス」自体が話題候補になってしまう
+  const xml = '<rss><channel><title>Yahoo!ニュース・トピックス</title>'
+    + '<item><title>本物の見出し</title></item></channel></rss>';
+  assert.deepStrictEqual(extractHeadlines(xml), ['本物の見出し']);
 });
