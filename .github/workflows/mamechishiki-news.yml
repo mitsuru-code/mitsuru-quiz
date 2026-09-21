@@ -1,0 +1,45 @@
+name: mamechishiki-news
+
+# 豆知識帳（時事モード）用のニュース見出しを1日3回集めて mamechishiki/news.json を更新する。
+# claude.ai のクラウドルーティンはニュースサイトへ直接アクセスできないため、取得はここで行い、
+# ルーティンはこのリポジトリのJSONを読んで選別・保存する。X投稿のcloud-botとは無関係。
+
+on:
+  schedule:
+    # UTC。日本時間の 6:00 / 12:00 / 18:00 の少し前に走らせる
+    - cron: '45 20 * * *'
+    - cron: '45 2 * * *'
+    - cron: '45 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mamechishiki-news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch headlines
+        run: python mamechishiki/fetch_news.py
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain mamechishiki/news.json)" ]; then
+            echo "変更なし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mamechishiki/news.json
+          git commit -m "mamechishiki: ニュース見出しを更新 [skip ci]"
+          git push
