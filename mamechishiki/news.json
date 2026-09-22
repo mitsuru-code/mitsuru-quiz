@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-21T23:20:50+00:00",
-  "now_ms": 1790032850333,
+  "fetched_at": "2026-09-22T07:56:25+00:00",
+  "now_ms": 1790063785290,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,106 +10,88 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-2dc319c85831cb46",
-      "title": "台風の爪痕残る 川や崖など注意を",
+      "doc_id": "yahoo-e123a8e112283615",
+      "title": "冠水の佐倉市 帰宅できず住民落胆",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596089"
+      "link": "https://news.yahoo.co.jp/pickup/6596136"
     },
     {
-      "doc_id": "yahoo-aecdf4a7ead0f1aa",
-      "title": "台風被害 土砂崩れ相次ぎ2人死亡",
+      "doc_id": "yahoo-0a9e4a0e5cfa5797",
+      "title": "土砂崩れ 高齢者施設の180人孤立",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596092"
+      "link": "https://news.yahoo.co.jp/pickup/6596149"
     },
     {
-      "doc_id": "yahoo-6976e9b6c7c6c4c1",
-      "title": "コロナ自宅待機1年半で自死 労災",
+      "doc_id": "yahoo-63346addad7feadf",
+      "title": "自転車にはねられ女性死亡 男逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596090"
+      "link": "https://news.yahoo.co.jp/pickup/6596152"
     },
     {
-      "doc_id": "yahoo-d69d7ea752659991",
-      "title": "12時間ほど琵琶湖漂流 男性を救助",
+      "doc_id": "yahoo-57ae7fedc3364454",
+      "title": "修繕費計5億円超 観光施設閉園へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596095"
+      "link": "https://news.yahoo.co.jp/pickup/6596120"
     },
     {
-      "doc_id": "yahoo-a215ec3220147b5f",
-      "title": "22歳死亡 発見時豚が覆いかぶさる",
+      "doc_id": "yahoo-b577250ee0a05a26",
+      "title": "古書店に大量注文 AI学習目的か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596082"
+      "link": "https://news.yahoo.co.jp/pickup/6596144"
     },
     {
-      "doc_id": "yahoo-1c1feb3b58e7c199",
-      "title": "アジア大会 現地入り記者の違和感",
+      "doc_id": "yahoo-b38bbf867e265c9c",
+      "title": "配偶者と性行為つらい 向き合い方",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596096"
+      "link": "https://news.yahoo.co.jp/pickup/6596150"
     },
     {
-      "doc_id": "yahoo-27d1d38370a835e5",
-      "title": "原田夏希 第4子を出産していた",
+      "doc_id": "yahoo-1e0475d4d1273c16",
+      "title": "諸橋愛さん死去 JKA会長コメント",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596088"
+      "link": "https://news.yahoo.co.jp/pickup/6596147"
     },
     {
-      "doc_id": "yahoo-6d37cbbe43036e73",
-      "title": "メンバー逮捕 timelesz個々に謝罪",
+      "doc_id": "yahoo-35dc6f264718edd9",
+      "title": "中山忍 美穂さんの遺品整理で涙",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596086"
+      "link": "https://news.yahoo.co.jp/pickup/6596134"
     },
     {
-      "doc_id": "jiji-bbaeaa931585d1e7",
-      "title": "トランプ氏支持３２％、過去最低 物価高への評価２割弱―ロイター調査",
+      "doc_id": "jiji-cfba07aa99e31b69",
+      "title": "米主要テレビ、代表取材停止 ＣＮＮなど立ち入り禁止で",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092200147&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092200256&g=int"
     },
     {
-      "doc_id": "jiji-e42315370401430a",
-      "title": "問題相次ぐアジア大会 国歌ミス、空席、バス現れず",
+      "doc_id": "jiji-937122c5cd34474b",
+      "title": "ブルージェイズ、崖っぷち 米大リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092100483&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092200281&g=spo"
     },
     {
-      "doc_id": "jiji-ebe79deb45da3d30",
-      "title": "首相動静（９月２１日）",
+      "doc_id": "jiji-92b493352c6aeef0",
+      "title": "高市首相、安保理改革訴えへ エネルギー協力表明―国連演説",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092100198&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092200312&g=pol"
     },
     {
-      "doc_id": "jiji-a2a8d0cfb323e428",
-      "title": "イエメン暫定政権トップ、トランプ氏に支援要請 米軍介入直前で撤回か",
+      "doc_id": "jiji-8b656ac69aaf5fa1",
+      "title": "トランプ米大統領、異例のニューヨーク市長公邸訪問 マムダニ氏と会談、共同会見も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092200146&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092200207&g=int"
     },
     {
-      "doc_id": "jiji-4cb08ac10df30fb0",
-      "title": "供給網強化で連携 経済的威圧に「断固反対」―日米韓外相",
+      "doc_id": "jiji-e3d2c47b59c1efe5",
+      "title": "中国主席、３年ぶり訪米へ ２４日にトランプ氏と会談",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092200140&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092200315&g=int"
     },
     {
-      "doc_id": "jiji-6721d23de70c150c",
-      "title": "米パラマウントと１２州和解 報道の独立条件、ワーナー買収へ前進",
+      "doc_id": "jiji-ace514fe528040ec",
+      "title": "大雨、死者４人・不明６人に 自衛隊に災害派遣要請―神奈川、千葉",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092200098&g=int"
-    },
-    {
-      "doc_id": "jiji-f548fcccfc22cacc",
-      "title": "「インダスの水」高まる緊張 印は裁定拒否、パキスタン対応警告",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092100358&g=int"
-    },
-    {
-      "doc_id": "jiji-6d57bfc9b1c29d20",
-      "title": "銀座ビル屋上、養蜂始め２０年 蜂蜜年２．８トン、全国に拡大―担当者「都市環境考える一助に」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092100285&g=soc"
-    },
-    {
-      "doc_id": "jiji-f663e33f16a09d3e",
-      "title": "中東の経済協力計画表明へ 高市首相、国連総会向け出発",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092100283&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092200259&g=soc"
     },
     {
       "doc_id": "jiji-39d303c008309156",
@@ -118,46 +100,94 @@
       "link": "https://www.jiji.com/jc/article?k=2026092100281&g=pol"
     },
     {
-      "doc_id": "nhk-8909fe475bafd1d6",
-      "title": "【上空映像】台風25号 記録的大雨 きょうも土砂災害に厳重警戒",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51748"
+      "doc_id": "jiji-bbaeaa931585d1e7",
+      "title": "トランプ氏支持３２％、過去最低 物価高への評価２割弱―ロイター調査",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092200147&g=int"
+    },
+    {
+      "doc_id": "jiji-d50eaae987013021",
+      "title": "テロは「最後の引き金」 条約履行停止、根底に不公平感―元インド政府代表",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092100427&g=int"
+    },
+    {
+      "doc_id": "jiji-e42315370401430a",
+      "title": "問題相次ぐアジア大会 国歌ミス、空席、バス現れず",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092100483&g=spo"
     },
     {
       "doc_id": "nhk-377452bee6b95d45",
-      "title": "【台風25号 被害】神奈川と千葉で2人死亡4人不明 捜索続く",
+      "title": "【台風被害】 神奈川と千葉で4人死亡6人不明 住宅被害470棟余",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260922de51778"
     },
     {
-      "doc_id": "nhk-b00051bf68c3442e",
-      "title": "【動画】台風25号 千葉 神奈川 一夜明けた各地の被害は",
+      "doc_id": "nhk-d8bc1f0314c23b1f",
+      "title": "福岡 3歳児死亡事故 容疑者「前夜に飲酒し 朝また飲んで車に」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51808"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51846"
     },
     {
-      "doc_id": "nhk-fe0cc3fda1f4e3a2",
-      "title": "【台風25号】交通影響続く 首都圏の鉄道 運転見合わせ【22日】",
+      "doc_id": "nhk-c527d70e4ec3e599",
+      "title": "【地震情報】茨城県で震度3 津波の心配なし",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51800"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51863"
     },
     {
-      "doc_id": "nhk-8b3c1cf367312250",
-      "title": "大英図書館の再開発事業で着工式 日本の不動産会社が参画",
+      "doc_id": "nhk-8909fe475bafd1d6",
+      "title": "台風25号 関東や伊豆諸島で記録的大雨 土砂災害に引き続き警戒",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51804"
-    },
-    {
-      "doc_id": "nhk-a10abe4e607bdadf",
-      "title": "中国軍制服組トップなど務めた2人が巨額賄賂などで党籍はく奪",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51785"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260921de51748"
     },
     {
       "doc_id": "nhk-0644ce16a95eefec",
       "title": "「トランプ大統領 イエメン空爆で方針転換」米報道",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260921de51710"
+    },
+    {
+      "doc_id": "nhk-de5f19d1dca8d33d",
+      "title": "日米首脳会談 日本時間23日開催を発表 日本政府",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51835"
+    },
+    {
+      "doc_id": "nhk-c865d98ca967cf3b",
+      "title": "プロ野球 広島 新井監督続投の方針 来季は就任5年目へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51867"
+    },
+    {
+      "doc_id": "itmedia-c629e56075bb4941",
+      "title": "OpenAI、数学者の独立諮問グループと連携 内部モデルは「100件超の未解決問題を解決」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001671/"
+    },
+    {
+      "doc_id": "itmedia-09d5f0231c402460",
+      "title": "OpenAI、フロンティアAIの国際標準づくりを米国主導で進めるよう提言 「RSIはまだ起きていない」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001670/"
+    },
+    {
+      "doc_id": "itmedia-70ef54c1e68356c1",
+      "title": "Amazon、MetaのAIエージェント「Muse」による代理購入をブロック Shopifyは全店舗で対応へ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001669/"
+    },
+    {
+      "doc_id": "itmedia-843fd2c38025fd79",
+      "title": "SpaceXAI、「Grok 4.7」発表 コーディングと知識労働向けで同社最高性能、価格は据え置き",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001668/"
+    },
+    {
+      "doc_id": "itmedia-0440a5e268a28ba0",
+      "title": "今度は“ディスプレイなし”のAIグラス、「Rokid Ai Glasses Style」を試す",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001649/"
     },
     {
       "doc_id": "itmedia-959637e17c0a1410",
@@ -202,34 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001645/"
     },
     {
-      "doc_id": "itmedia-aa6793cb8653a1f5",
-      "title": "東急、運転手のドア閉めをAIで補助 東横線に「ホーム監視AI」導入へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001637/"
-    },
-    {
-      "doc_id": "itmedia-5e3155593f095cca",
-      "title": "生成AIで物議のレベルファイブ、東京ゲームショウ当日の様子は……現地を見てきた",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001633/"
-    },
-    {
-      "doc_id": "itmedia-21ead02a3185fed9",
-      "title": "「人生が崩壊することを印象付けたい」 警視庁がトクリュウ対策サイトをリニューアル",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001631/"
-    },
-    {
-      "doc_id": "itmedia-07c322c6495b5a4b",
-      "title": "「上司に言いにくい」をAIが拾う 豊中市教委、職員の本音を匿名で集めるアプリを試験導入 自治体初",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001630/"
-    },
-    {
-      "doc_id": "itmedia-a308905ffcebd521",
-      "title": "東京ゲームショウのグッズがメルカリに続々出品 「ビジネスデイなのに」など批判の声",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/18/2000001623/"
+      "doc_id": "nazology-b40ef24ff268ec6b",
+      "title": "ADHD症状のある若者は勉強中や仕事中にも普通の人より頻繁にBGMを聴く",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/182754"
     },
     {
       "doc_id": "nazology-52f4145497dbd411",
@@ -284,12 +290,6 @@
       "title": "認知症になった人が多かった「歯ぐきのサイン」とは",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/199912"
-    },
-    {
-      "doc_id": "nazology-d381de44be30d0e9",
-      "title": "マウスの大脳皮質の9割以上を「ヒトの脳組織」に置き換えることに成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/199917"
     }
   ]
 }
