@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-23T13:50:36+00:00",
-  "now_ms": 1790171436286,
+  "fetched_at": "2026-09-23T23:08:36+00:00",
+  "now_ms": 1790204916307,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-d4c6dc2dd20458cc",
-      "title": "日米首脳会談の目的は達成? 解説",
+      "doc_id": "yahoo-fa9bf410bed414af",
+      "title": "習氏が米到着 トランプ氏が出迎え",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596299"
+      "link": "https://news.yahoo.co.jp/pickup/6596324"
     },
     {
-      "doc_id": "yahoo-9af5ae86c1e134fd",
-      "title": "中国 高市首相の国連演説巡り反発",
+      "doc_id": "yahoo-9b4e2479df35d49f",
+      "title": "露側 プーチン氏のG20出席検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596301"
+      "link": "https://news.yahoo.co.jp/pickup/6596320"
     },
     {
-      "doc_id": "yahoo-bc009433e279eed3",
-      "title": "新宿のビルで火災発生 3人負傷",
+      "doc_id": "yahoo-57b311df4a9ac581",
+      "title": "台風26号発生 26日には沖縄の南へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596304"
+      "link": "https://news.yahoo.co.jp/pickup/6596321"
     },
     {
-      "doc_id": "yahoo-3795be5b3d71bfc2",
-      "title": "不明の6歳か 遺体は離島で発見",
+      "doc_id": "yahoo-0d4dcf73b381a5cf",
+      "title": "千葉の停電 復旧の見通し立たず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596296"
+      "link": "https://news.yahoo.co.jp/pickup/6596319"
     },
     {
-      "doc_id": "yahoo-9f313906d697b30d",
-      "title": "「スクイーズ」から有害物質 韓国",
+      "doc_id": "yahoo-ea70ba94150d254c",
+      "title": "10年超不明の当時10歳未満 42人",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596305"
+      "link": "https://news.yahoo.co.jp/pickup/6596322"
     },
     {
-      "doc_id": "yahoo-05f250ff9a16206a",
-      "title": "バレー女子の中国主将 富山に加入",
+      "doc_id": "yahoo-4c3b90744f88d1c3",
+      "title": "ANA機脱出 重大インシデント認定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596306"
+      "link": "https://news.yahoo.co.jp/pickup/6596318"
     },
     {
-      "doc_id": "yahoo-e35e672b5475d201",
-      "title": "小林悠が引退決意 1週間泣いた妻",
+      "doc_id": "yahoo-8cee520dee4e9ad0",
+      "title": "大谷が「2番DH」でスタメン復帰",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596240"
+      "link": "https://news.yahoo.co.jp/pickup/6596325"
     },
     {
-      "doc_id": "yahoo-1103427f32913f2c",
-      "title": "小籔千豊 吉本退所後について言及",
+      "doc_id": "yahoo-e60e8ec8f1a5a957",
+      "title": "DeNA藤浪晋太郎 来季戦力構想外",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596310"
-    },
-    {
-      "doc_id": "jiji-3c715f16cbfb450d",
-      "title": "ノーベル平和賞予想にＩＣＣ 「国際法尊重の責任訴え」―国際研究所",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300467&g=int"
-    },
-    {
-      "doc_id": "jiji-118bad03f173909c",
-      "title": "住民「言葉が出ない」 片付けと土砂撤去、にじむ疲労―台風２５号、広範囲で被害・千葉、神奈川",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300512&g=soc"
+      "link": "https://news.yahoo.co.jp/pickup/6596317"
     },
     {
       "doc_id": "jiji-444b23e54e56bdcf",
@@ -76,22 +64,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026092300659&g=int"
     },
     {
-      "doc_id": "jiji-b30b591e0ff1956f",
-      "title": "死者１０人、不明４人に 台風２５号、捜索続く―千葉・神奈川",
+      "doc_id": "jiji-f9980ee6ffb452ec",
+      "title": "ベセント氏「大きな合意検討」 米中首脳会談へ再協議",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300327&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092400123&g=int"
     },
     {
-      "doc_id": "jiji-0b9ce810b54bf166",
-      "title": "イスラエル、映画監督の市民権剥奪要求 ガザ攻撃、民間人犠牲予測の証言",
+      "doc_id": "jiji-0100937d2a4bd73f",
+      "title": "ＮＹ株続落、３５２ドル安 米金利上昇を嫌気",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300202&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400135&g=int"
     },
     {
-      "doc_id": "jiji-6a9241386745fb2e",
-      "title": "西武、後味悪い敗戦 プロ野球",
+      "doc_id": "jiji-86aee1c9099dbea8",
+      "title": "２４日の予告先発投手 プロ野球セ・リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300677&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092300577&g=spo"
+    },
+    {
+      "doc_id": "jiji-3c715f16cbfb450d",
+      "title": "ノーベル平和賞予想にＩＣＣ 「国際法尊重の責任訴え」―国際研究所",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092300467&g=int"
+    },
+    {
+      "doc_id": "jiji-be7064f1c762c60b",
+      "title": "首相動静（９月２３日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092300329&g=pol"
+    },
+    {
+      "doc_id": "jiji-a85181df4168c02f",
+      "title": "ＪＲ貨物社員を逮捕 ９０万円収賄容疑―福岡県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092300828&g=soc"
+    },
+    {
+      "doc_id": "jiji-412c27a67eb04ecf",
+      "title": "２４日の予告先発投手 プロ野球パ・リーグ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092300578&g=spo"
     },
     {
       "doc_id": "jiji-fcdc276a2b106268",
@@ -100,64 +112,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026092300309&g=int"
     },
     {
-      "doc_id": "jiji-e6989fcfd71810a1",
-      "title": "エラ・ラングレーさん、トップ記録更新 マライアさん抜き２３週―米ビルボード",
+      "doc_id": "jiji-253bc926622e5b88",
+      "title": "レアアース輸出正常化、焦点に 中国許可遅れ、日本向けも―米中首脳会談",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300420&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092300262&g=int"
     },
     {
-      "doc_id": "jiji-943d094267f6d003",
-      "title": "ゼレンスキー氏、軍事支援要請か 高市首相、就任後初の対面会談",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300186&g=pol"
-    },
-    {
-      "doc_id": "jiji-5f7438d3af9b9416",
-      "title": "日米、中国念頭に同盟強化 ＡＩ・半導体・重要鉱物で協力―高市首相、ＩＣＣ問題に言及・首脳会談",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300142&g=pol"
-    },
-    {
-      "doc_id": "nhk-48342b92794f5c6a",
-      "title": "新宿駅前のビルで火災か 数人が体調不良訴え",
+      "doc_id": "nhk-7a0a7160f9122086",
+      "title": "ジャングリア沖縄 親会社が173億円余の赤字",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52054"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52050"
     },
     {
-      "doc_id": "nhk-8a6a199cc9afe76a",
-      "title": "台風25号 千葉と神奈川で10人死亡 4人行方不明 住宅被害相次ぐ",
+      "doc_id": "nhk-55b5ceb683bad8ef",
+      "title": "台風26号が発生 沖縄の南の海上へ進む可能性 今後の進路に注意",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51926"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52066"
     },
     {
-      "doc_id": "nhk-6cf78c3773ddc302",
-      "title": "日米首脳 中国めぐる諸課題を意見交換 高市首相からICCに言及",
+      "doc_id": "nhk-df44fa6a648d99e8",
+      "title": "全日空機乗客 那覇空港で緊急脱出 3人けが エンジントラブルか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260922de51902"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52071"
     },
     {
-      "doc_id": "nhk-0ec5f57969b1ee0a",
-      "title": "中国の習近平国家主席がアメリカへ出発 米中首脳会談へ",
+      "doc_id": "nhk-ef6b38ea2d5fc707",
+      "title": "シールで落とし物を返却 新たな仕組み開発 警視庁などと連携へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de51963"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52064"
     },
     {
-      "doc_id": "nhk-5686ccc2e7320eaf",
-      "title": "山形 海岸で子どもとみられる遺体 不明6歳男児の可能性 警察",
+      "doc_id": "nhk-ba8293b0ef765ab7",
+      "title": "中国 習近平主席がアメリカに到着 米中首脳会談へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52028"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52079"
     },
     {
-      "doc_id": "nhk-93135d29209dbda4",
-      "title": "TOPIX銘柄選定ルール見直し 企業価値高める動き広がるか",
+      "doc_id": "nhk-5361ad558602059f",
+      "title": "飯塚事件 「DNA型不一致の新証拠」 3回目の再審請求へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52006"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52068"
     },
     {
-      "doc_id": "nhk-2e59b75f5a3cb363",
-      "title": "高市首相 記者会見“日米同盟関係さらに揺るぎのないものに”",
+      "doc_id": "nhk-d1e9aac4087ab876",
+      "title": "台風25号 10人死亡4人不明 北印旛沼周辺で浸水被害 復旧急ぐ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de51965"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52072"
+    },
+    {
+      "doc_id": "itmedia-a715fe3ce630e0e1",
+      "title": "YouTube、クリエイター向け新機能を多数発表 Geminiによる会話型編集、動画のA/Bテスト、ライブ配信者のマッチングなど",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001682/"
     },
     {
       "doc_id": "itmedia-0678705b9f45eb21",
@@ -224,12 +230,6 @@
       "title": "今度は“ディスプレイなし”のAIグラス、「Rokid Ai Glasses Style」を試す",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001649/"
-    },
-    {
-      "doc_id": "itmedia-959637e17c0a1410",
-      "title": "Google、「Googlebook」の予約受付開始 899ドル（約14万円）から",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001667/"
     },
     {
       "doc_id": "nazology-30393b0fa6a3439b",
