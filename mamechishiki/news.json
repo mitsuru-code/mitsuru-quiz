@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-23T23:08:36+00:00",
-  "now_ms": 1790204916307,
+  "fetched_at": "2026-09-24T07:48:01+00:00",
+  "now_ms": 1790236081642,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,136 +10,148 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-fa9bf410bed414af",
-      "title": "習氏が米到着 トランプ氏が出迎え",
+      "doc_id": "yahoo-ab6fd55164fced3c",
+      "title": "トランプ氏が習氏を出迎え 思惑は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596324"
+      "link": "https://news.yahoo.co.jp/pickup/6596362"
     },
     {
-      "doc_id": "yahoo-9b4e2479df35d49f",
-      "title": "露側 プーチン氏のG20出席検討",
+      "doc_id": "yahoo-4cd8d81e63a3b608",
+      "title": "太陽光発電施設で発火 印旛沼付近",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596320"
+      "link": "https://news.yahoo.co.jp/pickup/6596372"
     },
     {
-      "doc_id": "yahoo-57b311df4a9ac581",
-      "title": "台風26号発生 26日には沖縄の南へ",
+      "doc_id": "yahoo-543d3d790bb6ec8f",
+      "title": "鉄塔転落死 遺族が会社に要望書",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596321"
+      "link": "https://news.yahoo.co.jp/pickup/6596366"
     },
     {
-      "doc_id": "yahoo-0d4dcf73b381a5cf",
-      "title": "千葉の停電 復旧の見通し立たず",
+      "doc_id": "yahoo-1e8cd7054cf4d6fd",
+      "title": "中学生10人に追われ観念 男を逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596319"
+      "link": "https://news.yahoo.co.jp/pickup/6596363"
     },
     {
-      "doc_id": "yahoo-ea70ba94150d254c",
-      "title": "10年超不明の当時10歳未満 42人",
+      "doc_id": "yahoo-acb7f8e89dea12b4",
+      "title": "ジャングリア親会社 173億円赤字",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596322"
+      "link": "https://news.yahoo.co.jp/pickup/6596367"
     },
     {
-      "doc_id": "yahoo-4c3b90744f88d1c3",
-      "title": "ANA機脱出 重大インシデント認定",
+      "doc_id": "yahoo-f90fef7411f2da39",
+      "title": "11歳がeスポーツ決勝へ ぷよぷよ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596318"
+      "link": "https://news.yahoo.co.jp/pickup/6596375"
     },
     {
-      "doc_id": "yahoo-8cee520dee4e9ad0",
-      "title": "大谷が「2番DH」でスタメン復帰",
+      "doc_id": "yahoo-381e0dc39ddb919e",
+      "title": "由伸が9敗目 復帰の大谷は1安打",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596325"
+      "link": "https://news.yahoo.co.jp/pickup/6596365"
     },
     {
-      "doc_id": "yahoo-e60e8ec8f1a5a957",
-      "title": "DeNA藤浪晋太郎 来季戦力構想外",
+      "doc_id": "yahoo-3df6eb882dd6f4de",
+      "title": "WEST.解散発表 個々で思い吐露",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596317"
+      "link": "https://news.yahoo.co.jp/pickup/6596370"
     },
     {
-      "doc_id": "jiji-444b23e54e56bdcf",
-      "title": "豪カンタス、ＮＹ直行便開設へ １万６０００キロの超長距離線",
+      "doc_id": "jiji-89596fe1419f8bee",
+      "title": "藤浪晋太郎、来季は構想外に 現役続行を希望―プロ野球・ＤｅＮＡ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300659&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400261&g=spo"
     },
     {
-      "doc_id": "jiji-f9980ee6ffb452ec",
-      "title": "ベセント氏「大きな合意検討」 米中首脳会談へ再協議",
+      "doc_id": "jiji-706fdf29b018ad87",
+      "title": "北朝鮮兵捕虜を韓国に移送 侵攻後初めて―ウクライナ大統領",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400123&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400398&g=int"
     },
     {
-      "doc_id": "jiji-0100937d2a4bd73f",
-      "title": "ＮＹ株続落、３５２ドル安 米金利上昇を嫌気",
+      "doc_id": "jiji-6a65ea261d25ba16",
+      "title": "８月の欧州新車販売、４．５％増 ７カ月連続プラス、ＥＶ６割増",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400135&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400565&g=int"
     },
     {
-      "doc_id": "jiji-86aee1c9099dbea8",
-      "title": "２４日の予告先発投手 プロ野球セ・リーグ",
+      "doc_id": "jiji-e297894a35838006",
+      "title": "米ＦＲＢ「タカ派」強める １０月利上げ焦点、長期金利上昇",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300577&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092400275&g=int"
     },
     {
-      "doc_id": "jiji-3c715f16cbfb450d",
-      "title": "ノーベル平和賞予想にＩＣＣ 「国際法尊重の責任訴え」―国際研究所",
+      "doc_id": "jiji-e452781e2bd3d9d6",
+      "title": "初の「女性スルタン」誕生も 「男子継承」こだわらず―インドネシア・ジョクジャカルタ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300467&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400168&g=int"
     },
     {
-      "doc_id": "jiji-be7064f1c762c60b",
-      "title": "首相動静（９月２３日）",
+      "doc_id": "jiji-a2c4fae9e8744a5c",
+      "title": "全日空機から緊急脱出、３人軽傷 エンジン不具合で引き返し―那覇空港",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300329&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092400289&g=soc"
     },
     {
-      "doc_id": "jiji-a85181df4168c02f",
-      "title": "ＪＲ貨物社員を逮捕 ９０万円収賄容疑―福岡県警",
+      "doc_id": "jiji-a79ba6b8a93e3a85",
+      "title": "西野真弘と山田修義が現役引退 プロ野球・オリックス",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300828&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092400665&g=spo"
     },
     {
-      "doc_id": "jiji-412c27a67eb04ecf",
-      "title": "２４日の予告先発投手 プロ野球パ・リーグ",
+      "doc_id": "jiji-488b25a7f2cdbdfb",
+      "title": "大谷翔平、復帰戦で１安打 山本由伸は９敗目―米大リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300578&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092400277&g=spo"
     },
     {
-      "doc_id": "jiji-fcdc276a2b106268",
-      "title": "イスラエル、動画で国連やゆ 各国代表オウムに見立て",
+      "doc_id": "jiji-91eeabd37355a4f5",
+      "title": "北朝鮮外相、核保有の意志「永遠不変」 日米韓共同声明に反発",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300309&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400672&g=int"
     },
     {
-      "doc_id": "jiji-253bc926622e5b88",
-      "title": "レアアース輸出正常化、焦点に 中国許可遅れ、日本向けも―米中首脳会談",
+      "doc_id": "jiji-1820516ecb2df6ae",
+      "title": "「ウエスト」今月末で活動終了 ２０１４年デビューのアイドルグループ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092300262&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400690&g=soc"
     },
     {
-      "doc_id": "nhk-7a0a7160f9122086",
-      "title": "ジャングリア沖縄 親会社が173億円余の赤字",
+      "doc_id": "nhk-d1e9aac4087ab876",
+      "title": "台風25号 千葉と神奈川で10人死亡4人不明 北印旛沼で堤防決壊",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52050"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52072"
+    },
+    {
+      "doc_id": "nhk-7768d6ceab2f24a1",
+      "title": "米連邦地裁 メディアのホワイトハウス立ち入り禁止解除 命じる",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52168"
+    },
+    {
+      "doc_id": "nhk-cd453df949266f9a",
+      "title": "台風25号 千葉 印旛沼付近 水につかった太陽光発電施設で火事",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52122"
+    },
+    {
+      "doc_id": "nhk-bf3f5bdd6cc084b7",
+      "title": "台風25号 千葉県内残る爪痕 印旛沼で堤防決壊 各地で土砂崩れ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52115"
     },
     {
       "doc_id": "nhk-55b5ceb683bad8ef",
-      "title": "台風26号が発生 沖縄の南の海上へ進む可能性 今後の進路に注意",
+      "title": "台風26号発生 沖縄の南の海上へ進む可能性 今後の情報に注意",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260923de52066"
     },
     {
-      "doc_id": "nhk-df44fa6a648d99e8",
-      "title": "全日空機乗客 那覇空港で緊急脱出 3人けが エンジントラブルか",
+      "doc_id": "nhk-5cee8afae4c2ab9e",
+      "title": "長期金利 3.075％まで上昇 1996年8月以来の高水準",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52071"
-    },
-    {
-      "doc_id": "nhk-ef6b38ea2d5fc707",
-      "title": "シールで落とし物を返却 新たな仕組み開発 警視庁などと連携へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52064"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52101"
     },
     {
       "doc_id": "nhk-ba8293b0ef765ab7",
@@ -148,22 +160,52 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260924de52079"
     },
     {
-      "doc_id": "nhk-5361ad558602059f",
-      "title": "飯塚事件 「DNA型不一致の新証拠」 3回目の再審請求へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52068"
-    },
-    {
-      "doc_id": "nhk-d1e9aac4087ab876",
-      "title": "台風25号 10人死亡4人不明 北印旛沼周辺で浸水被害 復旧急ぐ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52072"
-    },
-    {
-      "doc_id": "itmedia-a715fe3ce630e0e1",
-      "title": "YouTube、クリエイター向け新機能を多数発表 Geminiによる会話型編集、動画のA/Bテスト、ライブ配信者のマッチングなど",
+      "doc_id": "itmedia-f51c93be651013af",
+      "title": "Amazon「プライム感謝祭」10月16日から4日間 エントリー開始、対象商品400万点以上に倍増",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001682/"
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001702/"
+    },
+    {
+      "doc_id": "itmedia-36bd38562b35d670",
+      "title": "OpenAIのAIエージェントが豪政府サイトに不正アクセス 同社の通知は3カ月後、首相「失望した」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001694/"
+    },
+    {
+      "doc_id": "itmedia-c62add4cb4ee70c6",
+      "title": "ゲームや推し活から導き出す希望条件、7人に6人が内々定でも「自分が納得する進路へ」 就活リサーチ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001693/"
+    },
+    {
+      "doc_id": "itmedia-a434762bdbfbc5a2",
+      "title": "Discord、「大人」証明後も成人向けサーバーに入れず 年齢判定で不具合",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001692/"
+    },
+    {
+      "doc_id": "itmedia-9d172d337db5e2b8",
+      "title": "「クリスタ」素材、大量非公開でユーザー混乱 人物だけでなくペンや公式素材まで セルシス「誤判定もあった」が……",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001689/"
+    },
+    {
+      "doc_id": "itmedia-5f9bb141c9632e71",
+      "title": "MetaのザッカーバーグCEO、「ワンモアシング」としてたまごっちのような「Muse Charm」披露",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001688/"
+    },
+    {
+      "doc_id": "itmedia-10fd5296c1b65197",
+      "title": "Meta、重さ約100gのメガネ型VRデバイス「Meta VR Glasses」発表 27年春発売",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001687/"
+    },
+    {
+      "doc_id": "itmedia-69eb713a997fdf2a",
+      "title": "YouTube、視聴者向け新機能を発表 プロンプトで作る「カスタムフィード」、Ask YouTubeの買い物支援、YouTube Musicの「Ask Music」など",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001684/"
     },
     {
       "doc_id": "itmedia-0678705b9f45eb21",
@@ -172,64 +214,40 @@
       "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001678/"
     },
     {
+      "doc_id": "itmedia-0ba54b5b6d7525be",
+      "title": "J:COM「ネットつながらない」障害、約9時間で復旧 原因は「調査中」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001683/"
+    },
+    {
+      "doc_id": "itmedia-a715fe3ce630e0e1",
+      "title": "YouTube、クリエイター向け新機能を多数発表 Geminiによる会話型編集、動画のA/Bテスト、ライブ配信者のマッチングなど",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001682/"
+    },
+    {
       "doc_id": "itmedia-83ba64f72b0b4713",
       "title": "Apple、ロンドンにライブ会場「Apple Music Hall」を開設 空間オーディオ収録や配信設備付き",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001677/"
     },
     {
-      "doc_id": "itmedia-57b841c6641e505f",
-      "title": "トランプ大統領、国連演説で「AI」を「Super Intelligence」に改称すると表明",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001676/"
+      "doc_id": "nazology-264cdc1aae89e33f",
+      "title": "自己主張が強い人ほどリーダーになったが、実力とは別だった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200038"
     },
     {
-      "doc_id": "itmedia-695e3cceaa3de6b3",
-      "title": "Microsoft、Xboxで新たに268人削減 次期「Halo」はActivisionが開発、Ninja Theoryは閉鎖案",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001675/"
+      "doc_id": "nazology-2930a09cb1b38f81",
+      "title": "カルシウムやビタミンDを補充した人も骨折はほぼ減らなかった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200029"
     },
     {
-      "doc_id": "itmedia-f2d108214ea5eb27",
-      "title": "OpenAI、「GPT-6 Sol」と「GPT-6 Luna」公開 API料金は前世代の半額に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001674/"
-    },
-    {
-      "doc_id": "itmedia-7dc86b66e4231f51",
-      "title": "Anthropic、「Claude Opus 5.5」公開 Fable 5.1並みの性能で利用コスト4割減",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001673/"
-    },
-    {
-      "doc_id": "itmedia-c629e56075bb4941",
-      "title": "OpenAI、数学者の独立諮問グループと連携 内部モデルは「100件超の未解決問題を解決」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001671/"
-    },
-    {
-      "doc_id": "itmedia-09d5f0231c402460",
-      "title": "OpenAI、フロンティアAIの国際標準づくりを米国主導で進めるよう提言 「RSIはまだ起きていない」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001670/"
-    },
-    {
-      "doc_id": "itmedia-70ef54c1e68356c1",
-      "title": "Amazon、MetaのAIエージェント「Muse」による代理購入をブロック Shopifyは全店舗で対応へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001669/"
-    },
-    {
-      "doc_id": "itmedia-843fd2c38025fd79",
-      "title": "SpaceXAI、「Grok 4.7」発表 コーディングと知識労働向けで同社最高性能、価格は据え置き",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001668/"
-    },
-    {
-      "doc_id": "itmedia-0440a5e268a28ba0",
-      "title": "今度は“ディスプレイなし”のAIグラス、「Rokid Ai Glasses Style」を試す",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/22/2000001649/"
+      "doc_id": "nazology-26d326eea4221057",
+      "title": "食事でも運動でもなかった──寿命と結びつく生活習慣、1位は喫煙、2位は「睡眠不足」",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200013"
     },
     {
       "doc_id": "nazology-30393b0fa6a3439b",
@@ -272,24 +290,6 @@
       "title": "魚が吐くまで追い回し吐瀉物だけ食べる「ゲロ狩りイルカ」がいた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/199965"
-    },
-    {
-      "doc_id": "nazology-b40ef24ff268ec6b",
-      "title": "ADHD症状のある若者は勉強中や仕事中にも普通の人より頻繁にBGMを聴く",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/182754"
-    },
-    {
-      "doc_id": "nazology-52f4145497dbd411",
-      "title": "金星は衛星を飲み込んだ可能性がある――灼熱地獄への引き金か",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/199956"
-    },
-    {
-      "doc_id": "nazology-60cbada354ebb517",
-      "title": "私たちが「脳」と呼んでいるものは、2つの異なる器官の組み合わせだった――前後が別々の『種』から育つ",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/199948"
     }
   ]
 }
