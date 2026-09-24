@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-24T07:48:01+00:00",
-  "now_ms": 1790236081642,
+  "fetched_at": "2026-09-24T13:46:32+00:00",
+  "now_ms": 1790257592095,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,154 +10,202 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-ab6fd55164fced3c",
-      "title": "トランプ氏が習氏を出迎え 思惑は",
+      "doc_id": "yahoo-a0a5b72496197031",
+      "title": "週末は関東各地で雨の予報 注意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596362"
+      "link": "https://news.yahoo.co.jp/pickup/6596394"
     },
     {
-      "doc_id": "yahoo-4cd8d81e63a3b608",
-      "title": "太陽光発電施設で発火 印旛沼付近",
+      "doc_id": "yahoo-f47fe15e9fd864c0",
+      "title": "取材許可巡る米政権措置 差し止め",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596372"
+      "link": "https://news.yahoo.co.jp/pickup/6596403"
     },
     {
-      "doc_id": "yahoo-543d3d790bb6ec8f",
-      "title": "鉄塔転落死 遺族が会社に要望書",
+      "doc_id": "yahoo-0e5fe8590cc69603",
+      "title": "崖崩落で死亡 夫が過去に対応要求",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596366"
+      "link": "https://news.yahoo.co.jp/pickup/6596413"
     },
     {
-      "doc_id": "yahoo-1e8cd7054cf4d6fd",
-      "title": "中学生10人に追われ観念 男を逮捕",
+      "doc_id": "yahoo-ea3b399d11c9bdf6",
+      "title": "養魚場浸水 金魚など10万匹全滅か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596363"
+      "link": "https://news.yahoo.co.jp/pickup/6596409"
     },
     {
-      "doc_id": "yahoo-acb7f8e89dea12b4",
-      "title": "ジャングリア親会社 173億円赤字",
+      "doc_id": "yahoo-054abbfd1565bb74",
+      "title": "誤情報で民放批判 維新藤田氏謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596367"
+      "link": "https://news.yahoo.co.jp/pickup/6596414"
     },
     {
-      "doc_id": "yahoo-f90fef7411f2da39",
-      "title": "11歳がeスポーツ決勝へ ぷよぷよ",
+      "doc_id": "yahoo-3698114db11e8d41",
+      "title": "卓球女子団体 中国に敗れ銀メダル",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596375"
+      "link": "https://news.yahoo.co.jp/pickup/6596418"
     },
     {
-      "doc_id": "yahoo-381e0dc39ddb919e",
-      "title": "由伸が9敗目 復帰の大谷は1安打",
+      "doc_id": "yahoo-0f92bf36580a6f0f",
+      "title": "カバディ男子敗退 ルール巡り混乱",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596365"
+      "link": "https://news.yahoo.co.jp/pickup/6596415"
     },
     {
-      "doc_id": "yahoo-3df6eb882dd6f4de",
-      "title": "WEST.解散発表 個々で思い吐露",
+      "doc_id": "yahoo-b2eda03efaf83a47",
+      "title": "銀座にBTSジョングク ファン殺到",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596370"
+      "link": "https://news.yahoo.co.jp/pickup/6596419"
     },
     {
-      "doc_id": "jiji-89596fe1419f8bee",
-      "title": "藤浪晋太郎、来季は構想外に 現役続行を希望―プロ野球・ＤｅＮＡ",
+      "doc_id": "jiji-df11bb2171f90786",
+      "title": "「日本は反中・嫌中の世界チャンピオン」 「斬首投稿」の中国総領事、騒動後初めて姿",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400261&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092401035&g=int"
     },
     {
-      "doc_id": "jiji-706fdf29b018ad87",
-      "title": "北朝鮮兵捕虜を韓国に移送 侵攻後初めて―ウクライナ大統領",
+      "doc_id": "jiji-539aad0c36da1272",
+      "title": "１７歳大橋信、２００平で世界新 卓球男子は６０年ぶり金―愛知・名古屋アジア大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400398&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400899&g=spo"
     },
     {
-      "doc_id": "jiji-6a65ea261d25ba16",
-      "title": "８月の欧州新車販売、４．５％増 ７カ月連続プラス、ＥＶ６割増",
+      "doc_id": "jiji-88fa1569de6649de",
+      "title": "アジア大会組織委「勉強足りなかった」 宿泊拠点巡る運営問題で",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400565&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400778&g=spo"
     },
     {
-      "doc_id": "jiji-e297894a35838006",
-      "title": "米ＦＲＢ「タカ派」強める １０月利上げ焦点、長期金利上昇",
+      "doc_id": "jiji-8f804dfa8f2ebb62",
+      "title": "日本代表、ウルグアイ破る 松木、塩貝ら３ゴール―サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400275&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092400960&g=spo"
     },
     {
-      "doc_id": "jiji-e452781e2bd3d9d6",
-      "title": "初の「女性スルタン」誕生も 「男子継承」こだわらず―インドネシア・ジョクジャカルタ",
+      "doc_id": "jiji-cff3b2ec54b1d369",
+      "title": "プーチン氏のＧ２０出席「検討」 米招待に感謝―ロシア報道官",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400168&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092401097&g=int"
     },
     {
-      "doc_id": "jiji-a2c4fae9e8744a5c",
-      "title": "全日空機から緊急脱出、３人軽傷 エンジン不具合で引き返し―那覇空港",
+      "doc_id": "jiji-35deecc9737366fd",
+      "title": "住宅浸水８８０棟超 印旛沼など氾濫で―住民「どこから手着ければ」・千葉大雨",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400289&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092400910&g=soc"
     },
     {
-      "doc_id": "jiji-a79ba6b8a93e3a85",
-      "title": "西野真弘と山田修義が現役引退 プロ野球・オリックス",
+      "doc_id": "jiji-d9e59fb940c271b5",
+      "title": "トクリュウ対策、「切り札」に期待 権利侵害恐れも、厳正運用がカギ―端末遠隔解析",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400665&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092400635&g=soc"
     },
     {
-      "doc_id": "jiji-488b25a7f2cdbdfb",
-      "title": "大谷翔平、復帰戦で１安打 山本由伸は９敗目―米大リーグ",
+      "doc_id": "jiji-85aeb597fa848c09",
+      "title": "トクリュウのスマホ、遠隔で解析 被害防止へ、早期導入を提言―有識者会議、法改正目指す・警察庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400277&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092400631&g=soc"
     },
     {
-      "doc_id": "jiji-91eeabd37355a4f5",
-      "title": "北朝鮮外相、核保有の意志「永遠不変」 日米韓共同声明に反発",
+      "doc_id": "jiji-031db66388430329",
+      "title": "広島が逃げ切る プロ野球・広島３―１巨人",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400672&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092401112&g=spo"
     },
     {
-      "doc_id": "jiji-1820516ecb2df6ae",
-      "title": "「ウエスト」今月末で活動終了 ２０１４年デビューのアイドルグループ",
+      "doc_id": "jiji-03bf2246279231bc",
+      "title": "サッカーの国際親善試合で、日本はウルグアイを３―１で破った",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400690&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092401111&g=flash"
     },
     {
       "doc_id": "nhk-d1e9aac4087ab876",
-      "title": "台風25号 千葉と神奈川で10人死亡4人不明 北印旛沼で堤防決壊",
+      "title": "台風25号 千葉と神奈川で11人死亡3人不明 北印旛沼で堤防決壊",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260923de52072"
     },
     {
-      "doc_id": "nhk-7768d6ceab2f24a1",
-      "title": "米連邦地裁 メディアのホワイトハウス立ち入り禁止解除 命じる",
+      "doc_id": "nhk-7b8e32e60cd9748d",
+      "title": "アジア大会卓球男子団体 日本が中国破り60年ぶり金メダル",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52168"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52255"
     },
     {
-      "doc_id": "nhk-cd453df949266f9a",
-      "title": "台風25号 千葉 印旛沼付近 水につかった太陽光発電施設で火事",
+      "doc_id": "nhk-bd4cfc11788a97e8",
+      "title": "サッカー日本代表 W杯後初戦でウルグアイに勝利 若手が活躍",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52122"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52230"
     },
     {
-      "doc_id": "nhk-bf3f5bdd6cc084b7",
-      "title": "台風25号 千葉県内残る爪痕 印旛沼で堤防決壊 各地で土砂崩れ",
+      "doc_id": "nhk-4e7f86662c2c3d02",
+      "title": "トクリュウのスマホ遠隔解析 有識者「早急な導入が必要」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52115"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52184"
     },
     {
-      "doc_id": "nhk-55b5ceb683bad8ef",
-      "title": "台風26号発生 沖縄の南の海上へ進む可能性 今後の情報に注意",
+      "doc_id": "nhk-75114b7c1efc85a4",
+      "title": "ペット避妊手術後に後遺症 動物病院と解決金300万円で和解",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260923de52066"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52216"
     },
     {
-      "doc_id": "nhk-5cee8afae4c2ab9e",
-      "title": "長期金利 3.075％まで上昇 1996年8月以来の高水準",
+      "doc_id": "nhk-02b6480bbe7a93ca",
+      "title": "JR貨物汚職事件 贈賄側会社役員はJR貨物OB 収賄側社員の知人か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52101"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52233"
     },
     {
-      "doc_id": "nhk-ba8293b0ef765ab7",
-      "title": "中国 習近平主席がアメリカに到着 米中首脳会談へ",
+      "doc_id": "nhk-28aa3ac84d707e37",
+      "title": "ふるさと納税「越前がに」で不正表示 福井県越前町に措置命令",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52079"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260924de52245"
+    },
+    {
+      "doc_id": "itmedia-c1ba7e5f3e7cf7fb",
+      "title": "中国旅行の支払いをApple Payやクレカで Tencent、訪中客向け決済アプリ「TenPayGo」発表",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001717/"
+    },
+    {
+      "doc_id": "itmedia-69eb713a997fdf2a",
+      "title": "YouTube、視聴者向け新機能を発表 プロンプトで作る「カスタムフィード」、「YouTubeに相談」の買い物支援、YouTube Musicの「Ask Music」など",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001684/"
+    },
+    {
+      "doc_id": "itmedia-1d6070e423de8b11",
+      "title": "「モンスト」キャラの声をAI生成、MIXIのニュース紹介企画に批判続出 実施見合わせへ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001720/"
+    },
+    {
+      "doc_id": "itmedia-2a1ec1b8a9dcc177",
+      "title": "台風25号で“地下神殿”また稼働 雨水が流れ込む動画公開 今年度7回目で過去最多に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001705/"
+    },
+    {
+      "doc_id": "itmedia-7b93fbb7ef05f413",
+      "title": "NTT東西が「にじさんじ電報」発売 ポップアップ台紙にはライバーの複製手書きメッセージ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001713/"
+    },
+    {
+      "doc_id": "itmedia-dbe76b3458088719",
+      "title": "「楽天銀行から数百万が勝手に移動」「残高が0に」……楽天証券のシステム不具合、連休中に発生",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001708/"
+    },
+    {
+      "doc_id": "itmedia-a715fe3ce630e0e1",
+      "title": "YouTube、クリエイター向け新機能を多数発表 Geminiによる会話型編集、動画のA/Bテスト、ライブ配信者のマッチングなど",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001682/"
+    },
+    {
+      "doc_id": "itmedia-357e73154c413c7c",
+      "title": "ゼロから声を作れる音声生成モデル「Gemini 3.8 Flash TTS」公開 「Gemini Notebook」でも利用可能に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001703/"
     },
     {
       "doc_id": "itmedia-f51c93be651013af",
@@ -184,52 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001692/"
     },
     {
-      "doc_id": "itmedia-9d172d337db5e2b8",
-      "title": "「クリスタ」素材、大量非公開でユーザー混乱 人物だけでなくペンや公式素材まで セルシス「誤判定もあった」が……",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001689/"
+      "doc_id": "nazology-b5bfec2152a5556b",
+      "title": "ザトウクジラの母、死んだ子に数時間寄り添う姿を観察",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200057"
     },
     {
-      "doc_id": "itmedia-5f9bb141c9632e71",
-      "title": "MetaのザッカーバーグCEO、「ワンモアシング」としてたまごっちのような「Muse Charm」披露",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001688/"
+      "doc_id": "nazology-e67f698cfb779fec",
+      "title": "飲んだ後は溶けて消える紙の電池を開発、胃の中で機器を動かす",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200049"
     },
     {
-      "doc_id": "itmedia-10fd5296c1b65197",
-      "title": "Meta、重さ約100gのメガネ型VRデバイス「Meta VR Glasses」発表 27年春発売",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001687/"
-    },
-    {
-      "doc_id": "itmedia-69eb713a997fdf2a",
-      "title": "YouTube、視聴者向け新機能を発表 プロンプトで作る「カスタムフィード」、Ask YouTubeの買い物支援、YouTube Musicの「Ask Music」など",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001684/"
-    },
-    {
-      "doc_id": "itmedia-0678705b9f45eb21",
-      "title": "JCOM障害「インターネットが使えない」 サポート窓口もつながりにくく",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001678/"
-    },
-    {
-      "doc_id": "itmedia-0ba54b5b6d7525be",
-      "title": "J:COM「ネットつながらない」障害、約9時間で復旧 原因は「調査中」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001683/"
-    },
-    {
-      "doc_id": "itmedia-a715fe3ce630e0e1",
-      "title": "YouTube、クリエイター向け新機能を多数発表 Geminiによる会話型編集、動画のA/Bテスト、ライブ配信者のマッチングなど",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001682/"
-    },
-    {
-      "doc_id": "itmedia-83ba64f72b0b4713",
-      "title": "Apple、ロンドンにライブ会場「Apple Music Hall」を開設 空間オーディオ収録や配信設備付き",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/23/2000001677/"
+      "doc_id": "nazology-f2b742b30fc833c1",
+      "title": "耳で覚える？ 譜面で読む？──脳科学が暴く“音楽習得”の新常識",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/174858"
     },
     {
       "doc_id": "nazology-264cdc1aae89e33f",
@@ -272,24 +290,6 @@
       "title": "言語性IQが高いADHDの子ほど、衝動性が強めだった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/199985"
-    },
-    {
-      "doc_id": "nazology-d8c4c1317e330f03",
-      "title": "好きな人と距離を縮める「恋に落ちる36の質問」とは？",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/191370"
-    },
-    {
-      "doc_id": "nazology-b6125ef51684a066",
-      "title": "AIがチェスで圧勝する理由の一端が見えてきた――「ややこしいまま耐える」時間が人間より長い",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/199973"
-    },
-    {
-      "doc_id": "nazology-62a5a8b076254184",
-      "title": "魚が吐くまで追い回し吐瀉物だけ食べる「ゲロ狩りイルカ」がいた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/199965"
     }
   ]
 }
