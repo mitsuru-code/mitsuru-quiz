@@ -75,6 +75,16 @@ def main():
         print("[error] 全媒体で0件だったため news.json は更新しない", file=sys.stderr)
         return 1
 
+    # 毎時実行なので、見出しが前回と同じなら書き換えない（時刻だけの無駄なコミットを防ぐ）
+    if OUT_PATH.exists():
+        try:
+            prev = json.loads(OUT_PATH.read_text(encoding="utf-8"))
+            if prev.get("candidates") == candidates:
+                print("見出しに変化なし。news.json は更新しない")
+                return 0
+        except (OSError, ValueError):
+            pass
+
     now = datetime.now(timezone.utc)
     data = {
         "fetched_at": now.isoformat(timespec="seconds"),
