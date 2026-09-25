@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-25T19:16:50+00:00",
-  "now_ms": 1790363810383,
+  "fetched_at": "2026-09-25T22:30:03+00:00",
+  "now_ms": 1790375403722,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -16,6 +16,12 @@
       "link": "https://news.yahoo.co.jp/pickup/6596559"
     },
     {
+      "doc_id": "yahoo-8520f7c74b40816a",
+      "title": "米中首脳 年内あと2回会談に意欲",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6596562"
+    },
+    {
       "doc_id": "yahoo-1a33725144c4b61a",
       "title": "泉健太氏 2人で衆院会派を結成へ",
       "source": "Yahoo!ニュース",
@@ -28,10 +34,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6596551"
     },
     {
-      "doc_id": "yahoo-92e74f0bbca93c70",
-      "title": "群馬で女性死亡 逃亡男性は知人か",
+      "doc_id": "yahoo-f2f9e201067f0d0b",
+      "title": "群馬女性死亡 娘の元夫を公開手配",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596549"
+      "link": "https://news.yahoo.co.jp/pickup/6596563"
+    },
+    {
+      "doc_id": "yahoo-5c0b1f6238d863fd",
+      "title": "関越道で作業員2人はねられ死亡",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6596564"
     },
     {
       "doc_id": "yahoo-2020c3f2f7ded194",
@@ -40,46 +52,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6596547"
     },
     {
-      "doc_id": "yahoo-e10dc0eca7c31d9f",
-      "title": "timelesz猪俣さん釈放 処分保留",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596541"
-    },
-    {
       "doc_id": "yahoo-4ff03e78c5f93670",
       "title": "カープ矢野・前川選手を書類送検",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6596557"
     },
     {
-      "doc_id": "yahoo-73d62bc884787177",
-      "title": "パパイヤら 芸能界相次ぐ体調不良",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596533"
-    },
-    {
-      "doc_id": "jiji-494193e81808bb4f",
-      "title": "米中合意、２８日公表 「交渉進展」とＵＳＴＲ代表",
+      "doc_id": "jiji-226a819664895fd9",
+      "title": "群馬女性殺害、娘の元夫を公開手配 長男への殺人未遂容疑―県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501213&g=int"
-    },
-    {
-      "doc_id": "jiji-7283e7513bdca457",
-      "title": "民家で５２歳女性刺殺か、男逃走 息子も鉢合わせ負傷―群馬・太田",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092500970&g=soc"
-    },
-    {
-      "doc_id": "jiji-a62fc5eef62ebe9e",
-      "title": "ｔｉｍｅｌｅｓｚ猪俣さん釈放 傷害容疑で逮捕、女性と示談―警視庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092500849&g=soc"
-    },
-    {
-      "doc_id": "jiji-e80975558a25f0d4",
-      "title": "習氏「今年あと２回会う機会ある」 トランプ氏の訪中歓迎",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600020&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092600127&g=soc"
     },
     {
       "doc_id": "jiji-ad2f3586ec025a80",
@@ -88,28 +70,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026092501039&g=pol"
     },
     {
-      "doc_id": "jiji-0c540f79bcab9d97",
-      "title": "広島カープ矢野選手を書類送検 ゾンビたばこ巡り容疑否定―県警",
+      "doc_id": "jiji-a62fc5eef62ebe9e",
+      "title": "ｔｉｍｅｌｅｓｚ猪俣さん釈放 傷害容疑で逮捕、女性と示談―警視庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501232&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092500849&g=soc"
     },
     {
-      "doc_id": "jiji-c4160102cebf8064",
-      "title": "高市首相「日本はＩＣＣ支持」 首脳会談でトランプ氏に表明",
+      "doc_id": "jiji-7283e7513bdca457",
+      "title": "民家で５２歳女性刺殺か、男逃走 息子も鉢合わせ負傷―群馬・太田",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501046&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092500970&g=soc"
     },
     {
-      "doc_id": "jiji-20cf6f40e81c8396",
-      "title": "トランプ氏「円安で貿易厳しい」 高市首相は円の過小評価問題視―日米首脳会談",
+      "doc_id": "jiji-6d90624557768b5b",
+      "title": "米中首脳、年内あと２回会談 １１、１２月の国際会議",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501063&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092600124&g=int"
     },
     {
-      "doc_id": "jiji-988214596ff9ed15",
-      "title": "竹内功さん死去（前鳥取市長、元自民党参院議員）",
+      "doc_id": "jiji-094ad55c7f6f471a",
+      "title": "「強い円が望ましい」 日米財務相会談でベセント氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501024&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092600125&g=int"
+    },
+    {
+      "doc_id": "jiji-ac63e930bccf8f32",
+      "title": "首相動静（９月２５日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092500248&g=pol"
+    },
+    {
+      "doc_id": "jiji-8ad2f9fdb93c2789",
+      "title": "ＮＹ株４日ぶり反発、４７８ドル高 ホルムズ海峡開放期待で",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092600136&g=int"
+    },
+    {
+      "doc_id": "jiji-04d338c187780494",
+      "title": "トランプ氏、中国は「同盟国」 習氏「日本軍国主義と戦った」―第２次大戦絡め異例発言",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092500315&g=int"
     },
     {
       "doc_id": "jiji-87552018eefb459f",
@@ -118,46 +118,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026092501112&g=spo"
     },
     {
-      "doc_id": "nhk-d31f51eeee405418",
-      "title": "台風26号 沖縄に近づく見込み 沖縄では27日大しけに 高波警戒",
+      "doc_id": "nhk-db51786c617e4f1a",
+      "title": "台風26号 沖縄であす非常に強い風 関東中心に土砂災害に注意を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52272"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52529"
     },
     {
-      "doc_id": "nhk-3961750668115274",
-      "title": "円相場1ドル＝156円台に値上がり 介入警戒強まる",
+      "doc_id": "nhk-7e074e64ce778674",
+      "title": "習主席 訪米終え帰国へ 年内にあと2回会談の意向示す",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52516"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52523"
     },
     {
-      "doc_id": "nhk-016123006d0b49bf",
-      "title": "片山財務相がベッセント長官と電話会談 日米協力強化を確認",
+      "doc_id": "nhk-8e14c9fb72e9aa90",
+      "title": "群馬 太田 女性死亡事件 逃走した長女の元夫を公開手配",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52509"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52508"
     },
     {
-      "doc_id": "nhk-5ccd76ab8b402dda",
-      "title": "世界が注目した米中首脳会談 日本や世界への影響は",
+      "doc_id": "nhk-6223f247d6305f23",
+      "title": "臨時国会 10月5日召集へ 消費税焦点 国会改革も論点に",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52482"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52518"
     },
     {
-      "doc_id": "nhk-1fb30b6565337e19",
-      "title": "18歳未満の選挙運動禁止規定は憲法違反の初判断 東京地裁",
+      "doc_id": "nhk-5a782141d47c0bf6",
+      "title": "政府 食料品の消費税減税の準備を支援へ 予備費支出も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52402"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52513"
+    },
+    {
+      "doc_id": "nhk-556e0612fe28cd3a",
+      "title": "米中首脳会談の内容説明を 日米首脳電話会談も 日本政府",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52519"
     },
     {
       "doc_id": "nhk-6eac6bbbdd2200ff",
       "title": "印旛沼 浸水範囲は浸水想定区域と重なる ハザードマップ確認を",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260925de52316"
-    },
-    {
-      "doc_id": "nhk-797b28f6fe5cc5b0",
-      "title": "【動画】北印旛沼が決壊し孤立していた子猫 警察官が救助",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52451"
     },
     {
       "doc_id": "itmedia-9607630c5e580edf",
