@@ -923,7 +923,7 @@ def main():
     make_audio(wav)
     silent = os.path.join(CACHE, "video.mp4")
     writer = imageio_ffmpeg.write_frames(silent, (W, H), fps=FPS, codec="libx264", pix_fmt_out="yuv420p",
-                                         quality=None, bitrate=None,
+                                         quality=None, bitrate=None, macro_block_size=1,
                                          output_params=["-crf", "19", "-preset", "slow"])
     writer.send(None)
     n = FPS * DURATION
