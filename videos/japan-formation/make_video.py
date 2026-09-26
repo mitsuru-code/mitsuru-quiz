@@ -9,7 +9,7 @@
 素材（初回に自動取得し .cache/ に保存）:
     - 海岸線・水深: Natural Earth 10m land / bathymetry（パブリックドメイン）
     - 陰影起伏図: Natural Earth Shaded Relief（basemap-data 同梱版、パブリックドメイン）
-    - ナレーション音声: Open JTalk + HTS voice tohoku-f01（東北大学, CC BY 4.0）
+    - ナレーション音声: Open JTalk + HTS Voice Mei（名古屋工業大学, CC BY 3.0）
 
 復元は教育用の簡略モデル:
     - 観音開き説: 西南日本 時計回り約45°、東北日本 反時計回り約30°（約2000万〜1500万年前）
@@ -742,13 +742,13 @@ def draw_hud(fig, ax, t):
 
     draw_timeline(fig, t)
     ca = seg(t, 57, 58)
-    fig.patches.append(FancyBboxPatch((0.84, 0.945 - 0.062 * ca), 0.155, 0.04 + 0.062 * ca,
+    fig.patches.append(FancyBboxPatch((0.84 - 0.11 * ca, 0.945 - 0.062 * ca), 0.155 + 0.11 * ca, 0.04 + 0.062 * ca,
                                       boxstyle="round,pad=0.004,rounding_size=0.008", transform=fig.transFigure,
                                       facecolor=C_PANEL, alpha=0.6, edgecolor="none", figure=fig))
     fig.text(0.988, 0.972, "※簡略化した復元図", ha="right", va="top", fontsize=10 * SCALE, color="#9fb6cc")
     fig.text(0.988, 0.935, "地形・海岸線・水深: Natural Earth", ha="right", va="top", fontsize=9 * SCALE,
              color="#9fb6cc", alpha=ca)
-    fig.text(0.988, 0.912, "音声: HTS voice tohoku-f01 (CC BY 4.0)", ha="right", va="top", fontsize=9 * SCALE,
+    fig.text(0.988, 0.912, "音声: HTS Voice Mei © 名古屋工業大学 (CC BY 3.0)", ha="right", va="top", fontsize=9 * SCALE,
              color="#9fb6cc", alpha=ca)
 
 
@@ -884,9 +884,9 @@ def make_audio(path, sr=44100):
     out /= np.abs(out).max() + 1e-9
     # ナレーション（話している間はBGMを下げる）
     voice = narration(sr, n)
-    active = ndimage.uniform_filter1d((np.abs(voice) > 0.01).astype(float), sr // 2)
-    duck = 1 - 0.65 * ndimage.uniform_filter1d(np.clip(active * 4, 0, 1), sr // 3)
-    out = out * 0.55 * duck[:, None] + voice[:, None] * 0.9
+    active = ndimage.maximum_filter1d((np.abs(voice) > 0.01).astype(float), int(sr * 0.6))
+    duck = 1 - 0.6 * ndimage.gaussian_filter1d(active, sr * 0.25)  # ゆっくり下げてゆっくり戻す
+    out = out * 0.5 * duck[:, None] + voice[:, None] * 1.0
     out /= max(np.abs(out).max(), 1.0)
     out *= 0.95
     pcm = (out * 32767).astype(np.int16)
@@ -897,19 +897,41 @@ def make_audio(path, sr=44100):
         wf.writeframes(pcm.tobytes())
 
 
-# (開始秒, 読み上げ文) — 次の開始秒の0.3秒前までに収まるよう話速を自動調整
+# (開始秒, 読み上げ文) — 次の開始秒の直前までに収まるよう話速を 1.0〜1.12 倍で自動調整
 NARRATION = [  # 読み誤り対策で一部をかな書き（縁→ふち、氷期→ひょうき、日本→にほん）
-    (0.5, "にほん列島のなりたち。"),
-    (4.4, "約三千万年前。にほん列島は、大陸の東のふちにありました。"),
-    (10.4, "やがて地下からマグマが上がり、大陸のふちが裂けはじめます。"),
-    (16.4, "西南にほんは時計回りに、東北にほんは反時計回りに回転しながら大陸を離れ、そのすき間に、日本海が生まれました。"),
-    (29.4, "約千五百万年前。列島の多くは海の下で、中央には深い海が広がっていました。"),
-    (36.4, "やがて東西から押されて山脈が隆起し、南から来た伊豆の島が、本州にぶつかりました。"),
-    (44.4, "ひょうきには海面が約百二十メートル下がり、北海道は大陸と陸続きになりました。"),
-    (53.6, "約一万年前、海面が上がり、いまのにほん列島になりました。"),
+    (0.5, "にほん列島の、なりたち。"),
+    (4.2, "約三千万年前。にほん列島は、大陸の東のふちにありました。"),
+    (10.2, "やがて地下からマグマが上がり、大陸のふちが、裂けはじめます。"),
+    (16.3, "西南にほんは時計回りに、東北にほんは反時計回りに回転しながら大陸を離れ、そのすき間に、日本海が生まれました。"),
+    (29.2, "約千五百万年前。列島の多くは海に沈み、中央には、深い海がありました。"),
+    (36.2, "やがて東西から押されて山脈が隆起し、南から来た伊豆の島が、本州にぶつかりました。"),
+    (44.3, "ひょうきには、海面が約百二十メートルも下がり、北海道は、大陸と陸続きになりました。"),
+    (53.6, "そして約一万年前、海面が上がり、いまのにほん列島になりました。"),
 ]
-VOICE_URL = ("https://raw.githubusercontent.com/icn-lab/htsvoice-tohoku-f01/master/"
-             "tohoku-f01-neutral.htsvoice")  # CC BY 4.0, Tohoku University
+VOICE_URL = "https://raw.githubusercontent.com/mmdagent-ex/example/main/voice/mei/mei_normal.htsvoice"
+# HTS Voice "Mei" (c) Nagoya Institute of Technology, CC BY 3.0
+
+
+def _smooth_voice(x, sr):
+    """機械的なざらつきを抑える後処理: 高域を丸め、短い残響で母音をつなぎ、音量をそろえる"""
+    from scipy.signal import butter, fftconvolve, sosfiltfilt
+
+    x = sosfiltfilt(butter(4, 7000, "low", fs=sr, output="sos"), x)  # 高域のバズ音を低減
+    x = sosfiltfilt(butter(2, 90, "high", fs=sr, output="sos"), x)  # 低域のこもりを除去
+    rng = np.random.default_rng(7)
+    ir_t = np.arange(int(0.35 * sr)) / sr
+    ir = rng.standard_normal(len(ir_t)) * np.exp(-ir_t / 0.07)  # 小さな部屋程度の残響
+    ir = sosfiltfilt(butter(2, 3500, "low", fs=sr, output="sos"), ir)
+    wet = fftconvolve(x, ir)[: len(x) + len(ir_t) // 2]
+    x = np.concatenate([x, np.zeros(len(wet) - len(x))])
+    x = x + wet / (np.abs(wet).max() + 1e-9) * np.abs(x).max() * 0.12
+    rms = np.sqrt(np.mean(x[np.abs(x) > np.abs(x).max() * 0.05] ** 2)) + 1e-9
+    x = x / rms * 0.16  # 発話ごとの音量を RMS でそろえる
+    x = np.tanh(x * 1.6) / 1.6  # ピークを柔らかく抑える
+    fade = int(0.03 * sr)
+    x[:fade] *= np.linspace(0, 1, fade)
+    x[-fade * 4:] *= np.linspace(1, 0, fade * 4)
+    return x
 
 
 def narration(sr, n):
@@ -917,22 +939,21 @@ def narration(sr, n):
     from pyopenjtalk.htsengine import HTSEngine
     from scipy.signal import resample_poly
 
-    eng = HTSEngine(fetch("tohoku-f01-neutral.htsvoice", VOICE_URL).encode())
+    eng = HTSEngine(fetch("mei_normal.htsvoice", VOICE_URL).encode())
     vsr = eng.get_sampling_frequency()
     out = np.zeros(n)
-    starts = [s for s, _ in NARRATION] + [DURATION - 0.8]
+    starts = [s for s, _ in NARRATION] + [DURATION - 0.4]
     for (st, text), nxt in zip(NARRATION, starts[1:]):
         labels = pyopenjtalk.extract_fullcontext(text)
-        speed = 1.05
+        speed = 1.0
         while True:
             eng.set_speed(speed)
             x = np.asarray(eng.synthesize(labels), dtype=np.float64)
-            if len(x) / vsr <= nxt - st - 0.3 or speed >= 1.5:
+            eng.refresh()
+            if len(x) / vsr <= nxt - st - 0.15 or speed >= 1.12:
                 break
-            speed += 0.05
-        eng.refresh()
-        x = resample_poly(x, sr, vsr) / 32768.0
-        x = x / (np.abs(x).max() + 1e-9) * 0.85
+            speed += 0.02
+        x = _smooth_voice(resample_poly(x, sr, vsr) / 32768.0, sr)
         s0 = int(st * sr)
         x = x[: n - s0]
         out[s0:s0 + len(x)] += x
