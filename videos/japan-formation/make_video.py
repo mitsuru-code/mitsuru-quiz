@@ -1,13 +1,15 @@
 """日本列島のなりたち（約3000万年前→現在）を1分動画にするスクリプト（高精細版）。
 
 使い方:
-    pip install matplotlib numpy shapely scipy pillow imageio-ffmpeg
-    python3 make_video.py            # japan_formation.mp4 を出力（1920x1080 / 30fps / 60秒 / BGM付き）
+    pip install matplotlib numpy shapely scipy pillow imageio-ffmpeg pyopenjtalk
+    python3 make_video.py            # japan_formation.mp4 を出力（1920x1080 / 30fps / 60秒 / BGM・ナレーション付き）
+    python3 make_video.py --audio-only  # 映像は .cache/video.mp4 を再利用し、音だけ作り直す
     python3 make_video.py --preview  # 各シーンの静止画だけ出力
 
 素材（初回に自動取得し .cache/ に保存）:
     - 海岸線・水深: Natural Earth 10m land / bathymetry（パブリックドメイン）
     - 陰影起伏図: Natural Earth Shaded Relief（basemap-data 同梱版、パブリックドメイン）
+    - ナレーション音声: Open JTalk + HTS voice tohoku-f01（東北大学, CC BY 4.0）
 
 復元は教育用の簡略モデル:
     - 観音開き説: 西南日本 時計回り約45°、東北日本 反時計回り約30°（約2000万〜1500万年前）
@@ -740,11 +742,13 @@ def draw_hud(fig, ax, t):
 
     draw_timeline(fig, t)
     ca = seg(t, 57, 58)
-    fig.patches.append(FancyBboxPatch((0.84, 0.945 - 0.04 * ca), 0.155, 0.04 + 0.04 * ca,
+    fig.patches.append(FancyBboxPatch((0.84, 0.945 - 0.062 * ca), 0.155, 0.04 + 0.062 * ca,
                                       boxstyle="round,pad=0.004,rounding_size=0.008", transform=fig.transFigure,
                                       facecolor=C_PANEL, alpha=0.6, edgecolor="none", figure=fig))
     fig.text(0.988, 0.972, "※簡略化した復元図", ha="right", va="top", fontsize=10 * SCALE, color="#9fb6cc")
     fig.text(0.988, 0.935, "地形・海岸線・水深: Natural Earth", ha="right", va="top", fontsize=9 * SCALE,
+             color="#9fb6cc", alpha=ca)
+    fig.text(0.988, 0.912, "音声: HTS voice tohoku-f01 (CC BY 4.0)", ha="right", va="top", fontsize=9 * SCALE,
              color="#9fb6cc", alpha=ca)
 
 
@@ -878,13 +882,62 @@ def make_audio(path, sr=44100):
     master = np.clip(np.minimum(tt / 1.5, (DURATION - tt) / 3.0), 0, 1)
     out *= master[:, None]
     out /= np.abs(out).max() + 1e-9
-    out *= 0.8
+    # ナレーション（話している間はBGMを下げる）
+    voice = narration(sr, n)
+    active = ndimage.uniform_filter1d((np.abs(voice) > 0.01).astype(float), sr // 2)
+    duck = 1 - 0.65 * ndimage.uniform_filter1d(np.clip(active * 4, 0, 1), sr // 3)
+    out = out * 0.55 * duck[:, None] + voice[:, None] * 0.9
+    out /= max(np.abs(out).max(), 1.0)
+    out *= 0.95
     pcm = (out * 32767).astype(np.int16)
     with wave.open(path, "wb") as wf:
         wf.setnchannels(2)
         wf.setsampwidth(2)
         wf.setframerate(sr)
         wf.writeframes(pcm.tobytes())
+
+
+# (開始秒, 読み上げ文) — 次の開始秒の0.3秒前までに収まるよう話速を自動調整
+NARRATION = [  # 読み誤り対策で一部をかな書き（縁→ふち、氷期→ひょうき、日本→にほん）
+    (0.5, "にほん列島のなりたち。"),
+    (4.4, "約三千万年前。にほん列島は、大陸の東のふちにありました。"),
+    (10.4, "やがて地下からマグマが上がり、大陸のふちが裂けはじめます。"),
+    (16.4, "西南にほんは時計回りに、東北にほんは反時計回りに回転しながら大陸を離れ、そのすき間に、日本海が生まれました。"),
+    (29.4, "約千五百万年前。列島の多くは海の下で、中央には深い海が広がっていました。"),
+    (36.4, "やがて東西から押されて山脈が隆起し、南から来た伊豆の島が、本州にぶつかりました。"),
+    (44.4, "ひょうきには海面が約百二十メートル下がり、北海道は大陸と陸続きになりました。"),
+    (53.6, "約一万年前、海面が上がり、いまのにほん列島になりました。"),
+]
+VOICE_URL = ("https://raw.githubusercontent.com/icn-lab/htsvoice-tohoku-f01/master/"
+             "tohoku-f01-neutral.htsvoice")  # CC BY 4.0, Tohoku University
+
+
+def narration(sr, n):
+    import pyopenjtalk
+    from pyopenjtalk.htsengine import HTSEngine
+    from scipy.signal import resample_poly
+
+    eng = HTSEngine(fetch("tohoku-f01-neutral.htsvoice", VOICE_URL).encode())
+    vsr = eng.get_sampling_frequency()
+    out = np.zeros(n)
+    starts = [s for s, _ in NARRATION] + [DURATION - 0.8]
+    for (st, text), nxt in zip(NARRATION, starts[1:]):
+        labels = pyopenjtalk.extract_fullcontext(text)
+        speed = 1.05
+        while True:
+            eng.set_speed(speed)
+            x = np.asarray(eng.synthesize(labels), dtype=np.float64)
+            if len(x) / vsr <= nxt - st - 0.3 or speed >= 1.5:
+                break
+            speed += 0.05
+        eng.refresh()
+        x = resample_poly(x, sr, vsr) / 32768.0
+        x = x / (np.abs(x).max() + 1e-9) * 0.85
+        s0 = int(st * sr)
+        x = x[: n - s0]
+        out[s0:s0 + len(x)] += x
+        print(f"narration {st:5.1f}s: {len(x) / sr:4.1f}s / 枠 {nxt - st:4.1f}s (speed {speed:.2f})", flush=True)
+    return out
 
 
 # ======================================================================
@@ -918,10 +971,14 @@ def main():
             _G["fig"].savefig(os.path.join(HERE, f"preview_{s:04.1f}.png"), dpi=100)
         return
 
-    build_layers()  # 素材のダウンロードを先に済ませる
     wav = os.path.join(CACHE, "bgm.wav")
     make_audio(wav)
     silent = os.path.join(CACHE, "video.mp4")
+    if "--audio-only" in sys.argv:  # 映像は作り直さず音だけ差し替える
+        mux(silent, wav)
+        return
+
+    build_layers()  # 素材のダウンロードを先に済ませる
     writer = imageio_ffmpeg.write_frames(silent, (W, H), fps=FPS, codec="libx264", pix_fmt_out="yuv420p",
                                          quality=None, bitrate=None, macro_block_size=1,
                                          output_params=["-crf", "19", "-preset", "slow"])
@@ -934,6 +991,10 @@ def main():
             if i % 150 == 0:
                 print(f"{i}/{n}", flush=True)
     writer.close()
+    mux(silent, wav)
+
+
+def mux(silent, wav):
     ff = imageio_ffmpeg.get_ffmpeg_exe()
     subprocess.check_call([ff, "-y", "-loglevel", "error", "-i", silent, "-i", wav, "-c:v", "copy",
                            "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", OUT])
