@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-25T22:30:03+00:00",
-  "now_ms": 1790375403722,
+  "fetched_at": "2026-09-26T01:36:53+00:00",
+  "now_ms": 1790386613545,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-3c79c83a255af168",
-      "title": "台風25号 死者12人行方不明3人に",
+      "doc_id": "yahoo-edf6f3d9614aceed",
+      "title": "関東 昼頃にかけ激しい雨降る所も",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596559"
+      "link": "https://news.yahoo.co.jp/pickup/6596566"
     },
     {
-      "doc_id": "yahoo-8520f7c74b40816a",
-      "title": "米中首脳 年内あと2回会談に意欲",
+      "doc_id": "yahoo-f452d4c46172ff11",
+      "title": "ネパール土石流 捜索打ち切り検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596562"
+      "link": "https://news.yahoo.co.jp/pickup/6596572"
     },
     {
-      "doc_id": "yahoo-1a33725144c4b61a",
-      "title": "泉健太氏 2人で衆院会派を結成へ",
+      "doc_id": "yahoo-4b6ab658db803a34",
+      "title": "6階から娘2人落とした疑い 父逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596552"
+      "link": "https://news.yahoo.co.jp/pickup/6596580"
     },
     {
-      "doc_id": "yahoo-b92884461da9a801",
-      "title": "ローマ教皇 仏に核軍縮の主導促す",
+      "doc_id": "yahoo-59822066c40a478d",
+      "title": "川におむつ大量投棄疑い 書類送検",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596551"
+      "link": "https://news.yahoo.co.jp/pickup/6596574"
     },
     {
-      "doc_id": "yahoo-f2f9e201067f0d0b",
-      "title": "群馬女性死亡 娘の元夫を公開手配",
+      "doc_id": "yahoo-a835adaaecb9cd25",
+      "title": "深海7000mに「クジラの墓場」なぜ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596563"
+      "link": "https://news.yahoo.co.jp/pickup/6596575"
     },
     {
-      "doc_id": "yahoo-5c0b1f6238d863fd",
-      "title": "関越道で作業員2人はねられ死亡",
+      "doc_id": "yahoo-6d7f5c5176bf0a2f",
+      "title": "マラソン・山下一貴が金メダル",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596564"
+      "link": "https://news.yahoo.co.jp/pickup/6596578"
     },
     {
-      "doc_id": "yahoo-2020c3f2f7ded194",
-      "title": "ジャングリア 追加融資などを要請",
+      "doc_id": "yahoo-dfc66c17716be022",
+      "title": "マラソン・矢田みくに 銅メダル",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596547"
+      "link": "https://news.yahoo.co.jp/pickup/6596584"
     },
     {
-      "doc_id": "yahoo-4ff03e78c5f93670",
-      "title": "カープ矢野・前川選手を書類送検",
+      "doc_id": "yahoo-c0a3bc8c21f79dc9",
+      "title": "元AKB阿部マリア 結婚&妊娠発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596557"
+      "link": "https://news.yahoo.co.jp/pickup/6596582"
     },
     {
-      "doc_id": "jiji-226a819664895fd9",
-      "title": "群馬女性殺害、娘の元夫を公開手配 長男への殺人未遂容疑―県警",
+      "doc_id": "jiji-303b426d4639645b",
+      "title": "米中「同盟国」発言に困惑 日本政府、首脳会談の分析急ぐ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600127&g=soc"
-    },
-    {
-      "doc_id": "jiji-ad2f3586ec025a80",
-      "title": "「戦ったのは中華民国」 米中会談、習氏の歴史観は誤り―台湾当局",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501039&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092501015&g=pol"
     },
     {
       "doc_id": "jiji-a62fc5eef62ebe9e",
@@ -76,46 +70,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026092500849&g=soc"
     },
     {
-      "doc_id": "jiji-7283e7513bdca457",
-      "title": "民家で５２歳女性刺殺か、男逃走 息子も鉢合わせ負傷―群馬・太田",
+      "doc_id": "jiji-0af21453e20f4d47",
+      "title": "「戦ったのは中華民国」 米中会談、習氏の歴史観は誤り―台湾当局",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092500970&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092501039&g=int"
+    },
+    {
+      "doc_id": "jiji-226a819664895fd9",
+      "title": "群馬女性殺害、娘の元夫を公開手配 長男への殺人未遂容疑―県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092600127&g=soc"
+    },
+    {
+      "doc_id": "jiji-e2c1348854f07d0e",
+      "title": "コイやウナギ、新米などに打撃 台風で決壊の印旛沼周辺―千葉大雨",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092501008&g=soc"
+    },
+    {
+      "doc_id": "jiji-54b5b6ecbf680cde",
+      "title": "旧敵国条項、新たな火種か 日中関係の立て直し課題―高市政権",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092400964&g=pol"
     },
     {
       "doc_id": "jiji-6d90624557768b5b",
-      "title": "米中首脳、年内あと２回会談 １１、１２月の国際会議",
+      "title": "米中首脳、年内あと２回会談 １１、１２月の国際会議―米産農産物購入で進展か",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026092600124&g=int"
     },
     {
-      "doc_id": "jiji-094ad55c7f6f471a",
-      "title": "「強い円が望ましい」 日米財務相会談でベセント氏",
+      "doc_id": "jiji-d1a142378793aca6",
+      "title": "首相出席減を野党警戒 臨時国会、与党が効率化主張",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600125&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092500998&g=pol"
     },
     {
-      "doc_id": "jiji-ac63e930bccf8f32",
-      "title": "首相動静（９月２５日）",
+      "doc_id": "jiji-d38d931670db2aa1",
+      "title": "ＡＩは「人間に奉仕を」 ユネスコで訴え―ローマ教皇",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092500248&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092600157&g=int"
     },
     {
-      "doc_id": "jiji-8ad2f9fdb93c2789",
-      "title": "ＮＹ株４日ぶり反発、４７８ドル高 ホルムズ海峡開放期待で",
+      "doc_id": "jiji-c4160102cebf8064",
+      "title": "高市首相「日本はＩＣＣ支持」 首脳会談でトランプ氏に表明",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600136&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092501046&g=pol"
     },
     {
-      "doc_id": "jiji-04d338c187780494",
-      "title": "トランプ氏、中国は「同盟国」 習氏「日本軍国主義と戦った」―第２次大戦絡め異例発言",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092500315&g=int"
-    },
-    {
-      "doc_id": "jiji-87552018eefb459f",
-      "title": "得意のゆか、ひときわ輝く 杉原愛子「めっちゃ最高」―アジア大会・体操",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501112&g=spo"
+      "doc_id": "nhk-09e87915b468bd37",
+      "title": "【地震速報】 熊本県 熊本地方で震度4",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260919de51276"
     },
     {
       "doc_id": "nhk-db51786c617e4f1a",
@@ -136,28 +142,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260925de52508"
     },
     {
-      "doc_id": "nhk-6223f247d6305f23",
-      "title": "臨時国会 10月5日召集へ 消費税焦点 国会改革も論点に",
+      "doc_id": "nhk-49c16c824fda3434",
+      "title": "ネパール土石流発生から1か月 生活再建踏み出せず",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52518"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52515"
     },
     {
-      "doc_id": "nhk-5a782141d47c0bf6",
-      "title": "政府 食料品の消費税減税の準備を支援へ 予備費支出も",
+      "doc_id": "nhk-b09a42dc16abc61c",
+      "title": "ゼレンスキー大統領 米が3か国協議を提案と明らかに",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52513"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52520"
     },
     {
-      "doc_id": "nhk-556e0612fe28cd3a",
-      "title": "米中首脳会談の内容説明を 日米首脳電話会談も 日本政府",
+      "doc_id": "nhk-c6cb2168225e3cc8",
+      "title": "大谷翔平 大リーグのユニフォーム売り上げ 4年連続1位",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52519"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52535"
     },
     {
-      "doc_id": "nhk-6eac6bbbdd2200ff",
-      "title": "印旛沼 浸水範囲は浸水想定区域と重なる ハザードマップ確認を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260925de52316"
+      "doc_id": "itmedia-69ae17eaca5bdc9a",
+      "title": "ずっと座っている人ほど椅子には“動いて”ほしい Razerの最新ゲーミングチェア「Iskur V2 NewGen」を試す",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/26/2000001759/"
+    },
+    {
+      "doc_id": "itmedia-2d804fa5564e9e44",
+      "title": "Microsoft、「Copilot」を刷新 「仕事のための新しいOS」とナデラCEO",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/26/2000001773/"
     },
     {
       "doc_id": "itmedia-9607630c5e580edf",
@@ -218,18 +230,6 @@
       "title": "破産した全東信、未精算の売上金を加盟店に支払いへ JCBなど6社が協力 10月中にも",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2609/25/2000001749/"
-    },
-    {
-      "doc_id": "itmedia-a2feafa984715fe8",
-      "title": "「退職代行」サービス停止、1年で2割超 「モームリ」摘発も影響か",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/25/2000001747/"
-    },
-    {
-      "doc_id": "itmedia-7b93fbb7ef05f413",
-      "title": "NTT東西が「にじさんじ電報」発売 ポップアップ台紙にはライバーの複製手書きメッセージ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/24/2000001713/"
     },
     {
       "doc_id": "nazology-f42a7d64bc29b5d7",
