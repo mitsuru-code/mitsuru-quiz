@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-26T13:08:46+00:00",
-  "now_ms": 1790428126599,
+  "fetched_at": "2026-09-26T17:12:57+00:00",
+  "now_ms": 1790442777939,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,22 +10,28 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-18146d0a046a868d",
-      "title": "未成年選挙運動巡る判決 識者見解",
+      "doc_id": "yahoo-edd6991bdde003da",
+      "title": "首相 米と電話会談で「連携確認」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596616"
+      "link": "https://news.yahoo.co.jp/pickup/6596665"
     },
     {
-      "doc_id": "yahoo-0d5ffe788eee1876",
-      "title": "「超エルニーニョ」経済的損失は",
+      "doc_id": "yahoo-3cc6ead9d581eac1",
+      "title": "合同結婚 在韓女性債権申し立てへ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596649"
+      "link": "https://news.yahoo.co.jp/pickup/6596652"
     },
     {
-      "doc_id": "yahoo-dfc5fa1132db9ce8",
-      "title": "実験中事故で後遺症 産総研を提訴",
+      "doc_id": "yahoo-f8a3abb4f5638ee4",
+      "title": "群馬殺人 事件前日に娘へ避難指導",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596646"
+      "link": "https://news.yahoo.co.jp/pickup/6596664"
+    },
+    {
+      "doc_id": "yahoo-55830b3a8640dbfb",
+      "title": "トキエア再延期 県からの融資返済",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6596667"
     },
     {
       "doc_id": "yahoo-d01b3e06d52039e3",
@@ -34,28 +40,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6596655"
     },
     {
-      "doc_id": "yahoo-2b9a8ed27a02b14b",
-      "title": "定期船が廃止 夫婦2人だけ住む島",
+      "doc_id": "yahoo-2b90dc04bef52a5e",
+      "title": "パラ銀メダリスト 追突事故で死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596650"
+      "link": "https://news.yahoo.co.jp/pickup/6596668"
     },
     {
-      "doc_id": "yahoo-9f28a14e9b865667",
-      "title": "引退のオリ西野が二塁打 涙あふれ",
+      "doc_id": "yahoo-3f57b7fc941af594",
+      "title": "北朝鮮が整列拒否 サッカー男子",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596654"
+      "link": "https://news.yahoo.co.jp/pickup/6596660"
     },
     {
-      "doc_id": "yahoo-1dfab86771508cc8",
-      "title": "張本智和ぼう然 世界344位に敗退",
+      "doc_id": "yahoo-e9074a5fe6114a9c",
+      "title": "齋藤飛鳥 アナザースカイの新MC",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596641"
+      "link": "https://news.yahoo.co.jp/pickup/6596669"
     },
     {
-      "doc_id": "yahoo-e51aadc93612d384",
-      "title": "町田啓太&玄理に第1子 心境つづる",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596657"
+      "doc_id": "jiji-a4bf02e0abc82580",
+      "title": "高市首相、トランプ氏と連携確認 「米中」受け電話会談",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092600424&g=pol"
     },
     {
       "doc_id": "jiji-303b426d4639645b",
@@ -64,46 +70,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026092501015&g=pol"
     },
     {
-      "doc_id": "jiji-54b5b6ecbf680cde",
-      "title": "旧敵国条項、新たな火種か 日中関係の立て直し課題―高市政権",
+      "doc_id": "jiji-4ece37bea6d68eb9",
+      "title": "若き日本、大健闘の銀 フル代表の韓国苦しめる―アジア大会・バスケットボール女子",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092400964&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092600431&g=spo"
     },
     {
-      "doc_id": "jiji-e97cded98fba1262",
-      "title": "中国国営通信によると、中米両軍は危機時の意思疎通と予防を強化する覚書の早期締結で合意した",
+      "doc_id": "jiji-3463c28f2d099258",
+      "title": "ヤクルトの山田、代打で歓喜の一発 プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600356&g=flash"
-    },
-    {
-      "doc_id": "jiji-45a0cae6dad5ab5e",
-      "title": "米中は第２次大戦の「同盟国」 会談文書明記、日米離間懸念も―米発表",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600379&g=pol"
-    },
-    {
-      "doc_id": "jiji-6d90624557768b5b",
-      "title": "ＡＩ危機管理へ連絡チャンネル １１月までに対話実施―年内あと２回会談・米中首脳",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600124&g=int"
-    },
-    {
-      "doc_id": "jiji-99bf26e045e5b6fd",
-      "title": "大の里と安青錦、首位並ぶ ３敗で千秋楽相星決戦―大相撲秋場所１４日目",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600377&g=spo"
-    },
-    {
-      "doc_id": "jiji-014e54da7cd79eba",
-      "title": "ＡＩ、米中は「ＳＩ（超知能）」と呼称 危機管理へ連絡経路―首脳会談",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600314&g=int"
-    },
-    {
-      "doc_id": "jiji-55ea12d703e9e2bc",
-      "title": "日米財務相は円の過小評価は問題であることを確認した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501161&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026092600468&g=spo"
     },
     {
       "doc_id": "jiji-f89b47925da58449",
@@ -112,16 +88,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026092600302&g=flash"
     },
     {
-      "doc_id": "jiji-96f1d307c170e2da",
-      "title": "ビル・ゲイツ氏、ＡＩに「１０億人の死者出す力」 開発減速へ法規制を",
+      "doc_id": "jiji-d7cc8b12bcba5d2c",
+      "title": "日本、北朝鮮にひるまず アジア大会・サッカー男子",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600246&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092600445&g=spo"
     },
     {
-      "doc_id": "nhk-291e03612e68c01c",
-      "title": "高市首相 米大統領 電話会談“米中首脳会談の内容説明受ける”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52606"
+      "doc_id": "jiji-87f43c9c84e00f8b",
+      "title": "ＡＩ「暴走」さらに数十件 不正アクセスなど―米オープンＡＩ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092600223&g=int"
+    },
+    {
+      "doc_id": "jiji-226a819664895fd9",
+      "title": "群馬女性殺害事件、長女の元夫を公開手配 長男への殺人未遂容疑―群馬県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092600127&g=soc"
+    },
+    {
+      "doc_id": "jiji-dbb8544e044e4b34",
+      "title": "米中は第２次大戦の「同盟国」 会談文書明記、日米離間懸念も―米発表",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092600379&g=int"
+    },
+    {
+      "doc_id": "jiji-7d6dd7606af06e3c",
+      "title": "農産品関税引き下げへ 米中「貿易委員会」に作業部会",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092600359&g=int"
     },
     {
       "doc_id": "nhk-db51786c617e4f1a",
@@ -130,34 +124,40 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260926de52529"
     },
     {
+      "doc_id": "nhk-291e03612e68c01c",
+      "title": "高市首相 米大統領 電話会談“米中首脳会談の内容説明受ける”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52606"
+    },
+    {
+      "doc_id": "nhk-fc4a979629d5dfa3",
+      "title": "パラ陸上メダリスト 上与那原寛和選手が死去 練習中に交通事故",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52631"
+    },
+    {
+      "doc_id": "nhk-072fd580759c30d5",
+      "title": "タイで大雨続き首都バンコクでも浸水被害広がる",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52623"
+    },
+    {
       "doc_id": "nhk-8a141daaf1d456cd",
       "title": "米中首脳会談 合意点は？AIはSIに変更 台湾言及なし",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260926de52588"
     },
     {
+      "doc_id": "nhk-1814bb44c3c0379a",
+      "title": "アジア大会 陸上女子1500m 田中希実が銅 今大会2つ目のメダル",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52632"
+    },
+    {
       "doc_id": "nhk-d94e349125d9f1c1",
       "title": "群馬女性殺害 元夫「母親 長男殺し自分も死ぬ」長女が警察相談",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260926de52601"
-    },
-    {
-      "doc_id": "nhk-7297d6f09d846bd0",
-      "title": "プロ野球 広島“矢野選手と前川選手が書類送検”薬物事件巡り",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52604"
-    },
-    {
-      "doc_id": "nhk-1c3c594fb0013343",
-      "title": "電動キックボードなど対象に警視庁が飲酒運転の検問",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52615"
-    },
-    {
-      "doc_id": "nhk-4516d0a583a81ae1",
-      "title": "袴田さん無罪から2年 姉のひで子さんが再審制度見直し訴え",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52605"
     },
     {
       "doc_id": "itmedia-e7ff4083f3714339",
