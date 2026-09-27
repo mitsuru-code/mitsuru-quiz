@@ -241,7 +241,8 @@ def draw_timeline(fig):
                 color=INK, ha=ha, va="top")
 
 
-def main():
+def build():
+    """図解を描いた Figure と地図の Axes を返す（動画スクリプトからも使う）"""
     land = load_land()
     fig = plt.figure(figsize=(20, 14), dpi=100)
     fig.patch.set_facecolor(SURFACE)
@@ -279,6 +280,11 @@ def main():
     draw_timeline(fig)
     fig.text(0.03, 0.012, "地図: Natural Earth（パブリックドメイン）／領域は1300年ごろのおおよその範囲を示した模式図。面積は Taagepera などによる推定値。",
              fontsize=9.5, color=MUTED, va="bottom")
+    return fig, ax
+
+
+def main():
+    fig, _ = build()
     fig.savefig(OUT, dpi=100, facecolor=SURFACE)
     print("done:", OUT)
 
