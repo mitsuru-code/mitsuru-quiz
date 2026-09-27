@@ -59,7 +59,7 @@ KX = math.cos(math.radians(36))  # 経度方向の縮尺補正
 for f in font_manager.findSystemFonts():
     if "ipag" in os.path.basename(f).lower():
         font_manager.fontManager.addfont(f)
-plt.rcParams["font.family"] = ["IPAPGothic", "IPAGothic", "sans-serif"]
+plt.rcParams["font.family"] = ["IPAPGothic", "IPAGothic", "BIZ UDPGothic", "Yu Gothic", "Meiryo", "sans-serif"]
 
 # ---------- 配色 ----------
 C_BG = "#07182c"
@@ -1006,7 +1006,8 @@ def main():
     writer.send(None)
     n = FPS * DURATION
     procs = max(1, (os.cpu_count() or 2))
-    with mp.get_context("fork").Pool(procs, initializer=_init) as pool:
+    method = "fork" if "fork" in mp.get_all_start_methods() else "spawn"  # Windows は spawn のみ
+    with mp.get_context(method).Pool(procs, initializer=_init) as pool:
         for i, frame in enumerate(pool.imap(_render, range(n), chunksize=4)):
             writer.send(frame)
             if i % 150 == 0:

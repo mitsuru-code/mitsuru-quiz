@@ -30,7 +30,8 @@ OUT = os.path.join(HERE, "mongol_empire.png")
 for f in font_manager.findSystemFonts():
     if "ipag" in os.path.basename(f).lower():
         font_manager.fontManager.addfont(f)
-plt.rcParams["font.family"] = ["IPAPGothic", "IPAGothic", "sans-serif"]
+# Linux（IPAフォント）と Windows（BIZ UDゴシック／游ゴシック／メイリオ）のどちらでも日本語が出るように
+plt.rcParams["font.family"] = ["IPAPGothic", "IPAGothic", "BIZ UDPGothic", "Yu Gothic", "Meiryo", "sans-serif"]
 
 # ---------- 配色（dataviz の参照パレット。4色は all-pairs で検証済み） ----------
 SURFACE = "#fcfcfb"

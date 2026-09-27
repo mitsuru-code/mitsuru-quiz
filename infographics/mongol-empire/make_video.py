@@ -1,13 +1,18 @@
-"""モンゴル帝国の図解をカメラワーク＋ナレーションで動画にするスクリプト。
+"""モンゴル帝国の図解を、カメラワーク＋ナレーションで動画にするスクリプト（PCで実行）。
 
-使い方:
-    pip install matplotlib numpy shapely pillow scipy imageio-ffmpeg
-    export GOOGLE_TTS_API_KEY=...       # Google Cloud Text-to-Speech の API キー
-    python3 make_video.py               # mongol_empire.mp4 を出力（1920x1080 / 30fps）
-    python3 make_video.py --dry-run     # 音声なし。話す長さを文字数から推定してカメラだけ確認
-    python3 make_video.py --preview     # 各場面の静止画だけ出力
+運用は豆知識と同じ「素材は機械、文章と投稿は人」:
+    1. 素材メモ.md の事実をもとに、narration.txt に自分の言葉でナレーションを書く
+    2. このスクリプトで動画にする（声は Cloud TTS Chirp 3: HD）
+    3. できた mp4 を X公式アプリから手動で投稿する（投稿文も自分で書く）
 
-ナレーションは Cloud TTS の Chirp 3: HD 音声（既定 ja-JP-Chirp3-HD-Aoede、TTS_VOICE で変更可）。
+使い方（詳しくは PC手順.md）:
+    pip install -r requirements.txt
+    python make_video.py               # out/mongol_empire_YYYYMMDD.mp4 を出力
+    python make_video.py --dry-run     # 音声なし。話す長さを文字数から推定してカメラだけ確認
+    python make_video.py --preview     # 各場面の静止画だけ出力
+
+APIキーは環境変数 GOOGLE_TTS_API_KEY か、このフォルダの .env（Git管理外）に書く。
+声は TTS_VOICE（既定 ja-JP-Chirp3-HD-Aoede）で変更できる。
 合成結果は .cache/ に保存し、同じ文面なら API を再度呼ばない。
 """
 import base64
@@ -18,6 +23,7 @@ import math
 import os
 import subprocess
 import sys
+import time
 import urllib.request
 import wave
 
@@ -28,40 +34,78 @@ from PIL import Image
 import make_infographic as info
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+
+
+def _load_dotenv():
+    """このフォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。既存の環境変数が優先"""
+    path = os.path.join(HERE, ".env")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8-sig") as fp:
+        for line in fp:
+            if "=" in line and not line.lstrip().startswith("#"):
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+
+
+_load_dotenv()
 CACHE = os.path.join(HERE, ".cache")
-OUT = os.path.join(HERE, "mongol_empire.mp4")
+OUT_DIR = os.environ.get("VIDEO_OUT_DIR") or os.path.join(HERE, "out")  # Googleドライブ等の同期フォルダも指定可
 W, H, FPS = 1920, 1080, 30
 SCALE = 2  # 図解を2倍解像度で描き、拡大しても文字をくっきりさせる
 SR = 24000
 VOICE = os.environ.get("TTS_VOICE", "ja-JP-Chirp3-HD-Aoede")
 TTS_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 
-# (読み上げ文, カメラの動き[(区間内の割合, 注目点, 横幅px@等倍)]) 注目点は ("map", lon, lat) か ("fig", x, y)
-SCRIPT = [
-    ("わずか七十年あまりで、ユーラシアの大半を支配した国があります。モンゴル帝国です。",
-     [(0.0, ("fig", 0.5, 0.5), 2000), (1.0, ("fig", 0.5, 0.5), 1900)]),
-    ("1206年、チンギス・カンが草原の部族をまとめて即位。騎馬軍団は、東の金、西のホラズムへと攻め込みます。",
-     [(0.0, ("map", 102, 46), 800), (0.55, ("map", 105, 45), 950), (1.0, ("map", 86, 44), 1050)]),
-    ("孫の代には、ヨーロッパの入り口ワールシュタット、そして中東のバグダードまで到達しました。",
-     [(0.0, ("map", 42, 50), 1000), (0.5, ("map", 32, 50), 950), (1.0, ("map", 45, 36), 950)]),
-    ("1279年、フビライが南宋を滅ぼし、領土は最大に。その広さは約二千四百万平方キロ。地球の陸地の、およそ六分の一です。",
-     [(0.0, ("map", 115, 34), 1000), (0.45, ("map", 115, 34), 1000), (0.62, ("fig", 0.855, 0.93), 620),
-      (1.0, ("fig", 0.855, 0.93), 600)]),
-    ("しかし、拡大はここまで。エジプト、日本、ベトナムへの遠征は、相次いで失敗します。",
-     [(0.0, ("map", 38, 33), 900), (0.45, ("map", 128, 30), 1000), (1.0, ("map", 115, 26), 1050)]),
-    ("さらに後継者争いで、帝国は四つのウルスに分裂。",
-     [(0.0, ("map", 78, 40), 1500), (1.0, ("map", 78, 40), 1400)]),
-    ("疫病や天災、紙幣の乱発によるインフレが、追い打ちをかけます。",
-     [(0.0, ("fig", 0.845, 0.62), 1000), (1.0, ("fig", 0.845, 0.52), 950)]),
-    ("そして1368年、元は明に追われて北へ。巨大帝国は、わずか百六十年あまりで崩れていきました。",
-     [(0.0, ("fig", 0.62, 0.16), 1500), (0.6, ("fig", 0.66, 0.16), 1300), (1.0, ("fig", 0.5, 0.5), 2000)]),
+# 場面ごとのカメラの動き [(区間内の割合, 注目点, 横幅px@等倍)]。注目点は ("map", lon, lat) か ("fig", x, y)
+# narration.txt の「1:」〜「8:」がそれぞれの場面に対応する
+SCENES = [
+    ("全体", [(0.0, ("fig", 0.5, 0.5), 2000), (1.0, ("fig", 0.5, 0.5), 1900)]),
+    ("モンゴル高原・金とホラズムへの遠征", [(0.0, ("map", 102, 46), 800), (0.55, ("map", 105, 45), 950),
+                                 (1.0, ("map", 86, 44), 1050)]),
+    ("西へ：ワールシュタット・バグダード", [(0.0, ("map", 42, 50), 1000), (0.5, ("map", 32, 50), 950),
+                                (1.0, ("map", 45, 36), 950)]),
+    ("南宋を滅ぼす → 最大版図の数字", [(0.0, ("map", 115, 34), 1000), (0.45, ("map", 115, 34), 1000),
+                              (0.62, ("fig", 0.855, 0.93), 620), (1.0, ("fig", 0.855, 0.93), 600)]),
+    ("遠征の失敗（エジプト→日本→ベトナム）", [(0.0, ("map", 38, 33), 900), (0.45, ("map", 128, 30), 1000),
+                                   (1.0, ("map", 115, 26), 1050)]),
+    ("4つのウルスへの分裂", [(0.0, ("map", 78, 40), 1500), (1.0, ("map", 78, 40), 1400)]),
+    ("衰退の理由パネル", [(0.0, ("fig", 0.845, 0.62), 1000), (1.0, ("fig", 0.845, 0.52), 950)]),
+    ("年表 → 最後に全体", [(0.0, ("fig", 0.62, 0.16), 1500), (0.6, ("fig", 0.66, 0.16), 1300),
+                      (1.0, ("fig", 0.5, 0.5), 2000)]),
 ]
+NARRATION_FILE = os.path.join(HERE, "narration.txt")
+SILENT_SCENE_SEC = 4.0  # ナレーションを書かなかった場面の長さ
 LEAD, GAP, TAIL = 0.6, 0.45, 1.6  # 冒頭・文間・末尾の間（秒）
 
 
 # ---------------------------------------------------------------- 音声
+def read_narration():
+    """narration.txt を読み、場面番号→本文 の辞書を返す。無ければ雛形を作って終了"""
+    if not os.path.exists(NARRATION_FILE):
+        with open(NARRATION_FILE, "w", encoding="utf-8") as fp:
+            fp.write("# 素材メモ.md を見ながら、各場面のナレーションを自分の言葉で書いてください。\n"
+                     "# 1行＝1場面。「番号: 本文」の形。空欄の場面は無音で約4秒映します。\n"
+                     "# 目安は1場面30〜60字（全体で約50〜60秒）。# で始まる行は無視されます。\n\n")
+            for i, (desc, _) in enumerate(SCENES, 1):
+                fp.write(f"# {i}. {desc}\n{i}: \n\n")
+        sys.exit(f"narration.txt の雛形を作りました。ナレーションを書いてから再実行してください: {NARRATION_FILE}")
+    texts = {}
+    with open(NARRATION_FILE, encoding="utf-8-sig") as fp:
+        for line in fp:
+            line = line.strip()
+            if not line or line.startswith("#") or ":" not in line.replace("：", ":"):
+                continue
+            num, text = line.replace("：", ":").split(":", 1)
+            if num.strip().isdigit():
+                texts[int(num)] = text.strip()
+    return [texts.get(i, "") for i in range(1, len(SCENES) + 1)]
+
+
 def tts(text, dry=False):
     """Chirp 3: HD で1文を合成して float32 配列（SR Hz）を返す。dry=True なら長さだけ推定した無音"""
+    if not text:
+        return np.zeros(int(SILENT_SCENE_SEC * SR), dtype=np.float32)
     if dry:
         return np.zeros(int(len(text) / 7.2 * SR), dtype=np.float32)
     key = os.environ.get("GOOGLE_TTS_API_KEY")
@@ -107,7 +151,7 @@ def pad_music(n):
 
 
 def build_audio(dry):
-    clips = [tts(text, dry) for text, _ in SCRIPT]
+    clips = [tts(text, dry) for text in read_narration()]
     starts, cur = [], LEAD
     for c in clips:
         starts.append(cur)
@@ -159,7 +203,7 @@ def ease(u):
 def camera_keys(starts, durs, total, to_px):
     """(時刻, cx, cy, 幅px) のキーフレーム列"""
     keys = []
-    for (text, moves), s, d in zip(SCRIPT, starts, durs):
+    for (_, moves), s, d in zip(SCENES, starts, durs):
         span = d + GAP
         for frac, target, width in moves:
             cx, cy = to_px(target)
@@ -194,7 +238,7 @@ def main():
 
     if "--preview" in sys.argv:
         for i, (s, d) in enumerate(zip(starts, durs)):
-            frame(canvas, *cam_at(s + d * 0.5, keys)).save(os.path.join(HERE, f"preview_{i}.png"))
+            frame(canvas, *cam_at(s + d * 0.5, keys)).save(os.path.join(HERE, f"preview_{i + 1}.png"))
         return
 
     os.makedirs(CACHE, exist_ok=True)
@@ -218,8 +262,10 @@ def main():
     cmd = [ff, "-y", "-loglevel", "error", "-i", silent]
     if not dry:
         cmd += ["-i", wav, "-c:a", "aac", "-b:a", "160k", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100"]
+    os.makedirs(OUT_DIR, exist_ok=True)
+    name = time.strftime("mongol_empire_%Y%m%d_%H%M") + ("_dryrun" if dry else "") + ".mp4"
     cmd += ["-c:v", "copy", "-shortest" if not dry else "-an", "-movflags", "+faststart",
-            OUT if not dry else os.path.join(CACHE, "dry_run.mp4")]
+            os.path.join(OUT_DIR, name)]
     subprocess.check_call(cmd)
     print("done:", cmd[-1])
 
