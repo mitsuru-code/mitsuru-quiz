@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-27T14:03:08+00:00",
-  "now_ms": 1790517788377,
+  "fetched_at": "2026-09-27T18:27:11+00:00",
+  "now_ms": 1790533631080,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,28 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-9254b2d5db67f411",
-      "title": "熊本地震2カ月 避難所に1500人超",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596761"
-    },
-    {
       "doc_id": "yahoo-e692d69f1779d925",
       "title": "内閣支持率45%に上昇 毎日調査",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6596760"
     },
     {
+      "doc_id": "yahoo-f4224df4dd232d26",
+      "title": "スイス中立厳格化 国民投票で否決",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6596771"
+    },
+    {
+      "doc_id": "yahoo-27eee78dd560d2d3",
+      "title": "原発事故時の拠点病院BCP策定4割",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6596768"
+    },
+    {
       "doc_id": "yahoo-e196bbf705213e1e",
       "title": "刺されたか 横浜で流血の男性死亡",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6596769"
-    },
-    {
-      "doc_id": "yahoo-00e9cbc0875efcda",
-      "title": "雪崩事故巡り スキーヤー書類送検",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596772"
     },
     {
       "doc_id": "yahoo-92b5b636485cf841",
@@ -46,10 +46,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6596782"
     },
     {
-      "doc_id": "yahoo-278a8caadad601cd",
-      "title": "やり投げ北口榛花は銀 試合後に涙",
+      "doc_id": "yahoo-fb77af38b3e3216f",
+      "title": "日本 ポケモンユナイトで金メダル",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596780"
+      "link": "https://news.yahoo.co.jp/pickup/6596786"
     },
     {
       "doc_id": "yahoo-feb83b3a1e956c87",
@@ -58,16 +58,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6596779"
     },
     {
+      "doc_id": "jiji-e6cc471f518867dd",
+      "title": "小笠原、投打で存在感 逆転Ｖへ阪神と２差―プロ野球・巨人",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700397&g=spo"
+    },
+    {
+      "doc_id": "jiji-496157b9e0812eb6",
+      "title": "「拓真のスタイル」確立 窮地しのぎ、難敵撃破―ボクシング世界戦",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700396&g=spo"
+    },
+    {
       "doc_id": "jiji-da829279d976f119",
       "title": "前横浜市長の山中氏、出直し選に出馬へ パワハラ問題で辞職",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026092700307&g=pol"
     },
     {
-      "doc_id": "jiji-544ff36bcd8b8a6a",
-      "title": "コンテナ型施設を公開 各国からの不満受け説明―愛知・名古屋アジア大会",
+      "doc_id": "jiji-55f7d5227fb16e38",
+      "title": "日本女子、アイルランドに敗れる ラグビー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700261&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092700404&g=spo"
+    },
+    {
+      "doc_id": "jiji-384385a825a601cc",
+      "title": "日本、韓国に屈する アジア大会・野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700375&g=spo"
     },
     {
       "doc_id": "jiji-66a86143f107bb5b",
@@ -76,22 +94,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026092700142&g=int"
     },
     {
-      "doc_id": "jiji-8828c4f257878e99",
-      "title": "大の里、涙の復活Ｖ 「腹を決め、走る」―大相撲秋場所",
+      "doc_id": "jiji-3b71875fe88505ca",
+      "title": "木原長官、総理大臣杯を授与 大相撲秋場所、大の里に",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700322&g=spo"
-    },
-    {
-      "doc_id": "jiji-d4bf1bd563521bcc",
-      "title": "中村晃、最後は笑顔で 快音響かせ有終の美―プロ野球・ソフトバンク",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700297&g=spo"
-    },
-    {
-      "doc_id": "jiji-bb4545db4a5acf21",
-      "title": "国際空港拡張、１５００億円供与 日モンゴル合意へ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600281&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092700249&g=pol"
     },
     {
       "doc_id": "jiji-b622c974704a8eb9",
@@ -100,22 +106,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026092700256&g=spo"
     },
     {
-      "doc_id": "jiji-3b71875fe88505ca",
-      "title": "木原長官、総理大臣杯を授与 大相撲秋場所、大の里に",
+      "doc_id": "jiji-d3f6b1a8fc2a89f3",
+      "title": "井上拓真が防衛 ボクシング世界戦",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700249&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092700384&g=spo"
     },
     {
-      "doc_id": "jiji-86faf3cc0c1a595f",
-      "title": "２カ月で女性１０遺体、裸姿も 女性への暴力まん延で「国家災厄」宣言―南ア",
+      "doc_id": "jiji-a9299539aff87bc2",
+      "title": "米大統領、ＡＩで「対中リード維持」 対話強化も開発推進―台湾巡り「習氏は私を理解」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700114&g=int"
-    },
-    {
-      "doc_id": "jiji-7188e2ee0f0a0e80",
-      "title": "カナリオが逆転打 プロ野球・西武３―２楽天",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700337&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092700091&g=int"
     },
     {
       "doc_id": "nhk-e3f42d936459fa43",
@@ -130,10 +130,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260927de52700"
     },
     {
-      "doc_id": "nhk-3cef84184ac3ecd9",
-      "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
+      "doc_id": "nhk-b1ba4fd04b3dfb63",
+      "title": "ボクシング世界戦 井上拓真が那須川天心に再び勝ち2回目の防衛",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52747"
+    },
+    {
+      "doc_id": "nhk-de4dfecc1375d917",
+      "title": "\"見えない避難者\"約2000世帯 熊本地震2か月 八代市調査で判明",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52715"
+    },
+    {
+      "doc_id": "nhk-8f6b64b206a23289",
+      "title": "熊本地震2か月 避難生活が長期化 住まいの確保が課題に",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52689"
     },
     {
       "doc_id": "nhk-3944d9b2405eab2d",
@@ -142,22 +154,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260927de52686"
     },
     {
-      "doc_id": "nhk-70392d0f7f55a7ee",
-      "title": "アジア大会 コンテナハウス公開 不満の声受け改善点説明",
+      "doc_id": "nhk-3cef84184ac3ecd9",
+      "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52693"
-    },
-    {
-      "doc_id": "nhk-cfd82ec656befe62",
-      "title": "アジア大会陸上女子100mハードル 福部真子が金 中島ひとみが銀",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52722"
-    },
-    {
-      "doc_id": "nhk-54a6cc4c0c2cc29f",
-      "title": "アジア大会 陸上女子やり投げ 北口榛花が銀 武本紗栄が銅",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52743"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737"
     },
     {
       "doc_id": "itmedia-e32379676a18c92f",
