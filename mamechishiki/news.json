@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-27T08:14:33+00:00",
-  "now_ms": 1790496873215,
+  "fetched_at": "2026-09-27T14:03:08+00:00",
+  "now_ms": 1790517788377,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,88 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-991e16a64edd3cbb",
-      "title": "台風25号被害 千葉の観光地に爪痕",
+      "doc_id": "yahoo-9254b2d5db67f411",
+      "title": "熊本地震2カ月 避難所に1500人超",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596719"
+      "link": "https://news.yahoo.co.jp/pickup/6596761"
     },
     {
-      "doc_id": "yahoo-dacd67ac47a24297",
-      "title": "東京メトロ メアド5.9万件漏洩か",
+      "doc_id": "yahoo-e692d69f1779d925",
+      "title": "内閣支持率45%に上昇 毎日調査",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596712"
+      "link": "https://news.yahoo.co.jp/pickup/6596760"
     },
     {
-      "doc_id": "yahoo-576f035a0fa3f73f",
-      "title": "群馬殺人事件 公開手配の男を逮捕",
+      "doc_id": "yahoo-e196bbf705213e1e",
+      "title": "刺されたか 横浜で流血の男性死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596718"
+      "link": "https://news.yahoo.co.jp/pickup/6596769"
     },
     {
-      "doc_id": "yahoo-20eab224052edfe9",
-      "title": "国と攻防30年 ビール系飲料の税率",
+      "doc_id": "yahoo-00e9cbc0875efcda",
+      "title": "雪崩事故巡り スキーヤー書類送検",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596729"
+      "link": "https://news.yahoo.co.jp/pickup/6596772"
     },
     {
-      "doc_id": "yahoo-c4b4e2d8d001f7da",
-      "title": "スパイの子 女子児童が浴びた罵声",
+      "doc_id": "yahoo-92b5b636485cf841",
+      "title": "34歳脳梗塞 若くて介護保険使えず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596732"
+      "link": "https://news.yahoo.co.jp/pickup/6596773"
     },
     {
-      "doc_id": "yahoo-c472ea312f8d591b",
-      "title": "中受の経験は収入に影響せず 調査",
+      "doc_id": "yahoo-d25614b73be8b62d",
+      "title": "天心は涙止まらず 拓真にまた敗北",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596723"
+      "link": "https://news.yahoo.co.jp/pickup/6596782"
     },
     {
-      "doc_id": "yahoo-b4f9646a7505be17",
-      "title": "張本智和・篠塚組 大逆転で金王手",
+      "doc_id": "yahoo-278a8caadad601cd",
+      "title": "やり投げ北口榛花は銀 試合後に涙",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596715"
+      "link": "https://news.yahoo.co.jp/pickup/6596780"
     },
     {
-      "doc_id": "yahoo-2471f9613d7c882b",
-      "title": "K-POPイベで論争 悪意集まるSNS",
+      "doc_id": "yahoo-feb83b3a1e956c87",
+      "title": "ベッキー涙 10年ぶりイッテQ出演",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596735"
+      "link": "https://news.yahoo.co.jp/pickup/6596779"
     },
     {
-      "doc_id": "jiji-66c389bc9d93c121",
-      "title": "陸上パラリンピック銀メダリスト、上与那原寛和さん死去 県道で練習中、軽貨物車に追突される",
+      "doc_id": "jiji-da829279d976f119",
+      "title": "前横浜市長の山中氏、出直し選に出馬へ パワハラ問題で辞職",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700104&g=obt"
+      "link": "https://www.jiji.com/jc/article?k=2026092700307&g=pol"
     },
     {
-      "doc_id": "jiji-5f2d07ac3e9b5697",
-      "title": "女性殺害、公開手配の男を逮捕 長男への殺人未遂容疑―群馬県警",
+      "doc_id": "jiji-544ff36bcd8b8a6a",
+      "title": "コンテナ型施設を公開 各国からの不満受け説明―愛知・名古屋アジア大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700166&g=soc"
-    },
-    {
-      "doc_id": "jiji-6a21f2bb1507df2b",
-      "title": "自民「政治とカネ」再燃警戒 「裏金」初入閣、野党追及へ―高市政権",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600280&g=pol"
-    },
-    {
-      "doc_id": "jiji-86faf3cc0c1a595f",
-      "title": "２カ月で女性１０遺体、裸姿も 女性への暴力まん延で「国家災厄」宣言―南ア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700114&g=int"
-    },
-    {
-      "doc_id": "jiji-791e4223a8d3d935",
-      "title": "殺人予備容疑で１７歳少年逮捕 包丁準備「殺すつもりで」―石川県警",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700111&g=soc"
-    },
-    {
-      "doc_id": "jiji-817c1b7f6fd165d9",
-      "title": "御嶽山噴火１２年で追悼式 気象庁長官が１１年ぶり参列―長野",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700184&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092700261&g=spo"
     },
     {
       "doc_id": "jiji-66a86143f107bb5b",
@@ -100,34 +76,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026092700142&g=int"
     },
     {
-      "doc_id": "jiji-f51d2c5f34a0c6ca",
-      "title": "貿易団体代表団が訪中 岩屋前外相、北京入り",
+      "doc_id": "jiji-8828c4f257878e99",
+      "title": "大の里、涙の復活Ｖ 「腹を決め、走る」―大相撲秋場所",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700157&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092700322&g=spo"
     },
     {
-      "doc_id": "jiji-65fc00c05c4f9c4a",
-      "title": "織田、地元で銀 アジア大会・スケートボード",
+      "doc_id": "jiji-d4bf1bd563521bcc",
+      "title": "中村晃、最後は笑顔で 快音響かせ有終の美―プロ野球・ソフトバンク",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700181&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092700297&g=spo"
     },
     {
-      "doc_id": "jiji-04597c305141a52a",
-      "title": "井上拓と那須川が再戦 坪井、西田らも世界戦―ボクシング",
+      "doc_id": "jiji-bb4545db4a5acf21",
+      "title": "国際空港拡張、１５００億円供与 日モンゴル合意へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700186&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092600281&g=pol"
+    },
+    {
+      "doc_id": "jiji-b622c974704a8eb9",
+      "title": "大の里が６度目Ｖ 相星決戦で安青錦下す―大相撲秋場所千秋楽",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700256&g=spo"
+    },
+    {
+      "doc_id": "jiji-3b71875fe88505ca",
+      "title": "木原長官、総理大臣杯を授与 大相撲秋場所、大の里に",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700249&g=pol"
+    },
+    {
+      "doc_id": "jiji-86faf3cc0c1a595f",
+      "title": "２カ月で女性１０遺体、裸姿も 女性への暴力まん延で「国家災厄」宣言―南ア",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700114&g=int"
+    },
+    {
+      "doc_id": "jiji-7188e2ee0f0a0e80",
+      "title": "カナリオが逆転打 プロ野球・西武３―２楽天",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700337&g=spo"
     },
     {
       "doc_id": "nhk-e3f42d936459fa43",
-      "title": "前線停滞で九州北部大雨に 土砂災害など厳重警戒を 台風26号も",
+      "title": "前線停滞 九州北部で記録的大雨も 台風26号 沖縄・奄美接近へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260927de52641"
-    },
-    {
-      "doc_id": "nhk-3944d9b2405eab2d",
-      "title": "群馬女性殺害事件 長女の元夫逮捕 高崎市内のパチンコ店で確保",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52686"
     },
     {
       "doc_id": "nhk-43a8352516f3c12d",
@@ -136,28 +130,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260927de52700"
     },
     {
-      "doc_id": "nhk-474b6cd3237e04a5",
-      "title": "東京メトロ 不正アクセスでメールアドレス 約5万9000件流出か",
+      "doc_id": "nhk-3cef84184ac3ecd9",
+      "title": "南アフリカ 銃撃事件相次ぎ27人死亡 武装集団が酒場などで発砲",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52694"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52737"
     },
     {
-      "doc_id": "nhk-0fc594299c74fcc2",
-      "title": "【気象予報士解説】前線停滞で九州北部大雨に 台風26号も",
+      "doc_id": "nhk-3944d9b2405eab2d",
+      "title": "群馬女性殺害事件 長女の元夫逮捕 高崎市内のパチンコ店で確保",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52650"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52686"
     },
     {
-      "doc_id": "nhk-97c79ace6d036a9b",
-      "title": "御嶽山噴火から12年 遺族や気象庁長官が追悼 教訓の継承課題に",
+      "doc_id": "nhk-70392d0f7f55a7ee",
+      "title": "アジア大会 コンテナハウス公開 不満の声受け改善点説明",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52674"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52693"
     },
     {
-      "doc_id": "nhk-fc4a979629d5dfa3",
-      "title": "パラ陸上メダリスト 上与那原寛和選手が死去 練習中に交通事故",
+      "doc_id": "nhk-cfd82ec656befe62",
+      "title": "アジア大会陸上女子100mハードル 福部真子が金 中島ひとみが銀",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52631"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52722"
+    },
+    {
+      "doc_id": "nhk-54a6cc4c0c2cc29f",
+      "title": "アジア大会 陸上女子やり投げ 北口榛花が銀 武本紗栄が銅",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52743"
     },
     {
       "doc_id": "itmedia-e32379676a18c92f",
@@ -232,6 +232,24 @@
       "link": "https://www.itmedia.co.jp/news/article/2609/25/2000001761/"
     },
     {
+      "doc_id": "nazology-0c962d6d5333df31",
+      "title": "「RNAワールド」の始まりが特定された――約43億3000万年前と結論",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200183"
+    },
+    {
+      "doc_id": "nazology-919b10a6098236ae",
+      "title": "おへその匂いに、パーキンソン病や認知機能低下のサインが残っていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200174"
+    },
+    {
+      "doc_id": "nazology-f39d73d038318540",
+      "title": "独身の人に見られる「9つの共通点」とは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/192389"
+    },
+    {
       "doc_id": "nazology-2d127b6447dec603",
       "title": "「魚のうろこ」で作った手袋が手話を94%の精度で読み取った",
       "source": "ナゾロジー",
@@ -272,24 +290,6 @@
       "title": "恐竜のふん化石から初の羽毛発見、現代の鳥に似た構造も判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200137"
-    },
-    {
-      "doc_id": "nazology-7a4f01f4c27b385f",
-      "title": "AIの内部に「痛み」特有の活動パターンを発見――強めると人間を傷つけてでも痛みから逃れる選択がほぼゼロから最大7割に",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200119"
-    },
-    {
-      "doc_id": "nazology-becd68465c7fb60c",
-      "title": "「地球の微生物」が土星の衛星の海を再現した環境で増えると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200131"
-    },
-    {
-      "doc_id": "nazology-2f3adcf6fc04284d",
-      "title": "宇宙帰りのマウスから生まれた娘は、産む子の数が少なかった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200108"
     }
   ]
 }
