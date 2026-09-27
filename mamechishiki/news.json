@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-27T01:29:46+00:00",
-  "now_ms": 1790472586648,
+  "fetched_at": "2026-09-27T08:14:33+00:00",
+  "now_ms": 1790496873215,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-2c287963a45a890a",
-      "title": "福岡・熊本 線状降水帯発生の恐れ",
+      "doc_id": "yahoo-991e16a64edd3cbb",
+      "title": "台風25号被害 千葉の観光地に爪痕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596688"
+      "link": "https://news.yahoo.co.jp/pickup/6596719"
     },
     {
-      "doc_id": "yahoo-e78e49dab32fb080",
-      "title": "飲酒事故で子失い2年 判決に怒り",
+      "doc_id": "yahoo-dacd67ac47a24297",
+      "title": "東京メトロ メアド5.9万件漏洩か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596683"
+      "link": "https://news.yahoo.co.jp/pickup/6596712"
     },
     {
-      "doc_id": "yahoo-4423b0761d1a25cb",
-      "title": "露外相 日本の常任理入りに反対",
+      "doc_id": "yahoo-576f035a0fa3f73f",
+      "title": "群馬殺人事件 公開手配の男を逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596678"
+      "link": "https://news.yahoo.co.jp/pickup/6596718"
     },
     {
-      "doc_id": "yahoo-2497f60f09b255e5",
-      "title": "プロバスケ選手逮捕 わいせつ疑い",
+      "doc_id": "yahoo-20eab224052edfe9",
+      "title": "国と攻防30年 ビール系飲料の税率",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596673"
+      "link": "https://news.yahoo.co.jp/pickup/6596729"
     },
     {
-      "doc_id": "yahoo-4a8b070ef4e177a1",
-      "title": "タクシー会社の機転で 受け子逮捕",
+      "doc_id": "yahoo-c4b4e2d8d001f7da",
+      "title": "スパイの子 女子児童が浴びた罵声",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596686"
+      "link": "https://news.yahoo.co.jp/pickup/6596732"
     },
     {
-      "doc_id": "yahoo-643e6235c01138f7",
-      "title": "代替コーヒー 背景に2050年問題",
+      "doc_id": "yahoo-c472ea312f8d591b",
+      "title": "中受の経験は収入に影響せず 調査",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596680"
+      "link": "https://news.yahoo.co.jp/pickup/6596723"
     },
     {
-      "doc_id": "yahoo-0261fdb43c85d77f",
-      "title": "Netflix・ダウンタイム 話題の訳",
+      "doc_id": "yahoo-b4f9646a7505be17",
+      "title": "張本智和・篠塚組 大逆転で金王手",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596682"
+      "link": "https://news.yahoo.co.jp/pickup/6596715"
     },
     {
-      "doc_id": "yahoo-53e1f325263a0680",
-      "title": "山田孝之 オーディション開催の訳",
+      "doc_id": "yahoo-2471f9613d7c882b",
+      "title": "K-POPイベで論争 悪意集まるSNS",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596687"
+      "link": "https://news.yahoo.co.jp/pickup/6596735"
+    },
+    {
+      "doc_id": "jiji-66c389bc9d93c121",
+      "title": "陸上パラリンピック銀メダリスト、上与那原寛和さん死去 県道で練習中、軽貨物車に追突される",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700104&g=obt"
+    },
+    {
+      "doc_id": "jiji-5f2d07ac3e9b5697",
+      "title": "女性殺害、公開手配の男を逮捕 長男への殺人未遂容疑―群馬県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092700166&g=soc"
     },
     {
       "doc_id": "jiji-6a21f2bb1507df2b",
@@ -64,64 +76,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026092600280&g=pol"
     },
     {
-      "doc_id": "jiji-a4bf02e0abc82580",
-      "title": "高市首相、トランプ氏と連携確認 「米中」受け電話会談",
+      "doc_id": "jiji-86faf3cc0c1a595f",
+      "title": "２カ月で女性１０遺体、裸姿も 女性への暴力まん延で「国家災厄」宣言―南ア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600424&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092700114&g=int"
     },
     {
-      "doc_id": "jiji-bb4545db4a5acf21",
-      "title": "国際空港拡張、１５００億円供与 日モンゴル合意へ",
+      "doc_id": "jiji-791e4223a8d3d935",
+      "title": "殺人予備容疑で１７歳少年逮捕 包丁準備「殺すつもりで」―石川県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600281&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092700111&g=soc"
     },
     {
-      "doc_id": "jiji-d79bfcad8256b42b",
-      "title": "スペインがイングランド下す サッカー欧州ネーションズＬ",
+      "doc_id": "jiji-817c1b7f6fd165d9",
+      "title": "御嶽山噴火１２年で追悼式 気象庁長官が１１年ぶり参列―長野",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700092&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092700184&g=soc"
     },
     {
-      "doc_id": "jiji-0af21453e20f4d47",
-      "title": "「戦ったのは中華民国」 米中会談、習氏の歴史観は誤り―台湾当局",
+      "doc_id": "jiji-66a86143f107bb5b",
+      "title": "バンコクで大雨被害 全域を災害地域指定",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501039&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092700142&g=int"
     },
     {
-      "doc_id": "jiji-303b426d4639645b",
-      "title": "米中「同盟国」発言に困惑 日本政府、首脳会談の分析急ぐ",
+      "doc_id": "jiji-f51d2c5f34a0c6ca",
+      "title": "貿易団体代表団が訪中 岩屋前外相、北京入り",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092501015&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026092700157&g=int"
     },
     {
-      "doc_id": "jiji-7988123796d56b5f",
-      "title": "日独は「軍国主義の道歩んでいる」 ロシア外相、国連総会で主張",
+      "doc_id": "jiji-65fc00c05c4f9c4a",
+      "title": "織田、地元で銀 アジア大会・スケートボード",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700083&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092700181&g=spo"
     },
     {
-      "doc_id": "jiji-2b400702715f4bd1",
-      "title": "大谷は１安打 米大リーグ",
+      "doc_id": "jiji-04597c305141a52a",
+      "title": "井上拓と那須川が再戦 坪井、西田らも世界戦―ボクシング",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700100&g=spo"
-    },
-    {
-      "doc_id": "jiji-129255e3b15a7269",
-      "title": "カバディ代表、きっかけは漫画 メダルに迫った日本男子―アジア大会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600330&g=spo"
-    },
-    {
-      "doc_id": "jiji-e4967ed84b3b57ae",
-      "title": "米金利が高止まり 早期利上げ観測、政権逆風",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092600211&g=int"
-    },
-    {
-      "doc_id": "nhk-7fb71d049f823676",
-      "title": "福岡 筑後地方と熊本 熊本地方に線状降水帯直前予測",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52658"
+      "link": "https://www.jiji.com/jc/article?k=2026092700186&g=spo"
     },
     {
       "doc_id": "nhk-e3f42d936459fa43",
@@ -130,28 +124,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260927de52641"
     },
     {
+      "doc_id": "nhk-3944d9b2405eab2d",
+      "title": "群馬女性殺害事件 長女の元夫逮捕 高崎市内のパチンコ店で確保",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52686"
+    },
+    {
+      "doc_id": "nhk-43a8352516f3c12d",
+      "title": "台風25号 土砂崩れのアパートで遺体発見 住人女性か 神奈川",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52700"
+    },
+    {
+      "doc_id": "nhk-474b6cd3237e04a5",
+      "title": "東京メトロ 不正アクセスでメールアドレス 約5万9000件流出か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52694"
+    },
+    {
       "doc_id": "nhk-0fc594299c74fcc2",
-      "title": "【気象予報士解説】九州北部に線状降水帯のおそれ 台風26号は",
+      "title": "【気象予報士解説】前線停滞で九州北部大雨に 台風26号も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260927de52650"
     },
     {
-      "doc_id": "nhk-70995da9e8d6337d",
-      "title": "熊本市全域に避難指示 31万5456世帯 74万822人",
+      "doc_id": "nhk-97c79ace6d036a9b",
+      "title": "御嶽山噴火から12年 遺族や気象庁長官が追悼 教訓の継承課題に",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52652"
-    },
-    {
-      "doc_id": "nhk-f0c6c1929a411bde",
-      "title": "群馬女性殺害事件 DVめぐり警察が元夫に事件前に2回口頭指導",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52651"
-    },
-    {
-      "doc_id": "nhk-23ae2573e0e33ef5",
-      "title": "ドジャース大谷翔平 2試合ぶり安打 チームは100勝に王手",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52659"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260927de52674"
     },
     {
       "doc_id": "nhk-fc4a979629d5dfa3",
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2609/25/2000001761/"
     },
     {
+      "doc_id": "nazology-2d127b6447dec603",
+      "title": "「魚のうろこ」で作った手袋が手話を94%の精度で読み取った",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200165"
+    },
+    {
+      "doc_id": "nazology-c37e48823ea8e0f5",
+      "title": "仲間外れで見える、「スマホを使いすぎる人」の脳の特徴",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200159"
+    },
+    {
       "doc_id": "nazology-3f833059b269388a",
       "title": "「磁石を作る細菌」を食べた線虫は平均寿命が43%延びた",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "宇宙帰りのマウスから生まれた娘は、産む子の数が少なかった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200108"
-    },
-    {
-      "doc_id": "nazology-316c52bc602133ab",
-      "title": "逆効果の「無理な笑い」、うつ病がつらい時期には強い不安も",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200095"
-    },
-    {
-      "doc_id": "nazology-f42a7d64bc29b5d7",
-      "title": "犬は人間が話すとき母音よりも子音に注意を向けていた――言葉を区切る仕組み",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200112"
     }
   ]
 }
