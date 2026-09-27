@@ -36,9 +36,9 @@ import make_infographic as info
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
-def _load_dotenv():
-    """このフォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。既存の環境変数が優先"""
-    path = os.path.join(HERE, ".env")
+def _load_dotenv(folder=HERE):
+    """フォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。既存の環境変数が優先"""
+    path = os.path.join(folder, ".env")
     if not os.path.exists(path):
         return
     with open(path, encoding="utf-8-sig") as fp:
@@ -75,6 +75,8 @@ SCENES = [
                       (1.0, ("fig", 0.5, 0.5), 2000)]),
 ]
 NARRATION_FILE = os.path.join(HERE, "narration.txt")
+WORK_DIR = HERE           # プレビュー画像の出力先（他の図解から流用する時に差し替える）
+PREFIX = "mongol_empire"  # 出力ファイル名の頭
 SILENT_SCENE_SEC = 4.0  # ナレーションを書かなかった場面の長さ
 LEAD, GAP, TAIL = 0.6, 0.45, 1.6  # 冒頭・文間・末尾の間（秒）
 
@@ -229,12 +231,14 @@ def camera_keys(starts, durs, total, to_px):
     """(時刻, cx, cy, 幅px) のキーフレーム列"""
     keys = []
     for (_, moves), s, d in zip(SCENES, starts, durs):
-        span = d + GAP
+        span = (d + GAP) * 0.97  # 場面の終わりのキーが次の場面の始まりと同時刻にならないよう少し手前に
         for frac, target, width in moves:
             cx, cy = to_px(target)
-            keys.append((s - 0.35 + frac * span, cx, cy, width * SCALE))
-    keys.sort()
-    keys = [(0.0,) + keys[0][1:]] + keys + [(total,) + keys[-1][1:]]
+            t = s - 0.35 + frac * span
+            if keys and t <= keys[-1][0]:  # 時刻は必ず単調増加（並べ替えると同時刻のキーの順序が崩れて画面が跳ぶ）
+                t = keys[-1][0] + 0.01
+            keys.append((t, cx, cy, width * SCALE))
+    keys = [(0.0,) + keys[0][1:]] + keys + [(max(total, keys[-1][0] + 0.01),) + keys[-1][1:]]
     return keys
 
 
@@ -276,7 +280,7 @@ def main():
 
     if "--preview" in sys.argv:
         for i, (s, d) in enumerate(zip(starts, durs)):
-            frame(canvas, *cam_at(s + d * 0.5, keys)).save(os.path.join(HERE, f"preview_{i + 1}.png"))
+            frame(canvas, *cam_at(s + d * 0.5, keys)).save(os.path.join(WORK_DIR, f"preview_{i + 1}.png"))
         return
 
     os.makedirs(CACHE, exist_ok=True)
@@ -306,7 +310,7 @@ def main():
     if not dry:
         cmd += ["-i", wav, "-c:a", "aac", "-b:a", "160k", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100"]
     os.makedirs(OUT_DIR, exist_ok=True)
-    name = time.strftime("mongol_empire_%Y%m%d_%H%M") + ("_dryrun" if dry else "") + ".mp4"
+    name = time.strftime(f"{PREFIX}_%Y%m%d_%H%M") + ("_dryrun" if dry else "") + ".mp4"
     cmd += ["-c:v", "copy", "-shortest" if not dry else "-an", "-movflags", "+faststart",
             os.path.join(OUT_DIR, name)]
     subprocess.check_call(cmd)

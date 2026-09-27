@@ -9,12 +9,15 @@
 地図の描画部品は ../mongol-empire/make_infographic.py を再利用する。
 """
 import os
-import sys
+
+import importlib.util
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "mongol-empire"))
-
-import make_infographic as base  # noqa: E402
+# 同名の make_infographic.py なので、別名でモジュールとして読み込む
+_spec = importlib.util.spec_from_file_location(
+    "mongol_infographic", os.path.join(HERE, "..", "mongol-empire", "make_infographic.py"))
+base = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(base)
 import matplotlib.patheffects as pe  # noqa: E402
 import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402

@@ -1,1 +1,5 @@
 __pycache__/
+narration.txt
+out/
+.env
+preview_*.png
