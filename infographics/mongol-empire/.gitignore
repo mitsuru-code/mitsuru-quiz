@@ -3,3 +3,4 @@ __pycache__/
 preview_*.png
 out/
 .env
+narration.txt
