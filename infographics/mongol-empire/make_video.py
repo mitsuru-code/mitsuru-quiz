@@ -36,9 +36,9 @@ import make_infographic as info
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
-def _load_dotenv():
-    """このフォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。既存の環境変数が優先"""
-    path = os.path.join(HERE, ".env")
+def _load_dotenv(folder=HERE):
+    """フォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。既存の環境変数が優先"""
+    path = os.path.join(folder, ".env")
     if not os.path.exists(path):
         return
     with open(path, encoding="utf-8-sig") as fp:
@@ -75,6 +75,8 @@ SCENES = [
                       (1.0, ("fig", 0.5, 0.5), 2000)]),
 ]
 NARRATION_FILE = os.path.join(HERE, "narration.txt")
+WORK_DIR = HERE           # プレビュー画像の出力先（他の図解から流用する時に差し替える）
+PREFIX = "mongol_empire"  # 出力ファイル名の頭
 SILENT_SCENE_SEC = 4.0  # ナレーションを書かなかった場面の長さ
 LEAD, GAP, TAIL = 0.6, 0.45, 1.6  # 冒頭・文間・末尾の間（秒）
 
@@ -102,15 +104,40 @@ def read_narration():
     return [texts.get(i, "") for i in range(1, len(SCENES) + 1)]
 
 
+MEI_URL = "https://raw.githubusercontent.com/mmdagent-ex/example/main/voice/mei/mei_normal.htsvoice"
+
+
+def tts_openjtalk(text):
+    """APIキーが無い時の代替: Open JTalk + HTS Voice Mei（名古屋工業大学, CC BY 3.0）でオフライン合成"""
+    import pyopenjtalk
+    from pyopenjtalk.htsengine import HTSEngine
+    from scipy.signal import butter, resample_poly, sosfiltfilt
+
+    path = os.path.join(CACHE, "mei_normal.htsvoice")
+    if not os.path.exists(path):
+        os.makedirs(CACHE, exist_ok=True)
+        urllib.request.urlretrieve(MEI_URL, path)
+    eng = HTSEngine(path.encode())
+    eng.set_speed(1.0)
+    x = np.asarray(eng.synthesize(pyopenjtalk.extract_fullcontext(text)), dtype=np.float64) / 32768
+    x = resample_poly(x, SR, eng.get_sampling_frequency())
+    x = sosfiltfilt(butter(4, 7000, "low", fs=SR, output="sos"), x)  # 機械的なざらつきを抑える
+    x = x / (np.abs(x).max() + 1e-9) * 0.8
+    idx = np.where(np.abs(x) > 0.01)[0]
+    return x[max(idx[0] - 240, 0): idx[-1] + 2400].astype(np.float32) if len(idx) else x.astype(np.float32)
+
+
 def tts(text, dry=False):
     """Chirp 3: HD で1文を合成して float32 配列（SR Hz）を返す。dry=True なら長さだけ推定した無音"""
     if not text:
         return np.zeros(int(SILENT_SCENE_SEC * SR), dtype=np.float32)
     if dry:
         return np.zeros(int(len(text) / 7.2 * SR), dtype=np.float32)
+    if os.environ.get("TTS_ENGINE", "chirp").lower() == "openjtalk":
+        return tts_openjtalk(text)
     key = os.environ.get("GOOGLE_TTS_API_KEY")
     if not key:
-        sys.exit("GOOGLE_TTS_API_KEY が未設定です（--dry-run なら音声なしで確認できます）")
+        sys.exit("GOOGLE_TTS_API_KEY が未設定です（--dry-run なら音声なし、TTS_ENGINE=openjtalk ならオフライン音声で作れます）")
     os.makedirs(CACHE, exist_ok=True)
     h = hashlib.sha1(f"{VOICE}|{text}".encode()).hexdigest()[:16]
     path = os.path.join(CACHE, f"tts_{h}.wav")
@@ -204,12 +231,14 @@ def camera_keys(starts, durs, total, to_px):
     """(時刻, cx, cy, 幅px) のキーフレーム列"""
     keys = []
     for (_, moves), s, d in zip(SCENES, starts, durs):
-        span = d + GAP
+        span = (d + GAP) * 0.97  # 場面の終わりのキーが次の場面の始まりと同時刻にならないよう少し手前に
         for frac, target, width in moves:
             cx, cy = to_px(target)
-            keys.append((s - 0.35 + frac * span, cx, cy, width * SCALE))
-    keys.sort()
-    keys = [(0.0,) + keys[0][1:]] + keys + [(total,) + keys[-1][1:]]
+            t = s - 0.35 + frac * span
+            if keys and t <= keys[-1][0]:  # 時刻は必ず単調増加（並べ替えると同時刻のキーの順序が崩れて画面が跳ぶ）
+                t = keys[-1][0] + 0.01
+            keys.append((t, cx, cy, width * SCALE))
+    keys = [(0.0,) + keys[0][1:]] + keys + [(max(total, keys[-1][0] + 0.01),) + keys[-1][1:]]
     return keys
 
 
@@ -229,6 +258,19 @@ def frame(canvas, cx, cy, w):
     return canvas.resize((W, H), Image.BICUBIC, box=box)
 
 
+def draw_credit(img, text):
+    """右下にクレジットを重ねる（CC BY の表示義務のため）"""
+    from matplotlib import font_manager
+    from PIL import ImageDraw, ImageFont
+
+    path = font_manager.findfont(font_manager.FontProperties(family=info.plt.rcParams["font.family"]))
+    font = ImageFont.truetype(path, 26)
+    d = ImageDraw.Draw(img, "RGBA")
+    w = d.textlength(text, font=font)
+    d.rounded_rectangle((W - w - 44, H - 64, W - 16, H - 16), radius=10, fill=(10, 29, 51, 170))
+    d.text((W - w - 30, H - 56), text, font=font, fill=(235, 240, 245, 255))
+
+
 def main():
     dry = "--dry-run" in sys.argv or "--preview" in sys.argv
     mix, starts, durs, total = build_audio(dry)
@@ -238,7 +280,7 @@ def main():
 
     if "--preview" in sys.argv:
         for i, (s, d) in enumerate(zip(starts, durs)):
-            frame(canvas, *cam_at(s + d * 0.5, keys)).save(os.path.join(HERE, f"preview_{i + 1}.png"))
+            frame(canvas, *cam_at(s + d * 0.5, keys)).save(os.path.join(WORK_DIR, f"preview_{i + 1}.png"))
         return
 
     os.makedirs(CACHE, exist_ok=True)
@@ -253,8 +295,13 @@ def main():
                                          macro_block_size=1, output_params=["-crf", "19", "-preset", "slow"])
     writer.send(None)
     n = int(total * FPS)
+    credit = ("音声: HTS Voice Mei © 名古屋工業大学 (CC BY 3.0)"
+              if os.environ.get("TTS_ENGINE", "chirp").lower() == "openjtalk" and not dry else "")
     for i in range(n):
-        writer.send(np.asarray(frame(canvas, *cam_at(i / FPS, keys))).tobytes())
+        img = frame(canvas, *cam_at(i / FPS, keys))
+        if credit and i / FPS > total - 4.5:
+            draw_credit(img, credit)
+        writer.send(np.asarray(img).tobytes())
         if i % 300 == 0:
             print(f"{i}/{n}", flush=True)
     writer.close()
@@ -263,7 +310,7 @@ def main():
     if not dry:
         cmd += ["-i", wav, "-c:a", "aac", "-b:a", "160k", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100"]
     os.makedirs(OUT_DIR, exist_ok=True)
-    name = time.strftime("mongol_empire_%Y%m%d_%H%M") + ("_dryrun" if dry else "") + ".mp4"
+    name = time.strftime(f"{PREFIX}_%Y%m%d_%H%M") + ("_dryrun" if dry else "") + ".mp4"
     cmd += ["-c:v", "copy", "-shortest" if not dry else "-an", "-movflags", "+faststart",
             os.path.join(OUT_DIR, name)]
     subprocess.check_call(cmd)
