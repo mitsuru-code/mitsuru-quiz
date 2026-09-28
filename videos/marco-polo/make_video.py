@@ -9,7 +9,8 @@
     - scroll.jpg: 絵巻風の元画像（生成AI画像）。場面ごとに一部を切り出して映す
     - scenes/NN.png（任意）: 場面 NN の差し替え画像。置くとその場面は切り出しの代わりにこの画像を映す
       （素材プロンプト.md の画像を生成して置けば、その場面だけ高精細になる）
-    - ナレーション音声: Gemini API の音声生成（TTS）。キーは環境変数 GEMINI_API_KEY か .env に書く
+    - ナレーション音声: Google Cloud Text-to-Speech（Chirp 3: HD）。キーは .env の GOOGLE_TTS_API_KEY
+      （.env に TTS_ENGINE=gemini と GEMINI_API_KEY を書けば Gemini API で読み上げる）
       合成結果は .cache/ に保存し、同じ文面・声なら API を再度呼ばない
 """
 import base64
@@ -60,6 +61,9 @@ def _load_dotenv():
 _load_dotenv()
 CACHE = os.path.join(HERE, ".cache")
 OUT_DIR = os.environ.get("VIDEO_OUT_DIR") or os.path.join(HERE, "out")  # Googleドライブ等の同期フォルダも指定可
+TTS_ENGINE = os.environ.get("TTS_ENGINE", "cloud").lower()  # cloud = Google Cloud TTS（Chirp 3: HD）/ gemini = Gemini API
+CLOUD_VOICE = os.environ.get("TTS_VOICE", "ja-JP-Chirp3-HD-Charon")
+CLOUD_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")  # 旧 gemini-2.5-flash-preview-tts は廃止
 TTS_VOICE = os.environ.get("GEMINI_TTS_VOICE", "Charon")
 TTS_STYLE = os.environ.get("GEMINI_TTS_STYLE", "歴史ドキュメンタリーのナレーターとして、落ち着いた温かい声で、ゆっくり自然な間をとって読んでください")
@@ -278,19 +282,72 @@ def gemini_tts(text):
     return _post_voice(resample_poly(x, SR // g, rate // g))
 
 
+def _cloud_key():
+    key = os.environ.get("GOOGLE_TTS_API_KEY", "").strip()
+    if not key or key == "ここにAPIキー":
+        sys.exit("GOOGLE_TTS_API_KEY が未設定です（.env の GOOGLE_TTS_API_KEY= の後ろに Cloud Text-to-Speech の APIキーを貼ってください）")
+    return key
+
+
+def cloud_tts(text):
+    """Google Cloud Text-to-Speech（Chirp 3: HD）で1場面分を合成（.cache に保存して再利用）"""
+    from scipy.signal import resample_poly
+
+    os.makedirs(CACHE, exist_ok=True)
+    h = hashlib.sha1(f"cloud|{CLOUD_VOICE}|{text}".encode()).hexdigest()[:16]
+    path = os.path.join(CACHE, f"cloud_{h}.wav")
+    if not os.path.exists(path):
+        body = json.dumps({
+            "input": {"text": text},
+            "voice": {"languageCode": "ja-JP", "name": CLOUD_VOICE},
+            "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000},
+        }).encode()
+        for attempt in range(5):
+            req = urllib.request.Request(CLOUD_URL, data=body, headers={"Content-Type": "application/json",
+                                                                        "X-Goog-Api-Key": _cloud_key()})
+            try:
+                with urllib.request.urlopen(req, timeout=120) as r:
+                    audio = base64.b64decode(json.load(r)["audioContent"])
+                break
+            except urllib.error.HTTPError as e:
+                msg = e.read().decode("utf-8", "replace")[:600]
+                if e.code not in (429, 500, 503) or attempt == 4:
+                    raise RuntimeError(f"Cloud TTS HTTP {e.code}: {msg}") from None
+                wait = 15 * (attempt + 1)
+                print(f"  HTTP {e.code}: {wait}秒待って再試行します", flush=True)
+                time.sleep(wait)
+            except urllib.error.URLError as e:
+                raise RuntimeError(f"Cloud TTS に接続できません: {e.reason}（ネット接続・社内プロキシ・セキュリティソフトを確認）") from None
+        with open(path, "wb") as fp:
+            fp.write(audio)
+    with open(path, "rb") as fp:
+        x, rate = _decode_audio({"data": base64.b64encode(fp.read()).decode(), "mimeType": "rate=24000"})
+    g = math.gcd(SR, rate)
+    return _post_voice(resample_poly(x, SR // g, rate // g))
+
+
+def tts(text):
+    return gemini_tts(text) if TTS_ENGINE == "gemini" else cloud_tts(text)
+
+
+def tts_label():
+    if TTS_ENGINE == "gemini":
+        key = _api_key()
+        return (f"Gemini / モデル: {tts_model()} / 声: {TTS_VOICE} / キー末尾 …{key[-4:]}"
+                f"（{KEY_SOURCE.get('GEMINI_API_KEY', 'Windows の環境変数')}）")
+    key = _cloud_key()
+    return f"Cloud TTS / 声: {CLOUD_VOICE} / キー末尾 …{key[-4:]}（{KEY_SOURCE.get('GOOGLE_TTS_API_KEY', 'Windows の環境変数')}）"
+
+
 def check():
-    """環境の診断（run.bat check）: ライブラリ・フォント・APIキー・音声1回分の合成"""
+    """環境の診断（check.bat）: ライブラリ・フォント・APIキー・音声1回分の合成"""
     print("Python:", sys.version.split()[0])
     print("フォント:", FONT, "/", FONT_M)
     print("ffmpeg:", imageio_ffmpeg.get_ffmpeg_exe())
     print("画像:", "scroll.jpg OK" if os.path.exists(SRC) else "scroll.jpg が見つかりません",
           "/ scenes:", sorted(os.listdir(os.path.join(HERE, "scenes"))) if os.path.isdir(os.path.join(HERE, "scenes")) else "なし")
-    key = _api_key()
-    src = KEY_SOURCE.get("GEMINI_API_KEY", "Windows の環境変数")
-    print(f"APIキー: 読み込みOK（末尾 …{key[-4:]}、読み込み元: {src}）")
-    print("  ※ AI Studio のキー一覧で、末尾4文字が同じキーのプロジェクトが「無料枠(Free)」か確認してください")
-    print("TTSモデル:", tts_model(), "/ 声:", TTS_VOICE)
-    x = gemini_tts("これは音声のテストです。")
+    print("音声:", tts_label())
+    x = tts("これは音声のテストです。")
     print(f"音声合成: OK（{len(x) / SR:.1f}秒）")
     print("診断はすべて正常です。run.bat で本番を作れます。")
 
@@ -299,12 +356,11 @@ def voices(dry):
     """場面ごとの読み上げ音声（float, SR Hz）。dry=True なら文字数から長さを推定した無音"""
     if dry:
         return [np.zeros(int(len(s[2]) / 7.0 * SR)) for s in SCENES]
+    print("音声:", tts_label(), flush=True)
     out = []
-    key = _api_key()
-    print(f"APIキー: 末尾 …{key[-4:]}（読み込み元: {KEY_SOURCE.get('GEMINI_API_KEY', 'Windows の環境変数')}）", flush=True)
     for i, (_, _, text, _) in enumerate(SCENES):
-        print(f"voice {i:02d}/{len(SCENES) - 1:02d}  （モデル: {tts_model()}）", flush=True)
-        out.append(gemini_tts(text))
+        print(f"voice {i:02d}/{len(SCENES) - 1:02d}", flush=True)
+        out.append(tts(text))
     return out
 
 
@@ -496,7 +552,7 @@ def credit():
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(ov)
     f = font(24)
-    txt = "絵: 生成AI画像（史実の考証を経たものではありません）　音声: Gemini API（Google）"
+    txt = "絵: 生成AI画像（史実の考証を経たものではありません）　音声: " + ("Gemini API（Google）" if TTS_ENGINE == "gemini" else "Google Cloud Text-to-Speech")
     d.rounded_rectangle((W - 60 - d.textlength(txt, font=f) - 30, 36, W - 40, 84), 10, fill=(20, 13, 6, 170))
     d.text((W - 55, 60), txt, font=f, fill=(225, 210, 180), anchor="rm")
     return ov
@@ -587,7 +643,11 @@ if __name__ == "__main__":
     try:
         main()
     except (RuntimeError, OSError) as e:
-        if "HTTP 402" in str(e):
+        if "Cloud TTS HTTP 403" in str(e):
+            e = RuntimeError("Cloud TTS が使えません（HTTP 403）。Google Cloud で ①Cloud Text-to-Speech API が有効か "
+                             "②プロジェクトに請求先アカウントが紐づいているか ③APIキーの制限に Text-to-Speech が含まれるか を確認してください"
+                             f"\n  元のメッセージ: {str(e)[:300]}")
+        elif "HTTP 402" in str(e):
             e = RuntimeError("どの TTS モデルも HTTP 402（前払いクレジット残高 0）で使えませんでした。"
                              "上に表示したキー末尾4文字が AI Studio で無料枠のキーと一致するか確認し、"
                              "一致していれば、この無料枠では音声生成が使えないため AI Studio でクレジットを追加してください")  # 想定内のエラーは要点だけ表示し、詳細はエラーログ.txt に残す
