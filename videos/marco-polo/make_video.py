@@ -16,7 +16,9 @@ import base64
 import glob
 import hashlib
 import json
+import io
 import math
+import re
 import os
 import subprocess
 import sys
@@ -48,10 +50,10 @@ def _load_dotenv():
 _load_dotenv()
 CACHE = os.path.join(HERE, ".cache")
 OUT_DIR = os.environ.get("VIDEO_OUT_DIR") or os.path.join(HERE, "out")  # Googleドライブ等の同期フォルダも指定可
-TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
+TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")  # 旧 gemini-2.5-flash-preview-tts は廃止
 TTS_VOICE = os.environ.get("GEMINI_TTS_VOICE", "Charon")
 TTS_STYLE = os.environ.get("GEMINI_TTS_STYLE", "歴史ドキュメンタリーのナレーターとして、落ち着いた温かい声で、ゆっくり自然な間をとって読んでください")
-TTS_SR = 24000  # Gemini TTS の出力は 24kHz / 16bit / モノラル PCM
+API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 SRC = os.path.join(HERE, "scroll.jpg")
 W, H, FPS, SR = 1920, 1080, 30, 44100
 LEAD, GAP, TAIL = 0.8, 1.6, 3.0  # 各場面の話し始めまでの間・話し終わり後の間・最後の余韻（秒）
@@ -150,44 +152,114 @@ def _post_voice(x):
     return x
 
 
+def _api_key():
+    key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not key or key == "ここにAPIキー":
+        hint = "（.env.txt という名前になっています。拡張子 .txt を消して .env にしてください）" \
+            if os.path.exists(os.path.join(HERE, ".env.txt")) else "（.env の GEMINI_API_KEY= の後ろにキーを貼ってください）"
+        sys.exit("GEMINI_API_KEY が未設定です" + hint)
+    return key
+
+
+def _api(path, body=None):
+    """Gemini API を呼んで JSON を返す。429/500/503 は待って再試行する"""
+    data = json.dumps(body).encode() if body is not None else None
+    for attempt in range(5):
+        req = urllib.request.Request(f"{API_BASE}/{path}", data=data,
+                                     headers={"Content-Type": "application/json", "x-goog-api-key": _api_key()})
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode("utf-8", "replace")[:600]
+            if e.code not in (429, 500, 503) or attempt == 4:
+                raise RuntimeError(f"HTTP {e.code}: {msg}") from None
+            wait = 20 * (attempt + 1)
+            print(f"  HTTP {e.code}（混雑・回数制限）: {wait}秒待って再試行します", flush=True)
+            time.sleep(wait)
+        except urllib.error.URLError as e:
+            raise RuntimeError(f"Gemini API に接続できません: {e.reason}（ネット接続・社内プロキシ・セキュリティソフトを確認）") from None
+
+
+_MODEL = {}
+
+
+def tts_model():
+    """使う TTS モデル名。設定のモデルが無い（廃止など）場合は、使えるモデル一覧から TTS モデルを自動で選ぶ"""
+    if "name" in _MODEL:
+        return _MODEL["name"]
+    names = []
+    try:
+        res = _api("models?pageSize=1000")
+        names = [m["name"].split("/")[-1] for m in res.get("models", [])
+                 if "tts" in m["name"] and "generateContent" in m.get("supportedGenerationMethods", [])]
+    except RuntimeError as e:
+        print(f"  モデル一覧を取得できませんでした（{e}）。設定のモデル名で続けます", flush=True)
+    name = TTS_MODEL
+    if names and TTS_MODEL not in names:
+        # lite より通常版、数字の大きい（新しい）版を優先
+        name = sorted(names, key=lambda n: ("lite" not in n, "preview" not in n, n))[-1]
+        print(f"  {TTS_MODEL} は使えないため {name} を使います（使えるTTSモデル: {', '.join(names)}）", flush=True)
+    _MODEL["name"] = name
+    return name
+
+
+def _decode_audio(inline):
+    """inlineData を (float 配列, サンプリング周波数) に。WAV(RIFF) 付きと生 PCM の両方に対応"""
+    raw = base64.b64decode(inline["data"])
+    if raw[:4] == b"RIFF":
+        with wave.open(io.BytesIO(raw)) as wf:
+            rate, width, ch = wf.getframerate(), wf.getsampwidth(), wf.getnchannels()
+            raw = wf.readframes(wf.getnframes())
+        x = np.frombuffer(raw, dtype="<i2").astype(np.float64) / 32768
+        if ch == 2:
+            x = x.reshape(-1, 2).mean(axis=1)
+        return x, rate
+    m = re.search(r"rate=(\d+)", inline.get("mimeType", ""))
+    return np.frombuffer(raw, dtype="<i2").astype(np.float64) / 32768, int(m.group(1)) if m else 24000
+
+
 def gemini_tts(text):
     """Gemini API で1場面分を合成し、SR Hz の float 配列を返す（.cache に保存して再利用）"""
     from scipy.signal import resample_poly
 
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key:
-        sys.exit("GEMINI_API_KEY が未設定です（.env を確認。--preview なら API なしで画面だけ確認できます）")
     os.makedirs(CACHE, exist_ok=True)
     h = hashlib.sha1(f"{TTS_MODEL}|{TTS_VOICE}|{TTS_STYLE}|{text}".encode()).hexdigest()[:16]
-    path = os.path.join(CACHE, f"gemini_{h}.pcm")
+    path = os.path.join(CACHE, f"gemini_{h}.json")
     if not os.path.exists(path):
-        body = json.dumps({
+        body = {
             "contents": [{"parts": [{"text": f"{TTS_STYLE}：\n{text}"}]}],
             "generationConfig": {
                 "responseModalities": ["AUDIO"],
                 "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": TTS_VOICE}}},
             },
-        }).encode()
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{TTS_MODEL}:generateContent"
-        for attempt in range(4):  # 無料枠の回数制限(429)や一時的な失敗に備えて待って再試行
-            req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json",
-                                                                  "x-goog-api-key": key})
-            try:
-                with urllib.request.urlopen(req, timeout=120) as r:
-                    res = json.load(r)
-                break
-            except urllib.error.HTTPError as e:
-                if e.code not in (429, 500, 503) or attempt == 3:
-                    sys.exit(f"Gemini TTS エラー HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:500]}")
-                wait = 20 * (attempt + 1)
-                print(f"HTTP {e.code}: {wait}秒待って再試行します", flush=True)
-                time.sleep(wait)
-        data = res["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
-        with open(path, "wb") as fp:
-            fp.write(base64.b64decode(data))
-    with open(path, "rb") as fp:
-        pcm = np.frombuffer(fp.read(), dtype="<i2").astype(np.float64) / 32768
-    return _post_voice(resample_poly(pcm, 147, 80))  # 24000 → 44100 Hz
+        }
+        res = _api(f"models/{tts_model()}:generateContent", body)
+        try:
+            inline = next(p["inlineData"] for p in res["candidates"][0]["content"]["parts"] if "inlineData" in p)
+        except (KeyError, IndexError, StopIteration):
+            raise RuntimeError("音声が返ってきませんでした: " + json.dumps(res, ensure_ascii=False)[:600]) from None
+        with open(path, "w", encoding="utf-8") as fp:
+            json.dump(inline, fp)
+    with open(path, encoding="utf-8") as fp:
+        x, rate = _decode_audio(json.load(fp))
+    g = math.gcd(SR, rate)
+    return _post_voice(resample_poly(x, SR // g, rate // g))
+
+
+def check():
+    """環境の診断（run.bat check）: ライブラリ・フォント・APIキー・音声1回分の合成"""
+    print("Python:", sys.version.split()[0])
+    print("フォント:", FONT, "/", FONT_M)
+    print("ffmpeg:", imageio_ffmpeg.get_ffmpeg_exe())
+    print("画像:", "scroll.jpg OK" if os.path.exists(SRC) else "scroll.jpg が見つかりません",
+          "/ scenes:", sorted(os.listdir(os.path.join(HERE, "scenes"))) if os.path.isdir(os.path.join(HERE, "scenes")) else "なし")
+    _api_key()
+    print("APIキー: 読み込みOK")
+    print("TTSモデル:", tts_model(), "/ 声:", TTS_VOICE)
+    x = gemini_tts("これは音声のテストです。")
+    print(f"音声合成: OK（{len(x) / SR:.1f}秒）")
+    print("診断はすべて正常です。run.bat で本番を作れます。")
 
 
 def voices(dry):
@@ -439,6 +511,9 @@ class Renderer:
 
 
 def main():
+    if "--check" in sys.argv:
+        check()
+        return
     dry = "--preview" in sys.argv
     mix, starts, durs, total = build_audio(dry)
     print(f"total {total:.1f}s |", " ".join(f"{d:.1f}" for d in durs), flush=True)
@@ -474,4 +549,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except (RuntimeError, OSError) as e:  # 想定内のエラーは要点だけ表示し、詳細はエラーログ.txt に残す
+        import traceback
+        with open(os.path.join(HERE, "エラーログ.txt"), "w", encoding="utf-8") as fp:
+            traceback.print_exc(file=fp)
+        sys.exit(f"\nエラー: {e}\n（詳細は エラーログ.txt）")
