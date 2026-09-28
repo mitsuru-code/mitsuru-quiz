@@ -194,10 +194,10 @@ def _api(path, body=None):
 _MODEL = {}
 
 
-def tts_model():
-    """使う TTS モデル名。設定のモデルが無い（廃止など）場合は、使えるモデル一覧から TTS モデルを自動で選ぶ"""
-    if "name" in _MODEL:
-        return _MODEL["name"]
+def tts_models():
+    """試す TTS モデルの順番。設定のモデルを先頭に、使えるモデル一覧の TTS モデルを新しい順に続ける"""
+    if "list" in _MODEL:
+        return _MODEL["list"]
     names = []
     try:
         res = _api("models?pageSize=1000")
@@ -205,13 +205,22 @@ def tts_model():
                  if "tts" in m["name"] and "generateContent" in m.get("supportedGenerationMethods", [])]
     except RuntimeError as e:
         print(f"  モデル一覧を取得できませんでした（{e}）。設定のモデル名で続けます", flush=True)
-    name = TTS_MODEL
+    # 通常版を lite より、正式版を preview より、新しい版を古い版より先に
+    names = sorted(names, key=lambda n: ("lite" not in n, "preview" not in n, n), reverse=True)
     if names and TTS_MODEL not in names:
-        # lite より通常版、数字の大きい（新しい）版を優先
-        name = sorted(names, key=lambda n: ("lite" not in n, "preview" not in n, n))[-1]
-        print(f"  {TTS_MODEL} は使えないため {name} を使います（使えるTTSモデル: {', '.join(names)}）", flush=True)
-    _MODEL["name"] = name
-    return name
+        print(f"  {TTS_MODEL} は一覧にありません（使えるTTSモデル: {', '.join(names)}）", flush=True)
+    order = ([TTS_MODEL] if TTS_MODEL in names or not names else []) + [n for n in names if n != TTS_MODEL]
+    _MODEL["list"] = order
+    return order
+
+
+def tts_model():
+    """いま使う TTS モデル名（402 などで使えなかったモデルは飛ばす）"""
+    for n in tts_models():
+        if n not in _MODEL.setdefault("bad", set()):
+            return n
+    raise RuntimeError("使える TTS モデルがありません。試したモデル: " + ", ".join(tts_models()) + " / 最後のエラー: "
+                       + _MODEL.get("last_error", ""))
 
 
 def _decode_audio(inline):
@@ -234,7 +243,7 @@ def gemini_tts(text):
     from scipy.signal import resample_poly
 
     os.makedirs(CACHE, exist_ok=True)
-    h = hashlib.sha1(f"{TTS_MODEL}|{TTS_VOICE}|{TTS_STYLE}|{text}".encode()).hexdigest()[:16]
+    h = hashlib.sha1(f"{TTS_VOICE}|{TTS_STYLE}|{text}".encode()).hexdigest()[:16]
     path = os.path.join(CACHE, f"gemini_{h}.json")
     if not os.path.exists(path):
         body = {
@@ -244,7 +253,19 @@ def gemini_tts(text):
                 "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": TTS_VOICE}}},
             },
         }
-        res = _api(f"models/{tts_model()}:generateContent", body)
+        while True:
+            model = tts_model()
+            try:
+                res = _api(f"models/{model}:generateContent", body)
+                break
+            except RuntimeError as e:
+                # 402（クレジット無し）/ 無料枠の割り当て 0 / モデル無し は、次のモデルで試す
+                msg = str(e)
+                if not ("HTTP 402" in msg or "HTTP 404" in msg or ("HTTP 429" in msg and "limit: 0" in msg)):
+                    raise
+                _MODEL["bad"].add(model)
+                _MODEL["last_error"] = msg[:300]
+                print(f"  {model} は使えません（{msg[:40]}…）。別のモデルで試します", flush=True)
         try:
             inline = next(p["inlineData"] for p in res["candidates"][0]["content"]["parts"] if "inlineData" in p)
         except (KeyError, IndexError, StopIteration):
@@ -279,8 +300,10 @@ def voices(dry):
     if dry:
         return [np.zeros(int(len(s[2]) / 7.0 * SR)) for s in SCENES]
     out = []
+    key = _api_key()
+    print(f"APIキー: 末尾 …{key[-4:]}（読み込み元: {KEY_SOURCE.get('GEMINI_API_KEY', 'Windows の環境変数')}）", flush=True)
     for i, (_, _, text, _) in enumerate(SCENES):
-        print(f"voice {i:02d}/{len(SCENES) - 1:02d}", flush=True)
+        print(f"voice {i:02d}/{len(SCENES) - 1:02d}  （モデル: {tts_model()}）", flush=True)
         out.append(gemini_tts(text))
     return out
 
@@ -565,8 +588,9 @@ if __name__ == "__main__":
         main()
     except (RuntimeError, OSError) as e:
         if "HTTP 402" in str(e):
-            e = RuntimeError("Gemini の前払いクレジット残高が 0 です（HTTP 402）。無料枠のプロジェクトで作ったキーに替えるか、"
-                             "AI Studio でクレジットを追加してください。末尾4文字の確認は check.bat で表示されます")  # 想定内のエラーは要点だけ表示し、詳細はエラーログ.txt に残す
+            e = RuntimeError("どの TTS モデルも HTTP 402（前払いクレジット残高 0）で使えませんでした。"
+                             "上に表示したキー末尾4文字が AI Studio で無料枠のキーと一致するか確認し、"
+                             "一致していれば、この無料枠では音声生成が使えないため AI Studio でクレジットを追加してください")  # 想定内のエラーは要点だけ表示し、詳細はエラーログ.txt に残す
         import traceback
         with open(os.path.join(HERE, "エラーログ.txt"), "w", encoding="utf-8") as fp:
             traceback.print_exc(file=fp)
