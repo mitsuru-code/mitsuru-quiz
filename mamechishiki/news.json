@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-28T15:32:05+00:00",
-  "now_ms": 1790609525280,
+  "fetched_at": "2026-09-28T22:04:12+00:00",
+  "now_ms": 1790633052809,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,40 +10,46 @@
   },
   "candidates": [
     {
+      "doc_id": "yahoo-8b6fa4726c5b2eb6",
+      "title": "都心で34日連続雨 最長記録を更新",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6596907"
+    },
+    {
       "doc_id": "yahoo-0e5210edb6c6bebe",
       "title": "衆院選制度見直し 10月末めど結論",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6596884"
     },
     {
-      "doc_id": "yahoo-92c20f7fe17bc079",
-      "title": "生命維持治療終了の新指針 4学会",
+      "doc_id": "yahoo-128643b07a542796",
+      "title": "マンション修繕談合 コンサル謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596895"
+      "link": "https://news.yahoo.co.jp/pickup/6596906"
     },
     {
-      "doc_id": "yahoo-dffa7769d703a214",
-      "title": "八王子市でクマ緊急銃猟 都内で初",
+      "doc_id": "yahoo-11b2ac697fb36aad",
+      "title": "中国 首相の「台湾発言」是正要求",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596889"
+      "link": "https://news.yahoo.co.jp/pickup/6596903"
     },
     {
-      "doc_id": "yahoo-540c7ab38a994912",
-      "title": "天皇陛下のスマホで撮影 写真公開",
+      "doc_id": "yahoo-ea77037d6971b926",
+      "title": "車が停車中の車に追突 女性が死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596879"
+      "link": "https://news.yahoo.co.jp/pickup/6596899"
     },
     {
-      "doc_id": "yahoo-6a53fe561cf8c6d6",
-      "title": "東大総長に藤垣裕子教授 初の女性",
+      "doc_id": "yahoo-f5f36b4e1004800c",
+      "title": "ヤクルト青柳晃洋 来季戦力構想外",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596892"
+      "link": "https://news.yahoo.co.jp/pickup/6596905"
     },
     {
-      "doc_id": "yahoo-7682423039f96688",
-      "title": "楽天が酒居ら戦力外 異例の夜発表",
+      "doc_id": "yahoo-b1af51729b42c45f",
+      "title": "森保J 試合後に3人が病院直行",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596898"
+      "link": "https://news.yahoo.co.jp/pickup/6596902"
     },
     {
       "doc_id": "yahoo-44a7cb855dea8a73",
@@ -52,70 +58,94 @@
       "link": "https://news.yahoo.co.jp/pickup/6596896"
     },
     {
-      "doc_id": "yahoo-bc8ce991fa1b8782",
-      "title": "倉本聰さん死去 二宮和也が追悼",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596897"
+      "doc_id": "jiji-c5552a743126544e",
+      "title": "両陛下、ジブリパークの写真公開 天皇陛下のスマホで撮影―宮内庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092800700&g=soc"
     },
     {
-      "doc_id": "jiji-c667f019847d287f",
-      "title": "日本、終盤に決勝点 上田２点、ベネズエラ下す―サッカー国際親善試合",
+      "doc_id": "jiji-c8b1cfbbdbfa87b6",
+      "title": "東大次期学長に藤垣裕子教授 女性初、来年４月から任期６年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092800882&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092801038&g=soc"
     },
     {
-      "doc_id": "jiji-fc5fc688d20a2764",
-      "title": "九谷が危険球退場 プロ野球・楽天",
+      "doc_id": "jiji-c696daf7331a188b",
+      "title": "首相動静（９月２８日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092801083&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092800119&g=pol"
     },
     {
-      "doc_id": "jiji-92d29c43f54583fc",
-      "title": "広島の菊池、貴重な一打で節目に プロ野球",
+      "doc_id": "jiji-06799bfab812b65b",
+      "title": "茨城、埼玉両県で震度４の揺れを観測した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092801075&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092900124&g=flash"
     },
     {
-      "doc_id": "jiji-fd0a007191563390",
-      "title": "倉本聰さん死去、９１歳 脚本家、「北の国から」",
+      "doc_id": "jiji-99133c54b6543f6f",
+      "title": "中国外相、高市首相は答弁「是正」を 岩屋前外相と会談",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092800261&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092900133&g=pol"
     },
     {
-      "doc_id": "jiji-e973d131a5224980",
-      "title": "隅田、肘に打球受け降板 ＣＳ前にアクシデント―プロ野球・西武",
+      "doc_id": "jiji-5dda3d46733a1773",
+      "title": "米アンソロ社ＣＥＯ、ＡＩ会合出席へ トランプ氏と夕食会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092801073&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092900139&g=int"
     },
     {
-      "doc_id": "jiji-e5f0bed1bab163ed",
-      "title": "「旭日旗禁止」と誤掲示 組織委、不適切と謝罪―愛知・名古屋アジア大会",
+      "doc_id": "jiji-7187e4849340bd93",
+      "title": "韓国軍兵士負傷、北朝鮮地雷か 緊張高まる可能性",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092800721&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092800696&g=int"
     },
     {
-      "doc_id": "jiji-80cb08fc7250b4e2",
-      "title": "プロ野球・ひとこと",
+      "doc_id": "jiji-7f50239c629a7d82",
+      "title": "中国外務省によると、王毅外相は岩屋前外相に「指導者が台湾問題での誤った発言をなるべく早く是正することが必要だ」と述べた",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092801049&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092900121&g=flash"
     },
     {
-      "doc_id": "jiji-b37324484e04b6bc",
-      "title": "急な先発起用に応える 福島、５回１安打無失点―プロ野球・日本ハム",
+      "doc_id": "jiji-29a04988f661426d",
+      "title": "岩屋前外相、中国外相と面会 香港メディア報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092801063&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092801051&g=pol"
     },
     {
-      "doc_id": "jiji-04597c305141a52a",
-      "title": "井上拓真、再び那須川天心退ける 松本流星が暫定王者―ボクシング",
+      "doc_id": "jiji-c045d81548a6da1b",
+      "title": "「国家情報戦略」策定へ始動 高市首相、中ロ朝動向を警戒―有識者会議初会合",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092700186&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092800809&g=soc"
     },
     {
-      "doc_id": "jiji-b37b98342e014b7f",
-      "title": "新戦力に厳しい現実 流れ変えたのは常連組―サッカー日本代表",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092801054&g=spo"
+      "doc_id": "nhk-d59c6becd2fa5f3b",
+      "title": "台風26号 日本の南の海上を北東へ 最新の気象情報確認を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52959"
+    },
+    {
+      "doc_id": "nhk-2f08ecb72b12a7d3",
+      "title": "「20年前から」証言も マンション修繕工事談合",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52960"
+    },
+    {
+      "doc_id": "nhk-32dfa3dd116f2356",
+      "title": "【地震情報】茨城県と埼玉県で震度4 津波の心配なし",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260926de52551"
+    },
+    {
+      "doc_id": "nhk-6fcf21b527ccce84",
+      "title": "核のごみ文献調査 茨城 常陸大宮市長が赤澤大臣と面会し判断へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52954"
+    },
+    {
+      "doc_id": "nhk-d5f3513cd963803f",
+      "title": "ニデック30日決算発表 巨額損失計上へ 岸田社長など交代検討",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52956"
     },
     {
       "doc_id": "nhk-a87ca145e6e4b312",
@@ -124,40 +154,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260928de52948"
     },
     {
-      "doc_id": "nhk-6a8f535407335260",
-      "title": "福岡県議会 海外活動は原則エコノミーに 基準案まとめる",
+      "doc_id": "nhk-35317cfff32bf3bb",
+      "title": "内戦状態のミャンマー 軍空爆で市民ら33人死亡か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52942"
-    },
-    {
-      "doc_id": "nhk-5bbe67f866037abd",
-      "title": "台風26号 進路や前線への影響に注意 広く大気不安定で激しい雨",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52761"
-    },
-    {
-      "doc_id": "nhk-715309f1d6a97c24",
-      "title": "「北の国から」脚本家の倉本聰さん死去 91歳",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52785"
-    },
-    {
-      "doc_id": "nhk-3818629784196b4d",
-      "title": "作家原田マハさん初監督「無用の人」がスペインの映画祭で受賞",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52929"
-    },
-    {
-      "doc_id": "nhk-f4b75361789a6629",
-      "title": "九州ふっこう応援割の予約影響か 長崎県で一時電話つながらず",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52941"
-    },
-    {
-      "doc_id": "nhk-6198295d56564c2b",
-      "title": "米前国務副長官“中国は日米の結束弱めるねらい”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260928de52940"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52957"
     },
     {
       "doc_id": "itmedia-e7ff4083f3714339",
