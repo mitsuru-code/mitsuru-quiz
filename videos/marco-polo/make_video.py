@@ -35,8 +35,12 @@ from scipy import ndimage
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
+KEY_SOURCE = {}
+
+
 def _load_dotenv():
-    """このフォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。既存の環境変数が優先"""
+    """このフォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。.env の値を優先する
+    （Windows の環境変数に古いキーが残っていても、.env に書いたキーが使われるように）"""
     path = os.path.join(HERE, ".env")
     if not os.path.exists(path):
         return
@@ -44,7 +48,13 @@ def _load_dotenv():
         for line in fp:
             if "=" in line and not line.lstrip().startswith("#"):
                 k, v = line.split("=", 1)
-                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+                k, v = k.strip(), v.strip().strip('"').strip("'")
+                if v:
+                    if k in os.environ and os.environ[k] != v:
+                        KEY_SOURCE[k] = ".env（Windows の環境変数の値より優先）"
+                    else:
+                        KEY_SOURCE[k] = ".env"
+                    os.environ[k] = v
 
 
 _load_dotenv()
@@ -254,8 +264,10 @@ def check():
     print("ffmpeg:", imageio_ffmpeg.get_ffmpeg_exe())
     print("画像:", "scroll.jpg OK" if os.path.exists(SRC) else "scroll.jpg が見つかりません",
           "/ scenes:", sorted(os.listdir(os.path.join(HERE, "scenes"))) if os.path.isdir(os.path.join(HERE, "scenes")) else "なし")
-    _api_key()
-    print("APIキー: 読み込みOK")
+    key = _api_key()
+    src = KEY_SOURCE.get("GEMINI_API_KEY", "Windows の環境変数")
+    print(f"APIキー: 読み込みOK（末尾 …{key[-4:]}、読み込み元: {src}）")
+    print("  ※ AI Studio のキー一覧で、末尾4文字が同じキーのプロジェクトが「無料枠(Free)」か確認してください")
     print("TTSモデル:", tts_model(), "/ 声:", TTS_VOICE)
     x = gemini_tts("これは音声のテストです。")
     print(f"音声合成: OK（{len(x) / SR:.1f}秒）")
@@ -551,7 +563,10 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except (RuntimeError, OSError) as e:  # 想定内のエラーは要点だけ表示し、詳細はエラーログ.txt に残す
+    except (RuntimeError, OSError) as e:
+        if "HTTP 402" in str(e):
+            e = RuntimeError("Gemini の前払いクレジット残高が 0 です（HTTP 402）。無料枠のプロジェクトで作ったキーに替えるか、"
+                             "AI Studio でクレジットを追加してください。末尾4文字の確認は check.bat で表示されます")  # 想定内のエラーは要点だけ表示し、詳細はエラーログ.txt に残す
         import traceback
         with open(os.path.join(HERE, "エラーログ.txt"), "w", encoding="utf-8") as fp:
             traceback.print_exc(file=fp)
