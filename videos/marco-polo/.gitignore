@@ -1,3 +1,5 @@
 .cache/
 preview_*.png
 __pycache__/
+out/
+.env

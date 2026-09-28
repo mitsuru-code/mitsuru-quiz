@@ -1,21 +1,27 @@
 """マルコ・ポーロ物語（約2分）を、絵巻画像をカメラでたどる動画にするスクリプト。
 
-使い方:
-    pip install numpy scipy pillow imageio-ffmpeg pyopenjtalk
-    python3 make_video.py              # marco_polo.mp4 を出力（1920x1080 / 30fps / ナレーション・BGM・字幕付き）
-    python3 make_video.py --preview    # 各場面の中間フレームを preview_NN.png に出力（音声は長さだけ推定）
+使い方（詳しくは PC手順.md）:
+    pip install -r requirements.txt
+    python make_video.py              # out/marco_polo_YYYYMMDD_HHMM.mp4 を出力（1920x1080 / 30fps / ナレーション・BGM・字幕付き）
+    python make_video.py --preview    # 各場面の中間フレームを preview_NN.png に出力（音声は長さだけ推定、API不要）
 
 素材:
     - scroll.jpg: 絵巻風の元画像（生成AI画像）。場面ごとに一部を切り出して映す
     - scenes/NN.png（任意）: 場面 NN の差し替え画像。置くとその場面は切り出しの代わりにこの画像を映す
       （素材プロンプト.md の画像を生成して置けば、その場面だけ高精細になる）
-    - ナレーション音声: Open JTalk + HTS Voice Mei（名古屋工業大学, CC BY 3.0）。初回に .cache/ へ取得
+    - ナレーション音声: Gemini API の音声生成（TTS）。キーは環境変数 GEMINI_API_KEY か .env に書く
+      合成結果は .cache/ に保存し、同じ文面・声なら API を再度呼ばない
 """
+import base64
 import glob
+import hashlib
+import json
 import math
 import os
 import subprocess
 import sys
+import time
+import urllib.error
 import urllib.request
 import wave
 
@@ -25,8 +31,27 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from scipy import ndimage
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+
+
+def _load_dotenv():
+    """このフォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。既存の環境変数が優先"""
+    path = os.path.join(HERE, ".env")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8-sig") as fp:
+        for line in fp:
+            if "=" in line and not line.lstrip().startswith("#"):
+                k, v = line.split("=", 1)
+                os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+
+
+_load_dotenv()
 CACHE = os.path.join(HERE, ".cache")
-OUT = os.path.join(HERE, "marco_polo.mp4")
+OUT_DIR = os.environ.get("VIDEO_OUT_DIR") or os.path.join(HERE, "out")  # Googleドライブ等の同期フォルダも指定可
+TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-2.5-flash-preview-tts")
+TTS_VOICE = os.environ.get("GEMINI_TTS_VOICE", "Charon")
+TTS_STYLE = os.environ.get("GEMINI_TTS_STYLE", "歴史ドキュメンタリーのナレーターとして、落ち着いた温かい声で、ゆっくり自然な間をとって読んでください")
+TTS_SR = 24000  # Gemini TTS の出力は 24kHz / 16bit / モノラル PCM
 SRC = os.path.join(HERE, "scroll.jpg")
 W, H, FPS, SR = 1920, 1080, 30, 44100
 LEAD, GAP, TAIL = 0.8, 1.6, 3.0  # 各場面の話し始めまでの間・話し終わり後の間・最後の余韻（秒）
@@ -52,7 +77,7 @@ SCENES = [
      "道中では、草原に生きる遊牧民や、ラクダの隊商と出会います。",
      [(0.0, 950, 640, 330), (1.0, 1120, 640, 360)]),
     ("1275年 元の都・上都", "1275年、一行はついに元の夏の都「上都」に到着します",
-     "千二百七十五年、一行はついに、元の夏の都、じょうとに到着します。",
+     "千二百七十五年、一行はついに、げんの夏の都、じょうとに到着します。",
      [(0.0, 640, 150, 380), (1.0, 760, 155, 340)]),
     ("大ハーンに仕える", "フビライ・ハンは、語学に優れた若いマルコを気に入り、そばに仕えさせました",
      "フビライ・ハンは、語学にすぐれた若いマルコを気に入り、そばに仕えさせました。",
@@ -88,15 +113,6 @@ def ease(u):
     return u * u * (3 - 2 * u)
 
 
-def fetch(name, url):
-    os.makedirs(CACHE, exist_ok=True)
-    path = os.path.join(CACHE, name)
-    if not os.path.exists(path):
-        print("download:", url, flush=True)
-        urllib.request.urlretrieve(url, path)
-    return path
-
-
 def find_font(mincho=False):
     pats = (["*ipamp*", "*ipam.*", "*NotoSerifCJK*", "*yumin*", "*msmincho*"] if mincho else [])
     pats += ["*ipagp*", "*ipag.*", "*NotoSansCJK*", "*BIZ-UDGothic*", "*meiryo*", "*YuGoth*", "*msgothic*"]
@@ -118,45 +134,70 @@ def font(size, mincho=False):
 
 
 # ---------------------------------------------------------------- 音声
-VOICE_URL = "https://raw.githubusercontent.com/mmdagent-ex/example/main/voice/mei/mei_normal.htsvoice"
+def _post_voice(x):
+    """前後の無音を詰め、低域のこもりを取り、発話ごとの音量をそろえる"""
+    from scipy.signal import butter, sosfiltfilt
 
-
-def _smooth_voice(x):
-    from scipy.signal import butter, fftconvolve, sosfiltfilt
-
-    x = sosfiltfilt(butter(4, 7000, "low", fs=SR, output="sos"), x)
-    x = sosfiltfilt(butter(2, 90, "high", fs=SR, output="sos"), x)
-    rng = np.random.default_rng(7)
-    ir_t = np.arange(int(0.35 * SR)) / SR
-    ir = rng.standard_normal(len(ir_t)) * np.exp(-ir_t / 0.07)
-    ir = sosfiltfilt(butter(2, 3500, "low", fs=SR, output="sos"), ir)
-    wet = fftconvolve(x, ir)[: len(x) + len(ir_t) // 2]
-    x = np.concatenate([x, np.zeros(len(wet) - len(x))])
-    x = x + wet / (np.abs(wet).max() + 1e-9) * np.abs(x).max() * 0.12
+    idx = np.where(np.abs(x) > 0.01)[0]
+    if len(idx):
+        x = x[max(idx[0] - int(0.02 * SR), 0): idx[-1] + int(0.15 * SR)]
+    x = sosfiltfilt(butter(2, 70, "high", fs=SR, output="sos"), x)
     rms = np.sqrt(np.mean(x[np.abs(x) > np.abs(x).max() * 0.05] ** 2)) + 1e-9
-    x = np.tanh(x / rms * 0.16 * 1.6) / 1.6
-    fade = int(0.03 * SR)
+    x = np.tanh(x / rms * 0.16 * 1.4) / 1.4
+    fade = int(0.02 * SR)
     x[:fade] *= np.linspace(0, 1, fade)
     x[-fade * 4:] *= np.linspace(1, 0, fade * 4)
     return x
+
+
+def gemini_tts(text):
+    """Gemini API で1場面分を合成し、SR Hz の float 配列を返す（.cache に保存して再利用）"""
+    from scipy.signal import resample_poly
+
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        sys.exit("GEMINI_API_KEY が未設定です（.env を確認。--preview なら API なしで画面だけ確認できます）")
+    os.makedirs(CACHE, exist_ok=True)
+    h = hashlib.sha1(f"{TTS_MODEL}|{TTS_VOICE}|{TTS_STYLE}|{text}".encode()).hexdigest()[:16]
+    path = os.path.join(CACHE, f"gemini_{h}.pcm")
+    if not os.path.exists(path):
+        body = json.dumps({
+            "contents": [{"parts": [{"text": f"{TTS_STYLE}：\n{text}"}]}],
+            "generationConfig": {
+                "responseModalities": ["AUDIO"],
+                "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": TTS_VOICE}}},
+            },
+        }).encode()
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{TTS_MODEL}:generateContent"
+        for attempt in range(4):  # 無料枠の回数制限(429)や一時的な失敗に備えて待って再試行
+            req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json",
+                                                                  "x-goog-api-key": key})
+            try:
+                with urllib.request.urlopen(req, timeout=120) as r:
+                    res = json.load(r)
+                break
+            except urllib.error.HTTPError as e:
+                if e.code not in (429, 500, 503) or attempt == 3:
+                    sys.exit(f"Gemini TTS エラー HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:500]}")
+                wait = 20 * (attempt + 1)
+                print(f"HTTP {e.code}: {wait}秒待って再試行します", flush=True)
+                time.sleep(wait)
+        data = res["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]
+        with open(path, "wb") as fp:
+            fp.write(base64.b64decode(data))
+    with open(path, "rb") as fp:
+        pcm = np.frombuffer(fp.read(), dtype="<i2").astype(np.float64) / 32768
+    return _post_voice(resample_poly(pcm, 147, 80))  # 24000 → 44100 Hz
 
 
 def voices(dry):
     """場面ごとの読み上げ音声（float, SR Hz）。dry=True なら文字数から長さを推定した無音"""
     if dry:
         return [np.zeros(int(len(s[2]) / 7.0 * SR)) for s in SCENES]
-    import pyopenjtalk
-    from pyopenjtalk.htsengine import HTSEngine
-    from scipy.signal import resample_poly
-
-    eng = HTSEngine(fetch("mei_normal.htsvoice", VOICE_URL).encode())
-    eng.set_speed(1.08)
-    vsr = eng.get_sampling_frequency()
     out = []
-    for _, _, text, _ in SCENES:
-        x = np.asarray(eng.synthesize(pyopenjtalk.extract_fullcontext(text)), dtype=np.float64)
-        eng.refresh()
-        out.append(_smooth_voice(resample_poly(x, SR, vsr) / 32768.0))
+    for i, (_, _, text, _) in enumerate(SCENES):
+        print(f"voice {i:02d}/{len(SCENES) - 1:02d}", flush=True)
+        out.append(gemini_tts(text))
     return out
 
 
@@ -348,7 +389,7 @@ def credit():
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(ov)
     f = font(24)
-    txt = "絵: 生成AI画像（史実の考証を経たものではありません）　音声: HTS Voice Mei © 名古屋工業大学 (CC BY 3.0)"
+    txt = "絵: 生成AI画像（史実の考証を経たものではありません）　音声: Gemini API（Google）"
     d.rounded_rectangle((W - 60 - d.textlength(txt, font=f) - 30, 36, W - 40, 84), 10, fill=(20, 13, 6, 170))
     d.text((W - 55, 60), txt, font=f, fill=(225, 210, 180), anchor="rm")
     return ov
@@ -425,9 +466,11 @@ def main():
             print(f"{i}/{n}", flush=True)
     writer.close()
     ff = imageio_ffmpeg.get_ffmpeg_exe()
+    os.makedirs(OUT_DIR, exist_ok=True)
+    out = os.path.join(OUT_DIR, time.strftime("marco_polo_%Y%m%d_%H%M.mp4"))
     subprocess.check_call([ff, "-y", "-loglevel", "error", "-i", silent, "-i", wav, "-c:v", "copy",
-                           "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", OUT])
-    print("done:", OUT)
+                           "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out])
+    print("done:", out)
 
 
 if __name__ == "__main__":
