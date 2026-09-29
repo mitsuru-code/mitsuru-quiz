@@ -1,0 +1,264 @@
+{
+ "title": "マルコ・ポーロ物語",
+ "subtitle": "ヴェネツィアから大ハーンの国へ　二十四年の旅",
+ "slug": "marco_polo",
+ "scroll": "scroll.jpg",
+ "tts_style": "歴史ドキュメンタリーのナレーターとして、落ち着いた温かい声で、ゆっくり自然な間をとって読んでください",
+ "credit": "絵: 生成AI画像（史実の考証を経たものではありません）",
+ "image_style": "richly detailed historical painting, warm natural light, painterly realistic style like a museum illustration, 13th century, no text, no letters, no captions, 16:9",
+ "bgm_prompt": "Silk Road ambient cinematic, oud and erhu with soft medieval lute, slow tempo 70bpm, warm and adventurous, instrumental, no vocals, 2 minutes",
+ "scenes": [
+  {
+   "head": "",
+   "sub": "マルコ・ポーロ物語",
+   "read": "マルコ・ポーロ物語。ヴェネツィアの商人が見た、東方の世界。",
+   "camera": [
+    [
+     0.0,
+     704,
+     384,
+     1408
+    ],
+    [
+     1.0,
+     704,
+     384,
+     1250
+    ]
+   ],
+   "title": true
+  },
+  {
+   "head": "1271年 ヴェネツィア",
+   "sub": "1271年、17歳のマルコ・ポーロは、商人の父と叔父とともにヴェネツィアを旅立ちました",
+   "read": "千二百七十一年、十七歳のマルコ・ポーロは、商人の父と叔父とともに、ヴェネツィアを旅立ちました。",
+   "camera": [
+    [
+     0.0,
+     1285,
+     150,
+     400
+    ],
+    [
+     1.0,
+     1265,
+     150,
+     330
+    ]
+   ],
+   "image_prompt": "Venice harbor in 1271, a 17-year-old Marco Polo with his father and uncle boarding a merchant galley, gondolas, Byzantine domes and bell towers, crowds waving goodbye at dawn"
+  },
+  {
+   "head": "目的地は大ハーンの国",
+   "sub": "目指すはモンゴル帝国の皇帝フビライ・ハンの国。ローマ教皇の手紙を届ける旅でした",
+   "read": "目指すは、モンゴル帝国の皇帝、フビライ・ハンの国。ローマ教皇の手紙を届ける旅でした。",
+   "camera": [
+    [
+     0.0,
+     180,
+     150,
+     330
+    ],
+    [
+     1.0,
+     290,
+     150,
+     360
+    ]
+   ],
+   "image_prompt": "Pope Gregory X in white and gold robes handing sealed papal letters and a small vial of holy oil to three Venetian merchants — a 17-year-old Marco Polo, his father Niccolo and uncle Maffeo — in a stone hall in the port of Acre, 1271, a ship visible through an arched window"
+  },
+  {
+   "head": "シルクロードの難路",
+   "sub": "ペルシャを抜け、パミールの山々や砂漠のふちを越える旅は3年半におよびました",
+   "read": "ペルシャを抜け、パミールの山々や、砂漠のふちを越える旅は、三年半におよびました。",
+   "camera": [
+    [
+     0.0,
+     960,
+     150,
+     400
+    ],
+    [
+     1.0,
+     1085,
+     160,
+     340
+    ]
+   ],
+   "image_prompt": "A camel caravan crossing the snowy Pamir mountains on the Silk Road, three Venetian travelers wrapped in furs, thin cold air, vast scale, tiny figures"
+  },
+  {
+   "head": "草原の民との出会い",
+   "sub": "道中では、草原に生きる遊牧民や、ラクダの隊商と出会います",
+   "read": "道中では、草原に生きる遊牧民や、ラクダの隊商と出会います。",
+   "camera": [
+    [
+     0.0,
+     950,
+     640,
+     330
+    ],
+    [
+     1.0,
+     1120,
+     640,
+     360
+    ]
+   ],
+   "image_prompt": "Mongol nomads on horseback greeting a camel caravan on the vast green steppe, round white felt yurts, grazing horses and sheep, three Venetian travelers in dusty robes being welcomed with a bowl of mare's milk, big sky with clouds"
+  },
+  {
+   "head": "1275年 元の都・上都",
+   "sub": "1275年、一行はついに元の夏の都「上都」に到着します",
+   "read": "千二百七十五年、一行はついに、げんの夏の都、じょうとに到着します。",
+   "camera": [
+    [
+     0.0,
+     640,
+     150,
+     380
+    ],
+    [
+     1.0,
+     760,
+     155,
+     340
+    ]
+   ],
+   "image_prompt": "The Yuan dynasty summer capital Xanadu (Shangdu) in 1275, a grand palace complex with red walls and golden roofs on open grassland, a marble palace and parkland with deer, the tired Polo caravan arriving at the city gate greeted by Mongol officials and guards"
+  },
+  {
+   "head": "大ハーンに仕える",
+   "sub": "フビライ・ハンは、語学に優れた若いマルコを気に入り、そばに仕えさせました",
+   "read": "フビライ・ハンは、語学にすぐれた若いマルコを気に入り、そばに仕えさせました。",
+   "camera": [
+    [
+     0.0,
+     700,
+     395,
+     420
+    ],
+    [
+     1.0,
+     700,
+     355,
+     250
+    ]
+   ],
+   "image_prompt": "Kublai Khan seated on a throne in a grand Yuan dynasty palace hall, a young Venetian man in red robe kneeling and presenting a letter, Mongol officials and guards, dragon pillars, silk banners"
+  },
+  {
+   "head": "中国各地への使節",
+   "sub": "マルコは使節として各地をめぐり、紙のお金や燃える黒い石（石炭）など、驚きを記録します",
+   "read": "マルコは使節として各地をめぐり、紙のお金や、燃える黒い石など、ヨーロッパにない驚きを記録します。",
+   "camera": [
+    [
+     0.0,
+     440,
+     640,
+     380
+    ],
+    [
+     1.0,
+     610,
+     640,
+     380
+    ]
+   ],
+   "image_prompt": "A bustling Yuan dynasty city market, merchants paying with large paper banknotes stamped with red seals, people burning black stones (coal) for heat, a Venetian man taking notes in amazement"
+  },
+  {
+   "head": "1292年 海路で帰国へ",
+   "sub": "滞在は17年。モンゴルの姫をペルシャへ送り届ける役目を得て、船で帰路につきます",
+   "read": "滞在は十七年。モンゴルの姫を、ペルシャへ送り届ける役目を得て、船で帰路につきます。",
+   "camera": [
+    [
+     0.0,
+     300,
+     395,
+     400
+    ],
+    [
+     1.0,
+     400,
+     395,
+     360
+    ]
+   ],
+   "image_prompt": "A fleet of fourteen large Chinese junks with many battened sails leaving the port of Quanzhou across the ocean, a young Mongol princess with attendants on the deck of the lead ship, Marco Polo standing at the bow, golden sunset"
+  },
+  {
+   "head": "1295年 24年ぶりの帰郷",
+   "sub": "1295年、24年ぶりにヴェネツィアへ。変わり果てた姿に家族も気づかなかったといいます",
+   "read": "千二百九十五年、二十四年ぶりに、ヴェネツィアへ。変わり果てた姿に、家族も気づかなかったといいます。",
+   "camera": [
+    [
+     0.0,
+     275,
+     640,
+     330
+    ],
+    [
+     1.0,
+     265,
+     630,
+     280
+    ]
+   ],
+   "image_prompt": "Marco Polo, his father and uncle returning to their Venice home in worn Mongol clothes, relatives not recognizing them at the door, then jewels spilling from the seams of their robes"
+  },
+  {
+   "head": "牢獄で生まれた本",
+   "sub": "ジェノヴァとの戦いで捕虜になり、牢獄で作家ルスティケッロに旅を語る。これが『東方見聞録』です",
+   "read": "ジェノヴァとの戦いで捕虜になり、牢獄で作家ルスティケッロに旅を語ります。これが、東方見聞録です。",
+   "camera": [
+    [
+     0.0,
+     125,
+     640,
+     320
+    ],
+    [
+     1.0,
+     115,
+     625,
+     250
+    ]
+   ],
+   "image_prompt": "Genoa prison cell 1298, Marco Polo in his forties dictating his travels, the writer Rustichello of Pisa writing on parchment by candlelight, stone walls, a small barred window, maps and a small Mongol paiza gold tablet on the table"
+  },
+  {
+   "head": "黄金の国ジパング",
+   "sub": "本の中で日本は「黄金の国ジパング」と紹介されました。ただしマルコは日本には来ていません",
+   "read": "本の中で、にほんは、黄金の国ジパングと紹介されました。ただし、マルコは、にほんには来ていません。",
+   "image_prompt": "A legendary golden island of Zipangu floating in a stormy sea, palaces with roofs covered in pure gold, pearls on the shore, a small Venetian merchant ship far away watching in awe, imagined as a medieval European would picture it"
+  },
+  {
+   "head": "世界を動かした旅",
+   "sub": "『東方見聞録』は、のちにコロンブスをはじめ多くの探検家の心を動かしました",
+   "read": "東方見聞録は、のちに、コロンブスをはじめ、多くの探検家の心を動かしました。",
+   "camera": [
+    [
+     0.0,
+     1270,
+     420,
+     380
+    ],
+    [
+     0.45,
+     1270,
+     420,
+     360
+    ],
+    [
+     1.0,
+     704,
+     384,
+     1408
+    ]
+   ],
+   "image_prompt": "Christopher Columbus in the 1480s reading an old printed copy of The Travels of Marco Polo by candlelight, writing notes in the margins, a globe and nautical charts of the Atlantic on the desk, a window showing sailing ships in the harbor"
+  }
+ ]
+}
