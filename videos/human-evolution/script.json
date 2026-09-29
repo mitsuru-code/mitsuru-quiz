@@ -85,7 +85,8 @@
    "head": "いくつもの人類",
    "sub": "かつては、新人・旧人など何種類もの人類が、同じ時代に地球上で暮らしていました",
    "read": "かつては、新人や旧人など、何種類もの人類が、同じ時代に、地球のあちこちで暮らしていました。今のように、一種類だけではなかったのです。",
-   "image_prompt": "a split panoramic landscape showing different human species living at the same time in different lands, Homo sapiens in African savanna, Neanderthals in snowy Europe, other archaic humans in Asian forests"
+   "image_prompt": "a split panoramic landscape showing different human species living at the same time in different lands, Homo sapiens in African savanna, Neanderthals in snowy Europe, other archaic humans in Asian forests",
+   "pan": true
   },
   {
    "head": "世界へ広がる",
@@ -115,7 +116,13 @@
    "head": "ヒトはサルから進化した？",
    "sub": "よくある誤解ですが、ヒトは今のサルから進化したのではなく、共通の祖先から枝分かれしたのです",
    "read": "よくある誤解ですが、ヒトは、今のサルから進化したのではありません。ヒトとサルは、共通の祖先から、枝分かれしたのです。",
-   "image_prompt": "an artistic great tree of life with branches, a modern human family resting on one branch and a chimpanzee family on a neighboring branch, both branches joining at a shared trunk, soft light"
+   "image_prompt": "an artistic great tree of life with branches, a modern human family resting on one branch and a chimpanzee family on a neighboring branch, both branches joining at a shared trunk, soft light",
+   "blur_box": [
+    0.3,
+    0.8,
+    0.7,
+    0.96
+   ]
   },
   {
    "head": "わたしたちの中に",

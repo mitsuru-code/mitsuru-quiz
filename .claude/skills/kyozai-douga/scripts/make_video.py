@@ -391,7 +391,13 @@ def load_sources():
         for ext in ("png", "jpg", "jpeg", "webp"):
             p = os.path.join(HERE, "scenes", f"{i:02d}.{ext}")
             if os.path.exists(p):
-                alts[i] = Image.open(p).convert("RGB")
+                img = Image.open(p).convert("RGB")
+                box = SCRIPT["scenes"][i].get("blur_box")  # 画像内の文字などを隠す [左, 上, 右, 下]（画像に対する割合）
+                if box:
+                    iw, ih = img.size
+                    r = tuple(int(v * n) for v, n in zip(box, (iw, ih, iw, ih)))
+                    img.paste(img.crop(r).filter(ImageFilter.GaussianBlur(max(6, (r[3] - r[1]) // 3))), r[:2])
+                alts[i] = img
                 break
     return big, k, alts
 
@@ -515,7 +521,10 @@ class Renderer:
     def scene_img(self, i, t):
         u = min(max((t - self.starts[i]) / self.durs[i], 0.0), 1.0)
         if i in self.alts:
-            img = cover(self.alts[i], 1.0 + 0.08 * ease(u))
+            if SCRIPT["scenes"][i].get("pan"):  # 横長の画像を左から右へ流す
+                img = cover(self.alts[i], 1.0, fx=0.5 * (1 - math.cos(math.pi * u)))
+            else:
+                img = cover(self.alts[i], 1.0 + 0.08 * ease(u))
         elif SCENES[i][3] and self.big is not None:
             img = cam_view(self.big, self.k, SCENES[i][3], u)
         elif self.big is not None:  # カメラ指定なし: 1枚絵全体をゆっくり寄る
