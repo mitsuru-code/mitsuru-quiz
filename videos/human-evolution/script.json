@@ -1,0 +1,102 @@
+{
+ "title": "人類の進化",
+ "subtitle": "アフリカから世界へ　七百万年の旅",
+ "slug": "human_evolution",
+ "tts_style": "自然科学ドキュメンタリーのナレーターとして、落ち着いた温かい声で、ゆっくり自然な間をとって読んでください",
+ "credit": "絵: 生成AI画像（学術的な復元図ではありません）",
+ "image_style": "richly detailed natural history museum illustration, painterly realistic style, warm natural light, cinematic wide composition, no text, no letters, no captions, 16:9",
+ "bgm_prompt": "ambient cinematic documentary, soft African percussion, low strings and wooden flute, slow tempo 70bpm, awe and wonder, instrumental, no vocals, 2 minutes",
+ "scenes": [
+  {
+   "title": true,
+   "head": "",
+   "sub": "人類の進化",
+   "read": "人類の進化。アフリカから世界へ、七百万年の旅。",
+   "image_prompt": "a long procession of human ancestors walking across an African savanna at sunrise, from an early hominin at the back to a modern human at the front, acacia trees, vast sky"
+  },
+  {
+   "head": "約700万年前 アフリカ",
+   "sub": "約700万年前のアフリカで、人類とチンパンジーの祖先が分かれたと考えられています",
+   "read": "約七百万年前のアフリカで、人類とチンパンジーの祖先が、分かれたと考えられています。",
+   "image_prompt": "an ancient African forest edge about 7 million years ago, a small ape-like early hominin standing at the boundary between dense forest and open woodland, chimpanzee-like apes in the trees behind"
+  },
+  {
+   "head": "猿人 ― 二本の足で立つ",
+   "sub": "最初に現れたのは「猿人」。脳は小さくても、二本の足で立って歩いていました",
+   "read": "最初に現れたのは、猿人。脳は小さくても、二本の足で立って歩いていました。",
+   "image_prompt": "a small family of Australopithecus walking upright across an open East African grassland, adult and child, footprints in volcanic ash behind them, about 3.5 million years ago"
+  },
+  {
+   "head": "約320万年前「ルーシー」",
+   "sub": "エチオピアで見つかった約320万年前の猿人の化石は「ルーシー」と呼ばれています",
+   "read": "エチオピアで見つかった、約三百二十万年前の猿人の化石は、ルーシーと呼ばれています。",
+   "image_prompt": "paleontologists carefully excavating a partial fossil skeleton of an early hominin in a dry Ethiopian badlands landscape, brushes and small tools, bones laid out on the ground, golden afternoon light"
+  },
+  {
+   "head": "道具を作る",
+   "sub": "約260万年前には、石を打ち欠いて鋭い刃を作り、道具として使うようになりました",
+   "read": "約二百六十万年前には、石を打ち欠いて鋭い刃を作り、道具として使うようになりました。",
+   "image_prompt": "close-up of early human hands striking one stone against another to flake off a sharp edge, simple stone tools and flakes scattered on the ground, savanna in the background"
+  },
+  {
+   "head": "原人 ― アフリカの外へ",
+   "sub": "約200万年前に現れた「原人」は体が大きく、初めてアフリカの外へ広がりました",
+   "read": "約二百万年前に現れた原人は、体が大きく、初めてアフリカの外へ広がりました。",
+   "image_prompt": "a group of Homo erectus with tall modern-like bodies walking across a vast plain toward distant mountains, carrying hand axes and wooden spears, migrating out of Africa"
+  },
+  {
+   "head": "火を使う",
+   "sub": "原人は火を使い始めたといわれています。夜の寒さや獣から身を守れるようになりました",
+   "read": "原人は、火を使い始めたといわれています。夜の寒さや、獣から身を守れるようになりました。",
+   "image_prompt": "Homo erectus group gathered around a campfire at night at the mouth of a cave, firelight on their faces, a distant predator's eyes glowing in the dark"
+  },
+  {
+   "head": "旧人 ― ネアンデルタール人",
+   "sub": "寒いヨーロッパで暮らした「旧人」ネアンデルタール人は、死者をほうむったといわれます",
+   "read": "寒いヨーロッパで暮らした旧人、ネアンデルタール人は、死者をほうむったといわれます。",
+   "image_prompt": "a Neanderthal family in fur clothing in a snowy Ice Age European valley, standing quietly around a small burial place in a rock shelter, woolly mammoths far away"
+  },
+  {
+   "head": "約30万年前 新人の誕生",
+   "sub": "約30万年前、アフリカにわたしたちと同じ「新人」、ホモ・サピエンスが現れました",
+   "read": "約三十万年前、アフリカに、わたしたちと同じ新人、ホモ・サピエンスが現れました。",
+   "image_prompt": "early Homo sapiens men, women and children in an African savanna camp, making tools and preparing food together, expressive modern human faces, warm evening light"
+  },
+  {
+   "head": "世界へ広がる",
+   "sub": "新人はやがてアフリカを出て、アジア、ヨーロッパ、オーストラリア、アメリカ大陸へと広がりました",
+   "read": "新人は、やがてアフリカを出て、アジア、ヨーロッパ、オーストラリア、アメリカ大陸へと広がりました。",
+   "image_prompt": "a dramatic panoramic view of a small band of Homo sapiens standing on a ridge overlooking a vast unknown land stretching to the horizon, coastline and mountains, sense of journey and discovery"
+  },
+  {
+   "head": "日本列島へ",
+   "sub": "日本列島にも、約3万8千年前ごろには人が住み始めていたと考えられています",
+   "read": "にほん列島にも、約三万八千年前ごろには、人が住み始めていたと考えられています。",
+   "image_prompt": "Paleolithic people arriving on the coast of the Japanese archipelago, forested mountains, a small group with stone tools and fur clothing looking at the new land, misty morning"
+  },
+  {
+   "head": "描く力",
+   "sub": "洞窟の壁には、ウマやウシなどの動物が生き生きと描かれました。ことばや芸術の始まりです",
+   "read": "洞窟の壁には、ウマやウシなどの動物が、生き生きと描かれました。ことばや芸術の始まりです。",
+   "image_prompt": "Ice Age Homo sapiens painting horses and aurochs on a cave wall by the light of a stone oil lamp, ochre and charcoal pigments, flickering warm light"
+  },
+  {
+   "head": "ヒトはサルから進化した？",
+   "sub": "よくある誤解ですが、ヒトは今のサルから進化したのではなく、共通の祖先から枝分かれしたのです",
+   "read": "よくある誤解ですが、ヒトは、今のサルから進化したのではなく、共通の祖先から、枝分かれしたのです。",
+   "image_prompt": "an artistic great tree of life with branches, a modern human family resting on one branch and a chimpanzee family on a neighboring branch, both branches joining at a shared trunk, soft light"
+  },
+  {
+   "head": "わたしたちの中に",
+   "sub": "アフリカ以外の人のDNAには、ネアンデルタール人の遺伝子がわずかに残っています",
+   "read": "アフリカ以外の人のDNAには、ネアンデルタール人の遺伝子が、わずかに残っています。",
+   "image_prompt": "a glowing DNA double helix floating above a quiet Ice Age landscape where a Neanderthal and a Homo sapiens stand facing each other peacefully, dreamlike painterly atmosphere"
+  },
+  {
+   "head": "そして今へ",
+   "sub": "約1万年前に農耕が始まり、やがて文明が生まれました。七百万年の旅は、今も続いています",
+   "read": "約一万年前に農耕が始まり、やがて文明が生まれました。七百万年の旅は、今も続いています。",
+   "image_prompt": "early farmers harvesting wheat in a fertile river valley at golden hour, a small mud-brick village behind, transitioning in the distance to a modern city skyline at dusk"
+  }
+ ]
+}
