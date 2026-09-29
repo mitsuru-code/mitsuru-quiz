@@ -368,8 +368,13 @@ def build_audio(dry):
     for s, c in zip(starts, clips):
         i = int((s + LEAD) * SR)
         voice[i:i + len(c)] += c
-    active = ndimage.maximum_filter1d((np.abs(voice) > 0.01).astype(float), int(SR * 0.6))
-    duck = 1 - 0.55 * ndimage.gaussian_filter1d(active, SR * 0.3)
+    # 声がある間は BGM を下げる。包絡は 100Hz に間引いて計算する（全サンプルで畳み込むと数分かかるため）
+    hop = SR // 100
+    m = -(-n // hop)
+    blocks = np.pad(np.abs(voice), (0, m * hop - n)).reshape(m, hop).max(axis=1)
+    active = ndimage.maximum_filter1d((blocks > 0.01).astype(float), 60)
+    duck_ds = 1 - 0.55 * ndimage.gaussian_filter1d(active, 30)
+    duck = np.interp(np.arange(n) / hop, np.arange(m), duck_ds)
     tt = np.arange(n) / SR
     fade = np.clip(np.minimum(tt / 1.5, (total - tt) / 2.5), 0, 1)
     mix = bgm(n) * (0.45 * duck * fade)[:, None] + voice[:, None]

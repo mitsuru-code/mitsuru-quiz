@@ -368,8 +368,13 @@ def build_audio(dry):
     for s, c in zip(starts, clips):
         i = int((s + LEAD) * SR)
         voice[i:i + len(c)] += c
-    active = ndimage.maximum_filter1d((np.abs(voice) > 0.01).astype(float), int(SR * 0.6))
-    duck = 1 - 0.55 * ndimage.gaussian_filter1d(active, SR * 0.3)
+    # 声がある間は BGM を下げる。包絡は 100Hz に間引いて計算する（全サンプルで畳み込むと数分かかるため）
+    hop = SR // 100
+    m = -(-n // hop)
+    blocks = np.pad(np.abs(voice), (0, m * hop - n)).reshape(m, hop).max(axis=1)
+    active = ndimage.maximum_filter1d((blocks > 0.01).astype(float), 60)
+    duck_ds = 1 - 0.55 * ndimage.gaussian_filter1d(active, 30)
+    duck = np.interp(np.arange(n) / hop, np.arange(m), duck_ds)
     tt = np.arange(n) / SR
     fade = np.clip(np.minimum(tt / 1.5, (total - tt) / 2.5), 0, 1)
     mix = bgm(n) * (0.45 * duck * fade)[:, None] + voice[:, None]
@@ -391,7 +396,13 @@ def load_sources():
         for ext in ("png", "jpg", "jpeg", "webp"):
             p = os.path.join(HERE, "scenes", f"{i:02d}.{ext}")
             if os.path.exists(p):
-                alts[i] = Image.open(p).convert("RGB")
+                img = Image.open(p).convert("RGB")
+                box = SCRIPT["scenes"][i].get("blur_box")  # 画像内の文字などを隠す [左, 上, 右, 下]（画像に対する割合）
+                if box:
+                    iw, ih = img.size
+                    r = tuple(int(v * n) for v, n in zip(box, (iw, ih, iw, ih)))
+                    img.paste(img.crop(r).filter(ImageFilter.GaussianBlur(max(6, (r[3] - r[1]) // 3))), r[:2])
+                alts[i] = img
                 break
     return big, k, alts
 
@@ -515,7 +526,10 @@ class Renderer:
     def scene_img(self, i, t):
         u = min(max((t - self.starts[i]) / self.durs[i], 0.0), 1.0)
         if i in self.alts:
-            img = cover(self.alts[i], 1.0 + 0.08 * ease(u))
+            if SCRIPT["scenes"][i].get("pan"):  # 横長の画像を左から右へ流す
+                img = cover(self.alts[i], 1.0, fx=0.5 * (1 - math.cos(math.pi * u)))
+            else:
+                img = cover(self.alts[i], 1.0 + 0.08 * ease(u))
         elif SCENES[i][3] and self.big is not None:
             img = cam_view(self.big, self.k, SCENES[i][3], u)
         elif self.big is not None:  # カメラ指定なし: 1枚絵全体をゆっくり寄る
