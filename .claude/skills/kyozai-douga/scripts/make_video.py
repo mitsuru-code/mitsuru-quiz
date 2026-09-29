@@ -66,6 +66,7 @@ OUT_DIR = os.environ.get("VIDEO_OUT_DIR") or os.path.join(HERE, "out")  # Google
 TTS_ENGINE = os.environ.get("TTS_ENGINE", "cloud").lower()  # cloud = Google Cloud TTS（Chirp 3: HD）/ gemini = Gemini API
 CLOUD_VOICE = os.environ.get("TTS_VOICE", "ja-JP-Chirp3-HD-Charon")
 CLOUD_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
+TTS_SPEED = float(os.environ.get("TTS_SPEED") or SCRIPT.get("speaking_rate", 1.0))  # 朗読の速さ（1.0 = 標準、Cloud TTS のみ）
 TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")  # 旧 gemini-2.5-flash-preview-tts は廃止
 TTS_VOICE = os.environ.get("GEMINI_TTS_VOICE", "Charon")
 TTS_STYLE = os.environ.get("GEMINI_TTS_STYLE") or SCRIPT.get("tts_style", "教材動画のナレーターとして、落ち着いた温かい声で、ゆっくり自然な間をとって読んでください")
@@ -255,13 +256,14 @@ def cloud_tts(text):
     from scipy.signal import resample_poly
 
     os.makedirs(CACHE, exist_ok=True)
-    h = hashlib.sha1(f"cloud|{CLOUD_VOICE}|{text}".encode()).hexdigest()[:16]
+    tag = "" if TTS_SPEED == 1.0 else f"|{TTS_SPEED}"  # 標準速度では従来のキャッシュを再利用
+    h = hashlib.sha1(f"cloud|{CLOUD_VOICE}{tag}|{text}".encode()).hexdigest()[:16]
     path = os.path.join(CACHE, f"cloud_{h}.wav")
     if not os.path.exists(path):
         body = json.dumps({
             "input": {"text": text},
             "voice": {"languageCode": "ja-JP", "name": CLOUD_VOICE},
-            "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000},
+            "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000, "speakingRate": TTS_SPEED},
         }).encode()
         for attempt in range(5):
             req = urllib.request.Request(CLOUD_URL, data=body, headers={"Content-Type": "application/json",
@@ -297,7 +299,7 @@ def tts_label():
         return (f"Gemini / モデル: {tts_model()} / 声: {TTS_VOICE} / キー末尾 …{key[-4:]}"
                 f"（{KEY_SOURCE.get('GEMINI_API_KEY', 'Windows の環境変数')}）")
     key = _cloud_key()
-    return f"Cloud TTS / 声: {CLOUD_VOICE} / キー末尾 …{key[-4:]}（{KEY_SOURCE.get('GOOGLE_TTS_API_KEY', 'Windows の環境変数')}）"
+    return f"Cloud TTS / 声: {CLOUD_VOICE} / 速さ: {TTS_SPEED} / キー末尾 …{key[-4:]}（{KEY_SOURCE.get('GOOGLE_TTS_API_KEY', 'Windows の環境変数')}）"
 
 
 def check():
@@ -318,7 +320,7 @@ def check():
 def voices(dry):
     """場面ごとの読み上げ音声（float, SR Hz）。dry=True なら文字数から長さを推定した無音"""
     if dry:
-        return [np.zeros(int(len(s[2]) / 7.0 * SR)) for s in SCENES]
+        return [np.zeros(int(len(s[2]) / (7.0 * TTS_SPEED) * SR)) for s in SCENES]
     print("音声:", tts_label(), flush=True)
     out = []
     for i, (_, _, text, _) in enumerate(SCENES):

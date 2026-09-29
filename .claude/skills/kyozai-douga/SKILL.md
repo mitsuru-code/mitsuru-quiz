@@ -63,6 +63,7 @@ Claude から PC の画面は見えない。止まったら「エラー:」の�
 
 - 読み間違い → script.json の `read` を ひらがな にして ZIP を渡し直す（変更した場面だけ API で作り直し、他は `.cache` を再利用する）。
 - 声を変える → `.env` に `TTS_VOICE=ja-JP-Chirp3-HD-Aoede` など（女性: Aoede・Kore、男性: Charon・Puck）。
+- 朗読の速さ → script.json に `"speaking_rate": 1.25` など（`.env` の `TTS_SPEED` でも可）。速さを変えると全場面の音声を作り直す。
 - 画像を差し替える → 同じ番号の `scenes/NN.png` を上書き。
 
 ## 注意
