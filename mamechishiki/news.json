@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-29T15:55:29+00:00",
-  "now_ms": 1790697329560,
+  "fetched_at": "2026-09-29T20:50:35+00:00",
+  "now_ms": 1790715035244,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,46 +58,22 @@
       "link": "https://news.yahoo.co.jp/pickup/6596999"
     },
     {
-      "doc_id": "jiji-425b3978351d63c9",
-      "title": "布石生き、交代で流れ 日本、３連覇に王手―アジア大会・サッカー女子",
+      "doc_id": "jiji-c3f5a8a653dc00a3",
+      "title": "グローバルホーク、１０月２日から回収 空自トップ「任務飛行継続する」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901195&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092901179&g=soc"
     },
     {
-      "doc_id": "jiji-00d5f4dee84319ae",
-      "title": "プロ野球・ひとこと",
+      "doc_id": "jiji-3f4e8780cbacce92",
+      "title": "サーフィン五十嵐カノア、池田美来が金 男子８００は落合晃Ｖ―愛知・名古屋アジア大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901138&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092900874&g=spo"
     },
     {
-      "doc_id": "jiji-fa19052a698c0e7e",
-      "title": "日本、２８年ぶり金２桁 アジア大会・陸上",
+      "doc_id": "jiji-2958d7486d518ee6",
+      "title": "答え見つけたＰＣＡ 夏場から調子上げ「４０―４０」―米大リーグ・カブス",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901229&g=spo"
-    },
-    {
-      "doc_id": "jiji-7b3a4b1bb8dfd8b0",
-      "title": "佐藤「マイルの未来は明るい」 アジア大会・陸上男子１６００メートルリレー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901227&g=spo"
-    },
-    {
-      "doc_id": "jiji-65bb3c8b6ad3cbe1",
-      "title": "ロッテの吉川、進歩示す白星 プロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901214&g=spo"
-    },
-    {
-      "doc_id": "jiji-5fc48835adcc0ab2",
-      "title": "日本、甲斐や西山がアピール アジア大会・バレーボール男子",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901226&g=spo"
-    },
-    {
-      "doc_id": "jiji-375b18982ba4e845",
-      "title": "落合、日本勢６４年ぶり快挙 苦杯糧に飛躍―アジア大会・陸上男子８００メートル",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901177&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026093000129&g=spo"
     },
     {
       "doc_id": "jiji-d75e78f9521872ea",
@@ -106,16 +82,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026092900897&g=spo"
     },
     {
-      "doc_id": "jiji-ca40ad01fd8f0b75",
-      "title": "岩屋前外相、中国外相と面会 香港メディア報道",
+      "doc_id": "jiji-5b6d1801a83c5909",
+      "title": "日本が「戦争の雲広げている」 国連総会で批判展開―北朝鮮",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092801051&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092900182&g=int"
     },
     {
-      "doc_id": "jiji-52b9f671c878b318",
-      "title": "広島など３回戦へ ルヴァン杯サッカー",
+      "doc_id": "jiji-00ec7d29fcd5d37e",
+      "title": "中国、高市氏答弁「是正」求める 経済協力に意欲も―副首相らと会談・岩屋前外相",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901206&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092900133&g=int"
+    },
+    {
+      "doc_id": "jiji-f9a78ae679d3aa84",
+      "title": "消費税・定数削減で攻防へ 臨時国会、来月５日召集",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092900123&g=pol"
+    },
+    {
+      "doc_id": "jiji-9ae0a333f7184e02",
+      "title": "「日本と世界の学術をけん引」 藤垣次期学長が記者会見―東大",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092900641&g=soc"
+    },
+    {
+      "doc_id": "jiji-2728df4f0003eb63",
+      "title": "ＩＣＣ締約国会議、開催地変更 米制裁でＮＹからハーグに",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092901187&g=int"
+    },
+    {
+      "doc_id": "jiji-0e52f3b9ec6195bf",
+      "title": "３億円超キックバック、キャバクラや高級車で使用か 元「湘南美容クリニック」グループ幹部、背任容疑で逮捕―警視庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092900914&g=soc"
     },
     {
       "doc_id": "nhk-d59c6becd2fa5f3b",
@@ -124,40 +124,40 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20260929de52959"
     },
     {
-      "doc_id": "nhk-e6cc111bcf1f6fa0",
-      "title": "電気料金が「過去最高」の水準へ この冬はどうなる？【Q＆A】",
+      "doc_id": "nhk-f395570b4d1604f4",
+      "title": "政府 成長戦略実行に向け建設分野の労働力不足の対応策検討へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52999"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53230"
     },
     {
-      "doc_id": "nhk-2511ba9d3202472e",
-      "title": "東京大学の新総長に藤垣裕子氏 女性の総長は大学創立以来初",
+      "doc_id": "nhk-60a70f7f64778406",
+      "title": "核のごみ文献調査 茨城 常陸大宮市長が判断表明へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53079"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53229"
     },
     {
-      "doc_id": "nhk-505b9ce82349371a",
-      "title": "タイムズカー 運転免許画像などの漏えいは160万件 どうすれば",
+      "doc_id": "nhk-099041760e827983",
+      "title": "政府・与党 臨時国会で消費税法案成立を 野党は論戦の構え",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53160"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53231"
+    },
+    {
+      "doc_id": "nhk-188b9e4ae302c829",
+      "title": "日本の教員 労働時間が長く給与満足度はOECD平均を下回る",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53228"
+    },
+    {
+      "doc_id": "nhk-4957ecb6128254f7",
+      "title": "岩屋前外相が中国副首相と会談 中国高官との会談は2日連続",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53225"
     },
     {
       "doc_id": "nhk-6b2166b110734fe2",
       "title": "日本の人口 1億2297万人余に 減少幅は過去最大 国勢調査確定値",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260929de53106"
-    },
-    {
-      "doc_id": "nhk-d166ed59d2cfbfd9",
-      "title": "ヒアリ国内確認 過去最多 笹川環境相“監視体制強化を検討”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53185"
-    },
-    {
-      "doc_id": "nhk-44fb1d6096078f06",
-      "title": "インフルエンザ患者数 前週の約1.5倍 マスク着用など対策を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53102"
     },
     {
       "doc_id": "itmedia-b277807dfde7d32d",
