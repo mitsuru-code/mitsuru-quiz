@@ -1,0 +1,93 @@
+# 「🎬 図解動画を作る」Issueテンプレート（.github/ISSUE_TEMPLATE/video-make.yml）から
+# 作られたIssueを受け取り、書かれたナレーションで図解動画（mp4）を作って
+# リリースの添付ファイルとして置き、Issueにダウンロードリンクを返す。
+# PCが無くてもスマホだけで infographics/*/make_video.py を動かすための入り口。
+#
+# Xには投稿しない（ナレーション・投稿文・投稿は人がやる運用。infographics/*/PC手順.md 参照）。
+# 使うSecretは GOOGLE_TTS_API_KEY（Cloud Text-to-Speech 専用に制限したキー）だけ。
+# Issueを編集して保存し直すと、同じIssueで作り直す。
+name: 図解動画を作る
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: video-make-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  make:
+    # 動画作成は TTS の料金がかかるので、リポジトリの持ち主が作った・編集したIssueだけ受け付ける。
+    # ラベル（video-make）がリポジトリに未作成だと付かないため、タイトルの「[動画]」でも判定する
+    if: >-
+      github.event.issue.state == 'open' &&
+      github.event.issue.user.login == github.repository_owner &&
+      github.actor == github.repository_owner &&
+      (contains(github.event.issue.labels.*.name, 'video-make') || startsWith(github.event.issue.title, '[動画]'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: ナレーションを読み取る
+        id: parse
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: echo "folder=$(python3 infographics/issue_to_narration.py)" >> "$GITHUB_OUTPUT"
+
+      - name: 必要なものを入れる
+        env:
+          FOLDER: ${{ steps.parse.outputs.folder }}
+        run: |
+          # モンゴル帝国の図解は matplotlib で描くので日本語フォントが要る
+          sudo apt-get install -y -qq fonts-ipafont-gothic >/dev/null
+          pip install -q -r "infographics/$FOLDER/requirements.txt"
+
+      - name: 動画を作る
+        env:
+          FOLDER: ${{ steps.parse.outputs.folder }}
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+          VIDEO_OUT_DIR: ${{ runner.temp }}/out
+        run: |
+          if [ -z "$GOOGLE_TTS_API_KEY" ]; then
+            echo "❌ Secret GOOGLE_TTS_API_KEY が未設定です（infographics/スマホ手順.md 参照）" | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          cd "infographics/$FOLDER"
+          python3 make_video.py
+
+      - name: リリースに置いてIssueに返信
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FOLDER: ${{ steps.parse.outputs.folder }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          file=$(ls "$RUNNER_TEMP"/out/*.mp4 | head -1)
+          name=$(basename "$file")
+          tag="video-issue-$NUM"
+          # Issueを編集して作り直した時は同じリリースに追加する（Latest にならないよう prerelease）
+          gh release view "$tag" >/dev/null 2>&1 || \
+            gh release create "$tag" --prerelease --target "$GITHUB_SHA" \
+              --title "🎬 動画 #$NUM（$FOLDER）" --notes "Issue #$NUM のナレーションで作った動画"
+          gh release upload "$tag" "$file" --clobber
+          url="${{ github.server_url }}/${{ github.repository }}/releases/download/$tag/$name"
+          size=$(du -m "$file" | cut -f1)
+          gh issue comment "$NUM" --body "$(printf '✅ 動画ができました（約%sMB）\n\n📥 %s\n\nリンクを開くとダウンロードできます。投稿文は自分で書いて、X公式アプリから投稿してください。\nナレーションを直したい時は、このIssueを編集して保存すると作り直します。' "$size" "$url")"
+
+      - name: 失敗時はIssueにコメント
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUM: ${{ github.event.issue.number }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue comment "$NUM" --body "$(printf '❌ 動画を作れませんでした。\n\nよくある原因: 動画の選択・ナレーションが空 ／ Secret GOOGLE_TTS_API_KEY が未設定・無効\n詳細: %s\n\n直したらこのIssueを編集して保存すると再実行します。' "$RUN_URL")"

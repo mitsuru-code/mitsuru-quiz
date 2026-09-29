@@ -1,4 +1,4 @@
-"""モンゴル帝国の図解を、カメラワーク＋ナレーションで動画にするスクリプト（PCで実行）。
+"""ホルムズ海峡の瀬取り（STS）図解を、カメラワーク＋ナレーションで動画にするスクリプト（PCで実行）。
 
 運用は豆知識と同じ「素材は機械、文章と投稿は人」:
     1. 素材メモ.md の事実をもとに、narration.txt に自分の言葉でナレーションを書く
@@ -7,7 +7,7 @@
 
 使い方（詳しくは PC手順.md）:
     pip install -r requirements.txt
-    python make_video.py               # out/mongol_empire_YYYYMMDD.mp4 を出力
+    python make_video.py               # out/hormuz_sts_YYYYMMDD.mp4 を出力
     python make_video.py --dry-run     # 音声なし。話す長さを文字数から推定してカメラだけ確認
     python make_video.py --preview     # 各場面の静止画だけ出力
 
@@ -31,8 +31,6 @@ import imageio_ffmpeg
 import numpy as np
 from PIL import Image
 
-import make_infographic as info
-
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -52,27 +50,25 @@ _load_dotenv()
 CACHE = os.path.join(HERE, ".cache")
 OUT_DIR = os.environ.get("VIDEO_OUT_DIR") or os.path.join(HERE, "out")  # Googleドライブ等の同期フォルダも指定可
 W, H, FPS = 1920, 1080, 30
-SCALE = 2  # 図解を2倍解像度で描き、拡大しても文字をくっきりさせる
+IMAGE = os.path.join(HERE, "hormuz_sts.jpg")  # 1312x1199 の図解
 SR = 24000
 VOICE = os.environ.get("TTS_VOICE", "ja-JP-Chirp3-HD-Aoede")
 TTS_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
 
-# 場面ごとのカメラの動き [(区間内の割合, 注目点, 横幅px@等倍)]。注目点は ("map", lon, lat) か ("fig", x, y)
-# narration.txt の「1:」〜「8:」がそれぞれの場面に対応する
+# 場面ごとのカメラの動き [(区間内の割合, 注目点(x, y), 横幅px)]。座標は図解画像のピクセル（左上が原点）
+# narration.txt の「1:」〜「9:」がそれぞれの場面に対応する
+FULL = ((656, 600), 2250)
 SCENES = [
-    ("全体", [(0.0, ("fig", 0.5, 0.5), 2000), (1.0, ("fig", 0.5, 0.5), 1900)]),
-    ("モンゴル高原・金とホラズムへの遠征", [(0.0, ("map", 102, 46), 800), (0.55, ("map", 105, 45), 950),
-                                 (1.0, ("map", 86, 44), 1050)]),
-    ("西へ：ワールシュタット・バグダード", [(0.0, ("map", 42, 50), 1000), (0.5, ("map", 32, 50), 950),
-                                (1.0, ("map", 45, 36), 950)]),
-    ("南宋を滅ぼす → 最大版図の数字", [(0.0, ("map", 115, 34), 1000), (0.45, ("map", 115, 34), 1000),
-                              (0.62, ("fig", 0.855, 0.93), 620), (1.0, ("fig", 0.855, 0.93), 600)]),
-    ("遠征の失敗（エジプト→日本→ベトナム）", [(0.0, ("map", 38, 33), 900), (0.45, ("map", 128, 30), 1000),
-                                   (1.0, ("map", 115, 26), 1050)]),
-    ("4つのウルスへの分裂", [(0.0, ("map", 78, 40), 1500), (1.0, ("map", 78, 40), 1400)]),
-    ("衰退の理由パネル", [(0.0, ("fig", 0.845, 0.62), 1000), (1.0, ("fig", 0.845, 0.52), 950)]),
-    ("年表 → 最後に全体", [(0.0, ("fig", 0.62, 0.16), 1500), (0.6, ("fig", 0.66, 0.16), 1300),
-                      (1.0, ("fig", 0.5, 0.5), 2000)]),
+    ("全体（導入）", [(0.0, *FULL), (1.0, (656, 600), 2150)]),
+    ("① 湾内で積み込み", [(0.0, (220, 320), 620), (0.6, (260, 330), 680), (1.0, (430, 380), 760)]),
+    ("② ホルムズ海峡を通過", [(0.0, (700, 330), 640), (1.0, (720, 320), 560)]),
+    ("③ オマーン沖で積み替え → 写真", [(0.0, (1030, 400), 700), (0.55, (1030, 420), 640),
+                               (0.7, (817, 830), 480), (1.0, (817, 830), 450)]),
+    ("④ 外洋船が出発", [(0.0, (1060, 560), 700), (0.6, (1060, 540), 760), (1.0, (1145, 830), 480)]),
+    ("⑤ シャトル船が戻る", [(0.0, (640, 490), 760), (1.0, (620, 510), 700)]),
+    ("メリット", [(0.0, (265, 1090), 600), (1.0, (265, 1090), 560)]),
+    ("課題・対象の貨物", [(0.0, (740, 1090), 600), (0.6, (740, 1090), 560), (1.0, (1135, 1090), 520)]),
+    ("最後に全体", [(0.0, (656, 330), 1400), (1.0, *FULL)]),
 ]
 NARRATION_FILE = os.path.join(HERE, "narration.txt")
 SILENT_SCENE_SEC = 4.0  # ナレーションを書かなかった場面の長さ
@@ -86,7 +82,7 @@ def read_narration():
         with open(NARRATION_FILE, "w", encoding="utf-8") as fp:
             fp.write("# 素材メモ.md を見ながら、各場面のナレーションを自分の言葉で書いてください。\n"
                      "# 1行＝1場面。「番号: 本文」の形。空欄の場面は無音で約4秒映します。\n"
-                     "# 目安は1場面30〜60字（全体で約50〜60秒）。# で始まる行は無視されます。\n\n")
+                     "# 目安は1場面25〜50字（全体で約50〜60秒）。# で始まる行は無視されます。\n\n")
             for i, (desc, _) in enumerate(SCENES, 1):
                 fp.write(f"# {i}. {desc}\n{i}: \n\n")
         sys.exit(f"narration.txt の雛形を作りました。ナレーションを書いてから再実行してください: {NARRATION_FILE}")
@@ -174,23 +170,15 @@ def build_audio(dry):
 
 # ---------------------------------------------------------------- 映像
 def render_canvas():
-    """図解を高解像度で描き、周囲に余白を足したキャンバスと座標変換関数を返す"""
-    fig, ax = info.build()
-    fig.set_dpi(100 * SCALE)
-    fig.canvas.draw()
-    img = Image.frombuffer("RGBA", fig.canvas.get_width_height(), fig.canvas.buffer_rgba()).convert("RGB")
+    """図解画像の周囲に余白を足したキャンバスと座標変換関数を返す"""
+    img = Image.open(IMAGE).convert("RGB")
     fw, fh = img.size
-    margin = 400 * SCALE
-    canvas = Image.new("RGB", (fw + 2 * margin, fh + 2 * margin), info.SURFACE)
+    margin = 600
+    canvas = Image.new("RGB", (fw + 2 * margin, fh + 2 * margin), img.getpixel((4, 4)))
     canvas.paste(img, (margin, margin))
 
     def to_px(target):
-        kind, a, b = target
-        if kind == "map":
-            x, y = ax.transData.transform((a, b))
-        else:
-            x, y = fig.transFigure.transform((a, b))
-        return margin + x, margin + (fh - y)
+        return margin + target[0], margin + target[1]
 
     return canvas, to_px
 
@@ -207,7 +195,7 @@ def camera_keys(starts, durs, total, to_px):
         span = d + GAP
         for frac, target, width in moves:
             cx, cy = to_px(target)
-            keys.append((s - 0.35 + frac * span, cx, cy, width * SCALE))
+            keys.append((s - 0.35 + frac * span, cx, cy, width))
     keys.sort(key=lambda k: k[0])  # 同時刻のキーは場面順を保つ（座標で並べ替えるとカメラが跳ぶ）
     keys = [(0.0,) + keys[0][1:]] + keys + [(total,) + keys[-1][1:]]
     return keys
@@ -263,7 +251,7 @@ def main():
     if not dry:
         cmd += ["-i", wav, "-c:a", "aac", "-b:a", "160k", "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100"]
     os.makedirs(OUT_DIR, exist_ok=True)
-    name = time.strftime("mongol_empire_%Y%m%d_%H%M") + ("_dryrun" if dry else "") + ".mp4"
+    name = time.strftime("hormuz_sts_%Y%m%d_%H%M") + ("_dryrun" if dry else "") + ".mp4"
     cmd += ["-c:v", "copy", "-shortest" if not dry else "-an", "-movflags", "+faststart",
             os.path.join(OUT_DIR, name)]
     subprocess.check_call(cmd)
