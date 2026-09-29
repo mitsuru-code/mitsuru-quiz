@@ -1,0 +1,29 @@
+name: 🎬 図解動画を作る
+description: 書いたナレーションで図解の解説動画（mp4）を作ります。数分後にこのIssueへダウンロードリンクが届きます（Xへの投稿はしません）
+title: "[動画] "
+labels: ["video-make"]
+body:
+  - type: dropdown
+    id: video
+    attributes:
+      label: 動画
+      options:
+        - hormuz-sts（ホルムズ海峡の瀬取り・9場面）
+        - mongol-empire（モンゴル帝国・8場面）
+    validations:
+      required: true
+  - type: textarea
+    id: narration
+    attributes:
+      label: ナレーション
+      description: |
+        1行＝1場面。上から順に場面1・2・3…になります（「3: 本文」のように番号を付けてもOK）。空行は無視、「-」だけの行はその場面を無音にします。
+        目安は1場面25〜60字、全体で50〜60秒。事実は各フォルダの「素材メモ.md」を見て、自分の言葉で書いてください。
+
+        ホルムズ（9場面）: 1 全体 / 2 ①湾内で積み込み / 3 ②海峡を通過 / 4 ③オマーン沖で積み替え / 5 ④外洋船が出発 / 6 ⑤シャトル船が戻る / 7 メリット / 8 課題・対象の貨物 / 9 最後に全体
+        モンゴル（8場面）: 1 全体 / 2 高原・金とホラズム / 3 西へ / 4 南宋・最大版図 / 5 遠征の失敗 / 6 4つのウルス / 7 衰退の理由 / 8 年表→全体
+      placeholder: |
+        ここに場面1のナレーション
+        ここに場面2のナレーション
+    validations:
+      required: true
