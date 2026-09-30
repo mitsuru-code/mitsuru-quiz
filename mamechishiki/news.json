@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-29T20:50:35+00:00",
-  "now_ms": 1790715035244,
+  "fetched_at": "2026-09-30T00:30:11+00:00",
+  "now_ms": 1790728211185,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,82 +10,100 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-b473ec7676eb6802",
-      "title": "30日も関東は雨続く 台風の進路は",
+      "doc_id": "yahoo-523d68508948f948",
+      "title": "台風 あす八丈島など直撃見込み",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596973"
+      "link": "https://news.yahoo.co.jp/pickup/6597015"
     },
     {
-      "doc_id": "yahoo-db117a769cc17c37",
-      "title": "修繕談合で再発防止を要請 国交省",
+      "doc_id": "yahoo-5767cf38d481c101",
+      "title": "北朝鮮 地雷爆発は韓国の自作自演",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597000"
+      "link": "https://news.yahoo.co.jp/pickup/6597020"
     },
     {
-      "doc_id": "yahoo-8e639f027efee26d",
-      "title": "ドンキ トイザらス日本事業買収へ",
+      "doc_id": "yahoo-1f586923e8ef3e9f",
+      "title": "道路でクマが車に複数回突進 破損",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596995"
+      "link": "https://news.yahoo.co.jp/pickup/6597005"
     },
     {
-      "doc_id": "yahoo-d3aacbe48b84a07b",
-      "title": "千葉支援 都営バスと運転手を派遣",
+      "doc_id": "yahoo-24ebe1617c46dcb2",
+      "title": "早朝の高速バス乗り場に行列 千葉",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596996"
+      "link": "https://news.yahoo.co.jp/pickup/6597019"
     },
     {
-      "doc_id": "yahoo-a77f8925848b6737",
-      "title": "出向の朝日新聞社員逮捕 傷害容疑",
+      "doc_id": "yahoo-5219f3e1fa68744f",
+      "title": "熱中症で娘倒れ寝たきり 父の訴え",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596998"
+      "link": "https://news.yahoo.co.jp/pickup/6597007"
     },
     {
-      "doc_id": "yahoo-7f76c07e28054c92",
-      "title": "批判350通に返事 せんとくん作者",
+      "doc_id": "yahoo-249c58194babca3b",
+      "title": "ノジマ バイト大学生2人を店長に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596994"
+      "link": "https://news.yahoo.co.jp/pickup/6597003"
     },
     {
-      "doc_id": "yahoo-fc3426234f5fcf5b",
-      "title": "ルヴァン杯2回戦 J1勢3チーム敗退",
+      "doc_id": "yahoo-9d9dc239b43bfe82",
+      "title": "巨人・板東湧梧 今季限りで引退へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596997"
+      "link": "https://news.yahoo.co.jp/pickup/6597018"
     },
     {
-      "doc_id": "yahoo-dc95d996ed0c7cbe",
-      "title": "山本裕典が結婚 相手は一般女性",
+      "doc_id": "yahoo-d7af20e4a0a7be5a",
+      "title": "マンCが財務規則違反 プレミアL",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6596999"
+      "link": "https://news.yahoo.co.jp/pickup/6597023"
     },
     {
-      "doc_id": "jiji-c3f5a8a653dc00a3",
-      "title": "グローバルホーク、１０月２日から回収 空自トップ「任務飛行継続する」",
+      "doc_id": "jiji-9f66ec36b5eefa86",
+      "title": "核搭載可能の爆撃機が墜落 ６人死亡 ロシア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901179&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026093000167&g=int"
     },
     {
-      "doc_id": "jiji-3f4e8780cbacce92",
-      "title": "サーフィン五十嵐カノア、池田美来が金 男子８００は落合晃Ｖ―愛知・名古屋アジア大会",
+      "doc_id": "jiji-11c44368bf9f7945",
+      "title": "安全確保へ社内管理強化 米ＡＩ企業首脳と文書署名―トランプ氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900874&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026093000203&g=int"
     },
     {
-      "doc_id": "jiji-2958d7486d518ee6",
-      "title": "答え見つけたＰＣＡ 夏場から調子上げ「４０―４０」―米大リーグ・カブス",
+      "doc_id": "jiji-9d05ddfa7fedbef9",
+      "title": "交差点で正面衝突、３人死亡 乗用車が炎上、２人搬送―千葉",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093000129&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092900387&g=soc"
     },
     {
-      "doc_id": "jiji-d75e78f9521872ea",
-      "title": "３０日の予告先発投手 プロ野球パ・リーグ",
+      "doc_id": "jiji-4e8fc6c11823de73",
+      "title": "習政権、岩屋氏を厚遇 友好団体との対話再開か―中国",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900897&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026092901126&g=pol"
     },
     {
-      "doc_id": "jiji-5b6d1801a83c5909",
-      "title": "日本が「戦争の雲広げている」 国連総会で批判展開―北朝鮮",
+      "doc_id": "jiji-07d5bf55740e843d",
+      "title": "初老ジャパン、ロスへ危機感 アジア大会で頂点ならず―馬術",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900182&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026092900708&g=spo"
+    },
+    {
+      "doc_id": "jiji-1f0c1f96ae7b0fc9",
+      "title": "「ファストパス」、飲食店で拡大 タイパ背景、行列を回避―専門家「他施設に広がる余地」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026092900597&g=soc"
+    },
+    {
+      "doc_id": "jiji-1f5ae523381ce4e8",
+      "title": "地雷爆発、韓国の「自作自演」 調査結果否定―北朝鮮",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026093000181&g=int"
+    },
+    {
+      "doc_id": "jiji-88a50d3b219c7c92",
+      "title": "グリンスパン氏、首位を維持 次期国連総長選、安保理で４回目投票",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026093000231&g=int"
     },
     {
       "doc_id": "jiji-00ec7d29fcd5d37e",
@@ -94,34 +112,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026092900133&g=int"
     },
     {
-      "doc_id": "jiji-f9a78ae679d3aa84",
-      "title": "消費税・定数削減で攻防へ 臨時国会、来月５日召集",
+      "doc_id": "jiji-2aa13e21d75d3bd7",
+      "title": "村上が先制犠飛 プレーオフ開幕―米大リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900123&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026093000234&g=spo"
     },
     {
-      "doc_id": "jiji-9ae0a333f7184e02",
-      "title": "「日本と世界の学術をけん引」 藤垣次期学長が記者会見―東大",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900641&g=soc"
-    },
-    {
-      "doc_id": "jiji-2728df4f0003eb63",
-      "title": "ＩＣＣ締約国会議、開催地変更 米制裁でＮＹからハーグに",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092901187&g=int"
-    },
-    {
-      "doc_id": "jiji-0e52f3b9ec6195bf",
-      "title": "３億円超キックバック、キャバクラや高級車で使用か 元「湘南美容クリニック」グループ幹部、背任容疑で逮捕―警視庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900914&g=soc"
-    },
-    {
-      "doc_id": "nhk-d59c6becd2fa5f3b",
-      "title": "台風26号 伊豆諸島に近づく見込み 高波に警戒を",
+      "doc_id": "nhk-5289f12e624cf587",
+      "title": "台風26号 きょう夕方～あすにかけ伊豆諸島接近 千葉なども注意",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260929de52959"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53237"
     },
     {
       "doc_id": "nhk-f395570b4d1604f4",
@@ -158,6 +158,30 @@
       "title": "日本の人口 1億2297万人余に 減少幅は過去最大 国勢調査確定値",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260929de53106"
+    },
+    {
+      "doc_id": "itmedia-a9cc8da2a649e10f",
+      "title": "AI企業トップらと昼食会のトランプ米大統領、政府内で「AI」を「SI」と呼び替える大統領令に署名",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001871/"
+    },
+    {
+      "doc_id": "itmedia-ad7604778925de09",
+      "title": "ドラッグ＆ドロップ操作ミスで……TOPPAN、損保ジャパン契約者17万人分のデータを他社に誤送付",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001870/"
+    },
+    {
+      "doc_id": "itmedia-705a8397a5118b92",
+      "title": "OpenAI、豪政府サイトへの不正アクセスで謝罪 最先端AI学習の安全指針も公開",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001869/"
+    },
+    {
+      "doc_id": "itmedia-e66f393b090e4ace",
+      "title": "OpenAIの「DevDay 2026」で発表された主なことまとめ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001868/"
     },
     {
       "doc_id": "itmedia-b277807dfde7d32d",
@@ -208,28 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2609/29/2000001849/"
     },
     {
-      "doc_id": "itmedia-c27281ec861f1e9f",
-      "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開 特定のLLMに依存せず入れ替え可能",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/29/2000001837/"
+      "doc_id": "nazology-5825bbe7760230f2",
+      "title": "学者も「奇妙」と呼ぶ巨大恐竜の仲間を中国で発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200315"
     },
     {
-      "doc_id": "itmedia-7beb0d2666875b45",
-      "title": "旭化成ホームズの社内システムが地震で全停止……したらどうする？ 同社グループが本当にやった災害訓練",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/29/2000001787/"
-    },
-    {
-      "doc_id": "itmedia-4043945440a8db54",
-      "title": "SpaceXの大型ロケット「Starship」、初めて地球周回軌道に到達 次世代Starlink衛星26基を投入",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/29/2000001842/"
-    },
-    {
-      "doc_id": "itmedia-9aacd4f3ba005336",
-      "title": "Geminiの「Gem」廃止へ、11月17日から「スキル」へ刷新",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/29/2000001839/"
+      "doc_id": "nazology-62232b4afb4a02d2",
+      "title": "人気の「関節サプリ」、認知症の手前の人では発症リスク25%増",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200272"
     },
     {
       "doc_id": "nazology-8d72f85d8af5d812",
@@ -278,18 +290,6 @@
       "title": "性欲が最も強くなる年齢層が明らかに",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/190572"
-    },
-    {
-      "doc_id": "nazology-98483d448cb7f711",
-      "title": "エッチなメッセージを送り合うカップル、満足してる人に見られた「ある傾向」",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200238"
-    },
-    {
-      "doc_id": "nazology-6369871c34733fe3",
-      "title": "マンジャロが肥満マウスの「脂肪を燃やす脂肪」を働かせると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200220"
     }
   ]
 }
