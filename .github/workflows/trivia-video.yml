@@ -1,0 +1,52 @@
+# 豆知識ショート動画の書き出し（依頼はクラウドのルーティンが trivia-video/jobs/ に置く）
+name: trivia-video
+on:
+  push:
+    branches: [claude/trivia-jobs]
+    paths: ["trivia-video/jobs/**"]
+  schedule:
+    - cron: "0 10,13 * * *"   # 19:00・22:00 JST（画像待ちだった分の再挑戦）
+    - cron: "30 20 * * *"     # 5:30 JST（再挑戦＋投稿し忘れ整理）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trivia-video
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/trivia-jobs
+      - name: 日本語・絵文字フォント
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk fonts-noto-color-emoji fonts-dejavu-core
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pillow numpy imageio-ffmpeg
+      - name: rclone（Googleドライブ）
+        env:
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash > /dev/null
+          mkdir -p ~/.config/rclone && printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+      - name: 書き出し
+        env:
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+          TRIVIA_EMOJI_FONT: /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf
+        run: python trivia-video/cloud_render.py
+      - name: 投稿し忘れ整理（5:30のみ）
+        if: github.event.schedule == '30 20 * * *'
+        run: python trivia-video/cloud_sweep.py
+      - name: 結果を保存
+        run: |
+          git config user.name "trivia-video-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add trivia-video/results
+          git diff --cached --quiet || (git commit -q -m "trivia-video: 書き出し結果 [skip ci]" && git push -q origin HEAD:claude/trivia-jobs)
