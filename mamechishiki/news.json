@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-30T13:47:28+00:00",
-  "now_ms": 1790776048855,
+  "fetched_at": "2026-09-30T19:23:56+00:00",
+  "now_ms": 1790796236110,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -22,28 +22,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6597095"
     },
     {
-      "doc_id": "yahoo-f4147c55e4e9702c",
-      "title": "麻生氏 土地3カ所の資産報告せず",
+      "doc_id": "yahoo-a7e126a6e4c93614",
+      "title": "神戸発砲事件 死亡男性は会社役員",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597105"
+      "link": "https://news.yahoo.co.jp/pickup/6597119"
     },
     {
-      "doc_id": "yahoo-98651b9669b319d7",
-      "title": "8.2億円相当の暗号資産 詐欺被害",
+      "doc_id": "yahoo-2faab90f1f1eefd5",
+      "title": "世界大学ランキング 東北大に注目",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597089"
+      "link": "https://news.yahoo.co.jp/pickup/6597092"
     },
     {
-      "doc_id": "yahoo-c97e063cdc6e5884",
-      "title": "西武渋谷店が閉店 入り口は大混雑",
+      "doc_id": "yahoo-b7d02e2f950f01f5",
+      "title": "映画オデュッセイアの天候を考察",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597110"
+      "link": "https://news.yahoo.co.jp/pickup/6597117"
     },
     {
-      "doc_id": "yahoo-595f4a8cea09a58c",
-      "title": "オリ野上士耀さん死去 事件性なし",
+      "doc_id": "yahoo-8272b03caa581bb8",
+      "title": "オリ野上さん急逝 球団本部長が涙",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597107"
+      "link": "https://news.yahoo.co.jp/pickup/6597118"
     },
     {
       "doc_id": "yahoo-5ffd60c014418d41",
@@ -58,10 +58,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6597109"
     },
     {
-      "doc_id": "jiji-e223e4bd3d327290",
-      "title": "ジュエ氏は１６０センチ、５０キロ 父正恩氏、超高度肥満も健康―韓国情報機関",
+      "doc_id": "jiji-3c5ea19e99ee8869",
+      "title": "イスラエル行き旅客機が緊急着陸 副操縦士が墜落企図か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093000761&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026093001110&g=int"
     },
     {
       "doc_id": "jiji-8090fd7b069223a7",
@@ -70,34 +70,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026093001018&g=spo"
     },
     {
-      "doc_id": "jiji-3c5ea19e99ee8869",
-      "title": "イスラエル行き旅客機が緊急着陸 副操縦士が墜落企図か",
+      "doc_id": "jiji-fee8196528ea6af7",
+      "title": "永住許可、きょう要件厳格化 平均年収「日本人超」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093001110&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100100012&g=pol"
     },
     {
-      "doc_id": "jiji-58cccf9c535921d0",
-      "title": "妻の遺体切断、医師の男逮捕 死体損壊容疑など―兵庫県警",
+      "doc_id": "jiji-40bbea254d2f8002",
+      "title": "中国激怒、米が平和条約展示中止か 習氏の公文書館見学時",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093000967&g=soc"
-    },
-    {
-      "doc_id": "jiji-db246c7f7eee715e",
-      "title": "簗農水相、地元予算「カットした」 就任前、選挙絡め発言と報道―木原官房長官「調査中」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093000975&g=pol"
-    },
-    {
-      "doc_id": "jiji-74a875611806f4d4",
-      "title": "対中改善、慎重に探る 岩屋氏「厚遇」、意図見極め―日本政府",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093001064&g=pol"
-    },
-    {
-      "doc_id": "jiji-9d05ddfa7fedbef9",
-      "title": "交差点で正面衝突、３人死亡 乗用車が炎上、２人搬送―千葉",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900387&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026093001246&g=int"
     },
     {
       "doc_id": "jiji-648d907fa32d8e5b",
@@ -106,58 +88,76 @@
       "link": "https://www.jiji.com/jc/article?k=2026092901126&g=int"
     },
     {
-      "doc_id": "jiji-940ff8827160bf1f",
-      "title": "能動サイバー防御、１日開始 警察・自衛隊が「無害化」",
+      "doc_id": "jiji-621813f495602af7",
+      "title": "立民、経費削減へ党本部縮小",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093001094&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026093001045&g=pol"
     },
     {
-      "doc_id": "jiji-22de0375c96524b8",
-      "title": "学術会議、特殊法人に移行 独立性確保が焦点―菅首相任命拒否が契機",
+      "doc_id": "jiji-e223e4bd3d327290",
+      "title": "ジュエ氏は１６０センチ、５０キロ 父正恩氏、超高度肥満も健康―韓国情報機関",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093000671&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026093000761&g=int"
+    },
+    {
+      "doc_id": "jiji-db246c7f7eee715e",
+      "title": "簗農水相、地元予算「カットした」 就任前、選挙絡め発言と報道―木原官房長官「調査中」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026093000975&g=pol"
+    },
+    {
+      "doc_id": "jiji-d660997b1d2b2ba6",
+      "title": "神戸で連続発砲、１人死亡 殺人未遂容疑で元暴力団員逮捕―兵庫県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026093000844&g=soc"
+    },
+    {
+      "doc_id": "jiji-50d596f401c2c151",
+      "title": "元交際相手に拘禁刑２０年 ネイリスト殺害「動機は身勝手」―水戸地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026093000690&g=soc"
     },
     {
       "doc_id": "nhk-5289f12e624cf587",
-      "title": "台風26号 今夜遅く伊豆諸島に接近 千葉であす雨強まるおそれも",
+      "title": "台風26号 明け方にかけ伊豆諸島に接近 千葉で雨強まるおそれも",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260930de53237"
     },
     {
-      "doc_id": "nhk-c6ed754a8fe23d85",
-      "title": "富山市国勢調査人口水増し疑い 地方交付税が約2億円多く交付か",
+      "doc_id": "nhk-d6efa7f1d18eac30",
+      "title": "住宅ローン 3行が変動金利引き上げ 固定金利は5行とも",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53460"
+      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53488"
     },
     {
-      "doc_id": "nhk-176a2334cd1ddbe9",
-      "title": "【動画】ヒグマが停止中の車に襲いかかる 北海道",
+      "doc_id": "nhk-1d2904ebd875212e",
+      "title": "沖縄 宜野湾 女性殺害事件 首や周辺に複数の刺し傷",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53426"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53508"
+    },
+    {
+      "doc_id": "nhk-32540e45e9293dde",
+      "title": "外国人の在留許可に関する手数料 10月1日から引き上げ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53503"
+    },
+    {
+      "doc_id": "nhk-adbaac2b12a6005a",
+      "title": "イラク駐留の米軍が撤退完了 治安悪化への懸念残る",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53501"
+    },
+    {
+      "doc_id": "nhk-cfd16321818d4a9e",
+      "title": "イラン提案めぐり米から回答受け取る 双方に隔たりの報道も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53504"
     },
     {
       "doc_id": "nhk-3b4a1e08596a1908",
       "title": "西武渋谷店 58年の歴史に幕 デザイナーが語る“過去”“未来”",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20260930de53266"
-    },
-    {
-      "doc_id": "nhk-c417260716c47f94",
-      "title": "兵庫 尼崎 妻の遺体損壊し川に遺棄か 医師の夫を逮捕",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53465"
-    },
-    {
-      "doc_id": "nhk-f41e2937a78c159c",
-      "title": "OTC類似薬 患者追加負担 来年3月導入へ 厚労省が通知 対象薬は",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53373"
-    },
-    {
-      "doc_id": "nhk-0d1063554966d17e",
-      "title": "中司大臣 旧優生保護法で謝罪“被害者補償に取り組む”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53436"
     },
     {
       "doc_id": "itmedia-577dd306901a0daf",
