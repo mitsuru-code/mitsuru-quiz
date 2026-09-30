@@ -1,0 +1,9 @@
+_work/
+tts_cache/
+img_cache/
+jobs/state/
+jobs/results/
+jobs/videoJobs/
+scripts/
+__pycache__/
+*.wav
