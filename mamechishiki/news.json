@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-01T19:34:05+00:00",
-  "now_ms": 1790883245928,
+  "fetched_at": "2026-10-01T23:54:34+00:00",
+  "now_ms": 1790898874433,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-bcdf79fb57f8d84b",
-      "title": "統一地方選 4月11・25日投票へ",
+      "doc_id": "yahoo-1838d9b9daa1bf61",
+      "title": "トランプ氏 習氏へ日中対話促す",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597206"
+      "link": "https://news.yahoo.co.jp/pickup/6597227"
     },
     {
-      "doc_id": "yahoo-cd1c76cf5042db70",
-      "title": "早紀江さん 拉致巡り「いらだち」",
+      "doc_id": "yahoo-a45ac4d38ac8b1ea",
+      "title": "JR内房線の不通 学校現場に混乱",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597193"
+      "link": "https://news.yahoo.co.jp/pickup/6597231"
     },
     {
-      "doc_id": "yahoo-c3f2acd4dedd9a62",
-      "title": "男性が首刺される 隣人の男を逮捕",
+      "doc_id": "yahoo-486e3df0fb338ef2",
+      "title": "男性切りつけられる 隣人の男逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597221"
+      "link": "https://news.yahoo.co.jp/pickup/6597232"
     },
     {
-      "doc_id": "yahoo-17c00bc61c478d2b",
-      "title": "無許可でモスク建設 市が撤去命令",
+      "doc_id": "yahoo-b30d3bc08d1a38b1",
+      "title": "米死刑囚への刑執行が「失敗」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597207"
+      "link": "https://news.yahoo.co.jp/pickup/6597226"
     },
     {
-      "doc_id": "yahoo-eb6ed7ca360b1dc9",
-      "title": "スイス氷河 過去5年で2割消失",
+      "doc_id": "yahoo-2ee33b8d7354e7b6",
+      "title": "ブルーカラー人気 背景に人手不足",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597220"
+      "link": "https://news.yahoo.co.jp/pickup/6597230"
     },
     {
-      "doc_id": "yahoo-44814f05c5569942",
-      "title": "マックのドナルド 「ロナルド」に",
+      "doc_id": "yahoo-037828026429325c",
+      "title": "各地に毒キノコ「妖精の輪」も",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597212"
+      "link": "https://news.yahoo.co.jp/pickup/6597236"
     },
     {
-      "doc_id": "yahoo-839e4a4388cac8b7",
-      "title": "こめお「割烹こめを」閉店を発表",
+      "doc_id": "yahoo-945cea5ced3ccf24",
+      "title": "FW塩貝 PK巡り森保監督に尋ねる",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597202"
+      "link": "https://news.yahoo.co.jp/pickup/6597223"
     },
     {
-      "doc_id": "yahoo-35a8cafdc1095afa",
-      "title": "芸能界 活動進退の報告が相次ぐ",
+      "doc_id": "yahoo-c8a0dcd81aadaa7e",
+      "title": "5h超試合 終電前の阪神ファン走る",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597215"
+      "link": "https://news.yahoo.co.jp/pickup/6597222"
     },
     {
       "doc_id": "jiji-780cee7f952bc86a",
@@ -64,34 +64,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026100100800&g=soc"
     },
     {
-      "doc_id": "jiji-445ef8c443efdeed",
-      "title": "日本代表、ＰＫ戦制す エクアドルと０―０から―サッカー国際親善試合",
+      "doc_id": "jiji-4693fa993319b998",
+      "title": "農水・総務相、高市政権の火種に 疑惑報道、野党追及へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100101177&g=spo"
-    },
-    {
-      "doc_id": "jiji-9acd8fff5622a199",
-      "title": "巨人、負けに等しいドロー プロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100101257&g=spo"
-    },
-    {
-      "doc_id": "jiji-3a7846b50fb0d47b",
-      "title": "ノーベル賞、「今後につなげて」 日本被団協が報告集―決定から授賞式後まで回想",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100671&g=soc"
-    },
-    {
-      "doc_id": "jiji-412ca23e2aa4b434",
-      "title": "実質支配者、法人に報告義務 トクリュウ実態解明狙う―新法原案判明、臨時国会提出へ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100995&g=pol"
-    },
-    {
-      "doc_id": "jiji-1f0c1f96ae7b0fc9",
-      "title": "「ファストパス」、飲食店で拡大 タイパ背景、行列を回避―専門家「他施設に広がる余地」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900597&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100101009&g=pol"
     },
     {
       "doc_id": "jiji-f7c202fc4909f3e6",
@@ -100,46 +76,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026100100139&g=soc"
     },
     {
-      "doc_id": "jiji-02dd183981747695",
-      "title": "東電福島第１原発、２号機内部調査２日開始 ロボットアーム投入へ",
+      "doc_id": "jiji-fd868251d8d3602b",
+      "title": "ストーカー相談の女性、死因は失血 沖縄県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100101073&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100101125&g=soc"
     },
     {
-      "doc_id": "jiji-8a80dc537755a8c0",
-      "title": "「しわ寄せは被害者に」 検察の補充捜査廃止で弁護士―韓国",
+      "doc_id": "jiji-27ff98f54ca03b73",
+      "title": "イスラエル便乗務、協定違反か 副操縦士の捜査続く―旅客機墜落未遂",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100794&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100101129&g=int"
     },
     {
-      "doc_id": "jiji-6504a812a72d6803",
-      "title": "民主改革、ロゴマークを発表",
+      "doc_id": "jiji-ef5f83c954313949",
+      "title": "メキシコで中学校襲撃、副校長が死亡 元生徒２人を拘束",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100101029&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100200234&g=int"
     },
     {
-      "doc_id": "nhk-1a8745b3f1d4e614",
-      "title": "台風27号 勢力を強めながら日曜日ごろ小笠原近海へ進む見込み",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53515"
+      "doc_id": "jiji-db246c7f7eee715e",
+      "title": "簗農水相、地元予算「カットした」 就任前、選挙絡め発言と報道―木原官房長官「調査中」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026093000975&g=pol"
     },
     {
-      "doc_id": "nhk-7f148bd321505507",
-      "title": "イスラエル行き旅客機 緊急着陸 副操縦士が機長を刺したか",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581"
+      "doc_id": "jiji-ceb120655c61d729",
+      "title": "ＮＹ株、ほぼ横ばい 米金利低下を好感",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100200179&g=int"
     },
     {
-      "doc_id": "nhk-2d8a6a9b911609ed",
-      "title": "【地震速報】鹿児島 十島村で震度３ 津波の心配なし",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53192"
+      "doc_id": "jiji-56f009bbab56d9cc",
+      "title": "変わったのは日本側 日ロ関係、「協力的な姿勢」を―プーチン氏",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100200232&g=pol"
     },
     {
-      "doc_id": "nhk-1d14c50eac224123",
-      "title": "佐川急便に不正アクセス 住所など個人情報が漏えいか",
+      "doc_id": "jiji-c7a68e2bd0f2d006",
+      "title": "神谷千菜、苦節経てなでしこ入り 連続ゴールも懸け、２日決勝―愛知・名古屋アジア大会",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100817&g=spo"
+    },
+    {
+      "doc_id": "nhk-90bf4218855de51e",
+      "title": "完全失業率 8月は2.5％ 前月より0.1ポイント悪化 総務省",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53762"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53785"
+    },
+    {
+      "doc_id": "nhk-df890022ad48de36",
+      "title": "8月の有効求人倍率 全国平均で1.18倍 前月と同水準",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53744"
     },
     {
       "doc_id": "nhk-6de0ac3ab1c1e913",
@@ -148,16 +136,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261002de53765"
     },
     {
-      "doc_id": "nhk-5d8ebb111af5a294",
-      "title": "ICC赤根所長への制裁撤回求める17万筆余の署名を提出",
+      "doc_id": "nhk-7f148bd321505507",
+      "title": "イスラエル行き旅客機 緊急着陸 副操縦士が機長を刺したか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53764"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581"
     },
     {
-      "doc_id": "nhk-fd694d6150bddde6",
-      "title": "出産無償化へ 厚労省検討会初会合 ことし12月めどにとりまとめ",
+      "doc_id": "nhk-b5b1150b39816ca6",
+      "title": "台風27号 4日には小笠原近海へ進む見込み 今後の情報に注意",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53728"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53779"
+    },
+    {
+      "doc_id": "nhk-f6ec90b3d9056df5",
+      "title": "イスラエル首相「副操縦士はイスラム過激思想に洗脳」主張",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53772"
+    },
+    {
+      "doc_id": "nhk-1d14c50eac224123",
+      "title": "佐川急便に不正アクセス 住所など個人情報が漏えいか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53762"
+    },
+    {
+      "doc_id": "itmedia-108fe2608b1f2443",
+      "title": "ChatGPTにAIでバーチャル試着機能とカメラでの書類スキャン→PDF化機能",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001945/"
     },
     {
       "doc_id": "itmedia-743326081f6d2742",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001924/"
     },
     {
-      "doc_id": "itmedia-af5f85efc663eea9",
-      "title": "“3.5秒よそ見”で運転者に警告 新規生産車に警報機の搭載を義務化へ 居眠り警告も 国交省",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001921/"
+      "doc_id": "nazology-dc86a5aedb909f48",
+      "title": "「思春期に孤独だった人」ほど大人になって不安定なものとは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200372"
     },
     {
       "doc_id": "nazology-5a1db6ad7296cb85",
@@ -284,12 +290,6 @@
       "title": "算数が極端に苦手な子の脳に見られた「ある違い」",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200440"
-    },
-    {
-      "doc_id": "nazology-5c7de79d2e3adfd9",
-      "title": "大麻をほぼ毎日使う重いてんかん患者は「発作が2倍」だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200379"
     }
   ]
 }
