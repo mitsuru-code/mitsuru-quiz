@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-01T13:21:53+00:00",
-  "now_ms": 1790860913922,
+  "fetched_at": "2026-10-01T19:34:05+00:00",
+  "now_ms": 1790883245928,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,22 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-28606cf781f71e53",
-      "title": "青森秋田岩手の3銀行 統合協議へ",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597211"
-    },
-    {
       "doc_id": "yahoo-bcdf79fb57f8d84b",
       "title": "統一地方選 4月11・25日投票へ",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6597206"
+    },
+    {
+      "doc_id": "yahoo-cd1c76cf5042db70",
+      "title": "早紀江さん 拉致巡り「いらだち」",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597193"
+    },
+    {
+      "doc_id": "yahoo-c3f2acd4dedd9a62",
+      "title": "男性が首刺される 隣人の男を逮捕",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597221"
     },
     {
       "doc_id": "yahoo-17c00bc61c478d2b",
@@ -28,10 +34,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6597207"
     },
     {
-      "doc_id": "yahoo-8478b24318b772ef",
-      "title": "滋賀の工場で爆発 男性の遺体発見",
+      "doc_id": "yahoo-eb6ed7ca360b1dc9",
+      "title": "スイス氷河 過去5年で2割消失",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597208"
+      "link": "https://news.yahoo.co.jp/pickup/6597220"
     },
     {
       "doc_id": "yahoo-44814f05c5569942",
@@ -40,22 +46,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6597212"
     },
     {
-      "doc_id": "yahoo-4ff80808ca9a6639",
-      "title": "小園ら戦力外 カープ監督「残念」",
+      "doc_id": "yahoo-839e4a4388cac8b7",
+      "title": "こめお「割烹こめを」閉店を発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597210"
+      "link": "https://news.yahoo.co.jp/pickup/6597202"
     },
     {
-      "doc_id": "yahoo-b3c5409037e26f65",
-      "title": "森保J エクアドルにPK戦の末勝利",
+      "doc_id": "yahoo-35a8cafdc1095afa",
+      "title": "芸能界 活動進退の報告が相次ぐ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597213"
-    },
-    {
-      "doc_id": "yahoo-aceff388c631fe01",
-      "title": "timelesz 解散の文字出なかった",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597214"
+      "link": "https://news.yahoo.co.jp/pickup/6597215"
     },
     {
       "doc_id": "jiji-780cee7f952bc86a",
@@ -64,28 +64,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026100100800&g=soc"
     },
     {
-      "doc_id": "jiji-1c7de18ee8e3ad62",
-      "title": "マンション投機に規制 自民、高市首相に提言―外国人政策",
+      "doc_id": "jiji-445ef8c443efdeed",
+      "title": "日本代表、ＰＫ戦制す エクアドルと０―０から―サッカー国際親善試合",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100101024&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100101177&g=spo"
     },
     {
-      "doc_id": "jiji-5074b266ac619c6f",
-      "title": "茂木氏、柔軟性発揮求める イラン外相と電話会談",
+      "doc_id": "jiji-9acd8fff5622a199",
+      "title": "巨人、負けに等しいドロー プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100101052&g=pol"
-    },
-    {
-      "doc_id": "jiji-8a80dc537755a8c0",
-      "title": "「しわ寄せは被害者に」 検察の補充捜査廃止で弁護士―韓国",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100794&g=int"
-    },
-    {
-      "doc_id": "jiji-e0f4677f1f54ae52",
-      "title": "「補充捜査」巡り懸念も 検察庁廃止で女性団体―韓国",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100773&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100101257&g=spo"
     },
     {
       "doc_id": "jiji-3a7846b50fb0d47b",
@@ -94,22 +82,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026100100671&g=soc"
     },
     {
-      "doc_id": "jiji-7a1b827c2fe24d29",
-      "title": "柔道の藤原、谷岡、前田が金 レスリングは仲里Ｖ―愛知・名古屋アジア大会",
+      "doc_id": "jiji-412ca23e2aa4b434",
+      "title": "実質支配者、法人に報告義務 トクリュウ実態解明狙う―新法原案判明、臨時国会提出へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100959&g=spo"
-    },
-    {
-      "doc_id": "jiji-f7c202fc4909f3e6",
-      "title": "はやぶさ２、エンジン故障 初代救った「クロス運転」で再開へ―最終の小惑星向け航行継続・ＪＡＸＡ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100139&g=soc"
-    },
-    {
-      "doc_id": "jiji-8090fd7b069223a7",
-      "title": "野上士耀選手が死去、１９歳 寮の室内で発見―プロ野球・オリックス",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093001018&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100100995&g=pol"
     },
     {
       "doc_id": "jiji-1f0c1f96ae7b0fc9",
@@ -118,16 +94,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026092900597&g=soc"
     },
     {
-      "doc_id": "nhk-0a8d831e6c39fcd1",
-      "title": "【地震速報】茨城県と千葉県で震度3",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53739"
+      "doc_id": "jiji-f7c202fc4909f3e6",
+      "title": "はやぶさ２、エンジン故障 初代救った「クロス運転」で再開へ―最終の小惑星向け航行継続・ＪＡＸＡ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100139&g=soc"
     },
     {
-      "doc_id": "nhk-2f2c7f2340d27c96",
-      "title": "青森みちのく銀行 岩手銀行 秋田銀行が経営統合協議へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53731"
+      "doc_id": "jiji-02dd183981747695",
+      "title": "東電福島第１原発、２号機内部調査２日開始 ロボットアーム投入へ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100101073&g=soc"
+    },
+    {
+      "doc_id": "jiji-8a80dc537755a8c0",
+      "title": "「しわ寄せは被害者に」 検察の補充捜査廃止で弁護士―韓国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100794&g=int"
+    },
+    {
+      "doc_id": "jiji-6504a812a72d6803",
+      "title": "民主改革、ロゴマークを発表",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100101029&g=pol"
     },
     {
       "doc_id": "nhk-1a8745b3f1d4e614",
@@ -142,22 +130,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581"
     },
     {
+      "doc_id": "nhk-2d8a6a9b911609ed",
+      "title": "【地震速報】鹿児島 十島村で震度３ 津波の心配なし",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20260929de53192"
+    },
+    {
+      "doc_id": "nhk-1d14c50eac224123",
+      "title": "佐川急便に不正アクセス 住所など個人情報が漏えいか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53762"
+    },
+    {
+      "doc_id": "nhk-6de0ac3ab1c1e913",
+      "title": "「副首都」要件案判明 人口全国の1.2％以上など 4市満たす",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53765"
+    },
+    {
+      "doc_id": "nhk-5d8ebb111af5a294",
+      "title": "ICC赤根所長への制裁撤回求める17万筆余の署名を提出",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53764"
+    },
+    {
       "doc_id": "nhk-fd694d6150bddde6",
       "title": "出産無償化へ 厚労省検討会初会合 ことし12月めどにとりまとめ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261001de53728"
-    },
-    {
-      "doc_id": "nhk-5cbc0243e3515fb2",
-      "title": "広島 4選手と来季契約結ばず 球団「信頼関係築くのが難しい」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53613"
-    },
-    {
-      "doc_id": "nhk-c9ed2fe35aa29c1e",
-      "title": "人気ユーチューバー逮捕 女性の下半身触った疑い",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53656"
     },
     {
       "doc_id": "itmedia-743326081f6d2742",
