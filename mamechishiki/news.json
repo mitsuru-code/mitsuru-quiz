@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-01T06:00:14+00:00",
-  "now_ms": 1790834414493,
+  "fetched_at": "2026-10-01T13:21:53+00:00",
+  "now_ms": 1790860913922,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,100 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-971dc5389a2823e6",
-      "title": "日経平均 一時2100円超値上がり",
+      "doc_id": "yahoo-28606cf781f71e53",
+      "title": "青森秋田岩手の3銀行 統合協議へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597168"
+      "link": "https://news.yahoo.co.jp/pickup/6597211"
     },
     {
-      "doc_id": "yahoo-e8fff2f6807cc4d2",
-      "title": "自民生稲・朝日氏 公選法違反疑い",
+      "doc_id": "yahoo-bcdf79fb57f8d84b",
+      "title": "統一地方選 4月11・25日投票へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597159"
+      "link": "https://news.yahoo.co.jp/pickup/6597206"
     },
     {
-      "doc_id": "yahoo-7dd245fd6d84c4f1",
-      "title": "京都・二条城 二重価格を導入へ",
+      "doc_id": "yahoo-17c00bc61c478d2b",
+      "title": "無許可でモスク建設 市が撤去命令",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597164"
+      "link": "https://news.yahoo.co.jp/pickup/6597207"
     },
     {
-      "doc_id": "yahoo-67eaebeecfd95efa",
-      "title": "病院でチューブ誤挿入 意識不明",
+      "doc_id": "yahoo-8478b24318b772ef",
+      "title": "滋賀の工場で爆発 男性の遺体発見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597160"
+      "link": "https://news.yahoo.co.jp/pickup/6597208"
     },
     {
-      "doc_id": "yahoo-eb525eb555f1ebf4",
-      "title": "「ヴァンビ」 白井容疑者を逮捕",
+      "doc_id": "yahoo-44814f05c5569942",
+      "title": "マックのドナルド 「ロナルド」に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597167"
+      "link": "https://news.yahoo.co.jp/pickup/6597212"
     },
     {
-      "doc_id": "yahoo-8f31a59bd44aba91",
-      "title": "広島 小園・矢野ら4選手を戦力外",
+      "doc_id": "yahoo-4ff80808ca9a6639",
+      "title": "小園ら戦力外 カープ監督「残念」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597166"
+      "link": "https://news.yahoo.co.jp/pickup/6597210"
     },
     {
-      "doc_id": "yahoo-01655dce6dd58ffc",
-      "title": "野上さん急逝受け オリ自主練習に",
+      "doc_id": "yahoo-b3c5409037e26f65",
+      "title": "森保J エクアドルにPK戦の末勝利",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597163"
+      "link": "https://news.yahoo.co.jp/pickup/6597213"
     },
     {
-      "doc_id": "yahoo-017a890076a8f339",
-      "title": "伊東四朗 来年6月で芸能活動引退",
+      "doc_id": "yahoo-aceff388c631fe01",
+      "title": "timelesz 解散の文字出なかった",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597162"
+      "link": "https://news.yahoo.co.jp/pickup/6597214"
+    },
+    {
+      "doc_id": "jiji-780cee7f952bc86a",
+      "title": "ユーチューバーの「ヴァンビ」逮捕 クラブで女性の下半身触った疑い―警視庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100800&g=soc"
+    },
+    {
+      "doc_id": "jiji-1c7de18ee8e3ad62",
+      "title": "マンション投機に規制 自民、高市首相に提言―外国人政策",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100101024&g=pol"
+    },
+    {
+      "doc_id": "jiji-5074b266ac619c6f",
+      "title": "茂木氏、柔軟性発揮求める イラン外相と電話会談",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100101052&g=pol"
+    },
+    {
+      "doc_id": "jiji-8a80dc537755a8c0",
+      "title": "「しわ寄せは被害者に」 検察の補充捜査廃止で弁護士―韓国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100794&g=int"
+    },
+    {
+      "doc_id": "jiji-e0f4677f1f54ae52",
+      "title": "「補充捜査」巡り懸念も 検察庁廃止で女性団体―韓国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100773&g=int"
+    },
+    {
+      "doc_id": "jiji-3a7846b50fb0d47b",
+      "title": "ノーベル賞、「今後につなげて」 日本被団協が報告集―決定から授賞式後まで回想",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100671&g=soc"
+    },
+    {
+      "doc_id": "jiji-7a1b827c2fe24d29",
+      "title": "柔道の藤原、谷岡、前田が金 レスリングは仲里Ｖ―愛知・名古屋アジア大会",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100959&g=spo"
+    },
+    {
+      "doc_id": "jiji-f7c202fc4909f3e6",
+      "title": "はやぶさ２、エンジン故障 初代救った「クロス運転」で再開へ―最終の小惑星向け航行継続・ＪＡＸＡ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100100139&g=soc"
     },
     {
       "doc_id": "jiji-8090fd7b069223a7",
@@ -64,88 +112,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026093001018&g=spo"
     },
     {
-      "doc_id": "jiji-a44d0404ffa604fc",
-      "title": "猪俣周杜さんの契約解除 傷害容疑で逮捕・釈放",
+      "doc_id": "jiji-1f0c1f96ae7b0fc9",
+      "title": "「ファストパス」、飲食店で拡大 タイパ背景、行列を回避―専門家「他施設に広がる余地」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100393&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026092900597&g=soc"
     },
     {
-      "doc_id": "jiji-fee8196528ea6af7",
-      "title": "永住許可、きょう要件厳格化 平均年収「日本人超」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100012&g=pol"
-    },
-    {
-      "doc_id": "jiji-e38f052ca910270f",
-      "title": "韓国、３０兆円超対米投資 第１弾はアラスカＬＮＧ、原発８基",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100447&g=int"
-    },
-    {
-      "doc_id": "jiji-58a21bbe4b5ad0d6",
-      "title": "トランプ氏「米国の勝利」 イラク撤収を自賛",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100353&g=int"
-    },
-    {
-      "doc_id": "jiji-9d05ddfa7fedbef9",
-      "title": "交差点で正面衝突、３人死亡 乗用車が炎上、２人搬送―千葉",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026092900387&g=soc"
-    },
-    {
-      "doc_id": "jiji-3c5ea19e99ee8869",
-      "title": "イスラエル行き旅客機が緊急着陸 副操縦士が墜落企図か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093001110&g=int"
-    },
-    {
-      "doc_id": "jiji-db246c7f7eee715e",
-      "title": "簗農水相、地元予算「カットした」 就任前、選挙絡め発言と報道―木原官房長官「調査中」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093000975&g=pol"
-    },
-    {
-      "doc_id": "jiji-c58b400273d2e584",
-      "title": "革新勢力の悲願、２日に検察庁廃止 「起訴」「捜査」に分割―韓国",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100228&g=int"
-    },
-    {
-      "doc_id": "jiji-940ff8827160bf1f",
-      "title": "能動サイバー防御、きょう開始 警察・自衛隊が「無害化」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093001094&g=pol"
-    },
-    {
-      "doc_id": "nhk-5cbc0243e3515fb2",
-      "title": "広島 4選手と来季契約結ばず 球団「信頼関係築くのが難しい」",
+      "doc_id": "nhk-0a8d831e6c39fcd1",
+      "title": "【地震速報】茨城県と千葉県で震度3",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53613"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53739"
+    },
+    {
+      "doc_id": "nhk-2f2c7f2340d27c96",
+      "title": "青森みちのく銀行 岩手銀行 秋田銀行が経営統合協議へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53731"
     },
     {
       "doc_id": "nhk-1a8745b3f1d4e614",
-      "title": "台風27号が発生 日本のはるか南 進路予報に幅も最新情報確認を",
+      "title": "台風27号 勢力を強めながら日曜日ごろ小笠原近海へ進む見込み",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261001de53515"
-    },
-    {
-      "doc_id": "nhk-1b1886357e70cdd0",
-      "title": "東京湾アクアラインで車4台事故 1人死亡1人重体",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53536"
-    },
-    {
-      "doc_id": "nhk-b7ab47a4ff24b9ce",
-      "title": "TBSテレビ ドラマ「VIVANT」監督をパワハラで処分",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53513"
-    },
-    {
-      "doc_id": "nhk-b425f2b118d06c53",
-      "title": "ソフトバンク子会社の元常務を逮捕 1億7000万円着服か",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53598"
     },
     {
       "doc_id": "nhk-7f148bd321505507",
@@ -154,10 +142,76 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261001de53581"
     },
     {
-      "doc_id": "nhk-099cf7821b529d17",
-      "title": "「timelesz」猪俣周杜メンバーの契約解除 所属事務所が発表",
+      "doc_id": "nhk-fd694d6150bddde6",
+      "title": "出産無償化へ 厚労省検討会初会合 ことし12月めどにとりまとめ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53556"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53728"
+    },
+    {
+      "doc_id": "nhk-5cbc0243e3515fb2",
+      "title": "広島 4選手と来季契約結ばず 球団「信頼関係築くのが難しい」",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53613"
+    },
+    {
+      "doc_id": "nhk-c9ed2fe35aa29c1e",
+      "title": "人気ユーチューバー逮捕 女性の下半身触った疑い",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261001de53656"
+    },
+    {
+      "doc_id": "itmedia-743326081f6d2742",
+      "title": "申し込み画面に知らない人の名前や連絡先……チケットサイトで個人情報の誤表示 最大107人分",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001941/"
+    },
+    {
+      "doc_id": "itmedia-ad590ea0e7282c59",
+      "title": "ソフトバンクG、OpenAIへの追加出資が完了 累計10兆円超 持分約13％に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001944/"
+    },
+    {
+      "doc_id": "itmedia-aae832b7cf0a6088",
+      "title": "免許証の悪用防止で申し込み集中 JICCがアプリ受付を一時休止 タイムズカー漏えいの影響か",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001943/"
+    },
+    {
+      "doc_id": "itmedia-613402402f55baf6",
+      "title": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001942/"
+    },
+    {
+      "doc_id": "itmedia-af8a2f9984fc7d16",
+      "title": "佐川急便、不正アクセスで個人情報流出か 送り主・届け先の氏名や住所など、約100日分の荷物データ対象",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001933/"
+    },
+    {
+      "doc_id": "itmedia-e03176a9ed547e86",
+      "title": "米連邦取引委がAI大手の調査開始 AnthropicやOpenAIなど、暴走や悪用の懸念",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001931/"
+    },
+    {
+      "doc_id": "itmedia-d390d7ccf4379640",
+      "title": "中古アニメグッズ「らしんばん」に不正アクセス 口座情報や本人確認書類の番号など漏えいの恐れ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001927/"
+    },
+    {
+      "doc_id": "itmedia-bbb7c21212bc1afb",
+      "title": "OpenAI、推論過程を狙った組織的な“蒸留”行為を阻止 「Kimi」開発元の関係者が関与と主張",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001929/"
+    },
+    {
+      "doc_id": "itmedia-f6141e637d3044e6",
+      "title": "吉野家HD、バイト応募者の個人情報5366件漏えい 元委託先に不正アクセス 契約終了もデータ残存",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001928/"
     },
     {
       "doc_id": "itmedia-6763076a1f04a2da",
@@ -178,58 +232,52 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001921/"
     },
     {
-      "doc_id": "itmedia-c35775eaaf4700a9",
-      "title": "TikTok「広告制作をより速く」 生成AI「Seedance」のビジネス活用進む",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001920/"
+      "doc_id": "nazology-5a1db6ad7296cb85",
+      "title": "「LSDなどの幻覚剤」自分のことを考える脳の力を弱めると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200391"
     },
     {
-      "doc_id": "itmedia-2860a03410c0ccc6",
-      "title": "「能動的サイバー防御」きょう開始 警察・自衛隊などが攻撃元サーバを無害化 高市首相も狙いを説明",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001918/"
+      "doc_id": "nazology-e01d1463c77b8703",
+      "title": "学校の「好きな人」を調べたら両思いは約12％だけだった――中高生1895人のリアル",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200572"
     },
     {
-      "doc_id": "itmedia-477332dd585b2c59",
-      "title": "Reddit、RSSフィードを11月13日に終了 公開APIも2027年3月に閉鎖へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001919/"
+      "doc_id": "nazology-70214aee913e4aba",
+      "title": "自殺の考えや行動は「うつ病より遺伝しやすい」と判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200361"
     },
     {
-      "doc_id": "itmedia-815104c93f044e1f",
-      "title": "がんの死亡リスク、350mlの缶ビールを1日1本で増加？ アルコール起因のがん死亡数が33年間で2倍に 米国研究",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001902/"
+      "doc_id": "nazology-b772d4be0b229b7b",
+      "title": "女性の胸のふくらみは、赤ちゃんを温めるために進化したのかもしれない",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200564"
     },
     {
-      "doc_id": "itmedia-8c4d0ea90727c53c",
-      "title": "睡眠中に「ピンクノイズ」を聞くと“脳内ゴミ”の洗い流しが強まる？ 米MITが人間で実験 Science系列誌で発表",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001901/"
+      "doc_id": "nazology-fa3675d8065c7b3b",
+      "title": "脳の老け方は「腸内細菌」と結びついていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200435"
     },
     {
-      "doc_id": "itmedia-66c0f567bfefdedb",
-      "title": "素材と完成動画を見せるだけ “型”を覚えたAIに動画編集をどこまで託せるか GPT-6 Astraで試す",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001910/"
+      "doc_id": "nazology-af9576e480c71a2a",
+      "title": "発明家の「創造性を鈍らせる」ある安心とは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200402"
     },
     {
-      "doc_id": "itmedia-8aeb4824d6c80f78",
-      "title": "フードデリバリー「menu」きょう午後8時にサービス終了 公式X「心より感謝」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001899/"
+      "doc_id": "nazology-e205f57ae50a55f4",
+      "title": "夜に浴びる光が多い人ほど心臓に「害になりうる変化」",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200408"
     },
     {
-      "doc_id": "itmedia-7f5eceb11fee1a65",
-      "title": "セイコーマート、会員のほぼ半数に当たる情報漏えい 約57万人分",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001906/"
-    },
-    {
-      "doc_id": "itmedia-7b11e1493badaa76",
-      "title": "Googleの「謎キーボード」に今年も新作 “ベルトコンベヤー”でキーが流れてくる「くるくるバージョン」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/01/2000001907/"
+      "doc_id": "nazology-eca1d35be44bee46",
+      "title": "コウモリは約6500万年前のヨーロッパで生まれた可能性が高い",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200413"
     },
     {
       "doc_id": "nazology-75818a66a09b8a72",
@@ -242,54 +290,6 @@
       "title": "大麻をほぼ毎日使う重いてんかん患者は「発作が2倍」だった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200379"
-    },
-    {
-      "doc_id": "nazology-fc0dad0fce23b89e",
-      "title": "見た目以外に「異性への魅力度」を高めるポイントが判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/184755"
-    },
-    {
-      "doc_id": "nazology-bdbb276534022e4b",
-      "title": "恋人との良い関係に繋がった「5つの愛の言語」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200419"
-    },
-    {
-      "doc_id": "nazology-229e085548813f88",
-      "title": "「レアアース」で作った「世界一正確な時計」",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200430"
-    },
-    {
-      "doc_id": "nazology-cc6d9eb0343da4f2",
-      "title": "移植された心臓に見られた「ある意外な変化」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200385"
-    },
-    {
-      "doc_id": "nazology-e1c0bae39edb3a0e",
-      "title": "量子コンピューターを「宇宙」で初めて動かすことに成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200397"
-    },
-    {
-      "doc_id": "nazology-b369cedd09496d1a",
-      "title": "自閉的な特性が強い人ほど恋愛で避けがちな「ある行動」",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200266"
-    },
-    {
-      "doc_id": "nazology-a3f7ce98e235c775",
-      "title": "恒星の自転と「逆向き」に回る奇妙な惑星を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200304"
-    },
-    {
-      "doc_id": "nazology-410950d49f40e590",
-      "title": "心理療法に幻覚剤「アヤワスカ」を加えると悲しみが和らいだ",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200260"
     }
   ]
 }
