@@ -23,7 +23,7 @@ def safe_name(s):
 def file_name(job, sc):
     # 投稿枠つき: 20260927_0700_題名 / 単発: 20260926_題名
     date = job.get("postDate") or datetime.fromtimestamp(job.get("requestedAt", time.time() * 1000) / 1000).strftime("%Y%m%d")
-    return "_".join(x for x in (date, job.get("slot"), safe_name(sc["title"])) if x)
+    return "_".join(x for x in (date, "時事" if job.get("news") else None, job.get("slot"), safe_name(sc["title"])) if x)
 
 def archive_images(folder):
     """書き出しに使った素材フォルダを「豆知識素材\\取り込み済み」へ移す（削除はしない）。

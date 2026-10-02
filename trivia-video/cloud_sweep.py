@@ -13,7 +13,7 @@ def main():
         if not name.endswith(".mp4"): continue
         m = re.match(r"(\d{8})_(\d{4})?_?", name)
         if not m or m.group(1) >= today: continue
-        dest = "期限切れ" if m.group(2) == "1800" else "未投稿ストック"
+        dest = "期限切れ" if (m.group(2) == "1800" or "_時事_" in name) else "未投稿ストック"
         stem = name[:-4]
         for f in [x for x in files if x.startswith(stem)]:
             subprocess.run(["rclone", "moveto", f"{BASE}/{f}", f"{BASE}/{dest}/{f}"], check=True)
