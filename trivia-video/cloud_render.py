@@ -24,6 +24,12 @@ def fetch_images(folder):
     return len([f for f in glob.glob(os.path.join(dst, "*")) if f.lower().endswith(IMG_EXT)])
 
 def main():
+    # まずGoogleドライブに接続できるか確かめ、だめなら理由を results に残して止める（ログが見られない環境のため）
+    chk = rclone("lsd", f"{REMOTE}:", "--max-depth", "1")
+    if chk.returncode != 0:
+        open(os.path.join(RESULTS, "_rclone_error.txt"), "w", encoding="utf-8").write(
+            time.strftime("%Y-%m-%d %H:%M:%S") + "\n" + (chk.stderr or chk.stdout)[-1500:])
+        print("rclone error"); return
     now = int(time.time() * 1000)
     for f in sorted(glob.glob(os.path.join(JOBS, "*.json"))):
         job = json.load(open(f, encoding="utf-8"))
