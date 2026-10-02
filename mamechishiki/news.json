@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-02T12:40:40+00:00",
-  "now_ms": 1790944840090,
+  "fetched_at": "2026-10-02T18:27:16+00:00",
+  "now_ms": 1790965636534,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,34 +10,40 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-ad1855b52e97e0b4",
-      "title": "津市で火災 焼け跡から4人の遺体",
+      "doc_id": "yahoo-1c94ce521493cd9a",
+      "title": "G7 石油備蓄1億バレル協調放出へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597318"
+      "link": "https://news.yahoo.co.jp/pickup/6597336"
     },
     {
-      "doc_id": "yahoo-589abc8f71e7406c",
-      "title": "免許証画像流出 集団訴訟動き進む",
+      "doc_id": "yahoo-c169ad3323deed52",
+      "title": "第一ライフG 従業員情報漏えいか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597293"
+      "link": "https://news.yahoo.co.jp/pickup/6597333"
     },
     {
-      "doc_id": "yahoo-ff57702ddfc6a18a",
-      "title": "山中でシカに襲われたか 男性死亡",
+      "doc_id": "yahoo-4ca5913759da3283",
+      "title": "情報漏えい相次ぐ「異様」と識者",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597314"
+      "link": "https://news.yahoo.co.jp/pickup/6597326"
     },
     {
-      "doc_id": "yahoo-c977644869731e63",
-      "title": "スガキヤが「ドムドム」子会社化",
+      "doc_id": "yahoo-02e1d6b892b2e96e",
+      "title": "焼け跡に4遺体 4歳から13歳の子か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597315"
+      "link": "https://news.yahoo.co.jp/pickup/6597334"
     },
     {
-      "doc_id": "yahoo-70688cba8e768282",
-      "title": "もう辞めたい「フキハラ」の実態",
+      "doc_id": "yahoo-e6030c5bfcb4a659",
+      "title": "童謡など作曲 服部公一さんが死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597263"
+      "link": "https://news.yahoo.co.jp/pickup/6597332"
+    },
+    {
+      "doc_id": "yahoo-f8a85451c3aeb301",
+      "title": "森保J 大物カップルが続々誕生",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597327"
     },
     {
       "doc_id": "yahoo-1a2901446c40ec5e",
@@ -46,28 +52,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6597319"
     },
     {
-      "doc_id": "yahoo-426c6fe0525a7631",
-      "title": "小園ら戦力外 移籍市場はどう評価",
+      "doc_id": "yahoo-7ef8955aefc91686",
+      "title": "都築謹慎の四千頭身 コンビでM-1",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597310"
+      "link": "https://news.yahoo.co.jp/pickup/6597331"
     },
     {
-      "doc_id": "yahoo-5a3fb3c8f6d993c2",
-      "title": "速報サッカー女子 日本vs.北朝鮮",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597311"
-    },
-    {
-      "doc_id": "jiji-92cf66a9fd0e6df4",
-      "title": "日本政府、ロシアに追加制裁 「影の船団」３５隻を指定",
+      "doc_id": "jiji-9bb95c8b4f354ee9",
+      "title": "久保建英選手と福原遥さん結婚 サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200901&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100201122&g=soc"
     },
     {
-      "doc_id": "jiji-1bc1c3d70bc6f6ce",
-      "title": "「紀州のドン・ファン」遺言、有効確定 田辺市に遺産１３億円寄付―最高裁",
+      "doc_id": "jiji-d5daf25089556524",
+      "title": "服部公一さん死去、９３歳 「アイスクリームのうた」作曲家",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200879&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100201197&g=soc"
+    },
+    {
+      "doc_id": "jiji-f04dc76ed093a602",
+      "title": "北海道、愛知、大阪、福岡が該当 「副首都」で指定要件案―政府",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300006&g=pol"
+    },
+    {
+      "doc_id": "jiji-0eb28000c9c6b38c",
+      "title": "三重・津で住宅火災、４遺体見つかる 子ども４人と連絡取れず",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100200840&g=soc"
     },
     {
       "doc_id": "jiji-d8c4fd6e10c2e634",
@@ -76,46 +88,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026100200786&g=pol"
     },
     {
-      "doc_id": "jiji-683cc3b4197b89ab",
-      "title": "簗和生（やな・かずお）農林水産相は午後５時半から国会内で記者会見する",
+      "doc_id": "jiji-1bc1c3d70bc6f6ce",
+      "title": "「紀州のドン・ファン」遺言、有効確定 田辺市に遺産１３億円寄付―最高裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200781&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026100200879&g=soc"
     },
     {
-      "doc_id": "jiji-babbbcf5a752dfe7",
-      "title": "杉村、涙の金メダル アジア大会・柔道",
+      "doc_id": "jiji-15be4e381999d373",
+      "title": "Ｇ７、石油最大１億バレル放出 ４カ月で、マクロン仏大統領表明",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201036&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100201202&g=int"
     },
     {
-      "doc_id": "jiji-780cee7f952bc86a",
-      "title": "ユーチューバーの「ヴァンビ」逮捕 クラブで女性の下半身触った疑い―警視庁",
+      "doc_id": "jiji-5ea579ccebc91013",
+      "title": "セ・リーグ公示（２日） プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100800&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100200811&g=spo"
     },
     {
-      "doc_id": "jiji-0eb28000c9c6b38c",
-      "title": "住宅火災、４遺体見つかる 子ども４人と連絡取れず―津",
+      "doc_id": "jiji-78d7546927b578b2",
+      "title": "政調会長に中野氏起用へ 西田幹事長は続投―公明",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200840&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100201102&g=pol"
     },
     {
-      "doc_id": "jiji-586ec26634ef607c",
-      "title": "台湾の蔡英文前総統、退任後初の訪米へ",
+      "doc_id": "jiji-f3c82500b26b1acf",
+      "title": "パ・リーグ公示（２日） プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201007&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100200954&g=spo"
     },
     {
-      "doc_id": "jiji-c8bd5c952e873068",
-      "title": "筒井信隆さん死去 元民主党衆院議員",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200945&g=pol"
-    },
-    {
-      "doc_id": "jiji-68c9d8feb50cdfe6",
-      "title": "鈴木颯、仮想空間で奮闘 アジア大会・バーチャルテコンドー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200982&g=spo"
+      "doc_id": "nhk-3002c15baef3d2cf",
+      "title": "G7首脳会議 軽油など石油備蓄1億バレル 4か月間で放出へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54004"
     },
     {
       "doc_id": "nhk-df3291b5810c38b9",
@@ -124,34 +130,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261002de53976"
     },
     {
+      "doc_id": "nhk-1cd96ca2bc06caa4",
+      "title": "タイとミャンマー国境付近で日本人2人を保護 詐欺拠点滞在か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54003"
+    },
+    {
+      "doc_id": "nhk-c9078bfe222b4778",
+      "title": "サッカー日本代表 久保建英選手と俳優 福原遥さんが結婚を発表",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53982"
+    },
+    {
       "doc_id": "nhk-5a3ab233be93d997",
       "title": "津市で住宅火災 4人の遺体見つかる 子ども4人と連絡取れず",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261002de53924"
     },
     {
-      "doc_id": "nhk-c77388e8dce17a79",
-      "title": "「タイムズカー」免許画像など漏えい 集団訴訟の登録者1万人超",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53951"
-    },
-    {
-      "doc_id": "nhk-83d039cbef03190f",
-      "title": "台風25号 千葉 盛り土崩落 少なくとも5件 過去に危険性指摘も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53849"
-    },
-    {
       "doc_id": "nhk-b5b1150b39816ca6",
       "title": "台風27号 4日に小笠原近海へ進む見込み 今後の情報に注意",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261002de53779"
-    },
-    {
-      "doc_id": "nhk-42c148db9bff1aab",
-      "title": "千葉 印旛沼の決壊“避難の呼びかけ”自治体によって対応に差",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53805"
     },
     {
       "doc_id": "nhk-7286720f1d20b9b2",
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001953/"
     },
     {
+      "doc_id": "nazology-267cd8dd287f24c7",
+      "title": "星形の指先で獲物を「見る」カエルがいると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200510"
+    },
+    {
+      "doc_id": "nazology-b9c044a6503ee419",
+      "title": "左利きの人は競争心が強い――1129人を調べて見えた奇妙な違い",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200581"
+    },
+    {
       "doc_id": "nazology-eafc1e2f77304951",
       "title": "イチゴに「服」を着せたら収穫が3倍以上に",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "吸血鬼を恐れた人々が死者の首に「置いていたもの」とは？",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200424"
-    },
-    {
-      "doc_id": "nazology-dc86a5aedb909f48",
-      "title": "「思春期に孤独だった人」ほど大人になって不安定なものとは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200372"
-    },
-    {
-      "doc_id": "nazology-5a1db6ad7296cb85",
-      "title": "「LSDなどの幻覚剤」自分のことを考える脳の力を弱めると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200391"
     }
   ]
 }
