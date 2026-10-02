@@ -1,0 +1,87 @@
+{
+  "status": "verified",
+  "requestedAt": 1790917892562,
+  "postDate": "20261002",
+  "slot": null,
+  "news": false,
+  "title": "生のパイナップルでゼリーが固まらない、その犯人は酵素",
+  "script": {
+    "title": "生のパイナップルでゼリーが固まらない、その犯人は酵素",
+    "genre": "食べ物",
+    "hook": "生パイナップル、ゼリーが固まらない！？",
+    "intro": "ゼリーに果物を入れれば、何でもおいしく固まる。そう思っていませんか？",
+    "question": "生のパイナップル入りゼリーが固まらない理由、わかりますか？",
+    "points": [
+      {
+        "head": "缶詰なら固まる",
+        "text": "缶詰のパイナップルは加熱されていて酵素が働かないので、ゼラチンでも固まります。"
+      },
+      {
+        "head": "キウイも同じ",
+        "text": "生のキウイやパパイヤにも、たんぱく質を分解する酵素があり、固まりにくくなります。"
+      },
+      {
+        "head": "寒天なら大丈夫",
+        "text": "寒天は海藻から作られていて、たんぱく質ではないため、生のパイナップルでも固まります。"
+      }
+    ],
+    "conclusion": "答えは酵素です。生のパイナップルのブロメラインが、ゼラチンのたんぱく質を分解してしまいます。",
+    "share": "生のパイナップルでゼリーが固まらないのは酵素のせいなんだって。缶詰なら固まるらしいよ。",
+    "post": "パイナップル入りゼリーが固まらなかったこと、ありませんか？🍍\n\n犯人はパイナップルに含まれる「ある酵素」。\n缶詰なら大丈夫な理由も1分で👇\n\n#豆知識 #雑学 #料理",
+    "emoji": {
+      "hook": "🍍🍮",
+      "intro": "🤔",
+      "points": ["🥫", "🥝", "🌊"],
+      "conclusion": "🧪",
+      "share": "🗣️"
+    },
+    "imageFolder": "20261002_2559-3",
+    "imagePrompts": [
+      {
+        "scene": "hook",
+        "prompt": "テーブルの上に、切ったパイナップルと、うまく固まらずに崩れたゼリーのお皿が並んでいる様子。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      },
+      {
+        "scene": "point0",
+        "prompt": "パイナップルの缶詰と、きれいに固まったパイナップル入りゼリー。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      }
+    ]
+  },
+  "verify": {
+    "checkedAt": 1790917968160,
+    "claims": [
+      {
+        "claim": "生パイナップルの酵素ブロメラインがゼラチンを分解",
+        "verdict": "confirmed",
+        "note": "ペプチド結合を加水分解",
+        "sources": [
+          { "title": "Bromelain: A Potent Phytomedicine", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9463608/" }
+        ]
+      },
+      {
+        "claim": "缶詰パイナップルは加熱で酵素が失活し固まる",
+        "verdict": "confirmed",
+        "note": "熱変性で酵素活性を失う",
+        "sources": [
+          { "title": "Bromelain: A Potent Phytomedicine", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9463608/" }
+        ]
+      },
+      {
+        "claim": "キウイやパパイヤにも同様のたんぱく質分解酵素がある",
+        "verdict": "confirmed",
+        "note": "キウイはアクチニジン、パパイヤはパパイン",
+        "sources": [
+          { "title": "Actinidain", "url": "https://en.wikipedia.org/wiki/Actinidain" }
+        ]
+      },
+      {
+        "claim": "寒天は海藻由来でたんぱく質でないため生パイナップルでも固まる",
+        "verdict": "confirmed",
+        "note": "多糖類で酵素の基質にならない",
+        "sources": [
+          { "title": "Actinidain", "url": "https://en.wikipedia.org/wiki/Actinidain" }
+        ]
+      }
+    ]
+  }
+}

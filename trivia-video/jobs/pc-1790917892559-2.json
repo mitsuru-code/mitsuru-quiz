@@ -1,0 +1,79 @@
+{
+  "status": "verified",
+  "requestedAt": 1790917892561,
+  "postDate": "20261002",
+  "slot": null,
+  "news": false,
+  "title": "赤い星なのに夕焼けは青い、火星の空の不思議",
+  "script": {
+    "title": "赤い星なのに夕焼けは青い、火星の空の不思議",
+    "genre": "宇宙",
+    "hook": "赤い星、火星の夕焼けは青い！",
+    "intro": "赤い惑星だから、夕焼けもきっと真っ赤。そう思っていませんか？",
+    "question": "火星の夕焼け、何色だと思いますか？",
+    "points": [
+      {
+        "head": "昼の空は赤茶色",
+        "text": "火星の昼の空は、舞い上がった細かい砂ぼこりの影響で、赤茶色っぽく見えます。"
+      },
+      {
+        "head": "砂ぼこりが青く光る",
+        "text": "火星の砂ぼこりは青い光を前に散らしやすく、夕方は太陽のまわりだけが青く見えるとされます。"
+      },
+      {
+        "head": "地球とは逆",
+        "text": "地球の夕焼けが赤いのは、青い光が途中で散らばって、赤い光が多く届くためです。"
+      }
+    ],
+    "conclusion": "答えは青です。NASAの探査車キュリオシティが、太陽のまわりが青く光る火星の夕日を撮影しています。",
+    "share": "火星の夕焼けって青いんだって。昼の空は赤っぽくて、地球と逆らしいよ。",
+    "post": "赤い惑星・火星。その夕焼けは何色だと思いますか？🔴\n\n実はNASAの探査車が撮った火星の夕日は「青」。\n地球と逆になるワケを1分で👇\n\n#豆知識 #雑学 #宇宙",
+    "emoji": {
+      "hook": "🔴🌅",
+      "intro": "🤔",
+      "points": ["🟤", "🌫️", "🌍"],
+      "conclusion": "🔵🌅",
+      "share": "🗣️"
+    },
+    "imageFolder": "20261002_2559-2",
+    "imagePrompts": [
+      {
+        "scene": "hook",
+        "prompt": "赤茶色の荒野が広がる火星の地平線に、青白く光る夕日が沈んでいく様子のイメージ図。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      },
+      {
+        "scene": "point2",
+        "prompt": "左に赤い夕焼けの地球、右に青い夕焼けの火星を並べて比べたイメージ図。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      }
+    ]
+  },
+  "verify": {
+    "checkedAt": 1790917968160,
+    "claims": [
+      {
+        "claim": "NASAのキュリオシティが火星の青い夕日を撮影",
+        "verdict": "confirmed",
+        "note": "2015年撮影、NASA公式発表",
+        "sources": [
+          { "title": "NASA's Curiosity Sees Blue Sunset on Mars", "url": "https://svs.gsfc.nasa.gov/11875" }
+        ]
+      },
+      {
+        "claim": "火星の夕焼けは青く昼の空は赤茶色",
+        "verdict": "confirmed",
+        "note": "砂塵が青光を前方散乱",
+        "sources": [
+          { "title": "Watch: Curiosity rover records blue sunset on Mars", "url": "https://www.science.org/content/article/watch-curiosity-rover-records-blue-sunset-mars" }
+        ]
+      },
+      {
+        "claim": "地球の夕焼けが赤いのは火星と逆の散乱機構",
+        "verdict": "confirmed",
+        "note": "科学的に確立した説明",
+        "sources": [
+          { "title": "Watch: Curiosity rover records blue sunset on Mars", "url": "https://www.science.org/content/article/watch-curiosity-rover-records-blue-sunset-mars" }
+        ]
+      }
+    ]
+  }
+}

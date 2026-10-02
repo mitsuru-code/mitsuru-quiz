@@ -1,0 +1,79 @@
+{
+  "status": "verified",
+  "requestedAt": 1790917892560,
+  "postDate": "20261002",
+  "slot": null,
+  "news": false,
+  "title": "ピンクは生まれつきじゃない、フラミンゴの色は食べ物で決まる",
+  "script": {
+    "title": "ピンクは生まれつきじゃない、フラミンゴの色は食べ物で決まる",
+    "genre": "生き物",
+    "hook": "フラミンゴのピンク、実は食べ物の色！",
+    "intro": "ピンク色の鳥だから、生まれつきピンク。そう思っていませんか？",
+    "question": "フラミンゴのピンク色、どこから来ると思いますか？",
+    "points": [
+      {
+        "head": "ヒナは灰色",
+        "text": "生まれたばかりのヒナは灰色っぽい羽で、大人になるにつれてピンクに変わっていきます。"
+      },
+      {
+        "head": "エサで色が変わる",
+        "text": "飼育下でも、色素を含むエサを与えないと、羽の色がだんだん薄くなるとされます。"
+      },
+      {
+        "head": "親は赤いミルクで子育て",
+        "text": "親は、のどの奥から赤っぽい「フラミンゴミルク」を出して、ヒナに口移しで与えます。"
+      }
+    ],
+    "conclusion": "答えはエサです。藻や小さなエビに含まれるカロテノイドという色素が、羽をピンクに染めています。",
+    "share": "フラミンゴって生まれたときは灰色なんだって。ピンクはエサの色素のおかげらしいよ。",
+    "post": "フラミンゴのピンク色、生まれつきだと思っていませんか？🦩\n\n実はヒナは灰色。あのピンクは「食べ物」の色なんです。\n親が飲ませる赤いミルクの話も1分で👇\n\n#豆知識 #雑学 #生き物",
+    "emoji": {
+      "hook": "🦩",
+      "intro": "🤔",
+      "points": ["🐣", "🍽️", "🍼"],
+      "conclusion": "🦐🌿",
+      "share": "🗣️"
+    },
+    "imageFolder": "20261002_2559-1",
+    "imagePrompts": [
+      {
+        "scene": "hook",
+        "prompt": "湖のほとりに立つ、鮮やかなピンク色のフラミンゴの群れ。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      },
+      {
+        "scene": "point0",
+        "prompt": "灰色のふわふわしたフラミンゴのヒナと、ピンク色の親鳥が寄り添っている様子。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      }
+    ]
+  },
+  "verify": {
+    "checkedAt": 1790917968160,
+    "claims": [
+      {
+        "claim": "ヒナは灰色で生まれ成長とともにピンクになる",
+        "verdict": "confirmed",
+        "note": "国立動物園等が確認",
+        "sources": [
+          { "title": "Why Are Flamingos Pink? And Other Flamingo Facts", "url": "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts" }
+        ]
+      },
+      {
+        "claim": "カロテノイド色素を含むエサで羽がピンクになる",
+        "verdict": "confirmed",
+        "note": "藻・エビのカロテノイドが蓄積",
+        "sources": [
+          { "title": "Why Are Flamingos Pink? And Other Flamingo Facts", "url": "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts" }
+        ]
+      },
+      {
+        "claim": "親はのどから赤いフラミンゴミルクを分泌しヒナに与える",
+        "verdict": "confirmed",
+        "note": "のど分泌の赤いクロップミルク",
+        "sources": [
+          { "title": "Practical Tips for Raising Flamingo Chicks", "url": "https://nationalzoo.si.edu/animals/news/practical-tips-anyone-currently-raising-nine-flamingo-chicks-same-time" }
+        ]
+      }
+    ]
+  }
+}
