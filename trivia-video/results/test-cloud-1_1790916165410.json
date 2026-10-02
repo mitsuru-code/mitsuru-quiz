@@ -1,0 +1,1 @@
+{"key": "test-cloud-1_1790916165410", "status": "error", "file": null, "error": "書き出し失敗: _video.py\", line 195, in setup_theme\n    i = date(int(pd[:4]), int(pd[4:6]), int(pd[6:8])).toordinal() % len(THEMES)\n             ^^^^^^^^^^^\nValueError: invalid literal for int() with base 10", "finishedAt": 1790916208342}
