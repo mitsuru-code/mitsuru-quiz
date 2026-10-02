@@ -191,7 +191,8 @@ def setup_theme(script):
     from datetime import date
     if isinstance(script.get("theme"), int): i = script["theme"] % len(THEMES)
     else:
-        pd = str(script.get("postDate") or date.today().strftime("%Y%m%d"))
+        pd = str(script.get("postDate") or "")
+        if not (len(pd) == 8 and pd.isdigit()): pd = date.today().strftime("%Y%m%d")  # 日付でなければ今日のテーマ
         i = date(int(pd[:4]), int(pd[4:6]), int(pd[6:8])).toordinal() % len(THEMES)
     th = THEMES[i]
     g = (yy / H)[..., None]
