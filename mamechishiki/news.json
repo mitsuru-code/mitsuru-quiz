@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-02T05:42:41+00:00",
-  "now_ms": 1790919761862,
+  "fetched_at": "2026-10-02T12:40:40+00:00",
+  "now_ms": 1790944840090,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,28 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-861ea420e8e05ae7",
-      "title": "農相 報道巡り「回答控える」連発",
+      "doc_id": "yahoo-ad1855b52e97e0b4",
+      "title": "津市で火災 焼け跡から4人の遺体",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597264"
+      "link": "https://news.yahoo.co.jp/pickup/6597318"
     },
     {
-      "doc_id": "yahoo-2bfe08fc726e7348",
-      "title": "ニデック会見 異例の監査法人同席",
+      "doc_id": "yahoo-589abc8f71e7406c",
+      "title": "免許証画像流出 集団訴訟動き進む",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597273"
+      "link": "https://news.yahoo.co.jp/pickup/6597293"
     },
     {
-      "doc_id": "yahoo-b240428967c8182f",
-      "title": "焼け跡から遺体 消防隊員も死亡",
+      "doc_id": "yahoo-ff57702ddfc6a18a",
+      "title": "山中でシカに襲われたか 男性死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597274"
+      "link": "https://news.yahoo.co.jp/pickup/6597314"
     },
     {
-      "doc_id": "yahoo-cbdcc7d213f14878",
-      "title": "喫煙所に車突っ込む 男女5人けが",
+      "doc_id": "yahoo-c977644869731e63",
+      "title": "スガキヤが「ドムドム」子会社化",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597276"
+      "link": "https://news.yahoo.co.jp/pickup/6597315"
     },
     {
       "doc_id": "yahoo-70688cba8e768282",
@@ -40,46 +40,52 @@
       "link": "https://news.yahoo.co.jp/pickup/6597263"
     },
     {
-      "doc_id": "yahoo-c17b4e66e24d1b17",
-      "title": "ローソン「297円弁当」なぜ安い",
+      "doc_id": "yahoo-1a2901446c40ec5e",
+      "title": "久保建英&福原遥 結婚を電撃発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597270"
+      "link": "https://news.yahoo.co.jp/pickup/6597319"
     },
     {
-      "doc_id": "yahoo-f6ba1a72bdecab91",
-      "title": "ボクシング・山口瑠 初出場で金",
+      "doc_id": "yahoo-426c6fe0525a7631",
+      "title": "小園ら戦力外 移籍市場はどう評価",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597275"
+      "link": "https://news.yahoo.co.jp/pickup/6597310"
     },
     {
-      "doc_id": "yahoo-99abab5516ce23e7",
-      "title": "声優・坂東尚樹さん死去",
+      "doc_id": "yahoo-5a3fb3c8f6d993c2",
+      "title": "速報サッカー女子 日本vs.北朝鮮",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597269"
+      "link": "https://news.yahoo.co.jp/pickup/6597311"
     },
     {
-      "doc_id": "jiji-2602bb2b4b86263f",
-      "title": "木原官房長官、ロ大統領発言に反論 将来展望発言には「留意」",
+      "doc_id": "jiji-92cf66a9fd0e6df4",
+      "title": "日本政府、ロシアに追加制裁 「影の船団」３５隻を指定",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200537&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100200901&g=pol"
     },
     {
-      "doc_id": "jiji-4693fa993319b998",
-      "title": "農水・総務相、高市政権の火種に 疑惑報道、野党追及へ",
+      "doc_id": "jiji-1bc1c3d70bc6f6ce",
+      "title": "「紀州のドン・ファン」遺言、有効確定 田辺市に遺産１３億円寄付―最高裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100101009&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100200879&g=soc"
     },
     {
-      "doc_id": "jiji-f647a869b67ef779",
-      "title": "藤井総務相、衆院選での運動員買収否定 「適切に対応」",
+      "doc_id": "jiji-d8c4fd6e10c2e634",
+      "title": "簗農水相「誤解招いた」 続投意向、予算カット発言",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200565&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100200786&g=pol"
     },
     {
-      "doc_id": "jiji-51c71acc31468d5a",
-      "title": "インドでレイプ事件相次ぐ、厳罰化でも増加の一途",
+      "doc_id": "jiji-683cc3b4197b89ab",
+      "title": "簗和生（やな・かずお）農林水産相は午後５時半から国会内で記者会見する",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20260925049389a&g=afp"
+      "link": "https://www.jiji.com/jc/article?k=2026100200781&g=flash"
+    },
+    {
+      "doc_id": "jiji-babbbcf5a752dfe7",
+      "title": "杉村、涙の金メダル アジア大会・柔道",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100201036&g=spo"
     },
     {
       "doc_id": "jiji-780cee7f952bc86a",
@@ -88,76 +94,124 @@
       "link": "https://www.jiji.com/jc/article?k=2026100100800&g=soc"
     },
     {
-      "doc_id": "jiji-8e23200767110d3a",
-      "title": "副操縦士制圧の乗客らに称賛 刺された機長も操縦室の扉を解錠 「並外れた勇敢さ」で緊急着陸",
+      "doc_id": "jiji-0eb28000c9c6b38c",
+      "title": "住宅火災、４遺体見つかる 子ども４人と連絡取れず―津",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200325&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100200840&g=soc"
     },
     {
-      "doc_id": "jiji-ef18826739f3ee24",
-      "title": "変わったのは日本側 日ロ関係、「協力的な姿勢」を―プーチン氏",
+      "doc_id": "jiji-586ec26634ef607c",
+      "title": "台湾の蔡英文前総統、退任後初の訪米へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200232&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100201007&g=int"
     },
     {
-      "doc_id": "jiji-7bffae24c0660771",
-      "title": "アンドロイド端末にマイナカード機能 ２０日から、本人確認可能に―古川デジタル相",
+      "doc_id": "jiji-c8bd5c952e873068",
+      "title": "筒井信隆さん死去 元民主党衆院議員",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200558&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100200945&g=pol"
     },
     {
-      "doc_id": "jiji-db00729f5f47dfa9",
-      "title": "洪水被害、３３５万人超 ２４人死亡、物流にも影響―タイ",
+      "doc_id": "jiji-68c9d8feb50cdfe6",
+      "title": "鈴木颯、仮想空間で奮闘 アジア大会・バーチャルテコンドー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100762&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100200982&g=spo"
     },
     {
-      "doc_id": "jiji-781f3fe7f6be91cb",
-      "title": "Ｎ党立花氏襲撃、男認める 殺人未遂、被害者参加も―東京地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200128&g=soc"
+      "doc_id": "nhk-df3291b5810c38b9",
+      "title": "金融庁 プルデンシャル生命に業務停止命令を検討",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53976"
+    },
+    {
+      "doc_id": "nhk-5a3ab233be93d997",
+      "title": "津市で住宅火災 4人の遺体見つかる 子ども4人と連絡取れず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53924"
+    },
+    {
+      "doc_id": "nhk-c77388e8dce17a79",
+      "title": "「タイムズカー」免許画像など漏えい 集団訴訟の登録者1万人超",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53951"
+    },
+    {
+      "doc_id": "nhk-83d039cbef03190f",
+      "title": "台風25号 千葉 盛り土崩落 少なくとも5件 過去に危険性指摘も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53849"
     },
     {
       "doc_id": "nhk-b5b1150b39816ca6",
-      "title": "台風27号 4日には小笠原近海へ進む見込み 今後の情報に注意",
+      "title": "台風27号 4日に小笠原近海へ進む見込み 今後の情報に注意",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261002de53779"
     },
     {
-      "doc_id": "nhk-1bfbf1e02e37fe30",
-      "title": "木原長官“赤い羽根着用控えている”北海道寄付金使途不明受け",
+      "doc_id": "nhk-42c148db9bff1aab",
+      "title": "千葉 印旛沼の決壊“避難の呼びかけ”自治体によって対応に差",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53858"
-    },
-    {
-      "doc_id": "nhk-972566e3d16b36b8",
-      "title": "飲酒乗務問題の東海汽船に20日間の船舶使用停止命令へ 国交省",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53794"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53805"
     },
     {
       "doc_id": "nhk-7286720f1d20b9b2",
-      "title": "簗農相 道路予算発言報道「コメント控える」繰り返す",
+      "title": "簗農相が会見「国交省に問い合わせ 党支部会合で報告」",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261002de53817"
     },
     {
-      "doc_id": "nhk-92d1d8d54712fab0",
-      "title": "大阪公立大学で大規模なシステム障害 終日休講に",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53839"
+      "doc_id": "itmedia-d3cc24ba96a53598",
+      "title": "ヤマト運輸、「クロネコ代金後払いサービス」への不正アクセスで続報 利用者など一部個人情報が漏えいか",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001979/"
     },
     {
-      "doc_id": "nhk-22fe429a9a3da411",
-      "title": "福岡県議会 自民県議が議長就任前のゴルフ会費用負担を証言",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53802"
+      "doc_id": "itmedia-7b21592705e6e6b0",
+      "title": "赤沢経産相、パワー半導体事業の国内再編「後押しする」 ロームなど統合協議難航受け",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001977/"
     },
     {
-      "doc_id": "nhk-5a74326a8568b97a",
-      "title": "プーチン大統領 日ロは困難を乗り越えたあと互恵的関係に",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53774"
+      "doc_id": "itmedia-c14d01391a914677",
+      "title": "「Androidのマイナンバーカード」提供へ 20日から 物理カードなしでも本人確認など可能に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001968/"
+    },
+    {
+      "doc_id": "itmedia-ed871dd03229dee3",
+      "title": "日本エネルギー経済研究所、不正アクセスの続報 パスポート情報13件の漏えい確認",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001976/"
+    },
+    {
+      "doc_id": "itmedia-ccfe18cb5db4d850",
+      "title": "英字日刊紙のジャパンタイムズ、傘下が不正アクセス被害に 漏えいの有無は「調査中」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001975/"
+    },
+    {
+      "doc_id": "itmedia-011039b5b41ae9fd",
+      "title": "第一生命に不正アクセス 従業員情報12万人分漏えいか 退職者も対象",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001971/"
+    },
+    {
+      "doc_id": "itmedia-5219a283654de3a6",
+      "title": "自動運転バスを10月2日から運行 茨城・つくば市、27年度の「運転手なし走行」目指す",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001970/"
+    },
+    {
+      "doc_id": "itmedia-1276f59a8635115d",
+      "title": "女性のAI活用に「自信の壁」 民間団体が白書公表、専門家「挑戦してみて」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001967/"
+    },
+    {
+      "doc_id": "itmedia-ed15abef100a829a",
+      "title": "パーク24株、一時4カ月ぶり安値 タイムズカー漏えいの集団訴訟に2000人超参加意向の報道",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001956/"
     },
     {
       "doc_id": "itmedia-780921c4a77a0a4e",
@@ -172,64 +226,34 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001959/"
     },
     {
-      "doc_id": "itmedia-ed15abef100a829a",
-      "title": "パーク24株、一時4カ月ぶり安値 タイムズカー漏えいの集団訴訟に2000人超参加意向の報道",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001956/"
-    },
-    {
       "doc_id": "itmedia-37fbe3864222533d",
       "title": "履修修正の締め切り当日にシステム障害、大阪公立大 全授業を休講する事態に",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001953/"
     },
     {
-      "doc_id": "itmedia-679abec3a139b851",
-      "title": "トレーニング効果をもたらす最少量の運動は？ 週に何秒、何回必要か 早大などが2024年に調査",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001926/"
+      "doc_id": "nazology-eafc1e2f77304951",
+      "title": "イチゴに「服」を着せたら収穫が3倍以上に",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200521"
     },
     {
-      "doc_id": "itmedia-08c7024b0c98049f",
-      "title": "“謙虚なリーダー”は上司として優れているのか？ 東大が日本企業の400人以上を調査",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001925/"
+      "doc_id": "nazology-225ee1da117d5e73",
+      "title": "体外離脱の実験で2人が口にした「予想外の話」とは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200541"
     },
     {
-      "doc_id": "itmedia-787405a502526ce7",
-      "title": "ニッポンレンタカーで別の不正アクセス発覚 新たに55人分情報漏えいか 免許証番号やクレカ4ケタも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001952/"
+      "doc_id": "nazology-6e495267bd19154f",
+      "title": "「声」から「認知の低下」を早めに知る手がかり",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200526"
     },
     {
-      "doc_id": "itmedia-8b377831f2ad3122",
-      "title": "Microsoft、初のストリーミング文字起こしモデル「MAI-Transcribe-2-Streaming」公開 音声合成「MAI-Voice-2.1」と高速版も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001950/"
-    },
-    {
-      "doc_id": "itmedia-38c070d1e835460c",
-      "title": "「Kindle」シリーズ4モデルを刷新 全モデルで画面の段差なくしフラットに 2万9980円から",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001949/"
-    },
-    {
-      "doc_id": "itmedia-7e38aca154d4b9fc",
-      "title": "都営地下鉄の公衆電話、すべて撤去へ 28年11月までに",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001948/"
-    },
-    {
-      "doc_id": "itmedia-83f5e57b730b1e0a",
-      "title": "ローソンのメールサーバが踏み台に、不審メール約70万件送信 件名「RE」など",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001947/"
-    },
-    {
-      "doc_id": "itmedia-dca24d54ad1891c5",
-      "title": "SIE、PS5向けAI採用画質向上技術「QSSR」発表 AMDと共同開発、「Marvel's Wolverine」と「Ghost of Yōtei」が初対応",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001946/"
+      "doc_id": "nazology-f0b04f17036f18dc",
+      "title": "5000年前のエジプトを女性が治めていた可能性",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200499"
     },
     {
       "doc_id": "nazology-8e18deaa26da9d62",
@@ -266,30 +290,6 @@
       "title": "「LSDなどの幻覚剤」自分のことを考える脳の力を弱めると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200391"
-    },
-    {
-      "doc_id": "nazology-e01d1463c77b8703",
-      "title": "学校の「好きな人」を調べたら両思いは約12％だけだった――中高生1895人のリアル",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200572"
-    },
-    {
-      "doc_id": "nazology-70214aee913e4aba",
-      "title": "自殺の考えや行動は「うつ病より遺伝しやすい」と判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200361"
-    },
-    {
-      "doc_id": "nazology-b772d4be0b229b7b",
-      "title": "女性の胸のふくらみは、赤ちゃんを温めるために進化したのかもしれない",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200564"
-    },
-    {
-      "doc_id": "nazology-fa3675d8065c7b3b",
-      "title": "脳の老け方は「腸内細菌」と結びついていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200435"
     }
   ]
 }
