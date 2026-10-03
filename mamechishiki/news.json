@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-03T17:58:36+00:00",
-  "now_ms": 1791050316090,
+  "fetched_at": "2026-10-03T21:20:03+00:00",
+  "now_ms": 1791062403853,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,58 +58,22 @@
       "link": "https://news.yahoo.co.jp/pickup/6597433"
     },
     {
-      "doc_id": "jiji-ce6a2f448f0dafda",
-      "title": "アジア大会・談話",
+      "doc_id": "jiji-0ee1b18c96b3cebe",
+      "title": "高齢者に１万４０００円支給 中間選挙へ支持拡大狙う―米大統領",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300338&g=scr"
+      "link": "https://www.jiji.com/jc/article?k=2026100300255&g=int"
     },
     {
-      "doc_id": "jiji-b2437442b136d1c8",
-      "title": "大滝雅良さん死去・談話",
+      "doc_id": "jiji-f89bfcc7e36190ea",
+      "title": "首相動静（１０月３日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300409&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100300182&g=pol"
     },
     {
-      "doc_id": "jiji-087fa4e583c027ef",
-      "title": "阪神、逃げ切って連覇 巨人との競り合い制す―プロ野球",
+      "doc_id": "jiji-180bcd746ad0f25b",
+      "title": "久保「家族のために」 結婚発表、両手に指輪―サッカー日本代表",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300414&g=spo"
-    },
-    {
-      "doc_id": "jiji-6d6ca5924216a1a1",
-      "title": "若手芽吹き、価値ある銀 日本、主力不在で健闘―アジア大会・バレーボール",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300412&g=spo"
-    },
-    {
-      "doc_id": "jiji-05d935e86f5c26a1",
-      "title": "日本勢、金メダルも史上最多 ソフトボールは７連覇―愛知・名古屋アジア大会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300307&g=spo"
-    },
-    {
-      "doc_id": "jiji-b405cb9a7069b038",
-      "title": "ホテル一室で女性、強盗殺人か 立ち去った人物の行方追う―沖縄県警",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300208&g=soc"
-    },
-    {
-      "doc_id": "jiji-b4a3b0f56f0f95d3",
-      "title": "９歳男児、タワマン２３階から転落死 「ベランダづたいに移動」―東京",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300317&g=soc"
-    },
-    {
-      "doc_id": "jiji-626833682aff3ed1",
-      "title": "公明・岡本新体制が始動 統一選へ立て直し図る",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300232&g=pol"
-    },
-    {
-      "doc_id": "jiji-9bb95c8b4f354ee9",
-      "title": "久保建英選手と福原遥さん結婚 サッカー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201122&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100300394&g=spo"
     },
     {
       "doc_id": "jiji-4ad33c21e1ac2c0f",
@@ -118,46 +82,82 @@
       "link": "https://www.jiji.com/jc/article?k=2026100300413&g=spo"
     },
     {
-      "doc_id": "nhk-31a844819c99af82",
-      "title": "阪神が2年連続優勝 球団初セ・リーグ連覇【選手談話も詳しく】",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54054"
+      "doc_id": "jiji-05d935e86f5c26a1",
+      "title": "日本勢、金メダルも史上最多 ソフトボールは７連覇―愛知・名古屋アジア大会",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300307&g=spo"
     },
     {
-      "doc_id": "nhk-53fd88bdda7b1ebe",
-      "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54083"
+      "doc_id": "jiji-2430e97007aed614",
+      "title": "副操縦士、おので機長襲う テロ未遂で捜査―イスラエル便事件",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300175&g=int"
     },
     {
-      "doc_id": "nhk-e4b9511c50a633df",
-      "title": "簗農相が熊本地震の被災地を視察 予算配分発言への言及避ける",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54127"
+      "doc_id": "jiji-626833682aff3ed1",
+      "title": "公明・岡本新体制が始動 統一選へ立て直し図る",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300232&g=pol"
     },
     {
-      "doc_id": "nhk-15bfed861658cc47",
-      "title": "台風27号 4日以降 小笠原近海に 高波に警戒 今後の情報に注意",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54005"
+      "doc_id": "jiji-dcc04670b65a4b23",
+      "title": "「Ｏ・Ｏライン」で二人三脚 小川氏、岡本新代表と一体アピール―公明党大会",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300288&g=pol"
     },
     {
-      "doc_id": "nhk-4935d154715c82b0",
-      "title": "プロ野球 現役最年長 ヤクルト石川雅規 25年の現役に別れ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54109"
+      "doc_id": "jiji-daed4dc922004bb7",
+      "title": "特化型ＡＩの開発推進 古川デジタル相「データが勝負」―新閣僚インタビュー",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100201035&g=pol"
     },
     {
-      "doc_id": "nhk-0e8503bece6685f4",
-      "title": "アジア大会 サッカー男子 日本は決勝で韓国に敗れる",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54098"
+      "doc_id": "jiji-851c022428a1c5b3",
+      "title": "公明代表、農水相を批判",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300359&g=pol"
     },
     {
-      "doc_id": "nhk-c1555c27555c58f7",
-      "title": "那覇市のホテルで女性遺体 強盗殺人事件として捜査",
+      "doc_id": "nhk-48a1ba4dd0b93658",
+      "title": "台風27号 あすからあさって小笠原諸島に接近 高波警戒",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54044"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54159"
+    },
+    {
+      "doc_id": "nhk-d07a8768a032ea3c",
+      "title": "サザン関口和之氏の著作権管理会社 5億8000万円余の申告漏れ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104"
+    },
+    {
+      "doc_id": "nhk-529c0fb0cb8fdf94",
+      "title": "津 4人死亡の火事 4人は寝室とリビングで見つかる",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54129"
+    },
+    {
+      "doc_id": "nhk-dcfe5c9e3f4808f6",
+      "title": "クビアカツヤカミキリ対策で予備費 約32億円の支出調整 政府",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54123"
+    },
+    {
+      "doc_id": "nhk-d39eb2340b79d9fc",
+      "title": "ホワイトソックス 地区シリーズで先勝 村上が先制HR",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54148"
+    },
+    {
+      "doc_id": "nhk-7c8f36eff94ed560",
+      "title": "ドジャース 地区シリーズ初戦 大谷翔平は2番・指名打者で出場",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54157"
+    },
+    {
+      "doc_id": "nhk-6d22a28fa29e5d1f",
+      "title": "ブラジル大統領選挙 投票へ 現職と前大統領の息子が接戦",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54142"
     },
     {
       "doc_id": "itmedia-2145f86356cb3f85",
