@@ -1,0 +1,83 @@
+{
+  "status": "verified",
+  "requestedAt": 1791017995433,
+  "postDate": "20261003",
+  "slot": null,
+  "news": false,
+  "title": "なぜ猫は高い場所から落ちても、きれいに着地できるのか",
+  "script": {
+    "conclusion": "猫には落下中に体を立て直す反射があり、内耳の感覚と柔軟な背骨で空中で姿勢を整えているとされます。",
+    "emoji": {
+      "conclusion": "🐱🌀",
+      "hook": "🐱",
+      "intro": "🐈🏢",
+      "points": ["👂", "🦴", "🐾"],
+      "question": "🐿️🦎",
+      "share": "🐱💬"
+    },
+    "genre": "動物雑学",
+    "hook": "猫は、高所から落ちても着地できる？",
+    "imageFolder": "20261003_5920-2",
+    "imagePrompts": [
+      {
+        "prompt": "猫が高いベランダの手すりから落下し始める瞬間を、明るく親しみやすいイラスト調で描いてください。空中でくるりと体をひねる猫の姿を横から見た構図にしてください。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "hook"
+      },
+      {
+        "prompt": "猫が空中で体をひねりながら姿勢を立て直し、四本足で着地する直前の様子を、明るいイラスト調で描いてください。背骨のしなやかな動きが伝わる躍動感のある構図にしてください。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "conclusion"
+      }
+    ],
+    "intro": "猫が高い所から落ちても、きれいに着地する姿を見たことありませんか。",
+    "points": [
+      {
+        "head": "内耳が傾きを感知",
+        "text": "落下が始まると内耳の前庭器官が体の傾きを感知し、どちらが上か瞬時に判断するとされます。"
+      },
+      {
+        "head": "背骨をひねって回転",
+        "text": "柔軟な背骨を使い、頭を先に水平へ戻し、続いて腰も同じ向きにそろえていくとされます。"
+      },
+      {
+        "head": "着地で衝撃を分散",
+        "text": "着地の瞬間は足を広げ、しなやかな筋肉と靭帯で衝撃を吸収するともいわれます。"
+      }
+    ],
+    "post": "猫が高い場所から落ちても、くるりと体をひねってきれいに着地するのはなぜでしょう。実はある反射と柔らかい体の仕組みが関係しているとされます。その秘密を動画でチェック。\n\n#豆知識 #雑学 #猫",
+    "question": "猫以外の動物にも、同じ反射はあると思いますか。",
+    "share": "猫が高いところから落ちても着地できるのって、内耳と柔らかい背骨のおかげなんだって。",
+    "title": "なぜ猫は高い場所から落ちても、きれいに着地できるのか"
+  },
+  "verify": {
+    "checkedAt": 1791018884172,
+    "claims": [
+      {
+        "claim": "内耳の前庭器官が傾きを感知し上下を判断",
+        "note": "Wikipedia等の立ち直り反射の説明と一致",
+        "sources": [
+          { "title": "Cat righting reflex - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cat_righting_reflex" },
+          { "title": "Falling cat problem - Wikipedia", "url": "https://en.wikipedia.org/wiki/Falling_cat_problem" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "柔軟な背骨で頭が先に回転し腰が後から追従",
+        "note": "物理学的な2段階回転モデルと一致",
+        "sources": [
+          { "title": "Falling cat problem - Wikipedia", "url": "https://en.wikipedia.org/wiki/Falling_cat_problem" },
+          { "title": "A distributed control model (Arabyan, UCSD)", "url": "https://courses.physics.ucsd.edu/2006/Winter/physics110b/Cat_Rotation_Arabyan.pdf" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "着地時に足を広げ筋肉と靭帯で衝撃を吸収",
+        "note": "学術論文(PMC)が関節の衝撃吸収を報告",
+        "sources": [
+          { "title": "Contributions of Limb Joints to Energy Absorption - PMC", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6721424/" },
+          { "title": "Cat righting reflex - Wikipedia", "url": "https://en.wikipedia.org/wiki/Cat_righting_reflex" }
+        ],
+        "verdict": "confirmed"
+      }
+    ]
+  }
+}

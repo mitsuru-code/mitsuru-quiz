@@ -1,0 +1,92 @@
+{
+  "status": "verified",
+  "requestedAt": 1791018002305,
+  "postDate": "20261003",
+  "slot": null,
+  "news": false,
+  "title": "2時ごろを指す「八つ時」、おやつの名前はそこから生まれました",
+  "script": {
+    "conclusion": "江戸時代は十二支で時刻を区切り、午後2時ごろの「八つ時」に食べた間食が、おやつの語源になったとされます。",
+    "emoji": {
+      "conclusion": "🕑🍡",
+      "hook": "🕑",
+      "intro": "🍡",
+      "points": ["⏳", "🔢", "🔔"],
+      "question": "🍘",
+      "share": "🍡"
+    },
+    "genre": "江戸時代",
+    "hook": "おやつ、もとは時刻の名前だった？",
+    "imageFolder": "20261003_5920-0",
+    "imagePrompts": [
+      {
+        "prompt": "江戸時代の町並みを背景に、大きな和時計と「八つ時」を連想させる太陽の位置が描かれたイメージ図。明るく柔らかい色合いのイラスト調。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "hook"
+      },
+      {
+        "prompt": "江戸時代の庶民が縁側で軽い間食（団子やお茶）を楽しんでいる様子を描いたイメージ図。背景には時の鐘がうっすらと見える。温かみのある和風イラスト調。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "conclusion"
+      }
+    ],
+    "intro": "普段何気なく使う「おやつ」、実は江戸時代の暮らしに由来があるといわれます。",
+    "points": [
+      {
+        "head": "江戸の不定時法とは",
+        "text": "昼と夜を六等分し、季節で一刻の長さが変わる独特の時刻制度だったとされます。"
+      },
+      {
+        "head": "独特な数え方の仕組み",
+        "text": "数え方は九つから始まり、八つ、七つと下がり、また九つに戻る独特なものだったとされます。"
+      },
+      {
+        "head": "時刻を知らせる鐘",
+        "text": "時の鐘が江戸市中にあり、人々は鐘の音を頼りに一日のリズムを整えていたとされます。"
+      }
+    ],
+    "post": "「おやつ」って、もともとは時刻を表す言葉だったって知っていましたか。江戸時代の暮らしをたどると、意外な由来が見えてきます。続きは動画でチェックしてみてください。\n\n#豆知識 #雑学 #江戸時代",
+    "question": "あなたは午後2時ごろ、小腹がすいて何か食べたくなりませんか。",
+    "share": "おやつって、江戸時代の『八つ時』っていう時刻の呼び名だったんだって。",
+    "title": "2時ごろを指す「八つ時」、おやつの名前はそこから生まれました"
+  },
+  "verify": {
+    "checkedAt": 1791018884172,
+    "claims": [
+      {
+        "claim": "八つ時(午後2時)の間食が「おやつ」の語源",
+        "note": "辞書・農水省がいずれも八つ時由来と記載",
+        "sources": [
+          { "title": "御八つ(オヤツ) - コトバンク", "url": "https://kotobank.jp/word/%E5%BE%A1%E5%85%AB%E3%81%A4-455053" },
+          { "title": "農林水産省 こどもコーナー", "url": "https://www.maff.go.jp/j/syokuiku/kodomo_navi/oneday/quiz_a4.html" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "不定時法は昼夜六等分、季節で一刻の長さが変化",
+        "note": "暦Wiki(国立天文台)とセイコーミュージアムが一致",
+        "sources": [
+          { "title": "不定時法 - 暦Wiki", "url": "https://eco.mtk.nao.ac.jp/koyomi/wiki/BBFEB9EF2FC4EABBFECBA1A4C8C9D4C4EABBFECBA1.html" },
+          { "title": "不定時法の説明 - セイコーミュージアム", "url": "https://museum.seiko.co.jp/knowledge/relation_16/" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "時刻は九つから八つ七つと下がり再び九つに戻る",
+        "note": "学研お江戸の科学と文化デジタルライブラリーが説明",
+        "sources": [
+          { "title": "お江戸の科学 - 学研", "url": "https://www.gakken.jp/kagakusouken/spread/oedo/03/kaisetsu1.html" },
+          { "title": "文化デジタルライブラリー", "url": "https://www2.ntj.jac.go.jp/dglib/contents/learn/edc20/geino/rakugo/kurashi3.html" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "江戸市中の「時の鐘」で人々が時刻を知った",
+        "note": "中央区石町時の鐘とセイコーミュージアムが記載",
+        "sources": [
+          { "title": "銅鐘 石町時の鐘 - 中央区", "url": "https://www.city.chuo.lg.jp/a0052/bunkakankou/rekishi/tokyobunkazai/dosyokokutyotokinokane.html" },
+          { "title": "江戸時代の暮らしと時間", "url": "https://museum.seiko.co.jp/knowledge/relation_07/" }
+        ],
+        "verdict": "confirmed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "status": "verified",
+  "requestedAt": 1791017992225,
+  "postDate": "20261003",
+  "slot": null,
+  "news": false,
+  "title": "彗星と小惑星、見た目は似ていても成分が大きく違います",
+  "script": {
+    "conclusion": "彗星は氷とちり、小惑星は岩石と金属でできていて、太陽に近づいたときの姿が違うとされます",
+    "emoji": {
+      "conclusion": "🧊☄️",
+      "hook": "☄️",
+      "intro": "🌌🪨",
+      "points": ["⛄️🧊", "🪨🌋", "☄️🪨"],
+      "question": "⭐️",
+      "share": "🧊☄️"
+    },
+    "genre": "宇宙雑学",
+    "hook": "彗星の尾、正体は氷だった？",
+    "imageFolder": "20261003_5920-3",
+    "imagePrompts": [
+      {
+        "prompt": "夜空に長い光の尾を引く彗星と、近くに浮かぶ岩でできた小惑星を並べて描いたイラスト。星がきらめく濃い紺色の宇宙背景、明るく幻想的な雰囲気。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "hook"
+      },
+      {
+        "prompt": "氷とちりが混ざり合った雪だるまのような彗星が、太陽に近づいて表面からガスとちりを吹き出し長い尾を作っている様子のイラスト。宇宙空間を背景にした明るいSF風の雰囲気。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "point0"
+      }
+    ],
+    "intro": "彗星と小惑星、見た目は違っても仲間だと思われがちです",
+    "points": [
+      {
+        "head": "彗星は汚れた雪だるま",
+        "text": "氷やちり、凍ったガスが混ざった天体で、太陽系の外側から来ることが多いとされます"
+      },
+      {
+        "head": "小惑星は岩と金属",
+        "text": "火星と木星の間に多く集まり、惑星になれなかった名残だと考えられています"
+      },
+      {
+        "head": "境目は曖昧なことも",
+        "text": "尾を持つ小惑星や、尾を失った彗星の名残のような天体も見つかっているといわれます"
+      }
+    ],
+    "post": "彗星と小惑星、夜空では似て見えるのに中身は全然違うって知ってましたか。あの尾ができる理由、ちょっと意外な仕組みでした。\n\n#豆知識 #雑学 #宇宙",
+    "question": "流れ星、彗星のかけらだと思ったことありますか",
+    "share": "彗星の尾って、氷が太陽の熱でとかされてできるものなんだって",
+    "title": "彗星と小惑星、見た目は似ていても成分が大きく違います"
+  },
+  "verify": {
+    "checkedAt": 1791018884172,
+    "claims": [
+      {
+        "claim": "彗星は氷とちりの「汚れた雪だるま」で太陽系外側起源が多い",
+        "note": "NASAがComet nucleusの氷・ちり構成を説明",
+        "sources": [
+          { "title": "Comets - NASA", "url": "https://science.nasa.gov/solar-system/comets/" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "小惑星は岩石・金属主体でメインベルトに多く惑星になれなかった残骸",
+        "note": "NASAとSpace.comがメインベルト形成を説明",
+        "sources": [
+          { "title": "Asteroid Facts - NASA", "url": "https://science.nasa.gov/solar-system/asteroids/facts/" },
+          { "title": "Asteroid Belt: Facts & Formation", "url": "https://www.space.com/16105-asteroid-belt.html" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "尾を持つ小惑星や尾を失った彗星の名残天体も見つかっている",
+        "note": "JPLがactive asteroidやdead cometの例を報告",
+        "sources": [
+          { "title": "NASA Study Finds Near-Earth Asteroid Is Actually Comet - JPL", "url": "https://www.jpl.nasa.gov/news/nasa-study-finds-near-earth-asteroid-is-actually-comet/" },
+          { "title": "Extinct comet - Wikipedia", "url": "https://en.wikipedia.org/wiki/Extinct_comet" }
+        ],
+        "verdict": "confirmed"
+      }
+    ]
+  }
+}

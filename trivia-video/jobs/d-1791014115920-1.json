@@ -1,0 +1,91 @@
+{
+  "status": "verified",
+  "requestedAt": 1791017998649,
+  "postDate": "20261003",
+  "slot": null,
+  "news": false,
+  "title": "ある植物の根から生まれた、ふわふわお菓子マシュマロの物語",
+  "script": {
+    "conclusion": "マシュマロはマーシュマロウというウスベニタチアオイの根の樹液から作られていたとされます。",
+    "emoji": {
+      "conclusion": "🌿🍯",
+      "hook": "🍬",
+      "intro": "🌿",
+      "points": ["🏺🍯", "🌿💊", "🍬🥚"],
+      "question": "🌱",
+      "share": "🍬🌿"
+    },
+    "genre": "お菓子雑学",
+    "hook": "マシュマロの名前、植物だった？",
+    "imageFolder": "20261003_5920-1",
+    "imagePrompts": [
+      {
+        "prompt": "ふわふわの白いマシュマロと、湿地に咲く薄紅色の植物（ウスベニタチアオイ）が並んで描かれた明るいイラスト。両方が関係しているような柔らかい雰囲気で、背景は淡い水色。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "hook"
+      },
+      {
+        "prompt": "古代エジプトをイメージした場面。砂漠の近くで、人々が植物の根から採れた樹液をはちみつと混ぜて壺の中で固めている様子を描いたイラスト風イメージ図。温かみのある色合いで、歴史的だが明るい雰囲気。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "point0"
+      }
+    ],
+    "intro": "ふわふわのお菓子、実は植物の名前から来ているといわれます。",
+    "points": [
+      {
+        "head": "古代エジプトの薬",
+        "text": "古代エジプトでは、この根の樹液をはちみつと混ぜて固め、喉の調子を整える菓子として使っていたとされます。"
+      },
+      {
+        "head": "中世ヨーロッパでも薬",
+        "text": "中世以降のヨーロッパでも、この植物は喉の炎症をやわらげる民間薬として長く使われてきたとされます。"
+      },
+      {
+        "head": "19世紀にお菓子へ",
+        "text": "19世紀のフランスで、樹液の代わりにゼラチンや卵白と砂糖を泡立てて作る製法が広まったとされます。"
+      }
+    ],
+    "post": "ふわふわで甘いマシュマロ。その名前はもともと、ある植物の名前に由来するといわれています。昔は薬のような使われ方をしていたとも。名前に隠れた意外な歴史、動画でのぞいてみてください。\n\n#豆知識 #雑学 #お菓子雑学",
+    "question": "お菓子の名前が植物由来だと知ったら、何を思いますか。",
+    "share": "マシュマロの名前、もともとは薬草っぽい植物の名前だったんだって。",
+    "title": "ある植物の根から生まれた、ふわふわお菓子マシュマロの物語"
+  },
+  "verify": {
+    "checkedAt": 1791018884172,
+    "claims": [
+      {
+        "claim": "マシュマロはマーシュマロウの根の樹液が原型",
+        "note": "Smithsonian誌等がウスベニタチアオイ由来と一致",
+        "sources": [
+          { "title": "It's a Marshmallow World - Smithsonian", "url": "https://www.smithsonianmag.com/arts-culture/its-a-marshmallow-world-27466036/" },
+          { "title": "Althaea officinalis - Missouri Botanical Garden", "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282618" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "古代エジプトで根の樹液と蜂蜜を固め喉の薬菓子にした",
+        "note": "Smithsonian誌が古代エジプトでの薬用利用を記載",
+        "sources": [
+          { "title": "It's a Marshmallow World - Smithsonian", "url": "https://www.smithsonianmag.com/arts-culture/its-a-marshmallow-world-27466036/" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "中世欧州でも喉の炎症を和らげる民間薬として利用",
+        "note": "WebMD等が中世欧州での民間薬利用を記載",
+        "sources": [
+          { "title": "Marshmallow - WebMD", "url": "https://www.webmd.com/vitamins-supplements/marshmallow" },
+          { "title": "Althaea officinalis - Missouri Botanical Garden", "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=282618" }
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "19世紀フランスで卵白・砂糖・ゼラチンの製法が広まる",
+        "note": "Smithsonian誌・Mental Flossが一致して記載",
+        "sources": [
+          { "title": "It's a Marshmallow World - Smithsonian", "url": "https://www.smithsonianmag.com/arts-culture/its-a-marshmallow-world-27466036/" },
+          { "title": "The Long, Sweet History of Marshmallows - Mental Floss", "url": "https://www.mentalfloss.com/food/candy/long-sweet-history-marshmallows" }
+        ],
+        "verdict": "confirmed"
+      }
+    ]
+  }
+}
