@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-03T13:25:45+00:00",
-  "now_ms": 1791033945362,
+  "fetched_at": "2026-10-03T17:58:36+00:00",
+  "now_ms": 1791050316090,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,16 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8d1328a61ab18095",
-      "title": "4人死亡の火災 玄関付近が火元か",
+      "doc_id": "yahoo-db35c18b5198db5d",
+      "title": "台風27号 小笠原諸島で高波警戒",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597434"
+      "link": "https://news.yahoo.co.jp/pickup/6597449"
     },
     {
-      "doc_id": "yahoo-3ac6953324c8fb26",
-      "title": "MacのOSを修正へ AIリスク対策",
+      "doc_id": "yahoo-2b5932fed47b5c3c",
+      "title": "米政府のAI 都合の悪い質問を拒否",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597441"
+      "link": "https://news.yahoo.co.jp/pickup/6597451"
     },
     {
       "doc_id": "yahoo-86233a53c7af0a88",
@@ -34,58 +34,52 @@
       "link": "https://news.yahoo.co.jp/pickup/6597447"
     },
     {
-      "doc_id": "yahoo-69a78eeea6bb9190",
-      "title": "マンジャロ使用巡り 肥満学会声明",
+      "doc_id": "yahoo-dea8912b8b125f28",
+      "title": "米国産ジャガイモ解禁 前倒し浮上",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597438"
+      "link": "https://news.yahoo.co.jp/pickup/6597453"
     },
     {
-      "doc_id": "yahoo-58f67c2590c1955d",
-      "title": "阪神がセ・リーグ連覇 球団史上初",
+      "doc_id": "yahoo-64c3ffd8c9df1b70",
+      "title": "韓国サッカー男子V 国旗揚がらず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597446"
+      "link": "https://news.yahoo.co.jp/pickup/6597458"
     },
     {
-      "doc_id": "yahoo-1d9aa0b62ee7c835",
-      "title": "サッカー男子 韓国に敗れ銀メダル",
+      "doc_id": "yahoo-8ce567c6404aff06",
+      "title": "阪神V2 監督が涙「苦しかった」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597443"
+      "link": "https://news.yahoo.co.jp/pickup/6597455"
     },
     {
-      "doc_id": "yahoo-64de0548308f7882",
-      "title": "元清水商監督 大瀧雅良さん死去",
+      "doc_id": "yahoo-4da5e87385058b5f",
+      "title": "キンプリ・髙橋海人 ソロ活動開始",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597436"
+      "link": "https://news.yahoo.co.jp/pickup/6597433"
     },
     {
-      "doc_id": "jiji-73071cef9cdce553",
-      "title": "日本のメダル、最多２１８個超え 愛知・名古屋アジア大会",
+      "doc_id": "jiji-ce6a2f448f0dafda",
+      "title": "アジア大会・談話",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201072&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100300338&g=scr"
     },
     {
-      "doc_id": "jiji-180bcd746ad0f25b",
-      "title": "久保「家族のために」 結婚発表、両手に指輪―サッカー日本代表",
+      "doc_id": "jiji-b2437442b136d1c8",
+      "title": "大滝雅良さん死去・談話",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300394&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100300409&g=spo"
     },
     {
-      "doc_id": "jiji-cfc7d320a1774fd5",
-      "title": "重圧はねのけ７連覇 日本、アジアに敵なし―アジア大会・ソフトボール",
+      "doc_id": "jiji-087fa4e583c027ef",
+      "title": "阪神、逃げ切って連覇 巨人との競り合い制す―プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300369&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100300414&g=spo"
     },
     {
-      "doc_id": "jiji-613f948760105988",
-      "title": "日本、強さ示す３連覇 アジア大会・柔道混合団体",
+      "doc_id": "jiji-6d6ca5924216a1a1",
+      "title": "若手芽吹き、価値ある銀 日本、主力不在で健闘―アジア大会・バレーボール",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300380&g=spo"
-    },
-    {
-      "doc_id": "jiji-c5cd0efdb7efdd14",
-      "title": "北朝鮮の金与正（キム・ヨジョン）氏は「中距離戦略ミサイル」の発射訓練を行ったと述べた",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300365&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026100300412&g=spo"
     },
     {
       "doc_id": "jiji-05d935e86f5c26a1",
@@ -94,70 +88,76 @@
       "link": "https://www.jiji.com/jc/article?k=2026100300307&g=spo"
     },
     {
-      "doc_id": "jiji-f83fc63cc2436041",
-      "title": "ガソリン高騰、物価懸念 生活改善狙うも効果薄―トランプ政権・米中間選挙",
+      "doc_id": "jiji-b405cb9a7069b038",
+      "title": "ホテル一室で女性、強盗殺人か 立ち去った人物の行方追う―沖縄県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200660&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300208&g=soc"
     },
     {
-      "doc_id": "jiji-74f6506e26623f97",
-      "title": "プロ野球セ・リーグで阪神が優勝した",
+      "doc_id": "jiji-b4a3b0f56f0f95d3",
+      "title": "９歳男児、タワマン２３階から転落死 「ベランダづたいに移動」―東京",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300411&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026100300317&g=soc"
     },
     {
-      "doc_id": "jiji-0555b8074c5d7149",
-      "title": "過剰生産、「数カ国が合意拒否」 Ｇ２０貿易相会合で議長声明",
+      "doc_id": "jiji-626833682aff3ed1",
+      "title": "公明・岡本新体制が始動 統一選へ立て直し図る",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300204&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300232&g=pol"
     },
     {
-      "doc_id": "jiji-f25bdb02a962fe10",
-      "title": "北朝鮮、弾道ミサイル発射 与正氏「中距離戦略」と主張―日韓当局",
+      "doc_id": "jiji-9bb95c8b4f354ee9",
+      "title": "久保建英選手と福原遥さん結婚 サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300158&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100201122&g=soc"
+    },
+    {
+      "doc_id": "jiji-4ad33c21e1ac2c0f",
+      "title": "阪神が球団初の連覇 プロ野球セ・リーグ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300413&g=spo"
     },
     {
       "doc_id": "nhk-31a844819c99af82",
-      "title": "阪神が2年連続8回目のセ・リーグ優勝 球団史上初のリーグ連覇",
+      "title": "阪神が2年連続優勝 球団初セ・リーグ連覇【選手談話も詳しく】",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de54054"
     },
     {
+      "doc_id": "nhk-53fd88bdda7b1ebe",
+      "title": "ことしの秋のクマ出没どうなる？「どんぐり」の実りは",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54083"
+    },
+    {
+      "doc_id": "nhk-e4b9511c50a633df",
+      "title": "簗農相が熊本地震の被災地を視察 予算配分発言への言及避ける",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54127"
+    },
+    {
       "doc_id": "nhk-15bfed861658cc47",
-      "title": "台風27号 あす以降 小笠原近海に 高波に警戒 今後の情報に注意",
+      "title": "台風27号 4日以降 小笠原近海に 高波に警戒 今後の情報に注意",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de54005"
     },
     {
-      "doc_id": "nhk-de7959aa4fd2e6aa",
-      "title": "肥満症薬 急激な減量で救急搬送相次ぐ 学会が注意呼びかけ",
+      "doc_id": "nhk-4935d154715c82b0",
+      "title": "プロ野球 現役最年長 ヤクルト石川雅規 25年の現役に別れ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54074"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54109"
     },
     {
-      "doc_id": "nhk-814b2aebb8e9934e",
-      "title": "北朝鮮キム・ヨジョン氏“中距離戦略ミサイルを発射”",
+      "doc_id": "nhk-0e8503bece6685f4",
+      "title": "アジア大会 サッカー男子 日本は決勝で韓国に敗れる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54093"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54098"
     },
     {
       "doc_id": "nhk-c1555c27555c58f7",
       "title": "那覇市のホテルで女性遺体 強盗殺人事件として捜査",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de54044"
-    },
-    {
-      "doc_id": "nhk-0f6d5dff7fd4498c",
-      "title": "東京 八丈島 ダイビングで一時行方不明の8人救助 全員意識あり",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54066"
-    },
-    {
-      "doc_id": "nhk-77826ec227b19532",
-      "title": "アーチェリー 中西絢哉がアジア大会銀 ロス五輪出場枠獲得",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54080"
     },
     {
       "doc_id": "itmedia-2145f86356cb3f85",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001971/"
     },
     {
+      "doc_id": "nazology-042389afba574dc4",
+      "title": "問題行動のある子の「1年後の冷たさ」と「母の性格」",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200493"
+    },
+    {
       "doc_id": "nazology-8aee95dc4024d3b5",
       "title": "魚のオスの好みは単純、メスの好みは複雑だと判明",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "うつ病予防になるのは「恋人」or「友達」どっち？意外な結果が判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/172816"
-    },
-    {
-      "doc_id": "nazology-2223926bee3f159b",
-      "title": "相手があなたに本気かどうか分かる「体のあるサイン」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200536"
     }
   ]
 }
