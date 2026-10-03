@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-02T22:59:32+00:00",
-  "now_ms": 1790981972204,
+  "fetched_at": "2026-10-03T02:01:04+00:00",
+  "now_ms": 1790992864820,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,46 +10,46 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-2fea76c42f07c9b9",
-      "title": "副首都となる要件 4道府県満たす",
+      "doc_id": "yahoo-d6c8a5d8438a61d2",
+      "title": "人口水増し疑惑 富山市役所を捜索",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597340"
+      "link": "https://news.yahoo.co.jp/pickup/6597359"
     },
     {
-      "doc_id": "yahoo-e1b1311acb4155b6",
-      "title": "北発射のミサイル EEZ外に落下か",
+      "doc_id": "yahoo-6b1806856ef0cdd6",
+      "title": "トランプ氏自嘲 中間選挙に焦り?",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597338"
+      "link": "https://news.yahoo.co.jp/pickup/6597354"
     },
     {
-      "doc_id": "yahoo-4ca5913759da3283",
-      "title": "情報漏えい相次ぐ「異様」と識者",
+      "doc_id": "yahoo-33be71a83b7d99a7",
+      "title": "那覇のホテルに女性遺体 事件か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597326"
+      "link": "https://news.yahoo.co.jp/pickup/6597356"
     },
     {
-      "doc_id": "yahoo-02e1d6b892b2e96e",
-      "title": "焼け跡に4遺体 4歳から13歳の子か",
+      "doc_id": "yahoo-50fc7d271e1c4c20",
+      "title": "行楽日和 東京の雨記録ストップへ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597334"
+      "link": "https://news.yahoo.co.jp/pickup/6597352"
     },
     {
-      "doc_id": "yahoo-441fd484d6c7eebe",
-      "title": "上司を「さん」呼びが増加 調査",
+      "doc_id": "yahoo-5346249566478121",
+      "title": "ABAHOUSE 全顧客の情報漏えいか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597339"
+      "link": "https://news.yahoo.co.jp/pickup/6597358"
     },
     {
-      "doc_id": "yahoo-f8a85451c3aeb301",
-      "title": "森保J 大物カップルが続々誕生",
+      "doc_id": "yahoo-d1398b97584282c8",
+      "title": "配膳で「横取り」しゃぶ葉対策へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597327"
+      "link": "https://news.yahoo.co.jp/pickup/6597349"
     },
     {
-      "doc_id": "yahoo-1a2901446c40ec5e",
-      "title": "久保建英&福原遥 結婚を電撃発表",
+      "doc_id": "yahoo-da0079fd016cb689",
+      "title": "レスリング金の鏡 靱帯断裂で出場",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597319"
+      "link": "https://news.yahoo.co.jp/pickup/6597355"
     },
     {
       "doc_id": "yahoo-1cbe476b38b96c8b",
@@ -58,76 +58,82 @@
       "link": "https://news.yahoo.co.jp/pickup/6597341"
     },
     {
+      "doc_id": "jiji-2430e97007aed614",
+      "title": "イスラエル便副操縦士、過去に乗務禁止 過激思想から母国オマーンで",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300175&g=int"
+    },
+    {
+      "doc_id": "jiji-8e23200767110d3a",
+      "title": "副操縦士制圧の乗客らに称賛 刺された機長も操縦室の扉を解錠 「並外れた勇敢さ」で緊急着陸",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100200325&g=int"
+    },
+    {
       "doc_id": "jiji-9bb95c8b4f354ee9",
       "title": "久保建英選手と福原遥さん結婚 サッカー",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100201122&g=soc"
     },
     {
-      "doc_id": "jiji-dee4e45b669cb1a4",
-      "title": "高市首相、米アップルに自殺対策要請",
+      "doc_id": "jiji-27ff98f54ca03b73",
+      "title": "イスラエル便乗務、協定違反か 副操縦士の捜査続く―旅客機墜落未遂",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201136&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100101129&g=int"
     },
     {
-      "doc_id": "jiji-203f521a4090f3d2",
-      "title": "「副首都」要件、該当は北海道、愛知、大阪、福岡 政府指定案、政令市の特別区再編か連携協約も",
+      "doc_id": "jiji-0c8a3afa9f1c2ce2",
+      "title": "イスラエル便、機長刺され緊急着陸 サウジで副操縦士拘束、乗客は無事",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300006&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100100234&g=int"
     },
     {
-      "doc_id": "jiji-d8c4fd6e10c2e634",
-      "title": "簗農水相「誤解招いた」 続投意向、予算カット発言",
+      "doc_id": "jiji-3c5ea19e99ee8869",
+      "title": "イスラエル行き旅客機が緊急着陸 副操縦士が墜落企図か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200786&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026093001110&g=int"
     },
     {
-      "doc_id": "jiji-04411498c51be712",
-      "title": "テスラ、７～９月期の世界販売２％減 米国のＥＶ逆風響く",
+      "doc_id": "jiji-1bc1c3d70bc6f6ce",
+      "title": "「紀州のドン・ファン」遺言、有効確定 田辺市に遺産１３億円寄付―最高裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300114&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100200879&g=soc"
     },
     {
-      "doc_id": "jiji-b9fd36e16e2db5d4",
-      "title": "簗農水相会見要旨",
+      "doc_id": "jiji-2005214a9ccc2c74",
+      "title": "多数派へ攻防、上院接戦７州カギ 共和逆風、民主奪還うかがう―米中間選挙まで１カ月",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201068&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100200611&g=int"
     },
     {
-      "doc_id": "jiji-712b8df59a567ac8",
-      "title": "Ｆ１６Ｖ戦闘機が台湾到着 米国製最新型、対中抑止へ購入",
+      "doc_id": "jiji-eb7a3d364b02a6f9",
+      "title": "衆院定数削減、自民に先送り論 消費減税への影響懸念",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200586&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100200980&g=pol"
     },
     {
-      "doc_id": "jiji-15be4e381999d373",
-      "title": "Ｇ７、石油最大１億バレル放出 ４カ月で、マクロン仏大統領表明",
+      "doc_id": "jiji-f83fc63cc2436041",
+      "title": "ガソリン高騰、物価懸念 生活改善狙うも効果薄―トランプ政権・米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201202&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100200660&g=int"
     },
     {
-      "doc_id": "jiji-efc3c26bc19b7aea",
-      "title": "９月の米雇用、２．９万人増 急減速、失業率４．２％に悪化",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201109&g=int"
-    },
-    {
-      "doc_id": "jiji-92cf66a9fd0e6df4",
-      "title": "日本政府、ロシアに追加制裁 「影の船団」３５隻を指定",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200901&g=pol"
-    },
-    {
-      "doc_id": "nhk-bc859b19dafb659b",
-      "title": "北朝鮮が発射 弾道ミサイルの可能性あるもの EEZ外側に落下か",
+      "doc_id": "nhk-eab601b3ca95aa41",
+      "title": "富山市の国勢調査 人口水増し問題で市役所を捜索 富山県警",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54012"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54022"
     },
     {
       "doc_id": "nhk-61227864cf83c142",
       "title": "津市で4人死亡の火災 住人男性と知人女性 出火当時不在か",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de54001"
+    },
+    {
+      "doc_id": "nhk-15bfed861658cc47",
+      "title": "台風27号 あす以降 小笠原近海に 高波に警戒 今後の情報に注意",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54005"
     },
     {
       "doc_id": "nhk-14e2b8bb7a20fb92",
@@ -142,10 +148,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261002de53976"
     },
     {
-      "doc_id": "nhk-15bfed861658cc47",
-      "title": "台風27号 あす以降 小笠原近海に 高波に警戒 今後の情報に注意",
+      "doc_id": "nhk-6e2d7ea5b66202e2",
+      "title": "テスラ 世界の新車販売台数減少“去年の駆け込み需要の反動”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54005"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54014"
     },
     {
       "doc_id": "nhk-3202eaff8b07145d",
@@ -154,10 +160,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de53995"
     },
     {
-      "doc_id": "nhk-e2c278633951c6de",
-      "title": "政府・与党 消費税法案成立を 野党 充実審議 農相発言もただす",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de53997"
+      "doc_id": "itmedia-dffc4dfe9f05b8cd",
+      "title": "「アバハウス」全顧客の情報漏えいか 会員・受注DBに不正アクセス 「不審な返金メール届いた」報告で判明",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001981/"
+    },
+    {
+      "doc_id": "itmedia-c4518f59eb4cbae6",
+      "title": "靴のムーンスター、顧客情報漏えいの可能性 氏名や住所、注文情報など",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001982/"
+    },
+    {
+      "doc_id": "itmedia-3c82d2133036e313",
+      "title": "Apple、macOSの「フルディスクアクセス」に追加の制御を導入へ 「AIエージェントの進化でリスクが大幅に増大」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001983/"
     },
     {
       "doc_id": "itmedia-d3cc24ba96a53598",
@@ -214,22 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001956/"
     },
     {
-      "doc_id": "itmedia-780921c4a77a0a4e",
-      "title": "タイムズカー漏えいで集団訴訟の動き、登録3000人弱 呼び掛けた弁護士に聞いた──「謝罪で済む案件ではない」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001962/"
+      "doc_id": "nazology-26c1718417d549a4",
+      "title": "「ご当地ソング」を歌うザトウクジラ、遺伝子も別物だった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200531"
     },
     {
-      "doc_id": "itmedia-6a6d2a7ad2851a6d",
-      "title": "免許悪用防止届出 JICCのアプリ受付再開も、つながりにくい状態続く",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001959/"
+      "doc_id": "nazology-d50741aeb986692a",
+      "title": "中国で「4枚の翼」を持つ羽毛恐竜の化石を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200547"
     },
     {
-      "doc_id": "itmedia-37fbe3864222533d",
-      "title": "履修修正の締め切り当日にシステム障害、大阪公立大 全授業を休講する事態に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001953/"
+      "doc_id": "nazology-a926ec8f5f57d8e1",
+      "title": "タコは「鏡を使える」ほど賢いと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200488"
     },
     {
       "doc_id": "nazology-267cd8dd287f24c7",
@@ -272,24 +290,6 @@
       "title": "世界一うるさい鳥は「削岩機」並――その２種の鳥とは？",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200482"
-    },
-    {
-      "doc_id": "nazology-458c644b1bd7d3a5",
-      "title": "自由時間が多すぎると人の「幸福度は低下する」",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/96452"
-    },
-    {
-      "doc_id": "nazology-bf101ce49ef52aef",
-      "title": "創造性への自信を大きく左右する「あるもの」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200367"
-    },
-    {
-      "doc_id": "nazology-48b38aa43fb67c1d",
-      "title": "吸血鬼を恐れた人々が死者の首に「置いていたもの」とは？",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200424"
     }
   ]
 }
