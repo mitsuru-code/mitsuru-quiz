@@ -1,0 +1,88 @@
+{
+  "status": "verified",
+  "requestedAt": 1790985648671,
+  "postDate": "20261003",
+  "slot": null,
+  "news": false,
+  "title": "ポケットの中のチョコが溶けたことから、電子レンジは生まれた",
+  "script": {
+    "hook": "チョコが溶けた、そこから生まれた家電は？",
+    "intro": "電子レンジって、誰かが意図して発明したと思っていませんか。",
+    "points": [
+      {
+        "head": "チョコが溶けた瞬間",
+        "text": "マグネトロンという真空管の近くで作業中、ポケットのチョコが溶けていたとされます。"
+      },
+      {
+        "head": "とうもろこしで実験",
+        "text": "とうもろこしの粒を前に置くと、短時間でポップコーンがはじけたとされます。"
+      },
+      {
+        "head": "水分子が熱を生む",
+        "text": "マイクロ波が水分子を高速で振動させ、摩擦で食品を内部から温める仕組みとされます。"
+      }
+    ],
+    "conclusion": "レーダー研究中にポケットのチョコが溶け、マイクロ波が食品を温める性質が偶然発見されたことがきっかけとされます。",
+    "share": "電子レンジ、レーダー研究中にチョコが溶けたのがきっかけで生まれたんだって。",
+    "post": "電子レンジって、実は軍事レーダーの研究中に起きたある出来事がきっかけで生まれたって知っていましたか。ポケットの中で起きた意外な現象とは。動画で詳しく解説しています。\n\n#豆知識 #雑学 #電子レンジ",
+    "genre": "家電雑学",
+    "question": "身近な家電、意外な誕生のきっかけを知っていますか。",
+    "title": "ポケットの中のチョコが溶けたことから、電子レンジは生まれた",
+    "imageFolder": "20261003_3613-3",
+    "imagePrompts": [
+      {
+        "prompt": "作業服のポケットの中でチョコレートバーが溶けている様子のイメージ図。驚いた表情の研究者らしき人物が自分のポケットを見つめている、明るく親しみやすいイラスト調。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "hook"
+      },
+      {
+        "prompt": "とうもろこしの粒が電子機器の前に置かれ、ポップコーンとしてはじける瞬間のイメージ図。科学的でワクワクする雰囲気の明るいイラスト調。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "point1"
+      }
+    ],
+    "emoji": {
+      "hook": "🍫",
+      "intro": "💡",
+      "points": ["🍫", "🌽", "💧"],
+      "conclusion": "🍿",
+      "question": "🔍",
+      "share": "📡"
+    }
+  },
+  "verify": {
+    "checkedAt": 1790991402814,
+    "claims": [
+      {
+        "claim": "スペンサーがマグネトロン付近でチョコ溶解に気づいた",
+        "verdict": "confirmed",
+        "note": "National Inventors Hall of Fame等が一致して記録",
+        "sources": [
+          {"title": "National Inventors Hall of Fame: Percy Spencer", "url": "https://www.invent.org/inductees/percy-l-spencer"}
+        ]
+      },
+      {
+        "claim": "とうもろこし実験でポップコーンが短時間で破裂",
+        "verdict": "confirmed",
+        "note": "複数の博物館・歴史記事がチョコ発見後の実験と一致",
+        "sources": [
+          {"title": "Scientist of the Day: Percy Spencer", "url": "https://www.lindahall.org/about/news/scientist-of-the-day/percy-spencer/"}
+        ]
+      },
+      {
+        "claim": "マイクロ波が水分子を振動させ摩擦で加熱",
+        "verdict": "confirmed",
+        "note": "Britannica・FDAが双極子回転による発熱と説明",
+        "sources": [
+          {"title": "How Does a Microwave Oven Work? (Britannica)", "url": "https://www.britannica.com/technology/How-Does-a-Microwave-Oven-Work"}
+        ]
+      },
+      {
+        "claim": "マグネトロンはレーダー研究で使われた真空管",
+        "verdict": "confirmed",
+        "note": "スペンサーがRaytheonで量産を主導と複数媒体一致",
+        "sources": [
+          {"title": "A Brief History of the Microwave Oven (IEEE Spectrum)", "url": "https://spectrum.ieee.org/a-brief-history-of-the-microwave-oven"}
+        ]
+      }
+    ]
+  }
+}

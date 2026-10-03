@@ -1,0 +1,88 @@
+{
+  "status": "verified",
+  "requestedAt": 1790985650099,
+  "postDate": "20261003",
+  "slot": null,
+  "news": false,
+  "title": "宇宙から見える人工物という思い込み、万里の長城の本当の見え方",
+  "script": {
+    "hook": "万里の長城、宇宙から肉眼で見える？",
+    "intro": "万里の長城は宇宙からでも肉眼で見えると、学校で聞いた人も多いはずです。",
+    "points": [
+      {
+        "head": "幅は数メートル程度",
+        "text": "長城の幅は場所で違いますが、数メートルから十数メートルほどで普通の道路とあまり変わりません。"
+      },
+      {
+        "head": "都市の光の方が目立つ",
+        "text": "都市の明かりや規則正しい農地のパターンは面として広がるため、宇宙からは目立ちやすいとされます。"
+      },
+      {
+        "head": "宇宙飛行士の証言",
+        "text": "中国の宇宙飛行士が肉眼では長城を確認できなかったと話し、長城神話が見直される契機になったとされます。"
+      }
+    ],
+    "conclusion": "実際には幅が狭く、低軌道を回る宇宙飛行士でも肉眼ではほとんど確認できないとされています。",
+    "share": "万里の長城って、宇宙から肉眼で見えるっていうのは根拠の薄い話らしいよ。",
+    "post": "万里の長城は宇宙から肉眼で見えると、学校で習った人も多いはず。でも実際の幅や、宇宙飛行士が語った見え方の真相を知ると、思わず誰かに話したくなるかもしれません。続きは動画でチェック。\n\n#豆知識 #雑学 #宇宙",
+    "genre": "歴史雑学",
+    "question": "宇宙から肉眼で見えると思っていた建造物はありますか？",
+    "title": "宇宙から見える人工物という思い込み、万里の長城の本当の見え方",
+    "imageFolder": "20261003_3613-4",
+    "imagePrompts": [
+      {
+        "prompt": "宇宙空間から地球を見下ろし、地表にうっすらと細い線のような城壁が連なっている様子を描いたイメージ図。明るく親しみやすいイラスト調で、星空と青い地球の輪郭を背景に入れる。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "hook"
+      },
+      {
+        "prompt": "宇宙船の小さな窓越しに宇宙飛行士が地球を見つめ、地表を目を細めて確認しようとしているイメージ図。やわらかい光が差し込む明るいイラスト調で、驚きと疑問の表情を強調する。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "point2"
+      }
+    ],
+    "emoji": {
+      "hook": "🧱🚀",
+      "intro": "🎓📚",
+      "points": ["🧱📏", "🌃🌾", "🧑‍🚀🗣️"],
+      "conclusion": "🔭🚀",
+      "question": "🤔🏛️",
+      "share": "💬🧱"
+    }
+  },
+  "verify": {
+    "checkedAt": 1790991402814,
+    "claims": [
+      {
+        "claim": "万里の長城は宇宙から肉眼では見えない",
+        "verdict": "confirmed",
+        "note": "ISS飛行士やNASAも同様の見解を示す",
+        "sources": [
+          {"title": "China's spaceman shatters a myth (Al Jazeera)", "url": "https://www.aljazeera.com/news/2003/10/17/chinas-spaceman-shatters-a-myth"}
+        ]
+      },
+      {
+        "claim": "楊利偉(2003年)が長城を見えなかったと証言",
+        "verdict": "confirmed",
+        "note": "帰還直後の発言が中国教科書見直しの契機に",
+        "sources": [
+          {"title": "China's spaceman shatters a myth (Al Jazeera)", "url": "https://www.aljazeera.com/news/2003/10/17/chinas-spaceman-shatters-a-myth"}
+        ]
+      },
+      {
+        "claim": "長城の幅は数mから十数m程度",
+        "verdict": "confirmed",
+        "note": "実測は底部平均6.5m・最大約9mで上限はやや誇張",
+        "sources": [
+          {"title": "万里の長城 (コトバンク)", "url": "https://kotobank.jp/word/%E4%B8%87%E9%87%8C%E3%81%AE%E9%95%B7%E5%9F%8E-118725"}
+        ]
+      },
+      {
+        "claim": "都市の光や農地パターンは宇宙から面として目立つ",
+        "verdict": "confirmed",
+        "note": "NASAが灌漑農地や夜間光を識別可能な痕跡と明記",
+        "sources": [
+          {"title": "NASA Science: Reaping What We Sow", "url": "https://science.nasa.gov/earth/earth-observatory/reaping-what-we-sow-mapping-the-urbanization-of-farmland-using-satellites-and-city-lights/"}
+        ]
+      }
+    ]
+  }
+}
