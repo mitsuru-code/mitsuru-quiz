@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-03T02:01:04+00:00",
-  "now_ms": 1790992864820,
+  "fetched_at": "2026-10-03T08:10:43+00:00",
+  "now_ms": 1791015043348,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,112 +10,112 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-d6c8a5d8438a61d2",
-      "title": "人口水増し疑惑 富山市役所を捜索",
+      "doc_id": "yahoo-357ead8623db81cd",
+      "title": "ダイビングの8人行方不明 捜索中",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597359"
+      "link": "https://news.yahoo.co.jp/pickup/6597408"
     },
     {
-      "doc_id": "yahoo-6b1806856ef0cdd6",
-      "title": "トランプ氏自嘲 中間選挙に焦り?",
+      "doc_id": "yahoo-af71667d2f36404e",
+      "title": "富山市捜索 市長「改めておわび」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597354"
+      "link": "https://news.yahoo.co.jp/pickup/6597397"
     },
     {
-      "doc_id": "yahoo-33be71a83b7d99a7",
-      "title": "那覇のホテルに女性遺体 事件か",
+      "doc_id": "yahoo-32315acdd101384a",
+      "title": "流産後の休養「足りない」の声",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597356"
+      "link": "https://news.yahoo.co.jp/pickup/6597398"
     },
     {
-      "doc_id": "yahoo-50fc7d271e1c4c20",
-      "title": "行楽日和 東京の雨記録ストップへ",
+      "doc_id": "yahoo-4d909b533f21c759",
+      "title": "都内タワマン23階から子転落 死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597352"
+      "link": "https://news.yahoo.co.jp/pickup/6597402"
     },
     {
-      "doc_id": "yahoo-5346249566478121",
-      "title": "ABAHOUSE 全顧客の情報漏えいか",
+      "doc_id": "yahoo-e69161fd607d7384",
+      "title": "市が毎年更衣室解体 6年で7千万円",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597358"
+      "link": "https://news.yahoo.co.jp/pickup/6597400"
     },
     {
-      "doc_id": "yahoo-d1398b97584282c8",
-      "title": "配膳で「横取り」しゃぶ葉対策へ",
+      "doc_id": "yahoo-42aebbd1acb62931",
+      "title": "悪質な「名古屋ライド」SNS拡散",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597349"
+      "link": "https://news.yahoo.co.jp/pickup/6597392"
     },
     {
-      "doc_id": "yahoo-da0079fd016cb689",
-      "title": "レスリング金の鏡 靱帯断裂で出場",
+      "doc_id": "yahoo-22d2cda06b173f29",
+      "title": "速報プロ野球 広島vs.M1の阪神",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597355"
+      "link": "https://news.yahoo.co.jp/pickup/6597405"
     },
     {
-      "doc_id": "yahoo-1cbe476b38b96c8b",
-      "title": "福原遥結婚 芸能界から祝福相次ぐ",
+      "doc_id": "yahoo-beb1054e53c63113",
+      "title": "福原遥と結婚 久保の左手に指輪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597341"
+      "link": "https://news.yahoo.co.jp/pickup/6597409"
     },
     {
-      "doc_id": "jiji-2430e97007aed614",
-      "title": "イスラエル便副操縦士、過去に乗務禁止 過激思想から母国オマーンで",
+      "doc_id": "jiji-7676ab2f784cb054",
+      "title": "藤波朱理、１５５連勝で止まる ９年ぶり敗戦―アジア大会・レスリング女子",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300175&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300256&g=spo"
     },
     {
-      "doc_id": "jiji-8e23200767110d3a",
-      "title": "副操縦士制圧の乗客らに称賛 刺された機長も操縦室の扉を解錠 「並外れた勇敢さ」で緊急着陸",
+      "doc_id": "jiji-0ee1b18c96b3cebe",
+      "title": "高齢者に１万４０００円支給 中間選挙へ支持拡大狙う―米大統領",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200325&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300255&g=int"
     },
     {
-      "doc_id": "jiji-9bb95c8b4f354ee9",
-      "title": "久保建英選手と福原遥さん結婚 サッカー",
+      "doc_id": "jiji-0555b8074c5d7149",
+      "title": "過剰生産、「数カ国が合意拒否」 Ｇ２０貿易相会合で議長声明",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201122&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100300204&g=int"
     },
     {
-      "doc_id": "jiji-27ff98f54ca03b73",
-      "title": "イスラエル便乗務、協定違反か 副操縦士の捜査続く―旅客機墜落未遂",
+      "doc_id": "jiji-5d1f17bb997403a0",
+      "title": "潜むサイバー脅威、官民で探索 政府、インフラ防護へ手法共有",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100101129&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300130&g=pol"
     },
     {
-      "doc_id": "jiji-0c8a3afa9f1c2ce2",
-      "title": "イスラエル便、機長刺され緊急着陸 サウジで副操縦士拘束、乗客は無事",
+      "doc_id": "jiji-b063b2c5772d6c78",
+      "title": "富山市役所を家宅捜索 人口水増し、統計法違反容疑―県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100100234&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300201&g=soc"
     },
     {
-      "doc_id": "jiji-3c5ea19e99ee8869",
-      "title": "イスラエル行き旅客機が緊急着陸 副操縦士が墜落企図か",
+      "doc_id": "jiji-0d94ca9803d7d512",
+      "title": "陸自の長射程ミサイル、地元初公開 住民「今後も説明を」―熊本",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026093001110&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300260&g=soc"
     },
     {
-      "doc_id": "jiji-1bc1c3d70bc6f6ce",
-      "title": "「紀州のドン・ファン」遺言、有効確定 田辺市に遺産１３億円寄付―最高裁",
+      "doc_id": "jiji-0a57a59488f6d4e6",
+      "title": "避難生活「早めのワクチン接種を」 インフル流行で専門家―熊本地震",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200879&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100300103&g=soc"
     },
     {
-      "doc_id": "jiji-2005214a9ccc2c74",
-      "title": "多数派へ攻防、上院接戦７州カギ 共和逆風、民主奪還うかがう―米中間選挙まで１カ月",
+      "doc_id": "jiji-626833682aff3ed1",
+      "title": "公明・岡本新体制が始動 統一選へ立て直し図る",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200611&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300232&g=pol"
     },
     {
-      "doc_id": "jiji-eb7a3d364b02a6f9",
-      "title": "衆院定数削減、自民に先送り論 消費減税への影響懸念",
+      "doc_id": "jiji-05c7a1f328a260f3",
+      "title": "電子カルテ「クラウド型」導入を 医療機関へ経費補助―厚労省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200980&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100300106&g=soc"
     },
     {
-      "doc_id": "jiji-f83fc63cc2436041",
-      "title": "ガソリン高騰、物価懸念 生活改善狙うも効果薄―トランプ政権・米中間選挙",
+      "doc_id": "jiji-5cbdda3149ad2719",
+      "title": "広島の常広羽也斗が右肘手術 プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100200660&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300266&g=spo"
     },
     {
       "doc_id": "nhk-eab601b3ca95aa41",
@@ -124,10 +124,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de54022"
     },
     {
-      "doc_id": "nhk-61227864cf83c142",
-      "title": "津市で4人死亡の火災 住人男性と知人女性 出火当時不在か",
+      "doc_id": "nhk-c99d91786432b297",
+      "title": "津市の4人死亡火事 当時現場で複数回の爆発音のような大きな音",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54001"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54036"
     },
     {
       "doc_id": "nhk-15bfed861658cc47",
@@ -136,34 +136,46 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de54005"
     },
     {
-      "doc_id": "nhk-14e2b8bb7a20fb92",
-      "title": "船舶使用停止命令の東海汽船 “慣習踏襲の社内風土に問題”",
+      "doc_id": "nhk-6e59a54707036471",
+      "title": "ドジャース 大谷翔平 地区シリーズへ「期待とわくわく感」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54007"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54033"
     },
     {
-      "doc_id": "nhk-df3291b5810c38b9",
-      "title": "金融庁 プルデンシャル生命に業務停止命令を検討",
+      "doc_id": "nhk-c557afcb096c08e3",
+      "title": "レスリング女子 藤波朱理 公式戦の連勝が「155」で止まる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261002de53976"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54049"
     },
     {
-      "doc_id": "nhk-6e2d7ea5b66202e2",
-      "title": "テスラ 世界の新車販売台数減少“去年の駆け込み需要の反動”",
+      "doc_id": "nhk-7163249185655022",
+      "title": "公明 岡本新代表“与野党垣根なく連携 政界再編軸に”党大会で",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54014"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54053"
     },
     {
-      "doc_id": "nhk-3202eaff8b07145d",
-      "title": "「副首都」要件案を公表 4道府県に指定可能性",
+      "doc_id": "nhk-8499e0ef59e37d21",
+      "title": "老舗の「パラマウント」と「ワーナー」の社名が買収で消失へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de53995"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54032"
+    },
+    {
+      "doc_id": "itmedia-1b5bdddec3c3e527",
+      "title": "貧乏な子どもが“稼げる大人”になる条件とは？ 米ハーバード大などがFacebook7000万アカウント超から分析 2022年にNature掲載",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001935/"
     },
     {
       "doc_id": "itmedia-dffc4dfe9f05b8cd",
       "title": "「アバハウス」全顧客の情報漏えいか 会員・受注DBに不正アクセス 「不審な返金メール届いた」報告で判明",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001981/"
+    },
+    {
+      "doc_id": "itmedia-790542804893b37c",
+      "title": "Meta、AIエージェント「Muse」とつながる自作ガジェット向けSDKをオープンソースで公開 「Raspberry Pi」などに対応",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/03/2000001984/"
     },
     {
       "doc_id": "itmedia-c4518f59eb4cbae6",
@@ -220,16 +232,34 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001970/"
     },
     {
-      "doc_id": "itmedia-1276f59a8635115d",
-      "title": "女性のAI活用に「自信の壁」 民間団体が白書公表、専門家「挑戦してみて」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001967/"
+      "doc_id": "nazology-e35b8ddbd20e60ee",
+      "title": "霊長類のおしゃべりに「文法のルール」を発見か",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200477"
     },
     {
-      "doc_id": "itmedia-ed15abef100a829a",
-      "title": "パーク24株、一時4カ月ぶり安値 タイムズカー漏えいの集団訴訟に2000人超参加意向の報道",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001956/"
+      "doc_id": "nazology-b73343fbbacfbcb4",
+      "title": "果実を「どう食べるか」で心臓の健康に変化があると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200472"
+    },
+    {
+      "doc_id": "nazology-df71f90b70563114",
+      "title": "抗生物質と甘いものは腸内細菌に「悪い食べ合わせ」――病院で勧められるスポーツドリンクも",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200726"
+    },
+    {
+      "doc_id": "nazology-5c562e4550ee1fba",
+      "title": "うつ病予防になるのは「恋人」or「友達」どっち？意外な結果が判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/172816"
+    },
+    {
+      "doc_id": "nazology-2223926bee3f159b",
+      "title": "相手があなたに本気かどうか分かる「体のあるサイン」とは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200536"
     },
     {
       "doc_id": "nazology-26c1718417d549a4",
@@ -260,36 +290,6 @@
       "title": "左利きの人は競争心が強い――1129人を調べて見えた奇妙な違い",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200581"
-    },
-    {
-      "doc_id": "nazology-eafc1e2f77304951",
-      "title": "イチゴに「服」を着せたら収穫が3倍以上に",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200521"
-    },
-    {
-      "doc_id": "nazology-225ee1da117d5e73",
-      "title": "体外離脱の実験で2人が口にした「予想外の話」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200541"
-    },
-    {
-      "doc_id": "nazology-6e495267bd19154f",
-      "title": "「声」から「認知の低下」を早めに知る手がかり",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200526"
-    },
-    {
-      "doc_id": "nazology-f0b04f17036f18dc",
-      "title": "5000年前のエジプトを女性が治めていた可能性",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200499"
-    },
-    {
-      "doc_id": "nazology-8e18deaa26da9d62",
-      "title": "世界一うるさい鳥は「削岩機」並――その２種の鳥とは？",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200482"
     }
   ]
 }
