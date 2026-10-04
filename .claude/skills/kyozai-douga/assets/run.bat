@@ -8,7 +8,7 @@ where %PY% >nul 2>nul || (
   pause
   exit /b 1
 )
-%PY% -m pip install -q -r requirements.txt
+%PY% -m pip install -q --disable-pip-version-check -r requirements.txt
 if "%1"=="preview" (
   %PY% make_video.py --preview
 ) else if "%1"=="check" (

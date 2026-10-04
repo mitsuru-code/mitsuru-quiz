@@ -39,28 +39,44 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 KEY_SOURCE = {}
 
 
+def _read_text(path):
+    """UTF-8（BOM 付きも）で読み、ダメなら Shift-JIS（メモ帳で ANSI 保存した場合）で読む"""
+    with open(path, "rb") as fp:
+        raw = fp.read()
+    for enc in ("utf-8-sig", "cp932"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            pass
+    sys.exit(f"{os.path.basename(path)} の文字コードが読めません。メモ帳で開き「名前を付けて保存」で文字コードを UTF-8 にしてください")
+
+
 def _load_dotenv():
     """このフォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。.env の値を優先する
     （Windows の環境変数に古いキーが残っていても、.env に書いたキーが使われるように）"""
     path = os.path.join(HERE, ".env")
     if not os.path.exists(path):
         return
-    with open(path, encoding="utf-8-sig") as fp:
-        for line in fp:
-            if "=" in line and not line.lstrip().startswith("#"):
-                k, v = line.split("=", 1)
-                k, v = k.strip(), v.strip().strip('"').strip("'")
-                if v and v != "ここにAPIキー":  # ひな形のままの行は無視（環境変数のキーを使う）
-                    if k in os.environ and os.environ[k] != v:
-                        KEY_SOURCE[k] = ".env（Windows の環境変数の値より優先）"
-                    else:
-                        KEY_SOURCE[k] = ".env"
-                    os.environ[k] = v
+    for line in _read_text(path).splitlines():
+        if "=" in line and not line.lstrip().startswith("#"):
+            k, v = line.split("=", 1)
+            k, v = k.strip(), v.strip().strip('"').strip("'")
+            if v and v != "ここにAPIキー":  # ひな形のままの行は無視（環境変数のキーを使う）
+                if k in os.environ and os.environ[k] != v:
+                    KEY_SOURCE[k] = ".env（Windows の環境変数の値より優先）"
+                else:
+                    KEY_SOURCE[k] = ".env"
+                os.environ[k] = v
 
 
 _load_dotenv()
-with open(os.path.join(HERE, "script.json"), encoding="utf-8-sig") as _fp:
-    SCRIPT = json.load(_fp)
+try:
+    SCRIPT = json.loads(_read_text(os.path.join(HERE, "script.json")))
+except FileNotFoundError:
+    sys.exit("script.json が見つかりません。run.bat と同じフォルダにあるか確認してください")
+except json.JSONDecodeError as _e:
+    sys.exit(f"script.json の {_e.lineno} 行目 {_e.colno} 文字目あたりの書き方が崩れています"
+             f"（「\"」や「,」の消し忘れ・付け忘れが多い）: {_e.msg}")
 CACHE = os.path.join(HERE, ".cache")
 OUT_DIR = os.environ.get("VIDEO_OUT_DIR") or os.path.join(HERE, "out")  # Googleドライブ等の同期フォルダも指定可
 TTS_ENGINE = os.environ.get("TTS_ENGINE", "cloud").lower()  # cloud = Google Cloud TTS（Chirp 3: HD）/ gemini = Gemini API
@@ -260,33 +276,51 @@ def cloud_tts(text):
     h = hashlib.sha1(f"cloud|{CLOUD_VOICE}{tag}|{text}".encode()).hexdigest()[:16]
     path = os.path.join(CACHE, f"cloud_{h}.wav")
     if not os.path.exists(path):
-        body = json.dumps({
-            "input": {"text": text},
-            "voice": {"languageCode": "ja-JP", "name": CLOUD_VOICE},
-            "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000, "speakingRate": TTS_SPEED},
-        }).encode()
-        for attempt in range(5):
-            req = urllib.request.Request(CLOUD_URL, data=body, headers={"Content-Type": "application/json",
-                                                                        "X-Goog-Api-Key": _cloud_key()})
-            try:
-                with urllib.request.urlopen(req, timeout=120) as r:
-                    audio = base64.b64decode(json.load(r)["audioContent"])
-                break
-            except urllib.error.HTTPError as e:
-                msg = e.read().decode("utf-8", "replace")[:600]
-                if e.code not in (429, 500, 503) or attempt == 4:
-                    raise RuntimeError(f"Cloud TTS HTTP {e.code}: {msg}") from None
-                wait = 15 * (attempt + 1)
-                print(f"  HTTP {e.code}: {wait}秒待って再試行します", flush=True)
-                time.sleep(wait)
-            except urllib.error.URLError as e:
-                raise RuntimeError(f"Cloud TTS に接続できません: {e.reason}（ネット接続・社内プロキシ・セキュリティソフトを確認）") from None
+        audio = None
+        while audio is None:
+            audio = _cloud_request(text)
         with open(path, "wb") as fp:
             fp.write(audio)
     with open(path, "rb") as fp:
         x, rate = _decode_audio({"data": base64.b64encode(fp.read()).decode(), "mimeType": "rate=24000"})
     g = math.gcd(SR, rate)
     return _post_voice(resample_poly(x, SR // g, rate // g))
+
+
+_NO_RATE = []
+
+
+def _cloud_request(text):
+    """1回分の合成。速さの指定を断られたら、指定なしで作り直すよう None を返す"""
+    config = {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000}
+    if TTS_SPEED != 1.0 and not _NO_RATE:
+        config["speakingRate"] = TTS_SPEED
+    body = json.dumps({
+        "input": {"text": text},
+        "voice": {"languageCode": "ja-JP", "name": CLOUD_VOICE},
+        "audioConfig": config,
+    }).encode()
+    for attempt in range(5):
+        req = urllib.request.Request(CLOUD_URL, data=body, headers={"Content-Type": "application/json",
+                                                                    "X-Goog-Api-Key": _cloud_key()})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                audio = base64.b64decode(json.load(r)["audioContent"])
+            break
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode("utf-8", "replace")[:600]
+            if e.code == 400 and "speakingRate" in config:  # 速さ指定に未対応の声
+                _NO_RATE.append(True)
+                print(f"  この声は速さ {TTS_SPEED} 倍の指定に対応していないため、標準の速さで作ります", flush=True)
+                return None
+            if e.code not in (429, 500, 503) or attempt == 4:
+                raise RuntimeError(f"Cloud TTS HTTP {e.code}: {msg}") from None
+            wait = 15 * (attempt + 1)
+            print(f"  HTTP {e.code}: {wait}秒待って再試行します", flush=True)
+            time.sleep(wait)
+        except urllib.error.URLError as e:
+            raise RuntimeError(f"Cloud TTS に接続できません: {e.reason}（ネット接続・社内プロキシ・セキュリティソフトを確認）") from None
+    return audio
 
 
 def tts(text):
@@ -302,6 +336,31 @@ def tts_label():
     return f"Cloud TTS / 声: {CLOUD_VOICE} / 速さ: {TTS_SPEED} / キー末尾 …{key[-4:]}（{KEY_SOURCE.get('GOOGLE_TTS_API_KEY', 'Windows の環境変数')}）"
 
 
+def missing_scenes():
+    sdir = os.path.join(HERE, "scenes")
+    miss = []
+    for i, sc in enumerate(SCRIPT["scenes"]):
+        if sc.get("camera") and SRC:
+            continue
+        if not any(os.path.exists(os.path.join(sdir, f"{i:02d}.{e}")) for e in ("png", "jpg", "jpeg", "webp")):
+            miss.append(f"{i:02d}")
+    return miss
+
+
+def check_out_dir():
+    """保存先に書き込めるかを先に確かめる（10分かけて書き出した最後で失敗しないように）"""
+    try:
+        os.makedirs(OUT_DIR, exist_ok=True)
+        probe = os.path.join(OUT_DIR, ".write_test")
+        with open(probe, "w") as fp:
+            fp.write("ok")
+        os.remove(probe)
+    except OSError as e:
+        sys.exit(f"保存先 {OUT_DIR} に書き込めません（{e.strerror}）。"
+                 "Google ドライブが起動しているか、.env の VIDEO_OUT_DIR の綴りを確認してください。"
+                 "この行を消すと、このフォルダの out に保存します")
+
+
 def check():
     """環境の診断（check.bat）: ライブラリ・フォント・APIキー・音声1回分の合成"""
     print("Python:", sys.version.split()[0])
@@ -311,6 +370,10 @@ def check():
     have = sorted(os.listdir(sdir)) if os.path.isdir(sdir) else []
     print(f"台本: {SCRIPT['title']}（{len(SCENES)}場面）/ scroll: {SRC and os.path.basename(SRC) or 'なし'}"
           f" / 場面画像: {len(have)}枚 {have}")
+    miss = missing_scenes()
+    print("画像の無い場面:", "、".join(miss) + "（見出しだけの仮画面になります）" if miss else "なし")
+    check_out_dir()
+    print("保存先:", OUT_DIR, "（書き込みOK）")
     print("音声:", tts_label())
     x = tts("これは音声のテストです。")
     print(f"音声合成: OK（{len(x) / SR:.1f}秒）")
@@ -568,6 +631,12 @@ def main():
         check()
         return
     dry = "--preview" in sys.argv
+    miss = missing_scenes()
+    if miss:
+        print("注意: 画像の無い場面", "、".join(miss), "は見出しだけの仮画面になります（scenes に NN.png を置くと反映）", flush=True)
+    if not dry:
+        check_out_dir()
+        print("保存先:", OUT_DIR, flush=True)
     mix, starts, durs, total = build_audio(dry)
     print(f"total {total:.1f}s |", " ".join(f"{d:.1f}" for d in durs), flush=True)
     r = Renderer(starts, durs)
@@ -595,7 +664,7 @@ def main():
     writer.close()
     ff = imageio_ffmpeg.get_ffmpeg_exe()
     os.makedirs(OUT_DIR, exist_ok=True)
-    out = os.path.join(OUT_DIR, time.strftime(SCRIPT.get("slug", "kyozai") + "_%Y%m%d_%H%M.mp4"))
+    out = os.path.join(OUT_DIR, time.strftime(SCRIPT.get("slug", "kyozai") + "_%Y%m%d_%H%M%S.mp4"))
     subprocess.check_call([ff, "-y", "-loglevel", "error", "-i", silent, "-i", wav, "-c:v", "copy",
                            "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out])
     print("done:", out)
@@ -604,7 +673,9 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-    except (RuntimeError, OSError) as e:
+    except KeyboardInterrupt:
+        sys.exit("\n中断しました")
+    except Exception as e:  # どのエラーでも要点を表示し、詳細はエラーログ.txt に残す
         if "Cloud TTS HTTP 403" in str(e):
             e = RuntimeError("Cloud TTS が使えません（HTTP 403）。Google Cloud で ①Cloud Text-to-Speech API が有効か "
                              "②プロジェクトに請求先アカウントが紐づいているか ③APIキーの制限に Text-to-Speech が含まれるか を確認してください"

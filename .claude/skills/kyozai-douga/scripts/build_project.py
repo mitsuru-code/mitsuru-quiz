@@ -21,7 +21,7 @@ import zipfile
 SKILL = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ASSETS = os.path.join(SKILL, "assets")
 COPY = {  # アセット名 → プロジェクト内の名前
-    "run.bat": "run.bat", "check.bat": "check.bat", "requirements.txt": "requirements.txt",
+    "run.bat": "run.bat", "check.bat": "check.bat", "preview.bat": "preview.bat", "requirements.txt": "requirements.txt",
     "env.example": ".env.example", "gitignore": ".gitignore", "PC手順.md": "PC手順.md",
 }
 SKIP_DIRS = {".cache", "out", "__pycache__"}
