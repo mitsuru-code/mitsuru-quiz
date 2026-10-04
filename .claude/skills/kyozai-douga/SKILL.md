@@ -50,7 +50,7 @@ ZIP の中の `PC手順.md` に全手順がある。チャットでは要点だ�
 1. ZIP を右クリック →「プロパティ」→「許可する」にチェック → 展開（更新時は同じ場所に上書き。`.env` は消えない）
 2. 初回だけ `.env.example` を `.env` にコピーして `GOOGLE_TTS_API_KEY=` を記入（以前の動画のキーをそのまま使える）
 3. `check.bat` → 「診断はすべて正常です」を確認
-4. `run.bat` → 10分前後で `out\<slug>_日付_時刻.mp4`
+4. `run.bat` → 10分前後で `G:\マイドライブ\教材動画\<slug>_日付_時刻.mp4`（`.env` の `VIDEO_OUT_DIR`。未設定なら `out\`）。既存の `.env` にこの行が無ければ足してもらう
 
 読み上げは Google Cloud TTS（Chirp 3 HD、既定の声 Charon）。Gemini の音声生成は無料枠では使えない（HTTP 402）ので、ユーザーがクレジットを追加した場合だけ `.env` に `TTS_ENGINE=gemini` を書いてもらう。
 
