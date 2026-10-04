@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-04T00:40:50+00:00",
-  "now_ms": 1791074450116,
+  "fetched_at": "2026-10-04T06:58:36+00:00",
+  "now_ms": 1791097116523,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8d43800337449b0e",
-      "title": "那覇強殺 逮捕の米兵は容疑否認",
+      "doc_id": "yahoo-4ba17ec3f25e92c5",
+      "title": "新代表選出の公明 難路の再出発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597475"
+      "link": "https://news.yahoo.co.jp/pickup/6597477"
     },
     {
-      "doc_id": "yahoo-82c447ef2898673a",
-      "title": "高市早苗氏 自民総裁選出から1年",
+      "doc_id": "yahoo-106d549490d25edb",
+      "title": "台風27号 東北〜関東でも高波注意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597465"
+      "link": "https://news.yahoo.co.jp/pickup/6597491"
     },
     {
-      "doc_id": "yahoo-0f234607eee5d71a",
-      "title": "北朝鮮 発射のミサイル「AI導入」",
+      "doc_id": "yahoo-5407ab1f62077e5b",
+      "title": "片山さつき財務相 事前運動の疑い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597469"
+      "link": "https://news.yahoo.co.jp/pickup/6597502"
     },
     {
-      "doc_id": "yahoo-0a0439b9b130efca",
-      "title": "釣り中の9歳が海に転落 心肺停止",
+      "doc_id": "yahoo-cf339ba2ae58eae3",
+      "title": "那覇強殺 タトゥーが逮捕手がかり",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597459"
+      "link": "https://news.yahoo.co.jp/pickup/6597504"
     },
     {
-      "doc_id": "yahoo-57443a943224a14e",
-      "title": "オフロードバイクで転倒 男性死亡",
+      "doc_id": "yahoo-8e97f12796e99a09",
+      "title": "企業は「高専卒」に熱視線か 背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597468"
+      "link": "https://news.yahoo.co.jp/pickup/6597509"
     },
     {
-      "doc_id": "yahoo-46ee8d9e121221f1",
-      "title": "サザン関口氏会社5.8億円申告漏れ",
+      "doc_id": "yahoo-c982efd121d15af3",
+      "title": "横浜敗戦 織田の高校野球終わる",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597461"
+      "link": "https://news.yahoo.co.jp/pickup/6597501"
     },
     {
-      "doc_id": "yahoo-14b65a8ef45af54c",
-      "title": "阪神祝福の岡田氏 巨人2位に仰天",
+      "doc_id": "yahoo-2d18aeb9f53fcb40",
+      "title": "松村沙友理 子ども服10万円爆買い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597470"
+      "link": "https://news.yahoo.co.jp/pickup/6597508"
     },
     {
-      "doc_id": "yahoo-f79f384fd56e7208",
-      "title": "村上信五 政界進出今年は1万%ない",
+      "doc_id": "yahoo-17a4d90779505ebd",
+      "title": "村上信五 新番組のMC即決できず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597467"
+      "link": "https://news.yahoo.co.jp/pickup/6597503"
+    },
+    {
+      "doc_id": "jiji-3a7c7d8ec10263b6",
+      "title": "高市首相、米兵逮捕「極めて遺憾」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400152&g=pol"
+    },
+    {
+      "doc_id": "jiji-3ebfaafb0ca1974c",
+      "title": "高市首相は米海兵隊員の逮捕を受け「極めて残忍で凶悪な事件の発生は極めて遺憾だ」とＸに投稿した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400144&g=flash"
+    },
+    {
+      "doc_id": "jiji-e91da7f7357bea76",
+      "title": "高市首相「極めて遺憾」 米兵逮捕、外務省が抗議",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400129&g=pol"
     },
     {
       "doc_id": "jiji-1f19c1d7900a30db",
@@ -64,76 +82,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026100300263&g=int"
     },
     {
-      "doc_id": "jiji-18ed0c0541d8dee1",
-      "title": "ノーベル平和賞、ウクライナ団体やＩＣＣ有力か ５日から各賞発表",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300247&g=int"
-    },
-    {
       "doc_id": "jiji-0b5c00613c409cf0",
       "title": "スペインの住宅危機、数万人が抗議デモ 家賃高騰に怒り",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100400080&g=int"
     },
     {
-      "doc_id": "jiji-f70c21c673ff8447",
-      "title": "公明、難路の再出発 「中道勢力結集」展望なく",
+      "doc_id": "jiji-247ae5628abd0387",
+      "title": "中距離ミサイル「１０００キロ」飛行 極超音速兵器と北朝鮮メディア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300277&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100400102&g=int"
     },
     {
-      "doc_id": "jiji-0b7119fdb5ef1456",
-      "title": "４日、ブラジル大統領選 左派現職か、右派の前大統領長男か",
+      "doc_id": "jiji-18ed0c0541d8dee1",
+      "title": "ノーベル平和賞、ウクライナ団体やＩＣＣ有力か ５日から各賞発表",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300246&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300247&g=int"
     },
     {
-      "doc_id": "jiji-f89bfcc7e36190ea",
-      "title": "首相動静（１０月３日）",
+      "doc_id": "jiji-285703f16226025f",
+      "title": "横浜市長選、７人が届け出 パワハラ認定前職の信任争点",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300182&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100400120&g=pol"
     },
     {
-      "doc_id": "jiji-5aafedd6cf5cb139",
-      "title": "米国の雇用、安定保つ 伸びは急減速、失業率悪化も―ＦＲＢ利上げ判断は物価次第",
+      "doc_id": "jiji-b335001bfc3f6f6e",
+      "title": "ホテル女性遺体、米海兵隊の男逮捕 強盗殺人容疑「知りません」―沖縄県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300253&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100400094&g=soc"
     },
     {
-      "doc_id": "jiji-c0794a01d1595b5b",
-      "title": "ロス五輪へ宿題糧に スポーツクライミングの野中生萌、深み増すベテラン―アジア大会",
+      "doc_id": "jiji-b405cb9a7069b038",
+      "title": "ホテル一室で女性、強盗殺人か 立ち去った人物の行方追う―沖縄県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300269&g=spo"
-    },
-    {
-      "doc_id": "jiji-146d27f06e9ab5df",
-      "title": "フーシ派、サウジ首都石油施設に攻撃 イエメン空爆の報復、応酬続く",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400084&g=int"
-    },
-    {
-      "doc_id": "jiji-6525c9a22d443e86",
-      "title": "Ｎ党の立花氏、襲撃事件の被告に直接質問「謝罪の意思あるか」 異例の法廷",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201031&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100300208&g=soc"
     },
     {
       "doc_id": "nhk-f16743004d99c7e7",
-      "title": "那覇ホテル強盗殺人 アメリカ海兵隊普天間基地の上等兵を逮捕",
+      "title": "那覇ホテルで女性殺害 米海兵隊の上等兵を逮捕 容疑を否認",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164"
-    },
-    {
-      "doc_id": "nhk-999e5d295664ff21",
-      "title": "淡路島で釣りの9歳男児 海に転落し重体 救助向かった知人不明",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54174"
-    },
-    {
-      "doc_id": "nhk-d07a8768a032ea3c",
-      "title": "サザン関口和之氏の著作権管理会社 5億8000万円余の申告漏れ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104"
     },
     {
       "doc_id": "nhk-48a1ba4dd0b93658",
@@ -142,22 +130,40 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261004de54159"
     },
     {
-      "doc_id": "nhk-529c0fb0cb8fdf94",
-      "title": "津 4人死亡の火事 4人は寝室とリビングで見つかる",
+      "doc_id": "nhk-bf7d5ccd390987b0",
+      "title": "台風25号被害のJR成田線一部区間 きょうから運転再開",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54129"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54194"
     },
     {
-      "doc_id": "nhk-40118bde8c33bba7",
-      "title": "米大統領“選挙勝利で5000ドル支給”重ねて主張 選挙戦激しく",
+      "doc_id": "nhk-7ec5884b6fa04616",
+      "title": "フライドバイ機長“祈りの間 見ないようにしていたら襲撃”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54158"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54216"
     },
     {
-      "doc_id": "nhk-d39eb2340b79d9fc",
-      "title": "ホワイトソックス 地区シリーズで先勝 村上が先制ホームラン",
+      "doc_id": "nhk-b204893d1aca5330",
+      "title": "大島元衆院議長 川端元衆院副議長“議論戦わせ合意形成を”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54148"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54195"
+    },
+    {
+      "doc_id": "nhk-68af86b6c57ed060",
+      "title": "政府 安保上重要土地の取得規制強化「許可制」導入法案提出へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54185"
+    },
+    {
+      "doc_id": "nhk-7c8f36eff94ed560",
+      "title": "ドジャースが地区シリーズ先勝 大谷翔平は1安打",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54157"
+    },
+    {
+      "doc_id": "itmedia-b70e906a5cd4aa10",
+      "title": "個人向けGeminiのモデル選択が厳格化 無料ユーザーが使えるのは「Flash-Lite」のみに",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/"
     },
     {
       "doc_id": "itmedia-b859c99c1269f8a8",
@@ -226,10 +232,34 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001968/"
     },
     {
-      "doc_id": "itmedia-ed871dd03229dee3",
-      "title": "日本エネルギー経済研究所、不正アクセスの続報 パスポート情報13件の漏えい確認",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001976/"
+      "doc_id": "nazology-e3d5bd477e4b7751",
+      "title": "内臓脂肪が減った人ほど「脳の老化」が遅かった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200650"
+    },
+    {
+      "doc_id": "nazology-b9f0ccf1b0dc4164",
+      "title": "建物のコンクリートに電気をためる「セメント蓄電器」を開発",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200690"
+    },
+    {
+      "doc_id": "nazology-9095eaed9bf21ce1",
+      "title": "親指の伸びで「大動脈瘤の有無」がすぐ分かる!?簡単な片手診断テスト",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/89873"
+    },
+    {
+      "doc_id": "nazology-ffa93083eba08e27",
+      "title": "男性は「VRゲーム」の興奮が異性のストライクゾーンを広げる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200644"
+    },
+    {
+      "doc_id": "nazology-f2f2b3dcacf6ae72",
+      "title": "ゾウも「ハモる」―仲間の低い声を真似ると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200622"
     },
     {
       "doc_id": "nazology-7f7057d6fac1042b",
@@ -260,36 +290,6 @@
       "title": "「歯が何度も生え変わる」白亜紀の哺乳類を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200552"
-    },
-    {
-      "doc_id": "nazology-8d77b6ad8e207141",
-      "title": "脳を食べるアメーバが感染する仕組みが見えてきた――『狭い隙間』が大好き",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200740"
-    },
-    {
-      "doc_id": "nazology-71056e7bdb0c3426",
-      "title": "「顔の魅力」と「声の魅力」は別物だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200504"
-    },
-    {
-      "doc_id": "nazology-e35b8ddbd20e60ee",
-      "title": "霊長類のおしゃべりに「文法のルール」を発見か",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200477"
-    },
-    {
-      "doc_id": "nazology-b73343fbbacfbcb4",
-      "title": "果実を「どう食べるか」で心臓の健康に変化があると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200472"
-    },
-    {
-      "doc_id": "nazology-df71f90b70563114",
-      "title": "抗生物質と甘いものは腸内細菌に「悪い食べ合わせ」――病院で勧められるスポーツドリンクも",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200726"
     }
   ]
 }
