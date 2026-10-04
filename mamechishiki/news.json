@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-04T17:37:36+00:00",
-  "now_ms": 1791135456054,
+  "fetched_at": "2026-10-04T21:31:09+00:00",
+  "now_ms": 1791149469261,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -34,10 +34,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6597556"
     },
     {
-      "doc_id": "yahoo-d471d3d19c66c45f",
-      "title": "ごみ収集車で頭巻き込まれる 死亡",
+      "doc_id": "yahoo-f87b6171bd09b338",
+      "title": "知人女性の腹刺した疑い 男を逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597547"
+      "link": "https://news.yahoo.co.jp/pickup/6597560"
+    },
+    {
+      "doc_id": "yahoo-8e382c7f8e9e8742",
+      "title": "駐車場で親子3人に車衝突 父重傷",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597561"
     },
     {
       "doc_id": "yahoo-fe2db877de16d3e9",
@@ -52,16 +58,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6597559"
     },
     {
-      "doc_id": "yahoo-f7ed91f87440f76a",
-      "title": "ロッテ一條力真 通算1試合で引退",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597555"
-    },
-    {
-      "doc_id": "jiji-b335001bfc3f6f6e",
-      "title": "ホテル女性遺体、米海兵隊の男逮捕 強盗殺人容疑「知りません」―沖縄県警",
+      "doc_id": "jiji-4843650a2581ddf3",
+      "title": "首相動静（１０月４日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400094&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100400101&g=pol"
     },
     {
       "doc_id": "jiji-800905e626aa01e2",
@@ -70,22 +70,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026100400174&g=int"
     },
     {
-      "doc_id": "jiji-d57321ec757be4ed",
-      "title": "ＤｅＮＡ、最終戦白星で飾る プロ野球",
+      "doc_id": "jiji-76c28e219fc29bb4",
+      "title": "「県民はいつまで我慢すれば」 米兵逮捕で抗議集会―沖縄",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400396&g=spo"
-    },
-    {
-      "doc_id": "jiji-c5099c7105ffb60b",
-      "title": "阪神、主力外さず プロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400400&g=spo"
-    },
-    {
-      "doc_id": "jiji-d87d140c7e0e5b7f",
-      "title": "沖縄知事「強い憤り」 米兵逮捕、就任早々に難題",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400232&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100400365&g=soc"
     },
     {
       "doc_id": "jiji-a8924a4207ffb20c",
@@ -94,28 +82,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026100400257&g=spo"
     },
     {
+      "doc_id": "jiji-c09fad9b79842f1c",
+      "title": "成り済ましメール９０００件送信 社員アカウントにサイバー攻撃―日経新聞",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400298&g=soc"
+    },
+    {
+      "doc_id": "jiji-456c109b95de8c2b",
+      "title": "１６日間の熱戦に幕 日本は金、総数とも最多メダル―愛知・名古屋アジア大会",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400311&g=spo"
+    },
+    {
+      "doc_id": "jiji-94ebe9a26fd7faef",
+      "title": "上関町長に現職再選 中間貯蔵施設を推進―山口",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400356&g=pol"
+    },
+    {
+      "doc_id": "jiji-b335001bfc3f6f6e",
+      "title": "ホテル女性遺体、米海兵隊の男逮捕 強盗殺人容疑「知りません」―沖縄県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400094&g=soc"
+    },
+    {
       "doc_id": "jiji-1be8164e0ef2f2d0",
       "title": "茂木外相は４日午後、グラス駐日米大使と会談する",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100400188&g=flash"
     },
     {
-      "doc_id": "jiji-d4476f189ebc4a3f",
-      "title": "茂木外相、米大使に抗議",
+      "doc_id": "jiji-8220a59d4bc849a7",
+      "title": "高市首相、経済成長に総力 国会で所信表明演説",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400223&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100500067&g=pol"
     },
     {
-      "doc_id": "jiji-0df792b5f48de8fd",
-      "title": "イエメン、大規模軍事作戦を宣言 フーシ派から領土奪還狙う",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400391&g=int"
+      "doc_id": "nhk-998ef3ccc96fbcc4",
+      "title": "米兵逮捕の強盗殺人事件 被害女性の首にコードのようなものか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54384"
     },
     {
-      "doc_id": "jiji-c09fad9b79842f1c",
-      "title": "成り済ましメール９０００件送信 社員アカウントにサイバー攻撃―日経新聞",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400298&g=soc"
+      "doc_id": "nhk-e951b8ce08d458f5",
+      "title": "柔道世界選手権 女子48キロ 古賀若菜が初の金メダル",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54396"
+    },
+    {
+      "doc_id": "nhk-78a7ff8c85cc78da",
+      "title": "台風27号 あすにかけて小笠原近海を北上 高波に警戒を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54402"
+    },
+    {
+      "doc_id": "nhk-c4079d4f7837f3c5",
+      "title": "18歳未満の選挙運動禁止めぐる裁判 原告側控訴の方針",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54360"
     },
     {
       "doc_id": "nhk-651f48ef7d8a4b1f",
@@ -124,40 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261004de54358"
     },
     {
-      "doc_id": "nhk-f16743004d99c7e7",
-      "title": "那覇市ホテル強盗殺人事件 死因は窒息 逮捕の米海兵隊員は否認",
+      "doc_id": "nhk-2c28cd4928b156fc",
+      "title": "ノーベル賞 5日は生理学・医学賞の発表日",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54368"
     },
     {
-      "doc_id": "nhk-01643e18a91341a0",
-      "title": "ウクライナ キーウの橋にまた無人機攻撃 市民に心理的圧力か",
+      "doc_id": "nhk-494561423b197e26",
+      "title": "臨時国会きょう召集 消費税減税法案などで論戦へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54373"
-    },
-    {
-      "doc_id": "nhk-76956b5d7d8a7d71",
-      "title": "ゴルフ 日本女子オープン シン・ジエ初優勝 国内メジャー4冠初",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54320"
-    },
-    {
-      "doc_id": "nhk-7dde405cd241296d",
-      "title": "競馬 凱旋門賞 日本馬は11着と14着 初優勝ならず",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54386"
-    },
-    {
-      "doc_id": "nhk-48a1ba4dd0b93658",
-      "title": "台風27号 あさってにかけ小笠原近海を北上の見込み 高波に警戒",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54159"
-    },
-    {
-      "doc_id": "nhk-ffafbafcade8b1be",
-      "title": "ノーベル賞 5日から発表 日本から“3年連続受賞”なるか",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20260930de53274"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54388"
     },
     {
       "doc_id": "itmedia-b70e906a5cd4aa10",
