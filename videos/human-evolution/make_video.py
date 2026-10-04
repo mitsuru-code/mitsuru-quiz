@@ -50,7 +50,7 @@ def _load_dotenv():
             if "=" in line and not line.lstrip().startswith("#"):
                 k, v = line.split("=", 1)
                 k, v = k.strip(), v.strip().strip('"').strip("'")
-                if v:
+                if v and v != "ここにAPIキー":  # ひな形のままの行は無視（環境変数のキーを使う）
                     if k in os.environ and os.environ[k] != v:
                         KEY_SOURCE[k] = ".env（Windows の環境変数の値より優先）"
                     else:
