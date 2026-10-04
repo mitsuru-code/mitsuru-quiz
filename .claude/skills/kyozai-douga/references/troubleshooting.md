@@ -6,6 +6,9 @@ PC 側の画面は Claude から見えない。ユーザーには「黒い画面
 | 症状 | 原因 | 対処 |
 |---|---|---|
 | 「ファイルをブロックされた」 | ダウンロードした ZIP に Windows が付ける「インターネットから来た」印 | ZIP を右クリック →「プロパティ」→「許可する」にチェック → OK → 展開し直す。青い画面なら「詳細情報」→「実行」 |
+| 「許可する」の後もブロックされる | 展開済みファイル一つずつに印が残っている／スマート アプリ コントロール（推定） | フォルダのアドレス欄に `powershell` → `Get-ChildItem -Recurse \| Unblock-File`。bat を使わず `py make_video.py --check` でも動く。スマート アプリ コントロールはオフにすると戻せないので勝手に切らせない |
+| `can't open file …make_video.py` / `Could not open requirements file` | cmd が `C:\Users\<名前>` など別の場所で開いている | 展開したフォルダをエクスプローラーで開き、アドレス欄に `cmd` と入力して Enter（そのフォルダで開く） |
+| 画像を置いたのに「画像の無い場面」に出る | 前の版の展開フォルダの scenes に置いた | `check.bat` の「保存先」行で今のフォルダを確認し、そこの scenes にコピー |
 | 直したはずの表示が出ない | ダウンロードフォルダの古い ZIP（`xxx (1).zip` など）を展開している | 更新日時が最新の ZIP を、今のフォルダの1つ上に「ファイルを置き換える」で展開。ZIP 名に版番号（`-v2` など）を付けて渡すと取り違えにくい |
 | `HTTP 402 … prepayment credits are depleted` | Gemini の音声生成（TTS）は無料枠では使えない（2026年9月時点。「無料枠」のキーでも 402 になる） | 既定の Cloud TTS（Chirp 3 HD）を使う。Gemini を使うなら AI Studio でクレジット追加（最低5ドル） |
 | Gemini で `HTTP 404` | TTS モデルの廃止・改名（例: gemini-2.5-flash-preview-tts は廃止、後継は gemini-3.8-flash-tts） | スクリプトは使えるモデル一覧から自動で選び直す。直らなければ `.env` の `GEMINI_TTS_MODEL=` を消す |
