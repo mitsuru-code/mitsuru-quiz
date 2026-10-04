@@ -667,7 +667,8 @@ def main():
     out = os.path.join(OUT_DIR, time.strftime(SCRIPT.get("slug", "kyozai") + "_%Y%m%d_%H%M%S.mp4"))
     subprocess.check_call([ff, "-y", "-loglevel", "error", "-i", silent, "-i", wav, "-c:v", "copy",
                            "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out])
-    print("done:", out)
+    os.remove(silent)  # 音なしの作業ファイル。完成品と取り違えて開かれたため残さない
+    print(f"\n完成しました: {out}", flush=True)
 
 
 if __name__ == "__main__":
