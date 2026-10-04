@@ -116,13 +116,7 @@
    "head": "ヒトはサルから進化した？",
    "sub": "よくある誤解ですが、ヒトは今のサルから進化したのではなく、共通の祖先から枝分かれしたのです",
    "read": "よくある誤解ですが、ヒトは、今のサルから進化したのではありません。ヒトとサルは、共通の祖先から、枝分かれしたのです。",
-   "image_prompt": "an artistic great tree of life with branches, a modern human family resting on one branch and a chimpanzee family on a neighboring branch, both branches joining at a shared trunk, soft light",
-   "blur_box": [
-    0.3,
-    0.8,
-    0.7,
-    0.96
-   ]
+   "image_prompt": "an artistic great tree of life with branches, a modern human family resting on one branch and a chimpanzee family on a neighboring branch, both branches joining at a shared trunk, soft light"
   },
   {
    "head": "わたしたちの中に",
