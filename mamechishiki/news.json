@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-04T13:13:35+00:00",
-  "now_ms": 1791119615551,
+  "fetched_at": "2026-10-04T17:37:36+00:00",
+  "now_ms": 1791135456054,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,28 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-ca7f447058980316",
-      "title": "台風27号 太平洋側は高波に警戒を",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597534"
-    },
-    {
-      "doc_id": "yahoo-56c38ca26b7d09ee",
-      "title": "那覇強殺事件 遺族がコメント発表",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597545"
-    },
-    {
       "doc_id": "yahoo-266970bd06ca7e9f",
       "title": "露元首相 プーチン氏の過ち語る",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6597552"
     },
     {
-      "doc_id": "yahoo-514f0e8ec61101f6",
-      "title": "故意に車を対向車に衝突疑い 逮捕",
+      "doc_id": "yahoo-21dc2081d527cf2e",
+      "title": "台風被害の千葉 なぜ盛り土崩落",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597540"
+      "link": "https://news.yahoo.co.jp/pickup/6597557"
+    },
+    {
+      "doc_id": "yahoo-3a1e33b1c325a01f",
+      "title": "ブラジル大統領選 決選投票の公算",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597553"
+    },
+    {
+      "doc_id": "yahoo-eb4b482fc7e21b8e",
+      "title": "遮断器ない踏切 15歳はねられ死亡",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597556"
     },
     {
       "doc_id": "yahoo-d471d3d19c66c45f",
@@ -46,28 +46,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6597554"
     },
     {
-      "doc_id": "yahoo-60121fa3ec73c775",
-      "title": "アジア大会 マツケンサンバで終幕",
+      "doc_id": "yahoo-ab1ebacec2e9d454",
+      "title": "凱旋門賞 武豊12度目挑戦も夢散",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597546"
+      "link": "https://news.yahoo.co.jp/pickup/6597559"
     },
     {
-      "doc_id": "yahoo-df1ecf4634d253cb",
-      "title": "J2新潟サポ 飲料水などまき散らす",
+      "doc_id": "yahoo-f7ed91f87440f76a",
+      "title": "ロッテ一條力真 通算1試合で引退",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597544"
-    },
-    {
-      "doc_id": "jiji-a8924a4207ffb20c",
-      "title": "申ジエＶ、永久シード獲得 ＰＯ制しメジャー４大会制覇―日本女子オープンゴルフ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400257&g=spo"
-    },
-    {
-      "doc_id": "jiji-800905e626aa01e2",
-      "title": "ブラジル大統領選、投票実施 決選に持ち越しの公算",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400174&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6597555"
     },
     {
       "doc_id": "jiji-b335001bfc3f6f6e",
@@ -76,46 +64,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026100400094&g=soc"
     },
     {
+      "doc_id": "jiji-800905e626aa01e2",
+      "title": "ブラジル大統領選、投票実施 決選に持ち越しの公算",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400174&g=int"
+    },
+    {
+      "doc_id": "jiji-d57321ec757be4ed",
+      "title": "ＤｅＮＡ、最終戦白星で飾る プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400396&g=spo"
+    },
+    {
+      "doc_id": "jiji-c5099c7105ffb60b",
+      "title": "阪神、主力外さず プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400400&g=spo"
+    },
+    {
+      "doc_id": "jiji-d87d140c7e0e5b7f",
+      "title": "沖縄知事「強い憤り」 米兵逮捕、就任早々に難題",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400232&g=pol"
+    },
+    {
+      "doc_id": "jiji-a8924a4207ffb20c",
+      "title": "申ジエＶ、永久シード獲得 ＰＯ制しメジャー４大会制覇―日本女子オープンゴルフ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400257&g=spo"
+    },
+    {
+      "doc_id": "jiji-1be8164e0ef2f2d0",
+      "title": "茂木外相は４日午後、グラス駐日米大使と会談する",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400188&g=flash"
+    },
+    {
+      "doc_id": "jiji-d4476f189ebc4a3f",
+      "title": "茂木外相、米大使に抗議",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400223&g=pol"
+    },
+    {
+      "doc_id": "jiji-0df792b5f48de8fd",
+      "title": "イエメン、大規模軍事作戦を宣言 フーシ派から領土奪還狙う",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400391&g=int"
+    },
+    {
       "doc_id": "jiji-c09fad9b79842f1c",
       "title": "成り済ましメール９０００件送信 社員アカウントにサイバー攻撃―日経新聞",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100400298&g=soc"
-    },
-    {
-      "doc_id": "jiji-7c713ae87db8da5f",
-      "title": "ミサイル「射程広げる」 対米交渉で揺さぶりか―イラン",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400347&g=int"
-    },
-    {
-      "doc_id": "jiji-456c109b95de8c2b",
-      "title": "１６日間の熱戦に幕 日本は金、総数とも最多メダル―愛知・名古屋アジア大会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400311&g=spo"
-    },
-    {
-      "doc_id": "jiji-23326ac24a4a13cb",
-      "title": "沖縄知事「強い憤り」 米兵逮捕、就任早々に難題",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400232&g=soc"
-    },
-    {
-      "doc_id": "jiji-94ebe9a26fd7faef",
-      "title": "上関町長に現職再選 中間貯蔵施設を推進―山口",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400356&g=pol"
-    },
-    {
-      "doc_id": "jiji-806998a1a59d8584",
-      "title": "桑木、悔しさ残る２位 日本女子オープンゴルフ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400285&g=spo"
-    },
-    {
-      "doc_id": "jiji-30b221bf2b0d69ce",
-      "title": "北朝鮮ミサイル「迎撃可能」 韓国",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400248&g=int"
     },
     {
       "doc_id": "nhk-651f48ef7d8a4b1f",
@@ -124,28 +124,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261004de54358"
     },
     {
-      "doc_id": "nhk-76956b5d7d8a7d71",
-      "title": "ゴルフ 日本女子オープン シン・ジエ プレーオフ制し初優勝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54320"
-    },
-    {
-      "doc_id": "nhk-631aa0ef526dd39d",
-      "title": "簗農相“予算カット”発言への言及避け「現場主義で対応」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54280"
-    },
-    {
       "doc_id": "nhk-f16743004d99c7e7",
       "title": "那覇市ホテル強盗殺人事件 死因は窒息 逮捕の米海兵隊員は否認",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164"
     },
     {
-      "doc_id": "nhk-56231cfa5168de95",
-      "title": "名古屋アジア大会閉会式 16日間の熱戦に幕",
+      "doc_id": "nhk-01643e18a91341a0",
+      "title": "ウクライナ キーウの橋にまた無人機攻撃 市民に心理的圧力か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54249"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54373"
+    },
+    {
+      "doc_id": "nhk-76956b5d7d8a7d71",
+      "title": "ゴルフ 日本女子オープン シン・ジエ初優勝 国内メジャー4冠初",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54320"
+    },
+    {
+      "doc_id": "nhk-7dde405cd241296d",
+      "title": "競馬 凱旋門賞 日本馬は11着と14着 初優勝ならず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54386"
     },
     {
       "doc_id": "nhk-48a1ba4dd0b93658",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001968/"
     },
     {
+      "doc_id": "nazology-6e1261909785850d",
+      "title": "声が低い男性は本当にモテるのか？研究で出た答えとは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200684"
+    },
+    {
       "doc_id": "nazology-0c252f36669215c5",
       "title": "「脳食いアメーバ」が脳に入り込む手がかりとは",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "ゾウも「ハモる」―仲間の低い声を真似ると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200622"
-    },
-    {
-      "doc_id": "nazology-7f7057d6fac1042b",
-      "title": "腎臓がんの「個別ワクチン」を受けた9人全員が再発せず",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200667"
     }
   ]
 }
