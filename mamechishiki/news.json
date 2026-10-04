@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-03T21:20:03+00:00",
-  "now_ms": 1791062403853,
+  "fetched_at": "2026-10-04T00:40:50+00:00",
+  "now_ms": 1791074450116,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,82 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-db35c18b5198db5d",
-      "title": "台風27号 小笠原諸島で高波警戒",
+      "doc_id": "yahoo-8d43800337449b0e",
+      "title": "那覇強殺 逮捕の米兵は容疑否認",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597449"
+      "link": "https://news.yahoo.co.jp/pickup/6597475"
     },
     {
-      "doc_id": "yahoo-2b5932fed47b5c3c",
-      "title": "米政府のAI 都合の悪い質問を拒否",
+      "doc_id": "yahoo-82c447ef2898673a",
+      "title": "高市早苗氏 自民総裁選出から1年",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597451"
+      "link": "https://news.yahoo.co.jp/pickup/6597465"
     },
     {
-      "doc_id": "yahoo-86233a53c7af0a88",
-      "title": "23階転落 母が「転落しそう」通報",
+      "doc_id": "yahoo-0f234607eee5d71a",
+      "title": "北朝鮮 発射のミサイル「AI導入」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597435"
+      "link": "https://news.yahoo.co.jp/pickup/6597469"
     },
     {
-      "doc_id": "yahoo-73872102e3067551",
-      "title": "だんじりが横転し7人けが 転落か",
+      "doc_id": "yahoo-0a0439b9b130efca",
+      "title": "釣り中の9歳が海に転落 心肺停止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597447"
+      "link": "https://news.yahoo.co.jp/pickup/6597459"
     },
     {
-      "doc_id": "yahoo-dea8912b8b125f28",
-      "title": "米国産ジャガイモ解禁 前倒し浮上",
+      "doc_id": "yahoo-57443a943224a14e",
+      "title": "オフロードバイクで転倒 男性死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597453"
+      "link": "https://news.yahoo.co.jp/pickup/6597468"
     },
     {
-      "doc_id": "yahoo-64c3ffd8c9df1b70",
-      "title": "韓国サッカー男子V 国旗揚がらず",
+      "doc_id": "yahoo-46ee8d9e121221f1",
+      "title": "サザン関口氏会社5.8億円申告漏れ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597458"
+      "link": "https://news.yahoo.co.jp/pickup/6597461"
     },
     {
-      "doc_id": "yahoo-8ce567c6404aff06",
-      "title": "阪神V2 監督が涙「苦しかった」",
+      "doc_id": "yahoo-14b65a8ef45af54c",
+      "title": "阪神祝福の岡田氏 巨人2位に仰天",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597455"
+      "link": "https://news.yahoo.co.jp/pickup/6597470"
     },
     {
-      "doc_id": "yahoo-4da5e87385058b5f",
-      "title": "キンプリ・髙橋海人 ソロ活動開始",
+      "doc_id": "yahoo-f79f384fd56e7208",
+      "title": "村上信五 政界進出今年は1万%ない",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597433"
+      "link": "https://news.yahoo.co.jp/pickup/6597467"
     },
     {
-      "doc_id": "jiji-0ee1b18c96b3cebe",
-      "title": "高齢者に１万４０００円支給 中間選挙へ支持拡大狙う―米大統領",
+      "doc_id": "jiji-1f19c1d7900a30db",
+      "title": "米国の大豆農家、失望 中国の関税下げ見送りで―中間選挙控えトランプ政権に逆風",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300255&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100300263&g=int"
+    },
+    {
+      "doc_id": "jiji-18ed0c0541d8dee1",
+      "title": "ノーベル平和賞、ウクライナ団体やＩＣＣ有力か ５日から各賞発表",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300247&g=int"
+    },
+    {
+      "doc_id": "jiji-0b5c00613c409cf0",
+      "title": "スペインの住宅危機、数万人が抗議デモ 家賃高騰に怒り",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100400080&g=int"
+    },
+    {
+      "doc_id": "jiji-f70c21c673ff8447",
+      "title": "公明、難路の再出発 「中道勢力結集」展望なく",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300277&g=pol"
+    },
+    {
+      "doc_id": "jiji-0b7119fdb5ef1456",
+      "title": "４日、ブラジル大統領選 左派現職か、右派の前大統領長男か",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100300246&g=int"
     },
     {
       "doc_id": "jiji-f89bfcc7e36190ea",
@@ -70,58 +94,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026100300182&g=pol"
     },
     {
-      "doc_id": "jiji-180bcd746ad0f25b",
-      "title": "久保「家族のために」 結婚発表、両手に指輪―サッカー日本代表",
+      "doc_id": "jiji-5aafedd6cf5cb139",
+      "title": "米国の雇用、安定保つ 伸びは急減速、失業率悪化も―ＦＲＢ利上げ判断は物価次第",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300394&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100300253&g=int"
     },
     {
-      "doc_id": "jiji-4ad33c21e1ac2c0f",
-      "title": "阪神が球団初の連覇 プロ野球セ・リーグ",
+      "doc_id": "jiji-c0794a01d1595b5b",
+      "title": "ロス五輪へ宿題糧に スポーツクライミングの野中生萌、深み増すベテラン―アジア大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300413&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100300269&g=spo"
     },
     {
-      "doc_id": "jiji-05d935e86f5c26a1",
-      "title": "日本勢、金メダルも史上最多 ソフトボールは７連覇―愛知・名古屋アジア大会",
+      "doc_id": "jiji-146d27f06e9ab5df",
+      "title": "フーシ派、サウジ首都石油施設に攻撃 イエメン空爆の報復、応酬続く",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300307&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100400084&g=int"
     },
     {
-      "doc_id": "jiji-2430e97007aed614",
-      "title": "副操縦士、おので機長襲う テロ未遂で捜査―イスラエル便事件",
+      "doc_id": "jiji-6525c9a22d443e86",
+      "title": "Ｎ党の立花氏、襲撃事件の被告に直接質問「謝罪の意思あるか」 異例の法廷",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300175&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100201031&g=soc"
     },
     {
-      "doc_id": "jiji-626833682aff3ed1",
-      "title": "公明・岡本新体制が始動 統一選へ立て直し図る",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300232&g=pol"
-    },
-    {
-      "doc_id": "jiji-dcc04670b65a4b23",
-      "title": "「Ｏ・Ｏライン」で二人三脚 小川氏、岡本新代表と一体アピール―公明党大会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300288&g=pol"
-    },
-    {
-      "doc_id": "jiji-daed4dc922004bb7",
-      "title": "特化型ＡＩの開発推進 古川デジタル相「データが勝負」―新閣僚インタビュー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100201035&g=pol"
-    },
-    {
-      "doc_id": "jiji-851c022428a1c5b3",
-      "title": "公明代表、農水相を批判",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100300359&g=pol"
-    },
-    {
-      "doc_id": "nhk-48a1ba4dd0b93658",
-      "title": "台風27号 あすからあさって小笠原諸島に接近 高波警戒",
+      "doc_id": "nhk-f16743004d99c7e7",
+      "title": "那覇ホテル強盗殺人 アメリカ海兵隊普天間基地の上等兵を逮捕",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54159"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54164"
+    },
+    {
+      "doc_id": "nhk-999e5d295664ff21",
+      "title": "淡路島で釣りの9歳男児 海に転落し重体 救助向かった知人不明",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54174"
     },
     {
       "doc_id": "nhk-d07a8768a032ea3c",
@@ -130,34 +136,40 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de54104"
     },
     {
+      "doc_id": "nhk-48a1ba4dd0b93658",
+      "title": "台風27号 あすからあさって小笠原諸島に接近 高波警戒",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54159"
+    },
+    {
       "doc_id": "nhk-529c0fb0cb8fdf94",
       "title": "津 4人死亡の火事 4人は寝室とリビングで見つかる",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261003de54129"
     },
     {
-      "doc_id": "nhk-dcfe5c9e3f4808f6",
-      "title": "クビアカツヤカミキリ対策で予備費 約32億円の支出調整 政府",
+      "doc_id": "nhk-40118bde8c33bba7",
+      "title": "米大統領“選挙勝利で5000ドル支給”重ねて主張 選挙戦激しく",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261003de54123"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54158"
     },
     {
       "doc_id": "nhk-d39eb2340b79d9fc",
-      "title": "ホワイトソックス 地区シリーズで先勝 村上が先制HR",
+      "title": "ホワイトソックス 地区シリーズで先勝 村上が先制ホームラン",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261004de54148"
     },
     {
-      "doc_id": "nhk-7c8f36eff94ed560",
-      "title": "ドジャース 地区シリーズ初戦 大谷翔平は2番・指名打者で出場",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54157"
+      "doc_id": "itmedia-b859c99c1269f8a8",
+      "title": "「OpenAIの文化は壊れている」──安全性報告書を統括した従業員が退社し、寄稿",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/04/2000001986/"
     },
     {
-      "doc_id": "nhk-6d22a28fa29e5d1f",
-      "title": "ブラジル大統領選挙 投票へ 現職と前大統領の息子が接戦",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54142"
+      "doc_id": "itmedia-77b8baadf4778e32",
+      "title": "再び浮上した「クレカ表現規制問題」 クリスタやpixiv FANBOXの騒動からマンガ家が感じた不安と焦り",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/04/2000001978/"
     },
     {
       "doc_id": "itmedia-2145f86356cb3f85",
@@ -220,16 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001976/"
     },
     {
-      "doc_id": "itmedia-ccfe18cb5db4d850",
-      "title": "英字日刊紙のジャパンタイムズ、傘下が不正アクセス被害に 漏えいの有無は「調査中」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001975/"
-    },
-    {
-      "doc_id": "itmedia-011039b5b41ae9fd",
-      "title": "第一生命に不正アクセス 従業員情報12万人分漏えいか 退職者も対象",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/02/2000001971/"
+      "doc_id": "nazology-7f7057d6fac1042b",
+      "title": "腎臓がんの「個別ワクチン」を受けた9人全員が再発せず",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200667"
     },
     {
       "doc_id": "nazology-042389afba574dc4",
@@ -284,12 +290,6 @@
       "title": "抗生物質と甘いものは腸内細菌に「悪い食べ合わせ」――病院で勧められるスポーツドリンクも",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200726"
-    },
-    {
-      "doc_id": "nazology-5c562e4550ee1fba",
-      "title": "うつ病予防になるのは「恋人」or「友達」どっち？意外な結果が判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/172816"
     }
   ]
 }
