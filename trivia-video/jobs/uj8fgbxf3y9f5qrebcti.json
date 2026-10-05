@@ -1,0 +1,44 @@
+{
+  "status": "verified",
+  "requestedAt": 1791190817640,
+  "postDate": null,
+  "slot": null,
+  "news": false,
+  "title": "夜中ではなく明け方が底、体温が一番下がる本当の時間帯",
+  "script": {
+    "conclusion": "体温が最も低くなるのは深夜ではなく、起きる少し前の明け方だと体内時計の研究でわかっています。",
+    "emoji": {
+      "conclusion": "🌅",
+      "hook": "🌙🌡️",
+      "intro": "😴🌃",
+      "points": ["🛌🌙", "🌡️⏰", "❤️📈"],
+      "question": "⏰🛌",
+      "share": "🥶"
+    },
+    "genre": "睡眠科学",
+    "hook": "体温が一番下がるのは、夜中じゃない？",
+    "imageFolder": "20261005_rebcti",
+    "imagePrompts": [
+      {"prompt": "薄暗い寝室で布団に包まり眠っている人物のイラスト。枕元に小さな体温計が浮かぶように描かれ、低い数値を示している。全体的に青みがかった静かな夜明け前の雰囲気。優しい線画のイラスト調。横長（3:2）の画像。文字やロゴは入れない。", "scene": "hook"},
+      {"prompt": "朝日が差し込む寝室で、布団から起き上がり伸びをする人物のイラスト。窓の外はオレンジ色の明け方の空、部屋には柔らかい光が広がっている。温かみのある明るいイラスト調。横長（3:2）の画像。文字やロゴは入れない。", "scene": "conclusion"}
+    ],
+    "intro": "眠ると体温は下がり続け、真夜中が一番冷えると思われがちです。",
+    "points": [
+      {"head": "体温低下は明け方まで続く", "text": "眠った直後から体温は下がり始め、深夜で止まらず明け方近くまでゆるやかに下がり続けるとされます。"},
+      {"head": "最低温度は起床1〜2時間前", "text": "最も体温が低くなるのは起床の1〜2時間前あたりで、その後は目覚めに向けて体温が上昇に転じるとされます。"},
+      {"head": "体温上昇で目覚めが進む", "text": "体温の上昇とともに血圧や心拍数、コルチゾールなどのホルモン分泌も徐々に高まっていくとされます。"}
+    ],
+    "post": "体温が一番下がるのは、夜中ではなく明け方なんだとか。起きる直前が一日で一番体が冷えている時間だと知っていましたか？その理由を知ると、冬の朝が特につらい理由にも納得できます。\n\n#豆知識 #雑学 #睡眠",
+    "question": "今朝、目覚めた瞬間の体の冷たさを感じましたか。",
+    "share": "体温が一番下がるのは夜中じゃなくて、起きる直前の明け方なんだって。",
+    "title": "夜中ではなく明け方が底、体温が一番下がる本当の時間帯"
+  },
+  "verify": {
+    "checkedAt": 1791191608205,
+    "claims": [
+      {"claim": "体温最低点は深夜でなく起床前の明け方", "note": "核心体温の最低は起床約2時間前、PMC文献等で確認", "sources": [{"title": "Chronotype differences in circadian rhythms of temperature (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3630920/"}, {"title": "Human body temperature - Wikipedia", "url": "https://en.wikipedia.org/wiki/Human_body_temperature"}], "verdict": "confirmed"},
+      {"claim": "最低体温は起床1〜2時間前", "note": "PMC論文で核心体温最低は起床約2時間前と報告されている", "sources": [{"title": "Chronotype differences in circadian rhythms of temperature (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3630920/"}], "verdict": "confirmed"},
+      {"claim": "体温上昇とともにコルチゾール等も上昇", "note": "コルチゾールは夜後半から起床時にかけて上昇、PMC文献で確認", "sources": [{"title": "Sleep and Circadian Regulation of Cortisol: A Short Review (PMC)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8813037/"}], "verdict": "confirmed"}
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "verified",
+  "requestedAt": 1791191624945,
+  "postDate": "20261005",
+  "slot": null,
+  "news": false,
+  "title": "愛犬の毛にくっついた種、そこから生まれた世界的な留め具",
+  "script": {
+    "conclusion": "それはゴボウの仲間の実のトゲが布に絡みつく性質をヒントに考案された、ベルクロという留め具だとされます",
+    "emoji": {
+      "conclusion": "🧷",
+      "hook": "🐕🌿",
+      "intro": "🐕🌾",
+      "points": ["🐕🌾", "🔬", "🏷️"],
+      "question": "💭",
+      "share": "🐕💬"
+    },
+    "genre": "発明秘話",
+    "hook": "マジックテープ、犬の散歩から生まれた？",
+    "imageFolder": "20261005_9374-3",
+    "imagePrompts": [
+      {"prompt": "山道を散歩中の犬と飼い主の後ろ姿を描いた、明るく自然な雰囲気のイラスト。犬の毛にたくさんの小さな丸いトゲ状の種がくっついている様子を分かりやすく表現する。横長（3:2）の画像。文字やロゴは入れない。", "scene": "hook"},
+      {"prompt": "顕微鏡で観察したような、小さなかぎ状のトゲが無数についた丸い植物の種をクローズアップで描いた図解イラスト。科学的で清潔感のある雰囲気。横長（3:2）の画像。文字やロゴは入れない。", "scene": "point1"}
+    ],
+    "intro": "愛犬の毛にくっついた、取れない種に困った経験はありませんか",
+    "points": [
+      {"head": "愛犬の毛についた種", "text": "1941年、スイス人の技師が愛犬との山歩きで毛皮にびっしりついた種に気づいたとされます"},
+      {"head": "顕微鏡で見た構造", "text": "顕微鏡で種を観察すると、表面の小さなかぎ状のトゲが布や毛の繊維に絡みつく仕組みでした"},
+      {"head": "商品化までの道のり", "text": "かぎと輪を並べた布を試作し、十年以上かけて特許を取得、ベルクロの名で商品化されたとされます"}
+    ],
+    "post": "散歩から帰った愛犬の毛に、取れないトゲだらけの種がびっしり。実はその仕組みが、ある留め具の世界的な発明につながったとされます。身近な自然から生まれた発明、ほかに知っていますか。\n\n#豆知識 #雑学 #発明",
+    "question": "身近な自然から生まれた発明、他にもあるでしょうか",
+    "share": "マジックテープって犬の散歩でくっついた種がヒントなんだって",
+    "title": "愛犬の毛にくっついた種、そこから生まれた世界的な留め具"
+  },
+  "verify": {
+    "checkedAt": 1791191818916,
+    "claims": [
+      {"claim": "1941年スイス人技師が犬の毛の種にヒントを得た", "note": "George de Mestralが1941年に発想とベルクロ公式社史で確認", "sources": [{"title": "Our Story - Velcro Companies History", "url": "https://www.velcro.co.uk/original-thinking/our-story/"}, {"title": "George de Mestral - Wikipedia", "url": "https://en.wikipedia.org/wiki/George_de_Mestral"}], "verdict": "confirmed"},
+      {"claim": "種の表面のかぎ状トゲが繊維に絡みつく仕組みだった", "note": "顕微鏡でかぎ状構造を発見と公式社史で確認", "sources": [{"title": "Our Story - Velcro Companies History", "url": "https://www.velcro.co.uk/original-thinking/our-story/"}], "verdict": "confirmed"},
+      {"claim": "十年以上かけ特許を取得しベルクロの名で商品化された", "note": "1941年発想から1955年特許付与までと公式社史等で確認", "sources": [{"title": "Velcro - Wikipedia", "url": "https://en.wikipedia.org/wiki/Velcro"}], "verdict": "confirmed"}
+    ]
+  }
+}

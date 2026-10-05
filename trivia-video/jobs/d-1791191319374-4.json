@@ -1,0 +1,44 @@
+{
+  "status": "verified",
+  "requestedAt": 1791191611201,
+  "postDate": "20261005",
+  "slot": null,
+  "news": false,
+  "title": "なぜ船の右と左は、ポートとスターボードと呼ばれるのか",
+  "script": {
+    "conclusion": "右側に舵の櫂があり右舷はスターボード、左側を桟橋につけたため左舷はポートと呼ばれるようになったとされます。",
+    "emoji": {
+      "conclusion": "🚢",
+      "hook": "⛵",
+      "intro": "⚓",
+      "points": ["🚣", "📦", "🟢🔴"],
+      "question": "🧭",
+      "share": "⚓"
+    },
+    "genre": "船舶用語",
+    "hook": "船の右、スターボードって呼ぶって知ってた？",
+    "imageFolder": "20261005_9374-4",
+    "imagePrompts": [
+      {"prompt": "昔の帆船で船乗りが右側の大きな舵板を操作している様子を描いたイメージ図。明るい色使いのイラスト調で、海と帆船を背景に躍動感のある構図にしてください。横長（3:2）の画像。文字やロゴは入れない。", "scene": "hook"},
+      {"prompt": "帆船が港の桟橋に左側をつけて停泊し、船員が荷物を積み降ろししているイメージ図。温かみのある色合いのイラスト調で、桟橋と積み荷を中心にした構図にしてください。横長（3:2）の画像。文字やロゴは入れない。", "scene": "point1"}
+    ],
+    "intro": "右舷・左舷のほかに、スターボードとポートという呼び方があります。",
+    "points": [
+      {"head": "スターボードの由来", "text": "帆船時代、舵は右側の板で操作されstarboardの語源になったとされます。"},
+      {"head": "ポートという呼び名の由来", "text": "舵を傷つけないよう左側を桟橋につけたため、portの語源になったとされます。"},
+      {"head": "夜間の灯火で区別", "text": "現在も右舷に緑、左舷に赤の灯火をつけることが国際ルールで定められています。"}
+    ],
+    "post": "船の右をスターボード、左をポートと呼ぶのを知っていますか。昔の舵の位置と、荷を積む桟橋への接岸方法に、呼び名のヒントが隠れています。あなたなら左右に何と名付けますか。\n\n#豆知識 #雑学 #船",
+    "question": "船の左右に別の呼び名があったら、何て呼びたいですか。",
+    "share": "船の右と左、スターボードとポートって呼ぶの、桟橋の名残りなんだって。",
+    "title": "なぜ船の右と左は、ポートとスターボードと呼ばれるのか"
+  },
+  "verify": {
+    "checkedAt": 1791191741685,
+    "claims": [
+      {"claim": "舵が右側にあったことがstarboardの語源", "note": "steer-boardに由来し右舷操舵に基づくと解説で確認", "sources": [{"title": "舷 - Wikipedia", "url": "https://ja.wikipedia.org/wiki/%E8%88%B7"}, {"title": "starboardとportの由来", "url": "https://www.meiwakaiun.com/tips/starboard%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A8port%E3%83%9D%E3%83%BC%E3%83%88%E3%81%AE%E7%94%B1%E6%9D%A5/"}], "verdict": "confirmed"},
+      {"claim": "左側を桟橋に着けたためportの語源になった", "note": "舵のない左側を港に着けたことに由来すると解説で確認", "sources": [{"title": "starboardとportの由来", "url": "https://www.meiwakaiun.com/tips/starboard%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A8port%E3%83%9D%E3%83%BC%E3%83%88%E3%81%AE%E7%94%B1%E6%9D%A5/"}], "verdict": "confirmed"},
+      {"claim": "右舷緑左舷赤の灯火が国際規則で定められている", "note": "COLREGSで右舷緑左舷赤と規定、米海事当局文書で確認", "sources": [{"title": "COLREGS Rules 20-31 Lights and Shapes - US Coast Guard", "url": "https://www.navcen.uscg.gov/sites/default/files/pdf/navRules/Rules20-31.pdf"}], "verdict": "confirmed"}
+    ]
+  }
+}
