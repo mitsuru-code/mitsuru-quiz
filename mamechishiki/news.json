@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-05T07:06:28+00:00",
-  "now_ms": 1791183988356,
+  "fetched_at": "2026-10-05T16:04:32+00:00",
+  "now_ms": 1791216272054,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,124 +10,118 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-f37d206c8c2087e4",
-      "title": "予算カット発言 農相が撤回し謝罪",
+      "doc_id": "yahoo-bfe4ea22e3147595",
+      "title": "首相所信表明 野党から批判相次ぐ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597627"
+      "link": "https://news.yahoo.co.jp/pickup/6597677"
     },
     {
-      "doc_id": "yahoo-81770bea037853b8",
-      "title": "首相 沖縄の事件「極めて遺憾」",
+      "doc_id": "yahoo-a2c38a108749202a",
+      "title": "フジパン熊本工場 生産再開を断念",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597616"
+      "link": "https://news.yahoo.co.jp/pickup/6597666"
     },
     {
-      "doc_id": "yahoo-b23162a94d53cc35",
-      "title": "富山交番襲撃差し戻し審 被告黙秘",
+      "doc_id": "yahoo-93d22544b2d8d5f7",
+      "title": "妻子殺害疑い 死亡の夫を書類送検",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597614"
+      "link": "https://news.yahoo.co.jp/pickup/6597680"
     },
     {
-      "doc_id": "yahoo-9e9ce9e7cbbd0c42",
-      "title": "交際相手の遺体遺棄疑い 男を逮捕",
+      "doc_id": "yahoo-c4d72aa50996a0f4",
+      "title": "トラックの資材落下 12台絡む事故",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597624"
+      "link": "https://news.yahoo.co.jp/pickup/6597686"
     },
     {
-      "doc_id": "yahoo-a04ba90ec965b97f",
-      "title": "路線バスと車が衝突 乗客8人けが",
+      "doc_id": "yahoo-1cb84cfa3ac23947",
+      "title": "塩野義 米バイオ医薬品企業買収へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597620"
+      "link": "https://news.yahoo.co.jp/pickup/6597685"
     },
     {
-      "doc_id": "yahoo-8e96ff6d7babf9a7",
-      "title": "小松空港 一時閉鎖の滑走路再開",
+      "doc_id": "yahoo-f749745b8e4003fa",
+      "title": "久保建英 妻の観戦初めてじゃない",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597622"
+      "link": "https://news.yahoo.co.jp/pickup/6597687"
     },
     {
-      "doc_id": "yahoo-d4345fb124a56a18",
-      "title": "娘が不登校 勤務医諦めた母の葛藤",
+      "doc_id": "yahoo-4459ad9420c0e3a7",
+      "title": "DeNA大量の戦力外通告 驚きの声",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597626"
+      "link": "https://news.yahoo.co.jp/pickup/6597683"
     },
     {
-      "doc_id": "yahoo-7238767471acfb81",
-      "title": "ロバーツ監督 大谷の悪癖を指摘",
+      "doc_id": "yahoo-ae617b5bbe0b58c7",
+      "title": "福原遥 夫・久保建英を現地応援",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597617"
+      "link": "https://news.yahoo.co.jp/pickup/6597662"
     },
     {
-      "doc_id": "jiji-1da0df6285372b7c",
-      "title": "米軍、英基地から爆撃機撤収 攻撃計画で「新情報」",
+      "doc_id": "jiji-7182e4701b42347a",
+      "title": "日本、ニュージーランドを下して優勝 上田綺世と堂安律がゴール―キリン杯サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500160&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100500990&g=spo"
     },
     {
-      "doc_id": "jiji-f1656991b4da2471",
-      "title": "ブラジル大統領選、２５日の決選投票へ 左派現職と右派が大接戦",
+      "doc_id": "jiji-5dafff67a418e347",
+      "title": "久保、トップ下で貢献 キリン杯サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500154&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100501052&g=spo"
     },
     {
-      "doc_id": "jiji-3ca0c720c603d97f",
-      "title": "天皇陛下がお言葉 国会",
+      "doc_id": "jiji-aaa8c22976574e80",
+      "title": "日本、１―１で後半へ 上田が先制ゴール―キリン杯サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500449&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100500888&g=spo"
     },
     {
-      "doc_id": "jiji-b1e7fcb497e9262d",
-      "title": "「オール福岡で副首都目指す」 藤井担当相に意向伝達―福岡知事ら",
+      "doc_id": "jiji-eb497d695a9439b4",
+      "title": "西武、本拠地ＣＳ手中に 高橋光「素直にうれしい」―プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500518&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100501027&g=spo"
     },
     {
-      "doc_id": "jiji-8220a59d4bc849a7",
-      "title": "高市首相、経済成長に総力 国会で所信表明演説",
+      "doc_id": "jiji-27d406ecaa109e8f",
+      "title": "岡村、デビュー戦で初安打―プロ野球・ロッテ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500067&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100501030&g=spo"
     },
     {
-      "doc_id": "jiji-7ff9b42963034070",
-      "title": "台湾総統の息子監視か 米ＦＢＩ、「中国の女スパイ」逮捕",
+      "doc_id": "jiji-bbd41cb9fe1530f1",
+      "title": "キリン杯サッカー・談話",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500530&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100501002&g=spo"
     },
     {
-      "doc_id": "jiji-d9543b0033044219",
-      "title": "市名にちなんだ巨大な鳥の巣が人気 佐賀県鳥栖市〔地域〕",
+      "doc_id": "jiji-3762a2d25ccaffaa",
+      "title": "イスラエル選手、ハマス襲撃犠牲者を追悼する腕章着けプレー アイルランド選手も抗議の腕章",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500405&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=20261005049425a&g=afp"
     },
     {
-      "doc_id": "jiji-35ae5e7e3a76f676",
-      "title": "大谷翔平１安打、ドジャース敗れタイに パドレスは連敗―ＭＬＢ",
+      "doc_id": "jiji-154ff386e01baa1f",
+      "title": "中野、サイドバックで存在感 キリン杯サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500151&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100501058&g=spo"
     },
     {
-      "doc_id": "jiji-b335001bfc3f6f6e",
-      "title": "ホテル女性遺体、米海兵隊の男逮捕 強盗殺人容疑「知りません」―沖縄県警",
+      "doc_id": "jiji-95ba1bc334936266",
+      "title": "日本、高さ封じ握った主導権 躍動感あふれた攻撃―キリン杯サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100400094&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100501000&g=spo"
     },
     {
-      "doc_id": "jiji-51fc53deea2de532",
-      "title": "消費税・定数削減論戦へ 臨時国会が召集",
+      "doc_id": "jiji-74c3cfe14defd1a0",
+      "title": "仏高校デモ受け最大５００校が休校に、抗議活動開始後の逮捕者は５０００人以上",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500063&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=20261005049424a&g=afp"
     },
     {
-      "doc_id": "nhk-cec6a4528485ca8a",
-      "title": "簗農相 地元の道路“予算カット”発言撤回 「深く反省」陳謝",
+      "doc_id": "nhk-2c28cd4928b156fc",
+      "title": "ノーベル生理学・医学賞に「光遺伝学」の基礎築いた米独研究者",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54586"
-    },
-    {
-      "doc_id": "nhk-ec61e8ec695b4acb",
-      "title": "大和証券 委託先サーバー不正アクセス 個人情報11万人分流出か",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54568"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54368"
     },
     {
       "doc_id": "nhk-78a7ff8c85cc78da",
@@ -136,34 +130,76 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261005de54402"
     },
     {
-      "doc_id": "nhk-4687514276e147da",
-      "title": "株価 取り引き時間中 3か月ぶりに7万円台回復",
+      "doc_id": "nhk-66540ae618d0cf51",
+      "title": "沖縄 逮捕の米兵 事件前に被害女性とタクシーや繁華街で行動か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54437"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54855"
     },
     {
-      "doc_id": "nhk-ba1a31643602a732",
-      "title": "首相 所信表明演説 “経済の力で国民の暮らしを守る”【全文】",
+      "doc_id": "nhk-061d3289bf5fb11e",
+      "title": "「元検事性被害はうそ」告訴された副検事の“不起訴は妥当”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54430"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54853"
     },
     {
-      "doc_id": "nhk-891fbf6efeae8b9a",
-      "title": "交際相手25歳女性の遺体を宮城の山中に遺棄か 36歳容疑者逮捕",
+      "doc_id": "nhk-3a1b9c54290c6a45",
+      "title": "サッカー日本代表 ニュージーランドに競り勝つ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54622"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54856"
     },
     {
-      "doc_id": "nhk-e96f2b3dc78effe3",
-      "title": "米兵逮捕の強盗殺人事件 現場周辺で発見 被害者リュックに財布",
+      "doc_id": "nhk-bc3b84b39a7cb156",
+      "title": "大起水産 不正アクセスで約17万5000人分の個人情報漏えいか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54503"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54848"
+    },
+    {
+      "doc_id": "nhk-583921fa31c64811",
+      "title": "ネパール土石流 専門家「経済復興と災害リスク軽減が課題」",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54910"
+    },
+    {
+      "doc_id": "itmedia-608daf0df4062111",
+      "title": "大阪公立大の大規模システム障害、サイバー攻撃が原因か 13万人超の個人情報流出恐れ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002018/"
+    },
+    {
+      "doc_id": "itmedia-fb1419ca9c0ece8c",
+      "title": "ホワイトエッセンス、約105万アカウントの個人情報流出 8月発表の不正アクセス調査で判明",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002016/"
+    },
+    {
+      "doc_id": "itmedia-7e34734012278060",
+      "title": "巨大化を指南！？ AI活用で身近になる植物栽培 健康や仕事に「緑の効用」の識者に聞く",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002017/"
+    },
+    {
+      "doc_id": "itmedia-4169fa9610463bd2",
+      "title": "「焼肉きんぐ」個人情報約1079万件が漏えい 公式アプリのシステムに不正アクセス ほぼ全会員分に相当",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002011/"
+    },
+    {
+      "doc_id": "itmedia-30f66d445430f7df",
+      "title": "韓国の銀行6行にサイバー攻撃 計2万5000人超の個人情報流出──AIエージェントを使った可能性も 現地報道",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002009/"
     },
     {
       "doc_id": "itmedia-85e186f1101742ba",
       "title": "大和証券、22万件情報漏えいか 顧客約11万人の口座番号も",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002005/"
+    },
+    {
+      "doc_id": "itmedia-95cebdfb3ec938be",
+      "title": "「大起水産アプリ」に不正アクセス、17万人の個人情報漏えいか 大阪の回転寿司チェーン",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000002008/"
     },
     {
       "doc_id": "itmedia-8e3ffe0aa3d24e63",
@@ -196,40 +232,34 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/05/2000001995/"
     },
     {
-      "doc_id": "itmedia-98751576a6b8dd03",
-      "title": "日経社員のGoogle Workspaceに不正ログイン 1646人分の個人情報漏えいか",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000001994/"
+      "doc_id": "nazology-01637e41b61f19b7",
+      "title": "優しさはライバルを出し抜く「武器」にもなっていたと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200655"
     },
     {
-      "doc_id": "itmedia-b234df34c92f5c68",
-      "title": "ドコモ、一部のユーザー情報をGoogleに無断送信 1万6000件でRCSの同意画面出ず",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000001993/"
+      "doc_id": "nazology-5fb3d453dc87164e",
+      "title": "「家畜」を「4つ目の獣」にして野生動物から守る",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200661"
     },
     {
-      "doc_id": "itmedia-9617e09ec616da45",
-      "title": "講談社子会社、従業員のメールに不正アクセス 不審メール50件送信",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000001992/"
+      "doc_id": "nazology-560ffb93dd68b4ba",
+      "title": "AIも手こずったゲーム「ストラテゴ」がついに攻略される",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200604"
     },
     {
-      "doc_id": "itmedia-2c0b709c8dd51396",
-      "title": "日経社員アカウントからなりすましメール9000件 「Microsoft 365」に不正ログインか",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000001991/"
+      "doc_id": "nazology-27e9711b7167e556",
+      "title": "「ぼっち飯」と「血糖」の意外なつながり",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200701"
     },
     {
-      "doc_id": "itmedia-78e96532e4af9d31",
-      "title": "「現場任せのAI活用」が失敗するこれだけの理由 経営層がすべき“頭の中”の言語化とは",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000001937/"
-    },
-    {
-      "doc_id": "itmedia-55cfe891c3a59543",
-      "title": "トランプ大統領、「Super Intelligence Force」創設を発表 国家情報長官やFTC委員長らが主導",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/05/2000001990/"
+      "doc_id": "nazology-93bdfe4d86a6f828",
+      "title": "雨上がりの匂いは実は土地と微生物から立ち上っていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200633"
     },
     {
       "doc_id": "nazology-7af762474b541fc3",
@@ -260,36 +290,6 @@
       "title": "チンパンジーは友達の「パイナップル」を奪いにくいと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200610"
-    },
-    {
-      "doc_id": "nazology-10193da69fd2ea44",
-      "title": "2歳までに「砂糖の制限」を受けた人は大人のうつ・不安が少ない傾向",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200638"
-    },
-    {
-      "doc_id": "nazology-6e1261909785850d",
-      "title": "声が低い男性は本当にモテるのか？研究で出た答えとは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200684"
-    },
-    {
-      "doc_id": "nazology-0c252f36669215c5",
-      "title": "「脳食いアメーバ」が脳に入り込む手がかりとは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200616"
-    },
-    {
-      "doc_id": "nazology-74b30de7447f0f63",
-      "title": "スイスの氷河が1年で「体積の5%以上」を失ったと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200679"
-    },
-    {
-      "doc_id": "nazology-aff91b8a0a52f2df",
-      "title": "逆境で育った人が持つ「ある強み」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200627"
     }
   ]
 }
