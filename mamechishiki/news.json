@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-05T16:04:32+00:00",
-  "now_ms": 1791216272054,
+  "fetched_at": "2026-10-05T22:40:43+00:00",
+  "now_ms": 1791240043587,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -22,22 +22,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6597666"
     },
     {
-      "doc_id": "yahoo-93d22544b2d8d5f7",
-      "title": "妻子殺害疑い 死亡の夫を書類送検",
+      "doc_id": "yahoo-e93f55b4b38be4f3",
+      "title": "米兵逮捕 米メディアも相次ぎ報道",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597680"
+      "link": "https://news.yahoo.co.jp/pickup/6597691"
     },
     {
-      "doc_id": "yahoo-c4d72aa50996a0f4",
-      "title": "トラックの資材落下 12台絡む事故",
+      "doc_id": "yahoo-64eda5bb8fc9af3e",
+      "title": "NY州で緊急事態宣言 はしか増加",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597686"
+      "link": "https://news.yahoo.co.jp/pickup/6597694"
     },
     {
-      "doc_id": "yahoo-1cb84cfa3ac23947",
-      "title": "塩野義 米バイオ医薬品企業買収へ",
+      "doc_id": "yahoo-16ae8d7a37df6c79",
+      "title": "露のペスト研究所員死亡 米が注視",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597685"
+      "link": "https://news.yahoo.co.jp/pickup/6597690"
+    },
+    {
+      "doc_id": "yahoo-891f6bb33d84c69a",
+      "title": "ハッカー集団メンバー 日本で拘束",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597688"
+    },
+    {
+      "doc_id": "yahoo-de4e225e91c3ebcb",
+      "title": "西武の中村剛也 来季も現役を続行",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597692"
     },
     {
       "doc_id": "yahoo-f749745b8e4003fa",
@@ -46,118 +58,106 @@
       "link": "https://news.yahoo.co.jp/pickup/6597687"
     },
     {
-      "doc_id": "yahoo-4459ad9420c0e3a7",
-      "title": "DeNA大量の戦力外通告 驚きの声",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597683"
-    },
-    {
-      "doc_id": "yahoo-ae617b5bbe0b58c7",
-      "title": "福原遥 夫・久保建英を現地応援",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597662"
-    },
-    {
-      "doc_id": "jiji-7182e4701b42347a",
-      "title": "日本、ニュージーランドを下して優勝 上田綺世と堂安律がゴール―キリン杯サッカー",
+      "doc_id": "jiji-5c8b8607c13b9e12",
+      "title": "高市首相、Ｇ７テレビ会議欠席を釈明 「欧州の備蓄放出」が目的",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500990&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100500901&g=pol"
     },
     {
-      "doc_id": "jiji-5dafff67a418e347",
-      "title": "久保、トップ下で貢献 キリン杯サッカー",
+      "doc_id": "jiji-3bd003a93f2f1590",
+      "title": "光遺伝学研究の米独３氏に 照射した神経細胞操作―ノーベル生理学・医学賞",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100501052&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100500852&g=int"
     },
     {
-      "doc_id": "jiji-aaa8c22976574e80",
-      "title": "日本、１―１で後半へ 上田が先制ゴール―キリン杯サッカー",
+      "doc_id": "jiji-c6c4af5f008fb059",
+      "title": "故利根川進さんの業績紹介 光遺伝学でも成果―ノーベル賞",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100500888&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100500950&g=soc"
     },
     {
-      "doc_id": "jiji-eb497d695a9439b4",
-      "title": "西武、本拠地ＣＳ手中に 高橋光「素直にうれしい」―プロ野球",
+      "doc_id": "jiji-e589623e1579d03c",
+      "title": "首相動静（１０月５日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100501027&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100500141&g=pol"
     },
     {
-      "doc_id": "jiji-27d406ecaa109e8f",
-      "title": "岡村、デビュー戦で初安打―プロ野球・ロッテ",
+      "doc_id": "jiji-e9b4153089a8d229",
+      "title": "大阪公立大でシステム障害 サイバー攻撃、１３万人分流出恐れ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100501030&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100500874&g=soc"
     },
     {
-      "doc_id": "jiji-bbd41cb9fe1530f1",
-      "title": "キリン杯サッカー・談話",
+      "doc_id": "jiji-43cc031c8d67cab0",
+      "title": "減税の財源「具体性乏しい」 野党、首相演説を批判―所信表明演説・与野党反応",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100501002&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100500873&g=pol"
     },
     {
-      "doc_id": "jiji-3762a2d25ccaffaa",
-      "title": "イスラエル選手、ハマス襲撃犠牲者を追悼する腕章着けプレー アイルランド選手も抗議の腕章",
+      "doc_id": "jiji-f5e85ac4c7d5f80c",
+      "title": "日本の対ロ制裁「思慮欠ける」 対抗措置を予告―ロシア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261005049425a&g=afp"
+      "link": "https://www.jiji.com/jc/article?k=2026100600156&g=int"
     },
     {
-      "doc_id": "jiji-154ff386e01baa1f",
-      "title": "中野、サイドバックで存在感 キリン杯サッカー",
+      "doc_id": "jiji-9dc4520d4b37280e",
+      "title": "ＮＹ株３日続伸、９０ドル高 ナスダック最高値",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100501058&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100600129&g=int"
     },
     {
-      "doc_id": "jiji-95ba1bc334936266",
-      "title": "日本、高さ封じ握った主導権 躍動感あふれた攻撃―キリン杯サッカー",
+      "doc_id": "jiji-a2f2067cdfcbbda4",
+      "title": "中国調査船、日本の排他的経済水域（ＥＥＺ）を離脱 沖縄・石垣島沖",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100501000&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100500996&g=soc"
     },
     {
-      "doc_id": "jiji-74c3cfe14defd1a0",
-      "title": "仏高校デモ受け最大５００校が休校に、抗議活動開始後の逮捕者は５０００人以上",
+      "doc_id": "jiji-4db99b45cebb4642",
+      "title": "自民、来年２月に党大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261005049424a&g=afp"
+      "link": "https://www.jiji.com/jc/article?k=2026100500909&g=pol"
     },
     {
-      "doc_id": "nhk-2c28cd4928b156fc",
-      "title": "ノーベル生理学・医学賞に「光遺伝学」の基礎築いた米独研究者",
+      "doc_id": "nhk-292ff40bab9fc696",
+      "title": "台風27号 小笠原・伊豆・関東海上で大しけ 高波警戒を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261004de54368"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de54955"
     },
     {
-      "doc_id": "nhk-78a7ff8c85cc78da",
-      "title": "台風27号 小笠原近海を北上 28号29号発生で“トリプル台風”に",
+      "doc_id": "nhk-e20849d7a18b9d22",
+      "title": "ロシア外務省 日本の追加制裁を批判し対抗措置の構え",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54402"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de54962"
     },
     {
-      "doc_id": "nhk-66540ae618d0cf51",
-      "title": "沖縄 逮捕の米兵 事件前に被害女性とタクシーや繁華街で行動か",
+      "doc_id": "nhk-a1e1d452e8a194c7",
+      "title": "ノーベル賞 6日は物理学賞の発表日",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54855"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54668"
     },
     {
-      "doc_id": "nhk-061d3289bf5fb11e",
-      "title": "「元検事性被害はうそ」告訴された副検事の“不起訴は妥当”",
+      "doc_id": "nhk-e46386195479f91e",
+      "title": "高市首相 消費税減税に理解求める 野党は財源や効果ただす方針",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54853"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de54928"
     },
     {
-      "doc_id": "nhk-3a1b9c54290c6a45",
-      "title": "サッカー日本代表 ニュージーランドに競り勝つ",
+      "doc_id": "nhk-738ffc56ccec4188",
+      "title": "「皇居ラン」のマナー違反受け 千代田区が実態調査へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54856"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de54956"
     },
     {
-      "doc_id": "nhk-bc3b84b39a7cb156",
-      "title": "大起水産 不正アクセスで約17万5000人分の個人情報漏えいか",
+      "doc_id": "nhk-7f11dffa2a798330",
+      "title": "ロシア 野党集会でプーチン政権への批判相次ぎ60人以上拘束",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54848"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de54961"
     },
     {
-      "doc_id": "nhk-583921fa31c64811",
-      "title": "ネパール土石流 専門家「経済復興と災害リスク軽減が課題」",
+      "doc_id": "nhk-44e83a8f005b98a1",
+      "title": "柔道世界選手権 阿部一二三と阿部詩 きょうだいで金メダル",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54910"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de54944"
     },
     {
       "doc_id": "itmedia-608daf0df4062111",
