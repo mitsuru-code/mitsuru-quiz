@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-06T17:13:32+00:00",
-  "now_ms": 1791306812337,
+  "fetched_at": "2026-10-06T21:40:21+00:00",
+  "now_ms": 1791322821871,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -28,12 +28,6 @@
       "link": "https://news.yahoo.co.jp/pickup/6597805"
     },
     {
-      "doc_id": "yahoo-b1d4344a5724008c",
-      "title": "日販 米AI企業への書籍販売認める",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597802"
-    },
-    {
       "doc_id": "yahoo-23c9b3f7486e676c",
       "title": "男児殺害疑い 育てる意思なかった",
       "source": "Yahoo!ニュース",
@@ -52,28 +46,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6597804"
     },
     {
+      "doc_id": "yahoo-c4a21dc88a8bd241",
+      "title": "大谷を5番DHに降格 監督が説明",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6597809"
+    },
+    {
       "doc_id": "yahoo-1cbed57f8e9fde2c",
       "title": "パ全日程終了 各部門タイトル一覧",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6597800"
-    },
-    {
-      "doc_id": "jiji-3b97229ae82104ae",
-      "title": "アイスキューブにノーベル賞 南極でニュートリノ観測―物理学賞、千葉大も参加",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600984&g=soc"
-    },
-    {
-      "doc_id": "jiji-71cb63047e483af1",
-      "title": "小沢一郎氏、中道に離党届 新党結成を模索",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600726&g=pol"
-    },
-    {
-      "doc_id": "jiji-7a1d378578012efc",
-      "title": "ワーナー買収を完了 １７兆円規模―米パラマウント",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100601196&g=int"
     },
     {
       "doc_id": "jiji-9032ee1efa550c96",
@@ -82,16 +64,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026100601124&g=soc"
     },
     {
-      "doc_id": "jiji-dd23a0c7feab6731",
-      "title": "猫２７００匹さらい密売 レストランにキロ最低４３０円―ベトナム",
+      "doc_id": "jiji-3b97229ae82104ae",
+      "title": "アイスキューブにノーベル賞 南極でニュートリノ観測―物理学賞、千葉大も参加",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100601064&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100600984&g=soc"
     },
     {
-      "doc_id": "jiji-0b0de09b9875fedc",
-      "title": "衆院選で首長が簗農水相の対立候補を支援した栃木県内２市町向けの今年度の道路関連予算が、最大５４％減額されていたことが分かった",
+      "doc_id": "jiji-7a1d378578012efc",
+      "title": "ワーナー買収を完了 １７兆円規模―米パラマウント",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600826&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026100601196&g=int"
     },
     {
       "doc_id": "jiji-5e87a8844a663dfc",
@@ -106,34 +88,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026100601056&g=int"
     },
     {
-      "doc_id": "jiji-e25c9483b92d9b6b",
-      "title": "栗原、本塁打と打点の２冠 最優秀防御率は平良―プロ野球パ・リーグ",
+      "doc_id": "jiji-71cb63047e483af1",
+      "title": "小沢一郎氏、中道に離党届 新党結成を模索",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100601146&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100600726&g=pol"
     },
     {
-      "doc_id": "jiji-149b07e65740b3d5",
-      "title": "アイスキューブ実験には千葉大の研究者が参加している",
+      "doc_id": "jiji-5293601d20a4a279",
+      "title": "簗農水相「予算カット」、野党追及へ ７日から代表質問―国会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600970&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026100600948&g=pol"
     },
     {
-      "doc_id": "nhk-9c5de9eba4ef92d8",
-      "title": "簗農相「予算は選挙結果ではなく公平適切に対応」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55039"
+      "doc_id": "jiji-0b0de09b9875fedc",
+      "title": "衆院選で首長が簗農水相の対立候補を支援した栃木県内２市町向けの今年度の道路関連予算が、最大５４％減額されていたことが分かった",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100600826&g=flash"
     },
     {
-      "doc_id": "nhk-47510f45b4af82c8",
-      "title": "企業への不正アクセス被害相次ぐ 個人情報の大規模流出も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55532"
+      "doc_id": "jiji-569ac6c06e682fba",
+      "title": "富士山の閉山期、ヘリ救助は有料化へ 山梨に足並みそろえる―静岡県",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100600919&g=pol"
     },
     {
-      "doc_id": "nhk-fd46453600687952",
-      "title": "個人情報流出なぜ相次ぐ?“異様な状況”AI悪用可能性の指摘も",
+      "doc_id": "jiji-dd23a0c7feab6731",
+      "title": "猫２７００匹さらい密売 レストランにキロ最低４３０円―ベトナム",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100601064&g=int"
+    },
+    {
+      "doc_id": "nhk-dabb7954cbcf9d62",
+      "title": "タイムズカー情報漏えい 業界団体に対策の点検を要請 国交省",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55037"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55582"
+    },
+    {
+      "doc_id": "nhk-eb4a553cfee83bd6",
+      "title": "きょうから代表質問 消費税 定数削減 農相発言などで論戦",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55598"
+    },
+    {
+      "doc_id": "nhk-4f87f4654d60715f",
+      "title": "パレスチナ ガザ地区 戦闘開始から3年 厳しい人道状況続く",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55611"
     },
     {
       "doc_id": "nhk-a1e1d452e8a194c7",
@@ -142,10 +142,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261005de54668"
     },
     {
-      "doc_id": "nhk-292ff40bab9fc696",
-      "title": "台風27号 関東の海上はあす明け方にかけて高波に警戒",
+      "doc_id": "nhk-d6467bfcd37259ba",
+      "title": "ノーベル賞 7日は化学賞の発表日",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261006de54955"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098"
     },
     {
       "doc_id": "nhk-5570e9034e7f332e",
@@ -154,10 +154,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261006de55019"
     },
     {
-      "doc_id": "nhk-7611e7c02eb2658d",
-      "title": "川崎重工 造船向けのフィジカルAI活用ロボット 試作機を公開",
+      "doc_id": "nhk-12fe4e34cc97a1d7",
+      "title": "旭化成子会社 個人情報55万人余 漏えいの可能性と発表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55161"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55592"
     },
     {
       "doc_id": "itmedia-b09ae05c6d0a65a9",
