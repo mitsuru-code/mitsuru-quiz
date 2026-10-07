@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-07T16:33:15+00:00",
-  "now_ms": 1791390795494,
+  "fetched_at": "2026-10-07T22:00:58+00:00",
+  "now_ms": 1791410458106,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,16 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-fb3b320da0e10301",
-      "title": "立憲 食料品消費税ゼロから転換",
+      "doc_id": "yahoo-ec7f5175ad2b2f6b",
+      "title": "千葉県で震度4 津波の心配なし",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597930"
+      "link": "https://news.yahoo.co.jp/pickup/6597936"
     },
     {
-      "doc_id": "yahoo-ce14ceb06d760453",
-      "title": "硤合氏ら化学賞 1世紀超え謎解く",
+      "doc_id": "yahoo-2fdd079066e23a62",
+      "title": "硤合氏発見 不斉自己触媒作用とは",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597926"
+      "link": "https://news.yahoo.co.jp/pickup/6597938"
     },
     {
       "doc_id": "yahoo-902b0ba3ece9b4dd",
@@ -46,22 +46,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6597924"
     },
     {
-      "doc_id": "yahoo-e619410ac6ee24a6",
-      "title": "複数の自治体など HP閲覧できず",
+      "doc_id": "yahoo-cbdc7256d8a26c9a",
+      "title": "工藤公康氏 中日監督就任が決定的",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597928"
+      "link": "https://news.yahoo.co.jp/pickup/6597937"
     },
     {
-      "doc_id": "yahoo-d16e8daa864f99bd",
-      "title": "西勇輝引退 山本由伸がメッセージ",
+      "doc_id": "yahoo-d44310214dd33b61",
+      "title": "広島 小川淳司氏を編成部門に招聘",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597935"
-    },
-    {
-      "doc_id": "jiji-fce36fb1b3828424",
-      "title": "ウィンゲンターが帰国 プロ野球・西武",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100700971&g=spo"
+      "link": "https://news.yahoo.co.jp/pickup/6597939"
     },
     {
       "doc_id": "jiji-54854dfdcd1c38d2",
@@ -82,6 +76,30 @@
       "link": "https://www.jiji.com/jc/article?k=2026100700405&g=pol"
     },
     {
+      "doc_id": "jiji-e386e05fd474edb6",
+      "title": "年末までの追加利上げ適切 インフレ上振れ警戒―米ＦＯＭＣ議事要旨",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800123&g=int"
+    },
+    {
+      "doc_id": "jiji-b01daaf208182dbc",
+      "title": "首相動静（１０月７日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100700211&g=pol"
+    },
+    {
+      "doc_id": "jiji-c7c7c7b9f1000afd",
+      "title": "ノーベル賞「大変うれしい」 そあい名誉教授が会見―東京",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100701201&g=soc"
+    },
+    {
+      "doc_id": "jiji-081060860b89baed",
+      "title": "超長寿、ミトコンドリア機能が基盤 細胞のエネルギー生産―１９４歳ゾウガメを解析・国際チーム",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800082&g=int"
+    },
+    {
       "doc_id": "jiji-91a6beac60caaf8d",
       "title": "中国外務省の幹部、高市首相を呼び捨て 日本政府「敬意払うのは当然」、中国に申し入れ",
       "source": "時事ドットコム",
@@ -94,70 +112,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026100700840&g=pol"
     },
     {
-      "doc_id": "jiji-c7c7c7b9f1000afd",
-      "title": "ノーベル賞「大変うれしい」 そあい名誉教授が会見―東京",
+      "doc_id": "jiji-efe699611980c016",
+      "title": "千葉で震度４",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701201&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100800133&g=soc"
     },
     {
-      "doc_id": "jiji-7f0826a55edfcfd7",
-      "title": "プロ野球・ひとこと",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701192&g=spo"
-    },
-    {
-      "doc_id": "jiji-3f135561336d9ea4",
-      "title": "ウクライナのＪＴ工場に攻撃 ９月にも２回被害、操業停止中―ロシア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701159&g=int"
-    },
-    {
-      "doc_id": "jiji-ab9a5e3b7699b1b6",
-      "title": "浦和、横浜Ｍなど４回戦進出 天皇杯サッカー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701109&g=spo"
-    },
-    {
-      "doc_id": "nhk-44b5b09f8c34e9cd",
-      "title": "ノーベル化学賞 受賞決定を受け東京理科大学で記者会見",
+      "doc_id": "nhk-588b005305bc30a0",
+      "title": "ノーベル化学賞に東京理科大学名誉教授 会見で喜びの声",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54630"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56220"
     },
     {
-      "doc_id": "nhk-d6467bfcd37259ba",
-      "title": "ノーベル化学賞に東京理科大学名誉教授",
+      "doc_id": "nhk-ecbb3d496848dd58",
+      "title": "大手ビールメーカー4社 出荷価格の一覧表“裏会”で示し協議か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56219"
     },
     {
-      "doc_id": "nhk-87fd5758708cf890",
-      "title": "「伝説の教授」「昔の学者肌」「研究一筋」各地で喜びの声",
+      "doc_id": "nhk-69a556a48c135079",
+      "title": "参院できょうから代表質問 消費税減税など論戦 農相発言追及も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de56145"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56201"
     },
     {
-      "doc_id": "nhk-58d5359a47262687",
-      "title": "南海トラフ巨大地震 定例の評価検討会「特段の変化なし」",
+      "doc_id": "nhk-6c069de8c9954732",
+      "title": "ローカル線に続き「幹線」も 鉄道網見直しへ新たな議論",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56204"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56192"
     },
     {
-      "doc_id": "nhk-faf44f8831328714",
-      "title": "沖縄 女性殺害事件 元交際相手を逮捕 女性はストーカー被害",
+      "doc_id": "nhk-425f6a339b9f13b1",
+      "title": "特殊詐欺の金を暗号資産に交換し資金洗浄か 6人逮捕 警視庁",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de56187"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56189"
     },
     {
-      "doc_id": "nhk-2eec3b49901c150b",
-      "title": "介護団体が事業所の経営環境改善へ 介護報酬引き上げなど訴え",
+      "doc_id": "nhk-e2038c737f1e3ef7",
+      "title": "国際ハッカー集団 ドイツ当局「約4000の企業など攻撃」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56202"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56224"
     },
     {
-      "doc_id": "nhk-5813be2ce50e999a",
-      "title": "原子力人材確保へ 官民が共同で新団体を設立",
+      "doc_id": "nhk-ac8e60d5a804cc5e",
+      "title": "ロシアがウクライナにあるJT子会社の工場を攻撃",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de56174"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56215"
     },
     {
       "doc_id": "itmedia-d6fc0cc8d4ea3787",
