@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-06T21:40:21+00:00",
-  "now_ms": 1791322821871,
+  "fetched_at": "2026-10-07T01:34:52+00:00",
+  "now_ms": 1791336892869,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-e368c9a52de23c82",
-      "title": "沖縄の米軍関係者 48時間活動停止",
+      "doc_id": "yahoo-b40d4f000ac980fd",
+      "title": "実質賃金10年ぶり8カ月連続プラス",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597806"
+      "link": "https://news.yahoo.co.jp/pickup/6597835"
     },
     {
-      "doc_id": "yahoo-cca39bae7c3bd68e",
-      "title": "首相 米に日朝首脳会談の仲介要請",
+      "doc_id": "yahoo-c53df4c108129c6a",
+      "title": "攻撃で情報漏洩被害 今年500件超",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597796"
+      "link": "https://news.yahoo.co.jp/pickup/6597815"
     },
     {
-      "doc_id": "yahoo-8761ab04b871c726",
-      "title": "台風で高波 西湘バイパス通行止め",
+      "doc_id": "yahoo-25f7f97f652cfc4e",
+      "title": "独情報機関の元長官 スパイ容疑",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597805"
+      "link": "https://news.yahoo.co.jp/pickup/6597825"
     },
     {
-      "doc_id": "yahoo-23c9b3f7486e676c",
-      "title": "男児殺害疑い 育てる意思なかった",
+      "doc_id": "yahoo-7f9281210be1d157",
+      "title": "水泳授業 性的被害相談把握も委託",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597794"
+      "link": "https://news.yahoo.co.jp/pickup/6597826"
     },
     {
-      "doc_id": "yahoo-8a5391e0ae765916",
-      "title": "シルバーカーはまり電車衝突 死亡",
+      "doc_id": "yahoo-d11cf0516d2a7886",
+      "title": "執行失敗の米死刑囚 意識戻り発話",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597801"
+      "link": "https://news.yahoo.co.jp/pickup/6597833"
     },
     {
-      "doc_id": "yahoo-fbe19fc34e44c8a1",
-      "title": "旭化成子会社 55万人分情報流出か",
+      "doc_id": "yahoo-4d01198a83ccfa1e",
+      "title": "シャウエッセンのX投稿 なぜ炎上",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597804"
+      "link": "https://news.yahoo.co.jp/pickup/6597822"
     },
     {
-      "doc_id": "yahoo-c4a21dc88a8bd241",
-      "title": "大谷を5番DHに降格 監督が説明",
+      "doc_id": "yahoo-cc0276a1884ee356",
+      "title": "メッシ代表引退 試合中断し祝福",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597809"
+      "link": "https://news.yahoo.co.jp/pickup/6597834"
     },
     {
-      "doc_id": "yahoo-1cbed57f8e9fde2c",
-      "title": "パ全日程終了 各部門タイトル一覧",
+      "doc_id": "yahoo-61d1da73c1ed4f7b",
+      "title": "ド軍快勝 地区シリーズ突破に王手",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597800"
-    },
-    {
-      "doc_id": "jiji-9032ee1efa550c96",
-      "title": "千葉大教授ら「大変うれしい」 アイスキューブ参加―ノーベル賞",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100601124&g=soc"
+      "link": "https://news.yahoo.co.jp/pickup/6597840"
     },
     {
       "doc_id": "jiji-3b97229ae82104ae",
@@ -70,46 +64,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026100600984&g=soc"
     },
     {
-      "doc_id": "jiji-7a1d378578012efc",
-      "title": "ワーナー買収を完了 １７兆円規模―米パラマウント",
+      "doc_id": "jiji-9032ee1efa550c96",
+      "title": "千葉大教授ら「大変うれしい」 アイスキューブ参加―ノーベル賞",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100601196&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100601124&g=soc"
     },
     {
-      "doc_id": "jiji-5e87a8844a663dfc",
-      "title": "ピアニスト反田恭平氏が８４キロの速度超過 在宅起訴、２９日判決―東京地裁",
+      "doc_id": "jiji-41f9f4ccad391c71",
+      "title": "米国酒類市場で「ＲＴＤ」拡大 日本の定番商品も参戦",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600821&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100600629&g=int"
     },
     {
-      "doc_id": "jiji-9f1410eacd3951db",
-      "title": "独立運動指導者、恩赦へ 逮捕状取り下げ、帰国可能に―スペイン",
+      "doc_id": "jiji-092020c137063cc0",
+      "title": "メッシ、アルゼンチン代表ラストマッチ ベナン戦に先発―サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100601056&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100700234&g=spo"
     },
     {
-      "doc_id": "jiji-71cb63047e483af1",
-      "title": "小沢一郎氏、中道に離党届 新党結成を模索",
+      "doc_id": "jiji-8e950969e968f020",
+      "title": "自宅出発後、女性スマホから送信 逮捕の男、偽装工作か―女性遺体遺棄事件・警視庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600726&g=pol"
-    },
-    {
-      "doc_id": "jiji-5293601d20a4a279",
-      "title": "簗農水相「予算カット」、野党追及へ ７日から代表質問―国会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600948&g=pol"
-    },
-    {
-      "doc_id": "jiji-0b0de09b9875fedc",
-      "title": "衆院選で首長が簗農水相の対立候補を支援した栃木県内２市町向けの今年度の道路関連予算が、最大５４％減額されていたことが分かった",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600826&g=flash"
-    },
-    {
-      "doc_id": "jiji-569ac6c06e682fba",
-      "title": "富士山の閉山期、ヘリ救助は有料化へ 山梨に足並みそろえる―静岡県",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100600919&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100600982&g=soc"
     },
     {
       "doc_id": "jiji-dd23a0c7feab6731",
@@ -118,46 +94,100 @@
       "link": "https://www.jiji.com/jc/article?k=2026100601064&g=int"
     },
     {
+      "doc_id": "jiji-8eb55db462b39113",
+      "title": "野党、消費税・農水相発言追及へ 代表質問スタート",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100700106&g=pol"
+    },
+    {
+      "doc_id": "jiji-5e87a8844a663dfc",
+      "title": "ピアニスト反田恭平氏が８４キロの速度超過 在宅起訴、２９日判決―東京地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100600821&g=soc"
+    },
+    {
+      "doc_id": "jiji-0d5ada2dc93f930d",
+      "title": "米ＡＩ企業に書籍大量販売か 取次大手日販、業界団体が説明要求",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100601048&g=soc"
+    },
+    {
+      "doc_id": "jiji-b43a5a27e09f7252",
+      "title": "元情報機関トップ逮捕 スパイ容疑、機密流用か―独検察",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100700181&g=int"
+    },
+    {
       "doc_id": "nhk-dabb7954cbcf9d62",
       "title": "タイムズカー情報漏えい 業界団体に対策の点検を要請 国交省",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261006de55582"
     },
     {
-      "doc_id": "nhk-eb4a553cfee83bd6",
-      "title": "きょうから代表質問 消費税 定数削減 農相発言などで論戦",
+      "doc_id": "nhk-2c7a2f00cee6b262",
+      "title": "沖縄の米軍トップ 「48時間活動停止」「夜間外出禁止」を発表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55598"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55607"
     },
     {
-      "doc_id": "nhk-4f87f4654d60715f",
-      "title": "パレスチナ ガザ地区 戦闘開始から3年 厳しい人道状況続く",
+      "doc_id": "nhk-151fc14dec5352be",
+      "title": "8月の実質賃金 前年同月比1.5％増 8か月連続プラス",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55611"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55521"
     },
     {
-      "doc_id": "nhk-a1e1d452e8a194c7",
-      "title": "ノーベル物理学賞に米大学教授 「IceCube」でニュートリノ観測",
+      "doc_id": "nhk-82e3b22307b68648",
+      "title": "子どもの転落事故“秋に増えるおそれ” 都などが注意呼びかけ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261005de54668"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55584"
     },
     {
-      "doc_id": "nhk-d6467bfcd37259ba",
-      "title": "ノーベル賞 7日は化学賞の発表日",
+      "doc_id": "nhk-75ca92c24af8a674",
+      "title": "アメリカと中国が核関連施設の相互訪問協議か 米メディア報道",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55098"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55632"
     },
     {
-      "doc_id": "nhk-5570e9034e7f332e",
-      "title": "米海兵隊員逮捕 葉梨沖縄北方相「断じて容認できない」",
+      "doc_id": "nhk-7796e31de1b35b74",
+      "title": "ドジャース 大谷翔平 5番・指名打者で先発 地区シリーズ第3戦",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261006de55019"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55630"
     },
     {
-      "doc_id": "nhk-12fe4e34cc97a1d7",
-      "title": "旭化成子会社 個人情報55万人余 漏えいの可能性と発表",
+      "doc_id": "nhk-baa98477033123d1",
+      "title": "ウクライナ世論調査「ロシアに勝利できる」およそ8割",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55592"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55615"
+    },
+    {
+      "doc_id": "itmedia-ea8044a461ac42be",
+      "title": "「応用情報技術者試験」申込初日にアクセス集中、「地域選べない」「決済できない」……IPAが謝罪",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002072/"
+    },
+    {
+      "doc_id": "itmedia-1fa658b4a36c6727",
+      "title": "OpenAI、社内AIがリーマン予想の関連難問を証明と主張 論文722本をGitHubで公開",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002071/"
+    },
+    {
+      "doc_id": "itmedia-d40bb698c0a84ed2",
+      "title": "旭化成子会社、約51万人分の個人情報漏えいか 医療関係者向けサイトに不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002070/"
+    },
+    {
+      "doc_id": "itmedia-795b7c0a96a9bba0",
+      "title": "Paramount、Warner Bros. Discoveryの買収を完了 新社名は「Skydance」に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002069/"
+    },
+    {
+      "doc_id": "itmedia-50699b6fd2f545fb",
+      "title": "Google、原発大手Constellationと20年の電力購入契約 「他の電力利用者に負担なし」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002068/"
     },
     {
       "doc_id": "itmedia-b09ae05c6d0a65a9",
@@ -202,34 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/06/2000002046/"
     },
     {
-      "doc_id": "itmedia-278a57f9fc37b9f7",
-      "title": "JR東のコード決済「テッペイ」10月20日開始 上限30万円まで決済可能に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/06/2000002048/"
+      "doc_id": "nazology-4d0e71c72a274ea2",
+      "title": "イカに「人の耳に似た細胞」を新たに数百個発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200838"
     },
     {
-      "doc_id": "itmedia-fc7133191952a59f",
-      "title": "交通系IC「nimoca」ユーザー情報521件流出 履歴照会サービスへの不正アクセスで",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/06/2000002047/"
-    },
-    {
-      "doc_id": "itmedia-4c9b715edba9a94f",
-      "title": "スーパーホテルがAI経理代行に参入へ 自社ノウハウ外販、目指すは「稼げる経理」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/06/2000002034/"
-    },
-    {
-      "doc_id": "itmedia-2f88ab83493dc8d2",
-      "title": "デンマークで住民登録簿に不正アクセス 880万人分の個人番号など流出 政府「極めて深刻」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/06/2000002032/"
-    },
-    {
-      "doc_id": "itmedia-1eb328e692e5825d",
-      "title": "ミスターマックス、最大173万人分の会員情報流出 不正アクセスで",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/06/2000002030/"
+      "doc_id": "nazology-0870feec8193b275",
+      "title": "「猫」と「幸せ」の意外なつながり、93か国で調査",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200860"
     },
     {
       "doc_id": "nazology-ff545d922dc04188",
@@ -278,18 +290,6 @@
       "title": "恋人に「あること」を期待すると、仲が冷めやすくなると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/185024"
-    },
-    {
-      "doc_id": "nazology-971e3915f83cf7ee",
-      "title": "悪い夢と結びつきやすい「2つの悩み」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200788"
-    },
-    {
-      "doc_id": "nazology-8344c37bf07da9dd",
-      "title": "深海の海底には「約1万2000もの未知ウイルス」が隠れていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200794"
     }
   ]
 }
