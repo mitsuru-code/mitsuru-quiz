@@ -1,0 +1,79 @@
+{
+  "status": "verified",
+  "requestedAt": 1791367026536,
+  "postDate": "20261007",
+  "slot": null,
+  "news": false,
+  "title": "ワクチンの名は「牛」に由来する。天然痘と牛痘をめぐる物語",
+  "script": {
+    "hook": "ワクチンの名前は「牛」から！",
+    "intro": "ワクチンは、薬らしい難しい言葉。そう思っていませんか？",
+    "points": [
+      {
+        "head": "牛痘に注目",
+        "text": "イギリスの医師ジェンナーは、牛痘にかかった人は天然痘にかかりにくいという話に注目しました。"
+      },
+      {
+        "head": "1796年の接種",
+        "text": "1796年、ジェンナーは牛痘のうみを少年に接種し、天然痘を防げることを確かめたと伝えられます。"
+      },
+      {
+        "head": "パスツールが広めた",
+        "text": "のちにパスツールが、ジェンナーへの敬意から、予防の接種物をワクチンと呼ぶことを広めたとされます。"
+      }
+    ],
+    "conclusion": "答えは牛です。ラテン語で牛を意味する言葉が元で、牛の病気・牛痘を使った予防法から生まれました。",
+    "question": "ワクチンという言葉、何から生まれたと思いますか？",
+    "share": "ワクチンの語源って、ラテン語の「牛」なんだって。",
+    "post": "「ワクチン」という言葉、ある動物の名前から生まれたって知っていましたか？🐄\n\n答えは「牛」。\n天然痘と牛痘をめぐる物語を1分で👇\n\n#豆知識 #雑学 #歴史",
+    "genre": "歴史",
+    "imageFolder": "20261007_6966-4",
+    "imagePrompts": [
+      {
+        "scene": "hook",
+        "prompt": "のどかな牧場にいる乳牛と、18世紀風の服を着た医師が並んでいる様子。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      },
+      {
+        "scene": "point1",
+        "prompt": "18世紀のイギリスの診療室で、医師が少年の腕に接種をしている落ち着いた場面。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      }
+    ],
+    "emoji": {
+      "hook": "🐄💉",
+      "intro": "🤔",
+      "points": ["🔍", "💉", "🧪"],
+      "conclusion": "🐄",
+      "question": "❓",
+      "share": "🗣️"
+    }
+  },
+  "verify": {
+    "checkedAt": 1791367586160,
+    "claims": [
+      {
+        "claim": "ワクチンの語源はラテン語vacca(牛)",
+        "verdict": "confirmed",
+        "note": "牛痘vacciniaに由来しJennerが命名",
+        "sources": [
+          { "title": "Science Friday: Origin Of The Word Vaccine", "url": "https://www.sciencefriday.com/articles/the-origin-of-the-word-vaccine/" }
+        ]
+      },
+      {
+        "claim": "ジェンナーが1796年に牛痘を少年に接種",
+        "verdict": "confirmed",
+        "note": "1796年5月14日ジェンナーがJames Phippsに接種",
+        "sources": [
+          { "title": "emmawilkin.com cowpox history", "url": "https://emmawilkin.com/words-of-the-week-2/tag/cowpox" }
+        ]
+      },
+      {
+        "claim": "パスツールがジェンナーに敬意しワクチンと命名広めた",
+        "verdict": "confirmed",
+        "note": "1881年パスツールが炭疽菌等にも用語を拡張",
+        "sources": [
+          { "title": "Anthrax vaccine - Wikipedia", "url": "https://en.wikipedia.org/wiki/Anthrax_vaccine" }
+        ]
+      }
+    ]
+  }
+}

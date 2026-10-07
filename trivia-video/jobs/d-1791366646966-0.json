@@ -1,0 +1,71 @@
+{
+  "status": "verified",
+  "requestedAt": 1791367026532,
+  "postDate": "20261007",
+  "slot": null,
+  "news": false,
+  "title": "失敗作の接着剤が、同僚のひらめきで世界の定番になった話",
+  "script": {
+    "hook": "付箋のはじまりは、失敗作の接着剤！",
+    "intro": "強くくっつくのが良い接着剤。そう思っていませんか？",
+    "points": [
+      {
+        "head": "強い接着剤のはずが",
+        "text": "スリーエムの研究者スペンサー・シルバーが作ったのは、すぐはがれる弱い接着剤でした。"
+      },
+      {
+        "head": "聖歌隊のしおり",
+        "text": "同僚のアート・フライは、讃美歌集からしおりが落ちる悩みに、この接着剤を使えると考えたとされます。"
+      },
+      {
+        "head": "弱さが長所に",
+        "text": "何度でも貼り直せて跡も残りにくい。欠点だった弱さが、そのまま長所になりました。"
+      }
+    ],
+    "conclusion": "答えは、くっつく力が弱すぎた失敗作です。貼ってもすぐはがせる性質が、付箋にぴったりでした。",
+    "question": "付箋に使われた接着剤、もとは何だったと思いますか？",
+    "share": "付箋って、弱すぎて使い道のなかった接着剤から生まれたんだって。",
+    "post": "付箋のあの「ほどよい粘着力」、実は失敗作から生まれたって知っていましたか？📝\n\n使い道のなかった接着剤が、教会の聖歌隊でひらめきに変わった話を1分で👇\n\n#豆知識 #雑学 #暮らし",
+    "genre": "暮らし",
+    "imageFolder": "20261007_6966-0",
+    "imagePrompts": [
+      {
+        "scene": "hook",
+        "prompt": "机の上に、色とりどりの付箋がたくさん貼られたノートとペンが置かれている様子。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      },
+      {
+        "scene": "point1",
+        "prompt": "教会の聖歌隊で、歌集のページからしおりがひらりと落ちて困っている男性の様子。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      }
+    ],
+    "emoji": {
+      "hook": "📝",
+      "intro": "🤔",
+      "points": ["🧪", "🎶", "🔁"],
+      "conclusion": "💡",
+      "question": "❓",
+      "share": "🗣️"
+    }
+  },
+  "verify": {
+    "checkedAt": 1791367586160,
+    "claims": [
+      {
+        "claim": "3Mのシルバーが弱い接着剤を開発",
+        "verdict": "confirmed",
+        "note": "1968年3M社員スペンサー・シルバーが開発",
+        "sources": [
+          { "title": "Art Fry & Spencer Silver - Lemelson-MIT", "url": "https://lemelson.mit.edu/resources/art-fry-spencer-silver" }
+        ]
+      },
+      {
+        "claim": "同僚アート・フライが讃美歌集しおりで着想",
+        "verdict": "confirmed",
+        "note": "合唱で使う讃美歌集のしおり落下に悩み着想",
+        "sources": [
+          { "title": "TCB Magazine: failed glue led to Post-it", "url": "https://tcbmag.com/how-a-failed-glue-experiment-and-a-church-choir-singeras-frustration-led-to-the-invention-of-post-it/" }
+        ]
+      }
+    ]
+  }
+}

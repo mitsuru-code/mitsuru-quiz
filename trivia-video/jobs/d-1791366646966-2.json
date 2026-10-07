@@ -1,0 +1,79 @@
+{
+  "status": "verified",
+  "requestedAt": 1791367026534,
+  "postDate": "20261007",
+  "slot": null,
+  "news": false,
+  "title": "まさかのサイコロ型。ウォンバットのフンは角ばった形をしている",
+  "script": {
+    "hook": "ウォンバットのフンは、サイコロ型！",
+    "intro": "動物のフンは丸いか、細長いもの。そう思っていませんか？",
+    "points": [
+      {
+        "head": "腸の中で角ができる",
+        "text": "腸の壁には伸びやすい部分と伸びにくい部分があり、その差が角を作ると考えられています。"
+      },
+      {
+        "head": "縄張りの目印",
+        "text": "ウォンバットはこのフンを岩や切り株の上に置いて、縄張りの目印にするとされます。"
+      },
+      {
+        "head": "転がりにくい？",
+        "text": "角があれば転がり落ちにくいという見方もありますが、はっきりとはわかっていません。"
+      }
+    ],
+    "conclusion": "答えは、立方体に近い角ばった形です。腸の壁の伸びやすさが場所で違うことが、一因と考えられています。",
+    "question": "ウォンバットのフン、どんな形だと思いますか？",
+    "share": "ウォンバットのフンって、サイコロみたいに角ばってるんだって。",
+    "post": "丸い体のウォンバット。そのフンが「サイコロ型」だって知っていましたか？🎲\n\n四角くなる理由は、おなかの中にありました。\n1分で👇\n\n#豆知識 #雑学 #生き物",
+    "genre": "生き物",
+    "imageFolder": "20261007_6966-2",
+    "imagePrompts": [
+      {
+        "scene": "hook",
+        "prompt": "オーストラリアの草原にいる、ずんぐりした丸い体のウォンバット。かわいらしく親しみやすい雰囲気。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      },
+      {
+        "scene": "point1",
+        "prompt": "岩の上に小さな四角いブロックのようなものが並んでいて、そばでウォンバットがこちらを見ている様子。やさしい絵本風。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      }
+    ],
+    "emoji": {
+      "hook": "🎲",
+      "intro": "🤔",
+      "points": ["🌀", "🪨", "🎲"],
+      "conclusion": "🟫",
+      "question": "❓",
+      "share": "🗣️"
+    }
+  },
+  "verify": {
+    "checkedAt": 1791367586160,
+    "claims": [
+      {
+        "claim": "ウォンバットの糞は角ばったサイコロ型",
+        "verdict": "confirmed",
+        "note": "唯一の立方体状の糞をする動物",
+        "sources": [
+          { "title": "Smithsonian: Why Wombats Make Cube-Shaped Poos", "url": "https://www.smithsonianmag.com/smart-news/why-wombats-make-cube-shaped-poos-180970847/" }
+        ]
+      },
+      {
+        "claim": "腸壁の硬さの差が角を作ると考えられる",
+        "verdict": "confirmed",
+        "note": "腸終端部の筋厚の差が角形成に関与",
+        "sources": [
+          { "title": "LiveScience: cube-shaped poop", "url": "https://www.livescience.com/why-wombats-have-cubed-poop.html" }
+        ]
+      },
+      {
+        "claim": "岩の上に置き縄張りの目印にする",
+        "verdict": "confirmed",
+        "note": "目立つ岩や丸太に糞を置き縄張り主張",
+        "sources": [
+          { "title": "Smithsonian: Why Wombats Make Cube-Shaped Poos", "url": "https://www.smithsonianmag.com/smart-news/why-wombats-make-cube-shaped-poos-180970847/" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "status": "verified",
+  "requestedAt": 1791367026535,
+  "postDate": "20261007",
+  "slot": null,
+  "news": false,
+  "title": "もし宇宙で泣いたら、涙は頬を伝わず目のまわりにとどまる",
+  "script": {
+    "hook": "宇宙で泣くと、涙は流れない！",
+    "intro": "涙はあふれたら頬を伝うもの。そう思っていませんか？",
+    "points": [
+      {
+        "head": "水は丸くなりたい",
+        "text": "涙のほとんどは水で、表面張力によって、まとまって丸くなろうとする性質があります。"
+      },
+      {
+        "head": "地上では重力が勝つ",
+        "text": "地上では重力がこの性質を上回るので、あふれた涙は頬を流れ落ちていきます。"
+      },
+      {
+        "head": "宇宙では水の玉に",
+        "text": "宇宙では涙が目の表面でまとまり、水の玉のようになって目のまわりにたまっていきます。"
+      }
+    ],
+    "conclusion": "答えは、目のまわりにとどまります。涙を下へ引っぱる重力がほとんど感じられないためです。",
+    "question": "宇宙ステーションで泣いたら、涙はどうなると思いますか？",
+    "share": "宇宙で泣くと、涙は頬を流れずに目のまわりで丸まるんだって。",
+    "post": "宇宙ステーションで泣いたら、涙はどうなると思いますか？🚀\n\n実は頬を流れず、目のまわりにとどまるんです。\n涙が流れる本当の理由を1分で👇\n\n#豆知識 #雑学 #宇宙",
+    "genre": "科学技術",
+    "imageFolder": "20261007_6966-3",
+    "imagePrompts": [
+      {
+        "scene": "hook",
+        "prompt": "宇宙ステーションの窓の前に浮かぶ宇宙飛行士。窓の外には青い地球が見える。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      },
+      {
+        "scene": "point2",
+        "prompt": "宇宙ステーションの中で、丸い水の玉がふわふわと浮かんでいる様子。横長（3:2）の画像。明るくやさしいイラスト調。文字やロゴは入れない。"
+      }
+    ],
+    "emoji": {
+      "hook": "🚀😢",
+      "intro": "🤔",
+      "points": ["💧", "🌍", "🫧"],
+      "conclusion": "💧",
+      "question": "❓",
+      "share": "🗣️"
+    }
+  },
+  "verify": {
+    "checkedAt": 1791367586160,
+    "claims": [
+      {
+        "claim": "涙は表面張力で丸くまとまる性質",
+        "verdict": "confirmed",
+        "note": "涙は大半が水で表面張力が働く",
+        "sources": [
+          { "title": "National Geographic: Tears of an Astronaut", "url": "https://blog.education.nationalgeographic.org/2013/04/10/the-tears-of-an-astronaut/" }
+        ]
+      },
+      {
+        "claim": "宇宙では涙が目の周りに水玉状に留まる",
+        "verdict": "confirmed",
+        "note": "Hadfield実演、頬を流れず目に留まる",
+        "sources": [
+          { "title": "National Geographic: Tears of an Astronaut", "url": "https://blog.education.nationalgeographic.org/2013/04/10/the-tears-of-an-astronaut/" }
+        ]
+      }
+    ]
+  }
+}
