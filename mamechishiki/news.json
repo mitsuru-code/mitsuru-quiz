@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-07T22:00:58+00:00",
-  "now_ms": 1791410458106,
+  "fetched_at": "2026-10-08T01:58:31+00:00",
+  "now_ms": 1791424711890,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-ec7f5175ad2b2f6b",
-      "title": "千葉県で震度4 津波の心配なし",
+      "doc_id": "yahoo-0105e9a1c07d2bc5",
+      "title": "ビール大手を調査 経営層関与焦点",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597936"
+      "link": "https://news.yahoo.co.jp/pickup/6597955"
     },
     {
-      "doc_id": "yahoo-2fdd079066e23a62",
-      "title": "硤合氏発見 不斉自己触媒作用とは",
+      "doc_id": "yahoo-f03e8bbea8598231",
+      "title": "外国人材 都市部への転職が増加",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597938"
+      "link": "https://news.yahoo.co.jp/pickup/6597945"
     },
     {
-      "doc_id": "yahoo-902b0ba3ece9b4dd",
-      "title": "簗農相 衆院選巡り公選法違反疑い",
+      "doc_id": "yahoo-3401a944205a819a",
+      "title": "湖に転落し中1心肺停止 呼吸回復",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597934"
+      "link": "https://news.yahoo.co.jp/pickup/6597965"
     },
     {
-      "doc_id": "yahoo-361c82d781fb67bf",
-      "title": "サンケイビル売却 入札額1兆円超",
+      "doc_id": "yahoo-98b7d422cff0e59c",
+      "title": "八田與一容疑者目撃情報 関東で増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597933"
+      "link": "https://news.yahoo.co.jp/pickup/6597952"
     },
     {
-      "doc_id": "yahoo-fdaa23d208ea5716",
-      "title": "愛知・大村知事の発言 タイで波紋",
+      "doc_id": "yahoo-340d09d5e6324a7f",
+      "title": "意識回復の米死刑囚に重い症状",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597927"
+      "link": "https://news.yahoo.co.jp/pickup/6597956"
     },
     {
-      "doc_id": "yahoo-ce232e9b593fb007",
-      "title": "宜野湾で女性殺害疑い 男を逮捕",
+      "doc_id": "yahoo-038a838aea6cc216",
+      "title": "194歳ゾウガメのゲノム解析 研究",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597924"
+      "link": "https://news.yahoo.co.jp/pickup/6597950"
     },
     {
-      "doc_id": "yahoo-cbdc7256d8a26c9a",
-      "title": "工藤公康氏 中日監督就任が決定的",
+      "doc_id": "yahoo-4fb627b2ca3716b1",
+      "title": "ド軍3年連続リーグ優勝決定S進出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597937"
+      "link": "https://news.yahoo.co.jp/pickup/6597961"
     },
     {
-      "doc_id": "yahoo-d44310214dd33b61",
-      "title": "広島 小川淳司氏を編成部門に招聘",
+      "doc_id": "yahoo-3c77d9388a06d75f",
+      "title": "永野芽郁の主演映画 12月3日配信",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597939"
-    },
-    {
-      "doc_id": "jiji-54854dfdcd1c38d2",
-      "title": "タイ、愛知・大村知事発言に失望 「日本がどれほど変わったか、如実に示している」 アジア大会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701163&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6597953"
     },
     {
       "doc_id": "jiji-37dc0709066e04d8",
@@ -70,34 +64,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026100701005&g=soc"
     },
     {
+      "doc_id": "jiji-54854dfdcd1c38d2",
+      "title": "タイ、愛知・大村知事発言に失望 「日本がどれほど変わったか、如実に示している」 アジア大会",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100701163&g=int"
+    },
+    {
+      "doc_id": "jiji-302aafbb90f36085",
+      "title": "中日監督に工藤公康氏就任へ 「優勝請負人」に再建託す―プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800236&g=spo"
+    },
+    {
+      "doc_id": "jiji-3eb809d5ff8bf8ef",
+      "title": "プロ野球中日の新監督に、工藤公康（くどう・きみやす）氏が就任することが分かった",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800235&g=flash"
+    },
+    {
       "doc_id": "jiji-912ac56c56686097",
       "title": "簗農水相は議員辞職を 維新・前原氏が主張",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100700405&g=pol"
-    },
-    {
-      "doc_id": "jiji-e386e05fd474edb6",
-      "title": "年末までの追加利上げ適切 インフレ上振れ警戒―米ＦＯＭＣ議事要旨",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800123&g=int"
-    },
-    {
-      "doc_id": "jiji-b01daaf208182dbc",
-      "title": "首相動静（１０月７日）",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100700211&g=pol"
-    },
-    {
-      "doc_id": "jiji-c7c7c7b9f1000afd",
-      "title": "ノーベル賞「大変うれしい」 そあい名誉教授が会見―東京",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701201&g=soc"
-    },
-    {
-      "doc_id": "jiji-081060860b89baed",
-      "title": "超長寿、ミトコンドリア機能が基盤 細胞のエネルギー生産―１９４歳ゾウガメを解析・国際チーム",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800082&g=int"
     },
     {
       "doc_id": "jiji-91a6beac60caaf8d",
@@ -106,16 +94,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026100701068&g=pol"
     },
     {
-      "doc_id": "jiji-4e5462def817c3b0",
-      "title": "中国外相「高市首相が解決を」 台湾答弁問題、岩屋氏へ伝達―７２年共同声明「再確認」案応ぜず",
+      "doc_id": "jiji-c7c7c7b9f1000afd",
+      "title": "ノーベル賞「大変うれしい」 そあい名誉教授が会見―東京",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100700840&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100701201&g=soc"
     },
     {
-      "doc_id": "jiji-efe699611980c016",
-      "title": "千葉で震度４",
+      "doc_id": "jiji-cbc8004a5f4371e7",
+      "title": "ネット証券「ウィブル」に安保リスク 米下院委が中国との関連指摘―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800133&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100800266&g=int"
+    },
+    {
+      "doc_id": "jiji-506006a2afef825a",
+      "title": "韓国サムスン、営業利益１２兆円超 半導体好調で過去最高更新―７～９月期",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800249&g=int"
+    },
+    {
+      "doc_id": "jiji-081060860b89baed",
+      "title": "超長寿、ミトコンドリア機能が基盤 細胞のエネルギー生産―１９４歳ゾウガメを解析・国際チーム",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800082&g=int"
     },
     {
       "doc_id": "nhk-588b005305bc30a0",
@@ -124,40 +124,64 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261008de56220"
     },
     {
-      "doc_id": "nhk-ecbb3d496848dd58",
-      "title": "大手ビールメーカー4社 出荷価格の一覧表“裏会”で示し協議か",
+      "doc_id": "nhk-87fd5758708cf890",
+      "title": "「伝説の教授」「昔の学者肌」「研究一筋」各地で喜びの声",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56219"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de56145"
     },
     {
-      "doc_id": "nhk-69a556a48c135079",
-      "title": "参院できょうから代表質問 消費税減税など論戦 農相発言追及も",
+      "doc_id": "nhk-2ee69c23b6c1d94d",
+      "title": "ドジャース 3年連続でリーグ優勝決定シリーズ進出",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56201"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56277"
     },
     {
-      "doc_id": "nhk-6c069de8c9954732",
-      "title": "ローカル線に続き「幹線」も 鉄道網見直しへ新たな議論",
+      "doc_id": "nhk-f541622d31150121",
+      "title": "ホワイトソックスはガーディアンズに初黒星 村上宗隆は無安打",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56192"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56251"
     },
     {
-      "doc_id": "nhk-425f6a339b9f13b1",
-      "title": "特殊詐欺の金を暗号資産に交換し資金洗浄か 6人逮捕 警視庁",
+      "doc_id": "nhk-eda5ef6d79934f4c",
+      "title": "パリのシャンゼリゼ通りと大阪・御堂筋が「姉妹ストリート」に",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56189"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56247"
     },
     {
-      "doc_id": "nhk-e2038c737f1e3ef7",
-      "title": "国際ハッカー集団 ドイツ当局「約4000の企業など攻撃」",
+      "doc_id": "nhk-420cc0dbb717b14b",
+      "title": "ウクライナ外務省 北朝鮮捕虜移送めぐり「韓国と解決へ協議」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56224"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56245"
     },
     {
-      "doc_id": "nhk-ac8e60d5a804cc5e",
-      "title": "ロシアがウクライナにあるJT子会社の工場を攻撃",
+      "doc_id": "nhk-b58c1e68b1e5e76b",
+      "title": "トランプ大統領 ロシア研究所職員死亡“生物兵器”否定的見方",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56215"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56250"
+    },
+    {
+      "doc_id": "itmedia-f18fb0836a09e897",
+      "title": "Google、プロンプトでゲームを作って遊べる「Playground」を米国で公開 「Unity Spark」も年内投入",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002117/"
+    },
+    {
+      "doc_id": "itmedia-a43aa7df79b7d355",
+      "title": "漏えい相次ぐ中、保護委が対策を緊急例示 強い多要素認証やEDR導入、不要な個人データの消去など",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002115/"
+    },
+    {
+      "doc_id": "itmedia-94a22da0122eee98",
+      "title": "ニッスイ子会社で入出荷停止 IDCFクラウド影響か 委託先データセンターに不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002113/"
+    },
+    {
+      "doc_id": "itmedia-e43116916c460824",
+      "title": "Anthropic、「Claude Haiku 5.5」公開 「Haiku 4.5」から大幅性能向上で利用コスト約75％減",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002112/"
     },
     {
       "doc_id": "itmedia-d6fc0cc8d4ea3787",
@@ -208,28 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002093/"
     },
     {
-      "doc_id": "itmedia-10fa54cea188bf55",
-      "title": "関西国際大に不正アクセス、学生の記録などが外部流出か 授業や手続きにも支障",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002088/"
+      "doc_id": "nazology-66d13bd8a881d49b",
+      "title": "豆類をよく食べる人ほど心臓病と糖尿病のリスクが低い傾向",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200894"
     },
     {
-      "doc_id": "itmedia-09b8fc5253cf6c20",
-      "title": "IDCFクラウドに不正アクセス 東日本の第1リージョンで障害",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002087/"
+      "doc_id": "nazology-0c6dfeae366c4086",
+      "title": "1日の歩数が多い10代ほど「うつ」が少ないと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200854"
     },
     {
-      "doc_id": "itmedia-6dabed78a9073342",
-      "title": "Google広告の代理店アカウントに不正アクセス 顧客アカウントからカジノ広告無断配信 パスキー設定も侵入許す",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002086/"
-    },
-    {
-      "doc_id": "itmedia-82ed17cd73442f8b",
-      "title": "自治体やJクラブのWebサイトが閲覧不能に、各地で相次ぐ──茨城県・小平市・京都サンガなど",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002085/"
+      "doc_id": "nazology-e1796deb993d752d",
+      "title": "「見た目はウンチ」寿命は100年超えと推定されたナマコ",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200849"
     },
     {
       "doc_id": "nazology-3b5b0966f04ac927",
@@ -272,24 +290,6 @@
       "title": "「危険なカビ」に主なカビの薬がすべて効かなくなっていたと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200828"
-    },
-    {
-      "doc_id": "nazology-da2a21aaa9115d66",
-      "title": "育った環境で「見える世界」が違う：この図に長方形でなく丸しか見えない人もいる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/180090"
-    },
-    {
-      "doc_id": "nazology-80e8843de9a11fa4",
-      "title": "ポルノがやめられない人に見られる「6つの心の特徴」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200866"
-    },
-    {
-      "doc_id": "nazology-4d0e71c72a274ea2",
-      "title": "イカに「人の耳に似た細胞」を新たに数百個発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200838"
     }
   ]
 }
