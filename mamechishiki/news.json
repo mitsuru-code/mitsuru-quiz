@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-08T01:58:31+00:00",
-  "now_ms": 1791424711890,
+  "fetched_at": "2026-10-08T09:01:57+00:00",
+  "now_ms": 1791450117330,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-0105e9a1c07d2bc5",
-      "title": "ビール大手を調査 経営層関与焦点",
+      "doc_id": "yahoo-6a58a577be7a424a",
+      "title": "ビール4社の地方支店にも強制調査",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597955"
+      "link": "https://news.yahoo.co.jp/pickup/6598011"
     },
     {
-      "doc_id": "yahoo-f03e8bbea8598231",
-      "title": "外国人材 都市部への転職が増加",
+      "doc_id": "yahoo-8f4f9eecfae82c27",
+      "title": "消費減税 中小零細農家に補填へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597945"
+      "link": "https://news.yahoo.co.jp/pickup/6598002"
     },
     {
-      "doc_id": "yahoo-3401a944205a819a",
-      "title": "湖に転落し中1心肺停止 呼吸回復",
+      "doc_id": "yahoo-f7b1d6259d868403",
+      "title": "プルデンシャル不正 約52億円被害",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597965"
+      "link": "https://news.yahoo.co.jp/pickup/6598015"
     },
     {
-      "doc_id": "yahoo-98b7d422cff0e59c",
-      "title": "八田與一容疑者目撃情報 関東で増",
+      "doc_id": "yahoo-cf036d324f35b9f5",
+      "title": "首相 簗氏に「働いて仕事で返せ」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597952"
+      "link": "https://news.yahoo.co.jp/pickup/6598019"
     },
     {
-      "doc_id": "yahoo-340d09d5e6324a7f",
-      "title": "意識回復の米死刑囚に重い症状",
+      "doc_id": "yahoo-db1745417030012c",
+      "title": "巡査長 失効免許証を不正持ち出し",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597956"
+      "link": "https://news.yahoo.co.jp/pickup/6598003"
     },
     {
-      "doc_id": "yahoo-038a838aea6cc216",
-      "title": "194歳ゾウガメのゲノム解析 研究",
+      "doc_id": "yahoo-85f8f121b69289d3",
+      "title": "青森「ミスりんご」活動終了へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597950"
+      "link": "https://news.yahoo.co.jp/pickup/6598021"
     },
     {
-      "doc_id": "yahoo-4fb627b2ca3716b1",
-      "title": "ド軍3年連続リーグ優勝決定S進出",
+      "doc_id": "yahoo-7e0a8f62cf688ffe",
+      "title": "スーパーカップ抹茶 製造終了の訳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597961"
+      "link": "https://news.yahoo.co.jp/pickup/6598001"
     },
     {
-      "doc_id": "yahoo-3c77d9388a06d75f",
-      "title": "永野芽郁の主演映画 12月3日配信",
+      "doc_id": "yahoo-594ba3659315356c",
+      "title": "メッシとCロナ「引き際」好対照",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6597953"
-    },
-    {
-      "doc_id": "jiji-37dc0709066e04d8",
-      "title": "そあい憲三・名誉教授らにノーベル賞 不斉自己触媒反応の発見―化学賞、２年連続",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701005&g=soc"
+      "link": "https://news.yahoo.co.jp/pickup/6598020"
     },
     {
       "doc_id": "jiji-54854dfdcd1c38d2",
@@ -70,22 +64,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026100701163&g=int"
     },
     {
+      "doc_id": "jiji-064e1f991511341e",
+      "title": "栃木・那須町長選を巡る訴訟で、東京高裁は当選無効の裁決を取り消した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800576&g=flash"
+    },
+    {
       "doc_id": "jiji-302aafbb90f36085",
-      "title": "中日監督に工藤公康氏就任へ 「優勝請負人」に再建託す―プロ野球",
+      "title": "中日監督に工藤氏就任へ 「勝ち方知る」手腕期待―プロ野球",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100800236&g=spo"
     },
     {
-      "doc_id": "jiji-3eb809d5ff8bf8ef",
-      "title": "プロ野球中日の新監督に、工藤公康（くどう・きみやす）氏が就任することが分かった",
+      "doc_id": "jiji-22f6a73b2f0ed7ec",
+      "title": "香川県警元署長が万引き容疑 ホームセンターで、書類送検",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800235&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026100800715&g=soc"
     },
     {
-      "doc_id": "jiji-912ac56c56686097",
-      "title": "簗農水相は議員辞職を 維新・前原氏が主張",
+      "doc_id": "jiji-37dc0709066e04d8",
+      "title": "そあい憲三・名誉教授らにノーベル賞 不斉自己触媒反応の発見―化学賞、２年連続",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100700405&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100701005&g=soc"
+    },
+    {
+      "doc_id": "jiji-ac6fd4a7c98070ad",
+      "title": "ファーストリテイリングの２６年８月期連結売上高は過去最高の３兆９６３３億円となった",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800762&g=flash"
+    },
+    {
+      "doc_id": "jiji-f6849179dac07ba7",
+      "title": "「当選無効」裁決取り消す 姓と名の混同「判断できず」―那須町長の訴え認める・東京高裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800146&g=soc"
+    },
+    {
+      "doc_id": "jiji-bdfe014e67275891",
+      "title": "バットの色、来季から自由に 「個性出せる」と選手歓迎―プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800160&g=spo"
     },
     {
       "doc_id": "jiji-91a6beac60caaf8d",
@@ -94,40 +112,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026100701068&g=pol"
     },
     {
-      "doc_id": "jiji-c7c7c7b9f1000afd",
-      "title": "ノーベル賞「大変うれしい」 そあい名誉教授が会見―東京",
+      "doc_id": "jiji-67d09518dee76115",
+      "title": "そあいさん「実感はっきりしない」 ノーベル賞決定から一夜明け―埼玉",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701201&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100800423&g=soc"
     },
     {
-      "doc_id": "jiji-cbc8004a5f4371e7",
-      "title": "ネット証券「ウィブル」に安保リスク 米下院委が中国との関連指摘―報道",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800266&g=int"
-    },
-    {
-      "doc_id": "jiji-506006a2afef825a",
-      "title": "韓国サムスン、営業利益１２兆円超 半導体好調で過去最高更新―７～９月期",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800249&g=int"
-    },
-    {
-      "doc_id": "jiji-081060860b89baed",
-      "title": "超長寿、ミトコンドリア機能が基盤 細胞のエネルギー生産―１９４歳ゾウガメを解析・国際チーム",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800082&g=int"
-    },
-    {
-      "doc_id": "nhk-588b005305bc30a0",
-      "title": "ノーベル化学賞に東京理科大学名誉教授 会見で喜びの声",
+      "doc_id": "nhk-94d2b298d27d076d",
+      "title": "神奈川県警の警察官 回収した運転免許証 数十枚不正に持ち出し",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56220"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56547"
     },
     {
-      "doc_id": "nhk-87fd5758708cf890",
-      "title": "「伝説の教授」「昔の学者肌」「研究一筋」各地で喜びの声",
+      "doc_id": "nhk-b2806a8a1529a6fe",
+      "title": "プロ野球 中日の新監督に工藤公康氏 就任へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de56145"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56275"
     },
     {
       "doc_id": "nhk-2ee69c23b6c1d94d",
@@ -136,28 +136,82 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261008de56277"
     },
     {
-      "doc_id": "nhk-f541622d31150121",
-      "title": "ホワイトソックスはガーディアンズに初黒星 村上宗隆は無安打",
+      "doc_id": "nhk-39c05ab4bfb63034",
+      "title": "事故で運動まひの患者に脳の神経再生促す国内初の治療 北大",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56251"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56643"
     },
     {
-      "doc_id": "nhk-eda5ef6d79934f4c",
-      "title": "パリのシャンゼリゼ通りと大阪・御堂筋が「姉妹ストリート」に",
+      "doc_id": "nhk-975bc48e35563dfa",
+      "title": "参議院自民 参議院幹事長人事で石井氏交代の説明を求める声",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56247"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56463"
     },
     {
-      "doc_id": "nhk-420cc0dbb717b14b",
-      "title": "ウクライナ外務省 北朝鮮捕虜移送めぐり「韓国と解決へ協議」",
+      "doc_id": "nhk-9d0cbd420325ddf5",
+      "title": "受賞から一夜明け “どうなるかわからない研究含め支援を”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56245"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56371"
     },
     {
-      "doc_id": "nhk-b58c1e68b1e5e76b",
-      "title": "トランプ大統領 ロシア研究所職員死亡“生物兵器”否定的見方",
+      "doc_id": "nhk-303ee30b5d0ccf23",
+      "title": "【ライブ配信】プルデンシャル生命 記者会見",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56250"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56488"
+    },
+    {
+      "doc_id": "itmedia-1a0d6b5497bf75e3",
+      "title": "SBI証券、Google・Appleパスキー乗っ取り被害「確認されていない」 注意喚起は他社事案",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002137/"
+    },
+    {
+      "doc_id": "itmedia-e55325908cee0a9d",
+      "title": "ライバル社に不正アクセス、顧客名簿入手し営業活動 容疑の光回線代理店従業員を逮捕",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002129/"
+    },
+    {
+      "doc_id": "itmedia-5163dda78d59d05b",
+      "title": "Google、AI生成物の判定ツールを一般公開 OpenAIやNVIDIA製サービスも対象に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002128/"
+    },
+    {
+      "doc_id": "itmedia-d507fbcf3e8a29a7",
+      "title": "止まらない不正アクセス、背景にAIの“超高速攻撃”か 識者「使われていない方が不自然」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002101/"
+    },
+    {
+      "doc_id": "itmedia-6ca63d617d7c3b8d",
+      "title": "「ChatGPT for Teens」は「容認できないリスク」と米非営利団体が警告 OpenAIは利用状況と新機能を発表",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002125/"
+    },
+    {
+      "doc_id": "itmedia-081033e729b28a05",
+      "title": "「IDCFクラウド」障害で止まった「MTクラウド版」、「Googleクラウド」のバックアップで「さくらのクラウド」に移行へ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002120/"
+    },
+    {
+      "doc_id": "itmedia-b69fb06574f85e2a",
+      "title": "ChatGPT、無料版を含む全ユーザーに「GPT-6」 回答内に“操作できる画面”を生成する「Intelligent UI」搭載",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002119/"
+    },
+    {
+      "doc_id": "itmedia-e5b4ac5f00515be9",
+      "title": "「応用情報技術者試験」申込障害 カード二重決済、「申込完了」でも座席なし……IPAが詳細発表",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002118/"
+    },
+    {
+      "doc_id": "itmedia-e43116916c460824",
+      "title": "Anthropic、「Claude Haiku 5.5」公開 「Haiku 4.5」から大幅性能向上で利用コスト約75％減",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002112/"
     },
     {
       "doc_id": "itmedia-f18fb0836a09e897",
@@ -178,58 +232,34 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002113/"
     },
     {
-      "doc_id": "itmedia-e43116916c460824",
-      "title": "Anthropic、「Claude Haiku 5.5」公開 「Haiku 4.5」から大幅性能向上で利用コスト約75％減",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002112/"
+      "doc_id": "nazology-9ec63d4006e71995",
+      "title": "光で神経細胞を動かす「光遺伝学」がノーベル賞を受賞",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200944"
     },
     {
-      "doc_id": "itmedia-d6fc0cc8d4ea3787",
-      "title": "IDCFクラウドへのランサム攻撃、495の企業・自治体に影響 一部には「復元難しい」との通達も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002107/"
+      "doc_id": "nazology-91ea30be12ebe9f2",
+      "title": "星が死んだ後に生まれた「不死鳥の惑星」の候補を初めて発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200950"
     },
     {
-      "doc_id": "itmedia-052d292d33f6f020",
-      "title": "富山県立大にまた不正アクセス 学生のMicrosoft 365アカウントから1092件の迷惑メール 送信は8月末",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002105/"
+      "doc_id": "nazology-331780581cf22418",
+      "title": "頭に「電流」を流すと統合失調症の症状が減ると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200833"
     },
     {
-      "doc_id": "itmedia-1095778d0defa4cf",
-      "title": "IDCFクラウドへの不正アクセス、ランサムウェア攻撃と明らかに 運営会社が回答",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002106/"
+      "doc_id": "nazology-79946003aa367191",
+      "title": "「プレゼン前はいつもお腹が痛くなる」過敏性腸症候群の原因、実はストレスじゃない",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/80044"
     },
     {
-      "doc_id": "itmedia-98214f37204436d2",
-      "title": "HIS子会社からパスポート情報流出か、最大627人分 昨年の不正アクセスを公表",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002090/"
-    },
-    {
-      "doc_id": "itmedia-ee339e9d231a26d6",
-      "title": "みずほ証券、国内金融業界初の直接液冷サーバ導入へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002104/"
-    },
-    {
-      "doc_id": "itmedia-6f7ce66ee34ede62",
-      "title": "「FDEが開発したAIエージェントの7割は使われず、単なるコンサルティングが販売される」 ガートナー予測",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002098/"
-    },
-    {
-      "doc_id": "itmedia-68735547a4bc9b87",
-      "title": "損保ジャパン、約6万件漏えいか 大和証券・シチズンと同じ委託先への不正アクセスで",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002099/"
-    },
-    {
-      "doc_id": "itmedia-75ee838a289750b1",
-      "title": "国際的ハッカー集団「Qilin」中心メンバーを大阪で拘束 ドイツ当局に身柄を引き渡し",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/07/2000002093/"
+      "doc_id": "nazology-85252c449047bda5",
+      "title": "望まない性行為を断れない女性に見られる「ある家庭の経験」とは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200871"
     },
     {
       "doc_id": "nazology-66d13bd8a881d49b",
@@ -260,36 +290,6 @@
       "title": "VRゴーグルで、深い瞑想や幻覚剤に近い「ある体験」が起きていた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200877"
-    },
-    {
-      "doc_id": "nazology-8793b09ba4e0f813",
-      "title": "カフェインレスのコーヒーを飲んだ人だけで、記憶テストの成績にはっきりした改善が確認された",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200889"
-    },
-    {
-      "doc_id": "nazology-077d08fe666c5ff8",
-      "title": "世界初の「水に浮くチタン」を開発、大きく壊れても沈まない",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200883"
-    },
-    {
-      "doc_id": "nazology-77f4eaf705ac7c1c",
-      "title": "大麻を使う10代ほど「考える力の伸び」が鈍い傾向",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200844"
-    },
-    {
-      "doc_id": "nazology-00c4656b60d507ab",
-      "title": "約3000年前の赤ちゃんも「絶壁頭」になっていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200823"
-    },
-    {
-      "doc_id": "nazology-c726bdecb19540ca",
-      "title": "「危険なカビ」に主なカビの薬がすべて効かなくなっていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200828"
     }
   ]
 }
