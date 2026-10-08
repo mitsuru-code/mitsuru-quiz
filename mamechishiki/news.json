@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-08T16:31:39+00:00",
-  "now_ms": 1791477099059,
+  "fetched_at": "2026-10-08T22:06:51+00:00",
+  "now_ms": 1791497211484,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,10 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-e887f6b63ecd059a",
-      "title": "在沖縄米軍 9日まで通常訓練停止",
+      "doc_id": "yahoo-acc5736a670d58cb",
+      "title": "中間選挙前に攻撃しない 米大統領",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598059"
-    },
-    {
-      "doc_id": "yahoo-97783ebf3d01e95e",
-      "title": "ノーベル平和賞の候補にICC 背景",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598033"
-    },
-    {
-      "doc_id": "yahoo-980ce5f8ae8e1e50",
-      "title": "関東-九州は秋晴れ多い 1カ月予報",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598062"
-    },
-    {
-      "doc_id": "yahoo-7babcadcb1b00756",
-      "title": "プルデンシャル 不正巡り64人解雇",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598063"
+      "link": "https://news.yahoo.co.jp/pickup/6598065"
     },
     {
       "doc_id": "yahoo-50060f9b33fa3d09",
@@ -40,10 +22,22 @@
       "link": "https://news.yahoo.co.jp/pickup/6598056"
     },
     {
-      "doc_id": "yahoo-9edca673b5d45709",
-      "title": "阪神・佐藤輝明が三冠王を獲得",
+      "doc_id": "yahoo-7babcadcb1b00756",
+      "title": "プルデンシャル 不正巡り64人解雇",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598052"
+      "link": "https://news.yahoo.co.jp/pickup/6598063"
+    },
+    {
+      "doc_id": "yahoo-97783ebf3d01e95e",
+      "title": "ノーベル平和賞の候補にICC 背景",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6598033"
+    },
+    {
+      "doc_id": "yahoo-15af80e486d17210",
+      "title": "米スタバ メキシコ料理買収を検討",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6598068"
     },
     {
       "doc_id": "yahoo-2c8a9b57d6d6bdcf",
@@ -52,10 +46,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6598050"
     },
     {
-      "doc_id": "yahoo-06117c52032be95f",
-      "title": "アッコ 障害者手帳4級持っている",
+      "doc_id": "yahoo-8c694b342c3da8d2",
+      "title": "堺雅人&芦田愛菜 初の紅白司会",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598030"
+      "link": "https://news.yahoo.co.jp/pickup/6598067"
+    },
+    {
+      "doc_id": "yahoo-a5d4cec3903b9e47",
+      "title": "矢部浩之「ナイナイANN」を卒業",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6598064"
     },
     {
       "doc_id": "jiji-e923aa1f5d03ad88",
@@ -64,40 +64,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026100801214&g=int"
     },
     {
-      "doc_id": "jiji-aa332e499c523b70",
-      "title": "阪神の佐藤が打撃４部門トップ 投手は阪神・高橋が２冠―プロ野球セ・リーグ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801196&g=spo"
-    },
-    {
-      "doc_id": "jiji-80b3f014cfbb6fad",
-      "title": "カナダの詩人にノーベル文学賞 アン・カーソンさん",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801095&g=int"
-    },
-    {
       "doc_id": "jiji-b395d6b164032df0",
       "title": "外務省前でロ大使館車が衝突 乗用車と、４人軽傷―東京",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100801040&g=soc"
     },
     {
-      "doc_id": "jiji-0ab5351c810ba26d",
-      "title": "ロシア当局は、国際刑事裁判所の赤根智子（あかね・ともこ）所長の身柄引き渡しをオランダに要請したと発表した",
+      "doc_id": "jiji-2f04420142554541",
+      "title": "首相動静（１０月８日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801204&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026100800230&g=pol"
     },
     {
-      "doc_id": "jiji-d98e4feb88c1c570",
-      "title": "高市首相、簗農水相を「厳しく注意」 続投指示、野党は辞任要求",
+      "doc_id": "jiji-8f710777602f4d49",
+      "title": "米スタバ、メキシコ料理大手買収を検討 報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800855&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100900158&g=int"
     },
     {
-      "doc_id": "jiji-55496c284803ee53",
-      "title": "ヤクルトの岩田、目標の盗塁王 プロ野球",
+      "doc_id": "jiji-2b561103c2273538",
+      "title": "石油備蓄強化へ作業計画 ＡＺＥＣ閣僚会合で合意―フィリピン",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801197&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100800962&g=int"
     },
     {
       "doc_id": "jiji-54854dfdcd1c38d2",
@@ -106,10 +94,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026100701163&g=int"
     },
     {
-      "doc_id": "jiji-61c098dc9ef55ca1",
-      "title": "阪神の佐藤輝明、史上９人目の三冠王 村上宗隆以来４年ぶり―プロ野球",
+      "doc_id": "jiji-aa332e499c523b70",
+      "title": "阪神の佐藤が打撃４部門トップ 投手は阪神・高橋が２冠―プロ野球セ・リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801143&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100801196&g=spo"
+    },
+    {
+      "doc_id": "jiji-d98e4feb88c1c570",
+      "title": "高市首相、簗農水相を「厳しく注意」 続投指示、野党は辞任要求",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800855&g=pol"
+    },
+    {
+      "doc_id": "jiji-41803deee45fe1b6",
+      "title": "気象庁によると、千葉県北東部で震度４の揺れを観測した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800126&g=flash"
     },
     {
       "doc_id": "jiji-f6849179dac07ba7",
@@ -118,46 +118,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026100800146&g=soc"
     },
     {
-      "doc_id": "nhk-a839ce7cca818cc6",
-      "title": "大学や母校 地元で…受賞決定に祝福の声続々と",
+      "doc_id": "nhk-826d3fd9421d93d9",
+      "title": "企業への不正アクセス 相次いで明らかに",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56606"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56931"
     },
     {
-      "doc_id": "nhk-238cfb50197928c4",
-      "title": "阪神 佐藤輝明が三冠王 4年ぶり史上9人目 村上宗隆以来",
+      "doc_id": "nhk-3b7bbedd75a4346d",
+      "title": "ソフトバンク子会社 サイバー攻撃受け データ復旧などは困難",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56508"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56918"
     },
     {
-      "doc_id": "nhk-db44a8cdb853ac03",
-      "title": "ノーベル文学賞にアン・カーソン氏 カナダの詩人",
+      "doc_id": "nhk-4b8e6563444f16ab",
+      "title": "ノーベル平和賞 きょう発表 ICCやICJの受賞あるか注目集まる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55972"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783"
     },
     {
-      "doc_id": "nhk-bff31a7ccb5f7215",
-      "title": "相次ぐ不正アクセスで3つの攻撃手法 専門機関が注意呼びかけ",
+      "doc_id": "nhk-d340717dd84a4a08",
+      "title": "トランプ大統領「中間選挙前にイランを攻撃することはない」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56876"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56929"
     },
     {
-      "doc_id": "nhk-b111172e375c897c",
-      "title": "米大統領が習主席に“高市首相との対話”呼びかけか 香港紙",
+      "doc_id": "nhk-b931cec625423613",
+      "title": "声優などの団体 声の生成AIガイドライン初作成“事前許諾を”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56829"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56922"
     },
     {
-      "doc_id": "nhk-79754f7f09089b87",
-      "title": "ソフトバンク子会社にランサムウエア攻撃 企業や自治体に影響",
+      "doc_id": "nhk-d08d058f8aa26ac3",
+      "title": "消費税法案提出へ 与党“早期審議入り”野党“財源追及”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56405"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56934"
     },
     {
-      "doc_id": "nhk-0ebd8d8114b8aaed",
-      "title": "プロ野球結果 セ・リーグ1試合 レギュラーシーズンが終了",
+      "doc_id": "nhk-61d1308185308284",
+      "title": "紅白歌合戦 司会に芦田愛菜さん 堺雅人さん 二宮和也さん",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56885"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56895"
     },
     {
       "doc_id": "itmedia-693e8a2310cab165",
