@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-08T09:01:57+00:00",
-  "now_ms": 1791450117330,
+  "fetched_at": "2026-10-08T16:31:39+00:00",
+  "now_ms": 1791477099059,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,94 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-6a58a577be7a424a",
-      "title": "ビール4社の地方支店にも強制調査",
+      "doc_id": "yahoo-e887f6b63ecd059a",
+      "title": "在沖縄米軍 9日まで通常訓練停止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598011"
+      "link": "https://news.yahoo.co.jp/pickup/6598059"
     },
     {
-      "doc_id": "yahoo-8f4f9eecfae82c27",
-      "title": "消費減税 中小零細農家に補填へ",
+      "doc_id": "yahoo-97783ebf3d01e95e",
+      "title": "ノーベル平和賞の候補にICC 背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598002"
+      "link": "https://news.yahoo.co.jp/pickup/6598033"
     },
     {
-      "doc_id": "yahoo-f7b1d6259d868403",
-      "title": "プルデンシャル不正 約52億円被害",
+      "doc_id": "yahoo-980ce5f8ae8e1e50",
+      "title": "関東-九州は秋晴れ多い 1カ月予報",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598015"
+      "link": "https://news.yahoo.co.jp/pickup/6598062"
     },
     {
-      "doc_id": "yahoo-cf036d324f35b9f5",
-      "title": "首相 簗氏に「働いて仕事で返せ」",
+      "doc_id": "yahoo-7babcadcb1b00756",
+      "title": "プルデンシャル 不正巡り64人解雇",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598019"
+      "link": "https://news.yahoo.co.jp/pickup/6598063"
     },
     {
-      "doc_id": "yahoo-db1745417030012c",
-      "title": "巡査長 失効免許証を不正持ち出し",
+      "doc_id": "yahoo-50060f9b33fa3d09",
+      "title": "ローソン 約215万件の情報漏えい",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598003"
+      "link": "https://news.yahoo.co.jp/pickup/6598056"
     },
     {
-      "doc_id": "yahoo-85f8f121b69289d3",
-      "title": "青森「ミスりんご」活動終了へ",
+      "doc_id": "yahoo-9edca673b5d45709",
+      "title": "阪神・佐藤輝明が三冠王を獲得",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598021"
+      "link": "https://news.yahoo.co.jp/pickup/6598052"
     },
     {
-      "doc_id": "yahoo-7e0a8f62cf688ffe",
-      "title": "スーパーカップ抹茶 製造終了の訳",
+      "doc_id": "yahoo-2c8a9b57d6d6bdcf",
+      "title": "藤崎奈々子 自覚なかった脳梗塞",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598001"
+      "link": "https://news.yahoo.co.jp/pickup/6598050"
     },
     {
-      "doc_id": "yahoo-594ba3659315356c",
-      "title": "メッシとCロナ「引き際」好対照",
+      "doc_id": "yahoo-06117c52032be95f",
+      "title": "アッコ 障害者手帳4級持っている",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598020"
+      "link": "https://news.yahoo.co.jp/pickup/6598030"
+    },
+    {
+      "doc_id": "jiji-e923aa1f5d03ad88",
+      "title": "ＩＣＣ赤根所長の身柄要請 オランダなどに―ロシア最高検",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100801214&g=int"
+    },
+    {
+      "doc_id": "jiji-aa332e499c523b70",
+      "title": "阪神の佐藤が打撃４部門トップ 投手は阪神・高橋が２冠―プロ野球セ・リーグ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100801196&g=spo"
+    },
+    {
+      "doc_id": "jiji-80b3f014cfbb6fad",
+      "title": "カナダの詩人にノーベル文学賞 アン・カーソンさん",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100801095&g=int"
+    },
+    {
+      "doc_id": "jiji-b395d6b164032df0",
+      "title": "外務省前でロ大使館車が衝突 乗用車と、４人軽傷―東京",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100801040&g=soc"
+    },
+    {
+      "doc_id": "jiji-0ab5351c810ba26d",
+      "title": "ロシア当局は、国際刑事裁判所の赤根智子（あかね・ともこ）所長の身柄引き渡しをオランダに要請したと発表した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100801204&g=flash"
+    },
+    {
+      "doc_id": "jiji-d98e4feb88c1c570",
+      "title": "高市首相、簗農水相を「厳しく注意」 続投指示、野党は辞任要求",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800855&g=pol"
+    },
+    {
+      "doc_id": "jiji-55496c284803ee53",
+      "title": "ヤクルトの岩田、目標の盗塁王 プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100801197&g=spo"
     },
     {
       "doc_id": "jiji-54854dfdcd1c38d2",
@@ -64,34 +106,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026100701163&g=int"
     },
     {
-      "doc_id": "jiji-064e1f991511341e",
-      "title": "栃木・那須町長選を巡る訴訟で、東京高裁は当選無効の裁決を取り消した",
+      "doc_id": "jiji-61c098dc9ef55ca1",
+      "title": "阪神の佐藤輝明、史上９人目の三冠王 村上宗隆以来４年ぶり―プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800576&g=flash"
-    },
-    {
-      "doc_id": "jiji-302aafbb90f36085",
-      "title": "中日監督に工藤氏就任へ 「勝ち方知る」手腕期待―プロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800236&g=spo"
-    },
-    {
-      "doc_id": "jiji-22f6a73b2f0ed7ec",
-      "title": "香川県警元署長が万引き容疑 ホームセンターで、書類送検",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800715&g=soc"
-    },
-    {
-      "doc_id": "jiji-37dc0709066e04d8",
-      "title": "そあい憲三・名誉教授らにノーベル賞 不斉自己触媒反応の発見―化学賞、２年連続",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701005&g=soc"
-    },
-    {
-      "doc_id": "jiji-ac6fd4a7c98070ad",
-      "title": "ファーストリテイリングの２６年８月期連結売上高は過去最高の３兆９６３３億円となった",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800762&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026100801143&g=spo"
     },
     {
       "doc_id": "jiji-f6849179dac07ba7",
@@ -100,64 +118,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026100800146&g=soc"
     },
     {
-      "doc_id": "jiji-bdfe014e67275891",
-      "title": "バットの色、来季から自由に 「個性出せる」と選手歓迎―プロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800160&g=spo"
-    },
-    {
-      "doc_id": "jiji-91a6beac60caaf8d",
-      "title": "中国外務省の幹部、高市首相を呼び捨て 日本政府「敬意払うのは当然」、中国に申し入れ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701068&g=pol"
-    },
-    {
-      "doc_id": "jiji-67d09518dee76115",
-      "title": "そあいさん「実感はっきりしない」 ノーベル賞決定から一夜明け―埼玉",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800423&g=soc"
-    },
-    {
-      "doc_id": "nhk-94d2b298d27d076d",
-      "title": "神奈川県警の警察官 回収した運転免許証 数十枚不正に持ち出し",
+      "doc_id": "nhk-a839ce7cca818cc6",
+      "title": "大学や母校 地元で…受賞決定に祝福の声続々と",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56547"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56606"
     },
     {
-      "doc_id": "nhk-b2806a8a1529a6fe",
-      "title": "プロ野球 中日の新監督に工藤公康氏 就任へ",
+      "doc_id": "nhk-238cfb50197928c4",
+      "title": "阪神 佐藤輝明が三冠王 4年ぶり史上9人目 村上宗隆以来",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56275"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56508"
     },
     {
-      "doc_id": "nhk-2ee69c23b6c1d94d",
-      "title": "ドジャース 3年連続でリーグ優勝決定シリーズ進出",
+      "doc_id": "nhk-db44a8cdb853ac03",
+      "title": "ノーベル文学賞にアン・カーソン氏 カナダの詩人",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56277"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55972"
     },
     {
-      "doc_id": "nhk-39c05ab4bfb63034",
-      "title": "事故で運動まひの患者に脳の神経再生促す国内初の治療 北大",
+      "doc_id": "nhk-bff31a7ccb5f7215",
+      "title": "相次ぐ不正アクセスで3つの攻撃手法 専門機関が注意呼びかけ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56643"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56876"
     },
     {
-      "doc_id": "nhk-975bc48e35563dfa",
-      "title": "参議院自民 参議院幹事長人事で石井氏交代の説明を求める声",
+      "doc_id": "nhk-b111172e375c897c",
+      "title": "米大統領が習主席に“高市首相との対話”呼びかけか 香港紙",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56463"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56829"
     },
     {
-      "doc_id": "nhk-9d0cbd420325ddf5",
-      "title": "受賞から一夜明け “どうなるかわからない研究含め支援を”",
+      "doc_id": "nhk-79754f7f09089b87",
+      "title": "ソフトバンク子会社にランサムウエア攻撃 企業や自治体に影響",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56371"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56405"
     },
     {
-      "doc_id": "nhk-303ee30b5d0ccf23",
-      "title": "【ライブ配信】プルデンシャル生命 記者会見",
+      "doc_id": "nhk-0ebd8d8114b8aaed",
+      "title": "プロ野球結果 セ・リーグ1試合 レギュラーシーズンが終了",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56488"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56885"
+    },
+    {
+      "doc_id": "itmedia-693e8a2310cab165",
+      "title": "立ち話が“宝の山”に 8人の声を聞き分けられたAI文字起こし「Klang」の実力",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002130/"
     },
     {
       "doc_id": "itmedia-1a0d6b5497bf75e3",
@@ -226,10 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002115/"
     },
     {
-      "doc_id": "itmedia-94a22da0122eee98",
-      "title": "ニッスイ子会社で入出荷停止 IDCFクラウド影響か 委託先データセンターに不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002113/"
+      "doc_id": "nazology-59728386b7a43433",
+      "title": "咀嚼音とペンのノック音、日常の音に耐えられない「ミソフォニア」",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200938"
+    },
+    {
+      "doc_id": "nazology-abe3766bfad307d6",
+      "title": "独身でいるかどうかは「性格」で予測できると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200961"
     },
     {
       "doc_id": "nazology-9ec63d4006e71995",
@@ -278,18 +290,6 @@
       "title": "「見た目はウンチ」寿命は100年超えと推定されたナマコ",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200849"
-    },
-    {
-      "doc_id": "nazology-3b5b0966f04ac927",
-      "title": "コロナ後遺症の人の脳で「ドーパミン神経」が傷ついた兆しを発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200900"
-    },
-    {
-      "doc_id": "nazology-de3be47066ad929c",
-      "title": "VRゴーグルで、深い瞑想や幻覚剤に近い「ある体験」が起きていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200877"
     }
   ]
 }
