@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-08T22:06:51+00:00",
-  "now_ms": 1791497211484,
+  "fetched_at": "2026-10-09T02:12:47+00:00",
+  "now_ms": 1791511967736,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-acc5736a670d58cb",
-      "title": "中間選挙前に攻撃しない 米大統領",
+      "doc_id": "yahoo-8b36d1b43b1ecfde",
+      "title": "政府 消費減税法案を閣議決定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598065"
+      "link": "https://news.yahoo.co.jp/pickup/6598094"
     },
     {
-      "doc_id": "yahoo-50060f9b33fa3d09",
-      "title": "ローソン 約215万件の情報漏えい",
+      "doc_id": "yahoo-bc32b776a890cee2",
+      "title": "熊本地震で液状化現象 住民頭抱え",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598056"
+      "link": "https://news.yahoo.co.jp/pickup/6598099"
     },
     {
-      "doc_id": "yahoo-7babcadcb1b00756",
-      "title": "プルデンシャル 不正巡り64人解雇",
+      "doc_id": "yahoo-70bc8346d16404e5",
+      "title": "米国防総省 銃殺刑を生配信へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598063"
+      "link": "https://news.yahoo.co.jp/pickup/6598082"
     },
     {
-      "doc_id": "yahoo-97783ebf3d01e95e",
-      "title": "ノーベル平和賞の候補にICC 背景",
+      "doc_id": "yahoo-69f543d2da9665dd",
+      "title": "露でペスト疑い 接触者に異常なし",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598033"
+      "link": "https://news.yahoo.co.jp/pickup/6598077"
     },
     {
-      "doc_id": "yahoo-15af80e486d17210",
-      "title": "米スタバ メキシコ料理買収を検討",
+      "doc_id": "yahoo-d506976e7ff245e3",
+      "title": "ブックオフ 約643万件情報流出か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598068"
+      "link": "https://news.yahoo.co.jp/pickup/6598089"
     },
     {
-      "doc_id": "yahoo-2c8a9b57d6d6bdcf",
-      "title": "藤崎奈々子 自覚なかった脳梗塞",
+      "doc_id": "yahoo-13b1389e01c8c815",
+      "title": "速報 Wソックスvsガーディアンズ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598050"
+      "link": "https://news.yahoo.co.jp/pickup/6598098"
     },
     {
-      "doc_id": "yahoo-8c694b342c3da8d2",
-      "title": "堺雅人&芦田愛菜 初の紅白司会",
+      "doc_id": "yahoo-cd1f3958d01439c0",
+      "title": "バラエティ 一般人非難される背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598067"
+      "link": "https://news.yahoo.co.jp/pickup/6598096"
     },
     {
-      "doc_id": "yahoo-a5d4cec3903b9e47",
-      "title": "矢部浩之「ナイナイANN」を卒業",
+      "doc_id": "yahoo-5ad0a6eef075380e",
+      "title": "紅白司会にVIVANTの「兄弟」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598064"
+      "link": "https://news.yahoo.co.jp/pickup/6598085"
     },
     {
       "doc_id": "jiji-e923aa1f5d03ad88",
@@ -64,28 +64,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026100801214&g=int"
     },
     {
+      "doc_id": "jiji-e27a00b987db67b2",
+      "title": "消費減税法案が閣議決定 来春から１％、臨時国会で攻防",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100900138&g=pol"
+    },
+    {
+      "doc_id": "jiji-f6608693faec4c52",
+      "title": "小惑星・火星探査の出発点にも 生命の起源探る旅―ノーベル化学賞の「そあい反応」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100800997&g=soc"
+    },
+    {
       "doc_id": "jiji-b395d6b164032df0",
       "title": "外務省前でロ大使館車が衝突 乗用車と、４人軽傷―東京",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100801040&g=soc"
     },
     {
-      "doc_id": "jiji-2f04420142554541",
-      "title": "首相動静（１０月８日）",
+      "doc_id": "jiji-9e8632e475e141f6",
+      "title": "世耕氏復党の審査再開へ １５日に自民党紀委",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800230&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100800813&g=pol"
     },
     {
-      "doc_id": "jiji-8f710777602f4d49",
-      "title": "米スタバ、メキシコ料理大手買収を検討 報道",
+      "doc_id": "jiji-72705cc090d64b3c",
+      "title": "トヨタ、中国国有大手と戦略提携 合弁再編、電動化を加速",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100900158&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100900268&g=int"
     },
     {
-      "doc_id": "jiji-2b561103c2273538",
-      "title": "石油備蓄強化へ作業計画 ＡＺＥＣ閣僚会合で合意―フィリピン",
+      "doc_id": "jiji-e66b55e53a38cb32",
+      "title": "消費減税、接点見えず 高市首相、野党に「ゼロ回答」―代表質問",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800962&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100801020&g=pol"
+    },
+    {
+      "doc_id": "jiji-6b59cb33a3b3c634",
+      "title": "銃殺刑を生配信 ０９年の米軍基地乱射事件―米国防総省",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100900356&g=int"
     },
     {
       "doc_id": "jiji-54854dfdcd1c38d2",
@@ -94,34 +112,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026100701163&g=int"
     },
     {
-      "doc_id": "jiji-aa332e499c523b70",
-      "title": "阪神の佐藤が打撃４部門トップ 投手は阪神・高橋が２冠―プロ野球セ・リーグ",
+      "doc_id": "jiji-4763b6df7a14d25f",
+      "title": "３０年にルワンダ開催か―自動車Ｆ１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801196&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100900301&g=spo"
     },
     {
-      "doc_id": "jiji-d98e4feb88c1c570",
-      "title": "高市首相、簗農水相を「厳しく注意」 続投指示、野党は辞任要求",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800855&g=pol"
-    },
-    {
-      "doc_id": "jiji-41803deee45fe1b6",
-      "title": "気象庁によると、千葉県北東部で震度４の揺れを観測した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800126&g=flash"
-    },
-    {
-      "doc_id": "jiji-f6849179dac07ba7",
-      "title": "「当選無効」裁決取り消す 姓と名の混同「判断できず」―那須町長の訴え認める・東京高裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800146&g=soc"
-    },
-    {
-      "doc_id": "nhk-826d3fd9421d93d9",
-      "title": "企業への不正アクセス 相次いで明らかに",
+      "doc_id": "nhk-6ba51e01c0be97b2",
+      "title": "ブックオフ 不正アクセスで最大643万件の会員情報漏えいか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56931"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56955"
+    },
+    {
+      "doc_id": "nhk-f2deb915cc3aa65b",
+      "title": "政府 食料品の消費税減税関連法案を閣議決定",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56958"
+    },
+    {
+      "doc_id": "nhk-d31d02093df83c89",
+      "title": "ロシアの攻撃相次ぐウクライナ 首都キーウで計画停電開始",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56969"
     },
     {
       "doc_id": "nhk-3b7bbedd75a4346d",
@@ -130,34 +142,76 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261009de56918"
     },
     {
+      "doc_id": "nhk-922d399765f50567",
+      "title": "トランプ政権 マイクロソフトなどの永住権手続き受け付け停止",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56951"
+    },
+    {
+      "doc_id": "nhk-db6e56107c972db1",
+      "title": "ロシア ICC赤根所長らの身柄引き渡しをオランダなどに要請",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56946"
+    },
+    {
       "doc_id": "nhk-4b8e6563444f16ab",
       "title": "ノーベル平和賞 きょう発表 ICCやICJの受賞あるか注目集まる",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783"
     },
     {
-      "doc_id": "nhk-d340717dd84a4a08",
-      "title": "トランプ大統領「中間選挙前にイランを攻撃することはない」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56929"
+      "doc_id": "itmedia-a519b4cf551c0422",
+      "title": "急増する不正アクセスにJPCERTが注意喚起 寄せられた情報から判明した「攻撃傾向」とは",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002156/"
     },
     {
-      "doc_id": "nhk-b931cec625423613",
-      "title": "声優などの団体 声の生成AIガイドライン初作成“事前許諾を”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56922"
+      "doc_id": "itmedia-efc869056d58a052",
+      "title": "Amazon、「Fire」に代わる新タブレット「Amazon Alexa Tablet」発表 「Amazonキッズタブレット」は日本でも発売へ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002155/"
     },
     {
-      "doc_id": "nhk-d08d058f8aa26ac3",
-      "title": "消費税法案提出へ 与党“早期審議入り”野党“財源追及”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56934"
+      "doc_id": "itmedia-b8a0a683e9619c90",
+      "title": "ビッグエコー会員ら872万件の個人情報漏えいか 第一興商、委託先PCがマルウェア感染",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002154/"
     },
     {
-      "doc_id": "nhk-61d1308185308284",
-      "title": "紅白歌合戦 司会に芦田愛菜さん 堺雅人さん 二宮和也さん",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261008de56895"
+      "doc_id": "itmedia-9c605de47fff99c3",
+      "title": "NewsPicksユーザーの個人情報漏えいか 勤務先やカード番号下4桁も……管理ツールに不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002153/"
+    },
+    {
+      "doc_id": "itmedia-5aaa765a31ee45dc",
+      "title": "ブックオフに不正アクセス、最大約643万件の個人情報流出 氏名、住所、ハッシュ化パスワードなど",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002150/"
+    },
+    {
+      "doc_id": "itmedia-804b1fcf89ebc672",
+      "title": "Anthropic、Claudeへの“虐待”を利用ポリシーで禁止 影響工作の規定も集約",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002149/"
+    },
+    {
+      "doc_id": "itmedia-e112e938cc02160a",
+      "title": "ローソン、215万件の個人情報漏えい 「ユーザー本人に情報を表示する機構」に不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002148/"
+    },
+    {
+      "doc_id": "itmedia-6b6e352d363487ff",
+      "title": "IDCFクラウド障害、顧客データ「取り出し・復元困難」 復元は顧客側のバックアップ頼み",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002147/"
+    },
+    {
+      "doc_id": "itmedia-b36ad22ed4d41d6a",
+      "title": "Apple、10月13日に「Welcome home.」イベント開催",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002146/"
     },
     {
       "doc_id": "itmedia-693e8a2310cab165",
@@ -178,58 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002129/"
     },
     {
-      "doc_id": "itmedia-5163dda78d59d05b",
-      "title": "Google、AI生成物の判定ツールを一般公開 OpenAIやNVIDIA製サービスも対象に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002128/"
+      "doc_id": "nazology-574976b5ba55fae9",
+      "title": "栄養が同じでも、超加工食品はインスリンを大きく上げると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200912"
     },
     {
-      "doc_id": "itmedia-d507fbcf3e8a29a7",
-      "title": "止まらない不正アクセス、背景にAIの“超高速攻撃”か 識者「使われていない方が不自然」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002101/"
-    },
-    {
-      "doc_id": "itmedia-6ca63d617d7c3b8d",
-      "title": "「ChatGPT for Teens」は「容認できないリスク」と米非営利団体が警告 OpenAIは利用状況と新機能を発表",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002125/"
-    },
-    {
-      "doc_id": "itmedia-081033e729b28a05",
-      "title": "「IDCFクラウド」障害で止まった「MTクラウド版」、「Googleクラウド」のバックアップで「さくらのクラウド」に移行へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002120/"
-    },
-    {
-      "doc_id": "itmedia-b69fb06574f85e2a",
-      "title": "ChatGPT、無料版を含む全ユーザーに「GPT-6」 回答内に“操作できる画面”を生成する「Intelligent UI」搭載",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002119/"
-    },
-    {
-      "doc_id": "itmedia-e5b4ac5f00515be9",
-      "title": "「応用情報技術者試験」申込障害 カード二重決済、「申込完了」でも座席なし……IPAが詳細発表",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002118/"
-    },
-    {
-      "doc_id": "itmedia-e43116916c460824",
-      "title": "Anthropic、「Claude Haiku 5.5」公開 「Haiku 4.5」から大幅性能向上で利用コスト約75％減",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002112/"
-    },
-    {
-      "doc_id": "itmedia-f18fb0836a09e897",
-      "title": "Google、プロンプトでゲームを作って遊べる「Playground」を米国で公開 「Unity Spark」も年内投入",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002117/"
-    },
-    {
-      "doc_id": "itmedia-a43aa7df79b7d355",
-      "title": "漏えい相次ぐ中、保護委が対策を緊急例示 強い多要素認証やEDR導入、不要な個人データの消去など",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002115/"
+      "doc_id": "nazology-5223132bf78943d4",
+      "title": "毒ヘビほど「目立つ色」をしていると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200928"
     },
     {
       "doc_id": "nazology-59728386b7a43433",
@@ -278,18 +290,6 @@
       "title": "豆類をよく食べる人ほど心臓病と糖尿病のリスクが低い傾向",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200894"
-    },
-    {
-      "doc_id": "nazology-0c6dfeae366c4086",
-      "title": "1日の歩数が多い10代ほど「うつ」が少ないと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200854"
-    },
-    {
-      "doc_id": "nazology-e1796deb993d752d",
-      "title": "「見た目はウンチ」寿命は100年超えと推定されたナマコ",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200849"
     }
   ]
 }
