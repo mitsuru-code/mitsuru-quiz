@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-09T16:15:55+00:00",
-  "now_ms": 1791562555397,
+  "fetched_at": "2026-10-09T21:00:13+00:00",
+  "now_ms": 1791579613270,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,46 +58,46 @@
       "link": "https://news.yahoo.co.jp/pickup/6598194"
     },
     {
+      "doc_id": "jiji-903d8271fad8bedd",
+      "title": "楽譜模倣し公開、賠償確定 著作権外の表現物巡り初判断―バンドスコア訴訟・最高裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100900696&g=soc"
+    },
+    {
+      "doc_id": "jiji-5b00894c4ce436bc",
+      "title": "米制裁、法の支配への攻撃 赤根氏「引き続き使命果たす」―ＩＣＣ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101000017&g=int"
+    },
+    {
       "doc_id": "jiji-9be4f983e650b55e",
       "title": "米ＩＣＣ制裁「深く懸念」 高市首相「必要な支援継続」",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100901274&g=pol"
     },
     {
-      "doc_id": "jiji-cc233258a4469aae",
+      "doc_id": "jiji-d1bc8ff873ddb4ca",
       "title": "米、ＩＣＣ本体を制裁対象に指定 「解体」辞さない構え",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901266&g=int"
-    },
-    {
-      "doc_id": "jiji-e0175c9983e1c65f",
-      "title": "鹿島の鈴木、ようやくゴール 久々の白星に貢献―Ｊリーグ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901188&g=spo"
-    },
-    {
-      "doc_id": "jiji-6a42f3ebc6413fb6",
-      "title": "米制裁、法の支配への攻撃 赤根氏「引き続き使命果たす」―ＩＣＣ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000017&g=soc"
-    },
-    {
-      "doc_id": "jiji-f4d5de5e9e16403c",
-      "title": "ＩＣＣの赤根智子所長は、米国によるＩＣＣ本体への制裁を受け、「独立性と公平性を保ちながら、引き続き使命を果たす」と表明した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000005&g=flash"
-    },
-    {
-      "doc_id": "jiji-b09805075b65e5d5",
-      "title": "気迫の戸嶋、腐らずに 今季初出場で存在感―Ｊリーグ・柏",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901231&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100901266&g=pol"
     },
     {
       "doc_id": "jiji-c46bde542a2c692f",
       "title": "平和賞にピレイ元国連人権弁務官 南ア出身、ＩＣＣ判事など歴任―ノーベル賞",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026100900954&g=int"
+    },
+    {
+      "doc_id": "jiji-df6bbd27dde63f6a",
+      "title": "１０日の予告先発投手 プロ野球パ・リーグＣＳ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100900723&g=spo"
+    },
+    {
+      "doc_id": "jiji-f3c0ded3c86f4a17",
+      "title": "いのち・木村参院議員が離党届",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100901203&g=pol"
     },
     {
       "doc_id": "jiji-94a3680642629f24",
@@ -112,52 +112,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026100900879&g=pol"
     },
     {
-      "doc_id": "jiji-eabb81c1ee9abd99",
-      "title": "柏３連勝で首位奪取 鹿島は５試合ぶり勝利―Ｊ１",
+      "doc_id": "jiji-2273adfd9c5d65bb",
+      "title": "国家公務員給与、５年連続増 人事院勧告の実施決定―政府",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901165&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100900366&g=pol"
     },
     {
       "doc_id": "nhk-135139273822a13b",
-      "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に",
+      "title": "【詳しく】米トランプ政権 ICC＝国際刑事裁判所を制裁対象に",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527"
     },
     {
       "doc_id": "nhk-4b8e6563444f16ab",
-      "title": "ノーベル平和賞にナビ・ピレイ氏 国連人権高等弁務官など歴任",
+      "title": "ノーベル平和賞にナビ・ピレイ氏 ICCの裁判官など歴任",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783"
     },
     {
-      "doc_id": "nhk-a354a84e6b5a7928",
-      "title": "スカイチケット ブックオフでも…情報漏えい相次ぐ【対策は】",
+      "doc_id": "nhk-38f1204c1279f876",
+      "title": "政府 相次ぐ不正アクセス受け 官民問わず対策の徹底求める",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57123"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57529"
     },
     {
-      "doc_id": "nhk-f4072654f08866fb",
-      "title": "簗農相 バス無料送迎報道「事実関係を整理でき次第説明」",
+      "doc_id": "nhk-2649cf64e7f274ea",
+      "title": "沖縄強殺事件 深夜外出禁止最初の週末 基地周辺の繁華街は閑散",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56980"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57542"
     },
     {
-      "doc_id": "nhk-61cb4c52acc5ca31",
-      "title": "「バイトル」会員メールアドレス 388万件余漏えいのおそれ",
+      "doc_id": "nhk-6946e55d15c7db78",
+      "title": "簗農相 バス無料送迎報道で出納責任者「違法という認識ない」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57499"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57496"
     },
     {
-      "doc_id": "nhk-f51231504c3da998",
-      "title": "監視委のインサイダー勧告に「事実認めず」の異例決定",
+      "doc_id": "nhk-6727cc033a685a5d",
+      "title": "与党 消費税法案月内審議入りを 野党 簗農相の問責含め協議",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57511"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57530"
     },
     {
-      "doc_id": "nhk-f50a74bf0be04bca",
-      "title": "靖国神社の内部文書初開示 A級戦犯合祀の詳細が明らかに",
+      "doc_id": "nhk-dce59f87356b17d9",
+      "title": "【詳しく】ガザ停戦1年 イスラエル軍攻撃続く 厳しい人道状況",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57462"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57532"
     },
     {
       "doc_id": "itmedia-390223ce13ebb161",
