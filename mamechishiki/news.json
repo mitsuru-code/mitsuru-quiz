@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-09T02:12:47+00:00",
-  "now_ms": 1791511967736,
+  "fetched_at": "2026-10-09T09:10:08+00:00",
+  "now_ms": 1791537008776,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,94 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8b36d1b43b1ecfde",
-      "title": "政府 消費減税法案を閣議決定",
+      "doc_id": "yahoo-7b5fe305b3913d2b",
+      "title": "チューハイも価格調整 複数社説明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598094"
+      "link": "https://news.yahoo.co.jp/pickup/6598149"
     },
     {
-      "doc_id": "yahoo-bc32b776a890cee2",
-      "title": "熊本地震で液状化現象 住民頭抱え",
+      "doc_id": "yahoo-d7e3f352ede094ea",
+      "title": "警視庁「自動運転企画室」設置へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598099"
+      "link": "https://news.yahoo.co.jp/pickup/6598119"
     },
     {
-      "doc_id": "yahoo-70bc8346d16404e5",
-      "title": "米国防総省 銃殺刑を生配信へ",
+      "doc_id": "yahoo-d6ef895859b7adb7",
+      "title": "参院野党 農相の問責決議案検討へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598082"
+      "link": "https://news.yahoo.co.jp/pickup/6598132"
     },
     {
-      "doc_id": "yahoo-69f543d2da9665dd",
-      "title": "露でペスト疑い 接触者に異常なし",
+      "doc_id": "yahoo-9d3ee951e7b7b1d2",
+      "title": "岩屋前外相 中国の対日批判に苦言",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598077"
+      "link": "https://news.yahoo.co.jp/pickup/6598153"
     },
     {
-      "doc_id": "yahoo-d506976e7ff245e3",
-      "title": "ブックオフ 約643万件情報流出か",
+      "doc_id": "yahoo-8dcc0c01734c09e4",
+      "title": "JR東 個人情報のべ206万件漏洩か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598089"
+      "link": "https://news.yahoo.co.jp/pickup/6598137"
     },
     {
-      "doc_id": "yahoo-13b1389e01c8c815",
-      "title": "速報 Wソックスvsガーディアンズ",
+      "doc_id": "yahoo-86f852e36ae2111c",
+      "title": "AI「Claude」への虐待行為 禁止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598098"
+      "link": "https://news.yahoo.co.jp/pickup/6598146"
     },
     {
-      "doc_id": "yahoo-cd1f3958d01439c0",
-      "title": "バラエティ 一般人非難される背景",
+      "doc_id": "yahoo-70584e70b083b2ec",
+      "title": "木久蔵も挑戦 間借り飲食店の実態",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598096"
+      "link": "https://news.yahoo.co.jp/pickup/6598150"
     },
     {
-      "doc_id": "yahoo-5ad0a6eef075380e",
-      "title": "紅白司会にVIVANTの「兄弟」",
+      "doc_id": "yahoo-20cca8d6368e245c",
+      "title": "小園海斗に米移籍の可能性 米記者",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598085"
+      "link": "https://news.yahoo.co.jp/pickup/6598144"
     },
     {
-      "doc_id": "jiji-e923aa1f5d03ad88",
-      "title": "ＩＣＣ赤根所長の身柄要請 オランダなどに―ロシア最高検",
+      "doc_id": "jiji-903d8271fad8bedd",
+      "title": "楽譜模倣し公開、賠償確定 著作権外の表現物巡り初判断―バンドスコア訴訟・最高裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801214&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100900696&g=soc"
     },
     {
-      "doc_id": "jiji-e27a00b987db67b2",
-      "title": "消費減税法案が閣議決定 来春から１％、臨時国会で攻防",
+      "doc_id": "jiji-4d8129b017c8a6b3",
+      "title": "高市首相、簗氏続投を改めて表明 野党、問責決議検討",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100900138&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100900660&g=pol"
     },
     {
-      "doc_id": "jiji-f6608693faec4c52",
-      "title": "小惑星・火星探査の出発点にも 生命の起源探る旅―ノーベル化学賞の「そあい反応」",
+      "doc_id": "jiji-dc76f9b748534cc9",
+      "title": "旧民主再結集に意欲 小川代表「政権の受け皿」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800997&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026100900703&g=pol"
     },
     {
-      "doc_id": "jiji-b395d6b164032df0",
-      "title": "外務省前でロ大使館車が衝突 乗用車と、４人軽傷―東京",
+      "doc_id": "jiji-aaf9eeabce92ba69",
+      "title": "簗農水相「説明に努めてきた」 バス送迎、事実関係を確認へ―予算カット発言",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801040&g=soc"
-    },
-    {
-      "doc_id": "jiji-9e8632e475e141f6",
-      "title": "世耕氏復党の審査再開へ １５日に自民党紀委",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100800813&g=pol"
-    },
-    {
-      "doc_id": "jiji-72705cc090d64b3c",
-      "title": "トヨタ、中国国有大手と戦略提携 合弁再編、電動化を加速",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100900268&g=int"
-    },
-    {
-      "doc_id": "jiji-e66b55e53a38cb32",
-      "title": "消費減税、接点見えず 高市首相、野党に「ゼロ回答」―代表質問",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100801020&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100900393&g=pol"
     },
     {
       "doc_id": "jiji-6b59cb33a3b3c634",
@@ -106,22 +88,70 @@
       "link": "https://www.jiji.com/jc/article?k=2026100900356&g=int"
     },
     {
-      "doc_id": "jiji-54854dfdcd1c38d2",
-      "title": "タイ、愛知・大村知事発言に失望 「日本がどれほど変わったか、如実に示している」 アジア大会",
+      "doc_id": "jiji-05215ac0e9d71efe",
+      "title": "【速報】参院野党、簗農水相の問責検討",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100701163&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100900552&g=pol"
     },
     {
-      "doc_id": "jiji-4763b6df7a14d25f",
-      "title": "３０年にルワンダ開催か―自動車Ｆ１",
+      "doc_id": "jiji-82be6c6616ec1802",
+      "title": "ドイツ高級百貨店に「ゆめぴりか」や「コシヒカリ」 日本米小売り普及へ試験販売",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100900301&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100900176&g=int"
     },
     {
-      "doc_id": "nhk-6ba51e01c0be97b2",
-      "title": "ブックオフ 不正アクセスで最大643万件の会員情報漏えいか",
+      "doc_id": "jiji-4e077d184b007909",
+      "title": "消費減税、地方減収に対応 高市首相「１人３．６万円負担減」―参院代表質問終了",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100900377&g=pol"
+    },
+    {
+      "doc_id": "jiji-2273adfd9c5d65bb",
+      "title": "国家公務員給与、５年連続増 人事院勧告の実施決定―政府",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100900366&g=pol"
+    },
+    {
+      "doc_id": "jiji-01075fb817cda108",
+      "title": "米アマゾン、新型タブレット発表 音声でＡＩ操作",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100900784&g=int"
+    },
+    {
+      "doc_id": "nhk-4b8e6563444f16ab",
+      "title": "【ライブ配信】ノーベル平和賞発表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56955"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783"
+    },
+    {
+      "doc_id": "nhk-be6b6fe74b3e87ad",
+      "title": "JR東日本とビューカード 最大600万件余の会員情報漏えいか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57177"
+    },
+    {
+      "doc_id": "nhk-a354a84e6b5a7928",
+      "title": "1400万件超の情報が流出か 大規模な情報漏えい相次ぐ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57123"
+    },
+    {
+      "doc_id": "nhk-4e7c77acac09c75d",
+      "title": "インフルエンザ 今シーズン初めて1医療機関あたり10人超える",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56984"
+    },
+    {
+      "doc_id": "nhk-c9133b054dc8de28",
+      "title": "金融庁がプルデンシャル生命に一部業務停止命令",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57195"
+    },
+    {
+      "doc_id": "nhk-9b89547692111474",
+      "title": "アメリカ 運転免許証などの情報 1億5000万件以上が漏えいか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57294"
     },
     {
       "doc_id": "nhk-f2deb915cc3aa65b",
@@ -130,106 +160,112 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261009de56958"
     },
     {
-      "doc_id": "nhk-d31d02093df83c89",
-      "title": "ロシアの攻撃相次ぐウクライナ 首都キーウで計画停電開始",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56969"
-    },
-    {
-      "doc_id": "nhk-3b7bbedd75a4346d",
-      "title": "ソフトバンク子会社 サイバー攻撃受け データ復旧などは困難",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56918"
-    },
-    {
-      "doc_id": "nhk-922d399765f50567",
-      "title": "トランプ政権 マイクロソフトなどの永住権手続き受け付け停止",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56951"
-    },
-    {
-      "doc_id": "nhk-db6e56107c972db1",
-      "title": "ロシア ICC赤根所長らの身柄引き渡しをオランダなどに要請",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de56946"
-    },
-    {
-      "doc_id": "nhk-4b8e6563444f16ab",
-      "title": "ノーベル平和賞 きょう発表 ICCやICJの受賞あるか注目集まる",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261007de55783"
-    },
-    {
-      "doc_id": "itmedia-a519b4cf551c0422",
-      "title": "急増する不正アクセスにJPCERTが注意喚起 寄せられた情報から判明した「攻撃傾向」とは",
+      "doc_id": "itmedia-4c57fdb5008b7e6a",
+      "title": "JR東、「えきねっと」などで漏えいか メルアドなど最大206万件 IDCFクラウドへの不正アクセスで",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002156/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002171/"
     },
     {
-      "doc_id": "itmedia-efc869056d58a052",
-      "title": "Amazon、「Fire」に代わる新タブレット「Amazon Alexa Tablet」発表 「Amazonキッズタブレット」は日本でも発売へ",
+      "doc_id": "itmedia-66c4a27cc384089f",
+      "title": "「スカイチケット」に不正アクセス、計1467万件の個人情報流出 ハッシュ化されたパスワードも",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002155/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002168/"
     },
     {
-      "doc_id": "itmedia-b8a0a683e9619c90",
-      "title": "ビッグエコー会員ら872万件の個人情報漏えいか 第一興商、委託先PCがマルウェア感染",
+      "doc_id": "itmedia-a7b0d5149cad3c11",
+      "title": "米国防総省にも不正アクセス 個人情報300万人分が平文で漏えいか……発覚までに9カ月",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002154/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002158/"
     },
     {
-      "doc_id": "itmedia-9c605de47fff99c3",
-      "title": "NewsPicksユーザーの個人情報漏えいか 勤務先やカード番号下4桁も……管理ツールに不正アクセス",
+      "doc_id": "itmedia-d73c99ba3da5074e",
+      "title": "金融庁、本人確認の「ICチップ一本化」へ早期移行を要請 免許証画像の漏えい相次ぎ",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002153/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002166/"
     },
     {
-      "doc_id": "itmedia-5aaa765a31ee45dc",
-      "title": "ブックオフに不正アクセス、最大約643万件の個人情報流出 氏名、住所、ハッシュ化パスワードなど",
+      "doc_id": "itmedia-227dc3069dd1b8cc",
+      "title": "都内自治体でシステム障害相次ぐ 小平市はHP閲覧できず 復旧の見込み立たず",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002150/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/"
     },
     {
-      "doc_id": "itmedia-804b1fcf89ebc672",
-      "title": "Anthropic、Claudeへの“虐待”を利用ポリシーで禁止 影響工作の規定も集約",
+      "doc_id": "itmedia-8d2cc811563989ed",
+      "title": "Anthropic、サイバー防御の新たな取り組み「Cyber Mission」 OSS向け無料脆弱性スキャンや重要インフラ防御プログラムも",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002149/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002164/"
     },
     {
-      "doc_id": "itmedia-e112e938cc02160a",
-      "title": "ローソン、215万件の個人情報漏えい 「ユーザー本人に情報を表示する機構」に不正アクセス",
+      "doc_id": "itmedia-f6e0fd8eadacbee4",
+      "title": "“AIキャラチャット”に没頭した人の予後、スタンフォード大などが1年の追跡調査 依存強まる傾向に",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002148/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002121/"
     },
     {
-      "doc_id": "itmedia-6b6e352d363487ff",
-      "title": "IDCFクラウド障害、顧客データ「取り出し・復元困難」 復元は顧客側のバックアップ頼み",
+      "doc_id": "itmedia-6441f6fed09da4d9",
+      "title": "新gTLD申請、日本からも多数 講談社「.manga」、東映アニメ「.anime」、ドコモ「.docomo」など",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002147/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002160/"
     },
     {
-      "doc_id": "itmedia-b36ad22ed4d41d6a",
-      "title": "Apple、10月13日に「Welcome home.」イベント開催",
+      "doc_id": "itmedia-ef5b43de7d155435",
+      "title": "国家サイバー統括室、不正アクセスによる漏えい事案受け注意喚起 「いつ攻撃受けてもおかしくない」",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002146/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002161/"
     },
     {
-      "doc_id": "itmedia-693e8a2310cab165",
-      "title": "立ち話が“宝の山”に 8人の声を聞き分けられたAI文字起こし「Klang」の実力",
+      "doc_id": "itmedia-0aa9771817abf692",
+      "title": "履歴書100通に1通「AIだけが読める文字」 20万件調査でわかった“就活ハック”の手口 米研究",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002130/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002102/"
     },
     {
-      "doc_id": "itmedia-1a0d6b5497bf75e3",
-      "title": "SBI証券、Google・Appleパスキー乗っ取り被害「確認されていない」 注意喚起は他社事案",
+      "doc_id": "itmedia-6147f31ce2ba2152",
+      "title": "トランプ大統領、マスク氏やフアン氏ら6人に米国家科学賞と国家技術革新賞を授与",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002137/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002159/"
     },
     {
-      "doc_id": "itmedia-e55325908cee0a9d",
-      "title": "ライバル社に不正アクセス、顧客名簿入手し営業活動 容疑の光回線代理店従業員を逮捕",
+      "doc_id": "itmedia-4f20a2dc76d1c2dd",
+      "title": "トランプ米大統領、「AI」という言葉を使う者は「敵」 政府サイト「AI.gov」は「SI GOV」表記に",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/08/2000002129/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002157/"
+    },
+    {
+      "doc_id": "nazology-a55380e8fe4ea9b4",
+      "title": "プラスチックを食べる「パックマン酵素」を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201036"
+    },
+    {
+      "doc_id": "nazology-b4ae3828dd203172",
+      "title": "SNSで流行の「食物繊維マックス」は健康に良いのか、専門家が解説",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200923"
+    },
+    {
+      "doc_id": "nazology-61d8a2c5db12a02a",
+      "title": "王に「あの世でも仕える」ため殺された古代エジプトの家来たち",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200956"
+    },
+    {
+      "doc_id": "nazology-cb7b0ddfe2163158",
+      "title": "サイコパスの3つの特徴ごとに違う、よく使う「言葉」とは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200933"
+    },
+    {
+      "doc_id": "nazology-ee3b0a7c90cee34c",
+      "title": "恋人ができやすい「性格特性」は男女で真逆であると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/188214"
+    },
+    {
+      "doc_id": "nazology-6bbdcdecc5268d2d",
+      "title": "性の満足度は女性のほうが「オーガズム」とより密接に結びついていると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200917"
     },
     {
       "doc_id": "nazology-574976b5ba55fae9",
@@ -254,42 +290,6 @@
       "title": "独身でいるかどうかは「性格」で予測できると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200961"
-    },
-    {
-      "doc_id": "nazology-9ec63d4006e71995",
-      "title": "光で神経細胞を動かす「光遺伝学」がノーベル賞を受賞",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200944"
-    },
-    {
-      "doc_id": "nazology-91ea30be12ebe9f2",
-      "title": "星が死んだ後に生まれた「不死鳥の惑星」の候補を初めて発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200950"
-    },
-    {
-      "doc_id": "nazology-331780581cf22418",
-      "title": "頭に「電流」を流すと統合失調症の症状が減ると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200833"
-    },
-    {
-      "doc_id": "nazology-79946003aa367191",
-      "title": "「プレゼン前はいつもお腹が痛くなる」過敏性腸症候群の原因、実はストレスじゃない",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/80044"
-    },
-    {
-      "doc_id": "nazology-85252c449047bda5",
-      "title": "望まない性行為を断れない女性に見られる「ある家庭の経験」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200871"
-    },
-    {
-      "doc_id": "nazology-66d13bd8a881d49b",
-      "title": "豆類をよく食べる人ほど心臓病と糖尿病のリスクが低い傾向",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200894"
     }
   ]
 }
