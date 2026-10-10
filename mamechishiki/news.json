@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-10T18:39:08+00:00",
-  "now_ms": 1791657548506,
+  "fetched_at": "2026-10-10T22:36:03+00:00",
+  "now_ms": 1791671763682,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -40,46 +40,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6598278"
     },
     {
-      "doc_id": "yahoo-51f06165dc6fcc34",
-      "title": "卓球・佐藤瞳が快進撃 決勝に進出",
+      "doc_id": "yahoo-76e777a6b1c49d0a",
+      "title": "J1福岡 東京V解任監督にオファー",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598306"
+      "link": "https://news.yahoo.co.jp/pickup/6598311"
     },
     {
-      "doc_id": "yahoo-e15aa6532d0a3c42",
-      "title": "FRUITS ZIPPER仲川瑠夏 活動休止",
+      "doc_id": "yahoo-395f3938bb91d17e",
+      "title": "真中まな 仲川瑠夏休止にコメント",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598299"
+      "link": "https://news.yahoo.co.jp/pickup/6598313"
     },
     {
-      "doc_id": "yahoo-9d7a1bd934b23c75",
-      "title": "てんちむ出産 第2子は「青汁似」",
+      "doc_id": "yahoo-120b53e7bdd84248",
+      "title": "田中みな実「変化していきたい」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598308"
+      "link": "https://news.yahoo.co.jp/pickup/6598312"
     },
     {
-      "doc_id": "jiji-6d231e0667749d6f",
-      "title": "日米外相、ＩＣＣ制裁巡り協議 茂木氏、懸念を伝達",
+      "doc_id": "jiji-f6e0b33aa301b7e8",
+      "title": "ウクライナ大統領「交代を」 製油所攻撃の停止要求、「米農家に影響」と批判―トランプ氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000528&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101100105&g=int"
     },
     {
-      "doc_id": "jiji-acfb63e2146fa406",
-      "title": "簗農水相発言、沈静化見通せず 自民から辞任不可避の声",
+      "doc_id": "jiji-a9df25cf9f6a2d89",
+      "title": "新聞購読率、初めて５割下回る 内閣支持率は外交・物価高で評価二分―新聞通信調査会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901092&g=pol"
-    },
-    {
-      "doc_id": "jiji-20d646e0c06e1e11",
-      "title": "町田、粘って勝ち点３ Ｊリーグ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000527&g=spo"
-    },
-    {
-      "doc_id": "jiji-909b5c7a629865fd",
-      "title": "有権者排除疑惑でデモ相次ぐ 揺らぐ「世界最大の民主主義国」インド―ゴキブリ党創設者も拘束",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000443&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101100107&g=soc"
     },
     {
       "doc_id": "jiji-a1d6e0c59536cb58",
@@ -88,16 +76,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026101000420&g=soc"
     },
     {
-      "doc_id": "jiji-58b95304b2186203",
-      "title": "台湾総統「現状守り抜く」 中国を批判、式典で演説",
+      "doc_id": "jiji-acfb63e2146fa406",
+      "title": "簗農水相発言、沈静化見通せず 自民から辞任不可避の声",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000249&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100901092&g=pol"
     },
     {
-      "doc_id": "jiji-dffce845faf3620e",
-      "title": "ＳＡＧＡ久光、白星発進 女子がバンコクで開幕―バレーＳＶリーグ",
+      "doc_id": "jiji-6cf6e41a1c6e5b0c",
+      "title": "「米国が世界に脅威」２６％超 中国に次ぎ２位に上昇―新聞通信調査会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000502&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101100106&g=int"
+    },
+    {
+      "doc_id": "jiji-50846b60fb3b3f74",
+      "title": "米長官、ＩＣＣ制裁の必要性強調 茂木氏と連携継続",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100132&g=pol"
+    },
+    {
+      "doc_id": "jiji-9765638dc952af08",
+      "title": "米大統領はウクライナ大統領を批判し、「新たな指導者」が必要だと主張した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100104&g=flash"
+    },
+    {
+      "doc_id": "jiji-88e163b794fa5ad2",
+      "title": "首相動静（１０月１０日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101000268&g=pol"
+    },
+    {
+      "doc_id": "jiji-6d231e0667749d6f",
+      "title": "日米外相、ＩＣＣ制裁巡り協議 茂木氏、懸念を伝達",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101000528&g=pol"
     },
     {
       "doc_id": "jiji-66f490fad8843b28",
@@ -106,22 +118,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101000512&g=int"
     },
     {
-      "doc_id": "jiji-3e20b31f692b2b23",
-      "title": "１１日の予告先発投手 プロ野球パ・リーグＣＳ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000415&g=spo"
-    },
-    {
-      "doc_id": "jiji-0b77f6be8092aa4e",
-      "title": "「国際秩序」巡り対立 米国と日欧に溝―ＩＣＣ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000377&g=int"
+      "doc_id": "nhk-8c67e9aa2b3aa39c",
+      "title": "サウジ首都の国際空港に攻撃 12人死亡 けが人300人以上",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816"
     },
     {
       "doc_id": "nhk-a4cae838c395372b",
-      "title": "茂木外相 米国ルビオ国務長官にICC制裁への日本の立場伝達",
+      "title": "茂木外相 米 ルビオ国務長官にICC制裁への日本の立場伝達",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261010de57789"
+    },
+    {
+      "doc_id": "nhk-6c3b103789c84d0e",
+      "title": "アルツハイマー病の原因物質減らす マウスで実験成功 東大など",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57813"
+    },
+    {
+      "doc_id": "nhk-25269254aa12dcbf",
+      "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57809"
+    },
+    {
+      "doc_id": "nhk-6680e8915cc56c1d",
+      "title": "ノーベル平和賞 ピレイ氏「ICCの存続に緊張と不安」危機感示す",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57808"
     },
     {
       "doc_id": "nhk-8d6d2514e9c4dff8",
@@ -130,34 +154,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261010de57626"
     },
     {
-      "doc_id": "nhk-a227b9c589e79ce0",
-      "title": "ノーベル化学賞 そ※合さん 東京理科大が「栄誉教授」授与決定",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57761"
-    },
-    {
-      "doc_id": "nhk-c171882bef14cc14",
-      "title": "インド“ゴキブリ人民党”創設者 抗議活動前に拘束",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57783"
-    },
-    {
       "doc_id": "nhk-45fc4793bd568a48",
       "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697"
     },
     {
-      "doc_id": "nhk-9aaf2b47afb3464d",
-      "title": "トランプ大統領 ホワイトハウスの新しい報道官を発表",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57620"
-    },
-    {
-      "doc_id": "nhk-8f378c493fdbec27",
-      "title": "米アンソロピック AIが警察に殺人事件の架空情報送信",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57716"
+      "doc_id": "itmedia-baae3c58b9191dad",
+      "title": "新作映画「バイオハザード」公開で原作ゲームも大盛り上がり？ 劇場でマンガ家が頷いた、その理由とは",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/11/2000002191/"
     },
     {
       "doc_id": "itmedia-390223ce13ebb161",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002178/"
     },
     {
-      "doc_id": "itmedia-c232ea737c00553a",
-      "title": "NewsPicks、メアド32.3万件やクレカ情報の一部36.2万件漏えいか【訂正あり】",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002175/"
+      "doc_id": "nazology-079b81a10969cb3e",
+      "title": "オランウータンの母親は子どもに「遊び相手」を探してあげていたと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201271"
     },
     {
       "doc_id": "nazology-e5ce73f6e91fe48c",
@@ -284,12 +290,6 @@
       "title": "運動前のカフェインはダッシュ力を「3.5時間」高めると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201020"
-    },
-    {
-      "doc_id": "nazology-c02927cf4515305f",
-      "title": "サメは海の「地獄耳」だったと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200982"
     }
   ]
 }
