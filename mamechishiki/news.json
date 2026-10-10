@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-10T07:11:49+00:00",
-  "now_ms": 1791616309104,
+  "fetched_at": "2026-10-10T13:45:59+00:00",
+  "now_ms": 1791639959552,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-305fbddec47f4080",
-      "title": "米がICC制裁 日本など8カ国反対",
+      "doc_id": "yahoo-c1e3264200b9825f",
+      "title": "いい迷惑 農相に地元から苦言続出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598255"
+      "link": "https://news.yahoo.co.jp/pickup/6598280"
     },
     {
-      "doc_id": "yahoo-828ff71d48f07cf3",
-      "title": "米軍の反省期間 沖縄で疑問の声も",
+      "doc_id": "yahoo-fe79cc7b0dd78714",
+      "title": "ICCに制裁 ピレイ氏「悲しい日」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598261"
+      "link": "https://news.yahoo.co.jp/pickup/6598300"
     },
     {
-      "doc_id": "yahoo-86730c7046073ee1",
-      "title": "「ふるさと住民」27年3月開始方針",
+      "doc_id": "yahoo-8f683ed8042eebe4",
+      "title": "分電盤点検商法 トラブルが激増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598257"
+      "link": "https://news.yahoo.co.jp/pickup/6598301"
     },
     {
-      "doc_id": "yahoo-4d41b021bf709ad2",
-      "title": "だんじり横転 複数下敷き1人死亡",
+      "doc_id": "yahoo-0a487ee19562bea6",
+      "title": "車と衝突 義父が用水路に落ち死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598259"
+      "link": "https://news.yahoo.co.jp/pickup/6598304"
     },
     {
-      "doc_id": "yahoo-c19182d21df16f98",
-      "title": "太陽系外の惑星から電波 初検出",
+      "doc_id": "yahoo-a46469dbf12f81d6",
+      "title": "少女成長の証 13年伸ばした髪提供",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598251"
+      "link": "https://news.yahoo.co.jp/pickup/6598297"
     },
     {
-      "doc_id": "yahoo-74d88aae6a91af85",
-      "title": "どう渡す ノーベル平和賞の2億円",
+      "doc_id": "yahoo-2e3f374169cc5b87",
+      "title": "JFA eスポーツのW杯参加見送り",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598258"
+      "link": "https://news.yahoo.co.jp/pickup/6598295"
     },
     {
-      "doc_id": "yahoo-bb10e619a0fdda0c",
-      "title": "速報CS第1戦 巨人vs.DeNA",
+      "doc_id": "yahoo-e15aa6532d0a3c42",
+      "title": "FRUITS ZIPPER仲川瑠夏 活動休止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598247"
+      "link": "https://news.yahoo.co.jp/pickup/6598299"
     },
     {
-      "doc_id": "yahoo-81282f79dfb009f4",
-      "title": "やっくんさん事故死 同乗者が語る",
+      "doc_id": "yahoo-adb5b57e90cf3954",
+      "title": "てんちむ 第2子出産を報告",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598250"
+      "link": "https://news.yahoo.co.jp/pickup/6598294"
     },
     {
-      "doc_id": "jiji-8b7219abc6670c28",
-      "title": "パナマでＭ７．７の地震 建物損壊、けが人複数",
+      "doc_id": "jiji-909b5c7a629865fd",
+      "title": "有権者排除疑惑でデモ相次ぐ 揺らぐ「世界最大の民主主義国」インド―ゴキブリ党創設者も拘束",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000182&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101000443&g=int"
     },
     {
       "doc_id": "jiji-acfb63e2146fa406",
@@ -70,94 +70,94 @@
       "link": "https://www.jiji.com/jc/article?k=2026100901092&g=pol"
     },
     {
-      "doc_id": "jiji-9afcb5a5eade7cb3",
-      "title": "分電盤点検商法、相談６５００件 ２３年度の１６０倍、各地に拡大",
+      "doc_id": "jiji-a1d6e0c59536cb58",
+      "title": "将棋界初「女性棋士」の資格 西山女流四冠、白玲５期で",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000138&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101000420&g=soc"
     },
     {
-      "doc_id": "jiji-fb92e21f4130fa3e",
-      "title": "トランプ氏、平和賞逃し不満 「恥ずべき決定」",
+      "doc_id": "jiji-d07d82a004af4c8d",
+      "title": "携帯事業、「マスク帝国」が本腰 衛星と地上でネットワーク",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000326&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101000380&g=int"
     },
     {
-      "doc_id": "jiji-f8cd5bc18da802df",
-      "title": "政府、漫画・アニメを外交活用 「日本ファン」新興国で拡大狙う",
+      "doc_id": "jiji-f9f8205ff3ce0bc0",
+      "title": "米の対ロ制裁緩和は「弱腰」 軽油輸出再開を批判―ゼレンスキー氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000130&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101000481&g=int"
     },
     {
-      "doc_id": "jiji-d35f9816fc62c9e5",
-      "title": "１１日の予告先発投手 プロ野球セ・リーグＣＳ",
+      "doc_id": "jiji-953a48c1249016e9",
+      "title": "福岡、久々の白星 Ｊリーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000364&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101000449&g=spo"
     },
     {
-      "doc_id": "jiji-5a9da58ee726d1c0",
-      "title": "長野県小海町長が死亡 キノコ採りで入山、戻らず",
+      "doc_id": "jiji-041ef7f8e32b35af",
+      "title": "ＤｅＮＡの宮下が右肩手術 プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000328&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101000479&g=spo"
     },
     {
-      "doc_id": "jiji-58b95304b2186203",
-      "title": "「現状守り抜く」 中国を批判、双十節式典で演説―台湾総統",
+      "doc_id": "jiji-1c73b08ea36d825f",
+      "title": "奨励会で不運も力伸ばす 「剛腕」西山女流四冠―将棋",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000249&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101000433&g=soc"
     },
     {
-      "doc_id": "jiji-0d19061a9a023c12",
-      "title": "ロシアが軽油３０万トン供給 米、価格抑制狙い制裁緩和―トランプ、プーチン氏が合意",
+      "doc_id": "jiji-5b5050c1541eef4d",
+      "title": "張本美和、早田ひな組は準優勝 卓球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000179&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101000495&g=spo"
     },
     {
-      "doc_id": "jiji-c5a58c4caa9dc489",
-      "title": "巨人とＤｅＮＡが対戦 西武は日本ハムと―プロ野球ＣＳ",
+      "doc_id": "jiji-0b77f6be8092aa4e",
+      "title": "「国際秩序」巡り対立 米国と日欧に溝―ＩＣＣ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000368&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101000377&g=int"
     },
     {
       "doc_id": "nhk-8d6d2514e9c4dff8",
-      "title": "大阪 泉佐野のだんじり祭りで事故 １人死亡 複数人けがの情報",
+      "title": "大阪 伝統のだんじり祭りで横転事故相次ぐ 2人死亡",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261010de57626"
     },
     {
-      "doc_id": "nhk-135139273822a13b",
-      "title": "米トランプ政権 ICC＝国際刑事裁判所を制裁対象に【詳しく】",
+      "doc_id": "nhk-a227b9c589e79ce0",
+      "title": "ノーベル化学賞 そ※合さん 東京理科大が「栄誉教授」授与決定",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57527"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57761"
     },
     {
-      "doc_id": "nhk-c510d8c385291f26",
-      "title": "世界メンタルヘルスデー 心のケア学ぶイベント",
+      "doc_id": "nhk-9aaf2b47afb3464d",
+      "title": "トランプ大統領 ホワイトハウスの新しい報道官を発表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57631"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57620"
     },
     {
-      "doc_id": "nhk-93ba5d0a6a327821",
-      "title": "サイバー攻撃急増 セキュリティー企業は作業急ぐ",
+      "doc_id": "nhk-45fc4793bd568a48",
+      "title": "将棋の西山朋佳女流四冠 女性初のプロ棋士権利獲得",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57651"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697"
     },
     {
-      "doc_id": "nhk-e30344e5de8755b6",
-      "title": "韓国ソウルで日韓交流のイベント 友好ムード演出",
+      "doc_id": "nhk-8f378c493fdbec27",
+      "title": "米アンソロピック AIが警察に殺人事件の架空情報送信",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57655"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57716"
     },
     {
-      "doc_id": "nhk-67e915b517b0fd46",
-      "title": "ナビ・ピレイ氏が学んだ大学関係者「賞は米へのメッセージ」",
+      "doc_id": "nhk-ffbf3c448593483a",
+      "title": "Jリーグ 6クラブが不要な衣類を回収する取り組み開始",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57585"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57704"
     },
     {
-      "doc_id": "nhk-6946e55d15c7db78",
-      "title": "簗農相 バス無料送迎報道で出納責任者「違法という認識ない」",
+      "doc_id": "nhk-9212bfe751244c9e",
+      "title": "鳥取 東日本大震災の被災地のサンマふるまう催し",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57496"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57744"
     },
     {
       "doc_id": "itmedia-390223ce13ebb161",
@@ -232,6 +232,30 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002175/"
     },
     {
+      "doc_id": "nazology-e5ce73f6e91fe48c",
+      "title": "「宇宙の花火」を拡大したら、巨大な真珠が連なっていた──1粒で海王星の軌道10個ぶん",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201386"
+    },
+    {
+      "doc_id": "nazology-efd2034dad5f9e01",
+      "title": "ひとりでできる「スキンシップ」がストレスと孤独を和らげる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201025"
+    },
+    {
+      "doc_id": "nazology-80b655a32011caf2",
+      "title": "痩せ薬を使う人ほど「体の老化」が遅いと製薬会社が発表",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200987"
+    },
+    {
+      "doc_id": "nazology-6a55a9de08b4f115",
+      "title": "「親子」に潜む「ガスライティング」と若者のうつ",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200992"
+    },
+    {
       "doc_id": "nazology-cec5c8ce0f3aeb1a",
       "title": "コラーゲンサプリの効果を示す研究に「大きな欠陥」があったと判明",
       "source": "ナゾロジー",
@@ -266,30 +290,6 @@
       "title": "サメは海の「地獄耳」だったと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200982"
-    },
-    {
-      "doc_id": "nazology-1ad9258a6bce3a2a",
-      "title": "深海で青く光る「長い脚の巨人」2種を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201003"
-    },
-    {
-      "doc_id": "nazology-e21a29a921574c44",
-      "title": "数学の難問はAIの「性能試験のついで」に解かれていた──722本の論文が一挙公開",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201082"
-    },
-    {
-      "doc_id": "nazology-99bb77d54eda7624",
-      "title": "チェルノブイリの核燃料の粒、40年後も想定より安定していたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201009"
-    },
-    {
-      "doc_id": "nazology-74d4a6b350fb81d4",
-      "title": "ウェッブ望遠鏡、3300光年先の「星のゆりかご」の撮影に成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201015"
     }
   ]
 }
