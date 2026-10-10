@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-10T13:45:59+00:00",
-  "now_ms": 1791639959552,
+  "fetched_at": "2026-10-10T18:39:08+00:00",
+  "now_ms": 1791657548506,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,22 +10,22 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-c1e3264200b9825f",
-      "title": "いい迷惑 農相に地元から苦言続出",
+      "doc_id": "yahoo-bd2dc47c707295b7",
+      "title": "外相 赤根・ルビオ両氏と電話協議",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598280"
+      "link": "https://news.yahoo.co.jp/pickup/6598307"
     },
     {
-      "doc_id": "yahoo-fe79cc7b0dd78714",
-      "title": "ICCに制裁 ピレイ氏「悲しい日」",
+      "doc_id": "yahoo-c35739613ba9d79a",
+      "title": "パレスチナ議会選 来年9月に延期",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598300"
+      "link": "https://news.yahoo.co.jp/pickup/6598309"
     },
     {
-      "doc_id": "yahoo-8f683ed8042eebe4",
-      "title": "分電盤点検商法 トラブルが激増",
+      "doc_id": "yahoo-3237b525a4f0ef03",
+      "title": "カルテル疑惑 卸売業者が実態証言",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598301"
+      "link": "https://news.yahoo.co.jp/pickup/6598291"
     },
     {
       "doc_id": "yahoo-0a487ee19562bea6",
@@ -34,16 +34,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6598304"
     },
     {
-      "doc_id": "yahoo-a46469dbf12f81d6",
-      "title": "少女成長の証 13年伸ばした髪提供",
+      "doc_id": "yahoo-6f373fd11e3c4631",
+      "title": "年収2千万円ざら 稼ぐミカン農家",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598297"
+      "link": "https://news.yahoo.co.jp/pickup/6598278"
     },
     {
-      "doc_id": "yahoo-2e3f374169cc5b87",
-      "title": "JFA eスポーツのW杯参加見送り",
+      "doc_id": "yahoo-51f06165dc6fcc34",
+      "title": "卓球・佐藤瞳が快進撃 決勝に進出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598295"
+      "link": "https://news.yahoo.co.jp/pickup/6598306"
     },
     {
       "doc_id": "yahoo-e15aa6532d0a3c42",
@@ -52,16 +52,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6598299"
     },
     {
-      "doc_id": "yahoo-adb5b57e90cf3954",
-      "title": "てんちむ 第2子出産を報告",
+      "doc_id": "yahoo-9d7a1bd934b23c75",
+      "title": "てんちむ出産 第2子は「青汁似」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598294"
+      "link": "https://news.yahoo.co.jp/pickup/6598308"
     },
     {
-      "doc_id": "jiji-909b5c7a629865fd",
-      "title": "有権者排除疑惑でデモ相次ぐ 揺らぐ「世界最大の民主主義国」インド―ゴキブリ党創設者も拘束",
+      "doc_id": "jiji-6d231e0667749d6f",
+      "title": "日米外相、ＩＣＣ制裁巡り協議 茂木氏、懸念を伝達",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000443&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101000528&g=pol"
     },
     {
       "doc_id": "jiji-acfb63e2146fa406",
@@ -70,52 +70,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026100901092&g=pol"
     },
     {
+      "doc_id": "jiji-20d646e0c06e1e11",
+      "title": "町田、粘って勝ち点３ Ｊリーグ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101000527&g=spo"
+    },
+    {
+      "doc_id": "jiji-909b5c7a629865fd",
+      "title": "有権者排除疑惑でデモ相次ぐ 揺らぐ「世界最大の民主主義国」インド―ゴキブリ党創設者も拘束",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101000443&g=int"
+    },
+    {
       "doc_id": "jiji-a1d6e0c59536cb58",
       "title": "将棋界初「女性棋士」の資格 西山女流四冠、白玲５期で",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101000420&g=soc"
     },
     {
-      "doc_id": "jiji-d07d82a004af4c8d",
-      "title": "携帯事業、「マスク帝国」が本腰 衛星と地上でネットワーク",
+      "doc_id": "jiji-58b95304b2186203",
+      "title": "台湾総統「現状守り抜く」 中国を批判、式典で演説",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000380&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101000249&g=int"
     },
     {
-      "doc_id": "jiji-f9f8205ff3ce0bc0",
-      "title": "米の対ロ制裁緩和は「弱腰」 軽油輸出再開を批判―ゼレンスキー氏",
+      "doc_id": "jiji-dffce845faf3620e",
+      "title": "ＳＡＧＡ久光、白星発進 女子がバンコクで開幕―バレーＳＶリーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000481&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101000502&g=spo"
     },
     {
-      "doc_id": "jiji-953a48c1249016e9",
-      "title": "福岡、久々の白星 Ｊリーグ",
+      "doc_id": "jiji-66f490fad8843b28",
+      "title": "議会選、来年９月に延期 イスラエル軍事活動で困難に―パレスチナ議長",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000449&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101000512&g=int"
     },
     {
-      "doc_id": "jiji-041ef7f8e32b35af",
-      "title": "ＤｅＮＡの宮下が右肩手術 プロ野球",
+      "doc_id": "jiji-3e20b31f692b2b23",
+      "title": "１１日の予告先発投手 プロ野球パ・リーグＣＳ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000479&g=spo"
-    },
-    {
-      "doc_id": "jiji-1c73b08ea36d825f",
-      "title": "奨励会で不運も力伸ばす 「剛腕」西山女流四冠―将棋",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000433&g=soc"
-    },
-    {
-      "doc_id": "jiji-5b5050c1541eef4d",
-      "title": "張本美和、早田ひな組は準優勝 卓球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000495&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101000415&g=spo"
     },
     {
       "doc_id": "jiji-0b77f6be8092aa4e",
       "title": "「国際秩序」巡り対立 米国と日欧に溝―ＩＣＣ",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101000377&g=int"
+    },
+    {
+      "doc_id": "nhk-a4cae838c395372b",
+      "title": "茂木外相 米国ルビオ国務長官にICC制裁への日本の立場伝達",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57789"
     },
     {
       "doc_id": "nhk-8d6d2514e9c4dff8",
@@ -130,10 +136,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261010de57761"
     },
     {
-      "doc_id": "nhk-9aaf2b47afb3464d",
-      "title": "トランプ大統領 ホワイトハウスの新しい報道官を発表",
+      "doc_id": "nhk-c171882bef14cc14",
+      "title": "インド“ゴキブリ人民党”創設者 抗議活動前に拘束",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57620"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57783"
     },
     {
       "doc_id": "nhk-45fc4793bd568a48",
@@ -142,22 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261010de57697"
     },
     {
+      "doc_id": "nhk-9aaf2b47afb3464d",
+      "title": "トランプ大統領 ホワイトハウスの新しい報道官を発表",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57620"
+    },
+    {
       "doc_id": "nhk-8f378c493fdbec27",
       "title": "米アンソロピック AIが警察に殺人事件の架空情報送信",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261010de57716"
-    },
-    {
-      "doc_id": "nhk-ffbf3c448593483a",
-      "title": "Jリーグ 6クラブが不要な衣類を回収する取り組み開始",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57704"
-    },
-    {
-      "doc_id": "nhk-9212bfe751244c9e",
-      "title": "鳥取 東日本大震災の被災地のサンマふるまう催し",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57744"
     },
     {
       "doc_id": "itmedia-390223ce13ebb161",
