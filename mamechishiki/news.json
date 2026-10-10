@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-09T21:00:13+00:00",
-  "now_ms": 1791579613270,
+  "fetched_at": "2026-10-10T00:54:46+00:00",
+  "now_ms": 1791593686266,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,76 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-236238f7c729b4b0",
-      "title": "米 ICC本体を制裁対象⁠に指定",
+      "doc_id": "yahoo-3d173e44e57aeb75",
+      "title": "制裁対象指定 ICC赤根所長が声明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598196"
+      "link": "https://news.yahoo.co.jp/pickup/6598208"
     },
     {
-      "doc_id": "yahoo-ceef5c0321eb7012",
-      "title": "文科相 議員会館内でパーティーか",
+      "doc_id": "yahoo-824ac316adefdda6",
+      "title": "パナマでM7.7 ホテルなどが倒壊",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598193"
+      "link": "https://news.yahoo.co.jp/pickup/6598220"
     },
     {
-      "doc_id": "yahoo-3c70374890db5760",
-      "title": "簗氏「国交省にやらせる」 24年に",
+      "doc_id": "yahoo-1c81feecce622f0a",
+      "title": "カルテル疑惑 経営トップに報告か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598180"
+      "link": "https://news.yahoo.co.jp/pickup/6598213"
     },
     {
-      "doc_id": "yahoo-592b22716fe54925",
-      "title": "ビール4社担当者 価格協議認める",
+      "doc_id": "yahoo-6540076939dbf620",
+      "title": "サイバー攻撃 なぜ日本が標的に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598192"
+      "link": "https://news.yahoo.co.jp/pickup/6598211"
     },
     {
-      "doc_id": "yahoo-7c5e1826fd9edcb1",
-      "title": "イオン系食品スーパー100店閉店へ",
+      "doc_id": "yahoo-cf0236d3a5cac5b5",
+      "title": "キノコ採りに山へ 長野の町長死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598188"
+      "link": "https://news.yahoo.co.jp/pickup/6598197"
     },
     {
-      "doc_id": "yahoo-401ebe350fc7b11a",
-      "title": "個人情報巡る対策 政府が緊急要請",
+      "doc_id": "yahoo-2757858a7dbf65f7",
+      "title": "服の「腰巻き・肩掛け」人気復活",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598186"
+      "link": "https://news.yahoo.co.jp/pickup/6598210"
     },
     {
-      "doc_id": "yahoo-e9190e0a4f2732ec",
-      "title": "白菜高騰「鍋できない」と客困惑",
+      "doc_id": "yahoo-232b73459e83461f",
+      "title": "大谷の打順は「2～5番」ド軍監督",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598187"
+      "link": "https://news.yahoo.co.jp/pickup/6598218"
     },
     {
-      "doc_id": "yahoo-48469b41c6e1c99a",
-      "title": "最大のペンギンコロニー 称号失う",
+      "doc_id": "yahoo-0777fe628211133b",
+      "title": "朝井リョウ氏 本業以外の活動話題",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598194"
+      "link": "https://news.yahoo.co.jp/pickup/6598215"
     },
     {
-      "doc_id": "jiji-903d8271fad8bedd",
-      "title": "楽譜模倣し公開、賠償確定 著作権外の表現物巡り初判断―バンドスコア訴訟・最高裁",
+      "doc_id": "jiji-0d19061a9a023c12",
+      "title": "ロシアが軽油３０万トン供給 トランプ、プーチン氏が合意―米中間選挙控え価格抑制狙う",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100900696&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101000179&g=int"
     },
     {
-      "doc_id": "jiji-5b00894c4ce436bc",
-      "title": "米制裁、法の支配への攻撃 赤根氏「引き続き使命果たす」―ＩＣＣ",
+      "doc_id": "jiji-acfb63e2146fa406",
+      "title": "簗農水相発言、沈静化見通せず 自民から辞任不可避の声",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000017&g=int"
-    },
-    {
-      "doc_id": "jiji-9be4f983e650b55e",
-      "title": "米ＩＣＣ制裁「深く懸念」 高市首相「必要な支援継続」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901274&g=pol"
-    },
-    {
-      "doc_id": "jiji-d1bc8ff873ddb4ca",
-      "title": "米、ＩＣＣ本体を制裁対象に指定 「解体」辞さない構え",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901266&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100901092&g=pol"
     },
     {
       "doc_id": "jiji-c46bde542a2c692f",
@@ -88,34 +76,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026100900954&g=int"
     },
     {
-      "doc_id": "jiji-df6bbd27dde63f6a",
-      "title": "１０日の予告先発投手 プロ野球パ・リーグＣＳ",
+      "doc_id": "jiji-2396ce8dbe46c7e1",
+      "title": "ドイツ、日英伊枠組みに参画検討 次期戦闘機開発で",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100900723&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101000256&g=pol"
     },
     {
-      "doc_id": "jiji-f3c0ded3c86f4a17",
-      "title": "いのち・木村参院議員が離党届",
+      "doc_id": "jiji-0733d08422c70e60",
+      "title": "「テラファブ」３２年の量産化計画 マスク氏の半導体製造構想",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901203&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100900783&g=int"
     },
     {
-      "doc_id": "jiji-94a3680642629f24",
-      "title": "ノーベル平和賞のピレイ氏、「国際法への攻撃」懸念 秩序守るため「団結を」",
+      "doc_id": "jiji-fcc8680fe0a39d4d",
+      "title": "新給付制度、「白紙」で審議 対象や額は財源次第―消費減税法案",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100901210&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026100901104&g=pol"
     },
     {
-      "doc_id": "jiji-bc08c0f64cb72177",
-      "title": "高市首相、中国制裁は「大変名誉」 自民・古屋氏にメール",
+      "doc_id": "jiji-4c0830633fbeb914",
+      "title": "日英仏独など８カ国の外相は共同声明で、米国の対ＩＣＣ制裁に「強く反対する」との立場を強調した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100900879&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101000213&g=flash"
     },
     {
-      "doc_id": "jiji-2273adfd9c5d65bb",
-      "title": "国家公務員給与、５年連続増 人事院勧告の実施決定―政府",
+      "doc_id": "jiji-cc233258a4469aae",
+      "title": "米、ＩＣＣ本体を制裁対象に指定 「解体」辞さない構え―高市首相「深く懸念」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026100900366&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026100901266&g=int"
+    },
+    {
+      "doc_id": "jiji-f390fb2ed409ffaf",
+      "title": "協議内容、経営トップに報告か 公取委、組織的関与の有無調査―担当者、価格調整認める・ビールカルテル",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026100900989&g=soc"
+    },
+    {
+      "doc_id": "jiji-e6f849f6b41fe934",
+      "title": "なでしこ、ハイチに快勝 ５得点で圧倒―サッカー女子親善試合",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101000267&g=spo"
     },
     {
       "doc_id": "nhk-135139273822a13b",
@@ -136,28 +136,70 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261010de57529"
     },
     {
-      "doc_id": "nhk-2649cf64e7f274ea",
-      "title": "沖縄強殺事件 深夜外出禁止最初の週末 基地周辺の繁華街は閑散",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57542"
-    },
-    {
       "doc_id": "nhk-6946e55d15c7db78",
       "title": "簗農相 バス無料送迎報道で出納責任者「違法という認識ない」",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261009de57496"
     },
     {
-      "doc_id": "nhk-6727cc033a685a5d",
-      "title": "与党 消費税法案月内審議入りを 野党 簗農相の問責含め協議",
+      "doc_id": "nhk-229e7371f1d18574",
+      "title": "パナマでM7.6の地震 日本で若干の海面変動も被害の心配なし",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57530"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57543"
     },
     {
-      "doc_id": "nhk-dce59f87356b17d9",
-      "title": "【詳しく】ガザ停戦1年 イスラエル軍攻撃続く 厳しい人道状況",
+      "doc_id": "nhk-44643a28ef7ef168",
+      "title": "日英伊の次期戦闘機 イタリアに新たな開発拠点設置で式典",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57532"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57531"
+    },
+    {
+      "doc_id": "nhk-1cc7c64d2c6ae008",
+      "title": "除染土の再生利用 理解醸成を進めるため国立公園で情報発信",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57552"
+    },
+    {
+      "doc_id": "itmedia-eec8b62f4fa723c6",
+      "title": "「コミューン」不正アクセスでLINEヤフー、Sansan、パナソニックでも会員情報漏えいの可能性",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002190/"
+    },
+    {
+      "doc_id": "itmedia-722f5c88762ff652",
+      "title": "OpenAI、安全性研究者3人を解雇 本人らは「安全性を優先したため」と主張、同社は「機密情報の扱いに関する規定違反」と説明",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002189/"
+    },
+    {
+      "doc_id": "itmedia-b4ded6f805a745a7",
+      "title": "ココナラ、会員の履歴書など2294件漏えい スキルマーケットに不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002188/"
+    },
+    {
+      "doc_id": "itmedia-cf1ba726ed22a758",
+      "title": "IDCFクラウド障害、親会社のソフトバンクが顧客窓口に 調査・復旧も支援",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002187/"
+    },
+    {
+      "doc_id": "itmedia-eddbd47d0ae45378",
+      "title": "「バイトル」会員メアド最大約389万件漏えい 海外から「仕様不備」突く不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002186/"
+    },
+    {
+      "doc_id": "itmedia-1bb60c980e7308ee",
+      "title": "JR九州、会員メアド最大130万件漏えいか IDCF不正アクセスの影響",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002185/"
+    },
+    {
+      "doc_id": "itmedia-6b6e352d363487ff",
+      "title": "IDCFクラウド障害、顧客データ「取り出し・復元困難」 復元は顧客側のバックアップ頼み",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002147/"
     },
     {
       "doc_id": "itmedia-390223ce13ebb161",
@@ -190,46 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002179/"
     },
     {
-      "doc_id": "itmedia-9f9a7c67a3effc7f",
-      "title": "ドコモの顧客情報1億件超がダークウェブに？ 同社「流出は確認していない」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002177/"
-    },
-    {
-      "doc_id": "itmedia-4c57fdb5008b7e6a",
-      "title": "JR東日本、「えきねっと」「ビューカード」などで漏えいか メルアドなど最大609万件 IDCFへの不正アクセスで【追記あり】",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002171/"
-    },
-    {
-      "doc_id": "itmedia-66c4a27cc384089f",
-      "title": "「スカイチケット」に不正アクセス、計1467万件の個人情報流出 ハッシュ化されたパスワードも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002168/"
-    },
-    {
-      "doc_id": "itmedia-a7b0d5149cad3c11",
-      "title": "米国防総省にも不正アクセス 個人情報300万人分が平文で漏えいか……発覚までに9カ月",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002158/"
-    },
-    {
-      "doc_id": "itmedia-d73c99ba3da5074e",
-      "title": "金融庁、本人確認の「ICチップ一本化」へ早期移行を要請 免許証画像の漏えい相次ぎ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002166/"
-    },
-    {
-      "doc_id": "itmedia-227dc3069dd1b8cc",
-      "title": "都内自治体でシステム障害相次ぐ 小平市はHP閲覧できず 復旧の見込み立たず",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002165/"
-    },
-    {
-      "doc_id": "itmedia-8d2cc811563989ed",
-      "title": "Anthropic、サイバー防御の新たな取り組み「Cyber Mission」 OSS向け無料脆弱性スキャンや重要インフラ防御プログラムも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002164/"
+      "doc_id": "nazology-c02927cf4515305f",
+      "title": "サメは海の「地獄耳」だったと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/200982"
     },
     {
       "doc_id": "nazology-1ad9258a6bce3a2a",
@@ -284,12 +290,6 @@
       "title": "恋人ができやすい「性格特性」は男女で真逆であると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/188214"
-    },
-    {
-      "doc_id": "nazology-6bbdcdecc5268d2d",
-      "title": "性の満足度は女性のほうが「オーガズム」とより密接に結びついていると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200917"
     }
   ]
 }
