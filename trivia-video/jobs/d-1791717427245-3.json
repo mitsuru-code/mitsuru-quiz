@@ -1,0 +1,88 @@
+{
+  "status": "verified",
+  "requestedAt": 1791717489274,
+  "postDate": "20261011",
+  "slot": null,
+  "news": false,
+  "title": "GPSと相対性理論、一見無関係な二つが位置の精度を支える",
+  "script": {
+    "conclusion": "本当です。衛星の時計は地上とずれるため、補正しないと位置の誤差が1日で約10キロにもなるとされます。",
+    "emoji": {
+      "conclusion": "🛰️🌍",
+      "hook": "📍🛰️",
+      "intro": "📱🗺️",
+      "points": ["📡📱", "⏱️📏", "🚀⏰"],
+      "question": "🤔⏰",
+      "share": "🗺️"
+    },
+    "genre": "物理と生活",
+    "hook": "地図アプリ、実は相対性理論",
+    "imageFolder": "20261011_7245-3",
+    "imagePrompts": [
+      {
+        "prompt": "スマートフォンの地図アプリに現在地のピンが表示され、その上の夜空に小さな人工衛星が浮かんでいる構図の明るいイラスト調の絵。画面から衛星に向かって細い光の線が伸びている。未来的で楽しい雰囲気。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "hook"
+      },
+      {
+        "prompt": "地球の上空を飛ぶ人工衛星と、地上の街並みに置かれた時計を左右に並べた明るいイラスト調の絵。衛星側の時計の針がわずかに先へ進んでいる様子が分かる構図。地図のピンが少しずれて見えるイメージも添える。知的でやさしい雰囲気。横長（3:2）の画像。文字やロゴは入れない。",
+        "scene": "conclusion"
+      }
+    ],
+    "intro": "GPSは衛星の電波で位置を出します。物理学の理論まで必要なのでしょうか。",
+    "points": [
+      {
+        "head": "電波の時間差で位置を出す",
+        "text": "GPSは複数の衛星の電波が届くまでの時間の差から、受信機の位置を計算します。"
+      },
+      {
+        "head": "10億分の1秒で30センチ",
+        "text": "電波は1秒で地球を7周半ほど進みます。時計が10億分の1秒ずれると、約30センチの誤差になります。"
+      },
+      {
+        "head": "1日に約38マイクロ秒進む",
+        "text": "速さと高さの二つの効果で、衛星の時計は地上より1日に約38マイクロ秒進むとされ、前もって補正されています。"
+      }
+    ],
+    "post": "毎日使う地図アプリの裏側に、百年以上前の物理学の理論が隠れているって知っていましたか？衛星の時計が地上とずれると、位置はどれほどずれてしまうのか。55秒でわかります🛰️\n\n#豆知識 #雑学 #GPS",
+    "question": "相対性理論が暮らしの役に立つと、知っていましたか？",
+    "share": "衛星の時計は相対性理論の影響で1日に約38マイクロ秒進むから、先に補正してあるんだって。しないと位置が大きくずれるらしいよ。",
+    "title": "GPSと相対性理論、一見無関係な二つが位置の精度を支える"
+  },
+  "verify": {
+    "checkedAt": 1760180000000,
+    "claims": [
+      {
+        "claim": "電波は1秒で地球を7周半進む",
+        "note": "光速299792km/sと地球周長40075kmから算出、約7.5回",
+        "sources": [
+          {"title": "Speed of light - Chemie.de Encyclopedia", "url": "https://www.chemeurope.com/en/encyclopedia/Speed_of_light.html"}
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "10億分の1秒のずれで約30cmの誤差",
+        "note": "光速基準で1ns=約30cmと確認",
+        "sources": [
+          {"title": "Speed of light - Chemie.de Encyclopedia", "url": "https://www.chemeurope.com/en/encyclopedia/Speed_of_light.html"}
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "衛星の時計は1日に約38マイクロ秒進む",
+        "note": "特殊相対論-7µs、一般相対論+45µsでnet約38µs/日",
+        "sources": [
+          {"title": "GPS and Relativity - IAPS", "url": "https://iaps.info/?p=9486"}
+        ],
+        "verdict": "confirmed"
+      },
+      {
+        "claim": "補正しないと1日で約10kmの誤差になる",
+        "note": "IAPS記事で1日10km超、計算でも約11kmと一致",
+        "sources": [
+          {"title": "GPS and Relativity - IAPS", "url": "https://iaps.info/?p=9486"}
+        ],
+        "verdict": "confirmed"
+      }
+    ]
+  }
+}
