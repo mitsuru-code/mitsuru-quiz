@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-11T01:56:36+00:00",
-  "now_ms": 1791683796728,
+  "fetched_at": "2026-10-11T08:56:27+00:00",
+  "now_ms": 1791708987395,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,82 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a05525ee23d6c2e5",
-      "title": "米で銃撃 子どもや妊婦ら8人死亡",
+      "doc_id": "yahoo-02bfdde8500e7869",
+      "title": "那覇強殺 米国務長官が哀悼の意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598319"
+      "link": "https://news.yahoo.co.jp/pickup/6598382"
     },
     {
-      "doc_id": "yahoo-8f6b68ba3f236e47",
-      "title": "免許画像流出 再交付の申請相次ぐ",
+      "doc_id": "yahoo-ad0e4a98371d81e6",
+      "title": "「18歳の壁」で就職に不安 ケア児",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598339"
+      "link": "https://news.yahoo.co.jp/pickup/6598379"
     },
     {
-      "doc_id": "yahoo-a5de9e8daaa3ff7e",
-      "title": "農相 当選重ねるごと「態度変化」",
+      "doc_id": "yahoo-ffba1f894a68cc06",
+      "title": "「予算カット」市町 工事先送りも",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598332"
+      "link": "https://news.yahoo.co.jp/pickup/6598383"
     },
     {
-      "doc_id": "yahoo-85eb243de89ab232",
-      "title": "アパレル製造・卸で倒産増加 背景",
+      "doc_id": "yahoo-57554457d7206120",
+      "title": "玄関先にクマ 襲われ頭などに重傷",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598318"
+      "link": "https://news.yahoo.co.jp/pickup/6598386"
     },
     {
-      "doc_id": "yahoo-6219743278efb61c",
-      "title": "動物公園でトラに襲われ死亡 英",
+      "doc_id": "yahoo-20cfca8dfddd743a",
+      "title": "京都衝撃の寺乗っ取り事件 背景は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598340"
+      "link": "https://news.yahoo.co.jp/pickup/6598389"
     },
     {
-      "doc_id": "yahoo-6a9e379ac8450e82",
-      "title": "Cロナウド 暫定的に代表出場停止",
+      "doc_id": "yahoo-c9c50ee5ea6f3f35",
+      "title": "新築の平屋率が増加 耐震性に注目",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598338"
+      "link": "https://news.yahoo.co.jp/pickup/6598387"
     },
     {
-      "doc_id": "yahoo-8216d9a2a178e754",
-      "title": "ロッテ・西岡剛コーチ 1年で退団",
+      "doc_id": "yahoo-70c1521283ffb992",
+      "title": "GK痛恨 ブンデス史上最速の失点",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598333"
+      "link": "https://news.yahoo.co.jp/pickup/6598393"
     },
     {
-      "doc_id": "yahoo-ab28edcf69c99e3b",
-      "title": "生放送中に名探偵津田が始動 話題",
+      "doc_id": "yahoo-e00034f416e9a729",
+      "title": "DeNA 競り勝ちCSファイナル進出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598335"
+      "link": "https://news.yahoo.co.jp/pickup/6598395"
     },
     {
-      "doc_id": "jiji-ef9a081516bf646a",
-      "title": "免許画像流出、再交付申請相次ぐ 「成り済まし」懸念も効果限定―本人確認厳格化を要請・警察庁",
+      "doc_id": "jiji-53247b8e7059d614",
+      "title": "太平洋、「トランプ洋に改称を」 米大統領",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000365&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101100222&g=int"
     },
     {
-      "doc_id": "jiji-e877181fa79ec15a",
-      "title": "サウジアラビア航空当局は、首都リヤドの国際空港への攻撃で、１２人が死亡、３０９人が負傷したと発表した",
+      "doc_id": "jiji-f6e0b33aa301b7e8",
+      "title": "ウクライナ大統領「交代を」 製油所攻撃の停止要求、「米農家に影響」と批判―トランプ氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100143&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026101100105&g=int"
     },
     {
-      "doc_id": "jiji-09e0e9de213cb0fc",
-      "title": "サウジ空港攻撃で１２人死亡 ３００人超負傷、フーシ派か",
+      "doc_id": "jiji-02b473afec46a490",
+      "title": "西岡剛コーチが退団 プロ野球・ロッテ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100146&g=int"
-    },
-    {
-      "doc_id": "jiji-58ddc1ff198fcbd4",
-      "title": "「キラル化学」、パスツールが始まり 生命分子の謎、１９世紀半ばから―そあいさん「由緒正しいテーマ」・ノーベル賞",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000366&g=soc"
-    },
-    {
-      "doc_id": "jiji-273f589af438af0e",
-      "title": "米政権「ばらまき」露骨 財政不安や物価高に拍車も―中間選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000369&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101100177&g=spo"
     },
     {
       "doc_id": "jiji-a9df25cf9f6a2d89",
@@ -94,70 +82,82 @@
       "link": "https://www.jiji.com/jc/article?k=2026101100107&g=soc"
     },
     {
-      "doc_id": "jiji-240ccd310951ce33",
-      "title": "簗農水相の進退焦点 予算委、週明けスタート",
+      "doc_id": "jiji-8d32d175e122f522",
+      "title": "岩井明愛、日本ツアー７勝目 スタンレー女子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000361&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101100219&g=spo"
     },
     {
-      "doc_id": "jiji-7a9c24ad5d483bdd",
-      "title": "米のＩＣＣ制裁、即時撤回を 日本含む２１カ国の議長団",
+      "doc_id": "jiji-8975bf0955cfa328",
+      "title": "首長に「ヒトラー・ムソリーニ」氏 思想的つながりなし―ペルー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100160&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101000509&g=int"
     },
     {
-      "doc_id": "jiji-17dc4fd0507b41ba",
-      "title": "鈴木彩艶はフル出場 欧州サッカー",
+      "doc_id": "jiji-930ffe5032647985",
+      "title": "ＤｅＮＡが連勝でファイナルへ パは１勝１敗、第３戦に―プロ野球ＣＳ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100154&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101100228&g=spo"
     },
     {
-      "doc_id": "jiji-1c73b08ea36d825f",
-      "title": "奨励会で不運も力伸ばす 「剛腕」西山女流四冠―将棋",
+      "doc_id": "jiji-ef9a081516bf646a",
+      "title": "免許画像流出、再交付申請相次ぐ 「成り済まし」懸念も効果限定―本人確認厳格化を要請・警察庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000433&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101000365&g=soc"
     },
     {
-      "doc_id": "nhk-670a5d566f01180c",
-      "title": "トランプ大統領「ウクライナは新たな大統領を迎える時」と発言",
+      "doc_id": "jiji-09e0e9de213cb0fc",
+      "title": "サウジ空港攻撃で１２人死亡 ３００人超負傷、フーシ派か",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100146&g=int"
+    },
+    {
+      "doc_id": "jiji-273f589af438af0e",
+      "title": "米政権「ばらまき」露骨 財政不安や物価高に拍車も―中間選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101000369&g=int"
+    },
+    {
+      "doc_id": "nhk-6782b1c6b0f4900a",
+      "title": "CS セ・リーグはDeNAがファイナルステージ進出 巨人に2連勝",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57828"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57945"
+    },
+    {
+      "doc_id": "nhk-f6b5fb3a53ebb90b",
+      "title": "米 ICCを制裁対象に指定 非難や撤回を求める声相次ぐ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57845"
     },
     {
       "doc_id": "nhk-8c67e9aa2b3aa39c",
-      "title": "サウジ首都の国際空港に攻撃 12人死亡 けが人300人以上",
+      "title": "サウジ首都空港に攻撃 12人死亡 米国務長官は攻撃を強く非難",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816"
     },
     {
-      "doc_id": "nhk-a4cae838c395372b",
-      "title": "茂木外相 米 ルビオ国務長官にICC制裁への日本の立場伝達",
+      "doc_id": "nhk-9fb43b19f6f57beb",
+      "title": "石破前首相 簗農相発言を批判“全国民の代表者との認識ない”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261010de57789"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57884"
     },
     {
-      "doc_id": "nhk-6c3b103789c84d0e",
-      "title": "アルツハイマー病の原因物質減らす マウスで実験成功 東大など",
+      "doc_id": "nhk-f19039d6bdc4e4da",
+      "title": "天皇皇后両陛下 青森で国民スポーツ大会の卓球競技を観戦",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57813"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57868"
     },
     {
-      "doc_id": "nhk-25269254aa12dcbf",
-      "title": "ICC締約国議長団 アメリカに制裁の撤回を求める声明を発表",
+      "doc_id": "nhk-4c8b83a19fafad59",
+      "title": "女子ゴルフ 国内ツアー 岩井明愛が2年ぶりの優勝",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57809"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57929"
     },
     {
-      "doc_id": "nhk-6680e8915cc56c1d",
-      "title": "ノーベル平和賞 ピレイ氏「ICCの存続に緊張と不安」危機感示す",
+      "doc_id": "nhk-e72e7b67556a0062",
+      "title": "ドジャース大谷翔平 復調へ第1戦前にフリー打撃で調整",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57808"
-    },
-    {
-      "doc_id": "nhk-7b7ed97752b03b39",
-      "title": "ウクライナ ロシア軍の攻撃で子ども含む20人以上死亡",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57814"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57881"
     },
     {
       "doc_id": "itmedia-baae3c58b9191dad",
@@ -232,6 +232,24 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002178/"
     },
     {
+      "doc_id": "nazology-faf16e3a0207aac9",
+      "title": "糸そっくりの「モーター」が開発される",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201340"
+    },
+    {
+      "doc_id": "nazology-bfbfb0c00046067f",
+      "title": "手首から先だけのロボット「アダムス・ファミリー」のあの手が現実に",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201345"
+    },
+    {
+      "doc_id": "nazology-94c0f9fa3dfe4408",
+      "title": "ブラックホールが星の誕生を止める容疑者か――実はジェットの通り道のガスが100倍明るかった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201393"
+    },
+    {
       "doc_id": "nazology-c0b68c7be25e65da",
       "title": "起業して稼げる人に共通する「ある性格」とは",
       "source": "ナゾロジー",
@@ -272,24 +290,6 @@
       "title": "「親子」に潜む「ガスライティング」と若者のうつ",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/200992"
-    },
-    {
-      "doc_id": "nazology-cec5c8ce0f3aeb1a",
-      "title": "コラーゲンサプリの効果を示す研究に「大きな欠陥」があったと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200977"
-    },
-    {
-      "doc_id": "nazology-2b795a72ea42c9f6",
-      "title": "不死の生物ヒドラが「不死を手放す条件」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200998"
-    },
-    {
-      "doc_id": "nazology-28329ae1698b924c",
-      "title": "恋心を刺激されると「ある行動」を取りやすくなる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/190972"
     }
   ]
 }
