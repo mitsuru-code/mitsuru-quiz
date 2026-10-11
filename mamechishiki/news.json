@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-11T08:56:27+00:00",
-  "now_ms": 1791708987395,
+  "fetched_at": "2026-10-11T15:44:36+00:00",
+  "now_ms": 1791733476036,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-02bfdde8500e7869",
-      "title": "那覇強殺 米国務長官が哀悼の意",
+      "doc_id": "yahoo-ef393782680366b5",
+      "title": "エネルギー停戦発表 ウは「初耳」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598382"
+      "link": "https://news.yahoo.co.jp/pickup/6598444"
     },
     {
-      "doc_id": "yahoo-ad0e4a98371d81e6",
-      "title": "「18歳の壁」で就職に不安 ケア児",
+      "doc_id": "yahoo-11afe441546c2526",
+      "title": "定数削減 自民幹事長の腹案に波紋",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598379"
+      "link": "https://news.yahoo.co.jp/pickup/6598430"
     },
     {
-      "doc_id": "yahoo-ffba1f894a68cc06",
-      "title": "「予算カット」市町 工事先送りも",
+      "doc_id": "yahoo-568e3fcf977941d5",
+      "title": "ネパールで再び土石流 5人不明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598383"
+      "link": "https://news.yahoo.co.jp/pickup/6598442"
     },
     {
-      "doc_id": "yahoo-57554457d7206120",
-      "title": "玄関先にクマ 襲われ頭などに重傷",
+      "doc_id": "yahoo-812393c842d4f2a3",
+      "title": "玄関先でクマに襲われる 眼球破裂",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598386"
+      "link": "https://news.yahoo.co.jp/pickup/6598416"
     },
     {
-      "doc_id": "yahoo-20cfca8dfddd743a",
-      "title": "京都衝撃の寺乗っ取り事件 背景は",
+      "doc_id": "yahoo-34517322107a99be",
+      "title": "電車で心臓発作 8分の救命リレー",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598389"
+      "link": "https://news.yahoo.co.jp/pickup/6598441"
     },
     {
-      "doc_id": "yahoo-c9c50ee5ea6f3f35",
-      "title": "新築の平屋率が増加 耐震性に注目",
+      "doc_id": "yahoo-8c24d2fdc15a0ff9",
+      "title": "鎌田大地 待望のプレミア初ゴール",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598387"
+      "link": "https://news.yahoo.co.jp/pickup/6598440"
     },
     {
-      "doc_id": "yahoo-70c1521283ffb992",
-      "title": "GK痛恨 ブンデス史上最速の失点",
+      "doc_id": "yahoo-7c480b25e92efadc",
+      "title": "藤田ニコル 不妊治療の裏側を語る",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598393"
+      "link": "https://news.yahoo.co.jp/pickup/6598436"
     },
     {
-      "doc_id": "yahoo-e00034f416e9a729",
-      "title": "DeNA 競り勝ちCSファイナル進出",
+      "doc_id": "yahoo-320065b8857a5f7f",
+      "title": "鈴木光司さん偲ぶ会 貞子が登場",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598395"
+      "link": "https://news.yahoo.co.jp/pickup/6598426"
     },
     {
-      "doc_id": "jiji-53247b8e7059d614",
-      "title": "太平洋、「トランプ洋に改称を」 米大統領",
+      "doc_id": "jiji-d4157fc2ea88db03",
+      "title": "東京Ｖ、荒療治実らず Ｊリーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100222&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101100399&g=spo"
+    },
+    {
+      "doc_id": "jiji-95fa90598db6d1a9",
+      "title": "プロ野球ＣＳ・ひとこと",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100392&g=spo"
+    },
+    {
+      "doc_id": "jiji-73b49a3890874bbf",
+      "title": "「エネルギー停戦」で合意 ロシアとウクライナ―トランプ米大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100484&g=int"
     },
     {
       "doc_id": "jiji-f6e0b33aa301b7e8",
@@ -70,22 +82,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101100105&g=int"
     },
     {
+      "doc_id": "jiji-36c1eebf8f7760a3",
+      "title": "温室ガス削減加速へ議論 来月９日からＣＯＰ３１―途上国支援も課題",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100109&g=soc"
+    },
+    {
+      "doc_id": "jiji-03191e52e9ee273c",
+      "title": "１２日の予告先発投手 プロ野球パ・リーグＣＳ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100322&g=spo"
+    },
+    {
       "doc_id": "jiji-02b473afec46a490",
       "title": "西岡剛コーチが退団 プロ野球・ロッテ",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101100177&g=spo"
     },
     {
-      "doc_id": "jiji-a9df25cf9f6a2d89",
-      "title": "新聞購読率、初めて５割下回る 内閣支持率は外交・物価高で評価二分―新聞通信調査会",
+      "doc_id": "jiji-7452f0be3bd6ddf2",
+      "title": "広島３連勝で２位 Ｊ１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100107&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101100336&g=spo"
     },
     {
-      "doc_id": "jiji-8d32d175e122f522",
-      "title": "岩井明愛、日本ツアー７勝目 スタンレー女子ゴルフ",
+      "doc_id": "jiji-acfb63e2146fa406",
+      "title": "簗農水相発言、沈静化見通せず 自民から辞任不可避の声",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100219&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026100901092&g=pol"
     },
     {
       "doc_id": "jiji-8975bf0955cfa328",
@@ -94,34 +118,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026101000509&g=int"
     },
     {
-      "doc_id": "jiji-930ffe5032647985",
-      "title": "ＤｅＮＡが連勝でファイナルへ パは１勝１敗、第３戦に―プロ野球ＣＳ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100228&g=spo"
-    },
-    {
-      "doc_id": "jiji-ef9a081516bf646a",
-      "title": "免許画像流出、再交付申請相次ぐ 「成り済まし」懸念も効果限定―本人確認厳格化を要請・警察庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000365&g=soc"
-    },
-    {
-      "doc_id": "jiji-09e0e9de213cb0fc",
-      "title": "サウジ空港攻撃で１２人死亡 ３００人超負傷、フーシ派か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100146&g=int"
-    },
-    {
-      "doc_id": "jiji-273f589af438af0e",
-      "title": "米政権「ばらまき」露骨 財政不安や物価高に拍車も―中間選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000369&g=int"
-    },
-    {
-      "doc_id": "nhk-6782b1c6b0f4900a",
-      "title": "CS セ・リーグはDeNAがファイナルステージ進出 巨人に2連勝",
+      "doc_id": "nhk-9fb43b19f6f57beb",
+      "title": "石破前首相 簗農相発言を批判“全国民の代表者との認識ない”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57945"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57884"
+    },
+    {
+      "doc_id": "nhk-d00406d8a989917c",
+      "title": "ネパールで土石流が発生 軍が救助活動 土砂が川をせき止める",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58027"
+    },
+    {
+      "doc_id": "nhk-8c67e9aa2b3aa39c",
+      "title": "サウジ首都空港に攻撃 12人死亡 攻撃の応酬激化のおそれ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816"
+    },
+    {
+      "doc_id": "nhk-8d7bcafa99d352d9",
+      "title": "アメリカ テネシー州で死刑執行も生存 死刑制度めぐり議論に",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57965"
     },
     {
       "doc_id": "nhk-f6b5fb3a53ebb90b",
@@ -130,34 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261011de57845"
     },
     {
-      "doc_id": "nhk-8c67e9aa2b3aa39c",
-      "title": "サウジ首都空港に攻撃 12人死亡 米国務長官は攻撃を強く非難",
+      "doc_id": "nhk-23785cfcd912309d",
+      "title": "北朝鮮が韓国との境界付近を「要塞化」？いったい何が",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57816"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57841"
     },
     {
-      "doc_id": "nhk-9fb43b19f6f57beb",
-      "title": "石破前首相 簗農相発言を批判“全国民の代表者との認識ない”",
+      "doc_id": "nhk-daac629351e7a751",
+      "title": "ベトナムのドクさん 鹿児島で水俣病の被害者らと意見交換",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57884"
-    },
-    {
-      "doc_id": "nhk-f19039d6bdc4e4da",
-      "title": "天皇皇后両陛下 青森で国民スポーツ大会の卓球競技を観戦",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57868"
-    },
-    {
-      "doc_id": "nhk-4c8b83a19fafad59",
-      "title": "女子ゴルフ 国内ツアー 岩井明愛が2年ぶりの優勝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57929"
-    },
-    {
-      "doc_id": "nhk-e72e7b67556a0062",
-      "title": "ドジャース大谷翔平 復調へ第1戦前にフリー打撃で調整",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57881"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58003"
     },
     {
       "doc_id": "itmedia-baae3c58b9191dad",
@@ -232,6 +232,24 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002178/"
     },
     {
+      "doc_id": "nazology-097cf1f4d618b944",
+      "title": "「最強のエルニーニョ」で海面水温が初めて「30℃超え」、観測史上最高に",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201288"
+    },
+    {
+      "doc_id": "nazology-94710334927bc8c6",
+      "title": "100億光年以上の彼方から届いた「最も遠い電波の閃光」を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201300"
+    },
+    {
+      "doc_id": "nazology-c6547defaeca5f68",
+      "title": "体をすり抜ける「幽霊粒子」のレーザーは作れないと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201362"
+    },
+    {
       "doc_id": "nazology-faf16e3a0207aac9",
       "title": "糸そっくりの「モーター」が開発される",
       "source": "ナゾロジー",
@@ -272,24 +290,6 @@
       "title": "「宇宙の花火」を拡大したら、巨大な真珠が連なっていた──1粒で海王星の軌道10個ぶん",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201386"
-    },
-    {
-      "doc_id": "nazology-efd2034dad5f9e01",
-      "title": "ひとりでできる「スキンシップ」がストレスと孤独を和らげる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201025"
-    },
-    {
-      "doc_id": "nazology-80b655a32011caf2",
-      "title": "痩せ薬を使う人ほど「体の老化」が遅いと製薬会社が発表",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200987"
-    },
-    {
-      "doc_id": "nazology-6a55a9de08b4f115",
-      "title": "「親子」に潜む「ガスライティング」と若者のうつ",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/200992"
     }
   ]
 }
