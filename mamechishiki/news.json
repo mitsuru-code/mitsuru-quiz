@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-12T07:24:29+00:00",
-  "now_ms": 1791789869517,
+  "fetched_at": "2026-10-12T17:58:29+00:00",
+  "now_ms": 1791827909813,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-132368dea2479c0e",
-      "title": "公明・岡本氏 自民含め連携目指す",
+      "doc_id": "yahoo-fde8433fbea50042",
+      "title": "財務相 世銀IMF合同開発委議長に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598505"
+      "link": "https://news.yahoo.co.jp/pickup/6598563"
     },
     {
-      "doc_id": "yahoo-0873a446f0ea03be",
-      "title": "欧州首脳ら ウクライナへ連帯表明",
+      "doc_id": "yahoo-e37bfe17bfaf13b8",
+      "title": "ICC制裁 赤根智子所長がコメント",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598489"
+      "link": "https://news.yahoo.co.jp/pickup/6598542"
     },
     {
-      "doc_id": "yahoo-b064ec6b126994b3",
-      "title": "北発射 韓国ミサイルへの抗議か",
+      "doc_id": "yahoo-9490537f48419b37",
+      "title": "台所に女性遺体 傷害疑い長男逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598514"
+      "link": "https://news.yahoo.co.jp/pickup/6598564"
     },
     {
-      "doc_id": "yahoo-a7fcb4fd8fed6dcb",
-      "title": "バイクと衝突し車が炎上 1人死亡",
+      "doc_id": "yahoo-7c077791f7226915",
+      "title": "マンション高騰 売れ残り値下げも",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598488"
+      "link": "https://news.yahoo.co.jp/pickup/6598560"
     },
     {
-      "doc_id": "yahoo-db6c00d562598d94",
-      "title": "モヤシ生産者減少 ラーメン店悲鳴",
+      "doc_id": "yahoo-026e7e50660e59d5",
+      "title": "マイクロソフト 新型AI半導体発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598503"
+      "link": "https://news.yahoo.co.jp/pickup/6598562"
     },
     {
-      "doc_id": "yahoo-d78eef4159b0fdd6",
-      "title": "速報CS第3戦 日ハム万波が特大弾",
+      "doc_id": "yahoo-d9f92799969c1d7d",
+      "title": "西武本部長 MLB志望の平良に言及",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598515"
+      "link": "https://news.yahoo.co.jp/pickup/6598559"
     },
     {
-      "doc_id": "yahoo-fd53734e7fabeceb",
-      "title": "青学大敗 監督「駅伝力なかった」",
+      "doc_id": "yahoo-d7e7b36b04508b03",
+      "title": "ひばりさんの「謝罪」の手紙 公開",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598511"
+      "link": "https://news.yahoo.co.jp/pickup/6598561"
     },
     {
-      "doc_id": "yahoo-161290fc920654f5",
-      "title": "電車頻繁利用を告白 櫻井翔に驚き",
+      "doc_id": "yahoo-88cfcb8d5a1da8e6",
+      "title": "東海オンエアのりょう 結婚を報告",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598512"
+      "link": "https://news.yahoo.co.jp/pickup/6598553"
     },
     {
       "doc_id": "jiji-16cc102ecaa5fbb2",
@@ -64,16 +64,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026101100418&g=int"
     },
     {
-      "doc_id": "jiji-890b9a068bfd0a85",
-      "title": "羽田空港に２４時間常駐 警視庁の捜査員、国外逃亡に目光らせる 発生３時間後に逮捕も",
+      "doc_id": "jiji-03ae05982859695d",
+      "title": "相次ぐ情報流出、政府苦慮 「注意喚起」頼み、打つ手乏しく",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100230&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101200114&g=pol"
     },
     {
-      "doc_id": "jiji-729e49106a337eef",
-      "title": "ロシア産軽油の輸入撤回要求 米超党派議員「資金支援やめよ」",
+      "doc_id": "jiji-c6df6de9edad3d68",
+      "title": "片山財務相が世銀ＩＭＦ合同開発委議長に 日本初、高市首相発表",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200150&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101200661&g=pol"
+    },
+    {
+      "doc_id": "jiji-dc9b8bf653cc4535",
+      "title": "平良海馬と「話し合いをする」 米大リーグ移籍を希望―西武球団社長",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101200655&g=spo"
     },
     {
       "doc_id": "jiji-e9841a87c91acc17",
@@ -82,16 +88,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026101100223&g=pol"
     },
     {
-      "doc_id": "jiji-7795521d33588b66",
-      "title": "「原潜導入論」政治主導 反撃か哨戒か、目的定まらず―３文書改定へ議論曲折も",
+      "doc_id": "jiji-f94894548cbafd21",
+      "title": "千葉市の３人死亡事故、運転の１９歳男逮捕 免許取得から１年未満、トラックと正面衝突",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100225&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101200469&g=soc"
     },
     {
-      "doc_id": "jiji-70537f6bb9a8edd5",
-      "title": "米民主、オバマ氏の集票力期待 激戦州で相次ぎ候補支援―中間選挙",
+      "doc_id": "jiji-9d9f75e17c1efbde",
+      "title": "ＥＵ、ハイブリッド車の輸入制限 中国製に上限枠、台数半減へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100221&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101200557&g=int"
     },
     {
       "doc_id": "jiji-73b49a3890874bbf",
@@ -100,64 +106,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026101100484&g=int"
     },
     {
-      "doc_id": "jiji-4bc7f03fac5efc36",
-      "title": "西武と日本ハムが対戦 ファーストステージ第３戦―プロ野球ＣＳ",
+      "doc_id": "jiji-53bfb89218290e71",
+      "title": "新たな空港攻撃で１人死亡 イラン、沈静化へ「対話支援」―サウジ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200277&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101200145&g=int"
     },
     {
-      "doc_id": "jiji-4e54ffea76157cc9",
-      "title": "北朝鮮が弾道ミサイル数発 日本海に９００キロ以上―韓国軍",
+      "doc_id": "jiji-d254de771b9fc53e",
+      "title": "西武、若さ通じず敗退 プロ野球ＣＳ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200185&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101200585&g=spo"
     },
     {
-      "doc_id": "jiji-53247b8e7059d614",
-      "title": "太平洋、「トランプ洋に改称を」 米大統領",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100222&g=int"
-    },
-    {
-      "doc_id": "nhk-9abe1b5017045b62",
-      "title": "北朝鮮 弾道ミサイル少なくとも2発発射 EEZへの飛来確認されず",
+      "doc_id": "nhk-1b65fa797c5c2d18",
+      "title": "ノーベル経済学賞にアメリカの2人の研究者",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077"
-    },
-    {
-      "doc_id": "nhk-36a658199cab40c1",
-      "title": "ドジャースは黒星スタート リーグ優勝決定シリーズ第1戦",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58022"
-    },
-    {
-      "doc_id": "nhk-dba571cb90a3af85",
-      "title": "出雲全日本大学選抜駅伝 早稲田大が16年ぶり優勝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58125"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57272"
     },
     {
       "doc_id": "nhk-707ef76d8e338f21",
-      "title": "栃木 那珂川町 工場火災 消火活動続く けが人なし",
+      "title": "栃木 那珂川町 工場火災 鎮火のめど立たず 夜間も消火活動へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261012de58117"
     },
     {
-      "doc_id": "nhk-11707654363cc217",
-      "title": "APEC首脳会議前に中国と香港間の新たな出入境施設が完成",
+      "doc_id": "nhk-c8fa1f52b3a148e4",
+      "title": "「やりがい感じるけど…」どうなる介護報酬 現場は？",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58151"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58129"
     },
     {
-      "doc_id": "nhk-ea539cf82c421ccf",
-      "title": "“ロシアのグーグル”に無人機攻撃 一部サービス利用できず",
+      "doc_id": "nhk-4ce3946f45701b61",
+      "title": "経営者に戦略のアドバイスも 経営の中枢でAI活用の動き相次ぐ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58066"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58173"
     },
     {
-      "doc_id": "nhk-23785cfcd912309d",
-      "title": "北朝鮮が韓国との境界付近を「要塞化」？いったい何が",
+      "doc_id": "nhk-de2aef4faded1f40",
+      "title": "連休最終日 九州などで真夏日に 14日以降は北日本などで荒天も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57841"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58040"
+    },
+    {
+      "doc_id": "nhk-0642508f3894c64a",
+      "title": "サウジアラビア 首都の国際空港に攻撃相次ぐ 緊張の高まり懸念",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58223"
+    },
+    {
+      "doc_id": "nhk-9d78595ccfbbadcf",
+      "title": "プロ野球 パ・リーグCS 日本ハムがファイナルステージ進出",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58196"
+    },
+    {
+      "doc_id": "itmedia-bbff8ff2a482779e",
+      "title": "初めての一眼にフルサイズを選びたい、でも高くて重いのは嫌……「EOS R8 Mark II」はそういう人のためのミラーレスだった",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/12/2000002196/"
     },
     {
       "doc_id": "itmedia-326f28425be7d6d5",
@@ -226,10 +232,28 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002186/"
     },
     {
-      "doc_id": "itmedia-1bb60c980e7308ee",
-      "title": "JR九州、会員メアド最大130万件漏えいか IDCF不正アクセスの影響",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002185/"
+      "doc_id": "nazology-22eb80414e472552",
+      "title": "首絞めセックスの「4つの誤解」",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/174990"
+    },
+    {
+      "doc_id": "nazology-01504a1fbfe6c178",
+      "title": "数学者が「ほつれが途中で止まる」編み方を発明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201306"
+    },
+    {
+      "doc_id": "nazology-4b509f255e67642f",
+      "title": "ウイルスの中に「人の脳の遺伝子」のDNAを発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201266"
+    },
+    {
+      "doc_id": "nazology-c27eff250233f6c1",
+      "title": "長年の謎だった「ダイヤモンドが溶ける条件」が判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201276"
     },
     {
       "doc_id": "nazology-b896e81131a82114",
@@ -266,30 +290,6 @@
       "title": "「最強のエルニーニョ」で海面水温が初めて「30℃超え」、観測史上最高に",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201288"
-    },
-    {
-      "doc_id": "nazology-94710334927bc8c6",
-      "title": "100億光年以上の彼方から届いた「最も遠い電波の閃光」を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201300"
-    },
-    {
-      "doc_id": "nazology-c6547defaeca5f68",
-      "title": "体をすり抜ける「幽霊粒子」のレーザーは作れないと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201362"
-    },
-    {
-      "doc_id": "nazology-faf16e3a0207aac9",
-      "title": "糸そっくりの「モーター」が開発される",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201340"
-    },
-    {
-      "doc_id": "nazology-bfbfb0c00046067f",
-      "title": "手首から先だけのロボット「アダムス・ファミリー」のあの手が現実に",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201345"
     }
   ]
 }
