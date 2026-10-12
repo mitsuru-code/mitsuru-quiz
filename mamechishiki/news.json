@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-11T20:19:44+00:00",
-  "now_ms": 1791749984336,
+  "fetched_at": "2026-10-12T00:35:14+00:00",
+  "now_ms": 1791765314326,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,70 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-ef393782680366b5",
-      "title": "エネルギー停戦発表 ウは「初耳」",
+      "doc_id": "yahoo-d4ff89588ea6e80a",
+      "title": "台風29号で高波 海のレジャー注意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598444"
+      "link": "https://news.yahoo.co.jp/pickup/6598458"
     },
     {
-      "doc_id": "yahoo-11afe441546c2526",
-      "title": "定数削減 自民幹事長の腹案に波紋",
+      "doc_id": "yahoo-05e7150f9fded788",
+      "title": "米ウ首脳 露軽油の制裁緩和で応酬",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598430"
+      "link": "https://news.yahoo.co.jp/pickup/6598451"
     },
     {
-      "doc_id": "yahoo-568e3fcf977941d5",
-      "title": "ネパールで再び土石流 5人不明",
+      "doc_id": "yahoo-0789aa7a4d8d3631",
+      "title": "縛られた遺体 窃盗疑いの妹関与か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598442"
+      "link": "https://news.yahoo.co.jp/pickup/6598462"
     },
     {
-      "doc_id": "yahoo-812393c842d4f2a3",
-      "title": "玄関先でクマに襲われる 眼球破裂",
+      "doc_id": "yahoo-163a8845db56fce3",
+      "title": "マツタケ狩りの男性 滑落し死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598416"
+      "link": "https://news.yahoo.co.jp/pickup/6598454"
     },
     {
-      "doc_id": "yahoo-34517322107a99be",
-      "title": "電車で心臓発作 8分の救命リレー",
+      "doc_id": "yahoo-3a65dab10b9c4f84",
+      "title": "ワークマン 値下げと利益両立の訳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598441"
+      "link": "https://news.yahoo.co.jp/pickup/6598459"
     },
     {
-      "doc_id": "yahoo-8c24d2fdc15a0ff9",
-      "title": "鎌田大地 待望のプレミア初ゴール",
+      "doc_id": "yahoo-2939d0e3532d5df7",
+      "title": "速報 ドジャースvs.ブリュワーズ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598440"
+      "link": "https://news.yahoo.co.jp/pickup/6598461"
     },
     {
-      "doc_id": "yahoo-7c480b25e92efadc",
-      "title": "藤田ニコル 不妊治療の裏側を語る",
+      "doc_id": "yahoo-ca67272b474b51f7",
+      "title": "巨人 阿部前監督に球団復帰を要請",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598436"
+      "link": "https://news.yahoo.co.jp/pickup/6598445"
     },
     {
-      "doc_id": "yahoo-320065b8857a5f7f",
-      "title": "鈴木光司さん偲ぶ会 貞子が登場",
+      "doc_id": "yahoo-8252db807b7b261a",
+      "title": "ナルト新作 なぜ米コミコンで発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598426"
+      "link": "https://news.yahoo.co.jp/pickup/6598463"
+    },
+    {
+      "doc_id": "jiji-cdd9bb6b1a71badf",
+      "title": "大統領と最高裁長官が全面対決 司法に圧力、揺らぐ三権分立―韓国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100231&g=int"
     },
     {
       "doc_id": "jiji-73b49a3890874bbf",
-      "title": "「エネルギー停戦」で合意 ロシアとウクライナ―トランプ米大統領",
+      "title": "トランプ米大統領、「エネルギー停戦」合意主張 ロ・ウクライナ、ゼレンスキー氏「初耳」",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101100484&g=int"
-    },
-    {
-      "doc_id": "jiji-a9df25cf9f6a2d89",
-      "title": "新聞購読率、初めて５割下回る 内閣支持率は外交・物価高で評価二分―新聞通信調査会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100107&g=soc"
-    },
-    {
-      "doc_id": "jiji-09e0e9de213cb0fc",
-      "title": "サウジ首都空港攻撃で１２人死亡 フーシ派への報復宣言―イエメン内戦介入後、最悪被害",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100146&g=int"
     },
     {
       "doc_id": "jiji-53247b8e7059d614",
@@ -82,10 +76,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026101100222&g=int"
     },
     {
-      "doc_id": "jiji-03191e52e9ee273c",
-      "title": "１２日の予告先発投手 プロ野球パ・リーグＣＳ",
+      "doc_id": "jiji-16cc102ecaa5fbb2",
+      "title": "サウジ、脆弱な安保浮き彫り 「主軸」米国、支援応じず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100322&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101100418&g=int"
+    },
+    {
+      "doc_id": "jiji-70537f6bb9a8edd5",
+      "title": "米民主、オバマ氏の集票力期待 激戦州で相次ぎ候補支援―中間選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100221&g=int"
+    },
+    {
+      "doc_id": "jiji-dd8acec39d30a316",
+      "title": "米、金利急上昇に危機感 日本発の市場混乱も警戒",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100224&g=int"
+    },
+    {
+      "doc_id": "jiji-c493de85e9005d34",
+      "title": "空港攻撃で１人死亡 サウジ当局",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101200154&g=int"
     },
     {
       "doc_id": "jiji-16f773a7ccfcd24e",
@@ -94,58 +106,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101100130&g=int"
     },
     {
-      "doc_id": "jiji-36c1eebf8f7760a3",
-      "title": "温室ガス削減加速へ議論 来月９日からＣＯＰ３１―途上国支援も課題",
+      "doc_id": "jiji-d07d82a004af4c8d",
+      "title": "携帯事業、「マスク帝国」が本腰 衛星と地上でネットワーク",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100109&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101000380&g=int"
     },
     {
-      "doc_id": "jiji-ef9a081516bf646a",
-      "title": "免許画像流出、再交付申請相次ぐ 「成り済まし」懸念も効果限定―本人確認厳格化を要請・警察庁",
+      "doc_id": "jiji-729e49106a337eef",
+      "title": "ロシア産軽油の輸入撤回要求 米超党派議員「資金支援やめよ」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000365&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101200150&g=int"
     },
     {
-      "doc_id": "jiji-3adf0285ea06cf08",
-      "title": "米大統領は、ロシアとウクライナが「エネルギー停戦」で合意したとＳＮＳに投稿した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100483&g=flash"
-    },
-    {
-      "doc_id": "jiji-0ece0627e28059cf",
-      "title": "ネパールで新たな土石流、５人不明 せき止め湖決壊が原因か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100378&g=int"
-    },
-    {
-      "doc_id": "nhk-7c82f18d659960d0",
-      "title": "“ガザ停戦”から１年経過 イスラエル軍の攻撃で死者相次ぐ",
+      "doc_id": "nhk-9abe1b5017045b62",
+      "title": "北朝鮮から弾道ミサイルの可能性のあるもの発射 防衛省",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58041"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077"
     },
     {
-      "doc_id": "nhk-d00406d8a989917c",
-      "title": "ネパールで土石流が発生 軍が救助活動 土砂が川をせき止める",
+      "doc_id": "nhk-36a658199cab40c1",
+      "title": "【速報中】ドジャース ナショナルリーグ優勝決定シリーズ第1戦",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58027"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58022"
     },
     {
-      "doc_id": "nhk-9fb43b19f6f57beb",
-      "title": "石破前首相 簗農相発言を批判“全国民の代表者との認識ない”",
+      "doc_id": "nhk-ea539cf82c421ccf",
+      "title": "“ロシアのグーグル”に無人機攻撃 一部サービス利用できず",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57884"
-    },
-    {
-      "doc_id": "nhk-ece1698b787c4684",
-      "title": "生成AIの安全性評価するシステム開発",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58038"
-    },
-    {
-      "doc_id": "nhk-0fd788fd64d0cb4f",
-      "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58042"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58066"
     },
     {
       "doc_id": "nhk-c4bbc4969794067d",
@@ -154,10 +142,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261012de58051"
     },
     {
-      "doc_id": "nhk-ad733fe8b85fe3a3",
-      "title": "柔道世界選手権 混合団体で2年ぶりの金メダル",
+      "doc_id": "nhk-0fd788fd64d0cb4f",
+      "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58057"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58042"
+    },
+    {
+      "doc_id": "nhk-d00406d8a989917c",
+      "title": "ネパールで土石流が発生 軍が救助活動 土砂が川をせき止める",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58027"
+    },
+    {
+      "doc_id": "nhk-de2aef4faded1f40",
+      "title": "連休最終日も広く晴れ 太平洋沿岸は高波注意",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58040"
     },
     {
       "doc_id": "itmedia-baae3c58b9191dad",
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002178/"
     },
     {
+      "doc_id": "nazology-53eb96be3ac543a0",
+      "title": "1億6000万年前の「最もずんぐりしたイカの新種」を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201356"
+    },
+    {
+      "doc_id": "nazology-f3a10818eaa3db20",
+      "title": "大型犬ほどDNAに刻まれる「老いの進み」が速いと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201351"
+    },
+    {
       "doc_id": "nazology-097cf1f4d618b944",
       "title": "「最強のエルニーニョ」で海面水温が初めて「30℃超え」、観測史上最高に",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "頂点捕食者アルバートサウルスの化石に「小さな恐竜の歯形」を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201323"
-    },
-    {
-      "doc_id": "nazology-079b81a10969cb3e",
-      "title": "オランウータンの母親は子どもに「遊び相手」を探してあげていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201271"
-    },
-    {
-      "doc_id": "nazology-e5ce73f6e91fe48c",
-      "title": "「宇宙の花火」を拡大したら、巨大な真珠が連なっていた──1粒で海王星の軌道10個ぶん",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201386"
     }
   ]
 }
