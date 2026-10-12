@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-12T00:35:14+00:00",
-  "now_ms": 1791765314326,
+  "fetched_at": "2026-10-12T07:24:29+00:00",
+  "now_ms": 1791789869517,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,106 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-d4ff89588ea6e80a",
-      "title": "台風29号で高波 海のレジャー注意",
+      "doc_id": "yahoo-132368dea2479c0e",
+      "title": "公明・岡本氏 自民含め連携目指す",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598458"
+      "link": "https://news.yahoo.co.jp/pickup/6598505"
     },
     {
-      "doc_id": "yahoo-05e7150f9fded788",
-      "title": "米ウ首脳 露軽油の制裁緩和で応酬",
+      "doc_id": "yahoo-0873a446f0ea03be",
+      "title": "欧州首脳ら ウクライナへ連帯表明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598451"
+      "link": "https://news.yahoo.co.jp/pickup/6598489"
     },
     {
-      "doc_id": "yahoo-0789aa7a4d8d3631",
-      "title": "縛られた遺体 窃盗疑いの妹関与か",
+      "doc_id": "yahoo-b064ec6b126994b3",
+      "title": "北発射 韓国ミサイルへの抗議か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598462"
+      "link": "https://news.yahoo.co.jp/pickup/6598514"
     },
     {
-      "doc_id": "yahoo-163a8845db56fce3",
-      "title": "マツタケ狩りの男性 滑落し死亡",
+      "doc_id": "yahoo-a7fcb4fd8fed6dcb",
+      "title": "バイクと衝突し車が炎上 1人死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598454"
+      "link": "https://news.yahoo.co.jp/pickup/6598488"
     },
     {
-      "doc_id": "yahoo-3a65dab10b9c4f84",
-      "title": "ワークマン 値下げと利益両立の訳",
+      "doc_id": "yahoo-db6c00d562598d94",
+      "title": "モヤシ生産者減少 ラーメン店悲鳴",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598459"
+      "link": "https://news.yahoo.co.jp/pickup/6598503"
     },
     {
-      "doc_id": "yahoo-2939d0e3532d5df7",
-      "title": "速報 ドジャースvs.ブリュワーズ",
+      "doc_id": "yahoo-d78eef4159b0fdd6",
+      "title": "速報CS第3戦 日ハム万波が特大弾",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598461"
+      "link": "https://news.yahoo.co.jp/pickup/6598515"
     },
     {
-      "doc_id": "yahoo-ca67272b474b51f7",
-      "title": "巨人 阿部前監督に球団復帰を要請",
+      "doc_id": "yahoo-fd53734e7fabeceb",
+      "title": "青学大敗 監督「駅伝力なかった」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598445"
+      "link": "https://news.yahoo.co.jp/pickup/6598511"
     },
     {
-      "doc_id": "yahoo-8252db807b7b261a",
-      "title": "ナルト新作 なぜ米コミコンで発表",
+      "doc_id": "yahoo-161290fc920654f5",
+      "title": "電車頻繁利用を告白 櫻井翔に驚き",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598463"
-    },
-    {
-      "doc_id": "jiji-cdd9bb6b1a71badf",
-      "title": "大統領と最高裁長官が全面対決 司法に圧力、揺らぐ三権分立―韓国",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100231&g=int"
-    },
-    {
-      "doc_id": "jiji-73b49a3890874bbf",
-      "title": "トランプ米大統領、「エネルギー停戦」合意主張 ロ・ウクライナ、ゼレンスキー氏「初耳」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100484&g=int"
-    },
-    {
-      "doc_id": "jiji-53247b8e7059d614",
-      "title": "太平洋、「トランプ洋に改称を」 米大統領",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100222&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6598512"
     },
     {
       "doc_id": "jiji-16cc102ecaa5fbb2",
-      "title": "サウジ、脆弱な安保浮き彫り 「主軸」米国、支援応じず",
+      "title": "サウジアラビアの安全保障、脆弱さ浮き彫り 国防「主軸」の米国、支援応じず",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101100418&g=int"
     },
     {
-      "doc_id": "jiji-70537f6bb9a8edd5",
-      "title": "米民主、オバマ氏の集票力期待 激戦州で相次ぎ候補支援―中間選挙",
+      "doc_id": "jiji-890b9a068bfd0a85",
+      "title": "羽田空港に２４時間常駐 警視庁の捜査員、国外逃亡に目光らせる 発生３時間後に逮捕も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100221&g=int"
-    },
-    {
-      "doc_id": "jiji-dd8acec39d30a316",
-      "title": "米、金利急上昇に危機感 日本発の市場混乱も警戒",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100224&g=int"
-    },
-    {
-      "doc_id": "jiji-c493de85e9005d34",
-      "title": "空港攻撃で１人死亡 サウジ当局",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200154&g=int"
-    },
-    {
-      "doc_id": "jiji-16f773a7ccfcd24e",
-      "title": "インドネシアでも「痛車」人気 日本発祥、首都近郊でイベント",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100130&g=int"
-    },
-    {
-      "doc_id": "jiji-d07d82a004af4c8d",
-      "title": "携帯事業、「マスク帝国」が本腰 衛星と地上でネットワーク",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101000380&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101100230&g=soc"
     },
     {
       "doc_id": "jiji-729e49106a337eef",
@@ -118,16 +76,76 @@
       "link": "https://www.jiji.com/jc/article?k=2026101200150&g=int"
     },
     {
+      "doc_id": "jiji-e9841a87c91acc17",
+      "title": "政策本位で「政界再編」 公明・岡本代表、自民含め連携",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100223&g=pol"
+    },
+    {
+      "doc_id": "jiji-7795521d33588b66",
+      "title": "「原潜導入論」政治主導 反撃か哨戒か、目的定まらず―３文書改定へ議論曲折も",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100225&g=pol"
+    },
+    {
+      "doc_id": "jiji-70537f6bb9a8edd5",
+      "title": "米民主、オバマ氏の集票力期待 激戦州で相次ぎ候補支援―中間選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100221&g=int"
+    },
+    {
+      "doc_id": "jiji-73b49a3890874bbf",
+      "title": "トランプ米大統領、「エネルギー停戦」合意主張 ロ・ウクライナ、ゼレンスキー氏「初耳」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100484&g=int"
+    },
+    {
+      "doc_id": "jiji-4bc7f03fac5efc36",
+      "title": "西武と日本ハムが対戦 ファーストステージ第３戦―プロ野球ＣＳ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101200277&g=spo"
+    },
+    {
+      "doc_id": "jiji-4e54ffea76157cc9",
+      "title": "北朝鮮が弾道ミサイル数発 日本海に９００キロ以上―韓国軍",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101200185&g=int"
+    },
+    {
+      "doc_id": "jiji-53247b8e7059d614",
+      "title": "太平洋、「トランプ洋に改称を」 米大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101100222&g=int"
+    },
+    {
       "doc_id": "nhk-9abe1b5017045b62",
-      "title": "北朝鮮から弾道ミサイルの可能性のあるもの発射 防衛省",
+      "title": "北朝鮮 弾道ミサイル少なくとも2発発射 EEZへの飛来確認されず",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261012de58077"
     },
     {
       "doc_id": "nhk-36a658199cab40c1",
-      "title": "【速報中】ドジャース ナショナルリーグ優勝決定シリーズ第1戦",
+      "title": "ドジャースは黒星スタート リーグ優勝決定シリーズ第1戦",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261011de58022"
+    },
+    {
+      "doc_id": "nhk-dba571cb90a3af85",
+      "title": "出雲全日本大学選抜駅伝 早稲田大が16年ぶり優勝",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58125"
+    },
+    {
+      "doc_id": "nhk-707ef76d8e338f21",
+      "title": "栃木 那珂川町 工場火災 消火活動続く けが人なし",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58117"
+    },
+    {
+      "doc_id": "nhk-11707654363cc217",
+      "title": "APEC首脳会議前に中国と香港間の新たな出入境施設が完成",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58151"
     },
     {
       "doc_id": "nhk-ea539cf82c421ccf",
@@ -136,28 +154,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261012de58066"
     },
     {
-      "doc_id": "nhk-c4bbc4969794067d",
-      "title": "巨人一筋20年の坂本勇人 来季も現役続行の見通し",
+      "doc_id": "nhk-23785cfcd912309d",
+      "title": "北朝鮮が韓国との境界付近を「要塞化」？いったい何が",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58051"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261011de57841"
     },
     {
-      "doc_id": "nhk-0fd788fd64d0cb4f",
-      "title": "フーシ派 リヤドの国際空港攻撃と主張 緊張高まり懸念",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58042"
+      "doc_id": "itmedia-326f28425be7d6d5",
+      "title": "MicrosoftのナデラCEO、「SIモデルは“内部リスク”として扱うべき」とXに投稿 統制はモデルの外に置くよう提言",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/12/2000002195/"
     },
     {
-      "doc_id": "nhk-d00406d8a989917c",
-      "title": "ネパールで土石流が発生 軍が救助活動 土砂が川をせき止める",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58027"
-    },
-    {
-      "doc_id": "nhk-de2aef4faded1f40",
-      "title": "連休最終日も広く晴れ 太平洋沿岸は高波注意",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58040"
+      "doc_id": "itmedia-22f588aafc5982f2",
+      "title": "AnthropicのAI、未解決殺人事件で警察に虚偽の情報提供 米政権は「通知と是正は義務」と警告",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/12/2000002192/"
     },
     {
       "doc_id": "itmedia-baae3c58b9191dad",
@@ -220,16 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002185/"
     },
     {
-      "doc_id": "itmedia-6b6e352d363487ff",
-      "title": "IDCFクラウド障害、顧客データ「取り出し・復元困難」 復元は顧客側のバックアップ頼み",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002147/"
+      "doc_id": "nazology-b896e81131a82114",
+      "title": "名前に相撲の「軍配」をもつ虫、小笠原諸島で新種を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201318"
     },
     {
-      "doc_id": "itmedia-5403ea7dd39d4adc",
-      "title": "ヤマハ・スズキも漏えいか 交流サイト基盤「コミューン」不正アクセス、計30万会員に影響の恐れ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/09/2000002178/"
+      "doc_id": "nazology-ae97202e285555cf",
+      "title": "OpenAIが「人並みに考えるAIの時代」に入ったと宣言",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201294"
+    },
+    {
+      "doc_id": "nazology-25adf3cdc91df594",
+      "title": "ゴーグルなしで仮想世界に入れる「VRいす」が登場",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201282"
     },
     {
       "doc_id": "nazology-53eb96be3ac543a0",
@@ -272,24 +290,6 @@
       "title": "手首から先だけのロボット「アダムス・ファミリー」のあの手が現実に",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201345"
-    },
-    {
-      "doc_id": "nazology-94c0f9fa3dfe4408",
-      "title": "ブラックホールが星の誕生を止める容疑者か――実はジェットの通り道のガスが100倍明るかった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201393"
-    },
-    {
-      "doc_id": "nazology-c0b68c7be25e65da",
-      "title": "起業して稼げる人に共通する「ある性格」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201328"
-    },
-    {
-      "doc_id": "nazology-767d864c0aad99c0",
-      "title": "頂点捕食者アルバートサウルスの化石に「小さな恐竜の歯形」を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201323"
     }
   ]
 }
