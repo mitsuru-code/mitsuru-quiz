@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-13T16:02:30+00:00",
-  "now_ms": 1791907350671,
+  "fetched_at": "2026-10-13T21:17:37+00:00",
+  "now_ms": 1791926257663,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,10 +10,10 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8fce618be0935751",
-      "title": "道新記者をサハリンで拘束 露報道",
+      "doc_id": "yahoo-4220cad22737ea26",
+      "title": "道新記者をサハリンで拘束 露当局",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598669"
+      "link": "https://news.yahoo.co.jp/pickup/6598670"
     },
     {
       "doc_id": "yahoo-6b7d6b790c93540c",
@@ -58,16 +58,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6598661"
     },
     {
+      "doc_id": "jiji-ada8778fa333282c",
+      "title": "道新特派員をスパイ容疑で拘束 ロシア極東サハリン州",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400001&g=int"
+    },
+    {
+      "doc_id": "jiji-8030fb13e3c81805",
+      "title": "高市首相、簗氏進退に言及 「違法性あれば即断」―野党、自発的辞任要求",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101300638&g=pol"
+    },
+    {
+      "doc_id": "jiji-e61ab0b8b576f179",
+      "title": "首相動静（１０月１３日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101300188&g=pol"
+    },
+    {
+      "doc_id": "jiji-aab59f212f87164d",
+      "title": "ロシア、道新記者を「スパイ容疑」で拘束 動員兵の情報収集と主張―「日本が記者利用」と遺憾表明",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400156&g=int"
+    },
+    {
       "doc_id": "jiji-6441f8b358973883",
       "title": "ゼレンスキー氏、ウクライナは製油所攻撃せず 米が情報共有中断か、外相は否定",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101301065&g=int"
-    },
-    {
-      "doc_id": "jiji-329c4d1c437908a0",
-      "title": "京都が初白星 Ｇ大阪と鹿島は２連勝―ＡＣＬサッカー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101300953&g=spo"
     },
     {
       "doc_id": "jiji-465cd920432ebeb7",
@@ -76,88 +94,70 @@
       "link": "https://www.jiji.com/jc/article?k=2026101301131&g=int"
     },
     {
-      "doc_id": "jiji-d0e9f1bb27a9e0ef",
-      "title": "わたなべまさこさん死去 漫画家",
+      "doc_id": "jiji-94c5023f5ed179db",
+      "title": "タス通信によると、北海道新聞特派員の日本人男性がロシア・サハリン州でスパイ容疑で拘束された",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101300919&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101301165&g=flash"
     },
     {
-      "doc_id": "jiji-a079a7fac9f59e9b",
-      "title": "コミッショナー公示（１２日） プロ野球",
+      "doc_id": "jiji-bfb530969cff3995",
+      "title": "エジプトで中高生の日本語教育導入 授業公開「将来架け橋に」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200309&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101300618&g=int"
     },
     {
-      "doc_id": "jiji-40f2b6a5e1558d7e",
-      "title": "走った京都、劇的に 終盤に松田が決勝点―ＡＣＬサッカー",
+      "doc_id": "jiji-3d47afd9b26a4b63",
+      "title": "ロシア当局は、道新記者がウクライナ侵攻の動員兵の情報を集めていたと主張した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101301087&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101400142&g=flash"
     },
     {
-      "doc_id": "jiji-e9841a87c91acc17",
-      "title": "政策本位で「政界再編」 公明・岡本代表、自民含め連携",
+      "doc_id": "jiji-00ede13f6eddade1",
+      "title": "村上「挑戦者のつもりで」 プロ野球ＣＳ・阪神",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100223&g=pol"
-    },
-    {
-      "doc_id": "jiji-86feb99334ffcf3c",
-      "title": "米民主党のイルハン・オマル議員宅を家宅捜索 反トランプの急先鋒",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261013049450a&g=afp"
-    },
-    {
-      "doc_id": "jiji-70537f6bb9a8edd5",
-      "title": "米民主、オバマ氏の集票力期待 激戦州で相次ぎ候補支援―中間選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100221&g=int"
-    },
-    {
-      "doc_id": "jiji-3fbba091dfc23d53",
-      "title": "【シンガポール】ＵＯＢ、米ＡＷＳとＡＩ活用で戦略提携 東南アジア５市場向けクラウド基盤",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101300515&g=jnb"
+      "link": "https://www.jiji.com/jc/article?k=2026101400141&g=spo"
     },
     {
       "doc_id": "nhk-2ad36b8f2df2f3fb",
-      "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 国営タス通信",
+      "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 治安機関が発表",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261013de58917"
     },
     {
-      "doc_id": "nhk-7979408715e5d160",
-      "title": "高市首相“簗農相が行政運営にあたるのがいいか 熟慮”",
+      "doc_id": "nhk-d3151c87381b715f",
+      "title": "簗農相 与党から続投困難の声も 高市首相 説明踏まえ判断へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58352"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58923"
     },
     {
-      "doc_id": "nhk-c5093b31e8d7c614",
-      "title": "自治体防災メール 不正アクセスでアドレス300万件など漏えいか",
+      "doc_id": "nhk-f0c1d3756e2be28e",
+      "title": "個人情報の流出「不安感じる」77％ NHK世論調査",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58789"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58351"
     },
     {
-      "doc_id": "nhk-b48c95915406a235",
-      "title": "ベトナム語の運転免許試験の問題 画像が漏えいか 千葉県警",
+      "doc_id": "nhk-60881e7747b12cd7",
+      "title": "新潟 6人死亡火災 元幹部らの起訴受け経営トップが遺族に謝罪",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58907"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58921"
     },
     {
-      "doc_id": "nhk-00e88fda94faffdb",
-      "title": "中国の企業関係者らが北方領土の択捉島を訪問",
+      "doc_id": "nhk-0a58d60f73dd7637",
+      "title": "ホワイトハウスの新しい報道官 初会見はわずか15分で終了",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58873"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58937"
     },
     {
-      "doc_id": "nhk-ae2add07c87ed85c",
-      "title": "一連の不正アクセスは“AIエージェント悪用の可能性”解析で",
+      "doc_id": "nhk-8c6b328430ca4700",
+      "title": "フランスの高校生 教育環境悪化に抗議し再び大規模集会",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58380"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58939"
     },
     {
-      "doc_id": "nhk-04ac9259cdd53c77",
-      "title": "北海道でマフグの漁獲量増加 一方で養殖ホタテに被害か",
+      "doc_id": "nhk-f06078b7bf18fa2d",
+      "title": "なでしこジャパン 強豪ドイツに逆転負け",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58896"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58933"
     },
     {
       "doc_id": "itmedia-adb8bef4f81dbf42",
