@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-12T17:58:29+00:00",
-  "now_ms": 1791827909813,
+  "fetched_at": "2026-10-13T00:44:30+00:00",
+  "now_ms": 1791852270159,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-fde8433fbea50042",
-      "title": "財務相 世銀IMF合同開発委議長に",
+      "doc_id": "yahoo-a18a704799405f1d",
+      "title": "正恩氏と「会うかも」トランプ氏",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598563"
+      "link": "https://news.yahoo.co.jp/pickup/6598577"
     },
     {
-      "doc_id": "yahoo-e37bfe17bfaf13b8",
-      "title": "ICC制裁 赤根智子所長がコメント",
+      "doc_id": "yahoo-ce6f0422d6f656d3",
+      "title": "英基地事件はイラン関与 共同声明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598542"
+      "link": "https://news.yahoo.co.jp/pickup/6598574"
     },
     {
-      "doc_id": "yahoo-9490537f48419b37",
-      "title": "台所に女性遺体 傷害疑い長男逮捕",
+      "doc_id": "yahoo-0c1cd2ed859b88aa",
+      "title": "九州新幹線が全線運休 再開は午後",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598564"
+      "link": "https://news.yahoo.co.jp/pickup/6598582"
     },
     {
-      "doc_id": "yahoo-7c077791f7226915",
-      "title": "マンション高騰 売れ残り値下げも",
+      "doc_id": "yahoo-7eef898bf299fd53",
+      "title": "中国にもトー横? 日本との共通点",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598560"
+      "link": "https://news.yahoo.co.jp/pickup/6598578"
     },
     {
-      "doc_id": "yahoo-026e7e50660e59d5",
-      "title": "マイクロソフト 新型AI半導体発表",
+      "doc_id": "yahoo-743c838f759596cd",
+      "title": "米俳優 セルマ・ブレア容疑者逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598562"
+      "link": "https://news.yahoo.co.jp/pickup/6598569"
     },
     {
-      "doc_id": "yahoo-d9f92799969c1d7d",
-      "title": "西武本部長 MLB志望の平良に言及",
+      "doc_id": "yahoo-9b3ddd266d759f28",
+      "title": "熟年離婚 修復経ず別れるケース増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598559"
+      "link": "https://news.yahoo.co.jp/pickup/6598584"
     },
     {
-      "doc_id": "yahoo-d7e7b36b04508b03",
-      "title": "ひばりさんの「謝罪」の手紙 公開",
+      "doc_id": "yahoo-a02698a06dbe6367",
+      "title": "ドジャース2連敗 2戦連続逆転負け",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598561"
+      "link": "https://news.yahoo.co.jp/pickup/6598583"
     },
     {
-      "doc_id": "yahoo-88cfcb8d5a1da8e6",
-      "title": "東海オンエアのりょう 結婚を報告",
+      "doc_id": "yahoo-8b9db78ea2e64c82",
+      "title": "芸人永野 トム・クルーズに感激",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598553"
+      "link": "https://news.yahoo.co.jp/pickup/6598581"
     },
     {
       "doc_id": "jiji-16cc102ecaa5fbb2",
@@ -64,28 +64,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026101100418&g=int"
     },
     {
-      "doc_id": "jiji-03ae05982859695d",
-      "title": "相次ぐ情報流出、政府苦慮 「注意喚起」頼み、打つ手乏しく",
+      "doc_id": "jiji-9cc055e8ef94c29e",
+      "title": "米当局、民主下院議員を家宅捜索 中間選挙控え、政治的報復か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200114&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101300154&g=int"
     },
     {
-      "doc_id": "jiji-c6df6de9edad3d68",
-      "title": "片山財務相が世銀ＩＭＦ合同開発委議長に 日本初、高市首相発表",
+      "doc_id": "jiji-9f2e33d823dfc5fc",
+      "title": "フランスのスーパー数百店舗がサイバー被害 冷蔵設備の温度が急上昇、食品を大量廃棄に",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200661&g=pol"
-    },
-    {
-      "doc_id": "jiji-dc9b8bf653cc4535",
-      "title": "平良海馬と「話し合いをする」 米大リーグ移籍を希望―西武球団社長",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200655&g=spo"
-    },
-    {
-      "doc_id": "jiji-e9841a87c91acc17",
-      "title": "政策本位で「政界再編」 公明・岡本代表、自民含め連携",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100223&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101300176&g=int"
     },
     {
       "doc_id": "jiji-f94894548cbafd21",
@@ -94,70 +82,94 @@
       "link": "https://www.jiji.com/jc/article?k=2026101200469&g=soc"
     },
     {
-      "doc_id": "jiji-9d9f75e17c1efbde",
-      "title": "ＥＵ、ハイブリッド車の輸入制限 中国製に上限枠、台数半減へ",
+      "doc_id": "jiji-c7a5b2f53e8d54de",
+      "title": "山本は三回途中３失点 ドジャース、リード許す―米大リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200557&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101300173&g=spo"
     },
     {
-      "doc_id": "jiji-73b49a3890874bbf",
-      "title": "トランプ米大統領、「エネルギー停戦」合意主張 ロ・ウクライナ、ゼレンスキー氏「初耳」",
+      "doc_id": "jiji-74e1e8694ecc619e",
+      "title": "ロシアＩＴ大手、無人機攻撃でデータセンター損傷 決済サービスで不具合",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101100484&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101300158&g=int"
     },
     {
-      "doc_id": "jiji-53bfb89218290e71",
-      "title": "新たな空港攻撃で１人死亡 イラン、沈静化へ「対話支援」―サウジ",
+      "doc_id": "jiji-c6df6de9edad3d68",
+      "title": "片山財務相が世銀ＩＭＦ合同開発委議長に 日本初、高市首相発表",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200145&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101200661&g=pol"
     },
     {
-      "doc_id": "jiji-d254de771b9fc53e",
-      "title": "西武、若さ通じず敗退 プロ野球ＣＳ",
+      "doc_id": "jiji-819e683edfa81e44",
+      "title": "新たな空港攻撃で１人死亡 フーシ派、米国けん制―サウジ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101200585&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101300165&g=int"
     },
     {
-      "doc_id": "nhk-1b65fa797c5c2d18",
-      "title": "ノーベル経済学賞にアメリカの2人の研究者",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261009de57272"
+      "doc_id": "jiji-b8c51ebc2ed6ae50",
+      "title": "トランプ米大統領「正恩氏と会うかも」 来月のアジア外遊で",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101300184&g=int"
     },
     {
-      "doc_id": "nhk-707ef76d8e338f21",
-      "title": "栃木 那珂川町 工場火災 鎮火のめど立たず 夜間も消火活動へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58117"
+      "doc_id": "jiji-d1c0e080f8551d57",
+      "title": "パリ自動車ショー、中国勢が大挙 欧州対抗、日本勢も復帰",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101300132&g=int"
     },
     {
-      "doc_id": "nhk-c8fa1f52b3a148e4",
-      "title": "「やりがい感じるけど…」どうなる介護報酬 現場は？",
+      "doc_id": "nhk-d1131900dc4f9a39",
+      "title": "九州新幹線 架線確認のため始発から全線で運転見合わせ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58129"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58310"
     },
     {
-      "doc_id": "nhk-4ce3946f45701b61",
-      "title": "経営者に戦略のアドバイスも 経営の中枢でAI活用の動き相次ぐ",
+      "doc_id": "nhk-25879b4ee8263dfd",
+      "title": "きょうから予算委 消費税 経済政策 簗農相発言で論戦",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58173"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58277"
     },
     {
-      "doc_id": "nhk-de2aef4faded1f40",
-      "title": "連休最終日 九州などで真夏日に 14日以降は北日本などで荒天も",
+      "doc_id": "nhk-b970e862e97a7c32",
+      "title": "【速報中】ドジャース×ブルワーズ ドジャース敗れる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261011de58040"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58219"
     },
     {
-      "doc_id": "nhk-0642508f3894c64a",
-      "title": "サウジアラビア 首都の国際空港に攻撃相次ぐ 緊張の高まり懸念",
+      "doc_id": "nhk-79d7b01285a0e6db",
+      "title": "9月の企業物価指数 昨年同月比 6.8%上昇",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58223"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58340"
     },
     {
-      "doc_id": "nhk-9d78595ccfbbadcf",
-      "title": "プロ野球 パ・リーグCS 日本ハムがファイナルステージ進出",
+      "doc_id": "nhk-ae36ee79f2543f17",
+      "title": "日経平均株価 一時1500円超下落 東京株式市場",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261012de58196"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58344"
+    },
+    {
+      "doc_id": "nhk-dafbd0070c931006",
+      "title": "栃木県那珂川町の工場火災 24時間以上経過も鎮火せず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58321"
+    },
+    {
+      "doc_id": "nhk-1c54050ad94f04fd",
+      "title": "片山財務相が世界銀行・IMF合同開発委の次期議長に 高市首相",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58295"
+    },
+    {
+      "doc_id": "itmedia-6a5fdf27674a2975",
+      "title": "Microsoft、第3世代AIチップ「Maia 300」を2027年に投入 GPU比で電力効率4割向上、自社サービスの主力推論基盤に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002200/"
+    },
+    {
+      "doc_id": "itmedia-5f8b32a3e80ef63b",
+      "title": "Meta、同社最大のAIモデル「Muse Wonder」発表 記憶力と粘り強さを強化、AIエージェント「Muse」にも搭載へ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002197/"
     },
     {
       "doc_id": "itmedia-bbff8ff2a482779e",
@@ -220,16 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002188/"
     },
     {
-      "doc_id": "itmedia-cf1ba726ed22a758",
-      "title": "IDCFクラウド障害、親会社のソフトバンクが顧客窓口に 調査・復旧も支援",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002187/"
-    },
-    {
-      "doc_id": "itmedia-eddbd47d0ae45378",
-      "title": "「バイトル」会員メアド最大約389万件漏えい 海外から「仕様不備」突く不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/10/2000002186/"
+      "doc_id": "nazology-941a1d2978a5bfda",
+      "title": "エジプトの砂漠に「サメの墓場」を発見、白亜紀の消えた海の跡",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201311"
     },
     {
       "doc_id": "nazology-22eb80414e472552",
@@ -284,12 +290,6 @@
       "title": "大型犬ほどDNAに刻まれる「老いの進み」が速いと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201351"
-    },
-    {
-      "doc_id": "nazology-097cf1f4d618b944",
-      "title": "「最強のエルニーニョ」で海面水温が初めて「30℃超え」、観測史上最高に",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201288"
     }
   ]
 }
