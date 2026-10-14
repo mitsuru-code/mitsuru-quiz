@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-14T01:15:02+00:00",
-  "now_ms": 1791940502452,
+  "fetched_at": "2026-10-14T06:13:09+00:00",
+  "now_ms": 1791958389140,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-af47607ba5dfa677",
-      "title": "農相の進退 首相が14日にも判断へ",
+      "doc_id": "yahoo-e0367ede3f845a6a",
+      "title": "ハッカー集団Qilin AI利用と主張",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598682"
+      "link": "https://news.yahoo.co.jp/pickup/6598729"
     },
     {
-      "doc_id": "yahoo-845dac1a7e22373f",
-      "title": "大阪にアンソロ社データ拠点 調整",
+      "doc_id": "yahoo-deb9a4b4d6cc24f6",
+      "title": "ウのEU加盟 ハンガリー反対撤回",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598686"
+      "link": "https://news.yahoo.co.jp/pickup/6598724"
     },
     {
-      "doc_id": "yahoo-c023d786dc72ab64",
-      "title": "施設で入所者死亡 別の入所者逮捕",
+      "doc_id": "yahoo-d080d19d81cd9d96",
+      "title": "給食に「貧相すぎ」と批判 市回答",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598694"
+      "link": "https://news.yahoo.co.jp/pickup/6598715"
     },
     {
-      "doc_id": "yahoo-76a90ea4990548d8",
-      "title": "ローマ教皇手術 肺腺がんを確認",
+      "doc_id": "yahoo-ffa82468c6913a5d",
+      "title": "積み荷はニワトリ3000羽 崩れ散乱",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598691"
+      "link": "https://news.yahoo.co.jp/pickup/6598727"
     },
     {
-      "doc_id": "yahoo-5699079b27dba3bf",
-      "title": "停止義務ないのに違反に ミス63件",
+      "doc_id": "yahoo-91645c7fb8564945",
+      "title": "イオン系スーパー100店閉店 なぜ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598679"
+      "link": "https://news.yahoo.co.jp/pickup/6598728"
     },
     {
-      "doc_id": "yahoo-3970e6f1190dcc70",
-      "title": "写真大手ゲッティ 米破産法申請へ",
+      "doc_id": "yahoo-5bf7d154e1cc1516",
+      "title": "ディズニー 客船名はIMAGINATION",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598683"
+      "link": "https://news.yahoo.co.jp/pickup/6598705"
     },
     {
-      "doc_id": "yahoo-f00a2693284ba338",
-      "title": "大谷翔平 不振の原因を明かす",
+      "doc_id": "yahoo-542ee3994cfdc148",
+      "title": "ミス〇〇大使 中止や終了相次ぐ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598696"
+      "link": "https://news.yahoo.co.jp/pickup/6598725"
     },
     {
-      "doc_id": "yahoo-9cc15bfc89379071",
-      "title": "国仲涼子 長男から「くそばばあ」",
+      "doc_id": "yahoo-ad94c5f1fa2356a1",
+      "title": "我が家・杉山裕之さん 万引き疑い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598678"
+      "link": "https://news.yahoo.co.jp/pickup/6598714"
     },
     {
-      "doc_id": "jiji-aab59f212f87164d",
-      "title": "ロシア、道新記者を「スパイ容疑」で拘束 動員兵の情報収集と主張―「日本が記者利用」と遺憾表明",
+      "doc_id": "jiji-1b5588d0bc2964e7",
+      "title": "「我が家」杉山メンバーが万引き容疑 スーパーで、書類送検―警視庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400156&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101400539&g=soc"
     },
     {
       "doc_id": "jiji-6726f59821161316",
@@ -70,94 +70,136 @@
       "link": "https://www.jiji.com/jc/article?k=2026101400288&g=int"
     },
     {
+      "doc_id": "jiji-dd1cbe34ab315901",
+      "title": "高市首相、簗氏に「説明尽くせ」 バス疑惑の判断留保―衆院予算委",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400305&g=pol"
+    },
+    {
+      "doc_id": "jiji-aab59f212f87164d",
+      "title": "ロシア、北海道新聞記者を「スパイ容疑」で拘束 動員兵の情報収集と主張―「日本が記者利用」と遺憾表明",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400156&g=int"
+    },
+    {
       "doc_id": "jiji-d33ff48bc4ee200b",
       "title": "サウジ国有石油本社に攻撃 フーシ派、報復主張",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101400216&g=int"
     },
     {
-      "doc_id": "jiji-c3f2d71a6f15376f",
-      "title": "防災メールに不正アクセス 複数自治体、情報漏えいの可能性",
+      "doc_id": "jiji-a35386fa51b5a385",
+      "title": "黒井千次さん死去、９４歳 「内向の世代」の作家",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101301047&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101400612&g=soc"
     },
     {
-      "doc_id": "jiji-0f26840e8c375d99",
-      "title": "高市首相、新給付「画期的な意義」 金額・要件は明言せず―衆院予算委",
+      "doc_id": "jiji-ed27afe13a5bce0f",
+      "title": "簗農水相「全力で職責を全うしたい」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101300630&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101400545&g=pol"
     },
     {
-      "doc_id": "jiji-dd1cbe34ab315901",
-      "title": "高市首相「違法か答えられず」 簗氏の無料バス疑惑―衆院予算委",
+      "doc_id": "jiji-13df93a09d0e9362",
+      "title": "中国輸出、過去最大 米欧と摩擦も、ＡＩ好調―９月",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400305&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101400528&g=int"
     },
     {
-      "doc_id": "jiji-8c7843aa5cdf6c06",
-      "title": "米ＦＲＢ、１０月利上げ後退 議長に代わり高官発信強める",
+      "doc_id": "jiji-43bef5a98f749003",
+      "title": "中朝間の新大橋、１５日開通 式典開催へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101300647&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101400480&g=int"
     },
     {
-      "doc_id": "jiji-b44d8720e98e31e0",
-      "title": "ローマ教皇、肺がんと診断 手術成功、１週間入院へ",
+      "doc_id": "jiji-097b654ee413455c",
+      "title": "松本正志さん死去 元プロ野球投手",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400257&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101400684&g=spo"
     },
     {
-      "doc_id": "jiji-c5884104efe7c4da",
-      "title": "仏で高校生ら１６万人が抗議デモ グレタさんも応援",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400254&g=int"
-    },
-    {
-      "doc_id": "jiji-b84da012a65e0d92",
-      "title": "ＩＣＣ制裁、米の翻意難しく 日本、働き掛けを継続",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101300837&g=pol"
+      "doc_id": "nhk-8f26f4f216459280",
+      "title": "高市首相 バス送迎“法令違反か否かは当局判断 簗大臣説明を”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58993"
     },
     {
       "doc_id": "nhk-2ad36b8f2df2f3fb",
-      "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 治安機関が発表",
+      "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 長期化の懸念も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261013de58917"
     },
     {
-      "doc_id": "nhk-d3151c87381b715f",
-      "title": "簗農相 与党から続投困難の声も 高市首相 説明踏まえ判断へ",
+      "doc_id": "nhk-31ed5a1d49d482c5",
+      "title": "中国 9月消費者物価指数 前月比やや拡大も3か月連続1％下回る",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58923"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59167"
+    },
+    {
+      "doc_id": "nhk-9c6f470a5a3337d8",
+      "title": "「ゆめタウン」展開のイズミ 最大約40万件漏えいの可能性",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59111"
+    },
+    {
+      "doc_id": "nhk-0ca285b9becb525a",
+      "title": "ドジャース大谷翔平 第3戦先発へ「信じてくれる人のために」",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58989"
+    },
+    {
+      "doc_id": "nhk-6935b1c1d7c8bec1",
+      "title": "ア・リーグ優勝決定シリーズ 第2戦はレイズが勝ち1勝1敗に",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59173"
     },
     {
       "doc_id": "nhk-a8118b5ea9eee818",
-      "title": "急発達する低気圧 北海道で暴風警戒 全国的に大気不安定",
+      "title": "北海道は暴風警戒 東日本では大気不安定",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261014de58942"
     },
     {
-      "doc_id": "nhk-739677a10aaf7848",
-      "title": "ノーベル平和賞ピレイ氏 アメリカの対応「非常に悲しい」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58934"
+      "doc_id": "itmedia-7ccc985d00ddb740",
+      "title": "デンマークの880万人分流出、原因はパスワード「123456」 ハッカー「侵入は難しくなかった」 現地報道",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002257/"
     },
     {
-      "doc_id": "nhk-3e1a7cc4412d30cc",
-      "title": "九州新幹線 14日は始発から通常運行",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58945"
+      "doc_id": "itmedia-46bc1b8c5f84204a",
+      "title": "日本郵便の法人向けサイト、他社の担当者名や連絡先が見える状態に 最大4807件",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002254/"
     },
     {
-      "doc_id": "nhk-32ae961fd8777a4c",
-      "title": "「ボイスフィッシング」被害金洗浄か グループを摘発",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58876"
+      "doc_id": "itmedia-7b2b6e293a4329a3",
+      "title": "楽天モバイル、利用者の「支払い証明書」に第三者閲覧の恐れ 社内の脆弱性診断で発覚",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002250/"
     },
     {
-      "doc_id": "nhk-0a58d60f73dd7637",
-      "title": "ホワイトハウスの新しい報道官 初会見はわずか15分で終了",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58937"
+      "doc_id": "itmedia-19106f2af921e89d",
+      "title": "SBI証券のFXで“誤ロスカット” 再委託先IIJが作業ミス、システムでも検知できず 779口座が対象",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002249/"
+    },
+    {
+      "doc_id": "itmedia-2df30927e62277a6",
+      "title": "ヤフオクなど、ポケカ「空箱」出品禁止 中身入れ替え未開封を装う悪用対策",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002247/"
+    },
+    {
+      "doc_id": "itmedia-03fc942a8c3e7b32",
+      "title": "PayPay証券、障害から復旧 日本株・ETFの取引を再開 原因はみずほ証券の受発注システム",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002246/"
+    },
+    {
+      "doc_id": "itmedia-4fcb90fa04fecd98",
+      "title": "ブックオフ漏えい、退会者21万人も対象 個人情報638万人分の外部送信を確認",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002243/"
     },
     {
       "doc_id": "itmedia-9c17d3cb2d4fda0b",
@@ -190,46 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002236/"
     },
     {
-      "doc_id": "itmedia-39876262e8d036b9",
-      "title": "Apple、「Welcome home」イベントで発表されたことまとめ 日本でも2製品予約開始",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002235/"
+      "doc_id": "nazology-14ba5e1a3a972c4b",
+      "title": "エッグイーターの「真っ黒で喉の白い新種ヘビ」をエチオピアで発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201680"
     },
     {
-      "doc_id": "itmedia-adb8bef4f81dbf42",
-      "title": "米Getty Imagesが破産申請へ AI画像の台頭で経営悪化、「報道写真」軸に年内の再建目指す",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002234/"
-    },
-    {
-      "doc_id": "itmedia-7051b2ffd8cf7dea",
-      "title": "キャッシュレスサービス「IDARE」、約13万人の個人情報漏えい 残高や取引履歴なども",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002233/"
-    },
-    {
-      "doc_id": "itmedia-a8a983112c8be68b",
-      "title": "相次ぐ情報漏えいの一因に「A2B攻撃」 公開アプリを解析し裏側のサーバを狙う手口、NICTが公表",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002230/"
-    },
-    {
-      "doc_id": "itmedia-d2951218a4b45abf",
-      "title": "「銀のさら」など、最大650万件の個人情報漏えいの恐れ アプリ注文も停止中 委託先サーバがランサム被害に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002232/"
-    },
-    {
-      "doc_id": "itmedia-a14f64d1f36c3c94",
-      "title": "PayPay証券、障害で日本株・ETFが売買できず 14日の予約注文も受付止まる 復旧めど立たず",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002225/"
-    },
-    {
-      "doc_id": "itmedia-517faf07474154f2",
-      "title": "国産AI「Sarashina」が無料で試せるWebサイト、ソフトバンク子会社が公開 6つのAIモデルが呼び出せるAPIも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/13/2000002224/"
+      "doc_id": "nazology-698606723db5955a",
+      "title": "深海で採取された岩が実験室の中で自然発火した",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201719"
     },
     {
       "doc_id": "nazology-905ee31bf0434a09",
@@ -278,18 +290,6 @@
       "title": "ウイルスの中に「人の脳の遺伝子」のDNAを発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201266"
-    },
-    {
-      "doc_id": "nazology-c27eff250233f6c1",
-      "title": "長年の謎だった「ダイヤモンドが溶ける条件」が判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201276"
-    },
-    {
-      "doc_id": "nazology-b896e81131a82114",
-      "title": "名前に相撲の「軍配」をもつ虫、小笠原諸島で新種を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201318"
     }
   ]
 }
