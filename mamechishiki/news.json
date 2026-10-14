@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-14T06:13:09+00:00",
-  "now_ms": 1791958389140,
+  "fetched_at": "2026-10-14T11:59:44+00:00",
+  "now_ms": 1791979184742,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,106 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-e0367ede3f845a6a",
-      "title": "ハッカー集団Qilin AI利用と主張",
+      "doc_id": "yahoo-41b746a0b919e00d",
+      "title": "農相「これ以上迷惑かけられず」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598729"
+      "link": "https://news.yahoo.co.jp/pickup/6598770"
     },
     {
-      "doc_id": "yahoo-deb9a4b4d6cc24f6",
-      "title": "ウのEU加盟 ハンガリー反対撤回",
+      "doc_id": "yahoo-050e88fcf744026b",
+      "title": "名前を変える大学が増加 背景は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598724"
+      "link": "https://news.yahoo.co.jp/pickup/6598774"
     },
     {
-      "doc_id": "yahoo-d080d19d81cd9d96",
-      "title": "給食に「貧相すぎ」と批判 市回答",
+      "doc_id": "yahoo-85b0f6c5cbc877a5",
+      "title": "プール授業中に溺死 元担任も有罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598715"
+      "link": "https://news.yahoo.co.jp/pickup/6598763"
     },
     {
-      "doc_id": "yahoo-ffa82468c6913a5d",
-      "title": "積み荷はニワトリ3000羽 崩れ散乱",
+      "doc_id": "yahoo-e1cfc6150720839d",
+      "title": "警察官がひき逃げ疑い 書類送検",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598727"
+      "link": "https://news.yahoo.co.jp/pickup/6598767"
     },
     {
-      "doc_id": "yahoo-91645c7fb8564945",
-      "title": "イオン系スーパー100店閉店 なぜ",
+      "doc_id": "yahoo-2f62a0a2f3fed933",
+      "title": "がんでカツラ 1人で遺影撮った妻",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598728"
+      "link": "https://news.yahoo.co.jp/pickup/6598775"
     },
     {
-      "doc_id": "yahoo-5bf7d154e1cc1516",
-      "title": "ディズニー 客船名はIMAGINATION",
+      "doc_id": "yahoo-bacd989cbe5ee78a",
+      "title": "速報CSファイナル 阪神vs.DeNA",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598705"
+      "link": "https://news.yahoo.co.jp/pickup/6598771"
     },
     {
-      "doc_id": "yahoo-542ee3994cfdc148",
-      "title": "ミス〇〇大使 中止や終了相次ぐ",
+      "doc_id": "yahoo-cc26e606300e3a8e",
+      "title": "豊崎由里絵アナ 第3子出産を報告",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598725"
+      "link": "https://news.yahoo.co.jp/pickup/6598773"
     },
     {
-      "doc_id": "yahoo-ad94c5f1fa2356a1",
-      "title": "我が家・杉山裕之さん 万引き疑い",
+      "doc_id": "yahoo-9675794dc946180f",
+      "title": "我が家・杉山の謹慎を事務所発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598714"
-    },
-    {
-      "doc_id": "jiji-1b5588d0bc2964e7",
-      "title": "「我が家」杉山メンバーが万引き容疑 スーパーで、書類送検―警視庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400539&g=soc"
-    },
-    {
-      "doc_id": "jiji-6726f59821161316",
-      "title": "駐ギリシャ米大使を事実上解任 トランプ氏長男の元婚約者",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400288&g=int"
-    },
-    {
-      "doc_id": "jiji-dd1cbe34ab315901",
-      "title": "高市首相、簗氏に「説明尽くせ」 バス疑惑の判断留保―衆院予算委",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400305&g=pol"
-    },
-    {
-      "doc_id": "jiji-aab59f212f87164d",
-      "title": "ロシア、北海道新聞記者を「スパイ容疑」で拘束 動員兵の情報収集と主張―「日本が記者利用」と遺憾表明",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400156&g=int"
-    },
-    {
-      "doc_id": "jiji-d33ff48bc4ee200b",
-      "title": "サウジ国有石油本社に攻撃 フーシ派、報復主張",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400216&g=int"
-    },
-    {
-      "doc_id": "jiji-a35386fa51b5a385",
-      "title": "黒井千次さん死去、９４歳 「内向の世代」の作家",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400612&g=soc"
-    },
-    {
-      "doc_id": "jiji-ed27afe13a5bce0f",
-      "title": "簗農水相「全力で職責を全うしたい」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400545&g=pol"
-    },
-    {
-      "doc_id": "jiji-13df93a09d0e9362",
-      "title": "中国輸出、過去最大 米欧と摩擦も、ＡＩ好調―９月",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400528&g=int"
-    },
-    {
-      "doc_id": "jiji-43bef5a98f749003",
-      "title": "中朝間の新大橋、１５日開通 式典開催へ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400480&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6598766"
     },
     {
       "doc_id": "jiji-097b654ee413455c",
@@ -118,46 +64,124 @@
       "link": "https://www.jiji.com/jc/article?k=2026101400684&g=spo"
     },
     {
-      "doc_id": "nhk-8f26f4f216459280",
-      "title": "高市首相 バス送迎“法令違反か否かは当局判断 簗大臣説明を”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58993"
+      "doc_id": "jiji-27c22be14ce79bac",
+      "title": "化粧など「男性より時間かかる」 高市首相、国会審議巡り吐露",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
     },
     {
-      "doc_id": "nhk-2ad36b8f2df2f3fb",
-      "title": "ロシアが北海道新聞記者をスパイ容疑で拘束 長期化の懸念も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261013de58917"
+      "doc_id": "jiji-555943ca95632635",
+      "title": "簗農水相が辞表",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401069&g=pol"
     },
     {
-      "doc_id": "nhk-31ed5a1d49d482c5",
-      "title": "中国 9月消費者物価指数 前月比やや拡大も3か月連続1％下回る",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59167"
+      "doc_id": "jiji-f007666c07ded8b5",
+      "title": "販売ペットに無資格注射か チワワなど７匹死ぬ、４人逮捕―大阪府警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400885&g=soc"
     },
     {
-      "doc_id": "nhk-9c6f470a5a3337d8",
-      "title": "「ゆめタウン」展開のイズミ 最大約40万件漏えいの可能性",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59111"
+      "doc_id": "jiji-69e0e3d702ba602e",
+      "title": "簗（やな）農水相は高市首相に辞表を提出した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401060&g=flash"
     },
     {
-      "doc_id": "nhk-0ca285b9becb525a",
-      "title": "ドジャース大谷翔平 第3戦先発へ「信じてくれる人のために」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58989"
+      "doc_id": "jiji-aab59f212f87164d",
+      "title": "ロシア、道新記者を「スパイ容疑」で拘束 動員兵の情報収集と主張―日本政府は抗議",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400156&g=int"
     },
     {
-      "doc_id": "nhk-6935b1c1d7c8bec1",
-      "title": "ア・リーグ優勝決定シリーズ 第2戦はレイズが勝ち1勝1敗に",
+      "doc_id": "jiji-b7bfe3ff367d9914",
+      "title": "邦人拘束でロシアに抗議 日本政府",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401043&g=pol"
+    },
+    {
+      "doc_id": "jiji-caf29db7f2ff2beb",
+      "title": "簗（やな）農水相は自身の進退について「全力で職責を全うしたい」と述べた",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400540&g=flash"
+    },
+    {
+      "doc_id": "jiji-3f611d37c9466f69",
+      "title": "元検事正、２７日公判再開 部下への性暴力、無罪主張へ―大阪地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401001&g=soc"
+    },
+    {
+      "doc_id": "jiji-7ada4fc361a783ac",
+      "title": "支援金対象、２０００万人を例示 高市首相「所得上限は今後検討」―衆院予算委",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400773&g=pol"
+    },
+    {
+      "doc_id": "nhk-21776a8df8a9a806",
+      "title": "【詳細】簗農相 辞表提出 道路予算発言など問題指摘の中",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59173"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59049"
+    },
+    {
+      "doc_id": "nhk-ce5ecce7b3ef3767",
+      "title": "投稿動画で会社元代表の名誉を毀損か ユーチューバー逮捕",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59291"
+    },
+    {
+      "doc_id": "nhk-b8f78d3363d21a28",
+      "title": "止まらない個人情報漏えい 警察でも漏えいの可能性明らかに",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59388"
+    },
+    {
+      "doc_id": "nhk-033e05c853e9590f",
+      "title": "共同創業者 単独インタで語った“AIの未来”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59160"
+    },
+    {
+      "doc_id": "nhk-177486030344713d",
+      "title": "「内向の世代」を代表する作家 黒井千次さん死去",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59427"
+    },
+    {
+      "doc_id": "nhk-107c6c629cee217c",
+      "title": "渋谷区マンション建設 工事停止の申し立て 2審は退ける",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59164"
     },
     {
       "doc_id": "nhk-a8118b5ea9eee818",
-      "title": "北海道は暴風警戒 東日本では大気不安定",
+      "title": "北海道は日本海側を中心に暴風警戒 あすは東北も大気不安定",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261014de58942"
+    },
+    {
+      "doc_id": "itmedia-5d9e3a3db8bf9bb1",
+      "title": "デジハリ大、「Claude」を全学導入へ──国内初、“回数気にせず”使い放題に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002278/"
+    },
+    {
+      "doc_id": "itmedia-dd1ff3808b96bdf1",
+      "title": "小中学校の校務に“自前運用”の国産LLM NTT西と茨木市が全国初の実証",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002276/"
+    },
+    {
+      "doc_id": "itmedia-e96b13e7946b7a03",
+      "title": "化粧品販売「アエナ」約81万人分の個人情報流出か 氏名やクレカ下4ケタ・有効期限など",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002268/"
+    },
+    {
+      "doc_id": "itmedia-4bd78a7c04bce081",
+      "title": "露やイランなど外国勢力の脅威「過去10年間で4倍増」と英MI5長官、AI悪用も警告",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002259/"
     },
     {
       "doc_id": "itmedia-7ccc985d00ddb740",
@@ -208,28 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002240/"
     },
     {
-      "doc_id": "itmedia-0351dc0b84d73b64",
-      "title": "JR東海、ECサイトの顧客情報約1.5万件漏えいか IDCFへの不正アクセスで「閲覧された可能性を否定できない」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002237/"
-    },
-    {
-      "doc_id": "itmedia-0ceb17154c9470cc",
-      "title": "さいたま市や横須賀市など、防災情報配信システムに不正アクセス 全国でメアド最大313万漏えいか",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002239/"
-    },
-    {
-      "doc_id": "itmedia-d87a7f5d60bfa390",
-      "title": "Character.ai、米連邦破産法11条を申請 Disney系が一部IPのライセンス取得で先行入札",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002238/"
-    },
-    {
-      "doc_id": "itmedia-a77939c8f09544b9",
-      "title": "OpenAI従業員、役員会議室に録音装置を仕掛けた疑いでFBIが逮捕",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002236/"
+      "doc_id": "nazology-87d64a860b134f51",
+      "title": "音楽家は「腹話術の錯覚」にだまされにくい",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201924"
     },
     {
       "doc_id": "nazology-14ba5e1a3a972c4b",
@@ -284,12 +290,6 @@
       "title": "数学者が「ほつれが途中で止まる」編み方を発明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201306"
-    },
-    {
-      "doc_id": "nazology-4b509f255e67642f",
-      "title": "ウイルスの中に「人の脳の遺伝子」のDNAを発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201266"
     }
   ]
 }
