@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-14T11:59:44+00:00",
-  "now_ms": 1791979184742,
+  "fetched_at": "2026-10-14T17:14:51+00:00",
+  "now_ms": 1791998091143,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,34 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-41b746a0b919e00d",
-      "title": "農相「これ以上迷惑かけられず」",
+      "doc_id": "yahoo-a8f4a80dbeb2a83e",
+      "title": "農相辞表 内閣改造後わずか1カ月",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598770"
+      "link": "https://news.yahoo.co.jp/pickup/6598790"
     },
     {
-      "doc_id": "yahoo-050e88fcf744026b",
-      "title": "名前を変える大学が増加 背景は",
+      "doc_id": "yahoo-3664145153b69443",
+      "title": "海峡で機雷接触の貨物船沈没 報道",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598774"
+      "link": "https://news.yahoo.co.jp/pickup/6598794"
     },
     {
-      "doc_id": "yahoo-85b0f6c5cbc877a5",
-      "title": "プール授業中に溺死 元担任も有罪",
+      "doc_id": "yahoo-35612186b712f918",
+      "title": "道新記者の拘束 日本政府に衝撃",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598763"
+      "link": "https://news.yahoo.co.jp/pickup/6598791"
     },
     {
-      "doc_id": "yahoo-e1cfc6150720839d",
-      "title": "警察官がひき逃げ疑い 書類送検",
+      "doc_id": "yahoo-5f6ad69c2c934f29",
+      "title": "新宿109KENZO 池田容疑者を逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598767"
+      "link": "https://news.yahoo.co.jp/pickup/6598783"
+    },
+    {
+      "doc_id": "yahoo-33f7322a0e4dbafd",
+      "title": "万博未払い アンゴラ異例対応の訳",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6598795"
     },
     {
       "doc_id": "yahoo-2f62a0a2f3fed933",
@@ -40,16 +46,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6598775"
     },
     {
-      "doc_id": "yahoo-bacd989cbe5ee78a",
-      "title": "速報CSファイナル 阪神vs.DeNA",
+      "doc_id": "yahoo-3d522f105c624bc1",
+      "title": "阪神・村上 ベンチでうなだれる",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598771"
-    },
-    {
-      "doc_id": "yahoo-cc26e606300e3a8e",
-      "title": "豊崎由里絵アナ 第3子出産を報告",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598773"
+      "link": "https://news.yahoo.co.jp/pickup/6598787"
     },
     {
       "doc_id": "yahoo-9675794dc946180f",
@@ -58,10 +58,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6598766"
     },
     {
-      "doc_id": "jiji-097b654ee413455c",
-      "title": "松本正志さん死去 元プロ野球投手",
+      "doc_id": "jiji-5fd2059b82db7598",
+      "title": "ユーチューバー「ＫＥＮＺＯ」逮捕 名誉毀損容疑、被害者死去―京都府警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400684&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101401214&g=soc"
     },
     {
       "doc_id": "jiji-27c22be14ce79bac",
@@ -70,22 +70,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
     },
     {
-      "doc_id": "jiji-555943ca95632635",
-      "title": "簗農水相が辞表",
+      "doc_id": "jiji-c1ac6d0c2e338174",
+      "title": "宮部みゆきさんら１７００人招待 ２９日に秋の園遊会―宮内庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401069&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101500004&g=soc"
     },
     {
-      "doc_id": "jiji-f007666c07ded8b5",
-      "title": "販売ペットに無資格注射か チワワなど７匹死ぬ、４人逮捕―大阪府警",
+      "doc_id": "jiji-8871a7d24b3a4071",
+      "title": "ソフトバンクの野村が右肘手術 プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400885&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101401296&g=spo"
     },
     {
-      "doc_id": "jiji-69e0e3d702ba602e",
-      "title": "簗（やな）農水相は高市首相に辞表を提出した",
+      "doc_id": "jiji-d84d778460cd4d4d",
+      "title": "野党「首相の責任」一斉批判 簗氏辞任受け、関文科相にも照準",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401060&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026101401151&g=pol"
+    },
+    {
+      "doc_id": "jiji-ed99716ab13e4ec8",
+      "title": "高市首相はＩＣＣについて「今後も支持する」と述べた",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101300327&g=flash"
+    },
+    {
+      "doc_id": "jiji-0ab2a5055d3cd03d",
+      "title": "公明、統一選協力解消 民主改革・立民に伝達",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401191&g=pol"
     },
     {
       "doc_id": "jiji-aab59f212f87164d",
@@ -94,28 +106,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026101400156&g=int"
     },
     {
-      "doc_id": "jiji-b7bfe3ff367d9914",
-      "title": "邦人拘束でロシアに抗議 日本政府",
+      "doc_id": "jiji-4883ebb3aacd77c3",
+      "title": "中国空母、戦闘機発着艦 沖縄通過後、石垣島南方で―防衛省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401043&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101401193&g=soc"
     },
     {
-      "doc_id": "jiji-caf29db7f2ff2beb",
-      "title": "簗（やな）農水相は自身の進退について「全力で職責を全うしたい」と述べた",
+      "doc_id": "jiji-2eabe62a5a5cc869",
+      "title": "高市首相、簗農水相を更迭 就任後初、政権に打撃―公選法違反疑惑受け",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400540&g=flash"
-    },
-    {
-      "doc_id": "jiji-3f611d37c9466f69",
-      "title": "元検事正、２７日公判再開 部下への性暴力、無罪主張へ―大阪地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401001&g=soc"
-    },
-    {
-      "doc_id": "jiji-7ada4fc361a783ac",
-      "title": "支援金対象、２０００万人を例示 高市首相「所得上限は今後検討」―衆院予算委",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400773&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101400736&g=pol"
     },
     {
       "doc_id": "nhk-21776a8df8a9a806",
@@ -136,28 +136,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261014de59388"
     },
     {
+      "doc_id": "nhk-790b374dda91bce8",
+      "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458"
+    },
+    {
+      "doc_id": "nhk-21d94d00bba6e4b3",
+      "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59475"
+    },
+    {
       "doc_id": "nhk-033e05c853e9590f",
       "title": "共同創業者 単独インタで語った“AIの未来”",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261014de59160"
     },
     {
-      "doc_id": "nhk-177486030344713d",
-      "title": "「内向の世代」を代表する作家 黒井千次さん死去",
+      "doc_id": "nhk-0ca285b9becb525a",
+      "title": "ドジャース大谷翔平 第3戦先発へ「信じてくれる人のために」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59427"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58989"
     },
     {
-      "doc_id": "nhk-107c6c629cee217c",
-      "title": "渋谷区マンション建設 工事停止の申し立て 2審は退ける",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59164"
-    },
-    {
-      "doc_id": "nhk-a8118b5ea9eee818",
-      "title": "北海道は日本海側を中心に暴風警戒 あすは東北も大気不安定",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58942"
+      "doc_id": "itmedia-e345ef443ae1004e",
+      "title": "Google、待望の新AIモデル「Gemini 4 Argon」一般提供を開始 推論の継続力を強化 一部ベンチでトップに",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002265/"
     },
     {
       "doc_id": "itmedia-5d9e3a3db8bf9bb1",
@@ -224,12 +230,6 @@
       "title": "ブックオフ漏えい、退会者21万人も対象 個人情報638万人分の外部送信を確認",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002243/"
-    },
-    {
-      "doc_id": "itmedia-9c17d3cb2d4fda0b",
-      "title": "「Google Play」、AI Studioで作った自作アプリを自分の端末で実行可能に AIでゲームを探す機能も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002240/"
     },
     {
       "doc_id": "nazology-87d64a860b134f51",
