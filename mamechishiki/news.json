@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-14T20:45:22+00:00",
-  "now_ms": 1792010722607,
+  "fetched_at": "2026-10-14T23:56:56+00:00",
+  "now_ms": 1792022216417,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a8f4a80dbeb2a83e",
-      "title": "農相辞表 内閣改造後わずか1カ月",
+      "doc_id": "yahoo-fe77b9c682edc847",
+      "title": "農相辞任「当然」地元有権者怒り",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598790"
+      "link": "https://news.yahoo.co.jp/pickup/6598798"
     },
     {
-      "doc_id": "yahoo-3664145153b69443",
-      "title": "海峡で機雷接触の貨物船沈没 報道",
+      "doc_id": "yahoo-d8500f1f00117f50",
+      "title": "AIが自己改善「超知能」に危機感",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598794"
+      "link": "https://news.yahoo.co.jp/pickup/6598809"
     },
     {
-      "doc_id": "yahoo-35612186b712f918",
-      "title": "道新記者の拘束 日本政府に衝撃",
+      "doc_id": "yahoo-39285dd19cc0267d",
+      "title": "米上場の半導体株 下落止まらず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598791"
+      "link": "https://news.yahoo.co.jp/pickup/6598805"
     },
     {
-      "doc_id": "yahoo-5f6ad69c2c934f29",
-      "title": "新宿109KENZO 池田容疑者を逮捕",
+      "doc_id": "yahoo-534529c793445945",
+      "title": "ネトフリ 従業員約1000人を削減へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598783"
+      "link": "https://news.yahoo.co.jp/pickup/6598797"
     },
     {
-      "doc_id": "yahoo-33f7322a0e4dbafd",
-      "title": "万博未払い アンゴラ異例対応の訳",
+      "doc_id": "yahoo-9bff9b8a9871ab22",
+      "title": "区に個人が1億円寄付 進学支援へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598795"
+      "link": "https://news.yahoo.co.jp/pickup/6598810"
     },
     {
-      "doc_id": "yahoo-2f62a0a2f3fed933",
-      "title": "がんでカツラ 1人で遺影撮った妻",
+      "doc_id": "yahoo-bd353de63c427f35",
+      "title": "大谷は昨夜遅くまで練習 監督言及",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598775"
+      "link": "https://news.yahoo.co.jp/pickup/6598803"
     },
     {
-      "doc_id": "yahoo-3d522f105c624bc1",
-      "title": "阪神・村上 ベンチでうなだれる",
+      "doc_id": "yahoo-fb0acba85b9735a5",
+      "title": "織田翔希 MLB挑戦の意向固めたか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598787"
+      "link": "https://news.yahoo.co.jp/pickup/6598796"
     },
     {
-      "doc_id": "yahoo-9675794dc946180f",
-      "title": "我が家・杉山の謹慎を事務所発表",
+      "doc_id": "yahoo-63e3f4a11ae280f9",
+      "title": "千と千尋・世界公演 千尋役は7人",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598766"
+      "link": "https://news.yahoo.co.jp/pickup/6598807"
     },
     {
       "doc_id": "jiji-5fd2059b82db7598",
@@ -64,16 +64,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026101401214&g=soc"
     },
     {
-      "doc_id": "jiji-371fe89a2c480b6d",
-      "title": "「辞めて済む話ではない」 高市首相の任命責任問う声も―簗農水相辞任で有識者",
+      "doc_id": "jiji-d84d778460cd4d4d",
+      "title": "野党「首相の責任」一斉批判 簗氏辞任受け、関文科相にも照準",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401145&g=pol"
-    },
-    {
-      "doc_id": "jiji-329b77c9313df82a",
-      "title": "ポルトガル航空株、独ルフトハンザに売却決定 ２８年の完全民営化目指す",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500075&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101401151&g=pol"
     },
     {
       "doc_id": "jiji-27c22be14ce79bac",
@@ -82,22 +76,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
     },
     {
+      "doc_id": "jiji-328b66aa8913dcd0",
+      "title": "簗氏更迭、首相後手否めず 疑惑続出・野党攻勢で白旗―野党は任命責任追及へ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401140&g=pol"
+    },
+    {
+      "doc_id": "jiji-d27e154e8d02cc85",
+      "title": "「超知能」、高まる危機感 ＡＩ「自己改善」で制御不能も―開発減速、国際協調は難路",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400772&g=int"
+    },
+    {
       "doc_id": "jiji-2eabe62a5a5cc869",
       "title": "高市首相、簗農水相を更迭 就任後初、政権に打撃―公選法違反疑惑受け",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101400736&g=pol"
     },
     {
-      "doc_id": "jiji-ed99716ab13e4ec8",
-      "title": "高市首相はＩＣＣについて「今後も支持する」と述べた",
+      "doc_id": "jiji-e6618e97a5a070c7",
+      "title": "たばこの吸い殻、どう判断 王将社長射殺、１６日判決―京都地裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101300327&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026101400707&g=soc"
     },
     {
-      "doc_id": "jiji-ecef62516df6b915",
-      "title": "簗（やな）農林水産相が高市首相の執務室に入った",
+      "doc_id": "jiji-936a037fe3b8e99e",
+      "title": "ＮＹ株続落、ナスダック５１１ポイント安 物価上振れでハイテク銘柄不振",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401040&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026101500146&g=int"
     },
     {
       "doc_id": "jiji-0ab2a5055d3cd03d",
@@ -106,16 +112,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026101401191&g=pol"
     },
     {
-      "doc_id": "jiji-d84d778460cd4d4d",
-      "title": "野党「首相の責任」一斉批判 簗氏辞任受け、関文科相にも照準",
+      "doc_id": "jiji-6dbae0b7f1b03fd2",
+      "title": "邦人記者拘束、日ロの緊張反映か 長期化の恐れも―ロシア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401151&g=pol"
-    },
-    {
-      "doc_id": "jiji-4883ebb3aacd77c3",
-      "title": "中国空母、戦闘機発着艦 沖縄通過後、石垣島南方で―防衛省",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401193&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101400890&g=soc"
     },
     {
       "doc_id": "nhk-85408b5be367239c",
@@ -124,40 +124,40 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de59520"
     },
     {
-      "doc_id": "nhk-ad56405dc43205d3",
-      "title": "簗農相辞表提出で農業政策への影響避けられず",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59519"
-    },
-    {
       "doc_id": "nhk-1a68a311a49df452",
       "title": "北海道新聞記者の拘束受けて状況などの確認急ぐ 日本政府",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de59523"
     },
     {
-      "doc_id": "nhk-790b374dda91bce8",
-      "title": "国内初 遠隔で手術ロボット操作し支援 弘前大など",
+      "doc_id": "nhk-60e92d5efcf3ff68",
+      "title": "ドジャース×ブルワーズ リーグ優勝決定S第3戦【午前9時開始】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59178"
     },
     {
-      "doc_id": "nhk-46afe544f3cc87ce",
-      "title": "漫画家が出版社を提訴 “出版権は消滅”確認を求める",
+      "doc_id": "nhk-22690b5fd86cbe5a",
+      "title": "G20 財務相・中央銀行総裁会議 15日開幕へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59459"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59525"
     },
     {
-      "doc_id": "nhk-21776a8df8a9a806",
-      "title": "【詳細】簗農相 辞表提出 道路予算発言など問題指摘の中",
+      "doc_id": "nhk-c6e2d21f904504cf",
+      "title": "警察庁 米マイクロソフトと連携しネット犯罪サービスを無害化",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59049"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59421"
     },
     {
-      "doc_id": "nhk-0ca285b9becb525a",
-      "title": "ドジャース大谷翔平 第3戦先発へ「信じてくれる人のために」",
+      "doc_id": "nhk-c9388d3af74d5459",
+      "title": "米半導体企業 最大3兆円規模で新工場建設へ 日米合意に基づき",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de58989"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59529"
+    },
+    {
+      "doc_id": "nhk-25d7245217c4c8eb",
+      "title": "秋の園遊会 招待者決まる 宮部みゆきさんや吉田鋼太郎さんなど",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59522"
     },
     {
       "doc_id": "itmedia-e345ef443ae1004e",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002243/"
     },
     {
+      "doc_id": "nazology-7674b57d93fe0de3",
+      "title": "幻覚剤で脳は「混乱」するどころか、「整然」と動いていたと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201717"
+    },
+    {
       "doc_id": "nazology-87d64a860b134f51",
       "title": "音楽家は「腹話術の錯覚」にだまされにくい",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "首絞めセックスの「4つの誤解」",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/174990"
-    },
-    {
-      "doc_id": "nazology-01504a1fbfe6c178",
-      "title": "数学者が「ほつれが途中で止まる」編み方を発明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201306"
     }
   ]
 }
