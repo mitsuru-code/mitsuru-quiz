@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-14T17:14:51+00:00",
-  "now_ms": 1791998091143,
+  "fetched_at": "2026-10-14T20:45:22+00:00",
+  "now_ms": 1792010722607,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -64,52 +64,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026101401214&g=soc"
     },
     {
+      "doc_id": "jiji-371fe89a2c480b6d",
+      "title": "「辞めて済む話ではない」 高市首相の任命責任問う声も―簗農水相辞任で有識者",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401145&g=pol"
+    },
+    {
+      "doc_id": "jiji-329b77c9313df82a",
+      "title": "ポルトガル航空株、独ルフトハンザに売却決定 ２８年の完全民営化目指す",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500075&g=int"
+    },
+    {
       "doc_id": "jiji-27c22be14ce79bac",
       "title": "化粧など「男性より時間かかる」 高市首相、国会審議巡り吐露",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
-    },
-    {
-      "doc_id": "jiji-c1ac6d0c2e338174",
-      "title": "宮部みゆきさんら１７００人招待 ２９日に秋の園遊会―宮内庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500004&g=soc"
-    },
-    {
-      "doc_id": "jiji-8871a7d24b3a4071",
-      "title": "ソフトバンクの野村が右肘手術 プロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401296&g=spo"
-    },
-    {
-      "doc_id": "jiji-d84d778460cd4d4d",
-      "title": "野党「首相の責任」一斉批判 簗氏辞任受け、関文科相にも照準",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401151&g=pol"
-    },
-    {
-      "doc_id": "jiji-ed99716ab13e4ec8",
-      "title": "高市首相はＩＣＣについて「今後も支持する」と述べた",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101300327&g=flash"
-    },
-    {
-      "doc_id": "jiji-0ab2a5055d3cd03d",
-      "title": "公明、統一選協力解消 民主改革・立民に伝達",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401191&g=pol"
-    },
-    {
-      "doc_id": "jiji-aab59f212f87164d",
-      "title": "ロシア、道新記者を「スパイ容疑」で拘束 動員兵の情報収集と主張―日本政府は抗議",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400156&g=int"
-    },
-    {
-      "doc_id": "jiji-4883ebb3aacd77c3",
-      "title": "中国空母、戦闘機発着艦 沖縄通過後、石垣島南方で―防衛省",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401193&g=soc"
     },
     {
       "doc_id": "jiji-2eabe62a5a5cc869",
@@ -118,22 +88,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026101400736&g=pol"
     },
     {
-      "doc_id": "nhk-21776a8df8a9a806",
-      "title": "【詳細】簗農相 辞表提出 道路予算発言など問題指摘の中",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59049"
+      "doc_id": "jiji-ed99716ab13e4ec8",
+      "title": "高市首相はＩＣＣについて「今後も支持する」と述べた",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101300327&g=flash"
     },
     {
-      "doc_id": "nhk-ce5ecce7b3ef3767",
-      "title": "投稿動画で会社元代表の名誉を毀損か ユーチューバー逮捕",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59291"
+      "doc_id": "jiji-ecef62516df6b915",
+      "title": "簗（やな）農林水産相が高市首相の執務室に入った",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401040&g=flash"
     },
     {
-      "doc_id": "nhk-b8f78d3363d21a28",
-      "title": "止まらない個人情報漏えい 警察でも漏えいの可能性明らかに",
+      "doc_id": "jiji-0ab2a5055d3cd03d",
+      "title": "公明、統一選協力解消 民主改革・立民に伝達",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401191&g=pol"
+    },
+    {
+      "doc_id": "jiji-d84d778460cd4d4d",
+      "title": "野党「首相の責任」一斉批判 簗氏辞任受け、関文科相にも照準",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401151&g=pol"
+    },
+    {
+      "doc_id": "jiji-4883ebb3aacd77c3",
+      "title": "中国空母、戦闘機発着艦 沖縄通過後、石垣島南方で―防衛省",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101401193&g=soc"
+    },
+    {
+      "doc_id": "nhk-85408b5be367239c",
+      "title": "簗農相辞表提出 首相きょう後任決定方針 野党は任命責任追及へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59388"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59520"
+    },
+    {
+      "doc_id": "nhk-ad56405dc43205d3",
+      "title": "簗農相辞表提出で農業政策への影響避けられず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59519"
+    },
+    {
+      "doc_id": "nhk-1a68a311a49df452",
+      "title": "北海道新聞記者の拘束受けて状況などの確認急ぐ 日本政府",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59523"
     },
     {
       "doc_id": "nhk-790b374dda91bce8",
@@ -142,16 +142,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261014de59458"
     },
     {
-      "doc_id": "nhk-21d94d00bba6e4b3",
-      "title": "中国軍の空母が太平洋に向けて航行 戦闘機の発着も",
+      "doc_id": "nhk-46afe544f3cc87ce",
+      "title": "漫画家が出版社を提訴 “出版権は消滅”確認を求める",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59475"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59459"
     },
     {
-      "doc_id": "nhk-033e05c853e9590f",
-      "title": "共同創業者 単独インタで語った“AIの未来”",
+      "doc_id": "nhk-21776a8df8a9a806",
+      "title": "【詳細】簗農相 辞表提出 道路予算発言など問題指摘の中",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59160"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59049"
     },
     {
       "doc_id": "nhk-0ca285b9becb525a",
