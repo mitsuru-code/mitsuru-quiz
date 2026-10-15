@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-15T19:11:28+00:00",
-  "now_ms": 1792091488152,
+  "fetched_at": "2026-10-15T22:22:31+00:00",
+  "now_ms": 1792102951585,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -22,10 +22,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6598926"
     },
     {
-      "doc_id": "yahoo-4bfb5a15f1a5e161",
-      "title": "洗濯機が発火恐れ パナがリコール",
+      "doc_id": "yahoo-52299a8d24a9aad2",
+      "title": "トランプ氏 銃殺刑の配信計画中止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598928"
+      "link": "https://news.yahoo.co.jp/pickup/6598936"
     },
     {
       "doc_id": "yahoo-36847ca3a4b66193",
@@ -34,10 +34,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6598927"
     },
     {
-      "doc_id": "yahoo-1f8348fae722c6f6",
-      "title": "ヤンバルクイナの人工授精 初成功",
+      "doc_id": "yahoo-ccdade50f555f919",
+      "title": "風俗店勤務要求疑い 元ホスト逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598918"
+      "link": "https://news.yahoo.co.jp/pickup/6598939"
     },
     {
       "doc_id": "yahoo-e3e6629060232f0c",
@@ -46,16 +46,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6598934"
     },
     {
-      "doc_id": "yahoo-d737c6306434937e",
-      "title": "元代表MF三浦淳宏氏 イベで重傷",
+      "doc_id": "yahoo-7571055b71accf0b",
+      "title": "阪神監督 負傷交代の森下に言及",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598930"
+      "link": "https://news.yahoo.co.jp/pickup/6598938"
     },
     {
-      "doc_id": "yahoo-22a084c2bcc8fb2b",
-      "title": "櫻井翔 難民報道ディレクター就任",
+      "doc_id": "yahoo-85fc5d54b12abc51",
+      "title": "鈴木福 役作りで人生初の金髪に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598923"
+      "link": "https://news.yahoo.co.jp/pickup/6598935"
     },
     {
       "doc_id": "jiji-17c4977e952b0cee",
@@ -64,22 +64,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026101501040&g=soc"
     },
     {
+      "doc_id": "jiji-1a4d9e7537b18d0d",
+      "title": "内閣支持率４２％に下落 簗氏続投判断、８割問題視―時事世論調査",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
+    },
+    {
+      "doc_id": "jiji-4d5e67def3e7727c",
+      "title": "首相動静（１０月１５日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500225&g=pol"
+    },
+    {
       "doc_id": "jiji-5fd2059b82db7598",
       "title": "ユーチューバー「ＫＥＮＺＯ」逮捕 名誉毀損容疑、被害者死去―京都府警",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101401214&g=soc"
     },
     {
-      "doc_id": "jiji-014c11e36c763cae",
-      "title": "長引く森林火災、影響深刻化 インドネシア、エルニーニョ現象が拍車",
+      "doc_id": "jiji-295b316a3bcf6600",
+      "title": "「うるう秒」実質廃止決定 ずれ１時間まで許容―国際度量衡総会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500850&g=int"
-    },
-    {
-      "doc_id": "jiji-1a4d9e7537b18d0d",
-      "title": "内閣支持率４２％に下落 簗氏続投判断、８割問題視―時事世論調査",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101600154&g=soc"
     },
     {
       "doc_id": "jiji-10512991e2fd370b",
@@ -88,76 +94,70 @@
       "link": "https://www.jiji.com/jc/article?k=2026101500717&g=pol"
     },
     {
-      "doc_id": "jiji-942c6fdbe56d77d8",
-      "title": "「うるう秒」実質廃止決定 国際度量衡総会",
+      "doc_id": "jiji-85ac3da16f4f8199",
+      "title": "政府は午後５時半から新農水相の認証式を行うと発表した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101501270&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101500382&g=flash"
     },
     {
-      "doc_id": "jiji-503568826e309afa",
-      "title": "中国空母「遼寧」、南シナ海へ 石垣島南方で訓練実施―防衛省",
+      "doc_id": "jiji-ecef62516df6b915",
+      "title": "簗（やな）農林水産相が高市首相の執務室に入った",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101501185&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101401040&g=flash"
     },
     {
-      "doc_id": "jiji-f432d0ebbb83c5a1",
-      "title": "減税対案、５万円負担減 国民民主が原案",
+      "doc_id": "jiji-d3c65e1a15dd1005",
+      "title": "ＮＹ株、５５６ドル高 ナスダックは小幅上昇",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101501156&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101600156&g=int"
     },
     {
-      "doc_id": "jiji-fa75e2204e9d4d55",
-      "title": "日本側要求を拒絶 道新記者「ロシア法で捜査」―駐日大使",
+      "doc_id": "jiji-0c85dc856e313ec8",
+      "title": "農水相に武部新氏 高市首相、体制立て直し急ぐ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500910&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101500352&g=pol"
     },
     {
-      "doc_id": "jiji-129812f2282cf1de",
-      "title": "茂木氏、フーシ派の攻撃非難 サウジ外相と電話会談",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101501159&g=pol"
-    },
-    {
-      "doc_id": "nhk-657c5daeec46ebd2",
-      "title": "ソースネクスト 約2251万件の個人情報が流出か 不正アクセスで",
+      "doc_id": "nhk-e5d91cc031cad652",
+      "title": "台風30号 今後の情報に注意を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60043"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60169"
     },
     {
-      "doc_id": "nhk-daf7155f9aed6be0",
-      "title": "自民“消費税法案20日審議入り”民改“首相出席し審議充実を”",
+      "doc_id": "nhk-02b91d43cb626bc4",
+      "title": "与党“消費税早期審議入りを”野党“高市首相の任命責任追及”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60104"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60159"
     },
     {
-      "doc_id": "nhk-18a220d7e4cc4f4a",
-      "title": "武部氏 認証式を経て農相に就任 辞表提出の簗氏の後任に",
+      "doc_id": "nhk-f0fddb14117e7323",
+      "title": "「うるう秒」廃止決定 秒の新定義も検討へ 国際度量衡総会",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59560"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60174"
     },
     {
-      "doc_id": "nhk-fa4398296a59110a",
-      "title": "滋賀 日野町事件の再審に向け検察が証拠57点開示の意向",
+      "doc_id": "nhk-41014faecb55db1c",
+      "title": "トランプ大統領“死刑執行のライブ配信は中止”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60112"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60166"
     },
     {
-      "doc_id": "nhk-91f837e3508aed5d",
-      "title": "パキスタンの学校の屋根崩落 子どもなど33人死亡",
+      "doc_id": "nhk-2c3a2bbc0399df9b",
+      "title": "ドイツ市場開拓へ デパートで日本産のコメを試験販売",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60119"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60190"
     },
     {
-      "doc_id": "nhk-2832e3b1eaa1bf34",
-      "title": "「くまの子ウーフ」児童文学作家の神沢利子さん死去",
+      "doc_id": "nhk-1ab53c6934d34836",
+      "title": "“王将”社長射殺事件 暴力団幹部にきょう判決 京都地裁",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60137"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60144"
     },
     {
-      "doc_id": "nhk-1aa4dd161ff82a54",
-      "title": "脊髄損傷の再生医療製品 条件付きから初の本承認へ",
+      "doc_id": "nhk-1f56c79b69cf65cf",
+      "title": "EU、中国製ハイブリッド車などの輸入大幅制限へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60116"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60165"
     },
     {
       "doc_id": "itmedia-4cb94ee487112aa6",
