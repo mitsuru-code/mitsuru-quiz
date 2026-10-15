@@ -1,0 +1,603 @@
+"""教材動画（約1〜3分）を、場面画像＋ナレーション＋字幕＋BGMで作るスクリプト（教材動画生成スキル）。
+
+使い方（詳しくは PC手順.md）:
+    pip install -r requirements.txt
+    python make_video.py              # out/<slug>_YYYYMMDD_HHMM.mp4 を出力（1920x1080 / 30fps）
+    python make_video.py --preview    # 各場面の中間フレームを preview_NN.png に出力（API不要）
+    python make_video.py --check      # フォント・APIキー・音声1回分の合成を診断
+
+台本: script.json（タイトル・各場面の見出し／字幕／読み上げ文）
+画像: scenes/NN.png（NN=場面番号 00〜。jpg も可）。無い場面は scroll（絵巻などの1枚絵）をカメラで切り出すか、
+      それも無ければ見出しを大きく出した仮画面になる（画像なしでもプレビューできる）
+音声: Google Cloud Text-to-Speech（Chirp 3: HD）。.env の GOOGLE_TTS_API_KEY
+      （TTS_ENGINE=gemini と GEMINI_API_KEY で Gemini API。無料枠では音声生成不可）
+      合成結果は .cache/ に保存し、同じ文面・声なら API を再度呼ばない
+"""
+import base64
+import glob
+import hashlib
+import json
+import io
+import math
+import re
+import os
+import subprocess
+import sys
+import time
+import urllib.error
+import urllib.request
+import wave
+
+import imageio_ffmpeg
+import numpy as np
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from scipy import ndimage
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+
+KEY_SOURCE = {}
+
+
+def _load_dotenv():
+    """このフォルダの .env（KEY=VALUE 形式）を環境変数に取り込む。.env の値を優先する
+    （Windows の環境変数に古いキーが残っていても、.env に書いたキーが使われるように）"""
+    path = os.path.join(HERE, ".env")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8-sig") as fp:
+        for line in fp:
+            if "=" in line and not line.lstrip().startswith("#"):
+                k, v = line.split("=", 1)
+                k, v = k.strip(), v.strip().strip('"').strip("'")
+                if v:
+                    if k in os.environ and os.environ[k] != v:
+                        KEY_SOURCE[k] = ".env（Windows の環境変数の値より優先）"
+                    else:
+                        KEY_SOURCE[k] = ".env"
+                    os.environ[k] = v
+
+
+_load_dotenv()
+with open(os.path.join(HERE, "script.json"), encoding="utf-8-sig") as _fp:
+    SCRIPT = json.load(_fp)
+CACHE = os.path.join(HERE, ".cache")
+OUT_DIR = os.environ.get("VIDEO_OUT_DIR") or os.path.join(HERE, "out")  # Googleドライブ等の同期フォルダも指定可
+TTS_ENGINE = os.environ.get("TTS_ENGINE", "cloud").lower()  # cloud = Google Cloud TTS（Chirp 3: HD）/ gemini = Gemini API
+CLOUD_VOICE = os.environ.get("TTS_VOICE", "ja-JP-Chirp3-HD-Charon")
+CLOUD_URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
+TTS_MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")  # 旧 gemini-2.5-flash-preview-tts は廃止
+TTS_VOICE = os.environ.get("GEMINI_TTS_VOICE", "Charon")
+TTS_STYLE = os.environ.get("GEMINI_TTS_STYLE") or SCRIPT.get("tts_style", "教材動画のナレーターとして、落ち着いた温かい声で、ゆっくり自然な間をとって読んでください")
+API_BASE = "https://generativelanguage.googleapis.com/v1beta"
+SRC = os.path.join(HERE, SCRIPT["scroll"]) if SCRIPT.get("scroll") else None
+W, H, FPS, SR = 1920, 1080, 30, 44100
+LEAD, GAP, TAIL = 0.8, 1.6, 3.0  # 各場面の話し始めまでの間・話し終わり後の間・最後の余韻（秒）
+XFADE = 0.6  # 場面切り替えのクロスフェード（秒）
+
+# (見出し, 字幕, 読み上げ, カメラ) — カメラは scroll 画像のピクセル座標 [(区間内の割合, cx, cy, 横幅px), ...]
+SCENES = [(sc.get("head", ""), sc.get("sub", ""), sc.get("read") or sc.get("sub", ""), sc.get("camera"))
+          for sc in SCRIPT["scenes"]]
+
+C_INK = (40, 26, 14)
+C_PAPER = (243, 231, 204)
+C_GOLD = (226, 184, 92)
+
+
+# ---------------------------------------------------------------- 共通
+def ease(u):
+    u = min(max(u, 0.0), 1.0)
+    return u * u * (3 - 2 * u)
+
+
+def find_font(mincho=False):
+    pats = (["*ipamp*", "*ipam.*", "*NotoSerifCJK*", "*yumin*", "*msmincho*"] if mincho else [])
+    pats += ["*ipagp*", "*ipag.*", "*NotoSansCJK*", "*BIZ-UDGothic*", "*meiryo*", "*YuGoth*", "*msgothic*"]
+    dirs = ["/usr/share/fonts", "/usr/local/share/fonts", os.path.expanduser("~/.fonts"), "C:/Windows/Fonts"]
+    for p in pats:
+        for d in dirs:
+            hit = glob.glob(os.path.join(d, "**", p), recursive=True)
+            if hit:
+                return sorted(hit)[0]
+    sys.exit("日本語フォントが見つかりません（IPAフォント等を入れてください）")
+
+
+FONT = find_font()
+FONT_M = find_font(mincho=True)
+
+
+def font(size, mincho=False):
+    return ImageFont.truetype(FONT_M if mincho else FONT, size)
+
+
+# ---------------------------------------------------------------- 音声
+def _post_voice(x):
+    """前後の無音を詰め、低域のこもりを取り、発話ごとの音量をそろえる"""
+    from scipy.signal import butter, sosfiltfilt
+
+    idx = np.where(np.abs(x) > 0.01)[0]
+    if len(idx):
+        x = x[max(idx[0] - int(0.02 * SR), 0): idx[-1] + int(0.15 * SR)]
+    x = sosfiltfilt(butter(2, 70, "high", fs=SR, output="sos"), x)
+    rms = np.sqrt(np.mean(x[np.abs(x) > np.abs(x).max() * 0.05] ** 2)) + 1e-9
+    x = np.tanh(x / rms * 0.16 * 1.4) / 1.4
+    fade = int(0.02 * SR)
+    x[:fade] *= np.linspace(0, 1, fade)
+    x[-fade * 4:] *= np.linspace(1, 0, fade * 4)
+    return x
+
+
+def _api_key():
+    key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not key or key == "ここにAPIキー":
+        hint = "（.env.txt という名前になっています。拡張子 .txt を消して .env にしてください）" \
+            if os.path.exists(os.path.join(HERE, ".env.txt")) else "（.env の GEMINI_API_KEY= の後ろにキーを貼ってください）"
+        sys.exit("GEMINI_API_KEY が未設定です" + hint)
+    return key
+
+
+def _api(path, body=None):
+    """Gemini API を呼んで JSON を返す。429/500/503 は待って再試行する"""
+    data = json.dumps(body).encode() if body is not None else None
+    for attempt in range(5):
+        req = urllib.request.Request(f"{API_BASE}/{path}", data=data,
+                                     headers={"Content-Type": "application/json", "x-goog-api-key": _api_key()})
+        try:
+            with urllib.request.urlopen(req, timeout=180) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode("utf-8", "replace")[:600]
+            if e.code not in (429, 500, 503) or attempt == 4:
+                raise RuntimeError(f"HTTP {e.code}: {msg}") from None
+            wait = 20 * (attempt + 1)
+            print(f"  HTTP {e.code}（混雑・回数制限）: {wait}秒待って再試行します", flush=True)
+            time.sleep(wait)
+        except urllib.error.URLError as e:
+            raise RuntimeError(f"Gemini API に接続できません: {e.reason}（ネット接続・社内プロキシ・セキュリティソフトを確認）") from None
+
+
+_MODEL = {}
+
+
+def tts_models():
+    """試す TTS モデルの順番。設定のモデルを先頭に、使えるモデル一覧の TTS モデルを新しい順に続ける"""
+    if "list" in _MODEL:
+        return _MODEL["list"]
+    names = []
+    try:
+        res = _api("models?pageSize=1000")
+        names = [m["name"].split("/")[-1] for m in res.get("models", [])
+                 if "tts" in m["name"] and "generateContent" in m.get("supportedGenerationMethods", [])]
+    except RuntimeError as e:
+        print(f"  モデル一覧を取得できませんでした（{e}）。設定のモデル名で続けます", flush=True)
+    # 通常版を lite より、正式版を preview より、新しい版を古い版より先に
+    names = sorted(names, key=lambda n: ("lite" not in n, "preview" not in n, n), reverse=True)
+    if names and TTS_MODEL not in names:
+        print(f"  {TTS_MODEL} は一覧にありません（使えるTTSモデル: {', '.join(names)}）", flush=True)
+    order = ([TTS_MODEL] if TTS_MODEL in names or not names else []) + [n for n in names if n != TTS_MODEL]
+    _MODEL["list"] = order
+    return order
+
+
+def tts_model():
+    """いま使う TTS モデル名（402 などで使えなかったモデルは飛ばす）"""
+    for n in tts_models():
+        if n not in _MODEL.setdefault("bad", set()):
+            return n
+    raise RuntimeError("使える TTS モデルがありません。試したモデル: " + ", ".join(tts_models()) + " / 最後のエラー: "
+                       + _MODEL.get("last_error", ""))
+
+
+def _decode_audio(inline):
+    """inlineData を (float 配列, サンプリング周波数) に。WAV(RIFF) 付きと生 PCM の両方に対応"""
+    raw = base64.b64decode(inline["data"])
+    if raw[:4] == b"RIFF":
+        with wave.open(io.BytesIO(raw)) as wf:
+            rate, width, ch = wf.getframerate(), wf.getsampwidth(), wf.getnchannels()
+            raw = wf.readframes(wf.getnframes())
+        x = np.frombuffer(raw, dtype="<i2").astype(np.float64) / 32768
+        if ch == 2:
+            x = x.reshape(-1, 2).mean(axis=1)
+        return x, rate
+    m = re.search(r"rate=(\d+)", inline.get("mimeType", ""))
+    return np.frombuffer(raw, dtype="<i2").astype(np.float64) / 32768, int(m.group(1)) if m else 24000
+
+
+def gemini_tts(text):
+    """Gemini API で1場面分を合成し、SR Hz の float 配列を返す（.cache に保存して再利用）"""
+    from scipy.signal import resample_poly
+
+    os.makedirs(CACHE, exist_ok=True)
+    h = hashlib.sha1(f"{TTS_VOICE}|{TTS_STYLE}|{text}".encode()).hexdigest()[:16]
+    path = os.path.join(CACHE, f"gemini_{h}.json")
+    if not os.path.exists(path):
+        body = {
+            "contents": [{"parts": [{"text": f"{TTS_STYLE}：\n{text}"}]}],
+            "generationConfig": {
+                "responseModalities": ["AUDIO"],
+                "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": TTS_VOICE}}},
+            },
+        }
+        while True:
+            model = tts_model()
+            try:
+                res = _api(f"models/{model}:generateContent", body)
+                break
+            except RuntimeError as e:
+                # 402（クレジット無し）/ 無料枠の割り当て 0 / モデル無し は、次のモデルで試す
+                msg = str(e)
+                if not ("HTTP 402" in msg or "HTTP 404" in msg or ("HTTP 429" in msg and "limit: 0" in msg)):
+                    raise
+                _MODEL["bad"].add(model)
+                _MODEL["last_error"] = msg[:300]
+                print(f"  {model} は使えません（{msg[:40]}…）。別のモデルで試します", flush=True)
+        try:
+            inline = next(p["inlineData"] for p in res["candidates"][0]["content"]["parts"] if "inlineData" in p)
+        except (KeyError, IndexError, StopIteration):
+            raise RuntimeError("音声が返ってきませんでした: " + json.dumps(res, ensure_ascii=False)[:600]) from None
+        with open(path, "w", encoding="utf-8") as fp:
+            json.dump(inline, fp)
+    with open(path, encoding="utf-8") as fp:
+        x, rate = _decode_audio(json.load(fp))
+    g = math.gcd(SR, rate)
+    return _post_voice(resample_poly(x, SR // g, rate // g))
+
+
+def _cloud_key():
+    key = os.environ.get("GOOGLE_TTS_API_KEY", "").strip()
+    if not key or key == "ここにAPIキー":
+        sys.exit("GOOGLE_TTS_API_KEY が未設定です（.env の GOOGLE_TTS_API_KEY= の後ろに Cloud Text-to-Speech の APIキーを貼ってください）")
+    return key
+
+
+def cloud_tts(text):
+    """Google Cloud Text-to-Speech（Chirp 3: HD）で1場面分を合成（.cache に保存して再利用）"""
+    from scipy.signal import resample_poly
+
+    os.makedirs(CACHE, exist_ok=True)
+    h = hashlib.sha1(f"cloud|{CLOUD_VOICE}|{text}".encode()).hexdigest()[:16]
+    path = os.path.join(CACHE, f"cloud_{h}.wav")
+    if not os.path.exists(path):
+        body = json.dumps({
+            "input": {"text": text},
+            "voice": {"languageCode": "ja-JP", "name": CLOUD_VOICE},
+            "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000},
+        }).encode()
+        for attempt in range(5):
+            req = urllib.request.Request(CLOUD_URL, data=body, headers={"Content-Type": "application/json",
+                                                                        "X-Goog-Api-Key": _cloud_key()})
+            try:
+                with urllib.request.urlopen(req, timeout=120) as r:
+                    audio = base64.b64decode(json.load(r)["audioContent"])
+                break
+            except urllib.error.HTTPError as e:
+                msg = e.read().decode("utf-8", "replace")[:600]
+                if e.code not in (429, 500, 503) or attempt == 4:
+                    raise RuntimeError(f"Cloud TTS HTTP {e.code}: {msg}") from None
+                wait = 15 * (attempt + 1)
+                print(f"  HTTP {e.code}: {wait}秒待って再試行します", flush=True)
+                time.sleep(wait)
+            except urllib.error.URLError as e:
+                raise RuntimeError(f"Cloud TTS に接続できません: {e.reason}（ネット接続・社内プロキシ・セキュリティソフトを確認）") from None
+        with open(path, "wb") as fp:
+            fp.write(audio)
+    with open(path, "rb") as fp:
+        x, rate = _decode_audio({"data": base64.b64encode(fp.read()).decode(), "mimeType": "rate=24000"})
+    g = math.gcd(SR, rate)
+    return _post_voice(resample_poly(x, SR // g, rate // g))
+
+
+def tts(text):
+    return gemini_tts(text) if TTS_ENGINE == "gemini" else cloud_tts(text)
+
+
+def tts_label():
+    if TTS_ENGINE == "gemini":
+        key = _api_key()
+        return (f"Gemini / モデル: {tts_model()} / 声: {TTS_VOICE} / キー末尾 …{key[-4:]}"
+                f"（{KEY_SOURCE.get('GEMINI_API_KEY', 'Windows の環境変数')}）")
+    key = _cloud_key()
+    return f"Cloud TTS / 声: {CLOUD_VOICE} / キー末尾 …{key[-4:]}（{KEY_SOURCE.get('GOOGLE_TTS_API_KEY', 'Windows の環境変数')}）"
+
+
+def check():
+    """環境の診断（check.bat）: ライブラリ・フォント・APIキー・音声1回分の合成"""
+    print("Python:", sys.version.split()[0])
+    print("フォント:", FONT, "/", FONT_M)
+    print("ffmpeg:", imageio_ffmpeg.get_ffmpeg_exe())
+    sdir = os.path.join(HERE, "scenes")
+    have = sorted(os.listdir(sdir)) if os.path.isdir(sdir) else []
+    print(f"台本: {SCRIPT['title']}（{len(SCENES)}場面）/ scroll: {SRC and os.path.basename(SRC) or 'なし'}"
+          f" / 場面画像: {len(have)}枚 {have}")
+    print("音声:", tts_label())
+    x = tts("これは音声のテストです。")
+    print(f"音声合成: OK（{len(x) / SR:.1f}秒）")
+    print("診断はすべて正常です。run.bat で本番を作れます。")
+
+
+def voices(dry):
+    """場面ごとの読み上げ音声（float, SR Hz）。dry=True なら文字数から長さを推定した無音"""
+    if dry:
+        return [np.zeros(int(len(s[2]) / 7.0 * SR)) for s in SCENES]
+    print("音声:", tts_label(), flush=True)
+    out = []
+    for i, (_, _, text, _) in enumerate(SCENES):
+        print(f"voice {i:02d}/{len(SCENES) - 1:02d}", flush=True)
+        out.append(tts(text))
+    return out
+
+
+def bgm(n):
+    """絹の道っぽいドリアンのドローン＋ゆっくりしたアルペジオ（D ドリアン）"""
+    tt = np.arange(n) / SR
+    out = np.zeros((n, 2))
+    drone = sum(np.sin(2 * np.pi * f * tt + k) * g for k, (f, g) in enumerate([(73.4, 1), (110, 0.6), (146.8, 0.5)]))
+    drone *= 0.55 + 0.45 * np.sin(2 * np.pi * tt / 11.0) ** 2
+    out += drone[:, None] * 0.05
+    scale = [293.7, 329.6, 349.2, 392.0, 440.0, 493.9, 523.3, 587.3]
+    rng = np.random.default_rng(5)
+    t, i = 1.0, 0
+    while t < n / SR - 2:
+        f = scale[[0, 2, 4, 3, 1, 4, 5, 7, 4, 2, 3, 0][i % 12]] * (0.5 if rng.random() < 0.3 else 1)
+        s0 = int(t * SR)
+        tl = np.arange(min(int(2.4 * SR), n - s0)) / SR
+        w = (np.sin(2 * np.pi * f * tl) + 0.35 * np.sin(4 * np.pi * f * tl) + 0.12 * np.sin(6 * np.pi * f * tl))
+        w *= np.exp(-tl * 2.2) * np.minimum(1, tl / 0.004) * 0.03
+        pan = 0.3 + 0.4 * rng.random()
+        out[s0:s0 + len(tl), 0] += w * (1 - pan)
+        out[s0:s0 + len(tl), 1] += w * pan
+        t += 0.75 if i % 4 != 3 else 1.5
+        i += 1
+    return out / (np.abs(out).max() + 1e-9)
+
+
+def build_audio(dry):
+    clips = voices(dry)
+    starts, durs, cur = [], [], 0.0
+    for c in clips:
+        d = LEAD + len(c) / SR + GAP
+        starts.append(cur)
+        durs.append(d)
+        cur += d
+    durs[-1] += TAIL
+    total = cur + TAIL
+    n = int(total * SR)
+    voice = np.zeros(n)
+    for s, c in zip(starts, clips):
+        i = int((s + LEAD) * SR)
+        voice[i:i + len(c)] += c
+    active = ndimage.maximum_filter1d((np.abs(voice) > 0.01).astype(float), int(SR * 0.6))
+    duck = 1 - 0.55 * ndimage.gaussian_filter1d(active, SR * 0.3)
+    tt = np.arange(n) / SR
+    fade = np.clip(np.minimum(tt / 1.5, (total - tt) / 2.5), 0, 1)
+    mix = bgm(n) * (0.45 * duck * fade)[:, None] + voice[:, None]
+    mix /= max(np.abs(mix).max(), 1.0)
+    return mix * 0.95, starts, durs, total
+
+
+# ---------------------------------------------------------------- 映像
+def load_sources():
+    big, k = None, 1.0
+    if SRC and os.path.exists(SRC):
+        src = Image.open(SRC).convert("RGB")
+        # 拡大に耐えるよう 3 倍に拡大してから軽くシャープにしておく（毎フレームはこれを切り出す）
+        k = 3
+        big = src.resize((src.width * k, src.height * k), Image.LANCZOS)
+        big = big.filter(ImageFilter.UnsharpMask(radius=2, percent=60, threshold=2))
+    alts = {}
+    for i in range(len(SCENES)):
+        for ext in ("png", "jpg", "jpeg", "webp"):
+            p = os.path.join(HERE, "scenes", f"{i:02d}.{ext}")
+            if os.path.exists(p):
+                alts[i] = Image.open(p).convert("RGB")
+                break
+    return big, k, alts
+
+
+def placeholder(head):
+    """画像がまだ無い場面の仮画面（見出しを大きく表示）"""
+    grad = np.linspace(0, 1, H)[:, None, None] * np.array([-20, -18, -12]) + np.array([62, 50, 38])
+    img = Image.fromarray(np.broadcast_to(grad, (H, W, 3)).astype(np.uint8))
+    ImageDraw.Draw(img).text((W / 2, H / 2 - 60), head or "（画像未作成）", font=font(90, True),
+                             fill=(120, 100, 80), anchor="mm")
+    return img
+
+
+def cover(img, zoom=1.0, fx=0.5, fy=0.5):
+    """img を 16:9 に切り抜いて W x H に（zoom>1 で拡大、fx,fy は注目点）"""
+    iw, ih = img.size
+    cw = min(iw, ih * W / H) / zoom
+    ch = cw * H / W
+    cx = min(max(iw * fx, cw / 2), iw - cw / 2)
+    cy = min(max(ih * fy, ch / 2), ih - ch / 2)
+    return img.resize((W, H), Image.BICUBIC, box=(cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2))
+
+
+def cam_view(big, k, moves, u):
+    for (u0, *a), (u1, *b) in zip(moves, moves[1:]):
+        if u0 <= u <= u1:
+            e = ease((u - u0) / max(u1 - u0, 1e-6))
+            cx, cy = (p + (q - p) * e for p, q in zip(a[:2], b[:2]))
+            w = math.exp(math.log(a[2]) + (math.log(b[2]) - math.log(a[2])) * e)
+            break
+    else:
+        cx, cy, w = moves[-1][1:]
+    w *= k
+    h = w * H / W
+    cx, cy = cx * k, cy * k
+    bw, bh = big.size
+    if w >= bw:  # 全体表示は上下に余白（和紙色）を付けて収める
+        h_img = bw * H / w
+        canvas = Image.new("RGB", (W, H), (58, 44, 30))
+        canvas.paste(big.resize((W, int(round(h_img * W / bw))), Image.BICUBIC),
+                     (0, int((H - h_img * W / bw) / 2)))
+        return canvas
+    if h > bh:  # 元画像は16:9より横長なので、縦がはみ出す幅は縦いっぱいに制限
+        h = bh
+        w = h * W / H
+    cx = min(max(cx, w / 2), bw - w / 2)
+    cy = min(max(cy, h / 2), bh - h / 2)
+    return big.resize((W, H), Image.BILINEAR, box=(cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2))
+
+
+def vignette():
+    y, x = np.mgrid[0:H, 0:W]
+    r = np.hypot((x - W / 2) / (W / 2), (y - H / 2) / (H / 2))
+    return np.clip(1.08 - 0.32 * r ** 2, 0.55, 1.0)[..., None].astype(np.float32)
+
+
+def overlay(head, sub, is_title):
+    """場面ごとの文字（RGBA）"""
+    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(ov)
+    if is_title:
+        d.rounded_rectangle((460, 330, 1460, 700), 24, fill=(30, 20, 10, 190), outline=C_GOLD + (255,), width=3)
+        tf = font(104, True)
+        while d.textlength(SCRIPT["title"], font=tf) > 940 and tf.size > 40:
+            tf = font(tf.size - 6, True)
+        d.text((W / 2, 470), SCRIPT["title"], font=tf, fill=(250, 236, 200), anchor="mm")
+        d.text((W / 2, 585), SCRIPT.get("subtitle", ""), font=font(40, True), fill=C_GOLD, anchor="mm")
+        return ov
+    if head:
+        f = font(46, True)
+        tw = d.textlength(head, font=f)
+        d.rounded_rectangle((40, 40, 40 + tw + 64, 124), 14, fill=(30, 20, 10, 200))
+        d.rectangle((40, 40, 50, 124), fill=C_GOLD + (255,))
+        d.text((82, 82), head, font=f, fill=(250, 236, 200), anchor="lm")
+    f = font(44)
+    lines = wrap(sub, f, W - 260)
+    lh = 64
+    box_h = lh * len(lines) + 40
+    y0 = H - 60 - box_h
+    d.rounded_rectangle((90, y0, W - 90, H - 60), 18, fill=(20, 13, 6, 185))
+    for j, line in enumerate(lines):
+        d.text((W / 2, y0 + 20 + lh * j + lh / 2), line, font=f, fill=(255, 255, 255), anchor="mm")
+    return ov
+
+
+def wrap(text, f, width):
+    """読点・句点のあとを優先して、幅に収まるよう折り返す"""
+    lines, cur = [], ""
+    for ch in text:
+        if ImageDraw.Draw(Image.new("L", (1, 1))).textlength(cur + ch, font=f) > width:
+            cut = max(cur.rfind("、"), cur.rfind("。"))
+            if cut >= len(cur) * 0.5:
+                lines.append(cur[:cut + 1])
+                cur = cur[cut + 1:]
+            else:
+                lines.append(cur)
+                cur = ""
+        cur += ch
+    lines.append(cur)
+    return lines
+
+
+def credit():
+    ov = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(ov)
+    f = font(24)
+    txt = SCRIPT.get("credit", "絵: 生成AI画像") + "　音声: " + ("Gemini API（Google）" if TTS_ENGINE == "gemini" else "Google Cloud Text-to-Speech")
+    d.rounded_rectangle((W - 60 - d.textlength(txt, font=f) - 30, 36, W - 40, 84), 10, fill=(20, 13, 6, 170))
+    d.text((W - 55, 60), txt, font=f, fill=(225, 210, 180), anchor="rm")
+    return ov
+
+
+class Renderer:
+    def __init__(self, starts, durs):
+        self.big, self.k, self.alts = load_sources()
+        self.starts, self.durs = starts, durs
+        self.ovs = [overlay(h, s, SCRIPT["scenes"][i].get("title", i == 0)) for i, (h, s, _, _) in enumerate(SCENES)]
+        self.vig = vignette()
+        self.credit = credit()
+
+    def scene_img(self, i, t):
+        u = min(max((t - self.starts[i]) / self.durs[i], 0.0), 1.0)
+        if i in self.alts:
+            img = cover(self.alts[i], 1.0 + 0.08 * ease(u))
+        elif SCENES[i][3] and self.big is not None:
+            img = cam_view(self.big, self.k, SCENES[i][3], u)
+        elif self.big is not None:  # カメラ指定なし: 1枚絵全体をゆっくり寄る
+            img = cover(self.big, 1.0 + 0.08 * ease(u))
+        else:
+            img = placeholder(SCENES[i][0])
+        img = Image.fromarray((np.asarray(img, dtype=np.float32) * self.vig).astype(np.uint8))
+        ov = self.ovs[i]
+        a = ease((t - self.starts[i]) / 0.5)
+        if a < 1:
+            ov = ov.copy()
+            ov.putalpha(ov.getchannel("A").point(lambda v: int(v * a)))
+        img.paste(ov, (0, 0), ov)
+        return img
+
+    def frame(self, t):
+        i = max(j for j, s in enumerate(self.starts) if t >= s)
+        img = self.scene_img(i, t)
+        end = self.starts[i] + self.durs[i]
+        if i + 1 < len(SCENES) and t > end - XFADE:
+            img = Image.blend(img, self.scene_img(i + 1, end), ease((t - (end - XFADE)) / XFADE))
+        total = self.starts[-1] + self.durs[-1]
+        if t > total - 4.0:  # 最後にクレジット
+            ca = ease((t - (total - 4.0)) / 0.8)
+            c = self.credit.copy()
+            c.putalpha(c.getchannel("A").point(lambda v: int(v * ca)))
+            img.paste(c, (0, 0), c)
+        black = 1 - min(ease(t / 0.8), ease((total - t) / 1.2))
+        if black > 0:
+            img = Image.blend(img, Image.new("RGB", (W, H)), black)
+        return img
+
+
+def main():
+    if "--check" in sys.argv:
+        check()
+        return
+    dry = "--preview" in sys.argv
+    mix, starts, durs, total = build_audio(dry)
+    print(f"total {total:.1f}s |", " ".join(f"{d:.1f}" for d in durs), flush=True)
+    r = Renderer(starts, durs)
+    if dry:
+        for i, (s, d) in enumerate(zip(starts, durs)):
+            r.frame(s + d * 0.5).save(os.path.join(HERE, f"preview_{i:02d}.png"))
+        return
+
+    os.makedirs(CACHE, exist_ok=True)
+    wav = os.path.join(CACHE, "mix.wav")
+    with wave.open(wav, "wb") as wf:
+        wf.setnchannels(2)
+        wf.setsampwidth(2)
+        wf.setframerate(SR)
+        wf.writeframes((np.clip(mix, -1, 1) * 32767).astype(np.int16).tobytes())
+    silent = os.path.join(CACHE, "video.mp4")
+    writer = imageio_ffmpeg.write_frames(silent, (W, H), fps=FPS, codec="libx264", pix_fmt_out="yuv420p",
+                                         macro_block_size=1, output_params=["-crf", "20", "-preset", "medium"])
+    writer.send(None)
+    n = int(total * FPS)
+    for i in range(n):
+        writer.send(np.asarray(r.frame(i / FPS)).tobytes())
+        if i % 300 == 0:
+            print(f"{i}/{n}", flush=True)
+    writer.close()
+    ff = imageio_ffmpeg.get_ffmpeg_exe()
+    os.makedirs(OUT_DIR, exist_ok=True)
+    out = os.path.join(OUT_DIR, time.strftime(SCRIPT.get("slug", "kyozai") + "_%Y%m%d_%H%M.mp4"))
+    subprocess.check_call([ff, "-y", "-loglevel", "error", "-i", silent, "-i", wav, "-c:v", "copy",
+                           "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", out])
+    print("done:", out)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except (RuntimeError, OSError) as e:
+        if "Cloud TTS HTTP 403" in str(e):
+            e = RuntimeError("Cloud TTS が使えません（HTTP 403）。Google Cloud で ①Cloud Text-to-Speech API が有効か "
+                             "②プロジェクトに請求先アカウントが紐づいているか ③APIキーの制限に Text-to-Speech が含まれるか を確認してください"
+                             f"\n  元のメッセージ: {str(e)[:300]}")
+        elif "HTTP 402" in str(e):
+            e = RuntimeError("どの TTS モデルも HTTP 402（前払いクレジット残高 0）で使えませんでした。"
+                             "上に表示したキー末尾4文字が AI Studio で無料枠のキーと一致するか確認し、"
+                             "一致していれば、この無料枠では音声生成が使えないため AI Studio でクレジットを追加してください")  # 想定内のエラーは要点だけ表示し、詳細はエラーログ.txt に残す
+        import traceback
+        with open(os.path.join(HERE, "エラーログ.txt"), "w", encoding="utf-8") as fp:
+            traceback.print_exc(file=fp)
+        sys.exit(f"\nエラー: {e}\n（詳細は エラーログ.txt）")
