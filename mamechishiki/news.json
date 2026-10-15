@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-15T09:58:45+00:00",
-  "now_ms": 1792058325096,
+  "fetched_at": "2026-10-15T15:04:29+00:00",
+  "now_ms": 1792076669581,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8a372cfa85736d6b",
-      "title": "台風発生 年間30個到達は13年ぶり",
+      "doc_id": "yahoo-41638e21191ca106",
+      "title": "うるう秒廃止 うるう時の導入決定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598882"
+      "link": "https://news.yahoo.co.jp/pickup/6598933"
     },
     {
-      "doc_id": "yahoo-1872ac8e489e0f33",
-      "title": "常陸大宮市 核ごみ文献調査開始",
+      "doc_id": "yahoo-217bc74821e8483e",
+      "title": "タクシーやバス カスハラ客拒否へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598871"
+      "link": "https://news.yahoo.co.jp/pickup/6598926"
     },
     {
-      "doc_id": "yahoo-9a8db06ec5d392c2",
-      "title": "麻生氏 簗氏の更迭「大変遺憾」",
+      "doc_id": "yahoo-4bfb5a15f1a5e161",
+      "title": "洗濯機が発火恐れ パナがリコール",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598898"
+      "link": "https://news.yahoo.co.jp/pickup/6598928"
     },
     {
-      "doc_id": "yahoo-b31a407e78840b15",
-      "title": "菌検出の温泉で措置せず 市長謝罪",
+      "doc_id": "yahoo-36847ca3a4b66193",
+      "title": "動画を苦に自殺 YouTuberを提訴",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598891"
+      "link": "https://news.yahoo.co.jp/pickup/6598927"
     },
     {
-      "doc_id": "yahoo-b87873c5416183a4",
-      "title": "サイゼリヤ株 一時14%高の急反発",
+      "doc_id": "yahoo-1f8348fae722c6f6",
+      "title": "ヤンバルクイナの人工授精 初成功",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598901"
+      "link": "https://news.yahoo.co.jp/pickup/6598918"
     },
     {
-      "doc_id": "yahoo-0c82b25ae6beba4d",
-      "title": "「あけろ」文京区の督促状が物議",
+      "doc_id": "yahoo-e3e6629060232f0c",
+      "title": "コミックシーモア 一時停止を発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598857"
+      "link": "https://news.yahoo.co.jp/pickup/6598934"
     },
     {
-      "doc_id": "yahoo-b468221d9e0f2972",
-      "title": "速報CSファイナル 阪神vs.DeNA",
+      "doc_id": "yahoo-d737c6306434937e",
+      "title": "元代表MF三浦淳宏氏 イベで重傷",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598895"
+      "link": "https://news.yahoo.co.jp/pickup/6598930"
     },
     {
-      "doc_id": "yahoo-29c94338895af0f4",
-      "title": "元AKB大盛さん 一般企業の広報に",
+      "doc_id": "yahoo-22a084c2bcc8fb2b",
+      "title": "櫻井翔 難民報道ディレクター就任",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598894"
+      "link": "https://news.yahoo.co.jp/pickup/6598923"
+    },
+    {
+      "doc_id": "jiji-17c4977e952b0cee",
+      "title": "死亡男性母親、２．３億円賠償求め提訴 逮捕のユーチューバー「ＫＥＮＺＯ」らに―京都地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101501040&g=soc"
     },
     {
       "doc_id": "jiji-1a4d9e7537b18d0d",
@@ -64,16 +70,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
     },
     {
-      "doc_id": "jiji-9fee65203c6c62d7",
-      "title": "消費減税法案、賛成５５％ 定数削減「今国会結論」半数―時事世論調査",
+      "doc_id": "jiji-241d2b8246f1c26f",
+      "title": "日本側要求を拒絶 道新記者「ロシア法で捜査」―駐日大使",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500708&g=pol"
-    },
-    {
-      "doc_id": "jiji-32573351370affc6",
-      "title": "ホテルから大量の偽メール送信容疑 中国人逮捕、客室にＰＣ隠す―兵庫県警",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500878&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101500910&g=pol"
     },
     {
       "doc_id": "jiji-5fd2059b82db7598",
@@ -82,46 +82,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026101401214&g=soc"
     },
     {
+      "doc_id": "jiji-32573351370affc6",
+      "title": "ホテルから大量の偽メール送信容疑 中国人逮捕、客室にＰＣ隠す―兵庫県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500878&g=soc"
+    },
+    {
+      "doc_id": "jiji-10512991e2fd370b",
+      "title": "武部農水相が就任 簗氏後任、高市首相「即戦力」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500717&g=pol"
+    },
+    {
+      "doc_id": "jiji-129812f2282cf1de",
+      "title": "茂木氏、フーシ派の攻撃非難 サウジ外相と電話会談",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101501159&g=pol"
+    },
+    {
+      "doc_id": "jiji-f432d0ebbb83c5a1",
+      "title": "減税対案、５万円負担減 国民民主が原案",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101501156&g=pol"
+    },
+    {
+      "doc_id": "jiji-503568826e309afa",
+      "title": "中国空母「遼寧」、南シナ海へ 石垣島南方で訓練実施―防衛省",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101501185&g=pol"
+    },
+    {
       "doc_id": "jiji-27c22be14ce79bac",
       "title": "化粧など「男性より時間かかる」 高市首相、国会審議巡り吐露",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
     },
     {
-      "doc_id": "jiji-092d751b676acab1",
-      "title": "メタ社への損害賠償請求棄却 「偽広告放置」主張認めず―横浜地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500123&g=soc"
-    },
-    {
-      "doc_id": "jiji-0c85dc856e313ec8",
-      "title": "農水相に武部新氏 高市首相、体制立て直し急ぐ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500352&g=pol"
-    },
-    {
-      "doc_id": "jiji-da2dc1b6c633bf16",
-      "title": "パナソニックは日本と台湾でドラム式洗濯乾燥機計６４万台をリコールする",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500803&g=flash"
-    },
-    {
-      "doc_id": "jiji-155323e9ba4b07d9",
-      "title": "一力遼・三冠勝ち最終局へ 囲碁・名人戦",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500881&g=soc"
-    },
-    {
-      "doc_id": "jiji-a4b5b501112c3295",
-      "title": "横浜高の織田、自分の気持ち貫く ドラフト前「たくさん悩んだ」―高校野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500856&g=spo"
-    },
-    {
-      "doc_id": "nhk-18698c97da01dd22",
-      "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
+      "doc_id": "nhk-657c5daeec46ebd2",
+      "title": "ソースネクスト 約2251万件の個人情報が流出か 不正アクセスで",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60043"
     },
     {
       "doc_id": "nhk-9b1e87af6834c1c3",
@@ -130,34 +130,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de59790"
     },
     {
-      "doc_id": "nhk-2da7b6e3089d1abe",
-      "title": "産婦人科向けシステムに不正アクセス 医療機関は対応追われる",
+      "doc_id": "nhk-daf7155f9aed6be0",
+      "title": "自民“消費税法案20日審議入り”民改“首相出席し審議充実を”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59731"
-    },
-    {
-      "doc_id": "nhk-84e9d0078c2dc41f",
-      "title": "パナソニック ドラム式洗濯機64万台をリコール",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59971"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60104"
     },
     {
       "doc_id": "nhk-18a220d7e4cc4f4a",
-      "title": "武部氏 認証式に臨む 農相に就任",
+      "title": "武部氏 認証式を経て農相に就任 辞表提出の簗氏の後任に",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de59560"
     },
     {
-      "doc_id": "nhk-2db987569b9f13cb",
-      "title": "宮内庁職員 酒に酔い盗んだ「モペット」運転で懲戒処分",
+      "doc_id": "nhk-18698c97da01dd22",
+      "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59926"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778"
     },
     {
-      "doc_id": "nhk-5fb1979444da5671",
-      "title": "台風30号が発生 年間30個発生は2013年以来 今後の情報に注意",
+      "doc_id": "nhk-62c88efb62889a99",
+      "title": "訪問介護の関係団体が国に報酬引き上げなど要望",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59833"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60105"
+    },
+    {
+      "doc_id": "nhk-6fde1542c91fea2a",
+      "title": "中国と北朝鮮を結ぶ橋が開通 現地で式典 本体工事完了は12年前",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60111"
     },
     {
       "doc_id": "itmedia-4cb94ee487112aa6",
