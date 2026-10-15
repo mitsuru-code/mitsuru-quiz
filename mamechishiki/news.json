@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-15T04:44:36+00:00",
-  "now_ms": 1792039476475,
+  "fetched_at": "2026-10-15T09:58:45+00:00",
+  "now_ms": 1792058325096,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,34 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-e78fddd96c4ee43f",
-      "title": "重責こなしたい 農相起用の武部氏",
+      "doc_id": "yahoo-8a372cfa85736d6b",
+      "title": "台風発生 年間30個到達は13年ぶり",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598849"
+      "link": "https://news.yahoo.co.jp/pickup/6598882"
     },
     {
-      "doc_id": "yahoo-3dff37546eb14329",
-      "title": "日経平均 一時3600円以上値下がり",
+      "doc_id": "yahoo-1872ac8e489e0f33",
+      "title": "常陸大宮市 核ごみ文献調査開始",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598860"
+      "link": "https://news.yahoo.co.jp/pickup/6598871"
     },
     {
-      "doc_id": "yahoo-d6f2a5f3f8605e6a",
-      "title": "運動会で孫の写真投稿 炎上相次ぐ",
+      "doc_id": "yahoo-9a8db06ec5d392c2",
+      "title": "麻生氏 簗氏の更迭「大変遺憾」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598835"
+      "link": "https://news.yahoo.co.jp/pickup/6598898"
     },
     {
-      "doc_id": "yahoo-763ab8151858bd2e",
-      "title": "ソウルで最後の売春街 解体に本腰",
+      "doc_id": "yahoo-b31a407e78840b15",
+      "title": "菌検出の温泉で措置せず 市長謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598858"
+      "link": "https://news.yahoo.co.jp/pickup/6598891"
+    },
+    {
+      "doc_id": "yahoo-b87873c5416183a4",
+      "title": "サイゼリヤ株 一時14%高の急反発",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6598901"
     },
     {
       "doc_id": "yahoo-0c82b25ae6beba4d",
@@ -40,28 +46,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6598857"
     },
     {
-      "doc_id": "yahoo-e84ec3e16039f990",
-      "title": "サケの代わりに「マヒマヒ」大漁",
+      "doc_id": "yahoo-b468221d9e0f2972",
+      "title": "速報CSファイナル 阪神vs.DeNA",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598843"
+      "link": "https://news.yahoo.co.jp/pickup/6598895"
     },
     {
-      "doc_id": "yahoo-fa7116e66d3722a5",
-      "title": "工藤新監督 オファー受諾した理由",
+      "doc_id": "yahoo-29c94338895af0f4",
+      "title": "元AKB大盛さん 一般企業の広報に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598859"
+      "link": "https://news.yahoo.co.jp/pickup/6598894"
     },
     {
-      "doc_id": "yahoo-1e2fdf518e7bd4e0",
-      "title": "声優の遊佐浩二&根本京里 結婚",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598838"
-    },
-    {
-      "doc_id": "jiji-0c85dc856e313ec8",
-      "title": "農水相に武部新氏 高市首相、体制立て直し急ぐ",
+      "doc_id": "jiji-1a4d9e7537b18d0d",
+      "title": "内閣支持率４２％に下落 簗氏続投判断、８割問題視―時事世論調査",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500352&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
+    },
+    {
+      "doc_id": "jiji-9fee65203c6c62d7",
+      "title": "消費減税法案、賛成５５％ 定数削減「今国会結論」半数―時事世論調査",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500708&g=pol"
+    },
+    {
+      "doc_id": "jiji-32573351370affc6",
+      "title": "ホテルから大量の偽メール送信容疑 中国人逮捕、客室にＰＣ隠す―兵庫県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500878&g=soc"
     },
     {
       "doc_id": "jiji-5fd2059b82db7598",
@@ -76,88 +88,112 @@
       "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
     },
     {
-      "doc_id": "jiji-38d34c2cffdfcf93",
-      "title": "横浜高の織田翔希、米大リーグ挑戦を表明 １５７キロ右腕「世界一の投手に」―高校野球",
+      "doc_id": "jiji-092d751b676acab1",
+      "title": "メタ社への損害賠償請求棄却 「偽広告放置」主張認めず―横浜地裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500353&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101500123&g=soc"
     },
     {
-      "doc_id": "jiji-14a3e04af2590ca4",
-      "title": "中朝結ぶ新大橋が開通 貿易・往来拡大、関係改善進む",
+      "doc_id": "jiji-0c85dc856e313ec8",
+      "title": "農水相に武部新氏 高市首相、体制立て直し急ぐ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500144&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101500352&g=pol"
     },
     {
-      "doc_id": "jiji-a7d2fd8800ab6c83",
-      "title": "トランプ米大統領「歴史的な協定の成果」 日本の対米投資第３弾",
+      "doc_id": "jiji-da2dc1b6c633bf16",
+      "title": "パナソニックは日本と台湾でドラム式洗濯乾燥機計６４万台をリコールする",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500229&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101500803&g=flash"
     },
     {
-      "doc_id": "jiji-d27e154e8d02cc85",
-      "title": "「超知能」、高まる危機感 ＡＩ「自己改善」で制御不能も―開発減速、国際協調は難路",
+      "doc_id": "jiji-155323e9ba4b07d9",
+      "title": "一力遼・三冠勝ち最終局へ 囲碁・名人戦",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400772&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101500881&g=soc"
     },
     {
-      "doc_id": "jiji-328b66aa8913dcd0",
-      "title": "簗氏更迭、首相後手否めず 疑惑続出・野党攻勢で白旗―野党は任命責任追及へ",
+      "doc_id": "jiji-a4b5b501112c3295",
+      "title": "横浜高の織田、自分の気持ち貫く ドラフト前「たくさん悩んだ」―高校野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401140&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101500856&g=spo"
     },
     {
-      "doc_id": "jiji-d48925441c3d8c83",
-      "title": "須藤晃さん死去 音楽プロデューサー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500456&g=soc"
+      "doc_id": "nhk-18698c97da01dd22",
+      "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778"
     },
     {
-      "doc_id": "jiji-ae0bd2666a150866",
-      "title": "インフレ高進、政策協調が焦点 中東混乱長期化が下押しリスク―Ｇ２０財務相会議を開催",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500120&g=int"
+      "doc_id": "nhk-9b1e87af6834c1c3",
+      "title": "相次ぐ不正アクセス “AIエージェント”使用の証拠見つかる",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59790"
+    },
+    {
+      "doc_id": "nhk-2da7b6e3089d1abe",
+      "title": "産婦人科向けシステムに不正アクセス 医療機関は対応追われる",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59731"
+    },
+    {
+      "doc_id": "nhk-84e9d0078c2dc41f",
+      "title": "パナソニック ドラム式洗濯機64万台をリコール",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59971"
     },
     {
       "doc_id": "nhk-18a220d7e4cc4f4a",
-      "title": "農相に自民 武部新氏を起用 簗氏の後任に 高市首相",
+      "title": "武部氏 認証式に臨む 農相に就任",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de59560"
     },
     {
-      "doc_id": "nhk-60e92d5efcf3ff68",
-      "title": "ドジャース敗れWS進出にあとがなくなる リーグ優勝決定S",
+      "doc_id": "nhk-2db987569b9f13cb",
+      "title": "宮内庁職員 酒に酔い盗んだ「モペット」運転で懲戒処分",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59178"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59926"
     },
     {
-      "doc_id": "nhk-46afe544f3cc87ce",
-      "title": "漫画家が出版社を提訴 “出版権は消滅”確認を求める",
+      "doc_id": "nhk-5fb1979444da5671",
+      "title": "台風30号が発生 年間30個発生は2013年以来 今後の情報に注意",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261014de59459"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59833"
     },
     {
-      "doc_id": "nhk-a472f1a80a4e2b66",
-      "title": "横浜高校の織田翔希投手がアメリカ挑戦を表明",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59583"
+      "doc_id": "itmedia-4cb94ee487112aa6",
+      "title": "バーガーキング、約1118万件漏えい 公式アプリ会員システムに不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002306/"
     },
     {
-      "doc_id": "nhk-0a0ccf77102f073e",
-      "title": "株価 一時3500円以上値下がり AI・半導体関連銘柄に売り注文",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59563"
+      "doc_id": "itmedia-c28643a871bf34bd",
+      "title": "裁判書類のオンライン提出システム「mints」で障害 サインインできず",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002301/"
     },
     {
-      "doc_id": "nhk-81aa4bc58836b3ce",
-      "title": "凍ったゼリーで男児死亡の民間こども園に監査 奈良 香芝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59577"
+      "doc_id": "itmedia-57e17ae7e3f701ce",
+      "title": "阪急電鉄、車両の中づり広告終了へ スマホ普及で情報の受け取り方に変化",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002300/"
     },
     {
-      "doc_id": "nhk-dd5b9eb6417f1727",
-      "title": "睡眠薬無許可で販売疑いで逮捕「トー横」の未成年への供給元か",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59683"
+      "doc_id": "itmedia-9efb302122eeacee",
+      "title": "Microsoft、3つの国際的な犯罪ネットサービスを解体へ 日本狙った詐欺がきっかけ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002299/"
+    },
+    {
+      "doc_id": "itmedia-f62ecca064596e22",
+      "title": "数学の記述式答案、AIが30秒で採点 DeNA、大学受験生向けアプリ公開",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002298/"
+    },
+    {
+      "doc_id": "itmedia-e8b0d8b7c95e2411",
+      "title": "「Rakuten Mini」など4機種に脆弱性 楽天モバイル、他製品への切り替え推奨",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002295/"
     },
     {
       "doc_id": "itmedia-03c68b86296f701e",
@@ -196,40 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002290/"
     },
     {
-      "doc_id": "itmedia-587bbce615edb8d9",
-      "title": "消防の一斉連絡システムに不正アクセス、個人情報漏えいか 防災メール配信システムのアルカディア運営",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002288/"
-    },
-    {
-      "doc_id": "itmedia-392869267c41eff8",
-      "title": "「YouTube Music」、生成AIで作られた楽曲にラベル表示",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002287/"
-    },
-    {
-      "doc_id": "itmedia-a60fff4000f2731b",
-      "title": "SpaceX、ウクライナ軍の「Starshield」に移動速度制限 マスク氏「決めるのは米軍と大統領」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002285/"
-    },
-    {
-      "doc_id": "itmedia-1e089fd0f5f8b8f2",
-      "title": "研究者グループ、中国Tencentのクラウド上の“逸脱”AIエージェント群と交信 報告書の隠しテキストで呼び込む",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002283/"
-    },
-    {
-      "doc_id": "itmedia-af355eacf4b8a936",
-      "title": "IDCFクラウド障害、一部でバックアップ取り出し可能に データ流出は「なかった」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002282/"
-    },
-    {
-      "doc_id": "itmedia-e345ef443ae1004e",
-      "title": "Google、待望の新AIモデル「Gemini 4 Argon」一般提供を開始 推論の継続力を強化 一部ベンチでトップに",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/14/2000002265/"
+      "doc_id": "nazology-50d1e25015b23b5e",
+      "title": "「水金地火木土天海」は太陽の死で崩れる――惑星の並びが壊れる仕組みを発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201767"
     },
     {
       "doc_id": "nazology-b7918cd4e3aa00c0",
@@ -284,12 +290,6 @@
       "title": "AIが見つけた酵素に生物学者が「自分の研究では」と疑問",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201334"
-    },
-    {
-      "doc_id": "nazology-941a1d2978a5bfda",
-      "title": "エジプトの砂漠に「サメの墓場」を発見、白亜紀の消えた海の跡",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201311"
     }
   ]
 }
