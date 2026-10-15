@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-15T15:04:29+00:00",
-  "now_ms": 1792076669581,
+  "fetched_at": "2026-10-15T19:11:28+00:00",
+  "now_ms": 1792091488152,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -64,28 +64,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026101501040&g=soc"
     },
     {
-      "doc_id": "jiji-1a4d9e7537b18d0d",
-      "title": "内閣支持率４２％に下落 簗氏続投判断、８割問題視―時事世論調査",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
-    },
-    {
-      "doc_id": "jiji-241d2b8246f1c26f",
-      "title": "日本側要求を拒絶 道新記者「ロシア法で捜査」―駐日大使",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500910&g=pol"
-    },
-    {
       "doc_id": "jiji-5fd2059b82db7598",
       "title": "ユーチューバー「ＫＥＮＺＯ」逮捕 名誉毀損容疑、被害者死去―京都府警",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101401214&g=soc"
     },
     {
-      "doc_id": "jiji-32573351370affc6",
-      "title": "ホテルから大量の偽メール送信容疑 中国人逮捕、客室にＰＣ隠す―兵庫県警",
+      "doc_id": "jiji-014c11e36c763cae",
+      "title": "長引く森林火災、影響深刻化 インドネシア、エルニーニョ現象が拍車",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500878&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101500850&g=int"
+    },
+    {
+      "doc_id": "jiji-1a4d9e7537b18d0d",
+      "title": "内閣支持率４２％に下落 簗氏続投判断、８割問題視―時事世論調査",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
     },
     {
       "doc_id": "jiji-10512991e2fd370b",
@@ -94,16 +88,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026101500717&g=pol"
     },
     {
-      "doc_id": "jiji-129812f2282cf1de",
-      "title": "茂木氏、フーシ派の攻撃非難 サウジ外相と電話会談",
+      "doc_id": "jiji-942c6fdbe56d77d8",
+      "title": "「うるう秒」実質廃止決定 国際度量衡総会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101501159&g=pol"
-    },
-    {
-      "doc_id": "jiji-f432d0ebbb83c5a1",
-      "title": "減税対案、５万円負担減 国民民主が原案",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101501156&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101501270&g=soc"
     },
     {
       "doc_id": "jiji-503568826e309afa",
@@ -112,22 +100,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026101501185&g=pol"
     },
     {
-      "doc_id": "jiji-27c22be14ce79bac",
-      "title": "化粧など「男性より時間かかる」 高市首相、国会審議巡り吐露",
+      "doc_id": "jiji-f432d0ebbb83c5a1",
+      "title": "減税対案、５万円負担減 国民民主が原案",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101501156&g=pol"
+    },
+    {
+      "doc_id": "jiji-fa75e2204e9d4d55",
+      "title": "日本側要求を拒絶 道新記者「ロシア法で捜査」―駐日大使",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500910&g=int"
+    },
+    {
+      "doc_id": "jiji-129812f2282cf1de",
+      "title": "茂木氏、フーシ派の攻撃非難 サウジ外相と電話会談",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101501159&g=pol"
     },
     {
       "doc_id": "nhk-657c5daeec46ebd2",
       "title": "ソースネクスト 約2251万件の個人情報が流出か 不正アクセスで",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de60043"
-    },
-    {
-      "doc_id": "nhk-9b1e87af6834c1c3",
-      "title": "相次ぐ不正アクセス “AIエージェント”使用の証拠見つかる",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59790"
     },
     {
       "doc_id": "nhk-daf7155f9aed6be0",
@@ -142,22 +136,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de59560"
     },
     {
-      "doc_id": "nhk-18698c97da01dd22",
-      "title": "声優の野沢雅子さん “声の生成AI利用”について語る",
+      "doc_id": "nhk-fa4398296a59110a",
+      "title": "滋賀 日野町事件の再審に向け検察が証拠57点開示の意向",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59778"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60112"
     },
     {
-      "doc_id": "nhk-62c88efb62889a99",
-      "title": "訪問介護の関係団体が国に報酬引き上げなど要望",
+      "doc_id": "nhk-91f837e3508aed5d",
+      "title": "パキスタンの学校の屋根崩落 子どもなど33人死亡",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60105"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60119"
     },
     {
-      "doc_id": "nhk-6fde1542c91fea2a",
-      "title": "中国と北朝鮮を結ぶ橋が開通 現地で式典 本体工事完了は12年前",
+      "doc_id": "nhk-2832e3b1eaa1bf34",
+      "title": "「くまの子ウーフ」児童文学作家の神沢利子さん死去",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60111"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60137"
+    },
+    {
+      "doc_id": "nhk-1aa4dd161ff82a54",
+      "title": "脊髄損傷の再生医療製品 条件付きから初の本承認へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60116"
     },
     {
       "doc_id": "itmedia-4cb94ee487112aa6",
