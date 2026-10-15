@@ -4,7 +4,7 @@
 # PCが無くてもスマホだけで infographics/*/make_video.py を動かすための入り口。
 #
 # Xには投稿しない（ナレーション・投稿文・投稿は人がやる運用。infographics/*/PC手順.md 参照）。
-# 使うSecretは GOOGLE_TTS_API_KEY（Cloud Text-to-Speech 専用に制限したキー）だけ。
+# 声は Secret GOOGLE_TTS_API_KEY があれば Cloud TTS（Chirp 3: HD）、無ければ Open JTalk（無料・キー不要）。
 # Issueを編集して保存し直すと、同じIssueで作り直す。
 name: 図解動画を作る
 
@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   make:
-    # 動画作成は TTS の料金がかかるので、リポジトリの持ち主が作った・編集したIssueだけ受け付ける。
+    # Cloud TTS を使う時は料金がかかり、Actionsの実行時間も使うので、リポジトリの持ち主が作った・編集したIssueだけ受け付ける。
     # ラベル（video-make）がリポジトリに未作成だと付かないため、タイトルの「[動画]」でも判定する
     if: >-
       github.event.issue.state == 'open' &&
@@ -50,7 +50,7 @@ jobs:
         run: |
           # モンゴル帝国の図解は matplotlib で描くので日本語フォントが要る
           sudo apt-get install -y -qq fonts-ipafont-gothic >/dev/null
-          pip install -q -r "infographics/$FOLDER/requirements.txt"
+          pip install -q -r "infographics/$FOLDER/requirements.txt" pyopenjtalk
 
       - name: 動画を作る
         env:
@@ -58,10 +58,6 @@ jobs:
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
           VIDEO_OUT_DIR: ${{ runner.temp }}/out
         run: |
-          if [ -z "$GOOGLE_TTS_API_KEY" ]; then
-            echo "❌ Secret GOOGLE_TTS_API_KEY が未設定です（infographics/スマホ手順.md 参照）" | tee -a "$GITHUB_STEP_SUMMARY"
-            exit 1
-          fi
           cd "infographics/$FOLDER"
           python3 make_video.py
 
@@ -90,4 +86,4 @@ jobs:
           NUM: ${{ github.event.issue.number }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          gh issue comment "$NUM" --body "$(printf '❌ 動画を作れませんでした。\n\nよくある原因: 動画の選択・ナレーションが空 ／ Secret GOOGLE_TTS_API_KEY が未設定・無効\n詳細: %s\n\n直したらこのIssueを編集して保存すると再実行します。' "$RUN_URL")"
+          gh issue comment "$NUM" --body "$(printf '❌ 動画を作れませんでした。\n\nよくある原因: 動画の選択・ナレーションが空 ／ Secret GOOGLE_TTS_API_KEY が無効（未設定なら無料の声で作ります）\n詳細: %s\n\n直したらこのIssueを編集して保存すると再実行します。' "$RUN_URL")"

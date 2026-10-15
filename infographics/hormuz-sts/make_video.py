@@ -12,6 +12,8 @@
     python make_video.py --preview     # 各場面の静止画だけ出力
 
 APIキーは環境変数 GOOGLE_TTS_API_KEY か、このフォルダの .env（Git管理外）に書く。
+キーが無い時（または TTS_ENGINE=openjtalk）は Open JTalk で合成する（無料・キー不要、声は機械的）。
+字幕は既定で焼き込む（SUBTITLES=0 で無し）。
 声は TTS_VOICE（既定 ja-JP-Chirp3-HD-Aoede）で変更できる。
 合成結果は .cache/ に保存し、同じ文面なら API を再度呼ばない。
 """
@@ -30,6 +32,9 @@ import wave
 import imageio_ffmpeg
 import numpy as np
 from PIL import Image
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import video_extras  # noqa: E402  infographics/video_extras.py
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -105,8 +110,12 @@ def tts(text, dry=False):
     if dry:
         return np.zeros(int(len(text) / 7.2 * SR), dtype=np.float32)
     key = os.environ.get("GOOGLE_TTS_API_KEY")
+    if os.environ.get("TTS_ENGINE", "google" if key else "openjtalk") == "openjtalk":
+        x = video_extras.openjtalk_tts(text, SR)
+        idx = np.where(np.abs(x) > 0.01)[0]
+        return x[max(idx[0] - 240, 0): idx[-1] + 2400] if len(idx) else x
     if not key:
-        sys.exit("GOOGLE_TTS_API_KEY が未設定です（--dry-run なら音声なしで確認できます）")
+        sys.exit("GOOGLE_TTS_API_KEY が未設定です（TTS_ENGINE=openjtalk ならキー無しで作れます）")
     os.makedirs(CACHE, exist_ok=True)
     h = hashlib.sha1(f"{VOICE}|{text}".encode()).hexdigest()[:16]
     path = os.path.join(CACHE, f"tts_{h}.wav")
@@ -222,11 +231,22 @@ def main():
     mix, starts, durs, total = build_audio(dry)
     canvas, to_px = render_canvas()
     keys = camera_keys(starts, durs, total, to_px)
+    texts = read_narration()
+    subs = video_extras.Subtitler(W, H) if os.environ.get("SUBTITLES", "1") != "0" else None
+
+    def render(t):
+        img = frame(canvas, *cam_at(t, keys))
+        if subs:  # 話している間だけ、その場面の字幕を出す（前後0.2秒でフェード）
+            for text, s, d in zip(texts, starts, durs):
+                a = min(t - (s - 0.2), (s + d + 0.25) - t) / 0.2
+                if a > 0:
+                    img = subs.draw(img, text, min(a, 1.0))
+        return img
     print(f"total {total:.1f}s", ", ".join(f"{s:.1f}+{d:.1f}" for s, d in zip(starts, durs)), flush=True)
 
     if "--preview" in sys.argv:
         for i, (s, d) in enumerate(zip(starts, durs)):
-            frame(canvas, *cam_at(s + d * 0.5, keys)).save(os.path.join(HERE, f"preview_{i + 1}.png"))
+            render(s + d * 0.5).save(os.path.join(HERE, f"preview_{i + 1}.png"))
         return
 
     os.makedirs(CACHE, exist_ok=True)
@@ -242,7 +262,7 @@ def main():
     writer.send(None)
     n = int(total * FPS)
     for i in range(n):
-        writer.send(np.asarray(frame(canvas, *cam_at(i / FPS, keys))).tobytes())
+        writer.send(np.asarray(render(i / FPS)).tobytes())
         if i % 300 == 0:
             print(f"{i}/{n}", flush=True)
     writer.close()
