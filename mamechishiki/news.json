@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-16T12:29:51+00:00",
-  "now_ms": 1792153791262,
+  "fetched_at": "2026-10-16T17:27:16+00:00",
+  "now_ms": 1792171636169,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -16,52 +16,46 @@
       "link": "https://news.yahoo.co.jp/pickup/6599028"
     },
     {
-      "doc_id": "yahoo-2c3477251f20fe6f",
-      "title": "首相 外食支援で商品券なども検討",
+      "doc_id": "yahoo-1facb2639c7e4fd8",
+      "title": "緊急地震速報取り消し 2つの要因",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599015"
+      "link": "https://news.yahoo.co.jp/pickup/6599044"
     },
     {
-      "doc_id": "yahoo-8934fcf68cf418e6",
-      "title": "簗氏巡り 自民鶴保氏が首相に苦言",
+      "doc_id": "yahoo-d2d27232272a91db",
+      "title": "猪苗代湖事故 判決受け両親が心境",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599022"
+      "link": "https://news.yahoo.co.jp/pickup/6599047"
     },
     {
-      "doc_id": "yahoo-03eb77b1911f5b51",
-      "title": "トヨタ 30年までに全車種をSDVに",
+      "doc_id": "yahoo-f706769056fb1f72",
+      "title": "流出個人情報を売買 闇サイト実態",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599017"
+      "link": "https://news.yahoo.co.jp/pickup/6599033"
     },
     {
-      "doc_id": "yahoo-f6f62480a1243686",
-      "title": "緊急地震速報 ドコモで配信されず",
+      "doc_id": "yahoo-89e18a9f37e65893",
+      "title": "ショップサーブの流出 2335万人分",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599019"
+      "link": "https://news.yahoo.co.jp/pickup/6599039"
     },
     {
-      "doc_id": "yahoo-daea4819cfccf314",
-      "title": "ソフトバンク 3年連続日本S進出",
+      "doc_id": "yahoo-a28d38fdcb824d81",
+      "title": "テスラ新型車 空を飛び宙返り実演",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599034"
+      "link": "https://news.yahoo.co.jp/pickup/6599049"
     },
     {
-      "doc_id": "yahoo-c0695453a0365717",
-      "title": "DeNA 日本シリーズ進出に王手",
+      "doc_id": "yahoo-b4ee6b01baa248f2",
+      "title": "阪神悪夢 死球の前川右京は骨折",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599035"
+      "link": "https://news.yahoo.co.jp/pickup/6599036"
     },
     {
-      "doc_id": "yahoo-184d65dc4fc570ce",
-      "title": "グッズが許可なく店に 堂本剛声明",
+      "doc_id": "yahoo-84ce6b82d1e3e09a",
+      "title": "浜田雅功 単独バンドライブ開催へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599024"
-    },
-    {
-      "doc_id": "jiji-bf9ac7393f091911",
-      "title": "震度７の緊急地震速報取り消し 「千島でＭ９．９」と過大評価―気象庁部長「深くおわび」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600527&g=soc"
+      "link": "https://news.yahoo.co.jp/pickup/6599043"
     },
     {
       "doc_id": "jiji-1918d3c91e31eb95",
@@ -70,22 +64,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026101600677&g=soc"
     },
     {
+      "doc_id": "jiji-bf9ac7393f091911",
+      "title": "震度７の緊急地震速報取り消し 「千島でＭ９．９」と過大評価―気象庁部長「深くおわび」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600527&g=soc"
+    },
+    {
+      "doc_id": "jiji-a53467710fc4c6c9",
+      "title": "庄子、打撃好調でＭＶＰ プロ野球ＣＳ・ソフトバンク",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101601115&g=spo"
+    },
+    {
+      "doc_id": "jiji-07d4b99d64d752d4",
+      "title": "阪神の前川右京が左手小指骨折 プロ野球ＣＳ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101601084&g=spo"
+    },
+    {
       "doc_id": "jiji-ad67ddb843a28c36",
       "title": "高市首相「モニター準備間に合わず」 Ｇ７首脳会議欠席で釈明",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101600953&g=pol"
     },
     {
-      "doc_id": "jiji-27c22be14ce79bac",
-      "title": "化粧など「男性より時間かかる」 高市首相、国会審議巡り吐露",
+      "doc_id": "jiji-1052f738cd6316cc",
+      "title": "気象庁によると、サイバー攻撃は受けていない",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101600612&g=flash"
     },
     {
-      "doc_id": "jiji-15456c76a97a3569",
-      "title": "米大統領報道官、弁護士資格なし認める 「職責果たす」",
+      "doc_id": "jiji-c428b85f7254bba3",
+      "title": "阪神、ＣＳ最多の２７回連続無得点 プロ野球ＣＳ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600639&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101601106&g=spo"
+    },
+    {
+      "doc_id": "jiji-ac5bcf7ae90cf65b",
+      "title": "王将社長射殺、組幹部に無罪 現場吸い殻「第三者遺留も」―京都地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600141&g=soc"
+    },
+    {
+      "doc_id": "jiji-9dddecf64d5443a2",
+      "title": "邦人記者とロシア人交換狙いか 日本のハッカー拘束に関連も",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600658&g=soc"
     },
     {
       "doc_id": "jiji-17c4977e952b0cee",
@@ -94,32 +118,8 @@
       "link": "https://www.jiji.com/jc/article?k=2026101501040&g=soc"
     },
     {
-      "doc_id": "jiji-1a4d9e7537b18d0d",
-      "title": "内閣支持率４２％に下落 簗氏続投判断、８割問題視―時事世論調査",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
-    },
-    {
-      "doc_id": "jiji-04a4cef458fdd3d1",
-      "title": "ニデックは、創業者の永守重信（ながもり・しげのぶ）氏らの法令違反を認め、損害賠償請求を検討すると発表した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101601006&g=flash"
-    },
-    {
-      "doc_id": "jiji-454bf1026e12523b",
-      "title": "中国大使、フィリピンに「武力で簡単に勝てる」 マルコス大統領は反発",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600644&g=int"
-    },
-    {
-      "doc_id": "jiji-40092256d77a13b2",
-      "title": "東電に賠償命令、国の責任は否定 福島・津島地区の原発避難者訴訟―仙台高裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600980&g=soc"
-    },
-    {
       "doc_id": "nhk-bb29bcd0d4ad1b81",
-      "title": "【詳しく】気象庁 緊急地震速報取り消し “M9.9と過大に推定”",
+      "title": "緊急地震速報の過大推定 「過去の対策が機能せず」気象庁",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261016de60368"
     },
@@ -142,10 +142,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261016de60556"
     },
     {
-      "doc_id": "nhk-1ab53c6934d34836",
-      "title": "“餃子の王将”社長殺害事件 暴力団幹部に無罪判決 京都地裁",
+      "doc_id": "nhk-1cae03a80902cf09",
+      "title": "日銀植田総裁 今後も利上げ進める 2％の物価安定がより重要",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60144"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60782"
     },
     {
       "doc_id": "nhk-7d159d93a3483460",
