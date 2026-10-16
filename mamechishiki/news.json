@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-15T22:22:31+00:00",
-  "now_ms": 1792102951585,
+  "fetched_at": "2026-10-16T01:23:59+00:00",
+  "now_ms": 1792113839894,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-41638e21191ca106",
-      "title": "うるう秒廃止 うるう時の導入決定",
+      "doc_id": "yahoo-3159403262cf14f1",
+      "title": "匿流スマホ 遠隔解析で被害防止へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598933"
+      "link": "https://news.yahoo.co.jp/pickup/6598953"
     },
     {
-      "doc_id": "yahoo-217bc74821e8483e",
-      "title": "タクシーやバス カスハラ客拒否へ",
+      "doc_id": "yahoo-6f61e22d17544fc5",
+      "title": "フーシ イエメンの大統領宮殿攻撃",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598926"
+      "link": "https://news.yahoo.co.jp/pickup/6598950"
     },
     {
-      "doc_id": "yahoo-52299a8d24a9aad2",
-      "title": "トランプ氏 銃殺刑の配信計画中止",
+      "doc_id": "yahoo-7651a0f46b5d9716",
+      "title": "有罪か無罪か 王将射殺きょう判決",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598936"
+      "link": "https://news.yahoo.co.jp/pickup/6598954"
     },
     {
-      "doc_id": "yahoo-36847ca3a4b66193",
-      "title": "動画を苦に自殺 YouTuberを提訴",
+      "doc_id": "yahoo-8fe2bf858a316b5f",
+      "title": "2児殺害 母「状況覚えていない」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598927"
+      "link": "https://news.yahoo.co.jp/pickup/6598951"
     },
     {
-      "doc_id": "yahoo-ccdade50f555f919",
-      "title": "風俗店勤務要求疑い 元ホスト逮捕",
+      "doc_id": "yahoo-318d85724a51d357",
+      "title": "看護師撮影の動画流出 なぜX拡散",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598939"
+      "link": "https://news.yahoo.co.jp/pickup/6598956"
     },
     {
-      "doc_id": "yahoo-e3e6629060232f0c",
-      "title": "コミックシーモア 一時停止を発表",
+      "doc_id": "yahoo-b63b589c212dd958",
+      "title": "ソニー 93万円のウォークマン発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598934"
+      "link": "https://news.yahoo.co.jp/pickup/6598952"
     },
     {
-      "doc_id": "yahoo-7571055b71accf0b",
-      "title": "阪神監督 負傷交代の森下に言及",
+      "doc_id": "yahoo-df54480ef734f19c",
+      "title": "大谷が絶叫3ラン 116打席ぶり一発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598938"
+      "link": "https://news.yahoo.co.jp/pickup/6598957"
     },
     {
-      "doc_id": "yahoo-85fc5d54b12abc51",
-      "title": "鈴木福 役作りで人生初の金髪に",
+      "doc_id": "yahoo-548d77647875f8a0",
+      "title": "速報 ドジャースvs.ブリュワーズ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598935"
+      "link": "https://news.yahoo.co.jp/pickup/6598949"
     },
     {
       "doc_id": "jiji-17c4977e952b0cee",
@@ -70,10 +70,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
     },
     {
-      "doc_id": "jiji-4d5e67def3e7727c",
-      "title": "首相動静（１０月１５日）",
+      "doc_id": "jiji-7f5a2c1ec3ffb61f",
+      "title": "高市首相、簗氏の後任人事も我流貫く 重い任命責任、再び背負う 野党は勢い乗る",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500225&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101501113&g=pol"
     },
     {
       "doc_id": "jiji-5fd2059b82db7598",
@@ -82,40 +82,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026101401214&g=soc"
     },
     {
-      "doc_id": "jiji-295b316a3bcf6600",
-      "title": "「うるう秒」実質廃止決定 ずれ１時間まで許容―国際度量衡総会",
+      "doc_id": "jiji-a520a191669acf7f",
+      "title": "アメリカの新大統領報道官に経歴詐称疑惑 「弁護士」称すも、司法試験不合格と報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600154&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101600200&g=int"
     },
     {
-      "doc_id": "jiji-10512991e2fd370b",
-      "title": "武部農水相が就任 簗氏後任、高市首相「即戦力」",
+      "doc_id": "jiji-36217c64c592f158",
+      "title": "「欧州製」車優遇策、日本対象外に 輸出の逆風に、仏独が調整―英紙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500717&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101600230&g=int"
     },
     {
-      "doc_id": "jiji-85ac3da16f4f8199",
-      "title": "政府は午後５時半から新農水相の認証式を行うと発表した",
+      "doc_id": "jiji-3460e3ef084c83eb",
+      "title": "在留外国人、過去最多４２８万人 新規入国減少、中国自粛影響",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500382&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026101600225&g=pol"
     },
     {
-      "doc_id": "jiji-ecef62516df6b915",
-      "title": "簗（やな）農林水産相が高市首相の執務室に入った",
+      "doc_id": "jiji-46300aa45046db8f",
+      "title": "ロシアで拘束の記者に領事面会できず 「進展ない」、支援難航の恐れ アメリカ記者は３週間かかる",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101401040&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026101500733&g=int"
     },
     {
-      "doc_id": "jiji-d3c65e1a15dd1005",
-      "title": "ＮＹ株、５５６ドル高 ナスダックは小幅上昇",
+      "doc_id": "jiji-b650531084dc4499",
+      "title": "統一選、来年４月１１、２５日 特例法案を閣議決定",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600156&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101600149&g=pol"
     },
     {
-      "doc_id": "jiji-0c85dc856e313ec8",
-      "title": "農水相に武部新氏 高市首相、体制立て直し急ぐ",
+      "doc_id": "jiji-c161d5d2a0eb9551",
+      "title": "ロシア製油所攻撃「再開」 ウクライナ大統領、対米不信にじむ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500352&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101600174&g=int"
+    },
+    {
+      "doc_id": "nhk-4a7163119cdbdb74",
+      "title": "【速報中】ドジャース×ブルワーズ 大谷翔平がスリーランHR",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60061"
+    },
+    {
+      "doc_id": "nhk-c75383a63f19f2cd",
+      "title": "アメリカ西部オレゴン州の小学校で銃撃 複数死傷",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60199"
     },
     {
       "doc_id": "nhk-e5d91cc031cad652",
@@ -128,12 +140,6 @@
       "title": "与党“消費税早期審議入りを”野党“高市首相の任命責任追及”",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261016de60159"
-    },
-    {
-      "doc_id": "nhk-f0fddb14117e7323",
-      "title": "「うるう秒」廃止決定 秒の新定義も検討へ 国際度量衡総会",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60174"
     },
     {
       "doc_id": "nhk-41014faecb55db1c",
@@ -149,15 +155,21 @@
     },
     {
       "doc_id": "nhk-1ab53c6934d34836",
-      "title": "“王将”社長射殺事件 暴力団幹部にきょう判決 京都地裁",
+      "title": "“餃子の王将”社長殺害事件 暴力団幹部にきょう判決 京都地裁",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de60144"
     },
     {
-      "doc_id": "nhk-1f56c79b69cf65cf",
-      "title": "EU、中国製ハイブリッド車などの輸入大幅制限へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60165"
+      "doc_id": "itmedia-2b2b8ec4400f1dd2",
+      "title": "Anthropic、METRの評価チームを社内に常駐させ“従業員並み”のアクセス付与 公表に拒否権なし",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002315/"
+    },
+    {
+      "doc_id": "itmedia-380756a04dc6adc8",
+      "title": "「セキュリティソフトも売ってるのに」ソースネクスト会員情報漏えい、パスワード含む最大2252万件 API不正利用される",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002312/"
     },
     {
       "doc_id": "itmedia-4cb94ee487112aa6",
@@ -220,16 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002291/"
     },
     {
-      "doc_id": "itmedia-8b00aa55dd16566d",
-      "title": "相次ぐサイバー攻撃に「AI悪用の可能性」……初来日のAnthropic共同創業者が言及 悪用どう抑止",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002286/"
-    },
-    {
-      "doc_id": "itmedia-aee5ebca5703e890",
-      "title": "米8州「OpenAI」提訴 ChatGPTが「子供らに危害」 安全対策導入など求める",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/15/2000002290/"
+      "doc_id": "nazology-a3f5faa0881d31e6",
+      "title": "「恐竜絶滅」の直後から続く系統の「巨大キノコ」の新種を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201839"
     },
     {
       "doc_id": "nazology-50d1e25015b23b5e",
@@ -284,12 +290,6 @@
       "title": "AI開発で問題になっている「蒸留」という手口とは",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201261"
-    },
-    {
-      "doc_id": "nazology-d1b1c4564d414b31",
-      "title": "AIが見つけた酵素に生物学者が「自分の研究では」と疑問",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201334"
     }
   ]
 }
