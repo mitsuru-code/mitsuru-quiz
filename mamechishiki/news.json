@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-16T17:27:16+00:00",
-  "now_ms": 1792171636169,
+  "fetched_at": "2026-10-16T21:13:16+00:00",
+  "now_ms": 1792185196080,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -64,46 +64,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026101600677&g=soc"
     },
     {
+      "doc_id": "jiji-b7e7c5feeff836dd",
+      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
+    },
+    {
+      "doc_id": "jiji-fb1fc611d11b98da",
+      "title": "首相動静（１０月１６日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600212&g=pol"
+    },
+    {
       "doc_id": "jiji-bf9ac7393f091911",
       "title": "震度７の緊急地震速報取り消し 「千島でＭ９．９」と過大評価―気象庁部長「深くおわび」",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101600527&g=soc"
-    },
-    {
-      "doc_id": "jiji-a53467710fc4c6c9",
-      "title": "庄子、打撃好調でＭＶＰ プロ野球ＣＳ・ソフトバンク",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101601115&g=spo"
-    },
-    {
-      "doc_id": "jiji-07d4b99d64d752d4",
-      "title": "阪神の前川右京が左手小指骨折 プロ野球ＣＳ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101601084&g=spo"
-    },
-    {
-      "doc_id": "jiji-ad67ddb843a28c36",
-      "title": "高市首相「モニター準備間に合わず」 Ｇ７首脳会議欠席で釈明",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600953&g=pol"
-    },
-    {
-      "doc_id": "jiji-1052f738cd6316cc",
-      "title": "気象庁によると、サイバー攻撃は受けていない",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600612&g=flash"
-    },
-    {
-      "doc_id": "jiji-c428b85f7254bba3",
-      "title": "阪神、ＣＳ最多の２７回連続無得点 プロ野球ＣＳ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101601106&g=spo"
-    },
-    {
-      "doc_id": "jiji-ac5bcf7ae90cf65b",
-      "title": "王将社長射殺、組幹部に無罪 現場吸い殻「第三者遺留も」―京都地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600141&g=soc"
     },
     {
       "doc_id": "jiji-9dddecf64d5443a2",
@@ -112,52 +88,76 @@
       "link": "https://www.jiji.com/jc/article?k=2026101600658&g=soc"
     },
     {
-      "doc_id": "jiji-17c4977e952b0cee",
-      "title": "死亡男性母親、２．３億円賠償求め提訴 逮捕のユーチューバー「ＫＥＮＺＯ」らに―京都地裁",
+      "doc_id": "jiji-1052f738cd6316cc",
+      "title": "気象庁によると、サイバー攻撃は受けていない",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101501040&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101600612&g=flash"
     },
     {
-      "doc_id": "nhk-bb29bcd0d4ad1b81",
-      "title": "緊急地震速報の過大推定 「過去の対策が機能せず」気象庁",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60368"
+      "doc_id": "jiji-ac5bcf7ae90cf65b",
+      "title": "王将社長射殺、組幹部に無罪 現場吸い殻「第三者遺留も」―京都地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600141&g=soc"
     },
     {
-      "doc_id": "nhk-c7f12d68302c545c",
-      "title": "NTTドコモ 緊急地震速報が利用者に配信されず",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60749"
+      "doc_id": "jiji-85ac3da16f4f8199",
+      "title": "政府は午後５時半から新農水相の認証式を行うと発表した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101500382&g=flash"
     },
     {
-      "doc_id": "nhk-e24f70205cac68a0",
-      "title": "コミックシーモアが不正アクセス確認 会員情報が漏えい",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60740"
+      "doc_id": "jiji-c618fbd4aface750",
+      "title": "高市首相、農水相辞任で陳謝 「任命責任受け止める」―参院予算委",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600246&g=pol"
     },
     {
-      "doc_id": "nhk-2e7d65c1ad5a5aa2",
-      "title": "ソースネクスト パスワード暗号化がない状態で流出 再設定を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60556"
+      "doc_id": "jiji-993fb1ffacae5d74",
+      "title": "大阪城天守閣を重要文化財に 昭和前期、秀吉の時代を再現―文化審答申",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600844&g=soc"
     },
     {
-      "doc_id": "nhk-1cae03a80902cf09",
-      "title": "日銀植田総裁 今後も利上げ進める 2％の物価安定がより重要",
+      "doc_id": "nhk-68028feaae92c1fb",
+      "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60782"
-    },
-    {
-      "doc_id": "nhk-7d159d93a3483460",
-      "title": "ヤマト運輸 個人情報530万件余の外部流出を確認",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60395"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797"
     },
     {
       "doc_id": "nhk-2978d02cecdfd645",
       "title": "個人情報漏えい のべ1億6500万人分余に 利用者の対策は?",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261016de60239"
+    },
+    {
+      "doc_id": "nhk-d16491de2205a880",
+      "title": "台風30号 非常に強い勢力に発達する見込み 今後の情報に注意",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802"
+    },
+    {
+      "doc_id": "nhk-452d50d8d8bd2ef5",
+      "title": "消費税減税法案来週審議入り 与党 成立図る 野党 支援金明示を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60791"
+    },
+    {
+      "doc_id": "nhk-f0517331da7e05fa",
+      "title": "消費減税 農家などに売り上げ5％程度の給付金検討",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60762"
+    },
+    {
+      "doc_id": "nhk-e08e0298578d02d5",
+      "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805"
+    },
+    {
+      "doc_id": "nhk-ed8b30f6091ca820",
+      "title": "“餃子の王将”社長殺害事件で無罪 捜査の進展も問われる",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60800"
     },
     {
       "doc_id": "itmedia-39e5338d17da9645",
