@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-16T07:13:48+00:00",
-  "now_ms": 1792134828404,
+  "fetched_at": "2026-10-16T12:29:51+00:00",
+  "now_ms": 1792153791262,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,76 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-58263f88147b0fa0",
-      "title": "猪苗代湖3人死傷 最高裁逆転有罪",
+      "doc_id": "yahoo-b055203bcdf8d445",
+      "title": "自公再連立巡り 斉藤元代表が含み",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598989"
+      "link": "https://news.yahoo.co.jp/pickup/6599028"
     },
     {
-      "doc_id": "yahoo-81177ab87491755a",
-      "title": "気象庁 サイバー攻撃の可能性ない",
+      "doc_id": "yahoo-2c3477251f20fe6f",
+      "title": "首相 外食支援で商品券なども検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598988"
+      "link": "https://news.yahoo.co.jp/pickup/6599015"
     },
     {
-      "doc_id": "yahoo-9d7499b604103e24",
-      "title": "気象庁 M6.9をM9.9と過大に予測",
+      "doc_id": "yahoo-8934fcf68cf418e6",
+      "title": "簗氏巡り 自民鶴保氏が首相に苦言",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598983"
+      "link": "https://news.yahoo.co.jp/pickup/6599022"
     },
     {
-      "doc_id": "yahoo-39073da199b567f0",
-      "title": "インフル感染 前年同時期比5倍超",
+      "doc_id": "yahoo-03eb77b1911f5b51",
+      "title": "トヨタ 30年までに全車種をSDVに",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598993"
+      "link": "https://news.yahoo.co.jp/pickup/6599017"
     },
     {
-      "doc_id": "yahoo-722e412b71aeae4e",
-      "title": "東海道新幹線のぞみ 来年値上げへ",
+      "doc_id": "yahoo-f6f62480a1243686",
+      "title": "緊急地震速報 ドコモで配信されず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598992"
+      "link": "https://news.yahoo.co.jp/pickup/6599019"
     },
     {
-      "doc_id": "yahoo-65557add2a99d669",
-      "title": "王将社長射殺事件 男に無罪判決",
+      "doc_id": "yahoo-daea4819cfccf314",
+      "title": "ソフトバンク 3年連続日本S進出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598982"
+      "link": "https://news.yahoo.co.jp/pickup/6599034"
     },
     {
-      "doc_id": "yahoo-c02d9f13b9640f2d",
-      "title": "ヤマト運輸 個人情報530万件流出",
+      "doc_id": "yahoo-c0695453a0365717",
+      "title": "DeNA 日本シリーズ進出に王手",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598987"
+      "link": "https://news.yahoo.co.jp/pickup/6599035"
     },
     {
-      "doc_id": "yahoo-badac27881cad4ba",
-      "title": "ド軍敗退 大谷はため息「悔しい」",
+      "doc_id": "yahoo-184d65dc4fc570ce",
+      "title": "グッズが許可なく店に 堂本剛声明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6598986"
+      "link": "https://news.yahoo.co.jp/pickup/6599024"
     },
     {
       "doc_id": "jiji-bf9ac7393f091911",
-      "title": "震度７の緊急地震速報取り消し 「千島でＭ９．９」と過大評価―気象庁課長「深くおわび」",
+      "title": "震度７の緊急地震速報取り消し 「千島でＭ９．９」と過大評価―気象庁部長「深くおわび」",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101600527&g=soc"
     },
     {
-      "doc_id": "jiji-1052f738cd6316cc",
-      "title": "気象庁によると、サイバー攻撃は受けていない",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600612&g=flash"
-    },
-    {
-      "doc_id": "jiji-454bf1026e12523b",
-      "title": "中国大使、フィリピンに「武力で簡単に勝てる」 マルコス大統領は反発",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600644&g=int"
-    },
-    {
       "doc_id": "jiji-1918d3c91e31eb95",
-      "title": "元会社役員の有罪確定へ ３人死傷、二審逆転無罪破棄―猪苗代湖ボート事故・最高裁",
+      "title": "元会社役員の実刑確定へ ３人死傷、二審逆転無罪破棄―猪苗代湖ボート事故・最高裁",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101600677&g=soc"
+    },
+    {
+      "doc_id": "jiji-ad67ddb843a28c36",
+      "title": "高市首相「モニター準備間に合わず」 Ｇ７首脳会議欠席で釈明",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600953&g=pol"
+    },
+    {
+      "doc_id": "jiji-27c22be14ce79bac",
+      "title": "化粧など「男性より時間かかる」 高市首相、国会審議巡り吐露",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101400855&g=pol"
     },
     {
       "doc_id": "jiji-15456c76a97a3569",
@@ -94,46 +94,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026101501040&g=soc"
     },
     {
-      "doc_id": "jiji-ac5bcf7ae90cf65b",
-      "title": "王将社長射殺、組幹部に無罪 現場吸い殻「第三者遺留も」―京都地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600141&g=soc"
-    },
-    {
-      "doc_id": "jiji-b1b4aa9477a9b11a",
-      "title": "「今は首相も国産コスメ」 自民・林氏らが美容産業議連設立",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600650&g=pol"
-    },
-    {
       "doc_id": "jiji-1a4d9e7537b18d0d",
       "title": "内閣支持率４２％に下落 簗氏続投判断、８割問題視―時事世論調査",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101500705&g=pol"
     },
     {
-      "doc_id": "jiji-a520a191669acf7f",
-      "title": "アメリカの新大統領報道官に経歴詐称疑惑 「弁護士」称すも、司法試験不合格と報道",
+      "doc_id": "jiji-04a4cef458fdd3d1",
+      "title": "ニデックは、創業者の永守重信（ながもり・しげのぶ）氏らの法令違反を認め、損害賠償請求を検討すると発表した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600200&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101601006&g=flash"
+    },
+    {
+      "doc_id": "jiji-454bf1026e12523b",
+      "title": "中国大使、フィリピンに「武力で簡単に勝てる」 マルコス大統領は反発",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600644&g=int"
+    },
+    {
+      "doc_id": "jiji-40092256d77a13b2",
+      "title": "東電に賠償命令、国の責任は否定 福島・津島地区の原発避難者訴訟―仙台高裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600980&g=soc"
     },
     {
       "doc_id": "nhk-bb29bcd0d4ad1b81",
-      "title": "【速報中】気象庁 緊急地震速報を取り消し“M9.9と過大推定”",
+      "title": "【詳しく】気象庁 緊急地震速報取り消し “M9.9と過大に推定”",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261016de60368"
     },
     {
-      "doc_id": "nhk-0b645c10a63ea0f1",
-      "title": "猪苗代湖ボート3人死傷事故 無罪取り消し 有罪確定へ 最高裁",
+      "doc_id": "nhk-c7f12d68302c545c",
+      "title": "NTTドコモ 緊急地震速報が利用者に配信されず",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60234"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60749"
     },
     {
-      "doc_id": "nhk-7d159d93a3483460",
-      "title": "ヤマト運輸 個人情報530万件余の外部流出を確認",
+      "doc_id": "nhk-e24f70205cac68a0",
+      "title": "コミックシーモアが不正アクセス確認 会員情報が漏えい",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60395"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60740"
+    },
+    {
+      "doc_id": "nhk-2e7d65c1ad5a5aa2",
+      "title": "ソースネクスト パスワード暗号化がない状態で流出 再設定を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60556"
     },
     {
       "doc_id": "nhk-1ab53c6934d34836",
@@ -142,22 +148,70 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de60144"
     },
     {
-      "doc_id": "nhk-4a7163119cdbdb74",
-      "title": "ドジャース 大谷HRも敗退 3連覇逃す ブルワーズ戦【詳報】",
+      "doc_id": "nhk-7d159d93a3483460",
+      "title": "ヤマト運輸 個人情報530万件余の外部流出を確認",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de60061"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60395"
     },
     {
-      "doc_id": "nhk-20242c4ec3dc2e1b",
-      "title": "緊急地震速報取り消し 驚きや正確な情報求める声 北海道・東北",
+      "doc_id": "nhk-2978d02cecdfd645",
+      "title": "個人情報漏えい のべ1億6500万人分余に 利用者の対策は?",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60369"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60239"
     },
     {
-      "doc_id": "nhk-39e0e2cb94cf76b9",
-      "title": "【QA】サイバー攻撃で情報流出 なぜ相次ぐ？背景や対策を解説",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60258"
+      "doc_id": "itmedia-39e5338d17da9645",
+      "title": "コードを書かずに“自分専用IME” 日英を自動切り替えできる「Meltype」にAI変換を載せてみた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002336/"
+    },
+    {
+      "doc_id": "itmedia-3396903a68f7ae43",
+      "title": "タイムズカー、退会後も7年間保管していた免許証画像を全削除へ 約660万アカウント分の漏えい受け",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002346/"
+    },
+    {
+      "doc_id": "itmedia-034b6645b4e99d92",
+      "title": "コミックシーモア、会員のメールアドレスや生年月日など流出 件数は精査中",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002345/"
+    },
+    {
+      "doc_id": "itmedia-242a12d2add02965",
+      "title": "うるう秒、27年5月に廃止 国際度量衡総会で決定 通信や情報システムの障害防止へ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002343/"
+    },
+    {
+      "doc_id": "itmedia-b21fd5090998c188",
+      "title": "相次ぐ不正アクセス「実態解明進めなければならない」 警察庁長官、担当幹部会議で指示",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002341/"
+    },
+    {
+      "doc_id": "itmedia-57106ca44bdb19d4",
+      "title": "ファンケルとアテニア、計約83万件の会員情報漏えい ECサイトに不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002340/"
+    },
+    {
+      "doc_id": "itmedia-bb9d1f8629426516",
+      "title": "ヤマト運輸、氏名や住所など計530万件超が漏えい 「クロネコ代金後払い」不正アクセスで",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002339/"
+    },
+    {
+      "doc_id": "itmedia-e8366c25c235e6dc",
+      "title": "日経新聞、不正アクセスで183万件の個人情報流出 開発用クラウドの認証情報盗まれ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002337/"
+    },
+    {
+      "doc_id": "itmedia-fcdef359b2092e84",
+      "title": "ゴジラ到達までに25万人をどう逃がす──富士通の避難誘導シミュを体験 記者は市民を救えたか",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002335/"
     },
     {
       "doc_id": "itmedia-d63dd2f2903e992c",
@@ -178,58 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002329/"
     },
     {
-      "doc_id": "itmedia-70d0e2a9b64f0587",
-      "title": "緊急地震速報発表→すぐ取り消し 震度7予測も、実際は震度1 アラートに困惑の声",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002327/"
+      "doc_id": "nazology-2e631519fb25293d",
+      "title": "子どもの「頭の中の言葉」の発達は、1から5まで数えることで測れる可能性―心の中で数字を数えられるのはいつごろ？",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202623"
     },
     {
-      "doc_id": "itmedia-fe9eaed1a9325946",
-      "title": "コミックシーモア、不正アクセスの可能性でサービス停止 メンテ終了時期は未定",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002321/"
-    },
-    {
-      "doc_id": "itmedia-295f7451e814c68c",
-      "title": "「カレー作りたい」と注文→ロボが野菜をピックする「未来の八百屋」 AWS×安川電機が披露",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002326/"
-    },
-    {
-      "doc_id": "itmedia-316912d44d12c386",
-      "title": "Microsoft、社内エンジニア数万人を対象に「Claude Code」「Copilot CLI」導入の影響を分析 生産性どう変わる",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002277/"
-    },
-    {
-      "doc_id": "itmedia-f5f5442d7fcb80f2",
-      "title": "Tesla、新型「Roadster」発表 SpaceX技術で“飛べる”モデルも 日本でも予約受付中",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002323/"
-    },
-    {
-      "doc_id": "itmedia-68542817975b2c90",
-      "title": "「Nintendo Switch 2」修理値上げ、CPU基板交換9900円アップ 「部品の価格高騰」で",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002322/"
-    },
-    {
-      "doc_id": "itmedia-3117011bd013bb61",
-      "title": "「『楽天カード公式』から詐欺メール」報告相次ぐ ドコモメールに公式マーク付きフィッシング、一部企業の認証設定に脆弱性",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002314/"
-    },
-    {
-      "doc_id": "itmedia-fdf258d06a5027d9",
-      "title": "Amazon、Beeの新AIデバイス2機種発表 リストバンド型とスマホ装着型、会話を要約し「Alexa+」と連携",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002316/"
-    },
-    {
-      "doc_id": "itmedia-2b2b8ec4400f1dd2",
-      "title": "Anthropic、METRの評価チームを社内に常駐させ“従業員並み”のアクセス付与 公表に拒否権なし",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002315/"
+      "doc_id": "nazology-03526dd5ab8332b9",
+      "title": "ママの正体はパパのクローン、オス1匹から子孫を作ることにマウスで成功",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201879"
     },
     {
       "doc_id": "nazology-a3f5faa0881d31e6",
@@ -278,18 +290,6 @@
       "title": "黄色と黒のファイアサラマンダー、紫外線で「青緑に光る」と判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201519"
-    },
-    {
-      "doc_id": "nazology-a829bcf6a1aeaad1",
-      "title": "恐竜時代の「カワウソもどき」は母乳を飲むための「喉の装置」を持っていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201720"
-    },
-    {
-      "doc_id": "nazology-969a32f9d5ffdf90",
-      "title": "AI開発で問題になっている「蒸留」という手口とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201261"
     }
   ]
 }
