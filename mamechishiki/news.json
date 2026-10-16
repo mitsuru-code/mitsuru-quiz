@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-16T21:13:16+00:00",
-  "now_ms": 1792185196080,
+  "fetched_at": "2026-10-16T23:38:55+00:00",
+  "now_ms": 1792193935889,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,70 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-b055203bcdf8d445",
-      "title": "自公再連立巡り 斉藤元代表が含み",
+      "doc_id": "yahoo-c21ac57ed2f204f6",
+      "title": "福岡県 AM4時に百条委設置案可決",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599028"
+      "link": "https://news.yahoo.co.jp/pickup/6599057"
     },
     {
-      "doc_id": "yahoo-1facb2639c7e4fd8",
-      "title": "緊急地震速報取り消し 2つの要因",
+      "doc_id": "yahoo-bd043bc80ea84b06",
+      "title": "露拘束の記者と領事面会できず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599044"
+      "link": "https://news.yahoo.co.jp/pickup/6599059"
     },
     {
-      "doc_id": "yahoo-d2d27232272a91db",
-      "title": "猪苗代湖事故 判決受け両親が心境",
+      "doc_id": "yahoo-037648e53532060c",
+      "title": "米大統領報道官 わずか5日で解任",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599047"
+      "link": "https://news.yahoo.co.jp/pickup/6599054"
     },
     {
-      "doc_id": "yahoo-f706769056fb1f72",
-      "title": "流出個人情報を売買 闇サイト実態",
+      "doc_id": "yahoo-7057a4ae948019c8",
+      "title": "「警察車両が幅寄せ」拡散 調査へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599033"
+      "link": "https://news.yahoo.co.jp/pickup/6599055"
     },
     {
-      "doc_id": "yahoo-89e18a9f37e65893",
-      "title": "ショップサーブの流出 2335万人分",
+      "doc_id": "yahoo-6dacb5c23f506ecd",
+      "title": "荷物用エレベーターに挟まれ死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599039"
+      "link": "https://news.yahoo.co.jp/pickup/6599053"
     },
     {
-      "doc_id": "yahoo-a28d38fdcb824d81",
-      "title": "テスラ新型車 空を飛び宙返り実演",
+      "doc_id": "yahoo-f2aac5d191ff805e",
+      "title": "20代なのに「足の握力」80代 なぜ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599049"
+      "link": "https://news.yahoo.co.jp/pickup/6599064"
     },
     {
-      "doc_id": "yahoo-b4ee6b01baa248f2",
-      "title": "阪神悪夢 死球の前川右京は骨折",
+      "doc_id": "yahoo-303ca43be2d29c1c",
+      "title": "日本ハムに朗報 レイエス残留へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599036"
+      "link": "https://news.yahoo.co.jp/pickup/6599060"
     },
     {
-      "doc_id": "yahoo-84ce6b82d1e3e09a",
-      "title": "浜田雅功 単独バンドライブ開催へ",
+      "doc_id": "yahoo-c5e9a713137fdf67",
+      "title": "ビリー・ジョエル 脳疾患治療の今",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599043"
+      "link": "https://news.yahoo.co.jp/pickup/6599063"
     },
     {
-      "doc_id": "jiji-1918d3c91e31eb95",
-      "title": "元会社役員の実刑確定へ ３人死傷、二審逆転無罪破棄―猪苗代湖ボート事故・最高裁",
+      "doc_id": "jiji-f824be1e646720f9",
+      "title": "高市首相、靖国神社に真榊 秋季例大祭、参拝見送りへ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600677&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101700164&g=pol"
     },
     {
-      "doc_id": "jiji-b7e7c5feeff836dd",
-      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
+      "doc_id": "jiji-79cac13832c4bbca",
+      "title": "タリバンが子供の徴集強化 国連、爆発物被害多発も指摘―アフガン",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
-    },
-    {
-      "doc_id": "jiji-fb1fc611d11b98da",
-      "title": "首相動静（１０月１６日）",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600212&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101700192&g=int"
     },
     {
       "doc_id": "jiji-bf9ac7393f091911",
@@ -82,40 +76,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026101600527&g=soc"
     },
     {
+      "doc_id": "jiji-1918d3c91e31eb95",
+      "title": "元会社役員の実刑確定へ ３人死傷、二審逆転無罪破棄―猪苗代湖ボート事故・最高裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600677&g=soc"
+    },
+    {
+      "doc_id": "jiji-a47a3e1887f971e0",
+      "title": "自衛官の処遇改善加速へ 政府・自民、人手不足に危機感",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600970&g=pol"
+    },
+    {
+      "doc_id": "jiji-a07e69d8c8d068a4",
+      "title": "北朝鮮、制裁無力化を期待か 新橋開通、中国一極依存警戒も",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600822&g=int"
+    },
+    {
+      "doc_id": "jiji-a366b46daa327cd4",
+      "title": "米財政赤字、５年ぶり高水準 関税還付、利払い響く―２６年度",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700175&g=int"
+    },
+    {
+      "doc_id": "jiji-9968f20d205e4770",
+      "title": "米大統領報道官、早くも退任 弁護士詐称疑惑などで",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
+    },
+    {
+      "doc_id": "jiji-6859c0690e91f6ab",
+      "title": "立民「政権の危機管理」追及 簗氏更迭巡り、首相防戦",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600996&g=pol"
+    },
+    {
       "doc_id": "jiji-9dddecf64d5443a2",
       "title": "邦人記者とロシア人交換狙いか 日本のハッカー拘束に関連も",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101600658&g=soc"
-    },
-    {
-      "doc_id": "jiji-1052f738cd6316cc",
-      "title": "気象庁によると、サイバー攻撃は受けていない",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600612&g=flash"
-    },
-    {
-      "doc_id": "jiji-ac5bcf7ae90cf65b",
-      "title": "王将社長射殺、組幹部に無罪 現場吸い殻「第三者遺留も」―京都地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600141&g=soc"
-    },
-    {
-      "doc_id": "jiji-85ac3da16f4f8199",
-      "title": "政府は午後５時半から新農水相の認証式を行うと発表した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101500382&g=flash"
-    },
-    {
-      "doc_id": "jiji-c618fbd4aface750",
-      "title": "高市首相、農水相辞任で陳謝 「任命責任受け止める」―参院予算委",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600246&g=pol"
-    },
-    {
-      "doc_id": "jiji-993fb1ffacae5d74",
-      "title": "大阪城天守閣を重要文化財に 昭和前期、秀吉の時代を再現―文化審答申",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600844&g=soc"
     },
     {
       "doc_id": "nhk-68028feaae92c1fb",
@@ -136,22 +136,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802"
     },
     {
-      "doc_id": "nhk-452d50d8d8bd2ef5",
-      "title": "消費税減税法案来週審議入り 与党 成立図る 野党 支援金明示を",
+      "doc_id": "nhk-ea6e2f52c49325f4",
+      "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60791"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60807"
     },
     {
-      "doc_id": "nhk-f0517331da7e05fa",
-      "title": "消費減税 農家などに売り上げ5％程度の給付金検討",
+      "doc_id": "nhk-1d6f49eba5f5858b",
+      "title": "高市首相 靖国神社の秋の例大祭にあわせ「真榊」奉納",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60762"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815"
     },
     {
-      "doc_id": "nhk-e08e0298578d02d5",
-      "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
+      "doc_id": "nhk-e81f2a69cc44395c",
+      "title": "東京大学の総長選考「藤垣氏は選考会議の最多の支持」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60801"
     },
     {
       "doc_id": "nhk-ed8b30f6091ca820",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002329/"
     },
     {
+      "doc_id": "nazology-9466e57849e36aab",
+      "title": "11年独身でも約9割は「人生の満足度」が高いままと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/201867"
+    },
+    {
       "doc_id": "nazology-2e631519fb25293d",
       "title": "子どもの「頭の中の言葉」の発達は、1から5まで数えることで測れる可能性―心の中で数字を数えられるのはいつごろ？",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "深海で採取された岩が実験室の中で自然発火した",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201719"
-    },
-    {
-      "doc_id": "nazology-905ee31bf0434a09",
-      "title": "黄色と黒のファイアサラマンダー、紫外線で「青緑に光る」と判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201519"
     }
   ]
 }
