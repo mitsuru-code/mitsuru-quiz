@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-17T17:14:11+00:00",
-  "now_ms": 1792257251375,
+  "fetched_at": "2026-10-17T19:27:59+00:00",
+  "now_ms": 1792265279141,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,40 +58,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6599173"
     },
     {
-      "doc_id": "jiji-9968f20d205e4770",
-      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
-    },
-    {
-      "doc_id": "jiji-d8f1d31a4abf48bc",
-      "title": "仙台が首位守る Ｊ２",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700443&g=spo"
-    },
-    {
-      "doc_id": "jiji-e48be5a4529d0797",
-      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
-    },
-    {
       "doc_id": "jiji-35ba9c05e9fb5ff3",
       "title": "ロシア産軽油供給、効果に疑問 店頭価格、前週より上昇",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101700304&g=int"
     },
     {
-      "doc_id": "jiji-b47749e4997e29ea",
-      "title": "若原、またアクシデント Ｊリーグ・柏",
+      "doc_id": "jiji-9968f20d205e4770",
+      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700460&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
     },
     {
-      "doc_id": "jiji-b7e7c5feeff836dd",
-      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
+      "doc_id": "jiji-f824be1e646720f9",
+      "title": "高市首相、靖国神社に真榊 秋季例大祭、参拝見送りへ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101700164&g=pol"
+    },
+    {
+      "doc_id": "jiji-f3cd6c380a892991",
+      "title": "トランプ氏の「身代わり」？ 記者の質問にニヤリ―ウクライナ大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700205&g=int"
     },
     {
       "doc_id": "jiji-93ff65e3f0595253",
@@ -100,22 +88,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700249&g=int"
     },
     {
+      "doc_id": "jiji-b7e7c5feeff836dd",
+      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
+    },
+    {
       "doc_id": "jiji-1052f738cd6316cc",
       "title": "気象庁によると、サイバー攻撃は受けていない",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101600612&g=flash"
     },
     {
-      "doc_id": "jiji-1fdd13b02fca376f",
-      "title": "「人工知能」改め「先進的知能」？ ＩＭＦ委で表現変更、トランプ米政権の意向影響か",
+      "doc_id": "jiji-067686aa19aa3b12",
+      "title": "金銭授受疑惑で百条委設置 未明に議案可決―福岡県議会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700400&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101700344&g=pol"
     },
     {
-      "doc_id": "jiji-651bb7001919966c",
-      "title": "Ｆ東京、ダービー制し５連勝 広島も快勝―Ｊ１",
+      "doc_id": "jiji-72e566a2ef64933a",
+      "title": "ミサイルにＡＩ「クロード」活用試行か フーシ派、中国製部品も使用―イエメン",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700358&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101700325&g=int"
+    },
+    {
+      "doc_id": "jiji-e48be5a4529d0797",
+      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
     },
     {
       "doc_id": "nhk-1b172d6832bbaa44",
