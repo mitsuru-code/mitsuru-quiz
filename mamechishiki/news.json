@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-16T23:38:55+00:00",
-  "now_ms": 1792193935889,
+  "fetched_at": "2026-10-17T04:31:57+00:00",
+  "now_ms": 1792211517300,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,94 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-c21ac57ed2f204f6",
-      "title": "福岡県 AM4時に百条委設置案可決",
+      "doc_id": "yahoo-7fd2ea8566810c2f",
+      "title": "米大統領 対露制裁関税適用を免除",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599057"
+      "link": "https://news.yahoo.co.jp/pickup/6599098"
     },
     {
-      "doc_id": "yahoo-bd043bc80ea84b06",
-      "title": "露拘束の記者と領事面会できず",
+      "doc_id": "yahoo-35ce8e429af3436c",
+      "title": "北朝鮮が新型魚雷にAI使用 実験",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599059"
+      "link": "https://news.yahoo.co.jp/pickup/6599089"
     },
     {
-      "doc_id": "yahoo-037648e53532060c",
-      "title": "米大統領報道官 わずか5日で解任",
+      "doc_id": "yahoo-2c625cb2b9b4140f",
+      "title": "車にトラック追突 1人死亡1人重体",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599054"
+      "link": "https://news.yahoo.co.jp/pickup/6599092"
     },
     {
-      "doc_id": "yahoo-7057a4ae948019c8",
-      "title": "「警察車両が幅寄せ」拡散 調査へ",
+      "doc_id": "yahoo-06adb598310acd46",
+      "title": "9歳で失明し61歳で当選 市議の今",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599055"
+      "link": "https://news.yahoo.co.jp/pickup/6599072"
     },
     {
-      "doc_id": "yahoo-6dacb5c23f506ecd",
-      "title": "荷物用エレベーターに挟まれ死亡",
+      "doc_id": "yahoo-47ad9adcedea8a55",
+      "title": "「隠れ教育費」にモヤモヤ 親の声",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599053"
+      "link": "https://news.yahoo.co.jp/pickup/6599101"
     },
     {
-      "doc_id": "yahoo-f2aac5d191ff805e",
-      "title": "20代なのに「足の握力」80代 なぜ",
+      "doc_id": "yahoo-14988c9b26c1afd1",
+      "title": "子の変顔募集に賛否 しまむら見解",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599064"
+      "link": "https://news.yahoo.co.jp/pickup/6599095"
     },
     {
-      "doc_id": "yahoo-303ca43be2d29c1c",
-      "title": "日本ハムに朗報 レイエス残留へ",
+      "doc_id": "yahoo-e43e5e6350c41818",
+      "title": "武蔵野学院大 箱根逃すも選手歓喜",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599060"
+      "link": "https://news.yahoo.co.jp/pickup/6599082"
     },
     {
-      "doc_id": "yahoo-c5e9a713137fdf67",
-      "title": "ビリー・ジョエル 脳疾患治療の今",
+      "doc_id": "yahoo-ebdd95cb4ad30e2f",
+      "title": "ONE 安保瑠輝也戦の中止を発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599063"
-    },
-    {
-      "doc_id": "jiji-f824be1e646720f9",
-      "title": "高市首相、靖国神社に真榊 秋季例大祭、参拝見送りへ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700164&g=pol"
-    },
-    {
-      "doc_id": "jiji-79cac13832c4bbca",
-      "title": "タリバンが子供の徴集強化 国連、爆発物被害多発も指摘―アフガン",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700192&g=int"
-    },
-    {
-      "doc_id": "jiji-bf9ac7393f091911",
-      "title": "震度７の緊急地震速報取り消し 「千島でＭ９．９」と過大評価―気象庁部長「深くおわび」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600527&g=soc"
-    },
-    {
-      "doc_id": "jiji-1918d3c91e31eb95",
-      "title": "元会社役員の実刑確定へ ３人死傷、二審逆転無罪破棄―猪苗代湖ボート事故・最高裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600677&g=soc"
-    },
-    {
-      "doc_id": "jiji-a47a3e1887f971e0",
-      "title": "自衛官の処遇改善加速へ 政府・自民、人手不足に危機感",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600970&g=pol"
-    },
-    {
-      "doc_id": "jiji-a07e69d8c8d068a4",
-      "title": "北朝鮮、制裁無力化を期待か 新橋開通、中国一極依存警戒も",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600822&g=int"
-    },
-    {
-      "doc_id": "jiji-a366b46daa327cd4",
-      "title": "米財政赤字、５年ぶり高水準 関税還付、利払い響く―２６年度",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700175&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6599096"
     },
     {
       "doc_id": "jiji-9968f20d205e4770",
@@ -106,10 +64,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
     },
     {
-      "doc_id": "jiji-6859c0690e91f6ab",
-      "title": "立民「政権の危機管理」追及 簗氏更迭巡り、首相防戦",
+      "doc_id": "jiji-b7e7c5feeff836dd",
+      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600996&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
+    },
+    {
+      "doc_id": "jiji-f3cd6c380a892991",
+      "title": "トランプ氏の「身代わり」？ 記者の質問にニヤリ―ウクライナ大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700205&g=int"
+    },
+    {
+      "doc_id": "jiji-e48be5a4529d0797",
+      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
+    },
+    {
+      "doc_id": "jiji-ef28e0ff3ace7e0d",
+      "title": "殉職隊員「国の誇り」 高市首相、自衛隊追悼式で",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700251&g=pol"
+    },
+    {
+      "doc_id": "jiji-cfe193566e6730c0",
+      "title": "城内担当相が靖国参拝",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700255&g=pol"
+    },
+    {
+      "doc_id": "jiji-f824be1e646720f9",
+      "title": "高市首相、靖国神社に真榊 秋季例大祭、参拝見送りへ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700164&g=pol"
     },
     {
       "doc_id": "jiji-9dddecf64d5443a2",
@@ -118,16 +106,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101600658&g=soc"
     },
     {
-      "doc_id": "nhk-68028feaae92c1fb",
-      "title": "緊急地震速報の過大推定 過去の対策が機能せず 気象庁は調査",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60797"
+      "doc_id": "jiji-15456c76a97a3569",
+      "title": "米大統領報道官、弁護士資格なし認める 「職責果たす」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101600639&g=int"
     },
     {
-      "doc_id": "nhk-2978d02cecdfd645",
-      "title": "個人情報漏えい のべ1億6500万人分余に 利用者の対策は?",
+      "doc_id": "jiji-93ff65e3f0595253",
+      "title": "対ロ制裁関税適用を免除 軽油供給合意で融和姿勢―トランプ米大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700249&g=int"
+    },
+    {
+      "doc_id": "nhk-5ed6503b64e490b8",
+      "title": "スカイチケット運営会社 クレカ情報も最大6000人余流出",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261016de60239"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60862"
+    },
+    {
+      "doc_id": "nhk-1d6f49eba5f5858b",
+      "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相は参拝",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815"
+    },
+    {
+      "doc_id": "nhk-5431e030bc8a6148",
+      "title": "ホワイトハウス新報道官 就任からわずか5日で辞任と報道",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60818"
     },
     {
       "doc_id": "nhk-d16491de2205a880",
@@ -136,40 +142,46 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802"
     },
     {
-      "doc_id": "nhk-ea6e2f52c49325f4",
-      "title": "ロシアが拘束した北海道新聞記者への領事面会は実現せず",
+      "doc_id": "nhk-9dfa5cb364ff07ad",
+      "title": "AIリスク議論 サイバー攻撃 システムぜい弱性検出後数秒で悪用",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60807"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60854"
     },
     {
-      "doc_id": "nhk-1d6f49eba5f5858b",
-      "title": "高市首相 靖国神社の秋の例大祭にあわせ「真榊」奉納",
+      "doc_id": "nhk-e08e0298578d02d5",
+      "title": "福岡県議会「百条委」議案可決 金銭授受問題や海外視察調査へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60805"
     },
     {
-      "doc_id": "nhk-e81f2a69cc44395c",
-      "title": "東京大学の総長選考「藤垣氏は選考会議の最多の支持」",
+      "doc_id": "nhk-3fa68bc5edd58b97",
+      "title": "親頼れない若者 お金払えず治療できないケースも 支援団体調査",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60801"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60838"
     },
     {
-      "doc_id": "nhk-ed8b30f6091ca820",
-      "title": "“餃子の王将”社長殺害事件で無罪 捜査の進展も問われる",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60800"
-    },
-    {
-      "doc_id": "itmedia-39e5338d17da9645",
-      "title": "コードを書かずに“自分専用IME” 日英を自動切り替えできる「Meltype」にAI変換を載せてみた",
+      "doc_id": "itmedia-8ca52cf83f7efe2f",
+      "title": "「skyticket」クレカ情報も流出、カード番号など最大6140人分 「流出なし」の初報を訂正",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002336/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/17/2000002350/"
     },
     {
       "doc_id": "itmedia-3396903a68f7ae43",
       "title": "タイムズカー、退会後も7年間保管していた免許証画像を全削除へ 約660万アカウント分の漏えい受け",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002346/"
+    },
+    {
+      "doc_id": "itmedia-8c054fe252b2cf8d",
+      "title": "BASE子会社の漏えい、約2335万人分に 209万人分はクレカ番号「先頭6桁と下4桁」「有効期限」も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/17/2000002349/"
+    },
+    {
+      "doc_id": "itmedia-39e5338d17da9645",
+      "title": "コードを書かずに“自分専用IME” 日英を自動切り替えできる「Meltype」にAI変換を載せてみた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002336/"
     },
     {
       "doc_id": "itmedia-034b6645b4e99d92",
@@ -218,18 +230,6 @@
       "title": "気象庁、緊急地震速報の取り消しで「サイバー攻撃」を否定 原因は調査中",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002333/"
-    },
-    {
-      "doc_id": "itmedia-960edf99e2c5f1fe",
-      "title": "人気Web制作ツール「Studio」全ユーザーの情報漏えいか フォームに送信された内容、外部APIキーなども",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002332/"
-    },
-    {
-      "doc_id": "itmedia-61058235eb95fe6c",
-      "title": "ACCESS台湾子会社のEC支援サービスに不正アクセス 通販顧客15万件、クレカのセキュリティコードも一部流出",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002329/"
     },
     {
       "doc_id": "nazology-9466e57849e36aab",
