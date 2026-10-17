@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-17T13:45:35+00:00",
-  "now_ms": 1792244735429,
+  "fetched_at": "2026-10-17T17:14:11+00:00",
+  "now_ms": 1792257251375,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -16,46 +16,46 @@
       "link": "https://news.yahoo.co.jp/pickup/6599163"
     },
     {
-      "doc_id": "yahoo-91609ce69c3dfcae",
-      "title": "情報漏えい 識者は「氷山の一角」",
+      "doc_id": "yahoo-72ac4cb1710d7169",
+      "title": "高まる反移民感情 在留外国人最多",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599161"
+      "link": "https://news.yahoo.co.jp/pickup/6599175"
     },
     {
-      "doc_id": "yahoo-96965e0afbec05d6",
-      "title": "「簗前農相の圧力」の検証 困難に",
+      "doc_id": "yahoo-6a3200095bce54c4",
+      "title": "ITシステムの弱点 世界で発見急増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599160"
+      "link": "https://news.yahoo.co.jp/pickup/6599176"
     },
     {
-      "doc_id": "yahoo-fe79f570e0b90668",
-      "title": "母親を蹴り死なせた疑い 男を逮捕",
+      "doc_id": "yahoo-26fbe104a7723a07",
+      "title": "関東で今季初の冬日 栃木県日光市",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599159"
+      "link": "https://news.yahoo.co.jp/pickup/6599179"
     },
     {
-      "doc_id": "yahoo-ce10b6f053cd1b72",
-      "title": "米報道官が退任 働けて光栄だった",
+      "doc_id": "yahoo-451137030db820ee",
+      "title": "祭りで太鼓台の下敷き 副市長死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599164"
+      "link": "https://news.yahoo.co.jp/pickup/6599181"
     },
     {
-      "doc_id": "yahoo-7b4f10566eb249b2",
-      "title": "逆転許した阪神・工藤 悔し涙流す",
+      "doc_id": "yahoo-1807af00fa6639bd",
+      "title": "プロレスで観客流血 主催者が謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599154"
+      "link": "https://news.yahoo.co.jp/pickup/6599177"
     },
     {
-      "doc_id": "yahoo-ccfcd247987817d2",
-      "title": "タイガー・J・シンが客殴る 流血",
+      "doc_id": "yahoo-a12a689142e2e0d0",
+      "title": "阪神終戦 あと1球コールから悲劇",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599162"
+      "link": "https://news.yahoo.co.jp/pickup/6599141"
     },
     {
-      "doc_id": "yahoo-d3416b9dc922d858",
-      "title": "ジェラードン キングオブコントV",
+      "doc_id": "yahoo-d2a98007391cb0d2",
+      "title": "ジェラードンV 元相方に呼びかけ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599168"
+      "link": "https://news.yahoo.co.jp/pickup/6599173"
     },
     {
       "doc_id": "jiji-9968f20d205e4770",
@@ -64,28 +64,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
     },
     {
+      "doc_id": "jiji-d8f1d31a4abf48bc",
+      "title": "仙台が首位守る Ｊ２",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700443&g=spo"
+    },
+    {
+      "doc_id": "jiji-e48be5a4529d0797",
+      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
+    },
+    {
       "doc_id": "jiji-35ba9c05e9fb5ff3",
       "title": "ロシア産軽油供給、効果に疑問 店頭価格、前週より上昇",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101700304&g=int"
     },
     {
-      "doc_id": "jiji-c4a5f337fb449c5c",
-      "title": "ポーランドで１１月演習 ウクライナ停戦見据え―英仏独など",
+      "doc_id": "jiji-b47749e4997e29ea",
+      "title": "若原、またアクシデント Ｊリーグ・柏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700421&g=int"
-    },
-    {
-      "doc_id": "jiji-d1ed8d54f91a2c57",
-      "title": "西藤俊哉が３位 フェンシングＷ杯",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700413&g=spo"
-    },
-    {
-      "doc_id": "jiji-72e566a2ef64933a",
-      "title": "ミサイルにＡＩ「クロード」活用試行か フーシ派、中国製部品も使用―イエメン",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700325&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101700460&g=spo"
     },
     {
       "doc_id": "jiji-b7e7c5feeff836dd",
@@ -94,16 +94,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
     },
     {
-      "doc_id": "jiji-3fe19b3b4eea2fdf",
-      "title": "アジアパラ大会、名古屋市内で点火セレモニー 俳優の風間俊介さん「全力で応援」",
+      "doc_id": "jiji-93ff65e3f0595253",
+      "title": "対ロシア制裁関税、適用せず 融和姿勢、軽油急騰に危機感―トランプ米大統領",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700405&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101700249&g=int"
     },
     {
-      "doc_id": "jiji-848dfd9da73df220",
-      "title": "研修旅行の安全確保訴え 女子生徒遺族、沖縄知事と面会―辺野古転覆",
+      "doc_id": "jiji-1052f738cd6316cc",
+      "title": "気象庁によると、サイバー攻撃は受けていない",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700403&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101600612&g=flash"
     },
     {
       "doc_id": "jiji-1fdd13b02fca376f",
@@ -118,10 +118,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700358&g=spo"
     },
     {
+      "doc_id": "nhk-1b172d6832bbaa44",
+      "title": "愛媛 西条まつり 太鼓台の下敷きで担ぎ手の西条市副市長が死亡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058"
+    },
+    {
       "doc_id": "nhk-5b5a8c06deb2d7c8",
       "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261017de61020"
+    },
+    {
+      "doc_id": "nhk-d16491de2205a880",
+      "title": "非常に強い台風30号 急速に発達 来週後半に沖縄南海上の予想",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802"
+    },
+    {
+      "doc_id": "nhk-1d6f49eba5f5858b",
+      "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相ら参拝",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815"
+    },
+    {
+      "doc_id": "nhk-1afeff637ceef802",
+      "title": "インドネシア森林火災 煙が周辺国へ拡散し影響広がる",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61042"
     },
     {
       "doc_id": "nhk-7f357f3a85d12041",
@@ -134,30 +158,6 @@
       "title": "阪神 佐藤輝明 大リーグ挑戦について“何も言えない”",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261017de61014"
-    },
-    {
-      "doc_id": "nhk-d16491de2205a880",
-      "title": "非常に強い台風30号 急速に発達 来週後半に沖縄南海上の予想",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802"
-    },
-    {
-      "doc_id": "nhk-6499b28c40a1730b",
-      "title": "茨城 ひたちなか 高齢の男女2人海で溺れる 搬送時意識なし",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60962"
-    },
-    {
-      "doc_id": "nhk-1d6f49eba5f5858b",
-      "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相ら参拝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815"
-    },
-    {
-      "doc_id": "nhk-f8a20119822b8d1b",
-      "title": "愛子さま 鳥取で防災推進国民大会に出席",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60971"
     },
     {
       "doc_id": "itmedia-8ca52cf83f7efe2f",
