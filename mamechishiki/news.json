@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-17T19:27:59+00:00",
-  "now_ms": 1792265279141,
+  "fetched_at": "2026-10-17T22:22:08+00:00",
+  "now_ms": 1792275728513,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -28,10 +28,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6599176"
     },
     {
-      "doc_id": "yahoo-26fbe104a7723a07",
-      "title": "関東で今季初の冬日 栃木県日光市",
+      "doc_id": "yahoo-553eaa07492426e9",
+      "title": "東京・福生で男性刺され死亡 逃走",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599179"
+      "link": "https://news.yahoo.co.jp/pickup/6599183"
     },
     {
       "doc_id": "yahoo-451137030db820ee",
@@ -40,16 +40,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6599181"
     },
     {
-      "doc_id": "yahoo-1807af00fa6639bd",
-      "title": "プロレスで観客流血 主催者が謝罪",
+      "doc_id": "yahoo-515ffb1ef9df00a2",
+      "title": "佐藤輝明のメジャー移籍 容認へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599177"
+      "link": "https://news.yahoo.co.jp/pickup/6599184"
     },
     {
-      "doc_id": "yahoo-a12a689142e2e0d0",
-      "title": "阪神終戦 あと1球コールから悲劇",
+      "doc_id": "yahoo-fa28bdc9ceb8ad9d",
+      "title": "亀田和毅の世界戦 試合当日に中止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599141"
+      "link": "https://news.yahoo.co.jp/pickup/6599182"
     },
     {
       "doc_id": "yahoo-d2a98007391cb0d2",
@@ -58,16 +58,46 @@
       "link": "https://news.yahoo.co.jp/pickup/6599173"
     },
     {
+      "doc_id": "jiji-9968f20d205e4770",
+      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
+    },
+    {
       "doc_id": "jiji-35ba9c05e9fb5ff3",
       "title": "ロシア産軽油供給、効果に疑問 店頭価格、前週より上昇",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101700304&g=int"
     },
     {
-      "doc_id": "jiji-9968f20d205e4770",
-      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
+      "doc_id": "jiji-be36c9b121c7a141",
+      "title": "首相動静（１０月１７日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101700216&g=pol"
+    },
+    {
+      "doc_id": "jiji-b7e7c5feeff836dd",
+      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
+    },
+    {
+      "doc_id": "jiji-20d445334e4e0d57",
+      "title": "グローバルホークの胴体部分か 空自、機体の一部回収―鳥取県沖",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700464&g=soc"
+    },
+    {
+      "doc_id": "jiji-72e566a2ef64933a",
+      "title": "ミサイルにＡＩ「クロード」活用試行か フーシ派、中国製部品も使用―イエメン",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700325&g=int"
+    },
+    {
+      "doc_id": "jiji-87b423bf62f95a0b",
+      "title": "靖国への真榊奉納を非難 中国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800133&g=int"
     },
     {
       "doc_id": "jiji-f824be1e646720f9",
@@ -82,40 +112,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700205&g=int"
     },
     {
-      "doc_id": "jiji-93ff65e3f0595253",
-      "title": "対ロシア制裁関税、適用せず 融和姿勢、軽油急騰に危機感―トランプ米大統領",
+      "doc_id": "jiji-5c14e91d5b95780d",
+      "title": "ローマ教皇が退院",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700249&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800134&g=int"
     },
     {
-      "doc_id": "jiji-b7e7c5feeff836dd",
-      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
-    },
-    {
-      "doc_id": "jiji-1052f738cd6316cc",
-      "title": "気象庁によると、サイバー攻撃は受けていない",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101600612&g=flash"
-    },
-    {
-      "doc_id": "jiji-067686aa19aa3b12",
-      "title": "金銭授受疑惑で百条委設置 未明に議案可決―福岡県議会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700344&g=pol"
-    },
-    {
-      "doc_id": "jiji-72e566a2ef64933a",
-      "title": "ミサイルにＡＩ「クロード」活用試行か フーシ派、中国製部品も使用―イエメン",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700325&g=int"
-    },
-    {
-      "doc_id": "jiji-e48be5a4529d0797",
-      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
+      "doc_id": "nhk-7363760ba3331431",
+      "title": "台風30号 急速に発達 23日に沖縄の南海上へ 今後の情報注意",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61065"
     },
     {
       "doc_id": "nhk-1b172d6832bbaa44",
@@ -124,40 +130,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058"
     },
     {
+      "doc_id": "nhk-aeb8116c290f1348",
+      "title": "秋田 奈良 クマに襲われけが人相次ぐ 警察などが注意呼びかけ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61063"
+    },
+    {
+      "doc_id": "nhk-6e99f18b1d05b2ee",
+      "title": "東京 福生 男性が刃物で刺され死亡 知人の行方捜査",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61068"
+    },
+    {
       "doc_id": "nhk-5b5a8c06deb2d7c8",
       "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261017de61020"
     },
     {
-      "doc_id": "nhk-d16491de2205a880",
-      "title": "非常に強い台風30号 急速に発達 来週後半に沖縄南海上の予想",
+      "doc_id": "nhk-8db6e12a3bb65a4b",
+      "title": "東京 調布の道路陥没から6年 補修8割終わるも完了のめど立たず",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61038"
     },
     {
-      "doc_id": "nhk-1d6f49eba5f5858b",
-      "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相ら参拝",
+      "doc_id": "nhk-5e07b99793ac1051",
+      "title": "ゼレンスキー大統領 アメリカのロシア制裁免除に反発",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815"
-    },
-    {
-      "doc_id": "nhk-1afeff637ceef802",
-      "title": "インドネシア森林火災 煙が周辺国へ拡散し影響広がる",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61042"
-    },
-    {
-      "doc_id": "nhk-7f357f3a85d12041",
-      "title": "DeNAが2年ぶり日本シリーズ進出 CSファイナル 阪神に4連勝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60916"
-    },
-    {
-      "doc_id": "nhk-53ec7ded4ff7d648",
-      "title": "阪神 佐藤輝明 大リーグ挑戦について“何も言えない”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61014"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61037"
     },
     {
       "doc_id": "itmedia-8ca52cf83f7efe2f",
