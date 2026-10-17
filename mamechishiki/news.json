@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-17T09:25:03+00:00",
-  "now_ms": 1792229103472,
+  "fetched_at": "2026-10-17T13:45:35+00:00",
+  "now_ms": 1792244735429,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-25312423e2dc0c44",
-      "title": "首相防戦 立民が簗氏更迭巡り追及",
+      "doc_id": "yahoo-6dee15ff99a78daa",
+      "title": "墜落の無人機胴体一部か 空自回収",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599109"
+      "link": "https://news.yahoo.co.jp/pickup/6599163"
     },
     {
-      "doc_id": "yahoo-ad6376f7e21c6be3",
-      "title": "APECホスト役中国 監視態勢徹底",
+      "doc_id": "yahoo-91609ce69c3dfcae",
+      "title": "情報漏えい 識者は「氷山の一角」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599115"
+      "link": "https://news.yahoo.co.jp/pickup/6599161"
     },
     {
-      "doc_id": "yahoo-26ef1ef4a7076e0b",
-      "title": "IMF高官評価 日本の消費減税法案",
+      "doc_id": "yahoo-96965e0afbec05d6",
+      "title": "「簗前農相の圧力」の検証 困難に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599121"
+      "link": "https://news.yahoo.co.jp/pickup/6599160"
     },
     {
-      "doc_id": "yahoo-1fb161a1cf27e132",
-      "title": "新給付制度巡り平均3万円案 政府",
+      "doc_id": "yahoo-fe79f570e0b90668",
+      "title": "母親を蹴り死なせた疑い 男を逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599130"
+      "link": "https://news.yahoo.co.jp/pickup/6599159"
     },
     {
-      "doc_id": "yahoo-e7717655fa74b79e",
-      "title": "中2で性被害 法廷立つ元入所女性",
+      "doc_id": "yahoo-ce10b6f053cd1b72",
+      "title": "米報道官が退任 働けて光栄だった",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599136"
+      "link": "https://news.yahoo.co.jp/pickup/6599164"
     },
     {
-      "doc_id": "yahoo-e8a6cb27f10e8f59",
-      "title": "DeNA 2年ぶりの日本S進出決定",
+      "doc_id": "yahoo-7b4f10566eb249b2",
+      "title": "逆転許した阪神・工藤 悔し涙流す",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599139"
+      "link": "https://news.yahoo.co.jp/pickup/6599154"
     },
     {
-      "doc_id": "yahoo-a12ea00284f10967",
-      "title": "ガリチュウ福島 無念の一本負け",
+      "doc_id": "yahoo-ccfcd247987817d2",
+      "title": "タイガー・J・シンが客殴る 流血",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599124"
+      "link": "https://news.yahoo.co.jp/pickup/6599162"
     },
     {
-      "doc_id": "yahoo-25c04c3b48f61d6e",
-      "title": "キングオブコント決勝 SNSの反応",
+      "doc_id": "yahoo-d3416b9dc922d858",
+      "title": "ジェラードン キングオブコントV",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599137"
+      "link": "https://news.yahoo.co.jp/pickup/6599168"
     },
     {
       "doc_id": "jiji-9968f20d205e4770",
@@ -64,70 +64,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
     },
     {
+      "doc_id": "jiji-35ba9c05e9fb5ff3",
+      "title": "ロシア産軽油供給、効果に疑問 店頭価格、前週より上昇",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700304&g=int"
+    },
+    {
+      "doc_id": "jiji-c4a5f337fb449c5c",
+      "title": "ポーランドで１１月演習 ウクライナ停戦見据え―英仏独など",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700421&g=int"
+    },
+    {
+      "doc_id": "jiji-d1ed8d54f91a2c57",
+      "title": "西藤俊哉が３位 フェンシングＷ杯",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700413&g=spo"
+    },
+    {
+      "doc_id": "jiji-72e566a2ef64933a",
+      "title": "ミサイルにＡＩ「クロード」活用試行か フーシ派、中国製部品も使用―イエメン",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700325&g=int"
+    },
+    {
       "doc_id": "jiji-b7e7c5feeff836dd",
       "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
     },
     {
-      "doc_id": "jiji-fc84a276753b21c8",
-      "title": "Ｆ東京、４得点で快勝 Ｊリーグ・東京Ｖ０―４Ｆ東京",
+      "doc_id": "jiji-3fe19b3b4eea2fdf",
+      "title": "アジアパラ大会、名古屋市内で点火セレモニー 俳優の風間俊介さん「全力で応援」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700320&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101700405&g=spo"
     },
     {
-      "doc_id": "jiji-b4fa1ed9d431e430",
-      "title": "税収の偏在是正「結果出す」 自民・小林鷹之氏",
+      "doc_id": "jiji-848dfd9da73df220",
+      "title": "研修旅行の安全確保訴え 女子生徒遺族、沖縄知事と面会―辺野古転覆",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700306&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101700403&g=soc"
     },
     {
-      "doc_id": "jiji-93ff65e3f0595253",
-      "title": "対ロシア制裁関税、適用せず 融和姿勢、軽油急騰に危機感―トランプ米大統領",
+      "doc_id": "jiji-1fdd13b02fca376f",
+      "title": "「人工知能」改め「先進的知能」？ ＩＭＦ委で表現変更、トランプ米政権の意向影響か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700249&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101700400&g=int"
     },
     {
-      "doc_id": "jiji-3d016a3770dc1e75",
-      "title": "互いに決め手欠く Ｊリーグ・千葉０―０横浜Ｍ",
+      "doc_id": "jiji-651bb7001919966c",
+      "title": "Ｆ東京、ダービー制し５連勝 広島も快勝―Ｊ１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700317&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101700358&g=spo"
     },
     {
-      "doc_id": "jiji-f3cd6c380a892991",
-      "title": "トランプ氏の「身代わり」？ 記者の質問にニヤリ―ウクライナ大統領",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700205&g=int"
-    },
-    {
-      "doc_id": "jiji-124f859f96507776",
-      "title": "米ホワイトハウスの新報道官「中国にはまともなトイレすらない」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261016049467a&g=afp"
-    },
-    {
-      "doc_id": "jiji-ff2f644edff03618",
-      "title": "鹿島、序盤に２点 Ｊリーグ・鹿島２―０長崎",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700333&g=spo"
-    },
-    {
-      "doc_id": "jiji-f826208447d5f710",
-      "title": "川崎が振り切る Ｊリーグ・Ｃ大阪２―４川崎",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700336&g=spo"
-    },
-    {
-      "doc_id": "nhk-d16491de2205a880",
-      "title": "台風30号 非常に強い勢力に発達する見込み 今後の情報に注意",
+      "doc_id": "nhk-5b5a8c06deb2d7c8",
+      "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802"
-    },
-    {
-      "doc_id": "nhk-6499b28c40a1730b",
-      "title": "茨城 ひたちなか 高齢者2人が溺れていると通報 搬送時意識なし",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60962"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61020"
     },
     {
       "doc_id": "nhk-7f357f3a85d12041",
@@ -136,28 +130,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261017de60916"
     },
     {
+      "doc_id": "nhk-53ec7ded4ff7d648",
+      "title": "阪神 佐藤輝明 大リーグ挑戦について“何も言えない”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61014"
+    },
+    {
+      "doc_id": "nhk-d16491de2205a880",
+      "title": "非常に強い台風30号 急速に発達 来週後半に沖縄南海上の予想",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60802"
+    },
+    {
+      "doc_id": "nhk-6499b28c40a1730b",
+      "title": "茨城 ひたちなか 高齢の男女2人海で溺れる 搬送時意識なし",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60962"
+    },
+    {
       "doc_id": "nhk-1d6f49eba5f5858b",
       "title": "靖国神社秋の例大祭 高市首相が「真榊」 城内成長戦略相ら参拝",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261017de60815"
     },
     {
-      "doc_id": "nhk-a7bace2050e1d1cb",
-      "title": "自民 小林政調会長 消費税減税法案成立へ多くの野党に働きかけ",
+      "doc_id": "nhk-f8a20119822b8d1b",
+      "title": "愛子さま 鳥取で防災推進国民大会に出席",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60929"
-    },
-    {
-      "doc_id": "nhk-d70f863dde84c5c0",
-      "title": "ローマ教皇がプーチン大統領と電話会談 停戦を要請",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60909"
-    },
-    {
-      "doc_id": "nhk-b8405dcc3a71a3a1",
-      "title": "北朝鮮メディア AI搭載の新型魚雷の発射実験を実施と報道",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60903"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de60971"
     },
     {
       "doc_id": "itmedia-8ca52cf83f7efe2f",
