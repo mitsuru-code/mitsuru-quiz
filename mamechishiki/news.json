@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-18T05:57:15+00:00",
-  "now_ms": 1792303035711,
+  "fetched_at": "2026-10-18T11:11:32+00:00",
+  "now_ms": 1792321892124,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-4e17ed33b4410d9a",
-      "title": "消費減税法案 自民が譲歩に含み",
+      "doc_id": "yahoo-ee7823e72216d828",
+      "title": "内閣支持49%で発足以来最低 共同",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599227"
+      "link": "https://news.yahoo.co.jp/pickup/6599260"
     },
     {
-      "doc_id": "yahoo-d4b25ff773439c1a",
-      "title": "NO KINGS 全米で反トランプデモ",
+      "doc_id": "yahoo-fbec1e0668e2102b",
+      "title": "SUBARU 20年代後半にSDV投入へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599228"
+      "link": "https://news.yahoo.co.jp/pickup/6599267"
     },
     {
-      "doc_id": "yahoo-44a0c2193b635dea",
-      "title": "福生市で男性刺され死亡 男を確保",
+      "doc_id": "yahoo-8856eac078b08699",
+      "title": "漏えい急増は中国製LLM起因 指摘",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599233"
+      "link": "https://news.yahoo.co.jp/pickup/6599269"
     },
     {
-      "doc_id": "yahoo-21f0e452b60ef716",
-      "title": "図書館で車が2人はねる 57歳死亡",
+      "doc_id": "yahoo-018d24cd53b9a68b",
+      "title": "福生市で男性刺され死亡 男を逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599231"
+      "link": "https://news.yahoo.co.jp/pickup/6599276"
     },
     {
-      "doc_id": "yahoo-19efb0ba42df0ea7",
-      "title": "軽トラと車に挟まれ女性両足切断",
+      "doc_id": "yahoo-437f06f21db4e716",
+      "title": "傾いていた住宅が倒壊 86歳死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599220"
+      "link": "https://news.yahoo.co.jp/pickup/6599266"
     },
     {
-      "doc_id": "yahoo-1cef55c4ccf66ef6",
-      "title": "進化系も 人気広がるシートマスク",
+      "doc_id": "yahoo-e5665ac79523fbae",
+      "title": "クマがドア開け車内荒らしたか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599211"
+      "link": "https://news.yahoo.co.jp/pickup/6599271"
     },
     {
-      "doc_id": "yahoo-af260227d15a5161",
-      "title": "観客を襲撃 シン「逃げればいい」",
+      "doc_id": "yahoo-3ffb77656fe46c33",
+      "title": "のん&橋本愛ユニット 久慈で復活",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599226"
+      "link": "https://news.yahoo.co.jp/pickup/6599274"
     },
     {
-      "doc_id": "yahoo-28f6ac47da1dc792",
-      "title": "益若 ギャル時代の言葉遣いを反省",
+      "doc_id": "yahoo-289395445dccf101",
+      "title": "すとぷり ななもり&さとみ卒業へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599239"
-    },
-    {
-      "doc_id": "jiji-08f3b059f76ac520",
-      "title": "全米で反トランプデモ 民主党への投票呼び掛け",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
-    },
-    {
-      "doc_id": "jiji-be93b64dd45de645",
-      "title": "西条市副市長が死亡 祭りで担ぎ手、下敷きに―愛媛",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800191&g=soc"
+      "link": "https://news.yahoo.co.jp/pickup/6599273"
     },
     {
       "doc_id": "jiji-1b63fe13b4734329",
@@ -76,58 +64,70 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
     },
     {
-      "doc_id": "jiji-bdf0c6a9847bb5a8",
-      "title": "予算減額、簗氏の影響否定 農水相交代で陳謝―自民・萩生田氏",
+      "doc_id": "jiji-08f3b059f76ac520",
+      "title": "全米で反トランプデモ 民主党への投票呼び掛け",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800185&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
     },
     {
-      "doc_id": "jiji-10201793fbf5eceb",
-      "title": "亀田和毅のタイトル戦中止 「まだチャンスある」―ＷＢＡフェザー級",
+      "doc_id": "jiji-aeb8b41082faa3f2",
+      "title": "町田と神戸、ともに快勝 Ｊ１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800159&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101800305&g=spo"
     },
     {
-      "doc_id": "jiji-9604c67f3e01e538",
-      "title": "極右ルペン氏、トップ独走続く 大統領選まで半年―フランス",
+      "doc_id": "jiji-5348888d16b34304",
+      "title": "細野勇策が国内メジャー２冠 左打ち選手４５年ぶりＶ―日本オープンゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700298&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800274&g=spo"
     },
     {
-      "doc_id": "jiji-f91e0ec6f4dbddd2",
-      "title": "若宮首相補佐官が靖国参拝",
+      "doc_id": "jiji-9a319aa3353612dc",
+      "title": "殺人容疑で娘の元夫再逮捕 玄関ロック直前に侵入―群馬県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800204&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101800268&g=soc"
     },
     {
-      "doc_id": "jiji-650f2380cc85b5b0",
-      "title": "フラビオ氏が僅差でリード 大統領選決選投票まで１週間―ブラジル",
+      "doc_id": "jiji-ebf28a9141eea19d",
+      "title": "愛子さま、倉吉白壁土蔵群を視察 鳥取",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700295&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800326&g=soc"
     },
     {
-      "doc_id": "jiji-9968f20d205e4770",
-      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
+      "doc_id": "jiji-eb1ba002e6fd5e5f",
+      "title": "両親「遅くなりごめんね」 辺野古転覆現場近くで献花―沖縄",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800252&g=soc"
     },
     {
-      "doc_id": "jiji-b7e7c5feeff836dd",
-      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
+      "doc_id": "jiji-d3ed76fb8691ff08",
+      "title": "鈴木愛がツアー２３勝目 富士通女子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101800233&g=spo"
     },
     {
-      "doc_id": "nhk-6337dc9dac970ffc",
-      "title": "報道官退任 “中間選挙控え重要な広報ポスト空席に” 米NBC",
+      "doc_id": "jiji-80698b6ab48f4395",
+      "title": "岡山、差を痛感 Ｊリーグ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800333&g=spo"
+    },
+    {
+      "doc_id": "jiji-403ecb2b13e512ce",
+      "title": "「高度外国人材」年収要件上げ 入管庁、賃金上昇受け",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800227&g=pol"
+    },
+    {
+      "doc_id": "nhk-31abb8ee1635bb6f",
+      "title": "横浜市長選挙 新人の原澤敦美氏が初めての当選確実",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61125"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772"
     },
     {
-      "doc_id": "nhk-c6c33786557d09af",
-      "title": "世田谷 三軒茶屋 女性はねられ意識不明 荷物積み下ろし中か",
+      "doc_id": "nhk-1937e09e127a0662",
+      "title": "横浜市長選挙 出口調査の結果は",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59773"
     },
     {
       "doc_id": "nhk-7363760ba3331431",
@@ -136,28 +136,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61065"
     },
     {
-      "doc_id": "nhk-a92d335a9e89a946",
-      "title": "愛知 新東名 シカと衝突し停車中の車にトラックが追突 1人死亡",
+      "doc_id": "nhk-c6c33786557d09af",
+      "title": "世田谷 三軒茶屋 女性はねられ両足大けが 荷物積み下ろし中か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61091"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090"
     },
     {
-      "doc_id": "nhk-1b172d6832bbaa44",
-      "title": "愛媛 西条まつり 太鼓台の下敷きで担ぎ手の西条市副市長が死亡",
+      "doc_id": "nhk-80cc2ad941127478",
+      "title": "プロ野球 阪神 藤川球児監督が会見 来シーズンへの決意語る",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61151"
     },
     {
-      "doc_id": "nhk-502350082543ce55",
-      "title": "米中間選挙 全米各地で期日前投票呼びかける集会",
+      "doc_id": "nhk-0db624a161e39b54",
+      "title": "カナダ 軍事基地で火災 少なくとも7人死亡 複数けが人の情報",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61089"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61247"
     },
     {
-      "doc_id": "nhk-11b74c5e9e015a0a",
-      "title": "小泉防衛相 インドネシアで消火活動の部隊を慰労",
+      "doc_id": "nhk-24b140a702a73e89",
+      "title": "SUBARU 車の衝突実験を“実機ではなくデジタルで”なぜ?【QA】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61121"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61149"
     },
     {
       "doc_id": "itmedia-0677d4e050054a7a",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002335/"
     },
     {
+      "doc_id": "nazology-641b4825ee4f4684",
+      "title": "薬が効かない殺人真菌が使っていた「予想外の生き残り術」とは",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202050"
+    },
+    {
       "doc_id": "nazology-dbca06c98c23d79b",
       "title": "風車の羽根にペンキを塗ると、鳥の衝突が大きく減ると判明",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "幻覚剤で脳は「混乱」するどころか、「整然」と動いていたと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201717"
-    },
-    {
-      "doc_id": "nazology-87d64a860b134f51",
-      "title": "音楽家は「腹話術の錯覚」にだまされにくい",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201924"
     }
   ]
 }
