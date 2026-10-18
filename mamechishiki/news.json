@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-18T01:06:13+00:00",
-  "now_ms": 1792285573329,
+  "fetched_at": "2026-10-18T05:57:15+00:00",
+  "now_ms": 1792303035711,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,100 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a848962e097267c1",
-      "title": "米の対露制裁見送り ウ大統領反発",
+      "doc_id": "yahoo-4e17ed33b4410d9a",
+      "title": "消費減税法案 自民が譲歩に含み",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599194"
+      "link": "https://news.yahoo.co.jp/pickup/6599227"
     },
     {
-      "doc_id": "yahoo-bd23a24c34137b35",
-      "title": "通販に未認証のチャイルドシート",
+      "doc_id": "yahoo-d4b25ff773439c1a",
+      "title": "NO KINGS 全米で反トランプデモ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599187"
+      "link": "https://news.yahoo.co.jp/pickup/6599228"
     },
     {
-      "doc_id": "yahoo-be9af00f5271ad9c",
-      "title": "中国人観光客 目立つ「大阪離れ」",
+      "doc_id": "yahoo-44a0c2193b635dea",
+      "title": "福生市で男性刺され死亡 男を確保",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599199"
+      "link": "https://news.yahoo.co.jp/pickup/6599233"
     },
     {
-      "doc_id": "yahoo-06fa2f2977d3a024",
-      "title": "死亡事故 無車検の車運転疑い逮捕",
+      "doc_id": "yahoo-21f0e452b60ef716",
+      "title": "図書館で車が2人はねる 57歳死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599192"
+      "link": "https://news.yahoo.co.jp/pickup/6599231"
     },
     {
-      "doc_id": "yahoo-ae4ac9415a353345",
-      "title": "シカ衝突し停車 追突され女性死亡",
+      "doc_id": "yahoo-19efb0ba42df0ea7",
+      "title": "軽トラと車に挟まれ女性両足切断",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599195"
+      "link": "https://news.yahoo.co.jp/pickup/6599220"
     },
     {
-      "doc_id": "yahoo-2b25bcc81cf2397a",
-      "title": "祭りで副市長が死亡 市長「痛恨」",
+      "doc_id": "yahoo-1cef55c4ccf66ef6",
+      "title": "進化系も 人気広がるシートマスク",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599188"
+      "link": "https://news.yahoo.co.jp/pickup/6599211"
     },
     {
-      "doc_id": "yahoo-4dfb501986eaed34",
-      "title": "阪神 才木のMLB挑戦認めない方針",
+      "doc_id": "yahoo-af260227d15a5161",
+      "title": "観客を襲撃 シン「逃げればいい」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599205"
+      "link": "https://news.yahoo.co.jp/pickup/6599226"
     },
     {
-      "doc_id": "yahoo-6d47ee49de5c488c",
-      "title": "ネルソンズ1点 KOC芸人審査物議",
+      "doc_id": "yahoo-28f6ac47da1dc792",
+      "title": "益若 ギャル時代の言葉遣いを反省",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599193"
+      "link": "https://news.yahoo.co.jp/pickup/6599239"
+    },
+    {
+      "doc_id": "jiji-08f3b059f76ac520",
+      "title": "全米で反トランプデモ 民主党への投票呼び掛け",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
+    },
+    {
+      "doc_id": "jiji-be93b64dd45de645",
+      "title": "西条市副市長が死亡 祭りで担ぎ手、下敷きに―愛媛",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800191&g=soc"
     },
     {
       "doc_id": "jiji-1b63fe13b4734329",
       "title": "「高市１強」の弱点露呈 更迭の判断材料、首相に届かず",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
+    },
+    {
+      "doc_id": "jiji-bdf0c6a9847bb5a8",
+      "title": "予算減額、簗氏の影響否定 農水相交代で陳謝―自民・萩生田氏",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800185&g=pol"
+    },
+    {
+      "doc_id": "jiji-10201793fbf5eceb",
+      "title": "亀田和毅のタイトル戦中止 「まだチャンスある」―ＷＢＡフェザー級",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800159&g=spo"
+    },
+    {
+      "doc_id": "jiji-9604c67f3e01e538",
+      "title": "極右ルペン氏、トップ独走続く 大統領選まで半年―フランス",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700298&g=int"
+    },
+    {
+      "doc_id": "jiji-f91e0ec6f4dbddd2",
+      "title": "若宮首相補佐官が靖国参拝",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800204&g=pol"
+    },
+    {
+      "doc_id": "jiji-650f2380cc85b5b0",
+      "title": "フラビオ氏が僅差でリード 大統領選決選投票まで１週間―ブラジル",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700295&g=int"
     },
     {
       "doc_id": "jiji-9968f20d205e4770",
@@ -76,52 +118,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
     },
     {
-      "doc_id": "jiji-08f3b059f76ac520",
-      "title": "全米で反トランプデモ 民主党への投票呼び掛け",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
+      "doc_id": "nhk-6337dc9dac970ffc",
+      "title": "報道官退任 “中間選挙控え重要な広報ポスト空席に” 米NBC",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61125"
     },
     {
-      "doc_id": "jiji-6e4833ba3df43cd4",
-      "title": "東京・福生の路上で男性刺され死亡 知人とみられる男逃走、殺人で捜査―警視庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800152&g=soc"
-    },
-    {
-      "doc_id": "jiji-93627d406fb8244e",
-      "title": "野党、財源・制度設計追及へ 消費減税法案、２０日から審議",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700282&g=pol"
-    },
-    {
-      "doc_id": "jiji-940c6c129790430b",
-      "title": "サンプルリターン、継承発展を 「はやぶさ２」の津田さん―探査機ＭＭＸ打ち上げ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700294&g=soc"
-    },
-    {
-      "doc_id": "jiji-9785253d148afbe0",
-      "title": "エジプト大統領、サウジ軍事支援の意向 フーシ派から防衛",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800156&g=int"
-    },
-    {
-      "doc_id": "jiji-0762be7347b4d7ca",
-      "title": "高校生・労組５５万人がデモ 放火、破壊、略奪相次ぐ―仏",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800154&g=int"
-    },
-    {
-      "doc_id": "jiji-35ba9c05e9fb5ff3",
-      "title": "ロシア産軽油供給、効果に疑問 店頭価格、前週より上昇",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700304&g=int"
+      "doc_id": "nhk-c6c33786557d09af",
+      "title": "世田谷 三軒茶屋 女性はねられ意識不明 荷物積み下ろし中か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090"
     },
     {
       "doc_id": "nhk-7363760ba3331431",
-      "title": "台風30号 急速に発達 23日に沖縄の南海上へ 今後の情報注意",
+      "title": "台風30号 22日ごろ沖縄の南海上に達する予想 今後の情報に注意",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61065"
+    },
+    {
+      "doc_id": "nhk-a92d335a9e89a946",
+      "title": "愛知 新東名 シカと衝突し停車中の車にトラックが追突 1人死亡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61091"
     },
     {
       "doc_id": "nhk-1b172d6832bbaa44",
@@ -130,34 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058"
     },
     {
-      "doc_id": "nhk-933c27e68d505c1e",
-      "title": "火星の衛星から砂持ち帰る計画 探査機「MMX」20日打ち上げへ",
+      "doc_id": "nhk-502350082543ce55",
+      "title": "米中間選挙 全米各地で期日前投票呼びかける集会",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61034"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61089"
     },
     {
-      "doc_id": "nhk-c2681e407d682c27",
-      "title": "米カンザス州 サッカー試合会場に車突っ込み2人死亡",
+      "doc_id": "nhk-11b74c5e9e015a0a",
+      "title": "小泉防衛相 インドネシアで消火活動の部隊を慰労",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61075"
-    },
-    {
-      "doc_id": "nhk-e9cd8dcaf8a4e335",
-      "title": "インド ヒンドゥー教の祭典で大勢の人倒れ少なくとも17人死亡",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61074"
-    },
-    {
-      "doc_id": "nhk-dbc1956c578f85bd",
-      "title": "パレスチナでユダヤ人入植者が欧州外交官を襲撃と報道",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61073"
-    },
-    {
-      "doc_id": "nhk-6e99f18b1d05b2ee",
-      "title": "東京 福生 男性が刃物で刺され死亡 知人の行方捜査",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61068"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61121"
     },
     {
       "doc_id": "itmedia-0677d4e050054a7a",
