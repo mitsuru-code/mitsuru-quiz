@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-18T14:37:30+00:00",
-  "now_ms": 1792334250529,
+  "fetched_at": "2026-10-18T18:08:27+00:00",
+  "now_ms": 1792346907963,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -16,16 +16,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6599288"
     },
     {
+      "doc_id": "yahoo-3da7065dbe2a8acd",
+      "title": "辺野古転覆 高校生の遺族が献花",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6599293"
+    },
+    {
       "doc_id": "yahoo-85ff10e5be0cdac7",
       "title": "ローマ教皇 退院後初の集会で感謝",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6599295"
-    },
-    {
-      "doc_id": "yahoo-1ab3afba75c69a52",
-      "title": "横浜市長選で当確 原沢氏どんな人",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599283"
     },
     {
       "doc_id": "yahoo-f4f0f0c42c3d4c51",
@@ -59,9 +59,15 @@
     },
     {
       "doc_id": "jiji-c40f992bd8355e20",
-      "title": "横浜市長に原沢氏初当選 前職・山中氏ら６氏破る",
+      "title": "横浜市長に原沢敦美氏が初当選 前職・山中竹春氏ら６氏破る",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
+    },
+    {
+      "doc_id": "jiji-869243f2196ce245",
+      "title": "落選山中氏、「反省」届かず 原沢氏「すぐに仕事」―横浜市長選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800421&g=pol"
     },
     {
       "doc_id": "jiji-0762be7347b4d7ca",
@@ -70,40 +76,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800154&g=int"
     },
     {
-      "doc_id": "jiji-b63566b6f935fd46",
-      "title": "アジアパラ大会が開幕 日本初開催、愛知・名古屋で",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800315&g=spo"
-    },
-    {
       "doc_id": "jiji-1b63fe13b4734329",
       "title": "「高市１強」の弱点露呈 更迭の判断材料、首相に届かず",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
-    },
-    {
-      "doc_id": "jiji-3edb4ac893224c00",
-      "title": "衆院再可決「テーマ次第」 萩生田氏、定数削減で慎重姿勢",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800397&g=pol"
-    },
-    {
-      "doc_id": "jiji-9968f20d205e4770",
-      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
-    },
-    {
-      "doc_id": "jiji-d6667e32b4d7da79",
-      "title": "空席目立った開会式 アジアパラ大会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800393&g=spo"
-    },
-    {
-      "doc_id": "jiji-3ae66176d588e328",
-      "title": "池田耀平、ＭＧＣ出場権獲得 アムステルダム・マラソン",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800395&g=spo"
     },
     {
       "doc_id": "jiji-403ecb2b13e512ce",
@@ -118,8 +94,32 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
     },
     {
+      "doc_id": "jiji-e48be5a4529d0797",
+      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
+    },
+    {
+      "doc_id": "jiji-b63566b6f935fd46",
+      "title": "アジアパラ大会が開幕 日本初開催、愛知・名古屋で",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800315&g=spo"
+    },
+    {
+      "doc_id": "jiji-9968f20d205e4770",
+      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
+    },
+    {
+      "doc_id": "jiji-b7e7c5feeff836dd",
+      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
+    },
+    {
       "doc_id": "nhk-31abb8ee1635bb6f",
-      "title": "横浜市長選挙 新人の原澤敦美氏が初めての当選確実",
+      "title": "横浜市長選挙 新人の原澤敦美氏が初当選",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772"
     },
@@ -142,22 +142,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090"
     },
     {
+      "doc_id": "nhk-4c05b07198073f07",
+      "title": "声や肖像 不正競争防止法の対象として明記検討へ 経済産業省",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61309"
+    },
+    {
       "doc_id": "nhk-80cc2ad941127478",
       "title": "プロ野球 阪神 藤川球児監督が会見 来シーズンへの決意語る",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61151"
     },
     {
-      "doc_id": "nhk-24b140a702a73e89",
-      "title": "SUBARU 車の衝突実験を“実機ではなくデジタルで”なぜ?【QA】",
+      "doc_id": "nhk-22adfc8cd2f6479c",
+      "title": "日本サッカー協会 公式アプリに不正アクセス“影響調査中”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61149"
-    },
-    {
-      "doc_id": "nhk-d00d8093645ffd19",
-      "title": "日本初開催 愛知・名古屋アジアパラ大会が開幕",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61293"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61320"
     },
     {
       "doc_id": "itmedia-0677d4e050054a7a",
