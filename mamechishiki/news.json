@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-18T11:11:32+00:00",
-  "now_ms": 1792321892124,
+  "fetched_at": "2026-10-18T14:37:30+00:00",
+  "now_ms": 1792334250529,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-ee7823e72216d828",
-      "title": "内閣支持49%で発足以来最低 共同",
+      "doc_id": "yahoo-289277651bae46e0",
+      "title": "内閣支持率ほぼ横ばい57% 読売",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599260"
+      "link": "https://news.yahoo.co.jp/pickup/6599288"
     },
     {
-      "doc_id": "yahoo-fbec1e0668e2102b",
-      "title": "SUBARU 20年代後半にSDV投入へ",
+      "doc_id": "yahoo-85ff10e5be0cdac7",
+      "title": "ローマ教皇 退院後初の集会で感謝",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599267"
+      "link": "https://news.yahoo.co.jp/pickup/6599295"
     },
     {
-      "doc_id": "yahoo-8856eac078b08699",
-      "title": "漏えい急増は中国製LLM起因 指摘",
+      "doc_id": "yahoo-1ab3afba75c69a52",
+      "title": "横浜市長選で当確 原沢氏どんな人",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599269"
+      "link": "https://news.yahoo.co.jp/pickup/6599283"
     },
     {
-      "doc_id": "yahoo-018d24cd53b9a68b",
-      "title": "福生市で男性刺され死亡 男を逮捕",
+      "doc_id": "yahoo-f4f0f0c42c3d4c51",
+      "title": "民家に夫婦の車突っ込む 夫が死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599276"
+      "link": "https://news.yahoo.co.jp/pickup/6599289"
     },
     {
-      "doc_id": "yahoo-437f06f21db4e716",
-      "title": "傾いていた住宅が倒壊 86歳死亡",
+      "doc_id": "yahoo-8454714450567dfa",
+      "title": "カーセンサーの利用停止 復旧未定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599266"
+      "link": "https://news.yahoo.co.jp/pickup/6599294"
     },
     {
-      "doc_id": "yahoo-e5665ac79523fbae",
-      "title": "クマがドア開け車内荒らしたか",
+      "doc_id": "yahoo-ff6258ce17993bcc",
+      "title": "コミックシーモア 再開見通せず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599271"
+      "link": "https://news.yahoo.co.jp/pickup/6599287"
     },
     {
-      "doc_id": "yahoo-3ffb77656fe46c33",
-      "title": "のん&橋本愛ユニット 久慈で復活",
+      "doc_id": "yahoo-5671d56816e28aa1",
+      "title": "「県1位校」相次ぎ敗退 高校野球",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599274"
+      "link": "https://news.yahoo.co.jp/pickup/6599296"
     },
     {
-      "doc_id": "yahoo-289395445dccf101",
-      "title": "すとぷり ななもり&さとみ卒業へ",
+      "doc_id": "yahoo-e4de2512a59cba7a",
+      "title": "橋本愛とユニット復活 のんが希望",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599273"
+      "link": "https://news.yahoo.co.jp/pickup/6599286"
+    },
+    {
+      "doc_id": "jiji-c40f992bd8355e20",
+      "title": "横浜市長に原沢氏初当選 前職・山中氏ら６氏破る",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
+    },
+    {
+      "doc_id": "jiji-0762be7347b4d7ca",
+      "title": "暴徒が放火、破壊、略奪 ５５万人デモで混乱―仏",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800154&g=int"
+    },
+    {
+      "doc_id": "jiji-b63566b6f935fd46",
+      "title": "アジアパラ大会が開幕 日本初開催、愛知・名古屋で",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800315&g=spo"
     },
     {
       "doc_id": "jiji-1b63fe13b4734329",
@@ -64,58 +82,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
     },
     {
-      "doc_id": "jiji-08f3b059f76ac520",
-      "title": "全米で反トランプデモ 民主党への投票呼び掛け",
+      "doc_id": "jiji-3edb4ac893224c00",
+      "title": "衆院再可決「テーマ次第」 萩生田氏、定数削減で慎重姿勢",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800397&g=pol"
     },
     {
-      "doc_id": "jiji-aeb8b41082faa3f2",
-      "title": "町田と神戸、ともに快勝 Ｊ１",
+      "doc_id": "jiji-9968f20d205e4770",
+      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800305&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
     },
     {
-      "doc_id": "jiji-5348888d16b34304",
-      "title": "細野勇策が国内メジャー２冠 左打ち選手４５年ぶりＶ―日本オープンゴルフ",
+      "doc_id": "jiji-d6667e32b4d7da79",
+      "title": "空席目立った開会式 アジアパラ大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800274&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101800393&g=spo"
     },
     {
-      "doc_id": "jiji-9a319aa3353612dc",
-      "title": "殺人容疑で娘の元夫再逮捕 玄関ロック直前に侵入―群馬県警",
+      "doc_id": "jiji-3ae66176d588e328",
+      "title": "池田耀平、ＭＧＣ出場権獲得 アムステルダム・マラソン",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800268&g=soc"
-    },
-    {
-      "doc_id": "jiji-ebf28a9141eea19d",
-      "title": "愛子さま、倉吉白壁土蔵群を視察 鳥取",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800326&g=soc"
-    },
-    {
-      "doc_id": "jiji-eb1ba002e6fd5e5f",
-      "title": "両親「遅くなりごめんね」 辺野古転覆現場近くで献花―沖縄",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800252&g=soc"
-    },
-    {
-      "doc_id": "jiji-d3ed76fb8691ff08",
-      "title": "鈴木愛がツアー２３勝目 富士通女子ゴルフ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800233&g=spo"
-    },
-    {
-      "doc_id": "jiji-80698b6ab48f4395",
-      "title": "岡山、差を痛感 Ｊリーグ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800333&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101800395&g=spo"
     },
     {
       "doc_id": "jiji-403ecb2b13e512ce",
       "title": "「高度外国人材」年収要件上げ 入管庁、賃金上昇受け",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101800227&g=pol"
+    },
+    {
+      "doc_id": "jiji-08f3b059f76ac520",
+      "title": "全米で反トランプデモ 民主党への投票呼び掛け",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
     },
     {
       "doc_id": "nhk-31abb8ee1635bb6f",
@@ -148,16 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61151"
     },
     {
-      "doc_id": "nhk-0db624a161e39b54",
-      "title": "カナダ 軍事基地で火災 少なくとも7人死亡 複数けが人の情報",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61247"
-    },
-    {
       "doc_id": "nhk-24b140a702a73e89",
       "title": "SUBARU 車の衝突実験を“実機ではなくデジタルで”なぜ?【QA】",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61149"
+    },
+    {
+      "doc_id": "nhk-d00d8093645ffd19",
+      "title": "日本初開催 愛知・名古屋アジアパラ大会が開幕",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61293"
     },
     {
       "doc_id": "itmedia-0677d4e050054a7a",
