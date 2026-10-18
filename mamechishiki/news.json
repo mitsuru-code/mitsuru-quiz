@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-18T20:47:34+00:00",
-  "now_ms": 1792356454066,
+  "fetched_at": "2026-10-18T23:16:14+00:00",
+  "now_ms": 1792365374319,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-289277651bae46e0",
-      "title": "内閣支持率ほぼ横ばい57% 読売",
+      "doc_id": "yahoo-0ef924bca2df6cd2",
+      "title": "広く大気不安定 天気の急変に注意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599288"
+      "link": "https://news.yahoo.co.jp/pickup/6599308"
     },
     {
-      "doc_id": "yahoo-3da7065dbe2a8acd",
-      "title": "辺野古転覆 高校生の遺族が献花",
+      "doc_id": "yahoo-b7f8a3ce6b377678",
+      "title": "フランス各地で暴動 2400人逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599293"
+      "link": "https://news.yahoo.co.jp/pickup/6599304"
     },
     {
-      "doc_id": "yahoo-85ff10e5be0cdac7",
-      "title": "ローマ教皇 退院後初の集会で感謝",
+      "doc_id": "yahoo-b811823bf2137795",
+      "title": "横浜前市長 パワハラに厳しい審判",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599295"
+      "link": "https://news.yahoo.co.jp/pickup/6599310"
     },
     {
-      "doc_id": "yahoo-f4f0f0c42c3d4c51",
-      "title": "民家に夫婦の車突っ込む 夫が死亡",
+      "doc_id": "yahoo-fa6f80447cc71db6",
+      "title": "サイバー攻撃 なぜ日本が狙われる",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599289"
+      "link": "https://news.yahoo.co.jp/pickup/6599306"
     },
     {
-      "doc_id": "yahoo-8454714450567dfa",
-      "title": "カーセンサーの利用停止 復旧未定",
+      "doc_id": "yahoo-dc9d0875a97cbca5",
+      "title": "新品畳に子が「臭い」畳店の思い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599294"
+      "link": "https://news.yahoo.co.jp/pickup/6599303"
     },
     {
-      "doc_id": "yahoo-ff6258ce17993bcc",
-      "title": "コミックシーモア 再開見通せず",
+      "doc_id": "yahoo-260af91f325d8cf9",
+      "title": "中村敬斗ぼう然 9分で一発レッド",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599287"
+      "link": "https://news.yahoo.co.jp/pickup/6599309"
     },
     {
-      "doc_id": "yahoo-5671d56816e28aa1",
-      "title": "「県1位校」相次ぎ敗退 高校野球",
+      "doc_id": "yahoo-c304ce2cdd2330e4",
+      "title": "阪神に激震 藤本総合コーチが退団",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599296"
+      "link": "https://news.yahoo.co.jp/pickup/6599302"
     },
     {
-      "doc_id": "yahoo-e4de2512a59cba7a",
-      "title": "橋本愛とユニット復活 のんが希望",
+      "doc_id": "yahoo-dc0f79614257adab",
+      "title": "日テレ森圭介アナ 社労士試験合格",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599286"
+      "link": "https://news.yahoo.co.jp/pickup/6599305"
     },
     {
       "doc_id": "jiji-c40f992bd8355e20",
@@ -64,34 +64,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
     },
     {
-      "doc_id": "jiji-0762be7347b4d7ca",
-      "title": "暴徒が放火、破壊、略奪 ５５万人デモで混乱―仏",
+      "doc_id": "jiji-869243f2196ce245",
+      "title": "落選山中氏、「反省」届かず 原沢氏「すぐに仕事」―横浜市長選",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800154&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800421&g=pol"
     },
     {
-      "doc_id": "jiji-1b63fe13b4734329",
-      "title": "「高市１強」の弱点露呈 更迭の判断材料、首相に届かず",
+      "doc_id": "jiji-717e13360408f67d",
+      "title": "米中間選挙、データセンター争点 バンス氏お膝元で共和苦戦―計画急増で住民反発・中西部オハイオ州",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101800221&g=int"
     },
     {
-      "doc_id": "jiji-e48be5a4529d0797",
-      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
+      "doc_id": "jiji-5ad7a23c71177e4b",
+      "title": "立民再建へ道険しく 苦しい財政、衆参結集見えず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026101800224&g=pol"
     },
     {
-      "doc_id": "jiji-08f3b059f76ac520",
-      "title": "全米で反トランプデモ 民主党への投票呼び掛け",
+      "doc_id": "jiji-426f566251fffadb",
+      "title": "「プーチンの戦争あおる」 制裁見送りで米批判―ウクライナ大統領",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101900127&g=int"
     },
     {
-      "doc_id": "jiji-eb1ba002e6fd5e5f",
-      "title": "両親「遅くなりごめんね」 辺野古転覆現場近くで献花―沖縄",
+      "doc_id": "jiji-cc3f7ab9cc649af3",
+      "title": "北方領土、強硬姿勢強めるプーチン氏 対ロ制裁で交渉中断、自ら訪問も―日ソ共同宣言７０年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800252&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101800222&g=pol"
+    },
+    {
+      "doc_id": "jiji-7e5e97b767a9427c",
+      "title": "コアラ２頭、１０年ぶり仲間入り 豪州の雄雌、繁殖に期待―埼玉の動物園",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800236&g=soc"
     },
     {
       "doc_id": "jiji-261551d4c9ade9ab",
@@ -100,22 +106,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800148&g=spo"
     },
     {
-      "doc_id": "jiji-869243f2196ce245",
-      "title": "落選山中氏、「反省」届かず 原沢氏「すぐに仕事」―横浜市長選",
+      "doc_id": "jiji-50406a4232e79b89",
+      "title": "ネタニヤフ氏を「全面支持」 イスラエル総選挙で後押し―トランプ氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800421&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101900130&g=int"
     },
     {
-      "doc_id": "jiji-3edb4ac893224c00",
-      "title": "衆院再可決「テーマ次第」 萩生田氏、定数削減で慎重姿勢",
+      "doc_id": "jiji-f5749b61fb57b173",
+      "title": "投資も安保も、きしむ米韓関係 通販大手問題で不信拡大",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800397&g=pol"
-    },
-    {
-      "doc_id": "jiji-aeb8b41082faa3f2",
-      "title": "町田と神戸、ともに快勝 Ｊ１",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800305&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101800230&g=int"
     },
     {
       "doc_id": "nhk-31abb8ee1635bb6f",
@@ -130,34 +130,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61331"
     },
     {
+      "doc_id": "nhk-7eae2b5da6dd2902",
+      "title": "あすにかけ西日本や東日本中心に大気非常に不安定",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61334"
+    },
+    {
       "doc_id": "nhk-c4962383217f22a7",
       "title": "消費税減税関連法案 あす審議入り 与野党の議論本格化へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61305"
     },
     {
+      "doc_id": "nhk-a0864d8b29b4b0ba",
+      "title": "フランス デモに乗じた暴動“店舗1500以上被害か”小売店団体",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61330"
+    },
+    {
+      "doc_id": "nhk-fc32ab210241b217",
+      "title": "ロシア第2の都市にウクライナの攻撃 石油関連施設などに被害",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61332"
+    },
+    {
       "doc_id": "nhk-c6c33786557d09af",
       "title": "世田谷 三軒茶屋 女性はねられ両足大けが 荷物積み下ろし中か",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61090"
-    },
-    {
-      "doc_id": "nhk-4c05b07198073f07",
-      "title": "声や肖像 不正競争防止法の対象として明記検討へ 経済産業省",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61309"
-    },
-    {
-      "doc_id": "nhk-1937e09e127a0662",
-      "title": "横浜市長選挙 出口調査の結果は",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59773"
-    },
-    {
-      "doc_id": "nhk-80cc2ad941127478",
-      "title": "プロ野球 阪神 藤川球児監督が会見 来シーズンへの決意語る",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61151"
     },
     {
       "doc_id": "itmedia-0677d4e050054a7a",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002335/"
     },
     {
+      "doc_id": "nazology-139fc281679aa303",
+      "title": "ゾウの死から7年以上たっても、その場所には「大きな影響」が残っていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202550"
+    },
+    {
       "doc_id": "nazology-641b4825ee4f4684",
       "title": "薬が効かない殺人真菌が使っていた「予想外の生き残り術」とは",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "認知症でも、脳は「好きな音楽」に反応する",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201931"
-    },
-    {
-      "doc_id": "nazology-7674b57d93fe0de3",
-      "title": "幻覚剤で脳は「混乱」するどころか、「整然」と動いていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201717"
     }
   ]
 }
