@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-18T18:08:27+00:00",
-  "now_ms": 1792346907963,
+  "fetched_at": "2026-10-18T20:47:34+00:00",
+  "now_ms": 1792356454066,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -64,12 +64,6 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
     },
     {
-      "doc_id": "jiji-869243f2196ce245",
-      "title": "落選山中氏、「反省」届かず 原沢氏「すぐに仕事」―横浜市長選",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800421&g=pol"
-    },
-    {
       "doc_id": "jiji-0762be7347b4d7ca",
       "title": "暴徒が放火、破壊、略奪 ５５万人デモで混乱―仏",
       "source": "時事ドットコム",
@@ -82,10 +76,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
     },
     {
-      "doc_id": "jiji-403ecb2b13e512ce",
-      "title": "「高度外国人材」年収要件上げ 入管庁、賃金上昇受け",
+      "doc_id": "jiji-e48be5a4529d0797",
+      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800227&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
     },
     {
       "doc_id": "jiji-08f3b059f76ac520",
@@ -94,28 +88,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
     },
     {
-      "doc_id": "jiji-e48be5a4529d0797",
-      "title": "城内（きうち）・成長戦略担当相が靖国神社を参拝した",
+      "doc_id": "jiji-eb1ba002e6fd5e5f",
+      "title": "両親「遅くなりごめんね」 辺野古転覆現場近くで献花―沖縄",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700253&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026101800252&g=soc"
     },
     {
-      "doc_id": "jiji-b63566b6f935fd46",
-      "title": "アジアパラ大会が開幕 日本初開催、愛知・名古屋で",
+      "doc_id": "jiji-261551d4c9ade9ab",
+      "title": "日本男子、予選首位 個人総合は岡慎之助１位、橋本大輝２位―世界体操",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800315&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101800148&g=spo"
     },
     {
-      "doc_id": "jiji-9968f20d205e4770",
-      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
+      "doc_id": "jiji-869243f2196ce245",
+      "title": "落選山中氏、「反省」届かず 原沢氏「すぐに仕事」―横浜市長選",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800421&g=pol"
     },
     {
-      "doc_id": "jiji-b7e7c5feeff836dd",
-      "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
+      "doc_id": "jiji-3edb4ac893224c00",
+      "title": "衆院再可決「テーマ次第」 萩生田氏、定数削減で慎重姿勢",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101800397&g=pol"
+    },
+    {
+      "doc_id": "jiji-aeb8b41082faa3f2",
+      "title": "町田と神戸、ともに快勝 Ｊ１",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101800305&g=spo"
     },
     {
       "doc_id": "nhk-31abb8ee1635bb6f",
@@ -124,16 +124,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772"
     },
     {
-      "doc_id": "nhk-1937e09e127a0662",
-      "title": "横浜市長選挙 出口調査の結果は",
+      "doc_id": "nhk-eb6ac7fe009e9081",
+      "title": "非常に強い台風30号 週半ば以降 沖縄・奄美に影響のおそれ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59773"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61331"
     },
     {
-      "doc_id": "nhk-7363760ba3331431",
-      "title": "台風30号 22日ごろ沖縄の南海上に達する予想 今後の情報に注意",
+      "doc_id": "nhk-c4962383217f22a7",
+      "title": "消費税減税関連法案 あす審議入り 与野党の議論本格化へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61065"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61305"
     },
     {
       "doc_id": "nhk-c6c33786557d09af",
@@ -148,16 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61309"
     },
     {
+      "doc_id": "nhk-1937e09e127a0662",
+      "title": "横浜市長選挙 出口調査の結果は",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59773"
+    },
+    {
       "doc_id": "nhk-80cc2ad941127478",
       "title": "プロ野球 阪神 藤川球児監督が会見 来シーズンへの決意語る",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61151"
-    },
-    {
-      "doc_id": "nhk-22adfc8cd2f6479c",
-      "title": "日本サッカー協会 公式アプリに不正アクセス“影響調査中”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61320"
     },
     {
       "doc_id": "itmedia-0677d4e050054a7a",
