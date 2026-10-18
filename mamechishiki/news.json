@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-17T22:22:08+00:00",
-  "now_ms": 1792275728513,
+  "fetched_at": "2026-10-18T01:06:13+00:00",
+  "now_ms": 1792285573329,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-6dee15ff99a78daa",
-      "title": "墜落の無人機胴体一部か 空自回収",
+      "doc_id": "yahoo-a848962e097267c1",
+      "title": "米の対露制裁見送り ウ大統領反発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599163"
+      "link": "https://news.yahoo.co.jp/pickup/6599194"
     },
     {
-      "doc_id": "yahoo-72ac4cb1710d7169",
-      "title": "高まる反移民感情 在留外国人最多",
+      "doc_id": "yahoo-bd23a24c34137b35",
+      "title": "通販に未認証のチャイルドシート",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599175"
+      "link": "https://news.yahoo.co.jp/pickup/6599187"
     },
     {
-      "doc_id": "yahoo-6a3200095bce54c4",
-      "title": "ITシステムの弱点 世界で発見急増",
+      "doc_id": "yahoo-be9af00f5271ad9c",
+      "title": "中国人観光客 目立つ「大阪離れ」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599176"
+      "link": "https://news.yahoo.co.jp/pickup/6599199"
     },
     {
-      "doc_id": "yahoo-553eaa07492426e9",
-      "title": "東京・福生で男性刺され死亡 逃走",
+      "doc_id": "yahoo-06fa2f2977d3a024",
+      "title": "死亡事故 無車検の車運転疑い逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599183"
+      "link": "https://news.yahoo.co.jp/pickup/6599192"
     },
     {
-      "doc_id": "yahoo-451137030db820ee",
-      "title": "祭りで太鼓台の下敷き 副市長死亡",
+      "doc_id": "yahoo-ae4ac9415a353345",
+      "title": "シカ衝突し停車 追突され女性死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599181"
+      "link": "https://news.yahoo.co.jp/pickup/6599195"
     },
     {
-      "doc_id": "yahoo-515ffb1ef9df00a2",
-      "title": "佐藤輝明のメジャー移籍 容認へ",
+      "doc_id": "yahoo-2b25bcc81cf2397a",
+      "title": "祭りで副市長が死亡 市長「痛恨」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599184"
+      "link": "https://news.yahoo.co.jp/pickup/6599188"
     },
     {
-      "doc_id": "yahoo-fa28bdc9ceb8ad9d",
-      "title": "亀田和毅の世界戦 試合当日に中止",
+      "doc_id": "yahoo-4dfb501986eaed34",
+      "title": "阪神 才木のMLB挑戦認めない方針",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599182"
+      "link": "https://news.yahoo.co.jp/pickup/6599205"
     },
     {
-      "doc_id": "yahoo-d2a98007391cb0d2",
-      "title": "ジェラードンV 元相方に呼びかけ",
+      "doc_id": "yahoo-6d47ee49de5c488c",
+      "title": "ネルソンズ1点 KOC芸人審査物議",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599173"
+      "link": "https://news.yahoo.co.jp/pickup/6599193"
+    },
+    {
+      "doc_id": "jiji-1b63fe13b4734329",
+      "title": "「高市１強」の弱点露呈 更迭の判断材料、首相に届かず",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
     },
     {
       "doc_id": "jiji-9968f20d205e4770",
@@ -64,58 +70,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
     },
     {
-      "doc_id": "jiji-35ba9c05e9fb5ff3",
-      "title": "ロシア産軽油供給、効果に疑問 店頭価格、前週より上昇",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700304&g=int"
-    },
-    {
-      "doc_id": "jiji-be36c9b121c7a141",
-      "title": "首相動静（１０月１７日）",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700216&g=pol"
-    },
-    {
       "doc_id": "jiji-b7e7c5feeff836dd",
       "title": "簗氏は議員辞職を 自民・西田氏、高市首相も批判",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026101700133&g=pol"
     },
     {
-      "doc_id": "jiji-20d445334e4e0d57",
-      "title": "グローバルホークの胴体部分か 空自、機体の一部回収―鳥取県沖",
+      "doc_id": "jiji-08f3b059f76ac520",
+      "title": "全米で反トランプデモ 民主党への投票呼び掛け",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700464&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101800155&g=int"
     },
     {
-      "doc_id": "jiji-72e566a2ef64933a",
-      "title": "ミサイルにＡＩ「クロード」活用試行か フーシ派、中国製部品も使用―イエメン",
+      "doc_id": "jiji-6e4833ba3df43cd4",
+      "title": "東京・福生の路上で男性刺され死亡 知人とみられる男逃走、殺人で捜査―警視庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700325&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800152&g=soc"
     },
     {
-      "doc_id": "jiji-87b423bf62f95a0b",
-      "title": "靖国への真榊奉納を非難 中国",
+      "doc_id": "jiji-93627d406fb8244e",
+      "title": "野党、財源・制度設計追及へ 消費減税法案、２０日から審議",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800133&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101700282&g=pol"
     },
     {
-      "doc_id": "jiji-f824be1e646720f9",
-      "title": "高市首相、靖国神社に真榊 秋季例大祭、参拝見送りへ",
+      "doc_id": "jiji-940c6c129790430b",
+      "title": "サンプルリターン、継承発展を 「はやぶさ２」の津田さん―探査機ＭＭＸ打ち上げ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700164&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101700294&g=soc"
     },
     {
-      "doc_id": "jiji-f3cd6c380a892991",
-      "title": "トランプ氏の「身代わり」？ 記者の質問にニヤリ―ウクライナ大統領",
+      "doc_id": "jiji-9785253d148afbe0",
+      "title": "エジプト大統領、サウジ軍事支援の意向 フーシ派から防衛",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700205&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800156&g=int"
     },
     {
-      "doc_id": "jiji-5c14e91d5b95780d",
-      "title": "ローマ教皇が退院",
+      "doc_id": "jiji-0762be7347b4d7ca",
+      "title": "高校生・労組５５万人がデモ 放火、破壊、略奪相次ぐ―仏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800134&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800154&g=int"
+    },
+    {
+      "doc_id": "jiji-35ba9c05e9fb5ff3",
+      "title": "ロシア産軽油供給、効果に疑問 店頭価格、前週より上昇",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700304&g=int"
     },
     {
       "doc_id": "nhk-7363760ba3331431",
@@ -130,10 +130,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61058"
     },
     {
-      "doc_id": "nhk-aeb8116c290f1348",
-      "title": "秋田 奈良 クマに襲われけが人相次ぐ 警察などが注意呼びかけ",
+      "doc_id": "nhk-933c27e68d505c1e",
+      "title": "火星の衛星から砂持ち帰る計画 探査機「MMX」20日打ち上げへ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61063"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61034"
+    },
+    {
+      "doc_id": "nhk-c2681e407d682c27",
+      "title": "米カンザス州 サッカー試合会場に車突っ込み2人死亡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61075"
+    },
+    {
+      "doc_id": "nhk-e9cd8dcaf8a4e335",
+      "title": "インド ヒンドゥー教の祭典で大勢の人倒れ少なくとも17人死亡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61074"
+    },
+    {
+      "doc_id": "nhk-dbc1956c578f85bd",
+      "title": "パレスチナでユダヤ人入植者が欧州外交官を襲撃と報道",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261018de61073"
     },
     {
       "doc_id": "nhk-6e99f18b1d05b2ee",
@@ -142,22 +160,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261018de61068"
     },
     {
-      "doc_id": "nhk-5b5a8c06deb2d7c8",
-      "title": "墜落した空自「グローバルホーク」機体の一部海底から引き揚げ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61020"
-    },
-    {
-      "doc_id": "nhk-8db6e12a3bb65a4b",
-      "title": "東京 調布の道路陥没から6年 補修8割終わるも完了のめど立たず",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61038"
-    },
-    {
-      "doc_id": "nhk-5e07b99793ac1051",
-      "title": "ゼレンスキー大統領 アメリカのロシア制裁免除に反発",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261017de61037"
+      "doc_id": "itmedia-0677d4e050054a7a",
+      "title": "祝・連載再開！ 「キャプテン翼」大好きマンガ家による最新家庭用ゲーム“魂のプレゼン”",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/18/2000002348/"
     },
     {
       "doc_id": "itmedia-8ca52cf83f7efe2f",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002335/"
     },
     {
-      "doc_id": "itmedia-d63dd2f2903e992c",
-      "title": "気象庁、緊急地震速報の取り消しで「サイバー攻撃」を否定 原因は調査中",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002333/"
+      "doc_id": "nazology-dbca06c98c23d79b",
+      "title": "風車の羽根にペンキを塗ると、鳥の衝突が大きく減ると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202040"
     },
     {
       "doc_id": "nazology-816df4701bb2c487",
@@ -284,12 +290,6 @@
       "title": "音楽家は「腹話術の錯覚」にだまされにくい",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201924"
-    },
-    {
-      "doc_id": "nazology-14ba5e1a3a972c4b",
-      "title": "エッグイーターの「真っ黒で喉の白い新種ヘビ」をエチオピアで発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201680"
     }
   ]
 }
