@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-19T01:22:28+00:00",
-  "now_ms": 1792372948467,
+  "fetched_at": "2026-10-19T07:50:25+00:00",
+  "now_ms": 1792396225928,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-add42013bb08c82b",
-      "title": "仏大統領 暴徒に「怒りと恥辱」",
+      "doc_id": "yahoo-9c72c581a452aaba",
+      "title": "パーティ問題巡り 関氏に厳重注意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599322"
+      "link": "https://news.yahoo.co.jp/pickup/6599357"
     },
     {
-      "doc_id": "yahoo-9e8562221ad45de0",
-      "title": "公明「打倒高市」後 描く政界再編",
+      "doc_id": "yahoo-81d38d7f771829c5",
+      "title": "こどもNISA 知っておきたい注意点",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599317"
+      "link": "https://news.yahoo.co.jp/pickup/6599354"
     },
     {
-      "doc_id": "yahoo-b811823bf2137795",
-      "title": "横浜前市長 パワハラに厳しい審判",
+      "doc_id": "yahoo-e5dc73dd4afa9036",
+      "title": "ダンプカーが貯水池に転落 死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599310"
+      "link": "https://news.yahoo.co.jp/pickup/6599355"
     },
     {
-      "doc_id": "yahoo-4c6eb7ab7aaa02db",
-      "title": "日比谷線200m停止線越え 自動運転",
+      "doc_id": "yahoo-a458f4d498191701",
+      "title": "個別指導トレーニング トラブル増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599326"
+      "link": "https://news.yahoo.co.jp/pickup/6599359"
     },
     {
-      "doc_id": "yahoo-5deeb79e8b7a1638",
-      "title": "東芝 難関大生から再評価される今",
+      "doc_id": "yahoo-f183c4dcc836a30e",
+      "title": "印旛沼決壊 カミツキガメはどこに",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599312"
+      "link": "https://news.yahoo.co.jp/pickup/6599347"
     },
     {
-      "doc_id": "yahoo-f0786d0597b177e8",
-      "title": "「みてね」3000万人に広がるまで",
+      "doc_id": "yahoo-688f1e5ecaecf9c7",
+      "title": "阪神 佐藤輝明のポスティング容認",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599319"
+      "link": "https://news.yahoo.co.jp/pickup/6599360"
     },
     {
-      "doc_id": "yahoo-0181aa0a4e2056a4",
-      "title": "DeNAエンカーナシオン 日本S絶望",
+      "doc_id": "yahoo-8f0f2ca352497a9b",
+      "title": "ウマ娘 ビザ下りずも米公演日迫る",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599321"
+      "link": "https://news.yahoo.co.jp/pickup/6599358"
     },
     {
-      "doc_id": "yahoo-260af91f325d8cf9",
-      "title": "中村敬斗ぼう然 9分で一発レッド",
+      "doc_id": "yahoo-05098391588d18c4",
+      "title": "日本昔ばなし 公式配信する背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599309"
+      "link": "https://news.yahoo.co.jp/pickup/6599346"
     },
     {
       "doc_id": "jiji-c40f992bd8355e20",
@@ -64,100 +64,142 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
     },
     {
-      "doc_id": "jiji-30faeaf9fbcb3717",
-      "title": "井林国交相が靖国参拝 高市首相は玉串料奉納",
+      "doc_id": "jiji-e13b766f31b47f66",
+      "title": "個別指導トレーニング、トラブル増 割引契約で高額解約料請求―不要ならきっぱりと・国民生活センター",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900165&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101900107&g=soc"
     },
     {
-      "doc_id": "jiji-717e13360408f67d",
-      "title": "米中間選挙、データセンター争点 バンス氏お膝元で共和苦戦―計画急増で住民反発・中西部オハイオ州",
+      "doc_id": "jiji-ba3ba6847fe8ff50",
+      "title": "体重超過、運用に課題 救済策の明文化を―亀田和毅の世界戦・ＷＢＡタイトルマッチ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800221&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101900108&g=spo"
     },
     {
-      "doc_id": "jiji-869243f2196ce245",
-      "title": "落選山中氏、「反省」届かず 原沢氏「すぐに仕事」―横浜市長選",
+      "doc_id": "jiji-e64cb6c23951362c",
+      "title": "高市首相、財源「国債否定せず」 消費減税、従来方針は堅持―参院予算委",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800421&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101900098&g=pol"
     },
     {
-      "doc_id": "jiji-5ad7a23c71177e4b",
-      "title": "立民再建へ道険しく 苦しい財政、衆参結集見えず",
+      "doc_id": "jiji-df8cf1b34a98ebd7",
+      "title": "新教科書、紙中心の併用型に 小４以下は「完全デジタル」認めず―文科省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800224&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101900519&g=soc"
     },
     {
-      "doc_id": "jiji-9968f20d205e4770",
-      "title": "いら立つトランプ氏、報道官を更迭 側近補佐官にも退任論、ホワイトハウス混乱",
+      "doc_id": "jiji-fe9b390455665789",
+      "title": "「日本製車」、ＥＵ製と同等 優遇策巡り主張―木原官房長官",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700201&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101900411&g=pol"
     },
     {
-      "doc_id": "jiji-76b711ba2ddf8629",
-      "title": "放火・略奪に「怒りと恥」 高校生の声聞く―仏大統領",
+      "doc_id": "jiji-6fc5d1b72ca988cf",
+      "title": "観光バスなど４台衝突、７７歳女性死亡 １３人けが、乗用車が対向車線進入か―神奈川・藤沢",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900140&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101900414&g=soc"
     },
     {
-      "doc_id": "jiji-38f69db5ecc2eeaa",
-      "title": "北方領土、強硬姿勢強めるプーチン氏 対ロ制裁で交渉中断、自ら訪問も―日ソ共同宣言７０年",
+      "doc_id": "jiji-cf0b975c0830cbfe",
+      "title": "科学探査の価値守る 微生物汚染防ぐ「惑星保護」―初の火星圏往復・ＭＭＸ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800222&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101900103&g=soc"
     },
     {
-      "doc_id": "jiji-f5f1066c51a87b86",
-      "title": "タイアップ炎上で広告に指針 「受け入れられるか」確認―厚労省",
+      "doc_id": "jiji-d051a7badcefde4e",
+      "title": "「一検察官として職務遂行」 元特捜検事、改めて無罪主張―大阪地裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800109&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101900492&g=soc"
     },
     {
-      "doc_id": "jiji-7e5e97b767a9427c",
-      "title": "コアラ２頭、１０年ぶり仲間入り 豪州の雄雌、繁殖に期待―埼玉の動物園",
+      "doc_id": "jiji-0762be7347b4d7ca",
+      "title": "暴徒が放火、破壊、略奪 ５５万人デモで混乱―仏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800236&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101800154&g=int"
+    },
+    {
+      "doc_id": "nhk-94ae74a63bb23943",
+      "title": "阪神 佐藤輝明 大リーグ挑戦へ 球団がポスティング移籍容認",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61537"
+    },
+    {
+      "doc_id": "nhk-abfc4280f81b1864",
+      "title": "体操世界選手権 ロシア女子トップ選手にビザおりず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61594"
+    },
+    {
+      "doc_id": "nhk-52f0cab3451a81ff",
+      "title": "訪問介護の介護報酬 戸別訪問の移動コストなど反映方針 厚労省",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61601"
+    },
+    {
+      "doc_id": "nhk-d3686dee904e60f4",
+      "title": "神奈川 藤沢 バスや乗用車などの事故で14人搬送 1人意識なし",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61387"
+    },
+    {
+      "doc_id": "nhk-0856762da4428734",
+      "title": "JETROのホームページが不正アクセスで一時的に公開停止",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61442"
     },
     {
       "doc_id": "nhk-eb6ac7fe009e9081",
-      "title": "非常に強い台風30号 週半ば以降 沖縄・奄美に影響のおそれ",
+      "title": "非常に強い台風30号 沖縄は21日以降 波高くなるおそれ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61331"
     },
     {
-      "doc_id": "nhk-75ec153b9189f442",
-      "title": "高市首相 秋の例大祭の靖国神社参拝見送りへ 私費で玉串料奉納",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61346"
-    },
-    {
-      "doc_id": "nhk-faef4d6dcbb9709a",
-      "title": "超党派議員約70人 靖国神社に参拝 井林国交相も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61344"
-    },
-    {
-      "doc_id": "nhk-c93a20708e323890",
-      "title": "自民 梶山氏 靖国神社に参拝 高市首相の総裁としての玉串料も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61342"
-    },
-    {
-      "doc_id": "nhk-31abb8ee1635bb6f",
-      "title": "横浜市長選挙 新人の原澤敦美氏が初当選",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261015de59772"
-    },
-    {
       "doc_id": "nhk-7eae2b5da6dd2902",
-      "title": "あすにかけ西日本や東日本中心に大気非常に不安定",
+      "title": "あすにかけ西日本と東日本を中心に大気不安定 激しい雨も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61334"
     },
     {
-      "doc_id": "nhk-fc32ab210241b217",
-      "title": "ロシア第2の都市にウクライナの攻撃 石油関連施設などに被害",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61332"
+      "doc_id": "itmedia-d4280bd2a1cef8da",
+      "title": "「Renta!」停止は「不正アクセスの可能性」のため 詳細は調査中、再開未定",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/"
+    },
+    {
+      "doc_id": "itmedia-298c8f7b61d92c70",
+      "title": "ソースネクスト、パスワードなぜ平文で流出 「暗号化していたが、鍵にアクセスできるシステムに侵入された」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002372/"
+    },
+    {
+      "doc_id": "itmedia-e2e4df7cbff1906a",
+      "title": "AIの台頭でWebサイトのアクセス向上策はSEOからGEOにシフト 対応急務に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002371/"
+    },
+    {
+      "doc_id": "itmedia-1f6145ee8d4c8618",
+      "title": "「Renta!」が臨時メンテナンスでサービス停止 再開時期示さず",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002367/"
+    },
+    {
+      "doc_id": "itmedia-475317aeb683eb0d",
+      "title": "家電量販のJoshin、不正アクセスで一部サービス停止 個人情報漏えい「可能性否定できず」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002369/"
+    },
+    {
+      "doc_id": "itmedia-ff5578c5002461cb",
+      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999） ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002365/"
+    },
+    {
+      "doc_id": "itmedia-b8c765fc30dd3bac",
+      "title": "Google、量子コンピュータの“魔法状態”生成を実機で効率化 エラーを40分の1に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002366/"
     },
     {
       "doc_id": "itmedia-5dcad1111b92b7d5",
@@ -190,46 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002353/"
     },
     {
-      "doc_id": "itmedia-0677d4e050054a7a",
-      "title": "祝・連載再開！ 「キャプテン翼」大好きマンガ家による最新家庭用ゲーム“魂のプレゼン”",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/18/2000002348/"
-    },
-    {
-      "doc_id": "itmedia-8ca52cf83f7efe2f",
-      "title": "「skyticket」クレカ情報も流出、カード番号など最大6140人分 「流出なし」の初報を訂正",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/17/2000002350/"
-    },
-    {
-      "doc_id": "itmedia-3396903a68f7ae43",
-      "title": "タイムズカー、退会後も7年間保管していた免許証画像を全削除へ 約660万アカウント分の漏えい受け",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002346/"
-    },
-    {
-      "doc_id": "itmedia-8c054fe252b2cf8d",
-      "title": "BASE子会社の漏えい、約2335万人分に 209万人分はクレカ番号「先頭6桁と下4桁」「有効期限」も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/17/2000002349/"
-    },
-    {
-      "doc_id": "itmedia-39e5338d17da9645",
-      "title": "コードを書かずに“自分専用IME” 日英を自動切り替えできる「Meltype」にAI変換を載せてみた",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002336/"
-    },
-    {
-      "doc_id": "itmedia-034b6645b4e99d92",
-      "title": "コミックシーモア、会員のメールアドレスや生年月日など流出 件数は精査中",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002345/"
-    },
-    {
-      "doc_id": "itmedia-242a12d2add02965",
-      "title": "うるう秒、27年5月に廃止 国際度量衡総会で決定 通信や情報システムの障害防止へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/16/2000002343/"
+      "doc_id": "nazology-316ae1e517ce3511",
+      "title": "人間の腸にも「巨大細菌」が潜んでいる可能性がある",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202643"
     },
     {
       "doc_id": "nazology-139fc281679aa303",
@@ -284,12 +290,6 @@
       "title": "「水金地火木土天海」は太陽の死で崩れる――惑星の並びが壊れる仕組みを発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201767"
-    },
-    {
-      "doc_id": "nazology-b7918cd4e3aa00c0",
-      "title": "認知症でも、脳は「好きな音楽」に反応する",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201931"
     }
   ]
 }
