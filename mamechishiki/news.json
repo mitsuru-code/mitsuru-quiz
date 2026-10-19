@@ -1,115 +1,79 @@
 {
-  "fetched_at": "2026-10-19T07:50:25+00:00",
-  "now_ms": 1792396225928,
+  "fetched_at": "2026-10-19T15:39:41+00:00",
+  "now_ms": 1792424381517,
   "counts": {
     "Yahoo!ニュース": 8,
-    "時事ドットコム": 10,
+    "時事ドットコム": 7,
     "NHK": 7,
     "ITmedia": 12,
     "ナゾロジー": 10
   },
   "candidates": [
     {
-      "doc_id": "yahoo-9c72c581a452aaba",
-      "title": "パーティ問題巡り 関氏に厳重注意",
+      "doc_id": "yahoo-d71758060ba4e44c",
+      "title": "仏首相 一部に夜間外出禁止令要請",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599357"
+      "link": "https://news.yahoo.co.jp/pickup/6599406"
     },
     {
-      "doc_id": "yahoo-81d38d7f771829c5",
-      "title": "こどもNISA 知っておきたい注意点",
+      "doc_id": "yahoo-2a5abf788066197c",
+      "title": "特定技能「給食」受け入れ再開へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599354"
+      "link": "https://news.yahoo.co.jp/pickup/6599400"
     },
     {
-      "doc_id": "yahoo-e5dc73dd4afa9036",
-      "title": "ダンプカーが貯水池に転落 死亡",
+      "doc_id": "yahoo-4e1b6cfd866179a4",
+      "title": "ウ軍 ドローンで空から負傷兵救出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599355"
+      "link": "https://news.yahoo.co.jp/pickup/6599410"
     },
     {
-      "doc_id": "yahoo-a458f4d498191701",
-      "title": "個別指導トレーニング トラブル増",
+      "doc_id": "yahoo-ba2a06c63711df98",
+      "title": "ユニクロ ソックス3点990円終了へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599359"
+      "link": "https://news.yahoo.co.jp/pickup/6599375"
     },
     {
-      "doc_id": "yahoo-f183c4dcc836a30e",
-      "title": "印旛沼決壊 カミツキガメはどこに",
+      "doc_id": "yahoo-284dbe3c2f62444c",
+      "title": "JAL便に小動物 サイズは猫以下か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599347"
+      "link": "https://news.yahoo.co.jp/pickup/6599413"
     },
     {
-      "doc_id": "yahoo-688f1e5ecaecf9c7",
-      "title": "阪神 佐藤輝明のポスティング容認",
+      "doc_id": "yahoo-69dd2405ed4896af",
+      "title": "ALS原因タンパク質 除去に新経路",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599360"
+      "link": "https://news.yahoo.co.jp/pickup/6599408"
     },
     {
-      "doc_id": "yahoo-8f0f2ca352497a9b",
-      "title": "ウマ娘 ビザ下りずも米公演日迫る",
+      "doc_id": "yahoo-f53d67df14008c0a",
+      "title": "佐藤輝明 今オフに争奪戦勃発か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599358"
+      "link": "https://news.yahoo.co.jp/pickup/6599411"
     },
     {
-      "doc_id": "yahoo-05098391588d18c4",
-      "title": "日本昔ばなし 公式配信する背景",
+      "doc_id": "yahoo-195a8633751808d5",
+      "title": "工藤新監督 ドラフト会議は欠席",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599346"
+      "link": "https://news.yahoo.co.jp/pickup/6599404"
     },
     {
-      "doc_id": "jiji-c40f992bd8355e20",
-      "title": "横浜市長に原沢敦美氏が初当選 前職・山中竹春氏ら６氏破る",
+      "doc_id": "jiji-85d477619d5111a3",
+      "title": "半谷静香、川本翔大が金メダル 本格的に競技開始―アジアパラ大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101900815&g=spo"
     },
     {
-      "doc_id": "jiji-e13b766f31b47f66",
-      "title": "個別指導トレーニング、トラブル増 割引契約で高額解約料請求―不要ならきっぱりと・国民生活センター",
+      "doc_id": "jiji-80cf3fd525b1c106",
+      "title": "神戸に代表強化拠点 バレーボール",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900107&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101900990&g=spo"
     },
     {
-      "doc_id": "jiji-ba3ba6847fe8ff50",
-      "title": "体重超過、運用に課題 救済策の明文化を―亀田和毅の世界戦・ＷＢＡタイトルマッチ",
+      "doc_id": "jiji-426f566251fffadb",
+      "title": "「プーチンの戦争あおる」 制裁見送りで米批判―ウクライナ大統領",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900108&g=spo"
-    },
-    {
-      "doc_id": "jiji-e64cb6c23951362c",
-      "title": "高市首相、財源「国債否定せず」 消費減税、従来方針は堅持―参院予算委",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900098&g=pol"
-    },
-    {
-      "doc_id": "jiji-df8cf1b34a98ebd7",
-      "title": "新教科書、紙中心の併用型に 小４以下は「完全デジタル」認めず―文科省",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900519&g=soc"
-    },
-    {
-      "doc_id": "jiji-fe9b390455665789",
-      "title": "「日本製車」、ＥＵ製と同等 優遇策巡り主張―木原官房長官",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900411&g=pol"
-    },
-    {
-      "doc_id": "jiji-6fc5d1b72ca988cf",
-      "title": "観光バスなど４台衝突、７７歳女性死亡 １３人けが、乗用車が対向車線進入か―神奈川・藤沢",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900414&g=soc"
-    },
-    {
-      "doc_id": "jiji-cf0b975c0830cbfe",
-      "title": "科学探査の価値守る 微生物汚染防ぐ「惑星保護」―初の火星圏往復・ＭＭＸ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900103&g=soc"
-    },
-    {
-      "doc_id": "jiji-d051a7badcefde4e",
-      "title": "「一検察官として職務遂行」 元特捜検事、改めて無罪主張―大阪地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900492&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026101900127&g=int"
     },
     {
       "doc_id": "jiji-0762be7347b4d7ca",
@@ -118,46 +82,100 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800154&g=int"
     },
     {
-      "doc_id": "nhk-94ae74a63bb23943",
-      "title": "阪神 佐藤輝明 大リーグ挑戦へ 球団がポスティング移籍容認",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61537"
+      "doc_id": "jiji-1b63fe13b4734329",
+      "title": "「高市１強」の弱点露呈 更迭の判断材料、首相に届かず",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
     },
     {
-      "doc_id": "nhk-abfc4280f81b1864",
-      "title": "体操世界選手権 ロシア女子トップ選手にビザおりず",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61594"
+      "doc_id": "jiji-ee7bd7dd6b73200f",
+      "title": "久保建英が今季初得点 中村敬斗は一発退場―欧州サッカー",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101900144&g=spo"
     },
     {
-      "doc_id": "nhk-52f0cab3451a81ff",
-      "title": "訪問介護の介護報酬 戸別訪問の移動コストなど反映方針 厚労省",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61601"
-    },
-    {
-      "doc_id": "nhk-d3686dee904e60f4",
-      "title": "神奈川 藤沢 バスや乗用車などの事故で14人搬送 1人意識なし",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61387"
+      "doc_id": "jiji-309d17e651b7ea7b",
+      "title": "豪議員はねられ重体 襲撃か、４３歳男逮捕",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101900862&g=int"
     },
     {
       "doc_id": "nhk-0856762da4428734",
-      "title": "JETROのホームページが不正アクセスで一時的に公開停止",
+      "title": "「ふるさとチョイス」で不正アクセス疑い 阪急阪神百貨店でも",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61442"
     },
     {
-      "doc_id": "nhk-eb6ac7fe009e9081",
-      "title": "非常に強い台風30号 沖縄は21日以降 波高くなるおそれ",
+      "doc_id": "nhk-c7a09af14a17fdb0",
+      "title": "サッカー マンチェスターシティーの財務規則違反を認定",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61331"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61598"
     },
     {
-      "doc_id": "nhk-7eae2b5da6dd2902",
-      "title": "あすにかけ西日本と東日本を中心に大気不安定 激しい雨も",
+      "doc_id": "nhk-46eb6d6a5dc57e56",
+      "title": "上皇后さま 92歳の誕生日",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61334"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61822"
+    },
+    {
+      "doc_id": "nhk-d957b94bba551969",
+      "title": "高校無償化でも“私立は選べず”約3割 低所得世帯にNGO調査",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61526"
+    },
+    {
+      "doc_id": "nhk-6f5b8645aa7eb38f",
+      "title": "超低出生体重児の大動脈の血管へのステント治療成功 静岡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61864"
+    },
+    {
+      "doc_id": "nhk-d53d302a6497cb6a",
+      "title": "“簗氏 事務員報酬支払い”報道 大学教授が宇都宮地検に告発状",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61832"
+    },
+    {
+      "doc_id": "nhk-c25004e5d2961bc1",
+      "title": "旅客機の操縦席に小動物が見つかり欠航 福岡空港",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61850"
+    },
+    {
+      "doc_id": "itmedia-cbed534f6e8bff09",
+      "title": "ニフティ、54万件超漏えいの可能性 光回線の申し込みシステムに不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002399/"
+    },
+    {
+      "doc_id": "itmedia-97a6a2f2b6b0b50d",
+      "title": "スクエニアカウントに不正ログイン、他社で流出の情報使用か 全アカウントのパスワード強制リセットも視野に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002397/"
+    },
+    {
+      "doc_id": "itmedia-1fc2e6e7570d647c",
+      "title": "阪急阪神百貨店などの共通ID、ほぼ全会員分漏えい 約126万件 予約サイトに不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002398/"
+    },
+    {
+      "doc_id": "itmedia-893e49907f73a7f2",
+      "title": "「ゲオ」「セカスト」運営元に不正アクセス 公式アプリや通販を停止、メンテナンス実施中",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002392/"
+    },
+    {
+      "doc_id": "itmedia-4a0b2b80de97de0d",
+      "title": "「ふるさとチョイス」不正アクセスの疑いでサービス停止",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002391/"
+    },
+    {
+      "doc_id": "itmedia-13cfeccc15264795",
+      "title": "情報漏えい「経験あり」は企業の16.2％、「発生したか分からない」の声も──帝国データバンク調査",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002390/"
     },
     {
       "doc_id": "itmedia-d4280bd2a1cef8da",
@@ -196,40 +214,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002365/"
     },
     {
-      "doc_id": "itmedia-b8c765fc30dd3bac",
-      "title": "Google、量子コンピュータの“魔法状態”生成を実機で効率化 エラーを40分の1に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002366/"
-    },
-    {
-      "doc_id": "itmedia-5dcad1111b92b7d5",
-      "title": "Anthropic、株式の5％を公益目的の新組織に拠出 企業価値の上昇に応じて割合を拡大",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002359/"
-    },
-    {
-      "doc_id": "itmedia-5c64d8ff9dc71a2c",
-      "title": "Studio漏えい、個情委への報告で混乱 フォーム利用者に「報告必要な場合も」→翌日「保留して」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002358/"
-    },
-    {
-      "doc_id": "itmedia-8742d6e305fc8ce5",
-      "title": "サッカー協会公式アプリに不正アクセス 「JFA Passport」一部機能停止、「ログアウト控えて」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002355/"
-    },
-    {
-      "doc_id": "itmedia-8815e168c65b776f",
-      "title": "「カーセンサー」停止、不審なアクセス検知 リクルートの中古車情報サイト",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002354/"
-    },
-    {
-      "doc_id": "itmedia-5cb4b099cccc617c",
-      "title": "Anthropic、社内でAIエージェントの稼働時間が人間の6倍に 技術系初級職の採用比率は27％→9％に激減",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002353/"
+      "doc_id": "nazology-9a6773a03885b8d3",
+      "title": "「世界初」宙に浮くダイヤを「量子の力」で揺らすことに成功",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202351"
     },
     {
       "doc_id": "nazology-316ae1e517ce3511",
@@ -284,12 +272,6 @@
       "title": "「恐竜絶滅」の直後から続く系統の「巨大キノコ」の新種を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201839"
-    },
-    {
-      "doc_id": "nazology-50d1e25015b23b5e",
-      "title": "「水金地火木土天海」は太陽の死で崩れる――惑星の並びが壊れる仕組みを発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201767"
     }
   ]
 }
