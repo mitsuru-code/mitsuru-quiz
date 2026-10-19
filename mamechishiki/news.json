@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-19T15:39:41+00:00",
-  "now_ms": 1792424381517,
+  "fetched_at": "2026-10-19T21:06:14+00:00",
+  "now_ms": 1792443974765,
   "counts": {
     "Yahoo!ニュース": 8,
-    "時事ドットコム": 7,
+    "時事ドットコム": 10,
     "NHK": 7,
     "ITmedia": 12,
     "ナゾロジー": 10
@@ -58,58 +58,70 @@
       "link": "https://news.yahoo.co.jp/pickup/6599404"
     },
     {
-      "doc_id": "jiji-85d477619d5111a3",
-      "title": "半谷静香、川本翔大が金メダル 本格的に競技開始―アジアパラ大会",
+      "doc_id": "jiji-8fa180dbce631a73",
+      "title": "上皇后さま、９２歳に 体力低下も、穏やかな日々",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900815&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102000003&g=soc"
     },
     {
-      "doc_id": "jiji-80cf3fd525b1c106",
-      "title": "神戸に代表強化拠点 バレーボール",
+      "doc_id": "jiji-840a85567dcef5d9",
+      "title": "米物価高対策が迷走 中間選挙控え与党も反発",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900990&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026101900558&g=int"
     },
     {
-      "doc_id": "jiji-426f566251fffadb",
-      "title": "「プーチンの戦争あおる」 制裁見送りで米批判―ウクライナ大統領",
+      "doc_id": "jiji-c40f992bd8355e20",
+      "title": "横浜市長に原沢敦美氏が初当選 前職・山中竹春氏ら６氏破る",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900127&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
     },
     {
-      "doc_id": "jiji-0762be7347b4d7ca",
-      "title": "暴徒が放火、破壊、略奪 ５５万人デモで混乱―仏",
+      "doc_id": "jiji-aadd2809ebad9861",
+      "title": "保守、消費減税法案に賛成へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800154&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101900867&g=pol"
     },
     {
-      "doc_id": "jiji-1b63fe13b4734329",
-      "title": "「高市１強」の弱点露呈 更迭の判断材料、首相に届かず",
+      "doc_id": "jiji-4e87040fbcaeb565",
+      "title": "ミクロネシア大統領、２０日来日",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101700285&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101900864&g=pol"
     },
     {
-      "doc_id": "jiji-ee7bd7dd6b73200f",
-      "title": "久保建英が今季初得点 中村敬斗は一発退場―欧州サッカー",
+      "doc_id": "jiji-6c4949c3ced53276",
+      "title": "講演録「今こそ多くの人に」 上皇后さまと親交の末盛さん",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900144&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102000005&g=soc"
     },
     {
-      "doc_id": "jiji-309d17e651b7ea7b",
-      "title": "豪議員はねられ重体 襲撃か、４３歳男逮捕",
+      "doc_id": "jiji-d0158630fe1261c0",
+      "title": "交渉途絶、関係改善程遠く 北方領土、解決へ道筋見えず―日ソ共同宣言から７０年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900862&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026101900858&g=pol"
     },
     {
-      "doc_id": "nhk-0856762da4428734",
-      "title": "「ふるさとチョイス」で不正アクセス疑い 阪急阪神百貨店でも",
+      "doc_id": "jiji-aa9796cd6e795fa1",
+      "title": "中国、ハイテク輸出に依存 狭まる政策余地",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101900634&g=int"
+    },
+    {
+      "doc_id": "jiji-76b711ba2ddf8629",
+      "title": "フランス、一部都市の夜間外出禁止へ デモ暴徒から「人・財産守る」―仏首相",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101900140&g=int"
+    },
+    {
+      "doc_id": "jiji-797a720d3895cc70",
+      "title": "上皇后さまの近況全文",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000010&g=soc"
+    },
+    {
+      "doc_id": "nhk-67684c7b9b9c1e2d",
+      "title": "火星衛星探査機「MMX」 火星へ向かう軌道に 打ち上げ成功",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61442"
-    },
-    {
-      "doc_id": "nhk-c7a09af14a17fdb0",
-      "title": "サッカー マンチェスターシティーの財務規則違反を認定",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61598"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814"
     },
     {
       "doc_id": "nhk-46eb6d6a5dc57e56",
@@ -118,28 +130,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61822"
     },
     {
-      "doc_id": "nhk-d957b94bba551969",
-      "title": "高校無償化でも“私立は選べず”約3割 低所得世帯にNGO調査",
+      "doc_id": "nhk-2f842f71eb727218",
+      "title": "米 中間選挙まで2週間 下院は民主党過半数うかがう 上院は接戦",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61526"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61904"
     },
     {
-      "doc_id": "nhk-6f5b8645aa7eb38f",
-      "title": "超低出生体重児の大動脈の血管へのステント治療成功 静岡",
+      "doc_id": "nhk-b2712e609edc141d",
+      "title": "盛岡 東北道で車6台絡む事故 1台が炎上 1人死亡",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61864"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61903"
     },
     {
-      "doc_id": "nhk-d53d302a6497cb6a",
-      "title": "“簗氏 事務員報酬支払い”報道 大学教授が宇都宮地検に告発状",
+      "doc_id": "nhk-1e887cfa170027de",
+      "title": "フランスでデモ乗じた暴動受け一部の都市で外出禁止令",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61832"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61899"
     },
     {
-      "doc_id": "nhk-c25004e5d2961bc1",
-      "title": "旅客機の操縦席に小動物が見つかり欠航 福岡空港",
+      "doc_id": "nhk-35c136b76e3a7884",
+      "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61850"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61888"
+    },
+    {
+      "doc_id": "nhk-f5e08903d265d4d9",
+      "title": "世界最大級ファンド「ブラックストーン」 日本に約6兆円投資へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61876"
     },
     {
       "doc_id": "itmedia-cbed534f6e8bff09",
