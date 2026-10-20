@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-20T00:23:32+00:00",
-  "now_ms": 1792455812342,
+  "fetched_at": "2026-10-20T06:04:21+00:00",
+  "now_ms": 1792476261886,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-abdce4c3c91ba255",
-      "title": "トランプ氏 米露中会談に前向き",
+      "doc_id": "yahoo-3761929d2a11ef8c",
+      "title": "台風 23-24日頃にかけ先島諸島へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599417"
+      "link": "https://news.yahoo.co.jp/pickup/6599465"
     },
     {
-      "doc_id": "yahoo-aa01bfc2af6093e4",
-      "title": "上皇后さま92歳に 穏やかな日々",
+      "doc_id": "yahoo-7fd056ed69ba7c62",
+      "title": "米政権の汚職問題 中間選挙争点に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599423"
+      "link": "https://news.yahoo.co.jp/pickup/6599466"
     },
     {
-      "doc_id": "yahoo-9c18f279fce863f5",
-      "title": "H3ロケット10号機 打ち上げ成功",
+      "doc_id": "yahoo-3588d98cac15cb31",
+      "title": "モバ充発火で鉄道遅延 増加傾向",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599414"
+      "link": "https://news.yahoo.co.jp/pickup/6599444"
     },
     {
-      "doc_id": "yahoo-4ec9f40141ac8715",
-      "title": "東北道で複数台絡む事故 2人死傷",
+      "doc_id": "yahoo-e38935f2578fdfe3",
+      "title": "元OpenAIの被告をサウジが支援か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599419"
+      "link": "https://news.yahoo.co.jp/pickup/6599451"
     },
     {
-      "doc_id": "yahoo-54e85ea301af41f3",
-      "title": "スイミングスクール 80代溺れ搬送",
+      "doc_id": "yahoo-168427696b35bccf",
+      "title": "ロボ悪用し性的嫌がらせ 法的責任",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599420"
+      "link": "https://news.yahoo.co.jp/pickup/6599449"
     },
     {
-      "doc_id": "yahoo-284dbe3c2f62444c",
-      "title": "JAL便に小動物 サイズは猫以下か",
+      "doc_id": "yahoo-959b52f05695d058",
+      "title": "ニンジャブルー役 土田大さん死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599413"
+      "link": "https://news.yahoo.co.jp/pickup/6599462"
     },
     {
-      "doc_id": "yahoo-e3f3f3327560e57e",
-      "title": "「あと1球コール」阪神OBの見解",
+      "doc_id": "yahoo-2473e0d28ea5a176",
+      "title": "ウマ娘米公演中止 ビザ取得できず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599426"
+      "link": "https://news.yahoo.co.jp/pickup/6599464"
     },
     {
-      "doc_id": "yahoo-90b313a0e4d819b3",
-      "title": "妻夫木 憧れのハイスタと名曲熱唱",
+      "doc_id": "yahoo-813e7892d1088c4a",
+      "title": "永野芽郁主演ドラマ キャスト発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599424"
+      "link": "https://news.yahoo.co.jp/pickup/6599463"
     },
     {
       "doc_id": "jiji-bd5ba0e5dab4a8cd",
@@ -64,10 +64,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026102000209&g=int"
     },
     {
-      "doc_id": "jiji-082c0880e381e341",
-      "title": "オランダ首相、代理出産で第１子 同性愛公言、来春誕生へ",
+      "doc_id": "jiji-6732f2855d4f7f00",
+      "title": "火星衛星へ、探査機打ち上げ成功 試料回収、５年で往復―「ＭＭＸ」、Ｈ３搭載・ＪＡＸＡ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000213&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102000118&g=soc"
+    },
+    {
+      "doc_id": "jiji-0754ab321f6b7426",
+      "title": "大阪地裁近くで男性刺され重傷 男逮捕、「金銭トラブルあった」―府警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000423&g=soc"
+    },
+    {
+      "doc_id": "jiji-515994ec7aa90032",
+      "title": "「本物の銃の構造に興味があった」製造容疑で男再逮捕 エアガン改造、完全自作も―警視庁など",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000502&g=soc"
+    },
+    {
+      "doc_id": "jiji-5e1900a8f4217dbf",
+      "title": "消費減税法案、衆院審議入り 与党１１月上旬通過目指す",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000124&g=pol"
+    },
+    {
+      "doc_id": "jiji-6477752b1d94c43a",
+      "title": "文科相を引き続き追及 議員会館で政治資金パーティー開催―公・民幹事長",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000515&g=pol"
+    },
+    {
+      "doc_id": "jiji-1bbc7bd1ff7d6a44",
+      "title": "意思疎通、残った宿題 問われる大谷への向き合い方―米大リーグ・二刀流の行方（上）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101900655&g=spo"
     },
     {
       "doc_id": "jiji-b483099d79c71c4f",
@@ -76,46 +106,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026101900926&g=pol"
     },
     {
-      "doc_id": "jiji-951a86877ce0450f",
-      "title": "続投か政権交代か、勢力拮抗 イスラエル総選挙まで１週間",
+      "doc_id": "jiji-2bc819adfab10150",
+      "title": "新名神６人死亡事故、スマホ動画の元トラック運転手に求刑通り拘禁刑７年 津地裁判決",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900672&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102000132&g=soc"
     },
     {
-      "doc_id": "jiji-6732f2855d4f7f00",
-      "title": "火星衛星へ、探査機打ち上げ成功 試料回収、５年で往復―「ＭＭＸ」、Ｈ３搭載・ＪＡＸＡ",
+      "doc_id": "jiji-e2dc080cf24e4859",
+      "title": "中国当局、大和証券とみずほＦＧの証券事業を許可 報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000118&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102000506&g=int"
     },
     {
-      "doc_id": "jiji-c40f992bd8355e20",
-      "title": "横浜市長に原沢敦美氏が初当選 前職・山中竹春氏ら６氏破る",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
+      "doc_id": "nhk-98a48144433f537f",
+      "title": "食料品の消費税減税関連法案 衆議院で審議入り",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61870"
     },
     {
-      "doc_id": "jiji-20d9e35cb034ff0f",
-      "title": "ＮＹ株小幅続落、３６ドル安 ＡＩ銘柄復調、ナスダックは反発",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000152&g=int"
+      "doc_id": "nhk-5487c28f5fd0aa3c",
+      "title": "大阪地裁前で男性刺される 容疑者は面識ありか 出頭して逮捕",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61997"
     },
     {
-      "doc_id": "jiji-e1cd7ead857402fa",
-      "title": "インドネシア森林火災焼失面積、四国超えか カリマンタン島やスマトラ島、監視サイト推計",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000183&g=int"
-    },
-    {
-      "doc_id": "jiji-a4f99821677ccec0",
-      "title": "欧州各地でデモ、一部暴徒化 物価高や教育費に不満",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000205&g=int"
-    },
-    {
-      "doc_id": "jiji-cd016eb6c63041c8",
-      "title": "トランプ氏、米中ロ首脳会談に前向き 核軍縮協議に関心",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000136&g=int"
+      "doc_id": "nhk-804cde245df58da3",
+      "title": "台風30号 23日から沖縄の先島諸島に接近見込み 最新情報確認を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61985"
     },
     {
       "doc_id": "nhk-67684c7b9b9c1e2d",
@@ -124,40 +142,76 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814"
     },
     {
-      "doc_id": "nhk-9b4c219d7dd7401c",
-      "title": "トランプ大統領と距離置く共和党の候補相次ぐ いったいなぜ？",
+      "doc_id": "nhk-0a8e6e1675a3f304",
+      "title": "JR東日本が新しいQRコード決済を開始 競争激化へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61784"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62102"
     },
     {
-      "doc_id": "nhk-35c136b76e3a7884",
-      "title": "不正アクセス 「中国系AIの使用確認」 情報セキュリティー会社",
+      "doc_id": "nhk-525cd7e3585f0049",
+      "title": "新名神高速6人死亡事故 被告に拘禁刑7年の判決 津地裁",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61888"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61968"
     },
     {
-      "doc_id": "nhk-98a48144433f537f",
-      "title": "食料品の消費税減税関連法案 きょう衆議院で審議入り",
+      "doc_id": "nhk-33f085aaacf405bd",
+      "title": "上皇后さま 92歳の誕生日で祝賀行事",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61870"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62116"
     },
     {
-      "doc_id": "nhk-b264d4411f6e4c24",
-      "title": "東・西日本で大気不安定に 台風30号の最新情報 確認を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61878"
+      "doc_id": "itmedia-e429ced967527a01",
+      "title": "日本企業狙う不正アクセスにAI 攻撃者が自立型侵入テスト「ARTEX」を使用 GMOイエラエ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002423/"
     },
     {
-      "doc_id": "nhk-46eb6d6a5dc57e56",
-      "title": "上皇后さま 92歳の誕生日",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61822"
+      "doc_id": "itmedia-900191fe7fdd6964",
+      "title": "ネットバンキングにログインしたまま別作業は危険？ 「ChatGPT Atlas」などのAIブラウザ7種でデータ窃取を検証",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002377/"
     },
     {
-      "doc_id": "nhk-f5e08903d265d4d9",
-      "title": "世界最大級ファンド「ブラックストーン」 日本に約6兆円投資へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61876"
+      "doc_id": "itmedia-2a2101789738c2dc",
+      "title": "ChatGPT広告は誰に何を表示しているのか？ 米大学が91のおとりアカウントで実態調査",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002375/"
+    },
+    {
+      "doc_id": "itmedia-b8a8662075d85d47",
+      "title": "「Uber Eats」配達ロボの進路ふさいだ女性逮捕 「人間の仕事奪う」「世界を支配」 米国",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002416/"
+    },
+    {
+      "doc_id": "itmedia-ccf7cc7fb797e72d",
+      "title": "AWS Transformが機能拡充 Azure Functions用のコードをAWS Lambda用に変換など、Azure→AWSへの移行に対応",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002414/"
+    },
+    {
+      "doc_id": "itmedia-bfe9a8ac2e003a34",
+      "title": "メドレー、不正アクセスで停止中のサービスを作り直して再開へ 従来システムは再稼働させず",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002413/"
+    },
+    {
+      "doc_id": "itmedia-96519c57751f0f38",
+      "title": "日本郵政「ゆうID」不正ログイン、他社で流出したパスワード使うリスト攻撃か……2段階認証必須に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002412/"
+    },
+    {
+      "doc_id": "itmedia-50dca5b6dff4ce06",
+      "title": "「My SoftBank」サイト停止中 不正アクセスの試み検知 「My Y!mobile」も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002410/"
+    },
+    {
+      "doc_id": "itmedia-05dae8b1cea8f39a",
+      "title": "メール配信のユミルリンクに不正アクセス メアドなど約900万件漏えいか",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002409/"
     },
     {
       "doc_id": "itmedia-20e1e97bf2031704",
@@ -178,58 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002405/"
     },
     {
-      "doc_id": "itmedia-84e2eb67403f4266",
-      "title": "Apple、10月28日にイベント開催へ タッチスクリーン「MacBook Pro」など発表か",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002404/"
-    },
-    {
-      "doc_id": "itmedia-cbed534f6e8bff09",
-      "title": "ニフティ、54万件超漏えいの可能性 光回線の申し込みシステムに不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002399/"
-    },
-    {
-      "doc_id": "itmedia-97a6a2f2b6b0b50d",
-      "title": "スクエニアカウントに不正ログイン、他社で流出の情報使用か 全アカウントのパスワード強制リセットも視野に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002397/"
-    },
-    {
-      "doc_id": "itmedia-1fc2e6e7570d647c",
-      "title": "阪急阪神百貨店などの共通ID、ほぼ全会員分漏えい 約126万件 予約サイトに不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002398/"
-    },
-    {
-      "doc_id": "itmedia-893e49907f73a7f2",
-      "title": "「ゲオ」「セカスト」運営元に不正アクセス 公式アプリや通販を停止、メンテナンス実施中",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002392/"
-    },
-    {
-      "doc_id": "itmedia-4a0b2b80de97de0d",
-      "title": "「ふるさとチョイス」不正アクセスの疑いでサービス停止",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002391/"
-    },
-    {
-      "doc_id": "itmedia-13cfeccc15264795",
-      "title": "情報漏えい「経験あり」は企業の16.2％、「発生したか分からない」の声も──帝国データバンク調査",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002390/"
-    },
-    {
-      "doc_id": "itmedia-d4280bd2a1cef8da",
-      "title": "「Renta!」停止は「不正アクセスの可能性」のため 詳細は調査中、再開未定",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002379/"
-    },
-    {
-      "doc_id": "itmedia-298c8f7b61d92c70",
-      "title": "ソースネクスト、パスワードなぜ平文で流出 「暗号化していたが、鍵にアクセスできるシステムに侵入された」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002372/"
+      "doc_id": "nazology-d28c366b2331db45",
+      "title": "人類の持久力は「水に潜る暮らし」で育った可能性がある――持久力の起源に新仮説",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202803"
     },
     {
       "doc_id": "nazology-67a501ed257de411",
@@ -284,12 +290,6 @@
       "title": "子どもの「頭の中の言葉」の発達は、1から5まで数えることで測れる可能性―心の中で数字を数えられるのはいつごろ？",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/202623"
-    },
-    {
-      "doc_id": "nazology-03526dd5ab8332b9",
-      "title": "ママの正体はパパのクローン、オス1匹から子孫を作ることにマウスで成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201879"
     }
   ]
 }
