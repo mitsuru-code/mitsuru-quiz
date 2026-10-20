@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-19T21:06:14+00:00",
-  "now_ms": 1792443974765,
+  "fetched_at": "2026-10-20T00:23:32+00:00",
+  "now_ms": 1792455812342,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,34 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-d71758060ba4e44c",
-      "title": "仏首相 一部に夜間外出禁止令要請",
+      "doc_id": "yahoo-abdce4c3c91ba255",
+      "title": "トランプ氏 米露中会談に前向き",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599406"
+      "link": "https://news.yahoo.co.jp/pickup/6599417"
     },
     {
-      "doc_id": "yahoo-2a5abf788066197c",
-      "title": "特定技能「給食」受け入れ再開へ",
+      "doc_id": "yahoo-aa01bfc2af6093e4",
+      "title": "上皇后さま92歳に 穏やかな日々",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599400"
+      "link": "https://news.yahoo.co.jp/pickup/6599423"
     },
     {
-      "doc_id": "yahoo-4e1b6cfd866179a4",
-      "title": "ウ軍 ドローンで空から負傷兵救出",
+      "doc_id": "yahoo-9c18f279fce863f5",
+      "title": "H3ロケット10号機 打ち上げ成功",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599410"
+      "link": "https://news.yahoo.co.jp/pickup/6599414"
     },
     {
-      "doc_id": "yahoo-ba2a06c63711df98",
-      "title": "ユニクロ ソックス3点990円終了へ",
+      "doc_id": "yahoo-4ec9f40141ac8715",
+      "title": "東北道で複数台絡む事故 2人死傷",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599375"
+      "link": "https://news.yahoo.co.jp/pickup/6599419"
+    },
+    {
+      "doc_id": "yahoo-54e85ea301af41f3",
+      "title": "スイミングスクール 80代溺れ搬送",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6599420"
     },
     {
       "doc_id": "yahoo-284dbe3c2f62444c",
@@ -40,34 +46,46 @@
       "link": "https://news.yahoo.co.jp/pickup/6599413"
     },
     {
-      "doc_id": "yahoo-69dd2405ed4896af",
-      "title": "ALS原因タンパク質 除去に新経路",
+      "doc_id": "yahoo-e3f3f3327560e57e",
+      "title": "「あと1球コール」阪神OBの見解",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599408"
+      "link": "https://news.yahoo.co.jp/pickup/6599426"
     },
     {
-      "doc_id": "yahoo-f53d67df14008c0a",
-      "title": "佐藤輝明 今オフに争奪戦勃発か",
+      "doc_id": "yahoo-90b313a0e4d819b3",
+      "title": "妻夫木 憧れのハイスタと名曲熱唱",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599411"
+      "link": "https://news.yahoo.co.jp/pickup/6599424"
     },
     {
-      "doc_id": "yahoo-195a8633751808d5",
-      "title": "工藤新監督 ドラフト会議は欠席",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599404"
-    },
-    {
-      "doc_id": "jiji-8fa180dbce631a73",
-      "title": "上皇后さま、９２歳に 体力低下も、穏やかな日々",
+      "doc_id": "jiji-bd5ba0e5dab4a8cd",
+      "title": "トランプ氏支持、過去最低３１％ 中間選挙前、共和に打撃―ロイター調査",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000003&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102000209&g=int"
     },
     {
-      "doc_id": "jiji-840a85567dcef5d9",
-      "title": "米物価高対策が迷走 中間選挙控え与党も反発",
+      "doc_id": "jiji-082c0880e381e341",
+      "title": "オランダ首相、代理出産で第１子 同性愛公言、来春誕生へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900558&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102000213&g=int"
+    },
+    {
+      "doc_id": "jiji-b483099d79c71c4f",
+      "title": "円安・長期金利、歴史的水準に 看板政策「積極財政」に修正圧力―高市政権発足１年",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101900926&g=pol"
+    },
+    {
+      "doc_id": "jiji-951a86877ce0450f",
+      "title": "続投か政権交代か、勢力拮抗 イスラエル総選挙まで１週間",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026101900672&g=int"
+    },
+    {
+      "doc_id": "jiji-6732f2855d4f7f00",
+      "title": "火星衛星へ、探査機打ち上げ成功 試料回収、５年で往復―「ＭＭＸ」、Ｈ３搭載・ＪＡＸＡ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000118&g=soc"
     },
     {
       "doc_id": "jiji-c40f992bd8355e20",
@@ -76,46 +94,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026101800375&g=pol"
     },
     {
-      "doc_id": "jiji-aadd2809ebad9861",
-      "title": "保守、消費減税法案に賛成へ",
+      "doc_id": "jiji-20d9e35cb034ff0f",
+      "title": "ＮＹ株小幅続落、３６ドル安 ＡＩ銘柄復調、ナスダックは反発",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900867&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102000152&g=int"
     },
     {
-      "doc_id": "jiji-4e87040fbcaeb565",
-      "title": "ミクロネシア大統領、２０日来日",
+      "doc_id": "jiji-e1cd7ead857402fa",
+      "title": "インドネシア森林火災焼失面積、四国超えか カリマンタン島やスマトラ島、監視サイト推計",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900864&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102000183&g=int"
     },
     {
-      "doc_id": "jiji-6c4949c3ced53276",
-      "title": "講演録「今こそ多くの人に」 上皇后さまと親交の末盛さん",
+      "doc_id": "jiji-a4f99821677ccec0",
+      "title": "欧州各地でデモ、一部暴徒化 物価高や教育費に不満",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000005&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102000205&g=int"
     },
     {
-      "doc_id": "jiji-d0158630fe1261c0",
-      "title": "交渉途絶、関係改善程遠く 北方領土、解決へ道筋見えず―日ソ共同宣言から７０年",
+      "doc_id": "jiji-cd016eb6c63041c8",
+      "title": "トランプ氏、米中ロ首脳会談に前向き 核軍縮協議に関心",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900858&g=pol"
-    },
-    {
-      "doc_id": "jiji-aa9796cd6e795fa1",
-      "title": "中国、ハイテク輸出に依存 狭まる政策余地",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900634&g=int"
-    },
-    {
-      "doc_id": "jiji-76b711ba2ddf8629",
-      "title": "フランス、一部都市の夜間外出禁止へ デモ暴徒から「人・財産守る」―仏首相",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026101900140&g=int"
-    },
-    {
-      "doc_id": "jiji-797a720d3895cc70",
-      "title": "上皇后さまの近況全文",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000010&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102000136&g=int"
     },
     {
       "doc_id": "nhk-67684c7b9b9c1e2d",
@@ -124,28 +124,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814"
     },
     {
-      "doc_id": "nhk-46eb6d6a5dc57e56",
-      "title": "上皇后さま 92歳の誕生日",
+      "doc_id": "nhk-9b4c219d7dd7401c",
+      "title": "トランプ大統領と距離置く共和党の候補相次ぐ いったいなぜ？",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61822"
-    },
-    {
-      "doc_id": "nhk-2f842f71eb727218",
-      "title": "米 中間選挙まで2週間 下院は民主党過半数うかがう 上院は接戦",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61904"
-    },
-    {
-      "doc_id": "nhk-b2712e609edc141d",
-      "title": "盛岡 東北道で車6台絡む事故 1台が炎上 1人死亡",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61903"
-    },
-    {
-      "doc_id": "nhk-1e887cfa170027de",
-      "title": "フランスでデモ乗じた暴動受け一部の都市で外出禁止令",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61899"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61784"
     },
     {
       "doc_id": "nhk-35c136b76e3a7884",
@@ -154,10 +136,52 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261020de61888"
     },
     {
+      "doc_id": "nhk-98a48144433f537f",
+      "title": "食料品の消費税減税関連法案 きょう衆議院で審議入り",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61870"
+    },
+    {
+      "doc_id": "nhk-b264d4411f6e4c24",
+      "title": "東・西日本で大気不安定に 台風30号の最新情報 確認を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61878"
+    },
+    {
+      "doc_id": "nhk-46eb6d6a5dc57e56",
+      "title": "上皇后さま 92歳の誕生日",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61822"
+    },
+    {
       "doc_id": "nhk-f5e08903d265d4d9",
       "title": "世界最大級ファンド「ブラックストーン」 日本に約6兆円投資へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61876"
+    },
+    {
+      "doc_id": "itmedia-20e1e97bf2031704",
+      "title": "マスク氏、米国のすべての子供にSpaceX株を1株ずつ贈与すると宣言 「Trump Account」経由か",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002408/"
+    },
+    {
+      "doc_id": "itmedia-ef915ecf597fcd20",
+      "title": "音源販売「SONICWIRE」不正アクセス、「Mythosで状況把握」 会員情報最大42万件漏えいか",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002406/"
+    },
+    {
+      "doc_id": "itmedia-4619f2702afb46a9",
+      "title": "米国土安全保障省、中国DeepSeek製品を連邦民間機関から排除する命令",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002405/"
+    },
+    {
+      "doc_id": "itmedia-84e2eb67403f4266",
+      "title": "Apple、10月28日にイベント開催へ タッチスクリーン「MacBook Pro」など発表か",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002404/"
     },
     {
       "doc_id": "itmedia-cbed534f6e8bff09",
@@ -208,28 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002372/"
     },
     {
-      "doc_id": "itmedia-e2e4df7cbff1906a",
-      "title": "AIの台頭でWebサイトのアクセス向上策はSEOからGEOにシフト 対応急務に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002371/"
-    },
-    {
-      "doc_id": "itmedia-1f6145ee8d4c8618",
-      "title": "「Renta!」が臨時メンテナンスでサービス停止 再開時期示さず",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002367/"
-    },
-    {
-      "doc_id": "itmedia-475317aeb683eb0d",
-      "title": "家電量販のJoshin、不正アクセスで一部サービス停止 個人情報漏えい「可能性否定できず」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002369/"
-    },
-    {
-      "doc_id": "itmedia-ff5578c5002461cb",
-      "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999） ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/19/2000002365/"
+      "doc_id": "nazology-67a501ed257de411",
+      "title": "飼い主の「愛情ホルモン」が多いほど、ネコも多いと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202510"
     },
     {
       "doc_id": "nazology-9a6773a03885b8d3",
@@ -284,12 +290,6 @@
       "title": "ママの正体はパパのクローン、オス1匹から子孫を作ることにマウスで成功",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/201879"
-    },
-    {
-      "doc_id": "nazology-a3f5faa0881d31e6",
-      "title": "「恐竜絶滅」の直後から続く系統の「巨大キノコ」の新種を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/201839"
     }
   ]
 }
