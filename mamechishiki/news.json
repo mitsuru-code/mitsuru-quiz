@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-20T17:12:00+00:00",
-  "now_ms": 1792516320531,
+  "fetched_at": "2026-10-20T20:38:04+00:00",
+  "now_ms": 1792528684510,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -82,22 +82,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102000674&g=int"
     },
     {
-      "doc_id": "jiji-c98822027df901a3",
-      "title": "ＭＭＸを予定の軌道に投入し、打ち上げは成功した",
+      "doc_id": "jiji-25af6729996ec570",
+      "title": "州独立巡る住民投票、否決見通し カナダ西部アルバータ州",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000158&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102000418&g=int"
     },
     {
-      "doc_id": "jiji-0dc732ce5899c4cc",
-      "title": "民主改革、１人４万円給付 消費減税の対案",
+      "doc_id": "jiji-c11d6af25f1717bc",
+      "title": "米国務省、ロシアの邦人記者拘束非難",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102001056&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102001117&g=pol"
     },
     {
-      "doc_id": "jiji-dffac023355f3a9b",
-      "title": "卓球の岩渕幸洋、舟山真弘が金 競泳鈴木孝幸、自転車木村和平もＶ―アジアパラ大会",
+      "doc_id": "jiji-b889b695fa2d04b6",
+      "title": "マレーシアに対ドローン装備品供与 ＯＳＡで１６．５億円",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000978&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102001045&g=pol"
     },
     {
       "doc_id": "jiji-7d88f91e5a771e4d",
@@ -106,28 +106,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026102000748&g=pol"
     },
     {
-      "doc_id": "jiji-f4102eb057805385",
-      "title": "舟山真弘、重みある金 がんから復帰、実力証明―アジアパラ大会・卓球",
+      "doc_id": "jiji-bd5ba0e5dab4a8cd",
+      "title": "トランプ氏支持、過去最低３１％ 中間選挙前、共和に打撃―ロイター調査",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102001081&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102000209&g=int"
     },
     {
-      "doc_id": "jiji-25af6729996ec570",
-      "title": "州独立巡る住民投票、否決見通し カナダ西部アルバータ州",
+      "doc_id": "jiji-c98822027df901a3",
+      "title": "ＭＭＸを予定の軌道に投入し、打ち上げは成功した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000418&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102000158&g=flash"
     },
     {
-      "doc_id": "nhk-02e6f1c7493d061c",
-      "title": "岩井コスモ証券 不正アクセスで顧客が意図しない売買注文",
+      "doc_id": "nhk-0d73faa120cc2f01",
+      "title": "高市内閣発足1年 消費税減税法案成立に全力 安保3文書取り組む",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62520"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62511"
     },
     {
-      "doc_id": "nhk-f9c26212cf3db99d",
-      "title": "神奈川 藤沢14人死傷事故 運転手「驚いてアクセル踏み込んだ」",
+      "doc_id": "nhk-f64fc7a3a3284689",
+      "title": "フランス各地で夜間外出禁止令続く 今週末もデモ 警備強化へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62515"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62533"
     },
     {
       "doc_id": "nhk-76c049b3ef755787",
@@ -142,22 +142,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261020de62437"
     },
     {
-      "doc_id": "nhk-67684c7b9b9c1e2d",
-      "title": "探査機「MMX」 火星へ向かう軌道に 衛星「フォボス」探査へ",
+      "doc_id": "nhk-02e6f1c7493d061c",
+      "title": "岩井コスモ証券 不正アクセスで顧客が意図しない売買注文",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61814"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62520"
+    },
+    {
+      "doc_id": "nhk-1946c83e4236d9ca",
+      "title": "千葉 台風25号から1か月 道路や鉄道の復旧に課題",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62490"
     },
     {
       "doc_id": "nhk-804cde245df58da3",
       "title": "台風30号 先島諸島に23日から接近見込み 西日本に影響可能性も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261020de61985"
-    },
-    {
-      "doc_id": "nhk-b264d4411f6e4c24",
-      "title": "あす北～西日本で激しい雨か 北日本は荒天に 季節外れの暑さも",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261019de61878"
     },
     {
       "doc_id": "itmedia-01ff1633c4081e0e",
