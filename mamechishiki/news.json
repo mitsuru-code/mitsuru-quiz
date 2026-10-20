@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-20T11:43:03+00:00",
-  "now_ms": 1792496583326,
+  "fetched_at": "2026-10-20T17:12:00+00:00",
+  "now_ms": 1792516320531,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,46 +10,46 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-e15b3fad4e915197",
-      "title": "21日 東京・大阪などで真夏日予想",
+      "doc_id": "yahoo-4a0be637ab27ba25",
+      "title": "高市政権1年 高支持率維持の背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599492"
+      "link": "https://news.yahoo.co.jp/pickup/6599527"
     },
     {
-      "doc_id": "yahoo-6f804e50672aeeea",
-      "title": "米国防長官 ネタニヤフ首相と会談",
+      "doc_id": "yahoo-c3a3be024d5553b2",
+      "title": "6人死亡事故判決 遺族複雑な思い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599496"
+      "link": "https://news.yahoo.co.jp/pickup/6599497"
     },
     {
-      "doc_id": "yahoo-2586864439bba715",
-      "title": "ソニーFGへの立ち入り検査検討",
+      "doc_id": "yahoo-fb8d261ba19ee42b",
+      "title": "武部農相 献金巡り公選法違反疑い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599504"
+      "link": "https://news.yahoo.co.jp/pickup/6599528"
     },
     {
-      "doc_id": "yahoo-b4b1b89ea9835813",
-      "title": "ふるさとチョイス 445万件が流出",
+      "doc_id": "yahoo-b80b278e0fd6b2e0",
+      "title": "台風30号 本州付近に来週接近恐れ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599501"
+      "link": "https://news.yahoo.co.jp/pickup/6599518"
     },
     {
-      "doc_id": "yahoo-3ce621a1bae89c20",
-      "title": "2人死亡「宝木争奪戦」来年は中止",
+      "doc_id": "yahoo-dfc9e39c4b44ff5a",
+      "title": "岩井コスモ証券にサイバー攻撃",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599505"
+      "link": "https://news.yahoo.co.jp/pickup/6599523"
     },
     {
-      "doc_id": "yahoo-e506825bf47dbd1c",
-      "title": "旅客機内で目撃の「小動物」発見",
+      "doc_id": "yahoo-e97a1d544cb2c8bb",
+      "title": "フラット35 全国で不適正利用64件",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599494"
+      "link": "https://news.yahoo.co.jp/pickup/6599514"
     },
     {
-      "doc_id": "yahoo-3337af7f075fede5",
-      "title": "日本ハム 福谷浩司の退団を発表",
+      "doc_id": "yahoo-7475f01de7646b57",
+      "title": "GSで灯油にガソリン混入か 釧路",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599498"
+      "link": "https://news.yahoo.co.jp/pickup/6599529"
     },
     {
       "doc_id": "yahoo-aa895adf1bd8ab1f",
@@ -58,76 +58,88 @@
       "link": "https://news.yahoo.co.jp/pickup/6599484"
     },
     {
+      "doc_id": "jiji-6f49274a10420ec5",
+      "title": "名誉毀損容疑で作家らを書類送検 兵庫知事会見の発言巡り―県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102001016&g=soc"
+    },
+    {
+      "doc_id": "jiji-f349cb98fe098ed0",
+      "title": "英国の金融サービスで障害 グーグルクラウドに問題か",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102001157&g=int"
+    },
+    {
+      "doc_id": "jiji-fc1168006072631a",
+      "title": "サイバー攻撃頻発で「対処本部」設置を 自民、政府に提言へ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102001054&g=pol"
+    },
+    {
+      "doc_id": "jiji-7957f2d962885803",
+      "title": "米中間選挙、多数派判明遅れも 郵便投票「不正」で混乱の恐れ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000674&g=int"
+    },
+    {
+      "doc_id": "jiji-c98822027df901a3",
+      "title": "ＭＭＸを予定の軌道に投入し、打ち上げは成功した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000158&g=flash"
+    },
+    {
+      "doc_id": "jiji-0dc732ce5899c4cc",
+      "title": "民主改革、１人４万円給付 消費減税の対案",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102001056&g=pol"
+    },
+    {
+      "doc_id": "jiji-dffac023355f3a9b",
+      "title": "卓球の岩渕幸洋、舟山真弘が金 競泳鈴木孝幸、自転車木村和平もＶ―アジアパラ大会",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000978&g=spo"
+    },
+    {
       "doc_id": "jiji-7d88f91e5a771e4d",
-      "title": "中道に政党交付金５．８億円 事実上解体、衆院議員１人",
+      "title": "中道、議員１人でも交付金５．８億円 事実上解体、受給に批判も",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102000748&g=pol"
     },
     {
-      "doc_id": "jiji-96a4bac5e34a3129",
-      "title": "男に求刑上回る懲役１２年６月 傷害致死、妻の遺体未発見―大阪地裁",
+      "doc_id": "jiji-f4102eb057805385",
+      "title": "舟山真弘、重みある金 がんから復帰、実力証明―アジアパラ大会・卓球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000949&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102001081&g=spo"
     },
     {
-      "doc_id": "jiji-1351c6b33b0a7110",
-      "title": "安全保障関連３文書改定、与党協議開始へ 防衛費・非核・原潜焦点",
+      "doc_id": "jiji-25af6729996ec570",
+      "title": "州独立巡る住民投票、否決見通し カナダ西部アルバータ州",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000976&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102000418&g=int"
     },
     {
-      "doc_id": "jiji-806b8562b7dd29ab",
-      "title": "学長選考、東大に異例の検証要請 「明確な説明なく遺憾」―文科省",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000692&g=soc"
+      "doc_id": "nhk-02e6f1c7493d061c",
+      "title": "岩井コスモ証券 不正アクセスで顧客が意図しない売買注文",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62520"
     },
     {
-      "doc_id": "jiji-a1fa4d79975329fb",
-      "title": "歌舞伎俳優を不起訴 中村小三郎さん、ひき逃げ容疑―東京地検",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000980&g=soc"
+      "doc_id": "nhk-f9c26212cf3db99d",
+      "title": "神奈川 藤沢14人死傷事故 運転手「驚いてアクセル踏み込んだ」",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62515"
     },
     {
-      "doc_id": "jiji-dcf316cda708036e",
-      "title": "「軽過ぎる」「危険運転適用を」 判決後、遺族ら会見で訴え―新名神事故・津地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000979&g=soc"
-    },
-    {
-      "doc_id": "jiji-3082120f2e1eca27",
-      "title": "ヘグセス米国防長官がイスラエル訪問 イラン情勢協議か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000981&g=int"
-    },
-    {
-      "doc_id": "jiji-925ea9cff4239585",
-      "title": "バングラデシュ首相、２６日来日",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000963&g=pol"
-    },
-    {
-      "doc_id": "jiji-d5c484eeee0cdad0",
-      "title": "衆院定数削減、取りまとめ案着手へ 根強い反対、結論は不透明―与野党",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000880&g=pol"
-    },
-    {
-      "doc_id": "jiji-b24daf035589c93c",
-      "title": "ウクライナ大統領が米代表団と会談へ 侵攻終結巡り協議、難航も―ノルウェー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000987&g=int"
+      "doc_id": "nhk-76c049b3ef755787",
+      "title": "国の省エネ住宅事業で2万3000件超の情報漏えいのおそれ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62509"
     },
     {
       "doc_id": "nhk-930066d7a86d60df",
       "title": "ふるさとチョイス 445万件の個人情報流出を発表",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261020de62437"
-    },
-    {
-      "doc_id": "nhk-525cd7e3585f0049",
-      "title": "新名神高速6人死亡事故 被告に拘禁刑7年の判決 津地裁",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61968"
     },
     {
       "doc_id": "nhk-67684c7b9b9c1e2d",
@@ -137,7 +149,7 @@
     },
     {
       "doc_id": "nhk-804cde245df58da3",
-      "title": "台風30号 沖縄の先島諸島に23日から接近へ 西日本に影響可能性",
+      "title": "台風30号 先島諸島に23日から接近見込み 西日本に影響可能性も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261020de61985"
     },
@@ -146,18 +158,6 @@
       "title": "あす北～西日本で激しい雨か 北日本は荒天に 季節外れの暑さも",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261019de61878"
-    },
-    {
-      "doc_id": "nhk-fd81113d6cc3bdcc",
-      "title": "食料品の消費税減税関連法案 首相“法案の早期成立目指す”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de61967"
-    },
-    {
-      "doc_id": "nhk-4fd268ef6645725a",
-      "title": "フランス首相 状況次第で新たな外出禁止令求める考え",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62412"
     },
     {
       "doc_id": "itmedia-01ff1633c4081e0e",
