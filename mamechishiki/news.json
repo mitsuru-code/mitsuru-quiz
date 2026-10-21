@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-21T04:53:59+00:00",
-  "now_ms": 1792558439319,
+  "fetched_at": "2026-10-21T10:13:33+00:00",
+  "now_ms": 1792577613114,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,34 +10,40 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-4f6595d78d5cd503",
-      "title": "東京大阪など 各地最も遅い真夏日",
+      "doc_id": "yahoo-2f7518be58377fe3",
+      "title": "武部農相に選挙運動員買収疑惑",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599568"
+      "link": "https://news.yahoo.co.jp/pickup/6599608"
     },
     {
-      "doc_id": "yahoo-c8c736eb20ab8d75",
-      "title": "消費減税の財源 首相は従来の答弁",
+      "doc_id": "yahoo-91971d36bb65cddf",
+      "title": "台風30号 24日九州で警報級大雨か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599559"
+      "link": "https://news.yahoo.co.jp/pickup/6599604"
     },
     {
-      "doc_id": "yahoo-e57d5770b19ff2f9",
-      "title": "「カーセンサーnet」情報漏えいか",
+      "doc_id": "yahoo-b4c942ac9d5c0ec7",
+      "title": "不出馬表明の鳥取知事 会見で涙",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599567"
+      "link": "https://news.yahoo.co.jp/pickup/6599611"
     },
     {
-      "doc_id": "yahoo-5ab6a198cc49c70d",
-      "title": "八潮陥没 遺族が賠償求め県を提訴",
+      "doc_id": "yahoo-6099656430236aaf",
+      "title": "養子女性死亡させた疑い 女を逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599573"
+      "link": "https://news.yahoo.co.jp/pickup/6599595"
     },
     {
-      "doc_id": "yahoo-6672c2a4aeafaca5",
-      "title": "中学生の胸を刺した疑い 14歳逮捕",
+      "doc_id": "yahoo-75866ba43d5f2a0b",
+      "title": "八田與一容疑者 警察が海を捜索",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599554"
+      "link": "https://news.yahoo.co.jp/pickup/6599593"
+    },
+    {
+      "doc_id": "yahoo-ea47f1aec0c443d1",
+      "title": "マック390円セット 全国販売開始",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6599592"
     },
     {
       "doc_id": "yahoo-7f30de30e88d9f71",
@@ -46,16 +52,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6599576"
     },
     {
-      "doc_id": "yahoo-fa19c43c9c31d0c0",
-      "title": "TWICEジヒョ JYP退所と独立報告",
+      "doc_id": "yahoo-7fed6bcade49cef4",
+      "title": "鷹CBO 織田翔希の指名可能性示唆",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599580"
+      "link": "https://news.yahoo.co.jp/pickup/6599606"
     },
     {
-      "doc_id": "yahoo-19fec6b75609d1e6",
-      "title": "粗品がスポニチへ発信 記者の見解",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599557"
+      "doc_id": "jiji-e1421e8dab8b45fa",
+      "title": "一帯一路「すべて密室」 崩落事故調査の専門家―セルビア議会選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102000684&g=int"
+    },
+    {
+      "doc_id": "jiji-ffeef2bc549bbd81",
+      "title": "高市政権近く行き詰まり 小沢一郎氏が見通し―内外情勢調査会講演",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102100942&g=pol"
+    },
+    {
+      "doc_id": "jiji-f7274d6292bcaf0d",
+      "title": "妻の遺体切断、医師の男を起訴 死体損壊・遺棄罪、捜査は継続―神戸地検",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102100846&g=soc"
     },
     {
       "doc_id": "jiji-f54ebe4436b5a2a2",
@@ -64,58 +82,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026102100348&g=soc"
     },
     {
-      "doc_id": "jiji-e3a214210340f1cd",
-      "title": "外務省局長、早期面会と解放求める 記者拘束で訪ロ、高官と会談",
+      "doc_id": "jiji-2dc7d9664f6321fd",
+      "title": "２３～２４日に先島諸島接近か 大型台風３０号、暴風高波に厳重警戒―気象庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100300&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102100884&g=soc"
     },
     {
-      "doc_id": "jiji-6f49274a10420ec5",
-      "title": "名誉毀損容疑で作家らを書類送検 兵庫知事会見の発言巡り―県警",
+      "doc_id": "jiji-511c92fa62d8d0d2",
+      "title": "韓国大統領「ＡＩに聞いた」 捜査機関トップの閣議出席巡り物議",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102001016&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102100817&g=int"
     },
     {
-      "doc_id": "jiji-beeb2fd84d67213c",
-      "title": "ディープシーク製ＡＩ排除 機密情報漏えい懸念、中国は反発―米政府",
+      "doc_id": "jiji-37773f5b2d387472",
+      "title": "プーチン氏、米国人を釈放 特使と会談、ウクライナ和平も協議か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100294&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102100932&g=int"
     },
     {
-      "doc_id": "jiji-de602288ca937d0a",
-      "title": "平井鳥取知事、６選不出馬を表明 来年４月任期満了で退任",
+      "doc_id": "jiji-9464daf2194c0232",
+      "title": "統一選の首長候補を公募 泉房穂、ひろゆき両氏が個人で支援",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100435&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102100857&g=pol"
     },
     {
-      "doc_id": "jiji-7c203e97a44f30c4",
-      "title": "日本男子、団体総合で連覇 ロス五輪切符を獲得―世界体操",
+      "doc_id": "jiji-630d9422a48ca1e4",
+      "title": "食事の質、若年層で最低 収入や生活習慣が関連―東京大",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100226&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102100140&g=soc"
     },
     {
-      "doc_id": "jiji-7a0c3ecc1ec5cf06",
-      "title": "Ｈ３能力「すべて出し切る」 初の惑星探査機で―ＭＭＸ",
+      "doc_id": "jiji-ff1aab92ffa1f749",
+      "title": "ロシア大統領は同国で収監されていた米国人元教師を釈放したと述べた",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000635&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102100955&g=flash"
     },
     {
-      "doc_id": "jiji-2b17e493b68feb58",
-      "title": "米ロで近く拘束者交換か 元教師解放、特使訪問で実現も",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100507&g=int"
-    },
-    {
-      "doc_id": "jiji-98f08ac14b33f923",
-      "title": "マスク氏が制限指示と報道 ウクライナ軍「スターリンク」利用",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100380&g=int"
-    },
-    {
-      "doc_id": "jiji-e88a9fcd13bca12d",
-      "title": "「国民との約束、着実に実現」 高市政権１年で木原官房長官",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100509&g=pol"
+      "doc_id": "nhk-41d602b003556ac1",
+      "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62921"
     },
     {
       "doc_id": "nhk-94ff704087d5b279",
@@ -124,40 +130,64 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261021de62637"
     },
     {
-      "doc_id": "nhk-7dc0ed6bd0ebe0c7",
-      "title": "外務省局長がロシア外務省幹部と会談 記者の即時解放強く要請",
+      "doc_id": "nhk-96b8a5e42f4baa96",
+      "title": "【台風25号1か月】住宅地が約3週間浸水 異例の事態 現地のいま",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62531"
-    },
-    {
-      "doc_id": "nhk-8186c1796c704f25",
-      "title": "武部農相の政党支部 衆院選中に国の事業受注の企業から寄付",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62622"
-    },
-    {
-      "doc_id": "nhk-52b21880b929406b",
-      "title": "片山財務相“消費税減税は早期に効果実感できる物価高対策”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62724"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62752"
     },
     {
       "doc_id": "nhk-c12f8e8cc66fd03e",
-      "title": "台風30号 先島諸島23日から接近見込み 西日本に影響の可能性も",
+      "title": "猛烈な台風30号 先島諸島23日接近 西日本に影響の可能性も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549"
     },
     {
-      "doc_id": "nhk-3467bd93ec56dc65",
-      "title": "「カーセンサーnet」などに不正アクセス 最大370万件漏えいか",
+      "doc_id": "nhk-29e7fac00f9b63f7",
+      "title": "天皇皇后両陛下 海づくり大会で大阪へ サイバー攻撃で日程変更",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62694"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63065"
     },
     {
-      "doc_id": "nhk-bc03729c0cde86ea",
-      "title": "不正アクセスによる個人情報漏えい相次ぎ警視庁に相談相次ぐ",
+      "doc_id": "nhk-9754381cf09cba26",
+      "title": "武部農相 衆院選公示日の寄付“全額返金し収支報告書を訂正”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62656"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63092"
+    },
+    {
+      "doc_id": "nhk-fe7691e85294fb16",
+      "title": "交番で「ショウリンジ」と叫ぶなどの行為 小学校低学年補導も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62792"
+    },
+    {
+      "doc_id": "itmedia-4acfb57716619374",
+      "title": "PHP緊急脆弱性「php2shell」パッチ今夜11時公開、その前にできる対策は……GMO系セキュリティ企業が提唱【更新】",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002462/"
+    },
+    {
+      "doc_id": "itmedia-883d3f574cb70047",
+      "title": "著名ITサービス相次いで緊急メンテへ コドモン、シャドバ、BASE、さくらのレンタルサーバなど 「PHP」脆弱性に起因か",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002472/"
+    },
+    {
+      "doc_id": "itmedia-5dbe6db72e23f8b6",
+      "title": "au PAY「使えるお店」、個人事業主約46万人分の情報を無断掲載か 個人情報保護法抵触のおそれも",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002469/"
+    },
+    {
+      "doc_id": "itmedia-fbae5daaaa511524",
+      "title": "不正アクセス急増は“SaaS離れ”を招くか？ 露呈したもう1つの「SaaS is Dead」リスク",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002451/"
+    },
+    {
+      "doc_id": "itmedia-c7486ac05d800f3b",
+      "title": "接客データ×AI 大丸松坂屋が「売るを解明する」マーケティング新サービス開始",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002458/"
     },
     {
       "doc_id": "itmedia-dc99cad876fc7e7f",
@@ -202,34 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002447/"
     },
     {
-      "doc_id": "itmedia-dc7b151343fad2c0",
-      "title": "PHPに「緊急」レベルの脆弱性2件 修正版を日本時間21日深夜に公開へ、事前準備を呼び掛け",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002446/"
-    },
-    {
-      "doc_id": "itmedia-9f56ca129f0728f2",
-      "title": "Google Cloud障害で英国が混乱「ATMで引き出せない」「裁判延期」……ロンドン拠点の電源不具合、約8時間にわたり",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002445/"
-    },
-    {
-      "doc_id": "itmedia-145c64eae93f25e6",
-      "title": "認証局eMudhraの中間証明書、秘密鍵が「数ミリ秒」で復元可能な脆弱性 大手各社が緊急遮断",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002444/"
-    },
-    {
-      "doc_id": "itmedia-6604211ea1fcad53",
-      "title": "マネックス証券、委託先に第三者がアクセス試行の形跡 口座の新規開設を一時停止",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002443/"
-    },
-    {
-      "doc_id": "itmedia-fad895025ea3d3bb",
-      "title": "「お名前.com デスクトップクラウド」不正プログラム設置で全プラン停止 FX用VPS、2万6739サーバに影響か",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002442/"
+      "doc_id": "nazology-e90f8e3db631288e",
+      "title": "「情報をエネルギーに変える」マクスウェルの悪魔、液体の“記憶”まで使えると実験で判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/202985"
     },
     {
       "doc_id": "nazology-d716025de07d7633",
@@ -284,12 +290,6 @@
       "title": "薬が効かない殺人真菌が使っていた「予想外の生き残り術」とは",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/202050"
-    },
-    {
-      "doc_id": "nazology-dbca06c98c23d79b",
-      "title": "風車の羽根にペンキを塗ると、鳥の衝突が大きく減ると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/202040"
     }
   ]
 }
