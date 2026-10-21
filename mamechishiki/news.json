@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-21T20:12:03+00:00",
-  "now_ms": 1792613523791,
+  "fetched_at": "2026-10-21T23:23:28+00:00",
+  "now_ms": 1792625008216,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -22,40 +22,52 @@
       "link": "https://news.yahoo.co.jp/pickup/6599633"
     },
     {
-      "doc_id": "yahoo-bc05aa7af4e4a418",
-      "title": "PHPに重大欠陥 Webの7割で使用",
+      "doc_id": "yahoo-31357f021dea12cc",
+      "title": "PHPに欠陥 欧州各国でサイト遮断",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599637"
+      "link": "https://news.yahoo.co.jp/pickup/6599650"
     },
     {
-      "doc_id": "yahoo-1115ecc53f48ec68",
-      "title": "88歳の父死亡 傷害疑いで娘を逮捕",
+      "doc_id": "yahoo-c43dd0d44bad3b19",
+      "title": "PHPの脆弱性 米OpenAIのAIで発見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599636"
+      "link": "https://news.yahoo.co.jp/pickup/6599651"
     },
     {
-      "doc_id": "yahoo-1d479528ba167d17",
-      "title": "「MMX」探査機 機能正常を確認",
+      "doc_id": "yahoo-fd4d997c52be803c",
+      "title": "ヒマラヤ山脈 日本人2人が不明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599628"
+      "link": "https://news.yahoo.co.jp/pickup/6599653"
     },
     {
-      "doc_id": "yahoo-1564627cf0117100",
-      "title": "床はう患者を職員が撮影 病院謝罪",
+      "doc_id": "yahoo-6ec58d6764ecf166",
+      "title": "世界体操女子団体 日本が銅メダル",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599631"
+      "link": "https://news.yahoo.co.jp/pickup/6599657"
     },
     {
-      "doc_id": "yahoo-ea47f1aec0c443d1",
-      "title": "マック390円セット 全国販売開始",
+      "doc_id": "yahoo-ff9bc3efbac405cc",
+      "title": "高橋塁 ゲイ公表までの葛藤を語る",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599592"
+      "link": "https://news.yahoo.co.jp/pickup/6599656"
     },
     {
-      "doc_id": "yahoo-db79fdd9c0e9f6c9",
-      "title": "パンサー向井 交際質問にタジタジ",
+      "doc_id": "yahoo-95b1120201fa73e9",
+      "title": "柳楽優弥 日曜劇場に初出演で主演",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599640"
+      "link": "https://news.yahoo.co.jp/pickup/6599655"
+    },
+    {
+      "doc_id": "jiji-37b49f26b17da35f",
+      "title": "プログラミング言語「ＰＨＰ」に脆弱性 世界のサイト７割が危険に",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102200196&g=int"
+    },
+    {
+      "doc_id": "jiji-eddacb0db63ebaab",
+      "title": "中道幹部「返金で済まず」 農水相疑惑追及へ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102101018&g=pol"
     },
     {
       "doc_id": "jiji-63740d25c0ec58d0",
@@ -64,22 +76,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026102100661&g=pol"
     },
     {
-      "doc_id": "jiji-7c2d9a0cb250d500",
-      "title": "気象庁は秋田県・子吉川（こよしがわ）の氾濫特別警報を注意報に切り替えた",
+      "doc_id": "jiji-2f79a2226480da08",
+      "title": "「維新カラー」で存在感狙う 閣内協力１カ月、自民は不満―高市政権",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200064&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102101027&g=pol"
     },
     {
-      "doc_id": "jiji-f02fedc98d4a60cf",
-      "title": "秋田・子吉川が氾濫 ４５０世帯に緊急安全確保―特別警報発表・気象庁など",
+      "doc_id": "jiji-f78ba9d4d1a59fd1",
+      "title": "３度水害、不屈のラーメン店 「まるでドラマか漫画」―客ら再開後押し、千葉・大網白里",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101078&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102100619&g=soc"
     },
     {
-      "doc_id": "jiji-47fbc7b061a73584",
-      "title": "秋田・子吉川は注意報に 特別警報から切り替え―気象庁",
+      "doc_id": "jiji-17f195096ce6baa5",
+      "title": "米中間選挙、区割りは共和有利 逆風打破の決め手にはならず―民主と「ゲリマンダー」戦争",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200068&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102100632&g=int"
+    },
+    {
+      "doc_id": "jiji-bb2b5095021ca022",
+      "title": "各国でウェブサイト停止相次ぐ 政府機関、ウィキペディアも―「早急な対応」求める・ＰＨＰ脆弱性発見",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102200201&g=int"
     },
     {
       "doc_id": "jiji-97c38ac901777ba4",
@@ -88,34 +106,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026102101249&g=pol"
     },
     {
-      "doc_id": "jiji-37773f5b2d387472",
-      "title": "プーチン氏、収監の米国人釈放 特使と会談、首脳会談に意欲",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100932&g=int"
-    },
-    {
-      "doc_id": "jiji-c98822027df901a3",
-      "title": "ＭＭＸを予定の軌道に投入し、打ち上げは成功した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000158&g=flash"
-    },
-    {
-      "doc_id": "jiji-e9119ecc36097431",
-      "title": "公・民、対決路線に傾斜 消費減税対案、一本化も視野",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100647&g=pol"
-    },
-    {
-      "doc_id": "jiji-15a697735fae5457",
-      "title": "寄付返金、収支報告書を訂正 公職選挙法違反疑惑の報道受け―武部農水相",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100628&g=pol"
-    },
-    {
       "doc_id": "jiji-ffeef2bc549bbd81",
       "title": "高市政権近く行き詰まり 小沢一郎氏が見通し―内外情勢調査会講演",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102100942&g=pol"
+    },
+    {
+      "doc_id": "jiji-c925ee0999a222d4",
+      "title": "ネパール、ヒマラヤ高峰で２邦人不明 １５日以降消息絶つ、続く捜索",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102200144&g=int"
     },
     {
       "doc_id": "nhk-dc5fce82af7b275c",
@@ -124,40 +124,52 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209"
     },
     {
-      "doc_id": "nhk-c12f8e8cc66fd03e",
-      "title": "猛烈な台風30号 先島諸島23日接近 西日本に影響の可能性も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549"
-    },
-    {
       "doc_id": "nhk-adb592260554fce5",
-      "title": "秋田 子吉川で一時 氾濫特別警報 危険な場所に近づかないで",
+      "title": "秋田 子吉川 氾濫特別警報は注意報に 危険な場所に近づかない",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261021de63227"
     },
     {
-      "doc_id": "nhk-3d573661d1e5987f",
-      "title": "【動画】道路まで水あふれる 子吉川沿い 秋田 由利本荘市",
+      "doc_id": "nhk-ccb3e1d9e6b76314",
+      "title": "【ドローン動画】一夜明けた子吉川は 秋田 由利本荘",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63212"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63278"
     },
     {
-      "doc_id": "nhk-ea9bf454b9704698",
-      "title": "ネパールのヒマラヤで登山中だった日本人2人が行方不明",
+      "doc_id": "nhk-d934bf85fe7e01c5",
+      "title": "猛烈な台風30号 あす先島諸島接近 早めに対策を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63265"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63248"
     },
     {
-      "doc_id": "nhk-41d602b003556ac1",
-      "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性”",
+      "doc_id": "nhk-8431194eb7f957bb",
+      "title": "消費税減税法案 与党“審議重ね法案通過”野党“充実審議を”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62921"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63246"
+    },
+    {
+      "doc_id": "nhk-1fedd537d7462bb6",
+      "title": "アメリカ メタ大幅増益 AIなど巨額の設備投資続ける見通し",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63277"
     },
     {
       "doc_id": "nhk-3b78ed24c0e1a6ef",
       "title": "体操 世界選手権 女子団体 日本は銅メダルで五輪出場権獲得",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261022de63274"
+    },
+    {
+      "doc_id": "itmedia-37ec7aa64ae15819",
+      "title": "Meta、Cambridge Analytica問題巡る訴訟で250億ドルの支払い命令",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002484/"
+    },
+    {
+      "doc_id": "itmedia-eac28695e88a5c4d",
+      "title": "高市総理「大至急、PHPパッチ適用を」Xで異例の要請 エンジニアは評価「経営層に伝わる」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002483/"
     },
     {
       "doc_id": "itmedia-a0f0b6d92c51fdd6",
@@ -220,16 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002422/"
     },
     {
-      "doc_id": "itmedia-f9c43449a313a8fe",
-      "title": "AIに200万円渡してネットショップを1年運営させてみた──Alibabaの研究者らがシミュレーション 資産14倍の例も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002421/"
-    },
-    {
-      "doc_id": "itmedia-59648fdf80aa710f",
-      "title": "フジテレビに不正アクセス、メディア関係者の個人情報最大730件漏えいか 番組宣伝システムが被害",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002449/"
+      "doc_id": "nazology-d01684e4eac19ce6",
+      "title": "植物は腐った仲間の体から「離れるように動く」と判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203031"
     },
     {
       "doc_id": "nazology-1a0c8bed94012820",
@@ -284,12 +290,6 @@
       "title": "人間の腸にも「巨大細菌」が潜んでいる可能性がある",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/202643"
-    },
-    {
-      "doc_id": "nazology-139fc281679aa303",
-      "title": "ゾウの死から7年以上たっても、その場所には「大きな影響」が残っていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/202550"
     }
   ]
 }
