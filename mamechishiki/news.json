@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-20T23:55:11+00:00",
-  "now_ms": 1792540511252,
+  "fetched_at": "2026-10-21T04:53:59+00:00",
+  "now_ms": 1792558439319,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-3f5d53e05f1e2517",
-      "title": "大阪・名古屋・東京 30℃以上予想",
+      "doc_id": "yahoo-4f6595d78d5cd503",
+      "title": "東京大阪など 各地最も遅い真夏日",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599539"
+      "link": "https://news.yahoo.co.jp/pickup/6599568"
     },
     {
-      "doc_id": "yahoo-17f781ac37ec8511",
-      "title": "支援金の対象者の案 首相が答弁",
+      "doc_id": "yahoo-c8c736eb20ab8d75",
+      "title": "消費減税の財源 首相は従来の答弁",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599541"
+      "link": "https://news.yahoo.co.jp/pickup/6599559"
     },
     {
-      "doc_id": "yahoo-2df0565bb043af40",
-      "title": "SpaceXとテスラ 経営統合を検討",
+      "doc_id": "yahoo-e57d5770b19ff2f9",
+      "title": "「カーセンサーnet」情報漏えいか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599543"
+      "link": "https://news.yahoo.co.jp/pickup/6599567"
     },
     {
-      "doc_id": "yahoo-a0ef10325ed38a4f",
-      "title": "車が歩道に突っ込む 歩行者が死亡",
+      "doc_id": "yahoo-5ab6a198cc49c70d",
+      "title": "八潮陥没 遺族が賠償求め県を提訴",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599538"
+      "link": "https://news.yahoo.co.jp/pickup/6599573"
     },
     {
-      "doc_id": "yahoo-5cd8f82f7b185898",
-      "title": "北海道職員が「就活セクハラ」か",
+      "doc_id": "yahoo-6672c2a4aeafaca5",
+      "title": "中学生の胸を刺した疑い 14歳逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599546"
+      "link": "https://news.yahoo.co.jp/pickup/6599554"
     },
     {
-      "doc_id": "yahoo-a44a8f2bf3a96575",
-      "title": "巨人・浅野翔吾 悲壮な覚悟明かす",
+      "doc_id": "yahoo-7f30de30e88d9f71",
+      "title": "ななめ45°岡安 違和感でがん判明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599542"
+      "link": "https://news.yahoo.co.jp/pickup/6599576"
     },
     {
-      "doc_id": "yahoo-993d4e0411b65575",
-      "title": "粗品 大晦日に「ツッコミスター」",
+      "doc_id": "yahoo-fa19c43c9c31d0c0",
+      "title": "TWICEジヒョ JYP退所と独立報告",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599536"
+      "link": "https://news.yahoo.co.jp/pickup/6599580"
     },
     {
-      "doc_id": "yahoo-69f374edd127e8ca",
-      "title": "土田大さん死去 ディズニーが追悼",
+      "doc_id": "yahoo-19fec6b75609d1e6",
+      "title": "粗品がスポニチへ発信 記者の見解",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599531"
+      "link": "https://news.yahoo.co.jp/pickup/6599557"
+    },
+    {
+      "doc_id": "jiji-f54ebe4436b5a2a2",
+      "title": "警官・職員１２．５万人分情報流出か ２０府県警、防犯メール登録市民のアドレスも―「アルカディア」不正アクセス・警察庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102100348&g=soc"
+    },
+    {
+      "doc_id": "jiji-e3a214210340f1cd",
+      "title": "外務省局長、早期面会と解放求める 記者拘束で訪ロ、高官と会談",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102100300&g=pol"
     },
     {
       "doc_id": "jiji-6f49274a10420ec5",
@@ -64,46 +76,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026102001016&g=soc"
     },
     {
-      "doc_id": "jiji-32464d88dee159d7",
-      "title": "インドネシアに中国ロケットの残骸落下か 農園で発見、けが人なし",
+      "doc_id": "jiji-beeb2fd84d67213c",
+      "title": "ディープシーク製ＡＩ排除 機密情報漏えい懸念、中国は反発―米政府",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100214&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102100294&g=int"
     },
     {
-      "doc_id": "jiji-bff67f2f59d7fbb5",
-      "title": "クアッド首脳会合、来月マニラで トランプ政権で初―米長官",
+      "doc_id": "jiji-de602288ca937d0a",
+      "title": "平井鳥取知事、６選不出馬を表明 来年４月任期満了で退任",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100219&g=int"
-    },
-    {
-      "doc_id": "jiji-f0523330229d5a77",
-      "title": "スペースＸとテスラ、統合議論 マスク氏「良いアイデア」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100209&g=int"
-    },
-    {
-      "doc_id": "jiji-7a0c3ecc1ec5cf06",
-      "title": "Ｈ３能力「すべて出し切る」 初の惑星探査機で―ＭＭＸ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000635&g=soc"
-    },
-    {
-      "doc_id": "jiji-b04da3c409335763",
-      "title": "火星の月、どうできた？ 有力２説、ＭＭＸで「決着」―生命起源の手掛かりも",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000632&g=soc"
-    },
-    {
-      "doc_id": "jiji-4594f076feab3b6c",
-      "title": "ＮＹ株反発、５２９ドル高 中東の緊張緩和期待で",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100158&g=int"
-    },
-    {
-      "doc_id": "jiji-6065abfaaefaaa37",
-      "title": "「参考」「未定」、異例の審議入り 消費減税法案、財源・給付巡り",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000991&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102100435&g=pol"
     },
     {
       "doc_id": "jiji-7c203e97a44f30c4",
@@ -112,124 +94,142 @@
       "link": "https://www.jiji.com/jc/article?k=2026102100226&g=spo"
     },
     {
-      "doc_id": "jiji-e1421e8dab8b45fa",
-      "title": "一帯一路「すべて密室」 崩落事故調査の専門家―セルビア議会選",
+      "doc_id": "jiji-7a0c3ecc1ec5cf06",
+      "title": "Ｈ３能力「すべて出し切る」 初の惑星探査機で―ＭＭＸ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000684&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102000635&g=soc"
     },
     {
-      "doc_id": "nhk-787b4ba31c413ca6",
-      "title": "アメリカ政府 民生部門で中国AIのディープシーク利用禁止に",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62564"
+      "doc_id": "jiji-2b17e493b68feb58",
+      "title": "米ロで近く拘束者交換か 元教師解放、特使訪問で実現も",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102100507&g=int"
     },
     {
-      "doc_id": "nhk-c12f8e8cc66fd03e",
-      "title": "台風30号 先島諸島に23日から接近か きょうは広範囲で激しい雨",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549"
+      "doc_id": "jiji-98f08ac14b33f923",
+      "title": "マスク氏が制限指示と報道 ウクライナ軍「スターリンク」利用",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102100380&g=int"
     },
     {
-      "doc_id": "nhk-050d0be17fed1df1",
-      "title": "イーロン・マスク氏 スペースXとテスラの統合を特別委で議論",
+      "doc_id": "jiji-e88a9fcd13bca12d",
+      "title": "「国民との約束、着実に実現」 高市政権１年で木原官房長官",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102100509&g=pol"
+    },
+    {
+      "doc_id": "nhk-94ff704087d5b279",
+      "title": "東京と大阪で最も遅い真夏日 各地で季節外れの暑さに",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62558"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62637"
     },
     {
       "doc_id": "nhk-7dc0ed6bd0ebe0c7",
-      "title": "外務省局長がロシア訪問 北海道新聞記者との面会実現申し入れ",
+      "title": "外務省局長がロシア外務省幹部と会談 記者の即時解放強く要請",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261021de62531"
     },
     {
-      "doc_id": "nhk-0a116da81de14d29",
-      "title": "ゼレンスキー大統領 米特使と会談「3か国の首脳会談目指す」",
+      "doc_id": "nhk-8186c1796c704f25",
+      "title": "武部農相の政党支部 衆院選中に国の事業受注の企業から寄付",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62563"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62622"
     },
     {
-      "doc_id": "nhk-6d00406eb6a4ed9d",
-      "title": "消費税減税法案 野党からは対案も 与党は成立へ歩み寄り模索",
+      "doc_id": "nhk-52b21880b929406b",
+      "title": "片山財務相“消費税減税は早期に効果実感できる物価高対策”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261020de62512"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62724"
     },
     {
-      "doc_id": "nhk-ac5f59c5ebe6fa31",
-      "title": "北海道 倶知安町で住宅火災 男女2人死亡",
+      "doc_id": "nhk-c12f8e8cc66fd03e",
+      "title": "台風30号 先島諸島23日から接近見込み 西日本に影響の可能性も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62559"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549"
+    },
+    {
+      "doc_id": "nhk-3467bd93ec56dc65",
+      "title": "「カーセンサーnet」などに不正アクセス 最大370万件漏えいか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62694"
+    },
+    {
+      "doc_id": "nhk-bc03729c0cde86ea",
+      "title": "不正アクセスによる個人情報漏えい相次ぎ警視庁に相談相次ぐ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62656"
+    },
+    {
+      "doc_id": "itmedia-dc99cad876fc7e7f",
+      "title": "名称なぜ「テッペイ」？ JR東、遅れすぎたコード決済参入の勝算",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002437/"
+    },
+    {
+      "doc_id": "itmedia-2b46e87417bbd234",
+      "title": "「カーセンサー」などに不正アクセス、最大371万件の個人情報漏えいか 問い合わせ客の氏名・住所など",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002456/"
+    },
+    {
+      "doc_id": "itmedia-67e5b1d06745113d",
+      "title": "「都市鉱山」でパソコンも対象に 東京都が小型電子機器内のレアアースなどの回収を強化",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002455/"
+    },
+    {
+      "doc_id": "itmedia-3969c37b541be2f9",
+      "title": "人に注射を打てる「サイボーグゴキブリ」の群れが、がれき下の被災者を救助？ 実験成功率72％",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002422/"
+    },
+    {
+      "doc_id": "itmedia-f9c43449a313a8fe",
+      "title": "AIに200万円渡してネットショップを1年運営させてみた──Alibabaの研究者らがシミュレーション 資産14倍の例も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002421/"
+    },
+    {
+      "doc_id": "itmedia-59648fdf80aa710f",
+      "title": "フジテレビに不正アクセス、メディア関係者の個人情報最大730件漏えいか 番組宣伝システムが被害",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002449/"
+    },
+    {
+      "doc_id": "itmedia-326c051d74a686be",
+      "title": "OpenAI、「COBOL」など学習リソースの少ない言語でのコーディング能力が大幅向上 COBOL移行の正解率は最大97.9％に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002447/"
+    },
+    {
+      "doc_id": "itmedia-dc7b151343fad2c0",
+      "title": "PHPに「緊急」レベルの脆弱性2件 修正版を日本時間21日深夜に公開へ、事前準備を呼び掛け",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002446/"
+    },
+    {
+      "doc_id": "itmedia-9f56ca129f0728f2",
+      "title": "Google Cloud障害で英国が混乱「ATMで引き出せない」「裁判延期」……ロンドン拠点の電源不具合、約8時間にわたり",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002445/"
+    },
+    {
+      "doc_id": "itmedia-145c64eae93f25e6",
+      "title": "認証局eMudhraの中間証明書、秘密鍵が「数ミリ秒」で復元可能な脆弱性 大手各社が緊急遮断",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002444/"
+    },
+    {
+      "doc_id": "itmedia-6604211ea1fcad53",
+      "title": "マネックス証券、委託先に第三者がアクセス試行の形跡 口座の新規開設を一時停止",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002443/"
     },
     {
       "doc_id": "itmedia-fad895025ea3d3bb",
       "title": "「お名前.com デスクトップクラウド」不正プログラム設置で全プラン停止 FX用VPS、2万6739サーバに影響か",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002442/"
-    },
-    {
-      "doc_id": "itmedia-f59cff0bd648c770",
-      "title": "マスクCEO、SpaceXとTeslaが合併協議で特別委員会を設置と明かす",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002441/"
-    },
-    {
-      "doc_id": "itmedia-fec31a52e8b5db07",
-      "title": "岩井コスモ証券、顧客口座で「意図しない売買」成立 売買管理システムにサイバー攻撃",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002440/"
-    },
-    {
-      "doc_id": "itmedia-4edc368b2a27159a",
-      "title": "SpaceX、純利益44億ドルで黒字転換 売上高161％増、AIから改称の「SI」事業が830％増",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002439/"
-    },
-    {
-      "doc_id": "itmedia-01ff1633c4081e0e",
-      "title": "ふるさと納税の「ふるさとチョイス」、会員情報445万件流出 寄附控除試算額も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002434/"
-    },
-    {
-      "doc_id": "itmedia-78c890673e4dad95",
-      "title": "栃木県警、全職員の情報流出か アルカディア不正アクセス、他県警でも被害判明相次ぐ 報道",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002435/"
-    },
-    {
-      "doc_id": "itmedia-3945650562feca9f",
-      "title": "NECの委託先にサイバー攻撃 正規アカウント悪用し顧客のサーバ暗号化、個人情報の漏えいも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002433/"
-    },
-    {
-      "doc_id": "itmedia-0183cb5e2146f83b",
-      "title": "LINEマンガ、掲載作のキャラと会話できるAIチャットサービス「byUs」 作者の同意得た作品で展開",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002432/"
-    },
-    {
-      "doc_id": "itmedia-e429ced967527a01",
-      "title": "日本企業狙う不正アクセスにAI 攻撃者が自律型侵入テスト「ARTEX」を悪用 GMOイエラエ調査",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002423/"
-    },
-    {
-      "doc_id": "itmedia-09caa6b448d1043c",
-      "title": "デジタル庁、政府職員18万人にAIエージェント環境を展開──「源内」で提供開始、独自の安全基準も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002428/"
-    },
-    {
-      "doc_id": "itmedia-0668d2b77e722b3f",
-      "title": "「侵入経路塞いだが、バックドアから……」不正アクセス105時間の攻防、分単位で報告 防災メールのアルカディア",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002426/"
-    },
-    {
-      "doc_id": "itmedia-900191fe7fdd6964",
-      "title": "ネットバンキングにログインしたまま別作業は危険？ 「ChatGPT Atlas」などのAIブラウザ7種でデータ窃取を検証",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002377/"
     },
     {
       "doc_id": "nazology-d716025de07d7633",
