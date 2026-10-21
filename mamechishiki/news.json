@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-21T10:13:33+00:00",
-  "now_ms": 1792577613114,
+  "fetched_at": "2026-10-21T15:19:18+00:00",
+  "now_ms": 1792595958615,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,34 +10,40 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-2f7518be58377fe3",
-      "title": "武部農相に選挙運動員買収疑惑",
+      "doc_id": "yahoo-cf663cab150690e5",
+      "title": "秋田・子吉川に特別警報 最新情報",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599608"
+      "link": "https://news.yahoo.co.jp/pickup/6599621"
     },
     {
-      "doc_id": "yahoo-91971d36bb65cddf",
-      "title": "台風30号 24日九州で警報級大雨か",
+      "doc_id": "yahoo-317cc25bcef45733",
+      "title": "2年前水害の子吉川 住民不安な夜",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599604"
+      "link": "https://news.yahoo.co.jp/pickup/6599639"
     },
     {
-      "doc_id": "yahoo-b4c942ac9d5c0ec7",
-      "title": "不出馬表明の鳥取知事 会見で涙",
+      "doc_id": "yahoo-bc05aa7af4e4a418",
+      "title": "PHPに重大欠陥 Webの7割で使用",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599611"
+      "link": "https://news.yahoo.co.jp/pickup/6599637"
     },
     {
-      "doc_id": "yahoo-6099656430236aaf",
-      "title": "養子女性死亡させた疑い 女を逮捕",
+      "doc_id": "yahoo-7e7afbfcd904dd6c",
+      "title": "EVの補助金引き下げ 27年1月から",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599595"
+      "link": "https://news.yahoo.co.jp/pickup/6599642"
     },
     {
-      "doc_id": "yahoo-75866ba43d5f2a0b",
-      "title": "八田與一容疑者 警察が海を捜索",
+      "doc_id": "yahoo-1564627cf0117100",
+      "title": "床はう患者を職員が撮影 病院謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599593"
+      "link": "https://news.yahoo.co.jp/pickup/6599631"
+    },
+    {
+      "doc_id": "yahoo-22a54a9be04c17df",
+      "title": "血管炎薬 新規投与差し控えへ",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6599632"
     },
     {
       "doc_id": "yahoo-ea47f1aec0c443d1",
@@ -46,94 +52,82 @@
       "link": "https://news.yahoo.co.jp/pickup/6599592"
     },
     {
-      "doc_id": "yahoo-7f30de30e88d9f71",
-      "title": "ななめ45°岡安 違和感でがん判明",
+      "doc_id": "yahoo-db79fdd9c0e9f6c9",
+      "title": "パンサー向井 交際質問にタジタジ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599576"
+      "link": "https://news.yahoo.co.jp/pickup/6599640"
     },
     {
-      "doc_id": "yahoo-7fed6bcade49cef4",
-      "title": "鷹CBO 織田翔希の指名可能性示唆",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599606"
-    },
-    {
-      "doc_id": "jiji-e1421e8dab8b45fa",
-      "title": "一帯一路「すべて密室」 崩落事故調査の専門家―セルビア議会選",
+      "doc_id": "jiji-3b0abf5a9bdb5008",
+      "title": "米ロ・ウクライナ協議に意欲 プーチン氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102000684&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102101253&g=int"
     },
     {
-      "doc_id": "jiji-ffeef2bc549bbd81",
-      "title": "高市政権近く行き詰まり 小沢一郎氏が見通し―内外情勢調査会講演",
+      "doc_id": "jiji-ccb641e9bfc83129",
+      "title": "伊藤、途中出場で仕事 Ｊリーグ・川崎",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100942&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102101248&g=spo"
     },
     {
-      "doc_id": "jiji-f7274d6292bcaf0d",
-      "title": "妻の遺体切断、医師の男を起訴 死体損壊・遺棄罪、捜査は継続―神戸地検",
+      "doc_id": "jiji-6f4f60c4c7581f21",
+      "title": "西村、後半だけでハット Ｊリーグ・町田",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100846&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102101246&g=spo"
     },
     {
-      "doc_id": "jiji-f54ebe4436b5a2a2",
-      "title": "警官・職員１２．５万人分情報流出か ２０府県警、防犯メール登録市民のアドレスも―「アルカディア」不正アクセス・警察庁",
+      "doc_id": "jiji-1435335bbc50b91c",
+      "title": "ＥＶ補助金、来年１月から減額 現行の６～８割の水準に―経産省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100348&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102101211&g=soc"
     },
     {
-      "doc_id": "jiji-2dc7d9664f6321fd",
-      "title": "２３～２４日に先島諸島接近か 大型台風３０号、暴風高波に厳重警戒―気象庁",
+      "doc_id": "jiji-f34fb74fc65a40a6",
+      "title": "日本、男女とも４強入り 卓球アジア選手権",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100884&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102101255&g=spo"
     },
     {
-      "doc_id": "jiji-511c92fa62d8d0d2",
-      "title": "韓国大統領「ＡＩに聞いた」 捜査機関トップの閣議出席巡り物議",
+      "doc_id": "jiji-4419b8ec773cf923",
+      "title": "アジアパラでも国歌取り違え パラテコンドーなど３件",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100817&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102100676&g=spo"
     },
     {
-      "doc_id": "jiji-37773f5b2d387472",
-      "title": "プーチン氏、米国人を釈放 特使と会談、ウクライナ和平も協議か",
+      "doc_id": "jiji-b038dce0aa085279",
+      "title": "長崎、チャンス逃さず Ｊリーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100932&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102101262&g=spo"
     },
     {
-      "doc_id": "jiji-9464daf2194c0232",
-      "title": "統一選の首長候補を公募 泉房穂、ひろゆき両氏が個人で支援",
+      "doc_id": "jiji-e8d32828bb0dcb18",
+      "title": "浦和の笹、高さも光る Ｊリーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100857&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102101257&g=spo"
     },
     {
-      "doc_id": "jiji-630d9422a48ca1e4",
-      "title": "食事の質、若年層で最低 収入や生活習慣が関連―東京大",
+      "doc_id": "jiji-f2ac49f1bf83c0c6",
+      "title": "神戸、厳しい台所事情 Ｊリーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100140&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102101236&g=spo"
     },
     {
-      "doc_id": "jiji-ff1aab92ffa1f749",
-      "title": "ロシア大統領は同国で収監されていた米国人元教師を釈放したと述べた",
+      "doc_id": "jiji-6f49274a10420ec5",
+      "title": "名誉毀損容疑で作家らを書類送検 兵庫知事会見の発言巡り―県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100955&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102001016&g=soc"
     },
     {
-      "doc_id": "nhk-41d602b003556ac1",
-      "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性”",
+      "doc_id": "nhk-9cd99dca9e6a5947",
+      "title": "秋田 由利本荘 子吉川に氾濫特別警報 氾濫発生",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62921"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63148"
     },
     {
-      "doc_id": "nhk-94ff704087d5b279",
-      "title": "東京と大阪で最も遅い真夏日 各地で季節外れの暑さに",
+      "doc_id": "nhk-3d573661d1e5987f",
+      "title": "【動画】道路まで水あふれる 子吉川沿い 秋田 由利本荘市",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62637"
-    },
-    {
-      "doc_id": "nhk-96b8a5e42f4baa96",
-      "title": "【台風25号1か月】住宅地が約3週間浸水 異例の事態 現地のいま",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62752"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63212"
     },
     {
       "doc_id": "nhk-c12f8e8cc66fd03e",
@@ -142,22 +136,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549"
     },
     {
-      "doc_id": "nhk-29e7fac00f9b63f7",
-      "title": "天皇皇后両陛下 海づくり大会で大阪へ サイバー攻撃で日程変更",
+      "doc_id": "nhk-dc5fce82af7b275c",
+      "title": "“PHPでぜい弱性確認 速やかな対応を”情報処理推進機構",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63065"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209"
     },
     {
-      "doc_id": "nhk-9754381cf09cba26",
-      "title": "武部農相 衆院選公示日の寄付“全額返金し収支報告書を訂正”",
+      "doc_id": "nhk-41d602b003556ac1",
+      "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63092"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62921"
     },
     {
-      "doc_id": "nhk-fe7691e85294fb16",
-      "title": "交番で「ショウリンジ」と叫ぶなどの行為 小学校低学年補導も",
+      "doc_id": "nhk-dd2a5ca5c549bb1f",
+      "title": "血管炎薬「タブネオス」治験データ疑義 承認取り消し可能性も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62792"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63207"
+    },
+    {
+      "doc_id": "nhk-29bbb609f70aca1b",
+      "title": "将棋の西山女流四冠 26日会見でプロ入りするかどうか表明へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63130"
     },
     {
       "doc_id": "itmedia-4acfb57716619374",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002447/"
     },
     {
+      "doc_id": "nazology-1a0c8bed94012820",
+      "title": "トカゲが「しっぽ切り」をした瞬間が9900万年前の琥珀に残っていた――初の化石証拠",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203104"
+    },
+    {
       "doc_id": "nazology-e90f8e3db631288e",
       "title": "「情報をエネルギーに変える」マクスウェルの悪魔、液体の“記憶”まで使えると実験で判明",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "ゾウの死から7年以上たっても、その場所には「大きな影響」が残っていた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/202550"
-    },
-    {
-      "doc_id": "nazology-641b4825ee4f4684",
-      "title": "薬が効かない殺人真菌が使っていた「予想外の生き残り術」とは",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/202050"
     }
   ]
 }
