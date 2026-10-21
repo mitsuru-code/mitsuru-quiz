@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-21T15:19:18+00:00",
-  "now_ms": 1792595958615,
+  "fetched_at": "2026-10-21T20:12:03+00:00",
+  "now_ms": 1792613523791,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,16 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-cf663cab150690e5",
-      "title": "秋田・子吉川に特別警報 最新情報",
+      "doc_id": "yahoo-a771c776f6ea8a97",
+      "title": "秋田・子吉川 氾濫注意報に切替",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599621"
+      "link": "https://news.yahoo.co.jp/pickup/6599644"
     },
     {
-      "doc_id": "yahoo-317cc25bcef45733",
-      "title": "2年前水害の子吉川 住民不安な夜",
+      "doc_id": "yahoo-00791bccfd4b7400",
+      "title": "自民 衆院定数の削減幅を31で調整",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599639"
+      "link": "https://news.yahoo.co.jp/pickup/6599633"
     },
     {
       "doc_id": "yahoo-bc05aa7af4e4a418",
@@ -28,22 +28,22 @@
       "link": "https://news.yahoo.co.jp/pickup/6599637"
     },
     {
-      "doc_id": "yahoo-7e7afbfcd904dd6c",
-      "title": "EVの補助金引き下げ 27年1月から",
+      "doc_id": "yahoo-1115ecc53f48ec68",
+      "title": "88歳の父死亡 傷害疑いで娘を逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599642"
+      "link": "https://news.yahoo.co.jp/pickup/6599636"
+    },
+    {
+      "doc_id": "yahoo-1d479528ba167d17",
+      "title": "「MMX」探査機 機能正常を確認",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6599628"
     },
     {
       "doc_id": "yahoo-1564627cf0117100",
       "title": "床はう患者を職員が撮影 病院謝罪",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6599631"
-    },
-    {
-      "doc_id": "yahoo-22a54a9be04c17df",
-      "title": "血管炎薬 新規投与差し控えへ",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599632"
     },
     {
       "doc_id": "yahoo-ea47f1aec0c443d1",
@@ -58,82 +58,64 @@
       "link": "https://news.yahoo.co.jp/pickup/6599640"
     },
     {
-      "doc_id": "jiji-3b0abf5a9bdb5008",
-      "title": "米ロ・ウクライナ協議に意欲 プーチン氏",
+      "doc_id": "jiji-63740d25c0ec58d0",
+      "title": "女性支持減「期待感が失望に」 申お茶の水大教授―高市政権１年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101253&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102100661&g=pol"
     },
     {
-      "doc_id": "jiji-ccb641e9bfc83129",
-      "title": "伊藤、途中出場で仕事 Ｊリーグ・川崎",
+      "doc_id": "jiji-7c2d9a0cb250d500",
+      "title": "気象庁は秋田県・子吉川（こよしがわ）の氾濫特別警報を注意報に切り替えた",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101248&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102200064&g=flash"
     },
     {
-      "doc_id": "jiji-6f4f60c4c7581f21",
-      "title": "西村、後半だけでハット Ｊリーグ・町田",
+      "doc_id": "jiji-f02fedc98d4a60cf",
+      "title": "秋田・子吉川が氾濫 ４５０世帯に緊急安全確保―特別警報発表・気象庁など",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101246&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102101078&g=soc"
     },
     {
-      "doc_id": "jiji-1435335bbc50b91c",
-      "title": "ＥＶ補助金、来年１月から減額 現行の６～８割の水準に―経産省",
+      "doc_id": "jiji-47fbc7b061a73584",
+      "title": "秋田・子吉川は注意報に 特別警報から切り替え―気象庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101211&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102200068&g=soc"
     },
     {
-      "doc_id": "jiji-f34fb74fc65a40a6",
-      "title": "日本、男女とも４強入り 卓球アジア選手権",
+      "doc_id": "jiji-97c38ac901777ba4",
+      "title": "プログラム言語「ＰＨＰ」に重大弱点 高市首相、ＳＮＳで注意喚起",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101255&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102101249&g=pol"
     },
     {
-      "doc_id": "jiji-4419b8ec773cf923",
-      "title": "アジアパラでも国歌取り違え パラテコンドーなど３件",
+      "doc_id": "jiji-37773f5b2d387472",
+      "title": "プーチン氏、収監の米国人釈放 特使と会談、首脳会談に意欲",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100676&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102100932&g=int"
     },
     {
-      "doc_id": "jiji-b038dce0aa085279",
-      "title": "長崎、チャンス逃さず Ｊリーグ",
+      "doc_id": "jiji-c98822027df901a3",
+      "title": "ＭＭＸを予定の軌道に投入し、打ち上げは成功した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101262&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102000158&g=flash"
     },
     {
-      "doc_id": "jiji-e8d32828bb0dcb18",
-      "title": "浦和の笹、高さも光る Ｊリーグ",
+      "doc_id": "jiji-e9119ecc36097431",
+      "title": "公・民、対決路線に傾斜 消費減税対案、一本化も視野",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101257&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102100647&g=pol"
     },
     {
-      "doc_id": "jiji-f2ac49f1bf83c0c6",
-      "title": "神戸、厳しい台所事情 Ｊリーグ",
+      "doc_id": "jiji-15a697735fae5457",
+      "title": "寄付返金、収支報告書を訂正 公職選挙法違反疑惑の報道受け―武部農水相",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101236&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102100628&g=pol"
     },
     {
-      "doc_id": "jiji-6f49274a10420ec5",
-      "title": "名誉毀損容疑で作家らを書類送検 兵庫知事会見の発言巡り―県警",
+      "doc_id": "jiji-ffeef2bc549bbd81",
+      "title": "高市政権近く行き詰まり 小沢一郎氏が見通し―内外情勢調査会講演",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102001016&g=soc"
-    },
-    {
-      "doc_id": "nhk-9cd99dca9e6a5947",
-      "title": "秋田 由利本荘 子吉川に氾濫特別警報 氾濫発生",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63148"
-    },
-    {
-      "doc_id": "nhk-3d573661d1e5987f",
-      "title": "【動画】道路まで水あふれる 子吉川沿い 秋田 由利本荘市",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63212"
-    },
-    {
-      "doc_id": "nhk-c12f8e8cc66fd03e",
-      "title": "猛烈な台風30号 先島諸島23日接近 西日本に影響の可能性も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549"
+      "link": "https://www.jiji.com/jc/article?k=2026102100942&g=pol"
     },
     {
       "doc_id": "nhk-dc5fce82af7b275c",
@@ -142,22 +124,46 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209"
     },
     {
+      "doc_id": "nhk-c12f8e8cc66fd03e",
+      "title": "猛烈な台風30号 先島諸島23日接近 西日本に影響の可能性も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de62549"
+    },
+    {
+      "doc_id": "nhk-adb592260554fce5",
+      "title": "秋田 子吉川で一時 氾濫特別警報 危険な場所に近づかないで",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63227"
+    },
+    {
+      "doc_id": "nhk-3d573661d1e5987f",
+      "title": "【動画】道路まで水あふれる 子吉川沿い 秋田 由利本荘市",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63212"
+    },
+    {
+      "doc_id": "nhk-ea9bf454b9704698",
+      "title": "ネパールのヒマラヤで登山中だった日本人2人が行方不明",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63265"
+    },
+    {
       "doc_id": "nhk-41d602b003556ac1",
       "title": "不正アクセス“金融機関が狙われる段階に変わってきた可能性”",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261021de62921"
     },
     {
-      "doc_id": "nhk-dd2a5ca5c549bb1f",
-      "title": "血管炎薬「タブネオス」治験データ疑義 承認取り消し可能性も",
+      "doc_id": "nhk-3b78ed24c0e1a6ef",
+      "title": "体操 世界選手権 女子団体 日本は銅メダルで五輪出場権獲得",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63207"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63274"
     },
     {
-      "doc_id": "nhk-29bbb609f70aca1b",
-      "title": "将棋の西山女流四冠 26日会見でプロ入りするかどうか表明へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63130"
+      "doc_id": "itmedia-a0f0b6d92c51fdd6",
+      "title": "PHPの「緊急」レベルの脆弱性、開発元が修正バージョン公開 「直ちにアップデートを」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002480/"
     },
     {
       "doc_id": "itmedia-4acfb57716619374",
@@ -224,12 +230,6 @@
       "title": "フジテレビに不正アクセス、メディア関係者の個人情報最大730件漏えいか 番組宣伝システムが被害",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002449/"
-    },
-    {
-      "doc_id": "itmedia-326c051d74a686be",
-      "title": "OpenAI、「COBOL」など学習リソースの少ない言語でのコーディング能力が大幅向上 COBOL移行の正解率は最大97.9％に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002447/"
     },
     {
       "doc_id": "nazology-1a0c8bed94012820",
