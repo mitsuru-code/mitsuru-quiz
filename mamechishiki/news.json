@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-22T10:14:39+00:00",
-  "now_ms": 1792664079565,
+  "fetched_at": "2026-10-22T15:21:12+00:00",
+  "now_ms": 1792682472626,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,124 +10,130 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-84df158062844496",
-      "title": "台風30号 非常に強い勢力で沖縄へ",
+      "doc_id": "yahoo-a96eb758dee83393",
+      "title": "初の核最終処分場の操業決定 北欧",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599718"
+      "link": "https://news.yahoo.co.jp/pickup/6599748"
     },
     {
-      "doc_id": "yahoo-008cf58ff9ec5fb8",
-      "title": "王子コンテナーに公取委が勧告",
+      "doc_id": "yahoo-0a18e42ce93c9130",
+      "title": "免税制度変更へ「転売ヤー」防ぐ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599705"
+      "link": "https://news.yahoo.co.jp/pickup/6599745"
     },
     {
-      "doc_id": "yahoo-f2cb57cba784780b",
-      "title": "米 サウジの大使館員らに退避命令",
+      "doc_id": "yahoo-8c70893ce18c730e",
+      "title": "三菱自 ホンダに車両供給で合意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599688"
+      "link": "https://news.yahoo.co.jp/pickup/6599746"
     },
     {
-      "doc_id": "yahoo-565da6a654eeacc4",
-      "title": "PHP脆弱性悪用の試み増 数百万件",
+      "doc_id": "yahoo-5b78ecaab8b3b039",
+      "title": "ゴルフで80万円負担 福岡県議証言",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599702"
+      "link": "https://news.yahoo.co.jp/pickup/6599750"
     },
     {
-      "doc_id": "yahoo-4ba9c5c4c25d42d3",
-      "title": "14歳の中学生が行方不明 大阪",
+      "doc_id": "yahoo-498188120714ff26",
+      "title": "大阪で14歳が行方不明 14日朝から",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599713"
+      "link": "https://news.yahoo.co.jp/pickup/6599744"
     },
     {
-      "doc_id": "yahoo-4cc7cd4907ce5ee6",
-      "title": "カプコン 1177万件の情報漏えい",
+      "doc_id": "yahoo-57175f458233a3f5",
+      "title": "モンゴル火災 日系企業幹部が謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599723"
+      "link": "https://news.yahoo.co.jp/pickup/6599749"
     },
     {
-      "doc_id": "yahoo-acd919ec4722d032",
-      "title": "ドラフト速報 12球団の指名は",
+      "doc_id": "yahoo-82308d22c558c1e7",
+      "title": "強行指名の織田翔希 気持ちぶれず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599717"
+      "link": "https://news.yahoo.co.jp/pickup/6599752"
     },
     {
-      "doc_id": "yahoo-8259221ccd150a23",
-      "title": "巨人 横浜高・織田を強行1位指名",
+      "doc_id": "yahoo-69c7673e776d1b6d",
+      "title": "14歳を指名 巨人が育成プラン説明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599711"
+      "link": "https://news.yahoo.co.jp/pickup/6599747"
     },
     {
-      "doc_id": "jiji-762451e0e9ebbbb6",
-      "title": "元ソフトバンク選手に懲役１６年 女性１０人に不同意わいせつ致傷など―横浜地裁",
+      "doc_id": "jiji-5adab7cd41df5bb6",
+      "title": "サンゴ礁の９６％「深刻な危機」 気候変動に伴う海洋熱波で―ＩＵＣＮ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200858&g=soc"
-    },
-    {
-      "doc_id": "jiji-37b49f26b17da35f",
-      "title": "プログラミング言語「ＰＨＰ」に脆弱性 世界のサイト７割が危険に",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200196&g=int"
-    },
-    {
-      "doc_id": "jiji-6c4f2e46146e4a63",
-      "title": "中央省庁でも一時停止相次ぐ ＰＨＰ欠陥対応で関連サイト",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200782&g=pol"
-    },
-    {
-      "doc_id": "jiji-faa7957368d0110c",
-      "title": "中国からソーセージ密輸疑い「肉が含まれていると知らず」 旅行で訪日の女逮捕、闇バイトか―大阪府警",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200949&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102201145&g=soc"
     },
     {
       "doc_id": "jiji-1ffeee09988a20b9",
-      "title": "巨人、織田を１位で強行指名 菰田は日本ハム、鈴木はソフトバンク―プロ野球・ドラフト会議",
+      "title": "巨人、織田を１位で強行指名 菰田は日本ハム、鈴木ソフトバンク―プロ野球・ドラフト会議",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102200824&g=spo"
     },
     {
-      "doc_id": "jiji-90125b6bd46b480c",
-      "title": "米球界挑戦を表明している横浜高校の織田翔希（おだ・しょうき）投手を巨人が１位指名した",
+      "doc_id": "jiji-ec2d27ed5eaa8da9",
+      "title": "車いすテニスの上地結衣は銀 小田凱人は決勝進出―アジアパラ大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200842&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102200675&g=spo"
     },
     {
-      "doc_id": "jiji-f851ad1c8fb53f38",
-      "title": "非上場株評価、国税庁案を批判 自民・小林氏「本末転倒」",
+      "doc_id": "jiji-9b52abdad1eb019e",
+      "title": "育成は５１人指名 プロ野球ドラフト",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200762&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102201226&g=spo"
     },
     {
-      "doc_id": "jiji-4dfab24a300b79ab",
-      "title": "花博成功へ連携確認 高市首相、横浜新市長と面会",
+      "doc_id": "jiji-17f195096ce6baa5",
+      "title": "米中間選挙、区割りは共和有利 逆風打破の決め手にはならず―民主と「ゲリマンダー」戦争",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200890&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102100632&g=int"
     },
     {
-      "doc_id": "jiji-c7a3843ff82a4407",
-      "title": "マイナカード総合サイトを一時停止 「ＰＨＰ」問題で―情報システム機構",
+      "doc_id": "jiji-4af81d750ab4eb15",
+      "title": "共和党候補、選挙広告に対立候補の絶縁状態にある母親を起用し炎上 米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200421&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=20261022049492a&g=afp"
     },
     {
-      "doc_id": "jiji-3e4716902a0f866d",
-      "title": "自民「３１議席削減」提示 衆院議員定数巡り妥協案",
+      "doc_id": "jiji-8f2741c0ed8f03f6",
+      "title": "フランスの大規模暴動、世界中の右派は移民が原因と非難 マクロン氏は極左過激派の責任主張",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200837&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=20261022049489a&g=afp"
     },
     {
-      "doc_id": "nhk-b85594d66b84a38a",
-      "title": "「カプコン」全世界の会員メールアドレスなど約1177万件漏えい",
+      "doc_id": "jiji-630d9422a48ca1e4",
+      "title": "食事の質、若年層で最低 収入や生活習慣が関連―東京大",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102100140&g=soc"
+    },
+    {
+      "doc_id": "jiji-326206b88db5cc7a",
+      "title": "１位指名重複選手 プロ野球ドラフト",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102201025&g=spo"
+    },
+    {
+      "doc_id": "jiji-6cdbf99198185c62",
+      "title": "セ・リーグ球団別ドラフト指名選手一覧 プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102201233&g=spo"
+    },
+    {
+      "doc_id": "nhk-8d6d690bd70e8827",
+      "title": "ドラフト 織田翔希は巨人 菰田は日本ハムが交渉権【全名簿】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63460"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63461"
     },
     {
-      "doc_id": "nhk-f6c8c4ab704a391d",
-      "title": "すき家 JR 証券会社も “PHP”対応でサービス一時停止相次ぐ",
+      "doc_id": "nhk-3202841128db35bb",
+      "title": "【ドラフト反応】横浜高校織田投手「アメリカ挑戦全くぶれず」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63324"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63462"
+    },
+    {
+      "doc_id": "nhk-e945067629a0c5be",
+      "title": "ドラフト 巨人“史上最年少14歳”の中学3年生を育成5位で指名",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63890"
     },
     {
       "doc_id": "nhk-69073357ef25d38e",
@@ -136,28 +142,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261022de63664"
     },
     {
-      "doc_id": "nhk-ed3e31ae77370c47",
-      "title": "神奈川県警 廃棄すべき運転免許証 警備部門の捜査などに流用か",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63326"
-    },
-    {
       "doc_id": "nhk-d934bf85fe7e01c5",
-      "title": "猛烈な台風30号 あす先島諸島接近 早めに対策を",
+      "title": "台風30号 先島諸島一部が暴風域 西～東日本 接近前から大雨も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261022de63248"
     },
     {
-      "doc_id": "nhk-ff4f98026cbe4787",
-      "title": "連合 来年春闘で「6％中心に5％以上」賃上げ要求へ",
+      "doc_id": "nhk-064015505191eec8",
+      "title": "サイバー攻撃ぜい弱性悪用の猶予期間4分の1に 研究グループ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63733"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63896"
     },
     {
-      "doc_id": "nhk-ae514d764b5246e6",
-      "title": "新宿 歌舞伎町のビルで火災",
+      "doc_id": "nhk-25c6bcaa4962f2eb",
+      "title": "福岡県議会 現職議員が証言「農水委員長でゴルフ費用等負担」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63809"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63876"
+    },
+    {
+      "doc_id": "itmedia-da0c2c4dfea670dd",
+      "title": "PHP脆弱性でいち早くサービス停止したコドモン 背景に「被害が出てからでは取り消せない」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002528/"
     },
     {
       "doc_id": "itmedia-fa5656baff3ef935",
@@ -224,12 +230,6 @@
       "title": "PHPの「重大」脆弱性はAIが見つけた 「GPT-5.6 Solで発見」とOpenAI 「今後、AIによる脆弱性発見が急増」",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002486/"
-    },
-    {
-      "doc_id": "itmedia-df9757d5a936f057",
-      "title": "「GitLab」に深刻度“最大”の脆弱性 認証なしで任意のコード実行の恐れ、修正版適用を CVSS「10.0」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002501/"
     },
     {
       "doc_id": "nazology-97b566f5a0df6fa8",
