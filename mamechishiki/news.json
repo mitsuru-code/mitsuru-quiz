@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-22T15:21:12+00:00",
-  "now_ms": 1792682472626,
+  "fetched_at": "2026-10-22T20:09:53+00:00",
+  "now_ms": 1792699793197,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,52 +58,40 @@
       "link": "https://news.yahoo.co.jp/pickup/6599747"
     },
     {
-      "doc_id": "jiji-5adab7cd41df5bb6",
-      "title": "サンゴ礁の９６％「深刻な危機」 気候変動に伴う海洋熱波で―ＩＵＣＮ",
+      "doc_id": "jiji-400a4bbca0ae5545",
+      "title": "今年のサハロフ賞にＩＣＣ 国際司法への貢献評価―欧州議会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102201145&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102200625&g=pol"
     },
     {
-      "doc_id": "jiji-1ffeee09988a20b9",
-      "title": "巨人、織田を１位で強行指名 菰田は日本ハム、鈴木ソフトバンク―プロ野球・ドラフト会議",
+      "doc_id": "jiji-36ff4e2bd0f6f247",
+      "title": "自民国力研、１１月に勉強会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200824&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102201198&g=pol"
     },
     {
-      "doc_id": "jiji-ec2d27ed5eaa8da9",
-      "title": "車いすテニスの上地結衣は銀 小田凱人は決勝進出―アジアパラ大会",
+      "doc_id": "jiji-0600e54e5de461a6",
+      "title": "アプリ入り口にサーバー脆弱性標的 ＡＩで自動化か、被害拡大懸念―ＮＩＣＴ分析・不正アクセス",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200675&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102200674&g=soc"
     },
     {
-      "doc_id": "jiji-9b52abdad1eb019e",
-      "title": "育成は５１人指名 プロ野球ドラフト",
+      "doc_id": "jiji-8d2f8a411f3a013b",
+      "title": "脆弱性、１０年以上前から存在 ＡＩが解明支援―ＰＨＰ問題",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102201226&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102200895&g=int"
     },
     {
-      "doc_id": "jiji-17f195096ce6baa5",
-      "title": "米中間選挙、区割りは共和有利 逆風打破の決め手にはならず―民主と「ゲリマンダー」戦争",
+      "doc_id": "jiji-d9e811f49a0046e2",
+      "title": "コンテンツ産業支援で新法人 ２７年設立へ政府が検討会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100632&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102201110&g=pol"
     },
     {
-      "doc_id": "jiji-4af81d750ab4eb15",
-      "title": "共和党候補、選挙広告に対立候補の絶縁状態にある母親を起用し炎上 米中間選挙",
+      "doc_id": "jiji-762451e0e9ebbbb6",
+      "title": "元ソフトバンク選手に懲役１６年 女性１０人に不同意わいせつ致傷など―横浜地裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261022049492a&g=afp"
-    },
-    {
-      "doc_id": "jiji-8f2741c0ed8f03f6",
-      "title": "フランスの大規模暴動、世界中の右派は移民が原因と非難 マクロン氏は極左過激派の責任主張",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261022049489a&g=afp"
-    },
-    {
-      "doc_id": "jiji-630d9422a48ca1e4",
-      "title": "食事の質、若年層で最低 収入や生活習慣が関連―東京大",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100140&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102200858&g=soc"
     },
     {
       "doc_id": "jiji-326206b88db5cc7a",
@@ -112,10 +100,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102201025&g=spo"
     },
     {
-      "doc_id": "jiji-6cdbf99198185c62",
-      "title": "セ・リーグ球団別ドラフト指名選手一覧 プロ野球",
+      "doc_id": "jiji-14ad3c9498956159",
+      "title": "「士業」ＡＩ活用でルール整備 政府、デジタル改革原則策定へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102201233&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102200874&g=pol"
+    },
+    {
+      "doc_id": "jiji-1ffeee09988a20b9",
+      "title": "巨人、織田を１位で強行指名 菰田は日本ハム、鈴木ソフトバンク―プロ野球・ドラフト会議",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102200824&g=spo"
+    },
+    {
+      "doc_id": "jiji-3e4716902a0f866d",
+      "title": "「３１議席削減」自民が折衷案 国民理解、公・民反発―衆院議員定数",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102200837&g=pol"
     },
     {
       "doc_id": "nhk-8d6d690bd70e8827",
@@ -136,22 +136,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261022de63890"
     },
     {
-      "doc_id": "nhk-69073357ef25d38e",
-      "title": "経産省「ホワイトハッカー」のチーム立ち上げへ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63664"
-    },
-    {
       "doc_id": "nhk-d934bf85fe7e01c5",
-      "title": "台風30号 先島諸島一部が暴風域 西～東日本 接近前から大雨も",
+      "title": "台風30号 先島諸島が暴風域 西～東日本 接近前から大雨も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261022de63248"
     },
     {
-      "doc_id": "nhk-064015505191eec8",
-      "title": "サイバー攻撃ぜい弱性悪用の猶予期間4分の1に 研究グループ",
+      "doc_id": "nhk-802fcf434e69a4f3",
+      "title": "道新記者に差し入れ 引き続き「領事面会」と即時解放働きかけ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63896"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63959"
+    },
+    {
+      "doc_id": "nhk-69073357ef25d38e",
+      "title": "経産省「ホワイトハッカー」のチーム立ち上げへ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63664"
     },
     {
       "doc_id": "nhk-25c6bcaa4962f2eb",
