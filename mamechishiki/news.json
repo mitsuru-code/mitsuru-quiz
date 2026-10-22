@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-21T23:23:28+00:00",
-  "now_ms": 1792625008216,
+  "fetched_at": "2026-10-22T04:53:19+00:00",
+  "now_ms": 1792644799277,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a771c776f6ea8a97",
-      "title": "秋田・子吉川 氾濫注意報に切替",
+      "doc_id": "yahoo-8f8ac2dd0d47dffc",
+      "title": "秋田・子吉川支流の河原 男性死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599644"
+      "link": "https://news.yahoo.co.jp/pickup/6599680"
     },
     {
-      "doc_id": "yahoo-00791bccfd4b7400",
-      "title": "自民 衆院定数の削減幅を31で調整",
+      "doc_id": "yahoo-8f9eed8a982f855a",
+      "title": "PHP問題 政府機関の被害報告なし",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599633"
+      "link": "https://news.yahoo.co.jp/pickup/6599683"
     },
     {
-      "doc_id": "yahoo-31357f021dea12cc",
-      "title": "PHPに欠陥 欧州各国でサイト遮断",
+      "doc_id": "yahoo-1de011e0d6de86b0",
+      "title": "PHP巡り 企業など対応に追われる",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599650"
+      "link": "https://news.yahoo.co.jp/pickup/6599679"
     },
     {
-      "doc_id": "yahoo-c43dd0d44bad3b19",
-      "title": "PHPの脆弱性 米OpenAIのAIで発見",
+      "doc_id": "yahoo-7203531993a1befb",
+      "title": "青切符 キャッシュレスで納付可へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599651"
+      "link": "https://news.yahoo.co.jp/pickup/6599676"
     },
     {
-      "doc_id": "yahoo-fd4d997c52be803c",
-      "title": "ヒマラヤ山脈 日本人2人が不明",
+      "doc_id": "yahoo-b878c22084c2bd51",
+      "title": "しんじょう君巡る裁判 市が上告",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599653"
+      "link": "https://news.yahoo.co.jp/pickup/6599685"
     },
     {
-      "doc_id": "yahoo-6ec58d6764ecf166",
-      "title": "世界体操女子団体 日本が銅メダル",
+      "doc_id": "yahoo-7fed1c9faf5afe73",
+      "title": "ミセス×ガスト特典 不正対策は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599657"
+      "link": "https://news.yahoo.co.jp/pickup/6599681"
     },
     {
-      "doc_id": "yahoo-ff9bc3efbac405cc",
-      "title": "高橋塁 ゲイ公表までの葛藤を語る",
+      "doc_id": "yahoo-aa75692edfa0ec11",
+      "title": "平成の玩具アイロンビーズ 再注目",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599656"
+      "link": "https://news.yahoo.co.jp/pickup/6599673"
     },
     {
-      "doc_id": "yahoo-95b1120201fa73e9",
-      "title": "柳楽優弥 日曜劇場に初出演で主演",
+      "doc_id": "yahoo-d25d3d692b15f4bc",
+      "title": "織田翔希MLB挑戦表明 現地評価は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599655"
+      "link": "https://news.yahoo.co.jp/pickup/6599682"
     },
     {
       "doc_id": "jiji-37b49f26b17da35f",
@@ -64,34 +64,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102200196&g=int"
     },
     {
-      "doc_id": "jiji-eddacb0db63ebaab",
-      "title": "中道幹部「返金で済まず」 農水相疑惑追及へ",
+      "doc_id": "jiji-0466a917196b73f7",
+      "title": "高市首相・自民幹部がホームページ停止 ＰＨＰ問題で",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101018&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102200278&g=pol"
     },
     {
-      "doc_id": "jiji-63740d25c0ec58d0",
-      "title": "女性支持減「期待感が失望に」 申お茶の水大教授―高市政権１年",
+      "doc_id": "jiji-24932322b86447d9",
+      "title": "大谷、世代交代の波も 常勝ドジャースに転機か―米大リーグ・二刀流の行方（下）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100661&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026101900663&g=spo"
     },
     {
-      "doc_id": "jiji-2f79a2226480da08",
-      "title": "「維新カラー」で存在感狙う 閣内協力１カ月、自民は不満―高市政権",
+      "doc_id": "jiji-59429ca0ad2c1297",
+      "title": "古い免許証、警備資料に流用 法抵触の恐れ、全国調査―神奈川で常態化か・警察庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101027&g=pol"
-    },
-    {
-      "doc_id": "jiji-f78ba9d4d1a59fd1",
-      "title": "３度水害、不屈のラーメン店 「まるでドラマか漫画」―客ら再開後押し、千葉・大網白里",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100619&g=soc"
-    },
-    {
-      "doc_id": "jiji-17f195096ce6baa5",
-      "title": "米中間選挙、区割りは共和有利 逆風打破の決め手にはならず―民主と「ゲリマンダー」戦争",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100632&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102200330&g=soc"
     },
     {
       "doc_id": "jiji-bb2b5095021ca022",
@@ -100,40 +88,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026102200201&g=int"
     },
     {
-      "doc_id": "jiji-97c38ac901777ba4",
-      "title": "プログラム言語「ＰＨＰ」に重大弱点 高市首相、ＳＮＳで注意喚起",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102101249&g=pol"
-    },
-    {
       "doc_id": "jiji-ffeef2bc549bbd81",
       "title": "高市政権近く行き詰まり 小沢一郎氏が見通し―内外情勢調査会講演",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102100942&g=pol"
     },
     {
-      "doc_id": "jiji-c925ee0999a222d4",
-      "title": "ネパール、ヒマラヤ高峰で２邦人不明 １５日以降消息絶つ、続く捜索",
+      "doc_id": "jiji-97c38ac901777ba4",
+      "title": "プログラム言語「ＰＨＰ」に重大弱点 高市首相、ＳＮＳで注意喚起",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200144&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102101249&g=pol"
     },
     {
-      "doc_id": "nhk-dc5fce82af7b275c",
-      "title": "“PHPでぜい弱性確認 速やかな対応を”情報処理推進機構",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63209"
+      "doc_id": "jiji-004bb589c48c0843",
+      "title": "ロシア外務省、日本企業のドローン納品非難 対ウクライナ、対抗措置警告",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102200205&g=int"
     },
     {
-      "doc_id": "nhk-adb592260554fce5",
-      "title": "秋田 子吉川 氾濫特別警報は注意報に 危険な場所に近づかない",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261021de63227"
+      "doc_id": "jiji-c7a3843ff82a4407",
+      "title": "マイナカード総合サイトを一時停止 「ＰＨＰ」問題で―情報システム機構",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102200421&g=pol"
     },
     {
-      "doc_id": "nhk-ccb3e1d9e6b76314",
-      "title": "【ドローン動画】一夜明けた子吉川は 秋田 由利本荘",
+      "doc_id": "jiji-60e149748af02362",
+      "title": "政府、ＰＨＰ被害報告なし 「サイト停止も有効」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102200431&g=pol"
+    },
+    {
+      "doc_id": "nhk-f6c8c4ab704a391d",
+      "title": "すき家 JR 証券会社も “PHP”対応でサービス一時停止相次ぐ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63278"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63324"
+    },
+    {
+      "doc_id": "nhk-ed3e31ae77370c47",
+      "title": "神奈川県警 廃棄すべき運転免許証 警備部門の捜査などに流用か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63326"
+    },
+    {
+      "doc_id": "nhk-3a6ba9b4dec1dc4c",
+      "title": "免許証画像など漏えいし闇サイトで販売か 沖縄の会社から",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63353"
     },
     {
       "doc_id": "nhk-d934bf85fe7e01c5",
@@ -142,94 +142,94 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261022de63248"
     },
     {
-      "doc_id": "nhk-8431194eb7f957bb",
-      "title": "消費税減税法案 与党“審議重ね法案通過”野党“充実審議を”",
+      "doc_id": "nhk-6b20c7fb1c0fcc8d",
+      "title": "交通違反の反則金納付 キャッシュレス決済を来年導入へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63246"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63453"
     },
     {
-      "doc_id": "nhk-1fedd537d7462bb6",
-      "title": "アメリカ メタ大幅増益 AIなど巨額の設備投資続ける見通し",
+      "doc_id": "nhk-32f046aef5a66228",
+      "title": "サウジアラビア東部で攻撃相次ぎ3人死亡 米国務省は退避命令",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63277"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63386"
     },
     {
-      "doc_id": "nhk-3b78ed24c0e1a6ef",
-      "title": "体操 世界選手権 女子団体 日本は銅メダルで五輪出場権獲得",
+      "doc_id": "nhk-9e6d94d9bc213fc2",
+      "title": "関文科相 政治資金パーティー改めて陳謝 “再発防止に努める”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63274"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63442"
+    },
+    {
+      "doc_id": "itmedia-67f6a332ac711259",
+      "title": "PHPの「重大」脆弱性はAIが見つけた 「GPT-5.6 Solで発見」とOpenAI 「今後、AIによる脆弱性発見が急増」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002486/"
+    },
+    {
+      "doc_id": "itmedia-df9757d5a936f057",
+      "title": "「GitLab」に深刻度“最大”の脆弱性 認証なしで任意のコード実行の恐れ、修正版適用を CVSS「10.0」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002501/"
+    },
+    {
+      "doc_id": "itmedia-99848224184f7e8f",
+      "title": "コミックシーモア、流出は最大約420万件に メールアドレスや生年月日など 不正アクセスの経路特定・遮断は完了",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002500/"
+    },
+    {
+      "doc_id": "itmedia-3e1e7ce8cb6ecab2",
+      "title": "Anthropic、Claudeでソフトウェアのアタックサーフェスを洗い出し・縮小する研究を公開 OpenSSHの修正にも貢献",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002498/"
+    },
+    {
+      "doc_id": "itmedia-70064fc0a6b5385b",
+      "title": "旅行ゲーム「ワールドクエスト」、PHP脆弱性で即日サービス終了 「古い仕組みのため対策とれず」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002493/"
+    },
+    {
+      "doc_id": "itmedia-62e4ebc45db9ce2a",
+      "title": "「スーパーの冷蔵設備が50度に」フランスの店舗襲ったサイバー攻撃の正体 弱点だらけだったセキュリティ対策",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002468/"
+    },
+    {
+      "doc_id": "itmedia-9b22a74dc4ec1e6a",
+      "title": "NVIDIA、AIファクトリーをコンテナで届ける「DSX POD」発表 アヒル型ロボット「Microduck」も登壇──GTC Berlin基調講演",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002492/"
+    },
+    {
+      "doc_id": "itmedia-7c65f8ea1f0bc908",
+      "title": "大阪大、学生など7.8万人の情報漏えい NECが無断で協力会社とデータ共有",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002491/"
+    },
+    {
+      "doc_id": "itmedia-8f6857202bba8d44",
+      "title": "Meta決算、売上高26％増も営業益37％減 AIエージェント「Muse」は1000万人超が利用開始",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002489/"
+    },
+    {
+      "doc_id": "itmedia-4de06f19d06f9583",
+      "title": "Tesla決算、営業益56％減 FSD契約は67％増の174万件 SpaceX合併は「昨日すべて話した」とマスク氏",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002488/"
+    },
+    {
+      "doc_id": "itmedia-aaf556be711a6602",
+      "title": "Adobeそっくり「ArtCraft」の動画編集ツールを試す AIで挙動を再現した“クローンソフト”はアリなのか",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002485/"
     },
     {
       "doc_id": "itmedia-37ec7aa64ae15819",
       "title": "Meta、Cambridge Analytica問題巡る訴訟で250億ドルの支払い命令",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002484/"
-    },
-    {
-      "doc_id": "itmedia-eac28695e88a5c4d",
-      "title": "高市総理「大至急、PHPパッチ適用を」Xで異例の要請 エンジニアは評価「経営層に伝わる」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002483/"
-    },
-    {
-      "doc_id": "itmedia-a0f0b6d92c51fdd6",
-      "title": "PHPの「緊急」レベルの脆弱性、開発元が修正バージョン公開 「直ちにアップデートを」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002480/"
-    },
-    {
-      "doc_id": "itmedia-4acfb57716619374",
-      "title": "PHP緊急脆弱性「php2shell」パッチ今夜11時公開、その前にできる対策は……GMO系セキュリティ企業が提唱【更新】",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002462/"
-    },
-    {
-      "doc_id": "itmedia-883d3f574cb70047",
-      "title": "著名ITサービス相次いで緊急メンテへ コドモン、シャドバ、BASE、さくらのレンタルサーバなど 「PHP」脆弱性に起因か",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002472/"
-    },
-    {
-      "doc_id": "itmedia-5dbe6db72e23f8b6",
-      "title": "au PAY「使えるお店」、個人事業主約46万人分の情報を無断掲載か 個人情報保護法抵触のおそれも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002469/"
-    },
-    {
-      "doc_id": "itmedia-fbae5daaaa511524",
-      "title": "不正アクセス急増は“SaaS離れ”を招くか？ 露呈したもう1つの「SaaS is Dead」リスク",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002451/"
-    },
-    {
-      "doc_id": "itmedia-c7486ac05d800f3b",
-      "title": "接客データ×AI 大丸松坂屋が「売るを解明する」マーケティング新サービス開始",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002458/"
-    },
-    {
-      "doc_id": "itmedia-dc99cad876fc7e7f",
-      "title": "名称なぜ「テッペイ」？ JR東、遅れすぎたコード決済参入の勝算",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002437/"
-    },
-    {
-      "doc_id": "itmedia-2b46e87417bbd234",
-      "title": "「カーセンサー」などに不正アクセス、最大371万件の個人情報漏えいか 問い合わせ客の氏名・住所など",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002456/"
-    },
-    {
-      "doc_id": "itmedia-67e5b1d06745113d",
-      "title": "「都市鉱山」でパソコンも対象に 東京都が小型電子機器内のレアアースなどの回収を強化",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002455/"
-    },
-    {
-      "doc_id": "itmedia-3969c37b541be2f9",
-      "title": "人に注射を打てる「サイボーグゴキブリ」の群れが、がれき下の被災者を救助？ 実験成功率72％",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002422/"
     },
     {
       "doc_id": "nazology-d01684e4eac19ce6",
