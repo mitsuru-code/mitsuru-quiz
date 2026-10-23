@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-22T23:25:09+00:00",
-  "now_ms": 1792711509625,
+  "fetched_at": "2026-10-23T04:55:41+00:00",
+  "now_ms": 1792731341269,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,100 +10,94 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-61ecacd2201bddf2",
-      "title": "台風30号が先島諸島接近へ 警戒を",
+      "doc_id": "yahoo-0acd6aa1669687f4",
+      "title": "台風接近 沖縄～関東は大雨の恐れ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599757"
+      "link": "https://news.yahoo.co.jp/pickup/6599802"
     },
     {
-      "doc_id": "yahoo-7ccbe0d142155f37",
-      "title": "ANAが追加出資検討 中堅航空2社",
+      "doc_id": "yahoo-6c7597ff6a8c6346",
+      "title": "復興相 事務所数を巡り報告書訂正",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599762"
+      "link": "https://news.yahoo.co.jp/pickup/6599788"
     },
     {
-      "doc_id": "yahoo-79a139a1cc3edc12",
-      "title": "大成建設・鹿島 国交省が処分方針",
+      "doc_id": "yahoo-43da8e9f7f3d13a0",
+      "title": "マンション修繕会議 業者潜入発覚",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599759"
+      "link": "https://news.yahoo.co.jp/pickup/6599799"
     },
     {
-      "doc_id": "yahoo-e949415b37f45be6",
-      "title": "生活保護利用者の車保有 緩和検討",
+      "doc_id": "yahoo-738848bdb4952539",
+      "title": "沖縄の民家に女性遺体 殺人と断定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599765"
+      "link": "https://news.yahoo.co.jp/pickup/6599791"
     },
     {
-      "doc_id": "yahoo-50f5fb9c75c6034f",
-      "title": "シャモンダウイルス 仏でヒト感染",
+      "doc_id": "yahoo-5a2969746d97f60a",
+      "title": "折り畳み式iPhone 高額転売横行",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599754"
+      "link": "https://news.yahoo.co.jp/pickup/6599797"
     },
     {
-      "doc_id": "yahoo-2f54c80cdcf01e98",
-      "title": "米大統領 レブロンの振る舞い批判",
+      "doc_id": "yahoo-9f5d6622342e8082",
+      "title": "作家・村上龍さん死去 74歳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599766"
+      "link": "https://news.yahoo.co.jp/pickup/6599801"
     },
     {
-      "doc_id": "yahoo-85601b8ccc96ad84",
-      "title": "一発レッドの中村敬斗 処分が決定",
+      "doc_id": "yahoo-37aa96ab5b9df0ee",
+      "title": "松井秀喜氏 巨人の新監督に就任へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599758"
+      "link": "https://news.yahoo.co.jp/pickup/6599785"
     },
     {
-      "doc_id": "yahoo-35dcf57752a624ba",
-      "title": "阪神激震 梵コーチも辞意申し入れ",
+      "doc_id": "yahoo-63ecd9ee8366fcb8",
+      "title": "巨人監督に松井氏 長嶋氏との約束",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599753"
+      "link": "https://news.yahoo.co.jp/pickup/6599796"
     },
     {
-      "doc_id": "jiji-17f195096ce6baa5",
-      "title": "米中間選挙、区割りは共和有利 逆風打破の決め手にはならず―民主と「ゲリマンダー」戦争",
+      "doc_id": "jiji-7d087f458cccdb47",
+      "title": "巨人新監督に松井秀喜氏 ＯＢ、メジャーでも活躍―プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102100632&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102300496&g=spo"
     },
     {
-      "doc_id": "jiji-e5819dec2faeed08",
-      "title": "食料補助、受給者５００万人減 減税しわ寄せ、生活苦強まる―米",
+      "doc_id": "jiji-8cc8cc6dfe667ea8",
+      "title": "トランプ米大統領、レブロンを批判「国を侮辱」 ＮＢＡ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200645&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102300245&g=spo"
     },
     {
-      "doc_id": "jiji-d5adee1000919188",
-      "title": "「核ごみ」最終処分場の操業許可 世界初、来年にも稼働―フィンランド政府",
+      "doc_id": "jiji-d950275c47691ae8",
+      "title": "迎撃ドローン納品「問題ない」 小泉防衛相、ロシアに反論",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300173&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102300334&g=pol"
     },
     {
-      "doc_id": "jiji-3cc1fc3af0099f10",
-      "title": "美容・ダイエット目的で「マンジャロ」使用、専門医がリスク懸念―処方薬不正販売",
+      "doc_id": "jiji-b02f4e7f27759dfe",
+      "title": "トランプ大統領、スターリンク制限解除を要請 ウクライナ利用巡り―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200685&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102300176&g=int"
     },
     {
-      "doc_id": "jiji-9014be90c03cea08",
-      "title": "「シャモンダウイルス」、フランスで初のヒト感染 患者は死亡",
+      "doc_id": "jiji-7f5147690c5b344f",
+      "title": "「ご主人さまお許しくださいと言え」 女性美容師に謝罪要求、業務妨害容疑で男逮捕－警視庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102201182&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102300359&g=soc"
     },
     {
-      "doc_id": "jiji-88e83d18ced6fd50",
-      "title": "米長期金利が急低下 ＡＩ不安で１カ月ぶり５％割れ",
+      "doc_id": "jiji-3d163004ea7c05fe",
+      "title": "デジ庁委託企業に不正アクセス 個人情報１万件超漏えいか",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300170&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102300416&g=pol"
     },
     {
-      "doc_id": "jiji-6dba89a9d41cb0ad",
-      "title": "ＮＹ株、ハイテク急落 ＡＩ懸念で",
+      "doc_id": "jiji-ac7597d683491b25",
+      "title": "折り畳み式ｉＰｈｏｎｅ発売 「デュオ」、画面１．５倍に―米アップル",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300118&g=int"
-    },
-    {
-      "doc_id": "jiji-2e63b1cd24324626",
-      "title": "日本製鉄はＵＳスチールのペンシルベニア州の製鉄所に約４７００億円の投資を決めた",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300098&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102300195&g=int"
     },
     {
       "doc_id": "jiji-762451e0e9ebbbb6",
@@ -112,52 +106,112 @@
       "link": "https://www.jiji.com/jc/article?k=2026102200858&g=soc"
     },
     {
-      "doc_id": "jiji-59429ca0ad2c1297",
-      "title": "古い免許証、警備資料に流用 法抵触の恐れ、全国調査―神奈川で常態化か・警察庁",
+      "doc_id": "jiji-9c55537b958f4b0b",
+      "title": "米メタの個人向けＡＩ「ミューズ」、日本でも メルカリなどと連携",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102200330&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102300438&g=int"
     },
     {
-      "doc_id": "nhk-241e881e5e7f7ee7",
-      "title": "【QA】PHPにぜい弱性発見 AI時代に求められる対応とは?",
+      "doc_id": "jiji-6792753e134a4ab1",
+      "title": "中国政府系がサイバー攻撃 ＡＩ「アルテックス」使用―米ＭＳ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102300298&g=int"
+    },
+    {
+      "doc_id": "nhk-d7777ba322e01010",
+      "title": "プロ野球 巨人の新監督に松井秀喜氏が就任へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63922"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64015"
+    },
+    {
+      "doc_id": "nhk-69555ce8bd981fca",
+      "title": "作家の村上龍さん死去「コインロッカー・ベイビーズ」74歳",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64176"
     },
     {
       "doc_id": "nhk-019cd6b6620bbadf",
-      "title": "台風 先島諸島 暴風大雨厳重警戒 西日本・東日本も大雨おそれ",
+      "title": "台風30号 先島諸島に最接近へ 暴風 高波に厳重警戒【ライブ】",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261023de63968"
     },
     {
+      "doc_id": "nhk-0d42e43e9baf6a3c",
+      "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64076"
+    },
+    {
+      "doc_id": "nhk-09d3fbc9f83a607f",
+      "title": "デジタル庁 最大1万3000件余の個人情報が漏えいの可能性",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64088"
+    },
+    {
       "doc_id": "nhk-01c14359b0ac9ed7",
-      "title": "マイクロソフト「中国系ハッカー集団が大規模サイバー攻撃」",
+      "title": "マイクロソフト「中国政府とつながりある集団がサイバー攻撃」",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261023de63956"
     },
     {
-      "doc_id": "nhk-2c137d86d32e4085",
-      "title": "体操 世界選手権 男子個人総合 橋本大輝が4連覇",
+      "doc_id": "nhk-3202841128db35bb",
+      "title": "【ドラフト反応】横浜高校織田投手「アメリカ挑戦全くぶれず」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63973"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63462"
     },
     {
-      "doc_id": "nhk-08686a924f35e41e",
-      "title": "ナスダック指数一時2.9％下落 AI投資への懸念が再燃",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63980"
+      "doc_id": "itmedia-a3324de0b4714ba6",
+      "title": "PayPay、「免許証画像で本人確認」廃止 ICチップ読み取りに統一",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002540/"
     },
     {
-      "doc_id": "nhk-66c4de3e61f45d9d",
-      "title": "仏 マクロン大統領「正当な理由ないデモ認めず」 デモ参加者は",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63966"
+      "doc_id": "itmedia-0269bf340591826c",
+      "title": "令和12年度からの教科書、「紙」と「デジタル」組み合わせ 文科相指針案",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002537/"
     },
     {
-      "doc_id": "nhk-e945067629a0c5be",
-      "title": "ドラフト 巨人“史上最年少14歳”の中学3年生を育成5位で指名",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261022de63890"
+      "doc_id": "itmedia-89546bc33098384d",
+      "title": "「AIでエンジニア派遣は不要になる」のか？ 各社に肌感を聞いた 求められる人材、明確に変化",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002527/"
+    },
+    {
+      "doc_id": "itmedia-912bebdba51d0aac",
+      "title": "“あいまいな指示”を入力されたAIは安全なコーディングができない？ 香港科技大などが調査",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002513/"
+    },
+    {
+      "doc_id": "itmedia-a77b243efb4fdf68",
+      "title": "1000万のWebサイトで「生きたAPIキー」が大量に“丸見え”状態？ 大手銀行やインフラの鍵も 米スタンフォード大などが調査",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002515/"
+    },
+    {
+      "doc_id": "itmedia-2c69b9bfaf67bf92",
+      "title": "「Muse」日本で提供開始 MetaのAIエージェント、メルカリやマネフォ、ぴあと連携へ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002535/"
+    },
+    {
+      "doc_id": "itmedia-9087048224d2bb8c",
+      "title": "認証局eMudhra、SSL/TLS証明書事業から撤退へ 秘密鍵問題受け──既存顧客の証明書は無償で置き換え",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002534/"
+    },
+    {
+      "doc_id": "itmedia-b8abb00fece12e4a",
+      "title": "「お名前.com」 のFX自動売買VPS、不正アクセスで金銭被害か 「600万円の損失」「55万円なくなった」……報告相次ぐ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002532/"
+    },
+    {
+      "doc_id": "itmedia-3f88555c1c6ce401",
+      "title": "トランプ大統領、Googleに「大西洋」の改名を打診 ピチャイCEOが「大洋は勘弁を」と難色",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002533/"
     },
     {
       "doc_id": "itmedia-fe2a31afa28e00aa",
@@ -178,58 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002528/"
     },
     {
-      "doc_id": "itmedia-fa5656baff3ef935",
-      "title": "PHP脆弱性“PoCフライング公開”の経緯、支援財団が公表 混乱広げた企業を名指しで批判",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002525/"
-    },
-    {
-      "doc_id": "itmedia-a1aedbd6b00466e3",
-      "title": "手のひらサイズの“宇宙AIデータセンター”？ JAXA後押しの国内新興が実現目指す 南極・高山での利用も視野",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002510/"
-    },
-    {
-      "doc_id": "itmedia-3c24aca6edc405e8",
-      "title": "カプコン、1177万件漏えい 不正アクセスで",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002523/"
-    },
-    {
-      "doc_id": "itmedia-8f9185229e3acf27",
-      "title": "高市総理、サイバーセキュリティの本を出していた しかも“PHP”から",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002522/"
-    },
-    {
-      "doc_id": "itmedia-6573d406d238a8d0",
-      "title": "豪州でAI「Claude」に保育施設銃撃を予告したら逮捕 弁護側「耳感染症でストレス」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002517/"
-    },
-    {
-      "doc_id": "itmedia-0f64021b174fb326",
-      "title": "PHP「緊急」脆弱性悪用の試み、数百万件に CloudflareのCEOが報告",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002516/"
-    },
-    {
-      "doc_id": "itmedia-c80c12b9e016bf8e",
-      "title": "PHP脆弱性、海外では“政府サイトごと停止”も オランダの電子認証やWikipedia関連サービスなどにも影響",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002514/"
-    },
-    {
-      "doc_id": "itmedia-145c64eae93f25e6",
-      "title": "認証局eMudhraの中間証明書、秘密鍵が「数ミリ秒」で復元可能な脆弱性 大手各社が緊急遮断",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/21/2000002444/"
-    },
-    {
-      "doc_id": "itmedia-9d4f808d99fc3c8b",
-      "title": "PHP脆弱性で高市総理「サイトを一時的に停止することも重要」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002512/"
+      "doc_id": "nazology-7343e561553e1422",
+      "title": "知能の高い人ほど、寄付や選挙の投票をよくしていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203466"
     },
     {
       "doc_id": "nazology-eaea5075965d165a",
@@ -284,12 +290,6 @@
       "title": "「殺人バクテリア」がボトックス注射を支えるまで――ゲノム解析でみえた「細菌の家畜化」",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/202792"
-    },
-    {
-      "doc_id": "nazology-d28c366b2331db45",
-      "title": "人類の持久力は「水に潜る暮らし」で育った可能性がある――持久力の起源に新仮説",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/202803"
     }
   ]
 }
