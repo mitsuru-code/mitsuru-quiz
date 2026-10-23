@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-23T19:17:15+00:00",
-  "now_ms": 1792783035234,
+  "fetched_at": "2026-10-23T23:10:34+00:00",
+  "now_ms": 1792797034980,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,16 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-25a4d49cdfb4e41c",
-      "title": "台風 強い勢力のまま先島諸島接近",
+      "doc_id": "yahoo-0963fd9ffafd7725",
+      "title": "強い台風30号は九州へ 警報級大雨",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599876"
+      "link": "https://news.yahoo.co.jp/pickup/6599881"
     },
     {
-      "doc_id": "yahoo-6b2e65cb300cbf22",
-      "title": "露 ウ南部で一時停戦合意と米発表",
+      "doc_id": "yahoo-18dbedc23fe2fb7b",
+      "title": "ウ南部停戦へ トランプ氏夫人仲介",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599879"
+      "link": "https://news.yahoo.co.jp/pickup/6599882"
     },
     {
       "doc_id": "yahoo-588170559ee90d00",
@@ -52,16 +52,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6599875"
     },
     {
-      "doc_id": "yahoo-6eaf7593233dad2b",
-      "title": "王貞治氏 松井秀喜新監督にエール",
+      "doc_id": "yahoo-fe80a8ccc363e8f0",
+      "title": "巨人 高橋由伸氏にヘッドCを要請",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599877"
+      "link": "https://news.yahoo.co.jp/pickup/6599880"
     },
     {
-      "doc_id": "jiji-d04b8bf90a10ede2",
-      "title": "松井氏、０２年以来の巨人復帰 年俸２億円、３年契約―プロ野球",
+      "doc_id": "jiji-b5ce80fdd726afa0",
+      "title": "首相動静（１０月２３日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102301036&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102300193&g=pol"
     },
     {
       "doc_id": "jiji-dda2d77c79b10657",
@@ -70,10 +70,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026102301177&g=int"
     },
     {
-      "doc_id": "jiji-d747bb246b6389c4",
-      "title": "環境省、個人情報２万件超流出か メールサービスに不正アクセス",
+      "doc_id": "jiji-dc5a1e1feb661e1f",
+      "title": "共和、０６年大敗の再現懸念 不人気な戦争と燃料高―米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102301185&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102300692&g=int"
+    },
+    {
+      "doc_id": "jiji-d04b8bf90a10ede2",
+      "title": "松井氏、０２年以来の巨人復帰 年俸２億円、３年契約―プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102301036&g=spo"
     },
     {
       "doc_id": "jiji-2d6248942770df6d",
@@ -82,28 +88,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026102300706&g=soc"
     },
     {
-      "doc_id": "jiji-0acc56809105de4a",
-      "title": "消費税減税、審議本格化 示さぬ財源、議論かみ合わず",
+      "doc_id": "jiji-d747bb246b6389c4",
+      "title": "環境省、個人情報２万件超流出か メールサービスに不正アクセス",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300838&g=pol"
-    },
-    {
-      "doc_id": "jiji-dc5a1e1feb661e1f",
-      "title": "共和、０６年大敗の再現懸念 不人気な戦争と燃料高―米中間選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300692&g=int"
-    },
-    {
-      "doc_id": "jiji-3b7a4a5e75586acd",
-      "title": "２遺体発見、邦人登山者か 約６３００メートルの山中―ネパール",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300999&g=int"
-    },
-    {
-      "doc_id": "jiji-68c88a91a4821b80",
-      "title": "アイゼンハワーゆかりの地球儀破損、ヘグセス国防長官が専門職員使わず",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261023049497a&g=afp"
+      "link": "https://www.jiji.com/jc/article?k=2026102301185&g=pol"
     },
     {
       "doc_id": "jiji-73878ce8a1ea7dac",
@@ -112,16 +100,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026102301096&g=int"
     },
     {
-      "doc_id": "jiji-57ecd3d38d8d15c9",
-      "title": "ガソリン補助の見直し指示 高市首相「出口戦略含め柔軟に」",
+      "doc_id": "jiji-0acc56809105de4a",
+      "title": "消費税減税、審議本格化 示さぬ財源、議論かみ合わず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300839&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102300838&g=pol"
     },
     {
-      "doc_id": "nhk-019cd6b6620bbadf",
-      "title": "台風30号 先島諸島に最接近 暴風や大雨に厳重警戒【気象解説】",
+      "doc_id": "jiji-f1ffd8bbb3b38d12",
+      "title": "パリ近郊で銃乱射、１人死亡 仏大統領「転換点」と危機感",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400159&g=int"
+    },
+    {
+      "doc_id": "jiji-3b7a4a5e75586acd",
+      "title": "２遺体発見、邦人登山者か 約６３００メートルの山中―ネパール",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102300999&g=int"
+    },
+    {
+      "doc_id": "nhk-931a44287a45c7e0",
+      "title": "台風30号 先島諸島が暴風域に 沖縄で2人がけが",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63968"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650"
+    },
+    {
+      "doc_id": "nhk-1027fa73a4a380f6",
+      "title": "改正皇室典範 きょう施行",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64625"
     },
     {
       "doc_id": "nhk-d7777ba322e01010",
@@ -136,16 +142,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261023de64176"
     },
     {
-      "doc_id": "nhk-bafac320cde53180",
-      "title": "政府 ガソリン補助見直しも検討 水準や時期など焦点",
+      "doc_id": "nhk-75c90be36a878140",
+      "title": "台風31号が日本のはるか南東の海上で発生 今後の情報に注意を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64636"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64647"
     },
     {
-      "doc_id": "nhk-1dbb69946e948b43",
-      "title": "消費税減税法案 実質審議入り 支援金など論戦続く",
+      "doc_id": "nhk-17f6af973b6cf7db",
+      "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64640"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652"
     },
     {
       "doc_id": "nhk-49513a5b86cede21",
@@ -154,10 +160,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261023de64499"
     },
     {
-      "doc_id": "nhk-8897777eac1a55eb",
-      "title": "佐川急便 流出した個人情報は最大5300万件超の可能性",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64285"
+      "doc_id": "itmedia-c411754a03da55ae",
+      "title": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/24/2000002564/"
     },
     {
       "doc_id": "itmedia-3f9efc979fdacb70",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002543/"
     },
     {
-      "doc_id": "itmedia-a3324de0b4714ba6",
-      "title": "PayPay、「免許証画像で本人確認」廃止 ICチップ読み取りに統一",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002540/"
+      "doc_id": "nazology-cd517d9e05f0927c",
+      "title": "月は「縮んでいた」、断層の地図で半径の縮みは約42〜46mと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203095"
     },
     {
       "doc_id": "nazology-62497e113837fca1",
@@ -284,12 +290,6 @@
       "title": "「情報をエネルギーに変える」マクスウェルの悪魔、液体の“記憶”まで使えると実験で判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/202985"
-    },
-    {
-      "doc_id": "nazology-d716025de07d7633",
-      "title": "専用の科が必要なほど奇妙な「黄金の木」サンゴを発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203018"
     }
   ]
 }
