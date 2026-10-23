@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-23T10:07:42+00:00",
-  "now_ms": 1792750062960,
+  "fetched_at": "2026-10-23T15:07:36+00:00",
+  "now_ms": 1792768056191,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,112 +10,118 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8ad52eb446a326bc",
-      "title": "滋賀銀と池田泉州HD 経営統合へ",
+      "doc_id": "yahoo-25a4d49cdfb4e41c",
+      "title": "台風 強い勢力のまま先島諸島接近",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599846"
+      "link": "https://news.yahoo.co.jp/pickup/6599876"
     },
     {
-      "doc_id": "yahoo-2cec0fd72fe5ee37",
-      "title": "台風30号 24日にかけ先島諸島接近",
+      "doc_id": "yahoo-6b2e65cb300cbf22",
+      "title": "露 ウ南部で一時停戦合意と米発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599838"
+      "link": "https://news.yahoo.co.jp/pickup/6599879"
     },
     {
-      "doc_id": "yahoo-87d5992fea985ef4",
-      "title": "蔵内氏に金銭 実名で4人目の証言",
+      "doc_id": "yahoo-588170559ee90d00",
+      "title": "タイムズカー情報流出 集団訴訟へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599815"
+      "link": "https://news.yahoo.co.jp/pickup/6599864"
     },
     {
-      "doc_id": "yahoo-73927d7ca8bbb742",
-      "title": "パーク24 流出の146万人に見舞金",
+      "doc_id": "yahoo-b0bd64976d9ebc53",
+      "title": "7歳死亡 法廷で母謝罪も無罪主張",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599823"
+      "link": "https://news.yahoo.co.jp/pickup/6599865"
     },
     {
-      "doc_id": "yahoo-86b2add59a6ae245",
-      "title": "日本政府 露拘束の記者へセーター",
+      "doc_id": "yahoo-e789968801b5ca0b",
+      "title": "元副議長の証言受け 蔵内氏が反論",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599834"
+      "link": "https://news.yahoo.co.jp/pickup/6599861"
     },
     {
-      "doc_id": "yahoo-f33cfb45003a63b4",
-      "title": "パルグループ創業 井上英隆氏死去",
+      "doc_id": "yahoo-efdf16a0b736b99c",
+      "title": "車ドアと路面に首はさまれ 窒息死",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599843"
+      "link": "https://news.yahoo.co.jp/pickup/6599870"
     },
     {
-      "doc_id": "yahoo-f29bf62dca3b81b2",
-      "title": "松井氏 新コーチ1人だけ声かけた",
+      "doc_id": "yahoo-8d105a792d47e2d2",
+      "title": "車に1歳放置し病院勤務疑い 逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599831"
+      "link": "https://news.yahoo.co.jp/pickup/6599875"
     },
     {
-      "doc_id": "yahoo-f8065cdc1f706413",
-      "title": "村上龍さん死去 テレ東がコメント",
+      "doc_id": "yahoo-6eaf7593233dad2b",
+      "title": "王貞治氏 松井秀喜新監督にエール",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599828"
+      "link": "https://news.yahoo.co.jp/pickup/6599877"
     },
     {
-      "doc_id": "jiji-8a12f36c3f25d63c",
+      "doc_id": "jiji-dc5a1e1feb661e1f",
+      "title": "共和、０６年大敗の再現懸念 不人気な戦争と燃料高―米中間選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102300692&g=int"
+    },
+    {
+      "doc_id": "jiji-4f6119ce826907cf",
+      "title": "「少林寺レーシング」少年ら４３人摘発 交番に爆竹、いたずら１１０番―「厳正に対処」・大阪府警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102301041&g=soc"
+    },
+    {
+      "doc_id": "jiji-3b7a4a5e75586acd",
+      "title": "２遺体発見、邦人登山者か 約６３００メートルの山中―ネパール",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102300999&g=int"
+    },
+    {
+      "doc_id": "jiji-3fb45dcdb09a6b25",
+      "title": "ジェプチルチル、暫定資格停止に 東京五輪女子マラソン金",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102301159&g=spo"
+    },
+    {
+      "doc_id": "jiji-73878ce8a1ea7dac",
+      "title": "父親に子供性的虐待の疑惑 メーガン妃「深く苦悩」―英",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102301096&g=int"
+    },
+    {
+      "doc_id": "jiji-a35a51885058c59f",
+      "title": "小林信彦さん死去、９３歳 作家、「唐獅子株式会社」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102300892&g=soc"
+    },
+    {
+      "doc_id": "jiji-251fae2f26fa6f25",
+      "title": "台風３０号、沖縄・先島諸島北方へ ２６日九州接近の恐れ―気象庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102300516&g=soc"
+    },
+    {
+      "doc_id": "jiji-e5c497a646404588",
       "title": "作家の村上龍さん死去、７４歳 「限りなく透明に近いブルー」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300567&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102300567&g=obt"
     },
     {
-      "doc_id": "jiji-57ecd3d38d8d15c9",
-      "title": "ガソリン補助の見直し指示 高市首相「出口戦略含め柔軟に」",
+      "doc_id": "jiji-0acc56809105de4a",
+      "title": "消費税減税、審議本格化 示さぬ財源、議論かみ合わず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300839&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102300838&g=pol"
     },
     {
-      "doc_id": "jiji-7d087f458cccdb47",
-      "title": "巨人新監督に松井秀喜氏 長嶋さんの「９０」背負う―プロ野球",
+      "doc_id": "jiji-dabf8ddc90c2aec0",
+      "title": "グローバルホーク、回収終了 沿岸捜索は継続、原因究明へ―空自",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300496&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102301140&g=soc"
     },
     {
-      "doc_id": "jiji-20c6a7106b65dceb",
-      "title": "「県議会のドン」蔵内氏に就任前５００万円 元副議長が証言―福岡",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300651&g=pol"
-    },
-    {
-      "doc_id": "jiji-b71ca8b65d121297",
-      "title": "ロシア産軽油タンカー、米に出発 ４万トン輸送、１１月７日到着か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300835&g=int"
-    },
-    {
-      "doc_id": "jiji-c3f4f235e9bdb6bc",
-      "title": "ＣＰＴＰＰ加入で供給網強化 日韓経済団体が懇談会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300853&g=int"
-    },
-    {
-      "doc_id": "jiji-0473001a7eb3dc6a",
-      "title": "情報流出頻発、政府体制整備へ 高市首相表明「差し迫った状況」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300867&g=pol"
-    },
-    {
-      "doc_id": "jiji-6552f97ed53203d1",
-      "title": "韓国高裁、ソウル市長に逆転無罪 政治資金法違反、上告審へ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300840&g=int"
-    },
-    {
-      "doc_id": "jiji-6bc7ddac5ad147f6",
-      "title": "長生炭鉱遺骨、身元特定できず 外務省発表",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300775&g=pol"
-    },
-    {
-      "doc_id": "jiji-dd9787e9fdd0d319",
-      "title": "奈良公園に子ジカの死骸４体 人為的か、県警捜査",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300640&g=soc"
+      "doc_id": "nhk-019cd6b6620bbadf",
+      "title": "台風30号 先島諸島に最接近 暴風や大雨に厳重警戒【気象解説】",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63968"
     },
     {
       "doc_id": "nhk-d7777ba322e01010",
@@ -124,22 +130,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261023de64015"
     },
     {
-      "doc_id": "nhk-e6783c3cf6b53c31",
-      "title": "ネパール ヒマラヤ山脈で2人の遺体見つかる 不明の日本人か",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64496"
-    },
-    {
       "doc_id": "nhk-69555ce8bd981fca",
-      "title": "作家の村上龍さん死去「コインロッカー・ベイビーズ」74歳",
+      "title": "作家の村上龍さん死去「コインロッカー・ベイビーズ」 74歳",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261023de64176"
     },
     {
-      "doc_id": "nhk-019cd6b6620bbadf",
-      "title": "台風30号 先島諸島に最接近 暴風や大雨に厳重警戒【ライブ】",
+      "doc_id": "nhk-40be0d8a27363106",
+      "title": "福岡県議会 元副議長が就任前に藏内氏に500万円手渡したと証言",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de63968"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64536"
+    },
+    {
+      "doc_id": "nhk-d2dd4298909252e6",
+      "title": "モスバーガー 流通済みプリペイドカード情報 約57万件が流出",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64388"
     },
     {
       "doc_id": "nhk-8897777eac1a55eb",
@@ -148,16 +154,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261023de64285"
     },
     {
-      "doc_id": "nhk-0d42e43e9baf6a3c",
-      "title": "GMO FX取引のサーバーに不正アクセス 口座で不正操作の相談も",
+      "doc_id": "nhk-1eff7a5ded391ebe",
+      "title": "NHK出版 約12万件の個人情報漏えい 不正アクセスで",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64076"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64585"
     },
     {
-      "doc_id": "nhk-4b450c47f15d5ae2",
-      "title": "「タイムズカー」運転免許証など画像流出の痕跡146万件",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64213"
+      "doc_id": "itmedia-3f9efc979fdacb70",
+      "title": "パナソニックHD子会社、使用禁止の生成AIに従業員約33万人分の個人情報をアップロード",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002562/"
+    },
+    {
+      "doc_id": "itmedia-f9f2dc0d34e29fea",
+      "title": "タイムズカー、3000円の見舞金支払いへ 免許証画像漏えいの146万件対象 55億円の特損計上",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002558/"
+    },
+    {
+      "doc_id": "itmedia-e896a4d3e9e0a9f7",
+      "title": "「チケット当選」装う詐欺メールが急増中──イープラスやローチケ、ぴあかたる手口 フィッシングの専門家に対策を聞いた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002557/"
     },
     {
       "doc_id": "itmedia-221901432d3b1af2",
@@ -214,22 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002540/"
     },
     {
-      "doc_id": "itmedia-0269bf340591826c",
-      "title": "令和12年度からの教科書、「紙」と「デジタル」組み合わせ 文科相指針案",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002537/"
-    },
-    {
-      "doc_id": "itmedia-89546bc33098384d",
-      "title": "「AIでエンジニア派遣は不要になる」のか？ 各社に肌感を聞いた 求められる人材、明確に変化",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002527/"
-    },
-    {
-      "doc_id": "itmedia-912bebdba51d0aac",
-      "title": "“あいまいな指示”を入力されたAIは安全なコーディングができない？ 香港科技大などが調査",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002513/"
+      "doc_id": "nazology-62497e113837fca1",
+      "title": "パルテノン神殿の「錯覚にかんする設計」は多くが神話だった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203609"
     },
     {
       "doc_id": "nazology-f49d63d51df8ad2f",
@@ -284,12 +290,6 @@
       "title": "専用の科が必要なほど奇妙な「黄金の木」サンゴを発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203018"
-    },
-    {
-      "doc_id": "nazology-ef661828e00e5f9a",
-      "title": "史上初の「緑色の星」を発見、白色矮星はカラフルだったと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/202530"
     }
   ]
 }
