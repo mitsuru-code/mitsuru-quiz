@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-24T07:20:28+00:00",
-  "now_ms": 1792826428504,
+  "fetched_at": "2026-10-24T12:42:54+00:00",
+  "now_ms": 1792845774191,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-9354ac5f2cd0ea9c",
-      "title": "正恩氏が電撃訪中 開通の大橋通り",
+      "doc_id": "yahoo-63438972586acfbf",
+      "title": "中国で首相と会談 正恩氏日帰りか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599942"
+      "link": "https://news.yahoo.co.jp/pickup/6599971"
     },
     {
-      "doc_id": "yahoo-c214c9f9a7eed881",
-      "title": "台風30号 26日に九州上陸の恐れ",
+      "doc_id": "yahoo-15078ce91a172b8f",
+      "title": "28日頃北海道で雪 全国的に肌寒く",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599938"
+      "link": "https://news.yahoo.co.jp/pickup/6599944"
     },
     {
-      "doc_id": "yahoo-d42549c1f3781927",
-      "title": "GMO 攻撃者の金銭要求に応じず",
+      "doc_id": "yahoo-16cf7cff674c02e0",
+      "title": "自殺予防にAI 厚労省が効果検証へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599929"
+      "link": "https://news.yahoo.co.jp/pickup/6599967"
     },
     {
-      "doc_id": "yahoo-95be7bda623e9023",
-      "title": "露は「人質外交」解放の米紙記者",
+      "doc_id": "yahoo-91824706341bed86",
+      "title": "モンゴル火災 当局が賠償請求検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599926"
+      "link": "https://news.yahoo.co.jp/pickup/6599972"
     },
     {
-      "doc_id": "yahoo-924caa9efee8e5ef",
-      "title": "ケニア首都で建設中のビルが倒壊",
+      "doc_id": "yahoo-15793261e3d7c131",
+      "title": "お茶の飲み方 健康左右する可能性",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599930"
+      "link": "https://news.yahoo.co.jp/pickup/6599966"
     },
     {
-      "doc_id": "yahoo-2b39bc7f506e185e",
-      "title": "大阪で行方不明の14歳 無事に発見",
+      "doc_id": "yahoo-fd57beffd2270e1d",
+      "title": "槙野監督 判定に「レベル低い」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599935"
+      "link": "https://news.yahoo.co.jp/pickup/6599970"
     },
     {
-      "doc_id": "yahoo-3d14c83fed4a72d8",
-      "title": "松井監督が練習視察 オーラ漂わす",
+      "doc_id": "yahoo-6f60370b2f6ce917",
+      "title": "日本S速報 DeNAvs.ソフトバンク",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599940"
+      "link": "https://news.yahoo.co.jp/pickup/6599976"
     },
     {
-      "doc_id": "yahoo-52d1871c55937340",
-      "title": "山村紅葉 東大に落ち「トラウマ」",
+      "doc_id": "yahoo-eb77ecd4c2c4269b",
+      "title": "ウーマン村本 米で事故に遭い負傷",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599936"
+      "link": "https://news.yahoo.co.jp/pickup/6599963"
+    },
+    {
+      "doc_id": "jiji-dde697abc9dd3437",
+      "title": "台風３０号、２６日に九州接近か 東・西日本は前線で大雨警戒―気象庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400388&g=soc"
     },
     {
       "doc_id": "jiji-47380989b81419ad",
@@ -64,22 +70,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400107&g=pol"
     },
     {
-      "doc_id": "jiji-57ec6201f50c1bcc",
-      "title": "知人女性の死体遺棄容疑 男を逮捕、仙台まで車で運搬―千葉県警",
+      "doc_id": "jiji-431c5d01143e918d",
+      "title": "モンゴル当局が賠償請求検討 ＫＤＤＩ「法令違反ない」―草原火災",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400269&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102400322&g=int"
     },
     {
-      "doc_id": "jiji-2beb26e730bf6acd",
-      "title": "台風３０号、先島諸島北方を北上へ 西日本は前線で大雨警戒―気象庁",
+      "doc_id": "jiji-c1060cbf6a448f94",
+      "title": "アジアパラ大会が閉幕 日本、過去最多の金６４個",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400245&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102400343&g=spo"
     },
     {
-      "doc_id": "jiji-611a4cb687e43d8c",
-      "title": "ＧＭＯインターネットは不正アクセス問題で政府に「能動的サイバー防御」の適用を申請した",
+      "doc_id": "jiji-98c9306182e5e6b6",
+      "title": "神戸、崩し切れず Ｊ１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400298&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102400423&g=spo"
     },
     {
       "doc_id": "jiji-261b3596cd9e2aab",
@@ -88,34 +94,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400163&g=int"
     },
     {
-      "doc_id": "jiji-ad5e3d1b027998b2",
-      "title": "２３区に小型火葬場新設案 住宅からの距離規制見直しも―有識者会議、年末に中間報告・東京都",
+      "doc_id": "jiji-7eb0ddc26167ca91",
+      "title": "スリロットが首位発進 シニアゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400108&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102400422&g=spo"
     },
     {
-      "doc_id": "jiji-974840721565508d",
-      "title": "温暖化で降水量２割増加 千葉豪雨など６事例解析―気象庁・文科省",
+      "doc_id": "jiji-520c6bc3dce2a7ec",
+      "title": "三浦大輔前監督が始球式 プロ野球日本シリーズ・ＤｅＮＡ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400314&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102400443&g=spo"
     },
     {
       "doc_id": "jiji-598d4ca38ae33afb",
-      "title": "北朝鮮の金正恩氏が訪中",
+      "title": "金正恩氏が訪中 昨年９月以来、新大橋を利用―北朝鮮",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102400321&g=int"
     },
     {
-      "doc_id": "jiji-d04b8bf90a10ede2",
-      "title": "松井氏、０２年以来の巨人復帰 年俸２億円、３年契約―プロ野球",
+      "doc_id": "jiji-f80e77c0a250170b",
+      "title": "左サイドが突破口に 流れ呼んだ遠藤、山内続く―Ｊ１・柏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102301036&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102400441&g=spo"
     },
     {
-      "doc_id": "jiji-431c5d01143e918d",
-      "title": "モンゴル当局が賠償請求検討 ＫＤＤＩ「法令違反ない」―草原火災",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400322&g=int"
+      "doc_id": "nhk-931a44287a45c7e0",
+      "title": "【最新情報】台風30号西日本接近へ 西～東日本で大雨のおそれ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650"
     },
     {
       "doc_id": "nhk-708250217736aa8d",
@@ -124,40 +130,46 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64764"
     },
     {
-      "doc_id": "nhk-931a44287a45c7e0",
-      "title": "【最新情報】台風30号 東シナ海を北上 西～東日本で大雨おそれ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650"
-    },
-    {
       "doc_id": "nhk-a05678d28fcf58dd",
-      "title": "“北朝鮮 キム総書記 中国 丹東に到着”韓国複数メディア",
+      "title": "“北朝鮮 キム総書記が中国訪問”中国国営メディアが報道",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64810"
     },
     {
-      "doc_id": "nhk-3d4c00132dbe1bc6",
-      "title": "ワールドシリーズが開幕 第1戦はブルワーズが勝利",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64775"
-    },
-    {
       "doc_id": "nhk-14797697f8de70a6",
-      "title": "台風30号 台湾で1人死亡 500人以上けが 警戒続く",
+      "title": "台風30号 台湾で1人死亡 600人以上けが 日本人学校で門倒れる",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639"
     },
     {
-      "doc_id": "nhk-31f0490dd1cd364c",
-      "title": "ペルーのケイコ・フジモリ大統領初来日へ 高市首相と会談調整",
+      "doc_id": "nhk-17f6af973b6cf7db",
+      "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64758"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652"
     },
     {
-      "doc_id": "nhk-a1251dff736312f3",
-      "title": "イランが米政府職員殺害を計画か 米情報機関が警告",
+      "doc_id": "nhk-f6e7625aca68c52a",
+      "title": "【速報中】日本シリーズ DeNAが牧のHRで同点に ソフトバンク戦",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64782"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64830"
+    },
+    {
+      "doc_id": "nhk-9cac7cd413a49b4d",
+      "title": "鳥取 琴浦町 発電所の風車から出火 けが人なし【動画】",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64864"
+    },
+    {
+      "doc_id": "itmedia-bf6066a3108c5619",
+      "title": "GMO、「能動的サイバー防御」発動を政府に要請 「お名前.com」FX用VPSへの攻撃で",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/24/2000002567/"
+    },
+    {
+      "doc_id": "itmedia-021a252daffce5fe",
+      "title": "GMO、不正取引の被害額を補償へ 見舞金5000円も 「お名前.com」FX用VPSへのサイバー攻撃で",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/24/2000002566/"
     },
     {
       "doc_id": "itmedia-c411754a03da55ae",
@@ -220,16 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002546/"
     },
     {
-      "doc_id": "itmedia-6555c74909fd767b",
-      "title": "日経新聞への不正アクセスで日経BPの利用者情報も約80万件漏えい テレ東などにも影響か",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002544/"
-    },
-    {
-      "doc_id": "itmedia-42d2525044683325",
-      "title": "デジタル庁、公式サイトへの問い合わせ最大1万3000件漏えいか Web制作ツール「Studio」不正アクセスで",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002543/"
+      "doc_id": "nazology-f8e54dec5fd99f72",
+      "title": "−150℃で1年眠ったブタの腎臓、移植するとすぐに尿を作った",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203063"
     },
     {
       "doc_id": "nazology-a45d423499b4be24",
@@ -284,12 +290,6 @@
       "title": "植物は腐った仲間の体から「離れるように動く」と判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203031"
-    },
-    {
-      "doc_id": "nazology-1a0c8bed94012820",
-      "title": "トカゲが「しっぽ切り」をした瞬間が9900万年前の琥珀に残っていた――初の化石証拠",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203104"
     }
   ]
 }
