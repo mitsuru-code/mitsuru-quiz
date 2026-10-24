@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-23T23:10:34+00:00",
-  "now_ms": 1792797034980,
+  "fetched_at": "2026-10-24T01:37:40+00:00",
+  "now_ms": 1792805860634,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,46 +10,46 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-0963fd9ffafd7725",
-      "title": "強い台風30号は九州へ 警報級大雨",
+      "doc_id": "yahoo-1de4b20538cf7ac6",
+      "title": "仏 抗議活動に警官7万人を動員へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599881"
+      "link": "https://news.yahoo.co.jp/pickup/6599903"
     },
     {
-      "doc_id": "yahoo-18dbedc23fe2fb7b",
-      "title": "ウ南部停戦へ トランプ氏夫人仲介",
+      "doc_id": "yahoo-c5edb7900443110d",
+      "title": "英仏 初めて共同で核演習を実施",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599882"
+      "link": "https://news.yahoo.co.jp/pickup/6599904"
     },
     {
-      "doc_id": "yahoo-588170559ee90d00",
-      "title": "タイムズカー情報流出 集団訴訟へ",
+      "doc_id": "yahoo-bf401d617eaf2794",
+      "title": "ヒマラヤで邦人2人死亡 遺体収容",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599864"
+      "link": "https://news.yahoo.co.jp/pickup/6599905"
     },
     {
-      "doc_id": "yahoo-b0bd64976d9ebc53",
-      "title": "7歳死亡 法廷で母謝罪も無罪主張",
+      "doc_id": "yahoo-428238ea504242e1",
+      "title": "県立高で威圧的指導か 精神疾患に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599865"
+      "link": "https://news.yahoo.co.jp/pickup/6599889"
     },
     {
-      "doc_id": "yahoo-e789968801b5ca0b",
-      "title": "元副議長の証言受け 蔵内氏が反論",
+      "doc_id": "yahoo-49b405f37d96b3ae",
+      "title": "9日間に3回 小学校給食に異物混入",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599861"
+      "link": "https://news.yahoo.co.jp/pickup/6599898"
     },
     {
-      "doc_id": "yahoo-efdf16a0b736b99c",
-      "title": "車ドアと路面に首はさまれ 窒息死",
+      "doc_id": "yahoo-87ea6da38d3abc2f",
+      "title": "サイトでAPIキー丸見え状態 研究",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599870"
+      "link": "https://news.yahoo.co.jp/pickup/6599895"
     },
     {
-      "doc_id": "yahoo-8d105a792d47e2d2",
-      "title": "車に1歳放置し病院勤務疑い 逮捕",
+      "doc_id": "yahoo-a680d98c942d54bf",
+      "title": "きょう東京湾大華火祭 なぜ秋に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599875"
+      "link": "https://news.yahoo.co.jp/pickup/6599899"
     },
     {
       "doc_id": "yahoo-fe80a8ccc363e8f0",
@@ -58,22 +58,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6599880"
     },
     {
-      "doc_id": "jiji-b5ce80fdd726afa0",
-      "title": "首相動静（１０月２３日）",
+      "doc_id": "jiji-261b3596cd9e2aab",
+      "title": "ウクライナ南部で２７日から停戦 メラニア夫人の直接働き掛けで実現へ 物資の搬入や住民の避難",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300193&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102400163&g=int"
     },
     {
-      "doc_id": "jiji-dda2d77c79b10657",
-      "title": "ウクライナ南部で局地停戦 前線都市へ人道支援搬入―米ホワイトハウス",
+      "doc_id": "jiji-e36bf2a2fc1e714f",
+      "title": "日独首脳、経済安保で包括宣言へ レアアースや防衛で協力格上げ―企業団、２０超の覚書締結も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102301177&g=int"
-    },
-    {
-      "doc_id": "jiji-dc5a1e1feb661e1f",
-      "title": "共和、０６年大敗の再現懸念 不人気な戦争と燃料高―米中間選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300692&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102300988&g=int"
     },
     {
       "doc_id": "jiji-d04b8bf90a10ede2",
@@ -82,10 +76,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102301036&g=spo"
     },
     {
-      "doc_id": "jiji-2d6248942770df6d",
-      "title": "旧宮家の男系養子可能に 女性皇族、結婚後も身分保持―改正皇室典範施行",
+      "doc_id": "jiji-448357644d4db5ee",
+      "title": "共和現職、惜敗なら認証阻止を 「同姓同名」で混乱、アラスカ州上院選―米司法省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300706&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102400196&g=int"
+    },
+    {
+      "doc_id": "jiji-384f9ec0671321c0",
+      "title": "仏国債の格付け据え置き 債務増と政情不安でも―米ムーディーズ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400213&g=int"
+    },
+    {
+      "doc_id": "jiji-8b334bef739c108a",
+      "title": "女性皇族の結婚、宮内庁が対応に苦慮 儀式の場所や家族の居住 改正皇室典範の施行で",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102300707&g=soc"
     },
     {
       "doc_id": "jiji-d747bb246b6389c4",
@@ -94,28 +100,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102301185&g=pol"
     },
     {
+      "doc_id": "jiji-dc52b558f68f5c5d",
+      "title": "イスラエル首相、西岸全域封鎖を指示 兵士銃撃で大規模掃討作戦",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400186&g=int"
+    },
+    {
+      "doc_id": "jiji-f9a5a5f04f5f6628",
+      "title": "対カナダ５０％関税、一部撤廃 中間選挙で候補者後押し―トランプ米大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400173&g=int"
+    },
+    {
       "doc_id": "jiji-73878ce8a1ea7dac",
       "title": "父親に子供性的虐待の疑惑 メーガン妃「深く苦悩」―英",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102301096&g=int"
-    },
-    {
-      "doc_id": "jiji-0acc56809105de4a",
-      "title": "消費税減税、審議本格化 示さぬ財源、議論かみ合わず",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300838&g=pol"
-    },
-    {
-      "doc_id": "jiji-f1ffd8bbb3b38d12",
-      "title": "パリ近郊で銃乱射、１人死亡 仏大統領「転換点」と危機感",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400159&g=int"
-    },
-    {
-      "doc_id": "jiji-3b7a4a5e75586acd",
-      "title": "２遺体発見、邦人登山者か 約６３００メートルの山中―ネパール",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300999&g=int"
     },
     {
       "doc_id": "nhk-931a44287a45c7e0",
@@ -124,34 +124,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650"
     },
     {
-      "doc_id": "nhk-1027fa73a4a380f6",
-      "title": "改正皇室典範 きょう施行",
+      "doc_id": "nhk-14797697f8de70a6",
+      "title": "台風30号 台湾で1人死亡350人けが 警戒続く",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64625"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639"
     },
     {
-      "doc_id": "nhk-d7777ba322e01010",
-      "title": "巨人新監督に就任 松井秀喜氏が会見「新たな黄金時代を」",
+      "doc_id": "nhk-610c9d56237b2d3a",
+      "title": "KDDI モンゴル自然保護区の大規模火災の経緯公表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64015"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64642"
     },
     {
-      "doc_id": "nhk-69555ce8bd981fca",
-      "title": "作家の村上龍さん死去「コインロッカー・ベイビーズ」 74歳",
+      "doc_id": "nhk-7433bdf6a38baf1b",
+      "title": "フィギュアスケート GPシリーズ第1戦 青木祐奈が首位発進",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64176"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64681"
     },
     {
-      "doc_id": "nhk-75c90be36a878140",
-      "title": "台風31号が日本のはるか南東の海上で発生 今後の情報に注意を",
+      "doc_id": "nhk-a773f617cd566907",
+      "title": "“ウクライナ南部の都市で停戦実現 メラニア夫人仲介”米政権",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64647"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64657"
     },
     {
-      "doc_id": "nhk-17f6af973b6cf7db",
-      "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
+      "doc_id": "nhk-0ddc007a1fd4b5d5",
+      "title": "仏パリ郊外で次々に銃撃1人死亡5人けが テロ事件とみて捜査",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64655"
     },
     {
       "doc_id": "nhk-49513a5b86cede21",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002543/"
     },
     {
+      "doc_id": "nazology-a45d423499b4be24",
+      "title": "人はルールを守る人より「破る人」をまねしやすいと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203444"
+    },
+    {
       "doc_id": "nazology-cd517d9e05f0927c",
       "title": "月は「縮んでいた」、断層の地図で半径の縮みは約42〜46mと判明",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "トカゲが「しっぽ切り」をした瞬間が9900万年前の琥珀に残っていた――初の化石証拠",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203104"
-    },
-    {
-      "doc_id": "nazology-e90f8e3db631288e",
-      "title": "「情報をエネルギーに変える」マクスウェルの悪魔、液体の“記憶”まで使えると実験で判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/202985"
     }
   ]
 }
