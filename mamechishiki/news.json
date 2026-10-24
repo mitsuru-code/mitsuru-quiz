@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-24T01:37:40+00:00",
-  "now_ms": 1792805860634,
+  "fetched_at": "2026-10-24T07:20:28+00:00",
+  "now_ms": 1792826428504,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,100 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-1de4b20538cf7ac6",
-      "title": "仏 抗議活動に警官7万人を動員へ",
+      "doc_id": "yahoo-9354ac5f2cd0ea9c",
+      "title": "正恩氏が電撃訪中 開通の大橋通り",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599903"
+      "link": "https://news.yahoo.co.jp/pickup/6599942"
     },
     {
-      "doc_id": "yahoo-c5edb7900443110d",
-      "title": "英仏 初めて共同で核演習を実施",
+      "doc_id": "yahoo-c214c9f9a7eed881",
+      "title": "台風30号 26日に九州上陸の恐れ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599904"
+      "link": "https://news.yahoo.co.jp/pickup/6599938"
     },
     {
-      "doc_id": "yahoo-bf401d617eaf2794",
-      "title": "ヒマラヤで邦人2人死亡 遺体収容",
+      "doc_id": "yahoo-d42549c1f3781927",
+      "title": "GMO 攻撃者の金銭要求に応じず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599905"
+      "link": "https://news.yahoo.co.jp/pickup/6599929"
     },
     {
-      "doc_id": "yahoo-428238ea504242e1",
-      "title": "県立高で威圧的指導か 精神疾患に",
+      "doc_id": "yahoo-95be7bda623e9023",
+      "title": "露は「人質外交」解放の米紙記者",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599889"
+      "link": "https://news.yahoo.co.jp/pickup/6599926"
     },
     {
-      "doc_id": "yahoo-49b405f37d96b3ae",
-      "title": "9日間に3回 小学校給食に異物混入",
+      "doc_id": "yahoo-924caa9efee8e5ef",
+      "title": "ケニア首都で建設中のビルが倒壊",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599898"
+      "link": "https://news.yahoo.co.jp/pickup/6599930"
     },
     {
-      "doc_id": "yahoo-87ea6da38d3abc2f",
-      "title": "サイトでAPIキー丸見え状態 研究",
+      "doc_id": "yahoo-2b39bc7f506e185e",
+      "title": "大阪で行方不明の14歳 無事に発見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599895"
+      "link": "https://news.yahoo.co.jp/pickup/6599935"
     },
     {
-      "doc_id": "yahoo-a680d98c942d54bf",
-      "title": "きょう東京湾大華火祭 なぜ秋に",
+      "doc_id": "yahoo-3d14c83fed4a72d8",
+      "title": "松井監督が練習視察 オーラ漂わす",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599899"
+      "link": "https://news.yahoo.co.jp/pickup/6599940"
     },
     {
-      "doc_id": "yahoo-fe80a8ccc363e8f0",
-      "title": "巨人 高橋由伸氏にヘッドCを要請",
+      "doc_id": "yahoo-52d1871c55937340",
+      "title": "山村紅葉 東大に落ち「トラウマ」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599880"
+      "link": "https://news.yahoo.co.jp/pickup/6599936"
+    },
+    {
+      "doc_id": "jiji-47380989b81419ad",
+      "title": "首相Ｘ返信、外国人関連急増 「移民反対」相次ぐケースも",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400107&g=pol"
+    },
+    {
+      "doc_id": "jiji-57ec6201f50c1bcc",
+      "title": "知人女性の死体遺棄容疑 男を逮捕、仙台まで車で運搬―千葉県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400269&g=soc"
+    },
+    {
+      "doc_id": "jiji-2beb26e730bf6acd",
+      "title": "台風３０号、先島諸島北方を北上へ 西日本は前線で大雨警戒―気象庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400245&g=soc"
+    },
+    {
+      "doc_id": "jiji-611a4cb687e43d8c",
+      "title": "ＧＭＯインターネットは不正アクセス問題で政府に「能動的サイバー防御」の適用を申請した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400298&g=flash"
     },
     {
       "doc_id": "jiji-261b3596cd9e2aab",
-      "title": "ウクライナ南部で２７日から停戦 メラニア夫人の直接働き掛けで実現へ 物資の搬入や住民の避難",
+      "title": "ウクライナ南部で局地停戦 ２７日から、前線都市へ人道支援搬入―メラニア夫人が仲介",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102400163&g=int"
     },
     {
-      "doc_id": "jiji-e36bf2a2fc1e714f",
-      "title": "日独首脳、経済安保で包括宣言へ レアアースや防衛で協力格上げ―企業団、２０超の覚書締結も",
+      "doc_id": "jiji-ad5e3d1b027998b2",
+      "title": "２３区に小型火葬場新設案 住宅からの距離規制見直しも―有識者会議、年末に中間報告・東京都",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300988&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102400108&g=soc"
+    },
+    {
+      "doc_id": "jiji-974840721565508d",
+      "title": "温暖化で降水量２割増加 千葉豪雨など６事例解析―気象庁・文科省",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400314&g=soc"
+    },
+    {
+      "doc_id": "jiji-598d4ca38ae33afb",
+      "title": "北朝鮮の金正恩氏が訪中",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400321&g=int"
     },
     {
       "doc_id": "jiji-d04b8bf90a10ede2",
@@ -76,88 +112,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026102301036&g=spo"
     },
     {
-      "doc_id": "jiji-448357644d4db5ee",
-      "title": "共和現職、惜敗なら認証阻止を 「同姓同名」で混乱、アラスカ州上院選―米司法省",
+      "doc_id": "jiji-431c5d01143e918d",
+      "title": "モンゴル当局が賠償請求検討 ＫＤＤＩ「法令違反ない」―草原火災",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400196&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102400322&g=int"
     },
     {
-      "doc_id": "jiji-384f9ec0671321c0",
-      "title": "仏国債の格付け据え置き 債務増と政情不安でも―米ムーディーズ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400213&g=int"
-    },
-    {
-      "doc_id": "jiji-8b334bef739c108a",
-      "title": "女性皇族の結婚、宮内庁が対応に苦慮 儀式の場所や家族の居住 改正皇室典範の施行で",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300707&g=soc"
-    },
-    {
-      "doc_id": "jiji-d747bb246b6389c4",
-      "title": "環境省、個人情報２万件超流出か メールサービスに不正アクセス",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102301185&g=pol"
-    },
-    {
-      "doc_id": "jiji-dc52b558f68f5c5d",
-      "title": "イスラエル首相、西岸全域封鎖を指示 兵士銃撃で大規模掃討作戦",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400186&g=int"
-    },
-    {
-      "doc_id": "jiji-f9a5a5f04f5f6628",
-      "title": "対カナダ５０％関税、一部撤廃 中間選挙で候補者後押し―トランプ米大統領",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400173&g=int"
-    },
-    {
-      "doc_id": "jiji-73878ce8a1ea7dac",
-      "title": "父親に子供性的虐待の疑惑 メーガン妃「深く苦悩」―英",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102301096&g=int"
+      "doc_id": "nhk-708250217736aa8d",
+      "title": "GMO 不正アクセス問題で政府に「能動的サイバー防御」を要請",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64764"
     },
     {
       "doc_id": "nhk-931a44287a45c7e0",
-      "title": "台風30号 先島諸島が暴風域に 沖縄で2人がけが",
+      "title": "【最新情報】台風30号 東シナ海を北上 西～東日本で大雨おそれ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650"
     },
     {
+      "doc_id": "nhk-a05678d28fcf58dd",
+      "title": "“北朝鮮 キム総書記 中国 丹東に到着”韓国複数メディア",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64810"
+    },
+    {
+      "doc_id": "nhk-3d4c00132dbe1bc6",
+      "title": "ワールドシリーズが開幕 第1戦はブルワーズが勝利",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64775"
+    },
+    {
       "doc_id": "nhk-14797697f8de70a6",
-      "title": "台風30号 台湾で1人死亡350人けが 警戒続く",
+      "title": "台風30号 台湾で1人死亡 500人以上けが 警戒続く",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639"
     },
     {
-      "doc_id": "nhk-610c9d56237b2d3a",
-      "title": "KDDI モンゴル自然保護区の大規模火災の経緯公表",
+      "doc_id": "nhk-31f0490dd1cd364c",
+      "title": "ペルーのケイコ・フジモリ大統領初来日へ 高市首相と会談調整",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64642"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64758"
     },
     {
-      "doc_id": "nhk-7433bdf6a38baf1b",
-      "title": "フィギュアスケート GPシリーズ第1戦 青木祐奈が首位発進",
+      "doc_id": "nhk-a1251dff736312f3",
+      "title": "イランが米政府職員殺害を計画か 米情報機関が警告",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64681"
-    },
-    {
-      "doc_id": "nhk-a773f617cd566907",
-      "title": "“ウクライナ南部の都市で停戦実現 メラニア夫人仲介”米政権",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64657"
-    },
-    {
-      "doc_id": "nhk-0ddc007a1fd4b5d5",
-      "title": "仏パリ郊外で次々に銃撃1人死亡5人けが テロ事件とみて捜査",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64655"
-    },
-    {
-      "doc_id": "nhk-49513a5b86cede21",
-      "title": "アパレル大手「アンドエスティ」客の個人情報約250万件流出か",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261023de64499"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64782"
     },
     {
       "doc_id": "itmedia-c411754a03da55ae",
