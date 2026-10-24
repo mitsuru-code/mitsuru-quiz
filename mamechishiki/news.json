@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-24T19:30:52+00:00",
-  "now_ms": 1792870252111,
+  "fetched_at": "2026-10-24T22:30:41+00:00",
+  "now_ms": 1792881041108,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -52,10 +52,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6599970"
     },
     {
-      "doc_id": "yahoo-5ecfec68597003d7",
-      "title": "ダレノガレ36歳「結婚願望ない」",
+      "doc_id": "yahoo-26cccfd95c110dcc",
+      "title": "VIVANT 最終回直前に2h特番放送",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599984"
+      "link": "https://news.yahoo.co.jp/pickup/6599991"
     },
     {
       "doc_id": "jiji-598d4ca38ae33afb",
@@ -64,16 +64,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400321&g=int"
     },
     {
-      "doc_id": "jiji-cbeec7feea7558f2",
-      "title": "ソフトバンクが先勝 延長十一回、庄子が決勝打―プロ野球・日本シリーズ",
+      "doc_id": "jiji-fd589cc802500fb0",
+      "title": "台風３０号、先島諸島北方を北上へ 西日本は前線で大雨警戒―気象庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400419&g=spo"
-    },
-    {
-      "doc_id": "jiji-47380989b81419ad",
-      "title": "首相Ｘ返信、外国人関連急増 「移民反対」相次ぐケースも",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400107&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102400245&g=wth"
     },
     {
       "doc_id": "jiji-dde697abc9dd3437",
@@ -82,22 +76,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400388&g=soc"
     },
     {
-      "doc_id": "jiji-a83ffb33f7af2ecf",
-      "title": "２５日の予告先発投手 プロ野球・日本シリーズ第２戦",
+      "doc_id": "jiji-f5a916172dbac072",
+      "title": "首相動静（１０月２４日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400517&g=spo"
-    },
-    {
-      "doc_id": "jiji-7b7ef77eaa61a1a4",
-      "title": "邦人記者拘束、長期化の様相 対ロ交渉、進展兆しなく",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400302&g=pol"
-    },
-    {
-      "doc_id": "jiji-cff8cdf867daef9a",
-      "title": "２年目、ソフトバンクの庄子が激戦にけり 横浜スタジアムで躍動―プロ野球・日本シリーズ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400527&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102400200&g=pol"
     },
     {
       "doc_id": "jiji-431c5d01143e918d",
@@ -106,28 +88,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400322&g=int"
     },
     {
-      "doc_id": "jiji-261b3596cd9e2aab",
-      "title": "ウクライナ南部で局地停戦 ２７日から、前線都市へ人道支援搬入―メラニア夫人が仲介",
+      "doc_id": "jiji-133ec8d2ba3475b2",
+      "title": "枝野氏、新党結党に否定的 立民復党に意欲にじます",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400163&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102400370&g=pol"
     },
     {
-      "doc_id": "jiji-e36bf2a2fc1e714f",
-      "title": "日独首脳、経済安保で包括宣言へ レアアースや防衛で協力格上げ―企業団、２０超の覚書締結も",
+      "doc_id": "jiji-70791f78e8601ae3",
+      "title": "モンゴル自然保護区で大規模火災 ＫＤＤＩ関連企業の車両が火元か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300988&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102300643&g=int"
     },
     {
-      "doc_id": "nhk-931a44287a45c7e0",
-      "title": "【最新情報】台風30号西日本接近へ 西～東日本で大雨のおそれ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650"
+      "doc_id": "jiji-e46fc7aaa0859ed0",
+      "title": "金正恩氏の電撃訪問、中朝の思惑一致 「対トランプ氏」見据え",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400459&g=int"
     },
     {
-      "doc_id": "nhk-f6e7625aca68c52a",
-      "title": "日本シリーズ ソフトバンク延長制し先勝 庄子が決勝打【詳報】",
+      "doc_id": "jiji-7b7ef77eaa61a1a4",
+      "title": "邦人記者拘束、長期化の様相 対ロ交渉、進展兆しなく",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400302&g=pol"
+    },
+    {
+      "doc_id": "jiji-47380989b81419ad",
+      "title": "首相Ｘ返信、外国人関連急増 「移民反対」相次ぐケースも",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400107&g=pol"
+    },
+    {
+      "doc_id": "nhk-33cabb9bcd40ab13",
+      "title": "【最新情報】台風30号九州に接近へ 広範囲で大雨おそれ 関東は",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64830"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64932"
+    },
+    {
+      "doc_id": "nhk-4aeeb9e490282c36",
+      "title": "政府に緊急要請のGMO 被害拡大防げるか 利用者に呼びかけ強化",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64946"
+    },
+    {
+      "doc_id": "nhk-0900f5944193eb04",
+      "title": "フランスで再び大規模なデモ 内相“暴力封じ込めた”強調",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de64977"
+    },
+    {
+      "doc_id": "nhk-6be645d6a7dda5cf",
+      "title": "ウクライナ南部で限定停戦 大統領は人道状況改善に期待示す",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de64976"
     },
     {
       "doc_id": "nhk-e1a4b8dbbdad15a2",
@@ -136,28 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64937"
     },
     {
-      "doc_id": "nhk-708250217736aa8d",
-      "title": "GMO 不正アクセス問題で政府に「能動的サイバー防御」を要請",
+      "doc_id": "nhk-9c66dee3b31a540f",
+      "title": "キム総書記訪中 米朝交渉再開可能性見据え意思疎通のねらいか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64764"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64966"
     },
     {
-      "doc_id": "nhk-14797697f8de70a6",
-      "title": "台風30号 台湾で1人死亡 600人以上けが 日本人学校で門倒れる",
+      "doc_id": "nhk-55b674f4e98261cc",
+      "title": "海底のプラごみ対策 分解酵素混ぜた新たなプラスチック開発",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639"
-    },
-    {
-      "doc_id": "nhk-a23e4cb135d59cb8",
-      "title": "愛知・名古屋アジアパラ大会閉会式 7日間の熱戦に幕",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64785"
-    },
-    {
-      "doc_id": "nhk-a8dee6584ab5ce22",
-      "title": "サッカーJ1 第12節 広島が快勝 浅野拓磨が復帰後初ゴール",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64945"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64624"
     },
     {
       "doc_id": "itmedia-bf6066a3108c5619",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002546/"
     },
     {
+      "doc_id": "nazology-ce37777fca93f604",
+      "title": "愛犬をなでた飼い主ほど「次のストレス」に体が落ち着いて反応すると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203283"
+    },
+    {
       "doc_id": "nazology-f8e54dec5fd99f72",
       "title": "−150℃で1年眠ったブタの腎臓、移植するとすぐに尿を作った",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "知能テストの成績がよい人ほど自分の容姿を低めに評価する傾向――ところが大卒の人は高めだった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203115"
-    },
-    {
-      "doc_id": "nazology-d01684e4eac19ce6",
-      "title": "植物は腐った仲間の体から「離れるように動く」と判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203031"
     }
   ]
 }
