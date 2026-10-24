@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-24T12:42:54+00:00",
-  "now_ms": 1792845774191,
+  "fetched_at": "2026-10-24T16:37:27+00:00",
+  "now_ms": 1792859847768,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,28 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-63438972586acfbf",
-      "title": "中国で首相と会談 正恩氏日帰りか",
+      "doc_id": "yahoo-8bf549aad8c3d158",
+      "title": "台風 西-東日本26日が雨ピークに",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599971"
+      "link": "https://news.yahoo.co.jp/pickup/6599973"
     },
     {
-      "doc_id": "yahoo-15078ce91a172b8f",
-      "title": "28日頃北海道で雪 全国的に肌寒く",
+      "doc_id": "yahoo-13a842c4747a16ec",
+      "title": "能動サイバー防御要請 政府側慎重",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599944"
+      "link": "https://news.yahoo.co.jp/pickup/6599979"
     },
     {
-      "doc_id": "yahoo-16cf7cff674c02e0",
-      "title": "自殺予防にAI 厚労省が効果検証へ",
+      "doc_id": "yahoo-1e5ac8c910e94440",
+      "title": "外来カミキリ被害拡大の恐れ 試算",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599967"
+      "link": "https://news.yahoo.co.jp/pickup/6599980"
     },
     {
-      "doc_id": "yahoo-91824706341bed86",
-      "title": "モンゴル火災 当局が賠償請求検討",
+      "doc_id": "yahoo-93576d75d9d6fe04",
+      "title": "放獣したツキノワグマが再び出没",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599972"
+      "link": "https://news.yahoo.co.jp/pickup/6599990"
     },
     {
       "doc_id": "yahoo-15793261e3d7c131",
@@ -40,22 +40,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6599966"
     },
     {
+      "doc_id": "yahoo-545b1abac76f4993",
+      "title": "日本S先勝チーム 優勝確率約61%",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6599989"
+    },
+    {
       "doc_id": "yahoo-fd57beffd2270e1d",
       "title": "槙野監督 判定に「レベル低い」",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6599970"
     },
     {
-      "doc_id": "yahoo-6f60370b2f6ce917",
-      "title": "日本S速報 DeNAvs.ソフトバンク",
+      "doc_id": "yahoo-5ecfec68597003d7",
+      "title": "ダレノガレ36歳「結婚願望ない」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599976"
+      "link": "https://news.yahoo.co.jp/pickup/6599984"
     },
     {
-      "doc_id": "yahoo-eb77ecd4c2c4269b",
-      "title": "ウーマン村本 米で事故に遭い負傷",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6599963"
+      "doc_id": "jiji-cad77aa6930ac74a",
+      "title": "山本、最善尽くす フィギュアＧＰ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400487&g=spo"
+    },
+    {
+      "doc_id": "jiji-cbeec7feea7558f2",
+      "title": "ソフトバンクが先勝 延長十一回、庄子が決勝打―プロ野球・日本シリーズ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400419&g=spo"
     },
     {
       "doc_id": "jiji-dde697abc9dd3437",
@@ -70,22 +82,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400107&g=pol"
     },
     {
+      "doc_id": "jiji-cff8cdf867daef9a",
+      "title": "２年目、ソフトバンクの庄子が激戦にけり 横浜スタジアムで躍動―プロ野球・日本シリーズ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400527&g=spo"
+    },
+    {
+      "doc_id": "jiji-a83ffb33f7af2ecf",
+      "title": "２５日の予告先発投手 プロ野球・日本シリーズ第２戦",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400517&g=spo"
+    },
+    {
+      "doc_id": "jiji-e46fc7aaa0859ed0",
+      "title": "金正恩氏の電撃訪問、中朝の思惑一致 「対トランプ氏」見据え",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400459&g=int"
+    },
+    {
+      "doc_id": "jiji-d9a68cf78e201128",
+      "title": "日本、フィジーに敗れる 日本協会１００周年記念試合―ラグビー",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102400368&g=spo"
+    },
+    {
       "doc_id": "jiji-431c5d01143e918d",
       "title": "モンゴル当局が賠償請求検討 ＫＤＤＩ「法令違反ない」―草原火災",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102400322&g=int"
-    },
-    {
-      "doc_id": "jiji-c1060cbf6a448f94",
-      "title": "アジアパラ大会が閉幕 日本、過去最多の金６４個",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400343&g=spo"
-    },
-    {
-      "doc_id": "jiji-98c9306182e5e6b6",
-      "title": "神戸、崩し切れず Ｊ１",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400423&g=spo"
     },
     {
       "doc_id": "jiji-261b3596cd9e2aab",
@@ -94,34 +118,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400163&g=int"
     },
     {
-      "doc_id": "jiji-7eb0ddc26167ca91",
-      "title": "スリロットが首位発進 シニアゴルフ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400422&g=spo"
-    },
-    {
-      "doc_id": "jiji-520c6bc3dce2a7ec",
-      "title": "三浦大輔前監督が始球式 プロ野球日本シリーズ・ＤｅＮＡ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400443&g=spo"
-    },
-    {
-      "doc_id": "jiji-598d4ca38ae33afb",
-      "title": "金正恩氏が訪中 昨年９月以来、新大橋を利用―北朝鮮",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400321&g=int"
-    },
-    {
-      "doc_id": "jiji-f80e77c0a250170b",
-      "title": "左サイドが突破口に 流れ呼んだ遠藤、山内続く―Ｊ１・柏",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400441&g=spo"
-    },
-    {
       "doc_id": "nhk-931a44287a45c7e0",
       "title": "【最新情報】台風30号西日本接近へ 西～東日本で大雨のおそれ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64650"
+    },
+    {
+      "doc_id": "nhk-f6e7625aca68c52a",
+      "title": "日本シリーズ ソフトバンク延長制し先勝 庄子が決勝打【詳報】",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64830"
+    },
+    {
+      "doc_id": "nhk-e1a4b8dbbdad15a2",
+      "title": "神奈川 秦野の弘法山公園近くでクマ再出没 放獣個体と判明",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64937"
     },
     {
       "doc_id": "nhk-708250217736aa8d",
@@ -130,34 +142,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64764"
     },
     {
-      "doc_id": "nhk-a05678d28fcf58dd",
-      "title": "“北朝鮮 キム総書記が中国訪問”中国国営メディアが報道",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64810"
-    },
-    {
       "doc_id": "nhk-14797697f8de70a6",
       "title": "台風30号 台湾で1人死亡 600人以上けが 日本人学校で門倒れる",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64639"
     },
     {
-      "doc_id": "nhk-17f6af973b6cf7db",
-      "title": "フランスで再び抗議デモ実施へ パリの街に警戒感広がる",
+      "doc_id": "nhk-a23e4cb135d59cb8",
+      "title": "愛知・名古屋アジアパラ大会閉会式 7日間の熱戦に幕",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64652"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64785"
     },
     {
-      "doc_id": "nhk-f6e7625aca68c52a",
-      "title": "【速報中】日本シリーズ DeNAが牧のHRで同点に ソフトバンク戦",
+      "doc_id": "nhk-a8dee6584ab5ce22",
+      "title": "サッカーJ1 第12節 広島が快勝 浅野拓磨が復帰後初ゴール",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64830"
-    },
-    {
-      "doc_id": "nhk-9cac7cd413a49b4d",
-      "title": "鳥取 琴浦町 発電所の風車から出火 けが人なし【動画】",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64864"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64945"
     },
     {
       "doc_id": "itmedia-bf6066a3108c5619",
