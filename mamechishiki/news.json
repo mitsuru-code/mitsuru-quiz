@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-24T16:37:27+00:00",
-  "now_ms": 1792859847768,
+  "fetched_at": "2026-10-24T19:30:52+00:00",
+  "now_ms": 1792870252111,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,10 +58,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6599984"
     },
     {
-      "doc_id": "jiji-cad77aa6930ac74a",
-      "title": "山本、最善尽くす フィギュアＧＰ",
+      "doc_id": "jiji-598d4ca38ae33afb",
+      "title": "北朝鮮の金正恩氏、１年ぶり訪中 新大橋を利用、中国序列４位と会談",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400487&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102400321&g=int"
     },
     {
       "doc_id": "jiji-cbeec7feea7558f2",
@@ -70,22 +70,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400419&g=spo"
     },
     {
-      "doc_id": "jiji-dde697abc9dd3437",
-      "title": "台風３０号、２６日に九州接近か 東・西日本は前線で大雨警戒―気象庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400388&g=soc"
-    },
-    {
       "doc_id": "jiji-47380989b81419ad",
       "title": "首相Ｘ返信、外国人関連急増 「移民反対」相次ぐケースも",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102400107&g=pol"
     },
     {
-      "doc_id": "jiji-cff8cdf867daef9a",
-      "title": "２年目、ソフトバンクの庄子が激戦にけり 横浜スタジアムで躍動―プロ野球・日本シリーズ",
+      "doc_id": "jiji-dde697abc9dd3437",
+      "title": "台風３０号、２６日に九州接近か 東・西日本は前線で大雨警戒―気象庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400527&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102400388&g=soc"
     },
     {
       "doc_id": "jiji-a83ffb33f7af2ecf",
@@ -94,16 +88,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026102400517&g=spo"
     },
     {
-      "doc_id": "jiji-e46fc7aaa0859ed0",
-      "title": "金正恩氏の電撃訪問、中朝の思惑一致 「対トランプ氏」見据え",
+      "doc_id": "jiji-7b7ef77eaa61a1a4",
+      "title": "邦人記者拘束、長期化の様相 対ロ交渉、進展兆しなく",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400459&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102400302&g=pol"
     },
     {
-      "doc_id": "jiji-d9a68cf78e201128",
-      "title": "日本、フィジーに敗れる 日本協会１００周年記念試合―ラグビー",
+      "doc_id": "jiji-cff8cdf867daef9a",
+      "title": "２年目、ソフトバンクの庄子が激戦にけり 横浜スタジアムで躍動―プロ野球・日本シリーズ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400368&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102400527&g=spo"
     },
     {
       "doc_id": "jiji-431c5d01143e918d",
@@ -116,6 +110,12 @@
       "title": "ウクライナ南部で局地停戦 ２７日から、前線都市へ人道支援搬入―メラニア夫人が仲介",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102400163&g=int"
+    },
+    {
+      "doc_id": "jiji-e36bf2a2fc1e714f",
+      "title": "日独首脳、経済安保で包括宣言へ レアアースや防衛で協力格上げ―企業団、２０超の覚書締結も",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102300988&g=int"
     },
     {
       "doc_id": "nhk-931a44287a45c7e0",
