@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-25T06:12:23+00:00",
-  "now_ms": 1792908743835,
+  "fetched_at": "2026-10-25T11:36:59+00:00",
+  "now_ms": 1792928219184,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,112 +10,112 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-7c2fb7158bcdbb8f",
-      "title": "近畿で非常に激しい雨 26日も警戒",
+      "doc_id": "yahoo-058a8b7c57bf8b0a",
+      "title": "内閣支持率45%で横ばい 毎日調査",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600051"
+      "link": "https://news.yahoo.co.jp/pickup/6600099"
     },
     {
-      "doc_id": "yahoo-a6d35e7b54b59bab",
-      "title": "金正恩氏の訪中 習氏とは会談せず",
+      "doc_id": "yahoo-32345856953f001f",
+      "title": "那覇市長選 現職知念氏が再選確実",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600041"
+      "link": "https://news.yahoo.co.jp/pickup/6600101"
     },
     {
-      "doc_id": "yahoo-dec476b3b4596d0a",
-      "title": "AIに暴言を吐く行為 識者らの見解",
+      "doc_id": "yahoo-b93108634540a390",
+      "title": "イオン爆発犠牲者7人 南側で発見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600040"
+      "link": "https://news.yahoo.co.jp/pickup/6600100"
     },
     {
-      "doc_id": "yahoo-0efae35f29c03da3",
-      "title": "退職代行「バブル」崩壊? なぜ今",
+      "doc_id": "yahoo-d5291a094f58cd68",
+      "title": "2家族8人乗る車横転 20代の母死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600048"
+      "link": "https://news.yahoo.co.jp/pickup/6600091"
     },
     {
-      "doc_id": "yahoo-d8ec5a3e361f3c47",
-      "title": "美容室の倒産高水準 競争で二極化",
+      "doc_id": "yahoo-066ef1c83b8e28fa",
+      "title": "NY大司教区 性的虐待で和解合意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600033"
+      "link": "https://news.yahoo.co.jp/pickup/6600082"
     },
     {
-      "doc_id": "yahoo-bca1afdd05458a56",
-      "title": "巨人 ドラ1浅野翔吾を自由契約",
+      "doc_id": "yahoo-d95fdbef1abbaadd",
+      "title": "速報・日本S第2戦 DeNA対SB",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600045"
+      "link": "https://news.yahoo.co.jp/pickup/6600094"
     },
     {
-      "doc_id": "yahoo-c0734ed17c9c43dc",
-      "title": "貴島明日香 妊娠の喜びや不安語る",
+      "doc_id": "yahoo-576b1f1877aa4ddc",
+      "title": "G浅野を自由契約 育成契約打診か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600053"
+      "link": "https://news.yahoo.co.jp/pickup/6600070"
     },
     {
-      "doc_id": "yahoo-c7775f4ba9d7b226",
-      "title": "菊地亜美 マレーシアに移住の理由",
+      "doc_id": "yahoo-5fadcf7b04ebe9d1",
+      "title": "今田美桜 公式FC閉鎖の理由説明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600044"
+      "link": "https://news.yahoo.co.jp/pickup/6600090"
     },
     {
-      "doc_id": "jiji-e8bae4e24e58b4b2",
-      "title": "野党、支援金詳細巡り追及 消費減税審議、高市首相の出席要求",
+      "doc_id": "jiji-08cb49e543965f7a",
+      "title": "台風３０号、九州西方で温帯低気圧へ 東・西日本は前線で大雨警戒―気象庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500185&g=pol"
-    },
-    {
-      "doc_id": "jiji-1f33f594a1c1922e",
-      "title": "両陛下、高知入り 国民文化祭開会式に出席",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500097&g=soc"
-    },
-    {
-      "doc_id": "jiji-1e1f91744d37d6be",
-      "title": "小笠原で震度３",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500190&g=soc"
-    },
-    {
-      "doc_id": "jiji-8288309132d4b923",
-      "title": "米ＦＲＢ、金利据え置き見通し インフレ加速も動向見極め―２７、２８日に金融政策会合",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102400296&g=int"
-    },
-    {
-      "doc_id": "jiji-e30a4a4b262f053f",
-      "title": "怖さに勝った中井亜美 思わず涙―フィギュアＧＰ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500161&g=spo"
-    },
-    {
-      "doc_id": "jiji-70791f78e8601ae3",
-      "title": "モンゴル自然保護区で大規模火災 ＫＤＤＩ関連企業の車両が火元か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102300643&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102500237&g=soc"
     },
     {
       "doc_id": "jiji-50cab174494b2ecd",
-      "title": "オバマ氏、急進左派の支持呼び掛け トランプ氏こき下ろす―米中間選挙",
+      "title": "オバマ氏、激戦州でトランプ氏を猛批判 急進左派への支持呼び掛け―米中間選挙",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102500230&g=int"
     },
     {
-      "doc_id": "jiji-78616f82a96b152d",
-      "title": "北九州市の路上で２０代女性刺される 男逃走、殺人未遂容疑で捜査",
+      "doc_id": "jiji-2d8d1461b0295a7f",
+      "title": "ソフトバンク、五回終え２―０ 正木が先制ソロ―プロ野球・日本シリーズ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500225&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102500322&g=spo"
     },
     {
-      "doc_id": "jiji-043654944efc1e0f",
-      "title": "中井亜美、逆転で連覇 青木祐奈４位、住吉りをん６位―フィギュアＧＰ",
+      "doc_id": "jiji-22d49c72ae8b8830",
+      "title": "強盗殺人容疑で男２人逮捕 和菓子店の高齢夫妻襲撃―山口県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500148&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102500347&g=soc"
     },
     {
-      "doc_id": "jiji-4f6119ce826907cf",
-      "title": "「少林寺レーシング」少年ら４３人摘発 交番に爆竹、いたずら１１０番―「厳正に対処」・大阪府警",
+      "doc_id": "jiji-d0de5c253865b68e",
+      "title": "金正恩氏、謎を呼ぶ日帰り訪中 「対米」巡り分かれる見方",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102301041&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102500277&g=int"
+    },
+    {
+      "doc_id": "jiji-e2bcbc496dff3b98",
+      "title": "韓国、超高齢社会見据え「治癒農業」推進 ビジネス化で地方振興―トラウマ抱える元軍人もケア",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500133&g=int"
+    },
+    {
+      "doc_id": "jiji-531747787ec695d9",
+      "title": "吉田優利、米ツアー初Ｖ ４打差を逆転―米女子ゴルフ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500255&g=spo"
+    },
+    {
+      "doc_id": "jiji-4d13ce3a23ef97c6",
+      "title": "Ｆ東京大勝、首位と勝ち点並ぶ Ｊ１",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500323&g=spo"
+    },
+    {
+      "doc_id": "jiji-6e31dce6aed7d5eb",
+      "title": "ロブチェン、まさかの惨敗 競馬菊花賞",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500348&g=spo"
+    },
+    {
+      "doc_id": "jiji-20ed8ab9aefb6c68",
+      "title": "立て直してきた浦和 Ｊリーグ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500360&g=spo"
     },
     {
       "doc_id": "nhk-33cabb9bcd40ab13",
@@ -124,40 +124,40 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64932"
     },
     {
-      "doc_id": "nhk-3c4031d998dceb07",
-      "title": "【映像】和歌山市で道路が川のように カラーコーンも流される",
+      "doc_id": "nhk-28c879a360fae784",
+      "title": "【速報】新潟市長選挙 現職の中原八一氏 3回目の当選確実",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65066"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65104"
     },
     {
-      "doc_id": "nhk-96df84df96fecfa7",
-      "title": "オバマ元大統領が接戦州入り“歯止めかける最後で最大の機会”",
+      "doc_id": "nhk-9164ccf65fa036c4",
+      "title": "【速報】那覇市長選挙 現職の知念覚氏 2回目の当選確実",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65071"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65105"
     },
     {
-      "doc_id": "nhk-71f7e76c6aeca497",
-      "title": "自民“比例31議席削減 法案成立を” 野党 理解示す声や異論も",
+      "doc_id": "nhk-da2dabceb74f2008",
+      "title": "【速報中】日本シリーズ ソフトバンク 庄子の適時打で追加点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65143"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213"
     },
     {
-      "doc_id": "nhk-fe1e703a215519dc",
-      "title": "マラソン競歩 川野将虎が世界新記録で優勝",
+      "doc_id": "nhk-7b820295d2ef5665",
+      "title": "【速報】福島県知事選挙 出口調査の結果は",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65141"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65085"
     },
     {
-      "doc_id": "nhk-b92d329749a30063",
-      "title": "ワールドシリーズ第2戦 ブルワーズが逆転勝ちし2連勝",
+      "doc_id": "nhk-f1d8e28ff1701237",
+      "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選確実【速報】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65155"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086"
     },
     {
-      "doc_id": "nhk-e5d2efda1b806709",
-      "title": "クライミングシリーズ スピードで大政涼が年間2位",
+      "doc_id": "nhk-c9f4b4c2f29ef6ff",
+      "title": "那覇 女性強盗殺人事件 米海兵隊員を起訴",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65139"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65279"
     },
     {
       "doc_id": "itmedia-ca8b54dafacb9249",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002549/"
     },
     {
+      "doc_id": "nazology-4ea92e35e019c249",
+      "title": "若くして2型糖尿病になった人、低カロリー食と運動の24週間で半数以上が「寛解」",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203350"
+    },
+    {
       "doc_id": "nazology-fad8cd558999e699",
       "title": "AIもネットのジャンク情報を学ぶと「脳が腐る」と判明",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "カタツムリの殻が「右巻きか左巻きか」を決める遺伝子を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203050"
-    },
-    {
-      "doc_id": "nazology-97b566f5a0df6fa8",
-      "title": "1500℃でも溶けない「第3の熱い氷」を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/202994"
     }
   ]
 }
