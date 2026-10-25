@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-25T11:36:59+00:00",
-  "now_ms": 1792928219184,
+  "fetched_at": "2026-10-25T16:26:33+00:00",
+  "now_ms": 1792945593959,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,22 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-058a8b7c57bf8b0a",
-      "title": "内閣支持率45%で横ばい 毎日調査",
+      "doc_id": "yahoo-5c438ed0e2674ac4",
+      "title": "台風30号は温帯低気圧に 大雨警戒",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600099"
+      "link": "https://news.yahoo.co.jp/pickup/6600115"
     },
     {
-      "doc_id": "yahoo-32345856953f001f",
-      "title": "那覇市長選 現職知念氏が再選確実",
+      "doc_id": "yahoo-eaecba0c484fc7a0",
+      "title": "不正アクセス GMO代表が謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600101"
+      "link": "https://news.yahoo.co.jp/pickup/6600119"
+    },
+    {
+      "doc_id": "yahoo-af5c46dc5ec4c5e5",
+      "title": "AI投資に巨額マネー 実態と展望",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600116"
     },
     {
       "doc_id": "yahoo-b93108634540a390",
@@ -34,22 +40,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6600091"
     },
     {
-      "doc_id": "yahoo-066ef1c83b8e28fa",
-      "title": "NY大司教区 性的虐待で和解合意",
+      "doc_id": "yahoo-b9cf11e2b2769db1",
+      "title": "事故で脚切断 25歳諦めていた恋愛",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600082"
+      "link": "https://news.yahoo.co.jp/pickup/6600106"
     },
     {
-      "doc_id": "yahoo-d95fdbef1abbaadd",
-      "title": "速報・日本S第2戦 DeNA対SB",
+      "doc_id": "yahoo-91b3260fcecb1cd6",
+      "title": "伊東純也 ゴールの内側からゴール",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600094"
-    },
-    {
-      "doc_id": "yahoo-576b1f1877aa4ddc",
-      "title": "G浅野を自由契約 育成契約打診か",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600070"
+      "link": "https://news.yahoo.co.jp/pickup/6600123"
     },
     {
       "doc_id": "yahoo-5fadcf7b04ebe9d1",
@@ -58,40 +58,46 @@
       "link": "https://news.yahoo.co.jp/pickup/6600090"
     },
     {
-      "doc_id": "jiji-08cb49e543965f7a",
-      "title": "台風３０号、九州西方で温帯低気圧へ 東・西日本は前線で大雨警戒―気象庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500237&g=soc"
-    },
-    {
-      "doc_id": "jiji-50cab174494b2ecd",
-      "title": "オバマ氏、激戦州でトランプ氏を猛批判 急進左派への支持呼び掛け―米中間選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500230&g=int"
-    },
-    {
-      "doc_id": "jiji-2d8d1461b0295a7f",
-      "title": "ソフトバンク、五回終え２―０ 正木が先制ソロ―プロ野球・日本シリーズ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500322&g=spo"
-    },
-    {
-      "doc_id": "jiji-22d49c72ae8b8830",
-      "title": "強盗殺人容疑で男２人逮捕 和菓子店の高齢夫妻襲撃―山口県警",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500347&g=soc"
-    },
-    {
       "doc_id": "jiji-d0de5c253865b68e",
       "title": "金正恩氏、謎を呼ぶ日帰り訪中 「対米」巡り分かれる見方",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102500277&g=int"
     },
     {
-      "doc_id": "jiji-e2bcbc496dff3b98",
-      "title": "韓国、超高齢社会見据え「治癒農業」推進 ビジネス化で地方振興―トラウマ抱える元軍人もケア",
+      "doc_id": "jiji-08cb49e543965f7a",
+      "title": "台風３０号、九州西方で温帯低気圧に 東・西日本は前線で大雨警戒―気象庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500133&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102500237&g=soc"
+    },
+    {
+      "doc_id": "jiji-af33240f62c46709",
+      "title": "張本智和が連覇 卓球アジア選手権",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500445&g=spo"
+    },
+    {
+      "doc_id": "jiji-a1bae7ccc1189103",
+      "title": "片山元副知事が落選 斎藤氏の元側近―兵庫県議補選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500449&g=pol"
+    },
+    {
+      "doc_id": "jiji-54c63bba2a177900",
+      "title": "ブラジル大統領選、決選投票実施 親米右派と現職左派接戦―ブラジル",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500227&g=int"
+    },
+    {
+      "doc_id": "jiji-c21dc7732655a3f1",
+      "title": "那覇市長選で知念覚（ちねん・さとる）氏の再選が確実となった",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500381&g=flash"
+    },
+    {
+      "doc_id": "jiji-23eb6ec86311a99f",
+      "title": "山川、度肝抜く場外弾 ソフトバンク、連勝発進―プロ野球日本シリーズ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500433&g=spo"
     },
     {
       "doc_id": "jiji-531747787ec695d9",
@@ -100,64 +106,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026102500255&g=spo"
     },
     {
+      "doc_id": "jiji-50cab174494b2ecd",
+      "title": "オバマ氏、激戦州でトランプ氏を猛批判 急進左派への支持呼び掛け―米中間選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500230&g=int"
+    },
+    {
       "doc_id": "jiji-4d13ce3a23ef97c6",
       "title": "Ｆ東京大勝、首位と勝ち点並ぶ Ｊ１",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102500323&g=spo"
     },
     {
-      "doc_id": "jiji-6e31dce6aed7d5eb",
-      "title": "ロブチェン、まさかの惨敗 競馬菊花賞",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500348&g=spo"
-    },
-    {
-      "doc_id": "jiji-20ed8ab9aefb6c68",
-      "title": "立て直してきた浦和 Ｊリーグ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500360&g=spo"
-    },
-    {
       "doc_id": "nhk-33cabb9bcd40ab13",
-      "title": "【台風30号情報】前線の活動活発に 西・東日本で大雨のおそれ",
+      "title": "台風30号は温帯低気圧に 西～東日本で大雨のおそれ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261024de64932"
     },
     {
+      "doc_id": "nhk-da2dabceb74f2008",
+      "title": "ソフトバンクが2試合続けて延長制す 川村が決勝HR【詳報】",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213"
+    },
+    {
+      "doc_id": "nhk-f1d8e28ff1701237",
+      "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086"
+    },
+    {
+      "doc_id": "nhk-7b820295d2ef5665",
+      "title": "福島県知事選挙 2026 出口調査の結果は",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65085"
+    },
+    {
       "doc_id": "nhk-28c879a360fae784",
-      "title": "【速報】新潟市長選挙 現職の中原八一氏 3回目の当選確実",
+      "title": "新潟市長選挙 現職の中原八一氏 3回目の当選",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261025de65104"
     },
     {
       "doc_id": "nhk-9164ccf65fa036c4",
-      "title": "【速報】那覇市長選挙 現職の知念覚氏 2回目の当選確実",
+      "title": "那覇市長選挙 現職の知念覚氏 2回目の当選",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261025de65105"
     },
     {
-      "doc_id": "nhk-da2dabceb74f2008",
-      "title": "【速報中】日本シリーズ ソフトバンク 庄子の適時打で追加点",
+      "doc_id": "nhk-5f4bd3166a344620",
+      "title": "GMO社長 能動的サイバー防御「国民生活への影響照らし検討を」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65362"
     },
     {
-      "doc_id": "nhk-7b820295d2ef5665",
-      "title": "【速報】福島県知事選挙 出口調査の結果は",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65085"
-    },
-    {
-      "doc_id": "nhk-f1d8e28ff1701237",
-      "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選確実【速報】",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086"
-    },
-    {
-      "doc_id": "nhk-c9f4b4c2f29ef6ff",
-      "title": "那覇 女性強盗殺人事件 米海兵隊員を起訴",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65279"
+      "doc_id": "itmedia-3c8bf203b18c41e4",
+      "title": "「5年でバッテリーが使い物にならなくなる」は本当か テスラ「モデル3」5年目点検で分かったこと",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/25/2000002569/"
     },
     {
       "doc_id": "itmedia-ca8b54dafacb9249",
@@ -224,12 +230,6 @@
       "title": "メール配信サービスの契約者情報全て漏えい 横浜市やJR四国などに影響 ラクス子会社に不正アクセス",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002551/"
-    },
-    {
-      "doc_id": "itmedia-149e5b3fc7495f18",
-      "title": "HIS子会社、約14万人の個人情報流出の可能性 委託先のラクスライトクラウドに不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002549/"
     },
     {
       "doc_id": "nazology-4ea92e35e019c249",
