@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-25T16:26:33+00:00",
-  "now_ms": 1792945593959,
+  "fetched_at": "2026-10-25T19:40:20+00:00",
+  "now_ms": 1792957220848,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,28 +58,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6600090"
     },
     {
-      "doc_id": "jiji-d0de5c253865b68e",
-      "title": "金正恩氏、謎を呼ぶ日帰り訪中 「対米」巡り分かれる見方",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500277&g=int"
-    },
-    {
       "doc_id": "jiji-08cb49e543965f7a",
       "title": "台風３０号、九州西方で温帯低気圧に 東・西日本は前線で大雨警戒―気象庁",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102500237&g=soc"
-    },
-    {
-      "doc_id": "jiji-af33240f62c46709",
-      "title": "張本智和が連覇 卓球アジア選手権",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500445&g=spo"
-    },
-    {
-      "doc_id": "jiji-a1bae7ccc1189103",
-      "title": "片山元副知事が落選 斎藤氏の元側近―兵庫県議補選",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500449&g=pol"
     },
     {
       "doc_id": "jiji-54c63bba2a177900",
@@ -88,22 +70,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026102500227&g=int"
     },
     {
-      "doc_id": "jiji-c21dc7732655a3f1",
-      "title": "那覇市長選で知念覚（ちねん・さとる）氏の再選が確実となった",
+      "doc_id": "jiji-2d8d1461b0295a7f",
+      "title": "ソフトバンクが２連勝 延長十回、川村が決勝ソロ―プロ野球・日本シリーズ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500381&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102500322&g=spo"
     },
     {
-      "doc_id": "jiji-23eb6ec86311a99f",
-      "title": "山川、度肝抜く場外弾 ソフトバンク、連勝発進―プロ野球日本シリーズ",
+      "doc_id": "jiji-ae97244ba6a5e30e",
+      "title": "新潟市長に中原氏３選 新人２人破る",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500433&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102500392&g=pol"
     },
     {
-      "doc_id": "jiji-531747787ec695d9",
-      "title": "吉田優利、米ツアー初Ｖ ４打差を逆転―米女子ゴルフ",
+      "doc_id": "jiji-e2bcbc496dff3b98",
+      "title": "韓国、超高齢社会見据え「治癒農業」推進 ビジネス化で地方振興―トラウマ抱える元軍人もケア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500255&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102500133&g=int"
+    },
+    {
+      "doc_id": "jiji-d5d0e252042a32c3",
+      "title": "那覇市長に知念覚氏再選 新人３人破る",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500387&g=pol"
+    },
+    {
+      "doc_id": "jiji-d0de5c253865b68e",
+      "title": "金正恩氏、謎を呼ぶ日帰り訪中 「対米」巡り分かれる見方",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500277&g=int"
+    },
+    {
+      "doc_id": "jiji-7d5c308dfde97848",
+      "title": "強盗殺人罪で米兵起訴 那覇ホテル女性遺体―地検",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500244&g=soc"
     },
     {
       "doc_id": "jiji-50cab174494b2ecd",
@@ -112,10 +112,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026102500230&g=int"
     },
     {
-      "doc_id": "jiji-4d13ce3a23ef97c6",
-      "title": "Ｆ東京大勝、首位と勝ち点並ぶ Ｊ１",
+      "doc_id": "jiji-a1bae7ccc1189103",
+      "title": "片山元副知事が落選 斎藤氏の元側近―兵庫県議補選",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500323&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102500449&g=pol"
     },
     {
       "doc_id": "nhk-33cabb9bcd40ab13",
@@ -130,34 +130,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213"
     },
     {
+      "doc_id": "nhk-6cd81c6a928db1ef",
+      "title": "体操世界選手権 種目別鉄棒で岡慎之助が銀メダル",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65415"
+    },
+    {
       "doc_id": "nhk-f1d8e28ff1701237",
       "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086"
     },
     {
-      "doc_id": "nhk-7b820295d2ef5665",
-      "title": "福島県知事選挙 2026 出口調査の結果は",
+      "doc_id": "nhk-37fb6a6403465913",
+      "title": "バドミントン協会がスポーツと自然環境学ぶ勉強会を初開催",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65085"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65369"
     },
     {
-      "doc_id": "nhk-28c879a360fae784",
-      "title": "新潟市長選挙 現職の中原八一氏 3回目の当選",
+      "doc_id": "nhk-2911871605cf958f",
+      "title": "長崎 漁港で男性死亡 台風に備え船を見に行ったか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65104"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65387"
     },
     {
-      "doc_id": "nhk-9164ccf65fa036c4",
-      "title": "那覇市長選挙 現職の知念覚氏 2回目の当選",
+      "doc_id": "nhk-fe1e703a215519dc",
+      "title": "マラソン競歩 川野将虎が世界新記録で優勝",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65105"
-    },
-    {
-      "doc_id": "nhk-5f4bd3166a344620",
-      "title": "GMO社長 能動的サイバー防御「国民生活への影響照らし検討を」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65362"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65141"
     },
     {
       "doc_id": "itmedia-3c8bf203b18c41e4",
