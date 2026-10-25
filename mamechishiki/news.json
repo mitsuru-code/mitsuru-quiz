@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-25T19:40:20+00:00",
-  "now_ms": 1792957220848,
+  "fetched_at": "2026-10-25T22:35:51+00:00",
+  "now_ms": 1792967751913,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,28 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-5c438ed0e2674ac4",
-      "title": "台風30号は温帯低気圧に 大雨警戒",
+      "doc_id": "yahoo-e8d1a1874c034356",
+      "title": "関東-九州激しい雨 夜にピークも",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600115"
+      "link": "https://news.yahoo.co.jp/pickup/6600128"
     },
     {
-      "doc_id": "yahoo-eaecba0c484fc7a0",
-      "title": "不正アクセス GMO代表が謝罪",
+      "doc_id": "yahoo-6cb4756e59d4be38",
+      "title": "次の首相「高市氏」27% 毎日調査",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600119"
+      "link": "https://news.yahoo.co.jp/pickup/6600130"
     },
     {
-      "doc_id": "yahoo-af5c46dc5ec4c5e5",
-      "title": "AI投資に巨額マネー 実態と展望",
+      "doc_id": "yahoo-bd6042c5d30d60a1",
+      "title": "和菓子店主殺害 逮捕知り遺族号泣",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600116"
+      "link": "https://news.yahoo.co.jp/pickup/6600132"
     },
     {
-      "doc_id": "yahoo-b93108634540a390",
-      "title": "イオン爆発犠牲者7人 南側で発見",
+      "doc_id": "yahoo-3f348df0ed468c2c",
+      "title": "チャイルドシートの義務拡大 検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600100"
+      "link": "https://news.yahoo.co.jp/pickup/6600127"
     },
     {
       "doc_id": "yahoo-d5291a094f58cd68",
@@ -40,16 +40,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6600091"
     },
     {
-      "doc_id": "yahoo-b9cf11e2b2769db1",
-      "title": "事故で脚切断 25歳諦めていた恋愛",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600106"
-    },
-    {
       "doc_id": "yahoo-91b3260fcecb1cd6",
       "title": "伊東純也 ゴールの内側からゴール",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6600123"
+    },
+    {
+      "doc_id": "yahoo-e1f50656e692b24e",
+      "title": "VIVANTにダイアン津田 設計の妙",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600129"
     },
     {
       "doc_id": "yahoo-5fadcf7b04ebe9d1",
@@ -64,46 +64,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026102500237&g=soc"
     },
     {
+      "doc_id": "jiji-a1bae7ccc1189103",
+      "title": "片山元副知事が落選 斎藤氏の元側近―兵庫県議補選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500449&g=pol"
+    },
+    {
+      "doc_id": "jiji-1705c880fcb14e90",
+      "title": "新興勢力の勝利確実 前大統領が敗北認める―セルビア議会選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600133&g=int"
+    },
+    {
+      "doc_id": "jiji-e1e9d235790a51d4",
+      "title": "ベネズエラ野党指導者が帰国 ノーベル平和賞受賞者、約１０カ月ぶり",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600119&g=int"
+    },
+    {
       "doc_id": "jiji-54c63bba2a177900",
       "title": "ブラジル大統領選、決選投票実施 親米右派と現職左派接戦―ブラジル",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102500227&g=int"
-    },
-    {
-      "doc_id": "jiji-2d8d1461b0295a7f",
-      "title": "ソフトバンクが２連勝 延長十回、川村が決勝ソロ―プロ野球・日本シリーズ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500322&g=spo"
-    },
-    {
-      "doc_id": "jiji-ae97244ba6a5e30e",
-      "title": "新潟市長に中原氏３選 新人２人破る",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500392&g=pol"
-    },
-    {
-      "doc_id": "jiji-e2bcbc496dff3b98",
-      "title": "韓国、超高齢社会見据え「治癒農業」推進 ビジネス化で地方振興―トラウマ抱える元軍人もケア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500133&g=int"
-    },
-    {
-      "doc_id": "jiji-d5d0e252042a32c3",
-      "title": "那覇市長に知念覚氏再選 新人３人破る",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500387&g=pol"
-    },
-    {
-      "doc_id": "jiji-d0de5c253865b68e",
-      "title": "金正恩氏、謎を呼ぶ日帰り訪中 「対米」巡り分かれる見方",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500277&g=int"
-    },
-    {
-      "doc_id": "jiji-7d5c308dfde97848",
-      "title": "強盗殺人罪で米兵起訴 那覇ホテル女性遺体―地検",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500244&g=soc"
     },
     {
       "doc_id": "jiji-50cab174494b2ecd",
@@ -112,16 +94,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026102500230&g=int"
     },
     {
-      "doc_id": "jiji-a1bae7ccc1189103",
-      "title": "片山元副知事が落選 斎藤氏の元側近―兵庫県議補選",
+      "doc_id": "jiji-531747787ec695d9",
+      "title": "吉田優利、米ツアー初Ｖ ４打差を逆転―米女子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500449&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102500255&g=spo"
     },
     {
-      "doc_id": "nhk-33cabb9bcd40ab13",
-      "title": "台風30号は温帯低気圧に 西～東日本で大雨のおそれ",
+      "doc_id": "jiji-f96244f17aa210e2",
+      "title": "セルビアメディアによると、国民議会選挙でブチッチ前大統領が敗北を認めた",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600130&g=flash"
+    },
+    {
+      "doc_id": "jiji-d5d0e252042a32c3",
+      "title": "那覇市長に知念覚氏再選 新人３人破る",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500387&g=pol"
+    },
+    {
+      "doc_id": "jiji-1228fe35dcccde1d",
+      "title": "首相動静（１０月２５日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500173&g=pol"
+    },
+    {
+      "doc_id": "nhk-3a2077269888dfeb",
+      "title": "台風30号は温帯低気圧に 西～東日本で非常に激しい雨のおそれ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261024de64932"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65420"
+    },
+    {
+      "doc_id": "nhk-1f46d8d10bd5bc4c",
+      "title": "ブラジル大統領選挙 決選投票 全土で2時間延長後に終了",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65416"
+    },
+    {
+      "doc_id": "nhk-4d0cdb7ca733402f",
+      "title": "大相撲九州場所 番付発表 33歳の美ノ海が新三役",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65392"
     },
     {
       "doc_id": "nhk-da2dabceb74f2008",
@@ -130,34 +142,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213"
     },
     {
-      "doc_id": "nhk-6cd81c6a928db1ef",
-      "title": "体操世界選手権 種目別鉄棒で岡慎之助が銀メダル",
+      "doc_id": "nhk-bc8a6ebbad340768",
+      "title": "あすイスラエル総選挙 ネタニヤフ首相政権維持できるか焦点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65415"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65348"
+    },
+    {
+      "doc_id": "nhk-4a7f61f9bdba816f",
+      "title": "消費税減税法案 与党 通過時期探る 野党 支援金対象明示を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65353"
     },
     {
       "doc_id": "nhk-f1d8e28ff1701237",
       "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086"
-    },
-    {
-      "doc_id": "nhk-37fb6a6403465913",
-      "title": "バドミントン協会がスポーツと自然環境学ぶ勉強会を初開催",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65369"
-    },
-    {
-      "doc_id": "nhk-2911871605cf958f",
-      "title": "長崎 漁港で男性死亡 台風に備え船を見に行ったか",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65387"
-    },
-    {
-      "doc_id": "nhk-fe1e703a215519dc",
-      "title": "マラソン競歩 川野将虎が世界新記録で優勝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65141"
     },
     {
       "doc_id": "itmedia-3c8bf203b18c41e4",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002551/"
     },
     {
+      "doc_id": "nazology-cf33bfdfc3327d47",
+      "title": "「死んだふりするアリ」、敵には毒針から糸を出して戦うと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203336"
+    },
+    {
       "doc_id": "nazology-4ea92e35e019c249",
       "title": "若くして2型糖尿病になった人、低カロリー食と運動の24週間で半数以上が「寛解」",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "知能の高い人ほど、寄付や選挙の投票をよくしていた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203466"
-    },
-    {
-      "doc_id": "nazology-eaea5075965d165a",
-      "title": "カタツムリの殻が「右巻きか左巻きか」を決める遺伝子を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203050"
     }
   ]
 }
