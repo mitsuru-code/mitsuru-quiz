@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-26T01:13:54+00:00",
-  "now_ms": 1792977234711,
+  "fetched_at": "2026-10-26T06:21:20+00:00",
+  "now_ms": 1792995680102,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,94 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-93b3e4023da72958",
-      "title": "ブラジル大統領に現職ルラ氏再選",
+      "doc_id": "yahoo-a762de45185b38c7",
+      "title": "セルビア 14年ぶり政権交代へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600147"
+      "link": "https://news.yahoo.co.jp/pickup/6600182"
     },
     {
-      "doc_id": "yahoo-843368b648c3ec62",
-      "title": "平和賞マチャド氏 ベネズエラ帰国",
+      "doc_id": "yahoo-df37dd110ae15a12",
+      "title": "SHEIN 米FTCと1億ドルで和解へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600141"
+      "link": "https://news.yahoo.co.jp/pickup/6600173"
     },
     {
-      "doc_id": "yahoo-bd6042c5d30d60a1",
-      "title": "和菓子店主殺害 逮捕知り遺族号泣",
+      "doc_id": "yahoo-fbd75fddbaa9a15e",
+      "title": "福田康夫元首相が死去 90歳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600132"
+      "link": "https://news.yahoo.co.jp/pickup/6600180"
     },
     {
-      "doc_id": "yahoo-7659d4d03474cc6b",
-      "title": "新局面 漏洩被害者に迫る「脅威」",
+      "doc_id": "yahoo-7e3867ccda1b92f7",
+      "title": "福田元首相が死去 中国でも速報",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600145"
+      "link": "https://news.yahoo.co.jp/pickup/6600183"
     },
     {
-      "doc_id": "yahoo-c2760527ac426fca",
-      "title": "電車が駅で140m過ぎて停車 戻らず",
+      "doc_id": "yahoo-f901e034c37cfb5e",
+      "title": "ドクターイエロー後継 客乗せ走行",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600144"
+      "link": "https://news.yahoo.co.jp/pickup/6600178"
     },
     {
-      "doc_id": "yahoo-9f02a4d2af0c4471",
-      "title": "コニカミノルタ「社内副業」狙い",
+      "doc_id": "yahoo-47d48b9dc05a1169",
+      "title": "炎鵬 一度はプロポーズを断られる",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600138"
+      "link": "https://news.yahoo.co.jp/pickup/6600185"
     },
     {
-      "doc_id": "yahoo-959f65578b4eb16a",
-      "title": "ソフトバンク秋広優人 来季構想外",
+      "doc_id": "yahoo-745d900712b91b9f",
+      "title": "西武 糸川ら7選手に戦力外通告",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600135"
+      "link": "https://news.yahoo.co.jp/pickup/6600177"
     },
     {
-      "doc_id": "yahoo-6cff23625c554863",
-      "title": "VIVANT高視聴率 日本S中継影響か",
+      "doc_id": "yahoo-7ee774ea35d1bdf6",
+      "title": "50歳でパパに アンガ田中の育児",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600152"
+      "link": "https://news.yahoo.co.jp/pickup/6600179"
+    },
+    {
+      "doc_id": "jiji-98266ae2a00eed2a",
+      "title": "ブラジル大統領選決選投票で、ボルソナロ氏は結果の受け入れを拒否した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600371&g=flash"
+    },
+    {
+      "doc_id": "jiji-8eedcf5d2adf3d44",
+      "title": "ボルソナロ氏、結果受け入れを拒否 ブラジル大統領選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600376&g=int"
+    },
+    {
+      "doc_id": "jiji-204c671f8c3aab08",
+      "title": "左派ルラ氏、大接戦制し４期目へ 右派候補「無効」主張―ブラジル大統領決選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600252&g=int"
+    },
+    {
+      "doc_id": "jiji-6f70d2b95b02a9a8",
+      "title": "福田康夫元首相が死去、９０歳 洞爺湖サミットで議長",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600617&g=pol"
+    },
+    {
+      "doc_id": "jiji-58c16517b36a8cba",
+      "title": "将棋・西山朋佳女流四冠が棋士に 「もっと上目指す」―女性初、来春から",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600359&g=soc"
+    },
+    {
+      "doc_id": "jiji-695fb2c2395b1771",
+      "title": "地元サッカークラブと連携協定 埼玉県川越市〔地域〕",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600520&g=soc"
+    },
+    {
+      "doc_id": "jiji-8e99c2d59bea2a7a",
+      "title": "政府、モンゴル火災「深刻に受け止め」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600497&g=pol"
     },
     {
       "doc_id": "jiji-0c6fce16f68280f8",
@@ -64,58 +106,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102500224&g=pol"
     },
     {
+      "doc_id": "jiji-b17767bbccda9bd0",
+      "title": "「幸平一家」の検挙３００人超 幹部は倍増、特別対策本部が中間発表―警視庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600627&g=soc"
+    },
+    {
       "doc_id": "jiji-db4dadc146c88d06",
       "title": "与党リクード、第１党困難か ネタニヤフ首相の進退焦点―２７日、イスラエル総選挙",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102500263&g=int"
     },
     {
-      "doc_id": "jiji-a1bae7ccc1189103",
-      "title": "片山元副知事が落選 斎藤氏の元側近―兵庫県議補選",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500449&g=pol"
-    },
-    {
-      "doc_id": "jiji-3da71f5670e0645f",
-      "title": "ネタニヤフ首相に賛否 与党牙城で支持離れも―イスラエル総選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500266&g=int"
-    },
-    {
-      "doc_id": "jiji-798ca1336aa50c3a",
-      "title": "育成就労、日本語教員不足 「未確保」４割弱―政府調査",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500216&g=pol"
-    },
-    {
-      "doc_id": "jiji-204c671f8c3aab08",
-      "title": "ブラジル大統領選、現職ルラ氏が勝利",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600252&g=int"
-    },
-    {
-      "doc_id": "jiji-08cb49e543965f7a",
-      "title": "台風３０号、九州西方で温帯低気圧に 東・西日本は前線で大雨警戒―気象庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500237&g=soc"
-    },
-    {
-      "doc_id": "jiji-28871bb5f38591d9",
-      "title": "ブラジル中央選管当局によると、大統領選決選投票で左派のルラ大統領が勝利した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600248&g=flash"
-    },
-    {
-      "doc_id": "jiji-a6ebedd7b9b73872",
-      "title": "飛び降り巻き添え、事故で終わらせない 娘失った父、「未必の故意」訴え―署名活動に４．６万筆・名古屋",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500238&g=soc"
-    },
-    {
-      "doc_id": "jiji-5189a08a44861d4f",
-      "title": "鉄棒で岡慎之助が銀、川上翔平４位 平行棒は橋本大輝４位、岡５位―世界体操",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600206&g=spo"
+      "doc_id": "nhk-fdb353a9c9fd7097",
+      "title": "福田康夫元首相が死去 90歳",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65501"
     },
     {
       "doc_id": "nhk-3a2077269888dfeb",
@@ -124,46 +130,88 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261026de65420"
     },
     {
-      "doc_id": "nhk-1f46d8d10bd5bc4c",
-      "title": "ブラジル大統領選挙 決選投票 現職のルーラ大統領が当選",
+      "doc_id": "nhk-73be451f1aab9240",
+      "title": "将棋 西山朋佳女流四冠 プロ入り表明 初の女性プロ棋士誕生へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65416"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65487"
     },
     {
-      "doc_id": "nhk-4d0cdb7ca733402f",
-      "title": "大相撲九州場所 番付発表 33歳の美ノ海が新三役",
+      "doc_id": "nhk-570392dc36bc07dc",
+      "title": "ドクターイエローの後継「ドクターS」が初運行 JR東海",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65392"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65533"
     },
     {
-      "doc_id": "nhk-994920bd8011ccef",
-      "title": "ノーベル平和賞受賞者のマチャド氏 ベネズエラに帰国",
+      "doc_id": "nhk-af0f97ecb7c30941",
+      "title": "山口 美祢 強盗殺人事件 金庫には一定額の現金入っていたか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65452"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65672"
     },
     {
-      "doc_id": "nhk-53982e94a95174ad",
-      "title": "ゼレンスキー大統領「領土問題は首脳同士で協議すべき」",
+      "doc_id": "nhk-e5ea03f1bdc4688e",
+      "title": "福岡 北九州 冠水した道路で車1台が立往生 けが人なし",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65459"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65565"
     },
     {
-      "doc_id": "nhk-32bcb8d0ebeab3af",
-      "title": "混乱広がるフランス 極右政党ルペン氏 来年春の大統領選に意欲",
+      "doc_id": "nhk-b0cb25dfe3fa961f",
+      "title": "高市首相 消費税減税法案など早期成立に向け与党に協力求める",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65466"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65662"
     },
     {
-      "doc_id": "nhk-da2dabceb74f2008",
-      "title": "ソフトバンクが2試合続けて延長制す 川村が決勝HR【詳報】",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213"
+      "doc_id": "itmedia-4cbb2a0024bd25a6",
+      "title": "グッスマに不正アクセス、公式EC閉鎖 会員の住所や注文履歴など漏えいか 再開目処立たず",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002577/"
+    },
+    {
+      "doc_id": "itmedia-89546bc33098384d",
+      "title": "「AIでエンジニア派遣は不要になる」のか？ 各社に肌感を聞いた 求められる人材、明確に変化",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002527/"
+    },
+    {
+      "doc_id": "itmedia-c09a497ad48bef12",
+      "title": "「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会 来場者の態度も激変",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002476/"
+    },
+    {
+      "doc_id": "itmedia-197a985018097488",
+      "title": "Xの「いいね」長押しで1ドル送金 マスク氏が“投げ銭”機能を予告",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002579/"
+    },
+    {
+      "doc_id": "itmedia-c96861d7c9c695fa",
+      "title": "米国のデータセンター急増、AI需要で巨大化 受電容量「ギガ時代」に 中間選挙争点にも",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002578/"
     },
     {
       "doc_id": "itmedia-3138284860f7cf0c",
       "title": "GMO熊谷代表「社内ホワイトハッカーが事前に指摘」も対策遅れ、国に「能動的サイバー防御」要請 「責任転嫁では」SNSで批判も",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002571/"
+    },
+    {
+      "doc_id": "itmedia-7347179381de422b",
+      "title": "ジャック・ドーシー氏率いるBlock、音声だけで学習した全二重音声モデル「Dessa」発表 「人と話しているよう」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002574/"
+    },
+    {
+      "doc_id": "itmedia-da0c2c4dfea670dd",
+      "title": "PHP脆弱性でいち早くサービス停止したコドモン 背景に「被害が出てからでは取り消せない」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002528/"
+    },
+    {
+      "doc_id": "itmedia-a0536be450025676",
+      "title": "OpenAI、フロンティアモデルの学習中はインターネットに接続させない方針 学習中のAIが隔離環境を抜け出した件も公表",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002573/"
     },
     {
       "doc_id": "itmedia-4cdb5b8495babcf3",
@@ -184,52 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/25/2000002568/"
     },
     {
-      "doc_id": "itmedia-ef46920f4edf292d",
-      "title": "B級感がたまらない？ 映画「ストリートファイター」の魅力と原作ゲームの歴史、ゲーマーマンガ家が熱弁",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/25/2000002559/"
-    },
-    {
-      "doc_id": "itmedia-bf6066a3108c5619",
-      "title": "GMO、「能動的サイバー防御」発動を政府に要請 「お名前.com」FX用VPSへの攻撃で",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/24/2000002567/"
-    },
-    {
-      "doc_id": "itmedia-021a252daffce5fe",
-      "title": "GMO、不正取引の被害額を補償へ 見舞金5000円も 「お名前.com」FX用VPSへのサイバー攻撃で",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/24/2000002566/"
-    },
-    {
-      "doc_id": "itmedia-c411754a03da55ae",
-      "title": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/24/2000002564/"
-    },
-    {
-      "doc_id": "itmedia-3f9efc979fdacb70",
-      "title": "パナソニックHD子会社、使用禁止の生成AIに従業員約33万人分の個人情報をアップロード",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002562/"
-    },
-    {
-      "doc_id": "itmedia-f9f2dc0d34e29fea",
-      "title": "タイムズカー、3000円の見舞金支払いへ 免許証画像漏えいの146万件対象 55億円の特損計上",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002558/"
-    },
-    {
-      "doc_id": "itmedia-e896a4d3e9e0a9f7",
-      "title": "「チケット当選」装う詐欺メールが急増中──イープラスやローチケ、ぴあかたる手口 フィッシングの専門家に対策を聞いた",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002557/"
-    },
-    {
-      "doc_id": "itmedia-221901432d3b1af2",
-      "title": "11月中に「ホワイトハッカー」のチームを立ち上げへ サイバー攻撃に対抗 赤沢経産相",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002556/"
+      "doc_id": "nazology-c2c8b350d5b66e46",
+      "title": "創造力は大人の方が上、幼児が勝るのは自信とやる気と判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203503"
     },
     {
       "doc_id": "nazology-cf33bfdfc3327d47",
@@ -284,12 +290,6 @@
       "title": "冷蔵庫でビールを冷やす速さには「限界」があると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203073"
-    },
-    {
-      "doc_id": "nazology-7343e561553e1422",
-      "title": "知能の高い人ほど、寄付や選挙の投票をよくしていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203466"
     }
   ]
 }
