@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-26T06:21:20+00:00",
-  "now_ms": 1792995680102,
+  "fetched_at": "2026-10-26T14:19:03+00:00",
+  "now_ms": 1793024343143,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a762de45185b38c7",
-      "title": "セルビア 14年ぶり政権交代へ",
+      "doc_id": "yahoo-a05c25511de00ac5",
+      "title": "ガソリン補助の段階縮小 自民提言",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600182"
+      "link": "https://news.yahoo.co.jp/pickup/6600211"
     },
     {
-      "doc_id": "yahoo-df37dd110ae15a12",
-      "title": "SHEIN 米FTCと1億ドルで和解へ",
+      "doc_id": "yahoo-f0ea9abfba11985a",
+      "title": "検討委設置 同志社理事長ら会見へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600173"
+      "link": "https://news.yahoo.co.jp/pickup/6600223"
     },
     {
-      "doc_id": "yahoo-fbd75fddbaa9a15e",
-      "title": "福田康夫元首相が死去 90歳",
+      "doc_id": "yahoo-3026ae9d01c4db46",
+      "title": "福田康夫さん死去 親子2代で首相",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600180"
+      "link": "https://news.yahoo.co.jp/pickup/6600231"
     },
     {
-      "doc_id": "yahoo-7e3867ccda1b92f7",
-      "title": "福田元首相が死去 中国でも速報",
+      "doc_id": "yahoo-4d2a5ae46563a5a2",
+      "title": "楽天トラベル 約260万件が流出か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600183"
+      "link": "https://news.yahoo.co.jp/pickup/6600238"
     },
     {
-      "doc_id": "yahoo-f901e034c37cfb5e",
-      "title": "ドクターイエロー後継 客乗せ走行",
+      "doc_id": "yahoo-930ce6466d52956d",
+      "title": "新幹線予約の個人情報17万件流出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600178"
+      "link": "https://news.yahoo.co.jp/pickup/6600235"
     },
     {
-      "doc_id": "yahoo-47d48b9dc05a1169",
-      "title": "炎鵬 一度はプロポーズを断られる",
+      "doc_id": "yahoo-e325907d9ffc1d58",
+      "title": "3ピンプラグに2穴 10代感電し入院",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600185"
+      "link": "https://news.yahoo.co.jp/pickup/6600207"
     },
     {
-      "doc_id": "yahoo-745d900712b91b9f",
-      "title": "西武 糸川ら7選手に戦力外通告",
+      "doc_id": "yahoo-58a6b8ddfd22ba0f",
+      "title": "豪生保 第一ライフによる買収拒否",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600177"
+      "link": "https://news.yahoo.co.jp/pickup/6600234"
     },
     {
-      "doc_id": "yahoo-7ee774ea35d1bdf6",
-      "title": "50歳でパパに アンガ田中の育児",
+      "doc_id": "yahoo-949f160d24101d91",
+      "title": "「弁当男子」増 力入れる食品業界",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600179"
+      "link": "https://news.yahoo.co.jp/pickup/6600237"
     },
     {
-      "doc_id": "jiji-98266ae2a00eed2a",
-      "title": "ブラジル大統領選決選投票で、ボルソナロ氏は結果の受け入れを拒否した",
+      "doc_id": "jiji-b681ba472317d7a4",
+      "title": "タイムズカー、年内にも集団訴訟 免許証画像漏えい、最大５万円請求―東京地裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600371&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102600861&g=soc"
     },
     {
-      "doc_id": "jiji-8eedcf5d2adf3d44",
-      "title": "ボルソナロ氏、結果受け入れを拒否 ブラジル大統領選",
+      "doc_id": "jiji-b19e3d8db4f34463",
+      "title": "ガソリン補助、毎月５円縮小 電気代支援再開、自民提言案",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600376&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102600880&g=pol"
+    },
+    {
+      "doc_id": "jiji-29a9c86abf055dc2",
+      "title": "改正皇室典範は「違憲」と提訴 漫画家・小林よしのりさん―東京地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600701&g=soc"
+    },
+    {
+      "doc_id": "jiji-860a55e73a125ceb",
+      "title": "国会対応業務、心身の負担に？ 長時間の府省、医療費高―慶大など",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600621&g=pol"
     },
     {
       "doc_id": "jiji-204c671f8c3aab08",
@@ -77,45 +89,51 @@
     },
     {
       "doc_id": "jiji-6f70d2b95b02a9a8",
-      "title": "福田康夫元首相が死去、９０歳 洞爺湖サミットで議長",
+      "title": "福田康夫元首相が死去、９０歳 洞爺湖サミットで議長、「ねじれ国会」問責可決―引退後も日中強化訴え",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026102600617&g=pol"
     },
     {
-      "doc_id": "jiji-58c16517b36a8cba",
-      "title": "将棋・西山朋佳女流四冠が棋士に 「もっと上目指す」―女性初、来春から",
+      "doc_id": "jiji-1f8a18db78ea9b5f",
+      "title": "炎鵬関、結婚会見で支えに感謝 妻は「太陽、生きる希望」―大相撲",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600359&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102600955&g=spo"
     },
     {
-      "doc_id": "jiji-695fb2c2395b1771",
-      "title": "地元サッカークラブと連携協定 埼玉県川越市〔地域〕",
+      "doc_id": "jiji-3553801f4a54f208",
+      "title": "「外国代理人制度」の検討着手 政府、スパイ防止法第１弾",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600520&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102600774&g=pol"
     },
     {
-      "doc_id": "jiji-8e99c2d59bea2a7a",
-      "title": "政府、モンゴル火災「深刻に受け止め」",
+      "doc_id": "jiji-48d437b27154a568",
+      "title": "アクセス無害化「戦略的に実行」 高市首相、来週めどに緊急対策案",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600497&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102600939&g=pol"
     },
     {
-      "doc_id": "jiji-0c6fce16f68280f8",
-      "title": "ロシア、夏に日本領事館員標的 敵視の末、記者「スパイ容疑」か―２７日で拘束２週間",
+      "doc_id": "jiji-86b2700f568cb9e4",
+      "title": "東京国際映画祭が開幕 ２００作品上映、来月４日まで",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500224&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102601055&g=soc"
     },
     {
-      "doc_id": "jiji-b17767bbccda9bd0",
-      "title": "「幸平一家」の検挙３００人超 幹部は倍増、特別対策本部が中間発表―警視庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600627&g=soc"
+      "doc_id": "nhk-8ed5d74512cc8b86",
+      "title": "家電量販店「Joshin」 顧客情報600万件漏えいの可能性",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65955"
     },
     {
-      "doc_id": "jiji-db4dadc146c88d06",
-      "title": "与党リクード、第１党困難か ネタニヤフ首相の進退焦点―２７日、イスラエル総選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500263&g=int"
+      "doc_id": "nhk-b02dcd233c4a5f44",
+      "title": "電子ギフト会社に不正アクセス 5億5000万円分が不正発行",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66013"
+    },
+    {
+      "doc_id": "nhk-3abea23f99f51d28",
+      "title": "ハッカー集団 GMOにあす期限で100万ドル要求 顧客脅迫も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65733"
     },
     {
       "doc_id": "nhk-fdb353a9c9fd7097",
@@ -124,40 +142,46 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261026de65501"
     },
     {
-      "doc_id": "nhk-3a2077269888dfeb",
-      "title": "台風30号は温帯低気圧に 西～東日本で非常に激しい雨のおそれ",
+      "doc_id": "nhk-b18625a85ce95a7f",
+      "title": "東京国際映画祭始まる 雨天も人気俳優らが登場",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65420"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65966"
     },
     {
-      "doc_id": "nhk-73be451f1aab9240",
-      "title": "将棋 西山朋佳女流四冠 プロ入り表明 初の女性プロ棋士誕生へ",
+      "doc_id": "nhk-cd239c6ba61d2ffd",
+      "title": "大分市佐賀関の火災 被災した170棟余の公費解体の作業終了",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65487"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65972"
     },
     {
-      "doc_id": "nhk-570392dc36bc07dc",
-      "title": "ドクターイエローの後継「ドクターS」が初運行 JR東海",
+      "doc_id": "nhk-6ad2927d961e76c4",
+      "title": "巨人 松井秀喜新監督に元監督の堀内恒夫さん「長期政権を」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65533"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65951"
     },
     {
-      "doc_id": "nhk-af0f97ecb7c30941",
-      "title": "山口 美祢 強盗殺人事件 金庫には一定額の現金入っていたか",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65672"
+      "doc_id": "itmedia-3cba4ab945db11a9",
+      "title": "ジョーシンへの不正アクセス、最大623万件漏えいか 運転免許証2件・マイナカード1件なども",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002601/"
     },
     {
-      "doc_id": "nhk-e5ea03f1bdc4688e",
-      "title": "福岡 北九州 冠水した道路で車1台が立往生 けが人なし",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65565"
+      "doc_id": "itmedia-099d46ce6a6ecaac",
+      "title": "タイムズカー流出で顧客らが損害賠償求め運営会社提訴へ サイト開設の弁護士が記者会見",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002598/"
     },
     {
-      "doc_id": "nhk-b0cb25dfe3fa961f",
-      "title": "高市首相 消費税減税法案など早期成立に向け与党に協力求める",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65662"
+      "doc_id": "itmedia-f464d3c7e6539da7",
+      "title": "「年齢は合ってますが、人間ではありません」 6歳の飼い猫に届いた“進研ゼミの案内” なぜ届いたのかベネッセに聞いた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002597/"
+    },
+    {
+      "doc_id": "itmedia-ffa5d4121b985028",
+      "title": "野村総研、サイバー攻撃時の「能動的なシステム停止」を支援する新サービス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002591/"
     },
     {
       "doc_id": "itmedia-4cbb2a0024bd25a6",
@@ -208,28 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002528/"
     },
     {
-      "doc_id": "itmedia-a0536be450025676",
-      "title": "OpenAI、フロンティアモデルの学習中はインターネットに接続させない方針 学習中のAIが隔離環境を抜け出した件も公表",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002573/"
-    },
-    {
-      "doc_id": "itmedia-4cdb5b8495babcf3",
-      "title": "Google、プライバシーポリシーに「Gmail」「Googleフォト」のデータを広告に使う例外を追加 回避方法は",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002570/"
-    },
-    {
-      "doc_id": "itmedia-3c8bf203b18c41e4",
-      "title": "「5年でバッテリーが使い物にならなくなる」は本当か テスラ「モデル3」5年目点検で分かったこと",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/25/2000002569/"
-    },
-    {
-      "doc_id": "itmedia-ca8b54dafacb9249",
-      "title": "たばこ休憩なき時代の“一服”をどう取るか 温熱と“聞こえない音”で休む、JT子会社のアイマスクを試す",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/25/2000002568/"
+      "doc_id": "nazology-22ad375548d14a6a",
+      "title": "誰にも読めない「ヴォイニッチ手稿」、15世紀に綴じた人も読めずに綴じ間違えていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203324"
     },
     {
       "doc_id": "nazology-c2c8b350d5b66e46",
@@ -284,12 +290,6 @@
       "title": "パルテノン神殿の「錯覚にかんする設計」は多くが神話だった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203609"
-    },
-    {
-      "doc_id": "nazology-f49d63d51df8ad2f",
-      "title": "冷蔵庫でビールを冷やす速さには「限界」があると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203073"
     }
   ]
 }
