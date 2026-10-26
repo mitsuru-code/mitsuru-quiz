@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-25T22:35:51+00:00",
-  "now_ms": 1792967751913,
+  "fetched_at": "2026-10-26T01:13:54+00:00",
+  "now_ms": 1792977234711,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,16 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-e8d1a1874c034356",
-      "title": "関東-九州激しい雨 夜にピークも",
+      "doc_id": "yahoo-93b3e4023da72958",
+      "title": "ブラジル大統領に現職ルラ氏再選",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600128"
+      "link": "https://news.yahoo.co.jp/pickup/6600147"
     },
     {
-      "doc_id": "yahoo-6cb4756e59d4be38",
-      "title": "次の首相「高市氏」27% 毎日調査",
+      "doc_id": "yahoo-843368b648c3ec62",
+      "title": "平和賞マチャド氏 ベネズエラ帰国",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600130"
+      "link": "https://news.yahoo.co.jp/pickup/6600141"
     },
     {
       "doc_id": "yahoo-bd6042c5d30d60a1",
@@ -28,40 +28,46 @@
       "link": "https://news.yahoo.co.jp/pickup/6600132"
     },
     {
-      "doc_id": "yahoo-3f348df0ed468c2c",
-      "title": "チャイルドシートの義務拡大 検討",
+      "doc_id": "yahoo-7659d4d03474cc6b",
+      "title": "新局面 漏洩被害者に迫る「脅威」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600127"
+      "link": "https://news.yahoo.co.jp/pickup/6600145"
     },
     {
-      "doc_id": "yahoo-d5291a094f58cd68",
-      "title": "2家族8人乗る車横転 20代の母死亡",
+      "doc_id": "yahoo-c2760527ac426fca",
+      "title": "電車が駅で140m過ぎて停車 戻らず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600091"
+      "link": "https://news.yahoo.co.jp/pickup/6600144"
     },
     {
-      "doc_id": "yahoo-91b3260fcecb1cd6",
-      "title": "伊東純也 ゴールの内側からゴール",
+      "doc_id": "yahoo-9f02a4d2af0c4471",
+      "title": "コニカミノルタ「社内副業」狙い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600123"
+      "link": "https://news.yahoo.co.jp/pickup/6600138"
     },
     {
-      "doc_id": "yahoo-e1f50656e692b24e",
-      "title": "VIVANTにダイアン津田 設計の妙",
+      "doc_id": "yahoo-959f65578b4eb16a",
+      "title": "ソフトバンク秋広優人 来季構想外",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600129"
+      "link": "https://news.yahoo.co.jp/pickup/6600135"
     },
     {
-      "doc_id": "yahoo-5fadcf7b04ebe9d1",
-      "title": "今田美桜 公式FC閉鎖の理由説明",
+      "doc_id": "yahoo-6cff23625c554863",
+      "title": "VIVANT高視聴率 日本S中継影響か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600090"
+      "link": "https://news.yahoo.co.jp/pickup/6600152"
     },
     {
-      "doc_id": "jiji-08cb49e543965f7a",
-      "title": "台風３０号、九州西方で温帯低気圧に 東・西日本は前線で大雨警戒―気象庁",
+      "doc_id": "jiji-0c6fce16f68280f8",
+      "title": "ロシア、夏に日本領事館員標的 敵視の末、記者「スパイ容疑」か―２７日で拘束２週間",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500237&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102500224&g=pol"
+    },
+    {
+      "doc_id": "jiji-db4dadc146c88d06",
+      "title": "与党リクード、第１党困難か ネタニヤフ首相の進退焦点―２７日、イスラエル総選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102500263&g=int"
     },
     {
       "doc_id": "jiji-a1bae7ccc1189103",
@@ -70,52 +76,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026102500449&g=pol"
     },
     {
-      "doc_id": "jiji-1705c880fcb14e90",
-      "title": "新興勢力の勝利確実 前大統領が敗北認める―セルビア議会選",
+      "doc_id": "jiji-3da71f5670e0645f",
+      "title": "ネタニヤフ首相に賛否 与党牙城で支持離れも―イスラエル総選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600133&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102500266&g=int"
     },
     {
-      "doc_id": "jiji-e1e9d235790a51d4",
-      "title": "ベネズエラ野党指導者が帰国 ノーベル平和賞受賞者、約１０カ月ぶり",
+      "doc_id": "jiji-798ca1336aa50c3a",
+      "title": "育成就労、日本語教員不足 「未確保」４割弱―政府調査",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600119&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102500216&g=pol"
     },
     {
-      "doc_id": "jiji-54c63bba2a177900",
-      "title": "ブラジル大統領選、決選投票実施 親米右派と現職左派接戦―ブラジル",
+      "doc_id": "jiji-204c671f8c3aab08",
+      "title": "ブラジル大統領選、現職ルラ氏が勝利",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500227&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102600252&g=int"
     },
     {
-      "doc_id": "jiji-50cab174494b2ecd",
-      "title": "オバマ氏、激戦州でトランプ氏を猛批判 急進左派への支持呼び掛け―米中間選挙",
+      "doc_id": "jiji-08cb49e543965f7a",
+      "title": "台風３０号、九州西方で温帯低気圧に 東・西日本は前線で大雨警戒―気象庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500230&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102500237&g=soc"
     },
     {
-      "doc_id": "jiji-531747787ec695d9",
-      "title": "吉田優利、米ツアー初Ｖ ４打差を逆転―米女子ゴルフ",
+      "doc_id": "jiji-28871bb5f38591d9",
+      "title": "ブラジル中央選管当局によると、大統領選決選投票で左派のルラ大統領が勝利した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500255&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102600248&g=flash"
     },
     {
-      "doc_id": "jiji-f96244f17aa210e2",
-      "title": "セルビアメディアによると、国民議会選挙でブチッチ前大統領が敗北を認めた",
+      "doc_id": "jiji-a6ebedd7b9b73872",
+      "title": "飛び降り巻き添え、事故で終わらせない 娘失った父、「未必の故意」訴え―署名活動に４．６万筆・名古屋",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600130&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102500238&g=soc"
     },
     {
-      "doc_id": "jiji-d5d0e252042a32c3",
-      "title": "那覇市長に知念覚氏再選 新人３人破る",
+      "doc_id": "jiji-5189a08a44861d4f",
+      "title": "鉄棒で岡慎之助が銀、川上翔平４位 平行棒は橋本大輝４位、岡５位―世界体操",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500387&g=pol"
-    },
-    {
-      "doc_id": "jiji-1228fe35dcccde1d",
-      "title": "首相動静（１０月２５日）",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102500173&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102600206&g=spo"
     },
     {
       "doc_id": "nhk-3a2077269888dfeb",
@@ -125,7 +125,7 @@
     },
     {
       "doc_id": "nhk-1f46d8d10bd5bc4c",
-      "title": "ブラジル大統領選挙 決選投票 全土で2時間延長後に終了",
+      "title": "ブラジル大統領選挙 決選投票 現職のルーラ大統領が当選",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261026de65416"
     },
@@ -136,28 +136,40 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261025de65392"
     },
     {
+      "doc_id": "nhk-994920bd8011ccef",
+      "title": "ノーベル平和賞受賞者のマチャド氏 ベネズエラに帰国",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65452"
+    },
+    {
+      "doc_id": "nhk-53982e94a95174ad",
+      "title": "ゼレンスキー大統領「領土問題は首脳同士で協議すべき」",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65459"
+    },
+    {
+      "doc_id": "nhk-32bcb8d0ebeab3af",
+      "title": "混乱広がるフランス 極右政党ルペン氏 来年春の大統領選に意欲",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65466"
+    },
+    {
       "doc_id": "nhk-da2dabceb74f2008",
       "title": "ソフトバンクが2試合続けて延長制す 川村が決勝HR【詳報】",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261025de65213"
     },
     {
-      "doc_id": "nhk-bc8a6ebbad340768",
-      "title": "あすイスラエル総選挙 ネタニヤフ首相政権維持できるか焦点",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65348"
+      "doc_id": "itmedia-3138284860f7cf0c",
+      "title": "GMO熊谷代表「社内ホワイトハッカーが事前に指摘」も対策遅れ、国に「能動的サイバー防御」要請 「責任転嫁では」SNSで批判も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002571/"
     },
     {
-      "doc_id": "nhk-4a7f61f9bdba816f",
-      "title": "消費税減税法案 与党 通過時期探る 野党 支援金対象明示を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65353"
-    },
-    {
-      "doc_id": "nhk-f1d8e28ff1701237",
-      "title": "福島県知事選挙 現職の内堀雅雄氏が4回目の当選",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261025de65086"
+      "doc_id": "itmedia-4cdb5b8495babcf3",
+      "title": "Google、プライバシーポリシーに「Gmail」「Googleフォト」のデータを広告に使う例外を追加 回避方法は",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002570/"
     },
     {
       "doc_id": "itmedia-3c8bf203b18c41e4",
@@ -218,18 +230,6 @@
       "title": "11月中に「ホワイトハッカー」のチームを立ち上げへ サイバー攻撃に対抗 赤沢経産相",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002556/"
-    },
-    {
-      "doc_id": "itmedia-df790954c73a38f3",
-      "title": "佐川への不正アクセス、最大5323万件の個人情報流出か 9月末のサイバー攻撃で続報",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002553/"
-    },
-    {
-      "doc_id": "itmedia-f4a2e5aea95d822e",
-      "title": "メール配信サービスの契約者情報全て漏えい 横浜市やJR四国などに影響 ラクス子会社に不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002551/"
     },
     {
       "doc_id": "nazology-cf33bfdfc3327d47",
