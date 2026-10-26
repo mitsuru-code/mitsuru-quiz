@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-26T14:19:03+00:00",
-  "now_ms": 1793024343143,
+  "fetched_at": "2026-10-26T20:31:17+00:00",
+  "now_ms": 1793046677737,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,22 +10,40 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a05c25511de00ac5",
-      "title": "ガソリン補助の段階縮小 自民提言",
+      "doc_id": "yahoo-a7d1f49f57dcdb5b",
+      "title": "スパイ防止へ登録制度案 政府提示",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600211"
+      "link": "https://news.yahoo.co.jp/pickup/6600226"
     },
     {
-      "doc_id": "yahoo-f0ea9abfba11985a",
-      "title": "検討委設置 同志社理事長ら会見へ",
+      "doc_id": "yahoo-8eabe2811d3e5dd1",
+      "title": "露拘束の記者 大使館員が領事面会",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600223"
+      "link": "https://news.yahoo.co.jp/pickup/6600239"
     },
     {
-      "doc_id": "yahoo-3026ae9d01c4db46",
-      "title": "福田康夫さん死去 親子2代で首相",
+      "doc_id": "yahoo-a2fe4558912c04cc",
+      "title": "米Anthropic IPO申請書類を公開",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600231"
+      "link": "https://news.yahoo.co.jp/pickup/6600240"
+    },
+    {
+      "doc_id": "yahoo-35d38993f2410793",
+      "title": "氏名誤記の原爆死没者 遺骨返還へ",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600233"
+    },
+    {
+      "doc_id": "yahoo-5b294750a9ea6ef3",
+      "title": "クマ放獣も3日で街に戻る 課題は",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600225"
+    },
+    {
+      "doc_id": "yahoo-97e7263515c97b11",
+      "title": "中国媒体の「VIVANT」批判 背景",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600218"
     },
     {
       "doc_id": "yahoo-4d2a5ae46563a5a2",
@@ -40,28 +58,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6600235"
     },
     {
-      "doc_id": "yahoo-e325907d9ffc1d58",
-      "title": "3ピンプラグに2穴 10代感電し入院",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600207"
-    },
-    {
-      "doc_id": "yahoo-58a6b8ddfd22ba0f",
-      "title": "豪生保 第一ライフによる買収拒否",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600234"
-    },
-    {
-      "doc_id": "yahoo-949f160d24101d91",
-      "title": "「弁当男子」増 力入れる食品業界",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600237"
-    },
-    {
-      "doc_id": "jiji-b681ba472317d7a4",
-      "title": "タイムズカー、年内にも集団訴訟 免許証画像漏えい、最大５万円請求―東京地裁",
+      "doc_id": "jiji-1705c880fcb14e90",
+      "title": "新興勢力大勝、強権に終止符 １４年ぶり政権交代へ―セルビア議会選",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600861&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102600133&g=int"
     },
     {
       "doc_id": "jiji-b19e3d8db4f34463",
@@ -70,10 +70,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026102600880&g=pol"
     },
     {
-      "doc_id": "jiji-29a9c86abf055dc2",
-      "title": "改正皇室典範は「違憲」と提訴 漫画家・小林よしのりさん―東京地裁",
+      "doc_id": "jiji-38125843bf4df760",
+      "title": "日本政府によると、邦人の健康状態には問題がない",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600701&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102601137&g=flash"
+    },
+    {
+      "doc_id": "jiji-30ed789fc5686e00",
+      "title": "小泉元首相「福田氏いてこそ」 大連立交渉の小沢氏「今も感銘」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600933&g=pol"
+    },
+    {
+      "doc_id": "jiji-5012a16b0fe3839a",
+      "title": "日本Ｓ、２７日第３戦 ソフトバンク連勝で福岡へ―プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600924&g=spo"
+    },
+    {
+      "doc_id": "jiji-f0f43d74ab9a2e10",
+      "title": "対中外交に尽力 幻の「大連立」構想―福田元首相",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600664&g=pol"
+    },
+    {
+      "doc_id": "jiji-435eb81c906d454c",
+      "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600651&g=int"
+    },
+    {
+      "doc_id": "jiji-67a2a37018fb0d09",
+      "title": "再選も、厳しい政治環境 分断深刻化、議会とはねじれ―ブラジル大統領選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102600946&g=int"
     },
     {
       "doc_id": "jiji-860a55e73a125ceb",
@@ -82,82 +112,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026102600621&g=pol"
     },
     {
-      "doc_id": "jiji-204c671f8c3aab08",
-      "title": "左派ルラ氏、大接戦制し４期目へ 右派候補「無効」主張―ブラジル大統領決選",
+      "doc_id": "jiji-2ec5c0f7cb8ce1a3",
+      "title": "小野次郎さん死去 元自民党衆院議員、元みんなの党参院議員",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600252&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102600836&g=pol"
     },
     {
-      "doc_id": "jiji-6f70d2b95b02a9a8",
-      "title": "福田康夫元首相が死去、９０歳 洞爺湖サミットで議長、「ねじれ国会」問責可決―引退後も日中強化訴え",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600617&g=pol"
-    },
-    {
-      "doc_id": "jiji-1f8a18db78ea9b5f",
-      "title": "炎鵬関、結婚会見で支えに感謝 妻は「太陽、生きる希望」―大相撲",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600955&g=spo"
-    },
-    {
-      "doc_id": "jiji-3553801f4a54f208",
-      "title": "「外国代理人制度」の検討着手 政府、スパイ防止法第１弾",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600774&g=pol"
-    },
-    {
-      "doc_id": "jiji-48d437b27154a568",
-      "title": "アクセス無害化「戦略的に実行」 高市首相、来週めどに緊急対策案",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600939&g=pol"
-    },
-    {
-      "doc_id": "jiji-86b2700f568cb9e4",
-      "title": "東京国際映画祭が開幕 ２００作品上映、来月４日まで",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102601055&g=soc"
-    },
-    {
-      "doc_id": "nhk-8ed5d74512cc8b86",
-      "title": "家電量販店「Joshin」 顧客情報600万件漏えいの可能性",
+      "doc_id": "nhk-1e22cd04c0141795",
+      "title": "北海道新聞記者と「領事面会」実施 健康状態に問題なし 外務省",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65955"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66041"
     },
     {
-      "doc_id": "nhk-b02dcd233c4a5f44",
-      "title": "電子ギフト会社に不正アクセス 5億5000万円分が不正発行",
+      "doc_id": "nhk-20f237eb3510f305",
+      "title": "衆議院議員定数 31削減案できょう政党間協議",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66013"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66067"
     },
     {
-      "doc_id": "nhk-3abea23f99f51d28",
-      "title": "ハッカー集団 GMOにあす期限で100万ドル要求 顧客脅迫も",
+      "doc_id": "nhk-70ba20a344399ab8",
+      "title": "障害者団体が国に要望 “期間が短い場合の投票環境改善を”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65733"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66066"
+    },
+    {
+      "doc_id": "nhk-1961e5b677c6df86",
+      "title": "GMO ハッカー集団の脅迫続くなか 注意呼びかけを一段と強化",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66048"
+    },
+    {
+      "doc_id": "nhk-e0c1d59fc4f55e18",
+      "title": "楽天トラベル 不正アクセスで氏名やクレカ番号の一部など流出",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66040"
+    },
+    {
+      "doc_id": "nhk-607e4a040840fe6f",
+      "title": "フィンランド国防相“結束してロシアへの圧力強めるべき”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66031"
     },
     {
       "doc_id": "nhk-fdb353a9c9fd7097",
       "title": "福田康夫元首相が死去 90歳",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261026de65501"
-    },
-    {
-      "doc_id": "nhk-b18625a85ce95a7f",
-      "title": "東京国際映画祭始まる 雨天も人気俳優らが登場",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65966"
-    },
-    {
-      "doc_id": "nhk-cd239c6ba61d2ffd",
-      "title": "大分市佐賀関の火災 被災した170棟余の公費解体の作業終了",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65972"
-    },
-    {
-      "doc_id": "nhk-6ad2927d961e76c4",
-      "title": "巨人 松井秀喜新監督に元監督の堀内恒夫さん「長期政権を」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65951"
     },
     {
       "doc_id": "itmedia-3cba4ab945db11a9",
