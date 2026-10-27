@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-27T18:45:19+00:00",
-  "now_ms": 1793126719416,
+  "fetched_at": "2026-10-27T22:58:17+00:00",
+  "now_ms": 1793141897024,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,28 +10,22 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-4ffb8e5187bc577b",
-      "title": "イオン熊本 一部再開意向を伝える",
+      "doc_id": "yahoo-b40ea175cc6dd892",
+      "title": "イスラエル総選挙 連立協議難航か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600353"
+      "link": "https://news.yahoo.co.jp/pickup/6600366"
     },
     {
-      "doc_id": "yahoo-d3726deede5165a3",
-      "title": "副首都 要件満たせば4道府県指定",
+      "doc_id": "yahoo-26a039d9be80f69a",
+      "title": "安保3文書で「拒否力」防衛の柱に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600343"
+      "link": "https://news.yahoo.co.jp/pickup/6600361"
     },
     {
-      "doc_id": "yahoo-54c376ad33c09d88",
-      "title": "GMO不正アクセス 警視庁が捜査",
+      "doc_id": "yahoo-cab7a50411c0f7b3",
+      "title": "GMO攻撃 被害者は「恐怖しか」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600351"
-    },
-    {
-      "doc_id": "yahoo-574b3426e46581b4",
-      "title": "So-netなど258万件超が漏えい",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600338"
+      "link": "https://news.yahoo.co.jp/pickup/6600364"
     },
     {
       "doc_id": "yahoo-7535395e12767f3d",
@@ -40,28 +34,58 @@
       "link": "https://news.yahoo.co.jp/pickup/6600348"
     },
     {
-      "doc_id": "yahoo-d33e5e5c21ecc891",
-      "title": "車横転し死亡 定員乗車に潜む危険",
+      "doc_id": "yahoo-7bbe9f564f8cfa8a",
+      "title": "原付の男性死亡 高速道で車と衝突",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600347"
+      "link": "https://news.yahoo.co.jp/pickup/6600355"
     },
     {
-      "doc_id": "yahoo-0428c0f3926b1dc4",
-      "title": "たまごの平均価格 最高値を更新",
+      "doc_id": "yahoo-6fe04f2163abe62c",
+      "title": "ビルの窓の清掃中に転落か 死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600331"
+      "link": "https://news.yahoo.co.jp/pickup/6600362"
     },
     {
-      "doc_id": "yahoo-e94e817400796235",
-      "title": "DeNA神里 松葉づえで球場を後に",
+      "doc_id": "yahoo-78dc1f1378deec30",
+      "title": "エムバペ選手が謝罪 中国巡り騒動",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600354"
+      "link": "https://news.yahoo.co.jp/pickup/6600358"
     },
     {
-      "doc_id": "jiji-882224b2db9e9bab",
+      "doc_id": "yahoo-0db7268f74efa3d7",
+      "title": "草間リチャード舞台復帰 頭下げる",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600359"
+    },
+    {
+      "doc_id": "jiji-ed01fc62c71b48cc",
       "title": "メルツ独首相、２８日に来日 安保・対中で意思疎通",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102700672&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102700672&g=pol"
+    },
+    {
+      "doc_id": "jiji-67586ad6ac67cdad",
+      "title": "ボルソナロ氏が米国へ出国 資金洗浄疑いで捜査対象―ブラジル大統領選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102800125&g=int"
+    },
+    {
+      "doc_id": "jiji-2c981a60d19cd29e",
+      "title": "与党リクード、第１党か 全体では反ネタニヤフ陣営優勢―イスラエル総選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102800149&g=int"
+    },
+    {
+      "doc_id": "jiji-d354c98f6127fd7b",
+      "title": "新型マックブックプロ、来月６日発売 ＡＩ処理向上―米アップル",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102800151&g=int"
+    },
+    {
+      "doc_id": "jiji-4a86d8f77ac2ac0b",
+      "title": "元検事正、一転して無罪主張 「抵抗や拒否はなかった」―部下への準強制性交罪・大阪地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102700120&g=soc"
     },
     {
       "doc_id": "jiji-b47dd6a8e4c7d6f2",
@@ -70,10 +94,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026102701236&g=spo"
     },
     {
-      "doc_id": "jiji-225e98b253912580",
-      "title": "ネタニヤフ氏の続投焦点 イスラエル総選挙の投票実施",
+      "doc_id": "jiji-52a98a05acfd104f",
+      "title": "首相動静（１０月２７日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102700694&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102700231&g=pol"
     },
     {
       "doc_id": "jiji-6ebe724f06d95f2c",
@@ -82,82 +106,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026102701256&g=soc"
     },
     {
-      "doc_id": "jiji-9483a1257136fb05",
-      "title": "神戸が開幕３連勝 京都は逆転勝ち―ＡＣＬサッカー",
+      "doc_id": "jiji-b05ad2372e1e6861",
+      "title": "上場先、ナスダックに変更 ハイテク路線アピール―米ＧＭ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701078&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102800138&g=int"
     },
     {
-      "doc_id": "jiji-64aa9f92c69a2033",
-      "title": "北欧首脳がロ大統領と電話会談 和平協議向け「直接対話」",
+      "doc_id": "jiji-d687cbef39ce84f7",
+      "title": "日商、８年ぶりインド訪問団 中小企業進出増へ、人材獲得期待も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701253&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102800116&g=int"
     },
     {
-      "doc_id": "jiji-b902ac7f5ec09bab",
-      "title": "「ありがとう」「安らかに」 東京・山谷、ジョーゆかりの地に悲しみ―ちばてつやさん死去",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701041&g=soc"
-    },
-    {
-      "doc_id": "jiji-a4fb9d8cdab9b4d7",
-      "title": "ＤｅＮＡの神里和毅、九回守備で負傷 プロ野球・日本シリーズ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701267&g=spo"
-    },
-    {
-      "doc_id": "jiji-ad67f50bfb70d7cd",
-      "title": "フーシ派、サウジの主要製油所を攻撃 付近で火災と報道",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701225&g=int"
-    },
-    {
-      "doc_id": "jiji-37491d57cfd3e020",
-      "title": "エース東の力投報われず ＤｅＮＡ、無念の３連敗―プロ野球・日本シリーズ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701235&g=bsb"
-    },
-    {
-      "doc_id": "nhk-1961e5b677c6df86",
-      "title": "GMO サイトにアクセスしないで ハッカー側 1人の個人情報公開",
+      "doc_id": "nhk-8e079a5806d3af16",
+      "title": "JR京浜東北線 全線で運転見合せ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66048"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66737"
     },
     {
-      "doc_id": "nhk-6947918a71468db4",
-      "title": "ヨルダン“シリアのIS拠点を空爆”民間犠牲者も",
+      "doc_id": "nhk-e667647650f29cfb",
+      "title": "GMO“懸賞金支払い”で脅迫に対抗も不安続く",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66713"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66716"
     },
     {
-      "doc_id": "nhk-0636cc3342c5608b",
-      "title": "山下法相 検察庁のハラスメント調査“私の責任で公表する”",
+      "doc_id": "nhk-2a12f22bcce48065",
+      "title": "西高東低の冬型の気圧配置で風強まる 北日本で暴風警戒",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66696"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66726"
     },
     {
-      "doc_id": "nhk-97338380dd1f31f1",
-      "title": "自転車2人乗りの規則見直し 都内で安全性を検討する会議",
+      "doc_id": "nhk-f836ab460f7a6ab1",
+      "title": "フラビオ・ボルソナロ氏 ブラジルを出国か 現地メディア報道",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66691"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66719"
     },
     {
-      "doc_id": "nhk-d253aa2c1c7cdee2",
-      "title": "漫画家 ちばてつやさん死去 87歳 「あしたのジョー」",
+      "doc_id": "nhk-4e0670d8ef56f5b8",
+      "title": "イスラエル総選挙開票始まる“与野党陣営 獲得議席きっ抗か”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66136"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66728"
     },
     {
-      "doc_id": "nhk-b6be3729f3666006",
-      "title": "イスラエル総選挙 投票開始 ネタニヤフ首相続投できるかが焦点",
+      "doc_id": "nhk-f19ff42d482be439",
+      "title": "山梨の女性死亡事件 台湾で夫を拘束 高額保険か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66339"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66734"
     },
     {
-      "doc_id": "nhk-84f7a01a3e6c0c93",
-      "title": "最高裁判所の山元裕史新判事が就任会見",
+      "doc_id": "nhk-bdfafaaa0e44850f",
+      "title": "フィンランドとノルウェーの首脳がプーチン大統領と電話会談",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66705"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66723"
+    },
+    {
+      "doc_id": "itmedia-84101c5bb2b1ca79",
+      "title": "Google DeepMind、ワールドモデル「Genie 4」発表 音声や会話もリアルタイム生成、Geminiと連携",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002648/"
     },
     {
       "doc_id": "itmedia-ec7cbc5db60c7546",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002550/"
     },
     {
-      "doc_id": "itmedia-61808ed57486a0d1",
-      "title": "「若手はAI使うな」は“老害”なのか？ 新人教育で「AI禁止」した企業の1年後",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002585/"
+      "doc_id": "nazology-49869f2b8c26c91c",
+      "title": "ジュラ紀の「巨大な6本脚の捕食者」の化石を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203585"
     },
     {
       "doc_id": "nazology-ee1363124094ad3a",
@@ -284,12 +290,6 @@
       "title": "若くして2型糖尿病になった人、低カロリー食と運動の24週間で半数以上が「寛解」",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203350"
-    },
-    {
-      "doc_id": "nazology-fad8cd558999e699",
-      "title": "AIもネットのジャンク情報を学ぶと「脳が腐る」と判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203428"
     }
   ]
 }
