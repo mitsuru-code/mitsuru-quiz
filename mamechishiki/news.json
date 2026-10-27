@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-27T13:15:06+00:00",
-  "now_ms": 1793106906724,
+  "fetched_at": "2026-10-27T18:45:19+00:00",
+  "now_ms": 1793126719416,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,22 +10,22 @@
   },
   "candidates": [
     {
+      "doc_id": "yahoo-4ffb8e5187bc577b",
+      "title": "イオン熊本 一部再開意向を伝える",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600353"
+    },
+    {
       "doc_id": "yahoo-d3726deede5165a3",
       "title": "副首都 要件満たせば4道府県指定",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6600343"
     },
     {
-      "doc_id": "yahoo-edfeba5b7f5dec05",
-      "title": "習近平氏「弱い官僚」求める背景",
+      "doc_id": "yahoo-54c376ad33c09d88",
+      "title": "GMO不正アクセス 警視庁が捜査",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600281"
-    },
-    {
-      "doc_id": "yahoo-77ac5ea2435cedae",
-      "title": "GMO 被害者に最大300万円見舞金",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600341"
+      "link": "https://news.yahoo.co.jp/pickup/6600351"
     },
     {
       "doc_id": "yahoo-574b3426e46581b4",
@@ -34,58 +34,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6600338"
     },
     {
-      "doc_id": "yahoo-1d85177a2db87694",
-      "title": "ユニクロ 50色ソックス値上げ撤回",
+      "doc_id": "yahoo-7535395e12767f3d",
+      "title": "25歳店長自殺 スマホに残した動画",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600339"
+      "link": "https://news.yahoo.co.jp/pickup/6600348"
     },
     {
-      "doc_id": "yahoo-f998ede6e7ed6e13",
-      "title": "DeNA神里が負傷 担架で運ばれる",
+      "doc_id": "yahoo-d33e5e5c21ecc891",
+      "title": "車横転し死亡 定員乗車に潜む危険",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600344"
+      "link": "https://news.yahoo.co.jp/pickup/6600347"
     },
     {
-      "doc_id": "yahoo-a1e8e1fb882ecd87",
-      "title": "SBがサヨナラ勝ち 日本一へ王手",
+      "doc_id": "yahoo-0428c0f3926b1dc4",
+      "title": "たまごの平均価格 最高値を更新",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600345"
+      "link": "https://news.yahoo.co.jp/pickup/6600331"
     },
     {
-      "doc_id": "yahoo-e9177b8193f42ce7",
-      "title": "俳優・おかやまはじめ 結婚を報告",
+      "doc_id": "yahoo-e94e817400796235",
+      "title": "DeNA神里 松葉づえで球場を後に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600335"
-    },
-    {
-      "doc_id": "jiji-705a63767713337c",
-      "title": "「親中派重鎮」中国で惜しむ声 政府、哀悼の意―福田氏死去",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600932&g=int"
-    },
-    {
-      "doc_id": "jiji-225e98b253912580",
-      "title": "ネタニヤフ氏の続投焦点 イスラエル総選挙の投票実施",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102700694&g=int"
-    },
-    {
-      "doc_id": "jiji-c5e0802fbff19d64",
-      "title": "ソフトバンク、３連勝で王手 正木の一発で決める―プロ野球・日本シリーズ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102700968&g=spo"
-    },
-    {
-      "doc_id": "jiji-e39f69d9aad5ef23",
-      "title": "消費減税「極めてコスパ悪い」 物価抑制効果に疑問―衆院参考人質疑",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701075&g=pol"
-    },
-    {
-      "doc_id": "jiji-b4ce22537940f970",
-      "title": "高市首相、１兆円の投資伝達 日バングラデシュ首脳会談",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102700856&g=pol"
+      "link": "https://news.yahoo.co.jp/pickup/6600354"
     },
     {
       "doc_id": "jiji-882224b2db9e9bab",
@@ -94,28 +64,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026102700672&g=int"
     },
     {
-      "doc_id": "jiji-a2c297f9bd7e318d",
-      "title": "ちばてつやさん死去、８７歳 漫画家「あしたのジョー」",
+      "doc_id": "jiji-b47dd6a8e4c7d6f2",
+      "title": "２８日の予告先発投手 プロ野球・日本シリーズ第４戦",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102700555&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102701236&g=spo"
     },
     {
-      "doc_id": "jiji-7c9347a616146a68",
-      "title": "ＵＡＥで拘束の２人逮捕 特殊詐欺の「かけ子」か―警視庁",
+      "doc_id": "jiji-225e98b253912580",
+      "title": "ネタニヤフ氏の続投焦点 イスラエル総選挙の投票実施",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701102&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102700694&g=int"
     },
     {
-      "doc_id": "jiji-b39bb9a6379474a6",
-      "title": "エボラ熱、感染者１万人超 コンゴ",
+      "doc_id": "jiji-6ebe724f06d95f2c",
+      "title": "「社会実情知り、研さん努める」 山元新判事が就任会見―最高裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701173&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102701256&g=soc"
     },
     {
-      "doc_id": "jiji-9a05e3f5147b93dc",
-      "title": "習主席、福田氏死去で弔電 「中国の古い友人」",
+      "doc_id": "jiji-9483a1257136fb05",
+      "title": "神戸が開幕３連勝 京都は逆転勝ち―ＡＣＬサッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102701042&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102701078&g=spo"
+    },
+    {
+      "doc_id": "jiji-64aa9f92c69a2033",
+      "title": "北欧首脳がロ大統領と電話会談 和平協議向け「直接対話」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102701253&g=int"
+    },
+    {
+      "doc_id": "jiji-b902ac7f5ec09bab",
+      "title": "「ありがとう」「安らかに」 東京・山谷、ジョーゆかりの地に悲しみ―ちばてつやさん死去",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102701041&g=soc"
+    },
+    {
+      "doc_id": "jiji-a4fb9d8cdab9b4d7",
+      "title": "ＤｅＮＡの神里和毅、九回守備で負傷 プロ野球・日本シリーズ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102701267&g=spo"
+    },
+    {
+      "doc_id": "jiji-ad67f50bfb70d7cd",
+      "title": "フーシ派、サウジの主要製油所を攻撃 付近で火災と報道",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102701225&g=int"
+    },
+    {
+      "doc_id": "jiji-37491d57cfd3e020",
+      "title": "エース東の力投報われず ＤｅＮＡ、無念の３連敗―プロ野球・日本シリーズ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102701235&g=bsb"
     },
     {
       "doc_id": "nhk-1961e5b677c6df86",
@@ -124,10 +124,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261027de66048"
     },
     {
-      "doc_id": "nhk-806a93392e957c81",
-      "title": "元検事正 部下への性的暴行の起訴内容を否認 無罪を主張",
+      "doc_id": "nhk-6947918a71468db4",
+      "title": "ヨルダン“シリアのIS拠点を空爆”民間犠牲者も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66127"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66713"
+    },
+    {
+      "doc_id": "nhk-0636cc3342c5608b",
+      "title": "山下法相 検察庁のハラスメント調査“私の責任で公表する”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66696"
+    },
+    {
+      "doc_id": "nhk-97338380dd1f31f1",
+      "title": "自転車2人乗りの規則見直し 都内で安全性を検討する会議",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66691"
     },
     {
       "doc_id": "nhk-d253aa2c1c7cdee2",
@@ -136,28 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261027de66136"
     },
     {
-      "doc_id": "nhk-d2f0355574b61da7",
-      "title": "ソフトバンク子会社 サイバー攻撃受けた原因と対策を公表",
+      "doc_id": "nhk-b6be3729f3666006",
+      "title": "イスラエル総選挙 投票開始 ネタニヤフ首相続投できるかが焦点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66660"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66339"
     },
     {
-      "doc_id": "nhk-614fec15379c394e",
-      "title": "NHK次期経営計画案 “公共メディアプラットフォーム”へ",
+      "doc_id": "nhk-84f7a01a3e6c0c93",
+      "title": "最高裁判所の山元裕史新判事が就任会見",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66588"
-    },
-    {
-      "doc_id": "nhk-f0683e2d840287ba",
-      "title": "日本生命 元社員が診断書偽造で給付金を不正に受給",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66643"
-    },
-    {
-      "doc_id": "nhk-9cbce8a5e057af29",
-      "title": "サッカー エムバペ選手が謝罪声明 「中国の独裁者」SNS発言で",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66664"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66705"
     },
     {
       "doc_id": "itmedia-ec7cbc5db60c7546",
