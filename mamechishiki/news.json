@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-26T20:31:17+00:00",
-  "now_ms": 1793046677737,
+  "fetched_at": "2026-10-27T00:28:44+00:00",
+  "now_ms": 1793060924293,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,76 +10,82 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a7d1f49f57dcdb5b",
-      "title": "スパイ防止へ登録制度案 政府提示",
+      "doc_id": "yahoo-60d0302a8a8e8007",
+      "title": "イスラエル総選挙 政権維持が焦点",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600226"
+      "link": "https://news.yahoo.co.jp/pickup/6600247"
     },
     {
-      "doc_id": "yahoo-8eabe2811d3e5dd1",
-      "title": "露拘束の記者 大使館員が領事面会",
+      "doc_id": "yahoo-78c297913f62ec4f",
+      "title": "茨城県教委 国に誤った情報伝達",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600239"
+      "link": "https://news.yahoo.co.jp/pickup/6600260"
     },
     {
-      "doc_id": "yahoo-a2fe4558912c04cc",
-      "title": "米Anthropic IPO申請書類を公開",
+      "doc_id": "yahoo-d1bef5a1ffc26220",
+      "title": "ながら運転で子奪われ10年 父は今",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600240"
+      "link": "https://news.yahoo.co.jp/pickup/6600256"
     },
     {
-      "doc_id": "yahoo-35d38993f2410793",
-      "title": "氏名誤記の原爆死没者 遺骨返還へ",
+      "doc_id": "yahoo-b1526fbe553a44d4",
+      "title": "新iPad mini発表 防水を初搭載",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600233"
+      "link": "https://news.yahoo.co.jp/pickup/6600262"
     },
     {
-      "doc_id": "yahoo-5b294750a9ea6ef3",
-      "title": "クマ放獣も3日で街に戻る 課題は",
+      "doc_id": "yahoo-362aef0a5ea4fd27",
+      "title": "立ち飲み 若者中心に新たなブーム",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600225"
+      "link": "https://news.yahoo.co.jp/pickup/6600257"
     },
     {
-      "doc_id": "yahoo-97e7263515c97b11",
-      "title": "中国媒体の「VIVANT」批判 背景",
+      "doc_id": "yahoo-d8381685d8ccd4de",
+      "title": "バズは狙わない「ちふれ」の工夫",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600218"
+      "link": "https://news.yahoo.co.jp/pickup/6600259"
     },
     {
-      "doc_id": "yahoo-4d2a5ae46563a5a2",
-      "title": "楽天トラベル 約260万件が流出か",
+      "doc_id": "yahoo-450b348e3f140c6d",
+      "title": "ケイン 念願のバロンドール初受賞",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600238"
+      "link": "https://news.yahoo.co.jp/pickup/6600258"
     },
     {
-      "doc_id": "yahoo-930ce6466d52956d",
-      "title": "新幹線予約の個人情報17万件流出",
+      "doc_id": "yahoo-a6a761cb94dc9538",
+      "title": "プリキュア 新作は不穏な雰囲気",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600235"
+      "link": "https://news.yahoo.co.jp/pickup/6600254"
     },
     {
-      "doc_id": "jiji-1705c880fcb14e90",
-      "title": "新興勢力大勝、強権に終止符 １４年ぶり政権交代へ―セルビア議会選",
+      "doc_id": "jiji-a5eafee27c7e5760",
+      "title": "新型ｉＰａｄミニ、１１月６日発売 薄型・軽量化―米アップル",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600133&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102700167&g=int"
     },
     {
-      "doc_id": "jiji-b19e3d8db4f34463",
-      "title": "ガソリン補助、毎月５円縮小 電気代支援再開、自民提言案",
+      "doc_id": "jiji-d4215b64dbe1ec69",
+      "title": "民主知事、次期大統領選へ布石 党勢拡大に激戦区奔走―米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600880&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102600631&g=int"
     },
     {
-      "doc_id": "jiji-38125843bf4df760",
-      "title": "日本政府によると、邦人の健康状態には問題がない",
+      "doc_id": "jiji-af882b7f3bddebf2",
+      "title": "勤務間インターバル、定着せず 導入６．９％、義務化が焦点に",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102601137&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102600837&g=soc"
     },
     {
-      "doc_id": "jiji-30ed789fc5686e00",
-      "title": "小泉元首相「福田氏いてこそ」 大連立交渉の小沢氏「今も感銘」",
+      "doc_id": "jiji-2b806b5adf2ee949",
+      "title": "米ＭＳ、希望退職募集 ６万人が対象",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600933&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102700224&g=int"
+    },
+    {
+      "doc_id": "jiji-fb06f08b94d1d04b",
+      "title": "米ガソリン価格、バイデン時代超え トランプ政権下、イラン攻撃で",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102700124&g=int"
     },
     {
       "doc_id": "jiji-5012a16b0fe3839a",
@@ -88,52 +94,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026102600924&g=spo"
     },
     {
-      "doc_id": "jiji-f0f43d74ab9a2e10",
-      "title": "対中外交に尽力 幻の「大連立」構想―福田元首相",
+      "doc_id": "jiji-6f70d2b95b02a9a8",
+      "title": "福田康夫元首相が死去、９０歳 洞爺湖サミットで議長、「ねじれ国会」問責可決―引退後も日中強化訴え",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600664&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102600617&g=pol"
     },
     {
-      "doc_id": "jiji-435eb81c906d454c",
-      "title": "中国、輸出違反摘発が前年超え レアアース規制、日本に影―高市首相台湾答弁１年",
+      "doc_id": "jiji-755afc04efe0dcd5",
+      "title": "租特見直し、１兆円捻出視野 維新・萩原税調会長に聞く",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600651&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102600649&g=pol"
     },
     {
-      "doc_id": "jiji-67a2a37018fb0d09",
-      "title": "再選も、厳しい政治環境 分断深刻化、議会とはねじれ―ブラジル大統領選",
+      "doc_id": "jiji-8288309132d4b923",
+      "title": "米ＦＲＢ、金利据え置き見通し インフレ加速も動向見極め―２７、２８日に金融政策会合",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600946&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102400296&g=int"
     },
     {
-      "doc_id": "jiji-860a55e73a125ceb",
-      "title": "国会対応業務、心身の負担に？ 長時間の府省、医療費高―慶大など",
+      "doc_id": "jiji-b19e3d8db4f34463",
+      "title": "ガソリン補助、毎月５円縮小 電気代支援再開、自民提言案",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600621&g=pol"
-    },
-    {
-      "doc_id": "jiji-2ec5c0f7cb8ce1a3",
-      "title": "小野次郎さん死去 元自民党衆院議員、元みんなの党参院議員",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102600836&g=pol"
-    },
-    {
-      "doc_id": "nhk-1e22cd04c0141795",
-      "title": "北海道新聞記者と「領事面会」実施 健康状態に問題なし 外務省",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66041"
-    },
-    {
-      "doc_id": "nhk-20f237eb3510f305",
-      "title": "衆議院議員定数 31削減案できょう政党間協議",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66067"
-    },
-    {
-      "doc_id": "nhk-70ba20a344399ab8",
-      "title": "障害者団体が国に要望 “期間が短い場合の投票環境改善を”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66066"
+      "link": "https://www.jiji.com/jc/article?k=2026102600880&g=pol"
     },
     {
       "doc_id": "nhk-1961e5b677c6df86",
@@ -142,22 +124,76 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261027de66048"
     },
     {
-      "doc_id": "nhk-e0c1d59fc4f55e18",
-      "title": "楽天トラベル 不正アクセスで氏名やクレカ番号の一部など流出",
+      "doc_id": "nhk-2924fa9f7dd9b9b9",
+      "title": "ロシアとウクライナ局地停戦合意 日本時間27日午前10時発効へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66040"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66070"
     },
     {
-      "doc_id": "nhk-607e4a040840fe6f",
-      "title": "フィンランド国防相“結束してロシアへの圧力強めるべき”",
+      "doc_id": "nhk-1e22cd04c0141795",
+      "title": "北海道新聞記者と「領事面会」実施 健康状態に問題なし 外務省",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66031"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261026de66041"
     },
     {
-      "doc_id": "nhk-fdb353a9c9fd7097",
-      "title": "福田康夫元首相が死去 90歳",
+      "doc_id": "nhk-c83d94380308fed1",
+      "title": "山口 美祢 菓子店強盗殺人事件“便利屋”仕事通じ接点か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261026de65501"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66072"
+    },
+    {
+      "doc_id": "nhk-4982cfe19775d0e0",
+      "title": "元検事正 部下への性的暴行の罪について きょう無罪主張へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66054"
+    },
+    {
+      "doc_id": "nhk-9aa779d11e99527a",
+      "title": "イスラエルきょう総選挙 野党側やや優勢 ネタニヤフ氏続投焦点",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66052"
+    },
+    {
+      "doc_id": "nhk-651ad1f67f5b909f",
+      "title": "台湾 統一地方選挙に向け 台北などで激しい争い",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261027de66088"
+    },
+    {
+      "doc_id": "itmedia-aab8aaab699d897a",
+      "title": "「一番くじ ONLINE」の配送情報漏えいか バンダイナムコの物流子会社に不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002608/"
+    },
+    {
+      "doc_id": "itmedia-63fe2c85983aeaa4",
+      "title": "Apple、「iPad mini」を大幅刷新 8.5インチOLEDとA20 Pro搭載、防水にも対応 11万9800円から",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002607/"
+    },
+    {
+      "doc_id": "itmedia-ea1af28d833cdec5",
+      "title": "「楽天トラベル」に不正アクセス 顧客情報最大約260万件など流出か 予約者約3.6万件のクレカ情報も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002606/"
+    },
+    {
+      "doc_id": "itmedia-bcd5ff86bb8e3f91",
+      "title": "Meta、AI投資拡大に向け最大950億ドル規模の株式発行計画 NVIDIA、AMD、Broadcomも出資に関心",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002605/"
+    },
+    {
+      "doc_id": "itmedia-95eefb80c3d29bae",
+      "title": "Microsoft、約6万人対象の希望退職制度を発表 巨額のAI投資で経費抑制か",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002604/"
+    },
+    {
+      "doc_id": "itmedia-5691f81a3b8fe604",
+      "title": "Anthropic、IPOを正式申請 上半期売上高は約14倍、純損失807億ドル",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002603/"
     },
     {
       "doc_id": "itmedia-3cba4ab945db11a9",
@@ -196,40 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/23/2000002527/"
     },
     {
-      "doc_id": "itmedia-c09a497ad48bef12",
-      "title": "「漏えい」の一言で素通り客が振り返る──相次ぐ情報流出の中で開幕のセキュリティ展示会 来場者の態度も激変",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002476/"
-    },
-    {
-      "doc_id": "itmedia-197a985018097488",
-      "title": "Xの「いいね」長押しで1ドル送金 マスク氏が“投げ銭”機能を予告",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002579/"
-    },
-    {
-      "doc_id": "itmedia-c96861d7c9c695fa",
-      "title": "米国のデータセンター急増、AI需要で巨大化 受電容量「ギガ時代」に 中間選挙争点にも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002578/"
-    },
-    {
-      "doc_id": "itmedia-3138284860f7cf0c",
-      "title": "GMO熊谷代表「社内ホワイトハッカーが事前に指摘」も対策遅れ、国に「能動的サイバー防御」要請 「責任転嫁では」SNSで批判も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002571/"
-    },
-    {
-      "doc_id": "itmedia-7347179381de422b",
-      "title": "ジャック・ドーシー氏率いるBlock、音声だけで学習した全二重音声モデル「Dessa」発表 「人と話しているよう」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/26/2000002574/"
-    },
-    {
-      "doc_id": "itmedia-da0c2c4dfea670dd",
-      "title": "PHP脆弱性でいち早くサービス停止したコドモン 背景に「被害が出てからでは取り消せない」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/22/2000002528/"
+      "doc_id": "nazology-c332bda268ff2067",
+      "title": "犬も「ブーバは丸、キキはトゲトゲ」と感じていると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203299"
     },
     {
       "doc_id": "nazology-22ad375548d14a6a",
@@ -284,12 +290,6 @@
       "title": "月は「縮んでいた」、断層の地図で半径の縮みは約42〜46mと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203095"
-    },
-    {
-      "doc_id": "nazology-62497e113837fca1",
-      "title": "パルテノン神殿の「錯覚にかんする設計」は多くが神話だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203609"
     }
   ]
 }
