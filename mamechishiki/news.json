@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-28T09:44:17+00:00",
-  "now_ms": 1793180657584,
+  "fetched_at": "2026-10-28T16:40:21+00:00",
+  "now_ms": 1793205621566,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-0f0415ee153d574b",
-      "title": "日米防衛相 中国抑止へ協力で一致",
+      "doc_id": "yahoo-66e4097819c116a6",
+      "title": "千葉県で震度5弱 津波の心配なし",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600438"
+      "link": "https://news.yahoo.co.jp/pickup/6600489"
     },
     {
-      "doc_id": "yahoo-318ce4ed3a704c22",
-      "title": "熊本で被災のサウナ 救った常連客",
+      "doc_id": "yahoo-1f7dafd5881795eb",
+      "title": "検察側が異例の求刑訂正 地検謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600456"
+      "link": "https://news.yahoo.co.jp/pickup/6600477"
     },
     {
-      "doc_id": "yahoo-ee9eb798e8638218",
-      "title": "プルデンシャル 新たな不正事案",
+      "doc_id": "yahoo-f04688e0f74ebb2c",
+      "title": "スペインで列車衝突 64人死亡か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600452"
+      "link": "https://news.yahoo.co.jp/pickup/6600486"
     },
     {
-      "doc_id": "yahoo-7d32e806cc9cf751",
-      "title": "利根川で14歳流され行方不明 群馬",
+      "doc_id": "yahoo-981ce483bfaeae21",
+      "title": "医療用麻薬紛失と発表 水戸の病院",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600459"
+      "link": "https://news.yahoo.co.jp/pickup/6600487"
     },
     {
-      "doc_id": "yahoo-ed244b164dc7121b",
-      "title": "つるされた鉄の棒が直撃 意識不明",
+      "doc_id": "yahoo-04e7627cb078d197",
+      "title": "「千鳥饅頭」千鳥屋本家が破産へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600437"
+      "link": "https://news.yahoo.co.jp/pickup/6600474"
     },
     {
-      "doc_id": "yahoo-d59ef4b8f8596491",
-      "title": "日本S速報 ソフトバンクvs.DeNA",
+      "doc_id": "yahoo-7ce0598475e5e86e",
+      "title": "DeNA球団社長 筒香&牧の去就言及",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600432"
+      "link": "https://news.yahoo.co.jp/pickup/6600488"
     },
     {
-      "doc_id": "yahoo-7100539fa4973ef9",
-      "title": "岡田武史氏 JFA副会長を電撃辞任",
+      "doc_id": "yahoo-01fdf2bf969d0913",
+      "title": "村上龍さん死去 番組Pが語る素顔",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600455"
+      "link": "https://news.yahoo.co.jp/pickup/6600481"
     },
     {
-      "doc_id": "yahoo-13addf1efbca4ed2",
-      "title": "中国紙のVIVANT批判 TBSが言及",
+      "doc_id": "yahoo-963834329d15be26",
+      "title": "水卜アナ 気象予報士試験に合格",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600451"
+      "link": "https://news.yahoo.co.jp/pickup/6600462"
     },
     {
       "doc_id": "jiji-2c981a60d19cd29e",
@@ -64,100 +64,118 @@
       "link": "https://www.jiji.com/jc/article?k=2026102800149&g=int"
     },
     {
-      "doc_id": "jiji-a4db35c52efd0c23",
-      "title": "ボルソナロ氏、エクアドルへ アルゼンチン当局",
+      "doc_id": "jiji-00978e6a65ea9a0e",
+      "title": "スペイン高速列車衝突、６４人死亡 サンチェス首相「事故に衝撃」、人為的ミスか",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800814&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102800981&g=int"
     },
     {
-      "doc_id": "jiji-b1b0883d6e8f78bf",
-      "title": "日本維新の会は、衆院定数３１減を受け入れる方針を決めた",
+      "doc_id": "jiji-7f2735f4488f4dcf",
+      "title": "横浜Ｍの平野、デビュー戦でゴール ルヴァン杯サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800549&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102801231&g=spo"
     },
     {
-      "doc_id": "jiji-6c35234af40fd2ec",
-      "title": "ＡＩ法改正へ議論スタート 政府、サイバー攻撃拡大受け",
+      "doc_id": "jiji-7de7398727967cc4",
+      "title": "ソフトバンク、２年連続日本一 ポストシーズン全勝―プロ野球・日本シリーズ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800846&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102801115&g=spo"
     },
     {
-      "doc_id": "jiji-bf01b95f55dee88f",
-      "title": "参院自民、特別委を容認 消費減税の審議巡り",
+      "doc_id": "jiji-ba42c4bf823a7600",
+      "title": "メルツ独首相は、台湾海峡で国連憲章の武力行使禁止原則が適用されると述べ、関係国・地域に慎重な行動を求めた",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800854&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102801014&g=flash"
     },
     {
-      "doc_id": "jiji-d2f6946e0a703040",
-      "title": "希少カメ、タイから持ち込む 現地購入の高校生ら３人逮捕―大阪府警",
+      "doc_id": "jiji-6b6cb6074b32410c",
+      "title": "食料価格１８％上昇予測 ２６～２７年、エネルギー高響く―世銀",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800698&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102801230&g=int"
     },
     {
-      "doc_id": "jiji-448e55564426fd94",
-      "title": "事件直後に事故死の男を書類送検 高崎女性刺殺、一方的好意か―群馬県警",
+      "doc_id": "jiji-634076151fb318a8",
+      "title": "気象庁によると、千葉県北東部で震度５弱の揺れを観測した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800850&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102900008&g=flash"
     },
     {
-      "doc_id": "jiji-3f3674edb3a3ce2a",
-      "title": "「ＶＩＶＡＮＴ」を批判 ドラマで「脅威論を誇張」―中国メディア",
+      "doc_id": "jiji-8ffb871dfbd852ba",
+      "title": "ボルソナロ氏、米国に到着 報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800714&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102801232&g=int"
     },
     {
-      "doc_id": "jiji-7edf26edfaee7a29",
-      "title": "飯田ＧＨＤ子会社に課徴金４億円超命令 広告に「注文住宅Ｎｏ．１」―消費者庁",
+      "doc_id": "jiji-67586ad6ac67cdad",
+      "title": "ボルソナロ氏が米国に到着 隣国経由し出国、逮捕回避目的か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800774&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102800125&g=int"
     },
     {
-      "doc_id": "jiji-3188566cf384a337",
-      "title": "日中改善「非常に難しい」 自民・森山氏、訪中めど立たず",
+      "doc_id": "jiji-5439bb6ecdfa8d2a",
+      "title": "ソフトバンク、４連勝でＶ２ ＤｅＮＡに逆転勝ち―プロ野球日本シリーズ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800866&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102800958&g=spo"
     },
     {
-      "doc_id": "nhk-7cf013e649d5925d",
-      "title": "GMO“個人情報が掲載されたサイトのドメイン停止を確認”",
+      "doc_id": "nhk-7d2b122460c17b51",
+      "title": "【地震情報】千葉県北東部で震度5弱 津波の心配なし",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66765"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67425"
+    },
+    {
+      "doc_id": "nhk-5ec93d0121ed29c3",
+      "title": "スペイン 列車どうしの衝突事故“これまでに64人死亡”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67291"
     },
     {
       "doc_id": "nhk-80de1754b360f537",
-      "title": "日本サッカー協会 岡田武史氏が副会長を辞任",
+      "title": "日本サッカー協会 岡田武史氏が副会長を辞任 W杯対応めぐり",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261028de67231"
     },
     {
-      "doc_id": "nhk-de97e3f5d6420893",
-      "title": "衆院定数31削減案 維新 国民が賛成 自民“3党で法案作成を”",
+      "doc_id": "nhk-5d64ce1713bea811",
+      "title": "日本航空 予約システムに不正アクセス 9万人超の情報漏えいか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67035"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67365"
     },
     {
-      "doc_id": "nhk-df0b0ea294efd8e7",
-      "title": "【速報中】DeNAが先制 佐野のツーラン ソフトバンク戦",
+      "doc_id": "nhk-dd93350bbfa36800",
+      "title": "ホンダと日産 EV用バッテリーの協業へ具体的な交渉",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67008"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67424"
     },
     {
-      "doc_id": "nhk-e6ed0b7e1e0b2e5f",
-      "title": "“納屋”で生活を続ける女性",
+      "doc_id": "nhk-c50735a217c92e46",
+      "title": "北朝鮮IPアドレスから韓国金融機関に接触 440万件以上",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de66757"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028dw67395"
     },
     {
-      "doc_id": "nhk-d725ea73feccdd50",
-      "title": "恋愛装い男性から多額詐欺事件で再逮捕 被害総額は1億円か",
+      "doc_id": "nhk-de9cd5f1f41f4de8",
+      "title": "新幹線と活断層の交差 全国79か所 ズレで被害のおそれ 対策を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67251"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67015"
     },
     {
-      "doc_id": "nhk-65c0c139be963fbb",
-      "title": "山梨で刺され死亡の女性 “日本渡航前に身の危険感じていた”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67089"
+      "doc_id": "itmedia-9549013f44f4278b",
+      "title": "JALの予約システムに不正アクセス 約9万人分の予約情報が漏えい 一部ではパスポート番号も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002687/"
+    },
+    {
+      "doc_id": "itmedia-0d06fcc9fd0daf7d",
+      "title": "NEC、委託先の情報漏えいで謝罪 「セキュリティ事業を手掛ける企業として反省」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002686/"
+    },
+    {
+      "doc_id": "itmedia-7135ad15590694fc",
+      "title": "Oracle CloudがGoogle TPU導入へ 2027年に提供を開始",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002681/"
     },
     {
       "doc_id": "itmedia-bddce60971242e1d",
@@ -214,22 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002646/"
     },
     {
-      "doc_id": "itmedia-de28f6746d0dcc11",
-      "title": "ヤクルト本社サイト、不正アクセスで停止中 顧客情報への影響は「調査中」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002657/"
+      "doc_id": "nazology-9c32f49502ae5dfd",
+      "title": "ボイジャー1号、人工物で初めて地球から「1光日」の遠さへ",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204084"
     },
     {
-      "doc_id": "itmedia-540f7fdb67ce1c73",
-      "title": "Discord、公開サーバの会話をGoogle検索などの対象に プライバシーへの懸念も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002656/"
+      "doc_id": "nazology-a995ee9737fc1310",
+      "title": "顕微鏡を替えただけで、観察した物の形まで変わってしまった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204467"
     },
     {
-      "doc_id": "itmedia-c9251d5bf434fedf",
-      "title": "IDCFクラウドのランサム被害、OSSの脆弱性悪用される サーバ内データ流出なし 再発防止へSBOM化",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002655/"
+      "doc_id": "nazology-a70c63798ca138fa",
+      "title": "人間の血液から育てた脳細胞で制御されるロボット犬",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204447"
     },
     {
       "doc_id": "nazology-d0793a6f15e390d2",
@@ -272,24 +290,6 @@
       "title": "「人恋しいのに人が怖い」人ほど、SNSがやめられない",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203484"
-    },
-    {
-      "doc_id": "nazology-c332bda268ff2067",
-      "title": "犬も「ブーバは丸、キキはトゲトゲ」と感じていると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203299"
-    },
-    {
-      "doc_id": "nazology-22ad375548d14a6a",
-      "title": "誰にも読めない「ヴォイニッチ手稿」、15世紀に綴じた人も読めずに綴じ間違えていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203324"
-    },
-    {
-      "doc_id": "nazology-c2c8b350d5b66e46",
-      "title": "創造力は大人の方が上、幼児が勝るのは自信とやる気と判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203503"
     }
   ]
 }
