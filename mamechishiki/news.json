@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-28T16:40:21+00:00",
-  "now_ms": 1793205621566,
+  "fetched_at": "2026-10-28T21:41:07+00:00",
+  "now_ms": 1793223667527,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -40,28 +40,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6600474"
     },
     {
+      "doc_id": "yahoo-3443e316ff2e3f05",
+      "title": "巨人ヘッドCに高橋由伸氏決定",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600491"
+    },
+    {
       "doc_id": "yahoo-7ce0598475e5e86e",
       "title": "DeNA球団社長 筒香&牧の去就言及",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6600488"
     },
     {
-      "doc_id": "yahoo-01fdf2bf969d0913",
-      "title": "村上龍さん死去 番組Pが語る素顔",
+      "doc_id": "yahoo-61ff201ebd68d1f2",
+      "title": "天心参戦の路上プロレス 一転中止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600481"
+      "link": "https://news.yahoo.co.jp/pickup/6600492"
     },
     {
-      "doc_id": "yahoo-963834329d15be26",
-      "title": "水卜アナ 気象予報士試験に合格",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600462"
-    },
-    {
-      "doc_id": "jiji-2c981a60d19cd29e",
-      "title": "与野党陣営、過半数届かず 右派リクード第１党か―ネタニヤフ氏、政権継続に意欲・イスラエル総選挙",
+      "doc_id": "jiji-866b9c31d908c679",
+      "title": "米ＦＲＢは政策金利を３．７５～４．００％に据え置くことを決めた",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800149&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102900078&g=flash"
+    },
+    {
+      "doc_id": "jiji-427312c8e46c290d",
+      "title": "米ＦＲＢ、金利据え置き インフレ加速も様子見―利上げ主張で２人反対",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102900118&g=int"
     },
     {
       "doc_id": "jiji-00978e6a65ea9a0e",
@@ -70,22 +76,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026102800981&g=int"
     },
     {
-      "doc_id": "jiji-7f2735f4488f4dcf",
-      "title": "横浜Ｍの平野、デビュー戦でゴール ルヴァン杯サッカー",
+      "doc_id": "jiji-67586ad6ac67cdad",
+      "title": "ボルソナロ氏が米国に到着 隣国経由し出国、逮捕回避目的か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102801231&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102800125&g=int"
     },
     {
-      "doc_id": "jiji-7de7398727967cc4",
-      "title": "ソフトバンク、２年連続日本一 ポストシーズン全勝―プロ野球・日本シリーズ",
+      "doc_id": "jiji-3709711489f6d982",
+      "title": "首相動静（１０月２８日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102801115&g=spo"
-    },
-    {
-      "doc_id": "jiji-ba42c4bf823a7600",
-      "title": "メルツ独首相は、台湾海峡で国連憲章の武力行使禁止原則が適用されると述べ、関係国・地域に慎重な行動を求めた",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102801014&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102800257&g=pol"
     },
     {
       "doc_id": "jiji-6b6cb6074b32410c",
@@ -94,28 +94,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026102801230&g=int"
     },
     {
-      "doc_id": "jiji-634076151fb318a8",
-      "title": "気象庁によると、千葉県北東部で震度５弱の揺れを観測した",
+      "doc_id": "jiji-17ea6e03374366ed",
+      "title": "日独首脳、経済安保で共同宣言 防衛・ＡＩで協力拡大―メルツ氏、戦闘機開発参画に意欲",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900008&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102800836&g=pol"
     },
     {
-      "doc_id": "jiji-8ffb871dfbd852ba",
-      "title": "ボルソナロ氏、米国に到着 報道",
+      "doc_id": "jiji-2c981a60d19cd29e",
+      "title": "与野党陣営、過半数届かず 右派リクード第１党か―ネタニヤフ氏、政権継続に意欲・イスラエル総選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102801232&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102800149&g=int"
     },
     {
-      "doc_id": "jiji-67586ad6ac67cdad",
-      "title": "ボルソナロ氏が米国に到着 隣国経由し出国、逮捕回避目的か",
+      "doc_id": "jiji-7de7398727967cc4",
+      "title": "ソフトバンク、２年連続日本一 ポストシーズン全勝―プロ野球・日本シリーズ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800125&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102801115&g=spo"
     },
     {
-      "doc_id": "jiji-5439bb6ecdfa8d2a",
-      "title": "ソフトバンク、４連勝でＶ２ ＤｅＮＡに逆転勝ち―プロ野球日本シリーズ",
+      "doc_id": "jiji-e2072240493f8444",
+      "title": "中国海警船、海軍艦艇と同行 防衛省が初公表―鹿児島県沖",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800958&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026102801183&g=pol"
+    },
+    {
+      "doc_id": "nhk-b7aac8b8ef89886e",
+      "title": "スペイン高速鉄道衝突事故 これまでに68人死亡 後続列車が追突",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67453"
+    },
+    {
+      "doc_id": "nhk-a516c063d64587db",
+      "title": "FRB 政策金利据え置き 議長は今後の追加利上げ辞さない構えも",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67441"
+    },
+    {
+      "doc_id": "nhk-82b7c85cfa29ed7c",
+      "title": "GMO 攻撃者に関する情報精査 被害拡大防止で緊急の対応続く",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67431"
     },
     {
       "doc_id": "nhk-7d2b122460c17b51",
@@ -124,40 +142,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de67425"
     },
     {
-      "doc_id": "nhk-5ec93d0121ed29c3",
-      "title": "スペイン 列車どうしの衝突事故“これまでに64人死亡”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67291"
-    },
-    {
-      "doc_id": "nhk-80de1754b360f537",
-      "title": "日本サッカー協会 岡田武史氏が副会長を辞任 W杯対応めぐり",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67231"
-    },
-    {
-      "doc_id": "nhk-5d64ce1713bea811",
-      "title": "日本航空 予約システムに不正アクセス 9万人超の情報漏えいか",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67365"
-    },
-    {
       "doc_id": "nhk-dd93350bbfa36800",
       "title": "ホンダと日産 EV用バッテリーの協業へ具体的な交渉",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de67424"
     },
     {
-      "doc_id": "nhk-c50735a217c92e46",
-      "title": "北朝鮮IPアドレスから韓国金融機関に接触 440万件以上",
+      "doc_id": "nhk-8870e5d71b51ae78",
+      "title": "イスラエル総選挙“首相のSNS投稿が功を奏した”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028dw67395"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67458"
     },
     {
-      "doc_id": "nhk-de9cd5f1f41f4de8",
-      "title": "新幹線と活断層の交差 全国79か所 ズレで被害のおそれ 対策を",
+      "doc_id": "nhk-ab807ab5a9335809",
+      "title": "ゼレンスキー大統領 和平案めぐるロシアとの高官協議に期待",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261028de67015"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67457"
     },
     {
       "doc_id": "itmedia-9549013f44f4278b",
