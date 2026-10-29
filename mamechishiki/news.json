@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-29T16:10:51+00:00",
-  "now_ms": 1793290251016,
+  "fetched_at": "2026-10-29T21:09:56+00:00",
+  "now_ms": 1793308196577,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -28,10 +28,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6600615"
     },
     {
-      "doc_id": "yahoo-841a1cb7bb389cdd",
-      "title": "ネパール高峰で発見の2遺体は邦人",
+      "doc_id": "yahoo-aa8eb8ffcdd08068",
+      "title": "土砂に埋まり作業員2人死亡 愛知",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600609"
+      "link": "https://news.yahoo.co.jp/pickup/6600618"
     },
     {
       "doc_id": "yahoo-8672bd53e48b9268",
@@ -58,10 +58,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6600622"
     },
     {
-      "doc_id": "jiji-219fd9dc62e6cfef",
-      "title": "米物価、前年比３．６％上昇 原油高受け伸び加速―９月",
+      "doc_id": "jiji-12b000e2e946e48f",
+      "title": "「反腐敗闘争」継続表明 幹部３３人を党籍剥奪処分、来年後半に党大会―中国共産党",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901210&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102900723&g=int"
     },
     {
       "doc_id": "jiji-4f13052f3a9f5416",
@@ -70,34 +70,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026102900991&g=pol"
     },
     {
-      "doc_id": "jiji-dbdd44863a1339a8",
-      "title": "外国人労働者「経済寄与あまりない」 大統領発言が物議―韓国",
+      "doc_id": "jiji-219fd9dc62e6cfef",
+      "title": "米物価、前年比３．６％上昇 原油高受け伸び加速―９月",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900907&g=int"
-    },
-    {
-      "doc_id": "jiji-ffc40750160c3bd7",
-      "title": "ガソリン基準価、毎月５円引き上げ 高市首相",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901074&g=pol"
-    },
-    {
-      "doc_id": "jiji-12b000e2e946e48f",
-      "title": "「反腐敗闘争」継続表明 幹部３３人を党籍剥奪処分、来年後半に党大会―中国共産党",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900723&g=int"
-    },
-    {
-      "doc_id": "jiji-2514f7ea3c6ca455",
-      "title": "組織委会長にルードベジュー氏 ３０年冬季五輪",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901279&g=spo"
-    },
-    {
-      "doc_id": "jiji-a0513b1ff1efebec",
-      "title": "米ＧＤＰ、３．４％増 設備投資、個人消費が好調―７～９月期",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901213&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102901210&g=int"
     },
     {
       "doc_id": "jiji-4adaec424c6eab6c",
@@ -106,10 +82,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026102901223&g=int"
     },
     {
-      "doc_id": "jiji-91b90e1e85944f9d",
-      "title": "アウティング、甲府市議に賠償命令 作家李琴峰さんの訴え認める―東京地裁",
+      "doc_id": "jiji-ffc40750160c3bd7",
+      "title": "ガソリン基準価、毎月５円引き上げ 高市首相",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900190&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102901074&g=pol"
+    },
+    {
+      "doc_id": "jiji-6093811d5571d513",
+      "title": "サンリオ、「ＶＩＶＡＮＴ」とのコラボ終了 中国で強まる批判に対応",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102901028&g=int"
+    },
+    {
+      "doc_id": "jiji-4fa8696d02a62114",
+      "title": "電気・ガス代支援、１２月再開 ガソリン補助は段階的縮小―高市首相表明",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
+    },
+    {
+      "doc_id": "jiji-a0513b1ff1efebec",
+      "title": "米ＧＤＰ、３．４％増 設備投資、個人消費が好調―７～９月期",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102901213&g=int"
     },
     {
       "doc_id": "jiji-3fea405407929a1c",
@@ -118,10 +112,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026102901257&g=int"
     },
     {
-      "doc_id": "nhk-3ac1fad9ae08a194",
-      "title": "朝日新聞 メール配信会社不正アクセスで7万件余漏えいか",
+      "doc_id": "jiji-dbdd44863a1339a8",
+      "title": "外国人労働者「経済寄与あまりない」 大統領発言が物議―韓国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102900907&g=int"
+    },
+    {
+      "doc_id": "nhk-623adf8a8bc1ecd5",
+      "title": "愛知 安城の水道管工事現場で土砂に埋まり作業中の親子2人死亡",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68144"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68166"
+    },
+    {
+      "doc_id": "nhk-5ba65d619b007c7f",
+      "title": "別府ひき逃げ事件で新チラシ 八田容疑者の初公開写真も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68165"
+    },
+    {
+      "doc_id": "nhk-29e0de3977092008",
+      "title": "スペイン鉄道事故 指令センターが速度制限伝えず運転再開か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68171"
+    },
+    {
+      "doc_id": "nhk-0834ba3a97f6ba8b",
+      "title": "フォルクスワーゲン 7-9月期決算 8000億円超の大幅赤字",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68034"
     },
     {
       "doc_id": "nhk-dcdb4dfa26e3bd72",
@@ -130,34 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de68127"
     },
     {
-      "doc_id": "nhk-b7aac8b8ef89886e",
-      "title": "スペイン鉄道事故で乗客名簿に日本人2人の名前 確認急ぐ",
+      "doc_id": "nhk-a7957f0061efbb54",
+      "title": "GMO 被害拡大防止へ有力情報は警察などと随時共有",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67453"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68154"
     },
     {
-      "doc_id": "nhk-4fffbe63066d890b",
-      "title": "松江 3校の児童ら300人近く体調不良 同じセンター提供の給食後",
+      "doc_id": "nhk-fa7355d8ab84f12a",
+      "title": "「副首都」構想関連法 きょう施行 4道府県でも検討・調整へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68105"
-    },
-    {
-      "doc_id": "nhk-8bb16eba884c60e1",
-      "title": "プロ野球 広島元投手 池谷公二郎さん死去 広島の黄金期支える",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67535"
-    },
-    {
-      "doc_id": "nhk-f4753e2268fdc359",
-      "title": "GMO“攻撃者の特定につながる有力情報入手”警察などに提出",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67553"
-    },
-    {
-      "doc_id": "nhk-e0edc6d5ebf0f661",
-      "title": "米 7月から9月 GDP＋3.4％ 伸び率拡大 消費AI投資活発で",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68141"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68147"
     },
     {
       "doc_id": "itmedia-0a1f1dbb4f23a182",
