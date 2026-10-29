@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-28T21:41:07+00:00",
-  "now_ms": 1793223667527,
+  "fetched_at": "2026-10-29T01:49:51+00:00",
+  "now_ms": 1793238591251,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-66e4097819c116a6",
-      "title": "千葉県で震度5弱 津波の心配なし",
+      "doc_id": "yahoo-7443cb56bc84f9e6",
+      "title": "スペイン事故 乗客名簿に邦人2人",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600489"
+      "link": "https://news.yahoo.co.jp/pickup/6600517"
     },
     {
-      "doc_id": "yahoo-1f7dafd5881795eb",
-      "title": "検察側が異例の求刑訂正 地検謝罪",
+      "doc_id": "yahoo-7ca3d4c5a46f05ef",
+      "title": "米FRBが政策金利を据え置き",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600477"
+      "link": "https://news.yahoo.co.jp/pickup/6600510"
     },
     {
-      "doc_id": "yahoo-f04688e0f74ebb2c",
-      "title": "スペインで列車衝突 64人死亡か",
+      "doc_id": "yahoo-1d410b318db9a20f",
+      "title": "プーチン氏 マスク氏は本物の天才",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600486"
+      "link": "https://news.yahoo.co.jp/pickup/6600507"
     },
     {
-      "doc_id": "yahoo-981ce483bfaeae21",
-      "title": "医療用麻薬紛失と発表 水戸の病院",
+      "doc_id": "yahoo-92f39c88ebb4d777",
+      "title": "本や雑誌発売日 大阪も1日遅れに",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600487"
+      "link": "https://news.yahoo.co.jp/pickup/6600504"
     },
     {
-      "doc_id": "yahoo-04e7627cb078d197",
-      "title": "「千鳥饅頭」千鳥屋本家が破産へ",
+      "doc_id": "yahoo-96ff8c47d1bc3b62",
+      "title": "盗撮「カメレオンカメラ」巧妙化",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600474"
+      "link": "https://news.yahoo.co.jp/pickup/6600512"
     },
     {
-      "doc_id": "yahoo-3443e316ff2e3f05",
-      "title": "巨人ヘッドCに高橋由伸氏決定",
+      "doc_id": "yahoo-9ef9fbc163ed63fa",
+      "title": "森保氏 アジア杯延期なら年内勇退",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600491"
+      "link": "https://news.yahoo.co.jp/pickup/6600519"
     },
     {
-      "doc_id": "yahoo-7ce0598475e5e86e",
-      "title": "DeNA球団社長 筒香&牧の去就言及",
+      "doc_id": "yahoo-f00d1bd744a35a44",
+      "title": "大谷 選手会選出のMVP受賞ならず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600488"
+      "link": "https://news.yahoo.co.jp/pickup/6600508"
     },
     {
-      "doc_id": "yahoo-61ff201ebd68d1f2",
-      "title": "天心参戦の路上プロレス 一転中止",
+      "doc_id": "yahoo-ec9ba0ec5768e582",
+      "title": "DeNA筒香 海外FA権行使を検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600492"
-    },
-    {
-      "doc_id": "jiji-866b9c31d908c679",
-      "title": "米ＦＲＢは政策金利を３．７５～４．００％に据え置くことを決めた",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900078&g=flash"
+      "link": "https://news.yahoo.co.jp/pickup/6600497"
     },
     {
       "doc_id": "jiji-427312c8e46c290d",
@@ -70,10 +64,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026102900118&g=int"
     },
     {
-      "doc_id": "jiji-00978e6a65ea9a0e",
-      "title": "スペイン高速列車衝突、６４人死亡 サンチェス首相「事故に衝撃」、人為的ミスか",
+      "doc_id": "jiji-f34a6ffdb5f7d53d",
+      "title": "「土俵づくり」異論置き去り 自民決着優先、高市首相の意向背景か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800981&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102801075&g=pol"
+    },
+    {
+      "doc_id": "jiji-cc43ac5d1d992655",
+      "title": "独ドローン新興、日本に拠点 三菱ケミ、パナソニックと協力",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102900209&g=int"
+    },
+    {
+      "doc_id": "jiji-236ef0007409179c",
+      "title": "米国防長官、防衛費に言及 小泉氏「金額・結論触れず」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102900289&g=pol"
     },
     {
       "doc_id": "jiji-67586ad6ac67cdad",
@@ -82,58 +88,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026102800125&g=int"
     },
     {
-      "doc_id": "jiji-3709711489f6d982",
-      "title": "首相動静（１０月２８日）",
+      "doc_id": "jiji-fdaa3cda00d130ab",
+      "title": "政策決定回数、来年から削減 ２８年は６回に―米ＦＲＢ議長",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800257&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102900266&g=int"
     },
     {
-      "doc_id": "jiji-6b6cb6074b32410c",
-      "title": "食料価格１８％上昇予測 ２６～２７年、エネルギー高響く―世銀",
+      "doc_id": "jiji-866b9c31d908c679",
+      "title": "米ＦＲＢは政策金利を３．７５～４．００％に据え置くことを決めた",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102801230&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102900078&g=flash"
     },
     {
-      "doc_id": "jiji-17ea6e03374366ed",
-      "title": "日独首脳、経済安保で共同宣言 防衛・ＡＩで協力拡大―メルツ氏、戦闘機開発参画に意欲",
+      "doc_id": "jiji-5cd0c69372ff5207",
+      "title": "千葉で震度５弱、津波なし",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800836&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102900015&g=soc"
     },
     {
-      "doc_id": "jiji-2c981a60d19cd29e",
-      "title": "与野党陣営、過半数届かず 右派リクード第１党か―ネタニヤフ氏、政権継続に意欲・イスラエル総選挙",
+      "doc_id": "jiji-969a01d012f2de5d",
+      "title": "被災経験、今度は支える力に 若手職員、初心忘れず奮闘―「１０年前が生きた」・熊本地震",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102800149&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102800667&g=soc"
     },
     {
-      "doc_id": "jiji-7de7398727967cc4",
-      "title": "ソフトバンク、２年連続日本一 ポストシーズン全勝―プロ野球・日本シリーズ",
+      "doc_id": "jiji-7753317e13d415c3",
+      "title": "教員「特別免許」の基準明確化 人材不足に対応、指針改定へ―文科省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102801115&g=spo"
-    },
-    {
-      "doc_id": "jiji-e2072240493f8444",
-      "title": "中国海警船、海軍艦艇と同行 防衛省が初公表―鹿児島県沖",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102801183&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102800653&g=soc"
     },
     {
       "doc_id": "nhk-b7aac8b8ef89886e",
-      "title": "スペイン高速鉄道衝突事故 これまでに68人死亡 後続列車が追突",
+      "title": "スペイン高速鉄道衝突事故“乗客名簿に日本人2人か”外務省",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de67453"
     },
     {
       "doc_id": "nhk-a516c063d64587db",
-      "title": "FRB 政策金利据え置き 議長は今後の追加利上げ辞さない構えも",
+      "title": "FRB 政策金利据え置き 12月会合で追加利上げ踏み切るかが焦点",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de67441"
     },
     {
-      "doc_id": "nhk-82b7c85cfa29ed7c",
-      "title": "GMO 攻撃者に関する情報精査 被害拡大防止で緊急の対応続く",
+      "doc_id": "nhk-8870e5d71b51ae78",
+      "title": "イスラエル総選挙“首相のSNS投稿が功を奏した”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67431"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67458"
     },
     {
       "doc_id": "nhk-7d2b122460c17b51",
@@ -148,16 +148,70 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de67424"
     },
     {
-      "doc_id": "nhk-8870e5d71b51ae78",
-      "title": "イスラエル総選挙“首相のSNS投稿が功を奏した”",
+      "doc_id": "nhk-82b7c85cfa29ed7c",
+      "title": "GMO 攻撃者に関する情報精査 被害拡大防止で緊急の対応続く",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67458"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67431"
     },
     {
-      "doc_id": "nhk-ab807ab5a9335809",
-      "title": "ゼレンスキー大統領 和平案めぐるロシアとの高官協議に期待",
+      "doc_id": "nhk-85443cb80e281791",
+      "title": "各地で今季一番の冷え込み 路面凍結などに注意を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67457"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67465"
+    },
+    {
+      "doc_id": "itmedia-c36134f1b3d571b9",
+      "title": "SNSでバズった?四足歩行モビリティ?は本当に実現する？ 川崎重工の開発者が「山で四つんばい」になって見えてきたもの",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002677/"
+    },
+    {
+      "doc_id": "itmedia-7135ad15590694fc",
+      "title": "Oracle CloudがGoogle TPU導入へ 2027年に提供を開始",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002681/"
+    },
+    {
+      "doc_id": "itmedia-e8fbc1aa861c7d1a",
+      "title": "バンナム、メアド34万件漏えい ガンダムグッズ店のポイント会員が対象 ユミルリンクへの不正アクセスが原因",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002694/"
+    },
+    {
+      "doc_id": "itmedia-ea1af28d833cdec5",
+      "title": "「楽天トラベル」に不正アクセス 顧客情報最大約260万件など流出か 予約者約3.6万件のクレカ情報も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/27/2000002606/"
+    },
+    {
+      "doc_id": "itmedia-219008e092188a0f",
+      "title": "Alphabet、25％増収も純利益は25％減 Google Cloudは103％増収、AI投資負担増",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002693/"
+    },
+    {
+      "doc_id": "itmedia-b53c2da6b27ed7fe",
+      "title": "「ツイキャス」不正アクセスで停止 復旧までに「相応の時間」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002692/"
+    },
+    {
+      "doc_id": "itmedia-fb76911373a8b5bc",
+      "title": "Microsoft、7?9月期は19％増収 Azureは48％増、AI需要が成長けん引",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002691/"
+    },
+    {
+      "doc_id": "itmedia-27a22b54cd1a6164",
+      "title": "Google、「Gemini 4 Carbon」発表 「Argon」公開から2週間、サイバー防御能力などを強化",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002690/"
+    },
+    {
+      "doc_id": "itmedia-22df392e76aff297",
+      "title": "Apple、初のタッチ対応「MacBook Pro」発表 新型OLED搭載、国内価格は49万9800円から",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002689/"
     },
     {
       "doc_id": "itmedia-9549013f44f4278b",
@@ -172,64 +226,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002686/"
     },
     {
-      "doc_id": "itmedia-7135ad15590694fc",
-      "title": "Oracle CloudがGoogle TPU導入へ 2027年に提供を開始",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002681/"
-    },
-    {
       "doc_id": "itmedia-bddce60971242e1d",
       "title": "「対策を後回しにしたサーバが軒並み狙われている」 相次ぐ不正アクセスにラックCTOが警鐘",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002675/"
     },
     {
-      "doc_id": "itmedia-509a9b9d37015217",
-      "title": "「推しがそばにいる日常」を ソニー、5万円台の裸眼3Dディスプレイ アニメ公式コンテンツに対応",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002670/"
+      "doc_id": "nazology-f921928eff100284",
+      "title": "幻覚剤シロシビン1回でうつ病が改善、だが1年後に「意外な結末」が",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203566"
     },
     {
-      "doc_id": "itmedia-d8e556ce6af3db8e",
-      "title": "資さんうどん、従業員の退職理由などが外部から閲覧可能に 委託先の勤怠システムに設定不備",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002667/"
-    },
-    {
-      "doc_id": "itmedia-dd291cc5d10ea898",
-      "title": "Anthropic、独自の“創薬活動”に着手 社員1人のバイオ企業を買収、小児難病の治療薬研究を進める",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002661/"
-    },
-    {
-      "doc_id": "itmedia-af1be69bd486a56b",
-      "title": "顧客も巻き込むサイバー脅迫 GMO攻撃が問う企業の防御と国の対処、被害の連鎖どう断つ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002660/"
-    },
-    {
-      "doc_id": "itmedia-fe958d25660f80b7",
-      "title": "GMO不正アクセスの犯人サイト、ドメイン停止を確認",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002659/"
-    },
-    {
-      "doc_id": "itmedia-89e88113c6bc0bef",
-      "title": "システム障害でカード決済が1日停止→客が取る行動は……スイス国立銀行が約2400店を調査",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002613/"
-    },
-    {
-      "doc_id": "itmedia-0b759be8518fd99b",
-      "title": "AI音声の詐欺電話、6人に1人が応じる可能性 だまされやすい手口とは 米ハーバード大やMetaが4100人で検証",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002612/"
-    },
-    {
-      "doc_id": "itmedia-e5733aeebcd9d928",
-      "title": "「エアコンをつけるほどではない日」のデスクワークは足元で対策 温風・涼風を出せる山善のフットレストを試す",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/28/2000002646/"
+      "doc_id": "nazology-9bb05ca8d1aa99a1",
+      "title": "除草剤を少しだけ浴びた雑草、花が1.5倍近くに増えると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203527"
     },
     {
       "doc_id": "nazology-9c32f49502ae5dfd",
@@ -278,18 +290,6 @@
       "title": "熱々の飲み物好きは、ぬるめ派の約3倍も食道がんの一種になりやすい",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203364"
-    },
-    {
-      "doc_id": "nazology-11b125973432ac81",
-      "title": "石と水素から水が生まれる過程を再現――地球の海の起源に新説",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204001"
-    },
-    {
-      "doc_id": "nazology-380fbdb8ae7b10be",
-      "title": "「人恋しいのに人が怖い」人ほど、SNSがやめられない",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203484"
     }
   ]
 }
