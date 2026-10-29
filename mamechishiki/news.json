@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-29T08:33:22+00:00",
-  "now_ms": 1793262802672,
+  "fetched_at": "2026-10-29T16:10:51+00:00",
+  "now_ms": 1793290251016,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,154 +10,184 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-0058d14a9e1ed31e",
-      "title": "ANA AIRDOなど完全子会社化へ",
+      "doc_id": "yahoo-8a8fce050817c649",
+      "title": "電気ガス代補助 12月-来年2月実施",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600561"
+      "link": "https://news.yahoo.co.jp/pickup/6600608"
     },
     {
-      "doc_id": "yahoo-8f2fb516eed1576c",
-      "title": "GMOサイバー攻撃 捜査の焦点は",
+      "doc_id": "yahoo-9b446d1a631d4663",
+      "title": "欧州中銀 2会合ぶり金利据え置き",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600531"
+      "link": "https://news.yahoo.co.jp/pickup/6600623"
     },
     {
-      "doc_id": "yahoo-975fb3ceb87aef27",
-      "title": "スペイン事故 邦人2人連絡つかず",
+      "doc_id": "yahoo-65db580d1321c9b1",
+      "title": "梨泰院事故4年で追悼式 160人犠牲",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600571"
+      "link": "https://news.yahoo.co.jp/pickup/6600615"
     },
     {
-      "doc_id": "yahoo-6d5bb2a9b3893818",
-      "title": "韓国・尹前大統領に再び死刑求刑",
+      "doc_id": "yahoo-841a1cb7bb389cdd",
+      "title": "ネパール高峰で発見の2遺体は邦人",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600566"
+      "link": "https://news.yahoo.co.jp/pickup/6600609"
     },
     {
-      "doc_id": "yahoo-0f1019b1b2b20ba5",
-      "title": "銀座の異臭騒ぎ 傷害疑いで男逮捕",
+      "doc_id": "yahoo-8672bd53e48b9268",
+      "title": "天丼てんや 2カ月連続で客約1割減",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600551"
+      "link": "https://news.yahoo.co.jp/pickup/6600612"
     },
     {
-      "doc_id": "yahoo-518c2b44105d67b9",
-      "title": "新型パジェロ予約受注 年度目標超",
+      "doc_id": "yahoo-ae1b6f60cf113849",
+      "title": "楽天 高卒1年目の大栄を戦力外",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600522"
+      "link": "https://news.yahoo.co.jp/pickup/6600596"
     },
     {
-      "doc_id": "yahoo-348097ba83b0eb7e",
-      "title": "G橋上氏 松井秀喜新体制にエール",
+      "doc_id": "yahoo-7dc956d1d9a8b0a7",
+      "title": "槙野監督が訴え 誤審とJFA認める",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600567"
+      "link": "https://news.yahoo.co.jp/pickup/6600606"
     },
     {
-      "doc_id": "yahoo-35ab6c80b1528f68",
-      "title": "元フジ・永島優美アナ 第2子妊娠",
+      "doc_id": "yahoo-672474689ea40a6f",
+      "title": "元HKT48・朝長美桜 今は寿司職人",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600558"
+      "link": "https://news.yahoo.co.jp/pickup/6600622"
     },
     {
-      "doc_id": "jiji-32ee3879151da12b",
-      "title": "ピアニスト反田恭平被告に有罪 首都高で１４４キロ「危険」―東京地裁",
+      "doc_id": "jiji-219fd9dc62e6cfef",
+      "title": "米物価、前年比３．６％上昇 原油高受け伸び加速―９月",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900192&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102901210&g=int"
     },
     {
-      "doc_id": "jiji-b7fabc40bca7663a",
-      "title": "厚労省、渡航移植の実態調査へ 有償あっせん事件受け",
+      "doc_id": "jiji-4f13052f3a9f5416",
+      "title": "次期戦闘機、ドイツの参加意欲に苦慮 日本政府、開発遅れ懸念",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900806&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102900991&g=pol"
     },
     {
-      "doc_id": "jiji-494fa92c41a6e93b",
-      "title": "ＡＮＡホールディングスは、ＡＩＲＤＯ（エア・ドゥ）とソラシドエアの持ち株会社に追加出資し、完全子会社化することで基本合意した",
+      "doc_id": "jiji-dbdd44863a1339a8",
+      "title": "外国人労働者「経済寄与あまりない」 大統領発言が物議―韓国",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900769&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026102900907&g=int"
     },
     {
-      "doc_id": "jiji-bd3f820b85bbd09c",
-      "title": "元経産官僚が出馬表明 徳島知事選",
+      "doc_id": "jiji-ffc40750160c3bd7",
+      "title": "ガソリン基準価、毎月５円引き上げ 高市首相",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900738&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102901074&g=pol"
     },
     {
-      "doc_id": "jiji-2c4323222439a96c",
-      "title": "「ダン・サリバン」を探せ！ 民主、共和党現職と同姓同名候補の擁立に関与か―トランプ氏「訴追すべき」・米紙",
+      "doc_id": "jiji-12b000e2e946e48f",
+      "title": "「反腐敗闘争」継続表明 幹部３３人を党籍剥奪処分、来年後半に党大会―中国共産党",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900721&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102900723&g=int"
     },
     {
-      "doc_id": "jiji-dfc8f21d1bff53a9",
-      "title": "スペイン列車事故、死者６８人に 乗客名簿に２邦人、安否確認急ぐ",
+      "doc_id": "jiji-2514f7ea3c6ca455",
+      "title": "組織委会長にルードベジュー氏 ３０年冬季五輪",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900191&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102901279&g=spo"
     },
     {
-      "doc_id": "jiji-09eea448c45b5ef4",
-      "title": "意思表示難しい首長、退職可に 意識不明の町長不信任受け―総務省方針",
+      "doc_id": "jiji-a0513b1ff1efebec",
+      "title": "米ＧＤＰ、３．４％増 設備投資、個人消費が好調―７～９月期",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900182&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026102901213&g=int"
     },
     {
-      "doc_id": "jiji-8af306428f5e0648",
-      "title": "住宅担当閣僚が辞任 香港高層住宅火災",
+      "doc_id": "jiji-4adaec424c6eab6c",
+      "title": "管制、運転士に規則違反の指示か 「通常速度」で運行再開―スペイン列車事故",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900840&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102901223&g=int"
     },
     {
-      "doc_id": "jiji-2aea806a57135c48",
-      "title": "実行役２人に無期懲役求刑 ７０代男性死亡の連続強盗―千葉地裁",
+      "doc_id": "jiji-91b90e1e85944f9d",
+      "title": "アウティング、甲府市議に賠償命令 作家李琴峰さんの訴え認める―東京地裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900679&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102900190&g=soc"
     },
     {
-      "doc_id": "jiji-2028b88994a71623",
-      "title": "吉田鋼太郎さん、宮部みゆきさんら招き園遊会",
+      "doc_id": "jiji-3fea405407929a1c",
+      "title": "欧州中銀、金利据え置き ２会合ぶり、中東情勢見極め",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900712&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102901257&g=int"
     },
     {
-      "doc_id": "nhk-9c4ad48cce47ed23",
-      "title": "中部電力 浜岡原発3・4号機審査取り下げで3700億超の特別損失",
+      "doc_id": "nhk-3ac1fad9ae08a194",
+      "title": "朝日新聞 メール配信会社不正アクセスで7万件余漏えいか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67852"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68144"
+    },
+    {
+      "doc_id": "nhk-dcdb4dfa26e3bd72",
+      "title": "「中野ブロードウェイ」で4600万円相当の腕時計 男が盗み逃走",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68127"
     },
     {
       "doc_id": "nhk-b7aac8b8ef89886e",
-      "title": "スペイン高速鉄道衝突事故“乗客名簿に日本人2人か”外務省",
+      "title": "スペイン鉄道事故で乗客名簿に日本人2人の名前 確認急ぐ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de67453"
     },
     {
-      "doc_id": "nhk-c6267d80e6574578",
-      "title": "愛知 水道管工事現場で1人死亡1人不明“土砂に埋もれた”通報",
+      "doc_id": "nhk-4fffbe63066d890b",
+      "title": "松江 3校の児童ら300人近く体調不良 同じセンター提供の給食後",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67843"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68105"
     },
     {
-      "doc_id": "nhk-c868cd6c45eec475",
-      "title": "クレジットカードの情報2800人分漏えいか フィギュア販売企業",
+      "doc_id": "nhk-8bb16eba884c60e1",
+      "title": "プロ野球 広島元投手 池谷公二郎さん死去 広島の黄金期支える",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67768"
-    },
-    {
-      "doc_id": "nhk-85443cb80e281791",
-      "title": "各地で今季いちばんの冷え込み 路面凍結などに注意を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67465"
-    },
-    {
-      "doc_id": "nhk-d6fd5308f03c6a4c",
-      "title": "参院自民 消費税減税法案“特別委設置なら自民が委員長を”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67850"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de67535"
     },
     {
       "doc_id": "nhk-f4753e2268fdc359",
-      "title": "GMO社長“攻撃者特定につながる情報入手 警察などに提出する”",
+      "title": "GMO“攻撃者の特定につながる有力情報入手”警察などに提出",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de67553"
+    },
+    {
+      "doc_id": "nhk-e0edc6d5ebf0f661",
+      "title": "米 7月から9月 GDP＋3.4％ 伸び率拡大 消費AI投資活発で",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68141"
+    },
+    {
+      "doc_id": "itmedia-0a1f1dbb4f23a182",
+      "title": "「PayPay連携の銀行から、お金全部盗られた」被害報告……原因と対策は？ PayPayに聞いた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002708/"
+    },
+    {
+      "doc_id": "itmedia-3e9cd8847176df0c",
+      "title": "不正アクセスによる漏えい人数、半年余りでのべ2億6000万人に 日本人口の2倍超",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002730/"
+    },
+    {
+      "doc_id": "itmedia-0a34f0c5a46058ec",
+      "title": "楽天カード、本人認証をワンタイムパスワードに統一 27年2月から順次",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002729/"
+    },
+    {
+      "doc_id": "itmedia-ba7bff2748da264e",
+      "title": "グッスマ、顧客の2800人のカード番号全16桁＋セキュリティコードなど流出か 下4桁は40万枚分",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002716/"
+    },
+    {
+      "doc_id": "itmedia-de776ba7f26a989f",
+      "title": "神奈川・鎌倉市が「公共ライドシェア」実証実験見送り 路線バス大幅減便で代替運行に注力",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002727/"
     },
     {
       "doc_id": "itmedia-86b2fe10bb3af58f",
@@ -170,12 +200,6 @@
       "title": "ANAの予約情報に不正アクセス、JALと同じ委託先経由で 個人情報をのぞき見た痕跡も",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002722/"
-    },
-    {
-      "doc_id": "itmedia-0a1f1dbb4f23a182",
-      "title": "「PayPay連携の銀行から、お金全部盗られた」被害報告……原因と対策は？ PayPayに聞いた",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002708/"
     },
     {
       "doc_id": "itmedia-2edbed3c6b1be3c3",
@@ -196,12 +220,6 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002647/"
     },
     {
-      "doc_id": "itmedia-ba7bff2748da264e",
-      "title": "グッスマ、顧客の2800人のカード番号全16桁＋セキュリティコードなど流出か 下4桁は40万枚分",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002716/"
-    },
-    {
       "doc_id": "itmedia-21fc31033ec94cb9",
       "title": "会員情報最大423万件が漏えい 生花EC事業者に不正アクセス",
       "source": "ITmedia",
@@ -214,22 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002707/"
     },
     {
-      "doc_id": "itmedia-6d62b01c20d7a7bd",
-      "title": "即興ラップで踊る「AIヒューマノイド」公開 オープンハウスが静岡で31日から実証実験",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002705/"
+      "doc_id": "nazology-aaa8562c32ececed",
+      "title": "AIが作ったタンパク質に「透かし」を入れる技術、狙いは生物兵器への悪用の抑止",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204125"
     },
     {
-      "doc_id": "itmedia-22a40c94a72bec7a",
-      "title": "AIチャットが勧める広告商品、選択率が約3倍に こっそり他商品けなし誘導 米研究者らが検証",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002680/"
-    },
-    {
-      "doc_id": "itmedia-bcd4e47d04470fc1",
-      "title": "AIが人間に“闇バイト”を発注？ AIが物理的労働を買う求人サイト「RentAHuman」の実態",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002679/"
+      "doc_id": "nazology-cad196d3885c552b",
+      "title": "天文学者も首をかしげる「謎の光」が、何も写っていない宇宙から届いていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203604"
     },
     {
       "doc_id": "nazology-f921928eff100284",
@@ -278,18 +290,6 @@
       "title": "ジュラ紀の「巨大な6本脚の捕食者」の化石を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203585"
-    },
-    {
-      "doc_id": "nazology-ee1363124094ad3a",
-      "title": "宝くじで大金が当たると、独身男性は結婚に、既婚女性は離婚に近づく",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204027"
-    },
-    {
-      "doc_id": "nazology-9254fa9d7fc0fdc0",
-      "title": "熱々の飲み物好きは、ぬるめ派の約3倍も食道がんの一種になりやすい",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203364"
     }
   ]
 }
