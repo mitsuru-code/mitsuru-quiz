@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-30T01:03:45+00:00",
-  "now_ms": 1793322225324,
+  "fetched_at": "2026-10-30T07:11:24+00:00",
+  "now_ms": 1793344284072,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-697313694ce116a2",
-      "title": "情報漏えい 4月以降延べ2.6億人分",
+      "doc_id": "yahoo-4b139e7e7860df3f",
+      "title": "暗号資産取引大手に不正侵入か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600644"
+      "link": "https://news.yahoo.co.jp/pickup/6600689"
     },
     {
-      "doc_id": "yahoo-31745b4fe838f17c",
-      "title": "富士山の初冠雪を確認 気象庁発表",
+      "doc_id": "yahoo-74f2c9cbb04fcbb0",
+      "title": "物価上昇目標2%に到達 日銀見解",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600649"
+      "link": "https://news.yahoo.co.jp/pickup/6600672"
     },
     {
-      "doc_id": "yahoo-5678de0c3963703d",
-      "title": "株価崩れない「ホンダ」の強み",
+      "doc_id": "yahoo-235950baf868a8a4",
+      "title": "無印良品 最大2726万件情報流出か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600635"
+      "link": "https://news.yahoo.co.jp/pickup/6600686"
     },
     {
-      "doc_id": "yahoo-44f926ef5b296179",
-      "title": "市が高級ピアノ買い替え決定 賛否",
+      "doc_id": "yahoo-0f7eb47563e0a818",
+      "title": "都立六本木高校 女子生徒刺される",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600652"
+      "link": "https://news.yahoo.co.jp/pickup/6600685"
     },
     {
-      "doc_id": "yahoo-09de36d76d254814",
-      "title": "ナップザック 中高生になぜ人気",
+      "doc_id": "yahoo-932d85a8cc7d84a3",
+      "title": "リースバック 悪質取引に規制強化",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600634"
+      "link": "https://news.yahoo.co.jp/pickup/6600675"
     },
     {
-      "doc_id": "yahoo-a9a1a85b7e6d4848",
-      "title": "巨人 松井監督体制のコーチ陣発表",
+      "doc_id": "yahoo-0c0af76581301b6d",
+      "title": "ジャングリア苦戦 資金繰りも悪化",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600653"
+      "link": "https://news.yahoo.co.jp/pickup/6600688"
     },
     {
-      "doc_id": "yahoo-0cfadb377cef562f",
-      "title": "C・ロナウド 15分間で圧巻ハット",
+      "doc_id": "yahoo-c2314d5da2c9ca1b",
+      "title": "西日本でクマ出没急増 餌不足深刻",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600648"
+      "link": "https://news.yahoo.co.jp/pickup/6600680"
     },
     {
-      "doc_id": "yahoo-d0dc49371433bed2",
-      "title": "パトリック・スチュワート氏死去",
+      "doc_id": "yahoo-1be9fd57044548d3",
+      "title": "ビックリ 電撃トレードに甲斐拓也",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600630"
+      "link": "https://news.yahoo.co.jp/pickup/6600673"
+    },
+    {
+      "doc_id": "jiji-62d88f8cef834cac",
+      "title": "日銀は、基調的な物価上昇率が目標の２％に到達したと判断した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103000551&g=flash"
+    },
+    {
+      "doc_id": "jiji-395d828259a2cb5c",
+      "title": "個人情報漏えい、２．６億人分 不正アクセス、今月に入り急増",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103000493&g=pol"
+    },
+    {
+      "doc_id": "jiji-b34eae21d1d2a271",
+      "title": "六本木高校で女子生徒刺される 意識あり、別の女子生徒逮捕―警視庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103000702&g=soc"
+    },
+    {
+      "doc_id": "jiji-98bc142c4b095ae3",
+      "title": "イスラエル総選挙で与党陣営、過半数割れ 首相「アラブ系政党が票買収」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103000301&g=int"
     },
     {
       "doc_id": "jiji-2412d093c4d61a6e",
@@ -64,172 +88,154 @@
       "link": "https://www.jiji.com/jc/article?k=2026103000212&g=int"
     },
     {
-      "doc_id": "jiji-ef5704c4bf43f8c3",
-      "title": "急進左派、民主結束の試金石 イスラム教徒候補に不信感、ユダヤ・黒人に共和接近―中西部ミシガン州・米中間選挙",
+      "doc_id": "jiji-7448ad10473d960c",
+      "title": "政府のエネ補助「場当たり的」 民主改革・小川淳也代表が批判",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900669&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103000718&g=pol"
     },
     {
-      "doc_id": "jiji-4fa8696d02a62114",
-      "title": "電気・ガス代支援、１２月再開 ガソリン補助は段階的縮小―高市首相表明",
+      "doc_id": "jiji-b4a1cbfb8a173aa0",
+      "title": "そのナース仮装、大丈夫？ 赤十字マーク使用、実は禁止―ハロウィーン控え注意喚起・日赤",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026103000129&g=soc"
     },
     {
-      "doc_id": "jiji-39d3b0f4460a5af2",
-      "title": "定数削減へなおハードル 消費税優先、野党抵抗必至",
+      "doc_id": "jiji-33b6d143f2195a5a",
+      "title": "トランプ氏、接戦州の選挙集会取りやめ 電話で支持呼び掛けへ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901034&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026103000743&g=int"
     },
     {
-      "doc_id": "jiji-00e0266cd0b93c31",
-      "title": "トランプ氏、選挙結果拒否を示唆 米アラスカ州の同名候補で召喚状",
+      "doc_id": "jiji-a017f1e26748a956",
+      "title": "日銀はＥＴＦの年間売却額を８６００億円に増やす",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000230&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103000576&g=flash"
     },
     {
-      "doc_id": "jiji-2f3da49d6a0b4db6",
-      "title": "警察官装い現金保管場所助言 電話でニセ防犯指導、空き巣被害に―警視庁が注意喚起",
+      "doc_id": "jiji-51b1d2702926b2a3",
+      "title": "日銀は金融政策の現状維持を決定した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900678&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026103000552&g=flash"
     },
     {
-      "doc_id": "jiji-6aafdae78c1fe7dc",
-      "title": "「自由な発言」求め早期退任 金利上昇には警戒感―ラガルドＥＣＢ総裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000166&g=int"
-    },
-    {
-      "doc_id": "jiji-5fcba86cbdd4461f",
-      "title": "清岡もえ、５３キロ級初Ｖ 尾崎野乃香は準優勝―世界レスリング",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000248&g=spo"
-    },
-    {
-      "doc_id": "jiji-12b000e2e946e48f",
-      "title": "「反腐敗闘争」継続表明 幹部３３人を党籍剥奪処分、来年後半に党大会―中国共産党",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900723&g=int"
-    },
-    {
-      "doc_id": "jiji-06d59a98289202aa",
-      "title": "染色体分配に重要なたんぱく質 マウス卵子で発見―千葉大など",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000161&g=soc"
-    },
-    {
-      "doc_id": "nhk-f6b9f133b21072ec",
-      "title": "東京23区の10月の消費者物価指数 前年同月比2.6％上昇",
+      "doc_id": "nhk-cefbb1e3164f1a3b",
+      "title": "暗号資産の「バイナンス」に不正アクセスか 影響額 約9900億円",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68190"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68404"
     },
     {
-      "doc_id": "nhk-d2142418c4273160",
-      "title": "完全失業率 9月は2.4％ 前月より0.1ポイント改善 総務省",
+      "doc_id": "nhk-6fcebdac6d22abf9",
+      "title": "無印良品 不正アクセスで最大2726万件の個人情報 流出のおそれ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68199"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68460"
     },
     {
-      "doc_id": "nhk-ff8a9a690b81eaba",
-      "title": "9月の有効求人倍率1.19倍 3か月ぶりに前月上回る",
+      "doc_id": "nhk-bac5af49d8fb8c45",
+      "title": "【ライブ】日銀 政策金利を据え置き 植田総裁が記者会見",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68097"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68221"
     },
     {
-      "doc_id": "nhk-623adf8a8bc1ecd5",
-      "title": "愛知 安城の水道管工事現場で土砂に埋まり作業中の親子2人死亡",
+      "doc_id": "nhk-5d052361ab453f45",
+      "title": "水道管工事現場で2人死亡 水と土砂に埋もれたか 愛知 安城",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68166"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68443"
     },
     {
-      "doc_id": "nhk-5ba65d619b007c7f",
-      "title": "別府ひき逃げ事件で新チラシ 八田容疑者の初公開写真も",
+      "doc_id": "nhk-c90638b47f83aaf0",
+      "title": "スペイン鉄道事故 地元紙「外国人1人死亡 20人超安否確認中」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68165"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68323"
     },
     {
-      "doc_id": "nhk-29e0de3977092008",
-      "title": "スペイン鉄道事故 指令センターが速度制限伝えず運転再開か",
+      "doc_id": "nhk-c711f38c2523265e",
+      "title": "巨人 松井秀喜新監督が始動 秋季キャンプをスタート",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68171"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68262"
     },
     {
-      "doc_id": "nhk-dcdb4dfa26e3bd72",
-      "title": "「中野ブロードウェイ」で4600万円相当の腕時計 男が盗み逃走",
+      "doc_id": "nhk-e7f09b248996c2e4",
+      "title": "都立六本木高 生徒が別生徒を包丁で刺したか 殺人未遂疑い逮捕",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68127"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68449"
     },
     {
-      "doc_id": "itmedia-40ac655a20166f46",
-      "title": "Amazon決算、AWS売上高が39.3％増で約5年ぶりの高成長 フリーキャッシュフローは大幅悪化",
+      "doc_id": "itmedia-3ec2a1bd38bbedf7",
+      "title": "無印良品、不正アクセスで最大2726万件の会員情報漏えいか 退会済みのユーザーも対象",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002736/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002756/"
     },
     {
-      "doc_id": "itmedia-3b5f974d8de0e564",
-      "title": "OpenAI、AIの行動指針「Model Spec」を改定 “記憶”の使い方や人間による監督を明記",
+      "doc_id": "itmedia-e4bb7cf8325b9c9f",
+      "title": "松屋のアプリに不正アクセス、約238万件の個人情報が漏えい 停止中の補償も予定",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002735/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002753/"
     },
     {
-      "doc_id": "itmedia-4e8c8c47047cd274",
-      "title": "ウクライナで拡散するAI偽情報 「本物の映像」をどう証明するか、AIと戦争が変えた「C2PA」の意義",
+      "doc_id": "itmedia-c25ed5faedfa35f7",
+      "title": "イオン、フィジカルAIで物流改革 配送拠点の自動化率5割達成 深刻な人手不足に対応",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002734/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002751/"
     },
     {
-      "doc_id": "itmedia-0a1f1dbb4f23a182",
-      "title": "「PayPay連携の銀行から、お金全部盗られた」被害報告……原因と対策は？ PayPayに聞いた",
+      "doc_id": "itmedia-913c65fccd775924",
+      "title": "誤訳で“違う製品”を作りかけた？ ベトナム工場への指示書、通訳よりGeminiの方が伝わったワケ",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002708/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002699/"
     },
     {
-      "doc_id": "itmedia-3e9cd8847176df0c",
-      "title": "不正アクセスによる漏えい人数、半年余りでのべ2億6000万人に 日本人口の2倍超",
+      "doc_id": "itmedia-ade77b39252f404b",
+      "title": "「本会議場にタブレット持ち込み可能に」自民の提言案にチームみらい安野党首「うおおおおお」",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002730/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002747/"
     },
     {
-      "doc_id": "itmedia-0a34f0c5a46058ec",
-      "title": "楽天カード、本人認証をワンタイムパスワードに統一 27年2月から順次",
+      "doc_id": "itmedia-0342e2bff8863665",
+      "title": "暗号資産取引所Binance、ハッキングで約1兆円の被害か 入出金を全面停止",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002729/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002749/"
     },
     {
-      "doc_id": "itmedia-ba7bff2748da264e",
-      "title": "グッスマ、顧客の2800人のカード番号全16桁＋セキュリティコードなど流出か 下4桁は40万枚分",
+      "doc_id": "itmedia-f6e76b3f8738835f",
+      "title": "Meta Ray-Banで向かいの席から撮影→指の動きからスマホのパスワードを解読する盗み見攻撃",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002716/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002684/"
     },
     {
-      "doc_id": "itmedia-de776ba7f26a989f",
-      "title": "神奈川・鎌倉市が「公共ライドシェア」実証実験見送り 路線バス大幅減便で代替運行に注力",
+      "doc_id": "itmedia-aca591f6b633eea4",
+      "title": "PHP脆弱性でいち早くサービス停止、コドモン経営判断の舞台裏 実はオンラインイベントの真っ最中だった",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002727/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002720/"
     },
     {
-      "doc_id": "itmedia-86b2fe10bb3af58f",
-      "title": "ローソン・郵便局が「ドローン基地」に 回線はStarlinkで ドローンインフラを急ピッチで作るKDDI",
+      "doc_id": "itmedia-4698c69b5ab0ed59",
+      "title": "“AI面接官”は人間より内定を出しやすい？ 定着率も18％増 約7万人で実験",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002723/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002683/"
     },
     {
-      "doc_id": "itmedia-8d54603e159ce67f",
-      "title": "ANAの予約情報に不正アクセス、JALと同じ委託先経由で 個人情報をのぞき見た痕跡も",
+      "doc_id": "itmedia-f5c091b51c633aa9",
+      "title": "AIが突き崩す「不動産価格の壁」 なぜマンションに定価がないのか",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002722/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002733/"
     },
     {
-      "doc_id": "itmedia-2edbed3c6b1be3c3",
-      "title": "ソニー生命に不正アクセス、個人情報約38.5万件漏えい 氏名や住所、契約内容など",
+      "doc_id": "itmedia-c72d57766a176ba0",
+      "title": "ヤクルト本社、個人情報約4万件漏えい 公式サイトへの不正アクセスで",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002717/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002739/"
     },
     {
-      "doc_id": "itmedia-186b083368ec687a",
-      "title": "松屋の公式アプリとWebサイトが停止 不正アクセスを検知、モバイルオーダーや弁当予約も使えず",
+      "doc_id": "itmedia-dc258ed2410c6f91",
+      "title": "アイリスオーヤマの通販サイトに不正アクセス 情報漏えいは「調査中」",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002714/"
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002737/"
+    },
+    {
+      "doc_id": "nazology-d34e35ad0f89c0d3",
+      "title": "たんぱく質を健康・環境・値段で総合評価すると1位は「豆腐」だった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203911"
     },
     {
       "doc_id": "nazology-601a3e00c5396068",
@@ -284,12 +290,6 @@
       "title": "1種類の積み木をいくら積んでも、全体の模様がくり返さない立体が見つかる",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203410"
-    },
-    {
-      "doc_id": "nazology-592560fff83bb83b",
-      "title": "「完璧な世界地図」は数学的に作ることができない",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203550"
     }
   ]
 }
