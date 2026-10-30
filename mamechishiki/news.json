@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-30T19:26:55+00:00",
-  "now_ms": 1793388415798,
+  "fetched_at": "2026-10-30T23:50:26+00:00",
+  "now_ms": 1793404226732,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,82 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-0b5916b842b67dfa",
-      "title": "31日関東-北海道で天気急変に注意",
+      "doc_id": "yahoo-7a43d8471b95764e",
+      "title": "茂木外相 露外相に記者の解放要求",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600723"
+      "link": "https://news.yahoo.co.jp/pickup/6600743"
     },
     {
-      "doc_id": "yahoo-2d5856e5c328fb76",
-      "title": "中間選挙 民主党「赤い州」で勢い",
+      "doc_id": "yahoo-b238351d468d9baf",
+      "title": "教皇が米中間選挙に投票 史上初",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600736"
+      "link": "https://news.yahoo.co.jp/pickup/6600748"
     },
     {
-      "doc_id": "yahoo-78204ed796b548c5",
-      "title": "キオクシア 4-12月純利益24倍予想",
+      "doc_id": "yahoo-3b47d0bb4f34b288",
+      "title": "転覆 同志社会見に遺族コメント",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600712"
+      "link": "https://news.yahoo.co.jp/pickup/6600752"
     },
     {
-      "doc_id": "yahoo-e4ffe570e4dbe761",
-      "title": "ジャングリア 出資に数社が関心",
+      "doc_id": "yahoo-bedcd4693b0cbb13",
+      "title": "列車とクマ衝突 乗客は車内で一夜",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600733"
+      "link": "https://news.yahoo.co.jp/pickup/6600754"
     },
     {
-      "doc_id": "yahoo-ade8736ce232399a",
-      "title": "六本木高校生徒 複数回刺され重傷",
+      "doc_id": "yahoo-1fb6c7f66b28012c",
+      "title": "都内最古の「天下一品」閉店へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600717"
+      "link": "https://news.yahoo.co.jp/pickup/6600740"
     },
     {
-      "doc_id": "yahoo-4ed05a5d69d4d8c3",
-      "title": "体中にプラ片詰まった鳥 豪州の島",
+      "doc_id": "yahoo-ec139787934ecd8b",
+      "title": "神木隆之介 ゴジラ実況に飛び入り",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600732"
+      "link": "https://news.yahoo.co.jp/pickup/6600749"
     },
     {
-      "doc_id": "yahoo-7b1b1b9e4591c0ef",
-      "title": "給食食べ搬送 ヒスタミン中毒とは",
+      "doc_id": "yahoo-434243bb710c60eb",
+      "title": "山川穂高 1カ月間「バット封印」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600714"
+      "link": "https://news.yahoo.co.jp/pickup/6600742"
     },
     {
-      "doc_id": "yahoo-d6aa91d6c6aa190e",
-      "title": "楽天・石井GM 甲斐獲得巡り説明",
+      "doc_id": "yahoo-934cd90ab6f80a5d",
+      "title": "阪神 オリ中川獲得へ大型契約準備",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600735"
+      "link": "https://news.yahoo.co.jp/pickup/6600738"
     },
     {
-      "doc_id": "jiji-4f98e54f2b2b119a",
-      "title": "フィリピン南部のイスラム地域で自治政府発足 議会が初の首相選出",
+      "doc_id": "jiji-cf0e182abcbaeafa",
+      "title": "米ナスダック、３％急落 ハイテク株売り、一時１０００ポイント超安",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103001237&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103100132&g=int"
+    },
+    {
+      "doc_id": "jiji-39175e8bc821c111",
+      "title": "米ロ外相が短時間会談 ＡＰＥＣ首脳会議に向け協議",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100184&g=int"
+    },
+    {
+      "doc_id": "jiji-5de45bee150cf938",
+      "title": "「諦めないで良かった」 逮捕から１年、夫が心境―９９年主婦殺害・名古屋",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103000705&g=soc"
+    },
+    {
+      "doc_id": "jiji-9281b675ac561e5a",
+      "title": "米株式市場でナスダック総合指数が７００ポイント超安で引けた",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100124&g=flash"
+    },
+    {
+      "doc_id": "jiji-fb431f192bb9a8e8",
+      "title": "茂木外相、ロシア外相に即時解放要求 邦人記者拘束後、初の会談",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100115&g=pol"
     },
     {
       "doc_id": "jiji-aab1810a37a8fb5e",
@@ -70,46 +94,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026103001160&g=soc"
     },
     {
-      "doc_id": "jiji-6d239165e784eb88",
-      "title": "バイナンスから１兆円流出か 暗号資産交換最大手、北朝鮮関与も",
+      "doc_id": "jiji-80e9fe349a0102a3",
+      "title": "政府、デフレ脱却宣言に慎重 野党はインフレ抑制要求",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000971&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103001121&g=pol"
     },
     {
-      "doc_id": "jiji-ad1e4378368849df",
-      "title": "自民・麻生副総裁が資産訂正",
+      "doc_id": "jiji-5bd89738f4e25974",
+      "title": "ＮＺ与党、過半数は微妙 中道勢力の動向カギ―来週総選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103001159&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026103000726&g=int"
     },
     {
-      "doc_id": "jiji-91f6f84234181c14",
-      "title": "民主新星、「赤い州」米南部テキサスで勢い 共和トランプ派、危機感あおる―上院過半数へ天王山・中間選挙",
+      "doc_id": "jiji-f1ec52070185e3c2",
+      "title": "首相動静（１０月３０日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000736&g=int"
-    },
-    {
-      "doc_id": "jiji-5ca37caae9545b37",
-      "title": "高市首相Ｇ７欠席、岡本公明代表「怒り」 共産も説明要求",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000763&g=pol"
-    },
-    {
-      "doc_id": "jiji-98bc142c4b095ae3",
-      "title": "イスラエル総選挙で与党陣営、過半数割れ 首相「アラブ系政党が票買収」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000301&g=int"
-    },
-    {
-      "doc_id": "jiji-b4edbed326411d9f",
-      "title": "外務省で個人情報漏えい ３６００件、７月に不正アクセス",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000922&g=pol"
-    },
-    {
-      "doc_id": "jiji-6c8f821e09f18096",
-      "title": "政府に求める施策「防災」最高３７％ 「物価」７割、４年連続で最多―内閣府調査",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000942&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026103000251&g=pol"
     },
     {
       "doc_id": "jiji-91052288ba983737",
@@ -118,16 +118,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026103001188&g=int"
     },
     {
-      "doc_id": "nhk-23cae436f2755e1f",
-      "title": "【不正アクセス】個人情報流出などの発表相次ぐ（10月30日）",
+      "doc_id": "nhk-084e9712564ec8d2",
+      "title": "5年ぶり日ロ外相会談 茂木外相 北海道新聞記者の即時解放要請",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68227"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68824"
     },
     {
-      "doc_id": "nhk-bac5af49d8fb8c45",
-      "title": "日銀 政策金利据え置き 物価2％「ひとつの節目」 利上げは継続",
+      "doc_id": "nhk-b2ce69c1037eaa40",
+      "title": "“過去最大級被害”暗号資産大手バイナンス 複雑な攻撃あった",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68221"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68827"
+    },
+    {
+      "doc_id": "nhk-c148981712e2bb59",
+      "title": "ウクライナ情勢 局地停戦で住民退避も攻撃応酬続く",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68816"
+    },
+    {
+      "doc_id": "nhk-f67e19b47cd030df",
+      "title": "G20外相会合が開幕 茂木外相“G20各国が連携・協調を”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68825"
+    },
+    {
+      "doc_id": "nhk-5b2c0ecb82e59744",
+      "title": "辺野古沖転覆事故 同志社会見に遺族「説明責任真剣に考えて」",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68798"
+    },
+    {
+      "doc_id": "nhk-25cdd63e531cdaec",
+      "title": "スペイン高速鉄道事故 先行列車に何らかのトラブルか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821"
     },
     {
       "doc_id": "nhk-878954028979f54d",
@@ -136,28 +160,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261030de68783"
     },
     {
-      "doc_id": "nhk-944debf9810184a7",
-      "title": "キオクシアHD中間決算 最終利益は前年同期の37倍に",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68433"
-    },
-    {
-      "doc_id": "nhk-35ec36c6667f8e62",
-      "title": "ジャングリア沖縄“新スポンサー探し半年程度かけて進めたい”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68752"
-    },
-    {
-      "doc_id": "nhk-c19abf8f3b183d5f",
-      "title": "岐阜でアジア最古のシカの化石 新種「ミズナミジカ」と命名",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68743"
-    },
-    {
-      "doc_id": "nhk-48e0ad18374cafb2",
-      "title": "松江 給食で約300人体調不良 焼き魚のヒスタミンによる食中毒",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68361"
+      "doc_id": "itmedia-3c91c466fc3560a5",
+      "title": "Binanceの約1兆円流出、北朝鮮ハッカー集団「TraderTraitor」の犯行か",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/31/2000002775/"
     },
     {
       "doc_id": "itmedia-0b5d43273e4850a7",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002684/"
     },
     {
-      "doc_id": "itmedia-aca591f6b633eea4",
-      "title": "PHP脆弱性でいち早くサービス停止、コドモン経営判断の舞台裏 実はオンラインイベントの真っ最中だった",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002720/"
+      "doc_id": "nazology-01f4e351fe99ab6f",
+      "title": "光を当てると「藻」で動くロボットの腕が金属の玉をつかむ",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203934"
     },
     {
       "doc_id": "nazology-9af7bf307c2e231d",
@@ -284,12 +290,6 @@
       "title": "幻覚剤シロシビン1回でうつ病が改善、だが1年後に「意外な結末」が",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203566"
-    },
-    {
-      "doc_id": "nazology-9bb05ca8d1aa99a1",
-      "title": "除草剤を少しだけ浴びた雑草、花が1.5倍近くに増えると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203527"
     }
   ]
 }
