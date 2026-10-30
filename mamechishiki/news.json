@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-29T21:09:56+00:00",
-  "now_ms": 1793308196577,
+  "fetched_at": "2026-10-30T01:03:45+00:00",
+  "now_ms": 1793322225324,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,88 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8a8fce050817c649",
-      "title": "電気ガス代補助 12月-来年2月実施",
+      "doc_id": "yahoo-697313694ce116a2",
+      "title": "情報漏えい 4月以降延べ2.6億人分",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600608"
+      "link": "https://news.yahoo.co.jp/pickup/6600644"
     },
     {
-      "doc_id": "yahoo-9b446d1a631d4663",
-      "title": "欧州中銀 2会合ぶり金利据え置き",
+      "doc_id": "yahoo-31745b4fe838f17c",
+      "title": "富士山の初冠雪を確認 気象庁発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600623"
+      "link": "https://news.yahoo.co.jp/pickup/6600649"
     },
     {
-      "doc_id": "yahoo-65db580d1321c9b1",
-      "title": "梨泰院事故4年で追悼式 160人犠牲",
+      "doc_id": "yahoo-5678de0c3963703d",
+      "title": "株価崩れない「ホンダ」の強み",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600615"
+      "link": "https://news.yahoo.co.jp/pickup/6600635"
     },
     {
-      "doc_id": "yahoo-aa8eb8ffcdd08068",
-      "title": "土砂に埋まり作業員2人死亡 愛知",
+      "doc_id": "yahoo-44f926ef5b296179",
+      "title": "市が高級ピアノ買い替え決定 賛否",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600618"
+      "link": "https://news.yahoo.co.jp/pickup/6600652"
     },
     {
-      "doc_id": "yahoo-8672bd53e48b9268",
-      "title": "天丼てんや 2カ月連続で客約1割減",
+      "doc_id": "yahoo-09de36d76d254814",
+      "title": "ナップザック 中高生になぜ人気",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600612"
+      "link": "https://news.yahoo.co.jp/pickup/6600634"
     },
     {
-      "doc_id": "yahoo-ae1b6f60cf113849",
-      "title": "楽天 高卒1年目の大栄を戦力外",
+      "doc_id": "yahoo-a9a1a85b7e6d4848",
+      "title": "巨人 松井監督体制のコーチ陣発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600596"
+      "link": "https://news.yahoo.co.jp/pickup/6600653"
     },
     {
-      "doc_id": "yahoo-7dc956d1d9a8b0a7",
-      "title": "槙野監督が訴え 誤審とJFA認める",
+      "doc_id": "yahoo-0cfadb377cef562f",
+      "title": "C・ロナウド 15分間で圧巻ハット",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600606"
+      "link": "https://news.yahoo.co.jp/pickup/6600648"
     },
     {
-      "doc_id": "yahoo-672474689ea40a6f",
-      "title": "元HKT48・朝長美桜 今は寿司職人",
+      "doc_id": "yahoo-d0dc49371433bed2",
+      "title": "パトリック・スチュワート氏死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600622"
+      "link": "https://news.yahoo.co.jp/pickup/6600630"
     },
     {
-      "doc_id": "jiji-12b000e2e946e48f",
-      "title": "「反腐敗闘争」継続表明 幹部３３人を党籍剥奪処分、来年後半に党大会―中国共産党",
+      "doc_id": "jiji-2412d093c4d61a6e",
+      "title": "エヌビディアに中国女性スパイか ＣＥＯと親密な関係―米報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900723&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103000212&g=int"
     },
     {
-      "doc_id": "jiji-4f13052f3a9f5416",
-      "title": "次期戦闘機、ドイツの参加意欲に苦慮 日本政府、開発遅れ懸念",
+      "doc_id": "jiji-ef5704c4bf43f8c3",
+      "title": "急進左派、民主結束の試金石 イスラム教徒候補に不信感、ユダヤ・黒人に共和接近―中西部ミシガン州・米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900991&g=pol"
-    },
-    {
-      "doc_id": "jiji-219fd9dc62e6cfef",
-      "title": "米物価、前年比３．６％上昇 原油高受け伸び加速―９月",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901210&g=int"
-    },
-    {
-      "doc_id": "jiji-4adaec424c6eab6c",
-      "title": "管制、運転士に規則違反の指示か 「通常速度」で運行再開―スペイン列車事故",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901223&g=int"
-    },
-    {
-      "doc_id": "jiji-ffc40750160c3bd7",
-      "title": "ガソリン基準価、毎月５円引き上げ 高市首相",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901074&g=pol"
-    },
-    {
-      "doc_id": "jiji-6093811d5571d513",
-      "title": "サンリオ、「ＶＩＶＡＮＴ」とのコラボ終了 中国で強まる批判に対応",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901028&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102900669&g=int"
     },
     {
       "doc_id": "jiji-4fa8696d02a62114",
@@ -100,22 +76,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
     },
     {
-      "doc_id": "jiji-a0513b1ff1efebec",
-      "title": "米ＧＤＰ、３．４％増 設備投資、個人消費が好調―７～９月期",
+      "doc_id": "jiji-39d3b0f4460a5af2",
+      "title": "定数削減へなおハードル 消費税優先、野党抵抗必至",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901213&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102901034&g=pol"
     },
     {
-      "doc_id": "jiji-3fea405407929a1c",
-      "title": "欧州中銀、金利据え置き ２会合ぶり、中東情勢見極め",
+      "doc_id": "jiji-00e0266cd0b93c31",
+      "title": "トランプ氏、選挙結果拒否を示唆 米アラスカ州の同名候補で召喚状",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901257&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103000230&g=int"
     },
     {
-      "doc_id": "jiji-dbdd44863a1339a8",
-      "title": "外国人労働者「経済寄与あまりない」 大統領発言が物議―韓国",
+      "doc_id": "jiji-2f3da49d6a0b4db6",
+      "title": "警察官装い現金保管場所助言 電話でニセ防犯指導、空き巣被害に―警視庁が注意喚起",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102900907&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026102900678&g=soc"
+    },
+    {
+      "doc_id": "jiji-6aafdae78c1fe7dc",
+      "title": "「自由な発言」求め早期退任 金利上昇には警戒感―ラガルドＥＣＢ総裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103000166&g=int"
+    },
+    {
+      "doc_id": "jiji-5fcba86cbdd4461f",
+      "title": "清岡もえ、５３キロ級初Ｖ 尾崎野乃香は準優勝―世界レスリング",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103000248&g=spo"
+    },
+    {
+      "doc_id": "jiji-12b000e2e946e48f",
+      "title": "「反腐敗闘争」継続表明 幹部３３人を党籍剥奪処分、来年後半に党大会―中国共産党",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026102900723&g=int"
+    },
+    {
+      "doc_id": "jiji-06d59a98289202aa",
+      "title": "染色体分配に重要なたんぱく質 マウス卵子で発見―千葉大など",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103000161&g=soc"
+    },
+    {
+      "doc_id": "nhk-f6b9f133b21072ec",
+      "title": "東京23区の10月の消費者物価指数 前年同月比2.6％上昇",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68190"
+    },
+    {
+      "doc_id": "nhk-d2142418c4273160",
+      "title": "完全失業率 9月は2.4％ 前月より0.1ポイント改善 総務省",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68199"
+    },
+    {
+      "doc_id": "nhk-ff8a9a690b81eaba",
+      "title": "9月の有効求人倍率1.19倍 3か月ぶりに前月上回る",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68097"
     },
     {
       "doc_id": "nhk-623adf8a8bc1ecd5",
@@ -136,28 +154,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261030de68171"
     },
     {
-      "doc_id": "nhk-0834ba3a97f6ba8b",
-      "title": "フォルクスワーゲン 7-9月期決算 8000億円超の大幅赤字",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261029de68034"
-    },
-    {
       "doc_id": "nhk-dcdb4dfa26e3bd72",
       "title": "「中野ブロードウェイ」で4600万円相当の腕時計 男が盗み逃走",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261029de68127"
     },
     {
-      "doc_id": "nhk-a7957f0061efbb54",
-      "title": "GMO 被害拡大防止へ有力情報は警察などと随時共有",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68154"
+      "doc_id": "itmedia-40ac655a20166f46",
+      "title": "Amazon決算、AWS売上高が39.3％増で約5年ぶりの高成長 フリーキャッシュフローは大幅悪化",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002736/"
     },
     {
-      "doc_id": "nhk-fa7355d8ab84f12a",
-      "title": "「副首都」構想関連法 きょう施行 4道府県でも検討・調整へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68147"
+      "doc_id": "itmedia-3b5f974d8de0e564",
+      "title": "OpenAI、AIの行動指針「Model Spec」を改定 “記憶”の使い方や人間による監督を明記",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002735/"
+    },
+    {
+      "doc_id": "itmedia-4e8c8c47047cd274",
+      "title": "ウクライナで拡散するAI偽情報 「本物の映像」をどう証明するか、AIと戦争が変えた「C2PA」の意義",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002734/"
     },
     {
       "doc_id": "itmedia-0a1f1dbb4f23a182",
@@ -214,22 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002714/"
     },
     {
-      "doc_id": "itmedia-d2590a79bac6613a",
-      "title": "ギターの「形」は誰のもの？ ヤマハにも警告、Fenderが“ストラト著作権”で仕掛けた知財攻勢",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002647/"
-    },
-    {
-      "doc_id": "itmedia-21fc31033ec94cb9",
-      "title": "会員情報最大423万件が漏えい 生花EC事業者に不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002711/"
-    },
-    {
-      "doc_id": "itmedia-056c826af71af426",
-      "title": "ベネフィット・ワンの委託先に不正アクセス セゾン会員向け優待サービスで約2.9万人分の個人情報漏えい",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/29/2000002707/"
+      "doc_id": "nazology-601a3e00c5396068",
+      "title": "蜂蜜とプロポリスが門番、ミツバチの巣は「小さな城」だったと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203977"
     },
     {
       "doc_id": "nazology-aaa8562c32ececed",
@@ -284,12 +290,6 @@
       "title": "「完璧な世界地図」は数学的に作ることができない",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203550"
-    },
-    {
-      "doc_id": "nazology-49869f2b8c26c91c",
-      "title": "ジュラ紀の「巨大な6本脚の捕食者」の化石を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203585"
     }
   ]
 }
