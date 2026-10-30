@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-30T07:11:24+00:00",
-  "now_ms": 1793344284072,
+  "fetched_at": "2026-10-30T14:13:39+00:00",
+  "now_ms": 1793369619822,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,70 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-4b139e7e7860df3f",
-      "title": "暗号資産取引大手に不正侵入か",
+      "doc_id": "yahoo-0b5916b842b67dfa",
+      "title": "31日関東-北海道で天気急変に注意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600689"
+      "link": "https://news.yahoo.co.jp/pickup/6600723"
     },
     {
-      "doc_id": "yahoo-74f2c9cbb04fcbb0",
-      "title": "物価上昇目標2%に到達 日銀見解",
+      "doc_id": "yahoo-b15bf871d9f0a4df",
+      "title": "トランプ氏 最終盤で選挙戦略転換",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600672"
+      "link": "https://news.yahoo.co.jp/pickup/6600727"
     },
     {
-      "doc_id": "yahoo-235950baf868a8a4",
-      "title": "無印良品 最大2726万件情報流出か",
+      "doc_id": "yahoo-998c66875cbe68c6",
+      "title": "辺野古転覆 同志社が5時間会見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600686"
+      "link": "https://news.yahoo.co.jp/pickup/6600730"
     },
     {
-      "doc_id": "yahoo-0f7eb47563e0a818",
-      "title": "都立六本木高校 女子生徒刺される",
+      "doc_id": "yahoo-ade8736ce232399a",
+      "title": "六本木高校生徒 複数回刺され重傷",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600685"
+      "link": "https://news.yahoo.co.jp/pickup/6600717"
     },
     {
-      "doc_id": "yahoo-932d85a8cc7d84a3",
-      "title": "リースバック 悪質取引に規制強化",
+      "doc_id": "yahoo-e4ffe570e4dbe761",
+      "title": "ジャングリア 出資に数社が関心",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600675"
+      "link": "https://news.yahoo.co.jp/pickup/6600733"
     },
     {
-      "doc_id": "yahoo-0c0af76581301b6d",
-      "title": "ジャングリア苦戦 資金繰りも悪化",
+      "doc_id": "yahoo-4ed05a5d69d4d8c3",
+      "title": "体中にプラ片詰まった鳥 豪州の島",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600688"
+      "link": "https://news.yahoo.co.jp/pickup/6600732"
     },
     {
-      "doc_id": "yahoo-c2314d5da2c9ca1b",
-      "title": "西日本でクマ出没急増 餌不足深刻",
+      "doc_id": "yahoo-a9f8f2aa8050b638",
+      "title": "高橋由伸氏 HC受諾の訳明かす",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600680"
+      "link": "https://news.yahoo.co.jp/pickup/6600726"
     },
     {
-      "doc_id": "yahoo-1be9fd57044548d3",
-      "title": "ビックリ 電撃トレードに甲斐拓也",
+      "doc_id": "yahoo-ac6205c9e1ae67cb",
+      "title": "川栄李奈 子どもからの言葉に感動",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600673"
+      "link": "https://news.yahoo.co.jp/pickup/6600729"
     },
     {
-      "doc_id": "jiji-62d88f8cef834cac",
-      "title": "日銀は、基調的な物価上昇率が目標の２％に到達したと判断した",
+      "doc_id": "jiji-ec0924610b8bba0c",
+      "title": "外務省は不正アクセスにより約３６００件の個人情報が漏えいした可能性があると発表した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000551&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026103000915&g=flash"
     },
     {
-      "doc_id": "jiji-395d828259a2cb5c",
-      "title": "個人情報漏えい、２．６億人分 不正アクセス、今月に入り急増",
+      "doc_id": "jiji-aab1810a37a8fb5e",
+      "title": "藤垣氏、委員投票で２度最多票 次期学長選考の経緯公表―東大",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000493&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026103001160&g=soc"
     },
     {
-      "doc_id": "jiji-b34eae21d1d2a271",
-      "title": "六本木高校で女子生徒刺される 意識あり、別の女子生徒逮捕―警視庁",
+      "doc_id": "jiji-91f6f84234181c14",
+      "title": "民主新星、「赤い州」米南部テキサスで勢い 共和トランプ派、危機感あおる―上院過半数へ天王山・中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000702&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026103000736&g=int"
     },
     {
       "doc_id": "jiji-98bc142c4b095ae3",
@@ -82,40 +82,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026103000301&g=int"
     },
     {
-      "doc_id": "jiji-2412d093c4d61a6e",
-      "title": "エヌビディアに中国女性スパイか ＣＥＯと親密な関係―米報道",
+      "doc_id": "jiji-62d88f8cef834cac",
+      "title": "日銀は、基調的な物価上昇率が目標の２％に到達したと判断した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000212&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103000551&g=flash"
     },
     {
-      "doc_id": "jiji-7448ad10473d960c",
-      "title": "政府のエネ補助「場当たり的」 民主改革・小川淳也代表が批判",
+      "doc_id": "jiji-b4edbed326411d9f",
+      "title": "外務省で個人情報漏えい ３６００件、７月に不正アクセス",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000718&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026103000922&g=pol"
     },
     {
-      "doc_id": "jiji-b4a1cbfb8a173aa0",
-      "title": "そのナース仮装、大丈夫？ 赤十字マーク使用、実は禁止―ハロウィーン控え注意喚起・日赤",
+      "doc_id": "jiji-632c495fedd6a8be",
+      "title": "ユーロ圏ＧＤＰ、０．４％増 市場予想上回る―７～９月期",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000129&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026103001224&g=int"
     },
     {
-      "doc_id": "jiji-33b6d143f2195a5a",
-      "title": "トランプ氏、接戦州の選挙集会取りやめ 電話で支持呼び掛けへ",
+      "doc_id": "jiji-2a312fb8ec0639b5",
+      "title": "同志社理事長「心よりおわび」 事故から７カ月半、初会見で謝罪―辺野古転覆",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000743&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103001111&g=soc"
     },
     {
-      "doc_id": "jiji-a017f1e26748a956",
-      "title": "日銀はＥＴＦの年間売却額を８６００億円に増やす",
+      "doc_id": "jiji-6d239165e784eb88",
+      "title": "バイナンスから１兆円流出か 暗号資産交換最大手、北朝鮮関与も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000576&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026103000971&g=int"
     },
     {
-      "doc_id": "jiji-51b1d2702926b2a3",
-      "title": "日銀は金融政策の現状維持を決定した",
+      "doc_id": "jiji-37b9c48ebb63caf9",
+      "title": "列車事故犠牲者、さらに増加も 行方不明届７０件―スペイン",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000552&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026103001236&g=int"
     },
     {
       "doc_id": "nhk-cefbb1e3164f1a3b",
@@ -124,40 +124,64 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261030de68404"
     },
     {
-      "doc_id": "nhk-6fcebdac6d22abf9",
-      "title": "無印良品 不正アクセスで最大2726万件の個人情報 流出のおそれ",
+      "doc_id": "nhk-878954028979f54d",
+      "title": "東大総長選 選考会議が詳しい選考の経緯を公表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68460"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68783"
+    },
+    {
+      "doc_id": "nhk-35ec36c6667f8e62",
+      "title": "ジャングリア沖縄“新スポンサー探し半年程度かけて進めたい”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68752"
     },
     {
       "doc_id": "nhk-bac5af49d8fb8c45",
-      "title": "【ライブ】日銀 政策金利を据え置き 植田総裁が記者会見",
+      "title": "日銀 政策金利据え置き 物価2％「ひとつの節目」 利上げは継続",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261030de68221"
     },
     {
-      "doc_id": "nhk-5d052361ab453f45",
-      "title": "水道管工事現場で2人死亡 水と土砂に埋もれたか 愛知 安城",
+      "doc_id": "nhk-662811bed17f183d",
+      "title": "経団連 春闘方針原案“価格転嫁交渉 積極的に”【QAで詳しく】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68443"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68457"
     },
     {
-      "doc_id": "nhk-c90638b47f83aaf0",
-      "title": "スペイン鉄道事故 地元紙「外国人1人死亡 20人超安否確認中」",
+      "doc_id": "nhk-4ec3b410e2e349d6",
+      "title": "部下への性的暴行の罪で無罪主張の元検事正 裁判所保釈認める",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68323"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68711"
     },
     {
-      "doc_id": "nhk-c711f38c2523265e",
-      "title": "巨人 松井秀喜新監督が始動 秋季キャンプをスタート",
+      "doc_id": "nhk-b7c59696192f1ce0",
+      "title": "西武 平良海馬のポスティングシステムでの大リーグ移籍を容認",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68262"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68501"
     },
     {
-      "doc_id": "nhk-e7f09b248996c2e4",
-      "title": "都立六本木高 生徒が別生徒を包丁で刺したか 殺人未遂疑い逮捕",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261030de68449"
+      "doc_id": "itmedia-0b5d43273e4850a7",
+      "title": "「低評価でキャラが悲しげな目」 モスバーガーのアンケートがSNSで話題 運営会社に狙いを聞いた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002767/"
+    },
+    {
+      "doc_id": "itmedia-b19cbc6d27c50fad",
+      "title": "セガのスマホゲーム「チェンクロ」、セキュリティ問題で1?2カ月の長期メンテ 13年続く長寿タイトル",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002768/"
+    },
+    {
+      "doc_id": "itmedia-e0933c1bb6018239",
+      "title": "「ITノウハウ持つ人材少なく」 PHP脆弱性問題、31市町村でサイト一時停止継続",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002766/"
+    },
+    {
+      "doc_id": "itmedia-7ed8ef091933886b",
+      "title": "総務省、GMO攻撃者サイトの「ブロッキング」を通信各社に要請 報道",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002765/"
     },
     {
       "doc_id": "itmedia-3ec2a1bd38bbedf7",
@@ -208,28 +232,28 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002720/"
     },
     {
-      "doc_id": "itmedia-4698c69b5ab0ed59",
-      "title": "“AI面接官”は人間より内定を出しやすい？ 定着率も18％増 約7万人で実験",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002683/"
+      "doc_id": "nazology-9af7bf307c2e231d",
+      "title": "家畜のウイルス「シャモンダ」に初めて人が感染",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204159"
     },
     {
-      "doc_id": "itmedia-f5c091b51c633aa9",
-      "title": "AIが突き崩す「不動産価格の壁」 なぜマンションに定価がないのか",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002733/"
+      "doc_id": "nazology-a9cc97a80c3b4ae1",
+      "title": "卵の中のヘビは圧倒的に「右巻き派」だった――なぜなのか？",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205279"
     },
     {
-      "doc_id": "itmedia-c72d57766a176ba0",
-      "title": "ヤクルト本社、個人情報約4万件漏えい 公式サイトへの不正アクセスで",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002739/"
+      "doc_id": "nazology-b2088ad9cc9f8eb7",
+      "title": "洞窟に葬られた女性の周りに「ヒトの歯」226本が供えられていた――マヤ文明の驚くべき埋葬習慣",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205259"
     },
     {
-      "doc_id": "itmedia-dc258ed2410c6f91",
-      "title": "アイリスオーヤマの通販サイトに不正アクセス 情報漏えいは「調査中」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002737/"
+      "doc_id": "nazology-58127f1335f8c287",
+      "title": "映画「アルマゲドン」の核作戦、小惑星の98%を損傷させると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/203953"
     },
     {
       "doc_id": "nazology-d34e35ad0f89c0d3",
@@ -266,30 +290,6 @@
       "title": "除草剤を少しだけ浴びた雑草、花が1.5倍近くに増えると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203527"
-    },
-    {
-      "doc_id": "nazology-9c32f49502ae5dfd",
-      "title": "ボイジャー1号、人工物で初めて地球から「1光日」の遠さへ",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204084"
-    },
-    {
-      "doc_id": "nazology-a995ee9737fc1310",
-      "title": "顕微鏡を替えただけで、観察した物の形まで変わってしまった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204467"
-    },
-    {
-      "doc_id": "nazology-a70c63798ca138fa",
-      "title": "人間の血液から育てた脳細胞で制御されるロボット犬",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204447"
-    },
-    {
-      "doc_id": "nazology-d0793a6f15e390d2",
-      "title": "1種類の積み木をいくら積んでも、全体の模様がくり返さない立体が見つかる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203410"
     }
   ]
 }
