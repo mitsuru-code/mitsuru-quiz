@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-31T05:49:01+00:00",
-  "now_ms": 1793425741760,
+  "fetched_at": "2026-10-31T12:38:11+00:00",
+  "now_ms": 1793450291890,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,82 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-ec396b45f7cee506",
-      "title": "台風31号 11/4～小笠原諸島接近か",
+      "doc_id": "yahoo-7f1156386d791de3",
+      "title": "高市氏ら首相の予算委答弁数 比較",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600811"
+      "link": "https://news.yahoo.co.jp/pickup/6600843"
     },
     {
-      "doc_id": "yahoo-39bc7f78225ca436",
-      "title": "1日早朝 関東などISS観測好条件",
+      "doc_id": "yahoo-b663cd44444efb3b",
+      "title": "スペイン運輸相 追突列車は青信号",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600812"
+      "link": "https://news.yahoo.co.jp/pickup/6600855"
     },
     {
-      "doc_id": "yahoo-83594db4013e9b06",
-      "title": "半導体大手インテル 株価29%急落",
+      "doc_id": "yahoo-03626db91ba6284b",
+      "title": "参政・神谷氏 独AfD幹部と共鳴",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600804"
+      "link": "https://news.yahoo.co.jp/pickup/6600861"
     },
     {
-      "doc_id": "yahoo-52acb16b2899404a",
-      "title": "園に「死ね」と書かれた人形 逮捕",
+      "doc_id": "yahoo-7d63ba849554b621",
+      "title": "屋根の修理中に転落か 男性死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600786"
+      "link": "https://news.yahoo.co.jp/pickup/6600858"
     },
     {
-      "doc_id": "yahoo-c05dfd64769e33d7",
-      "title": "大企業出身のシニア採用 落とし穴",
+      "doc_id": "yahoo-cbcf6e453e0b6c43",
+      "title": "ブラックフライデー 先行セールも",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600808"
+      "link": "https://news.yahoo.co.jp/pickup/6600845"
     },
     {
-      "doc_id": "yahoo-0d0899aec45fe679",
-      "title": "大阪桐蔭 エース14四死球で敗退",
+      "doc_id": "yahoo-1a4166855fc56208",
+      "title": "巨大キノコの新種「Dレックス」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600798"
+      "link": "https://news.yahoo.co.jp/pickup/6600862"
     },
     {
-      "doc_id": "yahoo-d3af5a076a178274",
-      "title": "幾田りら Hey!Say!JUMPへ曲提供",
+      "doc_id": "yahoo-5fe6404fd2656ae0",
+      "title": "サンド伊達 言えない言葉いくつか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600775"
+      "link": "https://news.yahoo.co.jp/pickup/6600864"
     },
     {
-      "doc_id": "yahoo-69c8f2b615e75bf0",
-      "title": "復帰のサンド伊達 後遺症を告白",
+      "doc_id": "yahoo-a121d16f69582563",
+      "title": "新山千春 母の病判明時はショック",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600810"
+      "link": "https://news.yahoo.co.jp/pickup/6600863"
     },
     {
-      "doc_id": "jiji-14ba78580b1ea36f",
+      "doc_id": "jiji-4fa8696d02a62114",
       "title": "電気・ガス代支援、１２月再開 ガソリン補助は段階的縮小―高市首相表明",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901064&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
+    },
+    {
+      "doc_id": "jiji-764a0d379676466b",
+      "title": "マスカレードボール２．４倍 競馬天皇賞・秋",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100363&g=spo"
+    },
+    {
+      "doc_id": "jiji-71beb604b06b1332",
+      "title": "身代金、４割に追加要求 急増するランサム攻撃―専門家「支払いは解決ではない」・不正アクセス",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100100&g=soc"
+    },
+    {
+      "doc_id": "jiji-8a5fa659b943dad9",
+      "title": "日本女子、ウェールズに連敗 ラグビー",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100384&g=spo"
+    },
+    {
+      "doc_id": "jiji-a5bb48dd0d31e676",
+      "title": "米兵を酒気帯び容疑で逮捕 未明の外出制限中―沖縄県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100378&g=soc"
     },
     {
       "doc_id": "jiji-cf0e182abcbaeafa",
@@ -70,94 +94,76 @@
       "link": "https://www.jiji.com/jc/article?k=2026103100132&g=int"
     },
     {
-      "doc_id": "jiji-12dea3754b687a7c",
-      "title": "北極圏協力強化へ覚書 北朝鮮サイバー対処で連携―日米韓外相",
+      "doc_id": "jiji-deef2314bf3c3c43",
+      "title": "エボラ熱、死者５０００人超に コンゴ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100241&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026103100404&g=int"
     },
     {
-      "doc_id": "jiji-63cd450ae165fae4",
-      "title": "複雑な攻撃、追跡困難 資産不正流出でバイナンス",
+      "doc_id": "jiji-8b26e8095fae3200",
+      "title": "青柳善の輔が準決勝進出 世界レスリング",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100261&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103100403&g=spo"
     },
     {
-      "doc_id": "jiji-35fe4d2fa9f70614",
-      "title": "最後の週末は激戦州へ 中間選挙の遊説巡り二転三転―トランプ米大統領",
+      "doc_id": "jiji-3efb5afabfe11498",
+      "title": "Ｆ東京が暫定首位 Ｊ１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100208&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103100362&g=spo"
     },
     {
-      "doc_id": "jiji-98bc142c4b095ae3",
-      "title": "イスラエル総選挙で与党陣営、過半数割れ 首相「アラブ系政党が票買収」",
+      "doc_id": "jiji-6377cc2bf422f19e",
+      "title": "ＦＸ、一晩で損失４３０万円 「何が起きたのか明らかに」―ＧＭＯ利用者に募る不安",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000301&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103100292&g=soc"
     },
     {
-      "doc_id": "jiji-2412d093c4d61a6e",
-      "title": "エヌビディアに中国女性スパイか ＣＥＯと親密な関係―米報道",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103000212&g=int"
-    },
-    {
-      "doc_id": "jiji-fb1e2c69101fccaa",
-      "title": "選手層の厚さ歴然 次世代担う選手台頭―プロ野球・ソフトバンク、盤石Ｖ２（下）",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103001131&g=spo"
-    },
-    {
-      "doc_id": "jiji-4127615b3adeb6a0",
-      "title": "ロシア邦人拘束巡り謝意 茂木外相、米国務長官と会談",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100221&g=pol"
-    },
-    {
-      "doc_id": "jiji-80e9fe349a0102a3",
-      "title": "政府、デフレ脱却宣言に慎重 野党はインフレ抑制要求",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103001121&g=pol"
-    },
-    {
-      "doc_id": "nhk-db9c14f97a3efd8c",
-      "title": "北海道 JR宗谷線特急とヒグマ衝突で脱線 終日一部運転見合わせ",
+      "doc_id": "nhk-c31af12d0c7bf7ed",
+      "title": "GMO 子会社がシステムぜい弱性を2年前に指摘 来週2日会見へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69024"
     },
     {
       "doc_id": "nhk-8e9f35ee6f33c25e",
-      "title": "“捕獲後に山に放した個体”とみられるクマを捕獲 神奈川 秦野",
+      "title": "“捕獲後に山に放した個体” クマ再出没し駆除 神奈川 秦野",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261031de68899"
     },
     {
-      "doc_id": "nhk-d43da2debab71507",
-      "title": "NBA 八村塁 2試合ぶりに先発し12得点 チームは4連敗",
+      "doc_id": "nhk-25cdd63e531cdaec",
+      "title": "スペイン高速列車事故 “後続列車に停止措置とらず 信号も青”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68904"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821"
     },
     {
-      "doc_id": "nhk-f08623d39a6e0910",
-      "title": "日米韓外相“3か国の結束は地域の要” 協力のすそ野拡大へ",
+      "doc_id": "nhk-db9c14f97a3efd8c",
+      "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 あすも運転見合わせ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68857"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820"
     },
     {
-      "doc_id": "nhk-c8f4fb52eec502ea",
-      "title": "トランプ政権 ウクライナに迎撃ミサイルなど売却へ 21億ドル",
+      "doc_id": "nhk-0878c7acb52b6599",
+      "title": "ハロウィーン 各地で催し 渋谷や新宿ではトラブル防ごうと対策",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68846"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68859"
     },
     {
-      "doc_id": "nhk-88de29211752bb0a",
-      "title": "中国 製造業の景況感指数PMI 「50」下回る 内需の弱さを反映",
+      "doc_id": "nhk-e51f8069ef9d650f",
+      "title": "米中間選挙 最終盤 トランプ大統領 遊説中止発表も一転開催へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68892"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68862"
     },
     {
-      "doc_id": "nhk-084e9712564ec8d2",
-      "title": "5年ぶり日ロ外相会談 茂木外相 北海道新聞記者の即時解放要請",
+      "doc_id": "nhk-375c942e1d7f58ba",
+      "title": "NTTデータ委託先に不正アクセス 社債購入者情報漏えいの可能性",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68824"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68967"
+    },
+    {
+      "doc_id": "itmedia-7ed8ef091933886b",
+      "title": "総務省、GMO攻撃者サイトの「ブロッキング」を通信各社に要請 報道",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002765/"
     },
     {
       "doc_id": "itmedia-3c91c466fc3560a5",
@@ -182,12 +188,6 @@
       "title": "「ITノウハウ持つ人材少なく」 PHP脆弱性問題、31市町村でサイト一時停止継続",
       "source": "ITmedia",
       "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002766/"
-    },
-    {
-      "doc_id": "itmedia-7ed8ef091933886b",
-      "title": "総務省、GMO攻撃者サイトの「ブロッキング」を通信各社に要請 報道",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002765/"
     },
     {
       "doc_id": "itmedia-3ec2a1bd38bbedf7",
@@ -232,6 +232,24 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002684/"
     },
     {
+      "doc_id": "nazology-a8fe3d512018cd38",
+      "title": "脳は1秒に15回、2つの現実を切り替えている可能性",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204143"
+    },
+    {
+      "doc_id": "nazology-545cda571a1385e0",
+      "title": "「お酒は少しなら体にいい」は裏付けなし、どの量でも健康を守る効果ははっきりせず",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204179"
+    },
+    {
+      "doc_id": "nazology-0c44cc90d0d00a84",
+      "title": "マラソン走者の「体内の大麻」はシャワー後も高いままだった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204228"
+    },
+    {
       "doc_id": "nazology-2daf2dfd7b05786e",
       "title": "2階建ての家ほどの巨大クラゲに幼魚の群れが身を寄せていた",
       "source": "ナゾロジー",
@@ -272,24 +290,6 @@
       "title": "映画「アルマゲドン」の核作戦、小惑星の98%を損傷させると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203953"
-    },
-    {
-      "doc_id": "nazology-d34e35ad0f89c0d3",
-      "title": "たんぱく質を健康・環境・値段で総合評価すると1位は「豆腐」だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203911"
-    },
-    {
-      "doc_id": "nazology-601a3e00c5396068",
-      "title": "蜂蜜とプロポリスが門番、ミツバチの巣は「小さな城」だったと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203977"
-    },
-    {
-      "doc_id": "nazology-aaa8562c32ececed",
-      "title": "AIが作ったタンパク質に「透かし」を入れる技術、狙いは生物兵器への悪用の抑止",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204125"
     }
   ]
 }
