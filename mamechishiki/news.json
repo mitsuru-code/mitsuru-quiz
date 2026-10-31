@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-31T12:38:11+00:00",
-  "now_ms": 1793450291890,
+  "fetched_at": "2026-10-31T17:46:11+00:00",
+  "now_ms": 1793468771634,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,10 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-7f1156386d791de3",
-      "title": "高市氏ら首相の予算委答弁数 比較",
+      "doc_id": "yahoo-b01f36cdf626ac54",
+      "title": "ウが製油所攻撃再開 ロシア副首相",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600843"
-    },
-    {
-      "doc_id": "yahoo-b663cd44444efb3b",
-      "title": "スペイン運輸相 追突列車は青信号",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600855"
+      "link": "https://news.yahoo.co.jp/pickup/6600866"
     },
     {
       "doc_id": "yahoo-03626db91ba6284b",
@@ -28,22 +22,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6600861"
     },
     {
-      "doc_id": "yahoo-7d63ba849554b621",
-      "title": "屋根の修理中に転落か 男性死亡",
+      "doc_id": "yahoo-af9f0c6955f4ab37",
+      "title": "GMOが11/2に記者会見 社長出席",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600858"
+      "link": "https://news.yahoo.co.jp/pickup/6600879"
     },
     {
-      "doc_id": "yahoo-cbcf6e453e0b6c43",
-      "title": "ブラックフライデー 先行セールも",
+      "doc_id": "yahoo-db4bc0423ba84ee6",
+      "title": "クラブツーリズム 432万件流出か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600845"
+      "link": "https://news.yahoo.co.jp/pickup/6600875"
     },
     {
-      "doc_id": "yahoo-1a4166855fc56208",
-      "title": "巨大キノコの新種「Dレックス」",
+      "doc_id": "yahoo-d8c5c8dd9efbb526",
+      "title": "古着「オールドユニクロ」とは",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600862"
+      "link": "https://news.yahoo.co.jp/pickup/6600869"
+    },
+    {
+      "doc_id": "yahoo-74b675c6231882eb",
+      "title": "路上プロレス一転中止 天心が説明",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6600876"
     },
     {
       "doc_id": "yahoo-5fe6404fd2656ae0",
@@ -58,58 +58,22 @@
       "link": "https://news.yahoo.co.jp/pickup/6600863"
     },
     {
-      "doc_id": "jiji-4fa8696d02a62114",
-      "title": "電気・ガス代支援、１２月再開 ガソリン補助は段階的縮小―高市首相表明",
+      "doc_id": "jiji-68cf0b94c7f5d214",
+      "title": "ＧＭＯ、２日に会見 熊谷社長ら出席、不正アクセスで",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026102901064&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026103100449&g=soc"
     },
     {
-      "doc_id": "jiji-764a0d379676466b",
-      "title": "マスカレードボール２．４倍 競馬天皇賞・秋",
+      "doc_id": "jiji-2e88fc4b9bd98c78",
+      "title": "所得に「満足」、３５．７％ 賃上げで改善も、低水準続く―内閣府調査",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100363&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026103000928&g=pol"
     },
     {
-      "doc_id": "jiji-71beb604b06b1332",
-      "title": "身代金、４割に追加要求 急増するランサム攻撃―専門家「支払いは解決ではない」・不正アクセス",
+      "doc_id": "jiji-e35e9c70d13cfba4",
+      "title": "不正アクセスで会員情報４３２万件流出 国籍や緊急連絡先などか―クラブツーリズム",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100100&g=soc"
-    },
-    {
-      "doc_id": "jiji-8a5fa659b943dad9",
-      "title": "日本女子、ウェールズに連敗 ラグビー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100384&g=spo"
-    },
-    {
-      "doc_id": "jiji-a5bb48dd0d31e676",
-      "title": "米兵を酒気帯び容疑で逮捕 未明の外出制限中―沖縄県警",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100378&g=soc"
-    },
-    {
-      "doc_id": "jiji-cf0e182abcbaeafa",
-      "title": "米ナスダック、３％急落 ハイテク株売り、一時１０００ポイント超安",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100132&g=int"
-    },
-    {
-      "doc_id": "jiji-deef2314bf3c3c43",
-      "title": "エボラ熱、死者５０００人超に コンゴ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100404&g=int"
-    },
-    {
-      "doc_id": "jiji-8b26e8095fae3200",
-      "title": "青柳善の輔が準決勝進出 世界レスリング",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100403&g=spo"
-    },
-    {
-      "doc_id": "jiji-3efb5afabfe11498",
-      "title": "Ｆ東京が暫定首位 Ｊ１",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100362&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026103100452&g=soc"
     },
     {
       "doc_id": "jiji-6377cc2bf422f19e",
@@ -118,8 +82,50 @@
       "link": "https://www.jiji.com/jc/article?k=2026103100292&g=soc"
     },
     {
+      "doc_id": "jiji-5a568fef0202ce02",
+      "title": "シナイジェルとフェルナンデスで決勝 東レテニス",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100422&g=spo"
+    },
+    {
+      "doc_id": "jiji-36d6adda5e49ee1f",
+      "title": "米長官、Ｇ２０結束呼び掛け ロシア参加に欧州反発―外相会合",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100159&g=pol"
+    },
+    {
+      "doc_id": "jiji-12dea3754b687a7c",
+      "title": "北極圏協力強化へ覚書 北朝鮮サイバー対処で連携―日米韓外相",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100241&g=pol"
+    },
+    {
+      "doc_id": "jiji-cf0e182abcbaeafa",
+      "title": "米ナスダック、３％急落 ハイテク株売り、一時１０００ポイント超安",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100132&g=int"
+    },
+    {
+      "doc_id": "jiji-8edba590c14217e1",
+      "title": "米の攻撃再開けん制 イラン最高指導者",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100421&g=int"
+    },
+    {
+      "doc_id": "jiji-deef2314bf3c3c43",
+      "title": "エボラ熱、死者５０００人超に コンゴ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100404&g=int"
+    },
+    {
+      "doc_id": "nhk-997f6141a5cb689d",
+      "title": "GMO 被害者情報集める不審サイト ハッカー側と関連か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69043"
+    },
+    {
       "doc_id": "nhk-c31af12d0c7bf7ed",
-      "title": "GMO 子会社がシステムぜい弱性を2年前に指摘 来週2日会見へ",
+      "title": "GMO 子会社がシステムぜい弱性を2年前に指摘 来週2日に会見へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261031de69024"
     },
@@ -130,34 +136,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261031de68899"
     },
     {
-      "doc_id": "nhk-25cdd63e531cdaec",
-      "title": "スペイン高速列車事故 “後続列車に停止措置とらず 信号も青”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821"
-    },
-    {
-      "doc_id": "nhk-db9c14f97a3efd8c",
-      "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 あすも運転見合わせ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820"
-    },
-    {
-      "doc_id": "nhk-0878c7acb52b6599",
-      "title": "ハロウィーン 各地で催し 渋谷や新宿ではトラブル防ごうと対策",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68859"
-    },
-    {
       "doc_id": "nhk-e51f8069ef9d650f",
       "title": "米中間選挙 最終盤 トランプ大統領 遊説中止発表も一転開催へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261031de68862"
     },
     {
-      "doc_id": "nhk-375c942e1d7f58ba",
-      "title": "NTTデータ委託先に不正アクセス 社債購入者情報漏えいの可能性",
+      "doc_id": "nhk-db9c14f97a3efd8c",
+      "title": "北海道 JR宗谷線特急 ヒグマと衝突で脱線 1日も運転見合わせ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68967"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68820"
+    },
+    {
+      "doc_id": "nhk-25cdd63e531cdaec",
+      "title": "スペイン高速列車事故 “後続列車に停止措置とらず 信号も青”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de68821"
+    },
+    {
+      "doc_id": "nhk-7651d624a40a303b",
+      "title": "クラブツーリズム 不正アクセスで約432万件の個人情報漏えいか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69034"
     },
     {
       "doc_id": "itmedia-7ed8ef091933886b",
