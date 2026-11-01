@@ -1,61 +1,67 @@
 {
-  "fetched_at": "2026-11-01T07:37:24+00:00",
-  "now_ms": 1793518644616,
+  "fetched_at": "2026-11-01T15:13:44+00:00",
+  "now_ms": 1793546024785,
   "counts": {
     "Yahoo!ニュース": 8,
-    "時事ドットコム": 10,
+    "時事ドットコム": 9,
     "NHK": 7,
     "ITmedia": 12,
     "ナゾロジー": 10
   },
   "candidates": [
     {
-      "doc_id": "yahoo-72746f553cc08c62",
-      "title": "米国産ジャガイモ 国会論点に浮上",
+      "doc_id": "yahoo-e78ebbae34291c4d",
+      "title": "農相政治団体 寄付3000万円不記載",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600947"
+      "link": "https://news.yahoo.co.jp/pickup/6601002"
     },
     {
-      "doc_id": "yahoo-c37bb30329177142",
-      "title": "台風 小笠原諸島は影響長引く恐れ",
+      "doc_id": "yahoo-c6cff0ef9f03300c",
+      "title": "GMO攻撃 北朝鮮系のハッカーか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600944"
+      "link": "https://news.yahoo.co.jp/pickup/6600991"
     },
     {
-      "doc_id": "yahoo-9fe7511feba48959",
-      "title": "個人情報は必要? 企業の漏洩対策",
+      "doc_id": "yahoo-3602619256a9c701",
+      "title": "望月衣塑子記者の対談本 回収へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600932"
+      "link": "https://news.yahoo.co.jp/pickup/6600996"
     },
     {
-      "doc_id": "yahoo-afacf304e4a403cf",
-      "title": "アマゾン奥地で相次ぐ 子の異変",
+      "doc_id": "yahoo-a701ced71a03af70",
+      "title": "生命起源巡る理論 定説覆る可能性",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600956"
+      "link": "https://news.yahoo.co.jp/pickup/6600999"
     },
     {
-      "doc_id": "yahoo-88dbb62732142f7b",
-      "title": "「ドパ親」に頭を抱える家族 背景",
+      "doc_id": "yahoo-2f23714c7166ac22",
+      "title": "38歳で余命宣告 子への優しいうそ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600953"
+      "link": "https://news.yahoo.co.jp/pickup/6601003"
     },
     {
-      "doc_id": "yahoo-2a6532213a66af4e",
-      "title": "天皇賞秋 ダノンデサイルがV",
+      "doc_id": "yahoo-2224ca30a65c1577",
+      "title": "「家族系」配信 相次ぐ収益化停止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600957"
+      "link": "https://news.yahoo.co.jp/pickup/6600981"
     },
     {
-      "doc_id": "yahoo-f48f507950578ea3",
-      "title": "真剣佑が改名「前田」は父の名字",
+      "doc_id": "yahoo-ba01f6b07694efe2",
+      "title": "事務所許可なくライブ なぜ問題視",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600954"
+      "link": "https://news.yahoo.co.jp/pickup/6600995"
     },
     {
-      "doc_id": "yahoo-e63148d1e479c95a",
-      "title": "芦田愛菜ドラマ Netflixで快挙",
+      "doc_id": "yahoo-c6b69200426a34b9",
+      "title": "「ぼざろ」新作映画制作 来年公開",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600941"
+      "link": "https://news.yahoo.co.jp/pickup/6601000"
+    },
+    {
+      "doc_id": "jiji-439a117a591e10c5",
+      "title": "トランプ大統領「民主党圧倒すべき」 最後の週末、支持呼び掛け―米中間選挙、３日投開票",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100269&g=int"
     },
     {
       "doc_id": "jiji-7375f0f159537332",
@@ -64,64 +70,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026103100299&g=int"
     },
     {
-      "doc_id": "jiji-034d3164022cae0b",
-      "title": "日本の新幹線「模倣困難な偉業」 列車事故と対比―スペイン公共放送",
+      "doc_id": "jiji-05b3b882e750c319",
+      "title": "町田、引き分けて３位 Ｊ１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100135&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110100356&g=spo"
     },
     {
-      "doc_id": "jiji-b69f5f187a4fb9f7",
-      "title": "消費減税、首相出席が焦点 与党、６日衆院通過目指す",
+      "doc_id": "jiji-9901382fb0909901",
+      "title": "東京Ｖが競り勝つ Ｊリーグ・長崎１―２東京Ｖ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100286&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110100313&g=spo"
     },
     {
-      "doc_id": "jiji-561d354886bf27c2",
-      "title": "野党反転、カギは選挙区調整 「大きな固まり」困難―国学院大・山本健太郎教授に聞く",
+      "doc_id": "jiji-70dec025edcef9a0",
+      "title": "三菱重工浦和が３連勝 ＷＥリーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100289&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110100315&g=spo"
     },
     {
-      "doc_id": "jiji-b268ce3ac7560a47",
-      "title": "米ロ首脳会談を模索 １１月の中国開催ＡＰＥＣで",
+      "doc_id": "jiji-c1ed71fa5336b364",
+      "title": "山下美夢有が今季３勝目 米女子ゴルフ・メイバンク選手権",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100217&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110100301&g=spo"
     },
     {
-      "doc_id": "jiji-3bb89d7f85ae203b",
-      "title": "１兆円不正流出「北朝鮮が関与」 バイナンス暗号資産が資金洗浄―ＦＢＩ",
+      "doc_id": "jiji-a0c0ca974ee3be7a",
+      "title": "身構える株式市場 米中間選挙後、期待と懸念交錯",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100186&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026103100302&g=pol"
     },
     {
-      "doc_id": "jiji-6baaab597f45c9b4",
-      "title": "ホルムズ航行回復へ連携 日サウジ外相が会談",
+      "doc_id": "jiji-c7a04b2b75800926",
+      "title": "ＩＮＡＣ神戸が白星発進 女子ＡＣＬサッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100199&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110100419&g=spo"
     },
     {
-      "doc_id": "jiji-bcc73af876ab5158",
-      "title": "結束強調も足並み乱れ Ｇ２０外相会合閉幕",
+      "doc_id": "jiji-4b47e0a8f1ad837a",
+      "title": "桂川有人が国内２年ぶりＶ 欧州、日本ツアー２週連続制覇―東海クラシックゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100170&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110100282&g=spo"
     },
     {
-      "doc_id": "jiji-170d36128b964f43",
-      "title": "再犯防止に効果と限界 ストーカーにＧＰＳ導入の韓国―行為抑制に課題も",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100323&g=int"
-    },
-    {
-      "doc_id": "jiji-9b70e112df143d03",
-      "title": "民主党の将来担うオソフ氏 ２８年大統領選候補の呼び声―共和はトランプ氏不人気響く・米ジョージア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100329&g=int"
-    },
-    {
-      "doc_id": "nhk-88018936f289dd7c",
-      "title": "全日本大学駅伝は早稲田大が16年ぶり優勝 今シーズン2冠",
+      "doc_id": "nhk-3cf40023745691e1",
+      "title": "GMO傘下 顧客情報漏えい 9年近く外部から取得可能な状態",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69096"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69281"
+    },
+    {
+      "doc_id": "nhk-fd8136e5c1626c16",
+      "title": "あすにかけて広い範囲で雨 北海道は積雪のおそれも 注意を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69264"
+    },
+    {
+      "doc_id": "nhk-02f53dc4f9af2d12",
+      "title": "茨城 鹿嶋 男性4人が海に転落 1人死亡 1人不明",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69207"
     },
     {
       "doc_id": "nhk-217719715d7733b7",
@@ -130,34 +136,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261101de69105"
     },
     {
-      "doc_id": "nhk-800e02850c146145",
-      "title": "フィギュアGPシリーズ 島田麻央が今季世界最高得点で首位発進",
+      "doc_id": "nhk-d83e3b4e7f9c1597",
+      "title": "ヒグマ衝突で特急脱線のJR宗谷線 11月3日に運転再開へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69087"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69260"
     },
     {
-      "doc_id": "nhk-45a2507d70f61ad0",
-      "title": "自民 宮沢前税調会長“消費税減税より給付”も法案には賛成",
+      "doc_id": "nhk-503f7280d91f1c6c",
+      "title": "フェンシング全日本選手権 男子フルーレ 飯村一輝が初優勝",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69134"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69285"
     },
     {
-      "doc_id": "nhk-b56bd8bbf7a9ddc5",
-      "title": "アメリカ中間選挙の期日前投票 すでに前回上回る ローマ教皇も",
+      "doc_id": "nhk-88018936f289dd7c",
+      "title": "全日本大学駅伝は早稲田大が16年ぶり優勝 今シーズン2冠",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69054"
-    },
-    {
-      "doc_id": "nhk-66b441b08b2527d4",
-      "title": "EEZ内で活動の中国の海洋調査船が海域離れる",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69168"
-    },
-    {
-      "doc_id": "nhk-57dfba9c452fa6ff",
-      "title": "暗号資産大手バイナンスへのサイバー攻撃 FBI“北朝鮮が関与”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69102"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69096"
     },
     {
       "doc_id": "itmedia-c999b40c8688b250",
@@ -232,6 +226,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002749/"
     },
     {
+      "doc_id": "nazology-ba07f61055229489",
+      "title": "多数決の堂々めぐりは、表も裏もない「壺」の形をしていたと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204292"
+    },
+    {
+      "doc_id": "nazology-32f0f815ef60a891",
+      "title": "天の川に20年も強い電波を出し続ける正体不明の天体を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204308"
+    },
+    {
       "doc_id": "nazology-8db2135e7f98b185",
       "title": "私たちの血が赤いのは鉄のおかげ、タコやカニは銅で青くなる",
       "source": "ナゾロジー",
@@ -278,18 +284,6 @@
       "title": "2階建ての家ほどの巨大クラゲに幼魚の群れが身を寄せていた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/204223"
-    },
-    {
-      "doc_id": "nazology-670a292aa557203c",
-      "title": "金色の瞳に走る黒い線が、カエルの「指紋」だったと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203904"
-    },
-    {
-      "doc_id": "nazology-01f4e351fe99ab6f",
-      "title": "光を当てると「藻」で動くロボットの腕が金属の玉をつかむ",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/203934"
     }
   ]
 }
