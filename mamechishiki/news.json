@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-01T01:13:52+00:00",
-  "now_ms": 1793495632039,
+  "fetched_at": "2026-11-01T07:37:24+00:00",
+  "now_ms": 1793518644616,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,82 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-47bc9ffb2949c521",
-      "title": "米大統領 造反・不祥事議員を称賛",
+      "doc_id": "yahoo-72746f553cc08c62",
+      "title": "米国産ジャガイモ 国会論点に浮上",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600898"
+      "link": "https://news.yahoo.co.jp/pickup/6600947"
     },
     {
-      "doc_id": "yahoo-b40e40bc4119d0a8",
-      "title": "GMO攻撃者 被害者サイト開設か",
+      "doc_id": "yahoo-c37bb30329177142",
+      "title": "台風 小笠原諸島は影響長引く恐れ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600897"
+      "link": "https://news.yahoo.co.jp/pickup/6600944"
     },
     {
-      "doc_id": "yahoo-9d88ca95b1e9abe5",
-      "title": "モスクワでテロ計画 米が露に警告",
+      "doc_id": "yahoo-9fe7511feba48959",
+      "title": "個人情報は必要? 企業の漏洩対策",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600883"
+      "link": "https://news.yahoo.co.jp/pickup/6600932"
     },
     {
-      "doc_id": "yahoo-eee603ba58b28311",
-      "title": "学校で突然言葉出ず 悩んだ吃音",
+      "doc_id": "yahoo-afacf304e4a403cf",
+      "title": "アマゾン奥地で相次ぐ 子の異変",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600899"
+      "link": "https://news.yahoo.co.jp/pickup/6600956"
     },
     {
-      "doc_id": "yahoo-2052b09833f0d71d",
-      "title": "ハロウィン 渋谷に集まった人の声",
+      "doc_id": "yahoo-88dbb62732142f7b",
+      "title": "「ドパ親」に頭を抱える家族 背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600887"
+      "link": "https://news.yahoo.co.jp/pickup/6600953"
     },
     {
-      "doc_id": "yahoo-4037d78505cfd295",
-      "title": "オリ 三木・前楽天監督がHC就任",
+      "doc_id": "yahoo-2a6532213a66af4e",
+      "title": "天皇賞秋 ダノンデサイルがV",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600909"
+      "link": "https://news.yahoo.co.jp/pickup/6600957"
     },
     {
-      "doc_id": "yahoo-28b0748389a51c25",
-      "title": "仲野太賀 大河撮了「奇跡の連続」",
+      "doc_id": "yahoo-f48f507950578ea3",
+      "title": "真剣佑が改名「前田」は父の名字",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600910"
+      "link": "https://news.yahoo.co.jp/pickup/6600954"
     },
     {
-      "doc_id": "yahoo-13d47014d044fda3",
-      "title": "新田真剣佑が改名 前田真剣佑に",
+      "doc_id": "yahoo-e63148d1e479c95a",
+      "title": "芦田愛菜ドラマ Netflixで快挙",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600884"
-    },
-    {
-      "doc_id": "jiji-b69f5f187a4fb9f7",
-      "title": "消費減税、首相出席が焦点 与党、６日衆院通過目指す",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100286&g=pol"
-    },
-    {
-      "doc_id": "jiji-9b70e112df143d03",
-      "title": "民主党の将来担うオソフ氏 ２８年大統領選候補の呼び声―共和はトランプ氏不人気響く・米ジョージア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100329&g=int"
-    },
-    {
-      "doc_id": "jiji-034d3164022cae0b",
-      "title": "日本の新幹線「模倣困難な偉業」 列車事故と対比―スペイン公共放送",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100135&g=int"
-    },
-    {
-      "doc_id": "jiji-374abb78231c4dd9",
-      "title": "緊急事態条項、災害対応に必要か 迅速な対応と権力抑制、両立は―創設に賛否・憲法公布８０年",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100284&g=soc"
-    },
-    {
-      "doc_id": "jiji-bcc73af876ab5158",
-      "title": "結束強調も足並み乱れ Ｇ２０外相会合閉幕",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100170&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6600941"
     },
     {
       "doc_id": "jiji-7375f0f159537332",
@@ -94,34 +64,82 @@
       "link": "https://www.jiji.com/jc/article?k=2026103100299&g=int"
     },
     {
+      "doc_id": "jiji-034d3164022cae0b",
+      "title": "日本の新幹線「模倣困難な偉業」 列車事故と対比―スペイン公共放送",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100135&g=int"
+    },
+    {
+      "doc_id": "jiji-b69f5f187a4fb9f7",
+      "title": "消費減税、首相出席が焦点 与党、６日衆院通過目指す",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100286&g=pol"
+    },
+    {
       "doc_id": "jiji-561d354886bf27c2",
       "title": "野党反転、カギは選挙区調整 「大きな固まり」困難―国学院大・山本健太郎教授に聞く",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026103100289&g=pol"
     },
     {
-      "doc_id": "jiji-aa3700d04f0c17f2",
-      "title": "茂木氏、ロ外相と「率直に意見交換」 記者拘束巡り、詳細明かさず",
+      "doc_id": "jiji-b268ce3ac7560a47",
+      "title": "米ロ首脳会談を模索 １１月の中国開催ＡＰＥＣで",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100178&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110100217&g=int"
     },
     {
-      "doc_id": "jiji-a0c0ca974ee3be7a",
-      "title": "身構える株式市場 米中間選挙後、期待と懸念交錯",
+      "doc_id": "jiji-3bb89d7f85ae203b",
+      "title": "１兆円不正流出「北朝鮮が関与」 バイナンス暗号資産が資金洗浄―ＦＢＩ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100302&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110100186&g=int"
     },
     {
-      "doc_id": "jiji-750d6e554f85e3c6",
-      "title": "気候変動に負けないワインを 「再生型農業」に活路―記録的熱波で生産減のフランス",
+      "doc_id": "jiji-6baaab597f45c9b4",
+      "title": "ホルムズ航行回復へ連携 日サウジ外相が会談",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100297&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110100199&g=pol"
     },
     {
-      "doc_id": "nhk-8a8b66495e2142a7",
-      "title": "GMO 子会社が2年前にシステムのぜい弱性を指摘 社長あす会見へ",
+      "doc_id": "jiji-bcc73af876ab5158",
+      "title": "結束強調も足並み乱れ Ｇ２０外相会合閉幕",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100170&g=int"
+    },
+    {
+      "doc_id": "jiji-170d36128b964f43",
+      "title": "再犯防止に効果と限界 ストーカーにＧＰＳ導入の韓国―行為抑制に課題も",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100323&g=int"
+    },
+    {
+      "doc_id": "jiji-9b70e112df143d03",
+      "title": "民主党の将来担うオソフ氏 ２８年大統領選候補の呼び声―共和はトランプ氏不人気響く・米ジョージア",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100329&g=int"
+    },
+    {
+      "doc_id": "nhk-88018936f289dd7c",
+      "title": "全日本大学駅伝は早稲田大が16年ぶり優勝 今シーズン2冠",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69037"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69096"
+    },
+    {
+      "doc_id": "nhk-217719715d7733b7",
+      "title": "紅葉の名所「鳴子峡」近くで車が歩行者はねる 5人けが 宮城",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69105"
+    },
+    {
+      "doc_id": "nhk-800e02850c146145",
+      "title": "フィギュアGPシリーズ 島田麻央が今季世界最高得点で首位発進",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69087"
+    },
+    {
+      "doc_id": "nhk-45a2507d70f61ad0",
+      "title": "自民 宮沢前税調会長“消費税減税より給付”も法案には賛成",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69134"
     },
     {
       "doc_id": "nhk-b56bd8bbf7a9ddc5",
@@ -130,34 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261101de69054"
     },
     {
-      "doc_id": "nhk-997f6141a5cb689d",
-      "title": "GMOの被害者情報集める不審サイト ハッカー側と関連か",
+      "doc_id": "nhk-66b441b08b2527d4",
+      "title": "EEZ内で活動の中国の海洋調査船が海域離れる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69043"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69168"
     },
     {
-      "doc_id": "nhk-c5cd1cb7b9da12fe",
-      "title": "クアッド外相 中国念頭に経済的威圧へ懸念共有 首脳会合へ連携",
+      "doc_id": "nhk-57dfba9c452fa6ff",
+      "title": "暗号資産大手バイナンスへのサイバー攻撃 FBI“北朝鮮が関与”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261031de69039"
-    },
-    {
-      "doc_id": "nhk-2656b5db4805250a",
-      "title": "ハロウィーン 東京 渋谷は混雑も“大きなトラブルなし”警視庁",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69057"
-    },
-    {
-      "doc_id": "nhk-291e177f40f89fe7",
-      "title": "【地震情報】福島県で震度3 津波の心配なし",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69068"
-    },
-    {
-      "doc_id": "nhk-d84b3c1477a32e69",
-      "title": "茂木外相 ロシア外相と率直な意見交換 記者解放へ働きかけ継続",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69063"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69102"
     },
     {
       "doc_id": "itmedia-c999b40c8688b250",
@@ -232,6 +232,24 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002749/"
     },
     {
+      "doc_id": "nazology-8db2135e7f98b185",
+      "title": "私たちの血が赤いのは鉄のおかげ、タコやカニは銅で青くなる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204391"
+    },
+    {
+      "doc_id": "nazology-d4a64b0b33709e86",
+      "title": "絶滅が心配された毒の霊長類、人の庭でグァバを食べる姿を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204445"
+    },
+    {
+      "doc_id": "nazology-05ba7da8b7d8733a",
+      "title": "ぜんそくの人はガスコンロを「電気」に替えると症状が和らぐ可能性",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204108"
+    },
+    {
       "doc_id": "nazology-4ddb69b224430d75",
       "title": "クモも眠ることを初確認、寝ている間に脚をピクピク丸めていた",
       "source": "ナゾロジー",
@@ -272,24 +290,6 @@
       "title": "光を当てると「藻」で動くロボットの腕が金属の玉をつかむ",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/203934"
-    },
-    {
-      "doc_id": "nazology-9af7bf307c2e231d",
-      "title": "家畜のウイルス「シャモンダ」に初めて人が感染",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204159"
-    },
-    {
-      "doc_id": "nazology-a9cc97a80c3b4ae1",
-      "title": "卵の中のヘビは圧倒的に「右巻き派」だった――なぜなのか？",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205279"
-    },
-    {
-      "doc_id": "nazology-b2088ad9cc9f8eb7",
-      "title": "洞窟に葬られた女性の周りに「ヒトの歯」226本が供えられていた――マヤ文明の驚くべき埋葬習慣",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205259"
     }
   ]
 }
