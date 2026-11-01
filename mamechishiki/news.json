@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-01T15:13:44+00:00",
-  "now_ms": 1793546024785,
+  "fetched_at": "2026-11-01T19:44:14+00:00",
+  "now_ms": 1793562254389,
   "counts": {
     "Yahoo!ニュース": 8,
-    "時事ドットコム": 9,
+    "時事ドットコム": 10,
     "NHK": 7,
     "ITmedia": 12,
     "ナゾロジー": 10
@@ -58,10 +58,52 @@
       "link": "https://news.yahoo.co.jp/pickup/6601000"
     },
     {
+      "doc_id": "jiji-0035bfc9087f8e67",
+      "title": "大気汚染で５２００人超死亡か ８、９月の森林火災―インドネシア",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100323&g=int"
+    },
+    {
       "doc_id": "jiji-439a117a591e10c5",
       "title": "トランプ大統領「民主党圧倒すべき」 最後の週末、支持呼び掛け―米中間選挙、３日投開票",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026110100269&g=int"
+    },
+    {
+      "doc_id": "jiji-1e635465164773ef",
+      "title": "防災庁２日発足 大規模災害時の司令塔―平時から復旧・復興まで対応",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100288&g=soc"
+    },
+    {
+      "doc_id": "jiji-034d3164022cae0b",
+      "title": "日本の新幹線「模倣困難な偉業」 列車事故と対比―スペイン公共放送",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100135&g=int"
+    },
+    {
+      "doc_id": "jiji-7382f71747697321",
+      "title": "ＪＰドラゴンのメンバー逮捕 フィリピン入管、幹部か",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100449&g=soc"
+    },
+    {
+      "doc_id": "jiji-ff22a6fbf0f30d0f",
+      "title": "元ＡＶ女優の邦人、薬物盛られたか ナイトクラブから緊急搬送―香港",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100400&g=int"
+    },
+    {
+      "doc_id": "jiji-890499973bb92e9c",
+      "title": "過去最多の１３人届け出 福岡市長選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100365&g=pol"
+    },
+    {
+      "doc_id": "jiji-02d7e09e52e02a2c",
+      "title": "知床半島に「海の電話」 沈没事故の遺族、受話器を握り 「静かに思いを寄せられる」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100290&g=soc"
     },
     {
       "doc_id": "jiji-7375f0f159537332",
@@ -70,88 +112,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026103100299&g=int"
     },
     {
-      "doc_id": "jiji-05b3b882e750c319",
-      "title": "町田、引き分けて３位 Ｊ１",
+      "doc_id": "jiji-b69f5f187a4fb9f7",
+      "title": "消費減税、首相出席が焦点 与党、６日衆院通過目指す",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100356&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026103100286&g=pol"
     },
     {
-      "doc_id": "jiji-9901382fb0909901",
-      "title": "東京Ｖが競り勝つ Ｊリーグ・長崎１―２東京Ｖ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100313&g=spo"
-    },
-    {
-      "doc_id": "jiji-70dec025edcef9a0",
-      "title": "三菱重工浦和が３連勝 ＷＥリーグ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100315&g=spo"
-    },
-    {
-      "doc_id": "jiji-c1ed71fa5336b364",
-      "title": "山下美夢有が今季３勝目 米女子ゴルフ・メイバンク選手権",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100301&g=spo"
-    },
-    {
-      "doc_id": "jiji-a0c0ca974ee3be7a",
-      "title": "身構える株式市場 米中間選挙後、期待と懸念交錯",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100302&g=pol"
-    },
-    {
-      "doc_id": "jiji-c7a04b2b75800926",
-      "title": "ＩＮＡＣ神戸が白星発進 女子ＡＣＬサッカー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100419&g=spo"
-    },
-    {
-      "doc_id": "jiji-4b47e0a8f1ad837a",
-      "title": "桂川有人が国内２年ぶりＶ 欧州、日本ツアー２週連続制覇―東海クラシックゴルフ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100282&g=spo"
-    },
-    {
-      "doc_id": "nhk-3cf40023745691e1",
-      "title": "GMO傘下 顧客情報漏えい 9年近く外部から取得可能な状態",
+      "doc_id": "nhk-7a25aee993f77b91",
+      "title": "GMOきょう会見 不安の抑止やぜい弱性指摘後の対応が焦点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69281"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69276"
+    },
+    {
+      "doc_id": "nhk-978b9bdcb978c4a2",
+      "title": "災害対策司令塔の「防災庁」が発足 体制の抜本的強化へ 政府",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69293"
+    },
+    {
+      "doc_id": "nhk-cff1ee63a7c3a56a",
+      "title": "消費税減税法案 与党“採決に向け協議を”野党“首相出席を”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69291"
+    },
+    {
+      "doc_id": "nhk-4408af6f3d0ab7d8",
+      "title": "ドイツ全土のデモ 暴徒化した集団が店襲撃 当局が会見",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69321"
+    },
+    {
+      "doc_id": "nhk-5c1d4c71f41bbbff",
+      "title": "ウクライナ局地的な停戦で住民退避 攻撃の応酬続く",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69318"
     },
     {
       "doc_id": "nhk-fd8136e5c1626c16",
-      "title": "あすにかけて広い範囲で雨 北海道は積雪のおそれも 注意を",
+      "title": "2日にかけて広い範囲で雨 北海道は積雪のおそれも 注意を",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261101de69264"
     },
     {
-      "doc_id": "nhk-02f53dc4f9af2d12",
-      "title": "茨城 鹿嶋 男性4人が海に転落 1人死亡 1人不明",
+      "doc_id": "nhk-58488a341d0bc4f8",
+      "title": "ゆうちょ銀行の貯金利子上限 撤廃めぐる議論進む",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69207"
-    },
-    {
-      "doc_id": "nhk-217719715d7733b7",
-      "title": "紅葉の名所「鳴子峡」近くで車が歩行者はねる 5人けが 宮城",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69105"
-    },
-    {
-      "doc_id": "nhk-d83e3b4e7f9c1597",
-      "title": "ヒグマ衝突で特急脱線のJR宗谷線 11月3日に運転再開へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69260"
-    },
-    {
-      "doc_id": "nhk-503f7280d91f1c6c",
-      "title": "フェンシング全日本選手権 男子フルーレ 飯村一輝が初優勝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69285"
-    },
-    {
-      "doc_id": "nhk-88018936f289dd7c",
-      "title": "全日本大学駅伝は早稲田大が16年ぶり優勝 今シーズン2冠",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69096"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69279"
     },
     {
       "doc_id": "itmedia-c999b40c8688b250",
