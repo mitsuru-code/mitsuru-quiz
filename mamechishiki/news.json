@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-01T19:44:14+00:00",
-  "now_ms": 1793562254389,
+  "fetched_at": "2026-11-01T23:38:24+00:00",
+  "now_ms": 1793576304535,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-e78ebbae34291c4d",
-      "title": "農相政治団体 寄付3000万円不記載",
+      "doc_id": "yahoo-9747d05be36dd75e",
+      "title": "防災庁発足 防災・災害時の司令塔",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601002"
+      "link": "https://news.yahoo.co.jp/pickup/6601011"
     },
     {
-      "doc_id": "yahoo-c6cff0ef9f03300c",
-      "title": "GMO攻撃 北朝鮮系のハッカーか",
+      "doc_id": "yahoo-13907ef219671544",
+      "title": "ウクライナ南部の局地停戦が終了",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600991"
+      "link": "https://news.yahoo.co.jp/pickup/6601014"
     },
     {
-      "doc_id": "yahoo-3602619256a9c701",
-      "title": "望月衣塑子記者の対談本 回収へ",
+      "doc_id": "yahoo-2aacd0fc03922baf",
+      "title": "内閣の支持率64.9%に上昇 JNN",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600996"
+      "link": "https://news.yahoo.co.jp/pickup/6601017"
     },
     {
-      "doc_id": "yahoo-a701ced71a03af70",
-      "title": "生命起源巡る理論 定説覆る可能性",
+      "doc_id": "yahoo-02390284eb3568c5",
+      "title": "米でジェット機墜落 9人全員死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600999"
+      "link": "https://news.yahoo.co.jp/pickup/6601012"
     },
     {
-      "doc_id": "yahoo-2f23714c7166ac22",
-      "title": "38歳で余命宣告 子への優しいうそ",
+      "doc_id": "yahoo-e876678ca0a1c48c",
+      "title": "金型の無償保管 公取委勧告が急増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601003"
+      "link": "https://news.yahoo.co.jp/pickup/6601015"
     },
     {
-      "doc_id": "yahoo-2224ca30a65c1577",
-      "title": "「家族系」配信 相次ぐ収益化停止",
+      "doc_id": "yahoo-8bbf12569aaf021b",
+      "title": "早期流産で仕事中涙 有休取り崩し",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600981"
+      "link": "https://news.yahoo.co.jp/pickup/6601009"
     },
     {
-      "doc_id": "yahoo-ba01f6b07694efe2",
-      "title": "事務所許可なくライブ なぜ問題視",
+      "doc_id": "yahoo-d3c76142f84cb87b",
+      "title": "島田麻央 GPデビュー戦で優勝",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6600995"
+      "link": "https://news.yahoo.co.jp/pickup/6601010"
     },
     {
-      "doc_id": "yahoo-c6b69200426a34b9",
-      "title": "「ぼざろ」新作映画制作 来年公開",
+      "doc_id": "yahoo-9d9940db26dbf753",
+      "title": "芦田愛菜ドラマ ネトフリ快挙背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601000"
+      "link": "https://news.yahoo.co.jp/pickup/6601013"
     },
     {
       "doc_id": "jiji-0035bfc9087f8e67",
@@ -64,16 +64,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026110100323&g=int"
     },
     {
-      "doc_id": "jiji-439a117a591e10c5",
-      "title": "トランプ大統領「民主党圧倒すべき」 最後の週末、支持呼び掛け―米中間選挙、３日投開票",
+      "doc_id": "jiji-3a89564fa751f116",
+      "title": "対談本を販売中止、回収 事実関係に誤り―朝日出版",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100269&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110100444&g=soc"
     },
     {
-      "doc_id": "jiji-1e635465164773ef",
-      "title": "防災庁２日発足 大規模災害時の司令塔―平時から復旧・復興まで対応",
+      "doc_id": "jiji-962b8f71615da0af",
+      "title": "時間かけ、創作に向き合う 紫綬褒章の奈良美智さん",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100288&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110200082&g=pol"
     },
     {
       "doc_id": "jiji-034d3164022cae0b",
@@ -82,40 +82,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026110100135&g=int"
     },
     {
-      "doc_id": "jiji-7382f71747697321",
-      "title": "ＪＰドラゴンのメンバー逮捕 フィリピン入管、幹部か",
+      "doc_id": "jiji-bcb877d308181d3a",
+      "title": "存在感増す急進左派 格差拡大で「民主社会主義」期待―米中間選挙・ＮＹ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100449&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110100274&g=int"
     },
     {
-      "doc_id": "jiji-ff22a6fbf0f30d0f",
+      "doc_id": "jiji-b893db067786b720",
       "title": "元ＡＶ女優の邦人、薬物盛られたか ナイトクラブから緊急搬送―香港",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100400&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110100400&g=soc"
     },
     {
-      "doc_id": "jiji-890499973bb92e9c",
-      "title": "過去最多の１３人届け出 福岡市長選",
+      "doc_id": "jiji-0a68aaa3971ecbef",
+      "title": "国立天文台の本間希樹さんに紫綬 初のブラックホール撮影―秋の褒章",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100365&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110200081&g=pol"
     },
     {
-      "doc_id": "jiji-02d7e09e52e02a2c",
-      "title": "知床半島に「海の電話」 沈没事故の遺族、受話器を握り 「静かに思いを寄せられる」",
+      "doc_id": "jiji-439a117a591e10c5",
+      "title": "トランプ大統領「民主党圧倒すべき」 最後の週末、支持呼び掛け―米中間選挙、３日投開票",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100290&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110100269&g=int"
     },
     {
-      "doc_id": "jiji-7375f0f159537332",
-      "title": "民主大勝なら米株逆風か ＡＩ投資に冷や水も―中間選挙",
+      "doc_id": "jiji-ff1dcb5f14cdcca5",
+      "title": "ウクライナ南部の局地停戦終了 人道支援は成功、違反主張も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100299&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110200099&g=int"
     },
     {
-      "doc_id": "jiji-b69f5f187a4fb9f7",
-      "title": "消費減税、首相出席が焦点 与党、６日衆院通過目指す",
+      "doc_id": "jiji-d49d0a673cdc02de",
+      "title": "地域のＡＩ支援１３４億円 ルビオ氏、首脳会合「近く発表」―日米豪印",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100286&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110100204&g=pol"
     },
     {
       "doc_id": "nhk-7a25aee993f77b91",
@@ -124,40 +124,52 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261101de69276"
     },
     {
+      "doc_id": "nhk-a513adf2cf0743a1",
+      "title": "アメリカ中間選挙あす投票 トランプ大統領中西部で演説へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69323"
+    },
+    {
+      "doc_id": "nhk-e3774e1ee0feac70",
+      "title": "滋賀 甲賀市の住宅火災 3人遺体で見つかる 家族と連絡取れず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69325"
+    },
+    {
+      "doc_id": "nhk-df2895bdc004980a",
+      "title": "米 フロリダ州で小型ジェット機が高速のまま墜落 9人死亡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69327"
+    },
+    {
       "doc_id": "nhk-978b9bdcb978c4a2",
       "title": "災害対策司令塔の「防災庁」が発足 体制の抜本的強化へ 政府",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261101de69293"
     },
     {
-      "doc_id": "nhk-cff1ee63a7c3a56a",
-      "title": "消費税減税法案 与党“採決に向け協議を”野党“首相出席を”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69291"
-    },
-    {
-      "doc_id": "nhk-4408af6f3d0ab7d8",
-      "title": "ドイツ全土のデモ 暴徒化した集団が店襲撃 当局が会見",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69321"
-    },
-    {
-      "doc_id": "nhk-5c1d4c71f41bbbff",
-      "title": "ウクライナ局地的な停戦で住民退避 攻撃の応酬続く",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69318"
-    },
-    {
-      "doc_id": "nhk-fd8136e5c1626c16",
-      "title": "2日にかけて広い範囲で雨 北海道は積雪のおそれも 注意を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69264"
-    },
-    {
       "doc_id": "nhk-58488a341d0bc4f8",
       "title": "ゆうちょ銀行の貯金利子上限 撤廃めぐる議論進む",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261101de69279"
+    },
+    {
+      "doc_id": "nhk-ffc81a617f3dc421",
+      "title": "ABU総会始まる NHK番組受賞",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69303"
+    },
+    {
+      "doc_id": "itmedia-1c2159fb64266902",
+      "title": "FBI、Binanceからの60億ドル超の暗号資産窃盗は北朝鮮「TraderTraitor」の犯行と発表",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002778/"
+    },
+    {
+      "doc_id": "itmedia-487e578a5bc3d9c1",
+      "title": "Anthropic、「Claude」の「Max 20x」を「Ultra」に名称変更 月200ドルで5時間ごとの利用制限を撤廃",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002777/"
     },
     {
       "doc_id": "itmedia-c999b40c8688b250",
@@ -220,16 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002699/"
     },
     {
-      "doc_id": "itmedia-ade77b39252f404b",
-      "title": "「本会議場にタブレット持ち込み可能に」自民の提言案にチームみらい安野党首「うおおおおお」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002747/"
-    },
-    {
-      "doc_id": "itmedia-0342e2bff8863665",
-      "title": "暗号資産取引所Binance、ハッキングで約1兆円の被害か 入出金を全面停止",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002749/"
+      "doc_id": "nazology-8e02178373412a67",
+      "title": "「最も命を奪う動物」蚊のオス、メスの羽音を耳で千倍以上に増幅",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204429"
     },
     {
       "doc_id": "nazology-ba07f61055229489",
@@ -284,12 +290,6 @@
       "title": "マラソン走者の「体内の大麻」はシャワー後も高いままだった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/204228"
-    },
-    {
-      "doc_id": "nazology-2daf2dfd7b05786e",
-      "title": "2階建ての家ほどの巨大クラゲに幼魚の群れが身を寄せていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204223"
     }
   ]
 }
