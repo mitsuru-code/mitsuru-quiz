@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-02T06:12:38+00:00",
-  "now_ms": 1793599958607,
+  "fetched_at": "2026-11-02T16:03:50+00:00",
+  "now_ms": 1793635430225,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-886ca70376950117",
-      "title": "防災相 世界一の防災大国を目指す",
+      "doc_id": "yahoo-5b454f31dba9eb54",
+      "title": "中間選挙 物価高で米大統領に批判",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601050"
+      "link": "https://news.yahoo.co.jp/pickup/6601095"
     },
     {
-      "doc_id": "yahoo-9398d312dabb8aea",
-      "title": "文科相 東大学長の選考理由不明確",
+      "doc_id": "yahoo-7ab1766662494b70",
+      "title": "GMOが謝罪 利用者「響かない」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601053"
+      "link": "https://news.yahoo.co.jp/pickup/6601107"
     },
     {
-      "doc_id": "yahoo-3300fdba31160bf4",
-      "title": "「アララ」7700万件のメアド流出",
+      "doc_id": "yahoo-6b2a9d669fe3437e",
+      "title": "ノジマ 700万人分の個人情報流出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601057"
+      "link": "https://news.yahoo.co.jp/pickup/6601104"
     },
     {
-      "doc_id": "yahoo-ac047794062d9c59",
-      "title": "盗難の高級腕時計戻る わび状同封",
+      "doc_id": "yahoo-20a51f35573ac82d",
+      "title": "トンネルで2台正面衝突 30代死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601058"
+      "link": "https://news.yahoo.co.jp/pickup/6601110"
     },
     {
-      "doc_id": "yahoo-1b0283c0ba6cf556",
-      "title": "永谷園「モコモコ」販売再開へ",
+      "doc_id": "yahoo-164317a5c7563cdd",
+      "title": "7歳虐待死 裁判でにじむ母の後悔",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601055"
+      "link": "https://news.yahoo.co.jp/pickup/6601108"
     },
     {
-      "doc_id": "yahoo-e50e4fdc65d8ab2f",
-      "title": "織田翔希 MLB球団と面談開始へ",
+      "doc_id": "yahoo-b612540e186b446f",
+      "title": "TDL内に野良猫 運営会社の対応は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601059"
+      "link": "https://news.yahoo.co.jp/pickup/6601105"
     },
     {
-      "doc_id": "yahoo-bb417b4acd17dd9a",
-      "title": "日ハム レイエスとの契約延長発表",
+      "doc_id": "yahoo-13035b75bae44160",
+      "title": "エムバペ選手発言 中国側強く反発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601054"
+      "link": "https://news.yahoo.co.jp/pickup/6601109"
     },
     {
-      "doc_id": "yahoo-98f98bbef72963cd",
-      "title": "八村塁 今季最多24得点の大暴れ",
+      "doc_id": "yahoo-0634aeabbe44c8c5",
+      "title": "20歳が握力計「破壊」新弟子検査",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601056"
+      "link": "https://news.yahoo.co.jp/pickup/6601106"
+    },
+    {
+      "doc_id": "jiji-6a1bdf61813edefa",
+      "title": "一晩で「衝撃の変心」 ミシガン州で民主議員が共和支持―米中間選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110200724&g=int"
+    },
+    {
+      "doc_id": "jiji-e6614da8e8eb133d",
+      "title": "作家の青木玉さん死去、９６歳",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110200977&g=soc"
     },
     {
       "doc_id": "jiji-ff22a6fbf0f30d0f",
@@ -64,28 +76,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026110100400&g=int"
     },
     {
-      "doc_id": "jiji-9b6c2233fd792667",
-      "title": "列車事故、邦人１人死亡確認 もう１人も特定急ぐ―スペイン当局",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200209&g=int"
-    },
-    {
       "doc_id": "jiji-0035bfc9087f8e67",
       "title": "大気汚染で５２００人超死亡か ８、９月の森林火災―インドネシア",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026110100323&g=int"
-    },
-    {
-      "doc_id": "jiji-0efa2fd0efcfa141",
-      "title": "共和敗北の結果認定見送り認めず 同名出馬で混乱のアラスカ上院選―米地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200139&g=int"
-    },
-    {
-      "doc_id": "jiji-745c01b2ffeac335",
-      "title": "家具固定、備蓄を緊急要請 細野氏「しっかり行動を」―防災庁が本格始動",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200085&g=pol"
     },
     {
       "doc_id": "jiji-034d3164022cae0b",
@@ -94,22 +88,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026110100135&g=int"
     },
     {
-      "doc_id": "jiji-acd2b619c0cb8822",
-      "title": "情報流出、責任追及にハードル タイムズ集団訴訟、長期化も―「厳格管理を」と識者・不正アクセス",
+      "doc_id": "jiji-4e11c78f525167cd",
+      "title": "元参院議員の吉村剛太郎さん死去",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100260&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110200797&g=pol"
     },
     {
-      "doc_id": "jiji-e714c31561f803c2",
-      "title": "官邸突入、争う方針 自民党本部に火炎瓶も―東京地裁",
+      "doc_id": "jiji-0efa2fd0efcfa141",
+      "title": "共和敗北の結果認定見送り認めず 同名出馬で混乱のアラスカ上院選―米地裁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200087&g=soc"
-    },
-    {
-      "doc_id": "jiji-188cf85f77e92f20",
-      "title": "盗まれた腕時計、店に返送 謝罪メモ同封、宅配便で店舗に―警視庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200551&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110200139&g=int"
     },
     {
       "doc_id": "jiji-3a89564fa751f116",
@@ -118,34 +106,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026110100444&g=soc"
     },
     {
+      "doc_id": "jiji-3bb89d7f85ae203b",
+      "title": "１兆円不正流出「北朝鮮が関与」 バイナンス暗号資産が資金洗浄―ＦＢＩ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110100186&g=int"
+    },
+    {
+      "doc_id": "jiji-a0c0ca974ee3be7a",
+      "title": "身構える株式市場 米中間選挙後、期待と懸念交錯",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026103100302&g=pol"
+    },
+    {
       "doc_id": "nhk-677f15a863e5f4de",
-      "title": "【ライブ予定】GMO 熊谷社長ら2日午後記者会見",
+      "title": "GMO 不正アクセス問題 熊谷社長ら記者会見【詳細】",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261102de69492"
     },
     {
-      "doc_id": "nhk-7a25aee993f77b91",
-      "title": "GMO 午後会見 ぜい弱性指摘後の対応など焦点 これまでの経緯は",
+      "doc_id": "nhk-637d7c39a9647095",
+      "title": "ノジマ 不正アクセスで約700万件の個人情報漏えい",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69276"
-    },
-    {
-      "doc_id": "nhk-561fbb1a8f666f0e",
-      "title": "「アットコスメ」不正アクセス 約300万人分漏えい 肌質 髪質も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69567"
-    },
-    {
-      "doc_id": "nhk-2717d3ae9c0a4320",
-      "title": "「中野ブロードウェイ」高級腕時計窃盗事件 被害品が店に届く",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69446"
-    },
-    {
-      "doc_id": "nhk-3a4ab327928b1b48",
-      "title": "スペイン高速鉄道事故 日本人1人の死亡確認 地元当局が発表",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69346"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69780"
     },
     {
       "doc_id": "nhk-0172c2ea80b0dad7",
@@ -154,10 +136,52 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261102de69369"
     },
     {
-      "doc_id": "nhk-70880819ad5d2dbf",
-      "title": "ネタニヤフ首相 トランプ大統領に選挙後イラン攻撃要求か 報道",
+      "doc_id": "nhk-79e86f58c2550d71",
+      "title": "中野ブロードウェイ 高級時計窃盗事件 男は新幹線で西に移動か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69449"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69776"
+    },
+    {
+      "doc_id": "nhk-7a25aee993f77b91",
+      "title": "GMO 熊谷社長会見で陳謝 ぜい弱性指摘 サービス運営に生かせず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69276"
+    },
+    {
+      "doc_id": "nhk-b28b4a6bd26cd4ad",
+      "title": "「ネットマイル」 最大で約549万人分の個人情報漏えいの可能性",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69784"
+    },
+    {
+      "doc_id": "nhk-e48134b8b5e1b647",
+      "title": "ロードサービス利用者の個人情報 最大約550万件漏えい",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69807"
+    },
+    {
+      "doc_id": "itmedia-c112ca09916fda01",
+      "title": "「命の砂時計」連呼のGMO会見──熊谷代表の発言にXではツッコミ続出",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002828/"
+    },
+    {
+      "doc_id": "itmedia-05d296ba642dcb72",
+      "title": "GMO熊谷代表、涙の謝罪会見でも“熊谷節”さく裂──「31年間、もうけるという言葉は使ったことがない」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002823/"
+    },
+    {
+      "doc_id": "itmedia-38eafa37b50656b8",
+      "title": "GMO熊谷代表、会見で改めて謝罪 SNS投稿巡り「配慮が欠けていた」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002806/"
+    },
+    {
+      "doc_id": "itmedia-d1f2bc2239fd0bec",
+      "title": "山岳救助を迅速化へ 兵庫県警が登山アプリ「ヤマップ」と協定締結",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002800/"
     },
     {
       "doc_id": "itmedia-d6990b1c718f43bd",
@@ -208,28 +232,28 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002778/"
     },
     {
-      "doc_id": "itmedia-487e578a5bc3d9c1",
-      "title": "Anthropic、「Claude」の「Max 20x」を「Ultra」に名称変更 月200ドルで5時間ごとの利用制限を撤廃",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002777/"
+      "doc_id": "nazology-fd521f06d4c79412",
+      "title": "貝殻のほぼすべての形は、たった3つの要素で描けると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204349"
     },
     {
-      "doc_id": "itmedia-c999b40c8688b250",
-      "title": "AI学習への利用拒否をrobots.txtで一括指定へ OpenAIやGoogleなどが対応表明",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/01/2000002776/"
+      "doc_id": "nazology-3e6920717245d7f9",
+      "title": "フラフープの輪を回すのは脚の骨の「ひねり」だったと発見か",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204412"
     },
     {
-      "doc_id": "itmedia-7ed8ef091933886b",
-      "title": "総務省、GMO攻撃者サイトの「ブロッキング」を通信各社に要請 報道",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/30/2000002765/"
+      "doc_id": "nazology-aca8ee201883ee2c",
+      "title": "シカは肉食のコヨーテより「野生化したブタ」の声のほうがよく逃げた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205487"
     },
     {
-      "doc_id": "itmedia-3c91c466fc3560a5",
-      "title": "Binanceの約1兆円流出、北朝鮮ハッカー集団「TraderTraitor」の犯行か",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2610/31/2000002775/"
+      "doc_id": "nazology-f71f5f22a66bb895",
+      "title": "老いたラットの肝臓を若返らせたら悪玉コレステロールまで下がった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/204272"
     },
     {
       "doc_id": "nazology-09288a863d7f18dc",
@@ -266,30 +290,6 @@
       "title": "多数決の堂々めぐりは、表も裏もない「壺」の形をしていたと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/204292"
-    },
-    {
-      "doc_id": "nazology-32f0f815ef60a891",
-      "title": "天の川に20年も強い電波を出し続ける正体不明の天体を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204308"
-    },
-    {
-      "doc_id": "nazology-8db2135e7f98b185",
-      "title": "私たちの血が赤いのは鉄のおかげ、タコやカニは銅で青くなる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204391"
-    },
-    {
-      "doc_id": "nazology-d4a64b0b33709e86",
-      "title": "絶滅が心配された毒の霊長類、人の庭でグァバを食べる姿を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204445"
-    },
-    {
-      "doc_id": "nazology-05ba7da8b7d8733a",
-      "title": "ぜんそくの人はガスコンロを「電気」に替えると症状が和らぐ可能性",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204108"
     }
   ]
 }
