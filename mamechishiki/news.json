@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-02T16:03:50+00:00",
-  "now_ms": 1793635430225,
+  "fetched_at": "2026-11-02T23:34:41+00:00",
+  "now_ms": 1793662481382,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-5b454f31dba9eb54",
-      "title": "中間選挙 物価高で米大統領に批判",
+      "doc_id": "yahoo-d532b2c109cec5e7",
+      "title": "米中間選挙 今夜から全米で投票",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601095"
+      "link": "https://news.yahoo.co.jp/pickup/6601118"
     },
     {
-      "doc_id": "yahoo-7ab1766662494b70",
-      "title": "GMOが謝罪 利用者「響かない」",
+      "doc_id": "yahoo-78688892347da716",
+      "title": "転換期の憲法論議 発議見通せず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601107"
+      "link": "https://news.yahoo.co.jp/pickup/6601117"
     },
     {
-      "doc_id": "yahoo-6b2a9d669fe3437e",
-      "title": "ノジマ 700万人分の個人情報流出",
+      "doc_id": "yahoo-6cf6e7d27a0daf8e",
+      "title": "秋の叙勲 松坂慶子さんら受章",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601104"
+      "link": "https://news.yahoo.co.jp/pickup/6601122"
     },
     {
-      "doc_id": "yahoo-20a51f35573ac82d",
-      "title": "トンネルで2台正面衝突 30代死亡",
+      "doc_id": "yahoo-b8767deb93d9e0d4",
+      "title": "スペイン列車事故 邦人死亡2人に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601110"
+      "link": "https://news.yahoo.co.jp/pickup/6601111"
     },
     {
-      "doc_id": "yahoo-164317a5c7563cdd",
-      "title": "7歳虐待死 裁判でにじむ母の後悔",
+      "doc_id": "yahoo-3ab4f3af431cc739",
+      "title": "北朝鮮 バイナンス巡り関与否定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601108"
+      "link": "https://news.yahoo.co.jp/pickup/6601116"
     },
     {
-      "doc_id": "yahoo-b612540e186b446f",
-      "title": "TDL内に野良猫 運営会社の対応は",
+      "doc_id": "yahoo-1d899345d958ee87",
+      "title": "GMO会見で「命の砂時計」 意味",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601105"
+      "link": "https://news.yahoo.co.jp/pickup/6601115"
     },
     {
-      "doc_id": "yahoo-13035b75bae44160",
-      "title": "エムバペ選手発言 中国側強く反発",
+      "doc_id": "yahoo-94aa566f6d5ffdeb",
+      "title": "阪神参戦 小島和哉に条件提示へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601109"
+      "link": "https://news.yahoo.co.jp/pickup/6601121"
     },
     {
-      "doc_id": "yahoo-0634aeabbe44c8c5",
-      "title": "20歳が握力計「破壊」新弟子検査",
+      "doc_id": "yahoo-91ee042c9436f9ec",
+      "title": "戦力外の巨人・湯浅大が現役引退",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601106"
+      "link": "https://news.yahoo.co.jp/pickup/6601123"
+    },
+    {
+      "doc_id": "jiji-bcd2ab358eef2318",
+      "title": "三の丸尚蔵館、３日全面開館 報道陣に公開―皇居・東御苑",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110200758&g=soc"
+    },
+    {
+      "doc_id": "jiji-c20cbc503894dbb0",
+      "title": "列車事故、邦人２人目も死亡確認 ６９人身元判明―スペイン当局",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110300199&g=int"
     },
     {
       "doc_id": "jiji-6a1bdf61813edefa",
@@ -64,76 +76,82 @@
       "link": "https://www.jiji.com/jc/article?k=2026110200724&g=int"
     },
     {
-      "doc_id": "jiji-e6614da8e8eb133d",
-      "title": "作家の青木玉さん死去、９６歳",
+      "doc_id": "jiji-4c39f1661fcb8417",
+      "title": "スペイン列車事故で、同国当局は２人目の邦人の死亡が確認されたと発表した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200977&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110300196&g=flash"
     },
     {
-      "doc_id": "jiji-ff22a6fbf0f30d0f",
-      "title": "元ＡＶ女優の邦人、薬物盛られたか ナイトクラブから緊急搬送―香港",
+      "doc_id": "jiji-1b0eda819aafc843",
+      "title": "旭日大綬章はトヨタ会長ら 河野元統幕長瑞大、俳優松坂さん旭小―秋の叙勲",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100400&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300136&g=pol"
     },
     {
-      "doc_id": "jiji-0035bfc9087f8e67",
-      "title": "大気汚染で５２００人超死亡か ８、９月の森林火災―インドネシア",
+      "doc_id": "jiji-f80d39dc918ae740",
+      "title": "ＡＰＥＣ外務・貿易相会合、３日開催 オンラインで―中国",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100323&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110200775&g=int"
     },
     {
-      "doc_id": "jiji-034d3164022cae0b",
-      "title": "日本の新幹線「模倣困難な偉業」 列車事故と対比―スペイン公共放送",
+      "doc_id": "jiji-e0f5bec2b6a1b0c4",
+      "title": "トランプ氏「口約束」連発 中間選挙前に焦り",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100135&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110200882&g=int"
     },
     {
-      "doc_id": "jiji-4e11c78f525167cd",
-      "title": "元参院議員の吉村剛太郎さん死去",
+      "doc_id": "jiji-9ea4c96710c7279e",
+      "title": "毎日出版文化賞に紅野謙介さんら",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200797&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110300164&g=soc"
     },
     {
-      "doc_id": "jiji-0efa2fd0efcfa141",
-      "title": "共和敗北の結果認定見送り認めず 同名出馬で混乱のアラスカ上院選―米地裁",
+      "doc_id": "jiji-7654524c3a0767f6",
+      "title": "ＳＮＳで揺らぐ表現の自由 偽情報拡散、自主規制難しく―識者「国が情報空間に関与を」・憲法公布８０年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200139&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110200573&g=soc"
     },
     {
-      "doc_id": "jiji-3a89564fa751f116",
-      "title": "対談本を販売中止、回収 事実関係に誤り―朝日新聞出版",
+      "doc_id": "jiji-e86113a378bc3d5e",
+      "title": "米アンソロ、売上高２．７兆円 純損失は縮小―７～９月期",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100444&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110300163&g=int"
     },
     {
-      "doc_id": "jiji-3bb89d7f85ae203b",
-      "title": "１兆円不正流出「北朝鮮が関与」 バイナンス暗号資産が資金洗浄―ＦＢＩ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110100186&g=int"
-    },
-    {
-      "doc_id": "jiji-a0c0ca974ee3be7a",
-      "title": "身構える株式市場 米中間選挙後、期待と懸念交錯",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026103100302&g=pol"
-    },
-    {
-      "doc_id": "nhk-677f15a863e5f4de",
-      "title": "GMO 不正アクセス問題 熊谷社長ら記者会見【詳細】",
+      "doc_id": "nhk-213c228815bd78fb",
+      "title": "スペイン列車事故 日本人2人の死亡確認 地元当局が身元特定",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69492"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69859"
     },
     {
-      "doc_id": "nhk-637d7c39a9647095",
-      "title": "ノジマ 不正アクセスで約700万件の個人情報漏えい",
+      "doc_id": "nhk-a8bf4db8b1151662",
+      "title": "GMO 経営トップ含めセキュリティーリスク対応の体制構築が課題",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69780"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69861"
     },
     {
-      "doc_id": "nhk-0172c2ea80b0dad7",
-      "title": "防災庁発足 「緊急要請」発表し備蓄や住宅耐震化など求める",
+      "doc_id": "nhk-1e62a532b40025c8",
+      "title": "「秋の叙勲」受章者発表 各界で功労のあった計3861人が受章",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69369"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69860"
+    },
+    {
+      "doc_id": "nhk-34c836ff4598549a",
+      "title": "アメリカ中間選挙 日本時間の今夜から投票開始 焦点は",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69868"
+    },
+    {
+      "doc_id": "nhk-cb430737d0149bca",
+      "title": "米アンソロピック 売り上げ13倍もAI開発への支出は140兆円余に",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69869"
+    },
+    {
+      "doc_id": "nhk-a0b584bb88dea243",
+      "title": "作家の山中恒さんの手記全文が初公開 憲法公布時期に執筆",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69842"
     },
     {
       "doc_id": "nhk-79e86f58c2550d71",
@@ -142,22 +160,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261102de69776"
     },
     {
-      "doc_id": "nhk-7a25aee993f77b91",
-      "title": "GMO 熊谷社長会見で陳謝 ぜい弱性指摘 サービス運営に生かせず",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261101de69276"
-    },
-    {
-      "doc_id": "nhk-b28b4a6bd26cd4ad",
-      "title": "「ネットマイル」 最大で約549万人分の個人情報漏えいの可能性",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69784"
-    },
-    {
-      "doc_id": "nhk-e48134b8b5e1b647",
-      "title": "ロードサービス利用者の個人情報 最大約550万件漏えい",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69807"
+      "doc_id": "itmedia-67b5baa988f6844e",
+      "title": "Marvell、光通信技術のLumentumを約18兆円で買収 AIデータセンターの高速化に対応",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/03/2000002830/"
     },
     {
       "doc_id": "itmedia-c112ca09916fda01",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002779/"
     },
     {
-      "doc_id": "itmedia-1c2159fb64266902",
-      "title": "FBI、Binanceからの60億ドル超の暗号資産窃盗は北朝鮮「TraderTraitor」の犯行と発表",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002778/"
+      "doc_id": "nazology-17027b47575dc54b",
+      "title": "地獄のニワトリは肉食ではなかった、食事の多くはやわらかい果物とみられる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205021"
     },
     {
       "doc_id": "nazology-fd521f06d4c79412",
@@ -284,12 +290,6 @@
       "title": "「最も命を奪う動物」蚊のオス、メスの羽音を耳で千倍以上に増幅",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/204429"
-    },
-    {
-      "doc_id": "nazology-ba07f61055229489",
-      "title": "多数決の堂々めぐりは、表も裏もない「壺」の形をしていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204292"
     }
   ]
 }
