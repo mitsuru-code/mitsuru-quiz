@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-03T06:52:31+00:00",
-  "now_ms": 1793688751453,
+  "fetched_at": "2026-11-03T15:12:26+00:00",
+  "now_ms": 1793718746805,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,76 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-81c4c063e0c80ad0",
-      "title": "トランプ政権に審判 民主優勢保つ",
+      "doc_id": "yahoo-e48d4f09a3905a35",
+      "title": "米中間選挙 集計長期化の可能性も",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601173"
+      "link": "https://news.yahoo.co.jp/pickup/6601226"
     },
     {
-      "doc_id": "yahoo-245bf824baf717a2",
-      "title": "米巨大IT5社とも増収 7～9月期",
+      "doc_id": "yahoo-cdb7e68d26da0ccb",
+      "title": "武部農相 献金巡り新たな疑惑",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601172"
+      "link": "https://news.yahoo.co.jp/pickup/6601222"
     },
     {
-      "doc_id": "yahoo-759b6b5254d9c246",
-      "title": "車が男性はね海へ転落 運転手死亡",
+      "doc_id": "yahoo-f237007ae6a26df7",
+      "title": "露軍 外国人兵に入れ墨で識別番号",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601161"
+      "link": "https://news.yahoo.co.jp/pickup/6601163"
     },
     {
-      "doc_id": "yahoo-0e48336807ce6480",
-      "title": "夫より高学歴・高収入 妻の悩み",
+      "doc_id": "yahoo-fc1381ee4eabe5e1",
+      "title": "台湾の九份 日本人男性が行方不明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601184"
+      "link": "https://news.yahoo.co.jp/pickup/6601219"
     },
     {
-      "doc_id": "yahoo-84bd99b21c2b34c7",
-      "title": "佐賀「海の紅葉」に異変 落胆の声",
+      "doc_id": "yahoo-5eff23af536b2627",
+      "title": "アソビュー 1500万件超の情報流出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601180"
+      "link": "https://news.yahoo.co.jp/pickup/6601234"
     },
     {
-      "doc_id": "yahoo-f8e7448276a606e6",
-      "title": "きのこの山イヤホン 再販時の配慮",
+      "doc_id": "yahoo-5d54963472c509e1",
+      "title": "タイ 輸入EVの物品税引き上げへ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601151"
+      "link": "https://news.yahoo.co.jp/pickup/6601233"
     },
     {
-      "doc_id": "yahoo-bfb74dbc7c0bf560",
-      "title": "アジア杯2027 AFCが延期案可決",
+      "doc_id": "yahoo-2f41e71600d47858",
+      "title": "スペイン2部 試合中搬送のFW死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601183"
+      "link": "https://news.yahoo.co.jp/pickup/6601220"
     },
     {
-      "doc_id": "yahoo-645724de5f8247b6",
-      "title": "楽天入団の甲斐 勝ちに飢えている",
+      "doc_id": "yahoo-22bd26b64a6b4691",
+      "title": "カワラボ メンバーの個人Xを休止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601171"
+      "link": "https://news.yahoo.co.jp/pickup/6601231"
     },
     {
-      "doc_id": "jiji-6140f16b2fc944cf",
-      "title": "皇居で文化勲章親授式 そあい憲三さん「国の歴史感じた」",
+      "doc_id": "jiji-619c3e42fe4761f6",
+      "title": "米中間選挙、投票始まる トランプ氏の政権運営左右―上下両院の多数派焦点",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300142&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110300378&g=int"
     },
     {
-      "doc_id": "jiji-5838b9e861bbea54",
-      "title": "米軍がイラン・ケシム島攻撃 トランプ氏、大規模作戦再開「急がず」―報道",
+      "doc_id": "jiji-eb8bb781253d2d26",
+      "title": "「インフレひどい」「トランプ氏不支持」 有権者が一票―米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300278&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300794&g=int"
     },
     {
-      "doc_id": "jiji-f0042ab4bc103935",
-      "title": "米紙ウォール・ストリート・ジャーナルは、米軍がイランのケシム島を攻撃したと報じた",
+      "doc_id": "jiji-28c7b05b4b6331c1",
+      "title": "都立六本木高校の同級生刺傷事件 「仲直りできないなら心中しよう」 逮捕の加害生徒が供述",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300276&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026110200952&g=soc"
     },
     {
-      "doc_id": "jiji-18663b7fce914623",
-      "title": "日本、ベトナム両政府は、自国内で逮捕・拘束した相手国民の情報を相互に通報する新協定を締結する方向で検討に入った",
+      "doc_id": "jiji-90b6ce80eb438555",
+      "title": "接触プレーで選手死亡 サッカー・スペイン２部テネリフェ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300374&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026110300739&g=spo"
     },
     {
       "doc_id": "jiji-e0f5bec2b6a1b0c4",
@@ -88,76 +88,76 @@
       "link": "https://www.jiji.com/jc/article?k=2026110200882&g=int"
     },
     {
-      "doc_id": "jiji-6cbdd6ff9a2ada28",
-      "title": "【独自】日本とベトナム、犯罪抑止へ新協定検討 ９日首脳会談で確認へ",
+      "doc_id": "jiji-01a5274ba4301541",
+      "title": "身に余る光栄 旭日大綬章の本荘大阪ガス会長―秋の叙勲",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300379&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110300150&g=pol"
     },
     {
-      "doc_id": "jiji-90e69f624b088185",
-      "title": "長生炭鉱、遺骨返還へ連携 日韓外務次官が戦略対話",
+      "doc_id": "jiji-46f41997aa9a6ece",
+      "title": "サッカー・アジア杯、来年１２月に延期 森保監督が最後の指揮予定",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300309&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110300439&g=spo"
     },
     {
-      "doc_id": "jiji-c20cbc503894dbb0",
-      "title": "列車事故、邦人２人目も死亡確認 ６９人身元判明―スペイン当局",
+      "doc_id": "jiji-023b9d69bb886011",
+      "title": "柏、後半続けざま２点 もどかしい展開変えた遠藤―ＡＣＬサッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300199&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300753&g=spo"
     },
     {
-      "doc_id": "jiji-9ea4c96710c7279e",
-      "title": "毎日出版文化賞に紅野謙介さんら",
+      "doc_id": "jiji-e983a9e5fe170e19",
+      "title": "王子の樋口、完璧な救援 社会人野球日本選手権",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300164&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110300754&g=spo"
     },
     {
-      "doc_id": "jiji-65f70728bff30c9d",
-      "title": "米制裁は「司法妨害の試み」 ＩＣＣ赤根所長が批判―国連総会",
+      "doc_id": "jiji-91e9b461fbab2514",
+      "title": "松井監督、熱心に打撃指導 恩師譲りの「擬音」も―プロ野球・巨人",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300388&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300631&g=spo"
     },
     {
-      "doc_id": "nhk-213c228815bd78fb",
-      "title": "スペイン列車事故 日本人2人の死亡確認 地元当局が身元特定",
+      "doc_id": "nhk-3229f7a2b8c19be4",
+      "title": "アメリカ中間選挙 投票始まる トランプ政権への有権者の評価は",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69859"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69983"
     },
     {
-      "doc_id": "nhk-34c836ff4598549a",
-      "title": "アメリカ中間選挙 日本時間の今夜から投票開始 焦点は",
+      "doc_id": "nhk-036490bb6fc6e9db",
+      "title": "サッカーアジア杯 開催を来年12月に延期 サウジ情勢の影響で",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69868"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69969"
     },
     {
-      "doc_id": "nhk-6c7d0f4898de1289",
-      "title": "カブス 鈴木誠也に“クオリファイング・オファー” 1年36億円",
+      "doc_id": "nhk-cbe5fb6be8c3bad1",
+      "title": "小泉防衛相 防衛省のAI活用に関する基本方針見直す考え",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69908"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70050"
     },
     {
-      "doc_id": "nhk-91246139caffc812",
-      "title": "北朝鮮が巡航ミサイルの発射実験を実施",
+      "doc_id": "nhk-e218f158297f3e9f",
+      "title": "ヒグマと衝突のJR宗谷線 4日から全区間で運転再開へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69951"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69986"
     },
     {
-      "doc_id": "nhk-726e32108e9d75dc",
-      "title": "【地震情報】千葉県で震度3 津波の心配なし",
+      "doc_id": "nhk-d4514eb6123c9758",
+      "title": "ウクライナ南部で31人死亡 東部で70人余けが ロシアの攻撃で",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69903"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70056"
     },
     {
-      "doc_id": "nhk-43c9921f2096327e",
-      "title": "米アップル主力スマートフォン好調で増益 半導体高騰の懸念も",
+      "doc_id": "nhk-eaf0c7de699b19fc",
+      "title": "旧統一教会 ハン・ハクチャ総裁 指定の病院離れ保釈取り消し",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69962"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70061"
     },
     {
-      "doc_id": "nhk-4e5f5a5bd96e70d2",
-      "title": "脚本家の倉本聰さん 「北の国から」富良野でお別れの会 北海道",
+      "doc_id": "nhk-d45cd8f5f5b38b1e",
+      "title": "サッカースペイン2部の試合で選手どうしが激突 1人死亡",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69916"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70067"
     },
     {
       "doc_id": "itmedia-2d0f7b27c78c1017",
@@ -232,6 +232,24 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002783/"
     },
     {
+      "doc_id": "nazology-b9d3b37090799c87",
+      "title": "時間結晶が“半分溶けた”新状態「時間液体」が提唱された",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205878"
+    },
+    {
+      "doc_id": "nazology-414ccd25932f66da",
+      "title": "亡くなった元NFL選手の4人に3人に、脳が傷む病気があったと推計",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205017"
+    },
+    {
+      "doc_id": "nazology-dfb9acd0b747b7c1",
+      "title": "人間の細胞の「いちばん近い親戚」は、酸素が苦手な微生物だった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205142"
+    },
+    {
       "doc_id": "nazology-15309af33e606624",
       "title": "美しい景色を見た脳は、実は体を動かす準備をゆるめていた",
       "source": "ナゾロジー",
@@ -272,24 +290,6 @@
       "title": "フラフープの輪を回すのは脚の骨の「ひねり」だったと発見か",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/204412"
-    },
-    {
-      "doc_id": "nazology-aca8ee201883ee2c",
-      "title": "シカは肉食のコヨーテより「野生化したブタ」の声のほうがよく逃げた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205487"
-    },
-    {
-      "doc_id": "nazology-f71f5f22a66bb895",
-      "title": "老いたラットの肝臓を若返らせたら悪玉コレステロールまで下がった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204272"
-    },
-    {
-      "doc_id": "nazology-09288a863d7f18dc",
-      "title": "シーソー台と薬で、止まって6分の犬の心臓を再び動かした博士",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204346"
     }
   ]
 }
