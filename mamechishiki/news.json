@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-02T23:34:41+00:00",
-  "now_ms": 1793662481382,
+  "fetched_at": "2026-11-03T06:52:31+00:00",
+  "now_ms": 1793688751453,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,88 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-d532b2c109cec5e7",
-      "title": "米中間選挙 今夜から全米で投票",
+      "doc_id": "yahoo-81c4c063e0c80ad0",
+      "title": "トランプ政権に審判 民主優勢保つ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601118"
+      "link": "https://news.yahoo.co.jp/pickup/6601173"
     },
     {
-      "doc_id": "yahoo-78688892347da716",
-      "title": "転換期の憲法論議 発議見通せず",
+      "doc_id": "yahoo-245bf824baf717a2",
+      "title": "米巨大IT5社とも増収 7～9月期",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601117"
+      "link": "https://news.yahoo.co.jp/pickup/6601172"
     },
     {
-      "doc_id": "yahoo-6cf6e7d27a0daf8e",
-      "title": "秋の叙勲 松坂慶子さんら受章",
+      "doc_id": "yahoo-759b6b5254d9c246",
+      "title": "車が男性はね海へ転落 運転手死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601122"
+      "link": "https://news.yahoo.co.jp/pickup/6601161"
     },
     {
-      "doc_id": "yahoo-b8767deb93d9e0d4",
-      "title": "スペイン列車事故 邦人死亡2人に",
+      "doc_id": "yahoo-0e48336807ce6480",
+      "title": "夫より高学歴・高収入 妻の悩み",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601111"
+      "link": "https://news.yahoo.co.jp/pickup/6601184"
     },
     {
-      "doc_id": "yahoo-3ab4f3af431cc739",
-      "title": "北朝鮮 バイナンス巡り関与否定",
+      "doc_id": "yahoo-84bd99b21c2b34c7",
+      "title": "佐賀「海の紅葉」に異変 落胆の声",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601116"
+      "link": "https://news.yahoo.co.jp/pickup/6601180"
     },
     {
-      "doc_id": "yahoo-1d899345d958ee87",
-      "title": "GMO会見で「命の砂時計」 意味",
+      "doc_id": "yahoo-f8e7448276a606e6",
+      "title": "きのこの山イヤホン 再販時の配慮",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601115"
+      "link": "https://news.yahoo.co.jp/pickup/6601151"
     },
     {
-      "doc_id": "yahoo-94aa566f6d5ffdeb",
-      "title": "阪神参戦 小島和哉に条件提示へ",
+      "doc_id": "yahoo-bfb74dbc7c0bf560",
+      "title": "アジア杯2027 AFCが延期案可決",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601121"
+      "link": "https://news.yahoo.co.jp/pickup/6601183"
     },
     {
-      "doc_id": "yahoo-91ee042c9436f9ec",
-      "title": "戦力外の巨人・湯浅大が現役引退",
+      "doc_id": "yahoo-645724de5f8247b6",
+      "title": "楽天入団の甲斐 勝ちに飢えている",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601123"
+      "link": "https://news.yahoo.co.jp/pickup/6601171"
     },
     {
-      "doc_id": "jiji-bcd2ab358eef2318",
-      "title": "三の丸尚蔵館、３日全面開館 報道陣に公開―皇居・東御苑",
+      "doc_id": "jiji-6140f16b2fc944cf",
+      "title": "皇居で文化勲章親授式 そあい憲三さん「国の歴史感じた」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200758&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110300142&g=pol"
     },
     {
-      "doc_id": "jiji-c20cbc503894dbb0",
-      "title": "列車事故、邦人２人目も死亡確認 ６９人身元判明―スペイン当局",
+      "doc_id": "jiji-5838b9e861bbea54",
+      "title": "米軍がイラン・ケシム島攻撃 トランプ氏、大規模作戦再開「急がず」―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300199&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300278&g=int"
     },
     {
-      "doc_id": "jiji-6a1bdf61813edefa",
-      "title": "一晩で「衝撃の変心」 ミシガン州で民主議員が共和支持―米中間選挙",
+      "doc_id": "jiji-f0042ab4bc103935",
+      "title": "米紙ウォール・ストリート・ジャーナルは、米軍がイランのケシム島を攻撃したと報じた",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200724&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300276&g=flash"
     },
     {
-      "doc_id": "jiji-4c39f1661fcb8417",
-      "title": "スペイン列車事故で、同国当局は２人目の邦人の死亡が確認されたと発表した",
+      "doc_id": "jiji-18663b7fce914623",
+      "title": "日本、ベトナム両政府は、自国内で逮捕・拘束した相手国民の情報を相互に通報する新協定を締結する方向で検討に入った",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300196&g=flash"
-    },
-    {
-      "doc_id": "jiji-1b0eda819aafc843",
-      "title": "旭日大綬章はトヨタ会長ら 河野元統幕長瑞大、俳優松坂さん旭小―秋の叙勲",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300136&g=pol"
-    },
-    {
-      "doc_id": "jiji-f80d39dc918ae740",
-      "title": "ＡＰＥＣ外務・貿易相会合、３日開催 オンラインで―中国",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200775&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300374&g=flash"
     },
     {
       "doc_id": "jiji-e0f5bec2b6a1b0c4",
@@ -100,22 +88,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026110200882&g=int"
     },
     {
+      "doc_id": "jiji-6cbdd6ff9a2ada28",
+      "title": "【独自】日本とベトナム、犯罪抑止へ新協定検討 ９日首脳会談で確認へ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110300379&g=soc"
+    },
+    {
+      "doc_id": "jiji-90e69f624b088185",
+      "title": "長生炭鉱、遺骨返還へ連携 日韓外務次官が戦略対話",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110300309&g=pol"
+    },
+    {
+      "doc_id": "jiji-c20cbc503894dbb0",
+      "title": "列車事故、邦人２人目も死亡確認 ６９人身元判明―スペイン当局",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110300199&g=int"
+    },
+    {
       "doc_id": "jiji-9ea4c96710c7279e",
       "title": "毎日出版文化賞に紅野謙介さんら",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026110300164&g=soc"
     },
     {
-      "doc_id": "jiji-7654524c3a0767f6",
-      "title": "ＳＮＳで揺らぐ表現の自由 偽情報拡散、自主規制難しく―識者「国が情報空間に関与を」・憲法公布８０年",
+      "doc_id": "jiji-65f70728bff30c9d",
+      "title": "米制裁は「司法妨害の試み」 ＩＣＣ赤根所長が批判―国連総会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200573&g=soc"
-    },
-    {
-      "doc_id": "jiji-e86113a378bc3d5e",
-      "title": "米アンソロ、売上高２．７兆円 純損失は縮小―７～９月期",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300163&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300388&g=int"
     },
     {
       "doc_id": "nhk-213c228815bd78fb",
@@ -124,40 +124,58 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261103de69859"
     },
     {
-      "doc_id": "nhk-a8bf4db8b1151662",
-      "title": "GMO 経営トップ含めセキュリティーリスク対応の体制構築が課題",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69861"
-    },
-    {
-      "doc_id": "nhk-1e62a532b40025c8",
-      "title": "「秋の叙勲」受章者発表 各界で功労のあった計3861人が受章",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69860"
-    },
-    {
       "doc_id": "nhk-34c836ff4598549a",
       "title": "アメリカ中間選挙 日本時間の今夜から投票開始 焦点は",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261103de69868"
     },
     {
-      "doc_id": "nhk-cb430737d0149bca",
-      "title": "米アンソロピック 売り上げ13倍もAI開発への支出は140兆円余に",
+      "doc_id": "nhk-6c7d0f4898de1289",
+      "title": "カブス 鈴木誠也に“クオリファイング・オファー” 1年36億円",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69869"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69908"
     },
     {
-      "doc_id": "nhk-a0b584bb88dea243",
-      "title": "作家の山中恒さんの手記全文が初公開 憲法公布時期に執筆",
+      "doc_id": "nhk-91246139caffc812",
+      "title": "北朝鮮が巡航ミサイルの発射実験を実施",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69842"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69951"
     },
     {
-      "doc_id": "nhk-79e86f58c2550d71",
-      "title": "中野ブロードウェイ 高級時計窃盗事件 男は新幹線で西に移動か",
+      "doc_id": "nhk-726e32108e9d75dc",
+      "title": "【地震情報】千葉県で震度3 津波の心配なし",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261102de69776"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69903"
+    },
+    {
+      "doc_id": "nhk-43c9921f2096327e",
+      "title": "米アップル主力スマートフォン好調で増益 半導体高騰の懸念も",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69962"
+    },
+    {
+      "doc_id": "nhk-4e5f5a5bd96e70d2",
+      "title": "脚本家の倉本聰さん 「北の国から」富良野でお別れの会 北海道",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69916"
+    },
+    {
+      "doc_id": "itmedia-2d0f7b27c78c1017",
+      "title": "Apple、第4四半期として過去最高の増収増益 ターナスCEO初の決算「Siri AIはずっと望んでいたSiri」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/03/2000002840/"
+    },
+    {
+      "doc_id": "itmedia-315dee444e297f1d",
+      "title": "渦中のGMO記者会見、責任の所在はどこに？ 熊谷代表が語った“グループ内の力関係”",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/03/2000002829/"
+    },
+    {
+      "doc_id": "itmedia-c89a75689655c08d",
+      "title": "Anthropic、IPO申請書を修正 7?9月売上高は約170億ドル、インフラ契約額は約8954億ドル",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/03/2000002831/"
     },
     {
       "doc_id": "itmedia-67b5baa988f6844e",
@@ -214,22 +232,28 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002783/"
     },
     {
-      "doc_id": "itmedia-e59d78934b269eca",
-      "title": "クラブツーリズムに不正アクセス 個人情報約432万件漏えいの可能性、サイト停止",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002782/"
+      "doc_id": "nazology-15309af33e606624",
+      "title": "美しい景色を見た脳は、実は体を動かす準備をゆるめていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205051"
     },
     {
-      "doc_id": "itmedia-77ae5c3390ef0a21",
-      "title": "ロゴ画像用の公開領域に顧客ファイルも保存 GMO系シングルサインオン、4.5万人分漏えい",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002780/"
+      "doc_id": "nazology-8b225f196292d561",
+      "title": "グレートバリアリーフの島で夜に現れる「幻の灯台」の正体",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205139"
     },
     {
-      "doc_id": "itmedia-01457949fcecc216",
-      "title": "Google、宇宙のTPUから初のAI応答を受信 「Project Suncatcher」試作衛星で「Gemma 4」が俳句を詠む",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002779/"
+      "doc_id": "nazology-79414ac8c8f50a3e",
+      "title": "見捨てられ不安が強い人ほど、良いハグを思い出しやすかった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205011"
+    },
+    {
+      "doc_id": "nazology-9fda39c81798309e",
+      "title": "働きアリにも「わがままな脳」、飢えても脳だけはほぼフル稼働",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205005"
     },
     {
       "doc_id": "nazology-17027b47575dc54b",
@@ -266,30 +290,6 @@
       "title": "シーソー台と薬で、止まって6分の犬の心臓を再び動かした博士",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/204346"
-    },
-    {
-      "doc_id": "nazology-191f7a9d367648f1",
-      "title": "10年の観察で判明、ボノボはメスの方がオスより狩りをする",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204390"
-    },
-    {
-      "doc_id": "nazology-c0dbb30151af1cb8",
-      "title": "米国の風車が40年あまりで奪ったコウモリの命、推定1870万匹",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204231"
-    },
-    {
-      "doc_id": "nazology-d54a9f9048fdae5c",
-      "title": "耳あかはアリの脚を滑らせ、体にはしつこくくっつく物質だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204275"
-    },
-    {
-      "doc_id": "nazology-8e02178373412a67",
-      "title": "「最も命を奪う動物」蚊のオス、メスの羽音を耳で千倍以上に増幅",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204429"
     }
   ]
 }
