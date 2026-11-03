@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-03T15:12:26+00:00",
-  "now_ms": 1793718746805,
+  "fetched_at": "2026-11-03T21:02:24+00:00",
+  "now_ms": 1793739744012,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -28,6 +28,12 @@
       "link": "https://news.yahoo.co.jp/pickup/6601163"
     },
     {
+      "doc_id": "yahoo-ddec62f0244f84e9",
+      "title": "山手線外回りが運転再開 駅で発煙",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6601237"
+    },
+    {
       "doc_id": "yahoo-fc1381ee4eabe5e1",
       "title": "台湾の九份 日本人男性が行方不明",
       "source": "Yahoo!ニュース",
@@ -38,12 +44,6 @@
       "title": "アソビュー 1500万件超の情報流出",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6601234"
-    },
-    {
-      "doc_id": "yahoo-5d54963472c509e1",
-      "title": "タイ 輸入EVの物品税引き上げへ",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601233"
     },
     {
       "doc_id": "yahoo-2f41e71600d47858",
@@ -58,70 +58,88 @@
       "link": "https://news.yahoo.co.jp/pickup/6601231"
     },
     {
+      "doc_id": "jiji-79bdb5b01f1dcb6f",
+      "title": "ＮＹ株２１３ドル高 原油安で３日ぶり反発",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110300175&g=int"
+    },
+    {
       "doc_id": "jiji-619c3e42fe4761f6",
       "title": "米中間選挙、投票始まる トランプ氏の政権運営左右―上下両院の多数派焦点",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026110300378&g=int"
     },
     {
-      "doc_id": "jiji-eb8bb781253d2d26",
-      "title": "「インフレひどい」「トランプ氏不支持」 有権者が一票―米中間選挙",
+      "doc_id": "jiji-38f0ed857dc878ec",
+      "title": "ウクライナ巡り４日に会合 ブリュッセルで米欧やＮＡＴＯなど",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300794&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300743&g=int"
     },
     {
-      "doc_id": "jiji-28c7b05b4b6331c1",
-      "title": "都立六本木高校の同級生刺傷事件 「仲直りできないなら心中しよう」 逮捕の加害生徒が供述",
+      "doc_id": "jiji-dcb36612a8bc0785",
+      "title": "避難所改善「国もサポート」 細野防災相が熊本視察",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200952&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110300644&g=pol"
     },
     {
-      "doc_id": "jiji-90b6ce80eb438555",
-      "title": "接触プレーで選手死亡 サッカー・スペイン２部テネリフェ",
+      "doc_id": "jiji-4f8faeeaf6473f01",
+      "title": "【独自】日本とベトナム、犯罪抑止へ新協定検討 ９日首脳会談で確認へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300739&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110300379&g=pol"
     },
     {
-      "doc_id": "jiji-e0f5bec2b6a1b0c4",
-      "title": "トランプ氏「口約束」連発 中間選挙前に焦り",
+      "doc_id": "jiji-e93e9a10ffe97671",
+      "title": "憲法はなぜ改正されないか 公布８０年、識者に聞く",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110200882&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300417&g=pol"
     },
     {
-      "doc_id": "jiji-01a5274ba4301541",
-      "title": "身に余る光栄 旭日大綬章の本荘大阪ガス会長―秋の叙勲",
+      "doc_id": "jiji-5838b9e861bbea54",
+      "title": "米軍がイラン・ケシム島攻撃 トランプ氏、大規模作戦再開「急がず」―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300150&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110300278&g=int"
     },
     {
-      "doc_id": "jiji-46f41997aa9a6ece",
-      "title": "サッカー・アジア杯、来年１２月に延期 森保監督が最後の指揮予定",
+      "doc_id": "jiji-18663b7fce914623",
+      "title": "日本、ベトナム両政府は、自国内で逮捕・拘束した相手国民の情報を相互に通報する新協定を締結する方向で検討に入った",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300439&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110300374&g=flash"
     },
     {
-      "doc_id": "jiji-023b9d69bb886011",
-      "title": "柏、後半続けざま２点 もどかしい展開変えた遠藤―ＡＣＬサッカー",
+      "doc_id": "jiji-33a7c67a0df7283f",
+      "title": "「自衛隊、国民の信頼が重要」 瑞宝大綬章の河野元統幕長―秋の叙勲",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300753&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110300148&g=pol"
     },
     {
-      "doc_id": "jiji-e983a9e5fe170e19",
-      "title": "王子の樋口、完璧な救援 社会人野球日本選手権",
+      "doc_id": "jiji-9ea4c96710c7279e",
+      "title": "毎日出版文化賞に紅野謙介さんら",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300754&g=spo"
-    },
-    {
-      "doc_id": "jiji-91e9b461fbab2514",
-      "title": "松井監督、熱心に打撃指導 恩師譲りの「擬音」も―プロ野球・巨人",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300631&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110300164&g=soc"
     },
     {
       "doc_id": "nhk-3229f7a2b8c19be4",
-      "title": "アメリカ中間選挙 投票始まる トランプ政権への有権者の評価は",
+      "title": "アメリカ中間選挙 投票続く 一部は日本時間の午前8時から開票",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261103de69983"
+    },
+    {
+      "doc_id": "nhk-f80d3a02dbcbcee1",
+      "title": "消費税減税法案 採決時期などめぐり与野党の調整本格化へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70058"
+    },
+    {
+      "doc_id": "nhk-0dee9d228235a906",
+      "title": "JR山手線 外回り 運転再開",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70098"
+    },
+    {
+      "doc_id": "nhk-8a0e81e6b3bf9bfd",
+      "title": "スペイン列車事故 AI導入し異常検知など再発防止策",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70092"
     },
     {
       "doc_id": "nhk-036490bb6fc6e9db",
@@ -130,28 +148,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261103de69969"
     },
     {
-      "doc_id": "nhk-cbe5fb6be8c3bad1",
-      "title": "小泉防衛相 防衛省のAI活用に関する基本方針見直す考え",
+      "doc_id": "nhk-462530979d36ac15",
+      "title": "米・ウクライナ・ロシアの実務者協議 10日からUAEで開催へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70050"
-    },
-    {
-      "doc_id": "nhk-e218f158297f3e9f",
-      "title": "ヒグマと衝突のJR宗谷線 4日から全区間で運転再開へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69986"
-    },
-    {
-      "doc_id": "nhk-d4514eb6123c9758",
-      "title": "ウクライナ南部で31人死亡 東部で70人余けが ロシアの攻撃で",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70056"
-    },
-    {
-      "doc_id": "nhk-eaf0c7de699b19fc",
-      "title": "旧統一教会 ハン・ハクチャ総裁 指定の病院離れ保釈取り消し",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70061"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69878"
     },
     {
       "doc_id": "nhk-d45cd8f5f5b38b1e",
