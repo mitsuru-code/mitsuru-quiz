@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-04T09:19:24+00:00",
-  "now_ms": 1793783964166,
+  "fetched_at": "2026-11-04T17:59:58+00:00",
+  "now_ms": 1793815198210,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-bbce9e948edda6e3",
-      "title": "米大統領 敗因巡りイラン攻撃言及",
+      "doc_id": "yahoo-941ae1b1df2da39f",
+      "title": "米中間選挙 日本政府は動向注視",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601315"
+      "link": "https://news.yahoo.co.jp/pickup/6601362"
     },
     {
-      "doc_id": "yahoo-946715d3cb039dec",
-      "title": "黒人女性が州知事に当選確実 米",
+      "doc_id": "yahoo-e0f29d9a0add705a",
+      "title": "リニア工事費 再び増額へ検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601313"
+      "link": "https://news.yahoo.co.jp/pickup/6601365"
     },
     {
-      "doc_id": "yahoo-5249c8f394acfa8a",
-      "title": "津市の火災 死亡の4人は4～13歳",
+      "doc_id": "yahoo-8d417a53095f657b",
+      "title": "関東 5日は滝のような雨降る所も",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601309"
+      "link": "https://news.yahoo.co.jp/pickup/6601351"
     },
     {
-      "doc_id": "yahoo-f15d08358cb5716d",
-      "title": "重機が倒れ頭挟まれる 作業員死亡",
+      "doc_id": "yahoo-e124680850cd0be1",
+      "title": "児童婚増えるガザ 壮絶性暴力訴え",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601321"
+      "link": "https://news.yahoo.co.jp/pickup/6601344"
     },
     {
-      "doc_id": "yahoo-f00df3c14e5da278",
-      "title": "カスハラ対策 線引きに迷う現場",
+      "doc_id": "yahoo-cceaa177e6344e33",
+      "title": "e-Taxに不審な通信 緊急メンテ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601276"
+      "link": "https://news.yahoo.co.jp/pickup/6601361"
     },
     {
-      "doc_id": "yahoo-ef7d6cbfa119e8a2",
-      "title": "ラッコ見学を全面中止 鳥羽水族館",
+      "doc_id": "yahoo-066846b662b9aceb",
+      "title": "竜王戦でカメムシ出没 僧侶が捕獲",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601310"
+      "link": "https://news.yahoo.co.jp/pickup/6601363"
     },
     {
-      "doc_id": "yahoo-5ef832cfea1262e6",
-      "title": "G松井監督 育成指名の中学生言及",
+      "doc_id": "yahoo-e307da6e52985f5a",
+      "title": "塩貝健人 因縁ブラジル戦で招集外",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601318"
+      "link": "https://news.yahoo.co.jp/pickup/6601360"
     },
     {
-      "doc_id": "yahoo-b6478b41c9d9268f",
-      "title": "ゴジラ-0.0初日興収が実写歴代1位",
+      "doc_id": "yahoo-0cc7bf1286210d10",
+      "title": "日テレ忽滑谷こころアナ 休職発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601317"
+      "link": "https://news.yahoo.co.jp/pickup/6601339"
+    },
+    {
+      "doc_id": "jiji-94b6ac4ecc185b88",
+      "title": "ＮＹ株、一時１２００ドル超高 米中間選挙の民主大勝好感",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110401301&g=int"
     },
     {
       "doc_id": "jiji-69482357fd2209c5",
@@ -64,34 +70,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026110400698&g=int"
     },
     {
-      "doc_id": "jiji-a5667f83f5d8516d",
-      "title": "民主、下院で多数派奪還 上院もリード、政権追及へ―トランプ氏打撃・米中間選挙",
+      "doc_id": "jiji-49beace68f170c31",
+      "title": "ｅ―Ｔａｘに不審な通信 国税庁、一時停止に",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110400118&g=int"
-    },
-    {
-      "doc_id": "jiji-eb83982b635efe4e",
-      "title": "市場予想上回る大勝 坂本篤秀・三井住友銀行シニアエコノミスト―米中間選挙・識者談話",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110400908&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110401192&g=soc"
     },
     {
       "doc_id": "jiji-1bdfe8b65562501b",
-      "title": "バンス氏地元で敗北 上院、激戦も民主に―米中間選挙",
+      "title": "バンス副大統領地元で共和敗北 激戦州も次々民主に―米中間選挙",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026110400120&g=int"
     },
     {
-      "doc_id": "jiji-d7931655b95c4d06",
-      "title": "米国民が戦争に反対 攻撃再開で「悪夢見る」と警告―イラン国会議長・米中間選挙",
+      "doc_id": "jiji-dcddc1657f802a29",
+      "title": "家庭用ＩｏＴ機器に不正ソフト 製造で仕組まれ、サイバー攻撃「踏み台」に―グーグル社と連携し無力化・警察庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110400866&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110401063&g=soc"
     },
     {
-      "doc_id": "jiji-d857899e459a1f60",
-      "title": "男児裸撮影疑い、元保育士逮捕 勤務先の２０人被害か―神奈川県警",
+      "doc_id": "jiji-02d19f1f1482e713",
+      "title": "「普通の人々の勝利」 民主党躍進、支持者喜び爆発―米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110400934&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110400796&g=int"
     },
     {
       "doc_id": "jiji-8002b2de4531b58a",
@@ -100,28 +100,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026110400122&g=int"
     },
     {
-      "doc_id": "jiji-4f74326327ddfb83",
-      "title": "マンホールカード、相次ぐマナー違反 受け取れず怒鳴る客、暴言 発行自治体、やむなく終了も",
+      "doc_id": "jiji-0145726f85812a07",
+      "title": "参政都議「子宮頸がんは風邪」 ボードメンバーを辞任",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300382&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110401018&g=pol"
     },
     {
-      "doc_id": "jiji-12560ca2213c66fd",
-      "title": "米政治の再編進む 三牧聖子・同志社大大学院教授―米中間選挙・識者談話",
+      "doc_id": "jiji-b6a2bd7dc554aff5",
+      "title": "ＮＹダウが取引開始直後に１０００ドル超上昇した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110400940&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110401297&g=flash"
     },
     {
-      "doc_id": "jiji-8cabfeee7363d47e",
-      "title": "トランプ氏、選挙結果受け入れる 米紙",
+      "doc_id": "jiji-63810ba2daac7119",
+      "title": "米貿易赤字、０．７％減 輸入最高も輸出伸びが上回る―９月",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110400581&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110401272&g=int"
     },
     {
       "doc_id": "nhk-347a59c786d34a28",
-      "title": "アメリカ中間選挙 民主党が上下両院で多数派奪還へ【速報中】",
+      "title": "アメリカ中間選挙 民主党 上下両院で多数派奪還へ【最新情報】",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965"
+    },
+    {
+      "doc_id": "nhk-a209a44ea21454ed",
+      "title": "「書道」無形文化遺産に登録へ ユネスコ評価機関「記載」勧告",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70701"
+    },
+    {
+      "doc_id": "nhk-af3aec761e079b44",
+      "title": "日本郵便 サイバー攻撃で海外向け配送「UGX」一部停止",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70691"
     },
     {
       "doc_id": "nhk-d372364f7ff3901d",
@@ -130,34 +142,34 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261104de70494"
     },
     {
-      "doc_id": "nhk-b2e05057d17d00c4",
-      "title": "埼玉県警 巡査部長が警察官から拳銃奪い自分に発砲",
+      "doc_id": "nhk-602e480b554ea338",
+      "title": "伊豆諸島や千葉県に発達した雨雲 昼ごろにかけて大雨のおそれ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70462"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70681"
     },
     {
-      "doc_id": "nhk-4afbad41ab5cd79d",
-      "title": "トランプ大統領「結果を受け入れるつもり」",
+      "doc_id": "nhk-a5c9eb132e20b41c",
+      "title": "NYダウ平均株価 一時1500ドル超上昇 米政治混乱の懸念後退",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70306"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70666"
     },
     {
-      "doc_id": "nhk-19ed3317cdd236ce",
-      "title": "アメリカ史上初の黒人女性知事が南部ジョージア州で誕生へ",
+      "doc_id": "nhk-963739a316e16633",
+      "title": "有罪判決の競泳 本多灯選手に1年9か月の資格停止処分",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70370"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70644"
     },
     {
-      "doc_id": "nhk-d9ddae611a94a22e",
-      "title": "サイバー攻撃で情報漏えいの可能性 10月は1億8500万件あまりに",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70482"
+      "doc_id": "itmedia-712bb0931f22a264",
+      "title": "中国メーカー、出荷前のAndroid端末に犯罪用のバックドアを設置か Googleが取引停止",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002884/"
     },
     {
-      "doc_id": "nhk-540b25b73417cf3f",
-      "title": "AIからの情報漏えい防ぐ新サービス 機密性の高い情報を匿名化",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70425"
+      "doc_id": "itmedia-47fe3603c058e6b7",
+      "title": "無印良品、クレカ「MUJI Card」カード番号全ケタ、約109万件漏えいか 不正アクセスで続報",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002885/"
     },
     {
       "doc_id": "itmedia-8e15e40c1426256d",
@@ -220,16 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002861/"
     },
     {
-      "doc_id": "itmedia-8e8488087768e12c",
-      "title": "アソビュー、会員情報1582万件流出 最終ログイン日や利用施設も メール委託先・アララ不正アクセスで",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002854/"
+      "doc_id": "nazology-3b0600b7bfa9646b",
+      "title": "「宇宙の原料」水素原子を、LEDの光でフラスコの中に作り出すことに成功",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205159"
     },
     {
-      "doc_id": "itmedia-9c3108facc15733c",
-      "title": "Apple、刷新版「Siri AI」を全開発者に開放 アプリ連携で予約や注文などの操作が可能に",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002855/"
+      "doc_id": "nazology-eb396b6aedef0ee9",
+      "title": "63℃のお湯で増えるアメーバ、核を持つ生き物の「62℃が限界」説を破る",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205257"
     },
     {
       "doc_id": "nazology-f233c6f7560fe47c",
@@ -278,18 +290,6 @@
       "title": "時間結晶が“半分溶けた”新状態「時間液体」が提唱された",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205878"
-    },
-    {
-      "doc_id": "nazology-414ccd25932f66da",
-      "title": "亡くなった元NFL選手の4人に3人に、脳が傷む病気があったと推計",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205017"
-    },
-    {
-      "doc_id": "nazology-dfb9acd0b747b7c1",
-      "title": "人間の細胞の「いちばん近い親戚」は、酸素が苦手な微生物だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205142"
     }
   ]
 }
