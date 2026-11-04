@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-03T21:02:24+00:00",
-  "now_ms": 1793739744012,
+  "fetched_at": "2026-11-04T01:25:15+00:00",
+  "now_ms": 1793755515498,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,88 +10,94 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-e48d4f09a3905a35",
-      "title": "米中間選挙 集計長期化の可能性も",
+      "doc_id": "yahoo-7d1eec4c9064f67b",
+      "title": "北朝鮮が日本海に向け飛翔体発射",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601226"
+      "link": "https://news.yahoo.co.jp/pickup/6601267"
     },
     {
-      "doc_id": "yahoo-cdb7e68d26da0ccb",
-      "title": "武部農相 献金巡り新たな疑惑",
+      "doc_id": "yahoo-052e39d078c562de",
+      "title": "中継 米中間選挙の開票速報",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601222"
+      "link": "https://news.yahoo.co.jp/pickup/6601265"
     },
     {
-      "doc_id": "yahoo-f237007ae6a26df7",
-      "title": "露軍 外国人兵に入れ墨で識別番号",
+      "doc_id": "yahoo-dfebb2fa1331dfa1",
+      "title": "自治体システム移行費巡り調査へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601163"
+      "link": "https://news.yahoo.co.jp/pickup/6601258"
     },
     {
-      "doc_id": "yahoo-ddec62f0244f84e9",
-      "title": "山手線外回りが運転再開 駅で発煙",
+      "doc_id": "yahoo-b69255aa8b755587",
+      "title": "関東一部 5日朝に警報級大雨恐れ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601237"
+      "link": "https://news.yahoo.co.jp/pickup/6601253"
     },
     {
-      "doc_id": "yahoo-fc1381ee4eabe5e1",
-      "title": "台湾の九份 日本人男性が行方不明",
+      "doc_id": "yahoo-acbd5d8e43d7a474",
+      "title": "1兆円盗難 バイナンスが手口公表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601219"
+      "link": "https://news.yahoo.co.jp/pickup/6601264"
     },
     {
-      "doc_id": "yahoo-5eff23af536b2627",
-      "title": "アソビュー 1500万件超の情報流出",
+      "doc_id": "yahoo-f45ea033d946e5e0",
+      "title": "パーソナルトレ トラブル急増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601234"
+      "link": "https://news.yahoo.co.jp/pickup/6601250"
     },
     {
-      "doc_id": "yahoo-2f41e71600d47858",
-      "title": "スペイン2部 試合中搬送のFW死去",
+      "doc_id": "yahoo-05146a0d1a23dcc9",
+      "title": "異例抜擢 マリナーズ新監督に36歳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601220"
+      "link": "https://news.yahoo.co.jp/pickup/6601251"
     },
     {
-      "doc_id": "yahoo-22bd26b64a6b4691",
-      "title": "カワラボ メンバーの個人Xを休止",
+      "doc_id": "yahoo-95c01218aadf94e0",
+      "title": "米津「Lemon」MV10億回再生突破",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601231"
+      "link": "https://news.yahoo.co.jp/pickup/6601261"
     },
     {
-      "doc_id": "jiji-79bdb5b01f1dcb6f",
-      "title": "ＮＹ株２１３ドル高 原油安で３日ぶり反発",
+      "doc_id": "jiji-6a61c9265805354f",
+      "title": "マンホールカード、相次ぐマナー違反 受け取れず怒鳴る客、暴言 発行自治体、やむなく終了も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300175&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300382&g=pol"
     },
     {
-      "doc_id": "jiji-619c3e42fe4761f6",
-      "title": "米中間選挙、投票始まる トランプ氏の政権運営左右―上下両院の多数派焦点",
+      "doc_id": "jiji-8002b2de4531b58a",
+      "title": "イスラエル支援打ち切りへ 年６３００億円、投票日に表明―トランプ氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300378&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110400122&g=int"
     },
     {
-      "doc_id": "jiji-38f0ed857dc878ec",
-      "title": "ウクライナ巡り４日に会合 ブリュッセルで米欧やＮＡＴＯなど",
+      "doc_id": "jiji-231cf6cd11ac86a2",
+      "title": "高市首相Ｇ７欠席「飲み会」理由？ 政府の説明曖昧、野党追及",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300743&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110300386&g=pol"
     },
     {
-      "doc_id": "jiji-dcb36612a8bc0785",
-      "title": "避難所改善「国もサポート」 細野防災相が熊本視察",
+      "doc_id": "jiji-a5667f83f5d8516d",
+      "title": "米中間選挙、開票始まる 上下両院の多数派焦点―共和維持か、民主奪還か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300644&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110400118&g=int"
     },
     {
-      "doc_id": "jiji-4f8faeeaf6473f01",
-      "title": "【独自】日本とベトナム、犯罪抑止へ新協定検討 ９日首脳会談で確認へ",
+      "doc_id": "jiji-1bdfe8b65562501b",
+      "title": "バンス氏地元も接戦 上院、激戦州の勝敗カギ―米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300379&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110400120&g=int"
     },
     {
-      "doc_id": "jiji-e93e9a10ffe97671",
-      "title": "憲法はなぜ改正されないか 公布８０年、識者に聞く",
+      "doc_id": "jiji-e653dd3a5800fdad",
+      "title": "北朝鮮の金与正氏「米国と向き合う必要ない」 敵対姿勢に反発",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300417&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110400153&g=int"
+    },
+    {
+      "doc_id": "jiji-b6d8ce99cb868224",
+      "title": "ＮＹ円、１５８円台後半",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110400217&g=int"
     },
     {
       "doc_id": "jiji-5838b9e861bbea54",
@@ -100,64 +106,106 @@
       "link": "https://www.jiji.com/jc/article?k=2026110300278&g=int"
     },
     {
-      "doc_id": "jiji-18663b7fce914623",
-      "title": "日本、ベトナム両政府は、自国内で逮捕・拘束した相手国民の情報を相互に通報する新協定を締結する方向で検討に入った",
+      "doc_id": "jiji-4f8faeeaf6473f01",
+      "title": "【独自】日本とベトナム、犯罪抑止へ新協定検討 ９日首脳会談で確認へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300374&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026110300379&g=pol"
     },
     {
-      "doc_id": "jiji-33a7c67a0df7283f",
-      "title": "「自衛隊、国民の信頼が重要」 瑞宝大綬章の河野元統幕長―秋の叙勲",
+      "doc_id": "jiji-619c3e42fe4761f6",
+      "title": "米中間選挙、投票始まる トランプ氏の政権運営左右―上下両院の多数派焦点",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300148&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110300378&g=int"
     },
     {
-      "doc_id": "jiji-9ea4c96710c7279e",
-      "title": "毎日出版文化賞に紅野謙介さんら",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110300164&g=soc"
-    },
-    {
-      "doc_id": "nhk-3229f7a2b8c19be4",
-      "title": "アメリカ中間選挙 投票続く 一部は日本時間の午前8時から開票",
+      "doc_id": "nhk-347a59c786d34a28",
+      "title": "アメリカ中間選挙 上院 民主党 7つの州で当選確実【随時更新】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69983"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965"
     },
     {
-      "doc_id": "nhk-f80d3a02dbcbcee1",
-      "title": "消費税減税法案 採決時期などめぐり与野党の調整本格化へ",
+      "doc_id": "nhk-4e1ce43cba9ba50a",
+      "title": "“北朝鮮が飛しょう体を発射”韓国軍発表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70058"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70141"
     },
     {
-      "doc_id": "nhk-0dee9d228235a906",
-      "title": "JR山手線 外回り 運転再開",
+      "doc_id": "nhk-1a798f6045059496",
+      "title": "台風31号の影響 あすは関東・伊豆諸島で大雨のおそれ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70098"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70112"
     },
     {
-      "doc_id": "nhk-8a0e81e6b3bf9bfd",
-      "title": "スペイン列車事故 AI導入し異常検知など再発防止策",
+      "doc_id": "nhk-48fcaa30408f4b6b",
+      "title": "スペインの運輸相 辞任の意向を表明 列車事故を受けて",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70092"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70111"
     },
     {
-      "doc_id": "nhk-036490bb6fc6e9db",
-      "title": "サッカーアジア杯 開催を来年12月に延期 サウジ情勢の影響で",
+      "doc_id": "nhk-e41faa9e75d0da98",
+      "title": "暗号資産大手が報告書 偽面接やAIツールでシステムに侵入",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69969"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70104"
     },
     {
-      "doc_id": "nhk-462530979d36ac15",
-      "title": "米・ウクライナ・ロシアの実務者協議 10日からUAEで開催へ",
+      "doc_id": "nhk-e8f970bced8ce375",
+      "title": "APEC閣僚会議開催 オンライン形式は異例",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de69878"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70103"
     },
     {
-      "doc_id": "nhk-d45cd8f5f5b38b1e",
-      "title": "サッカースペイン2部の試合で選手どうしが激突 1人死亡",
+      "doc_id": "nhk-1e9b615580de1604",
+      "title": "ウクライナ・ドイツ首脳会談 3か国協議で具体的な進展に期待",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70067"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261104de70105"
+    },
+    {
+      "doc_id": "itmedia-8e8488087768e12c",
+      "title": "アソビュー、会員情報1582万件流出 最終ログイン日や利用施設も メール委託先・アララ不正アクセスで",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002854/"
+    },
+    {
+      "doc_id": "itmedia-9c3108facc15733c",
+      "title": "Apple、刷新版「Siri AI」を全開発者に開放 アプリ連携で予約や注文などの操作が可能に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002855/"
+    },
+    {
+      "doc_id": "itmedia-47241ac92f64c8f6",
+      "title": "セブン-イレブン「7NOW」の利用者情報16万件超漏えい 配達委託先に不正アクセス、出前館でも約800件",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002852/"
+    },
+    {
+      "doc_id": "itmedia-d2132ad6bdc76457",
+      "title": "Microsoft、メモリ8GBのWindows 11 PCを高速化 マルチタスク処理は最大40％向上",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002851/"
+    },
+    {
+      "doc_id": "itmedia-46fe84fbbc43119e",
+      "title": "GMOペイメント、決済支援システムで「不正なユーザーによる行為」 「Vプリカ」69件漏えい、3件はセキュリティコードも",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002850/"
+    },
+    {
+      "doc_id": "itmedia-0955501330a9ee7c",
+      "title": "Google、学校の生徒向けAI機能を原則オフへ 「AIなしのGoogle検索」は選べず批判も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002849/"
+    },
+    {
+      "doc_id": "itmedia-cb4c2bb23fd6843a",
+      "title": "ノジマオンライン、会員情報約700万件漏えい 不正アクセスでサイト休止、再開未定",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002848/"
+    },
+    {
+      "doc_id": "itmedia-99310cb6f433c820",
+      "title": "Aterm設定画面、「PHP使ってないのに.php」なぜ？ NECに聞いた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/04/2000002847/"
     },
     {
       "doc_id": "itmedia-2d0f7b27c78c1017",
@@ -184,52 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/03/2000002830/"
     },
     {
-      "doc_id": "itmedia-c112ca09916fda01",
-      "title": "「命の砂時計」連呼のGMO会見──熊谷代表の発言にXではツッコミ続出",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002828/"
+      "doc_id": "nazology-0d95425c0b4b5d41",
+      "title": "中世の「ミイラの薬」が細胞をインフルエンザから守る可能性",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205231"
     },
     {
-      "doc_id": "itmedia-05d296ba642dcb72",
-      "title": "GMO熊谷代表、涙の謝罪会見でも“熊谷節”さく裂──「31年間、もうけるという言葉は使ったことがない」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002823/"
-    },
-    {
-      "doc_id": "itmedia-38eafa37b50656b8",
-      "title": "GMO熊谷代表、会見で改めて謝罪 SNS投稿巡り「配慮が欠けていた」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002806/"
-    },
-    {
-      "doc_id": "itmedia-d1f2bc2239fd0bec",
-      "title": "山岳救助を迅速化へ 兵庫県警が登山アプリ「ヤマップ」と協定締結",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002800/"
-    },
-    {
-      "doc_id": "itmedia-d6990b1c718f43bd",
-      "title": "アットコスメ、会員約300万人分の情報漏えい 不正アクセスで",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002795/"
-    },
-    {
-      "doc_id": "itmedia-10aa6b43c99a4340",
-      "title": "ニコニコレンタカー、免許証画像の事前登録を廃止 保存済み画像も全削除 サイバー攻撃の増加受け",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002786/"
-    },
-    {
-      "doc_id": "itmedia-0a47c93fa600f82d",
-      "title": "楽天証券、顧客情報362件が漏えいか NTTデータ委託先に不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002785/"
-    },
-    {
-      "doc_id": "itmedia-58476d28669eccd7",
-      "title": "ワールド子会社に不正アクセス、会員情報のべ約120万件が流出の可能性 「RAGTAG」運営元",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/02/2000002783/"
+      "doc_id": "nazology-12cb26ff5530b395",
+      "title": "150年の謎が決着、「絶滅した巨大ヅル」は昔の大柄なクロヅルだった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205154"
     },
     {
       "doc_id": "nazology-b9d3b37090799c87",
@@ -278,18 +290,6 @@
       "title": "地獄のニワトリは肉食ではなかった、食事の多くはやわらかい果物とみられる",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205021"
-    },
-    {
-      "doc_id": "nazology-fd521f06d4c79412",
-      "title": "貝殻のほぼすべての形は、たった3つの要素で描けると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204349"
-    },
-    {
-      "doc_id": "nazology-3e6920717245d7f9",
-      "title": "フラフープの輪を回すのは脚の骨の「ひねり」だったと発見か",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/204412"
     }
   ]
 }
