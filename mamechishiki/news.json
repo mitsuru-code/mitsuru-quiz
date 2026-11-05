@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-05T15:30:42+00:00",
-  "now_ms": 1793892642685,
+  "fetched_at": "2026-11-05T22:01:33+00:00",
+  "now_ms": 1793916093174,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,34 +10,28 @@
   },
   "candidates": [
     {
+      "doc_id": "yahoo-a27b1a63d5c40e75",
+      "title": "ルビオ国務長官が辞任検討か 報道",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6601475"
+    },
+    {
       "doc_id": "yahoo-38315a798abde322",
       "title": "露 JT資産を同国企業の管理下に",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6601467"
     },
     {
-      "doc_id": "yahoo-06023fdc34adfa9f",
-      "title": "めぐみさん拉致 母「会いたい」",
+      "doc_id": "yahoo-1b0ac7881f3b4d10",
+      "title": "NYダウ急落 一時1800ドル超安",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601458"
+      "link": "https://news.yahoo.co.jp/pickup/6601477"
     },
     {
-      "doc_id": "yahoo-2e31d5caa9332d0b",
-      "title": "自転車の青切符 半年で約1.6万件",
+      "doc_id": "yahoo-8d6e1b13955a95a7",
+      "title": "山梨ダルク代表 1.1億円私的流用",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601460"
-    },
-    {
-      "doc_id": "yahoo-69c138538aa43df7",
-      "title": "蔵内前議長 条件尽くしの異例会見",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601474"
-    },
-    {
-      "doc_id": "yahoo-5e5f21eed00d9f45",
-      "title": "日本製紙 八代工場の紙生産断念へ",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601473"
+      "link": "https://news.yahoo.co.jp/pickup/6601479"
     },
     {
       "doc_id": "yahoo-67802f41ff1a0389",
@@ -52,70 +46,82 @@
       "link": "https://news.yahoo.co.jp/pickup/6601469"
     },
     {
+      "doc_id": "yahoo-83a9a489562bf2d4",
+      "title": "通算76勝のSB東浜巨 広島移籍へ",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6601476"
+    },
+    {
       "doc_id": "yahoo-4059da2625e61a95",
       "title": "電撃辞任の岡田氏 JFA会長が言及",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6601449"
     },
     {
-      "doc_id": "jiji-f7f7cc672f4dfbe5",
-      "title": "トランプ氏、弾劾けん制 野党民主、下院２４０議席超―米中間選挙",
+      "doc_id": "jiji-c72595e71a6446be",
+      "title": "ロシア、ＪＴ資産を管理下に 対日圧力強化の一環か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500197&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110501153&g=int"
     },
     {
-      "doc_id": "jiji-c12d925e47bb6d46",
-      "title": "山下美夢有ら首位発進 ＴＯＴＯ女子ゴルフ",
+      "doc_id": "jiji-f1abb62cbb669e65",
+      "title": "「サイバー救援隊」創設へ 政府緊急対策、６日決定",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500945&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110500942&g=pol"
     },
     {
-      "doc_id": "jiji-6bdd6abd31d266ff",
-      "title": "中川圭太内野手がＦＡ権行使 プロ野球・オリックス",
+      "doc_id": "jiji-7f6fa2dda65506c1",
+      "title": "高市首相は米中間選挙を受け、日米関係強化のためトランプ大統領と連携すると述べた。",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500840&g=bsb"
+      "link": "https://www.jiji.com/jc/article?k=2026110501010&g=flash"
     },
     {
-      "doc_id": "jiji-64f10af44b1131ea",
-      "title": "予測サイト、上院３５議席中３２議席で的中 精度で一定の評価保たれる―米中間選挙",
+      "doc_id": "jiji-cd249a0548f6c47e",
+      "title": "ロシア産軽油タンカーが針路変更 米との取引「頓挫」か―英紙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500707&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110600132&g=int"
     },
     {
-      "doc_id": "jiji-b637238a761a6a75",
-      "title": "ＦＩＦＡ会長選、田嶋幸三氏が立候補へ 「公平、公正に戻るべき」―Ｗ杯米国選手の出場停止処分猶予、イランチームの入国対応など疑問視",
+      "doc_id": "jiji-3b7e0ac74c9506e1",
+      "title": "パラグアイ大統領が辞意",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500917&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110600135&g=int"
     },
     {
-      "doc_id": "jiji-69482357fd2209c5",
-      "title": "米中間選挙、共和大敗 民主、上下両院で多数派奪還―トランプ氏の求心力低下",
+      "doc_id": "jiji-afe9f29003654c4c",
+      "title": "与党、６日衆院通過の構え 消費減税、野党の取り込み進まず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110400698&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110501043&g=pol"
     },
     {
-      "doc_id": "jiji-8ac300e7984f1f7a",
-      "title": "データセンター規制に賛成拡大 米中間選挙、各地で住民投票",
+      "doc_id": "jiji-114058b8a855b15e",
+      "title": "消費減税、６日にも衆院通過 与野党、高市首相出席で合意",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500663&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110400334&g=pol"
     },
     {
-      "doc_id": "jiji-b8e522e589f0da20",
-      "title": "「選挙干渉用宇宙レーザー機能せず」 共和大敗でマスク氏ぼやき―米中間選挙",
+      "doc_id": "jiji-bd12962b8b1fdbd7",
+      "title": "首相動静（１１月５日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500493&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110500258&g=pol"
     },
     {
-      "doc_id": "jiji-3559301880b0259b",
-      "title": "レームダック化したトランプ氏、中間選挙後も波乱の火種か",
+      "doc_id": "jiji-555995dd807502be",
+      "title": "日本が決勝進出 Ｕ１７女子Ｗ杯サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261105049542a&g=afp"
+      "link": "https://www.jiji.com/jc/article?k=2026110500279&g=prk"
     },
     {
-      "doc_id": "jiji-a683b57b476c9b6e",
-      "title": "共和大敗で不協和音 バンス副大統領、トランプ氏と一線―米中間選挙",
+      "doc_id": "jiji-6cef853fc7dae680",
+      "title": "ロシア大統領は日本たばこ産業（ＪＴ）のロシア国内資産をロシア企業の一時管理下に移すことを命じた",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500655&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110501146&g=flash"
+    },
+    {
+      "doc_id": "nhk-ada3fbea1b81938d",
+      "title": "関心高まる「サイバーBCP」 攻撃された後も事業継続へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71299"
     },
     {
       "doc_id": "nhk-4d30d6e05bd70ed0",
@@ -124,16 +130,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261105de71261"
     },
     {
-      "doc_id": "nhk-c682a029f3bf0dcd",
-      "title": "アイリスオーヤマ 約770万人分の個人情報が漏えいした可能性",
+      "doc_id": "nhk-92c495d974eb1450",
+      "title": "消費税減税法案 与党きょう採決の構え 野党“具体像あいまい”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71262"
-    },
-    {
-      "doc_id": "nhk-c8b800022e48017f",
-      "title": "ドコモで不正アクセス 電話番号など顧客情報最大約30万件流出",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70776"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71308"
     },
     {
       "doc_id": "nhk-347a59c786d34a28",
@@ -142,22 +142,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965"
     },
     {
-      "doc_id": "nhk-a209a44ea21454ed",
-      "title": "「書道」無形文化遺産に登録へ ユネスコ評価機関「記載」勧告",
+      "doc_id": "nhk-8e1f56264b079ae2",
+      "title": "フランスで再び大規模デモ 高校で火災など混乱も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70701"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71327"
     },
     {
-      "doc_id": "nhk-8b89732cf1217137",
-      "title": "ヨーロッパの旅客機に爆破予告相次ぐ",
+      "doc_id": "nhk-542cad1f1df886c4",
+      "title": "メラニア夫人“ウクライナの局地的な停戦を永続的な平和へ”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71269"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71316"
     },
     {
-      "doc_id": "nhk-0b1ffbb613e0bfba",
-      "title": "取り調べ拒否が増加 検察が「マニュアル」作成し対応",
+      "doc_id": "nhk-98b4d9e8e3461685",
+      "title": "原発賠償で国から東電への支援15兆円余 回収に最長39年と試算",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71266"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71317"
     },
     {
       "doc_id": "itmedia-f167214992211ce1",
