@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: x-quiz
+expected_outcome: |
+  史実の事例だけを使った4択クイズ3問。各問140字以内、正解・解説・出典付き
