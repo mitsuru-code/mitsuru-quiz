@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-05T06:52:35+00:00",
-  "now_ms": 1793861555592,
+  "fetched_at": "2026-11-05T15:30:42+00:00",
+  "now_ms": 1793892642685,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,70 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-1dbd17c453829464",
-      "title": "黒字リストラ 日本にも広がるか",
+      "doc_id": "yahoo-38315a798abde322",
+      "title": "露 JT資産を同国企業の管理下に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601409"
+      "link": "https://news.yahoo.co.jp/pickup/6601467"
     },
     {
-      "doc_id": "yahoo-34d7ec410b13b6f4",
-      "title": "英語版DBZ作曲家 州司法長官に",
+      "doc_id": "yahoo-06023fdc34adfa9f",
+      "title": "めぐみさん拉致 母「会いたい」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601402"
+      "link": "https://news.yahoo.co.jp/pickup/6601458"
     },
     {
-      "doc_id": "yahoo-750ed855aec8f5e0",
-      "title": "バンス氏 米大統領と距離置く姿勢",
+      "doc_id": "yahoo-2e31d5caa9332d0b",
+      "title": "自転車の青切符 半年で約1.6万件",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601425"
+      "link": "https://news.yahoo.co.jp/pickup/6601460"
     },
     {
-      "doc_id": "yahoo-96618aec0d86f898",
-      "title": "ドコモ携帯 全国で障害が発生",
+      "doc_id": "yahoo-69c138538aa43df7",
+      "title": "蔵内前議長 条件尽くしの異例会見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601414"
+      "link": "https://news.yahoo.co.jp/pickup/6601474"
     },
     {
-      "doc_id": "yahoo-92c87f66b6c5ee21",
-      "title": "ドコモ オンラインサービス停止",
+      "doc_id": "yahoo-5e5f21eed00d9f45",
+      "title": "日本製紙 八代工場の紙生産断念へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601413"
+      "link": "https://news.yahoo.co.jp/pickup/6601473"
     },
     {
-      "doc_id": "yahoo-e987bcc1ccd3a7b1",
-      "title": "「フレネミー」26年流行語候補に",
+      "doc_id": "yahoo-67802f41ff1a0389",
+      "title": "「ドンキ流トイザらス」が始動",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601423"
+      "link": "https://news.yahoo.co.jp/pickup/6601471"
     },
     {
-      "doc_id": "yahoo-0e4931aead069621",
-      "title": "ラッコの「キラ」死ぬ 鳥羽水族館",
+      "doc_id": "yahoo-e24b1690845972f3",
+      "title": "市場で1匹10万円の高級魚 養殖へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601422"
+      "link": "https://news.yahoo.co.jp/pickup/6601469"
     },
     {
-      "doc_id": "yahoo-130640187b197ad4",
-      "title": "フジ 全ドラマに生成AI導入へ",
+      "doc_id": "yahoo-4059da2625e61a95",
+      "title": "電撃辞任の岡田氏 JFA会長が言及",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601418"
-    },
-    {
-      "doc_id": "jiji-b8e522e589f0da20",
-      "title": "共和大敗、マスク氏ぼやき 「宇宙レーザー機能せず」―米中間選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500493&g=int"
-    },
-    {
-      "doc_id": "jiji-8455a8091bc4d1fd",
-      "title": "イスラエル総選挙の結果確定、組閣へ協議開始 野党が交渉主導か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500191&g=int"
-    },
-    {
-      "doc_id": "jiji-69482357fd2209c5",
-      "title": "米中間選挙、共和大敗 民主、上下両院で多数派奪還―トランプ氏の求心力低下",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110400698&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6601449"
     },
     {
       "doc_id": "jiji-f7f7cc672f4dfbe5",
@@ -82,82 +64,106 @@
       "link": "https://www.jiji.com/jc/article?k=2026110500197&g=int"
     },
     {
-      "doc_id": "jiji-00c2cc5ff1338f03",
-      "title": "ヘグセス国防長官に交代説 トランプ氏は否定―米報道",
+      "doc_id": "jiji-c12d925e47bb6d46",
+      "title": "山下美夢有ら首位発進 ＴＯＴＯ女子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500269&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110500945&g=spo"
     },
     {
-      "doc_id": "jiji-9fedb50ae219bff0",
-      "title": "「酷暑日」「ＡＩ暴走」 流行語大賞、候補３０語を発表",
+      "doc_id": "jiji-6bdd6abd31d266ff",
+      "title": "中川圭太内野手がＦＡ権行使 プロ野球・オリックス",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500627&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110500840&g=bsb"
     },
     {
-      "doc_id": "jiji-49beace68f170c31",
-      "title": "ｅ―Ｔａｘに不審な通信 国税庁、一時停止に",
+      "doc_id": "jiji-64f10af44b1131ea",
+      "title": "予測サイト、上院３５議席中３２議席で的中 精度で一定の評価保たれる―米中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110401192&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110500707&g=int"
     },
     {
-      "doc_id": "jiji-555995dd807502be",
-      "title": "日本が決勝進出 Ｕ１７女子Ｗ杯サッカー",
+      "doc_id": "jiji-b637238a761a6a75",
+      "title": "ＦＩＦＡ会長選、田嶋幸三氏が立候補へ 「公平、公正に戻るべき」―Ｗ杯米国選手の出場停止処分猶予、イランチームの入国対応など疑問視",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500279&g=prk"
+      "link": "https://www.jiji.com/jc/article?k=2026110500917&g=spo"
     },
     {
-      "doc_id": "jiji-f62a68b6e0136dfc",
-      "title": "国民の怒り反映 前嶋和弘・上智大教授―米中間選挙・識者談話",
+      "doc_id": "jiji-69482357fd2209c5",
+      "title": "米中間選挙、共和大敗 民主、上下両院で多数派奪還―トランプ氏の求心力低下",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500604&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110400698&g=int"
     },
     {
-      "doc_id": "jiji-9b1283ffcf3d4d72",
-      "title": "改造車向けに不正車検容疑 経営者ら逮捕―警視庁",
+      "doc_id": "jiji-8ac300e7984f1f7a",
+      "title": "データセンター規制に賛成拡大 米中間選挙、各地で住民投票",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500539&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110500663&g=int"
     },
     {
-      "doc_id": "nhk-3e4438a6b044d90c",
-      "title": "2026年の新語・流行語大賞の候補 30のことばは？",
+      "doc_id": "jiji-b8e522e589f0da20",
+      "title": "「選挙干渉用宇宙レーザー機能せず」 共和大敗でマスク氏ぼやき―米中間選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110500493&g=int"
+    },
+    {
+      "doc_id": "jiji-3559301880b0259b",
+      "title": "レームダック化したトランプ氏、中間選挙後も波乱の火種か",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=20261105049542a&g=afp"
+    },
+    {
+      "doc_id": "jiji-a683b57b476c9b6e",
+      "title": "共和大敗で不協和音 バンス副大統領、トランプ氏と一線―米中間選挙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110500655&g=int"
+    },
+    {
+      "doc_id": "nhk-4d30d6e05bd70ed0",
+      "title": "ロシア国内のJT関連工場 一時的にロシア企業管理下に 大統領令",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70801"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71261"
+    },
+    {
+      "doc_id": "nhk-c682a029f3bf0dcd",
+      "title": "アイリスオーヤマ 約770万人分の個人情報が漏えいした可能性",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71262"
     },
     {
       "doc_id": "nhk-c8b800022e48017f",
-      "title": "ドコモに不正アクセスの可能性 オンラインサービス停止",
+      "title": "ドコモで不正アクセス 電話番号など顧客情報最大約30万件流出",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261105de70776"
     },
     {
       "doc_id": "nhk-347a59c786d34a28",
-      "title": "アメリカ中間選挙 共和党大敗 イラン情勢への対応が焦点に",
+      "title": "アメリカ中間選挙 共和党大敗 トランプ大統領の対応は【詳報】",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261103de69965"
     },
     {
-      "doc_id": "nhk-abe40a787bdfc130",
-      "title": "20年前の大雨取材で行方不明の記者 骨の一部見つかる 広島",
+      "doc_id": "nhk-a209a44ea21454ed",
+      "title": "「書道」無形文化遺産に登録へ ユネスコ評価機関「記載」勧告",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70937"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70701"
     },
     {
-      "doc_id": "nhk-a555d33afee12c32",
-      "title": "NTTドコモ 全国で音声通話やデータ通信など 利用しにくい状況",
+      "doc_id": "nhk-8b89732cf1217137",
+      "title": "ヨーロッパの旅客機に爆破予告相次ぐ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70883"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71269"
     },
     {
-      "doc_id": "nhk-369f1102c64f1e61",
-      "title": "アメリカ中間選挙 トランプ大統領の「ゲリマンダー」不発に",
+      "doc_id": "nhk-0b1ffbb613e0bfba",
+      "title": "取り調べ拒否が増加 検察が「マニュアル」作成し対応",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70892"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71266"
     },
     {
-      "doc_id": "nhk-196bc9b4d0be966d",
-      "title": "トヨタ元社長 奥田碩氏をしのぶ「感謝の会」 約1000人が参列",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de70932"
+      "doc_id": "itmedia-f167214992211ce1",
+      "title": "医療機関のサイバーセキュリティー強化へ ランサムウエア攻撃で診療への長期影響リスク",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002921/"
     },
     {
       "doc_id": "itmedia-50a15d59c28d8118",
@@ -226,10 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002894/"
     },
     {
-      "doc_id": "itmedia-c2de410b2fadc367",
-      "title": "仏銀行Credit Mutuel Arkeaにサイバー攻撃 委託先経由で侵入、不正送金の被害は約1億ユーロか",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002891/"
+      "doc_id": "nazology-e3b07b2bed9cd565",
+      "title": "何十年も2種類とされてきた磁石の性質に3つ目があると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205388"
+    },
+    {
+      "doc_id": "nazology-89e8b87ff819fdc5",
+      "title": "AIの「人間のふり」は人をだませる域に近づいていると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205455"
+    },
+    {
+      "doc_id": "nazology-c45ae529bc47a3cc",
+      "title": "寒さで長生きする線虫、筋肉が「長寿の小包」を作って神経や腸へ配っていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205227"
     },
     {
       "doc_id": "nazology-02452a366eaf4e4e",
@@ -272,24 +290,6 @@
       "title": "63℃のお湯で増えるアメーバ、核を持つ生き物の「62℃が限界」説を破る",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205257"
-    },
-    {
-      "doc_id": "nazology-f233c6f7560fe47c",
-      "title": "60年追い求められた「幻の分子」、安定した形での取り出しに成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205052"
-    },
-    {
-      "doc_id": "nazology-93c3ce233e6c5418",
-      "title": "時空の組み替えで物質にエネルギーが渡る――アインシュタインの方程式はそれが可能だと示唆している",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205904"
-    },
-    {
-      "doc_id": "nazology-dec5d51ca67734f7",
-      "title": "運動をやめた後も、肝臓は「鍛えた記憶」を残していた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205234"
     }
   ]
 }
