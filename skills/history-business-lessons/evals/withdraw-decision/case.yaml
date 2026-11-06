@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: withdraw-decision
+expected_outcome: |
+  撤退判断の構造を示し、成功・失敗の歴史事例2〜3件に確度ラベル付きで当てはめ、具体的な行動案と撤退基準を示す

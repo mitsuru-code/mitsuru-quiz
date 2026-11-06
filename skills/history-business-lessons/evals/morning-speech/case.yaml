@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: morning-speech
+expected_outcome: |
+  話し言葉で約300字の朝礼原稿。つかみ→出来事→教訓→今日の行動の流れで、史実の事例を使う
