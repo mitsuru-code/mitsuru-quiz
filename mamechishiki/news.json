@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-06T02:29:46+00:00",
-  "now_ms": 1793932186941,
+  "fetched_at": "2026-11-06T10:57:53+00:00",
+  "now_ms": 1793962673966,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-592d796a95de878b",
-      "title": "ルビオ長官 辞任検討の報道否定",
+      "doc_id": "yahoo-f1ee7000664ad541",
+      "title": "信金で大規模障害 ATMなど復旧",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601491"
+      "link": "https://news.yahoo.co.jp/pickup/6601562"
     },
     {
-      "doc_id": "yahoo-ecaa71a82b0101ed",
-      "title": "取り調べ拒否24年以降158件 調査",
+      "doc_id": "yahoo-0711fda9d7460b63",
+      "title": "中間選挙ショック 世界で株安連鎖",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601499"
+      "link": "https://news.yahoo.co.jp/pickup/6601546"
     },
     {
-      "doc_id": "yahoo-2c5d5b93b0f52706",
-      "title": "9月の実質賃金 9カ月連続プラス",
+      "doc_id": "yahoo-7ac236c9e1fe344f",
+      "title": "石破前首相ら減税法案の採決退席",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601493"
+      "link": "https://news.yahoo.co.jp/pickup/6601535"
     },
     {
-      "doc_id": "yahoo-c0a4a4af688c7ac6",
-      "title": "日経平均 一時4000円以上値下がり",
+      "doc_id": "yahoo-8c205e3525b8769e",
+      "title": "破産手続き中の全東信 社長が死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601497"
+      "link": "https://news.yahoo.co.jp/pickup/6601548"
     },
     {
-      "doc_id": "yahoo-5966656d800f1142",
-      "title": "米加州 死刑囚548人を終身刑に",
+      "doc_id": "yahoo-b9568ab2f4079cb5",
+      "title": "「ウポポイ」認知度27.5% 内閣府",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601498"
+      "link": "https://news.yahoo.co.jp/pickup/6601557"
     },
     {
-      "doc_id": "yahoo-2fb24165bb4901ab",
-      "title": "Suicaペンギンのバッグ 販売休止",
+      "doc_id": "yahoo-c3add2b7e47c26b8",
+      "title": "国内最後の飼育 キンシコウが死ぬ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601502"
+      "link": "https://news.yahoo.co.jp/pickup/6601550"
     },
     {
-      "doc_id": "yahoo-20ffecde62ed51ae",
-      "title": "南野拓実が1A 完全復活アピール",
+      "doc_id": "yahoo-1b69e304b55bafcc",
+      "title": "「推し活疲れ」スマホが一因に?",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601501"
+      "link": "https://news.yahoo.co.jp/pickup/6601559"
     },
     {
-      "doc_id": "yahoo-81bf2d55e2323868",
-      "title": "流行語候補 芸人ギャグがない背景",
+      "doc_id": "yahoo-891e9e976bc705c2",
+      "title": "広陵前監督・中井氏 中学生指導へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601500"
+      "link": "https://news.yahoo.co.jp/pickup/6601553"
+    },
+    {
+      "doc_id": "jiji-90279f955ef65ee1",
+      "title": "政府がサイバー攻撃の「緊急対策パッケージ」 強制遮断の検討加速、被害防止へ新チーム",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110600989&g=pol"
+    },
+    {
+      "doc_id": "jiji-cc8081ce88a796c4",
+      "title": "たたりうわさの「将門塚」にしがみついた疑い 動画配信の３０代男を書類送検―警視庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110600739&g=soc"
+    },
+    {
+      "doc_id": "jiji-2360b97f83ea6745",
+      "title": "石破、小渕氏ら採決棄権 消費減税法案、処分求める声",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110600913&g=pol"
     },
     {
       "doc_id": "jiji-c72595e71a6446be",
@@ -64,172 +82,178 @@
       "link": "https://www.jiji.com/jc/article?k=2026110501153&g=int"
     },
     {
-      "doc_id": "jiji-9b8c0c86df57ab03",
-      "title": "消費減税、午後に衆院通過 高市首相、給付対象「３割以上」",
+      "doc_id": "jiji-d2590befceb31942",
+      "title": "畑岡奈紗が単独首位浮上 ＴＯＴＯ女子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600299&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110600902&g=spo"
     },
     {
-      "doc_id": "jiji-c99d9d281137dbff",
-      "title": "公明、消費減税に迷い 統一選意識、参院賛成論も",
+      "doc_id": "jiji-daf77d8940036a03",
+      "title": "公的年金を運用するＧＰＩＦが発表した７～９月期の運用損益は５兆２５３３億円のマイナスだった",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110501066&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110600777&g=flash"
     },
     {
-      "doc_id": "jiji-cd249a0548f6c47e",
-      "title": "ロシア産軽油タンカーが針路変更 米との取引「頓挫」か―英紙",
+      "doc_id": "jiji-8352f0a0913d2161",
+      "title": "「中身不明」「憲政史上に汚点」 野党、消費減税法案を批判",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600132&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110600984&g=pol"
     },
     {
-      "doc_id": "jiji-7f6fa2dda65506c1",
-      "title": "高市首相は米中間選挙を受け、日米関係強化のためトランプ大統領と連携すると述べた。",
+      "doc_id": "jiji-f857d235e38733b4",
+      "title": "タランチュラ３０００匹密輸画策 欧州向け２．６億円相当、３人拘束―ペルー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110501010&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026110600709&g=int"
     },
     {
-      "doc_id": "jiji-f7f7cc672f4dfbe5",
-      "title": "トランプ氏、弾劾けん制 野党民主、下院２４０議席超―米中間選挙",
+      "doc_id": "jiji-1607cec92c663f0d",
+      "title": "前田光史朗が首位守る ＡＣＮ男子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500197&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110600946&g=spo"
     },
     {
-      "doc_id": "jiji-885eb0749cf30903",
-      "title": "ＮＹ株急反落、１８００ドル超安 規制強化懸念でＡＩ売り―ナスダック時価総額、３９０兆円消失",
+      "doc_id": "jiji-93ee8b72397688a5",
+      "title": "ＩＣＣ分担金、前倒し拠出 米制裁伴う資金難懸念―日本政府検討",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600162&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110600918&g=pol"
     },
     {
-      "doc_id": "jiji-8455a8091bc4d1fd",
-      "title": "ネタニヤフ氏退陣も、イスラエル総選挙の結果確定 組閣へ協議開始、野党が交渉主導か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110500191&g=int"
-    },
-    {
-      "doc_id": "jiji-56c0405a59e215a2",
-      "title": "高市首相は衆院財金委で、就業者負担軽減支援金の支給対象について、現役就業者の３割以上とする考えを示した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600298&g=flash"
-    },
-    {
-      "doc_id": "jiji-67e66bd6e79c8f7a",
-      "title": "ルビオ米国務長官、辞任検討報道を否定 次期大統領選出馬は言及避ける",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600288&g=int"
-    },
-    {
-      "doc_id": "nhk-31703f4fd98b5e69",
-      "title": "日経平均株価6万円割れ ことし5月以来 一時4000円超下落",
+      "doc_id": "nhk-4cdc41307e1927e8",
+      "title": "【地震速報】宮城 福島 茨城で震度3",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71341"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70049"
     },
     {
-      "doc_id": "nhk-b089c9085b3ac500",
-      "title": "アメリカ 中間選挙の大敗受け ルビオ国務長官の去就報道相次ぐ",
+      "doc_id": "nhk-71279358513a7579",
+      "title": "128の信用金庫 他金融機関への送金除いてサービス復旧",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71260"
-    },
-    {
-      "doc_id": "nhk-33306ce268195f2f",
-      "title": "NTTドコモ通信障害が復旧 原因は装置の不具合",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71360"
-    },
-    {
-      "doc_id": "nhk-4d30d6e05bd70ed0",
-      "title": "ロシア国内のJT関連工場 一時的にロシア企業管理下に 大統領令",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261105de71261"
-    },
-    {
-      "doc_id": "nhk-9a4b741399c89bc8",
-      "title": "不正アクセス対策 政府が予備費100億円の支出を決定",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71363"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71533"
     },
     {
       "doc_id": "nhk-785619a68a51a39a",
-      "title": "消費税減税法案 与党“6日採決を”野党“首相答弁聞いて判断”",
+      "title": "消費税減税法案 衆議院を通過 自民・維新などの賛成多数で可決",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261106de71359"
     },
     {
-      "doc_id": "nhk-c4b790728c2a6180",
-      "title": "経済産業省 中部電力に業務改善命令 浜岡原発データ改ざん受け",
+      "doc_id": "nhk-0f4d5f0495221360",
+      "title": "国際ハッカー集団“日本企業はぜい弱性を放置”取材に回答",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71336"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71650"
     },
     {
-      "doc_id": "itmedia-5224c8e51025e776",
-      "title": "MetaのAIエージェント「Muse」に音声対話機能 表情豊かなアバターと会話、まず米国で提供",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002939/"
+      "doc_id": "nhk-847414521881543c",
+      "title": "強い冬型の気圧配置に 北日本は大荒れ 大雪のおそれ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71834"
     },
     {
-      "doc_id": "itmedia-afcfc3fd8d536ba1",
-      "title": "Google、ワイオミング州のデータセンターなどに170億ドル投資へ 電力費全額負担を約束",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002936/"
+      "doc_id": "nhk-5f427a213c9ff0ad",
+      "title": "佐川急便 5323万件が外部流出の可能性で“被害状況を調査中”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71689"
     },
     {
-      "doc_id": "itmedia-a2e90ce9f32cb99c",
-      "title": "Anthropic、「Claude」に家計管理機能「Personal Finance」 銀行口座と連携、米国でβ提供",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002935/"
+      "doc_id": "nhk-ae8741e4c780f4f8",
+      "title": "総務省 NTTドコモに行政指導 アマゾンに契約者の情報漏えいで",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71649"
     },
     {
-      "doc_id": "itmedia-8f335cb103bffc12",
-      "title": "アイリスオーヤマ、非会員含む約770万人分の情報漏えいか 外部クラウドに不審ファイル発見→不正アクセス発覚",
+      "doc_id": "itmedia-9412668f09116ec6",
+      "title": "政府、相次ぐ情報漏えいで事業者に注意喚起 「基本的な対策が不十分」な事例を複数確認",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002934/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002976/"
     },
     {
-      "doc_id": "itmedia-c545f0b221ac06a6",
-      "title": "「給与維持の週休3日制」AI効率化で実現 しかし社員が喜ばず……なぜ？ 「ライザAI」提供企業で起きたこと",
+      "doc_id": "itmedia-f64b19370ed898cc",
+      "title": "セキュリティ啓発団体に不正アクセス 個人情報最大1.5万件漏えいか",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002867/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/"
     },
     {
-      "doc_id": "itmedia-8e922fa5fb03693c",
-      "title": "ドコモ通信障害、約14時間で復旧 原因は「交換機の輻輳」、不正アクセスの形跡なし",
+      "doc_id": "itmedia-b599d6788246ec50",
+      "title": "複数の信金でATM利用・振り込みできず──共同システムで障害、128信金に影響か 再開めど立たず",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002932/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002971/"
     },
     {
-      "doc_id": "itmedia-ac2a63f4c9a8082e",
-      "title": "OpenAI、サイバーセキュリティ特化型「GPT-6 Cyber」発表 Firefoxの未知の脆弱性81件を発見",
+      "doc_id": "itmedia-091b36fde22a83d4",
+      "title": "サイバー攻撃対策で自社通販サイト閉店 ドールのアゾン「個人情報を社内に保管しない」方針へ",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002931/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002967/"
     },
     {
-      "doc_id": "itmedia-1b714870efa7dc84",
-      "title": "年収やローン保証額、免許証番号など最大32万人分漏えい SMBC系、保証業務システムに不正アクセス",
+      "doc_id": "itmedia-eafb334ae37f92c3",
+      "title": "松屋アプリ、9日ぶり復旧 「お詫び」でポイント最大3倍",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002930/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002966/"
     },
     {
-      "doc_id": "itmedia-3968e80dadfd1341",
-      "title": "ドコモ不正アクセス、最大30万件の顧客情報流出 「My docomo」など緊急メンテ、再開未定",
+      "doc_id": "itmedia-2936f80d222c4af7",
+      "title": "フジテレビ、27年に全ドラマで生成AI活用へ 一部工程で工数を最大8割削減も",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002929/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002962/"
     },
     {
-      "doc_id": "itmedia-816085af55ef8ae8",
-      "title": "OpenAI、データセンター立地地域への約束と政策提言を発表 電力費の全額負担や公職者とのNDA不使用など",
+      "doc_id": "itmedia-e09bca3128a0c66f",
+      "title": "米住民投票でデータセンター建設に反対相次ぐ 規制派民主知事も続々当選、推進に逆風も",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002928/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002949/"
     },
     {
-      "doc_id": "itmedia-f167214992211ce1",
-      "title": "医療機関のサイバーセキュリティー強化へ ランサムウエア攻撃で診療への長期影響リスク",
+      "doc_id": "itmedia-efb10eb80f94d92a",
+      "title": "消防庁「安否情報システム」不正アクセスでサービス停止 委託先の富士ソフトから報告",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002921/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002952/"
     },
     {
-      "doc_id": "itmedia-50a15d59c28d8118",
-      "title": "【更新】ドコモ、全国で通信障害 通話・データとも利用しづらく",
+      "doc_id": "itmedia-17779919b43b536c",
+      "title": "AIに自販機経営を1年任せてみた 指示は“利益の最大化”だけ 米ハーバード大などがシミュレーション",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/05/2000002904/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002899/"
+    },
+    {
+      "doc_id": "itmedia-620810a3b0834805",
+      "title": "ソニー、プレステサービスの不正アクセス「措置を講じている」 被害状況は公表せず",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002947/"
+    },
+    {
+      "doc_id": "itmedia-6116f3f3d6ef69b6",
+      "title": "宝くじ公式サイトが一時停止、利用者のパスワードが「意図せず変更」 影響範囲は調査中",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002943/"
+    },
+    {
+      "doc_id": "itmedia-fb71b8248b6c5014",
+      "title": "Microsoft、Windows向け「Xbox」アプリの起動を最大60％高速化 Web版やクラウドも刷新",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002942/"
+    },
+    {
+      "doc_id": "nazology-5f75291215aa6f1d",
+      "title": "「生まれつき」で稼ぎの差の約3割を説明できると米国の双子4万4500組が示す",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205569"
+    },
+    {
+      "doc_id": "nazology-f67f52945d0bff0a",
+      "title": "実は「女性医師」が担当した入院患者の方が死亡が少なかった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205368"
+    },
+    {
+      "doc_id": "nazology-e5546b1547bb3ca8",
+      "title": "音楽を聴くと脳の甘味と酸味の処理が変わると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205581"
+    },
+    {
+      "doc_id": "nazology-a5108fc3ff95d898",
+      "title": "恋人との体験に新鮮さを感じる人ほど関係の満足度も高い",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205579"
     },
     {
       "doc_id": "nazology-fc233a951d4c21e9",
@@ -266,30 +290,6 @@
       "title": "寒さで長生きする線虫、筋肉が「長寿の小包」を作って神経や腸へ配っていた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205227"
-    },
-    {
-      "doc_id": "nazology-02452a366eaf4e4e",
-      "title": "実はキスは4500年前から文字に記されていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205458"
-    },
-    {
-      "doc_id": "nazology-5b5488d330f1f2f4",
-      "title": "パイナップルは捨てがちな部分に果肉の約5.5倍もの食物繊維が詰まっていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205428"
-    },
-    {
-      "doc_id": "nazology-88c55839831bb147",
-      "title": "夢の中の登場人物は「計算が苦手」だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205210"
-    },
-    {
-      "doc_id": "nazology-035304b99fc23cd1",
-      "title": "博物館に眠っていたタツノオトシゴのそっくりさんは骨を調べると別の仲間だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205439"
     }
   ]
 }
