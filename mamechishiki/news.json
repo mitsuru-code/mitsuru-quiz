@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-06T10:57:53+00:00",
-  "now_ms": 1793962673966,
+  "fetched_at": "2026-11-06T17:59:57+00:00",
+  "now_ms": 1793987997847,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-f1ee7000664ad541",
-      "title": "信金で大規模障害 ATMなど復旧",
+      "doc_id": "yahoo-4db4287bf04bdf2d",
+      "title": "米10月雇用16.5万人増 予想上回る",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601562"
+      "link": "https://news.yahoo.co.jp/pickup/6601587"
     },
     {
-      "doc_id": "yahoo-0711fda9d7460b63",
-      "title": "中間選挙ショック 世界で株安連鎖",
+      "doc_id": "yahoo-f601bfd0406c0c65",
+      "title": "石破氏ら採決退席 首相言及控える",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601546"
+      "link": "https://news.yahoo.co.jp/pickup/6601568"
     },
     {
-      "doc_id": "yahoo-7ac236c9e1fe344f",
-      "title": "石破前首相ら減税法案の採決退席",
+      "doc_id": "yahoo-b70e56b950fe44a1",
+      "title": "ドコモ 流出の対象者に見舞金検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601535"
+      "link": "https://news.yahoo.co.jp/pickup/6601566"
     },
     {
-      "doc_id": "yahoo-8c205e3525b8769e",
-      "title": "破産手続き中の全東信 社長が死去",
+      "doc_id": "yahoo-9932d0573bd9dfae",
+      "title": "KDDI社長 決算会見で2つのおわび",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601548"
+      "link": "https://news.yahoo.co.jp/pickup/6601580"
     },
     {
-      "doc_id": "yahoo-b9568ab2f4079cb5",
-      "title": "「ウポポイ」認知度27.5% 内閣府",
+      "doc_id": "yahoo-af83d197ef639a95",
+      "title": "池袋女性刺殺 容疑者死亡で不起訴",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601557"
+      "link": "https://news.yahoo.co.jp/pickup/6601583"
     },
     {
-      "doc_id": "yahoo-c3add2b7e47c26b8",
-      "title": "国内最後の飼育 キンシコウが死ぬ",
+      "doc_id": "yahoo-e64ccb6a9c4dfc03",
+      "title": "久邇邦昭氏死去 上皇さまのいとこ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601550"
+      "link": "https://news.yahoo.co.jp/pickup/6601584"
     },
     {
-      "doc_id": "yahoo-1b69e304b55bafcc",
-      "title": "「推し活疲れ」スマホが一因に?",
+      "doc_id": "yahoo-6818e3579f4ec8f1",
+      "title": "RIZEボーカル JESSE容疑者逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601559"
+      "link": "https://news.yahoo.co.jp/pickup/6601588"
     },
     {
-      "doc_id": "yahoo-891e9e976bc705c2",
-      "title": "広陵前監督・中井氏 中学生指導へ",
+      "doc_id": "yahoo-9deed651b7e23e6f",
+      "title": "無償トレードの東浜 素直に驚き",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601553"
+      "link": "https://news.yahoo.co.jp/pickup/6601576"
     },
     {
-      "doc_id": "jiji-90279f955ef65ee1",
-      "title": "政府がサイバー攻撃の「緊急対策パッケージ」 強制遮断の検討加速、被害防止へ新チーム",
+      "doc_id": "jiji-885eb0749cf30903",
+      "title": "ＮＹ株急反落、１８００ドル超安 規制強化懸念でＡＩ売り―ナスダック時価総額、３９０兆円消失",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600989&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110600162&g=int"
     },
     {
-      "doc_id": "jiji-cc8081ce88a796c4",
-      "title": "たたりうわさの「将門塚」にしがみついた疑い 動画配信の３０代男を書類送検―警視庁",
+      "doc_id": "jiji-49861eb8612e8f9a",
+      "title": "１０月の米雇用、１６万５０００人増 予想大幅超過、失業率４．１％",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600739&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110601267&g=int"
     },
     {
       "doc_id": "jiji-2360b97f83ea6745",
@@ -76,88 +76,94 @@
       "link": "https://www.jiji.com/jc/article?k=2026110600913&g=pol"
     },
     {
-      "doc_id": "jiji-c72595e71a6446be",
-      "title": "ロシア、ＪＴ資産を管理下に 対日圧力強化の一環か",
+      "doc_id": "jiji-d735011997d71cfa",
+      "title": "「ゴジラ」ゆかりの海底地形、地質遺産に 海保調査で発見",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110501153&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110601275&g=soc"
     },
     {
-      "doc_id": "jiji-d2590befceb31942",
-      "title": "畑岡奈紗が単独首位浮上 ＴＯＴＯ女子ゴルフ",
+      "doc_id": "jiji-f09f220f98437df1",
+      "title": "米国防長官に責任論 共和大敗で、来週にも弾劾採決か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600902&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110600685&g=int"
     },
     {
-      "doc_id": "jiji-daf77d8940036a03",
-      "title": "公的年金を運用するＧＰＩＦが発表した７～９月期の運用損益は５兆２５３３億円のマイナスだった",
+      "doc_id": "jiji-98eb90716500c330",
+      "title": "不正アクセスで警察庁に合同捜査本部 ＧＭＯ事件にサイバー特捜部投入",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600777&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026110601074&g=soc"
     },
     {
-      "doc_id": "jiji-8352f0a0913d2161",
-      "title": "「中身不明」「憲政史上に汚点」 野党、消費減税法案を批判",
+      "doc_id": "jiji-b4a1e05cfca447ae",
+      "title": "「青い大波」「赤い引き潮」 共和大敗の米中間選挙―中林美恵子・早稲田大教授",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600984&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110600744&g=int"
     },
     {
-      "doc_id": "jiji-f857d235e38733b4",
-      "title": "タランチュラ３０００匹密輸画策 欧州向け２．６億円相当、３人拘束―ペルー",
+      "doc_id": "jiji-04cbed6c5153d8dd",
+      "title": "千葉百音、三浦佳生がＳＰ首位 中国杯フィギュア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600709&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110601084&g=spo"
     },
     {
-      "doc_id": "jiji-1607cec92c663f0d",
-      "title": "前田光史朗が首位守る ＡＣＮ男子ゴルフ",
+      "doc_id": "jiji-b906d6a512a37221",
+      "title": "工芸菓子「生き生きと繊細に」 女性初名誉総裁賞の石塚さん―現代の名工",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600946&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110600706&g=soc"
     },
     {
-      "doc_id": "jiji-93ee8b72397688a5",
-      "title": "ＩＣＣ分担金、前倒し拠出 米制裁伴う資金難懸念―日本政府検討",
+      "doc_id": "jiji-f44b31e432522cb5",
+      "title": "長岡、森口組「耐えた」復帰初戦 中国杯フィギュア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600918&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110601250&g=spo"
     },
     {
-      "doc_id": "nhk-4cdc41307e1927e8",
-      "title": "【地震速報】宮城 福島 茨城で震度3",
+      "doc_id": "nhk-499ec0ac42bfcbfb",
+      "title": "サイバー攻撃対応強化で法改正検討へ 国内通信情報取得が焦点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261103de70049"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71963"
     },
     {
-      "doc_id": "nhk-71279358513a7579",
-      "title": "128の信用金庫 他金融機関への送金除いてサービス復旧",
+      "doc_id": "nhk-a43c5e6cb8d7705a",
+      "title": "アメリカ就業者数 市場予想上回る 来週の物価動向焦点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71533"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71979"
     },
     {
-      "doc_id": "nhk-785619a68a51a39a",
-      "title": "消費税減税法案 衆議院を通過 自民・維新などの賛成多数で可決",
+      "doc_id": "nhk-093246d9a5ae41ad",
+      "title": "余命宣告後“神様の贈り物” 2200万円持ち去り実刑判決 仙台",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71359"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71905"
     },
     {
-      "doc_id": "nhk-0f4d5f0495221360",
-      "title": "国際ハッカー集団“日本企業はぜい弱性を放置”取材に回答",
+      "doc_id": "nhk-fbe0c615a94ea84d",
+      "title": "高市首相 「台湾有事」答弁1年 “中国と安定的な関係構築を”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71650"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71861"
     },
     {
-      "doc_id": "nhk-847414521881543c",
-      "title": "強い冬型の気圧配置に 北日本は大荒れ 大雪のおそれ",
+      "doc_id": "nhk-bc22f76040c5ee65",
+      "title": "訪問介護 厚生労働省が新たな支援方針 サービス維持への課題は",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71834"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71869"
     },
     {
-      "doc_id": "nhk-5f427a213c9ff0ad",
-      "title": "佐川急便 5323万件が外部流出の可能性で“被害状況を調査中”",
+      "doc_id": "nhk-a4622aa6a122ec10",
+      "title": "JESSE コカイン使用の疑いで逮捕 ロックバンドRIZEのボーカル",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71689"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de71989"
     },
     {
-      "doc_id": "nhk-ae8741e4c780f4f8",
-      "title": "総務省 NTTドコモに行政指導 アマゾンに契約者の情報漏えいで",
+      "doc_id": "nhk-87969c24fafc0cfe",
+      "title": "フィギュアGP中国大会 男子前半は三浦が首位 佐藤が2位",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71649"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de71982"
+    },
+    {
+      "doc_id": "itmedia-7f50be955e3ae65a",
+      "title": "ロート製薬、約280万人分の個人情報漏えい 9715件は通話音声データとクレカ情報が流出",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002984/"
     },
     {
       "doc_id": "itmedia-9412668f09116ec6",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002943/"
     },
     {
-      "doc_id": "itmedia-fb71b8248b6c5014",
-      "title": "Microsoft、Windows向け「Xbox」アプリの起動を最大60％高速化 Web版やクラウドも刷新",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002942/"
+      "doc_id": "nazology-3b3f33d9867e936d",
+      "title": "頭のいい若者ほど「仲間の役に立つ」ことで一目置かれると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205484"
     },
     {
       "doc_id": "nazology-5f75291215aa6f1d",
@@ -284,12 +290,6 @@
       "title": "AIの「人間のふり」は人をだませる域に近づいていると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205455"
-    },
-    {
-      "doc_id": "nazology-c45ae529bc47a3cc",
-      "title": "寒さで長生きする線虫、筋肉が「長寿の小包」を作って神経や腸へ配っていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205227"
     }
   ]
 }
