@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-06T23:12:29+00:00",
-  "now_ms": 1794006749714,
+  "fetched_at": "2026-11-07T02:50:58+00:00",
+  "now_ms": 1794019858120,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-4db4287bf04bdf2d",
-      "title": "米10月雇用16.5万人増 予想上回る",
+      "doc_id": "yahoo-40e06aedc322906d",
+      "title": "強い寒気 北海道と東北は暴風警戒",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601587"
+      "link": "https://news.yahoo.co.jp/pickup/6601620"
     },
     {
-      "doc_id": "yahoo-0bf282c22183be13",
-      "title": "米大統領首席補佐官 ミラー氏昇格",
+      "doc_id": "yahoo-2a4772a3be8b4773",
+      "title": "岸田氏 国債NISAは慎重な検討必要",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601592"
+      "link": "https://news.yahoo.co.jp/pickup/6601610"
     },
     {
-      "doc_id": "yahoo-6f14b1ab2417f6f1",
-      "title": "メーガン妃父 ポルノ所持疑い逮捕",
+      "doc_id": "yahoo-07dff1dba7ddf1e1",
+      "title": "子宮頸がん死50年に4割増 米大学",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601596"
+      "link": "https://news.yahoo.co.jp/pickup/6601617"
     },
     {
-      "doc_id": "yahoo-e67a9d420337741a",
-      "title": "「警察が幅寄せ」警官に反則切符",
+      "doc_id": "yahoo-f63e28d622cdf843",
+      "title": "故障車修理中 車突っ込み1人死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601594"
+      "link": "https://news.yahoo.co.jp/pickup/6601623"
     },
     {
-      "doc_id": "yahoo-6818e3579f4ec8f1",
-      "title": "RIZEボーカル JESSE容疑者逮捕",
+      "doc_id": "yahoo-216514d2349af480",
+      "title": "迷惑行為ショウリンジ 7歳も補導",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601588"
+      "link": "https://news.yahoo.co.jp/pickup/6601602"
     },
     {
-      "doc_id": "yahoo-85f06c50a64ef950",
-      "title": "中日・上林誠知 国内FA行使決断",
+      "doc_id": "yahoo-c8099c2280c48eb9",
+      "title": "かかと壊死し激痛 女性の緩和ケア",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601590"
+      "link": "https://news.yahoo.co.jp/pickup/6601624"
     },
     {
-      "doc_id": "yahoo-693933b53d6702a0",
-      "title": "「花君」連載30周年で新ドラマ化",
+      "doc_id": "yahoo-2b373275dbbb4215",
+      "title": "戦力外の藤浪 もう一回頑張りたい",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601597"
+      "link": "https://news.yahoo.co.jp/pickup/6601615"
     },
     {
-      "doc_id": "yahoo-87700daeb67f621a",
-      "title": "西川貴教 NHK紅白に出場決定",
+      "doc_id": "yahoo-7eb67d3533f1afca",
+      "title": "JESSE容疑者逮捕 バンドが謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601600"
-    },
-    {
-      "doc_id": "jiji-b4a1e05cfca447ae",
-      "title": "「青い大波」「赤い引き潮」 共和大敗の米中間選挙―中林美恵子・早稲田大教授",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600744&g=int"
-    },
-    {
-      "doc_id": "jiji-fc2c5b024a95ac50",
-      "title": "米大統領首席補佐官が退任 トランプ氏最側近、中間選挙大敗の引責か",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700153&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6601626"
     },
     {
       "doc_id": "jiji-2360b97f83ea6745",
@@ -76,16 +64,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026110600913&g=pol"
     },
     {
-      "doc_id": "jiji-2869269d79a11bba",
-      "title": "米テスラ、「サイバートラック」生産縮小 市場浸透できず",
+      "doc_id": "jiji-fc2c5b024a95ac50",
+      "title": "米大統領首席補佐官が退任 トランプ氏最側近、中間選挙大敗の引責か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700155&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110700153&g=int"
     },
     {
-      "doc_id": "jiji-516b8b02baa037e6",
-      "title": "次期ＥＣＢ総裁候補を発表 スペイン、オランダの２氏―ユーロ圏",
+      "doc_id": "jiji-43dd2791f6f3eb22",
+      "title": "消費減税、「本丸」参院へ 公・国の協力、なお見えず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700226&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110601135&g=pol"
+    },
+    {
+      "doc_id": "jiji-0721dac102b88e70",
+      "title": "サイバー攻撃、中小に懸念 ＡＩで進化、「何を優先したら」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110601123&g=pol"
+    },
+    {
+      "doc_id": "jiji-41364a64d30db22b",
+      "title": "日中経済、進む「選択的依存」 供給網分散も商機逃さず―台湾有事答弁１年",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110600730&g=int"
+    },
+    {
+      "doc_id": "jiji-678fd18bdd6d2f7c",
+      "title": "ペニャ大統領罷免、自宅軟禁下に 大手銀破綻で抗議拡大―パラグアイ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700258&g=int"
+    },
+    {
+      "doc_id": "jiji-6a15392e410e5550",
+      "title": "サイバー攻撃の緊急対策パッケージ、実効性に疑問 チーム乱立も設計これから 人材確保の実績も乏しく",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110600998&g=soc"
     },
     {
       "doc_id": "jiji-eda7ef6c7b651387",
@@ -94,28 +106,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026110700230&g=int"
     },
     {
-      "doc_id": "jiji-34272bf823819d3d",
-      "title": "米中、閣僚級で電話会談 今月の首脳会談控え調整",
+      "doc_id": "jiji-edb608f6d36ed60f",
+      "title": "原油高が長期化、家計支援縮小 米中間選後も見えぬ収束",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700171&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110601033&g=pol"
     },
     {
-      "doc_id": "jiji-251e9bb457c0dd01",
-      "title": "首相動静（１１月６日）",
+      "doc_id": "jiji-d735011997d71cfa",
+      "title": "「ゴジラ」ゆかりの海底地形、地質遺産に 海保調査で発見",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110600230&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110601275&g=soc"
     },
     {
-      "doc_id": "jiji-4c2cfc1dc0eeca80",
-      "title": "対空ミサイル供給要請か イラン指導者、ロシアへの親書で",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700220&g=int"
-    },
-    {
-      "doc_id": "jiji-fcf0313ecc28f14e",
-      "title": "アイルランド・英の報道機関に爆破予告 欧州各国、旅客機脅迫も続く",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700223&g=int"
+      "doc_id": "nhk-b9225128e281add6",
+      "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72062"
     },
     {
       "doc_id": "nhk-69d012239437e392",
@@ -124,16 +130,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261107de71985"
     },
     {
-      "doc_id": "nhk-e4e1d5c119a7b113",
-      "title": "冬型強まり北日本中心に暴風警戒 大雪に十分注意を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72009"
-    },
-    {
       "doc_id": "nhk-cffcd5bee4e39bc9",
       "title": "トランプ政権 ワイルズ首席補佐官が退任 ミラー氏起用へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261107de72003"
+    },
+    {
+      "doc_id": "nhk-30451b16e420926e",
+      "title": "ベッセント財務長官と何副首相 貿易摩擦“休戦”の状況を協議",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72007"
     },
     {
       "doc_id": "nhk-a0bbe5528801a616",
@@ -142,22 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261107de71993"
     },
     {
-      "doc_id": "nhk-af3bba9a1a07b649",
-      "title": "ヨーロッパ旅客機にまた爆破予告 テレビ局も標的に",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de71996"
-    },
-    {
       "doc_id": "nhk-eaed7b61c7dfbbaf",
       "title": "超党派議員連盟がICC訪問し赤根所長と面会「支援を強化」",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261107de72010"
     },
     {
-      "doc_id": "nhk-474ca7e89f02e2b2",
-      "title": "米カリフォルニア州知事 すべての死刑囚548人を終身刑に減刑",
+      "doc_id": "nhk-021d79339c7cf27e",
+      "title": "長時間労働や賃金不払いなど 厚労省が全国一斉の電話相談",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de71997"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72053"
     },
     {
       "doc_id": "itmedia-7f50be955e3ae65a",
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002943/"
     },
     {
+      "doc_id": "nazology-06af40b86facbd9c",
+      "title": "心配性な若者ほど「眠れていない」と感じるが実は眠れていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205479"
+    },
+    {
+      "doc_id": "nazology-afadbd7969d5f288",
+      "title": "顎のない古代魚は泳ぎの伸びしろをたっぷり残したまま姿を消していた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205644"
+    },
+    {
       "doc_id": "nazology-81dfc8edfe7a6d6d",
       "title": "子どものような姿のまま大人になる「新種のクマムシ」を発見",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "海に浮かべた「かかし」で網にかかる海鳥が大きく減ると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205624"
-    },
-    {
-      "doc_id": "nazology-25b5ac5a2c8cb4ae",
-      "title": "実は観葉植物の空気をきれいにする力はそれほど大きくなかった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205382"
-    },
-    {
-      "doc_id": "nazology-e3b07b2bed9cd565",
-      "title": "何十年も2種類とされてきた磁石の性質に3つ目があると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205388"
     }
   ]
 }
