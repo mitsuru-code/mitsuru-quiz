@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-07T16:31:35+00:00",
-  "now_ms": 1794069095655,
+  "fetched_at": "2026-11-07T20:55:05+00:00",
+  "now_ms": 1794084905492,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,16 +58,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6601699"
     },
     {
-      "doc_id": "jiji-b56aaf00fe26471f",
-      "title": "ロシア、ＪＴ資産管理の追加命令 非製造部門３社が対象",
+      "doc_id": "jiji-adefd7cadc31030e",
+      "title": "早期の日中会談、諦めムード 高市首相「台湾有事」発言１年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700447&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110700343&g=pol"
     },
     {
-      "doc_id": "jiji-516e22d80902742c",
-      "title": "千葉、優美に丁寧に イグナトワ抑えＶ―中国杯フィギュア",
+      "doc_id": "jiji-f8278faeeb35596e",
+      "title": "スパイ罪男性、来月中旬出所 ３年６月の刑期満了へ―中国",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700460&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110700342&g=int"
+    },
+    {
+      "doc_id": "jiji-ef34ecb3c7168940",
+      "title": "愛知で震度５強",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800027&g=soc"
+    },
+    {
+      "doc_id": "jiji-6d21f4eef49b64c4",
+      "title": "気象庁によると、愛知県知多市で震度５強の揺れを観測した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800025&g=flash"
     },
     {
       "doc_id": "jiji-aea3b9041167bcc9",
@@ -76,34 +88,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026110700169&g=int"
     },
     {
-      "doc_id": "jiji-0b60dcc01b656a5e",
-      "title": "初の表彰台に喜び 長岡、森口組―中国杯フィギュア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700481&g=spo"
-    },
-    {
-      "doc_id": "jiji-adefd7cadc31030e",
-      "title": "早期の日中会談、諦めムード 高市首相「台湾有事」発言１年",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700343&g=pol"
-    },
-    {
       "doc_id": "jiji-affd2cb0d2e95353",
       "title": "千葉百音が優勝、ＧＰ３勝目 長岡柚奈、森口澄士組が３位―中国杯フィギュア",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026110700393&g=spo"
-    },
-    {
-      "doc_id": "jiji-64802397f22259c8",
-      "title": "ＮＹ円、１５８円台半ば",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700247&g=int"
-    },
-    {
-      "doc_id": "jiji-a01cd0f18de7e15e",
-      "title": "東北方面隊、東部に統合案 陸自、運用効率化狙い",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700139&g=pol"
     },
     {
       "doc_id": "jiji-b374667f7c83ade6",
@@ -112,52 +100,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026110700371&g=spo"
     },
     {
-      "doc_id": "jiji-a497df19f73fb257",
-      "title": "福島で震度３",
+      "doc_id": "jiji-64802397f22259c8",
+      "title": "ＮＹ円、１５８円台半ば",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700471&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110700247&g=int"
+    },
+    {
+      "doc_id": "jiji-26d78986dc9f2f30",
+      "title": "ロシア、ＪＴ資産管理の追加命令 非製造部門３社が対象",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700447&g=pol"
+    },
+    {
+      "doc_id": "jiji-a01cd0f18de7e15e",
+      "title": "東北方面隊、東部に統合案 陸自、運用効率化狙い",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700139&g=pol"
     },
     {
       "doc_id": "nhk-f02ba9d8644d1987",
-      "title": "【地震速報】愛知県で震度5強 津波の心配なし",
+      "title": "【地震情報】愛知県で震度5強 津波の心配なし",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261108de72252"
     },
     {
-      "doc_id": "nhk-d112c23dbe5df254",
-      "title": "震度5強 行動する際の注意点",
+      "doc_id": "nhk-8f16a2784e2bf945",
+      "title": "気象庁記者会見 “同程度の地震に注意”【会見詳細】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72253"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72259"
     },
     {
-      "doc_id": "nhk-4106592b2f0a1b35",
-      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+      "doc_id": "nhk-9512596d09337d81",
+      "title": "【鉄道影響】東海道新幹線 遅れ見込み 在来線一部運転見合わせ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72329"
     },
     {
-      "doc_id": "nhk-9880d1efc6554ce8",
-      "title": "フィギュア 千葉百音が優勝 グランプリシリーズ第3戦 中国大会",
+      "doc_id": "nhk-ee57b49792bd933e",
+      "title": "愛知で震度5強【各地の被害情報】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72221"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72310"
     },
     {
-      "doc_id": "nhk-bb94536c59449931",
-      "title": "プロボウラーの中山律子さんが死去 一大ブームをけん引 84歳",
+      "doc_id": "nhk-b3dd6b59afcd2d87",
+      "title": "愛知 豊橋 車の販売店でショーウィンドウのガラス大きく割れる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72117"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72297"
     },
     {
-      "doc_id": "nhk-5efcaca9a717eb34",
-      "title": "ラグビー日本代表×ウェールズ【速報予定】欧州遠征の初戦",
+      "doc_id": "nhk-b6adbfa09742cf34",
+      "title": "愛知県の高速 5つの道路で全線通行止め",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72220"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72280"
     },
     {
-      "doc_id": "nhk-1b3da9ac946ff1c5",
-      "title": "北茨城で親子3人乗った漁船座礁 50代の息子と娘が死亡",
+      "doc_id": "nhk-d7f169decce5e144",
+      "title": "地震の特徴 南海トラフ巨大地震との関連【災害担当記者 解説】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72072"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72313"
     },
     {
       "doc_id": "itmedia-7f50be955e3ae65a",
