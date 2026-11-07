@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-07T10:16:30+00:00",
-  "now_ms": 1794046590725,
+  "fetched_at": "2026-11-07T16:31:35+00:00",
+  "now_ms": 1794069095655,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,82 +10,88 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a2a518af3b917244",
-      "title": "自民 採決前退席の4氏に説明要求",
+      "doc_id": "yahoo-69654f4f6f9cc870",
+      "title": "愛知県で震度5強 津波の心配なし",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601664"
+      "link": "https://news.yahoo.co.jp/pickup/6601719"
     },
     {
-      "doc_id": "yahoo-cb34df4ba4b9ddc7",
-      "title": "中国の大学など 日本語学ぶ学生減",
+      "doc_id": "yahoo-012ebe7fcb0d9d86",
+      "title": "米中間選挙 共和党大敗の舞台裏",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601663"
+      "link": "https://news.yahoo.co.jp/pickup/6601716"
     },
     {
-      "doc_id": "yahoo-38996d71b4e486e1",
-      "title": "事故漁船に親子3人 転落し2人死亡",
+      "doc_id": "yahoo-bd63b1e7a2f74646",
+      "title": "大阪維新の会「吉村体制」3期目に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601680"
+      "link": "https://news.yahoo.co.jp/pickup/6601718"
     },
     {
-      "doc_id": "yahoo-898e88aaf98c2665",
-      "title": "障害者と性 問題提起の投稿真意",
+      "doc_id": "yahoo-af37b477198d1fb0",
+      "title": "基地交付金 打ち切り恐れに町反発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601665"
+      "link": "https://news.yahoo.co.jp/pickup/6601709"
     },
     {
-      "doc_id": "yahoo-2925aa11f976f67c",
-      "title": "受験生困惑?県の図書館長期休館",
+      "doc_id": "yahoo-390a63306c469fa6",
+      "title": "女性を監禁疑い 供述後に遺体発見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601668"
+      "link": "https://news.yahoo.co.jp/pickup/6601700"
     },
     {
-      "doc_id": "yahoo-27f3f0cc2a3980db",
-      "title": "黄桜CM こぶし利かせる新歌い手",
+      "doc_id": "yahoo-1a6010b905225a4d",
+      "title": "FA宣言 15年ぶり「2ケタ」現実味",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601674"
+      "link": "https://news.yahoo.co.jp/pickup/6601712"
     },
     {
-      "doc_id": "yahoo-059a5ef3494654bb",
-      "title": "中山律子さん死去 収録中に300点",
+      "doc_id": "yahoo-e846b02cf8496c2b",
+      "title": "山本モナさん 50歳で司法修習生に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601676"
+      "link": "https://news.yahoo.co.jp/pickup/6601706"
     },
     {
-      "doc_id": "yahoo-c99bc0fff5d66310",
-      "title": "筧美和子 夫と喧嘩中わかった妊娠",
+      "doc_id": "yahoo-677a3b0c32578509",
+      "title": "こじはる結婚 ノースリーブス祝福",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601667"
+      "link": "https://news.yahoo.co.jp/pickup/6601699"
     },
     {
-      "doc_id": "jiji-b374667f7c83ade6",
-      "title": "中山律子さん死去、８４歳 ボウリングブームの立役者",
+      "doc_id": "jiji-b56aaf00fe26471f",
+      "title": "ロシア、ＪＴ資産管理の追加命令 非製造部門３社が対象",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700371&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110700447&g=int"
     },
     {
-      "doc_id": "jiji-a01cd0f18de7e15e",
-      "title": "東北方面隊、東部に統合案 陸自、運用効率化狙い",
+      "doc_id": "jiji-516e22d80902742c",
+      "title": "千葉、優美に丁寧に イグナトワ抑えＶ―中国杯フィギュア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700139&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110700460&g=spo"
     },
     {
-      "doc_id": "jiji-ea0c364e95dc659b",
-      "title": "岩井明愛が首位浮上 ＴＯＴＯ女子ゴルフ",
+      "doc_id": "jiji-aea3b9041167bcc9",
+      "title": "ラクソン政権、過半数微妙 与党リードでも確定は下旬―ＮＺ総選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700390&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110700169&g=int"
     },
     {
-      "doc_id": "jiji-fc2c5b024a95ac50",
-      "title": "米大統領首席補佐官が退任 トランプ氏最側近、中間選挙大敗の引責か",
+      "doc_id": "jiji-0b60dcc01b656a5e",
+      "title": "初の表彰台に喜び 長岡、森口組―中国杯フィギュア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700153&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110700481&g=spo"
     },
     {
-      "doc_id": "jiji-c701d09fe73032a9",
-      "title": "マリアナ諸島付近で台風３２号発生 １９９４年以来３２年ぶり―気象庁",
+      "doc_id": "jiji-adefd7cadc31030e",
+      "title": "早期の日中会談、諦めムード 高市首相「台湾有事」発言１年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700405&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110700343&g=pol"
+    },
+    {
+      "doc_id": "jiji-affd2cb0d2e95353",
+      "title": "千葉百音が優勝、ＧＰ３勝目 長岡柚奈、森口澄士組が３位―中国杯フィギュア",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700393&g=spo"
     },
     {
       "doc_id": "jiji-64802397f22259c8",
@@ -94,40 +100,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026110700247&g=int"
     },
     {
-      "doc_id": "jiji-affd2cb0d2e95353",
-      "title": "女子フリーに千葉百音ら 中国杯フィギュア",
+      "doc_id": "jiji-a01cd0f18de7e15e",
+      "title": "東北方面隊、東部に統合案 陸自、運用効率化狙い",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700393&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110700139&g=pol"
     },
     {
-      "doc_id": "jiji-4588528e3051ed28",
-      "title": "新潟が首位守る Ｊ２",
+      "doc_id": "jiji-b374667f7c83ade6",
+      "title": "中山律子さん死去、８４歳 ボウリングブームの立役者",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700400&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110700371&g=spo"
     },
     {
-      "doc_id": "jiji-9ca5c37e96bee16b",
-      "title": "Ｆ東京、首位守る ９試合連続無失点―Ｊ１",
+      "doc_id": "jiji-a497df19f73fb257",
+      "title": "福島で震度３",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700416&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110700471&g=soc"
     },
     {
-      "doc_id": "jiji-f25967a6710af1f0",
-      "title": "フロリダ州知事、大統領選挑戦か 政治コンサルに協力打診―米紙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700341&g=int"
-    },
-    {
-      "doc_id": "nhk-e4e1d5c119a7b113",
-      "title": "北日本で大荒れの天気 あすにかけ暴風高波に警戒 大雪に注意を",
+      "doc_id": "nhk-f02ba9d8644d1987",
+      "title": "【地震速報】愛知県で震度5強 津波の心配なし",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72009"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72252"
     },
     {
-      "doc_id": "nhk-cd367b8d5811ba9f",
-      "title": "自民党執行部 石破氏らに文書で説明要請 消費税法案採決退席で",
+      "doc_id": "nhk-d112c23dbe5df254",
+      "title": "震度5強 行動する際の注意点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72136"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72253"
+    },
+    {
+      "doc_id": "nhk-4106592b2f0a1b35",
+      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211"
+    },
+    {
+      "doc_id": "nhk-9880d1efc6554ce8",
+      "title": "フィギュア 千葉百音が優勝 グランプリシリーズ第3戦 中国大会",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72221"
     },
     {
       "doc_id": "nhk-bb94536c59449931",
@@ -136,26 +148,14 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261107de72117"
     },
     {
-      "doc_id": "nhk-b9225128e281add6",
-      "title": "GMO 管理者が全情報アクセス可能 リスク指摘も十分対策されず",
+      "doc_id": "nhk-5efcaca9a717eb34",
+      "title": "ラグビー日本代表×ウェールズ【速報予定】欧州遠征の初戦",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72062"
-    },
-    {
-      "doc_id": "nhk-dc5a2bc9d34243e6",
-      "title": "介護現場のカスハラの実態は? 厚労省は対策強化へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72045"
-    },
-    {
-      "doc_id": "nhk-b95545e85569079a",
-      "title": "台湾有事発言1年 対話の糸口探る日本政府 日中の影響は?",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261106de71967"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72220"
     },
     {
       "doc_id": "nhk-1b3da9ac946ff1c5",
-      "title": "北茨城の海岸で漁船座礁 親子3人が海に投げ出され2人死亡",
+      "title": "北茨城で親子3人乗った漁船座礁 50代の息子と娘が死亡",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261107de72072"
     },
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002943/"
     },
     {
+      "doc_id": "nazology-767fd9add439d902",
+      "title": "人類の体が食べ物から出すCO2は年に約20億トンと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205681"
+    },
+    {
+      "doc_id": "nazology-825d62d163bb29c4",
+      "title": "宇宙の「時間」がたった1本しかない理由を新しい理論が説明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205809"
+    },
+    {
       "doc_id": "nazology-24fdf17fb149c453",
       "title": "きょうだいで張り合う子は実は自己肯定感が低かった",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "「生まれつき」で稼ぎの差の約3割を説明できると米国の双子4万4500組が示す",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205569"
-    },
-    {
-      "doc_id": "nazology-f67f52945d0bff0a",
-      "title": "実は「女性医師」が担当した入院患者の方が死亡が少なかった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205368"
-    },
-    {
-      "doc_id": "nazology-e5546b1547bb3ca8",
-      "title": "音楽を聴くと脳の甘味と酸味の処理が変わると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205581"
     }
   ]
 }
