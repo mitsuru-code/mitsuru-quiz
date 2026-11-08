@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-08T19:45:58+00:00",
-  "now_ms": 1794167158872,
+  "fetched_at": "2026-11-08T23:45:15+00:00",
+  "now_ms": 1794181515160,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,76 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-aefc3800545cdcfa",
-      "title": "欧州右派政党 トランプ氏離れ鮮明",
+      "doc_id": "yahoo-2a14a11a70bfa8f1",
+      "title": "9日 関東-北海道で師走並みの寒さ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601843"
+      "link": "https://news.yahoo.co.jp/pickup/6601858"
     },
     {
-      "doc_id": "yahoo-62a80b922844b768",
-      "title": "日米外相会談 パリG7合わせ調整",
+      "doc_id": "yahoo-a314f0812d59ccb8",
+      "title": "エジプトで列車同士衝突 7人死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601851"
+      "link": "https://news.yahoo.co.jp/pickup/6601860"
     },
     {
-      "doc_id": "yahoo-b15e4397ae6e51fd",
-      "title": "福井の山中に女性遺体 死因は窒息",
+      "doc_id": "yahoo-5d462b4ef1c6b889",
+      "title": "パラグライダー 初心者イベで墜落",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601853"
+      "link": "https://news.yahoo.co.jp/pickup/6601861"
     },
     {
-      "doc_id": "yahoo-93280a7e8193c2b8",
-      "title": "死産の子に産着無償提供 広がる輪",
+      "doc_id": "yahoo-44268ec411c85d1d",
+      "title": "舎人ライナー 資金不足陥る可能性",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601845"
+      "link": "https://news.yahoo.co.jp/pickup/6601864"
     },
     {
-      "doc_id": "yahoo-17b6c67ff1fe69c1",
-      "title": "商品に個体差「不揃い」バズる訳",
+      "doc_id": "yahoo-3437012510ca8c9e",
+      "title": "迷惑行為ショウリンジ SNS模倣か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601846"
+      "link": "https://news.yahoo.co.jp/pickup/6601857"
     },
     {
-      "doc_id": "yahoo-1bd9196e74bbd64b",
-      "title": "J2磐田監督 一部サポに「怒り」",
+      "doc_id": "yahoo-6c5e688e3b9fcc7a",
+      "title": "Netflix 増収増益でリストラの訳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601854"
+      "link": "https://news.yahoo.co.jp/pickup/6601865"
     },
     {
-      "doc_id": "yahoo-150a5afd586c6605",
-      "title": "「VIVANT」映画化発表 12/4公開",
+      "doc_id": "yahoo-27e36211ca779ec8",
+      "title": "CUTIE STREET 初の紅白出場内定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601844"
+      "link": "https://news.yahoo.co.jp/pickup/6601866"
     },
     {
-      "doc_id": "yahoo-03bac8de20430a1a",
-      "title": "「VIVANT」最終回 SNSの反応",
+      "doc_id": "yahoo-5e6d7aebaa909b72",
+      "title": "映画VIVANT スピード公開の狙い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601836"
+      "link": "https://news.yahoo.co.jp/pickup/6601863"
     },
     {
-      "doc_id": "jiji-f566c7f0586e844e",
-      "title": "与党、少数参院で多数派工作 消費減税法案、１１日審議入り",
+      "doc_id": "jiji-d6c918b4f32df6c6",
+      "title": "イスラエル大統領、野党党首に組閣指示 反ネタニヤフ陣営結集へ連立交渉",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
-    },
-    {
-      "doc_id": "jiji-9c61961f2470f246",
-      "title": "石破氏らに棄権の説明要求 減税法案採決で自民執行部",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800261&g=pol"
-    },
-    {
-      "doc_id": "jiji-b06444efb098680a",
-      "title": "中心市街で銃乱射、６人死亡 実行犯は極右思想傾倒か―ポーランド南部",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800135&g=int"
-    },
-    {
-      "doc_id": "jiji-fdd3c3ebff043a3c",
-      "title": "福井の山林に女性遺体 交際相手か、「殺害し遺棄」―監禁容疑で４９歳男逮捕・石川県警",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800228&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110900137&g=int"
     },
     {
       "doc_id": "jiji-ef34ecb3c7168940",
@@ -88,10 +70,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026110800027&g=soc"
     },
     {
+      "doc_id": "jiji-e4c092afeb61d12b",
+      "title": "トランプ氏、対イラン交渉進展なら再攻撃の可能性「非常に低い」 外交を優先姿勢",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110900129&g=int"
+    },
+    {
+      "doc_id": "jiji-f566c7f0586e844e",
+      "title": "与党、少数参院で多数派工作 消費減税法案、１１日審議入り",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
+    },
+    {
+      "doc_id": "jiji-b06444efb098680a",
+      "title": "中心市街で銃乱射、６人死亡 実行犯は極右思想傾倒か―ポーランド南部",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800135&g=int"
+    },
+    {
       "doc_id": "jiji-38eb46d6c7f103af",
       "title": "米半導体大手トップと「恋愛関係」 女性スパイ、中国当局が雇用―英紙",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026110800226&g=int"
+    },
+    {
+      "doc_id": "jiji-fdd3c3ebff043a3c",
+      "title": "福井の山林に女性遺体 交際相手か、「殺害し遺棄」―監禁容疑で４９歳男逮捕・石川県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800228&g=soc"
     },
     {
       "doc_id": "jiji-f0e6080abb9b180d",
@@ -100,28 +106,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026110800117&g=int"
     },
     {
-      "doc_id": "jiji-1c562bbab1d36c71",
-      "title": "「親世代ぎりぎり」即時帰国を 拉致家族ら集会に８００人―東京",
+      "doc_id": "jiji-9e255b3a51d1dd46",
+      "title": "首相動静（１１月８日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800320&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110800208&g=pol"
     },
     {
-      "doc_id": "jiji-e679347071421712",
-      "title": "新人３人が届け出 松山市長選",
+      "doc_id": "jiji-9c61961f2470f246",
+      "title": "石破氏らに棄権の説明要求 減税法案採決で自民執行部",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800301&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110800261&g=pol"
     },
     {
-      "doc_id": "jiji-862c7b69749cbcb8",
-      "title": "「位置付け明確に」「必要ない」 ９条への自衛隊明記に賛否―安保実務経験者に聞く・憲法公布８０年",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700334&g=pol"
-    },
-    {
-      "doc_id": "nhk-aa3baa8c58a273da",
-      "title": "山林で女性遺体 女性が相談も警察は意向受け警告行わず",
+      "doc_id": "nhk-2264a850c2d9cc44",
+      "title": "山林遺体は石川県の20代女性と確認 監禁後まもなく殺害か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72420"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72639"
     },
     {
       "doc_id": "nhk-5e8f8a00c0a6d46e",
@@ -130,34 +130,46 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261109de72671"
     },
     {
-      "doc_id": "nhk-e1cdbc40ea86930e",
-      "title": "佐賀 鳥栖 ブリヂストン工場で火事 3時間半後に消し止められる",
+      "doc_id": "nhk-00df8274e1c10375",
+      "title": "COP31 きょう開幕へ 各国が足並みそろえられるか焦点に",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72603"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72633"
     },
     {
-      "doc_id": "nhk-6b414e2eeecaa3b9",
-      "title": "拉致被害者家族らが大規模集会 政府の具体的な取り組み求める",
+      "doc_id": "nhk-ab2814e026cc18ad",
+      "title": "消費税減税法案 あさって参議院で審議入り 与野党論戦へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72485"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72622"
     },
     {
-      "doc_id": "nhk-5f74626bf26bb8a8",
-      "title": "COP31 あす開幕へ 対策実行に向け足並みそろえられるか焦点",
+      "doc_id": "nhk-79810498ee4b4843",
+      "title": "きょう日越首脳会談 重要鉱物や原子力連携などで共同声明調整",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72408"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72624"
     },
     {
-      "doc_id": "nhk-0a4111202d780481",
-      "title": "トランプ大統領 総合格闘技団体代表に報道官打診",
+      "doc_id": "nhk-71ed4817a6082a7e",
+      "title": "JR内房線が全線で運転再開 通勤・通学客からは安どの声",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72412"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72695"
     },
     {
-      "doc_id": "nhk-d6b6ccdc873c6885",
-      "title": "ウクライナのエネルギー施設へ攻撃続く 60万人電力受けられず",
+      "doc_id": "nhk-62d417f9125e76d0",
+      "title": "イスラエル大統領 野党アイゼンコット氏に組閣要請",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72609"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72659"
+    },
+    {
+      "doc_id": "itmedia-bde2212b81478c32",
+      "title": "情報漏えい続出でフィッシングに変化？ “その人専用詐欺メール”登場の懸念",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002926/"
+    },
+    {
+      "doc_id": "itmedia-dca2866e51e8a67c",
+      "title": "NVIDIA、フアンCEOへの中国スパイ工作疑惑で独立調査 本人は不倫認め謝罪",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002998/"
     },
     {
       "doc_id": "itmedia-7f50be955e3ae65a",
@@ -220,16 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002899/"
     },
     {
-      "doc_id": "itmedia-620810a3b0834805",
-      "title": "ソニー、プレステサービスの不正アクセス「措置を講じている」 被害状況は公表せず",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002947/"
-    },
-    {
-      "doc_id": "itmedia-6116f3f3d6ef69b6",
-      "title": "宝くじ公式サイトが一時停止、利用者のパスワードが「意図せず変更」 影響範囲は調査中",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002943/"
+      "doc_id": "nazology-49effbcbb6f84aa3",
+      "title": "魚をよく食べる人ほど血中の「分解されにくい化学物質」が多いと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205817"
     },
     {
       "doc_id": "nazology-e5352dfd35e78d4d",
@@ -284,12 +290,6 @@
       "title": "人類の体が食べ物から出すCO2は年に約20億トンと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205681"
-    },
-    {
-      "doc_id": "nazology-825d62d163bb29c4",
-      "title": "宇宙の「時間」がたった1本しかない理由を新しい理論が説明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205809"
     }
   ]
 }
