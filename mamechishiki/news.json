@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-08T15:15:49+00:00",
-  "now_ms": 1794150949706,
+  "fetched_at": "2026-11-08T19:45:58+00:00",
+  "now_ms": 1794167158872,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,10 +58,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6601836"
     },
     {
-      "doc_id": "jiji-8f16f7f8a91ee474",
-      "title": "千葉、ようやく連勝 Ｊリーグ",
+      "doc_id": "jiji-f566c7f0586e844e",
+      "title": "与党、少数参院で多数派工作 消費減税法案、１１日審議入り",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800412&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
+    },
+    {
+      "doc_id": "jiji-9c61961f2470f246",
+      "title": "石破氏らに棄権の説明要求 減税法案採決で自民執行部",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800261&g=pol"
+    },
+    {
+      "doc_id": "jiji-b06444efb098680a",
+      "title": "中心市街で銃乱射、６人死亡 実行犯は極右思想傾倒か―ポーランド南部",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800135&g=int"
+    },
+    {
+      "doc_id": "jiji-fdd3c3ebff043a3c",
+      "title": "福井の山林に女性遺体 交際相手か、「殺害し遺棄」―監禁容疑で４９歳男逮捕・石川県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800228&g=soc"
     },
     {
       "doc_id": "jiji-ef34ecb3c7168940",
@@ -70,58 +88,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026110800027&g=soc"
     },
     {
-      "doc_id": "jiji-f55f53153c52283f",
-      "title": "イチローさん、高校生を指導 進学校の大分舞鶴高",
+      "doc_id": "jiji-38eb46d6c7f103af",
+      "title": "米半導体大手トップと「恋愛関係」 女性スパイ、中国当局が雇用―英紙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800409&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110800226&g=int"
     },
     {
-      "doc_id": "jiji-071169bd6a6468b7",
-      "title": "１横綱２大関敗れる波乱 大相撲九州場所初日",
+      "doc_id": "jiji-f0e6080abb9b180d",
+      "title": "イスラエル大統領、野党党首に組閣指示へ 反ネタニヤフ陣営結集へ連立交渉",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800331&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110800117&g=int"
     },
     {
-      "doc_id": "jiji-d99f413dccfa3724",
-      "title": "三浦佳生優勝、ファイナルへ 佐藤駿は４位―中国杯フィギュア",
+      "doc_id": "jiji-1c562bbab1d36c71",
+      "title": "「親世代ぎりぎり」即時帰国を 拉致家族ら集会に８００人―東京",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800269&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110800320&g=pol"
     },
     {
-      "doc_id": "jiji-a38846de43be9f3f",
-      "title": "広島、引き分けで３位 浦和のＧＫ西川周が最多出場―Ｊ１",
+      "doc_id": "jiji-e679347071421712",
+      "title": "新人３人が届け出 松山市長選",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800294&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026110800301&g=pol"
     },
     {
-      "doc_id": "jiji-169c5a12bf388e2e",
-      "title": "豊昇龍、白星を良薬に 休場明け、底力示せるか―大相撲九州場所",
+      "doc_id": "jiji-862c7b69749cbcb8",
+      "title": "「位置付け明確に」「必要ない」 ９条への自衛隊明記に賛否―安保実務経験者に聞く・憲法公布８０年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800400&g=spo"
-    },
-    {
-      "doc_id": "jiji-6e177ce44bc8009e",
-      "title": "池田勇太が７年ぶり復活Ｖ プレーオフ制し２２勝目―ＡＣＮ男子ゴルフ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800282&g=spo"
-    },
-    {
-      "doc_id": "jiji-2a4602b1867431f3",
-      "title": "比嘉鉄也さん死去 元沖縄県名護市長",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800256&g=pol"
-    },
-    {
-      "doc_id": "jiji-adefd7cadc31030e",
-      "title": "早期の日中会談、諦めムード 高市首相「台湾有事」発言１年",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700343&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110700334&g=pol"
     },
     {
       "doc_id": "nhk-aa3baa8c58a273da",
       "title": "山林で女性遺体 女性が相談も警察は意向受け警告行わず",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261108de72420"
+    },
+    {
+      "doc_id": "nhk-5e8f8a00c0a6d46e",
+      "title": "エジプトで列車衝突事故 7人死亡 112人けが",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72671"
     },
     {
       "doc_id": "nhk-e1cdbc40ea86930e",
@@ -152,12 +158,6 @@
       "title": "ウクライナのエネルギー施設へ攻撃続く 60万人電力受けられず",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261108de72609"
-    },
-    {
-      "doc_id": "nhk-b6a6e404d2278ba7",
-      "title": "競馬 フォーエバーヤング ことしかぎりで引退へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72599"
     },
     {
       "doc_id": "itmedia-7f50be955e3ae65a",
