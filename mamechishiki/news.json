@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-08T00:40:34+00:00",
-  "now_ms": 1794098434631,
+  "fetched_at": "2026-11-08T07:25:07+00:00",
+  "now_ms": 1794122707819,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,82 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-4c5db356f714a815",
-      "title": "愛知県で震度5強観測 約30年ぶり",
+      "doc_id": "yahoo-e6de1086e91135ff",
+      "title": "自民 消費減税採決棄権で処分検討",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601732"
+      "link": "https://news.yahoo.co.jp/pickup/6601782"
     },
     {
-      "doc_id": "yahoo-e16cb5ad8c32cc85",
-      "title": "東北新幹線運転再開 ダイヤは乱れ",
+      "doc_id": "yahoo-6b9326b527ee5105",
+      "title": "露衛星の軍事利用開始か ウ警戒",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601744"
+      "link": "https://news.yahoo.co.jp/pickup/6601779"
     },
     {
-      "doc_id": "yahoo-9ed52cc518886179",
-      "title": "あす都心11℃予想 12月下旬並み",
+      "doc_id": "yahoo-1a8676ad02a9fcea",
+      "title": "個人情報「手放す」企業が続々",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601737"
+      "link": "https://news.yahoo.co.jp/pickup/6601787"
     },
     {
-      "doc_id": "yahoo-ae40cac386211ab7",
-      "title": "互いに譲らず 冷え切った日中関係",
+      "doc_id": "yahoo-4d0b17e47e6d8524",
+      "title": "書店員刺される 男「社会に恨み」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601734"
+      "link": "https://news.yahoo.co.jp/pickup/6601795"
     },
     {
-      "doc_id": "yahoo-5ffa1b8016340bda",
-      "title": "ポーランドで銃乱射事件 6人死亡",
+      "doc_id": "yahoo-bf731110264d5fba",
+      "title": "倉庫には古米の山 赤字覚悟で販売",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601729"
+      "link": "https://news.yahoo.co.jp/pickup/6601793"
     },
     {
-      "doc_id": "yahoo-6774a1aee2e62219",
-      "title": "東京・調布 VIVANTファンで盛況",
+      "doc_id": "yahoo-b05f59aa7e7a62a5",
+      "title": "卓球・中国勢が男女とも8強で全滅",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601742"
+      "link": "https://news.yahoo.co.jp/pickup/6601798"
     },
     {
-      "doc_id": "yahoo-cfca030a0f7ff3f3",
-      "title": "DeNA戸柱恭孝 国内FA行使を決断",
+      "doc_id": "yahoo-2b93c6cdefb829f1",
+      "title": "のっちと結婚の渋谷 8歳から子役",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601735"
+      "link": "https://news.yahoo.co.jp/pickup/6601777"
     },
     {
-      "doc_id": "yahoo-cf2fd8edae69b48c",
-      "title": "中山律子さん死去 桑田佳祐が追悼",
+      "doc_id": "yahoo-b5c5915bdc2abad0",
+      "title": "のっちと結婚 渋谷謙人がコメント",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601745"
-    },
-    {
-      "doc_id": "jiji-4d8e063ebfb40ebd",
-      "title": "イスラエル大統領は、野党党首アイゼンコット氏に組閣を指示すると発表した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800114&g=flash"
-    },
-    {
-      "doc_id": "jiji-476c8341c0e5a816",
-      "title": "スパイ罪実刑の製薬会社社員、来月中国から帰国か ３年６月の刑期満了へ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700342&g=soc"
-    },
-    {
-      "doc_id": "jiji-f83ed12c287665bd",
-      "title": "早くもロケ地「巡礼」 ドラマ「ＶＩＶＡＮＴ」人気で―アゼルバイジャン",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700329&g=soc"
-    },
-    {
-      "doc_id": "jiji-2143b1d26e7c6119",
-      "title": "北朝鮮、「ポストロシア」を模索 米朝対話仲介に中国積極的―金大中氏三男弘傑氏",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700333&g=int"
-    },
-    {
-      "doc_id": "jiji-f0e6080abb9b180d",
-      "title": "イスラエル大統領、野党党首に組閣指示へ 反ネタニヤフ陣営結集へ連立交渉",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800117&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6601765"
     },
     {
       "doc_id": "jiji-f566c7f0586e844e",
@@ -94,16 +64,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
     },
     {
-      "doc_id": "jiji-43dd2791f6f3eb22",
-      "title": "消費減税、「本丸」参院へ 公・国の協力、なお見えず",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110601135&g=pol"
-    },
-    {
       "doc_id": "jiji-ef34ecb3c7168940",
-      "title": "愛知で震度５強、津波なし",
+      "title": "愛知で震度５強 ３０年ぶり、２１人重軽傷―気象庁「南海トラフと違う」",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026110800027&g=soc"
+    },
+    {
+      "doc_id": "jiji-f0e6080abb9b180d",
+      "title": "イスラエル大統領、野党党首に組閣指示へ 反ネタニヤフ陣営結集へ連立交渉",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800117&g=int"
+    },
+    {
+      "doc_id": "jiji-38eb46d6c7f103af",
+      "title": "米半導体大手トップと「恋愛関係」 女性スパイ、中国当局が雇用―英紙",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800226&g=int"
+    },
+    {
+      "doc_id": "jiji-5546ef524e52821a",
+      "title": "佐久間朱莉が米ツアー初優勝 ＴＯＴＯ女子ゴルフ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800251&g=spo"
+    },
+    {
+      "doc_id": "jiji-fdd3c3ebff043a3c",
+      "title": "福井の山林に女性遺体 交際相手か、「殺害し遺棄」―監禁容疑で４９歳男逮捕・石川県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800228&g=soc"
+    },
+    {
+      "doc_id": "jiji-c1e432d7c526f3b1",
+      "title": "ＪＲ内房線が全線再開 大雨で被災、１カ月半ぶり―千葉",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800248&g=soc"
+    },
+    {
+      "doc_id": "jiji-467f0421e8f9fe76",
+      "title": "格闘技団体トップに報道官打診 支援者ホワイト氏、辞退か―米大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800199&g=int"
     },
     {
       "doc_id": "jiji-adefd7cadc31030e",
@@ -112,40 +112,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026110700343&g=pol"
     },
     {
-      "doc_id": "jiji-9a973e5513157978",
-      "title": "「位置付け明確に」「必要ない」 ９条への自衛隊明記に賛否―安保実務経験者に聞く・憲法公布８０年",
+      "doc_id": "jiji-2a4602b1867431f3",
+      "title": "比嘉鉄也さん死去 元沖縄県名護市長",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700334&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110800256&g=pol"
     },
     {
-      "doc_id": "nhk-ee57b49792bd933e",
-      "title": "【上空映像配信中】愛知で震度5強12人けが 各地の被害状況",
+      "doc_id": "nhk-0a4111202d780481",
+      "title": "トランプ大統領 総合格闘技団体代表に報道官打診",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72310"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72412"
     },
     {
-      "doc_id": "nhk-f02ba9d8644d1987",
-      "title": "愛知県で震度5強 “南海トラフ巨大地震とはメカニズム異なる”",
+      "doc_id": "nhk-aa3baa8c58a273da",
+      "title": "山林で女性遺体 監禁疑いで逮捕の容疑者と交際の女性か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72252"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72420"
     },
     {
-      "doc_id": "nhk-9512596d09337d81",
-      "title": "【鉄道影響】東海道新幹線 上下線遅れ 在来線一部運転見合わせ",
+      "doc_id": "nhk-6031cc867211c366",
+      "title": "小泉防衛相 陸海空自衛隊の垣根を越えた組織のあり方検討",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72329"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72476"
     },
     {
-      "doc_id": "nhk-b8f958cf6a84b4e8",
-      "title": "イタリア外相 個人情報が闇サイトに ウクライナ支援で標的か",
+      "doc_id": "nhk-5f4334f820223826",
+      "title": "消費税減税法案 自民 小林政調会長“制度イメージわく審議を”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72338"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72482"
     },
     {
-      "doc_id": "nhk-4106592b2f0a1b35",
-      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+      "doc_id": "nhk-ee1d989c0adf15f4",
+      "title": "イスラエル 第2党アイゼンコット氏に組閣要請へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72392"
     },
     {
       "doc_id": "nhk-3121306e128b611b",
@@ -155,7 +155,7 @@
     },
     {
       "doc_id": "nhk-3a52af40b1c0bb20",
-      "title": "JR内房線 きょう全線で運転再開へ 復旧作業が予定より前倒し",
+      "title": "JR内房線 約1か月半ぶりに全線再開 利用者から喜びの声 千葉",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261108de72318"
     },
@@ -232,6 +232,24 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002943/"
     },
     {
+      "doc_id": "nazology-2902edf144c97e43",
+      "title": "日光を浴びたマイクロプラスチックが「有害な金属」の毒を弱めると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205821"
+    },
+    {
+      "doc_id": "nazology-6728b514b8ec6dfa",
+      "title": "ロボットに「血管」を通したら新しい感覚が生えてきた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205730"
+    },
+    {
+      "doc_id": "nazology-0c3536c02e18a50c",
+      "title": "自己愛が強い人ほど「立派な肩書き」と「人前のごほうび」を好む",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205657"
+    },
+    {
       "doc_id": "nazology-6118172f08ea38e2",
       "title": "同じ大きさのクマノミでも、ペアで上に立った方は2倍成長すると判明",
       "source": "ナゾロジー",
@@ -272,24 +290,6 @@
       "title": "女性の中で性の満足が最も高いのはレズビアンの人と判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205584"
-    },
-    {
-      "doc_id": "nazology-06af40b86facbd9c",
-      "title": "心配性な若者ほど「眠れていない」と感じるが実は眠れていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205479"
-    },
-    {
-      "doc_id": "nazology-afadbd7969d5f288",
-      "title": "顎のない古代魚は泳ぎの伸びしろをたっぷり残したまま姿を消していた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205644"
-    },
-    {
-      "doc_id": "nazology-81dfc8edfe7a6d6d",
-      "title": "子どものような姿のまま大人になる「新種のクマムシ」を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205684"
     }
   ]
 }
