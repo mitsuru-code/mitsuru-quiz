@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-07T20:55:05+00:00",
-  "now_ms": 1794084905492,
+  "fetched_at": "2026-11-08T00:40:34+00:00",
+  "now_ms": 1794098434631,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,100 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-69654f4f6f9cc870",
-      "title": "愛知県で震度5強 津波の心配なし",
+      "doc_id": "yahoo-4c5db356f714a815",
+      "title": "愛知県で震度5強観測 約30年ぶり",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601719"
+      "link": "https://news.yahoo.co.jp/pickup/6601732"
     },
     {
-      "doc_id": "yahoo-012ebe7fcb0d9d86",
-      "title": "米中間選挙 共和党大敗の舞台裏",
+      "doc_id": "yahoo-e16cb5ad8c32cc85",
+      "title": "東北新幹線運転再開 ダイヤは乱れ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601716"
+      "link": "https://news.yahoo.co.jp/pickup/6601744"
     },
     {
-      "doc_id": "yahoo-bd63b1e7a2f74646",
-      "title": "大阪維新の会「吉村体制」3期目に",
+      "doc_id": "yahoo-9ed52cc518886179",
+      "title": "あす都心11℃予想 12月下旬並み",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601718"
+      "link": "https://news.yahoo.co.jp/pickup/6601737"
     },
     {
-      "doc_id": "yahoo-af37b477198d1fb0",
-      "title": "基地交付金 打ち切り恐れに町反発",
+      "doc_id": "yahoo-ae40cac386211ab7",
+      "title": "互いに譲らず 冷え切った日中関係",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601709"
+      "link": "https://news.yahoo.co.jp/pickup/6601734"
     },
     {
-      "doc_id": "yahoo-390a63306c469fa6",
-      "title": "女性を監禁疑い 供述後に遺体発見",
+      "doc_id": "yahoo-5ffa1b8016340bda",
+      "title": "ポーランドで銃乱射事件 6人死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601700"
+      "link": "https://news.yahoo.co.jp/pickup/6601729"
     },
     {
-      "doc_id": "yahoo-1a6010b905225a4d",
-      "title": "FA宣言 15年ぶり「2ケタ」現実味",
+      "doc_id": "yahoo-6774a1aee2e62219",
+      "title": "東京・調布 VIVANTファンで盛況",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601712"
+      "link": "https://news.yahoo.co.jp/pickup/6601742"
     },
     {
-      "doc_id": "yahoo-e846b02cf8496c2b",
-      "title": "山本モナさん 50歳で司法修習生に",
+      "doc_id": "yahoo-cfca030a0f7ff3f3",
+      "title": "DeNA戸柱恭孝 国内FA行使を決断",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601706"
+      "link": "https://news.yahoo.co.jp/pickup/6601735"
     },
     {
-      "doc_id": "yahoo-677a3b0c32578509",
-      "title": "こじはる結婚 ノースリーブス祝福",
+      "doc_id": "yahoo-cf2fd8edae69b48c",
+      "title": "中山律子さん死去 桑田佳祐が追悼",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601699"
+      "link": "https://news.yahoo.co.jp/pickup/6601745"
+    },
+    {
+      "doc_id": "jiji-4d8e063ebfb40ebd",
+      "title": "イスラエル大統領は、野党党首アイゼンコット氏に組閣を指示すると発表した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800114&g=flash"
+    },
+    {
+      "doc_id": "jiji-476c8341c0e5a816",
+      "title": "スパイ罪実刑の製薬会社社員、来月中国から帰国か ３年６月の刑期満了へ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700342&g=soc"
+    },
+    {
+      "doc_id": "jiji-f83ed12c287665bd",
+      "title": "早くもロケ地「巡礼」 ドラマ「ＶＩＶＡＮＴ」人気で―アゼルバイジャン",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700329&g=soc"
+    },
+    {
+      "doc_id": "jiji-2143b1d26e7c6119",
+      "title": "北朝鮮、「ポストロシア」を模索 米朝対話仲介に中国積極的―金大中氏三男弘傑氏",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700333&g=int"
+    },
+    {
+      "doc_id": "jiji-f0e6080abb9b180d",
+      "title": "イスラエル大統領、野党党首に組閣指示へ 反ネタニヤフ陣営結集へ連立交渉",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800117&g=int"
+    },
+    {
+      "doc_id": "jiji-f566c7f0586e844e",
+      "title": "与党、少数参院で多数派工作 消費減税法案、１１日審議入り",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
+    },
+    {
+      "doc_id": "jiji-43dd2791f6f3eb22",
+      "title": "消費減税、「本丸」参院へ 公・国の協力、なお見えず",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110601135&g=pol"
+    },
+    {
+      "doc_id": "jiji-ef34ecb3c7168940",
+      "title": "愛知で震度５強、津波なし",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110800027&g=soc"
     },
     {
       "doc_id": "jiji-adefd7cadc31030e",
@@ -64,100 +112,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026110700343&g=pol"
     },
     {
-      "doc_id": "jiji-f8278faeeb35596e",
-      "title": "スパイ罪男性、来月中旬出所 ３年６月の刑期満了へ―中国",
+      "doc_id": "jiji-9a973e5513157978",
+      "title": "「位置付け明確に」「必要ない」 ９条への自衛隊明記に賛否―安保実務経験者に聞く・憲法公布８０年",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700342&g=int"
-    },
-    {
-      "doc_id": "jiji-ef34ecb3c7168940",
-      "title": "愛知で震度５強",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800027&g=soc"
-    },
-    {
-      "doc_id": "jiji-6d21f4eef49b64c4",
-      "title": "気象庁によると、愛知県知多市で震度５強の揺れを観測した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800025&g=flash"
-    },
-    {
-      "doc_id": "jiji-aea3b9041167bcc9",
-      "title": "ラクソン政権、過半数微妙 与党リードでも確定は下旬―ＮＺ総選挙",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700169&g=int"
-    },
-    {
-      "doc_id": "jiji-affd2cb0d2e95353",
-      "title": "千葉百音が優勝、ＧＰ３勝目 長岡柚奈、森口澄士組が３位―中国杯フィギュア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700393&g=spo"
-    },
-    {
-      "doc_id": "jiji-b374667f7c83ade6",
-      "title": "中山律子さん死去、８４歳 ボウリングブームの立役者",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700371&g=spo"
-    },
-    {
-      "doc_id": "jiji-64802397f22259c8",
-      "title": "ＮＹ円、１５８円台半ば",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700247&g=int"
-    },
-    {
-      "doc_id": "jiji-26d78986dc9f2f30",
-      "title": "ロシア、ＪＴ資産管理の追加命令 非製造部門３社が対象",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700447&g=pol"
-    },
-    {
-      "doc_id": "jiji-a01cd0f18de7e15e",
-      "title": "東北方面隊、東部に統合案 陸自、運用効率化狙い",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700139&g=pol"
-    },
-    {
-      "doc_id": "nhk-f02ba9d8644d1987",
-      "title": "【地震情報】愛知県で震度5強 津波の心配なし",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72252"
-    },
-    {
-      "doc_id": "nhk-8f16a2784e2bf945",
-      "title": "気象庁記者会見 “同程度の地震に注意”【会見詳細】",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72259"
-    },
-    {
-      "doc_id": "nhk-9512596d09337d81",
-      "title": "【鉄道影響】東海道新幹線 遅れ見込み 在来線一部運転見合わせ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72329"
+      "link": "https://www.jiji.com/jc/article?k=2026110700334&g=soc"
     },
     {
       "doc_id": "nhk-ee57b49792bd933e",
-      "title": "愛知で震度5強【各地の被害情報】",
+      "title": "【上空映像配信中】愛知で震度5強12人けが 各地の被害状況",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261108de72310"
     },
     {
-      "doc_id": "nhk-b3dd6b59afcd2d87",
-      "title": "愛知 豊橋 車の販売店でショーウィンドウのガラス大きく割れる",
+      "doc_id": "nhk-f02ba9d8644d1987",
+      "title": "愛知県で震度5強 “南海トラフ巨大地震とはメカニズム異なる”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72297"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72252"
     },
     {
-      "doc_id": "nhk-b6adbfa09742cf34",
-      "title": "愛知県の高速 5つの道路で全線通行止め",
+      "doc_id": "nhk-9512596d09337d81",
+      "title": "【鉄道影響】東海道新幹線 上下線遅れ 在来線一部運転見合わせ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72280"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72329"
     },
     {
-      "doc_id": "nhk-d7f169decce5e144",
-      "title": "地震の特徴 南海トラフ巨大地震との関連【災害担当記者 解説】",
+      "doc_id": "nhk-b8f958cf6a84b4e8",
+      "title": "イタリア外相 個人情報が闇サイトに ウクライナ支援で標的か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72313"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72338"
+    },
+    {
+      "doc_id": "nhk-4106592b2f0a1b35",
+      "title": "ロシア JTの資産を追加で一時管理下に置く大統領令に署名",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261107de72211"
+    },
+    {
+      "doc_id": "nhk-3121306e128b611b",
+      "title": "ポーランド南部のクラクフで銃撃事件 6人死亡 容疑者は拘束",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72373"
+    },
+    {
+      "doc_id": "nhk-3a52af40b1c0bb20",
+      "title": "JR内房線 きょう全線で運転再開へ 復旧作業が予定より前倒し",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72318"
     },
     {
       "doc_id": "itmedia-7f50be955e3ae65a",
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002943/"
     },
     {
+      "doc_id": "nazology-6118172f08ea38e2",
+      "title": "同じ大きさのクマノミでも、ペアで上に立った方は2倍成長すると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205748"
+    },
+    {
+      "doc_id": "nazology-50d17a3cc6cbaf13",
+      "title": "人の良い知らせを一緒に喜べる人ほど「愛のある人」に見える",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205578"
+    },
+    {
       "doc_id": "nazology-767fd9add439d902",
       "title": "人類の体が食べ物から出すCO2は年に約20億トンと判明",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "子どものような姿のまま大人になる「新種のクマムシ」を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205684"
-    },
-    {
-      "doc_id": "nazology-3b3f33d9867e936d",
-      "title": "頭のいい若者ほど「仲間の役に立つ」ことで一目置かれると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205484"
-    },
-    {
-      "doc_id": "nazology-5f75291215aa6f1d",
-      "title": "「生まれつき」で稼ぎの差の約3割を説明できると米国の双子4万4500組が示す",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205569"
     }
   ]
 }
