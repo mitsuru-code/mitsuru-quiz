@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-08T23:45:15+00:00",
-  "now_ms": 1794181515160,
+  "fetched_at": "2026-11-09T06:40:02+00:00",
+  "now_ms": 1794206402396,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-2a14a11a70bfa8f1",
-      "title": "9日 関東-北海道で師走並みの寒さ",
+      "doc_id": "yahoo-379e85d62bfcd0a9",
+      "title": "26年の熊本地震 初の災害関連死",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601858"
+      "link": "https://news.yahoo.co.jp/pickup/6601907"
     },
     {
-      "doc_id": "yahoo-a314f0812d59ccb8",
-      "title": "エジプトで列車同士衝突 7人死亡",
+      "doc_id": "yahoo-e9fe2df191cba9fc",
+      "title": "アフリカ カルト教団が増える背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601860"
+      "link": "https://news.yahoo.co.jp/pickup/6601895"
     },
     {
-      "doc_id": "yahoo-5d462b4ef1c6b889",
-      "title": "パラグライダー 初心者イベで墜落",
+      "doc_id": "yahoo-a84ed47b89a00a7a",
+      "title": "採決直前に退席 石破氏が理由説明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601861"
+      "link": "https://news.yahoo.co.jp/pickup/6601906"
     },
     {
-      "doc_id": "yahoo-44268ec411c85d1d",
-      "title": "舎人ライナー 資金不足陥る可能性",
+      "doc_id": "yahoo-23831288da31a80d",
+      "title": "十分生きた 透析拒んだ父への医療",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601864"
+      "link": "https://news.yahoo.co.jp/pickup/6601911"
     },
     {
-      "doc_id": "yahoo-3437012510ca8c9e",
-      "title": "迷惑行為ショウリンジ SNS模倣か",
+      "doc_id": "yahoo-a067eff5513f6bf6",
+      "title": "黒字リストラ 中高年が残る条件は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601857"
+      "link": "https://news.yahoo.co.jp/pickup/6601894"
     },
     {
-      "doc_id": "yahoo-6c5e688e3b9fcc7a",
-      "title": "Netflix 増収増益でリストラの訳",
+      "doc_id": "yahoo-4b4f34c9cb44bf44",
+      "title": "珍しい現象 二重の水上竜巻が発生",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601865"
+      "link": "https://news.yahoo.co.jp/pickup/6601913"
     },
     {
-      "doc_id": "yahoo-27e36211ca779ec8",
-      "title": "CUTIE STREET 初の紅白出場内定",
+      "doc_id": "yahoo-b25add2a24474d29",
+      "title": "吉田輝星「巨人志望報道」の真相",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601866"
+      "link": "https://news.yahoo.co.jp/pickup/6601909"
     },
     {
-      "doc_id": "yahoo-5e6d7aebaa909b72",
-      "title": "映画VIVANT スピード公開の狙い",
+      "doc_id": "yahoo-6f62f813cabff31c",
+      "title": "ロバート秋山 広告会社設立を発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6601863"
+      "link": "https://news.yahoo.co.jp/pickup/6601910"
+    },
+    {
+      "doc_id": "jiji-7d66b29bc86a5eba",
+      "title": "繁華街で偽基地局運用 電波法違反容疑で中国籍の男逮捕―詐欺メッセージ送信か・警視庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110900275&g=soc"
+    },
+    {
+      "doc_id": "jiji-ea939a90df42edd8",
+      "title": "中国女性スパイ報道巡り調査 フアンＣＥＯ、不貞行為認める―米エヌビディア",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026110900219&g=int"
     },
     {
       "doc_id": "jiji-d6c918b4f32df6c6",
@@ -64,28 +76,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026110900137&g=int"
     },
     {
-      "doc_id": "jiji-ef34ecb3c7168940",
-      "title": "愛知で震度５強 ３０年ぶり、２２人重軽傷―気象庁「南海トラフと違う」",
+      "doc_id": "jiji-951bdfdd323542cd",
+      "title": "トランプ米大統領、報道官打診は「冗談だった」 格闘技団体トップに",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800027&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110900434&g=int"
     },
     {
-      "doc_id": "jiji-e4c092afeb61d12b",
-      "title": "トランプ氏、対イラン交渉進展なら再攻撃の可能性「非常に低い」 外交を優先姿勢",
+      "doc_id": "jiji-e64186feff11d69e",
+      "title": "中国消費者物価、０．７％上昇 内需低迷、４カ月連続１％割れ―１０月",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110900129&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110900423&g=int"
     },
     {
-      "doc_id": "jiji-f566c7f0586e844e",
-      "title": "与党、少数参院で多数派工作 消費減税法案、１１日審議入り",
+      "doc_id": "jiji-1cca41b913d452f3",
+      "title": "トランプ氏、今月中旬「中ロ首脳と会談」 中国開催のＡＰＥＣで",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110900235&g=int"
     },
     {
-      "doc_id": "jiji-b06444efb098680a",
-      "title": "中心市街で銃乱射、６人死亡 実行犯は極右思想傾倒か―ポーランド南部",
+      "doc_id": "jiji-6abd1b88d2082e7e",
+      "title": "東京都心の繁華街で携帯電話の基地局を無免許で運用したとして、警視庁は電波法違反容疑で中国籍の于海（ユ・ハイ）容疑者（３１）を現行犯逮捕した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800135&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110900265&g=flash"
     },
     {
       "doc_id": "jiji-38eb46d6c7f103af",
@@ -94,70 +106,100 @@
       "link": "https://www.jiji.com/jc/article?k=2026110800226&g=int"
     },
     {
-      "doc_id": "jiji-fdd3c3ebff043a3c",
-      "title": "福井の山林に女性遺体 交際相手か、「殺害し遺棄」―監禁容疑で４９歳男逮捕・石川県警",
+      "doc_id": "jiji-e4c092afeb61d12b",
+      "title": "トランプ氏、対イラン交渉進展なら再攻撃の可能性「非常に低い」 外交を優先姿勢",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800228&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026110900129&g=int"
     },
     {
-      "doc_id": "jiji-f0e6080abb9b180d",
-      "title": "イスラエル大統領、野党党首に組閣指示へ 反ネタニヤフ陣営結集へ連立交渉",
+      "doc_id": "jiji-a4876fae9f8c0fff",
+      "title": "株価急落、トランプ氏に打撃 成果が泡に、保有分も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800117&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026110900182&g=int"
     },
     {
-      "doc_id": "jiji-9e255b3a51d1dd46",
-      "title": "首相動静（１１月８日）",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800208&g=pol"
-    },
-    {
-      "doc_id": "jiji-9c61961f2470f246",
-      "title": "石破氏らに棄権の説明要求 減税法案採決で自民執行部",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110800261&g=pol"
-    },
-    {
-      "doc_id": "nhk-2264a850c2d9cc44",
-      "title": "山林遺体は石川県の20代女性と確認 監禁後まもなく殺害か",
+      "doc_id": "nhk-17bbb582cac1574e",
+      "title": "「ラクスル」に不正アクセス 印刷データなど漏えいおそれ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72639"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72879"
     },
     {
-      "doc_id": "nhk-5e8f8a00c0a6d46e",
-      "title": "エジプトで列車衝突事故 7人死亡 112人けが",
+      "doc_id": "nhk-21626823b305714e",
+      "title": "熊本 八代の90代女性 7月の熊本地震の災害関連死に初認定",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72671"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72717"
     },
     {
-      "doc_id": "nhk-00df8274e1c10375",
-      "title": "COP31 きょう開幕へ 各国が足並みそろえられるか焦点に",
+      "doc_id": "nhk-45ded6e5cd336a12",
+      "title": "産休取得の川田翔子市長が公務復帰「心機一転 仕事」京都 八幡",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72633"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72721"
     },
     {
-      "doc_id": "nhk-ab2814e026cc18ad",
-      "title": "消費税減税法案 あさって参議院で審議入り 与野党論戦へ",
+      "doc_id": "nhk-fa7aaff0a47d8632",
+      "title": "小学館 会員メールアドレスなど約199万件漏えいおそれ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72622"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72824"
     },
     {
-      "doc_id": "nhk-79810498ee4b4843",
-      "title": "きょう日越首脳会談 重要鉱物や原子力連携などで共同声明調整",
+      "doc_id": "nhk-70c4e89ad7900e7e",
+      "title": "トランプ大統領 イランとの戦闘再開「必要性極めて低い」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261108de72624"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72852"
     },
     {
-      "doc_id": "nhk-71ed4817a6082a7e",
-      "title": "JR内房線が全線で運転再開 通勤・通学客からは安どの声",
+      "doc_id": "nhk-8b1b21e1a910487a",
+      "title": "中国で服役の製薬会社社員 出所見通し 木原長官“適切に対応”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72695"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72868"
     },
     {
-      "doc_id": "nhk-62d417f9125e76d0",
-      "title": "イスラエル大統領 野党アイゼンコット氏に組閣要請",
+      "doc_id": "nhk-13cca78e43e6d016",
+      "title": "冬のような寒さ 東京都心の最高気温10度予想 体調管理に注意を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72659"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261109de72716"
+    },
+    {
+      "doc_id": "itmedia-8d09e66e109a9fb6",
+      "title": "モニターにも値上げの波 アイオーデータは10月に実施、EIZOも12月以降に メーカー各社に聞いた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003015/"
+    },
+    {
+      "doc_id": "itmedia-6e9bb20e5eb365f3",
+      "title": "早稲田大、PHP脆弱性への対応中に不正アクセス発見 個人情報約3400件流出確認",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003012/"
+    },
+    {
+      "doc_id": "itmedia-11f47276a04db656",
+      "title": "ドコモ傘下の電子チケット「teket」不正アクセス、全会員の氏名やメアド流出 サービス停止",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003009/"
+    },
+    {
+      "doc_id": "itmedia-b26e44f28af61aea",
+      "title": "学園祭の混雑、ITで解消へ お茶の水女子大・共創工学部の学生がセンサー活用し実証",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003006/"
+    },
+    {
+      "doc_id": "itmedia-ff71dcc193f4ca56",
+      "title": "サイバー攻撃への緊急対策、「トップガン人材」チーム設立へ 予備費100億円支出",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003005/"
+    },
+    {
+      "doc_id": "itmedia-d5507ce5c50abd61",
+      "title": "画像生成AIは既存のキャラクターをどれくらい出力する？ ソニーAIなどが14モデルを調査",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002982/"
+    },
+    {
+      "doc_id": "itmedia-c9ecbcfe243e0159",
+      "title": "ネット印刷「ラクスル」に不正アクセス 入稿データ一部漏えいか 名刺やはがき記載の個人情報も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003004/"
     },
     {
       "doc_id": "itmedia-bde2212b81478c32",
@@ -166,70 +208,52 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002926/"
     },
     {
-      "doc_id": "itmedia-dca2866e51e8a67c",
-      "title": "NVIDIA、フアンCEOへの中国スパイ工作疑惑で独立調査 本人は不倫認め謝罪",
+      "doc_id": "itmedia-71a5b8d8379eca72",
+      "title": "クラウドインフラのシェア、AWSが26％に後退 Google Cloudは16％に上昇 市場全体は過去最大の高成長率へ 2026年第3四半期調査",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002998/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003001/"
     },
     {
-      "doc_id": "itmedia-7f50be955e3ae65a",
-      "title": "ロート製薬、約280万人分の個人情報漏えい 9715件は通話音声データとクレカ情報が流出",
+      "doc_id": "itmedia-52492059f0da4570",
+      "title": "「太鼓の達人」など7日ぶり稼働 セガ系不正アクセス問題、バンナム系が試験復旧",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002984/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003003/"
     },
     {
-      "doc_id": "itmedia-9412668f09116ec6",
-      "title": "政府、相次ぐ情報漏えいで事業者に注意喚起 「基本的な対策が不十分」な事例を複数確認",
+      "doc_id": "itmedia-e0893a5976565eba",
+      "title": "ドコモ不正アクセスで「本人確認書類の番号」も流出 見舞金検討",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002976/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000003000/"
     },
     {
-      "doc_id": "itmedia-f64b19370ed898cc",
-      "title": "セキュリティ啓発団体に不正アクセス 個人情報最大1.5万件漏えいか",
+      "doc_id": "itmedia-dba6e2f05bc2d47e",
+      "title": "128信金の大規模障害、約6時間で復旧 「原因はサイバー攻撃ではない」",
       "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002978/"
+      "link": "https://www.itmedia.co.jp/news/article/2611/09/2000002999/"
     },
     {
-      "doc_id": "itmedia-b599d6788246ec50",
-      "title": "複数の信金でATM利用・振り込みできず──共同システムで障害、128信金に影響か 再開めど立たず",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002971/"
+      "doc_id": "nazology-a3fd1488df09b11c",
+      "title": "大学生が1年探し続けた「世界で最も珍しい昆虫」をイエローストーンで発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206053"
     },
     {
-      "doc_id": "itmedia-091b36fde22a83d4",
-      "title": "サイバー攻撃対策で自社通販サイト閉店 ドールのアゾン「個人情報を社内に保管しない」方針へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002967/"
+      "doc_id": "nazology-c465ef7d0bbb4450",
+      "title": "電気が無くても、ハンドルを回すだけで1分で血液型がわかる装置が登場",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206041"
     },
     {
-      "doc_id": "itmedia-eafb334ae37f92c3",
-      "title": "松屋アプリ、9日ぶり復旧 「お詫び」でポイント最大3倍",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002966/"
+      "doc_id": "nazology-eb6d52677360ceef",
+      "title": "興味を持って学ぶ人ほど「少ない努力」で覚えられると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/205760"
     },
     {
-      "doc_id": "itmedia-2936f80d222c4af7",
-      "title": "フジテレビ、27年に全ドラマで生成AI活用へ 一部工程で工数を最大8割削減も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002962/"
-    },
-    {
-      "doc_id": "itmedia-e09bca3128a0c66f",
-      "title": "米住民投票でデータセンター建設に反対相次ぐ 規制派民主知事も続々当選、推進に逆風も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002949/"
-    },
-    {
-      "doc_id": "itmedia-efb10eb80f94d92a",
-      "title": "消防庁「安否情報システム」不正アクセスでサービス停止 委託先の富士ソフトから報告",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002952/"
-    },
-    {
-      "doc_id": "itmedia-17779919b43b536c",
-      "title": "AIに自販機経営を1年任せてみた 指示は“利益の最大化”だけ 米ハーバード大などがシミュレーション",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/06/2000002899/"
+      "doc_id": "nazology-0cf3a53f83a31abd",
+      "title": "体が透けるグラスフロッグの「水玉模様」は鳥から身を守っていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206175"
     },
     {
       "doc_id": "nazology-49effbcbb6f84aa3",
@@ -266,30 +290,6 @@
       "title": "ロボットに「血管」を通したら新しい感覚が生えてきた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205730"
-    },
-    {
-      "doc_id": "nazology-0c3536c02e18a50c",
-      "title": "自己愛が強い人ほど「立派な肩書き」と「人前のごほうび」を好む",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205657"
-    },
-    {
-      "doc_id": "nazology-6118172f08ea38e2",
-      "title": "同じ大きさのクマノミでも、ペアで上に立った方は2倍成長すると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205748"
-    },
-    {
-      "doc_id": "nazology-50d17a3cc6cbaf13",
-      "title": "人の良い知らせを一緒に喜べる人ほど「愛のある人」に見える",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205578"
-    },
-    {
-      "doc_id": "nazology-767fd9add439d902",
-      "title": "人類の体が食べ物から出すCO2は年に約20億トンと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205681"
     }
   ]
 }
