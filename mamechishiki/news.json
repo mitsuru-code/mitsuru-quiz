@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-10T17:53:25+00:00",
-  "now_ms": 1794333205096,
+  "fetched_at": "2026-11-10T23:25:41+00:00",
+  "now_ms": 1794353141517,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-5314d913d9375f68",
-      "title": "日中首脳会談 実現への調整不調",
+      "doc_id": "yahoo-d8851f63a4de3777",
+      "title": "米国防長官 自身への弾劾「茶番」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602093"
+      "link": "https://news.yahoo.co.jp/pickup/6602114"
     },
     {
-      "doc_id": "yahoo-49bf2afaa2b27354",
-      "title": "米・露・ウの協議 9カ月ぶり再開",
+      "doc_id": "yahoo-1d6a7c69df876b57",
+      "title": "G7外相会合 ウ支援で声明公表へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602085"
+      "link": "https://news.yahoo.co.jp/pickup/6602111"
     },
     {
-      "doc_id": "yahoo-8f8dcbce57d4465c",
-      "title": "タマホーム社員 保険金を不正請求",
+      "doc_id": "yahoo-fa31d681775c9e1d",
+      "title": "小泉氏 首相総裁選出馬なら支える",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602099"
+      "link": "https://news.yahoo.co.jp/pickup/6602107"
     },
     {
-      "doc_id": "yahoo-f55707a0441eed6b",
-      "title": "スマホ遠隔操作し詐欺疑い 逮捕",
+      "doc_id": "yahoo-4304b2c39d6f00e6",
+      "title": "女性搬送の救急車事故 病院で死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602082"
+      "link": "https://news.yahoo.co.jp/pickup/6602106"
     },
     {
-      "doc_id": "yahoo-dba3dc68b09401d2",
-      "title": "もう終わりやで 明石ダコ深刻不漁",
+      "doc_id": "yahoo-5154074ac8b5cadf",
+      "title": "生徒乗る遊覧船定員1.7倍で航行か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602095"
+      "link": "https://news.yahoo.co.jp/pickup/6602112"
     },
     {
-      "doc_id": "yahoo-fcaa06afafc77570",
-      "title": "集客5万人を掲げたイベ閑散 怒り",
+      "doc_id": "yahoo-3a447a1a98bb61ee",
+      "title": "イベ閑散 主催は集客「約束せず」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602098"
+      "link": "https://news.yahoo.co.jp/pickup/6602113"
     },
     {
-      "doc_id": "yahoo-d02048ef869c4656",
-      "title": "海自の59歳海将 保育士資格を取得",
+      "doc_id": "yahoo-5ac1a6702e9960aa",
+      "title": "海ほたるで迷惑行為 閉鎖繰り返す",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602100"
+      "link": "https://news.yahoo.co.jp/pickup/6602108"
     },
     {
-      "doc_id": "yahoo-eb6a2ad14f588bee",
-      "title": "THE MODS苣木寛之さん死去 66歳",
+      "doc_id": "yahoo-1e3397ada59bdc1f",
+      "title": "巨人 元楽天監督の平石氏招へいへ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602084"
-    },
-    {
-      "doc_id": "jiji-1c3444714232b949",
-      "title": "１０月の米消費者物価、０．４％上昇 予想上回る、１２月利上げ公算",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111001234&g=int"
-    },
-    {
-      "doc_id": "jiji-f566c7f0586e844e",
-      "title": "与党、少数参院で多数派工作 消費減税法案、１１日審議入り",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
+      "link": "https://news.yahoo.co.jp/pickup/6602110"
     },
     {
       "doc_id": "jiji-e178c2afcef7b3e1",
@@ -76,40 +64,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026111001196&g=int"
     },
     {
-      "doc_id": "jiji-e9be697f111f52e5",
-      "title": "１０月の米消費者物価指数は前月比０．４％上昇した",
+      "doc_id": "jiji-643da44d186b13a3",
+      "title": "トヨタ、米で軽トラ発売 その名も「ＫＥＩ―０１」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111001233&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026111100190&g=int"
     },
     {
-      "doc_id": "jiji-1d95bfb2c1d74420",
-      "title": "「緊急時の核持ち込み」明記案 安保３文書改定で政府検討",
+      "doc_id": "jiji-f566c7f0586e844e",
+      "title": "与党、少数参院で多数派工作 消費減税法案、１１日審議入り",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111001129&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
     },
     {
-      "doc_id": "jiji-17547a2d8805d948",
-      "title": "１１日からＦＡ交渉 森下、床田、坂倉ら１０人公示―プロ野球",
+      "doc_id": "jiji-8705245e324d2d70",
+      "title": "徳島・阿波市長らを逮捕 詐欺容疑、修理費用を上乗せ請求―県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000868&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111000698&g=soc"
     },
     {
-      "doc_id": "jiji-ed9e6e21ec3fe0b5",
-      "title": "米共和議員、国防長官の弾劾案提出 イラン作戦「違法の責任を」",
+      "doc_id": "jiji-f9fcfdfd844f8e5c",
+      "title": "静岡県、高校生の自転車ヘルメット義務化へ 全国初でも「不名誉」と担当者 汚名返上を期待なぜ？",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000227&g=int"
-    },
-    {
-      "doc_id": "jiji-1edcbe4e759c1e7f",
-      "title": "日越首脳は重要鉱物を巡る協力の加速で一致した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026110900928&g=flash"
-    },
-    {
-      "doc_id": "jiji-f89d7f89a3ffe97b",
-      "title": "春日とよ栄芝さん死去 端唄・小唄演奏家",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111001183&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111000643&g=soc"
     },
     {
       "doc_id": "jiji-83b4404a5cbf2af9",
@@ -118,46 +94,88 @@
       "link": "https://www.jiji.com/jc/article?k=2026111001135&g=pol"
     },
     {
-      "doc_id": "nhk-d8b2e65e175bbdbc",
-      "title": "台風32号 小笠原最接近 暴風高波に警戒を",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73756"
+      "doc_id": "jiji-7c6bf9bcdf7fd22a",
+      "title": "ＮＹ株、１１０４ドル高 原油安を好感",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111000146&g=int"
     },
     {
-      "doc_id": "nhk-eb12968589d31afb",
-      "title": "小泉防衛相 来年の自民総裁選“高市首相が立候補なら支える”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73825"
+      "doc_id": "jiji-c1611aa1e7d08561",
+      "title": "風疹ウイルスの受容体特定 ヒト細胞表面のたんぱく質―ＪＩＨＳなど",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111100130&g=soc"
     },
     {
-      "doc_id": "nhk-a9694b6ad78c6e6e",
-      "title": "スマホ遠隔操作し商品だまし取った疑い 中国籍の2人逮捕 福岡",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73782"
+      "doc_id": "jiji-29ca5b06c77ba5cb",
+      "title": "被疑者ノート、警察官が目視 留置施設で内容確認―福岡県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111001176&g=soc"
     },
     {
-      "doc_id": "nhk-b727955ab9dff892",
-      "title": "7月の熊本地震 災害関連死5人認定 直接死など含め死者は43人に",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73781"
+      "doc_id": "jiji-1442bcc6da025188",
+      "title": "「企業献金」の審議先行 定数削減にらみ与党譲歩―衆院委",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111001042&g=pol"
     },
     {
-      "doc_id": "nhk-dcd41b06f38b51ee",
-      "title": "子どものSNS利用 発達段階に応じた考え方提示 こども家庭庁",
+      "doc_id": "nhk-89201fa5552769b6",
+      "title": "エルニーニョ現象 過去最大の強さに どんな影響が",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73287"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73297"
     },
     {
-      "doc_id": "nhk-c4aa2991e11de211",
-      "title": "巨人 ドラフト1位指名であいさつ 織田翔希投手は同席せず",
+      "doc_id": "nhk-480ecbc6cc0f76f1",
+      "title": "各地で厳しい冷え込み 台風32号は小笠原離れるも高波警戒",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73588"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73870"
+    },
+    {
+      "doc_id": "nhk-14a7357d5144fb7d",
+      "title": "“年内入試”での生成AI活用めぐり大学の対応分かれる",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73858"
+    },
+    {
+      "doc_id": "nhk-102c08e6e9e1f605",
+      "title": "逮捕の阿波市長ら 修理費用を機器の調達名目で請求か 徳島",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73872"
     },
     {
       "doc_id": "nhk-f07ed282d6407bc1",
       "title": "JR東「ウォークスルー改札」山手線全駅など再来年春に導入へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261110de73528"
+    },
+    {
+      "doc_id": "nhk-8bcf72790a2a95e7",
+      "title": "タマホーム社員 火災保険不正請求の疑い 損保各社調査求める",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73843"
+    },
+    {
+      "doc_id": "nhk-e030f34641076ad3",
+      "title": "消費税減税法案 参院できょう審議入り 与党少数の中で論戦へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73840"
+    },
+    {
+      "doc_id": "itmedia-f193b53884932441",
+      "title": "簿記などの受験者情報最大98万人分漏えいか 合否や得点も 日商ネット試験に不正アクセス",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003084/"
+    },
+    {
+      "doc_id": "itmedia-eb12312f7ba216b7",
+      "title": "Google、「Gemini 4 Carbon」一般提供開始 Geminiアプリでは最上位「AI Ultra」限定",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003083/"
+    },
+    {
+      "doc_id": "itmedia-1408780a1e641bc3",
+      "title": "「盗撮」→「法律で規制」が話題のAI眼鏡 海外では大ヒットなのに、日本での普及は限定的 ビジネスでの活用事例を探る",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000002913/"
     },
     {
       "doc_id": "itmedia-c8c14e3072700242",
@@ -214,22 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003053/"
     },
     {
-      "doc_id": "itmedia-74059d042f914a01",
-      "title": "サイバー攻撃受けた医療現場のリアル 患者の死亡率が3割上昇 乳がん患者の半裸画像流出、セラピー記録で脅迫され自殺も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003027/"
-    },
-    {
-      "doc_id": "itmedia-fe04aa51b46ba533",
-      "title": "アクセスキー直書き→委託先がテスト用イメージをネット公開 「ラフールサーベイ」約2.4万人の情報漏えい",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003052/"
-    },
-    {
-      "doc_id": "itmedia-0dd4764a1d65c943",
-      "title": "三井化学、JSRを1兆8400億円で買収 「国内トップクラスの半導体材料企業に」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003045/"
+      "doc_id": "nazology-bce86cc8b1c044a5",
+      "title": "左右から強い光を当てるとヒマワリの芽は「弱い光」の方へ伸びると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206116"
     },
     {
       "doc_id": "nazology-23f8163ca58aa306",
@@ -284,12 +290,6 @@
       "title": "ガは「生殖器をコスって超音波」を出し、コウモリから逃げていると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206180"
-    },
-    {
-      "doc_id": "nazology-5aa7f72f9a1458ac",
-      "title": "糖質を控えると増える物質に体の炎症を抑える働きがある可能性",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/205927"
     }
   ]
 }
