@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-10T09:54:58+00:00",
-  "now_ms": 1794304498193,
+  "fetched_at": "2026-11-10T17:53:25+00:00",
+  "now_ms": 1794333205096,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,124 +10,142 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-2eed0dbe98867905",
-      "title": "原子力潜水艦 導入視野に検討へ",
+      "doc_id": "yahoo-5314d913d9375f68",
+      "title": "日中首脳会談 実現への調整不調",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602067"
+      "link": "https://news.yahoo.co.jp/pickup/6602093"
     },
     {
-      "doc_id": "yahoo-495a6320e94efe75",
-      "title": "証明書のコンビニ交付 障害相次ぐ",
+      "doc_id": "yahoo-49bf2afaa2b27354",
+      "title": "米・露・ウの協議 9カ月ぶり再開",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602063"
+      "link": "https://news.yahoo.co.jp/pickup/6602085"
     },
     {
-      "doc_id": "yahoo-77e815db73c3007f",
-      "title": "再婚相手の娘を殺害疑い 男を逮捕",
+      "doc_id": "yahoo-8f8dcbce57d4465c",
+      "title": "タマホーム社員 保険金を不正請求",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602062"
+      "link": "https://news.yahoo.co.jp/pickup/6602099"
     },
     {
-      "doc_id": "yahoo-ce5b3e3f3f18f7e5",
-      "title": "柏の夫婦刺殺で初公判 被告暴れる",
+      "doc_id": "yahoo-f55707a0441eed6b",
+      "title": "スマホ遠隔操作し詐欺疑い 逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602066"
+      "link": "https://news.yahoo.co.jp/pickup/6602082"
     },
     {
-      "doc_id": "yahoo-9a2060d1f656bc55",
-      "title": "脱走犬がかみ女性重傷 飼い主逮捕",
+      "doc_id": "yahoo-dba3dc68b09401d2",
+      "title": "もう終わりやで 明石ダコ深刻不漁",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602058"
+      "link": "https://news.yahoo.co.jp/pickup/6602095"
     },
     {
-      "doc_id": "yahoo-5516773a6715c3be",
-      "title": "緒方理貢 トライアウト不参加に",
+      "doc_id": "yahoo-fcaa06afafc77570",
+      "title": "集客5万人を掲げたイベ閑散 怒り",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602064"
+      "link": "https://news.yahoo.co.jp/pickup/6602098"
     },
     {
-      "doc_id": "yahoo-580a60e2b20a2223",
-      "title": "G編成本部長 織田の1位指名謝罪",
+      "doc_id": "yahoo-d02048ef869c4656",
+      "title": "海自の59歳海将 保育士資格を取得",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602059"
+      "link": "https://news.yahoo.co.jp/pickup/6602100"
     },
     {
-      "doc_id": "yahoo-61c8b43eb6a440fa",
-      "title": "パプア「三人っ子政策」導入検討",
+      "doc_id": "yahoo-eb6a2ad14f588bee",
+      "title": "THE MODS苣木寛之さん死去 66歳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602061"
+      "link": "https://news.yahoo.co.jp/pickup/6602084"
     },
     {
-      "doc_id": "jiji-8705245e324d2d70",
-      "title": "徳島・阿波市長らを逮捕 詐欺容疑、修理費用を上乗せ請求―県警",
+      "doc_id": "jiji-1c3444714232b949",
+      "title": "１０月の米消費者物価、０．４％上昇 予想上回る、１２月利上げ公算",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000698&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111001234&g=int"
     },
     {
-      "doc_id": "jiji-c0fa1b832a5a4116",
-      "title": "皇居で大綬章親授式",
+      "doc_id": "jiji-f566c7f0586e844e",
+      "title": "与党、少数参院で多数派工作 消費減税法案、１１日審議入り",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000130&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110700339&g=pol"
     },
     {
-      "doc_id": "jiji-c1b697158585efaf",
-      "title": "採決棄権、再発防止図る 参院自民幹部「大変なことに」",
+      "doc_id": "jiji-e178c2afcef7b3e1",
+      "title": "米アンソロピック、１０兆円調達へ 市場予想大幅に下回る",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000707&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111001196&g=int"
     },
     {
-      "doc_id": "jiji-82662aa953b3e70a",
-      "title": "ソフトバンクグループの中間連結純損益が７６８０億円の赤字に転落した",
+      "doc_id": "jiji-e9be697f111f52e5",
+      "title": "１０月の米消費者物価指数は前月比０．４％上昇した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000766&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026111001233&g=flash"
     },
     {
-      "doc_id": "jiji-fd164d22be4cc3fc",
-      "title": "スマートグラス着用禁止に 韓国、大学入試控え対策",
+      "doc_id": "jiji-1d95bfb2c1d74420",
+      "title": "「緊急時の核持ち込み」明記案 安保３文書改定で政府検討",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000830&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111001129&g=pol"
     },
     {
-      "doc_id": "jiji-4b66c4dc68310f50",
-      "title": "「食の至宝」にウイスキーブレンダーら８人 食文化への功績顕彰―文化庁",
+      "doc_id": "jiji-17547a2d8805d948",
+      "title": "１１日からＦＡ交渉 森下、床田、坂倉ら１０人公示―プロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000888&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111000868&g=spo"
     },
     {
-      "doc_id": "jiji-a6695e20a50102e9",
-      "title": "災害関連死、新たに５人認定 疑い含め、死者４３人に―熊本地震",
+      "doc_id": "jiji-ed9e6e21ec3fe0b5",
+      "title": "米共和議員、国防長官の弾劾案提出 イラン作戦「違法の責任を」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000872&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111000227&g=int"
     },
     {
-      "doc_id": "jiji-ede6d43129788d6e",
-      "title": "玉木氏、消費税法案の修正要求 「住民税減税が不可欠」",
+      "doc_id": "jiji-1edcbe4e759c1e7f",
+      "title": "日越首脳は重要鉱物を巡る協力の加速で一致した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000774&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026110900928&g=flash"
     },
     {
-      "doc_id": "jiji-9e94fbf8d4500b7f",
-      "title": "小野田経済安保相「新しい戦い方に対応」 重要土地法改正案が審議入り",
+      "doc_id": "jiji-f89d7f89a3ffe97b",
+      "title": "春日とよ栄芝さん死去 端唄・小唄演奏家",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000891&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111001183&g=soc"
     },
     {
-      "doc_id": "jiji-8e229903c4c8cecf",
-      "title": "スパイ疑惑巡り株主が集団訴訟 米エヌビディア",
+      "doc_id": "jiji-83b4404a5cbf2af9",
+      "title": "小渕・古川氏、税調副会長を辞任 消費減税法案の採決棄権受け",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111000790&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111001135&g=pol"
     },
     {
-      "doc_id": "nhk-1c5006940f4acc3a",
-      "title": "非核三原則“堅持”の地方議会意見書 高市内閣の発足後に急増",
+      "doc_id": "nhk-d8b2e65e175bbdbc",
+      "title": "台風32号 小笠原最接近 暴風高波に警戒を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73511"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73756"
     },
     {
-      "doc_id": "nhk-cf7d89d04838bc4d",
-      "title": "ソフトバンクグループ中間決算 7680億円の赤字 DC計画変更で",
+      "doc_id": "nhk-eb12968589d31afb",
+      "title": "小泉防衛相 来年の自民総裁選“高市首相が立候補なら支える”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73545"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73825"
+    },
+    {
+      "doc_id": "nhk-a9694b6ad78c6e6e",
+      "title": "スマホ遠隔操作し商品だまし取った疑い 中国籍の2人逮捕 福岡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73782"
+    },
+    {
+      "doc_id": "nhk-b727955ab9dff892",
+      "title": "7月の熊本地震 災害関連死5人認定 直接死など含め死者は43人に",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73781"
+    },
+    {
+      "doc_id": "nhk-dcd41b06f38b51ee",
+      "title": "子どものSNS利用 発達段階に応じた考え方提示 こども家庭庁",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73287"
     },
     {
       "doc_id": "nhk-c4aa2991e11de211",
@@ -136,28 +154,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261110de73588"
     },
     {
-      "doc_id": "nhk-15e6bbf30fb8f4d3",
-      "title": "ダルメシアンにかまれ女性が大けが 飼い主を逮捕 千葉",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73681"
-    },
-    {
       "doc_id": "nhk-f07ed282d6407bc1",
       "title": "JR東「ウォークスルー改札」山手線全駅など再来年春に導入へ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261110de73528"
     },
     {
-      "doc_id": "nhk-5aecf5bb50c59b92",
-      "title": "JIS不適合生コン製造などで認証取り消し 麻生コンクリート工業",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73726"
+      "doc_id": "itmedia-c8c14e3072700242",
+      "title": "ソフトバンクG、マスク氏の「債務不履行」投稿に「全くの事実無根」 7～9月期決算は1兆円超の赤字",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003079/"
     },
     {
-      "doc_id": "nhk-0da9bdc94e4e9a22",
-      "title": "エディオン 不正プログラムでクレカ情報500件余漏えいのおそれ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261110de73517"
+      "doc_id": "itmedia-cbd3c210bac5bb96",
+      "title": "スキマバイト「シェアフル」に不正アクセス 最大750万アカウント漏えいか 給与振込用の口座情報なども",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003072/"
     },
     {
       "doc_id": "itmedia-39aa081c12d40e9a",
@@ -220,16 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003045/"
     },
     {
-      "doc_id": "itmedia-0809bff33fdb9e44",
-      "title": "NTTデータ、住友生命から受託したシステムに不正アクセス 「Vitality」利用者約8万人の情報漏えい",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003051/"
+      "doc_id": "nazology-23f8163ca58aa306",
+      "title": "火星の「極細の砂ぼこり」は宇宙飛行士の脳に入り込む可能性",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206136"
     },
     {
-      "doc_id": "itmedia-f59cadfada3a9316",
-      "title": "AdobeとDisneyが戦略的提携 「Firefly Foundry」でDisney専用の生成AIモデル開発へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/10/2000003050/"
+      "doc_id": "nazology-54d5b6d3de207ddb",
+      "title": "「こんな働きをして」と頼むだけでAIがタンパク質を設計",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206090"
+    },
+    {
+      "doc_id": "nazology-f848df0b83fa5d76",
+      "title": "オスのマウスは去勢で寿命が延びる、しかも遅く去勢したほうが長生き",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206765"
     },
     {
       "doc_id": "nazology-ee736009c1c50891",
@@ -272,24 +290,6 @@
       "title": "糖質を控えると増える物質に体の炎症を抑える働きがある可能性",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/205927"
-    },
-    {
-      "doc_id": "nazology-c8b184d370f10b07",
-      "title": "先の見えない時代ほど人は「強権的なリーダー」に惹かれる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206036"
-    },
-    {
-      "doc_id": "nazology-415c8a199a92e31a",
-      "title": "植物も「錯覚」のような状態が起こりうる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206729"
-    },
-    {
-      "doc_id": "nazology-8097679ff84d3241",
-      "title": "インカ帝国の生贄の子ども、調べた毛髪すべてからコカインを検出",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206709"
     }
   ]
 }
