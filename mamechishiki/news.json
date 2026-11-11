@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-11T15:16:34+00:00",
-  "now_ms": 1794410194596,
+  "fetched_at": "2026-11-11T22:03:06+00:00",
+  "now_ms": 1794434586858,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -16,10 +16,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6602215"
     },
     {
-      "doc_id": "yahoo-ac41164b26537a25",
-      "title": "Amazon「表示枠」公取なぜ問題視",
+      "doc_id": "yahoo-b045168d2d8ecafe",
+      "title": "腕時計窃盗疑い 気に入ってしまい",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602231"
+      "link": "https://news.yahoo.co.jp/pickup/6602236"
+    },
+    {
+      "doc_id": "yahoo-2a52fac817b124bb",
+      "title": "Amazon出品者「安値強要された」",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6602237"
     },
     {
       "doc_id": "yahoo-757557975d3a1b45",
@@ -28,22 +34,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6602222"
     },
     {
-      "doc_id": "yahoo-8b8c7f64854f70a4",
-      "title": "約6300の学校に爆破予告メール 伊",
+      "doc_id": "yahoo-e62ad6b104c5c1a7",
+      "title": "マック 休止中の新チキン開発経緯",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602234"
+      "link": "https://news.yahoo.co.jp/pickup/6602238"
     },
     {
-      "doc_id": "yahoo-7382c7576a0b5066",
-      "title": "開発事業者がミラー設置断る 困惑",
+      "doc_id": "yahoo-fa708f6091aab0d8",
+      "title": "阪神 FA獲得目指す3人に条件提示",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602232"
-    },
-    {
-      "doc_id": "yahoo-119af4e5a9e307fb",
-      "title": "FA太田光 広島球団に手土産渡す",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602233"
+      "link": "https://news.yahoo.co.jp/pickup/6602235"
     },
     {
       "doc_id": "yahoo-a57452e40ff5a1e6",
@@ -52,112 +52,112 @@
       "link": "https://news.yahoo.co.jp/pickup/6602228"
     },
     {
-      "doc_id": "yahoo-62b20c287afef624",
-      "title": "俳優・川口春奈 第1子出産を報告",
+      "doc_id": "yahoo-aff1dd67a38a1866",
+      "title": "木梨憲武のスポーツ特番 1/2放送",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602203"
+      "link": "https://news.yahoo.co.jp/pickup/6602239"
     },
     {
-      "doc_id": "jiji-6ea7d76e5781c1a1",
-      "title": "板倉滉、第１子誕生を報告「かわいくてしょうがない」 妻は俳優の川口春奈さん―サッカー日本代表",
+      "doc_id": "jiji-9642edfb247ef1a1",
+      "title": "通信障害が復旧 交換機が原因―ドコモ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111101135&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111100508&g=soc"
     },
     {
-      "doc_id": "jiji-cebe893854dfe562",
-      "title": "西川「必死に頑張る」 アジアプロ野球",
+      "doc_id": "jiji-a45d0390bd6372ff",
+      "title": "首相動静（１１月１１日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111101107&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111100213&g=pol"
     },
     {
-      "doc_id": "jiji-cb13e450fb9975c0",
-      "title": "大の里３連勝、豊昇龍２連敗 土つかずは熱海富士のみ―大相撲九州場所４日目",
+      "doc_id": "jiji-8ce28cedbd3f1a88",
+      "title": "ＮＹ株反落、１５７ドル安 利上げ観測が重荷",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100943&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111100168&g=int"
     },
     {
-      "doc_id": "jiji-245da53df88553e6",
-      "title": "ＦＡ太田光捕手、広島と交渉 プロ野球",
+      "doc_id": "jiji-90ff3734d8b12b44",
+      "title": "米ロ・ウクライナ、領土交渉難航か ２日目終了、捕虜交換で進展",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111101115&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111100183&g=int"
     },
     {
-      "doc_id": "jiji-023d2d2994c18453",
-      "title": "侍ジャパン井口監督「優勝する」 アジアプロ野球、１２日開幕",
+      "doc_id": "jiji-e77db9bcd0f9497a",
+      "title": "昨年参院選は「違憲状態」 ３．１３倍、合区後初―「１票の格差」判決・最高裁大法廷",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111101049&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111100661&g=pol"
     },
     {
-      "doc_id": "jiji-57fb818e7bc3dd28",
-      "title": "柏、瞬く間に逆転 ルヴァン杯サッカー",
+      "doc_id": "jiji-9d843b2c678df889",
+      "title": "ウクライナ財政支援で協調 フーシ派は攻撃停止を―Ｇ７外相",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111101151&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111101129&g=int"
     },
     {
-      "doc_id": "jiji-db38f10062c46327",
-      "title": "町田、主力不在感じさせず ルヴァン杯サッカー",
+      "doc_id": "jiji-ee0983af58b5e81a",
+      "title": "防衛力変革で「侵攻拒否」 装備品の増産体制強化―３文書改定",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111101154&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111100417&g=pol"
     },
     {
-      "doc_id": "jiji-6030d526497f2ed6",
-      "title": "ＣＯＰ３１首脳級会合、開幕 主要国は相次ぎ欠席",
+      "doc_id": "jiji-c008fe5134c9d8f4",
+      "title": "公取委、アマゾンの改善計画認定 出品価格の条件緩和へ―各国の先駆けに",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100665&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111100683&g=soc"
     },
     {
-      "doc_id": "jiji-333c48abcba94037",
-      "title": "柴崎、鹿島復帰後初ゴール ルヴァン杯サッカー",
+      "doc_id": "jiji-77c12bc735e51a20",
+      "title": "日本含む先進国首脳に化石賞 国際ＮＧＯ、会合欠席を批判―ＣＯＰ３１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111101160&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111100673&g=dts"
     },
     {
-      "doc_id": "jiji-1d95bfb2c1d74420",
-      "title": "「緊急時の核持ち込み」明記案 安保３文書改定で政府検討",
+      "doc_id": "jiji-a54a8d75785760cf",
+      "title": "中国、高市氏との会談に消極的 「既に立場表明」、ＡＰＥＣ巡り",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111001129&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111100963&g=pol"
     },
     {
-      "doc_id": "nhk-b955438d41ba3f96",
-      "title": "情報漏えいリスク回避へ対策は？通販サイト閉鎖の企業も",
+      "doc_id": "nhk-63ad6e40e1b34fe6",
+      "title": "消費税減税法案 参院で審議入り 13日から特別委員会で質疑へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73911"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74498"
+    },
+    {
+      "doc_id": "nhk-cdb8097c33785f75",
+      "title": "広島 福山 2階建て住宅全焼 家族5人のうち3人と連絡取れず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74516"
+    },
+    {
+      "doc_id": "nhk-71d178e27d2656de",
+      "title": "米・ロ・ウクライナの高官協議終了 大規模な捕虜交換で合意",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74517"
+    },
+    {
+      "doc_id": "nhk-b4b29766f321f3f3",
+      "title": "円相場1ドル＝159円台後半 FRBの追加利上げ観測で",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74514"
+    },
+    {
+      "doc_id": "nhk-0c6b0aabdab4bbcd",
+      "title": "東北新幹線運転見合わせ 古川駅と水沢江刺駅の間 上下線",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74521"
+    },
+    {
+      "doc_id": "nhk-7c6c8b0d2364e752",
+      "title": "COP31首脳級会合 国連事務総長“気候変動に対策追いつかず”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74479"
     },
     {
       "doc_id": "nhk-db5f4186b010042a",
       "title": "日本近海で水温上昇 雑種フグ・アニサキス…食の安全に影響も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261111de73954"
-    },
-    {
-      "doc_id": "nhk-57b21df517f5aac6",
-      "title": "ドコモ通信障害復旧 原因は機器の不具合",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73934"
-    },
-    {
-      "doc_id": "nhk-c2077560c46ac11b",
-      "title": "自民 森山前幹事長 石破氏ら4人“国民の気持ち反映した行動”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74306"
-    },
-    {
-      "doc_id": "nhk-1b0a2f8d95fdaa73",
-      "title": "福島 いわき 男児死亡 母親が夏ごろ“県外に避難する”と説明",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74482"
-    },
-    {
-      "doc_id": "nhk-0a62f5b79439b4ad",
-      "title": "海水温上昇 イギリスでタコ大量発生 ロブスター ホタテ大幅減",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74426"
-    },
-    {
-      "doc_id": "nhk-1221db6d51504c0b",
-      "title": "「超大型ウナギ」の試食会 一般的なサイズの2倍 名古屋",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74343"
     },
     {
       "doc_id": "itmedia-bd8a8398326b1df7",
