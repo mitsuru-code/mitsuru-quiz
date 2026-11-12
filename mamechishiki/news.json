@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-12T11:19:43+00:00",
-  "now_ms": 1794482383948,
+  "fetched_at": "2026-11-12T19:57:50+00:00",
+  "now_ms": 1794513470007,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,82 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8b9ad2744e50e686",
-      "title": "麻生氏 採決棄権の石破氏らに苦言",
+      "doc_id": "yahoo-417f69bfaaa6ab1e",
+      "title": "エヌビディアのフアンCEOが辞任",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602323"
+      "link": "https://news.yahoo.co.jp/pickup/6602353"
     },
     {
-      "doc_id": "yahoo-5ccc2bd8465186dd",
-      "title": "NVIDIA疑惑 女性は台湾を8回訪問",
+      "doc_id": "yahoo-6bb13939e51b85c5",
+      "title": "米ワシントンで銃撃事件 5人負傷",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602328"
+      "link": "https://news.yahoo.co.jp/pickup/6602356"
     },
     {
-      "doc_id": "yahoo-07331cb0a82cef70",
-      "title": "すかいらーく Shin-Shinなぜ買収",
+      "doc_id": "yahoo-3a74cce355402882",
+      "title": "タマホーム 5年以上前から不正か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602322"
+      "link": "https://news.yahoo.co.jp/pickup/6602348"
     },
     {
-      "doc_id": "yahoo-d467f96aa4dbee8d",
-      "title": "丸亀製麺が値下げ 社長語る危機感",
+      "doc_id": "yahoo-8116c45688b21d2a",
+      "title": "勤務先から21億円超横領疑い 逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602316"
+      "link": "https://news.yahoo.co.jp/pickup/6602347"
     },
     {
-      "doc_id": "yahoo-2febba03cd65e0fb",
-      "title": "Appleサポートコミュ 20日閉鎖へ",
+      "doc_id": "yahoo-df62cb067b497fbc",
+      "title": "銭湯侵入疑い 男は国際的犯罪Gか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602292"
+      "link": "https://news.yahoo.co.jp/pickup/6602352"
     },
     {
-      "doc_id": "yahoo-487a0bcbb86324a9",
-      "title": "速報アジアプロ野球 侍Jvs台湾",
+      "doc_id": "yahoo-513b687591d5e1b4",
+      "title": "米国防長官ら 墓地で衛兵から叱責",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602325"
+      "link": "https://news.yahoo.co.jp/pickup/6602354"
     },
     {
-      "doc_id": "yahoo-ad22bdbc21808687",
-      "title": "侍J 正木が2打席連発豪快アーチ",
+      "doc_id": "yahoo-38c5c185a07da9c1",
+      "title": "海岸にクジラの死骸 深海の希少種",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602337"
+      "link": "https://news.yahoo.co.jp/pickup/6602351"
     },
     {
-      "doc_id": "yahoo-ea62bd6723bb7243",
-      "title": "台湾に木村拓哉 空港に800人超",
+      "doc_id": "yahoo-e86dc33b9842b8a8",
+      "title": "蒔田彩珠です 森七菜がついたうそ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602335"
+      "link": "https://news.yahoo.co.jp/pickup/6602341"
     },
     {
-      "doc_id": "jiji-047656eca9589fbe",
-      "title": "「プラニマル細胞」を初作製 原始的藻類と動物培養細胞を融合―将来は有用物質生産に応用・東大など",
+      "doc_id": "jiji-079646a2443d60ce",
+      "title": "フアン氏後任にアップル会長推す トランプ米大統領",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200953&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111300039&g=int"
     },
     {
-      "doc_id": "jiji-4c83a68294360eb3",
-      "title": "ロシア拘束記者の実名掲載 北海道新聞、特設ページを開設",
+      "doc_id": "jiji-78f5b7494847987f",
+      "title": "フアンＣＥＯが辞任 中国女性との不貞疑惑受け―米エヌビディア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200826&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111201141&g=int"
     },
     {
-      "doc_id": "jiji-1a5e0fbbf6b3523b",
-      "title": "正恩氏、海軍基地建設を視察 「重大な核心事業」―北朝鮮",
+      "doc_id": "jiji-123a95e91c1b63bc",
+      "title": "米エヌビディアによると、コレット・クレスＣＦＯが暫定ＣＥＯを兼務する",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200861&g=int"
-    },
-    {
-      "doc_id": "jiji-58eedbc3564753bf",
-      "title": "無償協力「国民の納得」重視を 行政レビュー、減税財源捻出も念頭",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200871&g=pol"
-    },
-    {
-      "doc_id": "jiji-ce6f7afdf0184f7d",
-      "title": "インファンティノ氏は「独裁者」 ブラッター前会長が批判―ＦＩＦＡ会長選",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200934&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111201159&g=flash"
     },
     {
       "doc_id": "jiji-8c458796e918da19",
@@ -94,34 +82,64 @@
       "link": "https://www.jiji.com/jc/article?k=2026111200203&g=int"
     },
     {
-      "doc_id": "jiji-656328cbe2eb3347",
-      "title": "８０歳母死亡、殺人未遂容疑の女性不起訴 新潟地検",
+      "doc_id": "jiji-66c86b8d60e7c1a9",
+      "title": "暫定ＣＥＯにクレス氏 米エヌビディア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200939&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111201166&g=int"
     },
     {
-      "doc_id": "jiji-d405532f943fe0ac",
-      "title": "麻生副総裁、石破前首相を批判 消費減税の採決棄権「遺憾」―自民",
+      "doc_id": "jiji-114b3517101c1320",
+      "title": "米大統領は、フアン氏が「素晴らしい仕事をしてきた」と評し、後任はアップルのクック会長しかいないと主張した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200729&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111300038&g=flash"
     },
     {
-      "doc_id": "jiji-dbf1f63695e55243",
-      "title": "勤務先から約２１億円横領か ４３歳元社員逮捕―さいたま地検",
+      "doc_id": "jiji-d983b27ff101f8db",
+      "title": "名画「夜警」から微生物 日本で発見の細菌も―オランダで特別展",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200923&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111200688&g=int"
     },
     {
-      "doc_id": "jiji-250777d05c6ca48d",
-      "title": "豊昇龍が３連敗 大相撲九州場所５日目",
+      "doc_id": "jiji-6032bae573c6d668",
+      "title": "芥川「藪の中」は改題 直筆原稿発見、結末も修正",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200922&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111200997&g=soc"
     },
     {
-      "doc_id": "nhk-d3388c5acea6a876",
-      "title": "エヌビディアCEO“解任準備”報道 解任なら業界全体に影響も",
+      "doc_id": "jiji-6b1953c08de24edf",
+      "title": "岡田答弁は「決断先送り」 緊急時の核持ち込み巡り維新・阿部氏",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111200971&g=pol"
+    },
+    {
+      "doc_id": "jiji-f32d92bfe844866f",
+      "title": "山口茜、奥原希望ら８強 バドミントン",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111200912&g=spo"
+    },
+    {
+      "doc_id": "nhk-0cb3f461ab890a89",
+      "title": "エヌビディア フアンCEOが辞任 業界全体に影響も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74529"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de75078"
+    },
+    {
+      "doc_id": "nhk-74e959b95e74b60b",
+      "title": "円相場1ドル＝160円台 約2か月ぶり円安水準",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75110"
+    },
+    {
+      "doc_id": "nhk-f25c075ae5bf04b6",
+      "title": "ウクライナ アメリカの衛星通信サービス再び制限",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75118"
+    },
+    {
+      "doc_id": "nhk-a32fb41556f9e5b2",
+      "title": "自民 石破前首相 定数31削減法案“考え方としてどうか”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de75073"
     },
     {
       "doc_id": "nhk-e7138f03052b40b5",
@@ -130,34 +148,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261112de74535"
     },
     {
-      "doc_id": "nhk-3c912b0e518c6600",
-      "title": "「長嶋茂雄賞」初代はセ・リーグ三冠王 阪神 佐藤輝明選手",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74887"
-    },
-    {
-      "doc_id": "nhk-35f172077d4e46a4",
-      "title": "北海道新聞 ロシアで拘束の記者の実名 初めて報道",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74972"
-    },
-    {
       "doc_id": "nhk-f2d20a1a1a6a5a3e",
       "title": "無印良品 展開の良品計画 顧客情報漏えいで会見 社長陳謝",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261112de74562"
     },
     {
-      "doc_id": "nhk-2151601bfdea47c8",
-      "title": "トヨタ アルファードGやカローラなど30車種 約9.6万台リコール",
+      "doc_id": "nhk-bb1b9e1f23321524",
+      "title": "米ヘグセス国防長官ら「無名戦士の墓」で笑い声 衛兵が叱責",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74902"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de75054"
     },
     {
-      "doc_id": "nhk-b97a06ccb16f85c0",
-      "title": "愛子さま シンガポール訪問前に上皇ご夫妻にあいさつ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74968"
+      "doc_id": "itmedia-a5cc7b2fe54e2231",
+      "title": "NVIDIA、“革ジャンCEO”ことフアン氏が辞任 クレスCFOが暫定CEOに",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003160/"
     },
     {
       "doc_id": "itmedia-1a18f3038ef2da86",
@@ -226,10 +232,10 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003124/"
     },
     {
-      "doc_id": "itmedia-bd8a8398326b1df7",
-      "title": "靖国神社に不正アクセス 約1万4500件の個人情報漏えい、パスワードが特定されるおそれも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003119/"
+      "doc_id": "nazology-a46e4300d4d2805c",
+      "title": "酸素でもろくなるはずのチタンを酸素で強くすることに成功",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206438"
     },
     {
       "doc_id": "nazology-dc60ba2dd8a9b94b",
@@ -284,12 +290,6 @@
       "title": "「シュノーケルを持つカタツムリ」の新種を3種発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206395"
-    },
-    {
-      "doc_id": "nazology-86c70128ac84e585",
-      "title": "新しいAIが天気予報の「2週間の壁」を越えることに成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206189"
     }
   ]
 }
