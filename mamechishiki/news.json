@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-11T22:03:06+00:00",
-  "now_ms": 1794434586858,
+  "fetched_at": "2026-11-12T03:03:37+00:00",
+  "now_ms": 1794452617759,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,130 +10,136 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-ac70e484c02d934e",
-      "title": "消費減税法案 支援金巡り野党追及",
+      "doc_id": "yahoo-f6b9470581a5e81e",
+      "title": "中継 良品計画の清水社長らが会見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602215"
+      "link": "https://news.yahoo.co.jp/pickup/6602279"
     },
     {
-      "doc_id": "yahoo-b045168d2d8ecafe",
-      "title": "腕時計窃盗疑い 気に入ってしまい",
+      "doc_id": "yahoo-297cc9b0e9f5b086",
+      "title": "減税法案 支援金対象は交渉切り札",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602236"
+      "link": "https://news.yahoo.co.jp/pickup/6602258"
     },
     {
-      "doc_id": "yahoo-2a52fac817b124bb",
-      "title": "Amazon出品者「安値強要された」",
+      "doc_id": "yahoo-9b59b4411dc3e74c",
+      "title": "踏切内に車 列車と衝突し逃走",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602237"
+      "link": "https://news.yahoo.co.jp/pickup/6602273"
     },
     {
-      "doc_id": "yahoo-757557975d3a1b45",
-      "title": "月収5万円 受診遅れ死亡した男性",
+      "doc_id": "yahoo-1cc321e3c0578d4d",
+      "title": "イベ閑散波紋 出演料まだ払われず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602222"
+      "link": "https://news.yahoo.co.jp/pickup/6602265"
     },
     {
-      "doc_id": "yahoo-e62ad6b104c5c1a7",
-      "title": "マック 休止中の新チキン開発経緯",
+      "doc_id": "yahoo-3966810113714d2a",
+      "title": "ショック 川に展示の作品真っ二つ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602238"
+      "link": "https://news.yahoo.co.jp/pickup/6602275"
     },
     {
-      "doc_id": "yahoo-fa708f6091aab0d8",
-      "title": "阪神 FA獲得目指す3人に条件提示",
+      "doc_id": "yahoo-26f4ad22fb798cfa",
+      "title": "二重かわいい 女子大学生の違和感",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602235"
+      "link": "https://news.yahoo.co.jp/pickup/6602269"
     },
     {
-      "doc_id": "yahoo-a57452e40ff5a1e6",
-      "title": "育成9位指名の18歳 SB入団を辞退",
+      "doc_id": "yahoo-244d1916129a7e2b",
+      "title": "FA今永昇太 MLB2桁球団と接触",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602228"
+      "link": "https://news.yahoo.co.jp/pickup/6602274"
     },
     {
-      "doc_id": "yahoo-aff1dd67a38a1866",
-      "title": "木梨憲武のスポーツ特番 1/2放送",
+      "doc_id": "yahoo-c35ff1714d25132a",
+      "title": "「DOWNTOWN+」1年 制作の本音",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602239"
+      "link": "https://news.yahoo.co.jp/pickup/6602268"
     },
     {
-      "doc_id": "jiji-9642edfb247ef1a1",
-      "title": "通信障害が復旧 交換機が原因―ドコモ",
+      "doc_id": "jiji-64a664c3c5188b62",
+      "title": "フアンＣＥＯの解任準備 米エヌビディア取締役会―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100508&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111200166&g=int"
     },
     {
-      "doc_id": "jiji-a45d0390bd6372ff",
-      "title": "首相動静（１１月１１日）",
+      "doc_id": "jiji-a6edcca98535e859",
+      "title": "「違憲状態」解決策見えず 参院１票の格差、合区に限界",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100213&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111101006&g=pol"
     },
     {
-      "doc_id": "jiji-8ce28cedbd3f1a88",
-      "title": "ＮＹ株反落、１５７ドル安 利上げ観測が重荷",
+      "doc_id": "jiji-aa8ef2baa246f9f2",
+      "title": "進まぬ是正「看過し難い」 合区後の１０年、重く判断―１票の格差訴訟",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100168&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111101100&g=soc"
     },
     {
-      "doc_id": "jiji-90ff3734d8b12b44",
-      "title": "米ロ・ウクライナ、領土交渉難航か ２日目終了、捕虜交換で進展",
+      "doc_id": "jiji-5f37754dee2fe25b",
+      "title": "ロシア、ＪＴ管理を正当化 「日本が敵対行為」と主張",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100183&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111200150&g=int"
     },
     {
-      "doc_id": "jiji-e77db9bcd0f9497a",
-      "title": "昨年参院選は「違憲状態」 ３．１３倍、合区後初―「１票の格差」判決・最高裁大法廷",
+      "doc_id": "jiji-b3bda4bad7cd1f8a",
+      "title": "米商務長官が先送りか エヌビディア半導体の密輸規制",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100661&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111200177&g=int"
     },
     {
-      "doc_id": "jiji-9d843b2c678df889",
-      "title": "ウクライナ財政支援で協調 フーシ派は攻撃停止を―Ｇ７外相",
+      "doc_id": "jiji-7a4f5b08406f5563",
+      "title": "「拒否力」構想、自民に戸惑い 安保３文書、小泉氏提唱",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111101129&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111100864&g=pol"
     },
     {
-      "doc_id": "jiji-ee0983af58b5e81a",
-      "title": "防衛力変革で「侵攻拒否」 装備品の増産体制強化―３文書改定",
+      "doc_id": "jiji-5717cdcfe9cef65c",
+      "title": "１０月の企業物価指数は前年同月比７．１％上昇した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100417&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111200183&g=flash"
     },
     {
-      "doc_id": "jiji-c008fe5134c9d8f4",
-      "title": "公取委、アマゾンの改善計画認定 出品価格の条件緩和へ―各国の先駆けに",
+      "doc_id": "jiji-488521f72ab4a445",
+      "title": "平良に「高い評価」 米大リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100683&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111200225&g=spo"
     },
     {
-      "doc_id": "jiji-77c12bc735e51a20",
-      "title": "日本含む先進国首脳に化石賞 国際ＮＧＯ、会合欠席を批判―ＣＯＰ３１",
+      "doc_id": "jiji-23933ad87f3e82bf",
+      "title": "ロンドンで「ヤンキー文化」発信 北九州のど派手成人式展",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100673&g=dts"
+      "link": "https://www.jiji.com/jc/article?k=2026111200186&g=int"
     },
     {
-      "doc_id": "jiji-a54a8d75785760cf",
-      "title": "中国、高市氏との会談に消極的 「既に立場表明」、ＡＰＥＣ巡り",
+      "doc_id": "jiji-db0c9cda24f505f7",
+      "title": "今永昇太投手、球場もポイント 米大リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111100963&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111200227&g=spo"
     },
     {
-      "doc_id": "nhk-63ad6e40e1b34fe6",
-      "title": "消費税減税法案 参院で審議入り 13日から特別委員会で質疑へ",
+      "doc_id": "nhk-d3388c5acea6a876",
+      "title": "エヌビディア フアンCEO解任へ準備 米紙報道",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74498"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74529"
     },
     {
-      "doc_id": "nhk-cdb8097c33785f75",
-      "title": "広島 福山 2階建て住宅全焼 家族5人のうち3人と連絡取れず",
+      "doc_id": "nhk-f2d20a1a1a6a5a3e",
+      "title": "【ライブ配信】無印良品 展開の良品計画 不正アクセス受け会見",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74516"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74562"
     },
     {
-      "doc_id": "nhk-71d178e27d2656de",
-      "title": "米・ロ・ウクライナの高官協議終了 大規模な捕虜交換で合意",
+      "doc_id": "nhk-e7138f03052b40b5",
+      "title": "京都 亀岡の養鶏場で今シーズン初 鳥インフルエンザ感染確認",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74517"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74535"
+    },
+    {
+      "doc_id": "nhk-0a848bc08e14469e",
+      "title": "アメリカ ニューヨークで建物が倒壊 2人死亡 17人けが",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74557"
     },
     {
       "doc_id": "nhk-b4b29766f321f3f3",
@@ -142,22 +148,40 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261112de74514"
     },
     {
-      "doc_id": "nhk-0c6b0aabdab4bbcd",
-      "title": "東北新幹線運転見合わせ 古川駅と水沢江刺駅の間 上下線",
+      "doc_id": "nhk-8b1cf1f09b3688ca",
+      "title": "サイ・ヤング賞 ナショナルリーグ ミザロウスキーが満票で受賞",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74521"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74625"
     },
     {
-      "doc_id": "nhk-7c6c8b0d2364e752",
-      "title": "COP31首脳級会合 国連事務総長“気候変動に対策追いつかず”",
+      "doc_id": "nhk-236753f0b787a4f5",
+      "title": "中野ブロードウェイ 時計窃盗事件 偽名でコンビニから返送か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74479"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261111de74478"
     },
     {
-      "doc_id": "nhk-db5f4186b010042a",
-      "title": "日本近海で水温上昇 雑種フグ・アニサキス…食の安全に影響も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261111de73954"
+      "doc_id": "itmedia-d3f1eb2966a6caaa",
+      "title": "ユナイテッド航空、外部のAIアシスタントによる航空券の予約などを禁止へ 「チェックインには人間の確認が必要」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003127/"
+    },
+    {
+      "doc_id": "itmedia-5bf0e714e0f9b333",
+      "title": "Amazon、AWSのAPIを手元で再現する「AWS Emulator」を無償公開 コードはすべてAIエージェントが記述",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003126/"
+    },
+    {
+      "doc_id": "itmedia-3271d0246b3b67e2",
+      "title": "ドコモ「5G SA」また障害、原因は5日と同じ「交換機の輻輳」 約9時間で復旧",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003125/"
+    },
+    {
+      "doc_id": "itmedia-95fff1da54b7435e",
+      "title": "Appleサポートコミュニティ、11月20日に閉鎖へ 新規投稿は既に終了",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003124/"
     },
     {
       "doc_id": "itmedia-bd8a8398326b1df7",
@@ -208,28 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003102/"
     },
     {
-      "doc_id": "itmedia-52d44466e7b0abca",
-      "title": "“タッチ不要”の改札、山手線など40駅に導入 28年春から JR東",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003100/"
+      "doc_id": "nazology-90c670c70e0a2350",
+      "title": "人は年1回の大口寄付より「毎月の寄付」をする会社を高く評価する",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206323"
     },
     {
-      "doc_id": "itmedia-cd7e49b900d14f12",
-      "title": "“同じWi-Fiにいる誰か”に通信をのぞかれる？ 「クライアント分離」を2秒で突破する攻撃 米大学が検証",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003049/"
+      "doc_id": "nazology-fc9749912e1f3b2c",
+      "title": "跳ねて飛ぶロボットがどんな地形も進めるように進化",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206335"
     },
     {
-      "doc_id": "itmedia-cf926668fb44ac5f",
-      "title": "ドコモまた障害、全国で通話・データ利用しづらく Xでは「5G SAがつながらない」の声【更新】",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003095/"
-    },
-    {
-      "doc_id": "itmedia-f9a19ba16615a278",
-      "title": "「ブロッキング」実施検討へ向けた作業部会設置 総務省 法的整理など加速へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003094/"
+      "doc_id": "nazology-99a55aa9b5cf53da",
+      "title": "「シュノーケルを持つカタツムリ」の新種を3種発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206395"
     },
     {
       "doc_id": "nazology-86c70128ac84e585",
@@ -272,24 +290,6 @@
       "title": "数学で証明、トランプで「5枚のうち4枚をみて残りを当てる」手品に邪魔が入るとどうなるか？",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206946"
-    },
-    {
-      "doc_id": "nazology-3a9689d63082e058",
-      "title": "若い大人ほど幸福度が低く、年を重ねるほど上がっていくと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206419"
-    },
-    {
-      "doc_id": "nazology-8fc5f0452d314fe6",
-      "title": "足の指の付け根をきつく締める靴下で走れる距離がのびる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206050"
-    },
-    {
-      "doc_id": "nazology-4b04f641152c8e5e",
-      "title": "胸の魅力を大きく左右する「2つの要素」が判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206108"
     }
   ]
 }
