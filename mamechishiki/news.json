@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-13T08:02:19+00:00",
-  "now_ms": 1794556939884,
+  "fetched_at": "2026-11-13T16:28:44+00:00",
+  "now_ms": 1794587324406,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,154 +10,172 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-d021b5fd02da9249",
-      "title": "政府 ロシアに首脳会談を打診",
+      "doc_id": "yahoo-4c532b78621f2e99",
+      "title": "自衛官の給与引き上げ法が成立",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602418"
+      "link": "https://news.yahoo.co.jp/pickup/6602480"
     },
     {
-      "doc_id": "yahoo-df0494b94a074aa2",
-      "title": "メール障害で納期遅延 法的扱いは",
+      "doc_id": "yahoo-e790dca36fa4d873",
+      "title": "大雨被害の由利本荘市 災害死判断",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602424"
+      "link": "https://news.yahoo.co.jp/pickup/6602465"
     },
     {
-      "doc_id": "yahoo-f177b4045dc05a0d",
-      "title": "GMO攻撃 被害申告は29.9億円に",
+      "doc_id": "yahoo-e012ab807d340fbb",
+      "title": "「週明け怖い」MS障害の影響広く",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602430"
+      "link": "https://news.yahoo.co.jp/pickup/6602468"
     },
     {
-      "doc_id": "yahoo-f1d379ef6b67e8cc",
-      "title": "男児死亡のゼリー 包装に注意書き",
+      "doc_id": "yahoo-b87db7f317fad3ba",
+      "title": "ひき逃げか 2人死亡で関係者聴取",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602423"
+      "link": "https://news.yahoo.co.jp/pickup/6602473"
     },
     {
-      "doc_id": "yahoo-2ba70067eedd7d8f",
-      "title": "ボビー被告 不同意性交を認める",
+      "doc_id": "yahoo-1fffb6d2db29891f",
+      "title": "米NYでビル崩壊 瞬間の内部映像",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602416"
+      "link": "https://news.yahoo.co.jp/pickup/6602476"
     },
     {
-      "doc_id": "yahoo-789d3f122c752b84",
-      "title": "森保J 12月の強化試合を断念",
+      "doc_id": "yahoo-51b89ca2245c88ba",
+      "title": "MLB挑戦 慶大・広池はどんな投手",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602425"
+      "link": "https://news.yahoo.co.jp/pickup/6602443"
     },
     {
-      "doc_id": "yahoo-a83fdd8326e1c377",
-      "title": "紅白 堺雅人&二宮司会共演は偶然",
+      "doc_id": "yahoo-803fa64c348c4e31",
+      "title": "侍J井口監督 最後はしびれる展開",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602426"
+      "link": "https://news.yahoo.co.jp/pickup/6602475"
     },
     {
-      "doc_id": "yahoo-617c26a6924e8d72",
-      "title": "三山紅白選外 けん玉挑戦どうなる",
+      "doc_id": "yahoo-0b1d25c6585ce879",
+      "title": "紅白 あいみょんや米津の名前なし",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602417"
-    },
-    {
-      "doc_id": "jiji-f8b1a3d445d61d69",
-      "title": "業務用ソフトで大規模障害 「３６５」、メール送れず―米マイクロソフト",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300308&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6602479"
     },
     {
       "doc_id": "jiji-ef471f48676880ea",
-      "title": "支援金、勤労者５割対象 子２人世帯で最大６万円―高市首相表明・消費減税法案が参院実質審議入り",
+      "title": "支援金、勤労者５割対象 高市首相表明、子２人世帯で最大６万円―消費減税法案、参院委で審議",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026111300707&g=pol"
     },
     {
-      "doc_id": "jiji-8fc44927e060f5e6",
-      "title": "半導体規制緩和の旗振り役失う アジア調達網に暗雲―中国",
+      "doc_id": "jiji-7e79c96c1a1c623a",
+      "title": "独首相「サプライズやめて」 ウクライナ巡りトランプ氏に",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300190&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111301228&g=int"
     },
     {
-      "doc_id": "jiji-455a360f47a62fcb",
-      "title": "政府情報システムに障害 ＭＳから波及、霞が関に混乱",
+      "doc_id": "jiji-5aa4c155b94e5459",
+      "title": "マイクロソフト大規模障害、解消せず 一部回復も不具合続く、７０カ国以上に影響か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300409&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111301024&g=int"
     },
     {
-      "doc_id": "jiji-d309a75aa4cbdfea",
-      "title": "中国人女性を再入国禁止に エヌビディアのスパイ疑惑で―シンガポール",
+      "doc_id": "jiji-783af0f7bc9f3ab3",
+      "title": "「長引くと困る」「仕事にならない」 メールやＡＩ使えず、職員ら困惑―米ＭＳ大規模障害で自治体など",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300285&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111300903&g=soc"
     },
     {
-      "doc_id": "jiji-91e1437c5fb76d22",
-      "title": "【独自】１２月の強化試合を断念 森保監督、今月の指揮が最後―サッカー日本代表",
+      "doc_id": "jiji-c7e641dae5baafc5",
+      "title": "アジアプロ野球・監督談話",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300394&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111301231&g=spo"
     },
     {
-      "doc_id": "jiji-84914f33aed1d4d1",
-      "title": "疑惑の女性、中国ＡＩ新興出資 エヌビディア半導体供給を約束―米報道",
+      "doc_id": "jiji-beab98de609afb2c",
+      "title": "日本、韓国破り２連勝 宗山が決勝３ラン―アジアプロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300196&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111301052&g=spo"
     },
     {
-      "doc_id": "jiji-979b1431c7aee1e9",
-      "title": "ペルー・フジモリ大統領初来日へ 今月１９日、チリ大統領も",
+      "doc_id": "jiji-66a47404ac9eb811",
+      "title": "宗山、値千金の３ラン ２発含む３安打５打点―アジアプロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300510&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111301201&g=spo"
     },
     {
-      "doc_id": "jiji-82176f0ab4cdd69c",
-      "title": "大使館員撤収もウクライナ支援 韓国、ちぐはぐな「実用外交」",
+      "doc_id": "jiji-b907eb544cae7072",
+      "title": "ガンター「仕掛ける精神で」 ラグビー日本代表、イングランド戦へ調整",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300683&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111301132&g=spo"
     },
     {
-      "doc_id": "jiji-ab204f5c8a6de271",
-      "title": "フアン氏、別の従業員とも親密 米エヌビディア、不倫３人目―報道",
+      "doc_id": "jiji-a5f26a8186a91e43",
+      "title": "菓子そっくりの手製爆弾、口に入れたら爆発 インド人男性死亡",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300197&g=int"
+      "link": "https://www.jiji.com/jc/article?k=20261113049581a&g=afp"
+    },
+    {
+      "doc_id": "jiji-62c71b74096741fe",
+      "title": "米議会、輸出規制強化要求 スパイ疑惑、超党派で政権追及―エヌビディアＣＥＯ辞任",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300824&g=int"
     },
     {
       "doc_id": "nhk-641432ee6f2c65e4",
-      "title": "【速報中】マイクロソフトで接続障害 世界各地で影響も",
+      "title": "マイクロソフトの接続障害「日本は比較的安定した状態続く」",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261113de75121"
     },
     {
-      "doc_id": "nhk-afd46b08d0b33987",
-      "title": "大阪市 100万件超の市民らのメールアドレス漏えい",
+      "doc_id": "nhk-cb886262f45c28cc",
+      "title": "2人死亡ひき逃げ 逃走したとみられるトラック 相模原で発見",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75397"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75522"
     },
     {
       "doc_id": "nhk-8741aef1e8abcd4d",
-      "title": "消費税減税法案 支援金“勤労者5割以上対象で検討” 高市首相",
+      "title": "消費税減税法案 支援金“勤労者5割以上対象で検討”高市首相",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261113de75159"
     },
     {
-      "doc_id": "nhk-24767e330c5f9420",
-      "title": "北朝鮮ハッカーが“顔泥棒” 暗号資産盗む 米FBI",
+      "doc_id": "nhk-eb97da7c8d9e6be1",
+      "title": "大手損保2社 タマホーム通じた火災保険販売停止へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75357"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75561"
     },
     {
-      "doc_id": "nhk-53e3678397c03b2a",
-      "title": "タマホーム 別の支店でも不審な請求見つかる 損保が確認求める",
+      "doc_id": "nhk-68f626c5c5ff4cf6",
+      "title": "巨人 ファンクラブ会員のメールアドレス80万件あまり流出",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75355"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75711"
     },
     {
-      "doc_id": "nhk-1c63d80a8a7b773e",
-      "title": "GMO不正アクセス問題 顧客補償費用などで約30億円想定と発表",
+      "doc_id": "nhk-b4700885c8082206",
+      "title": "イラン バーレーンの米軍通信設備を攻撃と発表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75297"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75728"
     },
     {
-      "doc_id": "nhk-941131946c9d301e",
-      "title": "紅白歌合戦ことしの出場歌手発表 初出場は7組",
+      "doc_id": "nhk-60daa816a93bd38e",
+      "title": "大阪 枚方 3歳女児死亡で両親逮捕 虐待か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75147"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75693"
+    },
+    {
+      "doc_id": "itmedia-71813fe6a4bfd919",
+      "title": "AI×裸眼3Dディスプレイ？ 2D映像をその場で3D化し、見る人の目も追う 現地で確かめた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003195/"
+    },
+    {
+      "doc_id": "itmedia-7e818c3ce5d70af7",
+      "title": "データセンターの排熱でエビ養殖、NTT系が実験 育ったら食べられる？ 担当者に聞いてみた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003200/"
+    },
+    {
+      "doc_id": "itmedia-02102c17a7966210",
+      "title": "「お名前.com」不正アクセス、補償申請約30億円に GMOインターネットが決算説明会で謝罪",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003197/"
     },
     {
       "doc_id": "itmedia-0138ab341f3fef6f",
@@ -214,22 +232,28 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003167/"
     },
     {
-      "doc_id": "itmedia-19517fc2beee3bc5",
-      "title": "Google、Gemini搭載のメガネを米韓で予約開始 395ドルからで12月10日発売へ",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003166/"
+      "doc_id": "nazology-49877e07a6a69985",
+      "title": "理論上の限界ぎりぎりまで正確な「究極の時計」の作り方を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206431"
     },
     {
-      "doc_id": "itmedia-71ed82873c39f74e",
-      "title": "サイバーセキュリティクラウド、GitHubから顧客情報流出か 「セキュリティ企業として重く受け止め」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003163/"
+      "doc_id": "nazology-25584b171e1b0f1b",
+      "title": "万引き常習者にスロットをさせたら設定が変わっても台の乗り換えが遅かった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208917"
     },
     {
-      "doc_id": "itmedia-dbaab1a8be91d5c7",
-      "title": "Google、高速で低価格の「Gemini 4 Hydrogen」発表 無料ユーザーも利用可能",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003162/"
+      "doc_id": "nazology-cb943f78af0d6c61",
+      "title": "銀行口座を守る暗号が量子コンピューターなら3日で破られる可能性",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206518"
+    },
+    {
+      "doc_id": "nazology-506a3c518e7048f1",
+      "title": "タコは人と違う仕組みで記憶を長く残していた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206521"
     },
     {
       "doc_id": "nazology-5a8dcde0979373e7",
@@ -266,30 +290,6 @@
       "title": "あるショウジョウバエのオスは仲間で混み合う場所を好んで求愛すると判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206594"
-    },
-    {
-      "doc_id": "nazology-a46e4300d4d2805c",
-      "title": "酸素でもろくなるはずのチタンを酸素で強くすることに成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206438"
-    },
-    {
-      "doc_id": "nazology-dc60ba2dd8a9b94b",
-      "title": "いけにえの谷を30年の干ばつが襲っても、人どうしの争いは増えず",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208587"
-    },
-    {
-      "doc_id": "nazology-bcb3adb9bc44765f",
-      "title": "塩を「カリウム入り」に替えると年296万人の命を救える可能性",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206659"
-    },
-    {
-      "doc_id": "nazology-80e9863df6a510a2",
-      "title": "選択を難しくすると、かえって速く決める魚がいた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208568"
     }
   ]
 }
