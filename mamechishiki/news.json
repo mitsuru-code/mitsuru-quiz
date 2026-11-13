@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-13T01:07:23+00:00",
-  "now_ms": 1794532043985,
+  "fetched_at": "2026-11-13T08:02:19+00:00",
+  "now_ms": 1794556939884,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,106 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-810c057217dad21c",
-      "title": "思いやり予算 5年3兆円超を米要求",
+      "doc_id": "yahoo-d021b5fd02da9249",
+      "title": "政府 ロシアに首脳会談を打診",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602377"
+      "link": "https://news.yahoo.co.jp/pickup/6602418"
     },
     {
-      "doc_id": "yahoo-9a76404b1880595d",
-      "title": "首相 防衛費巡る「大幅増税」慎重",
+      "doc_id": "yahoo-df0494b94a074aa2",
+      "title": "メール障害で納期遅延 法的扱いは",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602369"
+      "link": "https://news.yahoo.co.jp/pickup/6602424"
     },
     {
-      "doc_id": "yahoo-87665c7bfc51f712",
-      "title": "Microsoft障害 全面復旧は未定",
+      "doc_id": "yahoo-f177b4045dc05a0d",
+      "title": "GMO攻撃 被害申告は29.9億円に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602382"
+      "link": "https://news.yahoo.co.jp/pickup/6602430"
     },
     {
-      "doc_id": "yahoo-617d9a8b17c33e0a",
-      "title": "参議院議員の山崎正昭氏が死去",
+      "doc_id": "yahoo-f1d379ef6b67e8cc",
+      "title": "男児死亡のゼリー 包装に注意書き",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602385"
+      "link": "https://news.yahoo.co.jp/pickup/6602423"
     },
     {
-      "doc_id": "yahoo-f61b314421c251de",
-      "title": "ワタミがMBO検討 きょう付議へ",
+      "doc_id": "yahoo-2ba70067eedd7d8f",
+      "title": "ボビー被告 不同意性交を認める",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602380"
+      "link": "https://news.yahoo.co.jp/pickup/6602416"
     },
     {
-      "doc_id": "yahoo-091a1780832d820d",
-      "title": "米国防長官 自身注意の衛兵に勲章",
+      "doc_id": "yahoo-789d3f122c752b84",
+      "title": "森保J 12月の強化試合を断念",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602379"
+      "link": "https://news.yahoo.co.jp/pickup/6602425"
     },
     {
-      "doc_id": "yahoo-511fd1e4a88e72dc",
-      "title": "恋活婚活「リアル回帰」の訳 解説",
+      "doc_id": "yahoo-a83fdd8326e1c377",
+      "title": "紅白 堺雅人&二宮司会共演は偶然",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602378"
+      "link": "https://news.yahoo.co.jp/pickup/6602426"
     },
     {
-      "doc_id": "yahoo-4301f5b571eaba4d",
-      "title": "落語家の三遊亭鳳楽さん死去 79歳",
+      "doc_id": "yahoo-617c26a6924e8d72",
+      "title": "三山紅白選外 けん玉挑戦どうなる",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602363"
+      "link": "https://news.yahoo.co.jp/pickup/6602417"
+    },
+    {
+      "doc_id": "jiji-f8b1a3d445d61d69",
+      "title": "業務用ソフトで大規模障害 「３６５」、メール送れず―米マイクロソフト",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300308&g=int"
+    },
+    {
+      "doc_id": "jiji-ef471f48676880ea",
+      "title": "支援金、勤労者５割対象 子２人世帯で最大６万円―高市首相表明・消費減税法案が参院実質審議入り",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300707&g=pol"
+    },
+    {
+      "doc_id": "jiji-8fc44927e060f5e6",
+      "title": "半導体規制緩和の旗振り役失う アジア調達網に暗雲―中国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300190&g=int"
+    },
+    {
+      "doc_id": "jiji-455a360f47a62fcb",
+      "title": "政府情報システムに障害 ＭＳから波及、霞が関に混乱",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300409&g=pol"
+    },
+    {
+      "doc_id": "jiji-d309a75aa4cbdfea",
+      "title": "中国人女性を再入国禁止に エヌビディアのスパイ疑惑で―シンガポール",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300285&g=int"
+    },
+    {
+      "doc_id": "jiji-91e1437c5fb76d22",
+      "title": "【独自】１２月の強化試合を断念 森保監督、今月の指揮が最後―サッカー日本代表",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300394&g=spo"
+    },
+    {
+      "doc_id": "jiji-84914f33aed1d4d1",
+      "title": "疑惑の女性、中国ＡＩ新興出資 エヌビディア半導体供給を約束―米報道",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300196&g=int"
+    },
+    {
+      "doc_id": "jiji-979b1431c7aee1e9",
+      "title": "ペルー・フジモリ大統領初来日へ 今月１９日、チリ大統領も",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300510&g=pol"
+    },
+    {
+      "doc_id": "jiji-82176f0ab4cdd69c",
+      "title": "大使館員撤収もウクライナ支援 韓国、ちぐはぐな「実用外交」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300683&g=int"
     },
     {
       "doc_id": "jiji-ab204f5c8a6de271",
@@ -64,100 +118,106 @@
       "link": "https://www.jiji.com/jc/article?k=2026111300197&g=int"
     },
     {
-      "doc_id": "jiji-78f5b7494847987f",
-      "title": "フアンＣＥＯが辞任 中国女性との不貞疑惑受け―米エヌビディア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111201141&g=int"
-    },
-    {
-      "doc_id": "jiji-3b50d9898c14f021",
-      "title": "カリフォルニア州知事ら「米国復活」強調 気候変動対策の展開訴え―ＣＯＰ３１",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300273&g=int"
-    },
-    {
-      "doc_id": "jiji-d983b27ff101f8db",
-      "title": "名画「夜警」から微生物 日本で発見の細菌も―オランダで特別展",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200688&g=int"
-    },
-    {
-      "doc_id": "jiji-69b94dbe1defbafd",
-      "title": "プーチン氏、外国軍派遣容認せず ウクライナ和平巡り米特使と会談",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300252&g=int"
-    },
-    {
-      "doc_id": "jiji-277eecefce549c49",
-      "title": "トランプ氏、イランと「合意不要」 バンス氏は汚職対策専念を",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300237&g=int"
-    },
-    {
-      "doc_id": "jiji-114b3517101c1320",
-      "title": "米大統領は、フアン氏が「素晴らしい仕事をしてきた」と評し、後任はアップルのクック会長しかいないと主張した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300038&g=flash"
-    },
-    {
-      "doc_id": "jiji-61c92cfb6e98a909",
-      "title": "ロシアが圧力強化、政府苦慮 記者拘束１カ月、こう着続く",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200936&g=pol"
-    },
-    {
-      "doc_id": "jiji-079646a2443d60ce",
-      "title": "「アップル会長しかいない」 エヌビディアＣＥＯ後任―トランプ米大統領",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300039&g=int"
-    },
-    {
-      "doc_id": "jiji-6ca1f7b056a4a0aa",
-      "title": "トランプ政権に痛手 ＡＩブームの立役者が退場―米エヌビディアＣＥＯ辞任",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111201147&g=int"
-    },
-    {
       "doc_id": "nhk-641432ee6f2c65e4",
-      "title": "【速報中】マイクロソフト 接続障害が発生 各地に影響のおそれ",
+      "title": "【速報中】マイクロソフトで接続障害 世界各地で影響も",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261113de75121"
     },
     {
-      "doc_id": "nhk-7f3e78a3ae83354e",
-      "title": "米大統領「イラン合意は不要」 副大統領には国内対応を要請",
+      "doc_id": "nhk-afd46b08d0b33987",
+      "title": "大阪市 100万件超の市民らのメールアドレス漏えい",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75140"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75397"
     },
     {
-      "doc_id": "nhk-0cb3f461ab890a89",
-      "title": "エヌビディア フアンCEOが辞任 業界全体に影響も",
+      "doc_id": "nhk-8741aef1e8abcd4d",
+      "title": "消費税減税法案 支援金“勤労者5割以上対象で検討” 高市首相",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de75078"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75159"
     },
     {
-      "doc_id": "nhk-c3ec7578b17738f2",
-      "title": "千葉 旭市の養鶏場 鳥インフルエンザ感染確認 全国で今季2例目",
+      "doc_id": "nhk-24767e330c5f9420",
+      "title": "北朝鮮ハッカーが“顔泥棒” 暗号資産盗む 米FBI",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75136"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75357"
     },
     {
-      "doc_id": "nhk-724fafacea38ae58",
-      "title": "山形 寒河江 住宅火災で3人の遺体 3人居住 連絡とれず",
+      "doc_id": "nhk-53e3678397c03b2a",
+      "title": "タマホーム 別の支店でも不審な請求見つかる 損保が確認求める",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75126"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75355"
     },
     {
-      "doc_id": "nhk-cc57823752fc54fc",
-      "title": "COP31首脳級会合 英首相が中東情勢念頭に脱化石燃料訴え",
+      "doc_id": "nhk-1c63d80a8a7b773e",
+      "title": "GMO不正アクセス問題 顧客補償費用などで約30億円想定と発表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75130"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75297"
     },
     {
-      "doc_id": "nhk-55752f5fe22f9220",
-      "title": "プーチン大統領 米特使らと会談で局地停戦提案 ウクライナ警戒",
+      "doc_id": "nhk-941131946c9d301e",
+      "title": "紅白歌合戦ことしの出場歌手発表 初出場は7組",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75124"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75147"
+    },
+    {
+      "doc_id": "itmedia-0138ab341f3fef6f",
+      "title": "【復旧】ANA、予約システムの一部に障害、予約できない場合も……国内線タイムセール初日に",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003178/"
+    },
+    {
+      "doc_id": "itmedia-d108e2c604a7272a",
+      "title": "「Qoo10」不正アクセス、個人情報漏えい 「住所の地理座標」や「身体的特徴」も対象の可能性",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003186/"
+    },
+    {
+      "doc_id": "itmedia-b50c3def75f950b9",
+      "title": "AWS、Microsoft 365障害の影響を否定 正常稼働を強調",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003185/"
+    },
+    {
+      "doc_id": "itmedia-fe74545d65474a9f",
+      "title": "パナHD、AIとロボ組み合わせた「フィジカルAI」研究開発強化 倉庫・物流へ展開視野",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003184/"
+    },
+    {
+      "doc_id": "itmedia-5730b8ec1146b35e",
+      "title": "MS障害、政府共通システムにも影響 デジタル相「朝、なんで使えないんだろうと思ったら」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003183/"
+    },
+    {
+      "doc_id": "itmedia-5f3836ec490288c3",
+      "title": "虎柄ロボットに「阪神君」と命名 首相、フィジカルAIを体験 関連企業と意見交換",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003182/"
+    },
+    {
+      "doc_id": "itmedia-d2b71a0d0a4bec01",
+      "title": "メモリ8GBでも快適？ Windows 11最新アプデと「AIカスタム」した日本語入力環境で、旧型PCを蘇らせる",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003112/"
+    },
+    {
+      "doc_id": "itmedia-89cb341fdfcf2886",
+      "title": "Googleの社内専用コーディングAI「GfG」、その全容 Geminiに社内データ1兆トークン学習させ開発 所要時間半減の業務も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/"
+    },
+    {
+      "doc_id": "itmedia-27c43c5924950956",
+      "title": "緊急情報の音声放送システムにランサムウェア攻撃 滋賀県甲賀市、屋外拡声器など使えず",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003167/"
+    },
+    {
+      "doc_id": "itmedia-19517fc2beee3bc5",
+      "title": "Google、Gemini搭載のメガネを米韓で予約開始 395ドルからで12月10日発売へ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003166/"
     },
     {
       "doc_id": "itmedia-71ed82873c39f74e",
@@ -172,64 +232,28 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003162/"
     },
     {
-      "doc_id": "itmedia-72cf7c2b41f3db3e",
-      "title": "Microsoft 365で大規模障害 「Outlook」でメールにアクセスできず、「Teams」など複数サービスに影響",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003161/"
+      "doc_id": "nazology-5a8dcde0979373e7",
+      "title": "「太平洋ごみベルト」の周りで海の色が変わりつつあると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206687"
     },
     {
-      "doc_id": "itmedia-a5cc7b2fe54e2231",
-      "title": "NVIDIA、“革ジャンCEO”ことフアン氏が辞任 クレスCFOが暫定CEOに",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003160/"
+      "doc_id": "nazology-d34b6d91076bf5cd",
+      "title": "断食や食べる時間を絞る食事は、体重と血糖の改善に効くと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206384"
     },
     {
-      "doc_id": "itmedia-1a18f3038ef2da86",
-      "title": "宝くじ公式サイト、会員の当落情報まで第三者が閲覧の可能性 リスト型攻撃か",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003158/"
+      "doc_id": "nazology-d13d73071ddfd30b",
+      "title": "皿洗いの分担と妻の幸福と性生活",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208603"
     },
     {
-      "doc_id": "itmedia-512431bf1e3b150b",
-      "title": "介護現場の人手不足を補う「ヒト型助手ロボット」 遠隔で利用者見守る最新テクノロジーも",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003149/"
-    },
-    {
-      "doc_id": "itmedia-ed3d5c259fb65053",
-      "title": "セキュリティの司令塔、韓国金融保安院がハッキング攻撃受け個人情報650件流出",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003148/"
-    },
-    {
-      "doc_id": "itmedia-f58e5449cc9dc9fa",
-      "title": "無印良品「21年までクレカ番号で顧客を識別していた」 “全ケタ保有＆漏えい“巡り謝罪 削除漏れなぜ発生",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003144/"
-    },
-    {
-      "doc_id": "itmedia-c9a472409ebc5373",
-      "title": "AWS、AIエージェント向けに強力な隔離環境とネイティブなEC2性能を備えた軽量VM「AWS Nitro Sandboxes」提供開始",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003139/"
-    },
-    {
-      "doc_id": "itmedia-c4407536fb5e8795",
-      "title": "NVIDIA取締役会、フアンCEO解任の可否決定へ 2件の不倫報道で株価8％超下落",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003138/"
-    },
-    {
-      "doc_id": "itmedia-8a30428b8f63e125",
-      "title": "Google DeepMind、「AlphaGenome 2」発表 細胞の種類ごとにDNA変異の影響を予測するAI",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003132/"
-    },
-    {
-      "doc_id": "itmedia-d3f1eb2966a6caaa",
-      "title": "ユナイテッド航空、外部のAIアシスタントによる航空券の予約などを禁止へ 「チェックインには人間の確認が必要」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003127/"
+      "doc_id": "nazology-8e2d5c8edda837b1",
+      "title": "仕事でAIに頼る人ほど上司の信頼を失いやすい",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206573"
     },
     {
       "doc_id": "nazology-6fdc0c7560f447b5",
@@ -266,30 +290,6 @@
       "title": "選択を難しくすると、かえって速く決める魚がいた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/208568"
-    },
-    {
-      "doc_id": "nazology-cec4aca3ea2216f6",
-      "title": "黒鉛がダイヤモンドに変わる「最初の一瞬」を捉えることに成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206334"
-    },
-    {
-      "doc_id": "nazology-d6e4fb7e95d2e088",
-      "title": "鳥が仲間とおしゃべりする時、脳内で「快感物質」が働いていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206338"
-    },
-    {
-      "doc_id": "nazology-3c09aa8a69d8b984",
-      "title": "葛のサプリを飲むと深酒しがちな人の酒量が減ると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206398"
-    },
-    {
-      "doc_id": "nazology-90c670c70e0a2350",
-      "title": "人は年1回の大口寄付より「毎月の寄付」をする会社を高く評価する",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206323"
     }
   ]
 }
