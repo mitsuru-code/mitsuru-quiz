@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-12T19:57:50+00:00",
-  "now_ms": 1794513470007,
+  "fetched_at": "2026-11-13T01:07:23+00:00",
+  "now_ms": 1794532043985,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-417f69bfaaa6ab1e",
-      "title": "エヌビディアのフアンCEOが辞任",
+      "doc_id": "yahoo-810c057217dad21c",
+      "title": "思いやり予算 5年3兆円超を米要求",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602353"
+      "link": "https://news.yahoo.co.jp/pickup/6602377"
     },
     {
-      "doc_id": "yahoo-6bb13939e51b85c5",
-      "title": "米ワシントンで銃撃事件 5人負傷",
+      "doc_id": "yahoo-9a76404b1880595d",
+      "title": "首相 防衛費巡る「大幅増税」慎重",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602356"
+      "link": "https://news.yahoo.co.jp/pickup/6602369"
     },
     {
-      "doc_id": "yahoo-3a74cce355402882",
-      "title": "タマホーム 5年以上前から不正か",
+      "doc_id": "yahoo-87665c7bfc51f712",
+      "title": "Microsoft障害 全面復旧は未定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602348"
+      "link": "https://news.yahoo.co.jp/pickup/6602382"
     },
     {
-      "doc_id": "yahoo-8116c45688b21d2a",
-      "title": "勤務先から21億円超横領疑い 逮捕",
+      "doc_id": "yahoo-617d9a8b17c33e0a",
+      "title": "参議院議員の山崎正昭氏が死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602347"
+      "link": "https://news.yahoo.co.jp/pickup/6602385"
     },
     {
-      "doc_id": "yahoo-df62cb067b497fbc",
-      "title": "銭湯侵入疑い 男は国際的犯罪Gか",
+      "doc_id": "yahoo-f61b314421c251de",
+      "title": "ワタミがMBO検討 きょう付議へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602352"
+      "link": "https://news.yahoo.co.jp/pickup/6602380"
     },
     {
-      "doc_id": "yahoo-513b687591d5e1b4",
-      "title": "米国防長官ら 墓地で衛兵から叱責",
+      "doc_id": "yahoo-091a1780832d820d",
+      "title": "米国防長官 自身注意の衛兵に勲章",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602354"
+      "link": "https://news.yahoo.co.jp/pickup/6602379"
     },
     {
-      "doc_id": "yahoo-38c5c185a07da9c1",
-      "title": "海岸にクジラの死骸 深海の希少種",
+      "doc_id": "yahoo-511fd1e4a88e72dc",
+      "title": "恋活婚活「リアル回帰」の訳 解説",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602351"
+      "link": "https://news.yahoo.co.jp/pickup/6602378"
     },
     {
-      "doc_id": "yahoo-e86dc33b9842b8a8",
-      "title": "蒔田彩珠です 森七菜がついたうそ",
+      "doc_id": "yahoo-4301f5b571eaba4d",
+      "title": "落語家の三遊亭鳳楽さん死去 79歳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602341"
+      "link": "https://news.yahoo.co.jp/pickup/6602363"
     },
     {
-      "doc_id": "jiji-079646a2443d60ce",
-      "title": "フアン氏後任にアップル会長推す トランプ米大統領",
+      "doc_id": "jiji-ab204f5c8a6de271",
+      "title": "フアン氏、別の従業員とも親密 米エヌビディア、不倫３人目―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300039&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111300197&g=int"
     },
     {
       "doc_id": "jiji-78f5b7494847987f",
@@ -70,28 +70,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026111201141&g=int"
     },
     {
-      "doc_id": "jiji-123a95e91c1b63bc",
-      "title": "米エヌビディアによると、コレット・クレスＣＦＯが暫定ＣＥＯを兼務する",
+      "doc_id": "jiji-3b50d9898c14f021",
+      "title": "カリフォルニア州知事ら「米国復活」強調 気候変動対策の展開訴え―ＣＯＰ３１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111201159&g=flash"
-    },
-    {
-      "doc_id": "jiji-8c458796e918da19",
-      "title": "中国農村からＡＩ最前線へ エヌビディア揺るがす女性実業家",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200203&g=int"
-    },
-    {
-      "doc_id": "jiji-66c86b8d60e7c1a9",
-      "title": "暫定ＣＥＯにクレス氏 米エヌビディア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111201166&g=int"
-    },
-    {
-      "doc_id": "jiji-114b3517101c1320",
-      "title": "米大統領は、フアン氏が「素晴らしい仕事をしてきた」と評し、後任はアップルのクック会長しかいないと主張した",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300038&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026111300273&g=int"
     },
     {
       "doc_id": "jiji-d983b27ff101f8db",
@@ -100,22 +82,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026111200688&g=int"
     },
     {
-      "doc_id": "jiji-6032bae573c6d668",
-      "title": "芥川「藪の中」は改題 直筆原稿発見、結末も修正",
+      "doc_id": "jiji-69b94dbe1defbafd",
+      "title": "プーチン氏、外国軍派遣容認せず ウクライナ和平巡り米特使と会談",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200997&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111300252&g=int"
     },
     {
-      "doc_id": "jiji-6b1953c08de24edf",
-      "title": "岡田答弁は「決断先送り」 緊急時の核持ち込み巡り維新・阿部氏",
+      "doc_id": "jiji-277eecefce549c49",
+      "title": "トランプ氏、イランと「合意不要」 バンス氏は汚職対策専念を",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200971&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111300237&g=int"
     },
     {
-      "doc_id": "jiji-f32d92bfe844866f",
-      "title": "山口茜、奥原希望ら８強 バドミントン",
+      "doc_id": "jiji-114b3517101c1320",
+      "title": "米大統領は、フアン氏が「素晴らしい仕事をしてきた」と評し、後任はアップルのクック会長しかいないと主張した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111200912&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111300038&g=flash"
+    },
+    {
+      "doc_id": "jiji-61c92cfb6e98a909",
+      "title": "ロシアが圧力強化、政府苦慮 記者拘束１カ月、こう着続く",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111200936&g=pol"
+    },
+    {
+      "doc_id": "jiji-079646a2443d60ce",
+      "title": "「アップル会長しかいない」 エヌビディアＣＥＯ後任―トランプ米大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300039&g=int"
+    },
+    {
+      "doc_id": "jiji-6ca1f7b056a4a0aa",
+      "title": "トランプ政権に痛手 ＡＩブームの立役者が退場―米エヌビディアＣＥＯ辞任",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111201147&g=int"
+    },
+    {
+      "doc_id": "nhk-641432ee6f2c65e4",
+      "title": "【速報中】マイクロソフト 接続障害が発生 各地に影響のおそれ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75121"
+    },
+    {
+      "doc_id": "nhk-7f3e78a3ae83354e",
+      "title": "米大統領「イラン合意は不要」 副大統領には国内対応を要請",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75140"
     },
     {
       "doc_id": "nhk-0cb3f461ab890a89",
@@ -124,40 +136,46 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261112de75078"
     },
     {
-      "doc_id": "nhk-74e959b95e74b60b",
-      "title": "円相場1ドル＝160円台 約2か月ぶり円安水準",
+      "doc_id": "nhk-c3ec7578b17738f2",
+      "title": "千葉 旭市の養鶏場 鳥インフルエンザ感染確認 全国で今季2例目",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75110"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75136"
     },
     {
-      "doc_id": "nhk-f25c075ae5bf04b6",
-      "title": "ウクライナ アメリカの衛星通信サービス再び制限",
+      "doc_id": "nhk-724fafacea38ae58",
+      "title": "山形 寒河江 住宅火災で3人の遺体 3人居住 連絡とれず",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75118"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75126"
     },
     {
-      "doc_id": "nhk-a32fb41556f9e5b2",
-      "title": "自民 石破前首相 定数31削減法案“考え方としてどうか”",
+      "doc_id": "nhk-cc57823752fc54fc",
+      "title": "COP31首脳級会合 英首相が中東情勢念頭に脱化石燃料訴え",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de75073"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75130"
     },
     {
-      "doc_id": "nhk-e7138f03052b40b5",
-      "title": "養鶏場で今シーズン初 鳥インフルエンザ感染確認 卵価格影響は",
+      "doc_id": "nhk-55752f5fe22f9220",
+      "title": "プーチン大統領 米特使らと会談で局地停戦提案 ウクライナ警戒",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74535"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75124"
     },
     {
-      "doc_id": "nhk-f2d20a1a1a6a5a3e",
-      "title": "無印良品 展開の良品計画 顧客情報漏えいで会見 社長陳謝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de74562"
+      "doc_id": "itmedia-71ed82873c39f74e",
+      "title": "サイバーセキュリティクラウド、GitHubから顧客情報流出か 「セキュリティ企業として重く受け止め」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003163/"
     },
     {
-      "doc_id": "nhk-bb1b9e1f23321524",
-      "title": "米ヘグセス国防長官ら「無名戦士の墓」で笑い声 衛兵が叱責",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261112de75054"
+      "doc_id": "itmedia-dbaab1a8be91d5c7",
+      "title": "Google、高速で低価格の「Gemini 4 Hydrogen」発表 無料ユーザーも利用可能",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003162/"
+    },
+    {
+      "doc_id": "itmedia-72cf7c2b41f3db3e",
+      "title": "Microsoft 365で大規模障害 「Outlook」でメールにアクセスできず、「Teams」など複数サービスに影響",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003161/"
     },
     {
       "doc_id": "itmedia-a5cc7b2fe54e2231",
@@ -214,22 +232,16 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003127/"
     },
     {
-      "doc_id": "itmedia-5bf0e714e0f9b333",
-      "title": "Amazon、AWSのAPIを手元で再現する「AWS Emulator」を無償公開 コードはすべてAIエージェントが記述",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003126/"
+      "doc_id": "nazology-6fdc0c7560f447b5",
+      "title": "スペインの洞窟の壁から動物55体を含む「氷河期のアート」を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206638"
     },
     {
-      "doc_id": "itmedia-3271d0246b3b67e2",
-      "title": "ドコモ「5G SA」また障害、原因は5日と同じ「交換機の輻輳」 約9時間で復旧",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003125/"
-    },
-    {
-      "doc_id": "itmedia-95fff1da54b7435e",
-      "title": "Appleサポートコミュニティ、11月20日に閉鎖へ 新規投稿は既に終了",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/12/2000003124/"
+      "doc_id": "nazology-481d162b65fea5ec",
+      "title": "あるショウジョウバエのオスは仲間で混み合う場所を好んで求愛すると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206594"
     },
     {
       "doc_id": "nazology-a46e4300d4d2805c",
@@ -278,18 +290,6 @@
       "title": "人は年1回の大口寄付より「毎月の寄付」をする会社を高く評価する",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206323"
-    },
-    {
-      "doc_id": "nazology-fc9749912e1f3b2c",
-      "title": "跳ねて飛ぶロボットがどんな地形も進めるように進化",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206335"
-    },
-    {
-      "doc_id": "nazology-99a55aa9b5cf53da",
-      "title": "「シュノーケルを持つカタツムリ」の新種を3種発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206395"
     }
   ]
 }
