@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-13T16:28:44+00:00",
-  "now_ms": 1794587324406,
+  "fetched_at": "2026-11-13T22:40:20+00:00",
+  "now_ms": 1794609620139,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,22 @@
   },
   "candidates": [
     {
+      "doc_id": "yahoo-3b71741d4a3da40e",
+      "title": "全米空港に航空機の地上待機命令",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6602483"
+    },
+    {
       "doc_id": "yahoo-4c532b78621f2e99",
       "title": "自衛官の給与引き上げ法が成立",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6602480"
     },
     {
-      "doc_id": "yahoo-e790dca36fa4d873",
-      "title": "大雨被害の由利本荘市 災害死判断",
+      "doc_id": "yahoo-abdace03874a6a2b",
+      "title": "マネックス証券 免許証画像流出か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602465"
+      "link": "https://news.yahoo.co.jp/pickup/6602486"
     },
     {
       "doc_id": "yahoo-e012ab807d340fbb",
@@ -28,28 +34,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6602468"
     },
     {
-      "doc_id": "yahoo-b87db7f317fad3ba",
-      "title": "ひき逃げか 2人死亡で関係者聴取",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602473"
-    },
-    {
       "doc_id": "yahoo-1fffb6d2db29891f",
       "title": "米NYでビル崩壊 瞬間の内部映像",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6602476"
     },
     {
-      "doc_id": "yahoo-51b89ca2245c88ba",
-      "title": "MLB挑戦 慶大・広池はどんな投手",
+      "doc_id": "yahoo-819ead8c2b89cce1",
+      "title": "U-21大岩J スペインに0-2で敗戦",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602443"
-    },
-    {
-      "doc_id": "yahoo-803fa64c348c4e31",
-      "title": "侍J井口監督 最後はしびれる展開",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602475"
+      "link": "https://news.yahoo.co.jp/pickup/6602484"
     },
     {
       "doc_id": "yahoo-0b1d25c6585ce879",
@@ -58,16 +52,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6602479"
     },
     {
+      "doc_id": "yahoo-699e8c3cd98fc6b3",
+      "title": "アヴリルラヴィーン第1子誕生報告",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6602488"
+    },
+    {
       "doc_id": "jiji-ef471f48676880ea",
       "title": "支援金、勤労者５割対象 高市首相表明、子２人世帯で最大６万円―消費減税法案、参院委で審議",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026111300707&g=pol"
-    },
-    {
-      "doc_id": "jiji-7e79c96c1a1c623a",
-      "title": "独首相「サプライズやめて」 ウクライナ巡りトランプ氏に",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301228&g=int"
     },
     {
       "doc_id": "jiji-5aa4c155b94e5459",
@@ -76,40 +70,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026111301024&g=int"
     },
     {
-      "doc_id": "jiji-783af0f7bc9f3ab3",
-      "title": "「長引くと困る」「仕事にならない」 メールやＡＩ使えず、職員ら困惑―米ＭＳ大規模障害で自治体など",
+      "doc_id": "jiji-f89134472a2c576c",
+      "title": "首相動静（１１月１３日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300903&g=soc"
-    },
-    {
-      "doc_id": "jiji-c7e641dae5baafc5",
-      "title": "アジアプロ野球・監督談話",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301231&g=spo"
-    },
-    {
-      "doc_id": "jiji-beab98de609afb2c",
-      "title": "日本、韓国破り２連勝 宗山が決勝３ラン―アジアプロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301052&g=spo"
-    },
-    {
-      "doc_id": "jiji-66a47404ac9eb811",
-      "title": "宗山、値千金の３ラン ２発含む３安打５打点―アジアプロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301201&g=spo"
-    },
-    {
-      "doc_id": "jiji-b907eb544cae7072",
-      "title": "ガンター「仕掛ける精神で」 ラグビー日本代表、イングランド戦へ調整",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301132&g=spo"
-    },
-    {
-      "doc_id": "jiji-a5f26a8186a91e43",
-      "title": "菓子そっくりの手製爆弾、口に入れたら爆発 インド人男性死亡",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=20261113049581a&g=afp"
+      "link": "https://www.jiji.com/jc/article?k=2026111300274&g=pol"
     },
     {
       "doc_id": "jiji-62c71b74096741fe",
@@ -118,46 +82,82 @@
       "link": "https://www.jiji.com/jc/article?k=2026111300824&g=int"
     },
     {
-      "doc_id": "nhk-641432ee6f2c65e4",
-      "title": "マイクロソフトの接続障害「日本は比較的安定した状態続く」",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75121"
+      "doc_id": "jiji-3b85dadce43446fb",
+      "title": "３歳娘虐待死か、両親逮捕 全身に数十カ所あざ―日常的に暴行か・大阪府警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300978&g=soc"
     },
     {
-      "doc_id": "nhk-cb886262f45c28cc",
-      "title": "2人死亡ひき逃げ 逃走したとみられるトラック 相模原で発見",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75522"
+      "doc_id": "jiji-783af0f7bc9f3ab3",
+      "title": "「長引くと困る」「仕事にならない」 メールやＡＩ使えず、職員ら困惑―米ＭＳ大規模障害で自治体など",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111300903&g=soc"
     },
     {
-      "doc_id": "nhk-8741aef1e8abcd4d",
-      "title": "消費税減税法案 支援金“勤労者5割以上対象で検討”高市首相",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75159"
+      "doc_id": "jiji-beab98de609afb2c",
+      "title": "日本、韓国破り２連勝 宗山が決勝３ラン―アジアプロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111301052&g=spo"
     },
     {
-      "doc_id": "nhk-eb97da7c8d9e6be1",
-      "title": "大手損保2社 タマホーム通じた火災保険販売停止へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75561"
+      "doc_id": "jiji-7e79c96c1a1c623a",
+      "title": "独首相「サプライズやめて」 ウクライナ巡りトランプ氏に",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111301228&g=int"
     },
     {
-      "doc_id": "nhk-68f626c5c5ff4cf6",
-      "title": "巨人 ファンクラブ会員のメールアドレス80万件あまり流出",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75711"
+      "doc_id": "jiji-96bacf3c82711ddc",
+      "title": "女性２人死亡、トラックひき逃げか 関係者聴取―神奈川県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111301173&g=soc"
     },
     {
-      "doc_id": "nhk-b4700885c8082206",
-      "title": "イラン バーレーンの米軍通信設備を攻撃と発表",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75728"
+      "doc_id": "jiji-aa79259ca70377bc",
+      "title": "ＮＹ株小反発、５０ドル高 生活必需品に買い、半導体は売り",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111400144&g=int"
     },
     {
-      "doc_id": "nhk-60daa816a93bd38e",
-      "title": "大阪 枚方 3歳女児死亡で両親逮捕 虐待か",
+      "doc_id": "nhk-f295e78b297750b2",
+      "title": "【速報中】アメリカ全土の空港で航空機運航停止「通信の問題」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261113de75693"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764"
+    },
+    {
+      "doc_id": "nhk-6180ef76fdad474b",
+      "title": "大阪 枚方 女児死亡事件 踏み台の練習中に父親が立腹し暴行か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75748"
+    },
+    {
+      "doc_id": "nhk-49f2e98139a14093",
+      "title": "神奈川 海老名 2人死亡 ひき逃げ疑いで運転手逮捕 容疑否認",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75759"
+    },
+    {
+      "doc_id": "nhk-3a96982b3aa4c995",
+      "title": "マイクロソフト 接続障害「広範囲にわたる復旧がみられる」",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75755"
+    },
+    {
+      "doc_id": "nhk-2db5f0ef7a709fba",
+      "title": "高市首相“支援金対象5割以上” 野党“さらなる具体像を”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75743"
+    },
+    {
+      "doc_id": "nhk-f4744b3c69cb6ed2",
+      "title": "米 ミシシッピ川でクルーズ船にタンカー衝突 救助活動続く",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75761"
+    },
+    {
+      "doc_id": "nhk-d42bbf45f5a28680",
+      "title": "エヌビディア先端半導体輸出 ラトニック商務長官の責任論浮上",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75753"
     },
     {
       "doc_id": "itmedia-71813fe6a4bfd919",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003167/"
     },
     {
+      "doc_id": "nazology-8a323a50651752c3",
+      "title": "タコが小さな穴をすり抜ける「決まった手順」が判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206664"
+    },
+    {
       "doc_id": "nazology-49877e07a6a69985",
       "title": "理論上の限界ぎりぎりまで正確な「究極の時計」の作り方を発見",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "スペインの洞窟の壁から動物55体を含む「氷河期のアート」を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206638"
-    },
-    {
-      "doc_id": "nazology-481d162b65fea5ec",
-      "title": "あるショウジョウバエのオスは仲間で混み合う場所を好んで求愛すると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206594"
     }
   ]
 }
