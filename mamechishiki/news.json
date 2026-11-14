@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-13T22:40:20+00:00",
-  "now_ms": 1794609620139,
+  "fetched_at": "2026-11-14T03:20:29+00:00",
+  "now_ms": 1794626429089,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,106 +10,106 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-3b71741d4a3da40e",
-      "title": "全米空港に航空機の地上待機命令",
+      "doc_id": "yahoo-2d6088b5f3c87e68",
+      "title": "米中露会談 核兵器削減を協議へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602483"
+      "link": "https://news.yahoo.co.jp/pickup/6602532"
     },
     {
-      "doc_id": "yahoo-4c532b78621f2e99",
-      "title": "自衛官の給与引き上げ法が成立",
+      "doc_id": "yahoo-5d28dff23e65f419",
+      "title": "全米 航空機の地上待機命令を解除",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602480"
+      "link": "https://news.yahoo.co.jp/pickup/6602522"
     },
     {
-      "doc_id": "yahoo-abdace03874a6a2b",
-      "title": "マネックス証券 免許証画像流出か",
+      "doc_id": "yahoo-934dd707bd7633e1",
+      "title": "米空港で混乱 原因はハードウエア",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602486"
+      "link": "https://news.yahoo.co.jp/pickup/6602529"
     },
     {
-      "doc_id": "yahoo-e012ab807d340fbb",
-      "title": "「週明け怖い」MS障害の影響広く",
+      "doc_id": "yahoo-f5f982372b58b587",
+      "title": "3歳死亡 5回虐待通告もなぜ防げず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602468"
+      "link": "https://news.yahoo.co.jp/pickup/6602526"
     },
     {
-      "doc_id": "yahoo-1fffb6d2db29891f",
-      "title": "米NYでビル崩壊 瞬間の内部映像",
+      "doc_id": "yahoo-49f2f90a88c5d673",
+      "title": "「銀だこ」曲がり角 赤字転落なぜ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602476"
+      "link": "https://news.yahoo.co.jp/pickup/6602520"
     },
     {
-      "doc_id": "yahoo-819ead8c2b89cce1",
-      "title": "U-21大岩J スペインに0-2で敗戦",
+      "doc_id": "yahoo-d978869879851605",
+      "title": "婚活に300万円課金 結婚した男性",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602484"
+      "link": "https://news.yahoo.co.jp/pickup/6602518"
     },
     {
-      "doc_id": "yahoo-0b1d25c6585ce879",
-      "title": "紅白 あいみょんや米津の名前なし",
+      "doc_id": "yahoo-48656508ff670364",
+      "title": "元阪神・井川慶「休養」の今",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602479"
+      "link": "https://news.yahoo.co.jp/pickup/6602527"
     },
     {
-      "doc_id": "yahoo-699e8c3cd98fc6b3",
-      "title": "アヴリルラヴィーン第1子誕生報告",
+      "doc_id": "yahoo-b6a20e06bc7ed468",
+      "title": "壇蜜 夫からの手紙に見せた笑顔",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602488"
+      "link": "https://news.yahoo.co.jp/pickup/6602528"
     },
     {
-      "doc_id": "jiji-ef471f48676880ea",
-      "title": "支援金、勤労者５割対象 高市首相表明、子２人世帯で最大６万円―消費減税法案、参院委で審議",
+      "doc_id": "jiji-0b679601e28b3087",
+      "title": "大規模障害、復旧進む 根本原因は対処―米マイクロソフト",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300707&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111400263&g=int"
     },
     {
-      "doc_id": "jiji-5aa4c155b94e5459",
-      "title": "マイクロソフト大規模障害、解消せず 一部回復も不具合続く、７０カ国以上に影響か",
+      "doc_id": "jiji-85020f922dc2005e",
+      "title": "高市首相、公明取り込みへ攻勢 過半数確保に危機感―消費減税法案",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301024&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111301111&g=pol"
     },
     {
-      "doc_id": "jiji-f89134472a2c576c",
-      "title": "首相動静（１１月１３日）",
+      "doc_id": "jiji-2d558d0bc3587a19",
+      "title": "米大統領選、不出馬検討か バンス氏、中間選挙の共和大敗受け",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300274&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111400196&g=int"
     },
     {
-      "doc_id": "jiji-62c71b74096741fe",
-      "title": "米議会、輸出規制強化要求 スパイ疑惑、超党派で政権追及―エヌビディアＣＥＯ辞任",
+      "doc_id": "jiji-850e926152180e48",
+      "title": "全米で航空機の離陸停止 通信障害か―当局が命令",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300824&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400156&g=int"
     },
     {
-      "doc_id": "jiji-3b85dadce43446fb",
-      "title": "３歳娘虐待死か、両親逮捕 全身に数十カ所あざ―日常的に暴行か・大阪府警",
+      "doc_id": "jiji-dfbfacf52e10ffc6",
+      "title": "１９日に米中ロ首脳会談 史上初、核軍縮やイラン協議―ウクライナ取り上げず・米高官",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300978&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111400226&g=int"
     },
     {
-      "doc_id": "jiji-783af0f7bc9f3ab3",
-      "title": "「長引くと困る」「仕事にならない」 メールやＡＩ使えず、職員ら困惑―米ＭＳ大規模障害で自治体など",
+      "doc_id": "jiji-608ec876b7c1c424",
+      "title": "欧州５カ国が和平交渉参加へ ウクライナ巡り首脳合意",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111300903&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111400279&g=int"
     },
     {
-      "doc_id": "jiji-beab98de609afb2c",
-      "title": "日本、韓国破り２連勝 宗山が決勝３ラン―アジアプロ野球",
+      "doc_id": "jiji-2feb8bef1e02897d",
+      "title": "米、航空機離陸停止を解除",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301052&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111400273&g=int"
     },
     {
-      "doc_id": "jiji-7e79c96c1a1c623a",
-      "title": "独首相「サプライズやめて」 ウクライナ巡りトランプ氏に",
+      "doc_id": "jiji-b59932ad7e8cd6b0",
+      "title": "防衛予算、６０兆円軸 ５年総額、財務・防衛攻防へ―高市首相、増税に消極的",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301228&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111301051&g=pol"
     },
     {
-      "doc_id": "jiji-96bacf3c82711ddc",
-      "title": "女性２人死亡、トラックひき逃げか 関係者聴取―神奈川県警",
+      "doc_id": "jiji-44a526ba123da480",
+      "title": "西郷真央、勝みなみが４位 米女子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301173&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111400254&g=spo"
     },
     {
       "doc_id": "jiji-aa79259ca70377bc",
@@ -119,37 +119,37 @@
     },
     {
       "doc_id": "nhk-f295e78b297750b2",
-      "title": "【速報中】アメリカ全土の空港で航空機運航停止「通信の問題」",
+      "title": "アメリカ航空当局 全米の運航停止措置解除 8000便超欠航",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764"
     },
     {
+      "doc_id": "nhk-b4a84a57b6ba7a57",
+      "title": "米中ロ3か国首脳会談19日開催 3者会談は初 ホワイトハウス発表",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768"
+    },
+    {
       "doc_id": "nhk-6180ef76fdad474b",
-      "title": "大阪 枚方 女児死亡事件 踏み台の練習中に父親が立腹し暴行か",
+      "title": "大阪 枚方 女児死亡 父親「しつけで殴ることも」逮捕前説明",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75748"
     },
     {
-      "doc_id": "nhk-49f2e98139a14093",
-      "title": "神奈川 海老名 2人死亡 ひき逃げ疑いで運転手逮捕 容疑否認",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75759"
-    },
-    {
       "doc_id": "nhk-3a96982b3aa4c995",
-      "title": "マイクロソフト 接続障害「広範囲にわたる復旧がみられる」",
+      "title": "マイクロソフトの障害 広範囲にわたり復旧 「深くおわび」",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75755"
     },
     {
-      "doc_id": "nhk-2db5f0ef7a709fba",
-      "title": "高市首相“支援金対象5割以上” 野党“さらなる具体像を”",
+      "doc_id": "nhk-cac813a555abff6f",
+      "title": "小栗虫太郎の未発表原稿や創作メモが見つかる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75743"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75792"
     },
     {
       "doc_id": "nhk-f4744b3c69cb6ed2",
-      "title": "米 ミシシッピ川でクルーズ船にタンカー衝突 救助活動続く",
+      "title": "ミシシッピ川でクルーズ船にタンカー衝突 全員が救助",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75761"
     },
@@ -158,6 +158,12 @@
       "title": "エヌビディア先端半導体輸出 ラトニック商務長官の責任論浮上",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75753"
+    },
+    {
+      "doc_id": "itmedia-871ad100a2fac92a",
+      "title": "相次ぐ情報漏えいでアナログ回帰？ ダイソー「パスワード管理ノート」が品薄に 一方でリスクも──IPAに聞いた",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/14/2000003193/"
     },
     {
       "doc_id": "itmedia-71813fe6a4bfd919",
@@ -226,10 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/"
     },
     {
-      "doc_id": "itmedia-27c43c5924950956",
-      "title": "緊急情報の音声放送システムにランサムウェア攻撃 滋賀県甲賀市、屋外拡声器など使えず",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003167/"
+      "doc_id": "nazology-83d2aa248e8c7b32",
+      "title": "「正直に冷たい人」と「優しい演技の人」、選ばれたのは演技だった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208902"
+    },
+    {
+      "doc_id": "nazology-4370c34c74d50140",
+      "title": "精子の老化は少しずつ進むのではなく「崖」のように急に訪れる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206631"
+    },
+    {
+      "doc_id": "nazology-65af26f596821783",
+      "title": "便秘に悩む人は緑のキウイを1日2個食べるとお通じが良くなると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206579"
     },
     {
       "doc_id": "nazology-8a323a50651752c3",
@@ -272,24 +290,6 @@
       "title": "断食や食べる時間を絞る食事は、体重と血糖の改善に効くと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206384"
-    },
-    {
-      "doc_id": "nazology-d13d73071ddfd30b",
-      "title": "皿洗いの分担と妻の幸福と性生活",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208603"
-    },
-    {
-      "doc_id": "nazology-8e2d5c8edda837b1",
-      "title": "仕事でAIに頼る人ほど上司の信頼を失いやすい",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206573"
-    },
-    {
-      "doc_id": "nazology-6fdc0c7560f447b5",
-      "title": "スペインの洞窟の壁から動物55体を含む「氷河期のアート」を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206638"
     }
   ]
 }
