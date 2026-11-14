@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-14T11:31:31+00:00",
-  "now_ms": 1794655891616,
+  "fetched_at": "2026-11-14T18:08:45+00:00",
+  "now_ms": 1794679725873,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,118 +10,142 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-5858aaaf9ca4cb0b",
-      "title": "米の航空混乱 途方に暮れる乗客",
+      "doc_id": "yahoo-c73eb0d26302c54c",
+      "title": "米中露の接近 日本政府は危機感",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602568"
+      "link": "https://news.yahoo.co.jp/pickup/6602584"
     },
     {
-      "doc_id": "yahoo-2b1c218d4ddb6824",
-      "title": "印旛沼決壊 暮らしの再建進まず",
+      "doc_id": "yahoo-07baa99f8e09a07d",
+      "title": "AI悪用攻撃拠点か 世界で千台発見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602573"
+      "link": "https://news.yahoo.co.jp/pickup/6602602"
     },
     {
-      "doc_id": "yahoo-423d545ae82cc441",
-      "title": "3歳死亡 歩行訓練で腹立てたと父",
+      "doc_id": "yahoo-8d83adbf1aed1e42",
+      "title": "MS 障害原因は過去の増強作業",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602559"
+      "link": "https://news.yahoo.co.jp/pickup/6602606"
     },
     {
-      "doc_id": "yahoo-ca51483c5ef4397f",
-      "title": "菓子屋の倒産最多へ 老舗でも低迷",
+      "doc_id": "yahoo-486379eb9abb5043",
+      "title": "日本兵の墓が無縁化 解消に法の壁",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602566"
+      "link": "https://news.yahoo.co.jp/pickup/6602590"
     },
     {
-      "doc_id": "yahoo-44b8d7a08e824586",
-      "title": "売れ残りを寄付 広がる一方問題も",
+      "doc_id": "yahoo-2deb495f5a900978",
+      "title": "縦型ショートドラマ トラブル急増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602572"
+      "link": "https://news.yahoo.co.jp/pickup/6602597"
     },
     {
-      "doc_id": "yahoo-11bb9a85bf0689da",
-      "title": "速報・森保J ブラジルに1点リード",
+      "doc_id": "yahoo-4cfd23b2c032a92c",
+      "title": "ブラジル監督 会見も怒り収まらず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602582"
+      "link": "https://news.yahoo.co.jp/pickup/6602607"
     },
     {
-      "doc_id": "yahoo-a7c965f8cff3675d",
-      "title": "薬指にキス 先制ゴールの久保建英",
+      "doc_id": "yahoo-bab51178860bcea6",
+      "title": "力士の魁禅さん33歳で死去 胃がん",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602585"
+      "link": "https://news.yahoo.co.jp/pickup/6602587"
     },
     {
-      "doc_id": "yahoo-e6678edf38ca188b",
-      "title": "侍J・西川 初回に代走送られ交代",
+      "doc_id": "yahoo-e2f9a32dceed2701",
+      "title": "大倉士門 妻との連絡1日100往復超",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602578"
+      "link": "https://news.yahoo.co.jp/pickup/6602605"
     },
     {
-      "doc_id": "jiji-85020f922dc2005e",
-      "title": "高市首相、公明取り込みへ攻勢 過半数確保に危機感―消費減税法案",
+      "doc_id": "jiji-5d4b91c45afda7ef",
+      "title": "坂元、ヒーローに サッカー日本代表",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301111&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111400462&g=spo"
     },
     {
-      "doc_id": "jiji-91816214d6afeb01",
-      "title": "大規模障害が全面復旧 顧客に混乱「深く謝罪」―米マイクロソフト",
+      "doc_id": "jiji-ee3d473c464e42a4",
+      "title": "イラン再攻撃巡り深まる孤立 イスラエル首相に自制求める声",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400326&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400325&g=int"
     },
     {
-      "doc_id": "jiji-e476373b82c5dcc1",
-      "title": "三菱重工浦和が勝つ ＷＥリーグ",
+      "doc_id": "jiji-2556ae18544b83e6",
+      "title": "日本、豪州にコールド勝ち １５日に韓国と決勝―アジアプロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400364&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111400334&g=spo"
     },
     {
-      "doc_id": "jiji-507bd2a269ac8a69",
-      "title": "ジュウリョクピエロ４．１倍 競馬エリザベス女王杯",
+      "doc_id": "jiji-55cf06585bb56ea5",
+      "title": "韓国の金倒永、決勝に導く アジアプロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400374&g=spo"
-    },
-    {
-      "doc_id": "jiji-20ab35687745c239",
-      "title": "来年の活動方針決定 創価学会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400363&g=soc"
-    },
-    {
-      "doc_id": "jiji-ace43c60bd15b5fe",
-      "title": "米中、「貿易委員会」初会合 ４．８兆円関税下げへ議論",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400356&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400456&g=spo"
     },
     {
       "doc_id": "jiji-a8cbd9ec859aa76e",
-      "title": "サッカー日本代表、ブラジルから前半２点 久保、中村がゴール",
+      "title": "日本、また王国ブラジル撃破 坂元決勝点、通算２勝目―サッカー日本代表",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026111400385&g=spo"
     },
     {
-      "doc_id": "jiji-c39f922ab2f43afd",
-      "title": "両陛下が大阪入り 海づくり大会出席へ",
+      "doc_id": "jiji-5feefad795ed4894",
+      "title": "上海拠点に禁輸半導体か 前ＣＥＯと不倫疑惑女性の企業、各国が調査―エヌビディア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400357&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111400314&g=int"
     },
     {
-      "doc_id": "jiji-51184590d87f1f74",
-      "title": "来年３月に台湾と交流試合 ＮＰＢ",
+      "doc_id": "jiji-2d558d0bc3587a19",
+      "title": "米大統領選、不出馬検討か バンス氏、中間選挙の共和大敗受け",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400388&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111400196&g=int"
     },
     {
-      "doc_id": "jiji-5a94d74136bf385b",
-      "title": "大の里６連勝 豊昇龍は白星先行―大相撲九州場所７日目",
+      "doc_id": "jiji-850e926152180e48",
+      "title": "全米の航空機、一時離陸停止 通信障害か、数時間後に解除",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400381&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111400156&g=int"
     },
     {
-      "doc_id": "nhk-f295e78b297750b2",
-      "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
+      "doc_id": "jiji-7f9d3a67bd533ef7",
+      "title": "「国境越える再分配を」 民主改革代表、インドで演説",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111400429&g=pol"
+    },
+    {
+      "doc_id": "jiji-1a8641a6401d9da1",
+      "title": "米軍大尉、酒気帯び容疑で逮捕 未明の自宅外での飲酒禁止中―沖縄県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111400412&g=soc"
+    },
+    {
+      "doc_id": "nhk-0321355d754fad65",
+      "title": "【配信中】ラグビー日本代表×イングランド “仮想W杯”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75976"
+    },
+    {
+      "doc_id": "nhk-872c05dc23869864",
+      "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75990"
+    },
+    {
+      "doc_id": "nhk-be30b6e08a9baa70",
+      "title": "高市首相 東南アジアなどと「アジア版IEA」創設を提唱で調整",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de76011"
+    },
+    {
+      "doc_id": "nhk-95fef63ad0d52eb8",
+      "title": "杉原千畝「命のビザ」パスポートの複製 生存のユダヤ人に寄贈",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75993"
+    },
+    {
+      "doc_id": "nhk-bfd1859d1a6712c7",
+      "title": "自民 松山参院会長 消費税減税法案“国民・公明 方向性同じ”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de76006"
     },
     {
       "doc_id": "nhk-6180ef76fdad474b",
@@ -130,34 +154,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75748"
     },
     {
-      "doc_id": "nhk-6defe369bea36964",
-      "title": "JR北海道 新観光列車「赤い星」公開 ターゲットは富裕層",
+      "doc_id": "nhk-f295e78b297750b2",
+      "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75833"
-    },
-    {
-      "doc_id": "nhk-b4a84a57b6ba7a57",
-      "title": "米中ロ3か国首脳会談 19日に初めての開催へ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768"
-    },
-    {
-      "doc_id": "nhk-e1312999e6695438",
-      "title": "横田めぐみさん拉致からあすで49年 新潟集会で家族が訴え",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75866"
-    },
-    {
-      "doc_id": "nhk-3a96982b3aa4c995",
-      "title": "マイクロソフトの接続障害 全面復旧と発表",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75755"
-    },
-    {
-      "doc_id": "nhk-ad837d9db962eaca",
-      "title": "大相撲九州場所7日目 横綱 豊昇龍が小結 義ノ富士を退け連勝",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75967"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764"
     },
     {
       "doc_id": "itmedia-871ad100a2fac92a",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/"
     },
     {
+      "doc_id": "nazology-fc70f57e3ea688fa",
+      "title": "宇宙ステーションで原子を「記録的な低温」まで冷やすことに成功",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206520"
+    },
+    {
       "doc_id": "nazology-c7792441892c344c",
       "title": "記録的な猛暑も「未来の熱波」とは比べものにならないと判明",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "タコが小さな穴をすり抜ける「決まった手順」が判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206664"
-    },
-    {
-      "doc_id": "nazology-49877e07a6a69985",
-      "title": "理論上の限界ぎりぎりまで正確な「究極の時計」の作り方を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206431"
     }
   ]
 }
