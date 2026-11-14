@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-14T18:08:45+00:00",
-  "now_ms": 1794679725873,
+  "fetched_at": "2026-11-14T22:28:24+00:00",
+  "now_ms": 1794695304940,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -28,16 +28,22 @@
       "link": "https://news.yahoo.co.jp/pickup/6602606"
     },
     {
-      "doc_id": "yahoo-486379eb9abb5043",
-      "title": "日本兵の墓が無縁化 解消に法の壁",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602590"
-    },
-    {
       "doc_id": "yahoo-2deb495f5a900978",
       "title": "縦型ショートドラマ トラブル急増",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6602597"
+    },
+    {
+      "doc_id": "yahoo-b845b8696c1dc2e8",
+      "title": "ラヴ上等「あっすん」容疑者逮捕",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6602608"
+    },
+    {
+      "doc_id": "yahoo-5122e7f16a5a9203",
+      "title": "大阪3歳死亡 遺体に50カ所のあざ",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6602612"
     },
     {
       "doc_id": "yahoo-4cfd23b2c032a92c",
@@ -52,34 +58,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6602587"
     },
     {
-      "doc_id": "yahoo-e2f9a32dceed2701",
-      "title": "大倉士門 妻との連絡1日100往復超",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602605"
+      "doc_id": "jiji-2d558d0bc3587a19",
+      "title": "米大統領選、不出馬検討か バンス氏、中間選挙の共和大敗受け",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111400196&g=int"
     },
     {
-      "doc_id": "jiji-5d4b91c45afda7ef",
-      "title": "坂元、ヒーローに サッカー日本代表",
+      "doc_id": "jiji-179cbb19bc2967b2",
+      "title": "日本、イングランドに大敗 １３トライ許す―ラグビー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400462&g=spo"
-    },
-    {
-      "doc_id": "jiji-ee3d473c464e42a4",
-      "title": "イラン再攻撃巡り深まる孤立 イスラエル首相に自制求める声",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400325&g=int"
-    },
-    {
-      "doc_id": "jiji-2556ae18544b83e6",
-      "title": "日本、豪州にコールド勝ち １５日に韓国と決勝―アジアプロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400334&g=spo"
-    },
-    {
-      "doc_id": "jiji-55cf06585bb56ea5",
-      "title": "韓国の金倒永、決勝に導く アジアプロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400456&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111500066&g=spo"
     },
     {
       "doc_id": "jiji-a8cbd9ec859aa76e",
@@ -88,76 +76,88 @@
       "link": "https://www.jiji.com/jc/article?k=2026111400385&g=spo"
     },
     {
+      "doc_id": "jiji-ee3d473c464e42a4",
+      "title": "イラン再攻撃巡り深まる孤立 イスラエル首相に自制求める声",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111400325&g=int"
+    },
+    {
+      "doc_id": "jiji-f97b4de1e7f76f26",
+      "title": "首相動静（１１月１４日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111400204&g=pol"
+    },
+    {
       "doc_id": "jiji-5feefad795ed4894",
       "title": "上海拠点に禁輸半導体か 前ＣＥＯと不倫疑惑女性の企業、各国が調査―エヌビディア",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026111400314&g=int"
     },
     {
-      "doc_id": "jiji-2d558d0bc3587a19",
-      "title": "米大統領選、不出馬検討か バンス氏、中間選挙の共和大敗受け",
+      "doc_id": "jiji-975c117ebd20cab1",
+      "title": "東ティモール、２９年議長国に ＡＳＥＡＮ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400196&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400406&g=int"
     },
     {
-      "doc_id": "jiji-850e926152180e48",
-      "title": "全米の航空機、一時離陸停止 通信障害か、数時間後に解除",
+      "doc_id": "jiji-2556ae18544b83e6",
+      "title": "日本、豪州にコールド勝ち １５日に韓国と決勝―アジアプロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400156&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400334&g=spo"
     },
     {
-      "doc_id": "jiji-7f9d3a67bd533ef7",
-      "title": "「国境越える再分配を」 民主改革代表、インドで演説",
+      "doc_id": "jiji-85020f922dc2005e",
+      "title": "高市首相、公明取り込みへ攻勢 過半数確保に危機感―消費減税法案",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400429&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111301111&g=pol"
     },
     {
-      "doc_id": "jiji-1a8641a6401d9da1",
-      "title": "米軍大尉、酒気帯び容疑で逮捕 未明の自宅外での飲酒禁止中―沖縄県警",
+      "doc_id": "jiji-6664af720b3daaaa",
+      "title": "次期戦闘機、独参画に「反対」 伊、オブザーバーを提案―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400412&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111500070&g=int"
     },
     {
-      "doc_id": "nhk-0321355d754fad65",
-      "title": "【配信中】ラグビー日本代表×イングランド “仮想W杯”",
+      "doc_id": "nhk-a675c00542585f66",
+      "title": "ASEAN首脳会議開幕へ トランプ大統領のアジアへの姿勢にも注目",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75976"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75995"
+    },
+    {
+      "doc_id": "nhk-de93baa78da4ab2f",
+      "title": "アメリカ 航空機運航停止の影響で14日も混乱続く",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76032"
+    },
+    {
+      "doc_id": "nhk-82ad51e6db1f138a",
+      "title": "枚方女児死亡 「以前から夫が娘殴るの見た」逮捕前に母親説明",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de76000"
+    },
+    {
+      "doc_id": "nhk-3f31bd8950f08de5",
+      "title": "【地震情報】熊本県で震度3 津波の心配なし(06:17）",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76036"
+    },
+    {
+      "doc_id": "nhk-64433d31f43eed10",
+      "title": "経産省とアジア開発銀行 アジアの原発導入支援 協力覚書で調整",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76028"
     },
     {
       "doc_id": "nhk-872c05dc23869864",
-      "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす",
+      "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす 通算2勝目",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75990"
     },
     {
-      "doc_id": "nhk-be30b6e08a9baa70",
-      "title": "高市首相 東南アジアなどと「アジア版IEA」創設を提唱で調整",
+      "doc_id": "nhk-0321355d754fad65",
+      "title": "ラグビー日本代表 イングランドに13トライ奪われ大敗【詳報】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de76011"
-    },
-    {
-      "doc_id": "nhk-95fef63ad0d52eb8",
-      "title": "杉原千畝「命のビザ」パスポートの複製 生存のユダヤ人に寄贈",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75993"
-    },
-    {
-      "doc_id": "nhk-bfd1859d1a6712c7",
-      "title": "自民 松山参院会長 消費税減税法案“国民・公明 方向性同じ”",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de76006"
-    },
-    {
-      "doc_id": "nhk-6180ef76fdad474b",
-      "title": "大阪 枚方女児死亡 体に古いもの含め数10か所のあざ",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75748"
-    },
-    {
-      "doc_id": "nhk-f295e78b297750b2",
-      "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75976"
     },
     {
       "doc_id": "itmedia-871ad100a2fac92a",
