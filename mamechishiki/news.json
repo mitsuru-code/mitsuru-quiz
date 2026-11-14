@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-14T03:20:29+00:00",
-  "now_ms": 1794626429089,
+  "fetched_at": "2026-11-14T11:31:31+00:00",
+  "now_ms": 1794655891616,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-2d6088b5f3c87e68",
-      "title": "米中露会談 核兵器削減を協議へ",
+      "doc_id": "yahoo-5858aaaf9ca4cb0b",
+      "title": "米の航空混乱 途方に暮れる乗客",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602532"
+      "link": "https://news.yahoo.co.jp/pickup/6602568"
     },
     {
-      "doc_id": "yahoo-5d28dff23e65f419",
-      "title": "全米 航空機の地上待機命令を解除",
+      "doc_id": "yahoo-2b1c218d4ddb6824",
+      "title": "印旛沼決壊 暮らしの再建進まず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602522"
+      "link": "https://news.yahoo.co.jp/pickup/6602573"
     },
     {
-      "doc_id": "yahoo-934dd707bd7633e1",
-      "title": "米空港で混乱 原因はハードウエア",
+      "doc_id": "yahoo-423d545ae82cc441",
+      "title": "3歳死亡 歩行訓練で腹立てたと父",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602529"
+      "link": "https://news.yahoo.co.jp/pickup/6602559"
     },
     {
-      "doc_id": "yahoo-f5f982372b58b587",
-      "title": "3歳死亡 5回虐待通告もなぜ防げず",
+      "doc_id": "yahoo-ca51483c5ef4397f",
+      "title": "菓子屋の倒産最多へ 老舗でも低迷",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602526"
+      "link": "https://news.yahoo.co.jp/pickup/6602566"
     },
     {
-      "doc_id": "yahoo-49f2f90a88c5d673",
-      "title": "「銀だこ」曲がり角 赤字転落なぜ",
+      "doc_id": "yahoo-44b8d7a08e824586",
+      "title": "売れ残りを寄付 広がる一方問題も",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602520"
+      "link": "https://news.yahoo.co.jp/pickup/6602572"
     },
     {
-      "doc_id": "yahoo-d978869879851605",
-      "title": "婚活に300万円課金 結婚した男性",
+      "doc_id": "yahoo-11bb9a85bf0689da",
+      "title": "速報・森保J ブラジルに1点リード",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602518"
+      "link": "https://news.yahoo.co.jp/pickup/6602582"
     },
     {
-      "doc_id": "yahoo-48656508ff670364",
-      "title": "元阪神・井川慶「休養」の今",
+      "doc_id": "yahoo-a7c965f8cff3675d",
+      "title": "薬指にキス 先制ゴールの久保建英",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602527"
+      "link": "https://news.yahoo.co.jp/pickup/6602585"
     },
     {
-      "doc_id": "yahoo-b6a20e06bc7ed468",
-      "title": "壇蜜 夫からの手紙に見せた笑顔",
+      "doc_id": "yahoo-e6678edf38ca188b",
+      "title": "侍J・西川 初回に代走送られ交代",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602528"
-    },
-    {
-      "doc_id": "jiji-0b679601e28b3087",
-      "title": "大規模障害、復旧進む 根本原因は対処―米マイクロソフト",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400263&g=int"
+      "link": "https://news.yahoo.co.jp/pickup/6602578"
     },
     {
       "doc_id": "jiji-85020f922dc2005e",
@@ -70,94 +64,100 @@
       "link": "https://www.jiji.com/jc/article?k=2026111301111&g=pol"
     },
     {
-      "doc_id": "jiji-2d558d0bc3587a19",
-      "title": "米大統領選、不出馬検討か バンス氏、中間選挙の共和大敗受け",
+      "doc_id": "jiji-91816214d6afeb01",
+      "title": "大規模障害が全面復旧 顧客に混乱「深く謝罪」―米マイクロソフト",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400196&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400326&g=int"
     },
     {
-      "doc_id": "jiji-850e926152180e48",
-      "title": "全米で航空機の離陸停止 通信障害か―当局が命令",
+      "doc_id": "jiji-e476373b82c5dcc1",
+      "title": "三菱重工浦和が勝つ ＷＥリーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400156&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400364&g=spo"
     },
     {
-      "doc_id": "jiji-dfbfacf52e10ffc6",
-      "title": "１９日に米中ロ首脳会談 史上初、核軍縮やイラン協議―ウクライナ取り上げず・米高官",
+      "doc_id": "jiji-507bd2a269ac8a69",
+      "title": "ジュウリョクピエロ４．１倍 競馬エリザベス女王杯",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400226&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400374&g=spo"
     },
     {
-      "doc_id": "jiji-608ec876b7c1c424",
-      "title": "欧州５カ国が和平交渉参加へ ウクライナ巡り首脳合意",
+      "doc_id": "jiji-20ab35687745c239",
+      "title": "来年の活動方針決定 創価学会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400279&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400363&g=soc"
     },
     {
-      "doc_id": "jiji-2feb8bef1e02897d",
-      "title": "米、航空機離陸停止を解除",
+      "doc_id": "jiji-ace43c60bd15b5fe",
+      "title": "米中、「貿易委員会」初会合 ４．８兆円関税下げへ議論",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400273&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400356&g=int"
     },
     {
-      "doc_id": "jiji-b59932ad7e8cd6b0",
-      "title": "防衛予算、６０兆円軸 ５年総額、財務・防衛攻防へ―高市首相、増税に消極的",
+      "doc_id": "jiji-a8cbd9ec859aa76e",
+      "title": "サッカー日本代表、ブラジルから前半２点 久保、中村がゴール",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301051&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111400385&g=spo"
     },
     {
-      "doc_id": "jiji-44a526ba123da480",
-      "title": "西郷真央、勝みなみが４位 米女子ゴルフ",
+      "doc_id": "jiji-c39f922ab2f43afd",
+      "title": "両陛下が大阪入り 海づくり大会出席へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400254&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111400357&g=soc"
     },
     {
-      "doc_id": "jiji-aa79259ca70377bc",
-      "title": "ＮＹ株小反発、５０ドル高 生活必需品に買い、半導体は売り",
+      "doc_id": "jiji-51184590d87f1f74",
+      "title": "来年３月に台湾と交流試合 ＮＰＢ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400144&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400388&g=spo"
+    },
+    {
+      "doc_id": "jiji-5a94d74136bf385b",
+      "title": "大の里６連勝 豊昇龍は白星先行―大相撲九州場所７日目",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111400381&g=spo"
     },
     {
       "doc_id": "nhk-f295e78b297750b2",
-      "title": "アメリカ航空当局 全米の運航停止措置解除 8000便超欠航",
+      "title": "全米の空港で運航停止措置 欠航1万便超 解除後も混乱続く",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75764"
     },
     {
-      "doc_id": "nhk-b4a84a57b6ba7a57",
-      "title": "米中ロ3か国首脳会談19日開催 3者会談は初 ホワイトハウス発表",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768"
-    },
-    {
       "doc_id": "nhk-6180ef76fdad474b",
-      "title": "大阪 枚方 女児死亡 父親「しつけで殴ることも」逮捕前説明",
+      "title": "大阪 枚方女児死亡 体に古いもの含め数10か所のあざ",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75748"
     },
     {
+      "doc_id": "nhk-6defe369bea36964",
+      "title": "JR北海道 新観光列車「赤い星」公開 ターゲットは富裕層",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75833"
+    },
+    {
+      "doc_id": "nhk-b4a84a57b6ba7a57",
+      "title": "米中ロ3か国首脳会談 19日に初めての開催へ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75768"
+    },
+    {
+      "doc_id": "nhk-e1312999e6695438",
+      "title": "横田めぐみさん拉致からあすで49年 新潟集会で家族が訴え",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75866"
+    },
+    {
       "doc_id": "nhk-3a96982b3aa4c995",
-      "title": "マイクロソフトの障害 広範囲にわたり復旧 「深くおわび」",
+      "title": "マイクロソフトの接続障害 全面復旧と発表",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de75755"
     },
     {
-      "doc_id": "nhk-cac813a555abff6f",
-      "title": "小栗虫太郎の未発表原稿や創作メモが見つかる",
+      "doc_id": "nhk-ad837d9db962eaca",
+      "title": "大相撲九州場所7日目 横綱 豊昇龍が小結 義ノ富士を退け連勝",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75792"
-    },
-    {
-      "doc_id": "nhk-f4744b3c69cb6ed2",
-      "title": "ミシシッピ川でクルーズ船にタンカー衝突 全員が救助",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75761"
-    },
-    {
-      "doc_id": "nhk-d42bbf45f5a28680",
-      "title": "エヌビディア先端半導体輸出 ラトニック商務長官の責任論浮上",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75753"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75967"
     },
     {
       "doc_id": "itmedia-871ad100a2fac92a",
@@ -232,6 +232,36 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/"
     },
     {
+      "doc_id": "nazology-c7792441892c344c",
+      "title": "記録的な猛暑も「未来の熱波」とは比べものにならないと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206523"
+    },
+    {
+      "doc_id": "nazology-944352236eb500ef",
+      "title": "地球の微生物が「火星の地下に似た環境」で増えることが判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206600"
+    },
+    {
+      "doc_id": "nazology-f16feee5602ffa30",
+      "title": "行為後の触れ合いを学ぶと、女性の「完全に満足」が9割に達した",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208931"
+    },
+    {
+      "doc_id": "nazology-4a0e8a9c7f34fa70",
+      "title": "AIも人間のように「自分の手柄」を盛ると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206519"
+    },
+    {
+      "doc_id": "nazology-f523d3f2c77b4b98",
+      "title": "最古の大麻は楽しむためではなく「葬儀の儀式」に使われていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206597"
+    },
+    {
       "doc_id": "nazology-83d2aa248e8c7b32",
       "title": "「正直に冷たい人」と「優しい演技の人」、選ばれたのは演技だった",
       "source": "ナゾロジー",
@@ -260,36 +290,6 @@
       "title": "理論上の限界ぎりぎりまで正確な「究極の時計」の作り方を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206431"
-    },
-    {
-      "doc_id": "nazology-25584b171e1b0f1b",
-      "title": "万引き常習者にスロットをさせたら設定が変わっても台の乗り換えが遅かった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208917"
-    },
-    {
-      "doc_id": "nazology-cb943f78af0d6c61",
-      "title": "銀行口座を守る暗号が量子コンピューターなら3日で破られる可能性",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206518"
-    },
-    {
-      "doc_id": "nazology-506a3c518e7048f1",
-      "title": "タコは人と違う仕組みで記憶を長く残していた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206521"
-    },
-    {
-      "doc_id": "nazology-5a8dcde0979373e7",
-      "title": "「太平洋ごみベルト」の周りで海の色が変わりつつあると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206687"
-    },
-    {
-      "doc_id": "nazology-d34b6d91076bf5cd",
-      "title": "断食や食べる時間を絞る食事は、体重と血糖の改善に効くと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206384"
     }
   ]
 }
