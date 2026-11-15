@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-14T22:28:24+00:00",
-  "now_ms": 1794695304940,
+  "fetched_at": "2026-11-15T02:42:41+00:00",
+  "now_ms": 1794710561811,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,76 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-c73eb0d26302c54c",
-      "title": "米中露の接近 日本政府は危機感",
+      "doc_id": "yahoo-960cf20a511bd6eb",
+      "title": "米知事選 民主党が計6州を奪還",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602584"
+      "link": "https://news.yahoo.co.jp/pickup/6602637"
     },
     {
-      "doc_id": "yahoo-07baa99f8e09a07d",
-      "title": "AI悪用攻撃拠点か 世界で千台発見",
+      "doc_id": "yahoo-aaa5681b653578e6",
+      "title": "検事の取り調べ AIでチェックへ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602602"
+      "link": "https://news.yahoo.co.jp/pickup/6602643"
     },
     {
-      "doc_id": "yahoo-8d83adbf1aed1e42",
-      "title": "MS 障害原因は過去の増強作業",
+      "doc_id": "yahoo-5c49a768031bdaff",
+      "title": "0歳に暴行「こんなパパでごめん」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602606"
+      "link": "https://news.yahoo.co.jp/pickup/6602640"
     },
     {
-      "doc_id": "yahoo-2deb495f5a900978",
-      "title": "縦型ショートドラマ トラブル急増",
+      "doc_id": "yahoo-8144ef17389c5b36",
+      "title": "月収2万円と年金5万円 70代の現実",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602597"
+      "link": "https://news.yahoo.co.jp/pickup/6602636"
     },
     {
-      "doc_id": "yahoo-b845b8696c1dc2e8",
-      "title": "ラヴ上等「あっすん」容疑者逮捕",
+      "doc_id": "yahoo-5276bbd0dcecae48",
+      "title": "子どもの間で「宝石集め」ブーム",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602608"
+      "link": "https://news.yahoo.co.jp/pickup/6602647"
     },
     {
-      "doc_id": "yahoo-5122e7f16a5a9203",
-      "title": "大阪3歳死亡 遺体に50カ所のあざ",
+      "doc_id": "yahoo-f7936aa3ca385aee",
+      "title": "東京で「臭い豚骨」がブーム 背景",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602612"
+      "link": "https://news.yahoo.co.jp/pickup/6602644"
     },
     {
-      "doc_id": "yahoo-4cfd23b2c032a92c",
-      "title": "ブラジル監督 会見も怒り収まらず",
+      "doc_id": "yahoo-2b9b26545395c16c",
+      "title": "中井亜美SP首位 今季世界最高点",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602607"
+      "link": "https://news.yahoo.co.jp/pickup/6602645"
     },
     {
-      "doc_id": "yahoo-bab51178860bcea6",
-      "title": "力士の魁禅さん33歳で死去 胃がん",
+      "doc_id": "yahoo-9a75237f24f89793",
+      "title": "瀬戸康史 帰宅早い理由は「家族」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602587"
+      "link": "https://news.yahoo.co.jp/pickup/6602638"
     },
     {
-      "doc_id": "jiji-2d558d0bc3587a19",
-      "title": "米大統領選、不出馬検討か バンス氏、中間選挙の共和大敗受け",
+      "doc_id": "jiji-9dc509dbc09d8783",
+      "title": "アラスカ知事選、民主勝利 全米５０州中３０州押さえる―中間選挙",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400196&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111500106&g=int"
     },
     {
-      "doc_id": "jiji-179cbb19bc2967b2",
-      "title": "日本、イングランドに大敗 １３トライ許す―ラグビー",
+      "doc_id": "jiji-b6e7701510a66a38",
+      "title": "米ＦＲＢ、理事人事難航か 民主上院奪還、政策不透明感も",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500066&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111400317&g=int"
     },
     {
-      "doc_id": "jiji-a8cbd9ec859aa76e",
-      "title": "日本、また王国ブラジル撃破 坂元決勝点、通算２勝目―サッカー日本代表",
+      "doc_id": "jiji-015e9b19b5bd9965",
+      "title": "「定数削減」攻防本格化へ 野党抗戦、消費税波及も―国会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400385&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111400313&g=pol"
     },
     {
-      "doc_id": "jiji-ee3d473c464e42a4",
-      "title": "イラン再攻撃巡り深まる孤立 イスラエル首相に自制求める声",
+      "doc_id": "jiji-dce3f2b4f7283309",
+      "title": "桐朋学園大の小西真璃花さん、４位入賞 仏バイオリン・コンクール",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400325&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111500102&g=int"
     },
     {
       "doc_id": "jiji-f97b4de1e7f76f26",
@@ -88,40 +88,34 @@
       "link": "https://www.jiji.com/jc/article?k=2026111400204&g=pol"
     },
     {
-      "doc_id": "jiji-5feefad795ed4894",
-      "title": "上海拠点に禁輸半導体か 前ＣＥＯと不倫疑惑女性の企業、各国が調査―エヌビディア",
+      "doc_id": "jiji-3473617c99ce24eb",
+      "title": "全米の空港離陸停止、１５日正常化 通信線の新旧切り替えで障害発生",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400314&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111500091&g=int"
     },
     {
-      "doc_id": "jiji-975c117ebd20cab1",
-      "title": "東ティモール、２９年議長国に ＡＳＥＡＮ",
+      "doc_id": "jiji-32179e6e1de4c35b",
+      "title": "歴史的舞台、行方は未知数 米中ロ会談、３首脳の思惑交錯",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400406&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111400375&g=int"
     },
     {
-      "doc_id": "jiji-2556ae18544b83e6",
-      "title": "日本、豪州にコールド勝ち １５日に韓国と決勝―アジアプロ野球",
+      "doc_id": "jiji-ba6f55b17d523cdc",
+      "title": "気候変動で「深刻な影響」 「適応策」の必要性強調―三村茨城大名誉教授",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400334&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111400322&g=soc"
     },
     {
-      "doc_id": "jiji-85020f922dc2005e",
-      "title": "高市首相、公明取り込みへ攻勢 過半数確保に危機感―消費減税法案",
+      "doc_id": "jiji-70cde266e20c137f",
+      "title": "受刑者選挙権訴訟、１８日最高裁判決 獄中で提訴の男性「理由なき一律制限、なぜ」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111301111&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111400306&g=soc"
     },
     {
-      "doc_id": "jiji-6664af720b3daaaa",
-      "title": "次期戦闘機、独参画に「反対」 伊、オブザーバーを提案―報道",
+      "doc_id": "jiji-f1653220ebd24d51",
+      "title": "困難極める後任ＣＥＯ選び フアン氏、ＡＩ時代のカリスマ―米エヌビディア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500070&g=int"
-    },
-    {
-      "doc_id": "nhk-a675c00542585f66",
-      "title": "ASEAN首脳会議開幕へ トランプ大統領のアジアへの姿勢にも注目",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75995"
+      "link": "https://www.jiji.com/jc/article?k=2026111400360&g=int"
     },
     {
       "doc_id": "nhk-de93baa78da4ab2f",
@@ -130,34 +124,46 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261115de76032"
     },
     {
+      "doc_id": "nhk-d65275cd1438728b",
+      "title": "インフルエンサー「あっすん」 風営法違反疑いで逮捕",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76043"
+    },
+    {
+      "doc_id": "nhk-59d64843c4d49df9",
+      "title": "ゼレンスキー大統領“米がNATO加盟と交換で軍撤退を打診”",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76042"
+    },
+    {
+      "doc_id": "nhk-28fb29468db53be6",
+      "title": "横田めぐみさん拉致から49年 早紀江さん「会いたい」",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75986"
+    },
+    {
       "doc_id": "nhk-82ad51e6db1f138a",
       "title": "枚方女児死亡 「以前から夫が娘殴るの見た」逮捕前に母親説明",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261114de76000"
     },
     {
-      "doc_id": "nhk-3f31bd8950f08de5",
-      "title": "【地震情報】熊本県で震度3 津波の心配なし(06:17）",
+      "doc_id": "nhk-437c423127eea683",
+      "title": "若手登竜門の国際コンクール バイオリンで小西真璃花さん4位",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76036"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76044"
     },
     {
-      "doc_id": "nhk-64433d31f43eed10",
-      "title": "経産省とアジア開発銀行 アジアの原発導入支援 協力覚書で調整",
+      "doc_id": "nhk-1145ef647d879b35",
+      "title": "スペースXの大型宇宙船 地球周回後の発射台キャッチに初成功",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76028"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76047"
     },
     {
-      "doc_id": "nhk-872c05dc23869864",
-      "title": "サッカー日本代表 ブラジルに勝利 W杯の雪辱果たす 通算2勝目",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75990"
-    },
-    {
-      "doc_id": "nhk-0321355d754fad65",
-      "title": "ラグビー日本代表 イングランドに13トライ奪われ大敗【詳報】",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75976"
+      "doc_id": "itmedia-ad73c6f1d0bd6bd8",
+      "title": "NVIDIAフアン前CEOの復帰求める署名が11万人超 マスク氏らも賛同、米議会は追及継続",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/15/2000003207/"
     },
     {
       "doc_id": "itmedia-871ad100a2fac92a",
@@ -226,10 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003112/"
     },
     {
-      "doc_id": "itmedia-89cb341fdfcf2886",
-      "title": "Googleの社内専用コーディングAI「GfG」、その全容 Geminiに社内データ1兆トークン学習させ開発 所要時間半減の業務も",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/"
+      "doc_id": "nazology-10510e35a61b84f5",
+      "title": "コウイカの擬態は「一瞬」ではなく段階を踏んで完成すると判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206854"
+    },
+    {
+      "doc_id": "nazology-1a6ec1db9e5affaa",
+      "title": "2億3700万年前の海を泳いだ「鎧をまとった両生類」を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208379"
+    },
+    {
+      "doc_id": "nazology-bf8f6ab851450015",
+      "title": "盛り上がる会話には数式で表せる「ゆらぎのリズム」があった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206844"
     },
     {
       "doc_id": "nazology-fc70f57e3ea688fa",
@@ -272,24 +290,6 @@
       "title": "「正直に冷たい人」と「優しい演技の人」、選ばれたのは演技だった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/208902"
-    },
-    {
-      "doc_id": "nazology-4370c34c74d50140",
-      "title": "精子の老化は少しずつ進むのではなく「崖」のように急に訪れる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206631"
-    },
-    {
-      "doc_id": "nazology-65af26f596821783",
-      "title": "便秘に悩む人は緑のキウイを1日2個食べるとお通じが良くなると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206579"
-    },
-    {
-      "doc_id": "nazology-8a323a50651752c3",
-      "title": "タコが小さな穴をすり抜ける「決まった手順」が判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206664"
     }
   ]
 }
