@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-15T02:42:41+00:00",
-  "now_ms": 1794710561811,
+  "fetched_at": "2026-11-15T10:59:27+00:00",
+  "now_ms": 1794740367055,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,94 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-960cf20a511bd6eb",
-      "title": "米知事選 民主党が計6州を奪還",
+      "doc_id": "yahoo-cd86e31334875e8e",
+      "title": "防衛省AI活用の基本方針 見直しへ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602637"
+      "link": "https://news.yahoo.co.jp/pickup/6602704"
     },
     {
-      "doc_id": "yahoo-aaa5681b653578e6",
-      "title": "検事の取り調べ AIでチェックへ",
+      "doc_id": "yahoo-dd11e2820b4113c1",
+      "title": "「中国の元スパイ」語る 接近手口",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602643"
+      "link": "https://news.yahoo.co.jp/pickup/6602697"
     },
     {
-      "doc_id": "yahoo-5c49a768031bdaff",
-      "title": "0歳に暴行「こんなパパでごめん」",
+      "doc_id": "yahoo-455e752b1d8f858f",
+      "title": "愛知の住宅強盗事件 トクリュウか",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602640"
+      "link": "https://news.yahoo.co.jp/pickup/6602706"
     },
     {
-      "doc_id": "yahoo-8144ef17389c5b36",
-      "title": "月収2万円と年金5万円 70代の現実",
+      "doc_id": "yahoo-07947281b01a6130",
+      "title": "死んだンゴ 投稿者命日に寄付急増",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602636"
+      "link": "https://news.yahoo.co.jp/pickup/6602677"
     },
     {
-      "doc_id": "yahoo-5276bbd0dcecae48",
-      "title": "子どもの間で「宝石集め」ブーム",
+      "doc_id": "yahoo-db05390ac72a0a75",
+      "title": "スピッツ﨑山さん 交通事故で搬送",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602647"
+      "link": "https://news.yahoo.co.jp/pickup/6602703"
     },
     {
-      "doc_id": "yahoo-f7936aa3ca385aee",
-      "title": "東京で「臭い豚骨」がブーム 背景",
+      "doc_id": "yahoo-e58b8e684c7a481b",
+      "title": "速報・侍ジャパン 西川が先制ソロ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602644"
+      "link": "https://news.yahoo.co.jp/pickup/6602708"
     },
     {
-      "doc_id": "yahoo-2b9b26545395c16c",
-      "title": "中井亜美SP首位 今季世界最高点",
+      "doc_id": "yahoo-02694cb74d1b8f57",
+      "title": "中日・大島洋平 年俸3年前の8%に",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602645"
+      "link": "https://news.yahoo.co.jp/pickup/6602688"
     },
     {
-      "doc_id": "yahoo-9a75237f24f89793",
-      "title": "瀬戸康史 帰宅早い理由は「家族」",
+      "doc_id": "yahoo-c6f11056b281fba4",
+      "title": "映画VIVANT 新キャラに石黒賢",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602638"
+      "link": "https://news.yahoo.co.jp/pickup/6602705"
+    },
+    {
+      "doc_id": "jiji-8dd6cc2f57868beb",
+      "title": "「ＮＡＴＯ加盟と引き換えにドンバス撤退を」 米から打診とゼレンスキー氏",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500163&g=int"
+    },
+    {
+      "doc_id": "jiji-1164d935a2fc119b",
+      "title": "インフルエンサー「あっすん」を風営法違反容疑で逮捕 愛知県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500121&g=soc"
+    },
+    {
+      "doc_id": "jiji-7bcdc2006cb0e6ad",
+      "title": "「超小型カメラとＡＩで不正」 税理士試験トップ合格者が告白―韓国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500238&g=int"
+    },
+    {
+      "doc_id": "jiji-7c8bd81b1d8478df",
+      "title": "日中首脳会談は困難 高市首相、１６日から比中訪問",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500177&g=pol"
+    },
+    {
+      "doc_id": "jiji-0d1faef8b83516b8",
+      "title": "中井亜美、重圧受け止め笑顔 「ここまでできるとは」―スケートアメリカ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500185&g=spo"
+    },
+    {
+      "doc_id": "jiji-7fb65110698b780a",
+      "title": "ロジスティード、大会新で連覇 ＧＭＯは２位―東日本実業団駅伝",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500203&g=spo"
+    },
+    {
+      "doc_id": "jiji-0d92985f44fcb8e6",
+      "title": "ラフターラインズがＧI初勝利 武豊騎手、今年ＧI４勝目―競馬エリザベス女王杯",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500210&g=spo"
     },
     {
       "doc_id": "jiji-9dc509dbc09d8783",
@@ -64,100 +106,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026111500106&g=int"
     },
     {
-      "doc_id": "jiji-b6e7701510a66a38",
-      "title": "米ＦＲＢ、理事人事難航か 民主上院奪還、政策不透明感も",
+      "doc_id": "jiji-2edf803d24104ef9",
+      "title": "ミャンマーへの関与継続で合意 政治代表の復帰巡り協議―ＡＳＥＡＮ首脳",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400317&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111500069&g=int"
     },
     {
-      "doc_id": "jiji-015e9b19b5bd9965",
-      "title": "「定数削減」攻防本格化へ 野党抗戦、消費税波及も―国会",
+      "doc_id": "jiji-00bffcb85d94f4a2",
+      "title": "「菓子爆弾」食べ男性死亡 インド",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400313&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111500127&g=int"
     },
     {
-      "doc_id": "jiji-dce3f2b4f7283309",
-      "title": "桐朋学園大の小西真璃花さん、４位入賞 仏バイオリン・コンクール",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500102&g=int"
-    },
-    {
-      "doc_id": "jiji-f97b4de1e7f76f26",
-      "title": "首相動静（１１月１４日）",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400204&g=pol"
-    },
-    {
-      "doc_id": "jiji-3473617c99ce24eb",
-      "title": "全米の空港離陸停止、１５日正常化 通信線の新旧切り替えで障害発生",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500091&g=int"
-    },
-    {
-      "doc_id": "jiji-32179e6e1de4c35b",
-      "title": "歴史的舞台、行方は未知数 米中ロ会談、３首脳の思惑交錯",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400375&g=int"
-    },
-    {
-      "doc_id": "jiji-ba6f55b17d523cdc",
-      "title": "気候変動で「深刻な影響」 「適応策」の必要性強調―三村茨城大名誉教授",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400322&g=soc"
-    },
-    {
-      "doc_id": "jiji-70cde266e20c137f",
-      "title": "受刑者選挙権訴訟、１８日最高裁判決 獄中で提訴の男性「理由なき一律制限、なぜ」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400306&g=soc"
-    },
-    {
-      "doc_id": "jiji-f1653220ebd24d51",
-      "title": "困難極める後任ＣＥＯ選び フアン氏、ＡＩ時代のカリスマ―米エヌビディア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111400360&g=int"
-    },
-    {
-      "doc_id": "nhk-de93baa78da4ab2f",
-      "title": "アメリカ 航空機運航停止の影響で14日も混乱続く",
+      "doc_id": "nhk-ce14df420d473e7c",
+      "title": "愛媛県知事選挙 開票や出口調査 当選情報はこちらで【速報】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76032"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76094"
     },
     {
-      "doc_id": "nhk-d65275cd1438728b",
-      "title": "インフルエンサー「あっすん」 風営法違反疑いで逮捕",
+      "doc_id": "nhk-4be52139fcc6b89b",
+      "title": "福岡市長選挙 開票や出口調査 当選情報はこちらで【速報】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76043"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76099"
     },
     {
-      "doc_id": "nhk-59d64843c4d49df9",
-      "title": "ゼレンスキー大統領“米がNATO加盟と交換で軍撤退を打診”",
+      "doc_id": "nhk-1db2ed7792464452",
+      "title": "熊本市長選挙 開票や当選情報はこちらで【速報】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76042"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76100"
     },
     {
-      "doc_id": "nhk-28fb29468db53be6",
-      "title": "横田めぐみさん拉致から49年 早紀江さん「会いたい」",
+      "doc_id": "nhk-833e98bd6d94438a",
+      "title": "松山市長選挙 開票や出口調査 当選情報はこちらで【速報】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de75986"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76096"
     },
     {
-      "doc_id": "nhk-82ad51e6db1f138a",
-      "title": "枚方女児死亡 「以前から夫が娘殴るの見た」逮捕前に母親説明",
+      "doc_id": "nhk-79a2f720d3c3efbe",
+      "title": "ハンズ渋谷店営業終了 48年の歴史に幕 別れ惜しむ人でにぎわう",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261114de76000"
-    },
-    {
-      "doc_id": "nhk-437c423127eea683",
-      "title": "若手登竜門の国際コンクール バイオリンで小西真璃花さん4位",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76044"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76062"
     },
     {
       "doc_id": "nhk-1145ef647d879b35",
       "title": "スペースXの大型宇宙船 地球周回後の発射台キャッチに初成功",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261115de76047"
+    },
+    {
+      "doc_id": "nhk-dc1f86f29ba5d597",
+      "title": "大阪 枚方女児死亡 “虐待”情報も市がことしは母親と面会せず",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76074"
     },
     {
       "doc_id": "itmedia-ad73c6f1d0bd6bd8",
@@ -232,6 +232,30 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003112/"
     },
     {
+      "doc_id": "nazology-0dc306d2f029cb28",
+      "title": "5大陸の電力網が「60秒ごとに脈打つ」謎の答えが見えてきた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208491"
+    },
+    {
+      "doc_id": "nazology-2e27c6f5911694cc",
+      "title": "明るい光を浴びる時間が1日42分未満の人ほど認知症になりやすい",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206835"
+    },
+    {
+      "doc_id": "nazology-f80300d7cc7f7d09",
+      "title": "スーパーのトマトが味気ない理由の手がかりを発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208385"
+    },
+    {
+      "doc_id": "nazology-7a1094d90848f607",
+      "title": "マヤ文明の鮮やかな赤の原料が湖や川の水を毒に変えていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206912"
+    },
+    {
       "doc_id": "nazology-10510e35a61b84f5",
       "title": "コウイカの擬態は「一瞬」ではなく段階を踏んで完成すると判明",
       "source": "ナゾロジー",
@@ -266,30 +290,6 @@
       "title": "地球の微生物が「火星の地下に似た環境」で増えることが判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206600"
-    },
-    {
-      "doc_id": "nazology-f16feee5602ffa30",
-      "title": "行為後の触れ合いを学ぶと、女性の「完全に満足」が9割に達した",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208931"
-    },
-    {
-      "doc_id": "nazology-4a0e8a9c7f34fa70",
-      "title": "AIも人間のように「自分の手柄」を盛ると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206519"
-    },
-    {
-      "doc_id": "nazology-f523d3f2c77b4b98",
-      "title": "最古の大麻は楽しむためではなく「葬儀の儀式」に使われていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206597"
-    },
-    {
-      "doc_id": "nazology-83d2aa248e8c7b32",
-      "title": "「正直に冷たい人」と「優しい演技の人」、選ばれたのは演技だった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208902"
     }
   ]
 }
