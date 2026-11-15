@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-15T10:59:27+00:00",
-  "now_ms": 1794740367055,
+  "fetched_at": "2026-11-15T17:44:57+00:00",
+  "now_ms": 1794764697560,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,70 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-cd86e31334875e8e",
-      "title": "防衛省AI活用の基本方針 見直しへ",
+      "doc_id": "yahoo-f935126265c43a99",
+      "title": "福岡市長選 再選挙の見通し",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602704"
+      "link": "https://news.yahoo.co.jp/pickup/6602736"
     },
     {
-      "doc_id": "yahoo-dd11e2820b4113c1",
-      "title": "「中国の元スパイ」語る 接近手口",
+      "doc_id": "yahoo-5928289ee36de9f1",
+      "title": "原潜の保有「反対」52% 読売調査",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602697"
+      "link": "https://news.yahoo.co.jp/pickup/6602735"
     },
     {
-      "doc_id": "yahoo-455e752b1d8f858f",
-      "title": "愛知の住宅強盗事件 トクリュウか",
+      "doc_id": "yahoo-57a0a4d58c5bcb2b",
+      "title": "MS障害 インド政府機関混乱なし",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602706"
+      "link": "https://news.yahoo.co.jp/pickup/6602734"
     },
     {
-      "doc_id": "yahoo-07947281b01a6130",
-      "title": "死んだンゴ 投稿者命日に寄付急増",
+      "doc_id": "yahoo-a731938a820a9fea",
+      "title": "NVIDIAフアン氏復帰を 署名広がる",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602677"
+      "link": "https://news.yahoo.co.jp/pickup/6602724"
     },
     {
-      "doc_id": "yahoo-db05390ac72a0a75",
-      "title": "スピッツ﨑山さん 交通事故で搬送",
+      "doc_id": "yahoo-fd1aaa6d9df82a8b",
+      "title": "特急と衝突し車火災 1人安否不明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602703"
+      "link": "https://news.yahoo.co.jp/pickup/6602725"
     },
     {
-      "doc_id": "yahoo-e58b8e684c7a481b",
-      "title": "速報・侍ジャパン 西川が先制ソロ",
+      "doc_id": "yahoo-2b5b8d4d7ac69bcd",
+      "title": "走行中の車から転落 女性が重傷",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602708"
+      "link": "https://news.yahoo.co.jp/pickup/6602732"
     },
     {
-      "doc_id": "yahoo-02694cb74d1b8f57",
-      "title": "中日・大島洋平 年俸3年前の8%に",
+      "doc_id": "yahoo-37f00f8d7fcdcfe6",
+      "title": "スピッツ﨑山さん重傷 治療に専念",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602688"
+      "link": "https://news.yahoo.co.jp/pickup/6602711"
     },
     {
-      "doc_id": "yahoo-c6f11056b281fba4",
-      "title": "映画VIVANT 新キャラに石黒賢",
+      "doc_id": "yahoo-1beaf7d26a5d64e3",
+      "title": "侍J宗山塁が大会MVP 正木苦笑い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602705"
+      "link": "https://news.yahoo.co.jp/pickup/6602733"
     },
     {
-      "doc_id": "jiji-8dd6cc2f57868beb",
-      "title": "「ＮＡＴＯ加盟と引き換えにドンバス撤退を」 米から打診とゼレンスキー氏",
+      "doc_id": "jiji-26f4f11f248dbf16",
+      "title": "福岡市長選が再選挙に 政令市２例目、法定数届かず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500163&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111600018&g=pol"
     },
     {
-      "doc_id": "jiji-1164d935a2fc119b",
-      "title": "インフルエンサー「あっすん」を風営法違反容疑で逮捕 愛知県警",
+      "doc_id": "jiji-232a4078564d2694",
+      "title": "松山市長に中野泰誠氏初当選 １６年ぶり新人対決制す",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500121&g=soc"
-    },
-    {
-      "doc_id": "jiji-7bcdc2006cb0e6ad",
-      "title": "「超小型カメラとＡＩで不正」 税理士試験トップ合格者が告白―韓国",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500238&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111500380&g=pol"
     },
     {
       "doc_id": "jiji-7c8bd81b1d8478df",
@@ -82,82 +76,88 @@
       "link": "https://www.jiji.com/jc/article?k=2026111500177&g=pol"
     },
     {
-      "doc_id": "jiji-0d1faef8b83516b8",
-      "title": "中井亜美、重圧受け止め笑顔 「ここまでできるとは」―スケートアメリカ",
+      "doc_id": "jiji-8dd6cc2f57868beb",
+      "title": "「ＮＡＴＯ加盟と引き換えにドンバス撤退を」 米から打診とゼレンスキー氏",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500185&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111500163&g=int"
     },
     {
-      "doc_id": "jiji-7fb65110698b780a",
-      "title": "ロジスティード、大会新で連覇 ＧＭＯは２位―東日本実業団駅伝",
+      "doc_id": "jiji-714d1db5e177613e",
+      "title": "米「パックス・シリカ」に抗議 トランプ氏訪問控え市民らデモ―フィリピン",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500203&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111500227&g=int"
     },
     {
-      "doc_id": "jiji-0d92985f44fcb8e6",
-      "title": "ラフターラインズがＧI初勝利 武豊騎手、今年ＧI４勝目―競馬エリザベス女王杯",
+      "doc_id": "jiji-1164d935a2fc119b",
+      "title": "インフルエンサー「あっすん」を風営法違反容疑で逮捕 愛知県警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500210&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111500121&g=soc"
     },
     {
-      "doc_id": "jiji-9dc509dbc09d8783",
-      "title": "アラスカ知事選、民主勝利 全米５０州中３０州押さえる―中間選挙",
+      "doc_id": "jiji-37b147d5cb7a173f",
+      "title": "首里城正殿、内部を報道公開 令和の復元、装飾新たに―沖縄",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500106&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111600002&g=soc"
     },
     {
-      "doc_id": "jiji-2edf803d24104ef9",
-      "title": "ミャンマーへの関与継続で合意 政治代表の復帰巡り協議―ＡＳＥＡＮ首脳",
+      "doc_id": "jiji-bbe8387559d6702f",
+      "title": "日本、韓国下し３連覇 正木５号３ラン、高橋宏が好投―アジアプロ野球",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500069&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111500299&g=spo"
     },
     {
-      "doc_id": "jiji-00bffcb85d94f4a2",
-      "title": "「菓子爆弾」食べ男性死亡 インド",
+      "doc_id": "jiji-5bd63214c6206c81",
+      "title": "松山市長選で、中野泰誠（なかの・たいせい）氏の初当選が確実となった",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500127&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111500379&g=flash"
     },
     {
-      "doc_id": "nhk-ce14df420d473e7c",
-      "title": "愛媛県知事選挙 開票や出口調査 当選情報はこちらで【速報】",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76094"
+      "doc_id": "jiji-b64b815b17fa8651",
+      "title": "愛媛知事に中村氏５選 ２新人破る",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500328&g=pol"
     },
     {
       "doc_id": "nhk-4be52139fcc6b89b",
-      "title": "福岡市長選挙 開票や出口調査 当選情報はこちらで【速報】",
+      "title": "福岡市長選挙 再選挙へ 候補者13人 法定得票数に届かず",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261115de76099"
     },
     {
-      "doc_id": "nhk-1db2ed7792464452",
-      "title": "熊本市長選挙 開票や当選情報はこちらで【速報】",
+      "doc_id": "nhk-7a996931a0035a09",
+      "title": "福岡市長選挙 出口調査の結果は",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76100"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76105"
     },
     {
       "doc_id": "nhk-833e98bd6d94438a",
-      "title": "松山市長選挙 開票や出口調査 当選情報はこちらで【速報】",
+      "title": "松山市長選挙 新人の中野泰誠氏が初当選",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261115de76096"
     },
     {
-      "doc_id": "nhk-79a2f720d3c3efbe",
-      "title": "ハンズ渋谷店営業終了 48年の歴史に幕 別れ惜しむ人でにぎわう",
+      "doc_id": "nhk-ce14df420d473e7c",
+      "title": "愛媛県知事選挙 現職の中村時広氏が5回目の当選",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76062"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76094"
     },
     {
-      "doc_id": "nhk-1145ef647d879b35",
-      "title": "スペースXの大型宇宙船 地球周回後の発射台キャッチに初成功",
+      "doc_id": "nhk-f182ba0f3c1f615a",
+      "title": "野球日本代表 韓国に5対1で勝利し大会3連覇",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76047"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76311"
     },
     {
-      "doc_id": "nhk-dc1f86f29ba5d597",
-      "title": "大阪 枚方女児死亡 “虐待”情報も市がことしは母親と面会せず",
+      "doc_id": "nhk-f2c897f4a366dd2f",
+      "title": "女子ゴルフ国内ツアー 桑木志帆が初の年間女王",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76074"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76127"
+    },
+    {
+      "doc_id": "nhk-aec06ecfa268526b",
+      "title": "ASEAN首脳会議開幕 ミャンマー本格復帰の議論は先送り",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76209"
     },
     {
       "doc_id": "itmedia-ad73c6f1d0bd6bd8",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003112/"
     },
     {
+      "doc_id": "nazology-73083be0b4edfdd6",
+      "title": "1000光年先に「消える惑星」を初めて発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206852"
+    },
+    {
       "doc_id": "nazology-0dc306d2f029cb28",
       "title": "5大陸の電力網が「60秒ごとに脈打つ」謎の答えが見えてきた",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "記録的な猛暑も「未来の熱波」とは比べものにならないと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206523"
-    },
-    {
-      "doc_id": "nazology-944352236eb500ef",
-      "title": "地球の微生物が「火星の地下に似た環境」で増えることが判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206600"
     }
   ]
 }
