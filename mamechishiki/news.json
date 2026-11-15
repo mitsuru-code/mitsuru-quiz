@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-15T17:44:57+00:00",
-  "now_ms": 1794764697560,
+  "fetched_at": "2026-11-15T22:52:20+00:00",
+  "now_ms": 1794783140942,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -16,34 +16,28 @@
       "link": "https://news.yahoo.co.jp/pickup/6602736"
     },
     {
-      "doc_id": "yahoo-5928289ee36de9f1",
-      "title": "原潜の保有「反対」52% 読売調査",
+      "doc_id": "yahoo-41091bca1364afbe",
+      "title": "エストニア ロシアとの国境閉鎖へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602735"
+      "link": "https://news.yahoo.co.jp/pickup/6602742"
     },
     {
-      "doc_id": "yahoo-57a0a4d58c5bcb2b",
-      "title": "MS障害 インド政府機関混乱なし",
+      "doc_id": "yahoo-79d2a0da52113046",
+      "title": "特急と衝突し車火災 遺体を発見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602734"
+      "link": "https://news.yahoo.co.jp/pickup/6602737"
     },
     {
-      "doc_id": "yahoo-a731938a820a9fea",
-      "title": "NVIDIAフアン氏復帰を 署名広がる",
+      "doc_id": "yahoo-89004927b419c926",
+      "title": "フアン氏がNVIDIA復帰協議 報道",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602724"
+      "link": "https://news.yahoo.co.jp/pickup/6602744"
     },
     {
-      "doc_id": "yahoo-fd1aaa6d9df82a8b",
-      "title": "特急と衝突し車火災 1人安否不明",
+      "doc_id": "yahoo-0b254c135aa164ae",
+      "title": "大阪3歳死亡 児童相談所接触せず",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602725"
-    },
-    {
-      "doc_id": "yahoo-2b5b8d4d7ac69bcd",
-      "title": "走行中の車から転落 女性が重傷",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602732"
+      "link": "https://news.yahoo.co.jp/pickup/6602741"
     },
     {
       "doc_id": "yahoo-37f00f8d7fcdcfe6",
@@ -52,28 +46,16 @@
       "link": "https://news.yahoo.co.jp/pickup/6602711"
     },
     {
+      "doc_id": "yahoo-6077143ffbf1b076",
+      "title": "46歳ロナウジーニョ 公式戦に出場",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6602743"
+    },
+    {
       "doc_id": "yahoo-1beaf7d26a5d64e3",
       "title": "侍J宗山塁が大会MVP 正木苦笑い",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6602733"
-    },
-    {
-      "doc_id": "jiji-26f4f11f248dbf16",
-      "title": "福岡市長選が再選挙に 政令市２例目、法定数届かず",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600018&g=pol"
-    },
-    {
-      "doc_id": "jiji-232a4078564d2694",
-      "title": "松山市長に中野泰誠氏初当選 １６年ぶり新人対決制す",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500380&g=pol"
-    },
-    {
-      "doc_id": "jiji-7c8bd81b1d8478df",
-      "title": "日中首脳会談は困難 高市首相、１６日から比中訪問",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500177&g=pol"
     },
     {
       "doc_id": "jiji-8dd6cc2f57868beb",
@@ -82,22 +64,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026111500163&g=int"
     },
     {
-      "doc_id": "jiji-714d1db5e177613e",
-      "title": "米「パックス・シリカ」に抗議 トランプ氏訪問控え市民らデモ―フィリピン",
+      "doc_id": "jiji-1427fcbcd87108b0",
+      "title": "女児体重、平均を５キロ下回る ３歳５カ月で８キロ、経緯捜査―大阪虐待死・府警",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500227&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111600071&g=soc"
     },
     {
-      "doc_id": "jiji-1164d935a2fc119b",
-      "title": "インフルエンサー「あっすん」を風営法違反容疑で逮捕 愛知県警",
+      "doc_id": "jiji-7c8bd81b1d8478df",
+      "title": "日中首脳会談は困難 高市首相、１６日から比中訪問",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500121&g=soc"
-    },
-    {
-      "doc_id": "jiji-37b147d5cb7a173f",
-      "title": "首里城正殿、内部を報道公開 令和の復元、装飾新たに―沖縄",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600002&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111500177&g=pol"
     },
     {
       "doc_id": "jiji-bbe8387559d6702f",
@@ -106,16 +82,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026111500299&g=spo"
     },
     {
-      "doc_id": "jiji-5bd63214c6206c81",
-      "title": "松山市長選で、中野泰誠（なかの・たいせい）氏の初当選が確実となった",
+      "doc_id": "jiji-5a30bef3ed22682e",
+      "title": "首相動静（１１月１５日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500379&g=flash"
+      "link": "https://www.jiji.com/jc/article?k=2026111500119&g=pol"
     },
     {
-      "doc_id": "jiji-b64b815b17fa8651",
-      "title": "愛媛知事に中村氏５選 ２新人破る",
+      "doc_id": "jiji-37b147d5cb7a173f",
+      "title": "首里城正殿、内部を報道公開 令和の復元、装飾新たに―沖縄",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111500328&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111600002&g=soc"
+    },
+    {
+      "doc_id": "jiji-714d1db5e177613e",
+      "title": "米「パックス・シリカ」に抗議 トランプ氏訪問控え市民らデモ―フィリピン",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500227&g=int"
+    },
+    {
+      "doc_id": "jiji-2edf803d24104ef9",
+      "title": "ミャンマーへの関与継続で合意 ＡＳＥＡＮ首脳、政治代表の復帰巡り協議―南シナ海「行動規範」年内妥結見送り",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500069&g=int"
+    },
+    {
+      "doc_id": "jiji-26f4f11f248dbf16",
+      "title": "福岡市長選が再選挙に 政令市２例目、法定数届かず",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111600018&g=pol"
+    },
+    {
+      "doc_id": "jiji-7522a10920deb4b0",
+      "title": "防衛省ＡＩ指針、月末に公表 小泉氏「現場で使えるものに」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111500323&g=pol"
     },
     {
       "doc_id": "nhk-4be52139fcc6b89b",
@@ -124,22 +124,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261115de76099"
     },
     {
-      "doc_id": "nhk-7a996931a0035a09",
-      "title": "福岡市長選挙 出口調査の結果は",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76105"
-    },
-    {
       "doc_id": "nhk-833e98bd6d94438a",
       "title": "松山市長選挙 新人の中野泰誠氏が初当選",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261115de76096"
     },
     {
-      "doc_id": "nhk-ce14df420d473e7c",
-      "title": "愛媛県知事選挙 現職の中村時広氏が5回目の当選",
+      "doc_id": "nhk-0fa2265d16314128",
+      "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76094"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76245"
+    },
+    {
+      "doc_id": "nhk-a175405ee7f486d7",
+      "title": "大阪 枚方 3歳女児死亡 父親が約1時間断続的に暴行か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76282"
     },
     {
       "doc_id": "nhk-f182ba0f3c1f615a",
@@ -148,16 +148,16 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261115de76311"
     },
     {
-      "doc_id": "nhk-f2c897f4a366dd2f",
-      "title": "女子ゴルフ国内ツアー 桑木志帆が初の年間女王",
+      "doc_id": "nhk-a2f603c9f1365611",
+      "title": "ウクライナ 重機遠隔操作してがれき処理 日本の支援で実証実験",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76127"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76292"
     },
     {
-      "doc_id": "nhk-aec06ecfa268526b",
-      "title": "ASEAN首脳会議開幕 ミャンマー本格復帰の議論は先送り",
+      "doc_id": "nhk-0983c921fa3b27e6",
+      "title": "ゼレンスキー大統領 米の衛星通信サービスの制限解除訴え",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261115de76209"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76330"
     },
     {
       "doc_id": "itmedia-ad73c6f1d0bd6bd8",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/11/2000003112/"
     },
     {
+      "doc_id": "nazology-61639f388eaa194e",
+      "title": "公園で10分過ごした若者ほど直後の「SNSを見たい衝動」が弱まる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206833"
+    },
+    {
       "doc_id": "nazology-73083be0b4edfdd6",
       "title": "1000光年先に「消える惑星」を初めて発見",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "宇宙ステーションで原子を「記録的な低温」まで冷やすことに成功",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/206520"
-    },
-    {
-      "doc_id": "nazology-c7792441892c344c",
-      "title": "記録的な猛暑も「未来の熱波」とは比べものにならないと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206523"
     }
   ]
 }
