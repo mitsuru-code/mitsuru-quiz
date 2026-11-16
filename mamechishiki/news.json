@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-16T11:28:13+00:00",
-  "now_ms": 1794828493726,
+  "fetched_at": "2026-11-16T22:09:00+00:00",
+  "now_ms": 1794866940964,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-54ed6df1ed3f5c20",
-      "title": "マンション短期売買 課税強化検討",
+      "doc_id": "yahoo-7aa7ef699be2e01a",
+      "title": "トランプ大統領 アジア歴訪へ出発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602817"
+      "link": "https://news.yahoo.co.jp/pickup/6602850"
     },
     {
-      "doc_id": "yahoo-76ea79466a1435ff",
-      "title": "コカイン摘発 過去最多更新ペース",
+      "doc_id": "yahoo-940ffa0b208bc9ba",
+      "title": "NY株大幅反落 ハイテク株に売り",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602825"
+      "link": "https://news.yahoo.co.jp/pickup/6602852"
     },
     {
-      "doc_id": "yahoo-13cae781c81496db",
-      "title": "タイムズカーの会員数 1.4万人減",
+      "doc_id": "yahoo-e64cc4be5d713b2e",
+      "title": "中野死亡 男は女性が勤める店の客",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602816"
+      "link": "https://news.yahoo.co.jp/pickup/6602848"
     },
     {
-      "doc_id": "yahoo-9f06af440b289d81",
-      "title": "没収の供託金はどこへ 福岡市長選",
+      "doc_id": "yahoo-a80ddb774af8676a",
+      "title": "元eggモデル殺害 過去に警察沙汰",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602824"
+      "link": "https://news.yahoo.co.jp/pickup/6602849"
     },
     {
-      "doc_id": "yahoo-a0d26bfd6d5cb844",
-      "title": "尖圭コンジローマ 男性患者が増加",
+      "doc_id": "yahoo-3eba2c1ac1f4e093",
+      "title": "卵サンドつかむ客動画炎上 店説明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602812"
+      "link": "https://news.yahoo.co.jp/pickup/6602840"
     },
     {
-      "doc_id": "yahoo-a311ca5104ceb8f1",
-      "title": "戦力外の矢野雅哉ら 球団に要請書",
+      "doc_id": "yahoo-037e5aeeb6bc4d66",
+      "title": "矢野ら カープに謝罪求める要請書",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602822"
+      "link": "https://news.yahoo.co.jp/pickup/6602841"
     },
     {
-      "doc_id": "yahoo-1332484bae4b1201",
-      "title": "日テレ・徳島えりかアナが退社へ",
+      "doc_id": "yahoo-898d8b35ab1e52e5",
+      "title": "グラミー新設賞 候補にベビメタら",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602823"
+      "link": "https://news.yahoo.co.jp/pickup/6602851"
     },
     {
-      "doc_id": "yahoo-6c182613accc2395",
-      "title": "俳優・中田乃愛さんが死去 23歳",
+      "doc_id": "yahoo-4c1ab495503aaa9e",
+      "title": "中田乃愛さん死去 テレ東など追悼",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602814"
+      "link": "https://news.yahoo.co.jp/pickup/6602827"
+    },
+    {
+      "doc_id": "jiji-c1be3bef8332c164",
+      "title": "中野区で女性刺され死亡 強殺未遂容疑、男逮捕―警視庁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111601006&g=soc"
     },
     {
       "doc_id": "jiji-e329ca1174d7d281",
@@ -64,10 +70,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026111600465&g=int"
     },
     {
-      "doc_id": "jiji-b2aed0d138c5f278",
-      "title": "立民、職員に退職勧奨 財政難、希望退職集まらず",
+      "doc_id": "jiji-f05c546bdb02849b",
+      "title": "女性働く飲食店の客か 逮捕の男、自ら１１０番も―中野強殺・警視庁",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600748&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111700149&g=soc"
+    },
+    {
+      "doc_id": "jiji-180534ba8231c828",
+      "title": "森保監督、最終戦へ決意 １７日にパラグアイ戦―サッカー日本代表",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111600782&g=spo"
+    },
+    {
+      "doc_id": "jiji-baa2090e40565f17",
+      "title": "首相動静（１１月１６日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111600124&g=pol"
+    },
+    {
+      "doc_id": "jiji-db3eb7cfc6e6c699",
+      "title": "ロシア報道官、日ロ首脳会談「否定せず」 邦人記者の解放要求も",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111700148&g=int"
     },
     {
       "doc_id": "jiji-0d0b717f87082174",
@@ -76,88 +100,70 @@
       "link": "https://www.jiji.com/jc/article?k=2026111600828&g=pol"
     },
     {
-      "doc_id": "jiji-62a3fd29b2c2cff2",
-      "title": "定数削減、１７日審議入り 衆院委、与野党が合意",
+      "doc_id": "jiji-d2c63c8d59967655",
+      "title": "アジア版ＩＥＡ創設を表明へ ＡＺＥＣ首脳会合、１７日開催",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600834&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111700118&g=soc"
     },
     {
-      "doc_id": "jiji-84d2509ac31ebda2",
-      "title": "元モデルの同居女性を殺害か 男逮捕、容疑を否認―警視庁",
+      "doc_id": "jiji-c3f685b43157eb95",
+      "title": "フアン氏復帰検討せず 米エヌビディア取締役会―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600631&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111700154&g=int"
     },
     {
-      "doc_id": "jiji-f0fd5d104261a416",
-      "title": "渡辺被告「大切なお金、申し訳ない」 ルフィ事件、詐欺被害者に謝罪―東京地裁",
+      "doc_id": "jiji-ce742d1279c84033",
+      "title": "ＥＵ、日本製冷延鋼板に反ダンピング関税 １７日から、５カ国・地域対象",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600889&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111700150&g=int"
     },
     {
-      "doc_id": "jiji-0b394488f014025c",
-      "title": "元「ジャングルポケット」斉藤慎二被告に実刑 性的暴行、懲役４年―東京地裁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600061&g=soc"
-    },
-    {
-      "doc_id": "jiji-412b09e32fd5af4d",
-      "title": "スケボー日本代表を不起訴 大麻所持容疑―東京地検",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600874&g=soc"
-    },
-    {
-      "doc_id": "jiji-705f4f2f8fb85896",
-      "title": "ＤｅＮＡの蝦名は１２００万円増 プロ野球・契約更改",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600869&g=spo"
-    },
-    {
-      "doc_id": "jiji-2c73ab7115bf7738",
-      "title": "ＮＨＫ、福岡放送局職員を停職３カ月 手当を不正受給",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600848&g=soc"
-    },
-    {
-      "doc_id": "nhk-a7a0b4dfc7ec9d24",
-      "title": "理研のスパコン「富岳」に不正アクセス 稼働停止して状況確認",
+      "doc_id": "nhk-2d421fd0656b46ce",
+      "title": "東京 中野 女性刺殺事件 39歳容疑者を強盗殺人未遂疑いで逮捕",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76603"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76885"
     },
     {
-      "doc_id": "nhk-e6f74c28720551bb",
-      "title": "一度太ると痩せにくくなるメカニズム マウスの実験で解明",
+      "doc_id": "nhk-7ff72827ecbc11d6",
+      "title": "クアッド首脳 中国動向念頭\"経済的威圧に深刻懸念表明\"で調整",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76627"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76878"
     },
     {
-      "doc_id": "nhk-302cc224cc7397b1",
-      "title": "「ルフィ」事件 詐欺グループトップ 拠点立ち上げ経緯明かす",
+      "doc_id": "nhk-cb3cc32e72b367cf",
+      "title": "安全保障3文書の改定 防衛産業基盤の強化説明へ 政府",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76537"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76890"
     },
     {
-      "doc_id": "nhk-307734ceeb20c07d",
-      "title": "大阪 “グリ下の帝王”逮捕 生活保護費を不正受給か",
+      "doc_id": "nhk-4bb2590d9178ab1d",
+      "title": "理研のスパコン「富岳」不正アクセス 研究データなど漏えいか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76647"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76883"
     },
     {
-      "doc_id": "nhk-8a0dc9f4f90e889e",
-      "title": "ファッション雑誌元モデルの女性殺害か 内縁の夫逮捕 警視庁",
+      "doc_id": "nhk-d15f74e4afdc6c98",
+      "title": "「18日に中ロ首脳会談」ロシア側は中国との連携強調ねらいか",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76620"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76886"
     },
     {
-      "doc_id": "nhk-7ca26d3f0a0d6d1f",
-      "title": "アメリカ・中国・ロシアの3か国首脳会談 中国も正式に発表",
+      "doc_id": "nhk-ab3fa7ea87bf9117",
+      "title": "衆院議員 定数削減法案“比例で31議席削減”きょう審議入り",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76469"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76877"
     },
     {
-      "doc_id": "nhk-991a820f479f440b",
-      "title": "高市首相 フィリピン到着 石油備蓄などで新たな枠組み提唱へ",
+      "doc_id": "nhk-542ab3803b806dd9",
+      "title": "トランプ大統領 アジア訪問へ出発 19日には初の米中ロ首脳会談",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261116de76382"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76879"
+    },
+    {
+      "doc_id": "itmedia-f0a26bab7a97ecb9",
+      "title": "Google、人間の関与なしに脆弱性を見つけて悪用するAIフレームワークを初めて観測 GTIGのAI脅威レポート",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003244/"
     },
     {
       "doc_id": "itmedia-e6c41a193449821c",
@@ -226,10 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003220/"
     },
     {
-      "doc_id": "itmedia-f56ddfa63df1daaa",
-      "title": "エンジニア転職のpaiza、最大90万件の個人情報漏えいのおそれ 退職者などアクセス可能な状態、約13年続く",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003215/"
+      "doc_id": "nazology-e6fc074a05f9234a",
+      "title": "深海の「金属の石」の中に泥とは違う生き物たちが住んでいた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209248"
+    },
+    {
+      "doc_id": "nazology-71f3a5d3a18735b6",
+      "title": "宇宙を進みながらひとりでにスピードを上げる小惑星が見つかった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/206884"
+    },
+    {
+      "doc_id": "nazology-2f57a45b4fa5915f",
+      "title": "海辺の恐竜は「海藻」でも栄養をとっていたと歯の化石が示唆",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209167"
     },
     {
       "doc_id": "nazology-ef32c38ac8574143",
@@ -272,24 +290,6 @@
       "title": "寿命を延ばす5つの方法には「意外な共通点」があったと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/208452"
-    },
-    {
-      "doc_id": "nazology-05c176d29c93cb57",
-      "title": "世界一危険な毒キノコの毒と幻覚成分を両方持つ「黒魔術キノコ」を確認",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208546"
-    },
-    {
-      "doc_id": "nazology-e1cffc0308de1acf",
-      "title": "脳の手術を受けた男性には人の顔に「猫の目」が見えるようになった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206878"
-    },
-    {
-      "doc_id": "nazology-6f7a093553b96572",
-      "title": "世界最大級の可能性があるバス100台分のサンゴがインド洋で見つかった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208389"
     }
   ]
 }
