@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-16T22:09:00+00:00",
-  "now_ms": 1794866940964,
+  "fetched_at": "2026-11-17T04:31:36+00:00",
+  "now_ms": 1794889896975,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,58 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-7aa7ef699be2e01a",
-      "title": "トランプ大統領 アジア歴訪へ出発",
+      "doc_id": "yahoo-31150898e2e0a8ea",
+      "title": "米大統領 金正恩氏と会談の可能性",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602850"
+      "link": "https://news.yahoo.co.jp/pickup/6602867"
     },
     {
-      "doc_id": "yahoo-940ffa0b208bc9ba",
-      "title": "NY株大幅反落 ハイテク株に売り",
+      "doc_id": "yahoo-5422d29c744db7bb",
+      "title": "「防衛産業基盤戦略」概要が判明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602852"
+      "link": "https://news.yahoo.co.jp/pickup/6602866"
     },
     {
-      "doc_id": "yahoo-e64cc4be5d713b2e",
-      "title": "中野死亡 男は女性が勤める店の客",
+      "doc_id": "yahoo-8e11c80fe7c8827b",
+      "title": "ケーキ店死傷 死亡の男を書類送検",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602848"
+      "link": "https://news.yahoo.co.jp/pickup/6602897"
     },
     {
-      "doc_id": "yahoo-a80ddb774af8676a",
-      "title": "元eggモデル殺害 過去に警察沙汰",
+      "doc_id": "yahoo-c8550007332b2641",
+      "title": "菊地直子さん 逃亡の日々振り返る",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602849"
+      "link": "https://news.yahoo.co.jp/pickup/6602875"
     },
     {
-      "doc_id": "yahoo-3eba2c1ac1f4e093",
-      "title": "卵サンドつかむ客動画炎上 店説明",
+      "doc_id": "yahoo-8e0e6a7bd37fe8a1",
+      "title": "「白い麻婆豆腐」じわじわ拡大",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602840"
+      "link": "https://news.yahoo.co.jp/pickup/6602880"
     },
     {
-      "doc_id": "yahoo-037e5aeeb6bc4d66",
-      "title": "矢野ら カープに謝罪求める要請書",
+      "doc_id": "yahoo-0522cc77b281d7b8",
+      "title": "江夏豊さん死去 数々の伝説残す",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602841"
+      "link": "https://news.yahoo.co.jp/pickup/6602898"
     },
     {
-      "doc_id": "yahoo-898d8b35ab1e52e5",
-      "title": "グラミー新設賞 候補にベビメタら",
+      "doc_id": "yahoo-50955d173e1bd517",
+      "title": "工藤監督就任の中日 コーチら発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602851"
+      "link": "https://news.yahoo.co.jp/pickup/6602888"
     },
     {
-      "doc_id": "yahoo-4c1ab495503aaa9e",
-      "title": "中田乃愛さん死去 テレ東など追悼",
+      "doc_id": "yahoo-efc154036886814d",
+      "title": "磯山さやか43歳 連ドラ単独初主演",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602827"
+      "link": "https://news.yahoo.co.jp/pickup/6602891"
     },
     {
-      "doc_id": "jiji-c1be3bef8332c164",
-      "title": "中野区で女性刺され死亡 強殺未遂容疑、男逮捕―警視庁",
+      "doc_id": "jiji-b55ac28373bd4a58",
+      "title": "ロシア機が領空侵犯か 福岡・沖ノ島周辺で",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111601006&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111700368&g=pol"
+    },
+    {
+      "doc_id": "jiji-5a257b560e3f5309",
+      "title": "エンジン再始動巡る苦情で調査 ホンダ、約１００万台対象か―米当局",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111601059&g=int"
+    },
+    {
+      "doc_id": "jiji-988293c2a724deb1",
+      "title": "米グラミー賞、アジア部門候補に日本勢２組 ベビーメタルとＬｉＳＡさん",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111700337&g=int"
+    },
+    {
+      "doc_id": "jiji-8172e46d0003866b",
+      "title": "愛子さま、シンガポールへ出発 ２度目の外国公式訪問",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111700140&g=soc"
     },
     {
       "doc_id": "jiji-e329ca1174d7d281",
@@ -70,28 +88,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026111600465&g=int"
     },
     {
-      "doc_id": "jiji-f05c546bdb02849b",
-      "title": "女性働く飲食店の客か 逮捕の男、自ら１１０番も―中野強殺・警視庁",
+      "doc_id": "jiji-b11a83f8f8c8dca0",
+      "title": "イラン「汚い爆弾」使用検討か 米首都標的、差し迫った兆候なし―ＣＮＮ報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111700149&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111700483&g=int"
     },
     {
-      "doc_id": "jiji-180534ba8231c828",
-      "title": "森保監督、最終戦へ決意 １７日にパラグアイ戦―サッカー日本代表",
+      "doc_id": "jiji-14566e4422a692ad",
+      "title": "高市氏、犯罪対策で連携訴え ＡＳＥＡＮ会議、中国首相欠席",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600782&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111700138&g=pol"
     },
     {
-      "doc_id": "jiji-baa2090e40565f17",
-      "title": "首相動静（１１月１６日）",
+      "doc_id": "jiji-f890521bfdc89c7a",
+      "title": "自民・萩生田氏、関文科相に説明責任 議員会館パーティー開催で",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111600124&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111700493&g=pol"
     },
     {
-      "doc_id": "jiji-db3eb7cfc6e6c699",
-      "title": "ロシア報道官、日ロ首脳会談「否定せず」 邦人記者の解放要求も",
+      "doc_id": "jiji-37f702de887c2ec8",
+      "title": "ＥＵ、「ロシアで最も裕福な女性」に制裁 １１３個人・団体を追加指定",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111700148&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111700215&g=int"
     },
     {
       "doc_id": "jiji-0d0b717f87082174",
@@ -100,64 +118,106 @@
       "link": "https://www.jiji.com/jc/article?k=2026111600828&g=pol"
     },
     {
-      "doc_id": "jiji-d2c63c8d59967655",
-      "title": "アジア版ＩＥＡ創設を表明へ ＡＺＥＣ首脳会合、１７日開催",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111700118&g=soc"
-    },
-    {
-      "doc_id": "jiji-c3f685b43157eb95",
-      "title": "フアン氏復帰検討せず 米エヌビディア取締役会―報道",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111700154&g=int"
-    },
-    {
-      "doc_id": "jiji-ce742d1279c84033",
-      "title": "ＥＵ、日本製冷延鋼板に反ダンピング関税 １７日から、５カ国・地域対象",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111700150&g=int"
-    },
-    {
-      "doc_id": "nhk-2d421fd0656b46ce",
-      "title": "東京 中野 女性刺殺事件 39歳容疑者を強盗殺人未遂疑いで逮捕",
+      "doc_id": "nhk-c2f9456963bf8c94",
+      "title": "江夏豊さんが死去 78歳 プロ野球 阪神や広島などで活躍",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76885"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77026"
     },
     {
-      "doc_id": "nhk-7ff72827ecbc11d6",
-      "title": "クアッド首脳 中国動向念頭\"経済的威圧に深刻懸念表明\"で調整",
+      "doc_id": "nhk-29e2bd313b04ba68",
+      "title": "ロシア機と推定の航空機が領空侵犯 福岡 沖ノ島周辺",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76878"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76912"
     },
     {
-      "doc_id": "nhk-cb3cc32e72b367cf",
-      "title": "安全保障3文書の改定 防衛産業基盤の強化説明へ 政府",
+      "doc_id": "nhk-c886252b8470b0b5",
+      "title": "群馬 前橋 住宅街にクマが出没 男性1人が襲われ頭などにけが",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76890"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76952"
     },
     {
-      "doc_id": "nhk-4bb2590d9178ab1d",
-      "title": "理研のスパコン「富岳」不正アクセス 研究データなど漏えいか",
+      "doc_id": "nhk-d34f16b70cbf5b36",
+      "title": "“M9.9”誤った緊急地震速報 背景に二重のエラー 気象庁が修正",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76883"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76926"
     },
     {
-      "doc_id": "nhk-d15f74e4afdc6c98",
-      "title": "「18日に中ロ首脳会談」ロシア側は中国との連携強調ねらいか",
+      "doc_id": "nhk-2bc5bd0e4e98700d",
+      "title": "中野 女性刺殺事件 容疑者「冷たくあしらわれ腹が立ち刺した」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76886"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76925"
     },
     {
-      "doc_id": "nhk-ab3fa7ea87bf9117",
-      "title": "衆院議員 定数削減法案“比例で31議席削減”きょう審議入り",
+      "doc_id": "nhk-ae04891ccdd0eeec",
+      "title": "横須賀基地所属の米兵 酒に酔ってマンションの扉破壊か 逮捕",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76877"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77047"
     },
     {
-      "doc_id": "nhk-542ab3803b806dd9",
-      "title": "トランプ大統領 アジア訪問へ出発 19日には初の米中ロ首脳会談",
+      "doc_id": "nhk-fdae898e6c4862da",
+      "title": "関文科相 2024年6月の政治資金パーティー“法的に問題なし”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76879"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77033"
+    },
+    {
+      "doc_id": "itmedia-a17df675e82f1891",
+      "title": "米商務省、中国企業による第三国データセンター経由のAIチップ“遠隔利用”を規制へ",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003258/"
+    },
+    {
+      "doc_id": "itmedia-b04fce0fd83dc541",
+      "title": "モリサワや「mineo」など会員情報漏えい マーケツール「KARTE」不正アクセス、外部サービス連携用シークレットキーなども",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003257/"
+    },
+    {
+      "doc_id": "itmedia-32299f9a40b23098",
+      "title": "AIに打ち明けた相談は“広告トラッカー”に筒抜け？ ChatGPT、Claude、Gemini含む42サービスを米大が調査",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003241/"
+    },
+    {
+      "doc_id": "itmedia-ca73b5aea2e7e34a",
+      "title": "OpenAI、児童性的虐待コンテンツ（CSAM）検出ツールを公開 ChatGPTで探すと24時間アカウント停止の警告も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003254/"
+    },
+    {
+      "doc_id": "itmedia-c5293699582baa49",
+      "title": "スパコン「富岳」不正アクセスで運用停止 研究データや外部接続用SSH鍵など流出の可能性 他システムへの接続試行も確認",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003253/"
+    },
+    {
+      "doc_id": "itmedia-86a1132da0d38797",
+      "title": "NTTの島田明社長、宇宙光通信構想を発表 月面インフラや宇宙データセンターの整備も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003252/"
+    },
+    {
+      "doc_id": "itmedia-3613acc2aff3214e",
+      "title": "「京成スカイライナー」予約システム不正アクセス、最大約337万件の顧客情報漏えいか",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003250/"
+    },
+    {
+      "doc_id": "itmedia-6a0ddb5e9ce19691",
+      "title": "OpenAI、Apollo ResearchやMETRなど外部4団体を社内に迎える「埋め込み型」安全性評価を開始",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003248/"
+    },
+    {
+      "doc_id": "itmedia-98e24a53e87357cf",
+      "title": "OpenAIをカリフォルニア州が提訴 「AIエージェントの制御を80回以上失った」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003246/"
+    },
+    {
+      "doc_id": "itmedia-79805b3584e8b06c",
+      "title": "「Microsoft 365」大規模障害、7月の修正で混入した不具合が原因 負荷増と容量減が重なり世界に波及",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003245/"
     },
     {
       "doc_id": "itmedia-f0a26bab7a97ecb9",
@@ -172,64 +232,34 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003226/"
     },
     {
-      "doc_id": "itmedia-a5903c47256c4f35",
-      "title": "ドコモ、また「5G SA」で通信障害 今月3回目【復旧】",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003218/"
+      "doc_id": "nazology-c9e732e7b22282f9",
+      "title": "蛍光灯暮らしのネズミは、体内時計も精子の動きも弱まった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208369"
     },
     {
-      "doc_id": "itmedia-ab76159b52330ee3",
-      "title": "ドコモ「5G SA」今月3度目の障害、約6時間で復旧 原因は同じ「交換機への通信集中」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003233/"
+      "doc_id": "nazology-6a6230b3b62db35b",
+      "title": "62分ごとに電波を放ちその後「沈黙」した謎の天体を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209260"
     },
     {
-      "doc_id": "itmedia-253ddd0f38986a28",
-      "title": "次世代半導体向けで注目の酸化ガリウム、埼玉発で世界へ 電力ロス大幅低減でAI需要狙う",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003231/"
+      "doc_id": "nazology-30955d03933a4f2f",
+      "title": "めったに見つからない三畳紀の首長恐竜の仲間の頭骨が新種だったと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208708"
     },
     {
-      "doc_id": "itmedia-96fdf99970a79925",
-      "title": "秋葉原スマートごみ箱、不法投棄を見越し“防犯カメラのある場所”に設置していた 千代田区に聞いた運用の実際",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003228/"
+      "doc_id": "nazology-924073a8cacd3bee",
+      "title": "海底のネットのケーブルが、絶滅が心配なクジラの声を聞く「耳」になる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208476"
     },
     {
-      "doc_id": "itmedia-52d92e4ce65268b2",
-      "title": "マッチングアプリ「タップル」緊急メンテで停止 「待ち合わせしてるのに連絡取れない」ユーザー困惑",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003230/"
-    },
-    {
-      "doc_id": "itmedia-a95a81c695c57fde",
-      "title": "スパコン「富岳」に不正アクセス 理研が明らかに",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003224/"
-    },
-    {
-      "doc_id": "itmedia-ef6cb7be2170695f",
-      "title": "パスワードより安全なはずが……パスキー対応103サイトを検証→全てに脆弱性 独大学の調査結果",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003199/"
-    },
-    {
-      "doc_id": "itmedia-e835df988137719d",
-      "title": "フリーランス市場、受注者の約8割がAIを利用 自発的に開示は1割弱、両者に意識差 IBMリサーチなど調査",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003198/"
-    },
-    {
-      "doc_id": "itmedia-d4fe77880e73716e",
-      "title": "マネックス証券、免許証画像やマイナカード表面など1592件漏えいか 口座開設システムに不正アクセス",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003222/"
-    },
-    {
-      "doc_id": "itmedia-85295e7db7fd8288",
-      "title": "「艦これアーケード」「オンゲキ」など一部再開 不正アクセスで停止のセガ系システムが試験復旧",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/16/2000003220/"
+      "doc_id": "nazology-92a744c4e53b34cc",
+      "title": "深海の軟体動物が、体内の「ドラゴンボール」で細菌を飼っていたと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208547"
     },
     {
       "doc_id": "nazology-e6fc074a05f9234a",
@@ -260,36 +290,6 @@
       "title": "もし生命が一度も生まれなかったら地球はどんな姿だったのかを再現",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/208461"
-    },
-    {
-      "doc_id": "nazology-b46e607c4d74ff4a",
-      "title": "ビッグバンから9億年後の宇宙で、巨大ブラックホールが2つ並んで見えていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209044"
-    },
-    {
-      "doc_id": "nazology-2034eb824171bcaa",
-      "title": "食物繊維が腸の「プラスチック」を包んで追い出すとマウスで判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/206883"
-    },
-    {
-      "doc_id": "nazology-ac64560ea691b612",
-      "title": "カロリーを減らさず、タンパク質だけ減らしたら体重と血糖が下がった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209069"
-    },
-    {
-      "doc_id": "nazology-e2b42d035aea9d31",
-      "title": "時計が1時間進んだだけで、詐欺メールのリンクを踏む人が増えた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209023"
-    },
-    {
-      "doc_id": "nazology-120c56504206aaba",
-      "title": "寿命を延ばす5つの方法には「意外な共通点」があったと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208452"
     }
   ]
 }
