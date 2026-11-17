@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-17T14:29:09+00:00",
-  "now_ms": 1794925749824,
+  "fetched_at": "2026-11-17T22:54:46+00:00",
+  "now_ms": 1794956086742,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,154 +10,160 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-f16ef24bb4bd45b8",
-      "title": "日米豪印が共同文書 中国念頭",
+      "doc_id": "yahoo-a057b80cd12b8718",
+      "title": "日本版DBSに脆弱性 稼働延期へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602965"
+      "link": "https://news.yahoo.co.jp/pickup/6602982"
     },
     {
-      "doc_id": "yahoo-d0cc18ef7ae97b3a",
-      "title": "ASEAN 米大統領へ「特別待遇」",
+      "doc_id": "yahoo-8605576f40080f50",
+      "title": "NVIDIA前CEO 復帰なら「光栄」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602954"
+      "link": "https://news.yahoo.co.jp/pickup/6602983"
     },
     {
-      "doc_id": "yahoo-e7ffd580598bf3f4",
-      "title": "米大統領 冗談交じりに高市氏評す",
+      "doc_id": "yahoo-24143d4a99b8f473",
+      "title": "小渕優子氏更迭 自民総務会で反発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602960"
+      "link": "https://news.yahoo.co.jp/pickup/6602978"
     },
     {
-      "doc_id": "yahoo-694d5121319d6eeb",
-      "title": "JT ロシア問題で巨額損失の恐れ",
+      "doc_id": "yahoo-bf4dc538c8422a5b",
+      "title": "NHK 職員に「飲み会22時頃まで」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602948"
+      "link": "https://news.yahoo.co.jp/pickup/6602976"
     },
     {
-      "doc_id": "yahoo-f71f3dcfe1184aab",
-      "title": "交際1人でも子宮頸がん 子供諦め",
+      "doc_id": "yahoo-479552556d0ca8ce",
+      "title": "給食でアレルギー症状 資料改ざん",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602962"
+      "link": "https://news.yahoo.co.jp/pickup/6602985"
     },
     {
-      "doc_id": "yahoo-baefadc8460861ac",
-      "title": "速報森保J パラグアイが2点リード",
+      "doc_id": "yahoo-d25dfb9d7d0f33f3",
+      "title": "ポーカー大会無許可開催疑い 逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602964"
+      "link": "https://news.yahoo.co.jp/pickup/6602981"
     },
     {
-      "doc_id": "yahoo-209936167141053c",
-      "title": "救命病棟24時なぜ人気 3つの要素",
+      "doc_id": "yahoo-6555016fd3ab0cde",
+      "title": "森保監督 来季は欧州で指揮を希望",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602966"
+      "link": "https://news.yahoo.co.jp/pickup/6602980"
     },
     {
-      "doc_id": "yahoo-2a2c09a54ca2ac6b",
-      "title": "浜辺美波 手描きキングギドラ披露",
+      "doc_id": "yahoo-5c9b8f5cf28b3b6a",
+      "title": "オリックス 藤浪晋太郎を獲得へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6602959"
+      "link": "https://news.yahoo.co.jp/pickup/6602979"
     },
     {
-      "doc_id": "jiji-b11a83f8f8c8dca0",
-      "title": "イラン「汚い爆弾」使用検討か 米首都標的、差し迫った兆候なし―ＣＮＮ報道",
+      "doc_id": "jiji-2fceecd121bfe1df",
+      "title": "ソニー、プレステ訴訟に勝利 英裁判所、損害賠償請求棄却",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111700483&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111800167&g=int"
     },
     {
-      "doc_id": "jiji-a865a37c0df79024",
-      "title": "１５００万件超の資料流出 ロシア傾倒、トランプ氏情報も―ドイツ銀",
+      "doc_id": "jiji-0d36c1160e28c4ad",
+      "title": "米軍がイラン・ケシム島攻撃 革命防衛隊ミサイル基地に報復か",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111701225&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111800166&g=int"
     },
     {
-      "doc_id": "jiji-34965b1a39a6fa45",
-      "title": "「正恩氏は中国来たいはず」 トランプ米大統領",
+      "doc_id": "jiji-7ed57ed3bb1b47e2",
+      "title": "ＡＦＰ通信によると、米軍がイラン南部ケシム島を攻撃した",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111701198&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111800159&g=flash"
     },
     {
-      "doc_id": "jiji-352c0876a56cd83d",
-      "title": "トランプ氏出席へ「特別待遇」 閉幕式後に会議、日程変更も―ＡＳＥＡＮ",
+      "doc_id": "jiji-fb395e8246b2a8d3",
+      "title": "前ＣＥＯが来月議会証言 エヌビディア半導体流出疑惑で―米下院",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111700748&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111800145&g=int"
     },
     {
-      "doc_id": "jiji-b67fa20f78cd82e9",
-      "title": "韓国大統領、来年１月訪日 シャトル継続、高市氏と確認",
+      "doc_id": "jiji-469a5ab8d331cdd1",
+      "title": "日本、崩し切れず サッカー日本代表",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111701072&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111800154&g=spo"
     },
     {
-      "doc_id": "jiji-37b3730c53110645",
-      "title": "江夏豊さん死去、７８歳 「伝説の左腕」「江夏の２１球」―プロ野球",
+      "doc_id": "jiji-bb3908efc65be878",
+      "title": "日本、パラグアイに屈す 最多指揮、森保監督が退任―サッカー国際親善試合",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111700558&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111700978&g=spo"
     },
     {
-      "doc_id": "jiji-e4497c773f741a90",
-      "title": "日米豪印、哨戒機演習実施へ",
+      "doc_id": "jiji-5ef386ba17fddc58",
+      "title": "タイ、対米関税撤廃へ 貿易協定で共同声明署名",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111701182&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111800169&g=int"
     },
     {
-      "doc_id": "jiji-22b197172d7347ec",
-      "title": "「何でも買い取る」と不当表示 中古楽器販売会社に措置命令―消費者庁",
+      "doc_id": "jiji-8172e46d0003866b",
+      "title": "愛子さま、シンガポールに到着 ２度目の外国公式訪問",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111701154&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111700140&g=soc"
     },
     {
-      "doc_id": "jiji-ee0ada2846ed20ee",
-      "title": "はやぶさ２、目的地変更 エンジン故障で、別の小惑星へ―ＪＡＸＡ",
+      "doc_id": "jiji-b113b43617c24cef",
+      "title": "米エヌビディアの８～１０月期決算は、売上高と純利益が過去最高だった",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111701040&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111800185&g=flash"
     },
     {
-      "doc_id": "jiji-7209c99489d3e53c",
-      "title": "自民中堅、小渕氏「解任」に異論",
+      "doc_id": "jiji-dd85830ef6a6eb4a",
+      "title": "佐野航大、劣勢でも存在感 サッカー日本代表",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111701002&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111800173&g=spo"
     },
     {
-      "doc_id": "nhk-c7dd4bf4caec8ed7",
-      "title": "クアッド首脳会合“経済的威圧に深刻な懸念”共同文書まとめる",
+      "doc_id": "nhk-3cb64b19705eafd5",
+      "title": "関東などで一時雨強まる 低気圧急発達で荒天に",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de76934"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77485"
     },
     {
-      "doc_id": "nhk-87aac5037fcac849",
-      "title": "楽天証券 約447万口座で利用者の年収や保有商品情報漏えいか",
+      "doc_id": "nhk-4ae383f832ce965b",
+      "title": "APEC首脳会議 日中接触や米中ロ首脳会談が焦点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77397"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77459"
     },
     {
-      "doc_id": "nhk-80312dea9e55f56c",
-      "title": "トランプ大統領がマニラ到着 一連のアジア外交スタート",
+      "doc_id": "nhk-9a4e58b4fef2b400",
+      "title": "高市首相がAPECで訪中 プーチン大統領と接触調整",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77165"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77470"
     },
     {
-      "doc_id": "nhk-c2f9456963bf8c94",
-      "title": "江夏豊さんが死去 78歳 プロ野球 阪神や広島などで活躍",
+      "doc_id": "nhk-97bd449c5fd7be6d",
+      "title": "エヌビディア フアン氏「取締役会が求めればCEO復帰を」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77026"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77484"
     },
     {
-      "doc_id": "nhk-1ee4e07da20906ae",
-      "title": "リニア中央新幹線 JR東海“開業時期の見通し 年内公表断念”",
+      "doc_id": "nhk-db302fb817aed26b",
+      "title": "愛知 強盗殺人未遂事件 関与ほのめかす5人のうち3人中学生",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77431"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77490"
     },
     {
-      "doc_id": "nhk-c94f9bc34a0f176b",
-      "title": "メガネの「ジンズ」で個人情報漏えい 最大1800万件余の可能性",
+      "doc_id": "nhk-fc1b15635fc54dd6",
+      "title": "防衛費5年間で50兆円台前半の案 安保3文書改定の政府内調整",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77389"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77432"
     },
     {
-      "doc_id": "nhk-3fa50fb95afbaf02",
-      "title": "愛子さま 公式訪問先のシンガポールに到着",
+      "doc_id": "nhk-f29f5ab93834eae7",
+      "title": "日米首脳が短時間懇談 インド太平洋情勢で緊密連携確認",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261117de77414"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77491"
+    },
+    {
+      "doc_id": "itmedia-662b72613cf9ef48",
+      "title": "NVIDIAのフアン前CEO、退任後初のX投稿 「取締役会が望むならCEOに復帰したい」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/18/2000003278/"
     },
     {
       "doc_id": "itmedia-1b067a2c0ba68f05",
@@ -226,10 +232,28 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003252/"
     },
     {
-      "doc_id": "itmedia-3613acc2aff3214e",
-      "title": "「京成スカイライナー」予約システム不正アクセス、最大約337万件の顧客情報漏えいか",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/17/2000003250/"
+      "doc_id": "nazology-90137599dd3dd1b0",
+      "title": "ごく少量の「やせ薬」が長生きの薬として売られている",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/208682"
+    },
+    {
+      "doc_id": "nazology-2190c07f9f0fa4e9",
+      "title": "ニワトリの脳細胞は「酸素なし」でも2時間以上生きていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209825"
+    },
+    {
+      "doc_id": "nazology-a466cdd051dd0a76",
+      "title": "大物狩りをする「大型シャチ」は200万年以上前からいた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209819"
+    },
+    {
+      "doc_id": "nazology-86fbd3a145e264b2",
+      "title": "ローマのイギリス侵攻を招いた「王」は女性だった可能性",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209800"
     },
     {
       "doc_id": "nazology-c065c4c504bf0517",
@@ -266,30 +290,6 @@
       "title": "「金貨模様」の尾をもつ新種魚が紅海で一度しか見つかっていない",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/209206"
-    },
-    {
-      "doc_id": "nazology-e8c66e903bd4fa76",
-      "title": "ブラックホールの「光の輪」は本当に存在したと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208422"
-    },
-    {
-      "doc_id": "nazology-80e51eac87c486e8",
-      "title": "「宇宙飛行士なし」でロボットが宇宙で構造物の組み立てに初成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209173"
-    },
-    {
-      "doc_id": "nazology-a2ce3afad4941a81",
-      "title": "恋人の不安を強く感じ取る人ほど「大丈夫」を多く伝えていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209672"
-    },
-    {
-      "doc_id": "nazology-d7b208eabe504ba4",
-      "title": "AIが嗅ぎ分けた「コーヒーの香り」をネット越しに届ける装置",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209254"
     }
   ]
 }
