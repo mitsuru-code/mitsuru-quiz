@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-18T14:03:36+00:00",
-  "now_ms": 1795010616727,
+  "fetched_at": "2026-11-18T21:59:28+00:00",
+  "now_ms": 1795039168838,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,40 +10,46 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-578622de3640dc63",
-      "title": "支援金 対象年収下限「56万円」案",
+      "doc_id": "yahoo-87f4b2bd93115444",
+      "title": "熊本県で震度5弱 津波の心配なし",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603076"
+      "link": "https://news.yahoo.co.jp/pickup/6603094"
     },
     {
-      "doc_id": "yahoo-664a9b163616869e",
-      "title": "APEC首脳宣言 AI活用などで調整",
+      "doc_id": "yahoo-8c68e387bf6f6a55",
+      "title": "首相 プーチン大統領と30分対話",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603083"
+      "link": "https://news.yahoo.co.jp/pickup/6603096"
     },
     {
-      "doc_id": "yahoo-644573e889014469",
-      "title": "日中首脳が握手 会談は見送りへ",
+      "doc_id": "yahoo-f4d54e191caaf0a5",
+      "title": "富士山で中国人遭難 捜索打ち切り",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603084"
+      "link": "https://news.yahoo.co.jp/pickup/6603089"
     },
     {
-      "doc_id": "yahoo-e0a85826d1b7d2b2",
-      "title": "娘殺された公園 ベンチ寄贈した父",
+      "doc_id": "yahoo-0659b58c0150ed6a",
+      "title": "NHK飲み会通達 記者が不満漏らす",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603080"
+      "link": "https://news.yahoo.co.jp/pickup/6603093"
     },
     {
-      "doc_id": "yahoo-71e3be51e5061e0e",
-      "title": "市長のハワイ出張 妻が私費で同行",
+      "doc_id": "yahoo-bc8a221810df7e6f",
+      "title": "川に展示の美術作品 さらに破壊か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603071"
+      "link": "https://news.yahoo.co.jp/pickup/6603090"
     },
     {
-      "doc_id": "yahoo-4537723e42a635df",
-      "title": "大道芸 ギリヤーク尼ヶ崎さん死去",
+      "doc_id": "yahoo-256aafc803965d10",
+      "title": "巨人 前ソフトB牧原巧汰ら獲得へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603087"
+      "link": "https://news.yahoo.co.jp/pickup/6603097"
+    },
+    {
+      "doc_id": "yahoo-5ed86b1cf3750a76",
+      "title": "剛力彩芽9年ぶりキー局連ドラ主演",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6603098"
     },
     {
       "doc_id": "yahoo-6c30c4cf05c2cf0a",
@@ -52,22 +58,10 @@
       "link": "https://news.yahoo.co.jp/pickup/6603082"
     },
     {
-      "doc_id": "yahoo-8a9845a6989f8bde",
-      "title": "45分1カット撮影「会社員」の凄さ",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603073"
-    },
-    {
-      "doc_id": "jiji-c849770af7c7fea8",
-      "title": "中国の習主席が、高市首相と握手した",
+      "doc_id": "jiji-20525421f48b1c06",
+      "title": "ネパール閣僚「資金確保に苦労」 国際社会に支援拡充訴え―ＣＯＰ３１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111801169&g=flash"
-    },
-    {
-      "doc_id": "jiji-faae801c67da235e",
-      "title": "太田裕美さん死去、７１歳 歌手、「木綿のハンカチーフ」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111801153&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111900101&g=int"
     },
     {
       "doc_id": "jiji-271fe84d7ed51df3",
@@ -76,40 +70,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026111801181&g=pol"
     },
     {
-      "doc_id": "jiji-e18614d86c1ad6d4",
-      "title": "政府広報に批判殺到 「陰謀論」ユーチューバー起用",
+      "doc_id": "jiji-3a980921bdad7ffd",
+      "title": "高市首相、ロシア大統領と意見交換 ７年ぶり直接対話、記者解放要求",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111801024&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111900021&g=pol"
     },
     {
-      "doc_id": "jiji-651a28c4fd8689ba",
-      "title": "３歳女児暴行死疑い、父親逮捕 出生直後から虐待か、双子妹も死亡―兵庫県警",
+      "doc_id": "jiji-7a798309799f71b3",
+      "title": "米中首脳が会談へ 今年３回目、ＡＩ協調",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111800900&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111900115&g=int"
     },
     {
-      "doc_id": "jiji-9615fab2ae90f44c",
-      "title": "愛子さま、大統領主催昼食会に 和服姿であいさつ―シンガポール",
+      "doc_id": "jiji-2202b9bcc5ff091d",
+      "title": "ＥＵ、ウクライナに７．９兆円追加融資へ ２７年の資金不足穴埋め",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111800699&g=ryl"
+      "link": "https://www.jiji.com/jc/article?k=2026111900123&g=int"
+    },
+    {
+      "doc_id": "jiji-60234e0bd124007d",
+      "title": "熊本県で震度５弱",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111900068&g=soc"
+    },
+    {
+      "doc_id": "jiji-c849770af7c7fea8",
+      "title": "中国の習主席が、高市首相と握手した",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111801169&g=flash"
+    },
+    {
+      "doc_id": "jiji-bd9eee855e28dfc4",
+      "title": "首相動静（１１月１８日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111800726&g=pol"
     },
     {
       "doc_id": "jiji-f9b2137410938b2d",
-      "title": "高市首相、習国家主席と握手 ＡＰＥＣ出席へ初訪中―ロ大統領と接触焦点",
+      "title": "高市首相、習国家主席と握手 ＡＰＥＣ出席へ初訪中",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026111800129&g=pol"
-    },
-    {
-      "doc_id": "jiji-746d3aa14d887848",
-      "title": "習氏、首脳外交を展開 ＡＰＥＣ会議が開幕―中国・深セン",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111800187&g=int"
-    },
-    {
-      "doc_id": "jiji-0f38b7b8379ba361",
-      "title": "期限までに送検せず、釈放 覚醒剤事件の男―福岡県警",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111801189&g=soc"
     },
     {
       "doc_id": "jiji-4e2a6707290617fb",
@@ -118,46 +118,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026111801134&g=int"
     },
     {
-      "doc_id": "nhk-9b6f93402345decc",
-      "title": "APEC 高市首相と習近平国家主席が握手 プーチン氏と接触調整",
+      "doc_id": "nhk-d1770a1db6167294",
+      "title": "【地震情報】熊本県で震度5弱 今後1週間程度は注意を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77690"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78097"
     },
     {
-      "doc_id": "nhk-579b565f3984ea08",
-      "title": "APEC首脳会議開幕へ 習主席 トランプ大統領をみずから出迎え",
+      "doc_id": "nhk-26c1af523512973e",
+      "title": "注目の米中首脳会談 米中ロの3か国首脳会談 きょう開催へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77556"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78117"
     },
     {
-      "doc_id": "nhk-3f15044116688097",
-      "title": "歌手の太田裕美さん死去 71歳「木綿のハンカチーフ」大ヒット",
+      "doc_id": "nhk-2e22de1a8660d92b",
+      "title": "高市首相 プーチン大統領と意見交換 習主席とは握手",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77513"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78112"
     },
     {
-      "doc_id": "nhk-9be547308c60cb18",
-      "title": "三菱UFJグループ漏えい相次ぐ 銀行は顧客情報約650万件流出",
+      "doc_id": "nhk-c7c5422b17ec8ba8",
+      "title": "消費減税に合わせた支援金 年収56万円程度からの案",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77737"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78090"
     },
     {
-      "doc_id": "nhk-3ae12555ccff8edb",
-      "title": "サッカー日本代表 森保監督が最後の指揮終えて帰国",
+      "doc_id": "nhk-8ef1e2e898e6740c",
+      "title": "低気圧発達で風強まる 北海道中心に暴風に警戒",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261118de77990"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78132"
     },
     {
-      "doc_id": "nhk-bf40f68d31348ccd",
-      "title": "審理に関与していない裁判官が判決に署名押印するミス",
+      "doc_id": "nhk-8573c42bc12336a1",
+      "title": "来年度税制改正 東京と地方の偏在是正など論点 自民税制調査会",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261118de78047"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78073"
     },
     {
-      "doc_id": "nhk-09dccb0d250f3210",
-      "title": "日本とインドとの関係強化へ 政財界の関係者が議論",
+      "doc_id": "nhk-ad72f1387ce4c93d",
+      "title": "国連 北朝鮮人権決議採択もアメリカが異例の投票求め棄権",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261118de78046"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78130"
     },
     {
       "doc_id": "itmedia-e95de1a7a2ef3a7b",
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/18/2000003280/"
     },
     {
+      "doc_id": "nazology-b8bffbba9cf685d6",
+      "title": "泡の巣を作る仲間と違い「ゼリー」に卵を産むカエルの新種を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209851"
+    },
+    {
+      "doc_id": "nazology-e3c529610ab5264f",
+      "title": "人類の祖先並みに重いヒヒにも「ワシに襲われた痕跡」があった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209833"
+    },
+    {
       "doc_id": "nazology-87c66867ef24714e",
       "title": "たった1発の核爆発で人工衛星の99%が数日で使えなくなる可能性",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "火星のクレーターに「崖で途切れる氷河」らしき地形が見つかる",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/209812"
-    },
-    {
-      "doc_id": "nazology-f7a61d14314c1380",
-      "title": "肺魚が眠る紙のように薄い繭は「生きた細胞」でできていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208748"
-    },
-    {
-      "doc_id": "nazology-0a1eaf5836ad98fc",
-      "title": "ゴリラが姉妹の背中に乗って高い枝を取る「連係プレー」を見せた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209806"
     }
   ]
 }
