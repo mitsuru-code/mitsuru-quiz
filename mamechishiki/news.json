@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-19T03:32:50+00:00",
-  "now_ms": 1795059170880,
+  "fetched_at": "2026-11-19T13:15:58+00:00",
+  "now_ms": 1795094158007,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-8b7e4c6eb6f78a33",
-      "title": "日露首脳対話 関係改善の道険しく",
+      "doc_id": "yahoo-72fe1fd61fe72d52",
+      "title": "米中露首脳「平和宣言」を発表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603135"
+      "link": "https://news.yahoo.co.jp/pickup/6603204"
     },
     {
-      "doc_id": "yahoo-216ed0fea7419390",
-      "title": "北朝鮮非難の国連決議 米国が棄権",
+      "doc_id": "yahoo-b0b77ba4000f351b",
+      "title": "ロヒンギャ迫害 ジェノサイド認定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603126"
+      "link": "https://news.yahoo.co.jp/pickup/6603205"
     },
     {
-      "doc_id": "yahoo-9023e61fc1f7d7fc",
-      "title": "栃木強殺 勧誘役の高校生に有罪",
+      "doc_id": "yahoo-92b70c651b9cb3a3",
+      "title": "楽天証券に報告徴求命令 金融庁",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603140"
+      "link": "https://news.yahoo.co.jp/pickup/6603203"
     },
     {
-      "doc_id": "yahoo-3119bc6ee12d0d67",
-      "title": "訪問介護先付近に放火疑い 逮捕",
+      "doc_id": "yahoo-861a8e69f3f6fc57",
+      "title": "育休とった男性の心身不調 症状は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603139"
+      "link": "https://news.yahoo.co.jp/pickup/6603193"
     },
     {
-      "doc_id": "yahoo-8019d0de13f4d53b",
-      "title": "中学生はねられ意識不明 70歳逮捕",
+      "doc_id": "yahoo-a75527d2fbcdb453",
+      "title": "「気嵐」いつ現れる 発生条件検証",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603122"
+      "link": "https://news.yahoo.co.jp/pickup/6603196"
     },
     {
-      "doc_id": "yahoo-98ef1a79a330bf2a",
-      "title": "外来種のインコ増殖 住民は困惑",
+      "doc_id": "yahoo-e187eae0ae47e4b5",
+      "title": "運転手の不適切動画 京急バス謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603143"
+      "link": "https://news.yahoo.co.jp/pickup/6603202"
     },
     {
-      "doc_id": "yahoo-194d4eae979090a0",
-      "title": "小便器「丸見え」女性記者が驚き",
+      "doc_id": "yahoo-edef2673e0072b99",
+      "title": "NHK ラジオで関係ない音声を放送",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603145"
+      "link": "https://news.yahoo.co.jp/pickup/6603200"
     },
     {
-      "doc_id": "yahoo-8ac39ccdaa9cf74d",
-      "title": "根尾昂が更改 初めて1000万円割る",
+      "doc_id": "yahoo-816c9335a1d72765",
+      "title": "本田圭佑 森保一監督をねぎらう",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603141"
+      "link": "https://news.yahoo.co.jp/pickup/6603206"
+    },
+    {
+      "doc_id": "jiji-11e8ffaca90fc20f",
+      "title": "高市首相は、台湾に対する日本の立場について「日中共同声明の通りで、この立場に一切の変更はない」と述べた",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111900806&g=flash"
+    },
+    {
+      "doc_id": "jiji-a763392c6a0e2b09",
+      "title": "田嶋幸三氏、正式立候補へ ５協会から推薦―ＦＩＦＡ会長選",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111800660&g=spo"
     },
     {
       "doc_id": "jiji-e1d9ef0e4f6cbfbd",
@@ -64,100 +76,154 @@
       "link": "https://www.jiji.com/jc/article?k=2026111900259&g=int"
     },
     {
-      "doc_id": "jiji-b89d907a5f35ce5b",
-      "title": "「Ｊａｖａ」に重大な欠陥、修正プログラム適用を呼び掛け―各国当局",
+      "doc_id": "jiji-8f604460cbe474bb",
+      "title": "高市首相の対中姿勢、４割弱評価せず 「重要な国」中国２番手―時事世論調査",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900184&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111900699&g=pol"
     },
     {
-      "doc_id": "jiji-6d4f17f6de81d0e8",
-      "title": "米アンソロピック、１３兆円調達 評価額２３９兆円―１９日にナスダック上場",
+      "doc_id": "jiji-ae358e8b147a9afb",
+      "title": "米中ロ首脳が初会談 トランプ氏、核軍縮議論を提起―習・プーチン両氏、「戦勝国」強調",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900244&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026111900944&g=int"
     },
     {
-      "doc_id": "jiji-3a980921bdad7ffd",
-      "title": "高市首相、ロシア大統領と意見交換 ７年ぶり直接対話、記者解放要求",
+      "doc_id": "jiji-4ea01fe64eee633f",
+      "title": "日中首脳会談見送り 高市首相対話訴え、改善見えず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900021&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111900655&g=pol"
     },
     {
-      "doc_id": "jiji-cb9e4c238e523fd9",
-      "title": "実行役男に無期懲役求刑 ７０代男性死亡の闇バイト―横浜地裁",
+      "doc_id": "jiji-b5368ec5b60ec709",
+      "title": "「パパ怖い」「ペチンする」 死亡女児、入所施設職員に―一時帰宅中も暴行か・兵庫虐待死",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900103&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111900790&g=soc"
     },
     {
-      "doc_id": "jiji-f9b2137410938b2d",
-      "title": "高市首相、習国家主席と握手 ＡＰＥＣ出席へ初訪中",
+      "doc_id": "jiji-997571793de44efb",
+      "title": "ロシア機、対馬海峡通過 領空侵犯はなし―防衛省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111800129&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026111901230&g=soc"
     },
     {
-      "doc_id": "jiji-9c169fff2bbf46b8",
-      "title": "実行役紹介、高校生に有罪 栃木強盗殺人―宇都宮地裁",
+      "doc_id": "jiji-4f9babb532e3a847",
+      "title": "スコットランド戦に斎藤ら先発 ナイカブラ２年ぶり復帰―ラグビー日本代表",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900102&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111901217&g=spo"
     },
     {
-      "doc_id": "jiji-323f81902cc1bf96",
-      "title": "韓国大統領、プーチン氏と対話 米中ロ首脳と交流―ＡＰＥＣ",
+      "doc_id": "jiji-6479c2b73e76a5c4",
+      "title": "拘束記者「外交カード」に利用か 対日交渉で有利に―ロシア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900269&g=int"
-    },
-    {
-      "doc_id": "jiji-271fe84d7ed51df3",
-      "title": "中国、高市首相への冷遇際立つ トランプ氏には異例の出迎え",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111801181&g=pol"
-    },
-    {
-      "doc_id": "jiji-fac676b35fc474a3",
-      "title": "北海道と北陸、暴風高波に警戒 北～西日本は積雪恐れも―気象庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900403&g=soc"
-    },
-    {
-      "doc_id": "nhk-463b186ba98225b9",
-      "title": "高市首相 APECで中国の習主席と再度握手 首脳会議に臨む",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78187"
+      "link": "https://www.jiji.com/jc/article?k=2026111900668&g=int"
     },
     {
       "doc_id": "nhk-26c1af523512973e",
-      "title": "注目の米中首脳会談 米中ロの3か国首脳会談 このあと開催へ",
+      "title": "史上初 米中ロ首脳会談で「平和宣言」 核リスク低減へ対話を",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261119de78117"
     },
     {
-      "doc_id": "nhk-ce1d5775d518f6cd",
-      "title": "北朝鮮メディア トランプ大統領「米朝会談」発言に反応伝えず",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78261"
-    },
-    {
       "doc_id": "nhk-8ef1e2e898e6740c",
-      "title": "北海道や北陸は暴風に警戒 山沿いは雪も 発達する低気圧の影響",
+      "title": "北日本 北陸は暴風警戒 日本海側の山沿い 積雪も 20日にかけて",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261119de78132"
     },
     {
-      "doc_id": "nhk-d1770a1db6167294",
-      "title": "【地震情報】熊本県で震度5弱 熊本地震の一連 1週間程度は注意",
+      "doc_id": "nhk-a99bd8637dc13444",
+      "title": "PHP 新たなぜい弱性が判明 サービス休止を計画する動きも",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78097"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78620"
     },
     {
-      "doc_id": "nhk-db9cf4fccd4f7eb6",
-      "title": "前橋 クマ2頭出没の住宅地 再び目撃情報 未発見の親グマか",
+      "doc_id": "nhk-463b186ba98225b9",
+      "title": "高市首相 訪問先の中国で記者会見【動画 全編】",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78168"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78187"
     },
     {
-      "doc_id": "nhk-416b4c82e76a5cec",
-      "title": "愛子さまにちなんだ「らん」の命名式 シンガポール植物園",
+      "doc_id": "nhk-a08687dd810963ff",
+      "title": "JT ロシア現地法人“実質的経営権喪失”約1兆3770億円の損失へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78233"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78445"
+    },
+    {
+      "doc_id": "nhk-ad4aba5df224718f",
+      "title": "【動画】米中首脳会談 貿易やAIなど意見を交わしたか",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78419"
+    },
+    {
+      "doc_id": "nhk-8a0687dd84282a69",
+      "title": "北海道「六花亭」に不正アクセス クレカ情報 約8000件流出か",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78663"
+    },
+    {
+      "doc_id": "itmedia-7dd73e3c8a43eaff",
+      "title": "美少女ゲーム「NIKKE」経由でマルウェア感染 北海道2自治体、委託先が認める",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003351/"
+    },
+    {
+      "doc_id": "itmedia-bbce77861b767a5e",
+      "title": "「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止 予定を前倒し",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003344/"
+    },
+    {
+      "doc_id": "itmedia-8702b8c9675874f1",
+      "title": "楽天証券、アンソロピックIPOで「抽選対象外」の表示不具合 後から「当選」の報告相次ぐ 「想定より申し込み多く」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003347/"
+    },
+    {
+      "doc_id": "itmedia-f513983315ec4c3c",
+      "title": "脆弱性で話題「nginx」なんて読む？ 「ンギンクス」ではなく……",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003338/"
+    },
+    {
+      "doc_id": "itmedia-a7ad8fdc4f418961",
+      "title": "nginx「緊急」脆弱性、官房長官が「必要な措置」呼び掛け",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003334/"
+    },
+    {
+      "doc_id": "itmedia-b15b5aea4b381c5c",
+      "title": "Microsoftの「Agent Framework」が侵害され、認証情報を盗む不正版がPyPIで公開",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003332/"
+    },
+    {
+      "doc_id": "itmedia-631b9274da811dbb",
+      "title": "Webサーバソフト「nginx」にリモートコード実行の「緊急」脆弱性、日本政府も更新呼び掛け",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003325/"
+    },
+    {
+      "doc_id": "itmedia-835a5ae45b77ecd5",
+      "title": "職人の技、AIで見える化 工科高校でモーションキャプチャー 企業の8割超が継承に不安",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003324/"
+    },
+    {
+      "doc_id": "itmedia-28e569ea1ae599a5",
+      "title": "ちまたの“格安GPT”、中身は偽物？ 非公式APIのモデル偽装を調査した結果……",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003309/"
+    },
+    {
+      "doc_id": "itmedia-a0425272ff694ded",
+      "title": "楽天証券漏えい、“テスト環境に顧客情報”のマズさ 識者「一般的でない」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003312/"
+    },
+    {
+      "doc_id": "itmedia-e437b8cc57366548",
+      "title": "AIモデルとAIエージェントをつなぐ「APIルーター」に注意？ 428件を調べてわかった乗っ取り手口 暗号資産を盗む例も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003310/"
     },
     {
       "doc_id": "itmedia-7640d1fb92e65f87",
@@ -166,130 +232,64 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003323/"
     },
     {
-      "doc_id": "itmedia-e2aad8c3ab5c2aee",
-      "title": "JR東の新キャラはB案“紫うさぎ”に 「Suica券面に登場」など、IP展開の可能性は",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/18/2000003307/"
+      "doc_id": "nazology-1e3f8018bd33074d",
+      "title": "巨大な星が別の星をのみ込み、7年で合体するまでを初観測",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210114"
     },
     {
-      "doc_id": "itmedia-298d5dd25281faa2",
-      "title": "OpenAIのAIモデル、AMDのGPU回路設計を最大14％改善 独自チップ「ハラペーニョ」でも成果",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003321/"
+      "doc_id": "nazology-380b3d9a38535211",
+      "title": "ダークマターの正体は途方もなく大きなブラックホールではないと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209567"
     },
     {
-      "doc_id": "itmedia-92dee54abc47c87a",
-      "title": "Google、AIエージェント機能「Tasks in Gemini」を日本を含む6カ国で無料提供 旧「Gemini Spark」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003319/"
+      "doc_id": "nazology-581d4504659d200c",
+      "title": "体の年齢を下げたのは薬と生活習慣、調べた市販サプリでははっきりした低下が出なかった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209390"
     },
     {
-      "doc_id": "itmedia-175eba5a9178db52",
-      "title": "28年春導入の「手ぶら改札」 40駅の顔ぶれに透けるJR東の狙い 東京メトロも“陣営”入り",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003313/"
+      "doc_id": "nazology-3cdf436f74ce17e6",
+      "title": "抗がん剤を生き延びたがん細胞は「巨大化」して再発の種になる可能性",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209448"
     },
     {
-      "doc_id": "itmedia-55655b9ffd14012a",
-      "title": "六花亭、カード番号全桁＋セキュリティコード約8000件流出か 決済画面のプログラム改ざん",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003316/"
+      "doc_id": "nazology-c53f910883efab94",
+      "title": "生き物ではない人工の粒が、嫌いな化学物質から自分で逃げ出すと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209197"
     },
     {
-      "doc_id": "itmedia-26eb4a08dd5c3d0f",
-      "title": "AIで仕事は速くなったのに、チームの成果につながらないのはなぜ？ 9500人調査が示した「落とし穴」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003314/"
+      "doc_id": "nazology-144a9cd0bb7fda31",
+      "title": "電気の抵抗が消える薄い膜を、原子の細かさで覗くことに成功",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209292"
     },
     {
-      "doc_id": "itmedia-4df46c30288d92a5",
-      "title": "Google、「Gemini 4 Neon」発表 「Carbon」と「Hydrogen」の中間を担うモデル、「Pro」プランでも利用可能",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003315/"
+      "doc_id": "nazology-5374395c3646b1bd",
+      "title": "神に捧げられたエジプトの猫の過酷な生涯、131点の6割に病と傷",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209163"
     },
     {
-      "doc_id": "itmedia-e95de1a7a2ef3a7b",
-      "title": "楽天証券の大規模漏えい、なぜテスト環境に顧客情報が？ 「本番データでの確認が必要だった」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/18/2000003302/"
+      "doc_id": "nazology-9eeb12fed7897e42",
+      "title": "「爆発しない星」から生まれたブラックホールの手がかりを発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209845"
     },
     {
-      "doc_id": "itmedia-f2391b18388a3d0c",
-      "title": "日本で最も使われているパスワードは「pass1111」 NordPass調査",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/18/2000003304/"
-    },
-    {
-      "doc_id": "itmedia-4effba3f1b69ca6c",
-      "title": "NewsPicks漏えい、Metabase脆弱性が原因 パッチ適用前日にデータ窃取、JPCERT/CC公表「不審IPアドレス」で攻撃発覚",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/18/2000003300/"
-    },
-    {
-      "doc_id": "itmedia-ac367ac305387452",
-      "title": "ネットにつながらない携帯、KDDIが発売へ──誰向けなのか？ 「スマホが電話の再発明なら、これは再再発明」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/18/2000003288/"
+      "doc_id": "nazology-630c477d65046004",
+      "title": "10代後半の男子が外で過ごす時間は1日60分超から40分未満に減った",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209629"
     },
     {
       "doc_id": "nazology-80106920206ae76f",
       "title": "とかすだけの「電気のくし」でマウスの毛がすばやく生えた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/209484"
-    },
-    {
-      "doc_id": "nazology-7c10a8ac81f70e29",
-      "title": "寄生虫を抱えた派手なオレンジ色のグッピーのオスほど、多くの寄生虫をうつすと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208791"
-    },
-    {
-      "doc_id": "nazology-a2f2cd75501a3d65",
-      "title": "地球史の「10億年の空白」は大陸の浮き沈みで生まれた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209839"
-    },
-    {
-      "doc_id": "nazology-98207a16d5b96498",
-      "title": "1万5千年前の粘土像に「大人と子どもの指紋」が重なっていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209864"
-    },
-    {
-      "doc_id": "nazology-a39bb6305ad59454",
-      "title": "ハチが「天然のプラスチック」を作っていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208808"
-    },
-    {
-      "doc_id": "nazology-ccb7856827b414fe",
-      "title": "「原人」はアジア大陸で考えられていたより長く生き延びていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209857"
-    },
-    {
-      "doc_id": "nazology-b8bffbba9cf685d6",
-      "title": "泡の巣を作る仲間と違い「ゼリー」に卵を産むカエルの新種を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209851"
-    },
-    {
-      "doc_id": "nazology-e3c529610ab5264f",
-      "title": "人類の祖先並みに重いヒヒにも「ワシに襲われた痕跡」があった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209833"
-    },
-    {
-      "doc_id": "nazology-87c66867ef24714e",
-      "title": "たった1発の核爆発で人工衛星の99%が数日で使えなくなる可能性",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208787"
-    },
-    {
-      "doc_id": "nazology-136af7ea6d7db397",
-      "title": "ズワイガニが消えた海で「雑種のカニ」が長年の平均の13倍に増えていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209366"
     }
   ]
 }
