@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-19T13:15:58+00:00",
-  "now_ms": 1795094158007,
+  "fetched_at": "2026-11-19T21:39:49+00:00",
+  "now_ms": 1795124389500,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,16 +10,28 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-72fe1fd61fe72d52",
-      "title": "米中露首脳「平和宣言」を発表",
+      "doc_id": "yahoo-73d95c3edcd4269d",
+      "title": "APECが閉幕 AI活用の推進で一致",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603204"
+      "link": "https://news.yahoo.co.jp/pickup/6603210"
     },
     {
-      "doc_id": "yahoo-b0b77ba4000f351b",
-      "title": "ロヒンギャ迫害 ジェノサイド認定",
+      "doc_id": "yahoo-44a3a6ec8015c894",
+      "title": "アンソロピック 米ナスダック上場",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603205"
+      "link": "https://news.yahoo.co.jp/pickup/6603220"
+    },
+    {
+      "doc_id": "yahoo-3abea224c100294b",
+      "title": "高市首相を「冷遇」? 中国が反論",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6603208"
+    },
+    {
+      "doc_id": "yahoo-c1e9a234a10863c0",
+      "title": "千葉3人切りつけ事件 男を再逮捕",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6603214"
     },
     {
       "doc_id": "yahoo-92b70c651b9cb3a3",
@@ -28,34 +40,34 @@
       "link": "https://news.yahoo.co.jp/pickup/6603203"
     },
     {
-      "doc_id": "yahoo-861a8e69f3f6fc57",
-      "title": "育休とった男性の心身不調 症状は",
+      "doc_id": "yahoo-5aa9414055073c60",
+      "title": "ちいかわ寿司皿 抽選配布の問題点",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603193"
+      "link": "https://news.yahoo.co.jp/pickup/6603182"
     },
     {
-      "doc_id": "yahoo-a75527d2fbcdb453",
-      "title": "「気嵐」いつ現れる 発生条件検証",
+      "doc_id": "yahoo-721957a6f737dfaa",
+      "title": "地面師たち 新シリーズの制作決定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603196"
+      "link": "https://news.yahoo.co.jp/pickup/6603223"
     },
     {
-      "doc_id": "yahoo-e187eae0ae47e4b5",
-      "title": "運転手の不適切動画 京急バス謝罪",
+      "doc_id": "yahoo-a3b09a484ad2fc9c",
+      "title": "高畑充希「FIRST TAKE」に初挑戦",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603202"
+      "link": "https://news.yahoo.co.jp/pickup/6603222"
     },
     {
-      "doc_id": "yahoo-edef2673e0072b99",
-      "title": "NHK ラジオで関係ない音声を放送",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603200"
+      "doc_id": "jiji-fb68cccb25d577f0",
+      "title": "日米首脳、「米中ロ」受け協議 高市首相、ＩＣＣ支持表明",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111901317&g=pol"
     },
     {
-      "doc_id": "yahoo-816c9335a1d72765",
-      "title": "本田圭佑 森保一監督をねぎらう",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603206"
+      "doc_id": "jiji-22ddef069a41de5e",
+      "title": "「電化率３５％」目標維持 修正案提示、脱化石燃料は削除―ＣＯＰ３１",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112000167&g=int"
     },
     {
       "doc_id": "jiji-11e8ffaca90fc20f",
@@ -64,10 +76,16 @@
       "link": "https://www.jiji.com/jc/article?k=2026111900806&g=flash"
     },
     {
-      "doc_id": "jiji-a763392c6a0e2b09",
-      "title": "田嶋幸三氏、正式立候補へ ５協会から推薦―ＦＩＦＡ会長選",
+      "doc_id": "jiji-9efefe0754a31516",
+      "title": "米アンソロピックが上場 ナスダックに、史上最大規模",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111800660&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026111900897&g=int"
+    },
+    {
+      "doc_id": "jiji-bd2f343306a1e4f9",
+      "title": "首相動静（１１月１９日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026111900638&g=pol"
     },
     {
       "doc_id": "jiji-e1d9ef0e4f6cbfbd",
@@ -76,16 +94,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026111900259&g=int"
     },
     {
-      "doc_id": "jiji-8f604460cbe474bb",
-      "title": "高市首相の対中姿勢、４割弱評価せず 「重要な国」中国２番手―時事世論調査",
+      "doc_id": "jiji-af9f16177a21ffa2",
+      "title": "アディダスの最終戦飾る ドイツ、長年の盟友に別れ―サッカー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900699&g=pol"
-    },
-    {
-      "doc_id": "jiji-ae358e8b147a9afb",
-      "title": "米中ロ首脳が初会談 トランプ氏、核軍縮議論を提起―習・プーチン両氏、「戦勝国」強調",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900944&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112000181&g=spo"
     },
     {
       "doc_id": "jiji-4ea01fe64eee633f",
@@ -94,70 +106,58 @@
       "link": "https://www.jiji.com/jc/article?k=2026111900655&g=pol"
     },
     {
-      "doc_id": "jiji-b5368ec5b60ec709",
-      "title": "「パパ怖い」「ペチンする」 死亡女児、入所施設職員に―一時帰宅中も暴行か・兵庫虐待死",
+      "doc_id": "jiji-8dab077da1e7d3b5",
+      "title": "「ヤルタは平和をもたらさず」 英仏独、ウクライナと連帯",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900790&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026112000184&g=int"
     },
     {
-      "doc_id": "jiji-997571793de44efb",
-      "title": "ロシア機、対馬海峡通過 領空侵犯はなし―防衛省",
+      "doc_id": "jiji-857e5fd1c42b8364",
+      "title": "パーティーの官僚出席、２回のみ 関文科相、参加企業の公表拒否―参院委",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111901230&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026111901126&g=pol"
     },
     {
-      "doc_id": "jiji-4f9babb532e3a847",
-      "title": "スコットランド戦に斎藤ら先発 ナイカブラ２年ぶり復帰―ラグビー日本代表",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111901217&g=spo"
-    },
-    {
-      "doc_id": "jiji-6479c2b73e76a5c4",
-      "title": "拘束記者「外交カード」に利用か 対日交渉で有利に―ロシア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026111900668&g=int"
-    },
-    {
-      "doc_id": "nhk-26c1af523512973e",
-      "title": "史上初 米中ロ首脳会談で「平和宣言」 核リスク低減へ対話を",
+      "doc_id": "nhk-dad56f4aab6f1361",
+      "title": "初の米中ロ首脳会談 国際秩序や国際情勢への影響が焦点",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78117"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78735"
     },
     {
-      "doc_id": "nhk-8ef1e2e898e6740c",
-      "title": "北日本 北陸は暴風警戒 日本海側の山沿い 積雪も 20日にかけて",
+      "doc_id": "nhk-c646f759191c71c0",
+      "title": "ロヒンギャ迫害はジェノサイドと認定 国際司法裁判所が判決",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78132"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78716"
     },
     {
-      "doc_id": "nhk-a99bd8637dc13444",
-      "title": "PHP 新たなぜい弱性が判明 サービス休止を計画する動きも",
+      "doc_id": "nhk-26953b14e736cd44",
+      "title": "米AI開発「アンソロピック」上場 過去最大規模の約13兆円調達",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78620"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78753"
     },
     {
-      "doc_id": "nhk-463b186ba98225b9",
-      "title": "高市首相 訪問先の中国で記者会見【動画 全編】",
+      "doc_id": "nhk-ee593709bb7ad1fa",
+      "title": "高市首相 トランプ大統領から米中ロ首脳会談の説明受ける",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78187"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78721"
     },
     {
-      "doc_id": "nhk-a08687dd810963ff",
-      "title": "JT ロシア現地法人“実質的経営権喪失”約1兆3770億円の損失へ",
+      "doc_id": "nhk-fbda933989f6814d",
+      "title": "米中ロ首脳会談の影響注視 同盟国・同志国と連携強化 日本政府",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78445"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78749"
     },
     {
-      "doc_id": "nhk-ad4aba5df224718f",
-      "title": "【動画】米中首脳会談 貿易やAIなど意見を交わしたか",
+      "doc_id": "nhk-1a7d7a89b93107b5",
+      "title": "兵庫 伊丹 女児死亡事件 母親外出後の約15分間に暴行か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78419"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78729"
     },
     {
-      "doc_id": "nhk-8a0687dd84282a69",
-      "title": "北海道「六花亭」に不正アクセス クレカ情報 約8000件流出か",
+      "doc_id": "nhk-5d2bfbfe02b0ab4b",
+      "title": "ダウ平均株価が一時5万ドル割れ 1100ドル超える値下がり",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261119de78663"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78760"
     },
     {
       "doc_id": "itmedia-7dd73e3c8a43eaff",
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/19/2000003323/"
     },
     {
+      "doc_id": "nazology-d89bc3f96fd96fc9",
+      "title": "激しい結露でもガラスを曇らせない「新しいコーティング」が登場",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209496"
+    },
+    {
+      "doc_id": "nazology-fcf617470a840ed7",
+      "title": "ヒトの肝臓を体の外で7週間生かし続け、世界最長を更新",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210149"
+    },
+    {
       "doc_id": "nazology-1e3f8018bd33074d",
       "title": "巨大な星が別の星をのみ込み、7年で合体するまでを初観測",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "「爆発しない星」から生まれたブラックホールの手がかりを発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/209845"
-    },
-    {
-      "doc_id": "nazology-630c477d65046004",
-      "title": "10代後半の男子が外で過ごす時間は1日60分超から40分未満に減った",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209629"
-    },
-    {
-      "doc_id": "nazology-80106920206ae76f",
-      "title": "とかすだけの「電気のくし」でマウスの毛がすばやく生えた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209484"
     }
   ]
 }
