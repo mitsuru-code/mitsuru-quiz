@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-21T17:59:49+00:00",
-  "now_ms": 1795283989967,
+  "fetched_at": "2026-11-21T23:21:46+00:00",
+  "now_ms": 1795303306589,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,22 +10,22 @@
   },
   "candidates": [
     {
+      "doc_id": "yahoo-721e8fb0de3d48e1",
+      "title": "関文科相の辞任論 与党内で拡大",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6603489"
+    },
+    {
+      "doc_id": "yahoo-7331f778f2b12d24",
+      "title": "焼失7年 首里城正殿きょう完成式",
+      "source": "Yahoo!ニュース",
+      "link": "https://news.yahoo.co.jp/pickup/6603492"
+    },
+    {
       "doc_id": "yahoo-1863537594043559",
       "title": "防衛費巡る財務省案 議論が過熱",
       "source": "Yahoo!ニュース",
       "link": "https://news.yahoo.co.jp/pickup/6603470"
-    },
-    {
-      "doc_id": "yahoo-71650dce46bc9fac",
-      "title": "ゼレンスキー氏 露大統領は人殺し",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603464"
-    },
-    {
-      "doc_id": "yahoo-0f6847612b31ebeb",
-      "title": "危険運転で婚約者犠牲 にじむ無念",
-      "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603481"
     },
     {
       "doc_id": "yahoo-0163c882786df57f",
@@ -34,88 +34,100 @@
       "link": "https://news.yahoo.co.jp/pickup/6603485"
     },
     {
-      "doc_id": "yahoo-f9a2edfea17f2d82",
-      "title": "金塊20kgなど盗まれる 兵庫の住宅",
+      "doc_id": "yahoo-e498553b752464f3",
+      "title": "DIYで溶接中に出火か 男性が死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603477"
+      "link": "https://news.yahoo.co.jp/pickup/6603493"
     },
     {
-      "doc_id": "yahoo-e7d0d709bddcefa0",
-      "title": "推薦入試 不合格者に1秒間誤通知",
+      "doc_id": "yahoo-23db3b94ee98d481",
+      "title": "福間女流四冠が第2子妊娠公表",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603483"
+      "link": "https://news.yahoo.co.jp/pickup/6603488"
     },
     {
-      "doc_id": "yahoo-f237b6a73ee4ba07",
-      "title": "幻の植物の新種 ミャンマーで発見",
+      "doc_id": "yahoo-607b2376711b32da",
+      "title": "チェルシーを撃破 田中碧に高評価",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603422"
+      "link": "https://news.yahoo.co.jp/pickup/6603494"
     },
     {
-      "doc_id": "yahoo-940544cbfa9b445b",
-      "title": "M-1 ドンデコルテやエバース敗退",
+      "doc_id": "yahoo-90d501cde3bdeb41",
+      "title": "DeNA 広島FAの森下暢仁と交渉",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603474"
+      "link": "https://news.yahoo.co.jp/pickup/6603490"
+    },
+    {
+      "doc_id": "jiji-86223f34cf56d7b5",
+      "title": "次期防衛費、ローンが圧迫 「６０兆円無責任」与党猛反発",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100340&g=pol"
+    },
+    {
+      "doc_id": "jiji-6416e76f87402b9b",
+      "title": "沖縄の象徴、「もう失わないで」 首里城正殿、２２日完成式",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100335&g=soc"
+    },
+    {
+      "doc_id": "jiji-eb4a55f14b5566ef",
+      "title": "ＡＩ危機管理、米中から世界へ 日本の役割も焦点",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100363&g=int"
+    },
+    {
+      "doc_id": "jiji-8bb808f88268527a",
+      "title": "日本との絆、未来へ引き継ぐ旅 愛子さま、シンガポール訪問終える",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100342&g=soc"
     },
     {
       "doc_id": "jiji-6a32c212f607e755",
-      "title": "島田麻央が２戦２勝 ファイナル進出―フィギュアＧＰ",
+      "title": "島田麻央２連勝、ファイナルへ 男子の友野一希３位―フィギュアＧＰ",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026112100483&g=spo"
     },
     {
-      "doc_id": "jiji-ae3320a5eb272213",
-      "title": "アフリカ連盟会長、現会長を支持 ＦＩＦＡ",
+      "doc_id": "jiji-7cd77140f903a392",
+      "title": "関文科相の進退焦点に 与党に辞任論、野党問責判断へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100479&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112100387&g=pol"
     },
     {
-      "doc_id": "jiji-cf85336337af9722",
-      "title": "水野達稀内野手と田宮裕涼捕手の背番号変更 プロ野球・日本ハム",
+      "doc_id": "jiji-b07f07df4dae01dd",
+      "title": "ブラジル前大統領、腸閉塞で入院",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100461&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112200109&g=int"
     },
     {
-      "doc_id": "jiji-cbef53a88f4af06b",
-      "title": "ＡＩブーム、息切れ鮮明 アンソロ上場も売りやまず",
+      "doc_id": "jiji-e2fd0be7df0090f8",
+      "title": "日本、スコットランドにも大敗 １勝５敗で最終戦へ―ラグビー",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100372&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112200132&g=spo"
     },
     {
-      "doc_id": "jiji-c05918867cd60e23",
-      "title": "中出すみれ、高橋美優組が決勝へ バドミントン",
+      "doc_id": "jiji-25b2ce3f157305be",
+      "title": "バーレーンの米軍施設攻撃 今月４度目、「報復」主張―イラン",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100456&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112200125&g=int"
     },
     {
-      "doc_id": "jiji-da04cf7b0b223ab5",
-      "title": "大の里と若元春、トップ譲らず １差に熱海富士―大相撲九州場所１４日目",
+      "doc_id": "jiji-4a9b3fd664df158c",
+      "title": "トランプ大統領、拒否権てこに譲歩要求 議会調査阻止へ大統領令―米",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100415&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112200108&g=int"
     },
     {
-      "doc_id": "jiji-9e7a1dacc76d0035",
-      "title": "自民幹事長、関氏交代を示唆 法案最優先「阻害要因なくす」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100332&g=pol"
+      "doc_id": "nhk-47b39f64cee417de",
+      "title": "日本海側中心に雨や雪 新潟では土砂災害に厳重警戒を",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79767"
     },
     {
-      "doc_id": "jiji-d7813f828a101d8d",
-      "title": "政府職員出席、他に３回 関文科相パーティー、野党批判",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112001213&g=pol"
-    },
-    {
-      "doc_id": "jiji-5f9e10debb28bb49",
-      "title": "与党、月内衆院通過にまい進 定数削減、野党の懸念置き去り",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112001100&g=pol"
-    },
-    {
-      "doc_id": "jiji-8abdaa43a1531af0",
-      "title": "参政、国政選挙の立候補者「帰化歴」開示へ法案 二重国籍者の出馬禁止",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112000900&g=pol"
+      "doc_id": "nhk-e2d1d23a78de1946",
+      "title": "福島 北塩原村で国道通行止め 住民や宿泊客の孤立状態続く",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79781"
     },
     {
       "doc_id": "nhk-2fbe493984976a83",
@@ -124,40 +136,28 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261121de79776"
     },
     {
-      "doc_id": "nhk-4219f43188d27f8c",
-      "title": "ラグビー日本代表 スコットランドに62点差の大敗【詳報】",
+      "doc_id": "nhk-eb7ce47be9442df0",
+      "title": "ホテル更衣室で保育園児など盗撮疑い 福島県警の行政職員逮捕",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79756"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79820"
     },
     {
-      "doc_id": "nhk-cbcea5ad861a992c",
-      "title": "フィギュアGP第5戦 島田麻央 2連勝でファイナル進出決定",
+      "doc_id": "nhk-5c4e912ec9c5f08f",
+      "title": "ゼレンスキー大統領「3か国首脳会談はロシアにとっては失敗」",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79775"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79819"
     },
     {
-      "doc_id": "nhk-66bedfd86aeb8c68",
-      "title": "冬型の気圧配置 北・東日本の山沿い中心に積雪増 交通に影響",
+      "doc_id": "nhk-bce74a4e798bec84",
+      "title": "香川 JR予讃線信号トラブル 特急など約6時間立往生も運転再開",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79490"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79790"
     },
     {
-      "doc_id": "nhk-ac3244f90cf98722",
-      "title": "除雪車にはねられ 国道横断中の女性死亡 福井 勝山",
+      "doc_id": "nhk-a8b14724ad23793f",
+      "title": "COP31 会期延長し協議続く 化石燃料からの脱却などめぐり",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79712"
-    },
-    {
-      "doc_id": "nhk-41ef50dc7ed379e7",
-      "title": "前橋 市街地出没のクマ見つからず 22日朝から捜索再開",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79555"
-    },
-    {
-      "doc_id": "nhk-e6ec1049e2690078",
-      "title": "将棋の福間香奈女流四冠 第2子の妊娠を公表",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79734"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79786"
     },
     {
       "doc_id": "itmedia-cc2a56056afff0a1",
@@ -232,6 +232,24 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003330/"
     },
     {
+      "doc_id": "nazology-915a5735cd355bba",
+      "title": "宇宙から戻ったスターシップを発射台が初めて「空中キャッチ」",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210287"
+    },
+    {
+      "doc_id": "nazology-a7f8ecf55919288b",
+      "title": "泳ぐ細菌で動くコンピューター、計算しながら増えて計算力アップ",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210510"
+    },
+    {
+      "doc_id": "nazology-4caace332812979c",
+      "title": "数学最大の難問「リーマン予想」、AIと解いたと数学者が発表",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210450"
+    },
+    {
       "doc_id": "nazology-48a8af6b00e6f57a",
       "title": "健康に良いと思われがちなケトン食にも、やり方しだいで炎症を招く落とし穴があった",
       "source": "ナゾロジー",
@@ -272,24 +290,6 @@
       "title": "AIの恋人は「いつも私がいる」と手放そうとしなかった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/208875"
-    },
-    {
-      "doc_id": "nazology-d4f90ee886237ab6",
-      "title": "南極の氷の下に「ヒマラヤ級の山脈」の跡が眠っていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210205"
-    },
-    {
-      "doc_id": "nazology-f3f0de9a6daf0b76",
-      "title": "「トゲの口」とされた恐竜、実は鳥のような大きなくちばしだった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210189"
-    },
-    {
-      "doc_id": "nazology-bb8a6ead38ead424",
-      "title": "男性ホルモンが少ない男性ほど、がんで亡くなるリスクが18%高かった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209442"
     }
   ]
 }
