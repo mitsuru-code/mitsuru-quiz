@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-20T21:09:35+00:00",
-  "now_ms": 1795208975801,
+  "fetched_at": "2026-11-21T02:20:31+00:00",
+  "now_ms": 1795227631228,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-b8dfd1157fee0786",
-      "title": "安保3文書素案 原潜「検討着手」",
+      "doc_id": "yahoo-afed9509f40b3982",
+      "title": "首相中国到着時の段差 木原氏説明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603335"
+      "link": "https://news.yahoo.co.jp/pickup/6603366"
     },
     {
-      "doc_id": "yahoo-fe9f6addbbf15b86",
-      "title": "EV補助金受け付け終了 予算枯渇",
+      "doc_id": "yahoo-14f06f213ed7e973",
+      "title": "正恩氏 トランプ氏本気度に疑心か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603347"
+      "link": "https://news.yahoo.co.jp/pickup/6603378"
     },
     {
-      "doc_id": "yahoo-51643ca39609f7c0",
-      "title": "官僚参加パーティー5件に 文科相",
+      "doc_id": "yahoo-724851c4913227ea",
+      "title": "ミサイル落下 ポーランドが露非難",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603350"
+      "link": "https://news.yahoo.co.jp/pickup/6603377"
     },
     {
-      "doc_id": "yahoo-b18609f66d65a417",
-      "title": "ポーランドにミサイル 被害なし",
+      "doc_id": "yahoo-ce6c6e363087fd33",
+      "title": "大型物流倉庫で火事 三郷JCT付近",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603345"
+      "link": "https://news.yahoo.co.jp/pickup/6603380"
     },
     {
-      "doc_id": "yahoo-ad6d3353e5f6febe",
-      "title": "サウジ原油 日本での備蓄3倍合意",
+      "doc_id": "yahoo-c1edea70148b898e",
+      "title": "なぜ実家暮らし 40代未婚者の答え",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603336"
+      "link": "https://news.yahoo.co.jp/pickup/6603379"
     },
     {
-      "doc_id": "yahoo-335c5def514a9980",
-      "title": "丸井 EC顧客名など883万件漏えい",
+      "doc_id": "yahoo-4825a6696a1a70b4",
+      "title": "3万円超シャワーヘッド 売れる訳",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603344"
+      "link": "https://news.yahoo.co.jp/pickup/6603374"
     },
     {
-      "doc_id": "yahoo-68777e9c5eb9bb62",
-      "title": "一時100台ほど車が立ち往生 長野",
+      "doc_id": "yahoo-46b8cd280a5c2280",
+      "title": "異例 大谷がNBと引退まで契約",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603346"
+      "link": "https://news.yahoo.co.jp/pickup/6603369"
     },
     {
-      "doc_id": "yahoo-f6ca39da1faf23e4",
-      "title": "ハマ・オカモト 活動再開を報告",
+      "doc_id": "yahoo-fcde915417160e66",
+      "title": "松井玲奈 結婚の形は人それぞれ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603334"
+      "link": "https://news.yahoo.co.jp/pickup/6603381"
+    },
+    {
+      "doc_id": "jiji-6d13ed5c0b7536fc",
+      "title": "米ナスダック、５％急落 ＡＩ不安、ダウも大幅安",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100165&g=int"
+    },
+    {
+      "doc_id": "jiji-980e76f537dbfc3e",
+      "title": "再び全候補に常任理事国の不支持 次期国連総長、年内選出不透明",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100244&g=int"
     },
     {
       "doc_id": "jiji-8abdaa43a1531af0",
@@ -64,16 +76,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026112000900&g=pol"
     },
     {
-      "doc_id": "jiji-c2602ba240fc4bff",
-      "title": "「脱化石燃料」削除に各国反発 ＣＯＰ３１、会期延長へ",
+      "doc_id": "jiji-28d1beffde232233",
+      "title": "ビットコイン、６万ドル割れ 安全資産に逃避",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112000852&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100278&g=int"
     },
     {
-      "doc_id": "jiji-20b1c617bda6cb8f",
-      "title": "宮崎友花ら準決勝進出 バドミントン・香港オープン",
+      "doc_id": "jiji-091af8b54e1be3fd",
+      "title": "渦中女性、中国軍事企業とつながりか エヌビディア前ＣＥＯ不倫問題",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112001251&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112100265&g=int"
+    },
+    {
+      "doc_id": "jiji-45766f0edc09acd8",
+      "title": "友野一希「いい演技」 フィギュアＧＰ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100267&g=spo"
+    },
+    {
+      "doc_id": "jiji-079fc9ad287be5f8",
+      "title": "他国にデータセンターで巨額税 商務長官「信頼なくさず」―米大統領",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100234&g=int"
     },
     {
       "doc_id": "jiji-3a53a3f2bc748935",
@@ -82,70 +106,46 @@
       "link": "https://www.jiji.com/jc/article?k=2026112000275&g=int"
     },
     {
-      "doc_id": "jiji-b8cee5d0d0e8eb82",
-      "title": "上海で日本人１人死亡 別の日本人１人拘束―中国",
+      "doc_id": "jiji-95d1ed8d21832d4f",
+      "title": "吉田「食らい付く」 米女子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112001139&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100281&g=spo"
     },
     {
-      "doc_id": "jiji-5fda07bd52db0cbb",
-      "title": "登録義務付け「外国の指示」要件 スパイ防止法制、政府が考え方",
+      "doc_id": "jiji-5c5c27d37aca67af",
+      "title": "日本「法の支配」強化へ注力 米中ロ会談、定例化を警戒",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112001230&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112001015&g=pol"
     },
     {
-      "doc_id": "jiji-d7813f828a101d8d",
-      "title": "政府職員出席、他に３回 関文科相パーティー、野党批判",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112001213&g=pol"
-    },
-    {
-      "doc_id": "jiji-7b648563c6a40b2e",
-      "title": "維新、防衛費７０兆円要求 安保３文書改定巡り",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112001121&g=pol"
-    },
-    {
-      "doc_id": "jiji-dbdd2e9d32ac412a",
-      "title": "天皇陛下、ペルー大統領と会見 チリ大統領夫妻とも",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112000853&g=soc"
-    },
-    {
-      "doc_id": "jiji-563fb81ccbb409e1",
-      "title": "「北朝鮮行き」の臆測流れる トランプ氏帰国機内で携帯没収",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112000777&g=int"
-    },
-    {
-      "doc_id": "nhk-65625a74715dfb14",
-      "title": "日本海側で荒天 山沿いでは積雪増 強い冬型の気圧配置",
+      "doc_id": "nhk-41126ab88f1b3e33",
+      "title": "新築マンション 投機的な取り引き抑制を検討 来年度税制改正",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261120de78769"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79532"
     },
     {
-      "doc_id": "nhk-e52db886fbe68472",
-      "title": "関文科相 2024年に ほかに3回省庁職員が出席のパーティー開催",
+      "doc_id": "nhk-625f999e3c46fd0d",
+      "title": "埼玉 三郷ジャンクション近くの物流施設で火事 消火活動続く",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79430"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79548"
     },
     {
-      "doc_id": "nhk-d57630cb092553dd",
-      "title": "ナスダック指数が一時5%超の急落 アンソロピック14％超下落",
+      "doc_id": "nhk-12c49c13ec6a07b9",
+      "title": "トランプ大統領 米国外のデータセンター建設認めず 罰則も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79481"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79543"
     },
     {
-      "doc_id": "nhk-c1414967a9a5ffdd",
-      "title": "長野 国道142号の新和田トンネル付近 車の滞留が解消",
+      "doc_id": "nhk-66bedfd86aeb8c68",
+      "title": "冬型の気圧配置 新潟は大雨 北～東日本の山沿いは積雪",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79424"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79490"
     },
     {
-      "doc_id": "nhk-e57aa8804d244113",
-      "title": "高市首相 ICCの赤根所長と来週面会へ 支持方針を伝達か",
+      "doc_id": "nhk-d150f622b998168a",
+      "title": "愛子さま マーライオン公園を視察 帰国へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79444"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79551"
     },
     {
       "doc_id": "nhk-e14f6cbb713fb242",
@@ -154,10 +154,10 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261120de79460"
     },
     {
-      "doc_id": "nhk-b7dd374bd3e87c65",
-      "title": "日本とサウジアラビア 原油の備蓄可能量 3倍で合意",
+      "doc_id": "nhk-ec09f74035b7e01b",
+      "title": "フィギュアGPフィンランド大会 島田麻央が首位発進",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79347"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79478"
     },
     {
       "doc_id": "itmedia-d495639af483a848",
@@ -232,6 +232,30 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003356/"
     },
     {
+      "doc_id": "nazology-011f29ddd3bd90b5",
+      "title": "ヘビかと思われた化石、石の中を透かすと角を持つ新種の爬虫類",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210181"
+    },
+    {
+      "doc_id": "nazology-e76bd90f483c3d4c",
+      "title": "電気自動車の電池は予想より長持ちしていたと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209437"
+    },
+    {
+      "doc_id": "nazology-be4bbb4d7c29428d",
+      "title": "中世の人々も「公衆衛生」に取り組んでいたと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209592"
+    },
+    {
+      "doc_id": "nazology-6966f5d713fe390b",
+      "title": "交尾だけと思われたオスのマルハナバチ、子を温め巣を育てていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210214"
+    },
+    {
       "doc_id": "nazology-733ff05db8ea6e99",
       "title": "冬に「冬眠」状態を30年くり返した女性、脳は細胞があるのに体温を操るホルモンがほぼ見えず",
       "source": "ナゾロジー",
@@ -266,30 +290,6 @@
       "title": "電子が通れないはずの隙間を飛び越える瞬間をとらえることに成功",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/209312"
-    },
-    {
-      "doc_id": "nazology-5afdea04b1d034ef",
-      "title": "血糖と体重の薬のはずが腎臓のフィルターで修復の遺伝子がオンに",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209089"
-    },
-    {
-      "doc_id": "nazology-a6488ab2cfc9858c",
-      "title": "壁で遮れない「重力」で、エレベーターから文字を送ることに成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210125"
-    },
-    {
-      "doc_id": "nazology-e1cdbb8ad0051c5a",
-      "title": "乳製品を植物性に置き換える人ほど「ヨウ素」が不足しやすいと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209509"
-    },
-    {
-      "doc_id": "nazology-52831398281b6382",
-      "title": "原油流出事故のあとメキシコ湾の深海の魚やエビは2023年まで戻っていない",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209578"
     }
   ]
 }
