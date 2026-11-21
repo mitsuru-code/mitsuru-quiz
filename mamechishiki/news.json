@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-21T11:09:55+00:00",
-  "now_ms": 1795259395503,
+  "fetched_at": "2026-11-21T17:59:49+00:00",
+  "now_ms": 1795283989967,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,106 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-325a77c927706edc",
-      "title": "米中露がICC非難 トランプ氏強調",
+      "doc_id": "yahoo-1863537594043559",
+      "title": "防衛費巡る財務省案 議論が過熱",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603442"
+      "link": "https://news.yahoo.co.jp/pickup/6603470"
     },
     {
-      "doc_id": "yahoo-56a55fdddaa9a553",
-      "title": "政治家パーティー官僚参加 妥当?",
+      "doc_id": "yahoo-71650dce46bc9fac",
+      "title": "ゼレンスキー氏 露大統領は人殺し",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603447"
+      "link": "https://news.yahoo.co.jp/pickup/6603464"
     },
     {
-      "doc_id": "yahoo-105b7979e520c164",
-      "title": "調理パフォで客やけど 有罪判決",
+      "doc_id": "yahoo-0f6847612b31ebeb",
+      "title": "危険運転で婚約者犠牲 にじむ無念",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603450"
+      "link": "https://news.yahoo.co.jp/pickup/6603481"
     },
     {
-      "doc_id": "yahoo-99c518dba0ff6ae4",
-      "title": "六花亭 クレカ不正利用を1件確認",
+      "doc_id": "yahoo-0163c882786df57f",
+      "title": "LED信号機に弱点 発熱少なく着雪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603448"
+      "link": "https://news.yahoo.co.jp/pickup/6603485"
     },
     {
-      "doc_id": "yahoo-575d264c2e886b81",
-      "title": "なんちゃって海鮮丼 ドンキ販売へ",
+      "doc_id": "yahoo-f9a2edfea17f2d82",
+      "title": "金塊20kgなど盗まれる 兵庫の住宅",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603439"
+      "link": "https://news.yahoo.co.jp/pickup/6603477"
     },
     {
-      "doc_id": "yahoo-b92a4a591d0bdf18",
-      "title": "朗希 故郷の大会にサプライズ登場",
+      "doc_id": "yahoo-e7d0d709bddcefa0",
+      "title": "推薦入試 不合格者に1秒間誤通知",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603455"
+      "link": "https://news.yahoo.co.jp/pickup/6603483"
     },
     {
-      "doc_id": "yahoo-3a17dbf3e86fad6d",
-      "title": "バスケ元代表 石橋貴俊さん急逝",
+      "doc_id": "yahoo-f237b6a73ee4ba07",
+      "title": "幻の植物の新種 ミャンマーで発見",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603449"
+      "link": "https://news.yahoo.co.jp/pickup/6603422"
     },
     {
-      "doc_id": "yahoo-78c805741d94a9d5",
-      "title": "高橋一生が開放骨折 主演舞台降板",
+      "doc_id": "yahoo-940544cbfa9b445b",
+      "title": "M-1 ドンデコルテやエバース敗退",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603435"
+      "link": "https://news.yahoo.co.jp/pickup/6603474"
+    },
+    {
+      "doc_id": "jiji-6a32c212f607e755",
+      "title": "島田麻央が２戦２勝 ファイナル進出―フィギュアＧＰ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100483&g=spo"
+    },
+    {
+      "doc_id": "jiji-ae3320a5eb272213",
+      "title": "アフリカ連盟会長、現会長を支持 ＦＩＦＡ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100479&g=spo"
+    },
+    {
+      "doc_id": "jiji-cf85336337af9722",
+      "title": "水野達稀内野手と田宮裕涼捕手の背番号変更 プロ野球・日本ハム",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100461&g=spo"
+    },
+    {
+      "doc_id": "jiji-cbef53a88f4af06b",
+      "title": "ＡＩブーム、息切れ鮮明 アンソロ上場も売りやまず",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100372&g=int"
+    },
+    {
+      "doc_id": "jiji-c05918867cd60e23",
+      "title": "中出すみれ、高橋美優組が決勝へ バドミントン",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100456&g=spo"
+    },
+    {
+      "doc_id": "jiji-da04cf7b0b223ab5",
+      "title": "大の里と若元春、トップ譲らず １差に熱海富士―大相撲九州場所１４日目",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100415&g=spo"
     },
     {
       "doc_id": "jiji-9e7a1dacc76d0035",
-      "title": "関氏進退、法案最優先で判断 自民幹事長「成立阻害要因なくす」",
+      "title": "自民幹事長、関氏交代を示唆 法案最優先「阻害要因なくす」",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026112100332&g=pol"
     },
     {
-      "doc_id": "jiji-ed9caa534d75f942",
-      "title": "新潟が首位浮上 Ｊ２",
+      "doc_id": "jiji-d7813f828a101d8d",
+      "title": "政府職員出席、他に３回 関文科相パーティー、野党批判",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100377&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112001213&g=pol"
+    },
+    {
+      "doc_id": "jiji-5f9e10debb28bb49",
+      "title": "与党、月内衆院通過にまい進 定数削減、野党の懸念置き去り",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112001100&g=pol"
     },
     {
       "doc_id": "jiji-8abdaa43a1531af0",
@@ -76,46 +118,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026112000900&g=pol"
     },
     {
-      "doc_id": "jiji-d880b95a7ded617c",
-      "title": "互いに決め手欠く Ｊリーグ・東京Ｖ０―０名古屋",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100368&g=spo"
+      "doc_id": "nhk-2fbe493984976a83",
+      "title": "金塊4億円相当や現金約2500万円など盗まれる 兵庫 西宮の住宅",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79776"
     },
     {
-      "doc_id": "jiji-3c6d97e26e8c78e4",
-      "title": "医療用超音波検査のシート開発 ゼリー代替、長期使用可能―米大学",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100355&g=int"
+      "doc_id": "nhk-4219f43188d27f8c",
+      "title": "ラグビー日本代表 スコットランドに62点差の大敗【詳報】",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79756"
     },
     {
-      "doc_id": "jiji-4e70fae396d655f0",
-      "title": "ＡＩで「リーマン予想」証明か 米アンソロピックの数学者",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100365&g=int"
-    },
-    {
-      "doc_id": "jiji-3a53a3f2bc748935",
-      "title": "機体とタラップに大きな段差 高市首相出迎え時、「危険」中国に批判も―ＡＰＥＣ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112000275&g=int"
-    },
-    {
-      "doc_id": "jiji-52ef3908028759d5",
-      "title": "ＦＢＩ犯罪情報網に不正侵入疑い 農務省もサイバー攻撃被害―米報道",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100350&g=int"
-    },
-    {
-      "doc_id": "jiji-fe2b361e1eb383b4",
-      "title": "横浜、京都国際が４強入り 明治神宮野球大会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100392&g=spo"
-    },
-    {
-      "doc_id": "jiji-9eae5b3990d3f720",
-      "title": "密造酒で中毒、１５人死亡 インド",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100411&g=int"
+      "doc_id": "nhk-cbcea5ad861a992c",
+      "title": "フィギュアGP第5戦 島田麻央 2連勝でファイナル進出決定",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79775"
     },
     {
       "doc_id": "nhk-66bedfd86aeb8c68",
@@ -124,40 +142,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261121de79490"
     },
     {
+      "doc_id": "nhk-ac3244f90cf98722",
+      "title": "除雪車にはねられ 国道横断中の女性死亡 福井 勝山",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79712"
+    },
+    {
       "doc_id": "nhk-41ef50dc7ed379e7",
-      "title": "前橋 クマ見つからず周辺道路の規制解除 あす朝から捜索再開",
+      "title": "前橋 市街地出没のクマ見つからず 22日朝から捜索再開",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261121de79555"
     },
     {
-      "doc_id": "nhk-e4adda9ca8190952",
-      "title": "自民 鈴木幹事長 関文科相問責対応“消費税法案など成立優先”",
+      "doc_id": "nhk-e6ec1049e2690078",
+      "title": "将棋の福間香奈女流四冠 第2子の妊娠を公表",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79553"
-    },
-    {
-      "doc_id": "nhk-b625efa052e5a0b1",
-      "title": "愛子さま シンガポール訪問終え帰国",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79709"
-    },
-    {
-      "doc_id": "nhk-0a04f6e5850a57d6",
-      "title": "将棋「竜王戦」第4局 藤井聡太六冠が防衛6連覇果たす",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79696"
-    },
-    {
-      "doc_id": "nhk-2cfad620a863be58",
-      "title": "MLB労使交渉難航で織田翔希の交渉も不透明に",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79627"
-    },
-    {
-      "doc_id": "nhk-604de624d048a5a6",
-      "title": "【動画】今後の雨と積雪の見通しは 気象予報士解説 （21日）",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79497"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79734"
     },
     {
       "doc_id": "itmedia-cc2a56056afff0a1",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003330/"
     },
     {
+      "doc_id": "nazology-48a8af6b00e6f57a",
+      "title": "健康に良いと思われがちなケトン食にも、やり方しだいで炎症を招く落とし穴があった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209568"
+    },
+    {
       "doc_id": "nazology-f8acd53304161f78",
       "title": "ローマ時代の溝に残された「数千個のカエルの骨」はフクロウなどの食べ残しだったようだ",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "男性ホルモンが少ない男性ほど、がんで亡くなるリスクが18%高かった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/209442"
-    },
-    {
-      "doc_id": "nazology-77408efda9c338f3",
-      "title": "90年見つからなかった海藻の大人、深い海で森をつくっていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210197"
     }
   ]
 }
