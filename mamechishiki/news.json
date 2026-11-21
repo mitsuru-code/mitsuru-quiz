@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-21T02:20:31+00:00",
-  "now_ms": 1795227631228,
+  "fetched_at": "2026-11-21T11:09:55+00:00",
+  "now_ms": 1795259395503,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,64 +10,64 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-afed9509f40b3982",
-      "title": "首相中国到着時の段差 木原氏説明",
+      "doc_id": "yahoo-325a77c927706edc",
+      "title": "米中露がICC非難 トランプ氏強調",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603366"
+      "link": "https://news.yahoo.co.jp/pickup/6603442"
     },
     {
-      "doc_id": "yahoo-14f06f213ed7e973",
-      "title": "正恩氏 トランプ氏本気度に疑心か",
+      "doc_id": "yahoo-56a55fdddaa9a553",
+      "title": "政治家パーティー官僚参加 妥当?",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603378"
+      "link": "https://news.yahoo.co.jp/pickup/6603447"
     },
     {
-      "doc_id": "yahoo-724851c4913227ea",
-      "title": "ミサイル落下 ポーランドが露非難",
+      "doc_id": "yahoo-105b7979e520c164",
+      "title": "調理パフォで客やけど 有罪判決",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603377"
+      "link": "https://news.yahoo.co.jp/pickup/6603450"
     },
     {
-      "doc_id": "yahoo-ce6c6e363087fd33",
-      "title": "大型物流倉庫で火事 三郷JCT付近",
+      "doc_id": "yahoo-99c518dba0ff6ae4",
+      "title": "六花亭 クレカ不正利用を1件確認",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603380"
+      "link": "https://news.yahoo.co.jp/pickup/6603448"
     },
     {
-      "doc_id": "yahoo-c1edea70148b898e",
-      "title": "なぜ実家暮らし 40代未婚者の答え",
+      "doc_id": "yahoo-575d264c2e886b81",
+      "title": "なんちゃって海鮮丼 ドンキ販売へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603379"
+      "link": "https://news.yahoo.co.jp/pickup/6603439"
     },
     {
-      "doc_id": "yahoo-4825a6696a1a70b4",
-      "title": "3万円超シャワーヘッド 売れる訳",
+      "doc_id": "yahoo-b92a4a591d0bdf18",
+      "title": "朗希 故郷の大会にサプライズ登場",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603374"
+      "link": "https://news.yahoo.co.jp/pickup/6603455"
     },
     {
-      "doc_id": "yahoo-46b8cd280a5c2280",
-      "title": "異例 大谷がNBと引退まで契約",
+      "doc_id": "yahoo-3a17dbf3e86fad6d",
+      "title": "バスケ元代表 石橋貴俊さん急逝",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603369"
+      "link": "https://news.yahoo.co.jp/pickup/6603449"
     },
     {
-      "doc_id": "yahoo-fcde915417160e66",
-      "title": "松井玲奈 結婚の形は人それぞれ",
+      "doc_id": "yahoo-78c805741d94a9d5",
+      "title": "高橋一生が開放骨折 主演舞台降板",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603381"
+      "link": "https://news.yahoo.co.jp/pickup/6603435"
     },
     {
-      "doc_id": "jiji-6d13ed5c0b7536fc",
-      "title": "米ナスダック、５％急落 ＡＩ不安、ダウも大幅安",
+      "doc_id": "jiji-9e7a1dacc76d0035",
+      "title": "関氏進退、法案最優先で判断 自民幹事長「成立阻害要因なくす」",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100165&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100332&g=pol"
     },
     {
-      "doc_id": "jiji-980e76f537dbfc3e",
-      "title": "再び全候補に常任理事国の不支持 次期国連総長、年内選出不透明",
+      "doc_id": "jiji-ed9caa534d75f942",
+      "title": "新潟が首位浮上 Ｊ２",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100244&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100377&g=spo"
     },
     {
       "doc_id": "jiji-8abdaa43a1531af0",
@@ -76,28 +76,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026112000900&g=pol"
     },
     {
-      "doc_id": "jiji-28d1beffde232233",
-      "title": "ビットコイン、６万ドル割れ 安全資産に逃避",
+      "doc_id": "jiji-d880b95a7ded617c",
+      "title": "互いに決め手欠く Ｊリーグ・東京Ｖ０―０名古屋",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100278&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100368&g=spo"
     },
     {
-      "doc_id": "jiji-091af8b54e1be3fd",
-      "title": "渦中女性、中国軍事企業とつながりか エヌビディア前ＣＥＯ不倫問題",
+      "doc_id": "jiji-3c6d97e26e8c78e4",
+      "title": "医療用超音波検査のシート開発 ゼリー代替、長期使用可能―米大学",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100265&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100355&g=int"
     },
     {
-      "doc_id": "jiji-45766f0edc09acd8",
-      "title": "友野一希「いい演技」 フィギュアＧＰ",
+      "doc_id": "jiji-4e70fae396d655f0",
+      "title": "ＡＩで「リーマン予想」証明か 米アンソロピックの数学者",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100267&g=spo"
-    },
-    {
-      "doc_id": "jiji-079fc9ad287be5f8",
-      "title": "他国にデータセンターで巨額税 商務長官「信頼なくさず」―米大統領",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100234&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100365&g=int"
     },
     {
       "doc_id": "jiji-3a53a3f2bc748935",
@@ -106,58 +100,70 @@
       "link": "https://www.jiji.com/jc/article?k=2026112000275&g=int"
     },
     {
-      "doc_id": "jiji-95d1ed8d21832d4f",
-      "title": "吉田「食らい付く」 米女子ゴルフ",
+      "doc_id": "jiji-52ef3908028759d5",
+      "title": "ＦＢＩ犯罪情報網に不正侵入疑い 農務省もサイバー攻撃被害―米報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100281&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112100350&g=int"
     },
     {
-      "doc_id": "jiji-5c5c27d37aca67af",
-      "title": "日本「法の支配」強化へ注力 米中ロ会談、定例化を警戒",
+      "doc_id": "jiji-fe2b361e1eb383b4",
+      "title": "横浜、京都国際が４強入り 明治神宮野球大会",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112001015&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112100392&g=spo"
     },
     {
-      "doc_id": "nhk-41126ab88f1b3e33",
-      "title": "新築マンション 投機的な取り引き抑制を検討 来年度税制改正",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79532"
-    },
-    {
-      "doc_id": "nhk-625f999e3c46fd0d",
-      "title": "埼玉 三郷ジャンクション近くの物流施設で火事 消火活動続く",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79548"
-    },
-    {
-      "doc_id": "nhk-12c49c13ec6a07b9",
-      "title": "トランプ大統領 米国外のデータセンター建設認めず 罰則も",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79543"
+      "doc_id": "jiji-9eae5b3990d3f720",
+      "title": "密造酒で中毒、１５人死亡 インド",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112100411&g=int"
     },
     {
       "doc_id": "nhk-66bedfd86aeb8c68",
-      "title": "冬型の気圧配置 新潟は大雨 北～東日本の山沿いは積雪",
+      "title": "冬型の気圧配置 北・東日本の山沿い中心に積雪増 交通に影響",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261121de79490"
     },
     {
-      "doc_id": "nhk-d150f622b998168a",
-      "title": "愛子さま マーライオン公園を視察 帰国へ",
+      "doc_id": "nhk-41ef50dc7ed379e7",
+      "title": "前橋 クマ見つからず周辺道路の規制解除 あす朝から捜索再開",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79551"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79555"
     },
     {
-      "doc_id": "nhk-e14f6cbb713fb242",
-      "title": "日本企業などから高額収入の海外居住者 課税強化へ",
+      "doc_id": "nhk-e4adda9ca8190952",
+      "title": "自民 鈴木幹事長 関文科相問責対応“消費税法案など成立優先”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261120de79460"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79553"
     },
     {
-      "doc_id": "nhk-ec09f74035b7e01b",
-      "title": "フィギュアGPフィンランド大会 島田麻央が首位発進",
+      "doc_id": "nhk-b625efa052e5a0b1",
+      "title": "愛子さま シンガポール訪問終え帰国",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79478"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79709"
+    },
+    {
+      "doc_id": "nhk-0a04f6e5850a57d6",
+      "title": "将棋「竜王戦」第4局 藤井聡太六冠が防衛6連覇果たす",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79696"
+    },
+    {
+      "doc_id": "nhk-2cfad620a863be58",
+      "title": "MLB労使交渉難航で織田翔希の交渉も不透明に",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79627"
+    },
+    {
+      "doc_id": "nhk-604de624d048a5a6",
+      "title": "【動画】今後の雨と積雪の見通しは 気象予報士解説 （21日）",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79497"
+    },
+    {
+      "doc_id": "itmedia-cc2a56056afff0a1",
+      "title": "AIは人並みに動画編集できる？ “バズる切り抜き”からガジェット開封動画まで2つのツールを試す",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/21/2000003387/"
     },
     {
       "doc_id": "itmedia-d495639af483a848",
@@ -226,70 +232,64 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003330/"
     },
     {
-      "doc_id": "itmedia-d82d8b43557dbb21",
-      "title": "Mac版「Gemini」にユーザーの代わりにアプリを操作する「computer use」機能追加 まず米国で",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003356/"
+      "doc_id": "nazology-f8acd53304161f78",
+      "title": "ローマ時代の溝に残された「数千個のカエルの骨」はフクロウなどの食べ残しだったようだ",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209758"
     },
     {
-      "doc_id": "nazology-011f29ddd3bd90b5",
-      "title": "ヘビかと思われた化石、石の中を透かすと角を持つ新種の爬虫類",
+      "doc_id": "nazology-9af2af53b081750b",
+      "title": "いつも頼れる人がいるとまわりが手を抜きやすくなる",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210181"
+      "link": "https://nazology.kusuguru.co.jp/archives/209447"
     },
     {
-      "doc_id": "nazology-e76bd90f483c3d4c",
-      "title": "電気自動車の電池は予想より長持ちしていたと判明",
+      "doc_id": "nazology-aadc1aa8929e5a6f",
+      "title": "全体では低く見積もるのに、「この人なら頼める」の読みだけは的中",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209437"
+      "link": "https://nazology.kusuguru.co.jp/archives/209727"
     },
     {
-      "doc_id": "nazology-be4bbb4d7c29428d",
-      "title": "中世の人々も「公衆衛生」に取り組んでいたと判明",
+      "doc_id": "nazology-abaa1b4747f5e4bb",
+      "title": "「時間を巻き戻す」ことには数学で決まった限界があると判明",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209592"
+      "link": "https://nazology.kusuguru.co.jp/archives/209646"
     },
     {
-      "doc_id": "nazology-6966f5d713fe390b",
-      "title": "交尾だけと思われたオスのマルハナバチ、子を温め巣を育てていた",
+      "doc_id": "nazology-1b371890091d9b8d",
+      "title": "仲間が減った公園で、残り続けたメスゾウの仲良しグループも分裂",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210214"
+      "link": "https://nazology.kusuguru.co.jp/archives/208860"
     },
     {
-      "doc_id": "nazology-733ff05db8ea6e99",
-      "title": "冬に「冬眠」状態を30年くり返した女性、脳は細胞があるのに体温を操るホルモンがほぼ見えず",
+      "doc_id": "nazology-02e2680f81eec781",
+      "title": "AIの恋人は「いつも私がいる」と手放そうとしなかった",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210174"
+      "link": "https://nazology.kusuguru.co.jp/archives/208875"
     },
     {
-      "doc_id": "nazology-8e36bc16b73540ec",
-      "title": "善玉菌が作る物質が傷ついた腸の壁をすばやく治すと判明",
+      "doc_id": "nazology-d4f90ee886237ab6",
+      "title": "南極の氷の下に「ヒマラヤ級の山脈」の跡が眠っていた",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209628"
+      "link": "https://nazology.kusuguru.co.jp/archives/210205"
     },
     {
-      "doc_id": "nazology-6fdbe73ae5d3fb73",
-      "title": "2つの時点を比べるだけでは見抜けない「量子の記憶」の観測に成功",
+      "doc_id": "nazology-f3f0de9a6daf0b76",
+      "title": "「トゲの口」とされた恐竜、実は鳥のような大きなくちばしだった",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209706"
+      "link": "https://nazology.kusuguru.co.jp/archives/210189"
     },
     {
-      "doc_id": "nazology-7c8cb59958bde96b",
-      "title": "株式市場も病気のように荒れる数日前から「症状」を出していた",
+      "doc_id": "nazology-bb8a6ead38ead424",
+      "title": "男性ホルモンが少ない男性ほど、がんで亡くなるリスクが18%高かった",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209502"
+      "link": "https://nazology.kusuguru.co.jp/archives/209442"
     },
     {
-      "doc_id": "nazology-bad450b27250a82c",
-      "title": "巨大星ベテルギウスのつぶれ具合は「隠れた星」の公転と足並みをそろえていた",
+      "doc_id": "nazology-77408efda9c338f3",
+      "title": "90年見つからなかった海藻の大人、深い海で森をつくっていた",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209335"
-    },
-    {
-      "doc_id": "nazology-7c0bcd9cad34dd78",
-      "title": "電子が通れないはずの隙間を飛び越える瞬間をとらえることに成功",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209312"
+      "link": "https://nazology.kusuguru.co.jp/archives/210197"
     }
   ]
 }
