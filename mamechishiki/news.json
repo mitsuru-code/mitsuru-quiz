@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-22T15:22:10+00:00",
-  "now_ms": 1795360930352,
+  "fetched_at": "2026-11-22T21:49:25+00:00",
+  "now_ms": 1795384165928,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -58,16 +58,40 @@
       "link": "https://news.yahoo.co.jp/pickup/6603605"
     },
     {
-      "doc_id": "jiji-6323a3010febfd94",
-      "title": "成果文書の採択断念 ＣＯＰ３１",
+      "doc_id": "jiji-86223f34cf56d7b5",
+      "title": "次期防衛費、ローンが圧迫 「６０兆円無責任」与党猛反発",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200386&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026112100340&g=pol"
     },
     {
-      "doc_id": "jiji-33c06460a3d0d01f",
-      "title": "ＣＯＰ３１、成果文書の採択断念 脱化石燃料で合意できず",
+      "doc_id": "jiji-1f7f30860a5e81d9",
+      "title": "令和の首里城、往時を忠実再現 焼失から７年、防火対策強化―正殿復元で完成式",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200245&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026112200090&g=soc"
+    },
+    {
+      "doc_id": "jiji-c58f70e9df37f13a",
+      "title": "菓子工場で火災、２０人超死亡か インドネシア、捜索継続へ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200292&g=int"
+    },
+    {
+      "doc_id": "jiji-63ac7971a1debd61",
+      "title": "首相動静（１１月２２日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200163&g=pol"
+    },
+    {
+      "doc_id": "jiji-55aa3640cba889f9",
+      "title": "エルデナリ、日本馬を一蹴 競馬マイルＣＳ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200310&g=spo"
+    },
+    {
+      "doc_id": "jiji-25b2ce3f157305be",
+      "title": "イラン、バーレーンの米軍施設攻撃 今月４度目、「報復」主張",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200125&g=int"
     },
     {
       "doc_id": "jiji-5c08a5a0b6aee52a",
@@ -76,52 +100,28 @@
       "link": "https://www.jiji.com/jc/article?k=2026112200315&g=spo"
     },
     {
-      "doc_id": "jiji-8abdaa43a1531af0",
-      "title": "参政、国政選挙の立候補者「帰化歴」開示へ法案 二重国籍者の出馬禁止",
+      "doc_id": "jiji-2a3a490bb3d69557",
+      "title": "木原官房長官、関文科相に説明求める 「交代示唆」否定",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112000900&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112200341&g=pol"
     },
     {
-      "doc_id": "jiji-3a53a3f2bc748935",
-      "title": "機体とタラップに大きな段差 高市首相出迎え時、「危険」中国に批判も―ＡＰＥＣ",
+      "doc_id": "jiji-10e94873ac9d2a23",
+      "title": "益永利明死刑囚が死亡 ７０年代連続企業爆破事件―法務省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112000275&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112200259&g=soc"
     },
     {
-      "doc_id": "jiji-bc52c9a29dac92e8",
-      "title": "オリックスが藤浪晋太郎獲得へ ＤｅＮＡを戦力外―プロ野球",
+      "doc_id": "jiji-07fc8c9c6d173e1a",
+      "title": "普天間会議、年内にも開催 木原官房長官、沖縄知事と会談",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200383&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112200242&g=pol"
     },
     {
-      "doc_id": "jiji-584cfc5cbf96a104",
-      "title": "雪辱果たして７度目Ｖ 大の里時代の幕開けか―大相撲九州場所",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200359&g=spo"
-    },
-    {
-      "doc_id": "jiji-a3fa4c948fdd0768",
-      "title": "パーティーに官僚、今後呼ばず 「疑念招いた」―関文科相",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112000515&g=pol"
-    },
-    {
-      "doc_id": "jiji-13d04ad0851a632e",
-      "title": "岡田芽依、西野太翔がＳＰ首位 フィギュア全日本ジュニア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200382&g=spo"
-    },
-    {
-      "doc_id": "jiji-7b156499accc57de",
-      "title": "若元春「悔しさない」 大相撲九州場所",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200345&g=spo"
-    },
-    {
-      "doc_id": "nhk-84e73ef8050b4d05",
-      "title": "クマは地下水路に? 内部調査も姿は確認できず 警戒続く前橋",
+      "doc_id": "nhk-a65a7d4d219f14e2",
+      "title": "沖縄 首里城正殿が復元 きょう正午から一般公開",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79777"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80078"
     },
     {
       "doc_id": "nhk-6bafada2b1da4423",
@@ -130,10 +130,22 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933"
     },
     {
-      "doc_id": "nhk-3c1b4981ae4424b8",
-      "title": "大相撲九州場所 大の里 7回目の優勝 若元春との優勝決定戦制す",
+      "doc_id": "nhk-76ef9fc20040efb8",
+      "title": "野党 関文科相辞任求める声強まる 木原官房長官“説明が重要”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79989"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80109"
+    },
+    {
+      "doc_id": "nhk-cf64622db0fa999d",
+      "title": "住宅街にクマ出没の前橋 地下水路に潜んでいる可能性 警戒続く",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089"
+    },
+    {
+      "doc_id": "nhk-9cf561d8d2ff7c0a",
+      "title": "インドネシアの製菓工場で火災 3人死亡 36人行方不明",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80121"
     },
     {
       "doc_id": "nhk-809129b3b3b719cf",
@@ -146,18 +158,6 @@
       "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261122de80041"
-    },
-    {
-      "doc_id": "nhk-4591621150fd06ea",
-      "title": "熊本地震で被災の小学生 陸上の全国大会で堂々の走り",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80058"
-    },
-    {
-      "doc_id": "nhk-1598e3a346bc2c8e",
-      "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79936"
     },
     {
       "doc_id": "itmedia-7affad66a74be649",
@@ -232,6 +232,18 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003357/"
     },
     {
+      "doc_id": "nazology-96cbbf3d17d247f2",
+      "title": "心理学者が仮面をかぶって我が子を1年くすぐり続けた奇妙な実験",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210320"
+    },
+    {
+      "doc_id": "nazology-a56c7104bc8fc167",
+      "title": "アマゾンの夜、ゴキブリが花の蜜を飲み花粉を運んでいた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210747"
+    },
+    {
       "doc_id": "nazology-6f4d6d3174d100f4",
       "title": "世界最大の実験装置で人類が見た中で最も小さな「ゼプト宇宙」を観測",
       "source": "ナゾロジー",
@@ -278,18 +290,6 @@
       "title": "ローマ時代の石棺に眠る骨は数百年後の別人、正体は修道院長か",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/210496"
-    },
-    {
-      "doc_id": "nazology-9c27806934cdf982",
-      "title": "グランドキャニオンがどうできたかはまだ誰にも分かっていない",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210401"
-    },
-    {
-      "doc_id": "nazology-e25e10507293da67",
-      "title": "今のイルカにない「ノコギリ歯」を持つ古代イルカの新種を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210488"
     }
   ]
 }
