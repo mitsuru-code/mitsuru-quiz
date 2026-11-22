@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-21T23:21:46+00:00",
-  "now_ms": 1795303306589,
+  "fetched_at": "2026-11-22T06:54:58+00:00",
+  "now_ms": 1795330498114,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,52 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-721e8fb0de3d48e1",
-      "title": "関文科相の辞任論 与党内で拡大",
+      "doc_id": "yahoo-a73bc792202c736f",
+      "title": "地方銀行再編 各地でくすぶる火種",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603489"
+      "link": "https://news.yahoo.co.jp/pickup/6603509"
     },
     {
-      "doc_id": "yahoo-7331f778f2b12d24",
-      "title": "焼失7年 首里城正殿きょう完成式",
+      "doc_id": "yahoo-9bbb773ba2b01d4f",
+      "title": "韓国 教育相が入試巡る混乱で辞意",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603492"
+      "link": "https://news.yahoo.co.jp/pickup/6603542"
     },
     {
-      "doc_id": "yahoo-1863537594043559",
-      "title": "防衛費巡る財務省案 議論が過熱",
+      "doc_id": "yahoo-dac3ac58688ef68f",
+      "title": "首里城正殿 完成祝うテープカット",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603470"
+      "link": "https://news.yahoo.co.jp/pickup/6603553"
     },
     {
-      "doc_id": "yahoo-0163c882786df57f",
-      "title": "LED信号機に弱点 発熱少なく着雪",
+      "doc_id": "yahoo-346f36ae32b55a23",
+      "title": "12歳男子中学生が行方不明 郡山市",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603485"
+      "link": "https://news.yahoo.co.jp/pickup/6603546"
     },
     {
-      "doc_id": "yahoo-e498553b752464f3",
-      "title": "DIYで溶接中に出火か 男性が死亡",
+      "doc_id": "yahoo-fd35c368515f6f51",
+      "title": "「夜職」相次ぐ海外入国トラブル",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603493"
+      "link": "https://news.yahoo.co.jp/pickup/6603554"
     },
     {
-      "doc_id": "yahoo-23db3b94ee98d481",
-      "title": "福間女流四冠が第2子妊娠公表",
+      "doc_id": "yahoo-c88f6e8d2b6fcfc7",
+      "title": "桑田真澄氏58歳が118キロ球 騒然",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603488"
+      "link": "https://news.yahoo.co.jp/pickup/6603545"
     },
     {
-      "doc_id": "yahoo-607b2376711b32da",
-      "title": "チェルシーを撃破 田中碧に高評価",
+      "doc_id": "yahoo-223e7f58a16d3ce0",
+      "title": "元GKシュナイダー潤之介さん死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603494"
+      "link": "https://news.yahoo.co.jp/pickup/6603539"
     },
     {
-      "doc_id": "yahoo-90d501cde3bdeb41",
-      "title": "DeNA 広島FAの森下暢仁と交渉",
+      "doc_id": "yahoo-596223447d425f8d",
+      "title": "声優・青木志貴 性自認公表の理由",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603490"
+      "link": "https://news.yahoo.co.jp/pickup/6603530"
     },
     {
       "doc_id": "jiji-86223f34cf56d7b5",
@@ -64,28 +64,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026112100340&g=pol"
     },
     {
-      "doc_id": "jiji-6416e76f87402b9b",
-      "title": "沖縄の象徴、「もう失わないで」 首里城正殿、２２日完成式",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100335&g=soc"
-    },
-    {
-      "doc_id": "jiji-eb4a55f14b5566ef",
-      "title": "ＡＩ危機管理、米中から世界へ 日本の役割も焦点",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100363&g=int"
-    },
-    {
-      "doc_id": "jiji-8bb808f88268527a",
-      "title": "日本との絆、未来へ引き継ぐ旅 愛子さま、シンガポール訪問終える",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100342&g=soc"
-    },
-    {
       "doc_id": "jiji-6a32c212f607e755",
       "title": "島田麻央２連勝、ファイナルへ 男子の友野一希３位―フィギュアＧＰ",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026112100483&g=spo"
+    },
+    {
+      "doc_id": "jiji-55a45369963dc5e1",
+      "title": "島田麻央、ミス響かず 光る安定感―フィギュアＧＰ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200149&g=spo"
+    },
+    {
+      "doc_id": "jiji-4becfa3665dde293",
+      "title": "ホルムズ海峡で１５キロ遠泳 英国人男性、「被害壊滅的」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200204&g=int"
     },
     {
       "doc_id": "jiji-7cd77140f903a392",
@@ -94,70 +88,82 @@
       "link": "https://www.jiji.com/jc/article?k=2026112100387&g=pol"
     },
     {
-      "doc_id": "jiji-b07f07df4dae01dd",
-      "title": "ブラジル前大統領、腸閉塞で入院",
+      "doc_id": "jiji-0211ed3e7991edec",
+      "title": "安堵の１位発進 ジャンプで耐えた島田麻央―フィギュアＧＰ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200109&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100235&g=spo"
     },
     {
-      "doc_id": "jiji-e2fd0be7df0090f8",
-      "title": "日本、スコットランドにも大敗 １勝５敗で最終戦へ―ラグビー",
+      "doc_id": "jiji-87e5351de2796143",
+      "title": "パナソニックが優勝 実業団女子駅伝",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200132&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112200214&g=spo"
     },
     {
-      "doc_id": "jiji-25b2ce3f157305be",
-      "title": "バーレーンの米軍施設攻撃 今月４度目、「報復」主張―イラン",
+      "doc_id": "jiji-6416e76f87402b9b",
+      "title": "沖縄の象徴、「もう失わないで」 首里城正殿、２２日完成式",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200125&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112100335&g=soc"
     },
     {
-      "doc_id": "jiji-4a9b3fd664df158c",
-      "title": "トランプ大統領、拒否権てこに譲歩要求 議会調査阻止へ大統領令―米",
+      "doc_id": "jiji-8abdaa43a1531af0",
+      "title": "参政、国政選挙の立候補者「帰化歴」開示へ法案 二重国籍者の出馬禁止",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200108&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112000900&g=pol"
     },
     {
-      "doc_id": "nhk-47b39f64cee417de",
-      "title": "日本海側中心に雨や雪 新潟では土砂災害に厳重警戒を",
+      "doc_id": "jiji-3a53a3f2bc748935",
+      "title": "機体とタラップに大きな段差 高市首相出迎え時、「危険」中国に批判も―ＡＰＥＣ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112000275&g=int"
+    },
+    {
+      "doc_id": "nhk-1598e3a346bc2c8e",
+      "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79767"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79936"
+    },
+    {
+      "doc_id": "nhk-da1a0fc824d0382b",
+      "title": "日本の探査機「みお」水星の周回軌道に投入 欧州の探査機と",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79873"
     },
     {
       "doc_id": "nhk-e2d1d23a78de1946",
-      "title": "福島 北塩原村で国道通行止め 住民や宿泊客の孤立状態続く",
+      "title": "福島 北塩原村 宿泊客帰宅開始も514世帯孤立 猪苗代町でも孤立",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261122de79781"
     },
     {
-      "doc_id": "nhk-2fbe493984976a83",
-      "title": "金塊4億円相当や現金約2500万円など盗まれる 兵庫 西宮の住宅",
+      "doc_id": "nhk-7b1c968561344f1f",
+      "title": "六花亭に不正アクセス クレカ情報不正利用とみられる被害確認",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79776"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79904"
     },
     {
-      "doc_id": "nhk-eb7ce47be9442df0",
-      "title": "ホテル更衣室で保育園児など盗撮疑い 福島県警の行政職員逮捕",
+      "doc_id": "nhk-f86270e43be3b218",
+      "title": "AIで未解決難問“リーマン予想”証明主張 専門家の受けとめは?",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79820"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79817"
     },
     {
-      "doc_id": "nhk-5c4e912ec9c5f08f",
-      "title": "ゼレンスキー大統領「3か国首脳会談はロシアにとっては失敗」",
+      "doc_id": "nhk-5553fc0f4fde1f24",
+      "title": "安保3文書 非核三原則などめぐり与野党意見交わす NHK日曜討論",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79819"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79839"
     },
     {
-      "doc_id": "nhk-bce74a4e798bec84",
-      "title": "香川 JR予讃線信号トラブル 特急など約6時間立往生も運転再開",
+      "doc_id": "nhk-47b39f64cee417de",
+      "title": "日本海側中心に断続的に雪と雨 各地今シーズン一番の冷え込み",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79790"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79767"
     },
     {
-      "doc_id": "nhk-a8b14724ad23793f",
-      "title": "COP31 会期延長し協議続く 化石燃料からの脱却などめぐり",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79786"
+      "doc_id": "itmedia-7affad66a74be649",
+      "title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張 Leanコミュニティが「正しい」と認定",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/"
     },
     {
       "doc_id": "itmedia-cc2a56056afff0a1",
@@ -226,10 +232,40 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003357/"
     },
     {
-      "doc_id": "itmedia-dd7096fbfe956678",
-      "title": "日本で受け入れられるのか？ ネットにつながらない携帯「INFOBAR ZERO」 KDDIが語った発売の意図",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003330/"
+      "doc_id": "nazology-29632166c635a9a5",
+      "title": "ADHDの人は自殺やけがだけでなくふつうの病気でも亡くなる人が多かった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209627"
+    },
+    {
+      "doc_id": "nazology-68efe5522f27b1e6",
+      "title": "ローマ時代の石棺に眠る骨は数百年後の別人、正体は修道院長か",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210496"
+    },
+    {
+      "doc_id": "nazology-9c27806934cdf982",
+      "title": "グランドキャニオンがどうできたかはまだ誰にも分かっていない",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210401"
+    },
+    {
+      "doc_id": "nazology-e25e10507293da67",
+      "title": "今のイルカにない「ノコギリ歯」を持つ古代イルカの新種を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210488"
+    },
+    {
+      "doc_id": "nazology-a6eb051a07b01883",
+      "title": "AIに「赤ちゃんの日々」を体験させると言葉の覚え方が見えてきた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209438"
+    },
+    {
+      "doc_id": "nazology-625dbea297e5388e",
+      "title": "明治時代から川を泳ぎ続けた131歳の魚が見つかる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210480"
     },
     {
       "doc_id": "nazology-915a5735cd355bba",
@@ -254,42 +290,6 @@
       "title": "健康に良いと思われがちなケトン食にも、やり方しだいで炎症を招く落とし穴があった",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/209568"
-    },
-    {
-      "doc_id": "nazology-f8acd53304161f78",
-      "title": "ローマ時代の溝に残された「数千個のカエルの骨」はフクロウなどの食べ残しだったようだ",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209758"
-    },
-    {
-      "doc_id": "nazology-9af2af53b081750b",
-      "title": "いつも頼れる人がいるとまわりが手を抜きやすくなる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209447"
-    },
-    {
-      "doc_id": "nazology-aadc1aa8929e5a6f",
-      "title": "全体では低く見積もるのに、「この人なら頼める」の読みだけは的中",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209727"
-    },
-    {
-      "doc_id": "nazology-abaa1b4747f5e4bb",
-      "title": "「時間を巻き戻す」ことには数学で決まった限界があると判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209646"
-    },
-    {
-      "doc_id": "nazology-1b371890091d9b8d",
-      "title": "仲間が減った公園で、残り続けたメスゾウの仲良しグループも分裂",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208860"
-    },
-    {
-      "doc_id": "nazology-02e2680f81eec781",
-      "title": "AIの恋人は「いつも私がいる」と手放そうとしなかった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/208875"
     }
   ]
 }
