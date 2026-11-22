@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-22T06:54:58+00:00",
-  "now_ms": 1795330498114,
+  "fetched_at": "2026-11-22T15:22:10+00:00",
+  "now_ms": 1795360930352,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,100 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-a73bc792202c736f",
-      "title": "地方銀行再編 各地でくすぶる火種",
+      "doc_id": "yahoo-13ddb754704dceba",
+      "title": "COP31合意採択断念 EUなど反対",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603509"
+      "link": "https://news.yahoo.co.jp/pickup/6603603"
     },
     {
-      "doc_id": "yahoo-9bbb773ba2b01d4f",
-      "title": "韓国 教育相が入試巡る混乱で辞意",
+      "doc_id": "yahoo-b9a344b5c1d962a0",
+      "title": "文科相の「交代示唆」木原氏否定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603542"
+      "link": "https://news.yahoo.co.jp/pickup/6603601"
     },
     {
-      "doc_id": "yahoo-dac3ac58688ef68f",
-      "title": "首里城正殿 完成祝うテープカット",
+      "doc_id": "yahoo-f8a903e5438b6510",
+      "title": "参政党が首長選に積極擁立 狙い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603553"
+      "link": "https://news.yahoo.co.jp/pickup/6603611"
     },
     {
-      "doc_id": "yahoo-346f36ae32b55a23",
-      "title": "12歳男子中学生が行方不明 郡山市",
+      "doc_id": "yahoo-95a88d835cf8d84e",
+      "title": "社員を監禁疑い 社長ら4人逮捕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603546"
+      "link": "https://news.yahoo.co.jp/pickup/6603608"
     },
     {
-      "doc_id": "yahoo-fd35c368515f6f51",
-      "title": "「夜職」相次ぐ海外入国トラブル",
+      "doc_id": "yahoo-9a017aa31fdb33cb",
+      "title": "アンソロピックIPO巡り銀行に制約",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603554"
+      "link": "https://news.yahoo.co.jp/pickup/6603609"
     },
     {
-      "doc_id": "yahoo-c88f6e8d2b6fcfc7",
-      "title": "桑田真澄氏58歳が118キロ球 騒然",
+      "doc_id": "yahoo-344ccf61640a50c6",
+      "title": "田中希実らの失格撤回 大会側説明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603545"
+      "link": "https://news.yahoo.co.jp/pickup/6603607"
     },
     {
-      "doc_id": "yahoo-223e7f58a16d3ce0",
-      "title": "元GKシュナイダー潤之介さん死去",
+      "doc_id": "yahoo-46c425f099c65849",
+      "title": "ゴルフ佐久間朱莉がSNSに謝罪文",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603539"
+      "link": "https://news.yahoo.co.jp/pickup/6603613"
     },
     {
-      "doc_id": "yahoo-596223447d425f8d",
-      "title": "声優・青木志貴 性自認公表の理由",
+      "doc_id": "yahoo-8a99e581851951b7",
+      "title": "ジュノンボーイGPの高3 12kg減量",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603530"
+      "link": "https://news.yahoo.co.jp/pickup/6603605"
     },
     {
-      "doc_id": "jiji-86223f34cf56d7b5",
-      "title": "次期防衛費、ローンが圧迫 「６０兆円無責任」与党猛反発",
+      "doc_id": "jiji-6323a3010febfd94",
+      "title": "成果文書の採択断念 ＣＯＰ３１",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100340&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112200386&g=soc"
     },
     {
-      "doc_id": "jiji-6a32c212f607e755",
-      "title": "島田麻央２連勝、ファイナルへ 男子の友野一希３位―フィギュアＧＰ",
+      "doc_id": "jiji-33c06460a3d0d01f",
+      "title": "ＣＯＰ３１、成果文書の採択断念 脱化石燃料で合意できず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100483&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112200245&g=soc"
     },
     {
-      "doc_id": "jiji-55a45369963dc5e1",
-      "title": "島田麻央、ミス響かず 光る安定感―フィギュアＧＰ",
+      "doc_id": "jiji-5c08a5a0b6aee52a",
+      "title": "大の里が２場所連続優勝 横綱昇進後では初―大相撲九州場所",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200149&g=spo"
-    },
-    {
-      "doc_id": "jiji-4becfa3665dde293",
-      "title": "ホルムズ海峡で１５キロ遠泳 英国人男性、「被害壊滅的」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200204&g=int"
-    },
-    {
-      "doc_id": "jiji-7cd77140f903a392",
-      "title": "関文科相の進退焦点に 与党に辞任論、野党問責判断へ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100387&g=pol"
-    },
-    {
-      "doc_id": "jiji-0211ed3e7991edec",
-      "title": "安堵の１位発進 ジャンプで耐えた島田麻央―フィギュアＧＰ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100235&g=spo"
-    },
-    {
-      "doc_id": "jiji-87e5351de2796143",
-      "title": "パナソニックが優勝 実業団女子駅伝",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200214&g=spo"
-    },
-    {
-      "doc_id": "jiji-6416e76f87402b9b",
-      "title": "沖縄の象徴、「もう失わないで」 首里城正殿、２２日完成式",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112100335&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026112200315&g=spo"
     },
     {
       "doc_id": "jiji-8abdaa43a1531af0",
@@ -118,46 +88,76 @@
       "link": "https://www.jiji.com/jc/article?k=2026112000275&g=int"
     },
     {
+      "doc_id": "jiji-bc52c9a29dac92e8",
+      "title": "オリックスが藤浪晋太郎獲得へ ＤｅＮＡを戦力外―プロ野球",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200383&g=spo"
+    },
+    {
+      "doc_id": "jiji-584cfc5cbf96a104",
+      "title": "雪辱果たして７度目Ｖ 大の里時代の幕開けか―大相撲九州場所",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200359&g=spo"
+    },
+    {
+      "doc_id": "jiji-a3fa4c948fdd0768",
+      "title": "パーティーに官僚、今後呼ばず 「疑念招いた」―関文科相",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112000515&g=pol"
+    },
+    {
+      "doc_id": "jiji-13d04ad0851a632e",
+      "title": "岡田芽依、西野太翔がＳＰ首位 フィギュア全日本ジュニア",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200382&g=spo"
+    },
+    {
+      "doc_id": "jiji-7b156499accc57de",
+      "title": "若元春「悔しさない」 大相撲九州場所",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112200345&g=spo"
+    },
+    {
+      "doc_id": "nhk-84e73ef8050b4d05",
+      "title": "クマは地下水路に? 内部調査も姿は確認できず 警戒続く前橋",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79777"
+    },
+    {
+      "doc_id": "nhk-6bafada2b1da4423",
+      "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933"
+    },
+    {
+      "doc_id": "nhk-3c1b4981ae4424b8",
+      "title": "大相撲九州場所 大の里 7回目の優勝 若元春との優勝決定戦制す",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79989"
+    },
+    {
+      "doc_id": "nhk-809129b3b3b719cf",
+      "title": "「東アジア反日武装戦線」メンバーの死刑囚が東京拘置所で死亡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79958"
+    },
+    {
+      "doc_id": "nhk-48fe235faf89eb0a",
+      "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80041"
+    },
+    {
+      "doc_id": "nhk-4591621150fd06ea",
+      "title": "熊本地震で被災の小学生 陸上の全国大会で堂々の走り",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80058"
+    },
+    {
       "doc_id": "nhk-1598e3a346bc2c8e",
       "title": "タワーレコード 不正アクセスで約1100万件の個人情報流出",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261122de79936"
-    },
-    {
-      "doc_id": "nhk-da1a0fc824d0382b",
-      "title": "日本の探査機「みお」水星の周回軌道に投入 欧州の探査機と",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79873"
-    },
-    {
-      "doc_id": "nhk-e2d1d23a78de1946",
-      "title": "福島 北塩原村 宿泊客帰宅開始も514世帯孤立 猪苗代町でも孤立",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79781"
-    },
-    {
-      "doc_id": "nhk-7b1c968561344f1f",
-      "title": "六花亭に不正アクセス クレカ情報不正利用とみられる被害確認",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79904"
-    },
-    {
-      "doc_id": "nhk-f86270e43be3b218",
-      "title": "AIで未解決難問“リーマン予想”証明主張 専門家の受けとめは?",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79817"
-    },
-    {
-      "doc_id": "nhk-5553fc0f4fde1f24",
-      "title": "安保3文書 非核三原則などめぐり与野党意見交わす NHK日曜討論",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de79839"
-    },
-    {
-      "doc_id": "nhk-47b39f64cee417de",
-      "title": "日本海側中心に断続的に雪と雨 各地今シーズン一番の冷え込み",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261121de79767"
     },
     {
       "doc_id": "itmedia-7affad66a74be649",
@@ -232,6 +232,42 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003357/"
     },
     {
+      "doc_id": "nazology-6f4d6d3174d100f4",
+      "title": "世界最大の実験装置で人類が見た中で最も小さな「ゼプト宇宙」を観測",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210384"
+    },
+    {
+      "doc_id": "nazology-b0857bc1d610a2ae",
+      "title": "SNSをよく使う女性ほど「パパ活」に近い関係に前向き",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209797"
+    },
+    {
+      "doc_id": "nazology-d280ffc12aad2491",
+      "title": "砂漠で拾われたバラ色の石は41億年以上前の火星のかけらだった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210503"
+    },
+    {
+      "doc_id": "nazology-f029caba34b4174b",
+      "title": "妊娠は母と子の「栄養の奪い合い」だったことを魚が証明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209515"
+    },
+    {
+      "doc_id": "nazology-f238334ad0891b18",
+      "title": "返事ができない重症患者の3人に1人が、頭の中だけでビープ音を速くできた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210446"
+    },
+    {
+      "doc_id": "nazology-972741b9863233c2",
+      "title": "クモ糸タンパクの繊維は、試験管の中で2個組の粒を端に継ぎ足して伸びていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/209781"
+    },
+    {
       "doc_id": "nazology-29632166c635a9a5",
       "title": "ADHDの人は自殺やけがだけでなくふつうの病気でも亡くなる人が多かった",
       "source": "ナゾロジー",
@@ -254,42 +290,6 @@
       "title": "今のイルカにない「ノコギリ歯」を持つ古代イルカの新種を発見",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/210488"
-    },
-    {
-      "doc_id": "nazology-a6eb051a07b01883",
-      "title": "AIに「赤ちゃんの日々」を体験させると言葉の覚え方が見えてきた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209438"
-    },
-    {
-      "doc_id": "nazology-625dbea297e5388e",
-      "title": "明治時代から川を泳ぎ続けた131歳の魚が見つかる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210480"
-    },
-    {
-      "doc_id": "nazology-915a5735cd355bba",
-      "title": "宇宙から戻ったスターシップを発射台が初めて「空中キャッチ」",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210287"
-    },
-    {
-      "doc_id": "nazology-a7f8ecf55919288b",
-      "title": "泳ぐ細菌で動くコンピューター、計算しながら増えて計算力アップ",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210510"
-    },
-    {
-      "doc_id": "nazology-4caace332812979c",
-      "title": "数学最大の難問「リーマン予想」、AIと解いたと数学者が発表",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210450"
-    },
-    {
-      "doc_id": "nazology-48a8af6b00e6f57a",
-      "title": "健康に良いと思われがちなケトン食にも、やり方しだいで炎症を招く落とし穴があった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209568"
     }
   ]
 }
