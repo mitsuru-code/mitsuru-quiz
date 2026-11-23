@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-23T02:49:14+00:00",
-  "now_ms": 1795402154220,
+  "fetched_at": "2026-11-23T12:53:04+00:00",
+  "now_ms": 1795438384873,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-07efd0de6993a83c",
-      "title": "野党 文科相の「問責」提出の構え",
+      "doc_id": "yahoo-503974ba46d29ec9",
+      "title": "野党 24日にも文科相問責案を協議",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603638"
+      "link": "https://news.yahoo.co.jp/pickup/6603704"
     },
     {
-      "doc_id": "yahoo-ae431ac1e54b3496",
-      "title": "首里城正殿の復元 県知事「万感」",
+      "doc_id": "yahoo-84ec38fda303637f",
+      "title": "核のごみ巡る住民説明会 疑問の声",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603641"
+      "link": "https://news.yahoo.co.jp/pickup/6603713"
     },
     {
-      "doc_id": "yahoo-cd83906bcd8689cd",
-      "title": "トランプ氏 イラン再攻撃に言及",
+      "doc_id": "yahoo-0c29a93bd10ffad8",
+      "title": "交番で警官死亡 拳銃使われた形跡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603648"
+      "link": "https://news.yahoo.co.jp/pickup/6603711"
     },
     {
-      "doc_id": "yahoo-f1ef73e63fd7a717",
-      "title": "死亡事故受け 柏崎刈羽で工事中止",
+      "doc_id": "yahoo-4bb0997cb83606eb",
+      "title": "視神経細胞をシート化 東北大開発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603635"
+      "link": "https://news.yahoo.co.jp/pickup/6603710"
     },
     {
-      "doc_id": "yahoo-352e2344caf4b688",
-      "title": "「ほぼ日手帳」海外で人気のワケ",
+      "doc_id": "yahoo-5a8c632abec3f51c",
+      "title": "年収1000万円 社内ニートの不安",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603636"
+      "link": "https://news.yahoo.co.jp/pickup/6603718"
     },
     {
-      "doc_id": "yahoo-3ec6cc8267121ce1",
-      "title": "W杯落選 町田浩樹の頭をなでた妻",
+      "doc_id": "yahoo-332e193044dae1ee",
+      "title": "勤労感謝の日に70円ラーメン提供",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603650"
+      "link": "https://news.yahoo.co.jp/pickup/6603705"
     },
     {
-      "doc_id": "yahoo-2a48d0273e4fb889",
-      "title": "塩貝健人が負傷で今季絶望か 報道",
+      "doc_id": "yahoo-0398b51bcf49063e",
+      "title": "麻雀クラブ なぜ米国の若者に人気",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603646"
+      "link": "https://news.yahoo.co.jp/pickup/6603717"
     },
     {
-      "doc_id": "yahoo-85ccbc9e1f82a15c",
-      "title": "オリックス 藤浪晋太郎の獲得発表",
+      "doc_id": "yahoo-6e3843c5cbc7019e",
+      "title": "プロ野球OB戦 各地で負傷者続出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603639"
+      "link": "https://news.yahoo.co.jp/pickup/6603706"
+    },
+    {
+      "doc_id": "jiji-a65b05bbbdd21ad6",
+      "title": "ロシアが核搭載衛星計画か 年内打ち上げも、情報機関警告―報道",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112300427&g=int"
     },
     {
       "doc_id": "jiji-e4c6b9c9b34c0709",
@@ -64,100 +70,100 @@
       "link": "https://www.jiji.com/jc/article?k=2026112200200&g=pol"
     },
     {
+      "doc_id": "jiji-7eb7d104de5b8701",
+      "title": "豪データセンター計画に暗雲 米アンソロピック、住民反対で",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112300132&g=int"
+    },
+    {
+      "doc_id": "jiji-77a61273d5cc93dc",
+      "title": "イスラム教人口、３５年にキリスト教逆転 ２５億７０００万人と予測―米調査機関",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112300360&g=int"
+    },
+    {
+      "doc_id": "jiji-2db90cca7d863c8c",
+      "title": "五輪連覇の堀米雄斗２位 女子は吉沢恋が３位―スケートボードのワールドツアー・ストリート",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112300358&g=spo"
+    },
+    {
+      "doc_id": "jiji-2f7966412bd9ac33",
+      "title": "アリス氏背景に巨大密輸網 日本で逮捕の人物も―エヌビディア半導体",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112300235&g=int"
+    },
+    {
+      "doc_id": "jiji-56be929ec1cf8a87",
+      "title": "復興へ２５００億円超支援 インド首相、ネパール土石流災害受け",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112300425&g=int"
+    },
+    {
+      "doc_id": "jiji-707d2282693c090f",
+      "title": "７度目Ｖ大の里を称賛 豊昇龍にも評価の声―大相撲横審",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112300441&g=spo"
+    },
+    {
       "doc_id": "jiji-9cd7a700b2b327b1",
-      "title": "ロシア艦船に攻撃 リビア東部の基地停泊中",
+      "title": "ウクライナ、ロシア新型艦撃沈と発表 リビア東部の基地停泊中",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026112300125&g=int"
     },
     {
-      "doc_id": "jiji-1f7f30860a5e81d9",
-      "title": "令和の首里城、往時を忠実再現 焼失から７年、防火対策強化―正殿復元で完成式",
+      "doc_id": "jiji-a1474aa76dbadf15",
+      "title": "山下美夢有３勝、４人が初Ｖ 向上心あふれる日本勢―米女子ゴルフ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200090&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026112300291&g=spo"
     },
     {
-      "doc_id": "jiji-030d27e73f9bcd85",
-      "title": "岩井明愛が２位、吉田優利７位 山下美夢有が年間最少平均スコア―米女子ゴルフ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300124&g=spo"
-    },
-    {
-      "doc_id": "jiji-69e855f4c00aeb65",
-      "title": "たまごっち「３０歳」お祝い 米ＮＹのタイムズスクエアで",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300113&g=int"
-    },
-    {
-      "doc_id": "jiji-e4c62b3fe683a039",
-      "title": "米下院、民主９２年以来の大勝 中間選挙で２５８議席確保―報道",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300101&g=int"
-    },
-    {
-      "doc_id": "jiji-e53c69836366b105",
-      "title": "神谷、パットさえる 米女子ゴルフ予選会",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300150&g=spo"
-    },
-    {
-      "doc_id": "jiji-2d316fae2ec5a3d7",
-      "title": "鹿児島で震度３",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300122&g=soc"
-    },
-    {
-      "doc_id": "jiji-f57e22756022615d",
-      "title": "監視強化も不正やまず 大学入試でＡＩ機器悪用―韓国",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200210&g=int"
-    },
-    {
-      "doc_id": "jiji-bc4f32d7b84fdb49",
-      "title": "久保建英は途中出場 欧州サッカー",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300118&g=spo"
-    },
-    {
-      "doc_id": "nhk-102a7d84763dd0b2",
-      "title": "横溝正史が戦時下に陸軍「幻の雑誌」に掲載した推理小説発見",
+      "doc_id": "nhk-696cde27c00cf7c8",
+      "title": "24日は荒れた天気に 強風や大雨による土砂災害に十分注意を",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80134"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80272"
     },
     {
-      "doc_id": "nhk-5196a8a4d16d62c6",
-      "title": "“会談模索もキム総書記の条件を米が受け入れられず”米報道",
+      "doc_id": "nhk-df4d519ecbccf4ed",
+      "title": "東京電力 福島での廃炉と賠償の部門を統合へ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80133"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80254"
     },
     {
-      "doc_id": "nhk-50e3bd223be34c2f",
-      "title": "台風25号 温暖化で水蒸気増え雨量が2～4割増か 研究グループ",
+      "doc_id": "nhk-04f424e97270fe4c",
+      "title": "「核のごみ」文献調査 茨城 常陸大宮で初の市民説明会",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80146"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80257"
     },
     {
-      "doc_id": "nhk-a65a7d4d219f14e2",
-      "title": "沖縄 首里城正殿が復元 きょう正午から一般公開",
+      "doc_id": "nhk-cf5dc90aa6f26149",
+      "title": "ウクライナで被害住宅から2人救助 7歳の男の子は14時間後に",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80078"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80276"
     },
     {
-      "doc_id": "nhk-083390d600faf3c9",
-      "title": "イギリス人スイマー ホルムズ海峡を遠泳「戦争をやめるべき」",
+      "doc_id": "nhk-cf64622db0fa999d",
+      "title": "住宅街のクマ“水路に潜む可能性”警戒続く 学校は再開へ 前橋",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80145"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089"
     },
     {
-      "doc_id": "nhk-76ef9fc20040efb8",
-      "title": "野党 関文科相辞任求める声強まる 木原官房長官“説明が重要”",
+      "doc_id": "nhk-1266ba931c41ac7e",
+      "title": "岐阜 雪の影響で停電 携帯電話の通信障害や鉄道運転見合わせも",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80109"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80192"
     },
     {
-      "doc_id": "nhk-0d6e3a4627765adb",
-      "title": "ドイツ最大労組 メルセデスの工場でも24時間ストライキ",
+      "doc_id": "nhk-6be0975b39fcc68e",
+      "title": "長野 雪の影響で停電続く “24日中の復旧を目指す”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80139"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80268"
+    },
+    {
+      "doc_id": "itmedia-15ace50ba57db24c",
+      "title": "「Microsoft To Do」、2027年6月にアプリ提供終了 法人向けは「Planner」へ移行、個人向けは代替なし",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/23/2000003395/"
     },
     {
       "doc_id": "itmedia-ee5ef530a7d9ac42",
@@ -226,70 +232,64 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003367/"
     },
     {
-      "doc_id": "itmedia-438851d053139abf",
-      "title": "掘らずに地中レーダー探査、AI分析も 奈良文化財研究所が挑む次世代のサイバー考古学",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003362/"
+      "doc_id": "nazology-29e3ac698228c431",
+      "title": "孤独が長く続く人ほど認知症のリスクが38%高いと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210268"
+    },
+    {
+      "doc_id": "nazology-179398045785e98b",
+      "title": "物理学者が解けずにいたブラックホールの難問2つを、AIが解いたと開発元が発表",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210580"
+    },
+    {
+      "doc_id": "nazology-992cbf2283a759cc",
+      "title": "SNSを早く始めた子どもほど国語と数学の点数が低いと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210553"
+    },
+    {
+      "doc_id": "nazology-e57f23dd51b72357",
+      "title": "地球から28光年先に「存在しえない」三重星を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210721"
+    },
+    {
+      "doc_id": "nazology-908852708accd001",
+      "title": "AIを使うコンピューターワームはタコや粘菌のように適応して広がる",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210382"
+    },
+    {
+      "doc_id": "nazology-890f85a56259a61e",
+      "title": "167年の難問リーマン予想、AIと証明したとの発表に「人が読める証明」がない理由",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210477"
+    },
+    {
+      "doc_id": "nazology-26e95d2a6ae091d6",
+      "title": "聞き取り役とされてきた脳の言語中枢は、話す単語を先に用意していた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210533"
+    },
+    {
+      "doc_id": "nazology-c9928f00d4aeb5b7",
+      "title": "ブラックホールが2つに分かれる「抜け道」、鍵は超高速回転",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210724"
+    },
+    {
+      "doc_id": "nazology-2fef0a9f9dbace4d",
+      "title": "サイコパス気質の人ほど「2回目のデート」にこぎつけやすいと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210267"
     },
     {
       "doc_id": "nazology-df03d377477e922c",
       "title": "サボテンが電気を作る！水なし15カ月でも弱まらず",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/210739"
-    },
-    {
-      "doc_id": "nazology-9176d342c7a1b778",
-      "title": "NASAの探査車が火星の岩を割ったら、中から「大きな謎」が見つかった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210334"
-    },
-    {
-      "doc_id": "nazology-9187ac33784af799",
-      "title": "水分子がX線で電子が落ち着く前に原子3つに壊れる現象を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210731"
-    },
-    {
-      "doc_id": "nazology-0b4cd5a15db25182",
-      "title": "8日間群れを離れた「上位のインコ」は、戻るといじめられていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210398"
-    },
-    {
-      "doc_id": "nazology-96cbbf3d17d247f2",
-      "title": "心理学者が仮面をかぶって我が子を1年くすぐり続けた奇妙な実験",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210320"
-    },
-    {
-      "doc_id": "nazology-a56c7104bc8fc167",
-      "title": "アマゾンの夜、ゴキブリが花の蜜を飲み花粉を運んでいた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210747"
-    },
-    {
-      "doc_id": "nazology-6f4d6d3174d100f4",
-      "title": "世界最大の実験装置で人類が見た中で最も小さな「ゼプト宇宙」を観測",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210384"
-    },
-    {
-      "doc_id": "nazology-b0857bc1d610a2ae",
-      "title": "SNSをよく使う女性ほど「パパ活」に近い関係に前向き",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209797"
-    },
-    {
-      "doc_id": "nazology-d280ffc12aad2491",
-      "title": "砂漠で拾われたバラ色の石は41億年以上前の火星のかけらだった",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210503"
-    },
-    {
-      "doc_id": "nazology-f029caba34b4174b",
-      "title": "妊娠は母と子の「栄養の奪い合い」だったことを魚が証明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/209515"
     }
   ]
 }
