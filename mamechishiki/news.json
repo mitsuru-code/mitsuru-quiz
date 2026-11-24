@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-23T12:53:04+00:00",
-  "now_ms": 1795438384873,
+  "fetched_at": "2026-11-24T00:55:36+00:00",
+  "now_ms": 1795481736566,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,82 +10,88 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-503974ba46d29ec9",
-      "title": "野党 24日にも文科相問責案を協議",
+      "doc_id": "yahoo-dcb4e73a0812d463",
+      "title": "日経平均 一時2200円超値上がり",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603704"
+      "link": "https://news.yahoo.co.jp/pickup/6603764"
     },
     {
-      "doc_id": "yahoo-84ec38fda303637f",
-      "title": "核のごみ巡る住民説明会 疑問の声",
+      "doc_id": "yahoo-dab1da5ad4d117ce",
+      "title": "文科相 自宅家賃を政治資金で支出",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603713"
+      "link": "https://news.yahoo.co.jp/pickup/6603766"
     },
     {
-      "doc_id": "yahoo-0c29a93bd10ffad8",
-      "title": "交番で警官死亡 拳銃使われた形跡",
+      "doc_id": "yahoo-6f60d39019c24a80",
+      "title": "フアン氏のCEO復帰 米議会反発",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603711"
+      "link": "https://news.yahoo.co.jp/pickup/6603761"
     },
     {
-      "doc_id": "yahoo-4bb0997cb83606eb",
-      "title": "視神経細胞をシート化 東北大開発",
+      "doc_id": "yahoo-d7740dfe565e0adc",
+      "title": "フォークリフトが倒れ下敷き 死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603710"
+      "link": "https://news.yahoo.co.jp/pickup/6603756"
     },
     {
-      "doc_id": "yahoo-5a8c632abec3f51c",
-      "title": "年収1000万円 社内ニートの不安",
+      "doc_id": "yahoo-fc688f821ec6e22b",
+      "title": "ロッククライミング中に滑落 死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603718"
+      "link": "https://news.yahoo.co.jp/pickup/6603737"
     },
     {
-      "doc_id": "yahoo-332e193044dae1ee",
-      "title": "勤労感謝の日に70円ラーメン提供",
+      "doc_id": "yahoo-67e53dffad539714",
+      "title": "塩貝健人が重度筋損傷 長期離脱へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603705"
+      "link": "https://news.yahoo.co.jp/pickup/6603750"
     },
     {
-      "doc_id": "yahoo-0398b51bcf49063e",
-      "title": "麻雀クラブ なぜ米国の若者に人気",
+      "doc_id": "yahoo-d9bb31c398f05b26",
+      "title": "ラッパーのBASIさん 5年前に死去",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603717"
+      "link": "https://news.yahoo.co.jp/pickup/6603759"
     },
     {
-      "doc_id": "yahoo-6e3843c5cbc7019e",
-      "title": "プロ野球OB戦 各地で負傷者続出",
+      "doc_id": "yahoo-c705b76722fa1c50",
+      "title": "SAKAMOTO DAYS 6年の連載に幕",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603706"
+      "link": "https://news.yahoo.co.jp/pickup/6603748"
     },
     {
-      "doc_id": "jiji-a65b05bbbdd21ad6",
-      "title": "ロシアが核搭載衛星計画か 年内打ち上げも、情報機関警告―報道",
+      "doc_id": "jiji-bb6de786eb8d1a9d",
+      "title": "日朝情報当局が接触か アジア大会中、拉致議論できず",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300427&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112300218&g=int"
     },
     {
-      "doc_id": "jiji-e4c6b9c9b34c0709",
-      "title": "首相出席削減、自民が議論本格化 高市氏意向背景？野党反発―国会改革",
+      "doc_id": "jiji-baaf5cadcb4cbc8f",
+      "title": "防衛費目減り「言行不一致」も 増強公約の首相、増税に後ろ向き―新計画、攻防最終局面へ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112200200&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112300229&g=pol"
     },
     {
-      "doc_id": "jiji-7eb7d104de5b8701",
-      "title": "豪データセンター計画に暗雲 米アンソロピック、住民反対で",
+      "doc_id": "jiji-7a75b5fe52db21a0",
+      "title": "フアン氏、ＣＥＯ電撃復帰 トランプ氏が介入―米エヌビディア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300132&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112300537&g=int"
     },
     {
-      "doc_id": "jiji-77a61273d5cc93dc",
-      "title": "イスラム教人口、３５年にキリスト教逆転 ２５億７０００万人と予測―米調査機関",
+      "doc_id": "jiji-2b14d70bedd935d7",
+      "title": "ＮＹ株大幅反発、１４４７ドル高 フアン氏のエヌビディア復帰好感",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300360&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112400130&g=int"
     },
     {
-      "doc_id": "jiji-2db90cca7d863c8c",
-      "title": "五輪連覇の堀米雄斗２位 女子は吉沢恋が３位―スケートボードのワールドツアー・ストリート",
+      "doc_id": "jiji-0b434ae825f16260",
+      "title": "米民主、来年６月に候補者討論会 ２８年大統領選へ準備加速",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300358&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112400174&g=int"
+    },
+    {
+      "doc_id": "jiji-952a22a26a73aba4",
+      "title": "タジクがＩＣＣ脱退を通告 プーチン氏訪問も拘束せず",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112400139&g=int"
     },
     {
       "doc_id": "jiji-2f7966412bd9ac33",
@@ -94,70 +100,82 @@
       "link": "https://www.jiji.com/jc/article?k=2026112300235&g=int"
     },
     {
-      "doc_id": "jiji-56be929ec1cf8a87",
-      "title": "復興へ２５００億円超支援 インド首相、ネパール土石流災害受け",
+      "doc_id": "jiji-90a2f3e7e05577ac",
+      "title": "人生の門出、世界遺産でいかが？ 「残る場所」で一生の思い出を―海外からも、行政も歓迎",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300425&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112300224&g=soc"
     },
     {
-      "doc_id": "jiji-707d2282693c090f",
-      "title": "７度目Ｖ大の里を称賛 豊昇龍にも評価の声―大相撲横審",
+      "doc_id": "jiji-e771dcc9061f6c77",
+      "title": "ジムビーム、主力工場の停止延長 サントリーＨＤ傘下、在庫過剰か―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300441&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112400176&g=int"
     },
     {
-      "doc_id": "jiji-9cd7a700b2b327b1",
-      "title": "ウクライナ、ロシア新型艦撃沈と発表 リビア東部の基地停泊中",
+      "doc_id": "jiji-e4c6b9c9b34c0709",
+      "title": "首相出席削減、自民が議論本格化 高市氏意向背景？野党反発―国会改革",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300125&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112200200&g=pol"
     },
     {
-      "doc_id": "jiji-a1474aa76dbadf15",
-      "title": "山下美夢有３勝、４人が初Ｖ 向上心あふれる日本勢―米女子ゴルフ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300291&g=spo"
-    },
-    {
-      "doc_id": "nhk-696cde27c00cf7c8",
-      "title": "24日は荒れた天気に 強風や大雨による土砂災害に十分注意を",
+      "doc_id": "nhk-0fd59b621466ad5c",
+      "title": "エヌビディアCEO 辞任のフアン氏が復帰へ 株価一時36％超上昇",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80272"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80304"
     },
     {
-      "doc_id": "nhk-df4d519ecbccf4ed",
-      "title": "東京電力 福島での廃炉と賠償の部門を統合へ",
+      "doc_id": "nhk-03f3a8a76b216072",
+      "title": "日経平均株価 一時2000円超値上がり",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80254"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80352"
     },
     {
-      "doc_id": "nhk-04f424e97270fe4c",
-      "title": "「核のごみ」文献調査 茨城 常陸大宮で初の市民説明会",
+      "doc_id": "nhk-7201ce2deced8ce8",
+      "title": "野党 関大臣の問責決議案協議 政府・与党 情勢見極め対応検討",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80257"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80283"
     },
     {
-      "doc_id": "nhk-cf5dc90aa6f26149",
-      "title": "ウクライナで被害住宅から2人救助 7歳の男の子は14時間後に",
+      "doc_id": "nhk-1b8341c642d33cfb",
+      "title": "ロシアが年内に核弾頭搭載の衛星打ち上げ計画か ドイツ報道",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80276"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80347"
     },
     {
-      "doc_id": "nhk-cf64622db0fa999d",
-      "title": "住宅街のクマ“水路に潜む可能性”警戒続く 学校は再開へ 前橋",
+      "doc_id": "nhk-3cedc34842ad6735",
+      "title": "タジキスタンICC脱退へ さらなる脱退の動き懸念",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80353"
     },
     {
-      "doc_id": "nhk-1266ba931c41ac7e",
-      "title": "岐阜 雪の影響で停電 携帯電話の通信障害や鉄道運転見合わせも",
+      "doc_id": "nhk-98c9c50bc40aee3a",
+      "title": "荒れた天気 強風・土砂災害に十分注意 あす日本海側で雪強まる",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80192"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80284"
     },
     {
-      "doc_id": "nhk-6be0975b39fcc68e",
-      "title": "長野 雪の影響で停電続く “24日中の復旧を目指す”",
+      "doc_id": "nhk-5eda3357ac53e8ab",
+      "title": "雪の影響で停電続く 岐阜県内約3190戸 長野県内470戸",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80268"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80343"
+    },
+    {
+      "doc_id": "itmedia-5541529e6cdc538a",
+      "title": "SpaceXをオレゴン州とバージニア州が提訴 Grokの性的画像生成で",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003399/"
+    },
+    {
+      "doc_id": "itmedia-53567ab9d28c3058",
+      "title": "CrowdStrike、Zscalerを約439億ドルで買収へ 狙いはAIエージェントの安全確保",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/"
+    },
+    {
+      "doc_id": "itmedia-e30b4028ae51b8bf",
+      "title": "NVIDIA、フアン氏のCEO復帰を発表 トランプ大統領「私がまとめた」と取締役会への働きかけ認める",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003397/"
     },
     {
       "doc_id": "itmedia-15ace50ba57db24c",
@@ -214,22 +232,28 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003374/"
     },
     {
-      "doc_id": "itmedia-d0dcdd27eae2b485",
-      "title": "ドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003369/"
+      "doc_id": "nazology-6fff830a8cd7e713",
+      "title": "海王星の外に「地球級の惑星」が隠れているかもしれない",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/211120"
     },
     {
-      "doc_id": "itmedia-08785d76277876c4",
-      "title": "Microsoft、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003368/"
+      "doc_id": "nazology-7c77f88a3b5ba6d4",
+      "title": "数十年前の博物館の化石から奇妙な「吸血鬼ラクダ」を発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210961"
     },
     {
-      "doc_id": "itmedia-8d7d80ed995837b8",
-      "title": "ハンコヤドットコム、カード番号やセキュリティコード8220件漏えいか 決済画面改ざんされる",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/20/2000003367/"
+      "doc_id": "nazology-7903637e8813caf5",
+      "title": "2026年10月は記録上最も暑い10月だったと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210328"
+    },
+    {
+      "doc_id": "nazology-40637412bde6d639",
+      "title": "194歳のカメ、DNAを直す遺伝子の使い方が若いカメ並み",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/211127"
     },
     {
       "doc_id": "nazology-29e3ac698228c431",
@@ -266,30 +290,6 @@
       "title": "167年の難問リーマン予想、AIと証明したとの発表に「人が読める証明」がない理由",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/210477"
-    },
-    {
-      "doc_id": "nazology-26e95d2a6ae091d6",
-      "title": "聞き取り役とされてきた脳の言語中枢は、話す単語を先に用意していた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210533"
-    },
-    {
-      "doc_id": "nazology-c9928f00d4aeb5b7",
-      "title": "ブラックホールが2つに分かれる「抜け道」、鍵は超高速回転",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210724"
-    },
-    {
-      "doc_id": "nazology-2fef0a9f9dbace4d",
-      "title": "サイコパス気質の人ほど「2回目のデート」にこぎつけやすいと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210267"
-    },
-    {
-      "doc_id": "nazology-df03d377477e922c",
-      "title": "サボテンが電気を作る！水なし15カ月でも弱まらず",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210739"
     }
   ]
 }
