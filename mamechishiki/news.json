@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-24T10:58:39+00:00",
-  "now_ms": 1795517919954,
+  "fetched_at": "2026-11-24T21:15:44+00:00",
+  "now_ms": 1795554944949,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,70 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-d8991224feab92db",
-      "title": "首相 関氏は説明責任果たしている",
+      "doc_id": "yahoo-47b9ebe3afc4adfa",
+      "title": "EUのEV優遇 修正案でも日本除外",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603831"
+      "link": "https://news.yahoo.co.jp/pickup/6603839"
     },
     {
-      "doc_id": "yahoo-529b8d9706c1e306",
-      "title": "京王グループ 約1063万件漏えいか",
+      "doc_id": "yahoo-714e73a234c4d000",
+      "title": "首相 第2次補正予算案編成を指示",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603825"
+      "link": "https://news.yahoo.co.jp/pickup/6603844"
     },
     {
-      "doc_id": "yahoo-4d0e8663ed12d5a4",
-      "title": "首相とICC赤根所長面会 支持伝達",
+      "doc_id": "yahoo-f1e6e1be1d71ffd8",
+      "title": "上海市トップを調査 規律違反疑い",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603812"
+      "link": "https://news.yahoo.co.jp/pickup/6603853"
     },
     {
-      "doc_id": "yahoo-9cdf0561e790c307",
-      "title": "取材中拾った練習球売る 懲戒解雇",
+      "doc_id": "yahoo-f250810e6aebd534",
+      "title": "支援金「最大年27万円」の給付案",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603823"
+      "link": "https://news.yahoo.co.jp/pickup/6603841"
     },
     {
-      "doc_id": "yahoo-f87cfa8a45478089",
-      "title": "禁止解除の「GTA」サウジで人気",
+      "doc_id": "yahoo-4f81e4fdd0066ff7",
+      "title": "逆走車に衝突されたか 運転手死亡",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603816"
+      "link": "https://news.yahoo.co.jp/pickup/6603855"
     },
     {
-      "doc_id": "yahoo-a73e58bec45e549d",
-      "title": "異例 山川穂高の背番号「81」に",
+      "doc_id": "yahoo-d87b45b64e8ccff5",
+      "title": "クマ捕獲で苦情多数 市業務に支障",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603822"
+      "link": "https://news.yahoo.co.jp/pickup/6603848"
     },
     {
-      "doc_id": "yahoo-e60e97fcfb9b5eb3",
-      "title": "休養の日テレ・森圭介アナ 復帰へ",
+      "doc_id": "yahoo-1b556220a7f3ad47",
+      "title": "新人王が発表へ セ・パ有力候補は",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603833"
+      "link": "https://news.yahoo.co.jp/pickup/6603854"
     },
     {
-      "doc_id": "yahoo-cf7d19734d0dfeef",
-      "title": "水ダウのドッキリ企画 物議の背景",
+      "doc_id": "yahoo-aea3a741752b2269",
+      "title": "声優・筈見純さん死去 出演作多数",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603830"
+      "link": "https://news.yahoo.co.jp/pickup/6603836"
+    },
+    {
+      "doc_id": "jiji-144ff5e731f1b6da",
+      "title": "装備発注、最大８割減 防衛省、企業に通知",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112400951&g=pol"
+    },
+    {
+      "doc_id": "jiji-e850515605f07574",
+      "title": "上海市トップが失脚 陳吉寧氏、規律違反で―中国",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112401019&g=int"
+    },
+    {
+      "doc_id": "jiji-5c4e84233aa07e0b",
+      "title": "佐藤輝明、カブスと合意 ６年１９１億円の大型契約―米大リーグ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112500110&g=spo"
     },
     {
       "doc_id": "jiji-4a56eb3cbbfccbe8",
@@ -64,100 +82,88 @@
       "link": "https://www.jiji.com/jc/article?k=2026112400132&g=int"
     },
     {
+      "doc_id": "jiji-66160397cf8fc355",
+      "title": "独居高齢者殺害、配送会社の男逮捕 昨年６月強殺容疑、通帳押収―広島県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112500121&g=soc"
+    },
+    {
       "doc_id": "jiji-79c77e65fa53b4b9",
       "title": "定数削減、全参考人が否定的 与党は２６日採決提案、野党拒否―衆院委",
       "source": "時事ドットコム",
       "link": "https://www.jiji.com/jc/article?k=2026112400876&g=pol"
     },
     {
-      "doc_id": "jiji-07197da96a3bab0b",
-      "title": "高市首相、ＩＣＣ分担金「年内に」",
+      "doc_id": "jiji-32b2830fee990030",
+      "title": "日欧中などの関税引き上げへ準備 米政権、過剰生産理由に―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400756&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112500137&g=int"
     },
     {
-      "doc_id": "jiji-2ac5c9cc487d9b5c",
-      "title": "「披露宴」で邦人３人逮捕 違法な国際結婚あっせん―フィリピン",
+      "doc_id": "jiji-1a5aa66d6ab90fba",
+      "title": "平良海馬、ブルージェイズと合意 ５年１２８億円と報道―米大リーグ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400773&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112500143&g=spo"
     },
     {
-      "doc_id": "jiji-79611ebe25c92744",
-      "title": "ＩＣＣ分担金、年内前倒し拠出 高市首相、赤根所長に支持表明",
+      "doc_id": "jiji-c5cdffd5a483c540",
+      "title": "首相動静（１１月２４日）",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400761&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112400201&g=pol"
     },
     {
-      "doc_id": "jiji-9475a2d9625de0d1",
-      "title": "入札情報漏えい、川崎市部長を起訴 ＯＢも略式起訴―横浜地検",
+      "doc_id": "jiji-66c2551c01a76b30",
+      "title": "公明、統一選で自民推薦せず 「政治とカネ」、定数減にも反発",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400879&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026112400269&g=pol"
     },
     {
-      "doc_id": "jiji-4c99bafae3c1ab53",
-      "title": "関文科相は「説明責任果たしている」 高市首相",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400895&g=pol"
-    },
-    {
-      "doc_id": "jiji-eb67ed244e3f11ae",
-      "title": "野党、関文科相問責提出へ 政府「続投」崩さず",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400799&g=pol"
-    },
-    {
-      "doc_id": "jiji-baaf5cadcb4cbc8f",
-      "title": "防衛費目減り「言行不一致」も 増強公約の首相、増税に後ろ向き―新計画、攻防最終局面へ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112300229&g=pol"
-    },
-    {
-      "doc_id": "jiji-8aec02faf692aadd",
-      "title": "阪神、上林誠知を獲得 中日からＦＡ―プロ野球",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400418&g=spo"
-    },
-    {
-      "doc_id": "nhk-677924fff3602cd1",
-      "title": "参議院 野党6党 関文科相に対する問責決議案 提出方針で一致",
+      "doc_id": "nhk-c3afe28c60407fee",
+      "title": "野党 関文科相への問責決議案提出へ 与党 採決に備え働きかけ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80396"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80903"
     },
     {
-      "doc_id": "nhk-3cedc34842ad6735",
-      "title": "ICC赤根所長 “管轄権厳格に守り活動 世界のために努力”",
+      "doc_id": "nhk-8d6348ecf2ce67cb",
+      "title": "こども性暴力防止法 施行まで1か月 日本版DBSは延期",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80353"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80868"
     },
     {
-      "doc_id": "nhk-6d588186e31537cc",
-      "title": "京王電鉄 1100万人超の情報漏えいか 本人確認書類クレカ番号も",
+      "doc_id": "nhk-4c92f143cafcf194",
+      "title": "米司法長官 エヌビディアのフアン氏のリスク判断 説明避ける",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80663"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80921"
     },
     {
-      "doc_id": "nhk-98c9c50bc40aee3a",
-      "title": "荒れた天気 強風 急な強い雨など注意 気温下がり雪も",
+      "doc_id": "nhk-16e53eb7b97c5cee",
+      "title": "神奈川 小田原厚木道路で77歳運転の逆走車が衝突 34歳男性死亡",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80284"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80911"
     },
     {
-      "doc_id": "nhk-0fd59b621466ad5c",
-      "title": "【詳しく】エヌビディアCEO フアン氏が復帰へ 水面下の動きは",
+      "doc_id": "nhk-45452acde94dd4aa",
+      "title": "第2次補正予算案編成へ 熊本地震復旧などに限定の見通し",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261123de80304"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80904"
     },
     {
-      "doc_id": "nhk-0b1887ffb257ee0b",
-      "title": "JR芸備線 再構築協議会 “バスなどへ転換” の事務局案提示",
+      "doc_id": "nhk-44a3d3f1072c0962",
+      "title": "直木賞候補作発表 2人が初候補 芥川賞候補作は今回から別日に",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80535"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80869"
     },
     {
-      "doc_id": "nhk-9950bbf78c0b87a8",
-      "title": "市営住宅に別人入居236戸 管理厳格化へ条例改正へ 三重 伊賀市",
+      "doc_id": "nhk-e6f1dccf72d51d84",
+      "title": "平良海馬がブルージェイズと契約合意 アメリカ複数メディア",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80559"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80922"
+    },
+    {
+      "doc_id": "itmedia-1a4901a57c82d966",
+      "title": "ソフトバンク、アイティメディアの売却検討か 2社「コメント控える」「決定した事実ない」",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003427/"
     },
     {
       "doc_id": "itmedia-242495d096260405",
@@ -226,10 +232,22 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/"
     },
     {
-      "doc_id": "itmedia-cc2a56056afff0a1",
-      "title": "AIは人並みに動画編集できる？ “バズる切り抜き”からガジェット開封動画まで2つのツールを試す",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/21/2000003387/"
+      "doc_id": "nazology-57b09e4170a9bc5d",
+      "title": "結晶にはまず現れない「五角形の並び」をてんかん薬が作っていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/211300"
+    },
+    {
+      "doc_id": "nazology-f5b2f4d6c13d3ef0",
+      "title": "「心地よい答え」を選ぶ人ほど陰謀論やワクチン不信に傾いていた",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210949"
+    },
+    {
+      "doc_id": "nazology-b1c6560f8c75412f",
+      "title": "「筋肉が足りない」と思い込む若い男性ほど性の悩みを幅広く抱える",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210272"
     },
     {
       "doc_id": "nazology-cd0f21b5e99195b2",
@@ -272,24 +290,6 @@
       "title": "「原人」が32万〜18万年前の熱帯雨林で暮らしていたと判明",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/210626"
-    },
-    {
-      "doc_id": "nazology-b153dd71726c1e44",
-      "title": "体を使う仕事の人ほど認知症リスクが高く、余暇に運動する人ほど低いと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210271"
-    },
-    {
-      "doc_id": "nazology-72629753292063bf",
-      "title": "恐竜時代の岩に、ユリと同じ「3つずつ」の花の形が眠っていた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211133"
-    },
-    {
-      "doc_id": "nazology-6fff830a8cd7e713",
-      "title": "海王星の外に「地球級の惑星」が隠れているかもしれない",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211120"
     }
   ]
 }
