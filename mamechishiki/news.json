@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-24T21:15:44+00:00",
-  "now_ms": 1795554944949,
+  "fetched_at": "2026-11-25T04:18:43+00:00",
+  "now_ms": 1795580323090,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,58 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-47b9ebe3afc4adfa",
-      "title": "EUのEV優遇 修正案でも日本除外",
+      "doc_id": "yahoo-621dfaafe96a0204",
+      "title": "フアン氏 エヌビディア社員に謝罪",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603839"
+      "link": "https://news.yahoo.co.jp/pickup/6603877"
     },
     {
-      "doc_id": "yahoo-714e73a234c4d000",
-      "title": "首相 第2次補正予算案編成を指示",
+      "doc_id": "yahoo-14b279c42d727521",
+      "title": "夫婦殺害放火事件 男に死刑を求刑",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603844"
+      "link": "https://news.yahoo.co.jp/pickup/6603906"
     },
     {
-      "doc_id": "yahoo-f1e6e1be1d71ffd8",
-      "title": "上海市トップを調査 規律違反疑い",
+      "doc_id": "yahoo-a5fe2a66ac938673",
+      "title": "消えた技能実習生 今も6600人不明",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603853"
+      "link": "https://news.yahoo.co.jp/pickup/6603898"
     },
     {
-      "doc_id": "yahoo-f250810e6aebd534",
-      "title": "支援金「最大年27万円」の給付案",
+      "doc_id": "yahoo-e9b90cab6bb09f19",
+      "title": "SHEINが和解金160億円支払いへ 米",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603841"
+      "link": "https://news.yahoo.co.jp/pickup/6603899"
     },
     {
-      "doc_id": "yahoo-4f81e4fdd0066ff7",
-      "title": "逆走車に衝突されたか 運転手死亡",
+      "doc_id": "yahoo-4a9238e5b11ac203",
+      "title": "バンダイなど3社連携 模倣品対応",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603855"
+      "link": "https://news.yahoo.co.jp/pickup/6603893"
     },
     {
-      "doc_id": "yahoo-d87b45b64e8ccff5",
-      "title": "クマ捕獲で苦情多数 市業務に支障",
+      "doc_id": "yahoo-ca45fbd915ed0dca",
+      "title": "石川佳純さん結婚発表 SNSの反応",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603848"
+      "link": "https://news.yahoo.co.jp/pickup/6603914"
     },
     {
-      "doc_id": "yahoo-1b556220a7f3ad47",
-      "title": "新人王が発表へ セ・パ有力候補は",
+      "doc_id": "yahoo-a3c8b01355f45df0",
+      "title": "桑田佳祐5年ぶりFNS歌謡祭出演へ",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603854"
+      "link": "https://news.yahoo.co.jp/pickup/6603902"
     },
     {
-      "doc_id": "yahoo-aea3a741752b2269",
-      "title": "声優・筈見純さん死去 出演作多数",
+      "doc_id": "yahoo-01f49fdd9b6f6f51",
+      "title": "唐沢&山口 結婚後初の地上波共演",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6603836"
+      "link": "https://news.yahoo.co.jp/pickup/6603892"
+    },
+    {
+      "doc_id": "jiji-264d720c8af014c2",
+      "title": "ＣＩＡシステムに不正侵入 政府機関にサイバー攻撃続発―米報道",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112500317&g=int"
     },
     {
       "doc_id": "jiji-144ff5e731f1b6da",
@@ -64,16 +70,10 @@
       "link": "https://www.jiji.com/jc/article?k=2026112400951&g=pol"
     },
     {
-      "doc_id": "jiji-e850515605f07574",
-      "title": "上海市トップが失脚 陳吉寧氏、規律違反で―中国",
+      "doc_id": "jiji-447b83c4939c3c67",
+      "title": "高市首相、文科相擁護鮮明 「辞任ドミノ」懸念―消費税法案へ影響不可避",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112401019&g=int"
-    },
-    {
-      "doc_id": "jiji-5c4e84233aa07e0b",
-      "title": "佐藤輝明、カブスと合意 ６年１９１億円の大型契約―米大リーグ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112500110&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112400980&g=pol"
     },
     {
       "doc_id": "jiji-4a56eb3cbbfccbe8",
@@ -82,10 +82,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026112400132&g=int"
     },
     {
-      "doc_id": "jiji-66160397cf8fc355",
-      "title": "独居高齢者殺害、配送会社の男逮捕 昨年６月強殺容疑、通帳押収―広島県警",
+      "doc_id": "jiji-32b2830fee990030",
+      "title": "日欧中などの関税引き上げへ準備 米政権、過剰生産理由に―報道",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112500121&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026112500137&g=int"
+    },
+    {
+      "doc_id": "jiji-e2ff9365291768db",
+      "title": "木原官房長官「適切な広報」指示 ユーチューバー起用",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112500495&g=pol"
+    },
+    {
+      "doc_id": "jiji-0430733bd62c419e",
+      "title": "農産物、フィリピンが「１００％」輸入？ トランプ米大統領主張も食い違い",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112400680&g=int"
     },
     {
       "doc_id": "jiji-79c77e65fa53b4b9",
@@ -94,46 +106,52 @@
       "link": "https://www.jiji.com/jc/article?k=2026112400876&g=pol"
     },
     {
-      "doc_id": "jiji-32b2830fee990030",
-      "title": "日欧中などの関税引き上げへ準備 米政権、過剰生産理由に―報道",
+      "doc_id": "jiji-7ff0f6c9df1fecf7",
+      "title": "政治資金、振り込み限定に 公・立が改正案提出",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112500137&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112500512&g=pol"
     },
     {
-      "doc_id": "jiji-1a5aa66d6ab90fba",
-      "title": "平良海馬、ブルージェイズと合意 ５年１２８億円と報道―米大リーグ",
+      "doc_id": "jiji-e4d8c5eac50a3239",
+      "title": "海上貿易の書類デジタル化 改正商法が成立",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112500143&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112500129&g=pol"
     },
     {
-      "doc_id": "jiji-c5cdffd5a483c540",
-      "title": "首相動静（１１月２４日）",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400201&g=pol"
-    },
-    {
-      "doc_id": "jiji-66c2551c01a76b30",
-      "title": "公明、統一選で自民推薦せず 「政治とカネ」、定数減にも反発",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112400269&g=pol"
-    },
-    {
-      "doc_id": "nhk-c3afe28c60407fee",
-      "title": "野党 関文科相への問責決議案提出へ 与党 採決に備え働きかけ",
+      "doc_id": "nhk-3a7e53785d179b56",
+      "title": "広島 庄原 高齢女性強盗殺人事件 逮捕の会社員 業務で土地勘か",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80903"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de81022"
     },
     {
-      "doc_id": "nhk-8d6348ecf2ce67cb",
-      "title": "こども性暴力防止法 施行まで1か月 日本版DBSは延期",
+      "doc_id": "nhk-0c472957520a033c",
+      "title": "国民 古川代表代行“関文科相はみずから辞任を”発言相次ぐ",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80868"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80993"
     },
     {
-      "doc_id": "nhk-4c92f143cafcf194",
-      "title": "米司法長官 エヌビディアのフアン氏のリスク判断 説明避ける",
+      "doc_id": "nhk-9a5cb0a8e1bb44ab",
+      "title": "エヌビディアCEOにフアン氏復帰 トランプ大統領の関与に批判も",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80921"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de81016"
+    },
+    {
+      "doc_id": "nhk-7ee9571e6a8d1470",
+      "title": "日経平均株価 一時2100円超の値下がり 半導体関連中心に売り",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80958"
+    },
+    {
+      "doc_id": "nhk-583d5676d24b7716",
+      "title": "中国で初めて外国人宇宙飛行士を乗せた有人宇宙船を打ち上げ",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80985"
+    },
+    {
+      "doc_id": "nhk-eaaa62a78d57ce1c",
+      "title": "千葉 柏 夫婦殺害放火事件の裁判 79歳被告に死刑求刑 検察",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261125de81041"
     },
     {
       "doc_id": "nhk-16e53eb7b97c5cee",
@@ -142,22 +160,58 @@
       "link": "https://news.web.nhk/newsweb/na/nd-20261125de80911"
     },
     {
-      "doc_id": "nhk-45452acde94dd4aa",
-      "title": "第2次補正予算案編成へ 熊本地震復旧などに限定の見通し",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80904"
+      "doc_id": "itmedia-da9659baacb0ed42",
+      "title": "AIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003421/"
     },
     {
-      "doc_id": "nhk-44a3d3f1072c0962",
-      "title": "直木賞候補作発表 2人が初候補 芥川賞候補作は今回から別日に",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261124de80869"
+      "doc_id": "itmedia-be7095294f7618d4",
+      "title": "六花亭のカード情報流出、対応が「誠実」と評判 再発行時の「伝え方」まで明記",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003437/"
     },
     {
-      "doc_id": "nhk-e6f1dccf72d51d84",
-      "title": "平良海馬がブルージェイズと契約合意 アメリカ複数メディア",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261125de80922"
+      "doc_id": "itmedia-db10be1b652a441c",
+      "title": "楽天証券、金融資産情報など約441万件の漏えい確認 ログインIDなど約1198万口座分も",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003435/"
+    },
+    {
+      "doc_id": "itmedia-80a1bf8772c83db0",
+      "title": "復旧費用1000万円超が6割 被害相次ぐサイバー攻撃、保険広がるも中小企業に死角",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003436/"
+    },
+    {
+      "doc_id": "itmedia-698fc49169e21f81",
+      "title": "音楽サービスのTIDAL、AI生成楽曲を削除・受付停止へ 直近90日の配信楽曲の43％がAI生成",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003433/"
+    },
+    {
+      "doc_id": "itmedia-a2e5202fe037e2f9",
+      "title": "JAXAの衛星データ提供システムに不正アクセス コマンドインジェクション脆弱性悪用、アカウント情報流出",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003432/"
+    },
+    {
+      "doc_id": "itmedia-41630838892270c8",
+      "title": "「Claude」で作ったアプリをMac／Windowsにインストール可能に 全プランでβ提供",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003431/"
+    },
+    {
+      "doc_id": "itmedia-72cccbf759dd48ee",
+      "title": "AIエージェントは隙あらばサンドボックスの外に出るのか Anthropicが評価手法「Siren」を発表",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003430/"
+    },
+    {
+      "doc_id": "itmedia-ce1d331cb596012f",
+      "title": "京王、1100万人超の個人情報漏えいか 一部クレカ番号なども 9月のランサム被害で",
+      "source": "ITmedia",
+      "link": "https://www.itmedia.co.jp/news/article/2611/25/2000003429/"
     },
     {
       "doc_id": "itmedia-1a4901a57c82d966",
@@ -178,58 +232,34 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003405/"
     },
     {
-      "doc_id": "itmedia-c923db42b4656b34",
-      "title": "東京都内自治体の中小企業向けサイバーセキュリティー支援相次ぐ 専門家訪問や窓口開設",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003409/"
+      "doc_id": "nazology-13bc09014ede762e",
+      "title": "爪かみや髪を抜く癖は「ただの癖」では済まないと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210876"
     },
     {
-      "doc_id": "itmedia-e30612f4da5fffed",
-      "title": "爆増するサイバー攻撃、魔の手はITだけでなく「OT」にも 元米軍のセキュリティ専門家が警鐘",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003408/"
+      "doc_id": "nazology-49aae58ace8ae05b",
+      "title": "人の老化は「2つの時期」に急に進むと判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210951"
     },
     {
-      "doc_id": "itmedia-5541529e6cdc538a",
-      "title": "SpaceXをオレゴン州とバージニア州が提訴 Grokの性的画像生成で",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003399/"
+      "doc_id": "nazology-d5ea11ae0744b30f",
+      "title": "殻の毛を「とがった髪形」に束ねた恐竜時代のカタツムリを発見",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/211342"
     },
     {
-      "doc_id": "itmedia-53567ab9d28c3058",
-      "title": "CrowdStrike、Zscalerを約439億ドルで買収へ 狙いはAIエージェントの安全確保",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/"
+      "doc_id": "nazology-679d763dfd06ae54",
+      "title": "生まれたての宇宙にもう太陽3億6千万個分のブラックホール",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/211309"
     },
     {
-      "doc_id": "itmedia-e30b4028ae51b8bf",
-      "title": "NVIDIA、フアン氏のCEO復帰を発表 トランプ大統領「私がまとめた」と取締役会への働きかけ認める",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/24/2000003397/"
-    },
-    {
-      "doc_id": "itmedia-15ace50ba57db24c",
-      "title": "「Microsoft To Do」、2027年6月にアプリ提供終了 法人向けは「Planner」へ移行、個人向けは代替なし",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/23/2000003395/"
-    },
-    {
-      "doc_id": "itmedia-ee5ef530a7d9ac42",
-      "title": "高級感のためだけじゃない 財布やバッグの新しいアイデアが“革製品”から生まれる理由",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/23/2000003389/"
-    },
-    {
-      "doc_id": "itmedia-7c8f52f95d03cdf9",
-      "title": "OpenAIのチーフサイエンティスト、AI開発に業界共通の「上限」を提案 指標は「パープレキシティ」",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/23/2000003394/"
-    },
-    {
-      "doc_id": "itmedia-7affad66a74be649",
-      "title": "Anthropicの数学者、「Claude」と共同で「リーマン予想」を証明したと主張 Leanコミュニティが「正しい」と認定",
-      "source": "ITmedia",
-      "link": "https://www.itmedia.co.jp/news/article/2611/22/2000003388/"
+      "doc_id": "nazology-c55050cd2da52e26",
+      "title": "ロブスターの殻が「濃い青」になる仕組みが判明",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/210957"
     },
     {
       "doc_id": "nazology-57b09e4170a9bc5d",
@@ -260,36 +290,6 @@
       "title": "食物繊維が届かないと、マウスの腸内細菌のエサは腸の粘液に切り替わっていた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/210699"
-    },
-    {
-      "doc_id": "nazology-fc88b556c8ee0f42",
-      "title": "地図を4色で塗り分ける174年前の難問が30年ぶりに前進した",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210604"
-    },
-    {
-      "doc_id": "nazology-81becb7bec4ad910",
-      "title": "幻覚剤を使った人は初めての場所でも「懐かしい」と感じる",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210324"
-    },
-    {
-      "doc_id": "nazology-61cb692ef0b02fc4",
-      "title": "マイクロプラスチックが水と触れて、細胞を傷つける分子を生み出していた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210677"
-    },
-    {
-      "doc_id": "nazology-e5838eb69dc8dfb4",
-      "title": "マリアナ海溝の水深6000m超で「爆発的噴火」の跡を発見",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211113"
-    },
-    {
-      "doc_id": "nazology-ac582e452192a2c4",
-      "title": "「原人」が32万〜18万年前の熱帯雨林で暮らしていたと判明",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/210626"
     }
   ]
 }
