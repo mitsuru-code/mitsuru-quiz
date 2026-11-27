@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-27T12:28:49+00:00",
-  "now_ms": 1795782529790,
+  "fetched_at": "2026-11-27T21:59:25+00:00",
+  "now_ms": 1795816765937,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,40 +10,40 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-9bbb0d05e8001796",
-      "title": "問責案否決 重く受け止めると関氏",
+      "doc_id": "yahoo-87136d621254bc28",
+      "title": "関氏18年食事会で300万円収入計上",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604220"
+      "link": "https://news.yahoo.co.jp/pickup/6604244"
     },
     {
-      "doc_id": "yahoo-295aaf2c2e919109",
-      "title": "防衛省がAI活用新指針 3つの課題",
+      "doc_id": "yahoo-c60c8ae3ccddafb5",
+      "title": "防衛相ら 献金報道巡り違法性否定",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604211"
+      "link": "https://news.yahoo.co.jp/pickup/6604248"
     },
     {
-      "doc_id": "yahoo-66131f8f0e475b8e",
-      "title": "「高齢者」の定義引き上げ 自民案",
+      "doc_id": "yahoo-2986c0fa906b0400",
+      "title": "露指示とされる破壊工作 欧州激化",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604235"
+      "link": "https://news.yahoo.co.jp/pickup/6604208"
     },
     {
-      "doc_id": "yahoo-ed500778092fba34",
-      "title": "廃止浄水場から25年間水道水供給",
+      "doc_id": "yahoo-b975cc58059445eb",
+      "title": "山中に2遺体 1人は不明の高校生か",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604227"
+      "link": "https://news.yahoo.co.jp/pickup/6604246"
     },
     {
-      "doc_id": "yahoo-7467ef83f5cd0311",
-      "title": "事故で10人程けが 「暴走車」通報",
+      "doc_id": "yahoo-d7462bb70cbf34c9",
+      "title": "舞妓を狙う観光客の迷惑行為 拍車",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604226"
+      "link": "https://news.yahoo.co.jp/pickup/6604239"
     },
     {
-      "doc_id": "yahoo-10beb2dfef0ae862",
-      "title": "ヘルパー全員70代 老老介護の現場",
+      "doc_id": "yahoo-a7dce43c8bfaf931",
+      "title": "米ネトフリ 日本作品への投資拡大",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604232"
+      "link": "https://news.yahoo.co.jp/pickup/6604237"
     },
     {
       "doc_id": "yahoo-b1327704e3f4ad9e",
@@ -52,16 +52,40 @@
       "link": "https://news.yahoo.co.jp/pickup/6604221"
     },
     {
-      "doc_id": "yahoo-e82b8071182dbaf5",
-      "title": "あべこうじ芸能活動自粛 吉本発表",
+      "doc_id": "yahoo-4d05563dd561bcd5",
+      "title": "森下暢仁 去就巡り「悩んでいる」",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604217"
+      "link": "https://news.yahoo.co.jp/pickup/6604240"
     },
     {
-      "doc_id": "jiji-34e129f97055b9ed",
-      "title": "第３子以降に１０００万円 自民、人口戦略策定へ提言案",
+      "doc_id": "jiji-f8eba52b682b5e27",
+      "title": "日本人の出生数、上半期３２万人 １１年ぶり増、婚姻増が影響か―通年では見通せず・厚労省",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700732&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112800082&g=soc"
+    },
+    {
+      "doc_id": "jiji-49f0b028cddd54da",
+      "title": "首相動静（１１月２７日）",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112700163&g=pol"
+    },
+    {
+      "doc_id": "jiji-fd5850518d31c24d",
+      "title": "宮城・七ケ宿町の山中に２遺体 不明少女か、誘拐容疑で男逮捕―身元確認進める・神奈川県警",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112800022&g=soc"
+    },
+    {
+      "doc_id": "jiji-907c8d09887c89f1",
+      "title": "片山さつき財務相、パーティー収入３７００万円 茂木敏充外相は２３００万円 大臣規範「大規模なパーティー自粛」でも",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112700789&g=pol"
+    },
+    {
+      "doc_id": "jiji-febfe4b315d7e539",
+      "title": "ＮＹ株４日続伸、５９１ドル高 ハイテク株に買い",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112800086&g=int"
     },
     {
       "doc_id": "jiji-d4e1a6d73a0abd68",
@@ -70,10 +94,22 @@
       "link": "https://www.jiji.com/jc/article?k=2026112700855&g=int"
     },
     {
-      "doc_id": "jiji-200776f655af6cf8",
-      "title": "殺人未遂容疑で男子中学生逮捕 自宅で姉刺され、母親もけが―静岡",
+      "doc_id": "jiji-34e129f97055b9ed",
+      "title": "第３子以降に１０００万円 自民、人口戦略策定へ提言案",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700818&g=soc"
+      "link": "https://www.jiji.com/jc/article?k=2026112700732&g=pol"
+    },
+    {
+      "doc_id": "jiji-9051f0cfa0ad41eb",
+      "title": "作家の宮原昭夫さん死去",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112701023&g=soc"
+    },
+    {
+      "doc_id": "jiji-07b2b61933a234e9",
+      "title": "早着指示報道を否定 高市首相「事実無根」",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112701001&g=pol"
     },
     {
       "doc_id": "jiji-70fada9d5e2487e4",
@@ -82,76 +118,40 @@
       "link": "https://www.jiji.com/jc/article?k=2026112700415&g=pol"
     },
     {
-      "doc_id": "jiji-1853e151f808a7c8",
-      "title": "神崎武法氏が死去、８３歳 自公連立の土台築く",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700467&g=pol"
-    },
-    {
-      "doc_id": "jiji-182f0f68c5ec8d88",
-      "title": "遺族、タイ外相に事件解決訴え 時効まで１年弱、邦人女性殺害",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700896&g=int"
-    },
-    {
-      "doc_id": "jiji-18c22181041fc02c",
-      "title": "崩れなかった千葉百音 表現も忘れず―ＮＨＫ杯フィギュア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700916&g=spo"
-    },
-    {
-      "doc_id": "jiji-d50bb272e81f4dcd",
-      "title": "芸人あべこうじさん、ひき逃げ疑い 中野区商店街、歩行者けが―警視庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700223&g=soc"
-    },
-    {
-      "doc_id": "jiji-3ae53c9ca19484d9",
-      "title": "小泉防衛相ら、公選法違反を否定 献金授受報道巡り",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700386&g=pol"
-    },
-    {
-      "doc_id": "jiji-a798ba358ac8bb82",
-      "title": "「ぶつかられスマホ壊れた」とうそ 現金詐取容疑で４３歳男逮捕―警視庁",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700910&g=soc"
-    },
-    {
-      "doc_id": "nhk-db25f927d1acded8",
-      "title": "関文科相への問責決議案 4票差で否決 参院本会議",
+      "doc_id": "nhk-235a5d11a25ae88b",
+      "title": "問責決議案否決 与党“消費税法案成立を” 野党“疑惑を追及”",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82148"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82805"
     },
     {
-      "doc_id": "nhk-5576785c7d324252",
-      "title": "日経新聞社 個人情報約540万件漏えい 委託先に不正アクセス",
+      "doc_id": "nhk-519756b5fbf72d51",
+      "title": "宮城県山中で身元不明2人の遺体 1人は横浜の女子高校生か 警察",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82772"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82799"
     },
     {
-      "doc_id": "nhk-d4c220d4443abe45",
-      "title": "処方された糖尿病治療薬「マンジャロ」を他人に販売か 逮捕",
+      "doc_id": "nhk-0d90ccda88b003a7",
+      "title": "警察 ICC赤根所長の安全確保 最高ランク「特A」で警戒強化",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82227"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82788"
     },
     {
-      "doc_id": "nhk-9bfdf1e07f2d4018",
-      "title": "東京23区 11月消費者物価指数上昇 物価高でクリスマスケーキは",
+      "doc_id": "nhk-1adf8608a3a5e660",
+      "title": "広範囲で大気不安定 北日本や東日本の山沿い中心に今夜から雪",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82195"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82831"
     },
     {
-      "doc_id": "nhk-70f83f32826c079f",
-      "title": "乗用車など10台以上絡む事故で10人病院搬送 静岡 清水町",
+      "doc_id": "nhk-0b93656f5f02de51",
+      "title": "東電 資本提携の交渉先に「株式売却時は国の了承必要」と提示",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82723"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82791"
     },
     {
-      "doc_id": "nhk-d869518943a6498e",
-      "title": "フィギュアNHK杯 女子は千葉 男子はマリニンが首位【全結果】",
+      "doc_id": "nhk-92b3514fc8626490",
+      "title": "生成AIへの不安 「犯罪に悪用される」が73% NHK世論調査",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82343"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82786"
     },
     {
       "doc_id": "nhk-01aa34e4c13a867b",
@@ -232,6 +232,12 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/27/2000003508/"
     },
     {
+      "doc_id": "nazology-860a483575f9f9d3",
+      "title": "スマホを置けないのは「意志が弱い」せいだけではなかった",
+      "source": "ナゾロジー",
+      "link": "https://nazology.kusuguru.co.jp/archives/212307"
+    },
+    {
       "doc_id": "nazology-5c24cefde18a98a3",
       "title": "光速の75%に達すると宇宙の帆は自分を押す光でブレーキがかかると判明",
       "source": "ナゾロジー",
@@ -284,12 +290,6 @@
       "title": "講義のあいだスマホを箱に預けさせるだけで、学生の成績はわずかに伸びた",
       "source": "ナゾロジー",
       "link": "https://nazology.kusuguru.co.jp/archives/211277"
-    },
-    {
-      "doc_id": "nazology-ac85835dd192a8cd",
-      "title": "デンマークの若い男性の精子、26年間減らずむしろ微増していた",
-      "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/212258"
     }
   ]
 }
