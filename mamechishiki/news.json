@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-28T03:55:31+00:00",
-  "now_ms": 1795838131031,
+  "fetched_at": "2026-11-28T13:03:36+00:00",
+  "now_ms": 1795871016410,
   "counts": {
     "Yahoo!ニュース": 8,
     "時事ドットコム": 10,
@@ -10,52 +10,76 @@
   },
   "candidates": [
     {
-      "doc_id": "yahoo-7241491ed2387ca2",
-      "title": "基礎控除上乗せ見直し 先送り方針",
+      "doc_id": "yahoo-91c04eb7e47f5d2c",
+      "title": "高市氏側 昨年企業Gから分散献金",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604266"
+      "link": "https://news.yahoo.co.jp/pickup/6604330"
     },
     {
-      "doc_id": "yahoo-e7f9f93b5fe49832",
-      "title": "男女7人けが 襲ったイノシシ駆除",
+      "doc_id": "yahoo-ca276449f1592144",
+      "title": "防衛費5年「60兆円弱」米側は難色",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604280"
+      "link": "https://news.yahoo.co.jp/pickup/6604325"
     },
     {
-      "doc_id": "yahoo-7c6f4978947f35df",
-      "title": "鎌田大地選手を英国で起訴 英報道",
+      "doc_id": "yahoo-20e888c9738f7beb",
+      "title": "PL学園全校 28年度生徒募集休止",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604273"
+      "link": "https://news.yahoo.co.jp/pickup/6604329"
     },
     {
-      "doc_id": "yahoo-a2254c06964479d7",
-      "title": "南海フェリー 撤退回避の壁高く",
+      "doc_id": "yahoo-301cd6e5e3aeda95",
+      "title": "大槻義彦氏が死去 早大名誉教授",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604277"
+      "link": "https://news.yahoo.co.jp/pickup/6604332"
     },
     {
-      "doc_id": "yahoo-f8ba592dd08fa1d7",
-      "title": "大人紙おむつ ごみ処理悩む自治体",
+      "doc_id": "yahoo-d43bbecb3341a1ca",
+      "title": "寺で無許可ダンスバトル 法的には",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604278"
+      "link": "https://news.yahoo.co.jp/pickup/6604300"
     },
     {
-      "doc_id": "yahoo-d93c55126ac55e78",
-      "title": "伊藤大海がカブスと契約合意 報道",
+      "doc_id": "yahoo-1020545c9a2a1098",
+      "title": "銚子のサバ加工ピンチ 6社が倒産",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604285"
+      "link": "https://news.yahoo.co.jp/pickup/6604326"
     },
     {
-      "doc_id": "yahoo-7091a549445f42e4",
-      "title": "プロレスラー B・リードさん死去",
+      "doc_id": "yahoo-a84036b4fffdd1cb",
+      "title": "マリニンが優勝 母子でNHK杯制覇",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604283"
+      "link": "https://news.yahoo.co.jp/pickup/6604334"
     },
     {
-      "doc_id": "yahoo-2c607e984f401a11",
-      "title": "希空 映画主演に「心臓バクバク」",
+      "doc_id": "yahoo-e256187bf75017e1",
+      "title": "LiSAが離婚 今後も協力し子育て",
       "source": "Yahoo!ニュース",
-      "link": "https://news.yahoo.co.jp/pickup/6604286"
+      "link": "https://news.yahoo.co.jp/pickup/6604335"
+    },
+    {
+      "doc_id": "jiji-d2f60fbb192485f1",
+      "title": "台湾地方選、与党伸長か ９県市長で勝利、台北は敗北",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112800305&g=int"
+    },
+    {
+      "doc_id": "jiji-a7d1faff429cffdc",
+      "title": "オンブズマン４．４倍 競馬ジャパンカップ",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112800301&g=spo"
+    },
+    {
+      "doc_id": "jiji-bac5b11b2abe031f",
+      "title": "重傷自衛官「噴水のように血」 ３人死傷の小銃発砲―岐阜地裁",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112500958&g=soc"
+    },
+    {
+      "doc_id": "jiji-624abee305cbc878",
+      "title": "けが乗り越えて輝く 若き２人がファイナルへ―ＮＨＫ杯フィギュア・長岡、森口組",
+      "source": "時事ドットコム",
+      "link": "https://www.jiji.com/jc/article?k=2026112800290&g=spo"
     },
     {
       "doc_id": "jiji-cdcacf2258dc7d6e",
@@ -64,100 +88,76 @@
       "link": "https://www.jiji.com/jc/article?k=2026112800123&g=int"
     },
     {
-      "doc_id": "jiji-e22938b158c1712b",
-      "title": "高橋光成投手、Ｄバックスと合意 西武から海外ＦＡ―米大リーグ",
+      "doc_id": "jiji-f751d7b804163a67",
+      "title": "千葉百音２位、ファイナルへ 長岡柚奈、森口澄士組２位―ＮＨＫ杯フィギュア",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112800169&g=spo"
+      "link": "https://www.jiji.com/jc/article?k=2026112800257&g=spo"
     },
     {
-      "doc_id": "jiji-907c8d09887c89f1",
-      "title": "片山さつき財務相、パーティー収入３７００万円 茂木敏充外相は２３００万円 大臣規範「大規模なパーティー自粛」でも",
+      "doc_id": "jiji-69e5563cab8340e0",
+      "title": "学校近くで爆発、生徒ら１０人死亡 １１０人負傷、鉱山用爆薬事故か―アフガン",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700789&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112800325&g=int"
     },
     {
-      "doc_id": "jiji-aef17f740c7ac58a",
-      "title": "自民、政活費ゼロに 廃止を１年前倒し―政治資金",
+      "doc_id": "jiji-a0d3ae167f298216",
+      "title": "拘束された邦人記者妻の手記、ロシアメディアが相次ぎ報道 「文化に深い愛着」とも",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700783&g=pol"
+      "link": "https://www.jiji.com/jc/article?k=2026112800259&g=int"
     },
     {
-      "doc_id": "jiji-3595f534a337ef83",
-      "title": "米オープンＡＩ、アップル側を反訴 製品開発に圧力",
+      "doc_id": "jiji-5a29ba20a7d5b301",
+      "title": "日中有識者が上海で直接対話 台湾有事発言後で初―言論ＮＰＯ",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112800181&g=int"
+      "link": "https://www.jiji.com/jc/article?k=2026112800314&g=int"
     },
     {
-      "doc_id": "jiji-a591793af4225561",
-      "title": "日本、３位で決勝Ｔへ Ｕ１７Ｗ杯サッカー",
+      "doc_id": "jiji-3721501cdb848eff",
+      "title": "１位鈴木泰成投手と仮契約 「目指すはトップ」―プロ野球ソフトバンク・入団交渉",
       "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112800184&g=spo"
-    },
-    {
-      "doc_id": "jiji-1a2fa576e4a1425c",
-      "title": "薄氷の問責否決、火種消えず 与党にも批判、野党追及継続―減税・定数巡り攻防激化へ",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700938&g=pol"
-    },
-    {
-      "doc_id": "jiji-34e129f97055b9ed",
-      "title": "第３子以降に１０００万円 自民、人口戦略策定へ提言案",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700732&g=pol"
-    },
-    {
-      "doc_id": "jiji-07b2b61933a234e9",
-      "title": "早着指示報道を否定 高市首相「事実無根」",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112701001&g=pol"
-    },
-    {
-      "doc_id": "jiji-9f04c14df01146c6",
-      "title": "通貨ルピア、最安値続く 株式市場格下げに警戒感―インドネシア",
-      "source": "時事ドットコム",
-      "link": "https://www.jiji.com/jc/article?k=2026112700593&g=int"
-    },
-    {
-      "doc_id": "nhk-0d90ccda88b003a7",
-      "title": "警察 ICC赤根所長の安全確保 最高ランク「特A」で警戒強化",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82788"
-    },
-    {
-      "doc_id": "nhk-519756b5fbf72d51",
-      "title": "山中遺体 女子高校生連れ去り疑いの容疑者 車で宮城まで移動か",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82799"
+      "link": "https://www.jiji.com/jc/article?k=2026112800323&g=spo"
     },
     {
       "doc_id": "nhk-6c40aa4a25e9f7dc",
-      "title": "【速報中】フィギュアNHK杯 アイスダンスFDの演技始まる",
+      "title": "フィギュアNHK杯 男子シングル マリニンが優勝【全結果】",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261128de82900"
     },
     {
-      "doc_id": "nhk-a9f499e70f96eeed",
-      "title": "西武 高橋光成 大リーグ ダイヤモンドバックスと1年契約で合意",
+      "doc_id": "nhk-519756b5fbf72d51",
+      "title": "宮城の山中の2人遺体 1人は一部白骨化 身元の手がかりなし",
       "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82839"
-    },
-    {
-      "doc_id": "nhk-5dbd4f82a2b1c304",
-      "title": "“日本ハム 伊藤大海がカブスと合意”米メディア伝える",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82897"
-    },
-    {
-      "doc_id": "nhk-c6bf2743f0f827d8",
-      "title": "「都市伝説」ユーチューバー“偽情報対策と矛盾ない”官房長官",
-      "source": "NHK",
-      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82735"
+      "link": "https://news.web.nhk/newsweb/na/nd-20261127de82799"
     },
     {
       "doc_id": "nhk-1adf8608a3a5e660",
-      "title": "広範囲で大気不安定 北日本や東日本の山沿い中心に今夜から雪",
+      "title": "大気不安定続く 北～東日本 標高の高いところ中心に雪の見込み",
       "source": "NHK",
       "link": "https://news.web.nhk/newsweb/na/nd-20261128de82831"
+    },
+    {
+      "doc_id": "nhk-947031f2f25d409b",
+      "title": "航空機に乱気流知らせる注意情報1000件余 事故防ぐ対策に課題",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82899"
+    },
+    {
+      "doc_id": "nhk-027c7cab4c2059c2",
+      "title": "中学生不明 父親が新たな写真公開し情報提供求める 福島 郡山",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261128de83037"
+    },
+    {
+      "doc_id": "nhk-d357fd53297d19ac",
+      "title": "イノシシが店舗のガラス破り 路上で次々と人襲う 7人けが 静岡",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82992"
+    },
+    {
+      "doc_id": "nhk-1286d20a3ecc9ce5",
+      "title": "“エヌビディア半導体 輸出規制先の中国で確認”米メディア",
+      "source": "NHK",
+      "link": "https://news.web.nhk/newsweb/na/nd-20261128de82966"
     },
     {
       "doc_id": "itmedia-bfec83da9a112fde",
@@ -232,64 +232,64 @@
       "link": "https://www.itmedia.co.jp/news/article/2611/27/2000003509/"
     },
     {
-      "doc_id": "nazology-6a71e564e13051a8",
-      "title": "締め切りが迫るほど脳は「しんどい作業」を嫌がらなくなると判明",
+      "doc_id": "nazology-1b344f2b424a0798",
+      "title": "氷が滑るのは「こすれた時の熱」のおかげだったと判明",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211699"
+      "link": "https://nazology.kusuguru.co.jp/archives/211588"
     },
     {
-      "doc_id": "nazology-41c54593d9511d11",
-      "title": "チェルノブイリの壁を這う「黒いカビ」が農薬や神経ガスを分解する素材に役立つ可能性",
+      "doc_id": "nazology-28b1f4e382c2d54f",
+      "title": "2型糖尿病の人はアルツハイマー病になる危険が53%高いと判明",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211574"
+      "link": "https://nazology.kusuguru.co.jp/archives/211408"
     },
     {
-      "doc_id": "nazology-ec11fea8e2542f3e",
-      "title": "月最大のくぼみに刻まれた3度の大衝突の年表が見えてきた",
+      "doc_id": "nazology-e9a78ff736350f7c",
+      "title": "年を取っても記憶は残っていた、弱るのは「思い出す力」かもしれない",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/212314"
+      "link": "https://nazology.kusuguru.co.jp/archives/211384"
     },
     {
-      "doc_id": "nazology-9ee51af0762dfabd",
-      "title": "コレステロール薬をやめた高齢者、心臓発作や脳卒中が増加",
+      "doc_id": "nazology-eda5300050b43820",
+      "title": "人気が出る話は「テンポが速い」とは限らなかった",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/212299"
+      "link": "https://nazology.kusuguru.co.jp/archives/211505"
     },
     {
-      "doc_id": "nazology-63cdb436f4b9500d",
-      "title": "オオカミが野生のブルーベリーを育てていたと判明",
+      "doc_id": "nazology-91f0dcd06b339faa",
+      "title": "生まれる前後に砂糖が配給だった人は、50代の体内年齢が若い傾向があった",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211522"
+      "link": "https://nazology.kusuguru.co.jp/archives/211365"
     },
     {
-      "doc_id": "nazology-860a483575f9f9d3",
-      "title": "スマホを置けないのは「意志が弱い」せいだけではなかった",
+      "doc_id": "nazology-f057096fc33e08d4",
+      "title": "かけっこで「全員に賞」は7歳ですら「あまり頑張らない」と予想していた",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/212307"
+      "link": "https://nazology.kusuguru.co.jp/archives/211332"
     },
     {
-      "doc_id": "nazology-5c24cefde18a98a3",
-      "title": "光速の75%に達すると宇宙の帆は自分を押す光でブレーキがかかると判明",
+      "doc_id": "nazology-d9f900f529bbca39",
+      "title": "アヤソフィアの消えた中庭の下に、未知の地下構造が眠っていた",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211587"
+      "link": "https://nazology.kusuguru.co.jp/archives/212330"
     },
     {
-      "doc_id": "nazology-eb16a4a64c488c30",
-      "title": "恋人に求める長所は似ているのに、嫌な点は人によってバラバラだった",
+      "doc_id": "nazology-5ecf0b9bbd90df81",
+      "title": "背骨の骨が弱い人ほど脳の老化が速いと判明",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211296"
+      "link": "https://nazology.kusuguru.co.jp/archives/211581"
     },
     {
-      "doc_id": "nazology-4f9b5a03e3392759",
-      "title": "「右脳が左半身を動かす理由」は目の配線にあった可能性",
+      "doc_id": "nazology-a60c494766e98118",
+      "title": "1歳と6歳で画面を長く見た子ほど、数年後の学力が低かった",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211229"
+      "link": "https://nazology.kusuguru.co.jp/archives/212322"
     },
     {
-      "doc_id": "nazology-1e52a1d7f482fb34",
-      "title": "正義の怒りを感じた人ほど情報の出どころを確かめずにデマを広める",
+      "doc_id": "nazology-34a368ca25d41e90",
+      "title": "犬のロープは、一人遊びなら最下位、引っ張り合う遊びならボール超え",
       "source": "ナゾロジー",
-      "link": "https://nazology.kusuguru.co.jp/archives/211651"
+      "link": "https://nazology.kusuguru.co.jp/archives/211441"
     }
   ]
 }
